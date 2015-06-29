@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 57539ddced1ae774d9376d1e8042286d
+labels:
+- Fantasy
+- Rural
+- Country
+- Village
+- Town
+- Lowpoly
+timeCreated: 1427450075
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Block7
+    100002: Door1
+    100004: DoorFrame1
+    100006: Porch1
+    100008: Slab6
+    100010: //RootNode
+    100012: SquareStructure
+    100014: Strut5
+    100016: Strut6
+    100018: Window3
+    100020: Window6
+    100022: WindowBox4
+    400000: Block7
+    400002: Door1
+    400004: DoorFrame1
+    400006: Porch1
+    400008: Slab6
+    400010: //RootNode
+    400012: SquareStructure
+    400014: Strut5
+    400016: Strut6
+    400018: Window3
+    400020: Window6
+    400022: WindowBox4
+    2300000: Block7
+    2300002: Door1
+    2300004: DoorFrame1
+    2300006: Porch1
+    2300008: Slab6
+    2300010: SquareStructure
+    2300012: Strut5
+    2300014: Strut6
+    2300016: Window3
+    2300018: Window6
+    2300020: WindowBox4
+    3300000: Block7
+    3300002: Door1
+    3300004: DoorFrame1
+    3300006: Porch1
+    3300008: Slab6
+    3300010: SquareStructure
+    3300012: Strut5
+    3300014: Strut6
+    3300016: Window3
+    3300018: Window6
+    3300020: WindowBox4
+    4300000: Slab6
+    4300002: Porch1
+    4300004: DoorFrame1
+    4300006: Door1
+    4300008: Window3
+    4300010: WindowBox4
+    4300012: Window6
+    4300014: Block7
+    4300016: Strut5
+    4300018: Strut6
+    4300020: SquareStructure
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: c11d3e4177a9ba346bff2a742da1eb18
+labels:
+- Fantasy
+- Rural
+- Country
+- Village
+- Town
+- Lowpoly
+timeCreated: 1427385033
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: Barrel_Wheat4
+    100004: Door6
+    100006: DoorFrame6
+    100008: Planks
+    100010: Porch
+    100012: RoundWindow5
+    100014: RoundWindow6
+    100016: RoundWindow7
+    100018: RoundWindow8
+    100020: Sack
+    100022: Sack_Wheat_2
+    100024: Slab7
+    100026: //RootNode
+    100028: Windmill_Blades
+    100030: WindMill_Main
+    100032: Windmill_Top
+    100034: Window_8
+    100036: WindowBox2
+    100038: Windows
+    100040: BackFace
+    100042: Backface
+    100044: Windmill_Blades1
+    400000: Barrel
+    400002: Barrel_Wheat4
+    400004: Door6
+    400006: DoorFrame6
+    400008: Planks
+    400010: Porch
+    400012: RoundWindow5
+    400014: RoundWindow6
+    400016: RoundWindow7
+    400018: RoundWindow8
+    400020: Sack
+    400022: Sack_Wheat_2
+    400024: Slab7
+    400026: //RootNode
+    400028: Windmill_Blades
+    400030: WindMill_Main
+    400032: Windmill_Top
+    400034: Window_8
+    400036: WindowBox2
+    400038: Windows
+    400040: BackFace
+    400042: Backface
+    400044: Windmill_Blades1
+    2300000: Barrel
+    2300002: Barrel_Wheat4
+    2300004: Door6
+    2300006: DoorFrame6
+    2300008: Planks
+    2300010: Porch
+    2300012: RoundWindow5
+    2300014: RoundWindow6
+    2300016: RoundWindow7
+    2300018: RoundWindow8
+    2300020: Sack
+    2300022: Sack_Wheat_2
+    2300024: Slab7
+    2300026: Windmill_Blades
+    2300028: WindMill_Main
+    2300030: Windmill_Top
+    2300032: Window_8
+    2300034: WindowBox2
+    2300036: BackFace
+    2300038: Backface
+    2300040: Windmill_Blades1
+    3300000: Barrel
+    3300002: Barrel_Wheat4
+    3300004: Door6
+    3300006: DoorFrame6
+    3300008: Planks
+    3300010: Porch
+    3300012: RoundWindow5
+    3300014: RoundWindow6
+    3300016: RoundWindow7
+    3300018: RoundWindow8
+    3300020: Sack
+    3300022: Sack_Wheat_2
+    3300024: Slab7
+    3300026: Windmill_Blades
+    3300028: WindMill_Main
+    3300030: Windmill_Top
+    3300032: Window_8
+    3300034: WindowBox2
+    3300036: BackFace
+    3300038: Backface
+    3300040: Windmill_Blades1
+    4300000: Slab7
+    4300002: Barrel_Wheat4
+    4300004: Barrel
+    4300006: Windmill_Top
+    4300008: Planks
+    4300010: Windmill_Blades
+    4300012: DoorFrame6
+    4300014: Door6
+    4300016: Sack_Wheat_2
+    4300018: Sack
+    4300020: WindMill_Main
+    4300022: Porch
+    4300024: WindowBox2
+    4300026: RoundWindow8
+    4300028: Window_8
+    4300030: RoundWindow5
+    4300032: RoundWindow6
+    4300034: RoundWindow7
+    4300036: BackFace
+    4300038: Windmill_Blades1
+    4300040: Backface
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

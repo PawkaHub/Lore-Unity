@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 50cc49a37efcd78418a98c23d62a6b84
+labels:
+- Modular
+- Fantasy
+- Customizable
+- Prop
+- Rural
+- Country
+- Lowpoly
+timeCreated: 1428156041
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BurntQuad
+    100002: CharedLog1
+    100004: CharedLog2
+    100006: CharedLog3
+    100008: CharedLog4
+    100010: CharedLog5
+    100012: FireRock1
+    100014: FireRock10
+    100016: FireRock11
+    100018: FireRock12
+    100020: FireRock13
+    100022: FireRock2
+    100024: FireRock3
+    100026: FireRock4
+    100028: FireRock5
+    100030: FireRock6
+    100032: FireRock7
+    100034: FireRock8
+    100036: FireRock9
+    100038: //RootNode
+    400000: BurntQuad
+    400002: CharedLog1
+    400004: CharedLog2
+    400006: CharedLog3
+    400008: CharedLog4
+    400010: CharedLog5
+    400012: FireRock1
+    400014: FireRock10
+    400016: FireRock11
+    400018: FireRock12
+    400020: FireRock13
+    400022: FireRock2
+    400024: FireRock3
+    400026: FireRock4
+    400028: FireRock5
+    400030: FireRock6
+    400032: FireRock7
+    400034: FireRock8
+    400036: FireRock9
+    400038: //RootNode
+    2300000: BurntQuad
+    2300002: CharedLog1
+    2300004: CharedLog2
+    2300006: CharedLog3
+    2300008: CharedLog4
+    2300010: CharedLog5
+    2300012: FireRock1
+    2300014: FireRock10
+    2300016: FireRock11
+    2300018: FireRock12
+    2300020: FireRock13
+    2300022: FireRock2
+    2300024: FireRock3
+    2300026: FireRock4
+    2300028: FireRock5
+    2300030: FireRock6
+    2300032: FireRock7
+    2300034: FireRock8
+    2300036: FireRock9
+    3300000: BurntQuad
+    3300002: CharedLog1
+    3300004: CharedLog2
+    3300006: CharedLog3
+    3300008: CharedLog4
+    3300010: CharedLog5
+    3300012: FireRock1
+    3300014: FireRock10
+    3300016: FireRock11
+    3300018: FireRock12
+    3300020: FireRock13
+    3300022: FireRock2
+    3300024: FireRock3
+    3300026: FireRock4
+    3300028: FireRock5
+    3300030: FireRock6
+    3300032: FireRock7
+    3300034: FireRock8
+    3300036: FireRock9
+    4300000: FireRock9
+    4300002: FireRock11
+    4300004: FireRock4
+    4300006: FireRock13
+    4300008: FireRock12
+    4300010: FireRock1
+    4300012: FireRock10
+    4300014: FireRock3
+    4300016: FireRock2
+    4300018: FireRock6
+    4300020: FireRock5
+    4300022: FireRock7
+    4300024: FireRock8
+    4300026: CharedLog4
+    4300028: CharedLog2
+    4300030: CharedLog5
+    4300032: CharedLog3
+    4300034: BurntQuad
+    4300036: CharedLog1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

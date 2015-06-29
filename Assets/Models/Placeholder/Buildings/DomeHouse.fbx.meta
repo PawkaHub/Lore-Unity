@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: c4188e0e441ff194196d964740f18c6b
+labels:
+- Fantasy
+- Rural
+- Country
+- Village
+- Town
+- Lowpoly
+timeCreated: 1427448774
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ChimneyCrooked1
+    100002: //RootNode
+    100004: Door1
+    100006: DoorFrame1
+    100008: M_DomeStructure1
+    100010: Porch
+    100012: RoundWindow
+    100014: Slab7
+    100016: WindowBox4
+    400000: ChimneyCrooked1
+    400002: //RootNode
+    400004: Door1
+    400006: DoorFrame1
+    400008: M_DomeStructure1
+    400010: Porch
+    400012: RoundWindow
+    400014: Slab7
+    400016: WindowBox4
+    2300000: ChimneyCrooked1
+    2300002: Door1
+    2300004: DoorFrame1
+    2300006: M_DomeStructure1
+    2300008: Porch
+    2300010: RoundWindow
+    2300012: Slab7
+    2300014: WindowBox4
+    3300000: ChimneyCrooked1
+    3300002: Door1
+    3300004: DoorFrame1
+    3300006: M_DomeStructure1
+    3300008: Porch
+    3300010: RoundWindow
+    3300012: Slab7
+    3300014: WindowBox4
+    4300000: Porch
+    4300002: RoundWindow
+    4300004: ChimneyCrooked1
+    4300006: WindowBox4
+    4300008: DoorFrame1
+    4300010: Door1
+    4300012: Slab7
+    4300014: M_DomeStructure1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

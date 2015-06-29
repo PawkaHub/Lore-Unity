@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 57be1b5a4180cae42bb440251a315d54
+labels:
+- Fantasy
+- Rural
+- Country
+- Village
+- Town
+- Lowpoly
+timeCreated: 1427386344
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Barrel1
+    100002: Barrel2
+    100004: Barrel3
+    100006: Barrel4
+    100008: Barrel_Fish
+    100010: Block1
+    100012: Block2
+    100014: Block3
+    100016: Boat1
+    100018: Boat2
+    100020: Door8
+    100022: FishBag
+    100024: //RootNode
+    100026: FishingHut 1
+    100028: Fishnet1
+    100030: Fishnet2
+    100032: FishPile1
+    100034: FishPile2
+    100036: pCube416
+    100038: pCube417
+    100040: Pier
+    100042: polySurface1175
+    100044: RoundWindow13
+    100046: SmokerChimney
+    400000: Barrel1
+    400002: Barrel2
+    400004: Barrel3
+    400006: Barrel4
+    400008: Barrel_Fish
+    400010: Block1
+    400012: Block2
+    400014: Block3
+    400016: Boat1
+    400018: Boat2
+    400020: Door8
+    400022: FishBag
+    400024: //RootNode
+    400026: FishingHut 1
+    400028: Fishnet1
+    400030: Fishnet2
+    400032: FishPile1
+    400034: FishPile2
+    400036: pCube416
+    400038: pCube417
+    400040: Pier
+    400042: polySurface1175
+    400044: RoundWindow13
+    400046: SmokerChimney
+    2300000: Barrel1
+    2300002: Barrel2
+    2300004: Barrel3
+    2300006: Barrel4
+    2300008: Barrel_Fish
+    2300010: Block1
+    2300012: Block2
+    2300014: Block3
+    2300016: Boat1
+    2300018: Boat2
+    2300020: Door8
+    2300022: FishBag
+    2300024: FishingHut 1
+    2300026: Fishnet1
+    2300028: Fishnet2
+    2300030: FishPile1
+    2300032: FishPile2
+    2300034: pCube416
+    2300036: pCube417
+    2300038: Pier
+    2300040: polySurface1175
+    2300042: RoundWindow13
+    2300044: SmokerChimney
+    3300000: Barrel1
+    3300002: Barrel2
+    3300004: Barrel3
+    3300006: Barrel4
+    3300008: Barrel_Fish
+    3300010: Block1
+    3300012: Block2
+    3300014: Block3
+    3300016: Boat1
+    3300018: Boat2
+    3300020: Door8
+    3300022: FishBag
+    3300024: FishingHut 1
+    3300026: Fishnet1
+    3300028: Fishnet2
+    3300030: FishPile1
+    3300032: FishPile2
+    3300034: pCube416
+    3300036: pCube417
+    3300038: Pier
+    3300040: polySurface1175
+    3300042: RoundWindow13
+    3300044: SmokerChimney
+    4300000: Block2
+    4300002: Block3
+    4300004: Block1
+    4300006: Boat1
+    4300008: Boat2
+    4300010: Barrel1
+    4300012: Barrel_Fish
+    4300014: pCube416
+    4300016: pCube417
+    4300018: SmokerChimney
+    4300020: Fishnet1
+    4300022: Fishnet2
+    4300024: Barrel4
+    4300026: Barrel3
+    4300028: Barrel2
+    4300030: FishPile1
+    4300032: FishPile2
+    4300034: FishBag
+    4300036: polySurface1175
+    4300038: RoundWindow13
+    4300040: Door8
+    4300042: FishingHut
+    4300044: Pier
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
