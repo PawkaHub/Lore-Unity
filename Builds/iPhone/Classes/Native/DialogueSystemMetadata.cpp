@@ -1,0 +1,4247 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+#include "stringLiterals.h"
+
+extern TypeInfo U3CModuleU3E_t744_il2cpp_TypeInfo;
+// <Module>
+#include "DialogueSystem_U3CModuleU3E.h"
+extern TypeInfo LocalizedTextField_t745_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LocalizedTextTab_0.h"
+extern TypeInfo U3CContainsFieldU3Ec__AnonStorey1E_t746_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LocalizedTextTable/<ContainsField>c__AnonStorey1E
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LocalizedTextTab_1.h"
+extern TypeInfo LocalizedTextTable_t252_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LocalizedTextTable
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LocalizedTextTab.h"
+extern TypeInfo Result_t627_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Lua/Result
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Lua_Result.h"
+extern TypeInfo Lua_t596_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Lua
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Lua.h"
+extern TypeInfo LuaConsole_t751_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaConsole
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaConsole.h"
+extern TypeInfo U3CU3Ec__Iterator0_t753_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaTableWrapper/<>c__Iterator0
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaTableWrapper_.h"
+extern TypeInfo U3CU3Ec__Iterator1_t755_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaTableWrapper/<>c__Iterator1
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaTableWrapper__0.h"
+extern TypeInfo LuaTableWrapper_t749_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaTableWrapper
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaTableWrapper.h"
+extern TypeInfo LuaWatchItem_t758_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaWatchItem
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaWatchItem.h"
+extern TypeInfo U3CRemoveObserverU3Ec__AnonStorey1F_t759_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaWatchList/<RemoveObserver>c__AnonStorey1F
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaWatchList_U3C.h"
+extern TypeInfo LuaWatchList_t761_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaWatchList
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaWatchList.h"
+extern TypeInfo AssetBundleManager_t763_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AssetBundleManager
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AssetBundleManag.h"
+extern TypeInfo DialogueManager_t586_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueManager
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueManager.h"
+extern TypeInfo U3CChooseFirstResponseAfterOneFrameU3Ec__Iterator2_t764_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueSystemController/<ChooseFirstResponseAfterOneFrame>c__Iterator2
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueSystemCo_0.h"
+extern TypeInfo U3CMonitorAlertsU3Ec__Iterator3_t765_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueSystemController/<MonitorAlerts>c__Iterator3
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueSystemCo_1.h"
+extern TypeInfo U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueSystemController/<AddLuaObserverAfterStart>c__Iterator4
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueSystemCo_2.h"
+extern TypeInfo DialogueSystemController_t610_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueSystemController
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueSystemCo.h"
+extern TypeInfo LuaWatchFrequency_t772_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaWatchFrequency
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaWatchFrequenc.h"
+extern TypeInfo LuaWatchers_t770_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaWatchers
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaWatchers.h"
+extern TypeInfo BarkOrder_t773_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkOrder
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkOrder.h"
+extern TypeInfo BarkHistory_t774_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkHistory
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkHistory.h"
+extern TypeInfo BarkSubtitleSetting_t775_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkSubtitleSetting
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkSubtitleSett.h"
+extern TypeInfo U3CBarkU3Ec__Iterator5_t778_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkController/<Bark>c__Iterator5
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkController_U.h"
+extern TypeInfo U3CBarkU3Ec__Iterator6_t779_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkController/<Bark>c__Iterator6
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkController_U_0.h"
+extern TypeInfo U3CBarkU3Ec__Iterator7_t780_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkController/<Bark>c__Iterator7
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkController_U_1.h"
+extern TypeInfo BarkController_t781_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkController
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkController.h"
+extern TypeInfo ConversationController_t768_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationController
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationCont.h"
+extern TypeInfo Actor_t784_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Actor
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Actor.h"
+extern TypeInfo Asset_t785_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Asset
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Asset.h"
+extern TypeInfo CharacterType_t787_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.CharacterType
+#include "DialogueSystem_PixelCrushers_DialogueSystem_CharacterType.h"
+extern TypeInfo ConditionPriority_t788_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConditionPriority
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConditionPriorit.h"
+extern TypeInfo U3CGetDialogueEntryU3Ec__AnonStorey20_t789_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Conversation/<GetDialogueEntry>c__AnonStorey20
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Conversation_U3C.h"
+extern TypeInfo U3CGetDialogueEntryU3Ec__AnonStorey21_t790_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Conversation/<GetDialogueEntry>c__AnonStorey21
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Conversation_U3C_0.h"
+extern TypeInfo Conversation_t793_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Conversation
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Conversation.h"
+extern TypeInfo SyncInfo_t794_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/SyncInfo
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_0.h"
+extern TypeInfo U3CIsPlayerIDU3Ec__AnonStorey22_t795_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<IsPlayerID>c__AnonStorey22
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_1.h"
+extern TypeInfo U3CGetActorU3Ec__AnonStorey23_t796_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetActor>c__AnonStorey23
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_2.h"
+extern TypeInfo U3CGetActorU3Ec__AnonStorey24_t797_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetActor>c__AnonStorey24
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_3.h"
+extern TypeInfo U3CGetItemU3Ec__AnonStorey25_t798_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetItem>c__AnonStorey25
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_4.h"
+extern TypeInfo U3CGetItemU3Ec__AnonStorey26_t799_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetItem>c__AnonStorey26
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_5.h"
+extern TypeInfo U3CGetLocationU3Ec__AnonStorey27_t800_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetLocation>c__AnonStorey27
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_6.h"
+extern TypeInfo U3CGetLocationU3Ec__AnonStorey28_t801_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetLocation>c__AnonStorey28
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_7.h"
+extern TypeInfo U3CGetVariableU3Ec__AnonStorey29_t802_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetVariable>c__AnonStorey29
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_8.h"
+extern TypeInfo U3CGetVariableU3Ec__AnonStorey2A_t803_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetVariable>c__AnonStorey2A
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_9.h"
+extern TypeInfo U3CGetConversationU3Ec__AnonStorey2B_t804_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetConversation>c__AnonStorey2B
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_10.h"
+extern TypeInfo U3CGetConversationU3Ec__AnonStorey2C_t805_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetConversation>c__AnonStorey2C
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_11.h"
+extern TypeInfo U3CGetDialogueEntryU3Ec__AnonStorey2D_t807_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<GetDialogueEntry>c__AnonStorey2D
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_12.h"
+extern TypeInfo U3CRemoveU3Ec__AnonStorey2E_t808_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<Remove>c__AnonStorey2E
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_13.h"
+extern TypeInfo U3CRemoveU3Ec__AnonStorey2F_t810_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<Remove>c__AnonStorey2F
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_14.h"
+extern TypeInfo U3CContainsNameU3Ec__AnonStorey30_1_t1139_il2cpp_TypeInfo;
+extern TypeInfo U3CContainsIDU3Ec__AnonStorey31_1_t1140_il2cpp_TypeInfo;
+extern TypeInfo U3CContainsTitleU3Ec__AnonStorey32_t811_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase/<ContainsTitle>c__AnonStorey32
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase_15.h"
+extern TypeInfo DialogueDatabase_t202_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDatabase
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDatabase.h"
+extern TypeInfo DialogueEntry_t777_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueEntry
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEntry.h"
+extern TypeInfo EmphasisSetting_t819_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.EmphasisSetting
+#include "DialogueSystem_PixelCrushers_DialogueSystem_EmphasisSetting.h"
+extern TypeInfo EntrytagFormat_t820_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.EntrytagFormat
+#include "DialogueSystem_PixelCrushers_DialogueSystem_EntrytagFormat.h"
+extern TypeInfo U3CLookupU3Ec__AnonStorey33_t821_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Field/<Lookup>c__AnonStorey33
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Field_U3CLookupU.h"
+extern TypeInfo Field_t822_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Field
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Field.h"
+extern TypeInfo FieldType_t823_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.FieldType
+#include "DialogueSystem_PixelCrushers_DialogueSystem_FieldType.h"
+extern TypeInfo Item_t824_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Item
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Item.h"
+extern TypeInfo Link_t806_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Link
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Link.h"
+extern TypeInfo Localization_t825_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Localization
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Localization.h"
+extern TypeInfo Location_t826_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Location
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Location.h"
+extern TypeInfo Variable_t827_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Variable
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Variable.h"
+extern TypeInfo ChatMapperProject_t550_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_ChatM.h"
+extern TypeInfo Assets_t828_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.Assets
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_Asset.h"
+extern TypeInfo Actor_t835_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.Actor
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_Actor.h"
+extern TypeInfo Item_t836_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.Item
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_Item.h"
+extern TypeInfo Location_t837_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.Location
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_Locat.h"
+extern TypeInfo Conversation_t839_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.Conversation
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_Conve.h"
+extern TypeInfo DialogEntry_t841_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.DialogEntry
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_Dialo.h"
+extern TypeInfo Link_t842_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.Link
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_Link.h"
+extern TypeInfo UserVariable_t843_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.UserVariable
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_UserV.h"
+extern TypeInfo Field_t844_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapper.Field
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapper_Field.h"
+extern TypeInfo ChatMapperToDialogueDatabase_t845_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ChatMapperToDialogueDatabase
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ChatMapperToDial.h"
+extern TypeInfo CharacterTypeTools_t846_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.CharacterTypeTools
+#include "DialogueSystem_PixelCrushers_DialogueSystem_CharacterTypeToo.h"
+extern TypeInfo ConditionPriorityTools_t847_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConditionPriorityTools
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConditionPriorit_0.h"
+extern TypeInfo ConflictingIDRule_t848_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseMerger/ConflictingIDRule
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseMerger_C.h"
+extern TypeInfo NewIDs_t850_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseMerger/NewIDs
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseMerger_N.h"
+extern TypeInfo U3CGetNewActorIDsU3Ec__AnonStorey34_t851_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewActorIDs>c__AnonStorey34
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseMerger_U.h"
+extern TypeInfo U3CGetNewItemIDsU3Ec__AnonStorey35_t852_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewItemIDs>c__AnonStorey35
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseMerger_U_0.h"
+extern TypeInfo U3CGetNewLocationIDsU3Ec__AnonStorey36_t853_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewLocationIDs>c__AnonStorey36
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseMerger_U_1.h"
+extern TypeInfo U3CGetNewVariableIDsU3Ec__AnonStorey37_t854_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewVariableIDs>c__AnonStorey37
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseMerger_U_2.h"
+extern TypeInfo DatabaseMerger_t855_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseMerger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseMerger.h"
+extern TypeInfo PrioritySorter_t856_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LinkTools/PrioritySorter
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LinkTools_Priori.h"
+extern TypeInfo LinkTools_t857_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LinkTools
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LinkTools.h"
+extern TypeInfo ConversationModel_t776_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationModel
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationMode.h"
+extern TypeInfo DatabaseManager_t767_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseManager
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseManager.h"
+extern TypeInfo DatabaseResetOptions_t859_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DatabaseResetOptions
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DatabaseResetOpt.h"
+extern TypeInfo DialogueLua_t628_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueLua
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueLua.h"
+extern TypeInfo Emphasis_t615_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Emphasis
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Emphasis.h"
+extern TypeInfo U3CExtractVariableInputPromptU3Ec__AnonStorey38_t862_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.FormattedText/<ExtractVariableInputPrompt>c__AnonStorey38
+#include "DialogueSystem_PixelCrushers_DialogueSystem_FormattedText_U3.h"
+extern TypeInfo U3CExtractPositionTagU3Ec__AnonStorey39_t863_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.FormattedText/<ExtractPositionTag>c__AnonStorey39
+#include "DialogueSystem_PixelCrushers_DialogueSystem_FormattedText_U3_0.h"
+extern TypeInfo U3CExtractPicTagU3Ec__AnonStorey3A_t864_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.FormattedText/<ExtractPicTag>c__AnonStorey3A
+#include "DialogueSystem_PixelCrushers_DialogueSystem_FormattedText_U3_1.h"
+extern TypeInfo U3CExtractEmphasisTagsU3Ec__AnonStorey3B_t866_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.FormattedText/<ExtractEmphasisTags>c__AnonStorey3B
+#include "DialogueSystem_PixelCrushers_DialogueSystem_FormattedText_U3_2.h"
+extern TypeInfo FormattedText_t554_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.FormattedText
+#include "DialogueSystem_PixelCrushers_DialogueSystem_FormattedText.h"
+extern TypeInfo CharacterInfo_t607_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.CharacterInfo
+#include "DialogueSystem_PixelCrushers_DialogueSystem_CharacterInfo.h"
+extern TypeInfo ConversationState_t771_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationState
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationStat.h"
+extern TypeInfo DefaultCameraAngle_t868_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DefaultCameraAngle
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DefaultCameraAng.h"
+extern TypeInfo OverrideActorName_t642_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.OverrideActorName
+#include "DialogueSystem_PixelCrushers_DialogueSystem_OverrideActorNam.h"
+extern TypeInfo Response_t235_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Response
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Response.h"
+extern TypeInfo Subtitle_t552_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Subtitle
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Subtitle.h"
+extern TypeInfo BarkDialogueUI_t870_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkDialogueUI
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkDialogueUI.h"
+extern TypeInfo IBarkUI_t719_il2cpp_TypeInfo;
+extern TypeInfo TextlessBarkUI_t871_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.TextlessBarkUI
+#include "DialogueSystem_PixelCrushers_DialogueSystem_TextlessBarkUI.h"
+extern TypeInfo IsCancelKeyDownDelegate_t872_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationView/IsCancelKeyDownDelegate
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationView.h"
+extern TypeInfo ConversationView_t782_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationView
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationView_0.h"
+extern TypeInfo IDialogueUI_t720_il2cpp_TypeInfo;
+extern TypeInfo ITextFieldUI_t721_il2cpp_TypeInfo;
+extern TypeInfo ResponseButtonAlignment_t875_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ResponseButtonAlignment
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ResponseButtonAl.h"
+extern TypeInfo SelectedResponseEventArgs_t876_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SelectedResponseEventArgs
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SelectedResponse.h"
+extern TypeInfo OverrideDialogueUI_t878_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.OverrideDialogueUI
+#include "DialogueSystem_PixelCrushers_DialogueSystem_OverrideDialogue.h"
+extern TypeInfo OverrideDisplaySettings_t879_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.OverrideDisplaySettings
+#include "DialogueSystem_PixelCrushers_DialogueSystem_OverrideDisplayS.h"
+extern TypeInfo QueuedSequencerCommand_t880_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.QueuedSequencerCommand
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_0.h"
+extern TypeInfo U3CRestoreCameraU3Ec__Iterator8_t881_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Sequencer/<RestoreCamera>c__Iterator8
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Sequencer_U3CRes.h"
+extern TypeInfo U3CSendTimedSequencerMessageU3Ec__Iterator9_t882_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Sequencer/<SendTimedSequencerMessage>c__Iterator9
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Sequencer_U3CSen.h"
+extern TypeInfo U3CCheckQueuedCommandsU3Ec__AnonStorey3C_t883_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Sequencer/<CheckQueuedCommands>c__AnonStorey3C
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Sequencer_U3CChe.h"
+extern TypeInfo U3COnSequencerMessageU3Ec__AnonStorey3D_t884_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Sequencer/<OnSequencerMessage>c__AnonStorey3D
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Sequencer_U3COnS.h"
+extern TypeInfo U3CCheckActiveCommandsU3Ec__AnonStorey3E_t886_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Sequencer/<CheckActiveCommands>c__AnonStorey3E
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Sequencer_U3CChe_0.h"
+extern TypeInfo Sequencer_t597_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Sequencer
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Sequencer.h"
+extern TypeInfo SequencerTools_t890_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerTools
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerTools.h"
+extern TypeInfo SequencerCommand_t209_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand.h"
+extern TypeInfo SequencerCommandAnimation_t891_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimation
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_1.h"
+extern TypeInfo SequencerCommandAnimatorFloat_t892_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimatorFloat
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_2.h"
+extern TypeInfo SequencerCommandAnimatorLayer_t893_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimatorLayer
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_3.h"
+extern TypeInfo U3CMonitorStateU3Ec__IteratorA_t895_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimatorPlayWait/<MonitorState>c__IteratorA
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_4.h"
+extern TypeInfo SequencerCommandAnimatorPlayWait_t894_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimatorPlayWait
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_5.h"
+extern TypeInfo SequencerCommandAudioWait_t896_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAudioWait
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_6.h"
+extern TypeInfo State_t897_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAudioWWW/State
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_7.h"
+extern TypeInfo SequencerCommandAudioWWW_t900_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAudioWWW
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_8.h"
+extern TypeInfo SequencerCommandCamera_t901_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandCamera
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_9.h"
+extern TypeInfo SequencerCommandDelay_t902_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandDelay
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_10.h"
+extern TypeInfo SequencerCommandFade_t905_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandFade
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_11.h"
+extern TypeInfo SequencerCommandLiveCamera_t906_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandLiveCamera
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_12.h"
+extern TypeInfo SequencerCommandLookAt_t907_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandLookAt
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_13.h"
+extern TypeInfo SequencerCommandMoveTo_t908_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandMoveTo
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_14.h"
+extern TypeInfo SequencerCommandQTE_t909_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandQTE
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_15.h"
+extern TypeInfo SequencerCommandSwitchCamera_t910_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandSwitchCamera
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_16.h"
+extern TypeInfo SequencerCommandTextInput_t911_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandTextInput
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_17.h"
+extern TypeInfo SequencerCommandVoice_t912_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandVoice
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_18.h"
+extern TypeInfo SequencerCommandWaitForMessage_t913_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandWaitForMessage
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_19.h"
+extern TypeInfo SequencerCommandZoom2D_t914_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandZoom2D
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand_20.h"
+extern TypeInfo LocalizationSettings_t617_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DisplaySettings/LocalizationSettings
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DisplaySettings__0.h"
+extern TypeInfo ContinueButtonMode_t915_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DisplaySettings/SubtitleSettings/ContinueButtonMode
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DisplaySettings__1.h"
+extern TypeInfo SubtitleSettings_t606_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DisplaySettings/SubtitleSettings
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DisplaySettings_.h"
+extern TypeInfo CameraSettings_t916_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DisplaySettings/CameraSettings
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DisplaySettings__2.h"
+extern TypeInfo InputSettings_t918_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DisplaySettings/InputSettings
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DisplaySettings__3.h"
+extern TypeInfo AlertSettings_t919_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DisplaySettings/AlertSettings
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DisplaySettings__4.h"
+extern TypeInfo DisplaySettings_t605_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DisplaySettings
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DisplaySettings.h"
+extern TypeInfo ResponseTimeoutAction_t920_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ResponseTimeoutAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ResponseTimeoutA.h"
+extern TypeInfo EmTag_t921_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.EmTag
+#include "DialogueSystem_PixelCrushers_DialogueSystem_EmTag.h"
+extern TypeInfo InputTrigger_t917_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.InputTrigger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_InputTrigger.h"
+extern TypeInfo BitMaskAttribute_t922_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BitMaskAttribute
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BitMaskAttribute.h"
+extern TypeInfo DebugLevel_t924_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDebug/DebugLevel
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDebug_De.h"
+extern TypeInfo DialogueDebug_t603_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueDebug
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueDebug.h"
+extern TypeInfo TimeMode_t925_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueTime/TimeMode
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTime_Tim.h"
+extern TypeInfo DialogueTime_t604_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueTime
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTime.h"
+extern TypeInfo SymbolExtensions_t926_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SymbolExtensions
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SymbolExtensions.h"
+extern TypeInfo Toggle_t927_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Toggle
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Toggle.h"
+extern TypeInfo ToggleTools_t928_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ToggleTools
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ToggleTools.h"
+extern TypeInfo Tools_t609_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Tools
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Tools.h"
+extern TypeInfo AbstractDialogueUI_t233_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AbstractDialogueUI
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractDialogue_0.h"
+extern TypeInfo AbstractDialogueUIControls_t229_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AbstractDialogueUIControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractDialogue.h"
+extern TypeInfo AbstractUIAlertControls_t221_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AbstractUIAlertControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractUIAlertC.h"
+extern TypeInfo AbstractUIControls_t929_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AbstractUIControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractUIContro.h"
+extern TypeInfo AbstractUIQTEControls_t234_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AbstractUIQTEControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractUIQTECon.h"
+extern TypeInfo AbstractUIResponseMenuControls_t244_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractUIRespon.h"
+extern TypeInfo AbstractUIRoot_t245_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AbstractUIRoot
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractUIRoot.h"
+extern TypeInfo AbstractUISubtitleControls_t246_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AbstractUISubtitleControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractUISubtit.h"
+extern TypeInfo NWNTools_t930_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.NWNTools
+#include "DialogueSystem_PixelCrushers_DialogueSystem_NWNTools.h"
+extern TypeInfo QuestWatchItem_t932_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLog_QuestWa.h"
+extern TypeInfo QuestChangedDelegate_t931_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestLog/QuestChangedDelegate
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLog_QuestCh.h"
+extern TypeInfo U3CRemoveQuestStateObserverU3Ec__AnonStorey3F_t933_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestLog/<RemoveQuestStateObserver>c__AnonStorey3F
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLog_U3CRemo.h"
+extern TypeInfo U3CRemoveQuestStateObserverU3Ec__AnonStorey40_t934_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestLog/<RemoveQuestStateObserver>c__AnonStorey40
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLog_U3CRemo_0.h"
+extern TypeInfo QuestLog_t626_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestLog
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLog.h"
+extern TypeInfo QuestHeadingSource_t936_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestLogWindow/QuestHeadingSource
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLogWindow_Q_0.h"
+extern TypeInfo QuestInfo_t269_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLogWindow_Q.h"
+extern TypeInfo QuestLogWindow_t198_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestLogWindow
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLogWindow.h"
+extern TypeInfo QuestState_t722_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestState
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestState.h"
+extern TypeInfo AbandonControls_t940_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow/AbandonControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityGU_0.h"
+extern TypeInfo UnityGUIQuestLogWindow_t943_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityGU_1.h"
+extern TypeInfo FunctionOnUse_t944_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.GameSaver/FunctionOnUse
+#include "DialogueSystem_PixelCrushers_DialogueSystem_GameSaver_Functi.h"
+extern TypeInfo GameSaver_t945_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.GameSaver
+#include "DialogueSystem_PixelCrushers_DialogueSystem_GameSaver.h"
+extern TypeInfo U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LevelManager/<LoadLevelFromSaveData>c__IteratorB
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LevelManager_U3C.h"
+extern TypeInfo U3CLoadLevelCoroutineU3Ec__IteratorC_t949_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LevelManager/<LoadLevelCoroutine>c__IteratorC
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LevelManager_U3C_0.h"
+extern TypeInfo LevelManager_t584_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LevelManager
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LevelManager.h"
+extern TypeInfo PersistentActiveData_t950_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.PersistentActiveData
+#include "DialogueSystem_PixelCrushers_DialogueSystem_PersistentActive.h"
+extern TypeInfo U3CAppendItemDataU3Ec__AnonStorey41_t951_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.PersistentDataManager/<AppendItemData>c__AnonStorey41
+#include "DialogueSystem_PixelCrushers_DialogueSystem_PersistentDataMa_0.h"
+extern TypeInfo PersistentDataManager_t587_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.PersistentDataManager
+#include "DialogueSystem_PixelCrushers_DialogueSystem_PersistentDataMa.h"
+extern TypeInfo PersistentPositionData_t948_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.PersistentPositionData
+#include "DialogueSystem_PixelCrushers_DialogueSystem_PersistentPositi.h"
+extern TypeInfo Condition_t203_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.Condition
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Condition.h"
+extern TypeInfo QuestCondition_t954_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestCondition
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestCondition.h"
+extern TypeInfo Action_t955_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ActOnDialogueEvent/Action
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ActOnDialogueEve.h"
+extern TypeInfo ActOnDialogueEvent_t956_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ActOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ActOnDialogueEve_0.h"
+extern TypeInfo BarkAction_t957_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkOnDialogueEv.h"
+extern TypeInfo BarkOnDialogueEvent_t959_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkOnDialogueEv_0.h"
+extern TypeInfo DialogueEvent_t960_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEvent.h"
+extern TypeInfo LuaAction_t961_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaOnDialogueEvent/LuaAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaOnDialogueEve.h"
+extern TypeInfo LuaOnDialogueEvent_t963_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaOnDialogueEve_0.h"
+extern TypeInfo SendMessageAction_t964_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SendMessageOnDialogueEvent/SendMessageAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SendMessageOnDia.h"
+extern TypeInfo SendMessageOnDialogueEvent_t966_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SendMessageOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SendMessageOnDia_0.h"
+extern TypeInfo SetActiveAction_t967_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetActiveOnDialogueEvent/SetActiveAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetActiveOnDialo.h"
+extern TypeInfo SetActiveOnDialogueEvent_t969_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetActiveOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetActiveOnDialo_0.h"
+extern TypeInfo SetAnimationAction_t970_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetAnimationOnDialogueEvent/SetAnimationAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetAnimationOnDi.h"
+extern TypeInfo SetAnimationOnDialogueEvent_t972_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetAnimationOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetAnimationOnDi_0.h"
+extern TypeInfo SetAnimatorStateAction_t973_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetAnimatorStateOnDialogueEvent/SetAnimatorStateAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetAnimatorState.h"
+extern TypeInfo SetAnimatorStateOnDialogueEvent_t975_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetAnimatorStateOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetAnimatorState_0.h"
+extern TypeInfo SetComponentEnabledAction_t976_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetComponentEnabledOnDialogueEvent/SetComponentEnabledAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetComponentEnab.h"
+extern TypeInfo SetComponentEnabledOnDialogueEvent_t978_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetComponentEnabledOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetComponentEnab_0.h"
+extern TypeInfo SetEnabledAction_t979_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetEnabledOnDialogueEvent/SetEnabledAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetEnabledOnDial.h"
+extern TypeInfo SetEnabledOnDialogueEvent_t981_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetEnabledOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetEnabledOnDial_0.h"
+extern TypeInfo SetQuestStateAction_t982_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetQuestStateOnDialogueEvent/SetQuestStateAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetQuestStateOnD.h"
+extern TypeInfo SetQuestStateOnDialogueEvent_t984_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SetQuestStateOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SetQuestStateOnD_0.h"
+extern TypeInfo U3CShowCursorAfterOneFrameU3Ec__IteratorD_t985_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ShowCursorOnConversation/<ShowCursorAfterOneFrame>c__IteratorD
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ShowCursorOnConv.h"
+extern TypeInfo ShowCursorOnConversation_t986_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ShowCursorOnConversation
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ShowCursorOnConv_0.h"
+extern TypeInfo ConversationAction_t987_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.StartConversationOnDialogueEvent/ConversationAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_StartConversatio.h"
+extern TypeInfo StartConversationOnDialogueEvent_t989_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.StartConversationOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_StartConversatio_0.h"
+extern TypeInfo SequenceAction_t990_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.StartSequenceOnDialogueEvent/SequenceAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_StartSequenceOnD.h"
+extern TypeInfo StartSequenceOnDialogueEvent_t992_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.StartSequenceOnDialogueEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_StartSequenceOnD_0.h"
+extern TypeInfo U3CMonitorDistanceU3Ec__IteratorE_t994_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.StopConversationIfTooFar/<MonitorDistance>c__IteratorE
+#include "DialogueSystem_PixelCrushers_DialogueSystem_StopConversation.h"
+extern TypeInfo StopConversationIfTooFar_t993_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.StopConversationIfTooFar
+#include "DialogueSystem_PixelCrushers_DialogueSystem_StopConversation_0.h"
+extern TypeInfo U3CStartAfterOneFrameU3Ec__IteratorF_t996_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AlertTrigger/<StartAfterOneFrame>c__IteratorF
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AlertTrigger_U3C.h"
+extern TypeInfo AlertTrigger_t995_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AlertTrigger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AlertTrigger.h"
+extern TypeInfo U3CBarkLoopU3Ec__Iterator10_t999_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkOnIdle/<BarkLoop>c__Iterator10
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkOnIdle_U3CBa.h"
+extern TypeInfo BarkOnIdle_t998_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkOnIdle
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkOnIdle.h"
+extern TypeInfo BarkStarter_t1000_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkStarter
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkStarter.h"
+extern TypeInfo U3CBarkAfterOneFrameU3Ec__Iterator11_t1003_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkTrigger/<BarkAfterOneFrame>c__Iterator11
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkTrigger_U3CB.h"
+extern TypeInfo BarkTrigger_t1002_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.BarkTrigger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_BarkTrigger.h"
+extern TypeInfo SendMessageAction_t1004_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConditionObserve.h"
+extern TypeInfo U3CObserveU3Ec__Iterator12_t1006_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConditionObserver/<Observe>c__Iterator12
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConditionObserve_0.h"
+extern TypeInfo ConditionObserver_t1005_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConditionObserver
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConditionObserve_1.h"
+extern TypeInfo ConversationStarter_t1001_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationStarter
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationStar.h"
+extern TypeInfo U3CStartConversationAfterOneFrameU3Ec__Iterator13_t1009_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationTrigger/<StartConversationAfterOneFrame>c__Iterator13
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationTrig.h"
+extern TypeInfo ConversationTrigger_t1008_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationTrigger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationTrig_0.h"
+extern TypeInfo DialogueEventStarter_t997_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueEventStarter
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEventSta.h"
+extern TypeInfo DialogueTriggerEvent_t1010_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueTriggerEvent
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTriggerE.h"
+extern TypeInfo U3CStartAfterOneFrameU3Ec__Iterator14_t1012_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaTrigger/<StartAfterOneFrame>c__Iterator14
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaTrigger_U3CSt.h"
+extern TypeInfo LuaTrigger_t1011_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaTrigger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaTrigger.h"
+extern TypeInfo SendMessageAction_t1013_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestTrigger/SendMessageAction
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestTrigger_Sen.h"
+extern TypeInfo U3CStartAfterOneFrameU3Ec__Iterator15_t1015_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestTrigger/<StartAfterOneFrame>c__Iterator15
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestTrigger_U3C.h"
+extern TypeInfo QuestTrigger_t1014_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestTrigger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestTrigger.h"
+extern TypeInfo SequenceStarter_t1017_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequenceStarter
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequenceStarter.h"
+extern TypeInfo U3CStartSequenceAfterOneFrameU3Ec__Iterator16_t1019_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequenceTrigger/<StartSequenceAfterOneFrame>c__Iterator16
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequenceTrigger_.h"
+extern TypeInfo SequenceTrigger_t1018_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.SequenceTrigger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_SequenceTrigger.h"
+extern TypeInfo ConversationPopupAttribute_t1020_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.ConversationPopupAttribute
+#include "DialogueSystem_PixelCrushers_DialogueSystem_ConversationPopu.h"
+extern TypeInfo QuestPopupAttribute_t1021_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.QuestPopupAttribute
+#include "DialogueSystem_PixelCrushers_DialogueSystem_QuestPopupAttrib.h"
+extern TypeInfo GUIButton_t939_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIButton
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIButt.h"
+extern TypeInfo GUIControl_t937_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIControl
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUICont.h"
+extern TypeInfo GUIImage_t1030_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIImage
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIImag.h"
+extern TypeInfo GUIImageParams_t1022_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIImageParams
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIImag_0.h"
+extern TypeInfo GUILabel_t938_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUILabel
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUILabe.h"
+extern TypeInfo Origin_t1031_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIProgressBar/Origin
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIProg.h"
+extern TypeInfo GUIProgressBar_t1032_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIProgressBar
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIProg_0.h"
+extern TypeInfo GUIRoot_t941_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIRoot
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIRoot.h"
+extern TypeInfo GUIScrollView_t942_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIScrollView
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIScro.h"
+extern TypeInfo GUITextField_t1033_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUITextField
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIText.h"
+extern TypeInfo GUIVisibleControl_t1023_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIVisibleControl
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIVisi.h"
+extern TypeInfo GUIWindow_t1034_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIWindow
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIWind.h"
+extern TypeInfo U3CPlayU3Ec__Iterator17_t1036_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.AudioEffect/<Play>c__Iterator17
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_AudioEf.h"
+extern TypeInfo AudioEffect_t1035_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.AudioEffect
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_AudioEf_0.h"
+extern TypeInfo ContinueButtonFastForward_t1040_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.ContinueButtonFastForward
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_Continu.h"
+extern TypeInfo U3CPlayU3Ec__Iterator18_t1042_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.FadeEffect/<Play>c__Iterator18
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_FadeEff.h"
+extern TypeInfo FadeEffect_t1041_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.FadeEffect
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_FadeEff_0.h"
+extern TypeInfo U3CPlayU3Ec__Iterator19_t1044_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.FlashEffect/<Play>c__Iterator19
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_FlashEf.h"
+extern TypeInfo FlashEffect_t1043_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.FlashEffect
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_FlashEf_0.h"
+extern TypeInfo GUIEffect_t1037_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIEffect
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIEffe.h"
+extern TypeInfo GUIEffectTrigger_t1045_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIEffectTrigger
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIEffe_0.h"
+extern TypeInfo SlideDirection_t1046_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.SlideEffect/SlideDirection
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_SlideEf.h"
+extern TypeInfo U3CPlayU3Ec__Iterator1A_t1048_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.SlideEffect/<Play>c__Iterator1A
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_SlideEf_0.h"
+extern TypeInfo SlideEffect_t1047_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.SlideEffect
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_SlideEf_1.h"
+extern TypeInfo U3CPlayU3Ec__Iterator1B_t1050_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.TimerEffect/<Play>c__Iterator1B
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_TimerEf.h"
+extern TypeInfo TimerEffect_t1049_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.TimerEffect
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_TimerEf_0.h"
+extern TypeInfo U3CPlayU3Ec__Iterator1C_t1051_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.TypewriterEffect/<Play>c__Iterator1C
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_Typewri.h"
+extern TypeInfo TypewriterEffect_t1039_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.TypewriterEffect
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_Typewri_0.h"
+extern TypeInfo ScaledRect_t199_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.ScaledRect
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_ScaledR.h"
+extern TypeInfo ScaledRectAlignment_t1052_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.ScaledRectAlignment
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_ScaledR_0.h"
+extern TypeInfo ScaledValue_t585_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.ScaledValue
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_ScaledV.h"
+extern TypeInfo ValueScale_t1053_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.ValueScale
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_ValueSc.h"
+extern TypeInfo AutoSize_t1024_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.AutoSize
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_AutoSiz.h"
+extern TypeInfo Fit_t1025_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.Fit
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_Fit.h"
+extern TypeInfo ImageAnimation_t1029_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.ImageAnimation
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_ImageAn.h"
+extern TypeInfo Navigation_t1026_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.Navigation
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_Navigat.h"
+extern TypeInfo TextStyle_t723_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.TextStyle
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_TextSty.h"
+extern TypeInfo UnityGUITools_t1055_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityGUITools
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityGU.h"
+extern TypeInfo UnityBarkUI_t1057_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUI
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityBa.h"
+extern TypeInfo U3CFadeOutU3Ec__Iterator1D_t1058_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI/<FadeOut>c__Iterator1D
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityBa_0.h"
+extern TypeInfo UnityBarkUIOnGUI_t1056_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityBa_1.h"
+extern TypeInfo UnityDialogueUI_t1038_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityDialogueUI
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityDi.h"
+extern TypeInfo UnityTextFieldUI_t1063_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityTextFieldUI
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityTe.h"
+extern TypeInfo UnityAlertControls_t1060_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityAlertControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityAl.h"
+extern TypeInfo UnityDialogueControls_t1059_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityDialogueControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityDi_0.h"
+extern TypeInfo UnityDialogueUIControls_t1066_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityDialogueUIControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityDi_1.h"
+extern TypeInfo UnityQTEControls_t1062_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityQTEControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityQT.h"
+extern TypeInfo UnityResponseMenuControls_t1065_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityResponseMenuControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityRe.h"
+extern TypeInfo UnitySubtitleControls_t1064_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnitySubtitleControls
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnitySu.h"
+extern TypeInfo UnityUIRoot_t1061_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityGUI.UnityUIRoot
+#include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_UnityUI.h"
+extern TypeInfo LuaChangedDelegate_t757_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.LuaChangedDelegate
+#include "DialogueSystem_PixelCrushers_DialogueSystem_LuaChangedDelega.h"
+extern TypeInfo IsDialogueEntryValidDelegate_t769_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.IsDialogueEntryValidDelegate
+#include "DialogueSystem_PixelCrushers_DialogueSystem_IsDialogueEntryV.h"
+extern TypeInfo DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate
+#include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEntrySpo.h"
+extern TypeInfo AcceptedTextDelegate_t248_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.AcceptedTextDelegate
+#include "DialogueSystem_PixelCrushers_DialogueSystem_AcceptedTextDele.h"
+extern TypeInfo GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate
+#include "DialogueSystem_PixelCrushers_DialogueSystem_GetCustomSaveDat.h"
+extern TypeInfo U24ArrayTypeU248_t1068_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>/$ArrayType$8
+#include "DialogueSystem_U3CPrivateImplementationDetailsU3E_U24ArrayTy.h"
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>
+#include "DialogueSystem_U3CPrivateImplementationDetailsU3E.h"
+#include <map>
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_DialogueSystem_Assembly_Types[306] = 
+{
+	&U3CModuleU3E_t744_il2cpp_TypeInfo,
+	&LocalizedTextField_t745_il2cpp_TypeInfo,
+	&U3CContainsFieldU3Ec__AnonStorey1E_t746_il2cpp_TypeInfo,
+	&LocalizedTextTable_t252_il2cpp_TypeInfo,
+	&Result_t627_il2cpp_TypeInfo,
+	&Lua_t596_il2cpp_TypeInfo,
+	&LuaConsole_t751_il2cpp_TypeInfo,
+	&U3CU3Ec__Iterator0_t753_il2cpp_TypeInfo,
+	&U3CU3Ec__Iterator1_t755_il2cpp_TypeInfo,
+	&LuaTableWrapper_t749_il2cpp_TypeInfo,
+	&LuaWatchItem_t758_il2cpp_TypeInfo,
+	&U3CRemoveObserverU3Ec__AnonStorey1F_t759_il2cpp_TypeInfo,
+	&LuaWatchList_t761_il2cpp_TypeInfo,
+	&AssetBundleManager_t763_il2cpp_TypeInfo,
+	&DialogueManager_t586_il2cpp_TypeInfo,
+	&U3CChooseFirstResponseAfterOneFrameU3Ec__Iterator2_t764_il2cpp_TypeInfo,
+	&U3CMonitorAlertsU3Ec__Iterator3_t765_il2cpp_TypeInfo,
+	&U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766_il2cpp_TypeInfo,
+	&DialogueSystemController_t610_il2cpp_TypeInfo,
+	&LuaWatchFrequency_t772_il2cpp_TypeInfo,
+	&LuaWatchers_t770_il2cpp_TypeInfo,
+	&BarkOrder_t773_il2cpp_TypeInfo,
+	&BarkHistory_t774_il2cpp_TypeInfo,
+	&BarkSubtitleSetting_t775_il2cpp_TypeInfo,
+	&U3CBarkU3Ec__Iterator5_t778_il2cpp_TypeInfo,
+	&U3CBarkU3Ec__Iterator6_t779_il2cpp_TypeInfo,
+	&U3CBarkU3Ec__Iterator7_t780_il2cpp_TypeInfo,
+	&BarkController_t781_il2cpp_TypeInfo,
+	&ConversationController_t768_il2cpp_TypeInfo,
+	&Actor_t784_il2cpp_TypeInfo,
+	&Asset_t785_il2cpp_TypeInfo,
+	&CharacterType_t787_il2cpp_TypeInfo,
+	&ConditionPriority_t788_il2cpp_TypeInfo,
+	&U3CGetDialogueEntryU3Ec__AnonStorey20_t789_il2cpp_TypeInfo,
+	&U3CGetDialogueEntryU3Ec__AnonStorey21_t790_il2cpp_TypeInfo,
+	&Conversation_t793_il2cpp_TypeInfo,
+	&SyncInfo_t794_il2cpp_TypeInfo,
+	&U3CIsPlayerIDU3Ec__AnonStorey22_t795_il2cpp_TypeInfo,
+	&U3CGetActorU3Ec__AnonStorey23_t796_il2cpp_TypeInfo,
+	&U3CGetActorU3Ec__AnonStorey24_t797_il2cpp_TypeInfo,
+	&U3CGetItemU3Ec__AnonStorey25_t798_il2cpp_TypeInfo,
+	&U3CGetItemU3Ec__AnonStorey26_t799_il2cpp_TypeInfo,
+	&U3CGetLocationU3Ec__AnonStorey27_t800_il2cpp_TypeInfo,
+	&U3CGetLocationU3Ec__AnonStorey28_t801_il2cpp_TypeInfo,
+	&U3CGetVariableU3Ec__AnonStorey29_t802_il2cpp_TypeInfo,
+	&U3CGetVariableU3Ec__AnonStorey2A_t803_il2cpp_TypeInfo,
+	&U3CGetConversationU3Ec__AnonStorey2B_t804_il2cpp_TypeInfo,
+	&U3CGetConversationU3Ec__AnonStorey2C_t805_il2cpp_TypeInfo,
+	&U3CGetDialogueEntryU3Ec__AnonStorey2D_t807_il2cpp_TypeInfo,
+	&U3CRemoveU3Ec__AnonStorey2E_t808_il2cpp_TypeInfo,
+	&U3CRemoveU3Ec__AnonStorey2F_t810_il2cpp_TypeInfo,
+	&U3CContainsNameU3Ec__AnonStorey30_1_t1139_il2cpp_TypeInfo,
+	&U3CContainsIDU3Ec__AnonStorey31_1_t1140_il2cpp_TypeInfo,
+	&U3CContainsTitleU3Ec__AnonStorey32_t811_il2cpp_TypeInfo,
+	&DialogueDatabase_t202_il2cpp_TypeInfo,
+	&DialogueEntry_t777_il2cpp_TypeInfo,
+	&EmphasisSetting_t819_il2cpp_TypeInfo,
+	&EntrytagFormat_t820_il2cpp_TypeInfo,
+	&U3CLookupU3Ec__AnonStorey33_t821_il2cpp_TypeInfo,
+	&Field_t822_il2cpp_TypeInfo,
+	&FieldType_t823_il2cpp_TypeInfo,
+	&Item_t824_il2cpp_TypeInfo,
+	&Link_t806_il2cpp_TypeInfo,
+	&Localization_t825_il2cpp_TypeInfo,
+	&Location_t826_il2cpp_TypeInfo,
+	&Variable_t827_il2cpp_TypeInfo,
+	&ChatMapperProject_t550_il2cpp_TypeInfo,
+	&Assets_t828_il2cpp_TypeInfo,
+	&Actor_t835_il2cpp_TypeInfo,
+	&Item_t836_il2cpp_TypeInfo,
+	&Location_t837_il2cpp_TypeInfo,
+	&Conversation_t839_il2cpp_TypeInfo,
+	&DialogEntry_t841_il2cpp_TypeInfo,
+	&Link_t842_il2cpp_TypeInfo,
+	&UserVariable_t843_il2cpp_TypeInfo,
+	&Field_t844_il2cpp_TypeInfo,
+	&ChatMapperToDialogueDatabase_t845_il2cpp_TypeInfo,
+	&CharacterTypeTools_t846_il2cpp_TypeInfo,
+	&ConditionPriorityTools_t847_il2cpp_TypeInfo,
+	&ConflictingIDRule_t848_il2cpp_TypeInfo,
+	&NewIDs_t850_il2cpp_TypeInfo,
+	&U3CGetNewActorIDsU3Ec__AnonStorey34_t851_il2cpp_TypeInfo,
+	&U3CGetNewItemIDsU3Ec__AnonStorey35_t852_il2cpp_TypeInfo,
+	&U3CGetNewLocationIDsU3Ec__AnonStorey36_t853_il2cpp_TypeInfo,
+	&U3CGetNewVariableIDsU3Ec__AnonStorey37_t854_il2cpp_TypeInfo,
+	&DatabaseMerger_t855_il2cpp_TypeInfo,
+	&PrioritySorter_t856_il2cpp_TypeInfo,
+	&LinkTools_t857_il2cpp_TypeInfo,
+	&ConversationModel_t776_il2cpp_TypeInfo,
+	&DatabaseManager_t767_il2cpp_TypeInfo,
+	&DatabaseResetOptions_t859_il2cpp_TypeInfo,
+	&DialogueLua_t628_il2cpp_TypeInfo,
+	&Emphasis_t615_il2cpp_TypeInfo,
+	&U3CExtractVariableInputPromptU3Ec__AnonStorey38_t862_il2cpp_TypeInfo,
+	&U3CExtractPositionTagU3Ec__AnonStorey39_t863_il2cpp_TypeInfo,
+	&U3CExtractPicTagU3Ec__AnonStorey3A_t864_il2cpp_TypeInfo,
+	&U3CExtractEmphasisTagsU3Ec__AnonStorey3B_t866_il2cpp_TypeInfo,
+	&FormattedText_t554_il2cpp_TypeInfo,
+	&CharacterInfo_t607_il2cpp_TypeInfo,
+	&ConversationState_t771_il2cpp_TypeInfo,
+	&DefaultCameraAngle_t868_il2cpp_TypeInfo,
+	&OverrideActorName_t642_il2cpp_TypeInfo,
+	&Response_t235_il2cpp_TypeInfo,
+	&Subtitle_t552_il2cpp_TypeInfo,
+	&BarkDialogueUI_t870_il2cpp_TypeInfo,
+	&IBarkUI_t719_il2cpp_TypeInfo,
+	&TextlessBarkUI_t871_il2cpp_TypeInfo,
+	&IsCancelKeyDownDelegate_t872_il2cpp_TypeInfo,
+	&ConversationView_t782_il2cpp_TypeInfo,
+	&IDialogueUI_t720_il2cpp_TypeInfo,
+	&ITextFieldUI_t721_il2cpp_TypeInfo,
+	&ResponseButtonAlignment_t875_il2cpp_TypeInfo,
+	&SelectedResponseEventArgs_t876_il2cpp_TypeInfo,
+	&OverrideDialogueUI_t878_il2cpp_TypeInfo,
+	&OverrideDisplaySettings_t879_il2cpp_TypeInfo,
+	&QueuedSequencerCommand_t880_il2cpp_TypeInfo,
+	&U3CRestoreCameraU3Ec__Iterator8_t881_il2cpp_TypeInfo,
+	&U3CSendTimedSequencerMessageU3Ec__Iterator9_t882_il2cpp_TypeInfo,
+	&U3CCheckQueuedCommandsU3Ec__AnonStorey3C_t883_il2cpp_TypeInfo,
+	&U3COnSequencerMessageU3Ec__AnonStorey3D_t884_il2cpp_TypeInfo,
+	&U3CCheckActiveCommandsU3Ec__AnonStorey3E_t886_il2cpp_TypeInfo,
+	&Sequencer_t597_il2cpp_TypeInfo,
+	&SequencerTools_t890_il2cpp_TypeInfo,
+	&SequencerCommand_t209_il2cpp_TypeInfo,
+	&SequencerCommandAnimation_t891_il2cpp_TypeInfo,
+	&SequencerCommandAnimatorFloat_t892_il2cpp_TypeInfo,
+	&SequencerCommandAnimatorLayer_t893_il2cpp_TypeInfo,
+	&U3CMonitorStateU3Ec__IteratorA_t895_il2cpp_TypeInfo,
+	&SequencerCommandAnimatorPlayWait_t894_il2cpp_TypeInfo,
+	&SequencerCommandAudioWait_t896_il2cpp_TypeInfo,
+	&State_t897_il2cpp_TypeInfo,
+	&SequencerCommandAudioWWW_t900_il2cpp_TypeInfo,
+	&SequencerCommandCamera_t901_il2cpp_TypeInfo,
+	&SequencerCommandDelay_t902_il2cpp_TypeInfo,
+	&SequencerCommandFade_t905_il2cpp_TypeInfo,
+	&SequencerCommandLiveCamera_t906_il2cpp_TypeInfo,
+	&SequencerCommandLookAt_t907_il2cpp_TypeInfo,
+	&SequencerCommandMoveTo_t908_il2cpp_TypeInfo,
+	&SequencerCommandQTE_t909_il2cpp_TypeInfo,
+	&SequencerCommandSwitchCamera_t910_il2cpp_TypeInfo,
+	&SequencerCommandTextInput_t911_il2cpp_TypeInfo,
+	&SequencerCommandVoice_t912_il2cpp_TypeInfo,
+	&SequencerCommandWaitForMessage_t913_il2cpp_TypeInfo,
+	&SequencerCommandZoom2D_t914_il2cpp_TypeInfo,
+	&LocalizationSettings_t617_il2cpp_TypeInfo,
+	&ContinueButtonMode_t915_il2cpp_TypeInfo,
+	&SubtitleSettings_t606_il2cpp_TypeInfo,
+	&CameraSettings_t916_il2cpp_TypeInfo,
+	&InputSettings_t918_il2cpp_TypeInfo,
+	&AlertSettings_t919_il2cpp_TypeInfo,
+	&DisplaySettings_t605_il2cpp_TypeInfo,
+	&ResponseTimeoutAction_t920_il2cpp_TypeInfo,
+	&EmTag_t921_il2cpp_TypeInfo,
+	&InputTrigger_t917_il2cpp_TypeInfo,
+	&BitMaskAttribute_t922_il2cpp_TypeInfo,
+	&DebugLevel_t924_il2cpp_TypeInfo,
+	&DialogueDebug_t603_il2cpp_TypeInfo,
+	&TimeMode_t925_il2cpp_TypeInfo,
+	&DialogueTime_t604_il2cpp_TypeInfo,
+	&SymbolExtensions_t926_il2cpp_TypeInfo,
+	&Toggle_t927_il2cpp_TypeInfo,
+	&ToggleTools_t928_il2cpp_TypeInfo,
+	&Tools_t609_il2cpp_TypeInfo,
+	&AbstractDialogueUI_t233_il2cpp_TypeInfo,
+	&AbstractDialogueUIControls_t229_il2cpp_TypeInfo,
+	&AbstractUIAlertControls_t221_il2cpp_TypeInfo,
+	&AbstractUIControls_t929_il2cpp_TypeInfo,
+	&AbstractUIQTEControls_t234_il2cpp_TypeInfo,
+	&AbstractUIResponseMenuControls_t244_il2cpp_TypeInfo,
+	&AbstractUIRoot_t245_il2cpp_TypeInfo,
+	&AbstractUISubtitleControls_t246_il2cpp_TypeInfo,
+	&NWNTools_t930_il2cpp_TypeInfo,
+	&QuestWatchItem_t932_il2cpp_TypeInfo,
+	&QuestChangedDelegate_t931_il2cpp_TypeInfo,
+	&U3CRemoveQuestStateObserverU3Ec__AnonStorey3F_t933_il2cpp_TypeInfo,
+	&U3CRemoveQuestStateObserverU3Ec__AnonStorey40_t934_il2cpp_TypeInfo,
+	&QuestLog_t626_il2cpp_TypeInfo,
+	&QuestHeadingSource_t936_il2cpp_TypeInfo,
+	&QuestInfo_t269_il2cpp_TypeInfo,
+	&QuestLogWindow_t198_il2cpp_TypeInfo,
+	&QuestState_t722_il2cpp_TypeInfo,
+	&AbandonControls_t940_il2cpp_TypeInfo,
+	&UnityGUIQuestLogWindow_t943_il2cpp_TypeInfo,
+	&FunctionOnUse_t944_il2cpp_TypeInfo,
+	&GameSaver_t945_il2cpp_TypeInfo,
+	&U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947_il2cpp_TypeInfo,
+	&U3CLoadLevelCoroutineU3Ec__IteratorC_t949_il2cpp_TypeInfo,
+	&LevelManager_t584_il2cpp_TypeInfo,
+	&PersistentActiveData_t950_il2cpp_TypeInfo,
+	&U3CAppendItemDataU3Ec__AnonStorey41_t951_il2cpp_TypeInfo,
+	&PersistentDataManager_t587_il2cpp_TypeInfo,
+	&PersistentPositionData_t948_il2cpp_TypeInfo,
+	&Condition_t203_il2cpp_TypeInfo,
+	&QuestCondition_t954_il2cpp_TypeInfo,
+	&Action_t955_il2cpp_TypeInfo,
+	&ActOnDialogueEvent_t956_il2cpp_TypeInfo,
+	&BarkAction_t957_il2cpp_TypeInfo,
+	&BarkOnDialogueEvent_t959_il2cpp_TypeInfo,
+	&DialogueEvent_t960_il2cpp_TypeInfo,
+	&LuaAction_t961_il2cpp_TypeInfo,
+	&LuaOnDialogueEvent_t963_il2cpp_TypeInfo,
+	&SendMessageAction_t964_il2cpp_TypeInfo,
+	&SendMessageOnDialogueEvent_t966_il2cpp_TypeInfo,
+	&SetActiveAction_t967_il2cpp_TypeInfo,
+	&SetActiveOnDialogueEvent_t969_il2cpp_TypeInfo,
+	&SetAnimationAction_t970_il2cpp_TypeInfo,
+	&SetAnimationOnDialogueEvent_t972_il2cpp_TypeInfo,
+	&SetAnimatorStateAction_t973_il2cpp_TypeInfo,
+	&SetAnimatorStateOnDialogueEvent_t975_il2cpp_TypeInfo,
+	&SetComponentEnabledAction_t976_il2cpp_TypeInfo,
+	&SetComponentEnabledOnDialogueEvent_t978_il2cpp_TypeInfo,
+	&SetEnabledAction_t979_il2cpp_TypeInfo,
+	&SetEnabledOnDialogueEvent_t981_il2cpp_TypeInfo,
+	&SetQuestStateAction_t982_il2cpp_TypeInfo,
+	&SetQuestStateOnDialogueEvent_t984_il2cpp_TypeInfo,
+	&U3CShowCursorAfterOneFrameU3Ec__IteratorD_t985_il2cpp_TypeInfo,
+	&ShowCursorOnConversation_t986_il2cpp_TypeInfo,
+	&ConversationAction_t987_il2cpp_TypeInfo,
+	&StartConversationOnDialogueEvent_t989_il2cpp_TypeInfo,
+	&SequenceAction_t990_il2cpp_TypeInfo,
+	&StartSequenceOnDialogueEvent_t992_il2cpp_TypeInfo,
+	&U3CMonitorDistanceU3Ec__IteratorE_t994_il2cpp_TypeInfo,
+	&StopConversationIfTooFar_t993_il2cpp_TypeInfo,
+	&U3CStartAfterOneFrameU3Ec__IteratorF_t996_il2cpp_TypeInfo,
+	&AlertTrigger_t995_il2cpp_TypeInfo,
+	&U3CBarkLoopU3Ec__Iterator10_t999_il2cpp_TypeInfo,
+	&BarkOnIdle_t998_il2cpp_TypeInfo,
+	&BarkStarter_t1000_il2cpp_TypeInfo,
+	&U3CBarkAfterOneFrameU3Ec__Iterator11_t1003_il2cpp_TypeInfo,
+	&BarkTrigger_t1002_il2cpp_TypeInfo,
+	&SendMessageAction_t1004_il2cpp_TypeInfo,
+	&U3CObserveU3Ec__Iterator12_t1006_il2cpp_TypeInfo,
+	&ConditionObserver_t1005_il2cpp_TypeInfo,
+	&ConversationStarter_t1001_il2cpp_TypeInfo,
+	&U3CStartConversationAfterOneFrameU3Ec__Iterator13_t1009_il2cpp_TypeInfo,
+	&ConversationTrigger_t1008_il2cpp_TypeInfo,
+	&DialogueEventStarter_t997_il2cpp_TypeInfo,
+	&DialogueTriggerEvent_t1010_il2cpp_TypeInfo,
+	&U3CStartAfterOneFrameU3Ec__Iterator14_t1012_il2cpp_TypeInfo,
+	&LuaTrigger_t1011_il2cpp_TypeInfo,
+	&SendMessageAction_t1013_il2cpp_TypeInfo,
+	&U3CStartAfterOneFrameU3Ec__Iterator15_t1015_il2cpp_TypeInfo,
+	&QuestTrigger_t1014_il2cpp_TypeInfo,
+	&SequenceStarter_t1017_il2cpp_TypeInfo,
+	&U3CStartSequenceAfterOneFrameU3Ec__Iterator16_t1019_il2cpp_TypeInfo,
+	&SequenceTrigger_t1018_il2cpp_TypeInfo,
+	&ConversationPopupAttribute_t1020_il2cpp_TypeInfo,
+	&QuestPopupAttribute_t1021_il2cpp_TypeInfo,
+	&GUIButton_t939_il2cpp_TypeInfo,
+	&GUIControl_t937_il2cpp_TypeInfo,
+	&GUIImage_t1030_il2cpp_TypeInfo,
+	&GUIImageParams_t1022_il2cpp_TypeInfo,
+	&GUILabel_t938_il2cpp_TypeInfo,
+	&Origin_t1031_il2cpp_TypeInfo,
+	&GUIProgressBar_t1032_il2cpp_TypeInfo,
+	&GUIRoot_t941_il2cpp_TypeInfo,
+	&GUIScrollView_t942_il2cpp_TypeInfo,
+	&GUITextField_t1033_il2cpp_TypeInfo,
+	&GUIVisibleControl_t1023_il2cpp_TypeInfo,
+	&GUIWindow_t1034_il2cpp_TypeInfo,
+	&U3CPlayU3Ec__Iterator17_t1036_il2cpp_TypeInfo,
+	&AudioEffect_t1035_il2cpp_TypeInfo,
+	&ContinueButtonFastForward_t1040_il2cpp_TypeInfo,
+	&U3CPlayU3Ec__Iterator18_t1042_il2cpp_TypeInfo,
+	&FadeEffect_t1041_il2cpp_TypeInfo,
+	&U3CPlayU3Ec__Iterator19_t1044_il2cpp_TypeInfo,
+	&FlashEffect_t1043_il2cpp_TypeInfo,
+	&GUIEffect_t1037_il2cpp_TypeInfo,
+	&GUIEffectTrigger_t1045_il2cpp_TypeInfo,
+	&SlideDirection_t1046_il2cpp_TypeInfo,
+	&U3CPlayU3Ec__Iterator1A_t1048_il2cpp_TypeInfo,
+	&SlideEffect_t1047_il2cpp_TypeInfo,
+	&U3CPlayU3Ec__Iterator1B_t1050_il2cpp_TypeInfo,
+	&TimerEffect_t1049_il2cpp_TypeInfo,
+	&U3CPlayU3Ec__Iterator1C_t1051_il2cpp_TypeInfo,
+	&TypewriterEffect_t1039_il2cpp_TypeInfo,
+	&ScaledRect_t199_il2cpp_TypeInfo,
+	&ScaledRectAlignment_t1052_il2cpp_TypeInfo,
+	&ScaledValue_t585_il2cpp_TypeInfo,
+	&ValueScale_t1053_il2cpp_TypeInfo,
+	&AutoSize_t1024_il2cpp_TypeInfo,
+	&Fit_t1025_il2cpp_TypeInfo,
+	&ImageAnimation_t1029_il2cpp_TypeInfo,
+	&Navigation_t1026_il2cpp_TypeInfo,
+	&TextStyle_t723_il2cpp_TypeInfo,
+	&UnityGUITools_t1055_il2cpp_TypeInfo,
+	&UnityBarkUI_t1057_il2cpp_TypeInfo,
+	&U3CFadeOutU3Ec__Iterator1D_t1058_il2cpp_TypeInfo,
+	&UnityBarkUIOnGUI_t1056_il2cpp_TypeInfo,
+	&UnityDialogueUI_t1038_il2cpp_TypeInfo,
+	&UnityTextFieldUI_t1063_il2cpp_TypeInfo,
+	&UnityAlertControls_t1060_il2cpp_TypeInfo,
+	&UnityDialogueControls_t1059_il2cpp_TypeInfo,
+	&UnityDialogueUIControls_t1066_il2cpp_TypeInfo,
+	&UnityQTEControls_t1062_il2cpp_TypeInfo,
+	&UnityResponseMenuControls_t1065_il2cpp_TypeInfo,
+	&UnitySubtitleControls_t1064_il2cpp_TypeInfo,
+	&UnityUIRoot_t1061_il2cpp_TypeInfo,
+	&LuaChangedDelegate_t757_il2cpp_TypeInfo,
+	&IsDialogueEntryValidDelegate_t769_il2cpp_TypeInfo,
+	&DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo,
+	&AcceptedTextDelegate_t248_il2cpp_TypeInfo,
+	&GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo,
+	&U24ArrayTypeU248_t1068_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_DialogueSystem_dll_Image;
+Il2CppAssembly g_DialogueSystem_Assembly = 
+{
+	{ "DialogueSystem", NULL, NULL, NULL, { 0 }, 32772, 0, 0, 0, 0, 0, 0 },
+	&g_DialogueSystem_dll_Image,
+	1,
+};
+extern const CustomAttributesCacheGenerator g_DialogueSystem_Assembly_AttributeGenerators[533];
+static const char* s_StringTable[835] = 
+{
+	"name",
+	"values",
+	"fieldName",
+	"LanguageNotFound",
+	"languages",
+	"fields",
+	"luaValue",
+	"luaTableWrapper",
+	"NoResult",
+	"environment",
+	"<WasInvoked>k__BackingField",
+	"visible",
+	"minSize",
+	"maxHistory",
+	"history",
+	"historyPosition",
+	"input",
+	"output",
+	"windowRect",
+	"closeButtonRect",
+	"scrollPosition",
+	"<$s_3>__0",
+	"<key>__1",
+	"$PC",
+	"$current",
+	"<>f__this",
+	"<$s_4>__0",
+	"<value>__1",
+	"<$s_5>__2",
+	"<kvp>__3",
+	"luaTable",
+	"currentValue",
+	"LuaChanged",
+	"<LuaExpression>k__BackingField",
+	"luaExpression",
+	"luaChangedHandler",
+	"watchList",
+	"bundles",
+	"instance",
+	"<MaxFramesToWait>__0",
+	"<framesWaited>__1",
+	"frequency",
+	"<$>luaExpression",
+	"<$>frequency",
+	"<$>luaChangedHandler",
+	"DefaultDialogueUIResourceName",
+	"initialDatabase",
+	"displaySettings",
+	"includeSimStatus",
+	"preloadResources",
+	"dontDestroyOnLoad",
+	"allowOnlyOneInstance",
+	"debugLevel",
+	"databaseManager",
+	"currentDialogueUI",
+	"originalDialogueUI",
+	"originalDisplaySettings",
+	"isOverrideUIPrefab",
+	"conversationController",
+	"isDialogueEntryValid",
+	"luaWatchers",
+	"assetBundleManager",
+	"hasStarted",
+	"lastDebugLevelSet",
+	"applicationIsQuitting",
+	"<CurrentActor>k__BackingField",
+	"<CurrentConversant>k__BackingField",
+	"<CurrentConversationState>k__BackingField",
+	"<LastConversationStarted>k__BackingField",
+	"<AllowLuaExceptions>k__BackingField",
+	"<WarnIfActorAndConversantSame>k__BackingField",
+	"value__",
+	"EveryUpdate",
+	"EveryDialogueEntry",
+	"EndOfConversation",
+	"everyUpdateList",
+	"everyDialogueEntryList",
+	"endOfConversationList",
+	"Random",
+	"Sequential",
+	"FirstValid",
+	"order",
+	"index",
+	"SameAsDialogueManager",
+	"Show",
+	"Hide",
+	"conversationTitle",
+	"speaker",
+	"listener",
+	"<barkUI>__0",
+	"stopAtFirstValid",
+	"barkHistory",
+	"<firstValid>__1",
+	"database",
+	"<conversationModel>__2",
+	"<firstState>__3",
+	"<responses>__4",
+	"<index>__5",
+	"<barkEntry>__6",
+	"<barkState>__7",
+	"<tempInfo>__8",
+	"<sequencer>__9",
+	"<$>conversationTitle",
+	"<$>speaker",
+	"<$>listener",
+	"<$>stopAtFirstValid",
+	"<$>barkHistory",
+	"<$>database",
+	"subtitle",
+	"barkUI",
+	"<sequencer>__0",
+	"<$>subtitle",
+	"<$>barkUI",
+	"<speaker>__0",
+	"<listener>__1",
+	"<barkUI>__2",
+	"<sequencer>__3",
+	"skipSequence",
+	"<$>skipSequence",
+	"<LastSequencer>k__BackingField",
+	"model",
+	"view",
+	"state",
+	"alwaysForceResponseMenu",
+	"endConversationHandler",
+	"<IsActive>k__BackingField",
+	"portrait",
+	"alternatePortraits",
+	"id",
+	"PC",
+	"NPC",
+	"Low",
+	"BelowNormal",
+	"Normal",
+	"AboveNormal",
+	"High",
+	"title",
+	"dialogueEntryID",
+	"nodeColor",
+	"dialogueEntries",
+	"<>f__am$cache2",
+	"syncActors",
+	"syncItems",
+	"syncLocations",
+	"syncVariables",
+	"syncActorsDatabase",
+	"syncItemsDatabase",
+	"syncLocationsDatabase",
+	"syncVariablesDatabase",
+	"actorID",
+	"actorName",
+	"itemName",
+	"locationName",
+	"variableName",
+	"conversationID",
+	"link",
+	"keep",
+	"assetName",
+	"assetID",
+	"NumEmphasisSettings",
+	"InvalidEntrytag",
+	"version",
+	"author",
+	"description",
+	"globalUserScript",
+	"emphasisSettings",
+	"actors",
+	"items",
+	"locations",
+	"variables",
+	"conversations",
+	"syncInfo",
+	"<>f__am$cacheB",
+	"CanvasRectWidth",
+	"CanvasRectHeight",
+	"isRoot",
+	"isGroup",
+	"delaySimStatus",
+	"falseConditionAction",
+	"conditionPriority",
+	"outgoingLinks",
+	"conditionsString",
+	"userScript",
+	"canvasRect",
+	"color",
+	"bold",
+	"italic",
+	"underline",
+	"ActorName_ConversationID_EntryID",
+	"ConversationTitle_EntryID",
+	"ActorNameLineNumber",
+	"value",
+	"type",
+	"typeString",
+	"filenameFields",
+	"Text",
+	"Number",
+	"Boolean",
+	"Files",
+	"Localization",
+	"Actor",
+	"Item",
+	"Location",
+	"originConversationID",
+	"originDialogueID",
+	"destinationConversationID",
+	"destinationDialogueID",
+	"isConnector",
+	"priority",
+	"<Language>k__BackingField",
+	"Title",
+	"Version",
+	"Author",
+	"EmphasisColor1",
+	"EmphasisStyle1",
+	"EmphasisColor2",
+	"EmphasisStyle2",
+	"EmphasisColor3",
+	"EmphasisStyle3",
+	"EmphasisColor4",
+	"EmphasisStyle4",
+	"Description",
+	"Assets",
+	"Actors",
+	"Items",
+	"Locations",
+	"Conversations",
+	"UserVariables",
+	"ID",
+	"Fields",
+	"NodeColor",
+	"DialogEntries",
+	"IsRoot",
+	"IsGroup",
+	"DelaySimStatus",
+	"FalseCondtionAction",
+	"ConditionPriority",
+	"OutgoingLinks",
+	"ConditionsString",
+	"UserScript",
+	"ConversationID",
+	"OriginConvoID",
+	"DestinationConvoID",
+	"OriginDialogID",
+	"DestinationDialogID",
+	"IsConnector",
+	"Type",
+	"Value",
+	"AllowConflictingIDs",
+	"AssignUniqueIDs",
+	"destinationHasPlayerActor",
+	"destinationHasAlertVariable",
+	"actor",
+	"item",
+	"location",
+	"variable",
+	"conversation",
+	"actorInfo",
+	"conversantInfo",
+	"currentConversationID",
+	"allowLuaExceptions",
+	"characterInfoCache",
+	"entrytagFormat",
+	"emTagForOldResponses",
+	"<FirstState>k__BackingField",
+	"<IsDialogueEntryValid>k__BackingField",
+	"masterDatabase",
+	"loadedDatabases",
+	"<DefaultDatabase>k__BackingField",
+	"KeepAllLoaded",
+	"RevertToDefault",
+	"statusTable",
+	"relationshipTable",
+	"<startIndex>k__BackingField",
+	"<length>k__BackingField",
+	"<color>k__BackingField",
+	"<bold>k__BackingField",
+	"<italic>k__BackingField",
+	"<underline>k__BackingField",
+	"varName",
+	"position",
+	"emphases",
+	"NoAssignedPosition",
+	"NoPicOverride",
+	"empty",
+	"noEmphases",
+	"<text>k__BackingField",
+	"<emphases>k__BackingField",
+	"<position>k__BackingField",
+	"<forceMenu>k__BackingField",
+	"<pic>k__BackingField",
+	"<picActor>k__BackingField",
+	"<picConversant>k__BackingField",
+	"<variableInputPrompt>k__BackingField",
+	"<>f__am$cacheC",
+	"nameInDatabase",
+	"characterType",
+	"transform",
+	"<Name>k__BackingField",
+	"npcResponses",
+	"pcResponses",
+	"<IsGroup>k__BackingField",
+	"cameraAngle",
+	"overrideName",
+	"internalName",
+	"formattedText",
+	"destinationEntry",
+	"speakerInfo",
+	"listenerInfo",
+	"sequence",
+	"responseMenuSequence",
+	"dialogueEntry",
+	"entrytag",
+	"SelectedResponseHandler",
+	"ui",
+	"sequencer",
+	"settings",
+	"lastNPCSubtitle",
+	"lastPCSubtitle",
+	"lastSubtitle",
+	"IsCancelKeyDown",
+	"CancelledHandler",
+	"dialogueEntrySpokenHandler",
+	"waitForContinue",
+	"isPlayingResponseMenuSequence",
+	"FinishedSubtitleHandler",
+	"ToFirst",
+	"ToLast",
+	"response",
+	"command",
+	"parameters",
+	"startTime",
+	"messageToWaitFor",
+	"endMessage",
+	"required",
+	"delay",
+	"<$>delay",
+	"<$>endMessage",
+	"now",
+	"message",
+	"done",
+	"DefaultCameraAnglesResourceName",
+	"InstantThreshold",
+	"disableInternalSequencerCommands",
+	"hasCameraControl",
+	"originalCamera",
+	"originalCameraPosition",
+	"originalCameraRotation",
+	"originalOrthographicSize",
+	"queuedCommands",
+	"activeCommands",
+	"informParticipants",
+	"closeWhenFinished",
+	"sequencerCameraSource",
+	"sequencerCamera",
+	"alternateSequencerCameraObject",
+	"cameraAngles",
+	"isUsingMainCamera",
+	"isPlaying",
+	"cachedComponentTypes",
+	"FinishedSequenceHandler",
+	"<entrytag>k__BackingField",
+	"<>f__am$cache15",
+	"<IsPlaying>k__BackingField",
+	"<Sequencer>k__BackingField",
+	"<Parameters>k__BackingField",
+	"<endMessage>k__BackingField",
+	"subject",
+	"nextAnimationIndex",
+	"stopTime",
+	"anim",
+	"SmoothMoveCutoff",
+	"animatorParameterHash",
+	"targetValue",
+	"duration",
+	"animator",
+	"endTime",
+	"originalValue",
+	"layerIndex",
+	"weight",
+	"originalWeight",
+	"<maxStartTime>__0",
+	"stateName",
+	"<animatorStateInfo>__1",
+	"<isInState>__2",
+	"<$>animator",
+	"<$>stateName",
+	"maxDurationToWaitForStateStart",
+	"audioSource",
+	"nextClipIndex",
+	"lastClip",
+	"Idle",
+	"Loading",
+	"Playing",
+	"audioURLs",
+	"www",
+	"angleTransform",
+	"cameraTransform",
+	"isLocalTransform",
+	"targetRotation",
+	"targetPosition",
+	"originalRotation",
+	"originalPosition",
+	"direction",
+	"fadeIn",
+	"texture",
+	"faderGuiTexture",
+	"fader",
+	"isOriginal",
+	"target",
+	"button",
+	"variableQTEValue",
+	"variableType",
+	"textFieldUI",
+	"acceptedText",
+	"finalClipName",
+	"requiredMessage",
+	"targetSize",
+	"originalSize",
+	"language",
+	"useSystemLanguage",
+	"localizedText",
+	"Never",
+	"Always",
+	"OptionalBeforeResponseMenu",
+	"NotBeforeResponseMenu",
+	"OptionalBeforePC",
+	"NotBeforePC",
+	"showNPCSubtitlesDuringLine",
+	"showNPCSubtitlesWithResponses",
+	"showPCSubtitlesDuringLine",
+	"allowPCSubtitleReminders",
+	"subtitleCharsPerSecond",
+	"minSubtitleSeconds",
+	"continueButton",
+	"richTextEmphases",
+	"informSequenceStartAndEnd",
+	"alternateCameraObject",
+	"defaultSequence",
+	"responseTimeout",
+	"responseTimeoutAction",
+	"qteButtons",
+	"cancel",
+	"cancelConversation",
+	"allowAlertsDuringConversations",
+	"alertCheckFrequency",
+	"dialogueUI",
+	"localizationSettings",
+	"subtitleSettings",
+	"cameraSettings",
+	"inputSettings",
+	"alertSettings",
+	"ChooseFirstResponse",
+	"EndConversation",
+	"None",
+	"Em1",
+	"Em2",
+	"Em3",
+	"Em4",
+	"key",
+	"buttonName",
+	"propType",
+	"Error",
+	"Warning",
+	"Info",
+	"Prefix",
+	"<Level>k__BackingField",
+	"Realtime",
+	"Gameplay",
+	"m_isPaused",
+	"realtimeWhenPaused",
+	"totalRealtimePaused",
+	"<Mode>k__BackingField",
+	"True",
+	"False",
+	"Flip",
+	"previousLockMode",
+	"<IsOpen>k__BackingField",
+	"alertDoneTime",
+	"buttonAlignment",
+	"showUnusedButtons",
+	"currentSubtitle",
+	"entryNumber",
+	"questChangedHandler",
+	"UnassignedStateString",
+	"ActiveStateString",
+	"SuccessStateString",
+	"FailureStateString",
+	"AbandonedStateString",
+	"DoneStateString",
+	"questWatchList",
+	"Name",
+	"<Title>k__BackingField",
+	"<Heading>k__BackingField",
+	"<Description>k__BackingField",
+	"<Entries>k__BackingField",
+	"<EntryStates>k__BackingField",
+	"<Trackable>k__BackingField",
+	"<Track>k__BackingField",
+	"<Abandonable>k__BackingField",
+	"questHeadingSource",
+	"abandonQuestState",
+	"pauseWhileOpen",
+	"unlockCursorWhileOpen",
+	"previousTimeScale",
+	"currentQuestStateMask",
+	"wasCursorActive",
+	"<Quests>k__BackingField",
+	"<SelectedQuest>k__BackingField",
+	"<NoQuestsMessage>k__BackingField",
+	"Unassigned",
+	"Active",
+	"Success",
+	"Failure",
+	"Abandoned",
+	"panel",
+	"questTitleLabel",
+	"ok",
+	"guiRoot",
+	"scrollView",
+	"activeButton",
+	"completedButton",
+	"abandonQuestPopup",
+	"questHeadingGuiStyleName",
+	"questHeadingOpenGuiStyleName",
+	"questBodyGuiStyleName",
+	"questEntryActiveGuiStyleName",
+	"questEntrySuccessGuiStyleName",
+	"questEntryFailureGuiStyleName",
+	"questEntryButtonStyleName",
+	"noQuestsGuiStyleName",
+	"padding",
+	"questHeadingStyle",
+	"questHeadingOpenStyle",
+	"questBodyStyle",
+	"questEntryActiveStyle",
+	"questEntrySuccessStyle",
+	"questEntryFailureStyle",
+	"questButtonStyle",
+	"confirmAbandonQuestHandler",
+	"Save",
+	"Load",
+	"Restart",
+	"playerPrefsKey",
+	"slot",
+	"functionOnUse",
+	"applyGameStateWhenLoadingLevels",
+	"includeAllItemData",
+	"startingLevel",
+	"<levelName>__0",
+	"saveData",
+	"<async>__1",
+	"<$>saveData",
+	"levelName",
+	"<async>__0",
+	"<player>__1",
+	"<persistentPos>__2",
+	"<originalValue>__3",
+	"<$>levelName",
+	"defaultStartingLevel",
+	"<IsLoading>k__BackingField",
+	"condition",
+	"stringDataStartCapacity",
+	"stringDataMaxCapacity",
+	"GetCustomSaveData",
+	"overrideActorName",
+	"recordCurrentLevel",
+	"restoreCurrentLevelPosition",
+	"luaConditions",
+	"questConditions",
+	"acceptedTags",
+	"acceptedGameObjects",
+	"luaWizardIndex",
+	"questName",
+	"questState",
+	"trigger",
+	"once",
+	"selectedDatabase",
+	"onStart",
+	"onEnd",
+	"barkOrder",
+	"<sequencer>k__BackingField",
+	"OnBark",
+	"OnConversation",
+	"OnSequence",
+	"luaCode",
+	"debugLua",
+	"methodName",
+	"parameter",
+	"animationClip",
+	"crossFadeDuration",
+	"alertMessage",
+	"wasCursorVisible",
+	"savedLockState",
+	"skipIfNoValidEntries",
+	"otherParticipant",
+	"<myTransform>__0",
+	"<$>actor",
+	"maxDistance",
+	"monitorFrequency",
+	"localizedTextTable",
+	"tryingToStart",
+	"minSeconds",
+	"maxSeconds",
+	"allowDuringConversations",
+	"cacheBarkLines",
+	"tryingToBark",
+	"cachedState",
+	"gameObject",
+	"observeGameObject",
+	"sendMessages",
+	"useQuestNamePicker",
+	"started",
+	"conversant",
+	"useConversationTitlePicker",
+	"MarginToAllowTriggerExit",
+	"stopConversationOnTriggerExit",
+	"earliestTimeToAllowTriggerExit",
+	"OnBarkEnd",
+	"OnConversationEnd",
+	"OnSequenceEnd",
+	"OnTriggerEnter",
+	"OnStart",
+	"OnUse",
+	"OnEnable",
+	"OnTriggerExit",
+	"OnDisable",
+	"OnDestroy",
+	"waitOneFrameOnStartOrEnable",
+	"clickable",
+	"disabled",
+	"normal",
+	"hover",
+	"pressed",
+	"hoverSound",
+	"clickSound",
+	"data",
+	"isHovered",
+	"depth",
+	"depthSortChildren",
+	"scaledRect",
+	"autoSize",
+	"fit",
+	"navigation",
+	"clipChildren",
+	"fullName",
+	"children",
+	"needToUpdateLayout",
+	"windowSize",
+	"navigationSelectButtonClicked",
+	"<rect>k__BackingField",
+	"<Offset>k__BackingField",
+	"<dRect>k__BackingField",
+	"<>f__am$cache10",
+	"image",
+	"imageAnimation",
+	"pixelRect",
+	"useTexCoords",
+	"texCoords",
+	"scaleMode",
+	"alphaBlend",
+	"aspect",
+	"textStyle",
+	"textStyleColor",
+	"imageColor",
+	"closureTags",
+	"useSubstring",
+	"substringLength",
+	"substringLengthLastGetRichTextClosedString",
+	"richTextClosedString",
+	"Top",
+	"Bottom",
+	"Left",
+	"Right",
+	"HorizontalCenter",
+	"VerticalCenter",
+	"origin",
+	"emptyImage",
+	"fullImage",
+	"progress",
+	"guiSkin",
+	"showVerticalScrollbar",
+	"showHorizontalScrollbar",
+	"scrollViewVector",
+	"MeasureContentHandler",
+	"DrawContentHandler",
+	"<contentWidth>k__BackingField",
+	"<contentHeight>k__BackingField",
+	"maxLength",
+	"takeFocus",
+	"text",
+	"guiStyleName",
+	"formattingToApply",
+	"isFormattingApplied",
+	"guiStyle",
+	"originalGUIColor",
+	"alpha",
+	"originalTextValue",
+	"currentChildMousePosition",
+	"myAudio",
+	"typewriterEffect",
+	"<startTime>__0",
+	"<endTime>__1",
+	"<elapsed>__2",
+	"<elapsed>__3",
+	"fadeInDuration",
+	"fadeOutDuration",
+	"control",
+	"interval",
+	"FromBottom",
+	"FromTop",
+	"FromLeft",
+	"FromRight",
+	"<rect>__0",
+	"<startTime>__1",
+	"<endTime>__2",
+	"<progress>__4",
+	"progressBar",
+	"TimeoutHandler",
+	"<control>__0",
+	"<delay>__1",
+	"RichTextBoldOpen",
+	"RichTextBoldClose",
+	"RichTextItalicOpen",
+	"RichTextItalicClose",
+	"RichTextColorOpenPrefix",
+	"RichTextColorClose",
+	"charactersPerSecond",
+	"audioClip",
+	"wholeScreen",
+	"alignment",
+	"x",
+	"y",
+	"width",
+	"height",
+	"minPixelWidth",
+	"minPixelHeight",
+	"TopLeft",
+	"TopCenter",
+	"TopRight",
+	"MiddleLeft",
+	"MiddleCenter",
+	"MiddleRight",
+	"BottomLeft",
+	"BottomCenter",
+	"BottomRight",
+	"zero",
+	"max",
+	"scale",
+	"Pixel",
+	"Normalized",
+	"autoSizeWidth",
+	"autoSizeHeight",
+	"maxWidth",
+	"maxHeight",
+	"above",
+	"below",
+	"leftOf",
+	"rightOf",
+	"expandToFit",
+	"animate",
+	"frameWidth",
+	"framesPerSecond",
+	"numFrames",
+	"frameNormalWidth",
+	"currentFrame",
+	"nextFrameTime",
+	"lastDialogueTime",
+	"AxisThreshold",
+	"MinorAxisThreshold",
+	"enabled",
+	"focusFirstControlOnEnable",
+	"jumpToMousePosition",
+	"clickButton",
+	"click",
+	"previous",
+	"next",
+	"axis",
+	"invertAxis",
+	"axisRepeatDelay",
+	"mouseWheelSensitivity",
+	"current",
+	"axisRepeatTime",
+	"mouseWheelY",
+	"isAxisPrevDown",
+	"isAxisNextDown",
+	"timeNextRelease",
+	"Shadow",
+	"Outline",
+	"textPosition",
+	"includeName",
+	"fadeDuration",
+	"textDisplaySetting",
+	"waitUntilSequenceEnds",
+	"checkIfPlayerVisible",
+	"visibilityLayerMask",
+	"unityBarkUIOnGUI",
+	"playerCameraTransform",
+	"playerCameraCollider",
+	"secondsLeft",
+	"<$>fadeDuration",
+	"offset",
+	"size",
+	"myTransform",
+	"absolutePosition",
+	"offsetToHead",
+	"screenPos",
+	"<BarkPosition>k__BackingField",
+	"dialogue",
+	"qteIndicators",
+	"alert",
+	"unityUIRoot",
+	"unityQTEControls",
+	"label",
+	"textField",
+	"acceptKey",
+	"cancelKey",
+	"ignoreFirstAccept",
+	"ignoreFirstCancel",
+	"line",
+	"npcSubtitle",
+	"pcSubtitle",
+	"responseMenu",
+	"numVisibleQTEIndicators",
+	"pcImage",
+	"pcName",
+	"subtitleReminder",
+	"timer",
+	"buttons",
+	"timerEffect",
+	"pcPortraitTexture",
+	"pcPortraitName",
+	"portraitImage",
+	"portraitName",
+	"$$field-0",
+};
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+static const Il2CppFieldDefinition s_FieldTable[1255] = 
+{
+	{ 0, 74, offsetof(LocalizedTextField_t745, ___name_0), 0 } ,
+	{ 1, 1429, offsetof(LocalizedTextField_t745, ___values_1), 0 } ,
+	{ 2, 735, offsetof(U3CContainsFieldU3Ec__AnonStorey1E_t746, ___fieldName_0), 0 } ,
+	{ 3, 1555, 0, 0 } ,
+	{ 4, 1429, offsetof(LocalizedTextTable_t252, ___languages_3), 0 } ,
+	{ 5, 1878, offsetof(LocalizedTextTable_t252, ___fields_4), 0 } ,
+	{ 6, 1880, offsetof(Result_t627, ___luaValue_0) + sizeof(Object_t), 0 } ,
+	{ 7, 1881, offsetof(Result_t627, ___luaTableWrapper_1) + sizeof(Object_t), 0 } ,
+	{ 8, 1883, offsetof(Lua_t596_StaticFields, ___NoResult_0), 0 } ,
+	{ 9, 1884, offsetof(Lua_t596_StaticFields, ___environment_1), 0 } ,
+	{ 10, 530, offsetof(Lua_t596_StaticFields, ___U3CWasInvokedU3Ek__BackingField_2), 4 } ,
+	{ 11, 483, offsetof(LuaConsole_t751, ___visible_2), 0 } ,
+	{ 12, 566, offsetof(LuaConsole_t751, ___minSize_3), 0 } ,
+	{ 13, 536, offsetof(LuaConsole_t751, ___maxHistory_4), 0 } ,
+	{ 14, 935, offsetof(LuaConsole_t751, ___history_5), 0 } ,
+	{ 15, 44, offsetof(LuaConsole_t751, ___historyPosition_6), 0 } ,
+	{ 16, 40, offsetof(LuaConsole_t751, ___input_7), 0 } ,
+	{ 17, 40, offsetof(LuaConsole_t751, ___output_8), 0 } ,
+	{ 18, 822, offsetof(LuaConsole_t751, ___windowRect_9), 0 } ,
+	{ 19, 822, offsetof(LuaConsole_t751, ___closeButtonRect_10), 0 } ,
+	{ 20, 1058, offsetof(LuaConsole_t751, ___scrollPosition_11), 0 } ,
+	{ 21, 1890, offsetof(U3CU3Ec__Iterator0_t753, ___U3CU24s_3U3E__0_0), 0 } ,
+	{ 22, 1891, offsetof(U3CU3Ec__Iterator0_t753, ___U3CkeyU3E__1_1), 0 } ,
+	{ 23, 517, offsetof(U3CU3Ec__Iterator0_t753, ___U24PC_2), 0 } ,
+	{ 24, 735, offsetof(U3CU3Ec__Iterator0_t753, ___U24current_3), 0 } ,
+	{ 25, 1892, offsetof(U3CU3Ec__Iterator0_t753, ___U3CU3Ef__this_4), 0 } ,
+	{ 26, 1890, offsetof(U3CU3Ec__Iterator1_t755, ___U3CU24s_4U3E__0_0), 0 } ,
+	{ 27, 1891, offsetof(U3CU3Ec__Iterator1_t755, ___U3CvalueU3E__1_1), 0 } ,
+	{ 28, 1894, offsetof(U3CU3Ec__Iterator1_t755, ___U3CU24s_5U3E__2_2), 0 } ,
+	{ 29, 1895, offsetof(U3CU3Ec__Iterator1_t755, ___U3CkvpU3E__3_3), 0 } ,
+	{ 23, 517, offsetof(U3CU3Ec__Iterator1_t755, ___U24PC_4), 0 } ,
+	{ 24, 518, offsetof(U3CU3Ec__Iterator1_t755, ___U24current_5), 0 } ,
+	{ 25, 1892, offsetof(U3CU3Ec__Iterator1_t755, ___U3CU3Ef__this_6), 0 } ,
+	{ 30, 1897, offsetof(LuaTableWrapper_t749, ___luaTable_0), 0 } ,
+	{ 31, 40, offsetof(LuaWatchItem_t758, ___currentValue_0), 0 } ,
+	{ 32, 1899, offsetof(LuaWatchItem_t758, ___LuaChanged_1), 0 } ,
+	{ 33, 40, offsetof(LuaWatchItem_t758, ___U3CLuaExpressionU3Ek__BackingField_2), 23 } ,
+	{ 34, 735, offsetof(U3CRemoveObserverU3Ec__AnonStorey1F_t759, ___luaExpression_0), 0 } ,
+	{ 35, 1901, offsetof(U3CRemoveObserverU3Ec__AnonStorey1F_t759, ___luaChangedHandler_1), 0 } ,
+	{ 36, 1903, offsetof(LuaWatchList_t761, ___watchList_0), 0 } ,
+	{ 37, 1906, offsetof(AssetBundleManager_t763, ___bundles_0), 0 } ,
+	{ 38, 1911, offsetof(DialogueManager_t586_StaticFields, ___instance_0), 0 } ,
+	{ 23, 517, offsetof(U3CChooseFirstResponseAfterOneFrameU3Ec__Iterator2_t764, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CChooseFirstResponseAfterOneFrameU3Ec__Iterator2_t764, ___U24current_1), 0 } ,
+	{ 25, 1913, offsetof(U3CChooseFirstResponseAfterOneFrameU3Ec__Iterator2_t764, ___U3CU3Ef__this_2), 0 } ,
+	{ 23, 517, offsetof(U3CMonitorAlertsU3Ec__Iterator3_t765, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CMonitorAlertsU3Ec__Iterator3_t765, ___U24current_1), 0 } ,
+	{ 25, 1913, offsetof(U3CMonitorAlertsU3Ec__Iterator3_t765, ___U3CU3Ef__this_2), 0 } ,
+	{ 39, 517, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___U3CMaxFramesToWaitU3E__0_0), 0 } ,
+	{ 40, 517, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___U3CframesWaitedU3E__1_1), 0 } ,
+	{ 34, 735, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___luaExpression_2), 0 } ,
+	{ 41, 1916, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___frequency_3), 0 } ,
+	{ 35, 1901, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___luaChangedHandler_4), 0 } ,
+	{ 23, 517, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___U24PC_5), 0 } ,
+	{ 24, 518, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___U24current_6), 0 } ,
+	{ 42, 735, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___U3CU24U3EluaExpression_7), 0 } ,
+	{ 43, 1916, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___U3CU24U3Efrequency_8), 0 } ,
+	{ 44, 1901, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___U3CU24U3EluaChangedHandler_9), 0 } ,
+	{ 25, 1913, offsetof(U3CAddLuaObserverAfterStartU3Ec__Iterator4_t766, ___U3CU3Ef__this_10), 0 } ,
+	{ 45, 39, 0, 0 } ,
+	{ 46, 826, offsetof(DialogueSystemController_t610, ___initialDatabase_3), 0 } ,
+	{ 47, 1918, offsetof(DialogueSystemController_t610, ___displaySettings_4), 0 } ,
+	{ 48, 483, offsetof(DialogueSystemController_t610, ___includeSimStatus_5), 0 } ,
+	{ 49, 483, offsetof(DialogueSystemController_t610, ___preloadResources_6), 0 } ,
+	{ 50, 483, offsetof(DialogueSystemController_t610, ___dontDestroyOnLoad_7), 0 } ,
+	{ 51, 483, offsetof(DialogueSystemController_t610, ___allowOnlyOneInstance_8), 0 } ,
+	{ 52, 1919, offsetof(DialogueSystemController_t610, ___debugLevel_9), 0 } ,
+	{ 53, 1920, offsetof(DialogueSystemController_t610, ___databaseManager_10), 0 } ,
+	{ 54, 1921, offsetof(DialogueSystemController_t610, ___currentDialogueUI_11), 0 } ,
+	{ 55, 1921, offsetof(DialogueSystemController_t610, ___originalDialogueUI_12), 0 } ,
+	{ 56, 1922, offsetof(DialogueSystemController_t610, ___originalDisplaySettings_13), 0 } ,
+	{ 57, 30, offsetof(DialogueSystemController_t610, ___isOverrideUIPrefab_14), 0 } ,
+	{ 58, 1923, offsetof(DialogueSystemController_t610, ___conversationController_15), 0 } ,
+	{ 59, 1924, offsetof(DialogueSystemController_t610, ___isDialogueEntryValid_16), 0 } ,
+	{ 60, 1925, offsetof(DialogueSystemController_t610, ___luaWatchers_17), 0 } ,
+	{ 61, 1926, offsetof(DialogueSystemController_t610, ___assetBundleManager_18), 0 } ,
+	{ 62, 30, offsetof(DialogueSystemController_t610, ___hasStarted_19), 0 } ,
+	{ 63, 1927, offsetof(DialogueSystemController_t610, ___lastDebugLevelSet_20), 0 } ,
+	{ 64, 504, offsetof(DialogueSystemController_t610_StaticFields, ___applicationIsQuitting_21), 0 } ,
+	{ 65, 796, offsetof(DialogueSystemController_t610, ___U3CCurrentActorU3Ek__BackingField_22), 28 } ,
+	{ 66, 796, offsetof(DialogueSystemController_t610, ___U3CCurrentConversantU3Ek__BackingField_23), 29 } ,
+	{ 67, 1928, offsetof(DialogueSystemController_t610, ___U3CCurrentConversationStateU3Ek__BackingField_24), 30 } ,
+	{ 68, 40, offsetof(DialogueSystemController_t610, ___U3CLastConversationStartedU3Ek__BackingField_25), 31 } ,
+	{ 69, 30, offsetof(DialogueSystemController_t610, ___U3CAllowLuaExceptionsU3Ek__BackingField_26), 32 } ,
+	{ 70, 30, offsetof(DialogueSystemController_t610, ___U3CWarnIfActorAndConversantSameU3Ek__BackingField_27), 33 } ,
+	{ 71, 50, offsetof(LuaWatchFrequency_t772, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 72, 1930, 0, 0 } ,
+	{ 73, 1930, 0, 0 } ,
+	{ 74, 1930, 0, 0 } ,
+	{ 75, 1932, offsetof(LuaWatchers_t770, ___everyUpdateList_0), 0 } ,
+	{ 76, 1932, offsetof(LuaWatchers_t770, ___everyDialogueEntryList_1), 0 } ,
+	{ 77, 1932, offsetof(LuaWatchers_t770, ___endOfConversationList_2), 0 } ,
+	{ 71, 50, offsetof(BarkOrder_t773, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 78, 1934, 0, 0 } ,
+	{ 79, 1934, 0, 0 } ,
+	{ 80, 1934, 0, 0 } ,
+	{ 81, 1937, offsetof(BarkHistory_t774, ___order_0), 0 } ,
+	{ 82, 536, offsetof(BarkHistory_t774, ___index_1), 0 } ,
+	{ 71, 50, offsetof(BarkSubtitleSetting_t775, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 83, 1939, 0, 0 } ,
+	{ 84, 1939, 0, 0 } ,
+	{ 85, 1939, 0, 0 } ,
+	{ 86, 735, offsetof(U3CBarkU3Ec__Iterator5_t778, ___conversationTitle_0), 0 } ,
+	{ 87, 516, offsetof(U3CBarkU3Ec__Iterator5_t778, ___speaker_1), 0 } ,
+	{ 88, 516, offsetof(U3CBarkU3Ec__Iterator5_t778, ___listener_2), 0 } ,
+	{ 89, 1942, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CbarkUIU3E__0_3), 0 } ,
+	{ 90, 740, offsetof(U3CBarkU3Ec__Iterator5_t778, ___stopAtFirstValid_4), 0 } ,
+	{ 91, 1943, offsetof(U3CBarkU3Ec__Iterator5_t778, ___barkHistory_5), 0 } ,
+	{ 92, 740, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CfirstValidU3E__1_6), 0 } ,
+	{ 93, 989, offsetof(U3CBarkU3Ec__Iterator5_t778, ___database_7), 0 } ,
+	{ 94, 1944, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CconversationModelU3E__2_8), 0 } ,
+	{ 95, 1945, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CfirstStateU3E__3_9), 0 } ,
+	{ 96, 1946, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CresponsesU3E__4_10), 0 } ,
+	{ 97, 517, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CindexU3E__5_11), 0 } ,
+	{ 98, 1947, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CbarkEntryU3E__6_12), 0 } ,
+	{ 99, 1945, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CbarkStateU3E__7_13), 0 } ,
+	{ 100, 1948, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CtempInfoU3E__8_14), 0 } ,
+	{ 101, 1949, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CsequencerU3E__9_15), 0 } ,
+	{ 23, 517, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U24PC_16), 0 } ,
+	{ 24, 518, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U24current_17), 0 } ,
+	{ 102, 735, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CU24U3EconversationTitle_18), 0 } ,
+	{ 103, 516, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CU24U3Espeaker_19), 0 } ,
+	{ 104, 516, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CU24U3Elistener_20), 0 } ,
+	{ 105, 740, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CU24U3EstopAtFirstValid_21), 0 } ,
+	{ 106, 1943, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CU24U3EbarkHistory_22), 0 } ,
+	{ 107, 989, offsetof(U3CBarkU3Ec__Iterator5_t778, ___U3CU24U3Edatabase_23), 0 } ,
+	{ 108, 1951, offsetof(U3CBarkU3Ec__Iterator6_t779, ___subtitle_0), 0 } ,
+	{ 109, 1942, offsetof(U3CBarkU3Ec__Iterator6_t779, ___barkUI_1), 0 } ,
+	{ 87, 516, offsetof(U3CBarkU3Ec__Iterator6_t779, ___speaker_2), 0 } ,
+	{ 88, 516, offsetof(U3CBarkU3Ec__Iterator6_t779, ___listener_3), 0 } ,
+	{ 110, 1949, offsetof(U3CBarkU3Ec__Iterator6_t779, ___U3CsequencerU3E__0_4), 0 } ,
+	{ 23, 517, offsetof(U3CBarkU3Ec__Iterator6_t779, ___U24PC_5), 0 } ,
+	{ 24, 518, offsetof(U3CBarkU3Ec__Iterator6_t779, ___U24current_6), 0 } ,
+	{ 111, 1951, offsetof(U3CBarkU3Ec__Iterator6_t779, ___U3CU24U3Esubtitle_7), 0 } ,
+	{ 112, 1942, offsetof(U3CBarkU3Ec__Iterator6_t779, ___U3CU24U3EbarkUI_8), 0 } ,
+	{ 103, 516, offsetof(U3CBarkU3Ec__Iterator6_t779, ___U3CU24U3Espeaker_9), 0 } ,
+	{ 104, 516, offsetof(U3CBarkU3Ec__Iterator6_t779, ___U3CU24U3Elistener_10), 0 } ,
+	{ 108, 1951, offsetof(U3CBarkU3Ec__Iterator7_t780, ___subtitle_0), 0 } ,
+	{ 113, 516, offsetof(U3CBarkU3Ec__Iterator7_t780, ___U3CspeakerU3E__0_1), 0 } ,
+	{ 114, 516, offsetof(U3CBarkU3Ec__Iterator7_t780, ___U3ClistenerU3E__1_2), 0 } ,
+	{ 115, 1942, offsetof(U3CBarkU3Ec__Iterator7_t780, ___U3CbarkUIU3E__2_3), 0 } ,
+	{ 116, 1949, offsetof(U3CBarkU3Ec__Iterator7_t780, ___U3CsequencerU3E__3_4), 0 } ,
+	{ 117, 740, offsetof(U3CBarkU3Ec__Iterator7_t780, ___skipSequence_5), 0 } ,
+	{ 23, 517, offsetof(U3CBarkU3Ec__Iterator7_t780, ___U24PC_6), 0 } ,
+	{ 24, 518, offsetof(U3CBarkU3Ec__Iterator7_t780, ___U24current_7), 0 } ,
+	{ 111, 1951, offsetof(U3CBarkU3Ec__Iterator7_t780, ___U3CU24U3Esubtitle_8), 0 } ,
+	{ 118, 740, offsetof(U3CBarkU3Ec__Iterator7_t780, ___U3CU24U3EskipSequence_9), 0 } ,
+	{ 119, 1956, offsetof(BarkController_t781_StaticFields, ___U3CLastSequencerU3Ek__BackingField_0), 64 } ,
+	{ 120, 1958, offsetof(ConversationController_t768, ___model_0), 0 } ,
+	{ 121, 1959, offsetof(ConversationController_t768, ___view_1), 0 } ,
+	{ 122, 1928, offsetof(ConversationController_t768, ___state_2), 0 } ,
+	{ 123, 30, offsetof(ConversationController_t768, ___alwaysForceResponseMenu_3), 0 } ,
+	{ 124, 950, offsetof(ConversationController_t768, ___endConversationHandler_4), 0 } ,
+	{ 125, 30, offsetof(ConversationController_t768, ___U3CIsActiveU3Ek__BackingField_5), 85 } ,
+	{ 126, 555, offsetof(Actor_t784, ___portrait_2), 0 } ,
+	{ 127, 1961, offsetof(Actor_t784, ___alternatePortraits_3), 0 } ,
+	{ 128, 536, offsetof(Asset_t785, ___id_0), 0 } ,
+	{ 5, 1964, offsetof(Asset_t785, ___fields_1), 0 } ,
+	{ 71, 50, offsetof(CharacterType_t787, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 129, 1966, 0, 0 } ,
+	{ 130, 1966, 0, 0 } ,
+	{ 71, 50, offsetof(ConditionPriority_t788, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 131, 1969, 0, 0 } ,
+	{ 132, 1969, 0, 0 } ,
+	{ 133, 1969, 0, 0 } ,
+	{ 134, 1969, 0, 0 } ,
+	{ 135, 1969, 0, 0 } ,
+	{ 136, 735, offsetof(U3CGetDialogueEntryU3Ec__AnonStorey20_t789, ___title_0), 0 } ,
+	{ 137, 517, offsetof(U3CGetDialogueEntryU3Ec__AnonStorey21_t790, ___dialogueEntryID_0), 0 } ,
+	{ 138, 74, offsetof(Conversation_t793, ___nodeColor_2), 0 } ,
+	{ 139, 1974, offsetof(Conversation_t793, ___dialogueEntries_3), 0 } ,
+	{ 140, 1975, offsetof(Conversation_t793_StaticFields, ___U3CU3Ef__amU24cache2_4), 88 } ,
+	{ 141, 483, offsetof(SyncInfo_t794, ___syncActors_0), 0 } ,
+	{ 142, 483, offsetof(SyncInfo_t794, ___syncItems_1), 0 } ,
+	{ 143, 483, offsetof(SyncInfo_t794, ___syncLocations_2), 0 } ,
+	{ 144, 483, offsetof(SyncInfo_t794, ___syncVariables_3), 0 } ,
+	{ 145, 826, offsetof(SyncInfo_t794, ___syncActorsDatabase_4), 0 } ,
+	{ 146, 826, offsetof(SyncInfo_t794, ___syncItemsDatabase_5), 0 } ,
+	{ 147, 826, offsetof(SyncInfo_t794, ___syncLocationsDatabase_6), 0 } ,
+	{ 148, 826, offsetof(SyncInfo_t794, ___syncVariablesDatabase_7), 0 } ,
+	{ 149, 517, offsetof(U3CIsPlayerIDU3Ec__AnonStorey22_t795, ___actorID_0), 0 } ,
+	{ 150, 735, offsetof(U3CGetActorU3Ec__AnonStorey23_t796, ___actorName_0), 0 } ,
+	{ 128, 517, offsetof(U3CGetActorU3Ec__AnonStorey24_t797, ___id_0), 0 } ,
+	{ 151, 735, offsetof(U3CGetItemU3Ec__AnonStorey25_t798, ___itemName_0), 0 } ,
+	{ 128, 517, offsetof(U3CGetItemU3Ec__AnonStorey26_t799, ___id_0), 0 } ,
+	{ 152, 735, offsetof(U3CGetLocationU3Ec__AnonStorey27_t800, ___locationName_0), 0 } ,
+	{ 128, 517, offsetof(U3CGetLocationU3Ec__AnonStorey28_t801, ___id_0), 0 } ,
+	{ 153, 735, offsetof(U3CGetVariableU3Ec__AnonStorey29_t802, ___variableName_0), 0 } ,
+	{ 128, 517, offsetof(U3CGetVariableU3Ec__AnonStorey2A_t803, ___id_0), 0 } ,
+	{ 86, 735, offsetof(U3CGetConversationU3Ec__AnonStorey2B_t804, ___conversationTitle_0), 0 } ,
+	{ 154, 517, offsetof(U3CGetConversationU3Ec__AnonStorey2C_t805, ___conversationID_0), 0 } ,
+	{ 155, 1989, offsetof(U3CGetDialogueEntryU3Ec__AnonStorey2D_t807, ___link_0), 0 } ,
+	{ 93, 989, offsetof(U3CRemoveU3Ec__AnonStorey2E_t808, ___database_0), 0 } ,
+	{ 93, 989, offsetof(U3CRemoveU3Ec__AnonStorey2F_t810, ___database_0), 0 } ,
+	{ 156, 1992, offsetof(U3CRemoveU3Ec__AnonStorey2F_t810, ___keep_1), 0 } ,
+	{ 157, 735, 0, 0 } ,
+	{ 158, 517, 0, 0 } ,
+	{ 136, 735, offsetof(U3CContainsTitleU3Ec__AnonStorey32_t811, ___title_0), 0 } ,
+	{ 159, 79, 0, 0 } ,
+	{ 160, 64, 0, 0 } ,
+	{ 161, 74, offsetof(DialogueDatabase_t202, ___version_4), 0 } ,
+	{ 162, 74, offsetof(DialogueDatabase_t202, ___author_5), 0 } ,
+	{ 163, 74, offsetof(DialogueDatabase_t202, ___description_6), 0 } ,
+	{ 164, 74, offsetof(DialogueDatabase_t202, ___globalUserScript_7), 0 } ,
+	{ 165, 2010, offsetof(DialogueDatabase_t202, ___emphasisSettings_8), 0 } ,
+	{ 166, 2011, offsetof(DialogueDatabase_t202, ___actors_9), 0 } ,
+	{ 167, 2012, offsetof(DialogueDatabase_t202, ___items_10), 0 } ,
+	{ 168, 2013, offsetof(DialogueDatabase_t202, ___locations_11), 0 } ,
+	{ 169, 2014, offsetof(DialogueDatabase_t202, ___variables_12), 0 } ,
+	{ 170, 2015, offsetof(DialogueDatabase_t202, ___conversations_13), 0 } ,
+	{ 171, 2016, offsetof(DialogueDatabase_t202, ___syncInfo_14), 0 } ,
+	{ 172, 2017, offsetof(DialogueDatabase_t202_StaticFields, ___U3CU3Ef__amU24cacheB_15), 92 } ,
+	{ 173, 2019, 0, 0 } ,
+	{ 174, 2019, 0, 0 } ,
+	{ 128, 536, offsetof(DialogueEntry_t777, ___id_2), 0 } ,
+	{ 5, 1964, offsetof(DialogueEntry_t777, ___fields_3), 0 } ,
+	{ 154, 536, offsetof(DialogueEntry_t777, ___conversationID_4), 0 } ,
+	{ 175, 483, offsetof(DialogueEntry_t777, ___isRoot_5), 0 } ,
+	{ 176, 483, offsetof(DialogueEntry_t777, ___isGroup_6), 0 } ,
+	{ 138, 74, offsetof(DialogueEntry_t777, ___nodeColor_7), 0 } ,
+	{ 177, 483, offsetof(DialogueEntry_t777, ___delaySimStatus_8), 0 } ,
+	{ 178, 74, offsetof(DialogueEntry_t777, ___falseConditionAction_9), 0 } ,
+	{ 179, 2020, offsetof(DialogueEntry_t777, ___conditionPriority_10), 0 } ,
+	{ 180, 2021, offsetof(DialogueEntry_t777, ___outgoingLinks_11), 0 } ,
+	{ 181, 74, offsetof(DialogueEntry_t777, ___conditionsString_12), 0 } ,
+	{ 182, 74, offsetof(DialogueEntry_t777, ___userScript_13), 0 } ,
+	{ 183, 1097, offsetof(DialogueEntry_t777, ___canvasRect_14), 0 } ,
+	{ 184, 600, offsetof(EmphasisSetting_t819, ___color_0), 0 } ,
+	{ 185, 483, offsetof(EmphasisSetting_t819, ___bold_1), 0 } ,
+	{ 186, 483, offsetof(EmphasisSetting_t819, ___italic_2), 0 } ,
+	{ 187, 483, offsetof(EmphasisSetting_t819, ___underline_3), 0 } ,
+	{ 71, 50, offsetof(EntrytagFormat_t820, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 188, 2024, 0, 0 } ,
+	{ 189, 2024, 0, 0 } ,
+	{ 190, 2024, 0, 0 } ,
+	{ 136, 735, offsetof(U3CLookupU3Ec__AnonStorey33_t821, ___title_0), 0 } ,
+	{ 136, 74, offsetof(Field_t822, ___title_0), 0 } ,
+	{ 191, 74, offsetof(Field_t822, ___value_1), 0 } ,
+	{ 192, 2028, offsetof(Field_t822, ___type_2), 0 } ,
+	{ 193, 74, offsetof(Field_t822, ___typeString_3), 0 } ,
+	{ 194, 2029, offsetof(Field_t822_StaticFields, ___filenameFields_4), 0 } ,
+	{ 71, 50, offsetof(FieldType_t823, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 195, 2031, 0, 0 } ,
+	{ 196, 2031, 0, 0 } ,
+	{ 197, 2031, 0, 0 } ,
+	{ 198, 2031, 0, 0 } ,
+	{ 199, 2031, 0, 0 } ,
+	{ 200, 2031, 0, 0 } ,
+	{ 201, 2031, 0, 0 } ,
+	{ 202, 2031, 0, 0 } ,
+	{ 203, 536, offsetof(Link_t806, ___originConversationID_0), 0 } ,
+	{ 204, 536, offsetof(Link_t806, ___originDialogueID_1), 0 } ,
+	{ 205, 536, offsetof(Link_t806, ___destinationConversationID_2), 0 } ,
+	{ 206, 536, offsetof(Link_t806, ___destinationDialogueID_3), 0 } ,
+	{ 207, 483, offsetof(Link_t806, ___isConnector_4), 0 } ,
+	{ 208, 2020, offsetof(Link_t806, ___priority_5), 0 } ,
+	{ 209, 1098, offsetof(Localization_t825_StaticFields, ___U3CLanguageU3Ek__BackingField_0), 116 } ,
+	{ 210, 74, offsetof(ChatMapperProject_t550, ___Title_0), 120 } ,
+	{ 211, 74, offsetof(ChatMapperProject_t550, ___Version_1), 121 } ,
+	{ 212, 74, offsetof(ChatMapperProject_t550, ___Author_2), 122 } ,
+	{ 213, 74, offsetof(ChatMapperProject_t550, ___EmphasisColor1_3), 123 } ,
+	{ 214, 74, offsetof(ChatMapperProject_t550, ___EmphasisStyle1_4), 124 } ,
+	{ 215, 74, offsetof(ChatMapperProject_t550, ___EmphasisColor2_5), 125 } ,
+	{ 216, 74, offsetof(ChatMapperProject_t550, ___EmphasisStyle2_6), 126 } ,
+	{ 217, 74, offsetof(ChatMapperProject_t550, ___EmphasisColor3_7), 127 } ,
+	{ 218, 74, offsetof(ChatMapperProject_t550, ___EmphasisStyle3_8), 128 } ,
+	{ 219, 74, offsetof(ChatMapperProject_t550, ___EmphasisColor4_9), 129 } ,
+	{ 220, 74, offsetof(ChatMapperProject_t550, ___EmphasisStyle4_10), 130 } ,
+	{ 221, 74, offsetof(ChatMapperProject_t550, ___Description_11), 0 } ,
+	{ 222, 2039, offsetof(ChatMapperProject_t550, ___Assets_12), 0 } ,
+	{ 223, 2041, offsetof(Assets_t828, ___Actors_0), 131 } ,
+	{ 224, 2042, offsetof(Assets_t828, ___Items_1), 132 } ,
+	{ 225, 2043, offsetof(Assets_t828, ___Locations_2), 133 } ,
+	{ 226, 2044, offsetof(Assets_t828, ___Conversations_3), 134 } ,
+	{ 227, 2045, offsetof(Assets_t828, ___UserVariables_4), 135 } ,
+	{ 228, 536, offsetof(Actor_t835, ___ID_0), 136 } ,
+	{ 229, 2048, offsetof(Actor_t835, ___Fields_1), 137 } ,
+	{ 228, 536, offsetof(Item_t836, ___ID_0), 138 } ,
+	{ 229, 2048, offsetof(Item_t836, ___Fields_1), 139 } ,
+	{ 228, 536, offsetof(Location_t837, ___ID_0), 140 } ,
+	{ 229, 2048, offsetof(Location_t837, ___Fields_1), 141 } ,
+	{ 228, 536, offsetof(Conversation_t839, ___ID_0), 142 } ,
+	{ 230, 74, offsetof(Conversation_t839, ___NodeColor_1), 143 } ,
+	{ 229, 2048, offsetof(Conversation_t839, ___Fields_2), 144 } ,
+	{ 231, 2052, offsetof(Conversation_t839, ___DialogEntries_3), 145 } ,
+	{ 228, 536, offsetof(DialogEntry_t841, ___ID_0), 146 } ,
+	{ 232, 483, offsetof(DialogEntry_t841, ___IsRoot_1), 147 } ,
+	{ 233, 483, offsetof(DialogEntry_t841, ___IsGroup_2), 148 } ,
+	{ 230, 74, offsetof(DialogEntry_t841, ___NodeColor_3), 149 } ,
+	{ 234, 483, offsetof(DialogEntry_t841, ___DelaySimStatus_4), 150 } ,
+	{ 235, 74, offsetof(DialogEntry_t841, ___FalseCondtionAction_5), 151 } ,
+	{ 236, 74, offsetof(DialogEntry_t841, ___ConditionPriority_6), 152 } ,
+	{ 229, 2048, offsetof(DialogEntry_t841, ___Fields_7), 153 } ,
+	{ 237, 2054, offsetof(DialogEntry_t841, ___OutgoingLinks_8), 154 } ,
+	{ 238, 74, offsetof(DialogEntry_t841, ___ConditionsString_9), 0 } ,
+	{ 239, 74, offsetof(DialogEntry_t841, ___UserScript_10), 0 } ,
+	{ 240, 536, offsetof(Link_t842, ___ConversationID_0), 155 } ,
+	{ 241, 536, offsetof(Link_t842, ___OriginConvoID_1), 156 } ,
+	{ 242, 536, offsetof(Link_t842, ___DestinationConvoID_2), 157 } ,
+	{ 243, 536, offsetof(Link_t842, ___OriginDialogID_3), 158 } ,
+	{ 244, 536, offsetof(Link_t842, ___DestinationDialogID_4), 159 } ,
+	{ 245, 483, offsetof(Link_t842, ___IsConnector_5), 160 } ,
+	{ 229, 2048, offsetof(UserVariable_t843, ___Fields_0), 161 } ,
+	{ 246, 74, offsetof(Field_t844, ___Type_0), 162 } ,
+	{ 210, 74, offsetof(Field_t844, ___Title_1), 0 } ,
+	{ 247, 74, offsetof(Field_t844, ___Value_2), 0 } ,
+	{ 71, 50, offsetof(ConflictingIDRule_t848, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 248, 2065, 0, 0 } ,
+	{ 249, 2065, 0, 0 } ,
+	{ 250, 483, offsetof(NewIDs_t850, ___destinationHasPlayerActor_0), 0 } ,
+	{ 251, 483, offsetof(NewIDs_t850, ___destinationHasAlertVariable_1), 0 } ,
+	{ 252, 2068, offsetof(NewIDs_t850, ___actor_2), 0 } ,
+	{ 253, 2068, offsetof(NewIDs_t850, ___item_3), 0 } ,
+	{ 254, 2068, offsetof(NewIDs_t850, ___location_4), 0 } ,
+	{ 255, 2068, offsetof(NewIDs_t850, ___variable_5), 0 } ,
+	{ 256, 2068, offsetof(NewIDs_t850, ___conversation_6), 0 } ,
+	{ 252, 2070, offsetof(U3CGetNewActorIDsU3Ec__AnonStorey34_t851, ___actor_0), 0 } ,
+	{ 253, 2072, offsetof(U3CGetNewItemIDsU3Ec__AnonStorey35_t852, ___item_0), 0 } ,
+	{ 254, 2074, offsetof(U3CGetNewLocationIDsU3Ec__AnonStorey36_t853, ___location_0), 0 } ,
+	{ 255, 2076, offsetof(U3CGetNewVariableIDsU3Ec__AnonStorey37_t854, ___variable_0), 0 } ,
+	{ 93, 2084, offsetof(ConversationModel_t776, ___database_0), 0 } ,
+	{ 257, 2085, offsetof(ConversationModel_t776, ___actorInfo_1), 0 } ,
+	{ 258, 2085, offsetof(ConversationModel_t776, ___conversantInfo_2), 0 } ,
+	{ 259, 44, offsetof(ConversationModel_t776, ___currentConversationID_3), 0 } ,
+	{ 260, 30, offsetof(ConversationModel_t776, ___allowLuaExceptions_4), 0 } ,
+	{ 261, 2086, offsetof(ConversationModel_t776, ___characterInfoCache_5), 0 } ,
+	{ 262, 2087, offsetof(ConversationModel_t776, ___entrytagFormat_6), 0 } ,
+	{ 263, 2088, offsetof(ConversationModel_t776, ___emTagForOldResponses_7), 0 } ,
+	{ 264, 1928, offsetof(ConversationModel_t776, ___U3CFirstStateU3Ek__BackingField_8), 167 } ,
+	{ 265, 1924, offsetof(ConversationModel_t776, ___U3CIsDialogueEntryValidU3Ek__BackingField_9), 168 } ,
+	{ 266, 2084, offsetof(DatabaseManager_t767, ___masterDatabase_0), 0 } ,
+	{ 267, 2091, offsetof(DatabaseManager_t767, ___loadedDatabases_1), 0 } ,
+	{ 268, 2084, offsetof(DatabaseManager_t767, ___U3CDefaultDatabaseU3Ek__BackingField_2), 173 } ,
+	{ 71, 50, offsetof(DatabaseResetOptions_t859, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 269, 2093, 0, 0 } ,
+	{ 270, 2093, 0, 0 } ,
+	{ 48, 504, offsetof(DialogueLua_t628_StaticFields, ___includeSimStatus_0), 0 } ,
+	{ 271, 2103, offsetof(DialogueLua_t628_StaticFields, ___statusTable_1), 0 } ,
+	{ 272, 2104, offsetof(DialogueLua_t628_StaticFields, ___relationshipTable_2), 0 } ,
+	{ 273, 44, offsetof(Emphasis_t615, ___U3CstartIndexU3Ek__BackingField_0) + sizeof(Object_t), 176 } ,
+	{ 274, 44, offsetof(Emphasis_t615, ___U3ClengthU3Ek__BackingField_1) + sizeof(Object_t), 177 } ,
+	{ 275, 902, offsetof(Emphasis_t615, ___U3CcolorU3Ek__BackingField_2) + sizeof(Object_t), 178 } ,
+	{ 276, 30, offsetof(Emphasis_t615, ___U3CboldU3Ek__BackingField_3) + sizeof(Object_t), 179 } ,
+	{ 277, 30, offsetof(Emphasis_t615, ___U3CitalicU3Ek__BackingField_4) + sizeof(Object_t), 180 } ,
+	{ 278, 30, offsetof(Emphasis_t615, ___U3CunderlineU3Ek__BackingField_5) + sizeof(Object_t), 181 } ,
+	{ 279, 735, offsetof(U3CExtractVariableInputPromptU3Ec__AnonStorey38_t862, ___varName_0), 0 } ,
+	{ 280, 517, offsetof(U3CExtractPositionTagU3Ec__AnonStorey39_t863, ___position_0), 0 } ,
+	{ 82, 517, offsetof(U3CExtractPicTagU3Ec__AnonStorey3A_t864, ___index_0), 0 } ,
+	{ 165, 2111, offsetof(U3CExtractEmphasisTagsU3Ec__AnonStorey3B_t866, ___emphasisSettings_0), 0 } ,
+	{ 281, 2112, offsetof(U3CExtractEmphasisTagsU3Ec__AnonStorey3B_t866, ___emphases_1), 0 } ,
+	{ 282, 79, 0, 0 } ,
+	{ 283, 79, 0, 0 } ,
+	{ 284, 2116, offsetof(FormattedText_t554_StaticFields, ___empty_2), 0 } ,
+	{ 285, 2117, offsetof(FormattedText_t554_StaticFields, ___noEmphases_3), 0 } ,
+	{ 286, 40, offsetof(FormattedText_t554, ___U3CtextU3Ek__BackingField_4), 194 } ,
+	{ 287, 2118, offsetof(FormattedText_t554, ___U3CemphasesU3Ek__BackingField_5), 195 } ,
+	{ 277, 30, offsetof(FormattedText_t554, ___U3CitalicU3Ek__BackingField_6), 196 } ,
+	{ 288, 44, offsetof(FormattedText_t554, ___U3CpositionU3Ek__BackingField_7), 197 } ,
+	{ 289, 30, offsetof(FormattedText_t554, ___U3CforceMenuU3Ek__BackingField_8), 198 } ,
+	{ 290, 44, offsetof(FormattedText_t554, ___U3CpicU3Ek__BackingField_9), 199 } ,
+	{ 291, 44, offsetof(FormattedText_t554, ___U3CpicActorU3Ek__BackingField_10), 200 } ,
+	{ 292, 44, offsetof(FormattedText_t554, ___U3CpicConversantU3Ek__BackingField_11), 201 } ,
+	{ 293, 40, offsetof(FormattedText_t554, ___U3CvariableInputPromptU3Ek__BackingField_12), 202 } ,
+	{ 172, 2119, offsetof(FormattedText_t554_StaticFields, ___U3CU3Ef__amU24cacheB_13), 203 } ,
+	{ 294, 2119, offsetof(FormattedText_t554_StaticFields, ___U3CU3Ef__amU24cacheC_14), 204 } ,
+	{ 128, 536, offsetof(CharacterInfo_t607, ___id_0), 0 } ,
+	{ 295, 74, offsetof(CharacterInfo_t607, ___nameInDatabase_1), 0 } ,
+	{ 296, 2121, offsetof(CharacterInfo_t607, ___characterType_2), 0 } ,
+	{ 297, 482, offsetof(CharacterInfo_t607, ___transform_3), 0 } ,
+	{ 126, 555, offsetof(CharacterInfo_t607, ___portrait_4), 0 } ,
+	{ 298, 40, offsetof(CharacterInfo_t607, ___U3CNameU3Ek__BackingField_5), 229 } ,
+	{ 108, 2123, offsetof(ConversationState_t771, ___subtitle_0), 0 } ,
+	{ 299, 2124, offsetof(ConversationState_t771, ___npcResponses_1), 0 } ,
+	{ 300, 2124, offsetof(ConversationState_t771, ___pcResponses_2), 0 } ,
+	{ 301, 30, offsetof(ConversationState_t771, ___U3CIsGroupU3Ek__BackingField_3), 232 } ,
+	{ 302, 74, offsetof(DefaultCameraAngle_t868, ___cameraAngle_2), 0 } ,
+	{ 303, 74, offsetof(OverrideActorName_t642, ___overrideName_2), 0 } ,
+	{ 304, 74, offsetof(OverrideActorName_t642, ___internalName_3), 0 } ,
+	{ 305, 2128, offsetof(Response_t235, ___formattedText_0), 0 } ,
+	{ 306, 2129, offsetof(Response_t235, ___destinationEntry_1), 0 } ,
+	{ 307, 2131, offsetof(Subtitle_t552, ___speakerInfo_0), 0 } ,
+	{ 308, 2131, offsetof(Subtitle_t552, ___listenerInfo_1), 0 } ,
+	{ 305, 2128, offsetof(Subtitle_t552, ___formattedText_2), 0 } ,
+	{ 309, 74, offsetof(Subtitle_t552, ___sequence_3), 0 } ,
+	{ 310, 74, offsetof(Subtitle_t552, ___responseMenuSequence_4), 0 } ,
+	{ 311, 2129, offsetof(Subtitle_t552, ___dialogueEntry_5), 0 } ,
+	{ 312, 74, offsetof(Subtitle_t552, ___entrytag_6), 0 } ,
+	{ 313, 2133, offsetof(BarkDialogueUI_t870, ___SelectedResponseHandler_2), 0 } ,
+	{ 314, 1921, offsetof(ConversationView_t782, ___ui_2), 0 } ,
+	{ 315, 2140, offsetof(ConversationView_t782, ___sequencer_3), 0 } ,
+	{ 316, 1922, offsetof(ConversationView_t782, ___settings_4), 0 } ,
+	{ 317, 2141, offsetof(ConversationView_t782, ___lastNPCSubtitle_5), 0 } ,
+	{ 318, 2141, offsetof(ConversationView_t782, ___lastPCSubtitle_6), 0 } ,
+	{ 319, 2141, offsetof(ConversationView_t782, ___lastSubtitle_7), 0 } ,
+	{ 320, 2142, offsetof(ConversationView_t782, ___IsCancelKeyDown_8), 0 } ,
+	{ 321, 950, offsetof(ConversationView_t782, ___CancelledHandler_9), 0 } ,
+	{ 322, 2143, offsetof(ConversationView_t782, ___dialogueEntrySpokenHandler_10), 0 } ,
+	{ 323, 30, offsetof(ConversationView_t782, ___waitForContinue_11), 0 } ,
+	{ 324, 30, offsetof(ConversationView_t782, ___isPlayingResponseMenuSequence_12), 0 } ,
+	{ 325, 2144, offsetof(ConversationView_t782, ___FinishedSubtitleHandler_13), 0 } ,
+	{ 313, 2133, offsetof(ConversationView_t782, ___SelectedResponseHandler_14), 0 } ,
+	{ 71, 50, offsetof(ResponseButtonAlignment_t875, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 326, 2148, 0, 0 } ,
+	{ 327, 2148, 0, 0 } ,
+	{ 328, 2151, offsetof(SelectedResponseEventArgs_t876, ___response_1), 0 } ,
+	{ 314, 471, offsetof(OverrideDialogueUI_t878, ___ui_2), 0 } ,
+	{ 47, 1918, offsetof(OverrideDisplaySettings_t879, ___displaySettings_2), 0 } ,
+	{ 329, 74, offsetof(QueuedSequencerCommand_t880, ___command_0), 0 } ,
+	{ 330, 1094, offsetof(QueuedSequencerCommand_t880, ___parameters_1), 0 } ,
+	{ 331, 467, offsetof(QueuedSequencerCommand_t880, ___startTime_2), 0 } ,
+	{ 332, 74, offsetof(QueuedSequencerCommand_t880, ___messageToWaitFor_3), 0 } ,
+	{ 333, 74, offsetof(QueuedSequencerCommand_t880, ___endMessage_4), 0 } ,
+	{ 334, 483, offsetof(QueuedSequencerCommand_t880, ___required_5), 0 } ,
+	{ 23, 517, offsetof(U3CRestoreCameraU3Ec__Iterator8_t881, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CRestoreCameraU3Ec__Iterator8_t881, ___U24current_1), 0 } ,
+	{ 25, 1949, offsetof(U3CRestoreCameraU3Ec__Iterator8_t881, ___U3CU3Ef__this_2), 0 } ,
+	{ 335, 738, offsetof(U3CSendTimedSequencerMessageU3Ec__Iterator9_t882, ___delay_0), 0 } ,
+	{ 333, 735, offsetof(U3CSendTimedSequencerMessageU3Ec__Iterator9_t882, ___endMessage_1), 0 } ,
+	{ 23, 517, offsetof(U3CSendTimedSequencerMessageU3Ec__Iterator9_t882, ___U24PC_2), 0 } ,
+	{ 24, 518, offsetof(U3CSendTimedSequencerMessageU3Ec__Iterator9_t882, ___U24current_3), 0 } ,
+	{ 336, 738, offsetof(U3CSendTimedSequencerMessageU3Ec__Iterator9_t882, ___U3CU24U3Edelay_4), 0 } ,
+	{ 337, 735, offsetof(U3CSendTimedSequencerMessageU3Ec__Iterator9_t882, ___U3CU24U3EendMessage_5), 0 } ,
+	{ 338, 738, offsetof(U3CCheckQueuedCommandsU3Ec__AnonStorey3C_t883, ___now_0), 0 } ,
+	{ 339, 735, offsetof(U3COnSequencerMessageU3Ec__AnonStorey3D_t884, ___message_0), 0 } ,
+	{ 340, 2160, offsetof(U3CCheckActiveCommandsU3Ec__AnonStorey3E_t886, ___done_0), 0 } ,
+	{ 341, 39, 0, 0 } ,
+	{ 342, 1014, 0, 0 } ,
+	{ 343, 483, offsetof(Sequencer_t597, ___disableInternalSequencerCommands_4), 0 } ,
+	{ 344, 30, offsetof(Sequencer_t597, ___hasCameraControl_5), 0 } ,
+	{ 345, 1138, offsetof(Sequencer_t597, ___originalCamera_6), 0 } ,
+	{ 346, 479, offsetof(Sequencer_t597, ___originalCameraPosition_7), 0 } ,
+	{ 347, 505, offsetof(Sequencer_t597, ___originalCameraRotation_8), 0 } ,
+	{ 348, 478, offsetof(Sequencer_t597, ___originalOrthographicSize_9), 0 } ,
+	{ 87, 796, offsetof(Sequencer_t597, ___speaker_10), 0 } ,
+	{ 88, 796, offsetof(Sequencer_t597, ___listener_11), 0 } ,
+	{ 349, 2163, offsetof(Sequencer_t597, ___queuedCommands_12), 0 } ,
+	{ 350, 2164, offsetof(Sequencer_t597, ___activeCommands_13), 0 } ,
+	{ 351, 30, offsetof(Sequencer_t597, ___informParticipants_14), 0 } ,
+	{ 352, 30, offsetof(Sequencer_t597, ___closeWhenFinished_15), 0 } ,
+	{ 353, 1138, offsetof(Sequencer_t597, ___sequencerCameraSource_16), 0 } ,
+	{ 354, 1138, offsetof(Sequencer_t597, ___sequencerCamera_17), 0 } ,
+	{ 355, 493, offsetof(Sequencer_t597, ___alternateSequencerCameraObject_18), 0 } ,
+	{ 356, 493, offsetof(Sequencer_t597, ___cameraAngles_19), 0 } ,
+	{ 357, 30, offsetof(Sequencer_t597, ___isUsingMainCamera_20), 0 } ,
+	{ 358, 30, offsetof(Sequencer_t597, ___isPlaying_21), 0 } ,
+	{ 359, 2165, offsetof(Sequencer_t597_StaticFields, ___cachedComponentTypes_22), 0 } ,
+	{ 360, 950, offsetof(Sequencer_t597, ___FinishedSequenceHandler_23), 0 } ,
+	{ 361, 40, offsetof(Sequencer_t597, ___U3CentrytagU3Ek__BackingField_24), 241 } ,
+	{ 362, 2166, offsetof(Sequencer_t597_StaticFields, ___U3CU3Ef__amU24cache15_25), 242 } ,
+	{ 363, 30, offsetof(SequencerCommand_t209, ___U3CIsPlayingU3Ek__BackingField_2), 262 } ,
+	{ 364, 2140, offsetof(SequencerCommand_t209, ___U3CSequencerU3Ek__BackingField_3), 263 } ,
+	{ 365, 1109, offsetof(SequencerCommand_t209, ___U3CParametersU3Ek__BackingField_4), 264 } ,
+	{ 366, 40, offsetof(SequencerCommand_t209, ___U3CendMessageU3Ek__BackingField_5), 265 } ,
+	{ 367, 796, offsetof(SequencerCommandAnimation_t891, ___subject_6), 0 } ,
+	{ 368, 44, offsetof(SequencerCommandAnimation_t891, ___nextAnimationIndex_7), 0 } ,
+	{ 369, 478, offsetof(SequencerCommandAnimation_t891, ___stopTime_8), 0 } ,
+	{ 370, 1008, offsetof(SequencerCommandAnimation_t891, ___anim_9), 0 } ,
+	{ 371, 1014, 0, 0 } ,
+	{ 372, 44, offsetof(SequencerCommandAnimatorFloat_t892, ___animatorParameterHash_7), 0 } ,
+	{ 373, 478, offsetof(SequencerCommandAnimatorFloat_t892, ___targetValue_8), 0 } ,
+	{ 367, 796, offsetof(SequencerCommandAnimatorFloat_t892, ___subject_9), 0 } ,
+	{ 374, 478, offsetof(SequencerCommandAnimatorFloat_t892, ___duration_10), 0 } ,
+	{ 375, 847, offsetof(SequencerCommandAnimatorFloat_t892, ___animator_11), 0 } ,
+	{ 331, 478, offsetof(SequencerCommandAnimatorFloat_t892, ___startTime_12), 0 } ,
+	{ 376, 478, offsetof(SequencerCommandAnimatorFloat_t892, ___endTime_13), 0 } ,
+	{ 377, 478, offsetof(SequencerCommandAnimatorFloat_t892, ___originalValue_14), 0 } ,
+	{ 371, 1014, 0, 0 } ,
+	{ 378, 44, offsetof(SequencerCommandAnimatorLayer_t893, ___layerIndex_7), 0 } ,
+	{ 379, 478, offsetof(SequencerCommandAnimatorLayer_t893, ___weight_8), 0 } ,
+	{ 367, 796, offsetof(SequencerCommandAnimatorLayer_t893, ___subject_9), 0 } ,
+	{ 374, 478, offsetof(SequencerCommandAnimatorLayer_t893, ___duration_10), 0 } ,
+	{ 375, 847, offsetof(SequencerCommandAnimatorLayer_t893, ___animator_11), 0 } ,
+	{ 331, 478, offsetof(SequencerCommandAnimatorLayer_t893, ___startTime_12), 0 } ,
+	{ 376, 478, offsetof(SequencerCommandAnimatorLayer_t893, ___endTime_13), 0 } ,
+	{ 380, 478, offsetof(SequencerCommandAnimatorLayer_t893, ___originalWeight_14), 0 } ,
+	{ 381, 738, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___U3CmaxStartTimeU3E__0_0), 0 } ,
+	{ 375, 2181, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___animator_1), 0 } ,
+	{ 382, 735, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___stateName_2), 0 } ,
+	{ 383, 2182, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___U3CanimatorStateInfoU3E__1_3), 0 } ,
+	{ 384, 740, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___U3CisInStateU3E__2_4), 0 } ,
+	{ 23, 517, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___U24PC_5), 0 } ,
+	{ 24, 518, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___U24current_6), 0 } ,
+	{ 385, 2181, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___U3CU24U3Eanimator_7), 0 } ,
+	{ 386, 735, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___U3CU24U3EstateName_8), 0 } ,
+	{ 25, 2183, offsetof(U3CMonitorStateU3Ec__IteratorA_t895, ___U3CU3Ef__this_9), 0 } ,
+	{ 387, 1014, 0, 0 } ,
+	{ 369, 478, offsetof(SequencerCommandAudioWait_t896, ___stopTime_6), 0 } ,
+	{ 388, 934, offsetof(SequencerCommandAudioWait_t896, ___audioSource_7), 0 } ,
+	{ 389, 44, offsetof(SequencerCommandAudioWait_t896, ___nextClipIndex_8), 0 } ,
+	{ 390, 2188, offsetof(SequencerCommandAudioWait_t896, ___lastClip_9), 0 } ,
+	{ 71, 50, offsetof(State_t897, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 391, 2191, 0, 0 } ,
+	{ 392, 2191, 0, 0 } ,
+	{ 393, 2191, 0, 0 } ,
+	{ 122, 2195, offsetof(SequencerCommandAudioWWW_t900, ___state_6), 0 } ,
+	{ 388, 934, offsetof(SequencerCommandAudioWWW_t900, ___audioSource_7), 0 } ,
+	{ 394, 2196, offsetof(SequencerCommandAudioWWW_t900, ___audioURLs_8), 0 } ,
+	{ 395, 2197, offsetof(SequencerCommandAudioWWW_t900, ___www_9), 0 } ,
+	{ 369, 478, offsetof(SequencerCommandAudioWWW_t900, ___stopTime_10), 0 } ,
+	{ 371, 1014, 0, 0 } ,
+	{ 367, 796, offsetof(SequencerCommandCamera_t901, ___subject_7), 0 } ,
+	{ 396, 796, offsetof(SequencerCommandCamera_t901, ___angleTransform_8), 0 } ,
+	{ 397, 796, offsetof(SequencerCommandCamera_t901, ___cameraTransform_9), 0 } ,
+	{ 398, 30, offsetof(SequencerCommandCamera_t901, ___isLocalTransform_10), 0 } ,
+	{ 399, 505, offsetof(SequencerCommandCamera_t901, ___targetRotation_11), 0 } ,
+	{ 400, 479, offsetof(SequencerCommandCamera_t901, ___targetPosition_12), 0 } ,
+	{ 374, 478, offsetof(SequencerCommandCamera_t901, ___duration_13), 0 } ,
+	{ 331, 478, offsetof(SequencerCommandCamera_t901, ___startTime_14), 0 } ,
+	{ 376, 478, offsetof(SequencerCommandCamera_t901, ___endTime_15), 0 } ,
+	{ 401, 505, offsetof(SequencerCommandCamera_t901, ___originalRotation_16), 0 } ,
+	{ 402, 479, offsetof(SequencerCommandCamera_t901, ___originalPosition_17), 0 } ,
+	{ 369, 478, offsetof(SequencerCommandDelay_t902, ___stopTime_6), 0 } ,
+	{ 371, 1014, 0, 0 } ,
+	{ 403, 40, offsetof(SequencerCommandFade_t905, ___direction_7), 0 } ,
+	{ 374, 478, offsetof(SequencerCommandFade_t905, ___duration_8), 0 } ,
+	{ 184, 902, offsetof(SequencerCommandFade_t905, ___color_9), 0 } ,
+	{ 404, 30, offsetof(SequencerCommandFade_t905, ___fadeIn_10), 0 } ,
+	{ 405, 2203, offsetof(SequencerCommandFade_t905, ___texture_11), 0 } ,
+	{ 406, 2204, offsetof(SequencerCommandFade_t905, ___faderGuiTexture_12), 0 } ,
+	{ 407, 493, offsetof(SequencerCommandFade_t905, ___fader_13), 0 } ,
+	{ 331, 478, offsetof(SequencerCommandFade_t905, ___startTime_14), 0 } ,
+	{ 376, 478, offsetof(SequencerCommandFade_t905, ___endTime_15), 0 } ,
+	{ 371, 1014, 0, 0 } ,
+	{ 367, 796, offsetof(SequencerCommandLiveCamera_t906, ___subject_7), 0 } ,
+	{ 396, 796, offsetof(SequencerCommandLiveCamera_t906, ___angleTransform_8), 0 } ,
+	{ 397, 796, offsetof(SequencerCommandLiveCamera_t906, ___cameraTransform_9), 0 } ,
+	{ 398, 30, offsetof(SequencerCommandLiveCamera_t906, ___isLocalTransform_10), 0 } ,
+	{ 399, 505, offsetof(SequencerCommandLiveCamera_t906, ___targetRotation_11), 0 } ,
+	{ 400, 479, offsetof(SequencerCommandLiveCamera_t906, ___targetPosition_12), 0 } ,
+	{ 374, 478, offsetof(SequencerCommandLiveCamera_t906, ___duration_13), 0 } ,
+	{ 331, 478, offsetof(SequencerCommandLiveCamera_t906, ___startTime_14), 0 } ,
+	{ 376, 478, offsetof(SequencerCommandLiveCamera_t906, ___endTime_15), 0 } ,
+	{ 401, 505, offsetof(SequencerCommandLiveCamera_t906, ___originalRotation_16), 0 } ,
+	{ 402, 479, offsetof(SequencerCommandLiveCamera_t906, ___originalPosition_17), 0 } ,
+	{ 408, 30, offsetof(SequencerCommandLiveCamera_t906, ___isOriginal_18), 0 } ,
+	{ 371, 1014, 0, 0 } ,
+	{ 409, 796, offsetof(SequencerCommandLookAt_t907, ___target_7), 0 } ,
+	{ 367, 796, offsetof(SequencerCommandLookAt_t907, ___subject_8), 0 } ,
+	{ 374, 478, offsetof(SequencerCommandLookAt_t907, ___duration_9), 0 } ,
+	{ 331, 478, offsetof(SequencerCommandLookAt_t907, ___startTime_10), 0 } ,
+	{ 376, 478, offsetof(SequencerCommandLookAt_t907, ___endTime_11), 0 } ,
+	{ 401, 505, offsetof(SequencerCommandLookAt_t907, ___originalRotation_12), 0 } ,
+	{ 399, 505, offsetof(SequencerCommandLookAt_t907, ___targetRotation_13), 0 } ,
+	{ 400, 479, offsetof(SequencerCommandLookAt_t907, ___targetPosition_14), 0 } ,
+	{ 371, 1014, 0, 0 } ,
+	{ 409, 796, offsetof(SequencerCommandMoveTo_t908, ___target_7), 0 } ,
+	{ 367, 796, offsetof(SequencerCommandMoveTo_t908, ___subject_8), 0 } ,
+	{ 374, 478, offsetof(SequencerCommandMoveTo_t908, ___duration_9), 0 } ,
+	{ 331, 478, offsetof(SequencerCommandMoveTo_t908, ___startTime_10), 0 } ,
+	{ 376, 478, offsetof(SequencerCommandMoveTo_t908, ___endTime_11), 0 } ,
+	{ 402, 479, offsetof(SequencerCommandMoveTo_t908, ___originalPosition_12), 0 } ,
+	{ 401, 505, offsetof(SequencerCommandMoveTo_t908, ___originalRotation_13), 0 } ,
+	{ 82, 44, offsetof(SequencerCommandQTE_t909, ___index_6), 0 } ,
+	{ 369, 478, offsetof(SequencerCommandQTE_t909, ___stopTime_7), 0 } ,
+	{ 410, 40, offsetof(SequencerCommandQTE_t909, ___button_8), 0 } ,
+	{ 153, 40, offsetof(SequencerCommandQTE_t909, ___variableName_9), 0 } ,
+	{ 411, 40, offsetof(SequencerCommandQTE_t909, ___variableQTEValue_10), 0 } ,
+	{ 412, 2213, offsetof(SequencerCommandQTE_t909, ___variableType_11), 0 } ,
+	{ 413, 2218, offsetof(SequencerCommandTextInput_t911, ___textFieldUI_6), 0 } ,
+	{ 153, 40, offsetof(SequencerCommandTextInput_t911, ___variableName_7), 0 } ,
+	{ 414, 30, offsetof(SequencerCommandTextInput_t911, ___acceptedText_8), 0 } ,
+	{ 369, 478, offsetof(SequencerCommandVoice_t912, ___stopTime_6), 0 } ,
+	{ 367, 796, offsetof(SequencerCommandVoice_t912, ___subject_7), 0 } ,
+	{ 415, 40, offsetof(SequencerCommandVoice_t912, ___finalClipName_8), 0 } ,
+	{ 370, 1008, offsetof(SequencerCommandVoice_t912, ___anim_9), 0 } ,
+	{ 388, 934, offsetof(SequencerCommandVoice_t912, ___audioSource_10), 0 } ,
+	{ 416, 40, offsetof(SequencerCommandWaitForMessage_t913, ___requiredMessage_6), 0 } ,
+	{ 371, 1014, 0, 0 } ,
+	{ 367, 796, offsetof(SequencerCommandZoom2D_t914, ___subject_7), 0 } ,
+	{ 400, 479, offsetof(SequencerCommandZoom2D_t914, ___targetPosition_8), 0 } ,
+	{ 402, 479, offsetof(SequencerCommandZoom2D_t914, ___originalPosition_9), 0 } ,
+	{ 417, 478, offsetof(SequencerCommandZoom2D_t914, ___targetSize_10), 0 } ,
+	{ 418, 478, offsetof(SequencerCommandZoom2D_t914, ___originalSize_11), 0 } ,
+	{ 374, 478, offsetof(SequencerCommandZoom2D_t914, ___duration_12), 0 } ,
+	{ 331, 478, offsetof(SequencerCommandZoom2D_t914, ___startTime_13), 0 } ,
+	{ 376, 478, offsetof(SequencerCommandZoom2D_t914, ___endTime_14), 0 } ,
+	{ 419, 74, offsetof(LocalizationSettings_t617, ___language_0), 0 } ,
+	{ 420, 483, offsetof(LocalizationSettings_t617, ___useSystemLanguage_1), 0 } ,
+	{ 421, 917, offsetof(LocalizationSettings_t617, ___localizedText_2), 0 } ,
+	{ 71, 50, offsetof(ContinueButtonMode_t915, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 422, 2228, 0, 0 } ,
+	{ 423, 2228, 0, 0 } ,
+	{ 424, 2228, 0, 0 } ,
+	{ 425, 2228, 0, 0 } ,
+	{ 426, 2228, 0, 0 } ,
+	{ 427, 2228, 0, 0 } ,
+	{ 428, 483, offsetof(SubtitleSettings_t606, ___showNPCSubtitlesDuringLine_0), 0 } ,
+	{ 429, 483, offsetof(SubtitleSettings_t606, ___showNPCSubtitlesWithResponses_1), 0 } ,
+	{ 430, 483, offsetof(SubtitleSettings_t606, ___showPCSubtitlesDuringLine_2), 0 } ,
+	{ 431, 483, offsetof(SubtitleSettings_t606, ___allowPCSubtitleReminders_3), 0 } ,
+	{ 432, 467, offsetof(SubtitleSettings_t606, ___subtitleCharsPerSecond_4), 0 } ,
+	{ 433, 467, offsetof(SubtitleSettings_t606, ___minSubtitleSeconds_5), 0 } ,
+	{ 434, 2231, offsetof(SubtitleSettings_t606, ___continueButton_6), 0 } ,
+	{ 435, 483, offsetof(SubtitleSettings_t606, ___richTextEmphases_7), 0 } ,
+	{ 436, 483, offsetof(SubtitleSettings_t606, ___informSequenceStartAndEnd_8), 0 } ,
+	{ 354, 2233, offsetof(CameraSettings_t916, ___sequencerCamera_0), 0 } ,
+	{ 437, 471, offsetof(CameraSettings_t916, ___alternateCameraObject_1), 0 } ,
+	{ 356, 471, offsetof(CameraSettings_t916, ___cameraAngles_2), 0 } ,
+	{ 438, 74, offsetof(CameraSettings_t916, ___defaultSequence_3), 0 } ,
+	{ 262, 2234, offsetof(CameraSettings_t916, ___entrytagFormat_4), 0 } ,
+	{ 343, 483, offsetof(CameraSettings_t916, ___disableInternalSequencerCommands_5), 281 } ,
+	{ 123, 483, offsetof(InputSettings_t918, ___alwaysForceResponseMenu_0), 0 } ,
+	{ 439, 467, offsetof(InputSettings_t918, ___responseTimeout_1), 0 } ,
+	{ 440, 2236, offsetof(InputSettings_t918, ___responseTimeoutAction_2), 0 } ,
+	{ 263, 2237, offsetof(InputSettings_t918, ___emTagForOldResponses_3), 0 } ,
+	{ 441, 1094, offsetof(InputSettings_t918, ___qteButtons_4), 0 } ,
+	{ 442, 2238, offsetof(InputSettings_t918, ___cancel_5), 0 } ,
+	{ 443, 2238, offsetof(InputSettings_t918, ___cancelConversation_6), 0 } ,
+	{ 444, 483, offsetof(AlertSettings_t919, ___allowAlertsDuringConversations_0), 0 } ,
+	{ 445, 467, offsetof(AlertSettings_t919, ___alertCheckFrequency_1), 0 } ,
+	{ 446, 471, offsetof(DisplaySettings_t605, ___dialogueUI_0), 0 } ,
+	{ 447, 2241, offsetof(DisplaySettings_t605, ___localizationSettings_1), 0 } ,
+	{ 448, 2242, offsetof(DisplaySettings_t605, ___subtitleSettings_2), 0 } ,
+	{ 449, 2243, offsetof(DisplaySettings_t605, ___cameraSettings_3), 0 } ,
+	{ 450, 2244, offsetof(DisplaySettings_t605, ___inputSettings_4), 0 } ,
+	{ 451, 2245, offsetof(DisplaySettings_t605, ___alertSettings_5), 0 } ,
+	{ 71, 50, offsetof(ResponseTimeoutAction_t920, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 452, 2247, 0, 0 } ,
+	{ 453, 2247, 0, 0 } ,
+	{ 71, 50, offsetof(EmTag_t921, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 454, 2250, 0, 0 } ,
+	{ 455, 2250, 0, 0 } ,
+	{ 456, 2250, 0, 0 } ,
+	{ 457, 2250, 0, 0 } ,
+	{ 458, 2250, 0, 0 } ,
+	{ 459, 907, offsetof(InputTrigger_t917, ___key_0), 0 } ,
+	{ 460, 74, offsetof(InputTrigger_t917, ___buttonName_1), 0 } ,
+	{ 461, 2254, offsetof(BitMaskAttribute_t922, ___propType_0), 0 } ,
+	{ 71, 50, offsetof(DebugLevel_t924, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 454, 2257, 0, 0 } ,
+	{ 462, 2257, 0, 0 } ,
+	{ 463, 2257, 0, 0 } ,
+	{ 464, 2257, 0, 0 } ,
+	{ 465, 64, 0, 0 } ,
+	{ 466, 2259, offsetof(DialogueDebug_t603_StaticFields, ___U3CLevelU3Ek__BackingField_1), 282 } ,
+	{ 71, 50, offsetof(TimeMode_t925, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 467, 2261, 0, 0 } ,
+	{ 468, 2261, 0, 0 } ,
+	{ 469, 530, offsetof(DialogueTime_t604_StaticFields, ___m_isPaused_0), 0 } ,
+	{ 470, 2264, offsetof(DialogueTime_t604_StaticFields, ___realtimeWhenPaused_1), 0 } ,
+	{ 471, 2264, offsetof(DialogueTime_t604_StaticFields, ___totalRealtimePaused_2), 0 } ,
+	{ 472, 2265, offsetof(DialogueTime_t604_StaticFields, ___U3CModeU3Ek__BackingField_3), 285 } ,
+	{ 71, 50, offsetof(Toggle_t927, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 473, 2278, 0, 0 } ,
+	{ 474, 2278, 0, 0 } ,
+	{ 475, 2278, 0, 0 } ,
+	{ 476, 2284, offsetof(Tools_t609_StaticFields, ___previousLockMode_0), 0 } ,
+	{ 313, 2133, offsetof(AbstractDialogueUI_t233, ___SelectedResponseHandler_2), 0 } ,
+	{ 477, 30, offsetof(AbstractDialogueUI_t233, ___U3CIsOpenU3Ek__BackingField_3), 290 } ,
+	{ 478, 2289, offsetof(AbstractUIAlertControls_t221, ___alertDoneTime_0), 0 } ,
+	{ 479, 2293, offsetof(AbstractUIResponseMenuControls_t244, ___buttonAlignment_0), 0 } ,
+	{ 480, 483, offsetof(AbstractUIResponseMenuControls_t244, ___showUnusedButtons_1), 0 } ,
+	{ 481, 2296, offsetof(AbstractUISubtitleControls_t246, ___currentSubtitle_0), 0 } ,
+	{ 136, 40, offsetof(QuestWatchItem_t932, ___title_0), 0 } ,
+	{ 482, 44, offsetof(QuestWatchItem_t932, ___entryNumber_1), 0 } ,
+	{ 41, 2301, offsetof(QuestWatchItem_t932, ___frequency_2), 0 } ,
+	{ 34, 40, offsetof(QuestWatchItem_t932, ___luaExpression_3), 0 } ,
+	{ 483, 2302, offsetof(QuestWatchItem_t932, ___questChangedHandler_4), 0 } ,
+	{ 136, 735, offsetof(U3CRemoveQuestStateObserverU3Ec__AnonStorey3F_t933, ___title_0), 0 } ,
+	{ 41, 1916, offsetof(U3CRemoveQuestStateObserverU3Ec__AnonStorey3F_t933, ___frequency_1), 0 } ,
+	{ 483, 2305, offsetof(U3CRemoveQuestStateObserverU3Ec__AnonStorey3F_t933, ___questChangedHandler_2), 0 } ,
+	{ 136, 735, offsetof(U3CRemoveQuestStateObserverU3Ec__AnonStorey40_t934, ___title_0), 0 } ,
+	{ 482, 517, offsetof(U3CRemoveQuestStateObserverU3Ec__AnonStorey40_t934, ___entryNumber_1), 0 } ,
+	{ 41, 1916, offsetof(U3CRemoveQuestStateObserverU3Ec__AnonStorey40_t934, ___frequency_2), 0 } ,
+	{ 483, 2305, offsetof(U3CRemoveQuestStateObserverU3Ec__AnonStorey40_t934, ___questChangedHandler_3), 0 } ,
+	{ 484, 64, 0, 0 } ,
+	{ 485, 64, 0, 0 } ,
+	{ 486, 64, 0, 0 } ,
+	{ 487, 64, 0, 0 } ,
+	{ 488, 64, 0, 0 } ,
+	{ 489, 64, 0, 0 } ,
+	{ 490, 2308, offsetof(QuestLog_t626_StaticFields, ___questWatchList_6), 0 } ,
+	{ 71, 50, offsetof(QuestHeadingSource_t936, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 491, 2310, 0, 0 } ,
+	{ 221, 2310, 0, 0 } ,
+	{ 492, 40, offsetof(QuestInfo_t269, ___U3CTitleU3Ek__BackingField_0), 307 } ,
+	{ 493, 2313, offsetof(QuestInfo_t269, ___U3CHeadingU3Ek__BackingField_1), 308 } ,
+	{ 494, 2313, offsetof(QuestInfo_t269, ___U3CDescriptionU3Ek__BackingField_2), 309 } ,
+	{ 495, 2314, offsetof(QuestInfo_t269, ___U3CEntriesU3Ek__BackingField_3), 310 } ,
+	{ 496, 2315, offsetof(QuestInfo_t269, ___U3CEntryStatesU3Ek__BackingField_4), 311 } ,
+	{ 497, 30, offsetof(QuestInfo_t269, ___U3CTrackableU3Ek__BackingField_5), 312 } ,
+	{ 498, 30, offsetof(QuestInfo_t269, ___U3CTrackU3Ek__BackingField_6), 313 } ,
+	{ 499, 30, offsetof(QuestInfo_t269, ___U3CAbandonableU3Ek__BackingField_7), 314 } ,
+	{ 421, 917, offsetof(QuestLogWindow_t198, ___localizedText_2), 0 } ,
+	{ 500, 2317, offsetof(QuestLogWindow_t198, ___questHeadingSource_3), 0 } ,
+	{ 501, 2318, offsetof(QuestLogWindow_t198, ___abandonQuestState_4), 0 } ,
+	{ 502, 483, offsetof(QuestLogWindow_t198, ___pauseWhileOpen_5), 0 } ,
+	{ 503, 483, offsetof(QuestLogWindow_t198, ___unlockCursorWhileOpen_6), 0 } ,
+	{ 504, 478, offsetof(QuestLogWindow_t198, ___previousTimeScale_7), 0 } ,
+	{ 505, 2319, offsetof(QuestLogWindow_t198, ___currentQuestStateMask_8), 0 } ,
+	{ 506, 30, offsetof(QuestLogWindow_t198, ___wasCursorActive_9), 0 } ,
+	{ 477, 30, offsetof(QuestLogWindow_t198, ___U3CIsOpenU3Ek__BackingField_10), 295 } ,
+	{ 507, 2320, offsetof(QuestLogWindow_t198, ___U3CQuestsU3Ek__BackingField_11), 296 } ,
+	{ 508, 40, offsetof(QuestLogWindow_t198, ___U3CSelectedQuestU3Ek__BackingField_12), 297 } ,
+	{ 509, 40, offsetof(QuestLogWindow_t198, ___U3CNoQuestsMessageU3Ek__BackingField_13), 298 } ,
+	{ 71, 50, offsetof(QuestState_t722, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 510, 2322, 0, 0 } ,
+	{ 511, 2322, 0, 0 } ,
+	{ 512, 2322, 0, 0 } ,
+	{ 513, 2322, 0, 0 } ,
+	{ 514, 2322, 0, 0 } ,
+	{ 515, 2324, offsetof(AbandonControls_t940, ___panel_0), 0 } ,
+	{ 516, 2325, offsetof(AbandonControls_t940, ___questTitleLabel_1), 0 } ,
+	{ 517, 2326, offsetof(AbandonControls_t940, ___ok_2), 0 } ,
+	{ 442, 2326, offsetof(AbandonControls_t940, ___cancel_3), 0 } ,
+	{ 518, 2329, offsetof(UnityGUIQuestLogWindow_t943, ___guiRoot_14), 0 } ,
+	{ 519, 2330, offsetof(UnityGUIQuestLogWindow_t943, ___scrollView_15), 0 } ,
+	{ 520, 2326, offsetof(UnityGUIQuestLogWindow_t943, ___activeButton_16), 0 } ,
+	{ 521, 2326, offsetof(UnityGUIQuestLogWindow_t943, ___completedButton_17), 0 } ,
+	{ 522, 2331, offsetof(UnityGUIQuestLogWindow_t943, ___abandonQuestPopup_18), 0 } ,
+	{ 523, 74, offsetof(UnityGUIQuestLogWindow_t943, ___questHeadingGuiStyleName_19), 0 } ,
+	{ 524, 74, offsetof(UnityGUIQuestLogWindow_t943, ___questHeadingOpenGuiStyleName_20), 0 } ,
+	{ 525, 74, offsetof(UnityGUIQuestLogWindow_t943, ___questBodyGuiStyleName_21), 0 } ,
+	{ 526, 74, offsetof(UnityGUIQuestLogWindow_t943, ___questEntryActiveGuiStyleName_22), 0 } ,
+	{ 527, 74, offsetof(UnityGUIQuestLogWindow_t943, ___questEntrySuccessGuiStyleName_23), 0 } ,
+	{ 528, 74, offsetof(UnityGUIQuestLogWindow_t943, ___questEntryFailureGuiStyleName_24), 0 } ,
+	{ 529, 74, offsetof(UnityGUIQuestLogWindow_t943, ___questEntryButtonStyleName_25), 0 } ,
+	{ 530, 74, offsetof(UnityGUIQuestLogWindow_t943, ___noQuestsGuiStyleName_26), 0 } ,
+	{ 531, 536, offsetof(UnityGUIQuestLogWindow_t943, ___padding_27), 0 } ,
+	{ 532, 1019, offsetof(UnityGUIQuestLogWindow_t943, ___questHeadingStyle_28), 0 } ,
+	{ 533, 1019, offsetof(UnityGUIQuestLogWindow_t943, ___questHeadingOpenStyle_29), 0 } ,
+	{ 534, 1019, offsetof(UnityGUIQuestLogWindow_t943, ___questBodyStyle_30), 0 } ,
+	{ 535, 1019, offsetof(UnityGUIQuestLogWindow_t943, ___questEntryActiveStyle_31), 0 } ,
+	{ 536, 1019, offsetof(UnityGUIQuestLogWindow_t943, ___questEntrySuccessStyle_32), 0 } ,
+	{ 537, 1019, offsetof(UnityGUIQuestLogWindow_t943, ___questEntryFailureStyle_33), 0 } ,
+	{ 538, 1019, offsetof(UnityGUIQuestLogWindow_t943, ___questButtonStyle_34), 0 } ,
+	{ 539, 950, offsetof(UnityGUIQuestLogWindow_t943, ___confirmAbandonQuestHandler_35), 0 } ,
+	{ 71, 50, offsetof(FunctionOnUse_t944, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 454, 2333, 0, 0 } ,
+	{ 540, 2333, 0, 0 } ,
+	{ 541, 2333, 0, 0 } ,
+	{ 542, 2333, 0, 0 } ,
+	{ 543, 74, offsetof(GameSaver_t945, ___playerPrefsKey_2), 0 } ,
+	{ 544, 536, offsetof(GameSaver_t945, ___slot_3), 0 } ,
+	{ 545, 2337, offsetof(GameSaver_t945, ___functionOnUse_4), 0 } ,
+	{ 546, 483, offsetof(GameSaver_t945, ___applyGameStateWhenLoadingLevels_5), 0 } ,
+	{ 547, 483, offsetof(GameSaver_t945, ___includeAllItemData_6), 0 } ,
+	{ 48, 483, offsetof(GameSaver_t945, ___includeSimStatus_7), 0 } ,
+	{ 548, 74, offsetof(GameSaver_t945, ___startingLevel_8), 0 } ,
+	{ 50, 483, offsetof(GameSaver_t945, ___dontDestroyOnLoad_9), 0 } ,
+	{ 549, 735, offsetof(U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947, ___U3ClevelNameU3E__0_0), 0 } ,
+	{ 550, 735, offsetof(U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947, ___saveData_1), 0 } ,
+	{ 551, 2339, offsetof(U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947, ___U3CasyncU3E__1_2), 0 } ,
+	{ 23, 517, offsetof(U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947, ___U24PC_3), 0 } ,
+	{ 24, 518, offsetof(U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947, ___U24current_4), 0 } ,
+	{ 552, 735, offsetof(U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947, ___U3CU24U3EsaveData_5), 0 } ,
+	{ 25, 2340, offsetof(U3CLoadLevelFromSaveDataU3Ec__IteratorB_t947, ___U3CU3Ef__this_6), 0 } ,
+	{ 553, 735, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___levelName_0), 0 } ,
+	{ 554, 2339, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___U3CasyncU3E__0_1), 0 } ,
+	{ 555, 2342, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___U3CplayerU3E__1_2), 0 } ,
+	{ 556, 2343, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___U3CpersistentPosU3E__2_3), 0 } ,
+	{ 557, 740, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___U3CoriginalValueU3E__3_4), 0 } ,
+	{ 23, 517, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___U24PC_5), 0 } ,
+	{ 24, 518, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___U24current_6), 0 } ,
+	{ 558, 735, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___U3CU24U3ElevelName_7), 0 } ,
+	{ 25, 2340, offsetof(U3CLoadLevelCoroutineU3Ec__IteratorC_t949, ___U3CU3Ef__this_8), 0 } ,
+	{ 559, 74, offsetof(LevelManager_t584, ___defaultStartingLevel_2), 0 } ,
+	{ 560, 30, offsetof(LevelManager_t584, ___U3CIsLoadingU3Ek__BackingField_3), 335 } ,
+	{ 409, 471, offsetof(PersistentActiveData_t950, ___target_2), 0 } ,
+	{ 561, 827, offsetof(PersistentActiveData_t950, ___condition_3), 0 } ,
+	{ 136, 735, offsetof(U3CAppendItemDataU3Ec__AnonStorey41_t951, ___title_0), 0 } ,
+	{ 562, 1555, 0, 0 } ,
+	{ 563, 1555, 0, 0 } ,
+	{ 547, 504, offsetof(PersistentDataManager_t587_StaticFields, ___includeAllItemData_2), 0 } ,
+	{ 48, 504, offsetof(PersistentDataManager_t587_StaticFields, ___includeSimStatus_3), 0 } ,
+	{ 564, 2349, offsetof(PersistentDataManager_t587_StaticFields, ___GetCustomSaveData_4), 0 } ,
+	{ 565, 74, offsetof(PersistentPositionData_t948, ___overrideActorName_2), 0 } ,
+	{ 566, 483, offsetof(PersistentPositionData_t948, ___recordCurrentLevel_3), 0 } ,
+	{ 567, 483, offsetof(PersistentPositionData_t948, ___restoreCurrentLevelPosition_4), 0 } ,
+	{ 568, 1094, offsetof(Condition_t203, ___luaConditions_0), 0 } ,
+	{ 569, 2352, offsetof(Condition_t203, ___questConditions_1), 0 } ,
+	{ 570, 1094, offsetof(Condition_t203, ___acceptedTags_2), 0 } ,
+	{ 571, 491, offsetof(Condition_t203, ___acceptedGameObjects_3), 0 } ,
+	{ 572, 536, offsetof(Condition_t203, ___luaWizardIndex_4), 353 } ,
+	{ 573, 74, offsetof(QuestCondition_t954, ___questName_0), 0 } ,
+	{ 574, 2318, offsetof(QuestCondition_t954, ___questState_1), 354 } ,
+	{ 561, 827, offsetof(Action_t955, ___condition_0), 0 } ,
+	{ 575, 2358, offsetof(ActOnDialogueEvent_t956, ___trigger_2), 0 } ,
+	{ 576, 483, offsetof(ActOnDialogueEvent_t956, ___once_3), 0 } ,
+	{ 577, 826, offsetof(ActOnDialogueEvent_t956, ___selectedDatabase_4), 355 } ,
+	{ 87, 482, offsetof(BarkAction_t957, ___speaker_1), 0 } ,
+	{ 88, 482, offsetof(BarkAction_t957, ___listener_2), 0 } ,
+	{ 256, 74, offsetof(BarkAction_t957, ___conversation_3), 360 } ,
+	{ 578, 2362, offsetof(BarkOnDialogueEvent_t959, ___onStart_5), 0 } ,
+	{ 579, 2362, offsetof(BarkOnDialogueEvent_t959, ___onEnd_6), 0 } ,
+	{ 580, 1937, offsetof(BarkOnDialogueEvent_t959, ___barkOrder_7), 0 } ,
+	{ 91, 2363, offsetof(BarkOnDialogueEvent_t959, ___barkHistory_8), 0 } ,
+	{ 581, 2140, offsetof(BarkOnDialogueEvent_t959, ___U3CsequencerU3Ek__BackingField_9), 357 } ,
+	{ 71, 50, offsetof(DialogueEvent_t960, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 582, 2365, 0, 0 } ,
+	{ 583, 2365, 0, 0 } ,
+	{ 584, 2365, 0, 0 } ,
+	{ 585, 74, offsetof(LuaAction_t961, ___luaCode_1), 363 } ,
+	{ 578, 2370, offsetof(LuaOnDialogueEvent_t963, ___onStart_5), 0 } ,
+	{ 579, 2370, offsetof(LuaOnDialogueEvent_t963, ___onEnd_6), 0 } ,
+	{ 586, 483, offsetof(LuaOnDialogueEvent_t963, ___debugLua_7), 0 } ,
+	{ 409, 482, offsetof(SendMessageAction_t964, ___target_1), 0 } ,
+	{ 587, 74, offsetof(SendMessageAction_t964, ___methodName_2), 0 } ,
+	{ 588, 74, offsetof(SendMessageAction_t964, ___parameter_3), 0 } ,
+	{ 578, 2374, offsetof(SendMessageOnDialogueEvent_t966, ___onStart_5), 0 } ,
+	{ 579, 2374, offsetof(SendMessageOnDialogueEvent_t966, ___onEnd_6), 0 } ,
+	{ 409, 482, offsetof(SetActiveAction_t967, ___target_1), 0 } ,
+	{ 122, 2376, offsetof(SetActiveAction_t967, ___state_2), 0 } ,
+	{ 578, 2379, offsetof(SetActiveOnDialogueEvent_t969, ___onStart_5), 0 } ,
+	{ 579, 2379, offsetof(SetActiveOnDialogueEvent_t969, ___onEnd_6), 0 } ,
+	{ 409, 482, offsetof(SetAnimationAction_t970, ___target_1), 0 } ,
+	{ 589, 1005, offsetof(SetAnimationAction_t970, ___animationClip_2), 0 } ,
+	{ 578, 2383, offsetof(SetAnimationOnDialogueEvent_t972, ___onStart_5), 0 } ,
+	{ 579, 2383, offsetof(SetAnimationOnDialogueEvent_t972, ___onEnd_6), 0 } ,
+	{ 409, 482, offsetof(SetAnimatorStateAction_t973, ___target_1), 0 } ,
+	{ 382, 74, offsetof(SetAnimatorStateAction_t973, ___stateName_2), 0 } ,
+	{ 590, 467, offsetof(SetAnimatorStateAction_t973, ___crossFadeDuration_3), 0 } ,
+	{ 578, 2387, offsetof(SetAnimatorStateOnDialogueEvent_t975, ___onStart_5), 0 } ,
+	{ 579, 2387, offsetof(SetAnimatorStateOnDialogueEvent_t975, ___onEnd_6), 0 } ,
+	{ 409, 1398, offsetof(SetComponentEnabledAction_t976, ___target_1), 0 } ,
+	{ 122, 2376, offsetof(SetComponentEnabledAction_t976, ___state_2), 0 } ,
+	{ 578, 2391, offsetof(SetComponentEnabledOnDialogueEvent_t978, ___onStart_5), 0 } ,
+	{ 579, 2391, offsetof(SetComponentEnabledOnDialogueEvent_t978, ___onEnd_6), 0 } ,
+	{ 409, 1517, offsetof(SetEnabledAction_t979, ___target_1), 0 } ,
+	{ 122, 2376, offsetof(SetEnabledAction_t979, ___state_2), 0 } ,
+	{ 578, 2395, offsetof(SetEnabledOnDialogueEvent_t981, ___onStart_5), 0 } ,
+	{ 579, 2395, offsetof(SetEnabledOnDialogueEvent_t981, ___onEnd_6), 0 } ,
+	{ 573, 74, offsetof(SetQuestStateAction_t982, ___questName_1), 370 } ,
+	{ 574, 2318, offsetof(SetQuestStateAction_t982, ___questState_2), 0 } ,
+	{ 591, 74, offsetof(SetQuestStateAction_t982, ___alertMessage_3), 0 } ,
+	{ 578, 2399, offsetof(SetQuestStateOnDialogueEvent_t984, ___onStart_5), 0 } ,
+	{ 579, 2399, offsetof(SetQuestStateOnDialogueEvent_t984, ___onEnd_6), 0 } ,
+	{ 23, 517, offsetof(U3CShowCursorAfterOneFrameU3Ec__IteratorD_t985, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CShowCursorAfterOneFrameU3Ec__IteratorD_t985, ___U24current_1), 0 } ,
+	{ 592, 30, offsetof(ShowCursorOnConversation_t986, ___wasCursorVisible_2), 0 } ,
+	{ 593, 2403, offsetof(ShowCursorOnConversation_t986, ___savedLockState_3), 0 } ,
+	{ 87, 482, offsetof(ConversationAction_t987, ___speaker_1), 0 } ,
+	{ 88, 482, offsetof(ConversationAction_t987, ___listener_2), 0 } ,
+	{ 256, 74, offsetof(ConversationAction_t987, ___conversation_3), 379 } ,
+	{ 594, 483, offsetof(ConversationAction_t987, ___skipIfNoValidEntries_4), 0 } ,
+	{ 578, 2407, offsetof(StartConversationOnDialogueEvent_t989, ___onStart_5), 0 } ,
+	{ 579, 2407, offsetof(StartConversationOnDialogueEvent_t989, ___onEnd_6), 0 } ,
+	{ 252, 482, offsetof(SequenceAction_t990, ___actor_1), 0 } ,
+	{ 595, 482, offsetof(SequenceAction_t990, ___otherParticipant_2), 0 } ,
+	{ 309, 74, offsetof(SequenceAction_t990, ___sequence_3), 381 } ,
+	{ 578, 2411, offsetof(StartSequenceOnDialogueEvent_t992, ___onStart_5), 0 } ,
+	{ 579, 2411, offsetof(StartSequenceOnDialogueEvent_t992, ___onEnd_6), 0 } ,
+	{ 252, 516, offsetof(U3CMonitorDistanceU3Ec__IteratorE_t994, ___actor_0), 0 } ,
+	{ 596, 516, offsetof(U3CMonitorDistanceU3Ec__IteratorE_t994, ___U3CmyTransformU3E__0_1), 0 } ,
+	{ 23, 517, offsetof(U3CMonitorDistanceU3Ec__IteratorE_t994, ___U24PC_2), 0 } ,
+	{ 24, 518, offsetof(U3CMonitorDistanceU3Ec__IteratorE_t994, ___U24current_3), 0 } ,
+	{ 597, 516, offsetof(U3CMonitorDistanceU3Ec__IteratorE_t994, ___U3CU24U3Eactor_4), 0 } ,
+	{ 25, 2413, offsetof(U3CMonitorDistanceU3Ec__IteratorE_t994, ___U3CU3Ef__this_5), 0 } ,
+	{ 598, 467, offsetof(StopConversationIfTooFar_t993, ___maxDistance_2), 0 } ,
+	{ 599, 467, offsetof(StopConversationIfTooFar_t993, ___monitorFrequency_3), 0 } ,
+	{ 23, 517, offsetof(U3CStartAfterOneFrameU3Ec__IteratorF_t996, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CStartAfterOneFrameU3Ec__IteratorF_t996, ___U24current_1), 0 } ,
+	{ 25, 2417, offsetof(U3CStartAfterOneFrameU3Ec__IteratorF_t996, ___U3CU3Ef__this_2), 0 } ,
+	{ 575, 995, offsetof(AlertTrigger_t995, ___trigger_3), 0 } ,
+	{ 600, 917, offsetof(AlertTrigger_t995, ___localizedTextTable_4), 0 } ,
+	{ 339, 74, offsetof(AlertTrigger_t995, ___message_5), 0 } ,
+	{ 374, 467, offsetof(AlertTrigger_t995, ___duration_6), 0 } ,
+	{ 561, 827, offsetof(AlertTrigger_t995, ___condition_7), 0 } ,
+	{ 601, 30, offsetof(AlertTrigger_t995, ___tryingToStart_8), 0 } ,
+	{ 23, 517, offsetof(U3CBarkLoopU3Ec__Iterator10_t999, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CBarkLoopU3Ec__Iterator10_t999, ___U24current_1), 0 } ,
+	{ 25, 2422, offsetof(U3CBarkLoopU3Ec__Iterator10_t999, ___U3CU3Ef__this_2), 0 } ,
+	{ 602, 467, offsetof(BarkOnIdle_t998, ___minSeconds_18), 0 } ,
+	{ 603, 467, offsetof(BarkOnIdle_t998, ___maxSeconds_19), 0 } ,
+	{ 409, 482, offsetof(BarkOnIdle_t998, ___target_20), 0 } ,
+	{ 580, 1937, offsetof(BarkStarter_t1000, ___barkOrder_10), 0 } ,
+	{ 604, 483, offsetof(BarkStarter_t1000, ___allowDuringConversations_11), 0 } ,
+	{ 605, 483, offsetof(BarkStarter_t1000, ___cacheBarkLines_12), 0 } ,
+	{ 91, 2363, offsetof(BarkStarter_t1000, ___barkHistory_13), 0 } ,
+	{ 606, 30, offsetof(BarkStarter_t1000, ___tryingToBark_14), 0 } ,
+	{ 607, 1928, offsetof(BarkStarter_t1000, ___cachedState_15), 0 } ,
+	{ 109, 2427, offsetof(BarkStarter_t1000, ___barkUI_16), 0 } ,
+	{ 581, 2140, offsetof(BarkStarter_t1000, ___U3CsequencerU3Ek__BackingField_17), 403 } ,
+	{ 23, 517, offsetof(U3CBarkAfterOneFrameU3Ec__Iterator11_t1003, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CBarkAfterOneFrameU3Ec__Iterator11_t1003, ___U24current_1), 0 } ,
+	{ 25, 2430, offsetof(U3CBarkAfterOneFrameU3Ec__Iterator11_t1003, ___U3CU3Ef__this_2), 0 } ,
+	{ 409, 482, offsetof(BarkTrigger_t1002, ___target_18), 0 } ,
+	{ 575, 995, offsetof(BarkTrigger_t1002, ___trigger_19), 0 } ,
+	{ 608, 471, offsetof(SendMessageAction_t1004, ___gameObject_0), 0 } ,
+	{ 339, 74, offsetof(SendMessageAction_t1004, ___message_1), 0 } ,
+	{ 588, 74, offsetof(SendMessageAction_t1004, ___parameter_2), 0 } ,
+	{ 23, 517, offsetof(U3CObserveU3Ec__Iterator12_t1006, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CObserveU3Ec__Iterator12_t1006, ___U24current_1), 0 } ,
+	{ 25, 2436, offsetof(U3CObserveU3Ec__Iterator12_t1006, ___U3CU3Ef__this_2), 0 } ,
+	{ 41, 467, offsetof(ConditionObserver_t1005, ___frequency_2), 0 } ,
+	{ 576, 483, offsetof(ConditionObserver_t1005, ___once_3), 0 } ,
+	{ 609, 471, offsetof(ConditionObserver_t1005, ___observeGameObject_4), 0 } ,
+	{ 561, 827, offsetof(ConditionObserver_t1005, ___condition_5), 0 } ,
+	{ 573, 74, offsetof(ConditionObserver_t1005, ___questName_6), 0 } ,
+	{ 574, 2318, offsetof(ConditionObserver_t1005, ___questState_7), 0 } ,
+	{ 585, 74, offsetof(ConditionObserver_t1005, ___luaCode_8), 0 } ,
+	{ 309, 74, offsetof(ConditionObserver_t1005, ___sequence_9), 0 } ,
+	{ 591, 74, offsetof(ConditionObserver_t1005, ___alertMessage_10), 0 } ,
+	{ 600, 917, offsetof(ConditionObserver_t1005, ___localizedTextTable_11), 0 } ,
+	{ 610, 2438, offsetof(ConditionObserver_t1005, ___sendMessages_12), 0 } ,
+	{ 611, 483, offsetof(ConditionObserver_t1005, ___useQuestNamePicker_13), 414 } ,
+	{ 612, 30, offsetof(ConditionObserver_t1005, ___started_14), 0 } ,
+	{ 256, 74, offsetof(ConversationStarter_t1001, ___conversation_3), 0 } ,
+	{ 561, 827, offsetof(ConversationStarter_t1001, ___condition_4), 0 } ,
+	{ 594, 483, offsetof(ConversationStarter_t1001, ___skipIfNoValidEntries_5), 0 } ,
+	{ 613, 482, offsetof(ConversationStarter_t1001, ___conversant_6), 0 } ,
+	{ 601, 30, offsetof(ConversationStarter_t1001, ___tryingToStart_7), 0 } ,
+	{ 614, 483, offsetof(ConversationStarter_t1001, ___useConversationTitlePicker_8), 421 } ,
+	{ 577, 826, offsetof(ConversationStarter_t1001, ___selectedDatabase_9), 422 } ,
+	{ 23, 517, offsetof(U3CStartConversationAfterOneFrameU3Ec__Iterator13_t1009, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CStartConversationAfterOneFrameU3Ec__Iterator13_t1009, ___U24current_1), 0 } ,
+	{ 25, 2441, offsetof(U3CStartConversationAfterOneFrameU3Ec__Iterator13_t1009, ___U3CU3Ef__this_2), 0 } ,
+	{ 615, 1014, 0, 0 } ,
+	{ 252, 482, offsetof(ConversationTrigger_t1008, ___actor_11), 0 } ,
+	{ 575, 995, offsetof(ConversationTrigger_t1008, ___trigger_12), 0 } ,
+	{ 616, 483, offsetof(ConversationTrigger_t1008, ___stopConversationOnTriggerExit_13), 0 } ,
+	{ 617, 478, offsetof(ConversationTrigger_t1008, ___earliestTimeToAllowTriggerExit_14), 0 } ,
+	{ 576, 483, offsetof(DialogueEventStarter_t997, ___once_2), 0 } ,
+	{ 71, 50, offsetof(DialogueTriggerEvent_t1010, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 618, 2446, 0, 0 } ,
+	{ 619, 2446, 0, 0 } ,
+	{ 620, 2446, 0, 0 } ,
+	{ 621, 2446, 0, 0 } ,
+	{ 622, 2446, 0, 0 } ,
+	{ 623, 2446, 0, 0 } ,
+	{ 624, 2446, 0, 0 } ,
+	{ 625, 2446, 0, 0 } ,
+	{ 626, 2446, 0, 0 } ,
+	{ 627, 2446, 0, 0 } ,
+	{ 454, 2446, 0, 0 } ,
+	{ 23, 517, offsetof(U3CStartAfterOneFrameU3Ec__Iterator14_t1012, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CStartAfterOneFrameU3Ec__Iterator14_t1012, ___U24current_1), 0 } ,
+	{ 25, 2449, offsetof(U3CStartAfterOneFrameU3Ec__Iterator14_t1012, ___U3CU3Ef__this_2), 0 } ,
+	{ 575, 995, offsetof(LuaTrigger_t1011, ___trigger_3), 0 } ,
+	{ 561, 827, offsetof(LuaTrigger_t1011, ___condition_4), 0 } ,
+	{ 585, 74, offsetof(LuaTrigger_t1011, ___luaCode_5), 0 } ,
+	{ 601, 30, offsetof(LuaTrigger_t1011, ___tryingToStart_6), 0 } ,
+	{ 608, 471, offsetof(SendMessageAction_t1013, ___gameObject_0), 0 } ,
+	{ 339, 74, offsetof(SendMessageAction_t1013, ___message_1), 0 } ,
+	{ 588, 74, offsetof(SendMessageAction_t1013, ___parameter_2), 0 } ,
+	{ 23, 517, offsetof(U3CStartAfterOneFrameU3Ec__Iterator15_t1015, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CStartAfterOneFrameU3Ec__Iterator15_t1015, ___U24current_1), 0 } ,
+	{ 25, 2455, offsetof(U3CStartAfterOneFrameU3Ec__Iterator15_t1015, ___U3CU3Ef__this_2), 0 } ,
+	{ 575, 995, offsetof(QuestTrigger_t1014, ___trigger_3), 0 } ,
+	{ 561, 827, offsetof(QuestTrigger_t1014, ___condition_4), 0 } ,
+	{ 573, 74, offsetof(QuestTrigger_t1014, ___questName_5), 0 } ,
+	{ 574, 2318, offsetof(QuestTrigger_t1014, ___questState_6), 0 } ,
+	{ 585, 74, offsetof(QuestTrigger_t1014, ___luaCode_7), 0 } ,
+	{ 591, 74, offsetof(QuestTrigger_t1014, ___alertMessage_8), 0 } ,
+	{ 600, 917, offsetof(QuestTrigger_t1014, ___localizedTextTable_9), 0 } ,
+	{ 610, 2457, offsetof(QuestTrigger_t1014, ___sendMessages_10), 0 } ,
+	{ 611, 483, offsetof(QuestTrigger_t1014, ___useQuestNamePicker_11), 439 } ,
+	{ 577, 826, offsetof(QuestTrigger_t1014, ___selectedDatabase_12), 440 } ,
+	{ 601, 30, offsetof(QuestTrigger_t1014, ___tryingToStart_13), 0 } ,
+	{ 309, 74, offsetof(SequenceStarter_t1017, ___sequence_3), 447 } ,
+	{ 87, 482, offsetof(SequenceStarter_t1017, ___speaker_4), 0 } ,
+	{ 88, 482, offsetof(SequenceStarter_t1017, ___listener_5), 0 } ,
+	{ 561, 827, offsetof(SequenceStarter_t1017, ___condition_6), 0 } ,
+	{ 601, 30, offsetof(SequenceStarter_t1017, ___tryingToStart_7), 0 } ,
+	{ 23, 517, offsetof(U3CStartSequenceAfterOneFrameU3Ec__Iterator16_t1019, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CStartSequenceAfterOneFrameU3Ec__Iterator16_t1019, ___U24current_1), 0 } ,
+	{ 25, 2461, offsetof(U3CStartSequenceAfterOneFrameU3Ec__Iterator16_t1019, ___U3CU3Ef__this_2), 0 } ,
+	{ 575, 995, offsetof(SequenceTrigger_t1018, ___trigger_8), 0 } ,
+	{ 628, 483, offsetof(SequenceTrigger_t1018, ___waitOneFrameOnStartOrEnable_9), 0 } ,
+	{ 629, 483, offsetof(GUIButton_t939, ___clickable_28), 0 } ,
+	{ 630, 2467, offsetof(GUIButton_t939, ___disabled_29), 0 } ,
+	{ 631, 2467, offsetof(GUIButton_t939, ___normal_30), 0 } ,
+	{ 632, 2467, offsetof(GUIButton_t939, ___hover_31), 0 } ,
+	{ 633, 2467, offsetof(GUIButton_t939, ___pressed_32), 0 } ,
+	{ 634, 933, offsetof(GUIButton_t939, ___hoverSound_33), 0 } ,
+	{ 635, 933, offsetof(GUIButton_t939, ___clickSound_34), 0 } ,
+	{ 575, 2238, offsetof(GUIButton_t939, ___trigger_35), 0 } ,
+	{ 339, 74, offsetof(GUIButton_t939, ___message_36), 0 } ,
+	{ 588, 74, offsetof(GUIButton_t939, ___parameter_37), 0 } ,
+	{ 409, 482, offsetof(GUIButton_t939, ___target_38), 0 } ,
+	{ 636, 1379, offsetof(GUIButton_t939, ___data_39), 0 } ,
+	{ 637, 30, offsetof(GUIButton_t939, ___isHovered_40), 0 } ,
+	{ 638, 536, offsetof(GUIControl_t937, ___depth_2), 0 } ,
+	{ 639, 483, offsetof(GUIControl_t937, ___depthSortChildren_3), 0 } ,
+	{ 640, 1017, offsetof(GUIControl_t937, ___scaledRect_4), 0 } ,
+	{ 641, 2469, offsetof(GUIControl_t937, ___autoSize_5), 0 } ,
+	{ 642, 2470, offsetof(GUIControl_t937, ___fit_6), 0 } ,
+	{ 643, 2471, offsetof(GUIControl_t937, ___navigation_7), 0 } ,
+	{ 11, 483, offsetof(GUIControl_t937, ___visible_8), 0 } ,
+	{ 644, 483, offsetof(GUIControl_t937, ___clipChildren_9), 0 } ,
+	{ 645, 40, offsetof(GUIControl_t937, ___fullName_10), 0 } ,
+	{ 646, 2472, offsetof(GUIControl_t937, ___children_11), 0 } ,
+	{ 647, 30, offsetof(GUIControl_t937, ___needToUpdateLayout_12), 0 } ,
+	{ 648, 1058, offsetof(GUIControl_t937, ___windowSize_13), 0 } ,
+	{ 649, 30, offsetof(GUIControl_t937, ___navigationSelectButtonClicked_14), 0 } ,
+	{ 650, 822, offsetof(GUIControl_t937, ___U3CrectU3Ek__BackingField_15), 456 } ,
+	{ 651, 1058, offsetof(GUIControl_t937, ___U3COffsetU3Ek__BackingField_16), 457 } ,
+	{ 652, 1058, offsetof(GUIControl_t937, ___U3CdRectU3Ek__BackingField_17), 458 } ,
+	{ 653, 2473, offsetof(GUIControl_t937_StaticFields, ___U3CU3Ef__amU24cache10_18), 459 } ,
+	{ 654, 2467, offsetof(GUIImage_t1030, ___image_28), 0 } ,
+	{ 655, 2475, offsetof(GUIImage_t1030, ___imageAnimation_29), 0 } ,
+	{ 656, 1097, offsetof(GUIImageParams_t1022, ___pixelRect_0), 0 } ,
+	{ 405, 555, offsetof(GUIImageParams_t1022, ___texture_1), 0 } ,
+	{ 657, 483, offsetof(GUIImageParams_t1022, ___useTexCoords_2), 0 } ,
+	{ 658, 1097, offsetof(GUIImageParams_t1022, ___texCoords_3), 0 } ,
+	{ 659, 2478, offsetof(GUIImageParams_t1022, ___scaleMode_4), 0 } ,
+	{ 660, 483, offsetof(GUIImageParams_t1022, ___alphaBlend_5), 0 } ,
+	{ 184, 600, offsetof(GUIImageParams_t1022, ___color_6), 0 } ,
+	{ 661, 467, offsetof(GUIImageParams_t1022, ___aspect_7), 0 } ,
+	{ 662, 1016, offsetof(GUILabel_t938, ___textStyle_28), 0 } ,
+	{ 663, 600, offsetof(GUILabel_t938, ___textStyleColor_29), 0 } ,
+	{ 664, 600, offsetof(GUILabel_t938, ___imageColor_30), 0 } ,
+	{ 654, 555, offsetof(GUILabel_t938, ___image_31), 0 } ,
+	{ 655, 2475, offsetof(GUILabel_t938, ___imageAnimation_32), 0 } ,
+	{ 665, 935, offsetof(GUILabel_t938, ___closureTags_33), 0 } ,
+	{ 666, 30, offsetof(GUILabel_t938, ___useSubstring_34), 0 } ,
+	{ 667, 44, offsetof(GUILabel_t938, ___substringLength_35), 0 } ,
+	{ 668, 44, offsetof(GUILabel_t938, ___substringLengthLastGetRichTextClosedString_36), 0 } ,
+	{ 669, 40, offsetof(GUILabel_t938, ___richTextClosedString_37), 0 } ,
+	{ 71, 50, offsetof(Origin_t1031, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 670, 2482, 0, 0 } ,
+	{ 671, 2482, 0, 0 } ,
+	{ 672, 2482, 0, 0 } ,
+	{ 673, 2482, 0, 0 } ,
+	{ 674, 2482, 0, 0 } ,
+	{ 675, 2482, 0, 0 } ,
+	{ 676, 2485, offsetof(GUIProgressBar_t1032, ___origin_28), 0 } ,
+	{ 677, 555, offsetof(GUIProgressBar_t1032, ___emptyImage_29), 0 } ,
+	{ 678, 555, offsetof(GUIProgressBar_t1032, ___fullImage_30), 0 } ,
+	{ 679, 467, offsetof(GUIProgressBar_t1032, ___progress_31), 0 } ,
+	{ 680, 820, offsetof(GUIRoot_t941, ___guiSkin_19), 0 } ,
+	{ 681, 483, offsetof(GUIScrollView_t942, ___showVerticalScrollbar_19), 0 } ,
+	{ 682, 483, offsetof(GUIScrollView_t942, ___showHorizontalScrollbar_20), 0 } ,
+	{ 531, 536, offsetof(GUIScrollView_t942, ___padding_21), 0 } ,
+	{ 683, 1058, offsetof(GUIScrollView_t942, ___scrollViewVector_22), 0 } ,
+	{ 684, 950, offsetof(GUIScrollView_t942, ___MeasureContentHandler_23), 0 } ,
+	{ 685, 950, offsetof(GUIScrollView_t942, ___DrawContentHandler_24), 0 } ,
+	{ 686, 478, offsetof(GUIScrollView_t942, ___U3CcontentWidthU3Ek__BackingField_25), 472 } ,
+	{ 687, 478, offsetof(GUIScrollView_t942, ___U3CcontentHeightU3Ek__BackingField_26), 473 } ,
+	{ 688, 536, offsetof(GUITextField_t1033, ___maxLength_28), 0 } ,
+	{ 689, 30, offsetof(GUITextField_t1033, ___takeFocus_29), 0 } ,
+	{ 421, 917, offsetof(GUIVisibleControl_t1023, ___localizedText_19), 0 } ,
+	{ 690, 74, offsetof(GUIVisibleControl_t1023, ___text_20), 0 } ,
+	{ 691, 74, offsetof(GUIVisibleControl_t1023, ___guiStyleName_21), 0 } ,
+	{ 692, 2313, offsetof(GUIVisibleControl_t1023, ___formattingToApply_22), 0 } ,
+	{ 693, 30, offsetof(GUIVisibleControl_t1023, ___isFormattingApplied_23), 0 } ,
+	{ 694, 1019, offsetof(GUIVisibleControl_t1023, ___guiStyle_24), 0 } ,
+	{ 695, 902, offsetof(GUIVisibleControl_t1023, ___originalGUIColor_25), 0 } ,
+	{ 696, 478, offsetof(GUIVisibleControl_t1023, ___alpha_26), 0 } ,
+	{ 697, 40, offsetof(GUIVisibleControl_t1023, ___originalTextValue_27), 0 } ,
+	{ 698, 1058, offsetof(GUIWindow_t1034, ___currentChildMousePosition_28), 0 } ,
+	{ 23, 517, offsetof(U3CPlayU3Ec__Iterator17_t1036, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CPlayU3Ec__Iterator17_t1036, ___U24current_1), 0 } ,
+	{ 25, 2494, offsetof(U3CPlayU3Ec__Iterator17_t1036, ___U3CU3Ef__this_2), 0 } ,
+	{ 699, 934, offsetof(AudioEffect_t1035, ___myAudio_3), 0 } ,
+	{ 446, 2499, offsetof(ContinueButtonFastForward_t1040, ___dialogueUI_2), 0 } ,
+	{ 700, 2500, offsetof(ContinueButtonFastForward_t1040, ___typewriterEffect_3), 0 } ,
+	{ 701, 738, offsetof(U3CPlayU3Ec__Iterator18_t1042, ___U3CstartTimeU3E__0_0), 0 } ,
+	{ 702, 738, offsetof(U3CPlayU3Ec__Iterator18_t1042, ___U3CendTimeU3E__1_1), 0 } ,
+	{ 703, 738, offsetof(U3CPlayU3Ec__Iterator18_t1042, ___U3CelapsedU3E__2_2), 0 } ,
+	{ 704, 738, offsetof(U3CPlayU3Ec__Iterator18_t1042, ___U3CelapsedU3E__3_3), 0 } ,
+	{ 23, 517, offsetof(U3CPlayU3Ec__Iterator18_t1042, ___U24PC_4), 0 } ,
+	{ 24, 518, offsetof(U3CPlayU3Ec__Iterator18_t1042, ___U24current_5), 0 } ,
+	{ 25, 2503, offsetof(U3CPlayU3Ec__Iterator18_t1042, ___U3CU3Ef__this_6), 0 } ,
+	{ 705, 467, offsetof(FadeEffect_t1041, ___fadeInDuration_3), 0 } ,
+	{ 374, 467, offsetof(FadeEffect_t1041, ___duration_4), 0 } ,
+	{ 706, 467, offsetof(FadeEffect_t1041, ___fadeOutDuration_5), 0 } ,
+	{ 707, 2505, offsetof(FadeEffect_t1041, ___control_6), 0 } ,
+	{ 23, 517, offsetof(U3CPlayU3Ec__Iterator19_t1044, ___U24PC_0), 0 } ,
+	{ 24, 518, offsetof(U3CPlayU3Ec__Iterator19_t1044, ___U24current_1), 0 } ,
+	{ 25, 2507, offsetof(U3CPlayU3Ec__Iterator19_t1044, ___U3CU3Ef__this_2), 0 } ,
+	{ 708, 467, offsetof(FlashEffect_t1043, ___interval_3), 0 } ,
+	{ 707, 2510, offsetof(FlashEffect_t1043, ___control_4), 0 } ,
+	{ 575, 2512, offsetof(GUIEffect_t1037, ___trigger_2), 0 } ,
+	{ 71, 50, offsetof(GUIEffectTrigger_t1045, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 624, 2514, 0, 0 } ,
+	{ 71, 50, offsetof(SlideDirection_t1046, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 709, 2517, 0, 0 } ,
+	{ 710, 2517, 0, 0 } ,
+	{ 711, 2517, 0, 0 } ,
+	{ 712, 2517, 0, 0 } ,
+	{ 713, 2520, offsetof(U3CPlayU3Ec__Iterator1A_t1048, ___U3CrectU3E__0_0), 0 } ,
+	{ 714, 738, offsetof(U3CPlayU3Ec__Iterator1A_t1048, ___U3CstartTimeU3E__1_1), 0 } ,
+	{ 715, 738, offsetof(U3CPlayU3Ec__Iterator1A_t1048, ___U3CendTimeU3E__2_2), 0 } ,
+	{ 704, 738, offsetof(U3CPlayU3Ec__Iterator1A_t1048, ___U3CelapsedU3E__3_3), 0 } ,
+	{ 716, 738, offsetof(U3CPlayU3Ec__Iterator1A_t1048, ___U3CprogressU3E__4_4), 0 } ,
+	{ 23, 517, offsetof(U3CPlayU3Ec__Iterator1A_t1048, ___U24PC_5), 0 } ,
+	{ 24, 518, offsetof(U3CPlayU3Ec__Iterator1A_t1048, ___U24current_6), 0 } ,
+	{ 25, 2521, offsetof(U3CPlayU3Ec__Iterator1A_t1048, ___U3CU3Ef__this_7), 0 } ,
+	{ 403, 2523, offsetof(SlideEffect_t1047, ___direction_3), 0 } ,
+	{ 374, 467, offsetof(SlideEffect_t1047, ___duration_4), 0 } ,
+	{ 707, 2510, offsetof(SlideEffect_t1047, ___control_5), 0 } ,
+	{ 701, 738, offsetof(U3CPlayU3Ec__Iterator1B_t1050, ___U3CstartTimeU3E__0_0), 0 } ,
+	{ 702, 738, offsetof(U3CPlayU3Ec__Iterator1B_t1050, ___U3CendTimeU3E__1_1), 0 } ,
+	{ 703, 738, offsetof(U3CPlayU3Ec__Iterator1B_t1050, ___U3CelapsedU3E__2_2), 0 } ,
+	{ 23, 517, offsetof(U3CPlayU3Ec__Iterator1B_t1050, ___U24PC_3), 0 } ,
+	{ 24, 518, offsetof(U3CPlayU3Ec__Iterator1B_t1050, ___U24current_4), 0 } ,
+	{ 25, 2525, offsetof(U3CPlayU3Ec__Iterator1B_t1050, ___U3CU3Ef__this_5), 0 } ,
+	{ 374, 467, offsetof(TimerEffect_t1049, ___duration_3), 0 } ,
+	{ 717, 2527, offsetof(TimerEffect_t1049, ___progressBar_4), 0 } ,
+	{ 718, 950, offsetof(TimerEffect_t1049, ___TimeoutHandler_5), 0 } ,
+	{ 719, 2529, offsetof(U3CPlayU3Ec__Iterator1C_t1051, ___U3CcontrolU3E__0_0), 0 } ,
+	{ 720, 738, offsetof(U3CPlayU3Ec__Iterator1C_t1051, ___U3CdelayU3E__1_1), 0 } ,
+	{ 23, 517, offsetof(U3CPlayU3Ec__Iterator1C_t1051, ___U24PC_2), 0 } ,
+	{ 24, 518, offsetof(U3CPlayU3Ec__Iterator1C_t1051, ___U24current_3), 0 } ,
+	{ 25, 2530, offsetof(U3CPlayU3Ec__Iterator1C_t1051, ___U3CU3Ef__this_4), 0 } ,
+	{ 721, 39, 0, 0 } ,
+	{ 722, 39, 0, 0 } ,
+	{ 723, 39, 0, 0 } ,
+	{ 724, 39, 0, 0 } ,
+	{ 725, 39, 0, 0 } ,
+	{ 726, 39, 0, 0 } ,
+	{ 727, 467, offsetof(TypewriterEffect_t1039, ___charactersPerSecond_9), 0 } ,
+	{ 728, 933, offsetof(TypewriterEffect_t1039, ___audioClip_10), 0 } ,
+	{ 363, 30, offsetof(TypewriterEffect_t1039, ___U3CIsPlayingU3Ek__BackingField_11), 512 } ,
+	{ 284, 2535, offsetof(ScaledRect_t199_StaticFields, ___empty_0), 0 } ,
+	{ 729, 2535, offsetof(ScaledRect_t199_StaticFields, ___wholeScreen_1), 0 } ,
+	{ 676, 2536, offsetof(ScaledRect_t199, ___origin_2), 0 } ,
+	{ 730, 2536, offsetof(ScaledRect_t199, ___alignment_3), 0 } ,
+	{ 731, 2537, offsetof(ScaledRect_t199, ___x_4), 0 } ,
+	{ 732, 2537, offsetof(ScaledRect_t199, ___y_5), 0 } ,
+	{ 733, 2537, offsetof(ScaledRect_t199, ___width_6), 0 } ,
+	{ 734, 2537, offsetof(ScaledRect_t199, ___height_7), 0 } ,
+	{ 735, 467, offsetof(ScaledRect_t199, ___minPixelWidth_8), 0 } ,
+	{ 736, 467, offsetof(ScaledRect_t199, ___minPixelHeight_9), 0 } ,
+	{ 71, 50, offsetof(ScaledRectAlignment_t1052, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 737, 2539, 0, 0 } ,
+	{ 738, 2539, 0, 0 } ,
+	{ 739, 2539, 0, 0 } ,
+	{ 740, 2539, 0, 0 } ,
+	{ 741, 2539, 0, 0 } ,
+	{ 742, 2539, 0, 0 } ,
+	{ 743, 2539, 0, 0 } ,
+	{ 744, 2539, 0, 0 } ,
+	{ 745, 2539, 0, 0 } ,
+	{ 746, 2542, offsetof(ScaledValue_t585_StaticFields, ___zero_0), 0 } ,
+	{ 747, 2542, offsetof(ScaledValue_t585_StaticFields, ___max_1), 0 } ,
+	{ 748, 2543, offsetof(ScaledValue_t585, ___scale_2), 0 } ,
+	{ 191, 467, offsetof(ScaledValue_t585, ___value_3), 0 } ,
+	{ 71, 50, offsetof(ValueScale_t1053, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 749, 2545, 0, 0 } ,
+	{ 750, 2545, 0, 0 } ,
+	{ 751, 483, offsetof(AutoSize_t1024, ___autoSizeWidth_0), 0 } ,
+	{ 752, 483, offsetof(AutoSize_t1024, ___autoSizeHeight_1), 0 } ,
+	{ 753, 2537, offsetof(AutoSize_t1024, ___maxWidth_2), 0 } ,
+	{ 754, 2537, offsetof(AutoSize_t1024, ___maxHeight_3), 0 } ,
+	{ 531, 2547, offsetof(AutoSize_t1024, ___padding_4), 0 } ,
+	{ 755, 2324, offsetof(Fit_t1025, ___above_0), 0 } ,
+	{ 756, 2324, offsetof(Fit_t1025, ___below_1), 0 } ,
+	{ 757, 2324, offsetof(Fit_t1025, ___leftOf_2), 0 } ,
+	{ 758, 2324, offsetof(Fit_t1025, ___rightOf_3), 0 } ,
+	{ 759, 483, offsetof(Fit_t1025, ___expandToFit_4), 0 } ,
+	{ 760, 483, offsetof(ImageAnimation_t1029, ___animate_0), 0 } ,
+	{ 761, 536, offsetof(ImageAnimation_t1029, ___frameWidth_1), 0 } ,
+	{ 762, 467, offsetof(ImageAnimation_t1029, ___framesPerSecond_2), 0 } ,
+	{ 763, 44, offsetof(ImageAnimation_t1029, ___numFrames_3), 0 } ,
+	{ 764, 478, offsetof(ImageAnimation_t1029, ___frameNormalWidth_4), 0 } ,
+	{ 765, 44, offsetof(ImageAnimation_t1029, ___currentFrame_5), 0 } ,
+	{ 766, 478, offsetof(ImageAnimation_t1029, ___nextFrameTime_6), 0 } ,
+	{ 658, 822, offsetof(ImageAnimation_t1029, ___texCoords_7), 0 } ,
+	{ 767, 478, offsetof(ImageAnimation_t1029, ___lastDialogueTime_8), 0 } ,
+	{ 768, 1014, 0, 0 } ,
+	{ 769, 1014, 0, 0 } ,
+	{ 770, 483, offsetof(Navigation_t1026, ___enabled_2), 0 } ,
+	{ 771, 483, offsetof(Navigation_t1026, ___focusFirstControlOnEnable_3), 0 } ,
+	{ 772, 483, offsetof(Navigation_t1026, ___jumpToMousePosition_4), 0 } ,
+	{ 81, 2553, offsetof(Navigation_t1026, ___order_5), 0 } ,
+	{ 773, 74, offsetof(Navigation_t1026, ___clickButton_6), 0 } ,
+	{ 774, 907, offsetof(Navigation_t1026, ___click_7), 0 } ,
+	{ 775, 907, offsetof(Navigation_t1026, ___previous_8), 0 } ,
+	{ 776, 907, offsetof(Navigation_t1026, ___next_9), 0 } ,
+	{ 777, 74, offsetof(Navigation_t1026, ___axis_10), 0 } ,
+	{ 778, 483, offsetof(Navigation_t1026, ___invertAxis_11), 0 } ,
+	{ 779, 467, offsetof(Navigation_t1026, ___axisRepeatDelay_12), 0 } ,
+	{ 780, 467, offsetof(Navigation_t1026, ___mouseWheelSensitivity_13), 0 } ,
+	{ 781, 44, offsetof(Navigation_t1026, ___current_14), 0 } ,
+	{ 782, 478, offsetof(Navigation_t1026, ___axisRepeatTime_15), 0 } ,
+	{ 783, 478, offsetof(Navigation_t1026, ___mouseWheelY_16), 0 } ,
+	{ 784, 30, offsetof(Navigation_t1026, ___isAxisPrevDown_17), 0 } ,
+	{ 785, 30, offsetof(Navigation_t1026, ___isAxisNextDown_18), 0 } ,
+	{ 786, 478, offsetof(Navigation_t1026, ___timeNextRelease_19), 0 } ,
+	{ 71, 50, offsetof(TextStyle_t723, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 454, 2556, 0, 0 } ,
+	{ 787, 2556, 0, 0 } ,
+	{ 788, 2556, 0, 0 } ,
+	{ 789, 482, offsetof(UnityBarkUI_t1057, ___textPosition_2), 0 } ,
+	{ 680, 820, offsetof(UnityBarkUI_t1057, ___guiSkin_3), 0 } ,
+	{ 691, 74, offsetof(UnityBarkUI_t1057, ___guiStyleName_4), 0 } ,
+	{ 790, 483, offsetof(UnityBarkUI_t1057, ___includeName_5), 0 } ,
+	{ 374, 467, offsetof(UnityBarkUI_t1057, ___duration_6), 0 } ,
+	{ 791, 467, offsetof(UnityBarkUI_t1057, ___fadeDuration_7), 0 } ,
+	{ 662, 1016, offsetof(UnityBarkUI_t1057, ___textStyle_8), 0 } ,
+	{ 663, 600, offsetof(UnityBarkUI_t1057, ___textStyleColor_9), 0 } ,
+	{ 792, 845, offsetof(UnityBarkUI_t1057, ___textDisplaySetting_10), 0 } ,
+	{ 793, 483, offsetof(UnityBarkUI_t1057, ___waitUntilSequenceEnds_11), 0 } ,
+	{ 794, 483, offsetof(UnityBarkUI_t1057, ___checkIfPlayerVisible_12), 0 } ,
+	{ 795, 549, offsetof(UnityBarkUI_t1057, ___visibilityLayerMask_13), 0 } ,
+	{ 796, 2561, offsetof(UnityBarkUI_t1057, ___unityBarkUIOnGUI_14), 0 } ,
+	{ 797, 2562, offsetof(UnityBarkUI_t1057, ___playerCameraTransform_15), 0 } ,
+	{ 798, 2563, offsetof(UnityBarkUI_t1057, ___playerCameraCollider_16), 0 } ,
+	{ 799, 2289, offsetof(UnityBarkUI_t1057, ___secondsLeft_17), 0 } ,
+	{ 701, 738, offsetof(U3CFadeOutU3Ec__Iterator1D_t1058, ___U3CstartTimeU3E__0_0), 0 } ,
+	{ 791, 738, offsetof(U3CFadeOutU3Ec__Iterator1D_t1058, ___fadeDuration_1), 0 } ,
+	{ 702, 738, offsetof(U3CFadeOutU3Ec__Iterator1D_t1058, ___U3CendTimeU3E__1_2), 0 } ,
+	{ 703, 738, offsetof(U3CFadeOutU3Ec__Iterator1D_t1058, ___U3CelapsedU3E__2_3), 0 } ,
+	{ 23, 517, offsetof(U3CFadeOutU3Ec__Iterator1D_t1058, ___U24PC_4), 0 } ,
+	{ 24, 518, offsetof(U3CFadeOutU3Ec__Iterator1D_t1058, ___U24current_5), 0 } ,
+	{ 800, 738, offsetof(U3CFadeOutU3Ec__Iterator1D_t1058, ___U3CU24U3EfadeDuration_6), 0 } ,
+	{ 25, 2566, offsetof(U3CFadeOutU3Ec__Iterator1D_t1058, ___U3CU3Ef__this_7), 0 } ,
+	{ 801, 501, offsetof(UnityBarkUIOnGUI_t1056, ___offset_2), 0 } ,
+	{ 753, 467, offsetof(UnityBarkUIOnGUI_t1056, ___maxWidth_3), 0 } ,
+	{ 680, 2568, offsetof(UnityBarkUIOnGUI_t1056, ___guiSkin_4), 0 } ,
+	{ 691, 1419, offsetof(UnityBarkUIOnGUI_t1056, ___guiStyleName_5), 0 } ,
+	{ 694, 2569, offsetof(UnityBarkUIOnGUI_t1056, ___guiStyle_6), 0 } ,
+	{ 692, 2570, offsetof(UnityBarkUIOnGUI_t1056, ___formattingToApply_7), 0 } ,
+	{ 662, 2571, offsetof(UnityBarkUIOnGUI_t1056, ___textStyle_8), 0 } ,
+	{ 663, 2572, offsetof(UnityBarkUIOnGUI_t1056, ___textStyleColor_9), 0 } ,
+	{ 802, 2573, offsetof(UnityBarkUIOnGUI_t1056, ___size_10), 0 } ,
+	{ 339, 1419, offsetof(UnityBarkUIOnGUI_t1056, ___message_11), 0 } ,
+	{ 696, 2289, offsetof(UnityBarkUIOnGUI_t1056, ___alpha_12), 0 } ,
+	{ 803, 2562, offsetof(UnityBarkUIOnGUI_t1056, ___myTransform_13), 0 } ,
+	{ 804, 2562, offsetof(UnityBarkUIOnGUI_t1056, ___absolutePosition_14), 0 } ,
+	{ 805, 2574, offsetof(UnityBarkUIOnGUI_t1056, ___offsetToHead_15), 0 } ,
+	{ 806, 2574, offsetof(UnityBarkUIOnGUI_t1056, ___screenPos_16), 0 } ,
+	{ 807, 479, offsetof(UnityBarkUIOnGUI_t1056, ___U3CBarkPositionU3Ek__BackingField_17), 522 } ,
+	{ 518, 2329, offsetof(UnityDialogueUI_t1038, ___guiRoot_4), 0 } ,
+	{ 808, 2576, offsetof(UnityDialogueUI_t1038, ___dialogue_5), 0 } ,
+	{ 809, 2553, offsetof(UnityDialogueUI_t1038, ___qteIndicators_6), 0 } ,
+	{ 810, 2577, offsetof(UnityDialogueUI_t1038, ___alert_7), 0 } ,
+	{ 811, 2578, offsetof(UnityDialogueUI_t1038, ___unityUIRoot_8), 0 } ,
+	{ 812, 2579, offsetof(UnityDialogueUI_t1038, ___unityQTEControls_9), 0 } ,
+	{ 515, 2324, offsetof(UnityTextFieldUI_t1063, ___panel_2), 0 } ,
+	{ 813, 2325, offsetof(UnityTextFieldUI_t1063, ___label_3), 0 } ,
+	{ 814, 2581, offsetof(UnityTextFieldUI_t1063, ___textField_4), 0 } ,
+	{ 815, 907, offsetof(UnityTextFieldUI_t1063, ___acceptKey_5), 0 } ,
+	{ 816, 907, offsetof(UnityTextFieldUI_t1063, ___cancelKey_6), 0 } ,
+	{ 414, 908, offsetof(UnityTextFieldUI_t1063, ___acceptedText_7), 0 } ,
+	{ 707, 2510, offsetof(UnityTextFieldUI_t1063, ___control_8), 0 } ,
+	{ 817, 30, offsetof(UnityTextFieldUI_t1063, ___ignoreFirstAccept_9), 0 } ,
+	{ 818, 30, offsetof(UnityTextFieldUI_t1063, ___ignoreFirstCancel_10), 0 } ,
+	{ 515, 2324, offsetof(UnityAlertControls_t1060, ___panel_1), 0 } ,
+	{ 819, 2325, offsetof(UnityAlertControls_t1060, ___line_2), 0 } ,
+	{ 434, 2326, offsetof(UnityAlertControls_t1060, ___continueButton_3), 0 } ,
+	{ 515, 2324, offsetof(UnityDialogueControls_t1059, ___panel_0), 0 } ,
+	{ 820, 2586, offsetof(UnityDialogueControls_t1059, ___npcSubtitle_1), 0 } ,
+	{ 821, 2586, offsetof(UnityDialogueControls_t1059, ___pcSubtitle_2), 0 } ,
+	{ 822, 2587, offsetof(UnityDialogueControls_t1059, ___responseMenu_3), 0 } ,
+	{ 809, 2553, offsetof(UnityQTEControls_t1062, ___qteIndicators_0), 0 } ,
+	{ 823, 44, offsetof(UnityQTEControls_t1062, ___numVisibleQTEIndicators_1), 0 } ,
+	{ 515, 2324, offsetof(UnityResponseMenuControls_t1065, ___panel_2), 0 } ,
+	{ 824, 2325, offsetof(UnityResponseMenuControls_t1065, ___pcImage_3), 0 } ,
+	{ 825, 2325, offsetof(UnityResponseMenuControls_t1065, ___pcName_4), 0 } ,
+	{ 826, 2586, offsetof(UnityResponseMenuControls_t1065, ___subtitleReminder_5), 0 } ,
+	{ 827, 2594, offsetof(UnityResponseMenuControls_t1065, ___timer_6), 0 } ,
+	{ 828, 2595, offsetof(UnityResponseMenuControls_t1065, ___buttons_7), 0 } ,
+	{ 829, 2596, offsetof(UnityResponseMenuControls_t1065, ___timerEffect_8), 0 } ,
+	{ 830, 897, offsetof(UnityResponseMenuControls_t1065, ___pcPortraitTexture_9), 0 } ,
+	{ 831, 40, offsetof(UnityResponseMenuControls_t1065, ___pcPortraitName_10), 0 } ,
+	{ 515, 2324, offsetof(UnitySubtitleControls_t1064, ___panel_1), 0 } ,
+	{ 819, 2325, offsetof(UnitySubtitleControls_t1064, ___line_2), 0 } ,
+	{ 832, 2325, offsetof(UnitySubtitleControls_t1064, ___portraitImage_3), 0 } ,
+	{ 833, 2325, offsetof(UnitySubtitleControls_t1064, ___portraitName_4), 0 } ,
+	{ 434, 2326, offsetof(UnitySubtitleControls_t1064, ___continueButton_5), 0 } ,
+	{ 518, 2601, offsetof(UnityUIRoot_t1061, ___guiRoot_0), 0 } ,
+	{ 834, 2611, offsetof(U3CPrivateImplementationDetailsU3E_t1069_StaticFields, ___U24U24fieldU2D0_0), 0 } ,
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+static const Il2CppFieldDefaultValue s_DefaultValues[146] = 
+{
+	{ 3, 14, 0 },
+	{ 59, 1, 4 },
+	{ 86, 14, 27 },
+	{ 87, 14, 31 },
+	{ 88, 14, 35 },
+	{ 93, 14, 39 },
+	{ 94, 14, 43 },
+	{ 95, 14, 47 },
+	{ 99, 14, 51 },
+	{ 100, 14, 55 },
+	{ 101, 14, 59 },
+	{ 159, 14, 63 },
+	{ 160, 14, 67 },
+	{ 162, 14, 71 },
+	{ 163, 14, 75 },
+	{ 164, 14, 79 },
+	{ 165, 14, 83 },
+	{ 166, 14, 87 },
+	{ 198, 14, 91 },
+	{ 199, 1, 95 },
+	{ 212, 135, 115 },
+	{ 213, 135, 119 },
+	{ 232, 14, 123 },
+	{ 233, 14, 127 },
+	{ 234, 14, 131 },
+	{ 242, 14, 135 },
+	{ 243, 14, 139 },
+	{ 244, 14, 143 },
+	{ 245, 14, 147 },
+	{ 246, 14, 151 },
+	{ 247, 14, 155 },
+	{ 248, 14, 159 },
+	{ 249, 14, 163 },
+	{ 307, 14, 167 },
+	{ 308, 14, 171 },
+	{ 334, 14, 175 },
+	{ 335, 14, 179 },
+	{ 350, 14, 183 },
+	{ 351, 14, 187 },
+	{ 402, 14, 191 },
+	{ 403, 14, 195 },
+	{ 425, 1, 199 },
+	{ 426, 135, 224 },
+	{ 457, 135, 228 },
+	{ 466, 135, 232 },
+	{ 485, 135, 236 },
+	{ 491, 14, 240 },
+	{ 492, 14, 244 },
+	{ 493, 14, 248 },
+	{ 499, 135, 252 },
+	{ 512, 135, 256 },
+	{ 522, 135, 260 },
+	{ 535, 135, 264 },
+	{ 544, 135, 268 },
+	{ 567, 135, 272 },
+	{ 580, 14, 276 },
+	{ 581, 14, 280 },
+	{ 582, 14, 284 },
+	{ 583, 14, 288 },
+	{ 584, 14, 292 },
+	{ 585, 14, 296 },
+	{ 617, 14, 300 },
+	{ 618, 14, 304 },
+	{ 620, 14, 308 },
+	{ 621, 14, 312 },
+	{ 622, 14, 316 },
+	{ 623, 14, 320 },
+	{ 624, 14, 324 },
+	{ 629, 14, 328 },
+	{ 630, 14, 332 },
+	{ 631, 14, 336 },
+	{ 632, 14, 340 },
+	{ 633, 1, 344 },
+	{ 636, 14, 363 },
+	{ 637, 14, 367 },
+	{ 643, 14, 371 },
+	{ 644, 14, 375 },
+	{ 645, 14, 379 },
+	{ 665, 1, 383 },
+	{ 666, 1, 397 },
+	{ 667, 1, 407 },
+	{ 668, 1, 418 },
+	{ 669, 1, 429 },
+	{ 670, 1, 442 },
+	{ 673, 14, 450 },
+	{ 674, 14, 454 },
+	{ 696, 14, 458 },
+	{ 697, 14, 462 },
+	{ 698, 14, 466 },
+	{ 699, 14, 470 },
+	{ 700, 14, 474 },
+	{ 728, 14, 478 },
+	{ 729, 14, 482 },
+	{ 730, 14, 486 },
+	{ 731, 14, 490 },
+	{ 761, 14, 494 },
+	{ 762, 14, 498 },
+	{ 789, 14, 502 },
+	{ 790, 14, 506 },
+	{ 791, 14, 510 },
+	{ 907, 135, 514 },
+	{ 914, 14, 518 },
+	{ 915, 14, 522 },
+	{ 916, 14, 526 },
+	{ 917, 14, 530 },
+	{ 918, 14, 534 },
+	{ 919, 14, 538 },
+	{ 920, 14, 542 },
+	{ 921, 14, 546 },
+	{ 922, 14, 550 },
+	{ 923, 14, 554 },
+	{ 924, 14, 558 },
+	{ 1010, 14, 562 },
+	{ 1011, 14, 566 },
+	{ 1012, 14, 570 },
+	{ 1013, 14, 574 },
+	{ 1014, 14, 578 },
+	{ 1015, 14, 582 },
+	{ 1065, 14, 586 },
+	{ 1067, 14, 590 },
+	{ 1068, 14, 594 },
+	{ 1069, 14, 598 },
+	{ 1070, 14, 602 },
+	{ 1096, 1, 606 },
+	{ 1097, 1, 613 },
+	{ 1098, 1, 621 },
+	{ 1099, 1, 628 },
+	{ 1100, 1, 636 },
+	{ 1101, 1, 647 },
+	{ 1116, 14, 659 },
+	{ 1117, 14, 663 },
+	{ 1118, 14, 667 },
+	{ 1119, 14, 671 },
+	{ 1120, 14, 675 },
+	{ 1121, 14, 679 },
+	{ 1122, 14, 683 },
+	{ 1123, 14, 687 },
+	{ 1124, 14, 691 },
+	{ 1130, 14, 695 },
+	{ 1131, 14, 699 },
+	{ 1151, 135, 703 },
+	{ 1152, 135, 707 },
+	{ 1172, 14, 711 },
+	{ 1173, 14, 715 },
+	{ 1174, 14, 719 },
+	{ 1254, 2609, 723 },
+};
+static const uint8_t s_DefaultValueDataTable[731] = 
+{
+	0xFF,
+	0xFF,
+	0xFF,
+	0xFF,
+	0x13,
+	0x00,
+	0x00,
+	0x00,
+	0x44,
+	0x65,
+	0x66,
+	0x61,
+	0x75,
+	0x6C,
+	0x74,
+	0x20,
+	0x44,
+	0x69,
+	0x61,
+	0x6C,
+	0x6F,
+	0x67,
+	0x75,
+	0x65,
+	0x20,
+	0x55,
+	0x49,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x10,
+	0x00,
+	0x00,
+	0x00,
+	0x69,
+	0x6E,
+	0x76,
+	0x61,
+	0x6C,
+	0x69,
+	0x64,
+	0x5F,
+	0x65,
+	0x6E,
+	0x74,
+	0x72,
+	0x79,
+	0x74,
+	0x61,
+	0x67,
+	0x00,
+	0x00,
+	0x20,
+	0x43,
+	0x00,
+	0x00,
+	0xF0,
+	0x41,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x05,
+	0x00,
+	0x00,
+	0x00,
+	0x06,
+	0x00,
+	0x00,
+	0x00,
+	0x07,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0xFF,
+	0xFF,
+	0xFF,
+	0xFF,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x15,
+	0x00,
+	0x00,
+	0x00,
+	0x44,
+	0x65,
+	0x66,
+	0x61,
+	0x75,
+	0x6C,
+	0x74,
+	0x20,
+	0x43,
+	0x61,
+	0x6D,
+	0x65,
+	0x72,
+	0x61,
+	0x20,
+	0x41,
+	0x6E,
+	0x67,
+	0x6C,
+	0x65,
+	0x73,
+	0x6F,
+	0x12,
+	0x83,
+	0x3A,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3D,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3D,
+	0x00,
+	0x00,
+	0x80,
+	0x3F,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3D,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3D,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3D,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3D,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3D,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3D,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x05,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x0F,
+	0x00,
+	0x00,
+	0x00,
+	0x44,
+	0x69,
+	0x61,
+	0x6C,
+	0x6F,
+	0x67,
+	0x75,
+	0x65,
+	0x20,
+	0x53,
+	0x79,
+	0x73,
+	0x74,
+	0x65,
+	0x6D,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x0A,
+	0x00,
+	0x00,
+	0x00,
+	0x75,
+	0x6E,
+	0x61,
+	0x73,
+	0x73,
+	0x69,
+	0x67,
+	0x6E,
+	0x65,
+	0x64,
+	0x06,
+	0x00,
+	0x00,
+	0x00,
+	0x61,
+	0x63,
+	0x74,
+	0x69,
+	0x76,
+	0x65,
+	0x07,
+	0x00,
+	0x00,
+	0x00,
+	0x73,
+	0x75,
+	0x63,
+	0x63,
+	0x65,
+	0x73,
+	0x73,
+	0x07,
+	0x00,
+	0x00,
+	0x00,
+	0x66,
+	0x61,
+	0x69,
+	0x6C,
+	0x75,
+	0x72,
+	0x65,
+	0x09,
+	0x00,
+	0x00,
+	0x00,
+	0x61,
+	0x62,
+	0x61,
+	0x6E,
+	0x64,
+	0x6F,
+	0x6E,
+	0x65,
+	0x64,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x64,
+	0x6F,
+	0x6E,
+	0x65,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x08,
+	0x00,
+	0x00,
+	0x00,
+	0x10,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x28,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x10,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0xCD,
+	0xCC,
+	0x4C,
+	0x3E,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x08,
+	0x00,
+	0x00,
+	0x00,
+	0x10,
+	0x00,
+	0x00,
+	0x00,
+	0x20,
+	0x00,
+	0x00,
+	0x00,
+	0x40,
+	0x00,
+	0x00,
+	0x00,
+	0x80,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x05,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x3C,
+	0x62,
+	0x3E,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x3C,
+	0x2F,
+	0x62,
+	0x3E,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x3C,
+	0x69,
+	0x3E,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x3C,
+	0x2F,
+	0x69,
+	0x3E,
+	0x07,
+	0x00,
+	0x00,
+	0x00,
+	0x3C,
+	0x63,
+	0x6F,
+	0x6C,
+	0x6F,
+	0x72,
+	0x3D,
+	0x08,
+	0x00,
+	0x00,
+	0x00,
+	0x3C,
+	0x2F,
+	0x63,
+	0x6F,
+	0x6C,
+	0x6F,
+	0x72,
+	0x3E,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x05,
+	0x00,
+	0x00,
+	0x00,
+	0x06,
+	0x00,
+	0x00,
+	0x00,
+	0x07,
+	0x00,
+	0x00,
+	0x00,
+	0x08,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x3F,
+	0x0A,
+	0xD7,
+	0x23,
+	0x3C,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x2C,
+	0x00,
+	0x3B,
+	0x00,
+	0x22,
+	0x00,
+	0x27,
+	0x00,
+};
+Il2CppImage g_DialogueSystem_dll_Image = 
+{
+	 "DialogueSystem.dll" ,
+	&g_DialogueSystem_Assembly,
+	g_DialogueSystem_Assembly_Types,
+	305,
+	NULL,
+	s_StringTable,
+	835,
+	s_FieldTable,
+	1255,
+	s_DefaultValues,
+	146,
+	s_DefaultValueDataTable,
+	731,
+	533,
+	NULL,
+	g_DialogueSystem_Assembly_AttributeGenerators,
+};
