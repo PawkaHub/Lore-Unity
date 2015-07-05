@@ -110,24 +110,12 @@ namespace PixelCrushers.DialogueSystem {
 				if (textField != null) {
 					//Set the lua text field variables
 					Debug.Log ("Set the lua variable!");
-					DialogueManager.IsDialogueEntryValid = isTextInputValid;
 					acceptedText(textField.text);
 				}
 				acceptedText = null;
 			}
 			Hide();
 			onAccept.Invoke();
-		}
-
-		public bool isTextInputValid(DialogueEntry entry) {
-
-			if (textField.text.Length > 0) {
-				Debug.Log ("TextField has length!");
-				return true;
-			} else {
-				Debug.Log ("TextField is empty!");
-				return false;
-			}
 		}
 
 		private void Show() {
