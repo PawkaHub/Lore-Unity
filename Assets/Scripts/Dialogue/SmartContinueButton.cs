@@ -13,7 +13,7 @@ namespace PixelCrushers.DialogueSystem {
 		
 		public UnityUIDialogueUI dialogueUI;
 		
-		public UnityUITypewriterEffect typewriterEffect;
+		public SmartTypeWriter typewriterEffect;
 
 		public SmartTextField textField;
 
@@ -22,7 +22,7 @@ namespace PixelCrushers.DialogueSystem {
 				dialogueUI = Tools.GetComponentAnywhere<UnityUIDialogueUI>(gameObject);
 			}
 			if (typewriterEffect == null) {
-				typewriterEffect = GetComponentInChildren<UnityUITypewriterEffect>();
+				typewriterEffect = GetComponentInChildren<SmartTypeWriter>();
 			}
 		}
 		
@@ -31,9 +31,18 @@ namespace PixelCrushers.DialogueSystem {
 				typewriterEffect.Stop ();
 			} else {
 				//Disable continue whenever a text field is present
+				bool showingInput = DialogueLua.GetVariable("ShowingInput").AsBool;
+
 				if ((textField != null) && textField.IsVisible == false) {
-					Debug.Log ("Go");
-					if (dialogueUI != null) dialogueUI.OnContinue ();
+					//Debug.Log ("Go");
+					//If we're showing an input, fire a message to trigger the showTextField event. Otherwise, continue the dialog.
+					if (showingInput == true) {
+						//Debug.Log ("Show input from continue!!");
+						//DialogueManager.Instance.SendMessage("OnShowInput");
+					} else {
+						Debug.Log ("Continue as normal!");
+						if (dialogueUI != null) dialogueUI.OnContinue ();
+					}
 				}
 			}
 		}

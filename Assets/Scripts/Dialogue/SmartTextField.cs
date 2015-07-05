@@ -52,6 +52,8 @@ namespace PixelCrushers.DialogueSystem {
 
 		private bool isAwaitingInput = false;
 
+		public string textFieldLabel;
+
 		void Start() {
 			if (DialogueDebug.LogWarnings && (textField == null)) Debug.LogWarning(string.Format("{0}: No InputField is assigned to the text field UI {1}. TextInput() sequencer commands or [var?=] won't work.", new object[] { DialogueDebug.Prefix, name }));
 			Hide();
@@ -73,6 +75,8 @@ namespace PixelCrushers.DialogueSystem {
 			this.acceptedText = acceptedText;
 			Show();
 			isAwaitingInput = true;
+			textFieldLabel = labelText;
+
 		}
 
 		public void Update() {
@@ -100,11 +104,30 @@ namespace PixelCrushers.DialogueSystem {
 		public void AcceptTextInput() {
 			isAwaitingInput = false;
 			if (acceptedText != null) {
-				if (textField != null) acceptedText(textField.text);
+				Debug.Log ("TextField");
+				Debug.Log (textFieldLabel);
+				Debug.Log (textField.text);
+				if (textField != null) {
+					//Set the lua text field variables
+					Debug.Log ("Set the lua variable!");
+					DialogueManager.IsDialogueEntryValid = isTextInputValid;
+					acceptedText(textField.text);
+				}
 				acceptedText = null;
 			}
 			Hide();
 			onAccept.Invoke();
+		}
+
+		public bool isTextInputValid(DialogueEntry entry) {
+
+			if (textField.text.Length > 0) {
+				Debug.Log ("TextField has length!");
+				return true;
+			} else {
+				Debug.Log ("TextField is empty!");
+				return false;
+			}
 		}
 
 		private void Show() {
@@ -122,6 +145,7 @@ namespace PixelCrushers.DialogueSystem {
 		private void Hide() {
 			IsVisible = false;
 			SetActive(false);
+			DialogueLua.SetVariable ("ShowingInput", false);
 			continueButton.OnFastForward ();
 		}
 
