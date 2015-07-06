@@ -62,7 +62,7 @@ namespace PixelCrushers.DialogueSystem {
 
 		void Start() {
 			//Config keyboard
-			Debug.Log ("SmartTextField started!");
+			//Debug.Log ("SmartTextField started!");
 			if (DialogueDebug.LogWarnings && (textField == null)) Debug.LogWarning(string.Format("{0}: No InputField is assigned to the text field UI {1}. TextInput() sequencer commands or [var?=] won't work.", new object[] { DialogueDebug.Prefix, name }));
 			Hide();
 		}
@@ -91,7 +91,7 @@ namespace PixelCrushers.DialogueSystem {
 
 		public void Update() {
 			if (isAwaitingInput) {
-				Debug.Log ("Update");
+				//Debug.Log ("Update");
 				//Detect mobile support
 				if (Input.GetKeyDown(acceptKey)) {
 					AcceptTextInput();
@@ -120,12 +120,12 @@ namespace PixelCrushers.DialogueSystem {
 		public void AcceptTextInput() {
 			isAwaitingInput = false;
 			if (acceptedText != null) {
-				Debug.Log ("TextField");
-				Debug.Log (textFieldLabel);
-				Debug.Log (textField.text);
+				//Debug.Log ("TextField");
+				//Debug.Log (textFieldLabel);
+				//Debug.Log (textField.text);
 				if (textField != null) {
 					//Set the lua text field variables
-					Debug.Log ("Set the lua variable!");
+					//Debug.Log ("Set the lua variable!");
 					acceptedText(textField.text);
 				}
 				acceptedText = null;

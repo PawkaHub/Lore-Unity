@@ -19,7 +19,6 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			// you can call Stop() here and remove the Update() method.
 			//Debug.Log ("Waiting for Sequence to end before showing text field!");
 			email = GetParameter (0);
-			Debug.Log ("Send Email!");
 			SendEmail (email);
 			Stop ();
 		}

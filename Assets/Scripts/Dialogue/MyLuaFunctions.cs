@@ -3,6 +3,7 @@ using System.Collections;
 using System.Text;
 using System.Text.RegularExpressions;
 using PixelCrushers.DialogueSystem;
+using Parse;
 
 public class MyLuaFunctions : MonoBehaviour {
 
@@ -35,26 +36,26 @@ public class MyLuaFunctions : MonoBehaviour {
 	}
 
 	public bool InputIsValid(string variableName) {
-		Debug.Log ("Checking Variable Name");
-		Debug.Log (variableName);
+		//Debug.Log ("Checking Variable Name");
+		//Debug.Log (variableName);
 		string result = DialogueLua.GetVariable (variableName).AsString;
-		Debug.Log ("Variable result");
-		Debug.Log (result);
+		//Debug.Log ("Variable result");
+		//Debug.Log (result);
 		if (result.Length > 0) {
-			Debug.Log ("Result is valid!");
+			Debug.Log ("Input is valid!");
 			return true;
 		} else {
-			Debug.Log ("Result is false!");
+			Debug.Log ("Input is invalid!");
 			return false;
 		}
 	}
 
 	public bool InputIsEmail(string variableName) {
-		Debug.Log ("Checking Variable Name");
-		Debug.Log (variableName);
+		//Debug.Log ("Checking Variable Name");
+		//Debug.Log (variableName);
 		string result = DialogueLua.GetVariable (variableName).AsString;
-		Debug.Log ("Variable result");
-		Debug.Log (result);
+		//Debug.Log ("Variable result");
+		//Debug.Log (result);
 		if (result.Length > 0) {
 			Debug.Log ("Result is valid!");
 			return Regex.IsMatch(result,MatchEmailPattern);
@@ -63,5 +64,5 @@ public class MyLuaFunctions : MonoBehaviour {
 			return false;
 		}
 	}
-	
+
 }

@@ -40,7 +40,7 @@ namespace PixelCrushers.DialogueSystem {
 						//Debug.Log ("Show input from continue!!");
 						//DialogueManager.Instance.SendMessage("OnShowInput");
 					} else {
-						Debug.Log ("Continue as normal!");
+						//Debug.Log ("Continue as normal!");
 						if (dialogueUI != null) dialogueUI.OnContinue ();
 					}
 				}

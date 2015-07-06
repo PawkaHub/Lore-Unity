@@ -19,7 +19,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			// you can call Stop() here and remove the Update() method.
 			//Debug.Log ("Waiting for Sequence to end before showing text field!");
 			if (dialogueUI == null) {
-				Debug.Log ("Forcing Continue Bypass!");
+				//Debug.Log ("Forcing Continue Bypass!");
 				dialogueUI = Tools.GetComponentAnywhere<UnityUIDialogueUI>(gameObject);
 				if (dialogueUI != null) dialogueUI.OnContinue ();
 			}
