@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Reflection.MethodInfo>
-struct List_1_t675;
-// System.Reflection.MethodInfo
-struct MethodInfo_t;
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Usable>
+struct List_1_t302;
+// PixelCrushers.DialogueSystem.Usable
+struct Usable_t279;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>
-struct  Enumerator_t5197 
+// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Usable>
+struct  Enumerator_t6211 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::l
-	List_1_t675 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Usable>::l
+	List_1_t302 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Usable>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Usable>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::current
-	MethodInfo_t * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Usable>::current
+	Usable_t279 * ___current_3;
 };

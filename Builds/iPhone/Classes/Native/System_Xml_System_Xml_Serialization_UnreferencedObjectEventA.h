@@ -7,7 +7,7 @@ struct String_t;
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
 // System.Xml.Serialization.UnreferencedObjectEventArgs
-struct  UnreferencedObjectEventArgs_t2334  : public EventArgs_t877
+struct  UnreferencedObjectEventArgs_t3719  : public EventArgs_t1202
 {
 	// System.Object System.Xml.Serialization.UnreferencedObjectEventArgs::unreferencedObject
 	Object_t * ___unreferencedObject_1;

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.CollectionDebuggerView
-struct  CollectionDebuggerView_t3925  : public Object_t
+struct  CollectionDebuggerView_t5015  : public Object_t
 {
 };

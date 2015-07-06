@@ -11,7 +11,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.EntrytagFormat
 #include "DialogueSystem_PixelCrushers_DialogueSystem_EntrytagFormat.h"
 // PixelCrushers.DialogueSystem.DisplaySettings/CameraSettings
-struct  CameraSettings_t916  : public Object_t
+struct  CameraSettings_t1240  : public Object_t
 {
 	// UnityEngine.Camera PixelCrushers.DialogueSystem.DisplaySettings/CameraSettings::sequencerCamera
 	Camera_t356 * ___sequencerCamera_0;

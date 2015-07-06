@@ -7,7 +7,7 @@ struct MonoBehaviour_t47;
 // PixelCrushers.DialogueSystem.Toggle
 #include "DialogueSystem_PixelCrushers_DialogueSystem_Toggle.h"
 // PixelCrushers.DialogueSystem.SetEnabledOnDialogueEvent/SetEnabledAction
-struct  SetEnabledAction_t979  : public Action_t955
+struct  SetEnabledAction_t1303  : public Action_t1279
 {
 	// UnityEngine.MonoBehaviour PixelCrushers.DialogueSystem.SetEnabledOnDialogueEvent/SetEnabledAction::target
 	MonoBehaviour_t47 * ___target_1;

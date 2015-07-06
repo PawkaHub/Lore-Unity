@@ -7,15 +7,15 @@ struct Type_t;
 // System.Object
 struct Object_t;
 // System.Security.IPermission
-struct IPermission_t4228;
+struct IPermission_t5318;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Security.Policy.Evidence
-struct Evidence_t4016;
+struct Evidence_t5106;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Security.SecurityException
-struct  SecurityException_t3177  : public SystemException_t2475
+struct  SecurityException_t4229  : public SystemException_t3862
 {
 	// System.String System.Security.SecurityException::permissionState
 	String_t* ___permissionState_11;
@@ -32,5 +32,5 @@ struct  SecurityException_t3177  : public SystemException_t2475
 	// System.Reflection.MethodInfo System.Security.SecurityException::_method
 	MethodInfo_t * ____method_17;
 	// System.Security.Policy.Evidence System.Security.SecurityException::_evidence
-	Evidence_t4016 * ____evidence_18;
+	Evidence_t5106 * ____evidence_18;
 };

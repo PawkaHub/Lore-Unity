@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // PixelCrushers.DialogueSystem.UnityGUI.GUIRoot
-struct GUIRoot_t941;
+struct GUIRoot_t1265;
 // PixelCrushers.DialogueSystem.UnityGUI.GUIScrollView
-struct GUIScrollView_t942;
+struct GUIScrollView_t1266;
 // PixelCrushers.DialogueSystem.UnityGUI.GUIButton
-struct GUIButton_t939;
+struct GUIButton_t1263;
 // PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow/AbandonControls
-struct AbandonControls_t940;
+struct AbandonControls_t1264;
 // System.String
 struct String_t;
 // UnityEngine.GUIStyle
@@ -17,18 +17,18 @@ struct Action_t250;
 // PixelCrushers.DialogueSystem.QuestLogWindow
 #include "DialogueSystem_PixelCrushers_DialogueSystem_QuestLogWindow.h"
 // PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow
-struct  UnityGUIQuestLogWindow_t943  : public QuestLogWindow_t198
+struct  UnityGUIQuestLogWindow_t1267  : public QuestLogWindow_t198
 {
 	// PixelCrushers.DialogueSystem.UnityGUI.GUIRoot PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow::guiRoot
-	GUIRoot_t941 * ___guiRoot_14;
+	GUIRoot_t1265 * ___guiRoot_14;
 	// PixelCrushers.DialogueSystem.UnityGUI.GUIScrollView PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow::scrollView
-	GUIScrollView_t942 * ___scrollView_15;
+	GUIScrollView_t1266 * ___scrollView_15;
 	// PixelCrushers.DialogueSystem.UnityGUI.GUIButton PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow::activeButton
-	GUIButton_t939 * ___activeButton_16;
+	GUIButton_t1263 * ___activeButton_16;
 	// PixelCrushers.DialogueSystem.UnityGUI.GUIButton PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow::completedButton
-	GUIButton_t939 * ___completedButton_17;
+	GUIButton_t1263 * ___completedButton_17;
 	// PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow/AbandonControls PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow::abandonQuestPopup
-	AbandonControls_t940 * ___abandonQuestPopup_18;
+	AbandonControls_t1264 * ___abandonQuestPopup_18;
 	// System.String PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow::questHeadingGuiStyleName
 	String_t* ___questHeadingGuiStyleName_19;
 	// System.String PixelCrushers.DialogueSystem.UnityGUI.UnityGUIQuestLogWindow::questHeadingOpenGuiStyleName

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ParticleSystemRenderMode
-struct ParticleSystemRenderMode_t2787;
+struct ParticleSystemRenderMode_t4522;
 

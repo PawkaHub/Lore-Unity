@@ -7,7 +7,7 @@ struct String_t;
 // System.Xml.XmlSpace
 #include "System_Xml_System_Xml_XmlSpace.h"
 // System.Xml.XmlParserContext/ContextItem
-struct  ContextItem_t2496  : public Object_t
+struct  ContextItem_t3882  : public Object_t
 {
 	// System.String System.Xml.XmlParserContext/ContextItem::BaseURI
 	String_t* ___BaseURI_0;

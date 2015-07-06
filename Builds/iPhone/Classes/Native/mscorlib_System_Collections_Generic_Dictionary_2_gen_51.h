@@ -3,44 +3,44 @@
 // System.Int32[]
 struct Int32U5BU5D_t119;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t4893;
-// System.Object[]
-struct ObjectU5BU5D_t21;
-// System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t4896;
+struct LinkU5BU5D_t5982;
+// System.Byte[]
+struct ByteU5BU5D_t25;
+// System.Collections.Generic.IEqualityComparer`1<System.Byte>
+struct IEqualityComparer_1_t5998;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1322;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Collections.DictionaryEntry>
-struct Transform_1_t5224;
+struct SerializationInfo_t3058;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Byte,System.Int32,System.Collections.DictionaryEntry>
+struct Transform_1_t6017;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
-struct  Dictionary_2_t5225  : public Object_t
+// System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>
+struct  Dictionary_2_t6018  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::table
+	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::table
 	Int32U5BU5D_t119* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::linkSlots
-	LinkU5BU5D_t4893* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::keySlots
-	ObjectU5BU5D_t21* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::valueSlots
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::linkSlots
+	LinkU5BU5D_t5982* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::keySlots
+	ByteU5BU5D_t25* ___keySlots_6;
+	// TValue[] System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::valueSlots
 	Int32U5BU5D_t119* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::touchedSlots
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::serialization_info
-	SerializationInfo_t1322 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::generation
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::serialization_info
+	SerializationInfo_t3058 * ___serialization_info_13;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t5225_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::<>f__am$cacheB
-	Transform_1_t5224 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t6018_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Byte,System.Int32>::<>f__am$cacheB
+	Transform_1_t6017 * ___U3CU3Ef__amU24cacheB_15;
 };

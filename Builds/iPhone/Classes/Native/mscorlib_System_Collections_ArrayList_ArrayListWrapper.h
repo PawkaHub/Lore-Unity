@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t1188;
+struct ArrayList_t3697;
 // System.Collections.ArrayList
 #include "mscorlib_System_Collections_ArrayList.h"
 // System.Collections.ArrayList/ArrayListWrapper
-struct  ArrayListWrapper_t3920  : public ArrayList_t1188
+struct  ArrayListWrapper_t5010  : public ArrayList_t3697
 {
 	// System.Collections.ArrayList System.Collections.ArrayList/ArrayListWrapper::m_InnerArrayList
-	ArrayList_t1188 * ___m_InnerArrayList_5;
+	ArrayList_t3697 * ___m_InnerArrayList_5;
 };

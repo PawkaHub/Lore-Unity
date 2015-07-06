@@ -4,24 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction>
-struct InternalEnumerator_1_t5500;
+// System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>
+struct InternalEnumerator_1_t6513;
 // System.Object
 struct Object_t;
-// PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction
-struct BarkAction_t957;
 // System.Array
 struct Array_t;
+// UnityEngine.UILineInfo
+#include "UnityEngine_UnityEngine_UILineInfo.h"
 
-// System.Void System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m32591(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5500 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m22566_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32592(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5500 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22567_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction>::Dispose()
-#define InternalEnumerator_1_Dispose_m32593(__this, method) (( void (*) (InternalEnumerator_1_t5500 *, const MethodInfo*))InternalEnumerator_1_Dispose_m22568_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m32594(__this, method) (( bool (*) (InternalEnumerator_1_t5500 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m22569_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction>::get_Current()
-#define InternalEnumerator_1_get_Current_m32595(__this, method) (( BarkAction_t957 * (*) (InternalEnumerator_1_t5500 *, const MethodInfo*))InternalEnumerator_1_get_Current_m22570_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m32467_gshared (InternalEnumerator_1_t6513 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m32467(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6513 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m32467_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32468_gshared (InternalEnumerator_1_t6513 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32468(__this, method) (( void (*) (InternalEnumerator_1_t6513 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m32468_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32469_gshared (InternalEnumerator_1_t6513 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32469(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6513 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m32469_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m32470_gshared (InternalEnumerator_1_t6513 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m32470(__this, method) (( void (*) (InternalEnumerator_1_t6513 *, const MethodInfo*))InternalEnumerator_1_Dispose_m32470_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m32471_gshared (InternalEnumerator_1_t6513 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m32471(__this, method) (( bool (*) (InternalEnumerator_1_t6513 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m32471_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::get_Current()
+extern "C" UILineInfo_t987  InternalEnumerator_1_get_Current_m32472_gshared (InternalEnumerator_1_t6513 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m32472(__this, method) (( UILineInfo_t987  (*) (InternalEnumerator_1_t6513 *, const MethodInfo*))InternalEnumerator_1_get_Current_m32472_gshared)(__this, method)

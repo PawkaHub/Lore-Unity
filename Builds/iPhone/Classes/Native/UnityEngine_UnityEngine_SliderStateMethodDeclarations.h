@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SliderState
-struct SliderState_t2894;
+struct SliderState_t4629;
 
 // System.Void UnityEngine.SliderState::.ctor()
-extern "C" void SliderState__ctor_m13561 (SliderState_t2894 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SliderState__ctor_m17440 (SliderState_t4629 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

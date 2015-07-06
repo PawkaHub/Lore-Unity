@@ -3,7 +3,7 @@
 // System.Collections.CollectionBase
 #include "mscorlib_System_Collections_CollectionBase.h"
 // Mono.Security.X509.X509ExtensionCollection
-struct  X509ExtensionCollection_t1217  : public CollectionBase_t1221
+struct  X509ExtensionCollection_t4235  : public CollectionBase_t3723
 {
 	// System.Boolean Mono.Security.X509.X509ExtensionCollection::readOnly
 	bool ___readOnly_1;

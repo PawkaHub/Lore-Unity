@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct List_1_t2110;
-// UnityEngine.RectTransform
-struct RectTransform_t259;
+// System.Collections.Generic.List`1<Parse.ParseObject>
+struct List_1_t1596;
+// Parse.ParseObject
+struct ParseObject_t1552;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>
-struct  Enumerator_t5950 
+// System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>
+struct  Enumerator_t7051 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::l
-	List_1_t2110 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>::l
+	List_1_t1596 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::current
-	RectTransform_t259 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseObject>::current
+	ParseObject_t1552 * ___current_3;
 };

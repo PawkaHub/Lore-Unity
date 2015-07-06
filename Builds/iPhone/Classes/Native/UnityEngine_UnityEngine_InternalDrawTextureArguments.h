@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Texture
-struct Texture_t903;
+struct Texture_t731;
 // UnityEngine.Material
 struct Material_t48;
 // System.ValueType
@@ -11,12 +11,12 @@ struct Material_t48;
 // UnityEngine.Color32
 #include "UnityEngine_UnityEngine_Color32.h"
 // UnityEngine.InternalDrawTextureArguments
-struct  InternalDrawTextureArguments_t2723 
+struct  InternalDrawTextureArguments_t4458 
 {
 	// UnityEngine.Rect UnityEngine.InternalDrawTextureArguments::screenRect
 	Rect_t201  ___screenRect_0;
 	// UnityEngine.Texture UnityEngine.InternalDrawTextureArguments::texture
-	Texture_t903 * ___texture_1;
+	Texture_t731 * ___texture_1;
 	// UnityEngine.Rect UnityEngine.InternalDrawTextureArguments::sourceRect
 	Rect_t201  ___sourceRect_2;
 	// System.Int32 UnityEngine.InternalDrawTextureArguments::leftBorder

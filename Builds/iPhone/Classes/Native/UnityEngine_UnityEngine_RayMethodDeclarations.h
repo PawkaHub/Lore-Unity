@@ -12,16 +12,16 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void UnityEngine.Ray::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" void Ray__ctor_m12789 (Ray_t319 * __this, Vector3_t53  ___origin, Vector3_t53  ___direction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Ray__ctor_m16668 (Ray_t319 * __this, Vector3_t53  ___origin, Vector3_t53  ___direction, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Ray::get_origin()
-extern "C" Vector3_t53  Ray_get_origin_m2479 (Ray_t319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t53  Ray_get_origin_m2566 (Ray_t319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Ray::set_origin(UnityEngine.Vector3)
-extern "C" void Ray_set_origin_m2616 (Ray_t319 * __this, Vector3_t53  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Ray_set_origin_m2703 (Ray_t319 * __this, Vector3_t53  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Ray::get_direction()
-extern "C" Vector3_t53  Ray_get_direction_m2481 (Ray_t319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t53  Ray_get_direction_m2568 (Ray_t319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Ray::set_direction(UnityEngine.Vector3)
-extern "C" void Ray_set_direction_m2617 (Ray_t319 * __this, Vector3_t53  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Ray_set_direction_m2704 (Ray_t319 * __this, Vector3_t53  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Ray::GetPoint(System.Single)
-extern "C" Vector3_t53  Ray_GetPoint_m2619 (Ray_t319 * __this, float ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t53  Ray_GetPoint_m2706 (Ray_t319 * __this, float ___distance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Ray::ToString()
-extern "C" String_t* Ray_ToString_m12790 (Ray_t319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Ray_ToString_m16669 (Ray_t319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

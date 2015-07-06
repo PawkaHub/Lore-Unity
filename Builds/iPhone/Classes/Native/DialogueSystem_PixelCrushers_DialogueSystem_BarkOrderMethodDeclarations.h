@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.BarkOrder
-struct BarkOrder_t773;
+struct BarkOrder_t1098;
 

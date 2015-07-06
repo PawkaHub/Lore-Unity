@@ -3,16 +3,16 @@
 // System.String
 struct String_t;
 // System.Security.Cryptography.CspParameters
-struct CspParameters_t1335;
+struct CspParameters_t4417;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.KeyPairPersistence
-struct  KeyPairPersistence_t3885  : public Object_t
+struct  KeyPairPersistence_t4975  : public Object_t
 {
 	// System.Security.Cryptography.CspParameters Mono.Security.Cryptography.KeyPairPersistence::_params
-	CspParameters_t1335 * ____params_4;
+	CspParameters_t4417 * ____params_4;
 	// System.String Mono.Security.Cryptography.KeyPairPersistence::_keyvalue
 	String_t* ____keyvalue_5;
 	// System.String Mono.Security.Cryptography.KeyPairPersistence::_filename
@@ -20,7 +20,7 @@ struct  KeyPairPersistence_t3885  : public Object_t
 	// System.String Mono.Security.Cryptography.KeyPairPersistence::_container
 	String_t* ____container_7;
 };
-struct KeyPairPersistence_t3885_StaticFields{
+struct KeyPairPersistence_t4975_StaticFields{
 	// System.Boolean Mono.Security.Cryptography.KeyPairPersistence::_userPathExists
 	bool ____userPathExists_0;
 	// System.String Mono.Security.Cryptography.KeyPairPersistence::_userPath

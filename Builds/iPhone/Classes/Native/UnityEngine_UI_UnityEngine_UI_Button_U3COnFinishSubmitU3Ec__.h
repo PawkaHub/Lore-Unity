@@ -7,7 +7,7 @@ struct Button_t220;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.Button/<OnFinishSubmit>c__Iterator1
-struct  U3COnFinishSubmitU3Ec__Iterator1_t2019  : public Object_t
+struct  U3COnFinishSubmitU3Ec__Iterator1_t835  : public Object_t
 {
 	// System.Single UnityEngine.UI.Button/<OnFinishSubmit>c__Iterator1::<fadeTime>__0
 	float ___U3CfadeTimeU3E__0_0;

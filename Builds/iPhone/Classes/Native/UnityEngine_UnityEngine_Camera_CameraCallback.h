@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Camera/CameraCallback
-struct  CameraCallback_t2773  : public MulticastDelegate_t451
+struct  CameraCallback_t4508  : public MulticastDelegate_t451
 {
 };

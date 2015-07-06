@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Threading.Tasks.Task
-struct Task_t1418;
+// UnityEngine.Font
+struct Font_t529;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -12,7 +12,7 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<System.Threading.Tasks.Task>
-struct  Action_1_t1401  : public MulticastDelegate_t451
+// System.Action`1<UnityEngine.Font>
+struct  Action_1_t974  : public MulticastDelegate_t451
 {
 };

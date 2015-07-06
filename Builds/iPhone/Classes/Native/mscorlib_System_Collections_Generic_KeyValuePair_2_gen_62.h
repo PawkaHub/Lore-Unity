@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// ExitGames.Client.Photon.NCommand
-struct NCommand_t3129;
+// System.String
+struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,ExitGames.Client.Photon.NCommand>
-struct  KeyValuePair_2_t6276 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>
+struct  KeyValuePair_2_t7963 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,ExitGames.Client.Photon.NCommand>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,ExitGames.Client.Photon.NCommand>::value
-	NCommand_t3129 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>::value
+	uint8_t ___value_1;
 };

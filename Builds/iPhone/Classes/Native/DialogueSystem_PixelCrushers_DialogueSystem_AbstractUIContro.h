@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.AbstractUIControls
-struct  AbstractUIControls_t929  : public Object_t
+struct  AbstractUIControls_t1253  : public Object_t
 {
 };

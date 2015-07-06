@@ -5,7 +5,7 @@ struct ByteU5BU5D_t25;
 // Mono.Security.Cryptography.RC4
 #include "Mono_Security_Mono_Security_Cryptography_RC4.h"
 // Mono.Security.Cryptography.ARC4Managed
-struct  ARC4Managed_t1195  : public RC4_t1196
+struct  ARC4Managed_t4326  : public RC4_t4327
 {
 	// System.Byte[] Mono.Security.Cryptography.ARC4Managed::key
 	ByteU5BU5D_t25* ___key_12;

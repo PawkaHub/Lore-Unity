@@ -7,7 +7,7 @@ struct String_t;
 // System.Security.Cryptography.AsnDecodeStatus
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
-struct  X509BasicConstraintsExtension_t3659  : public X509Extension_t3660
+struct  X509BasicConstraintsExtension_t4100  : public X509Extension_t4101
 {
 	// System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::_certificateAuthority
 	bool ____certificateAuthority_6;

@@ -11,6 +11,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Xml.Serialization.XmlSerializationCollectionFixupCallback
-struct  XmlSerializationCollectionFixupCallback_t2368  : public MulticastDelegate_t451
+struct  XmlSerializationCollectionFixupCallback_t3754  : public MulticastDelegate_t451
 {
 };

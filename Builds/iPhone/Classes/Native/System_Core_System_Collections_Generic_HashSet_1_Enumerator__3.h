@@ -5,7 +5,7 @@ struct HashSet_1_t424;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.HashSet`1/Enumerator<System.Int32>
-struct  Enumerator_t5215 
+struct  Enumerator_t6303 
 {
 	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator<System.Int32>::hashset
 	HashSet_1_t424 * ___hashset_0;

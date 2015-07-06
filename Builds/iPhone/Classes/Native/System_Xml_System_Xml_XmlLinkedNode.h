@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlLinkedNode
-struct XmlLinkedNode_t2455;
+struct XmlLinkedNode_t3841;
 // System.Xml.XmlNode
 #include "System_Xml_System_Xml_XmlNode.h"
 // System.Xml.XmlLinkedNode
-struct  XmlLinkedNode_t2455  : public XmlNode_t2457
+struct  XmlLinkedNode_t3841  : public XmlNode_t3843
 {
 	// System.Xml.XmlLinkedNode System.Xml.XmlLinkedNode::nextSibling
-	XmlLinkedNode_t2455 * ___nextSibling_5;
+	XmlLinkedNode_t3841 * ___nextSibling_5;
 };

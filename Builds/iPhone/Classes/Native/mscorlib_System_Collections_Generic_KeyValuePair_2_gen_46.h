@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Canvas
-struct Canvas_t213;
-// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
-struct IndexedSet_1_t2171;
+// System.Object
+struct Object_t;
+// Parse.Internal.ParseJSONCacheItem
+struct ParseJSONCacheItem_t1530;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct  KeyValuePair_2_t5900 
+// System.Collections.Generic.KeyValuePair`2<System.Object,Parse.Internal.ParseJSONCacheItem>
+struct  KeyValuePair_2_t7037 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::key
-	Canvas_t213 * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::value
-	IndexedSet_1_t2171 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,Parse.Internal.ParseJSONCacheItem>::key
+	Object_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Object,Parse.Internal.ParseJSONCacheItem>::value
+	ParseJSONCacheItem_t1530 * ___value_1;
 };

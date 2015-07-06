@@ -7,7 +7,7 @@
 // ThirdPersonController
 struct ThirdPersonController_t371;
 // UnityEngine.ControllerColliderHit
-struct ControllerColliderHit_t557;
+struct ControllerColliderHit_t575;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 
@@ -28,7 +28,7 @@ extern "C" void ThirdPersonController_DidJump_m1437 (ThirdPersonController_t371 
 // System.Void ThirdPersonController::Update()
 extern "C" void ThirdPersonController_Update_m1438 (ThirdPersonController_t371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThirdPersonController::OnControllerColliderHit(UnityEngine.ControllerColliderHit)
-extern "C" void ThirdPersonController_OnControllerColliderHit_m1439 (ThirdPersonController_t371 * __this, ControllerColliderHit_t557 * ___hit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThirdPersonController_OnControllerColliderHit_m1439 (ThirdPersonController_t371 * __this, ControllerColliderHit_t575 * ___hit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single ThirdPersonController::GetSpeed()
 extern "C" float ThirdPersonController_GetSpeed_m1440 (ThirdPersonController_t371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ThirdPersonController::IsJumping()

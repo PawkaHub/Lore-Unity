@@ -7,7 +7,7 @@ struct Texture2D_t90;
 // PixelCrushers.DialogueSystem.UnityGUI.GUIProgressBar/Origin
 #include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIProg.h"
 // PixelCrushers.DialogueSystem.UnityGUI.GUIProgressBar
-struct  GUIProgressBar_t1032  : public GUIVisibleControl_t1023
+struct  GUIProgressBar_t1356  : public GUIVisibleControl_t1347
 {
 	// PixelCrushers.DialogueSystem.UnityGUI.GUIProgressBar/Origin PixelCrushers.DialogueSystem.UnityGUI.GUIProgressBar::origin
 	int32_t ___origin_28;

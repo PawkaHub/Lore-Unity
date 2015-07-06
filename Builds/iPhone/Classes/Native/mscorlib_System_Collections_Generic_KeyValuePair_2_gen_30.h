@@ -1,14 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.CharacterInfo
-struct CharacterInfo_t607;
+// UnityEngine.Canvas
+struct Canvas_t213;
+// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
+struct IndexedSet_1_t982;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,PixelCrushers.DialogueSystem.CharacterInfo>
-struct  KeyValuePair_2_t5435 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
+struct  KeyValuePair_2_t6500 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,PixelCrushers.DialogueSystem.CharacterInfo>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,PixelCrushers.DialogueSystem.CharacterInfo>::value
-	CharacterInfo_t607 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::key
+	Canvas_t213 * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::value
+	IndexedSet_1_t982 * ___value_1;
 };

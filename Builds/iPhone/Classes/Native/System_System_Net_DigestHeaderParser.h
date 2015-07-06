@@ -7,7 +7,7 @@ struct StringU5BU5D_t20;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.DigestHeaderParser
-struct  DigestHeaderParser_t3600  : public Object_t
+struct  DigestHeaderParser_t4033  : public Object_t
 {
 	// System.String System.Net.DigestHeaderParser::header
 	String_t* ___header_0;
@@ -18,7 +18,7 @@ struct  DigestHeaderParser_t3600  : public Object_t
 	// System.String[] System.Net.DigestHeaderParser::values
 	StringU5BU5D_t20* ___values_4;
 };
-struct DigestHeaderParser_t3600_StaticFields{
+struct DigestHeaderParser_t4033_StaticFields{
 	// System.String[] System.Net.DigestHeaderParser::keywords
 	StringU5BU5D_t20* ___keywords_3;
 };

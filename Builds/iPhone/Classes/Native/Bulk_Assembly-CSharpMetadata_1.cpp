@@ -171,7 +171,7 @@ extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator7_System_Collectio
 	, 437/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -241,7 +241,7 @@ extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator7_Dispose_m834_Met
 	, 439/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -264,7 +264,7 @@ extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator7_Reset_m835_Metho
 	, 440/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -313,8 +313,8 @@ static const PropertyInfo* U3CDisableAfterAnimationU3Ec__Iterator7_t218_Property
 	NULL
 };
 extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator7_MoveNext_m833_MethodInfo;
-extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator7_Dispose_m834_MethodInfo;
 extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator7_Reset_m835_MethodInfo;
+extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator7_Dispose_m834_MethodInfo;
 static const Il2CppMethodReference U3CDisableAfterAnimationU3Ec__Iterator7_t218_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -323,9 +323,9 @@ static const Il2CppMethodReference U3CDisableAfterAnimationU3Ec__Iterator7_t218_
 	&Object_ToString_m129_MethodInfo,
 	&U3CDisableAfterAnimationU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m832_MethodInfo,
 	&U3CDisableAfterAnimationU3Ec__Iterator7_MoveNext_m833_MethodInfo,
+	&U3CDisableAfterAnimationU3Ec__Iterator7_Reset_m835_MethodInfo,
 	&U3CDisableAfterAnimationU3Ec__Iterator7_Dispose_m834_MethodInfo,
 	&U3CDisableAfterAnimationU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m831_MethodInfo,
-	&U3CDisableAfterAnimationU3Ec__Iterator7_Reset_m835_MethodInfo,
 };
 static bool U3CDisableAfterAnimationU3Ec__Iterator7_t218_VTableIsGenericMethod[] =
 {
@@ -340,19 +340,19 @@ static bool U3CDisableAfterAnimationU3Ec__Iterator7_t218_VTableIsGenericMethod[]
 	false,
 };
 extern const Il2CppType IEnumerator_t74_0_0_0;
-extern const Il2CppType IDisposable_t567_0_0_0;
-extern const Il2CppType IEnumerator_1_t718_0_0_0;
+extern const Il2CppType IDisposable_t588_0_0_0;
+extern const Il2CppType IEnumerator_1_t744_0_0_0;
 static const Il2CppType* U3CDisableAfterAnimationU3Ec__Iterator7_t218_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CDisableAfterAnimationU3Ec__Iterator7_t218_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CDisableAfterAnimationU3Ec__Iterator7_t218_0_0_0;
@@ -552,14 +552,14 @@ extern const MethodInfo UnityUIAlertControls_DisableAfterAnimation_m840_MethodIn
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo UnityUIAlertControls_t217_UnityUIAlertControls_SetMessage_m841_ParameterInfos[] = 
 {
 	{"message", 0, 134218501, 0, &String_t_0_0_0},
-	{"duration", 1, 134218502, 0, &Single_t583_0_0_0},
+	{"duration", 1, 134218502, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIAlertControls::SetMessage(System.String,System.Single)
 extern const MethodInfo UnityUIAlertControls_SetMessage_m841_MethodInfo = 
 {
@@ -567,7 +567,7 @@ extern const MethodInfo UnityUIAlertControls_SetMessage_m841_MethodInfo =
 	, (methodPointerType)&UnityUIAlertControls_SetMessage_m841/* method */
 	, &UnityUIAlertControls_t217_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
 	, UnityUIAlertControls_t217_UnityUIAlertControls_SetMessage_m841_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -759,11 +759,11 @@ extern const MethodInfo UnityUIBarkSubtitleDialogueUI__ctor_m843_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 static const ParameterInfo UnityUIBarkSubtitleDialogueUI_t222_UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218503, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134218503, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIBarkSubtitleDialogueUI::ShowSubtitle(PixelCrushers.DialogueSystem.Subtitle)
@@ -794,77 +794,77 @@ static const MethodInfo* UnityUIBarkSubtitleDialogueUI_t222_MethodInfos[] =
 	&UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_MethodInfo,
 	NULL
 };
-extern const MethodInfo Object_Equals_m3345_MethodInfo;
-extern const MethodInfo Object_GetHashCode_m3346_MethodInfo;
-extern const MethodInfo Object_ToString_m3347_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_add_SelectedResponseHandler_m3348_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_remove_SelectedResponseHandler_m3349_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_Open_m3350_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_Close_m3351_MethodInfo;
+extern const MethodInfo Object_Equals_m3477_MethodInfo;
+extern const MethodInfo Object_GetHashCode_m3478_MethodInfo;
+extern const MethodInfo Object_ToString_m3479_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_add_SelectedResponseHandler_m3480_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_remove_SelectedResponseHandler_m3481_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_Open_m3482_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_Close_m3483_MethodInfo;
 extern const MethodInfo UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_HideSubtitle_m3352_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_HideSubtitle_m3484_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_ShowResponses_m871_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_HideResponses_m873_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_ShowQTEIndicator_m3353_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_HideQTEIndicator_m3354_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_ShowAlert_m867_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_HideAlert_m3355_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_HideAlert_m3487_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_get_UIRoot_m861_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_get_Dialogue_m862_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_get_QTEs_m863_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_get_Alert_m864_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_Awake_m865_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_Start_m3356_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3357_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_Update_m3358_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_HideContinueButton_m3359_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_SetSubtitle_m3360_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_OnClick_m3361_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_Start_m3488_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3489_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_Update_m3490_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_HideContinueButton_m3491_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_SetSubtitle_m3492_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_OnClick_m3493_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_OnContinue_m868_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_SetPCPortrait_m3362_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_SetActorPortraitTexture_m3363_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_SetPCPortrait_m3494_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_SetActorPortraitTexture_m3495_MethodInfo;
 static const Il2CppMethodReference UnityUIBarkSubtitleDialogueUI_t222_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
-	&AbstractDialogueUI_add_SelectedResponseHandler_m3348_MethodInfo,
-	&AbstractDialogueUI_remove_SelectedResponseHandler_m3349_MethodInfo,
-	&AbstractDialogueUI_Open_m3350_MethodInfo,
-	&AbstractDialogueUI_Close_m3351_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
+	&AbstractDialogueUI_add_SelectedResponseHandler_m3480_MethodInfo,
+	&AbstractDialogueUI_remove_SelectedResponseHandler_m3481_MethodInfo,
+	&AbstractDialogueUI_Open_m3482_MethodInfo,
+	&AbstractDialogueUI_Close_m3483_MethodInfo,
 	&UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_MethodInfo,
-	&AbstractDialogueUI_HideSubtitle_m3352_MethodInfo,
+	&AbstractDialogueUI_HideSubtitle_m3484_MethodInfo,
 	&UnityUIDialogueUI_ShowResponses_m871_MethodInfo,
 	&UnityUIDialogueUI_HideResponses_m873_MethodInfo,
-	&AbstractDialogueUI_ShowQTEIndicator_m3353_MethodInfo,
-	&AbstractDialogueUI_HideQTEIndicator_m3354_MethodInfo,
+	&AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo,
+	&AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo,
 	&UnityUIDialogueUI_ShowAlert_m867_MethodInfo,
-	&AbstractDialogueUI_HideAlert_m3355_MethodInfo,
+	&AbstractDialogueUI_HideAlert_m3487_MethodInfo,
 	&UnityUIDialogueUI_get_UIRoot_m861_MethodInfo,
 	&UnityUIDialogueUI_get_Dialogue_m862_MethodInfo,
 	&UnityUIDialogueUI_get_QTEs_m863_MethodInfo,
 	&UnityUIDialogueUI_get_Alert_m864_MethodInfo,
 	&UnityUIDialogueUI_Awake_m865_MethodInfo,
-	&AbstractDialogueUI_Start_m3356_MethodInfo,
-	&AbstractDialogueUI_Open_m3350_MethodInfo,
-	&AbstractDialogueUI_Close_m3351_MethodInfo,
-	&AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3357_MethodInfo,
+	&AbstractDialogueUI_Start_m3488_MethodInfo,
+	&AbstractDialogueUI_Open_m3482_MethodInfo,
+	&AbstractDialogueUI_Close_m3483_MethodInfo,
+	&AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3489_MethodInfo,
 	&UnityUIDialogueUI_ShowAlert_m867_MethodInfo,
-	&AbstractDialogueUI_HideAlert_m3355_MethodInfo,
-	&AbstractDialogueUI_Update_m3358_MethodInfo,
+	&AbstractDialogueUI_HideAlert_m3487_MethodInfo,
+	&AbstractDialogueUI_Update_m3490_MethodInfo,
 	&UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_MethodInfo,
-	&AbstractDialogueUI_HideSubtitle_m3352_MethodInfo,
-	&AbstractDialogueUI_HideContinueButton_m3359_MethodInfo,
-	&AbstractDialogueUI_SetSubtitle_m3360_MethodInfo,
+	&AbstractDialogueUI_HideSubtitle_m3484_MethodInfo,
+	&AbstractDialogueUI_HideContinueButton_m3491_MethodInfo,
+	&AbstractDialogueUI_SetSubtitle_m3492_MethodInfo,
 	&UnityUIDialogueUI_ShowResponses_m871_MethodInfo,
 	&UnityUIDialogueUI_HideResponses_m873_MethodInfo,
-	&AbstractDialogueUI_ShowQTEIndicator_m3353_MethodInfo,
-	&AbstractDialogueUI_HideQTEIndicator_m3354_MethodInfo,
-	&AbstractDialogueUI_OnClick_m3361_MethodInfo,
+	&AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo,
+	&AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo,
+	&AbstractDialogueUI_OnClick_m3493_MethodInfo,
 	&UnityUIDialogueUI_OnContinue_m868_MethodInfo,
-	&AbstractDialogueUI_SetPCPortrait_m3362_MethodInfo,
-	&AbstractDialogueUI_SetActorPortraitTexture_m3363_MethodInfo,
+	&AbstractDialogueUI_SetPCPortrait_m3494_MethodInfo,
+	&AbstractDialogueUI_SetActorPortraitTexture_m3495_MethodInfo,
 };
 static bool UnityUIBarkSubtitleDialogueUI_t222_VTableIsGenericMethod[] =
 {
@@ -909,10 +909,10 @@ static bool UnityUIBarkSubtitleDialogueUI_t222_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IDialogueUI_t720_0_0_0;
+extern const Il2CppType IDialogueUI_t746_0_0_0;
 static Il2CppInterfaceOffsetPair UnityUIBarkSubtitleDialogueUI_t222_InterfacesOffsets[] = 
 {
-	{ &IDialogueUI_t720_0_0_0, 4},
+	{ &IDialogueUI_t746_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType UnityUIBarkSubtitleDialogueUI_t222_0_0_0;
@@ -1149,7 +1149,7 @@ extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator8_System_Collectio
 	, 444/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -1218,7 +1218,7 @@ extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator8_Dispose_m850_Met
 	, 446/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -1241,7 +1241,7 @@ extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator8_Reset_m851_Metho
 	, 447/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -1290,8 +1290,8 @@ static const PropertyInfo* U3CDisableAfterAnimationU3Ec__Iterator8_t226_Property
 	NULL
 };
 extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator8_MoveNext_m849_MethodInfo;
-extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator8_Dispose_m850_MethodInfo;
 extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator8_Reset_m851_MethodInfo;
+extern const MethodInfo U3CDisableAfterAnimationU3Ec__Iterator8_Dispose_m850_MethodInfo;
 static const Il2CppMethodReference U3CDisableAfterAnimationU3Ec__Iterator8_t226_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -1300,9 +1300,9 @@ static const Il2CppMethodReference U3CDisableAfterAnimationU3Ec__Iterator8_t226_
 	&Object_ToString_m129_MethodInfo,
 	&U3CDisableAfterAnimationU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m848_MethodInfo,
 	&U3CDisableAfterAnimationU3Ec__Iterator8_MoveNext_m849_MethodInfo,
+	&U3CDisableAfterAnimationU3Ec__Iterator8_Reset_m851_MethodInfo,
 	&U3CDisableAfterAnimationU3Ec__Iterator8_Dispose_m850_MethodInfo,
 	&U3CDisableAfterAnimationU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m847_MethodInfo,
-	&U3CDisableAfterAnimationU3Ec__Iterator8_Reset_m851_MethodInfo,
 };
 static bool U3CDisableAfterAnimationU3Ec__Iterator8_t226_VTableIsGenericMethod[] =
 {
@@ -1319,14 +1319,14 @@ static bool U3CDisableAfterAnimationU3Ec__Iterator8_t226_VTableIsGenericMethod[]
 static const Il2CppType* U3CDisableAfterAnimationU3Ec__Iterator8_t226_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CDisableAfterAnimationU3Ec__Iterator8_t226_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CDisableAfterAnimationU3Ec__Iterator8_t226_0_0_0;
@@ -1919,13 +1919,13 @@ extern const MethodInfo UnityUIDialogueUI_FindControls_m866_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowAlert_m867_ParameterInfos[] = 
 {
 	{"message", 0, 134218505, 0, &String_t_0_0_0},
-	{"duration", 1, 134218506, 0, &Single_t583_0_0_0},
+	{"duration", 1, 134218506, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::ShowAlert(System.String,System.Single)
 extern const MethodInfo UnityUIDialogueUI_ShowAlert_m867_MethodInfo = 
 {
@@ -1933,7 +1933,7 @@ extern const MethodInfo UnityUIDialogueUI_ShowAlert_m867_MethodInfo =
 	, (methodPointerType)&UnityUIDialogueUI_ShowAlert_m867/* method */
 	, &UnityUIDialogueUI_t223_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
 	, UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowAlert_m867_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -1971,10 +1971,10 @@ extern const MethodInfo UnityUIDialogueUI_OnContinue_m868_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 static const ParameterInfo UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowSubtitle_m869_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218507, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134218507, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::ShowSubtitle(PixelCrushers.DialogueSystem.Subtitle)
@@ -1999,10 +1999,10 @@ extern const MethodInfo UnityUIDialogueUI_ShowSubtitle_m869_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 static const ParameterInfo UnityUIDialogueUI_t223_UnityUIDialogueUI_CheckSubtitleAutoFocus_m870_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218508, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134218508, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::CheckSubtitleAutoFocus(PixelCrushers.DialogueSystem.Subtitle)
@@ -2027,17 +2027,17 @@ extern const MethodInfo UnityUIDialogueUI_CheckSubtitleAutoFocus_m870_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
-extern const Il2CppType ResponseU5BU5D_t553_0_0_0;
-extern const Il2CppType ResponseU5BU5D_t553_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType ResponseU5BU5D_t571_0_0_0;
+extern const Il2CppType ResponseU5BU5D_t571_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowResponses_m871_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218509, 0, &Subtitle_t552_0_0_0},
-	{"responses", 1, 134218510, 0, &ResponseU5BU5D_t553_0_0_0},
-	{"timeout", 2, 134218511, 0, &Single_t583_0_0_0},
+	{"subtitle", 0, 134218509, 0, &Subtitle_t570_0_0_0},
+	{"responses", 1, 134218510, 0, &ResponseU5BU5D_t571_0_0_0},
+	{"timeout", 2, 134218511, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::ShowResponses(PixelCrushers.DialogueSystem.Subtitle,PixelCrushers.DialogueSystem.Response[],System.Single)
 extern const MethodInfo UnityUIDialogueUI_ShowResponses_m871_MethodInfo = 
 {
@@ -2045,7 +2045,7 @@ extern const MethodInfo UnityUIDialogueUI_ShowResponses_m871_MethodInfo =
 	, (methodPointerType)&UnityUIDialogueUI_ShowResponses_m871/* method */
 	, &UnityUIDialogueUI_t223_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604/* invoker_method */
 	, UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowResponses_m871_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -2175,46 +2175,46 @@ static const PropertyInfo* UnityUIDialogueUI_t223_PropertyInfos[] =
 extern const MethodInfo UnityUIDialogueUI_ShowSubtitle_m869_MethodInfo;
 static const Il2CppMethodReference UnityUIDialogueUI_t223_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
-	&AbstractDialogueUI_add_SelectedResponseHandler_m3348_MethodInfo,
-	&AbstractDialogueUI_remove_SelectedResponseHandler_m3349_MethodInfo,
-	&AbstractDialogueUI_Open_m3350_MethodInfo,
-	&AbstractDialogueUI_Close_m3351_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
+	&AbstractDialogueUI_add_SelectedResponseHandler_m3480_MethodInfo,
+	&AbstractDialogueUI_remove_SelectedResponseHandler_m3481_MethodInfo,
+	&AbstractDialogueUI_Open_m3482_MethodInfo,
+	&AbstractDialogueUI_Close_m3483_MethodInfo,
 	&UnityUIDialogueUI_ShowSubtitle_m869_MethodInfo,
-	&AbstractDialogueUI_HideSubtitle_m3352_MethodInfo,
+	&AbstractDialogueUI_HideSubtitle_m3484_MethodInfo,
 	&UnityUIDialogueUI_ShowResponses_m871_MethodInfo,
 	&UnityUIDialogueUI_HideResponses_m873_MethodInfo,
-	&AbstractDialogueUI_ShowQTEIndicator_m3353_MethodInfo,
-	&AbstractDialogueUI_HideQTEIndicator_m3354_MethodInfo,
+	&AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo,
+	&AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo,
 	&UnityUIDialogueUI_ShowAlert_m867_MethodInfo,
-	&AbstractDialogueUI_HideAlert_m3355_MethodInfo,
+	&AbstractDialogueUI_HideAlert_m3487_MethodInfo,
 	&UnityUIDialogueUI_get_UIRoot_m861_MethodInfo,
 	&UnityUIDialogueUI_get_Dialogue_m862_MethodInfo,
 	&UnityUIDialogueUI_get_QTEs_m863_MethodInfo,
 	&UnityUIDialogueUI_get_Alert_m864_MethodInfo,
 	&UnityUIDialogueUI_Awake_m865_MethodInfo,
-	&AbstractDialogueUI_Start_m3356_MethodInfo,
-	&AbstractDialogueUI_Open_m3350_MethodInfo,
-	&AbstractDialogueUI_Close_m3351_MethodInfo,
-	&AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3357_MethodInfo,
+	&AbstractDialogueUI_Start_m3488_MethodInfo,
+	&AbstractDialogueUI_Open_m3482_MethodInfo,
+	&AbstractDialogueUI_Close_m3483_MethodInfo,
+	&AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3489_MethodInfo,
 	&UnityUIDialogueUI_ShowAlert_m867_MethodInfo,
-	&AbstractDialogueUI_HideAlert_m3355_MethodInfo,
-	&AbstractDialogueUI_Update_m3358_MethodInfo,
+	&AbstractDialogueUI_HideAlert_m3487_MethodInfo,
+	&AbstractDialogueUI_Update_m3490_MethodInfo,
 	&UnityUIDialogueUI_ShowSubtitle_m869_MethodInfo,
-	&AbstractDialogueUI_HideSubtitle_m3352_MethodInfo,
-	&AbstractDialogueUI_HideContinueButton_m3359_MethodInfo,
-	&AbstractDialogueUI_SetSubtitle_m3360_MethodInfo,
+	&AbstractDialogueUI_HideSubtitle_m3484_MethodInfo,
+	&AbstractDialogueUI_HideContinueButton_m3491_MethodInfo,
+	&AbstractDialogueUI_SetSubtitle_m3492_MethodInfo,
 	&UnityUIDialogueUI_ShowResponses_m871_MethodInfo,
 	&UnityUIDialogueUI_HideResponses_m873_MethodInfo,
-	&AbstractDialogueUI_ShowQTEIndicator_m3353_MethodInfo,
-	&AbstractDialogueUI_HideQTEIndicator_m3354_MethodInfo,
-	&AbstractDialogueUI_OnClick_m3361_MethodInfo,
+	&AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo,
+	&AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo,
+	&AbstractDialogueUI_OnClick_m3493_MethodInfo,
 	&UnityUIDialogueUI_OnContinue_m868_MethodInfo,
-	&AbstractDialogueUI_SetPCPortrait_m3362_MethodInfo,
-	&AbstractDialogueUI_SetActorPortraitTexture_m3363_MethodInfo,
+	&AbstractDialogueUI_SetPCPortrait_m3494_MethodInfo,
+	&AbstractDialogueUI_SetActorPortraitTexture_m3495_MethodInfo,
 };
 static bool UnityUIDialogueUI_t223_VTableIsGenericMethod[] =
 {
@@ -2261,7 +2261,7 @@ static bool UnityUIDialogueUI_t223_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair UnityUIDialogueUI_t223_InterfacesOffsets[] = 
 {
-	{ &IDialogueUI_t720_0_0_0, 4},
+	{ &IDialogueUI_t746_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType UnityUIDialogueUI_t223_1_0_0;
@@ -2965,11 +2965,11 @@ extern const MethodInfo UnityUIResponseButton_Reset_m892_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FormattedText_t554_0_0_0;
-extern const Il2CppType FormattedText_t554_0_0_0;
+extern const Il2CppType FormattedText_t572_0_0_0;
+extern const Il2CppType FormattedText_t572_0_0_0;
 static const ParameterInfo UnityUIResponseButton_t236_UnityUIResponseButton_SetFormattedText_m893_ParameterInfos[] = 
 {
-	{"formattedText", 0, 134218523, 0, &FormattedText_t554_0_0_0},
+	{"formattedText", 0, 134218523, 0, &FormattedText_t572_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseButton::SetFormattedText(PixelCrushers.DialogueSystem.FormattedText)
@@ -3166,10 +3166,10 @@ static const PropertyInfo* UnityUIResponseButton_t236_PropertyInfos[] =
 extern const MethodInfo UnityUIResponseButton_SetColor_m895_MethodInfo;
 static const Il2CppMethodReference UnityUIResponseButton_t236_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&UnityUIResponseButton_SetColor_m895_MethodInfo,
 };
 static bool UnityUIResponseButton_t236_VTableIsGenericMethod[] =
@@ -3416,11 +3416,11 @@ extern const MethodInfo UnityUIResponseMenuControls_ClearResponseButtons_m902_Me
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ResponseU5BU5D_t553_0_0_0;
+extern const Il2CppType ResponseU5BU5D_t571_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
 static const ParameterInfo UnityUIResponseMenuControls_t228_UnityUIResponseMenuControls_SetResponseButtons_m903_ParameterInfos[] = 
 {
-	{"responses", 0, 134218531, 0, &ResponseU5BU5D_t553_0_0_0},
+	{"responses", 0, 134218531, 0, &ResponseU5BU5D_t571_0_0_0},
 	{"target", 1, 134218532, 0, &Transform_t54_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -3554,12 +3554,12 @@ extern const MethodInfo UnityUIResponseMenuControls_NotifyContentChanged_m907_Me
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo UnityUIResponseMenuControls_t228_UnityUIResponseMenuControls_StartTimer_m908_ParameterInfos[] = 
 {
-	{"timeout", 0, 134218538, 0, &Single_t583_0_0_0},
+	{"timeout", 0, 134218538, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseMenuControls::StartTimer(System.Single)
 extern const MethodInfo UnityUIResponseMenuControls_StartTimer_m908_MethodInfo = 
 {
@@ -3567,7 +3567,7 @@ extern const MethodInfo UnityUIResponseMenuControls_StartTimer_m908_MethodInfo =
 	, (methodPointerType)&UnityUIResponseMenuControls_StartTimer_m908/* method */
 	, &UnityUIResponseMenuControls_t228_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t604/* invoker_method */
 	, UnityUIResponseMenuControls_t228_UnityUIResponseMenuControls_StartTimer_m908_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -4043,10 +4043,10 @@ extern const MethodInfo UnityUISubtitleControls_HideContinueButton_m917_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 static const ParameterInfo UnityUISubtitleControls_t227_UnityUISubtitleControls_SetSubtitle_m918_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218540, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134218540, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUISubtitleControls::SetSubtitle(PixelCrushers.DialogueSystem.Subtitle)
@@ -4096,11 +4096,11 @@ extern const MethodInfo UnityUISubtitleControls_ClearSubtitle_m919_MethodInfo =
 };
 extern const Il2CppType Text_t212_0_0_0;
 extern const Il2CppType Text_t212_0_0_0;
-extern const Il2CppType FormattedText_t554_0_0_0;
+extern const Il2CppType FormattedText_t572_0_0_0;
 static const ParameterInfo UnityUISubtitleControls_t227_UnityUISubtitleControls_SetFormattedText_m920_ParameterInfos[] = 
 {
 	{"label", 0, 134218541, 0, &Text_t212_0_0_0},
-	{"formattedText", 1, 134218542, 0, &FormattedText_t554_0_0_0},
+	{"formattedText", 1, 134218542, 0, &FormattedText_t572_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUISubtitleControls::SetFormattedText(UnityEngine.UI.Text,PixelCrushers.DialogueSystem.FormattedText)
@@ -4556,10 +4556,10 @@ extern const MethodInfo UnityUITextFieldUI_StartTextInput_m925_MethodInfo;
 extern const MethodInfo UnityUITextFieldUI_CancelTextInput_m927_MethodInfo;
 static const Il2CppMethodReference UnityUITextFieldUI_t249_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&UnityUITextFieldUI_StartTextInput_m925_MethodInfo,
 	&UnityUITextFieldUI_CancelTextInput_m927_MethodInfo,
 };
@@ -4572,14 +4572,14 @@ static bool UnityUITextFieldUI_t249_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ITextFieldUI_t721_0_0_0;
+extern const Il2CppType ITextFieldUI_t747_0_0_0;
 static const Il2CppType* UnityUITextFieldUI_t249_InterfacesTypeInfos[] = 
 {
-	&ITextFieldUI_t721_0_0_0,
+	&ITextFieldUI_t747_0_0_0,
 };
 static Il2CppInterfaceOffsetPair UnityUITextFieldUI_t249_InterfacesOffsets[] = 
 {
-	{ &ITextFieldUI_t721_0_0_0, 4},
+	{ &ITextFieldUI_t747_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType UnityUITextFieldUI_t249_0_0_0;
@@ -4694,7 +4694,7 @@ extern const MethodInfo U3CCountdownU3Ec__Iterator9_System_Collections_Generic_I
 	, 464/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -4763,7 +4763,7 @@ extern const MethodInfo U3CCountdownU3Ec__Iterator9_Dispose_m936_MethodInfo =
 	, 466/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -4786,7 +4786,7 @@ extern const MethodInfo U3CCountdownU3Ec__Iterator9_Reset_m937_MethodInfo =
 	, 467/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -4835,8 +4835,8 @@ static const PropertyInfo* U3CCountdownU3Ec__Iterator9_t251_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CCountdownU3Ec__Iterator9_MoveNext_m935_MethodInfo;
-extern const MethodInfo U3CCountdownU3Ec__Iterator9_Dispose_m936_MethodInfo;
 extern const MethodInfo U3CCountdownU3Ec__Iterator9_Reset_m937_MethodInfo;
+extern const MethodInfo U3CCountdownU3Ec__Iterator9_Dispose_m936_MethodInfo;
 static const Il2CppMethodReference U3CCountdownU3Ec__Iterator9_t251_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -4845,9 +4845,9 @@ static const Il2CppMethodReference U3CCountdownU3Ec__Iterator9_t251_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CCountdownU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m934_MethodInfo,
 	&U3CCountdownU3Ec__Iterator9_MoveNext_m935_MethodInfo,
+	&U3CCountdownU3Ec__Iterator9_Reset_m937_MethodInfo,
 	&U3CCountdownU3Ec__Iterator9_Dispose_m936_MethodInfo,
 	&U3CCountdownU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m933_MethodInfo,
-	&U3CCountdownU3Ec__Iterator9_Reset_m937_MethodInfo,
 };
 static bool U3CCountdownU3Ec__Iterator9_t251_VTableIsGenericMethod[] =
 {
@@ -4864,14 +4864,14 @@ static bool U3CCountdownU3Ec__Iterator9_t251_VTableIsGenericMethod[] =
 static const Il2CppType* U3CCountdownU3Ec__Iterator9_t251_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CCountdownU3Ec__Iterator9_t251_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CCountdownU3Ec__Iterator9_t251_0_0_0;
@@ -4974,15 +4974,15 @@ extern const MethodInfo UnityUITimer__ctor_m938_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Action_t250_0_0_0;
 extern const Il2CppType Action_t250_0_0_0;
 static const ParameterInfo UnityUITimer_t243_UnityUITimer_StartCountdown_m939_ParameterInfos[] = 
 {
-	{"duration", 0, 134218550, 0, &Single_t583_0_0_0},
+	{"duration", 0, 134218550, 0, &Single_t604_0_0_0},
 	{"timeoutHandler", 1, 134218551, 0, &Action_t250_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUITimer::StartCountdown(System.Single,System.Action)
 extern const MethodInfo UnityUITimer_StartCountdown_m939_MethodInfo = 
 {
@@ -4990,7 +4990,7 @@ extern const MethodInfo UnityUITimer_StartCountdown_m939_MethodInfo =
 	, (methodPointerType)&UnityUITimer_StartCountdown_m939/* method */
 	, &UnityUITimer_t243_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t604_Object_t/* invoker_method */
 	, UnityUITimer_t243_UnityUITimer_StartCountdown_m939_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -5005,14 +5005,14 @@ extern const MethodInfo UnityUITimer_StartCountdown_m939_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Action_t250_0_0_0;
 static const ParameterInfo UnityUITimer_t243_UnityUITimer_Countdown_m940_ParameterInfos[] = 
 {
-	{"duration", 0, 134218552, 0, &Single_t583_0_0_0},
+	{"duration", 0, 134218552, 0, &Single_t604_0_0_0},
 	{"timeoutHandler", 1, 134218553, 0, &Action_t250_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator PixelCrushers.DialogueSystem.UnityUITimer::Countdown(System.Single,System.Action)
 extern const MethodInfo UnityUITimer_Countdown_m940_MethodInfo = 
 {
@@ -5020,7 +5020,7 @@ extern const MethodInfo UnityUITimer_Countdown_m940_MethodInfo =
 	, (methodPointerType)&UnityUITimer_Countdown_m940/* method */
 	, &UnityUITimer_t243_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t74_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Single_t604_Object_t/* invoker_method */
 	, UnityUITimer_t243_UnityUITimer_Countdown_m940_ParameterInfos/* parameters */
 	, 462/* custom_attributes_cache */
 	, 129/* flags */
@@ -5072,10 +5072,10 @@ static const Il2CppType* UnityUITimer_t243_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference UnityUITimer_t243_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUITimer_t243_VTableIsGenericMethod[] =
 {
@@ -5286,10 +5286,10 @@ static const MethodInfo* LocalizeUIText_t253_MethodInfos[] =
 };
 static const Il2CppMethodReference LocalizeUIText_t253_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool LocalizeUIText_t253_VTableIsGenericMethod[] =
 {
@@ -5477,10 +5477,10 @@ static const MethodInfo* UnityUIColorText_t254_MethodInfos[] =
 };
 static const Il2CppMethodReference UnityUIColorText_t254_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUIColorText_t254_VTableIsGenericMethod[] =
 {
@@ -5644,10 +5644,10 @@ static const MethodInfo* UnityUIContinueButtonFastForward_t256_MethodInfos[] =
 };
 static const Il2CppMethodReference UnityUIContinueButtonFastForward_t256_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUIContinueButtonFastForward_t256_VTableIsGenericMethod[] =
 {
@@ -5769,7 +5769,7 @@ extern const MethodInfo U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_System_Col
 	, 474/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -5838,7 +5838,7 @@ extern const MethodInfo U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_Dispose_m9
 	, 476/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -5861,7 +5861,7 @@ extern const MethodInfo U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_Reset_m959
 	, 477/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -5910,8 +5910,8 @@ static const PropertyInfo* U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_Pr
 	NULL
 };
 extern const MethodInfo U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_MoveNext_m957_MethodInfo;
-extern const MethodInfo U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_Dispose_m958_MethodInfo;
 extern const MethodInfo U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_Reset_m959_MethodInfo;
+extern const MethodInfo U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_Dispose_m958_MethodInfo;
 static const Il2CppMethodReference U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -5920,9 +5920,9 @@ static const Il2CppMethodReference U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA
 	&Object_ToString_m129_MethodInfo,
 	&U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m956_MethodInfo,
 	&U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_MoveNext_m957_MethodInfo,
+	&U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_Reset_m959_MethodInfo,
 	&U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_Dispose_m958_MethodInfo,
 	&U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m955_MethodInfo,
-	&U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_Reset_m959_MethodInfo,
 };
 static bool U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_VTableIsGenericMethod[] =
 {
@@ -5939,14 +5939,14 @@ static bool U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_VTableIsGenericMe
 static const Il2CppType* U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_0_0_0;
@@ -6156,10 +6156,10 @@ static const Il2CppType* UnityUIScrollbarEnabler_t257_il2cpp_TypeInfo__nestedTyp
 };
 static const Il2CppMethodReference UnityUIScrollbarEnabler_t257_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUIScrollbarEnabler_t257_VTableIsGenericMethod[] =
 {
@@ -6280,7 +6280,7 @@ extern const MethodInfo U3CPlayU3Ec__IteratorB_System_Collections_Generic_IEnume
 	, 484/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -6349,7 +6349,7 @@ extern const MethodInfo U3CPlayU3Ec__IteratorB_Dispose_m969_MethodInfo =
 	, 486/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -6372,7 +6372,7 @@ extern const MethodInfo U3CPlayU3Ec__IteratorB_Reset_m970_MethodInfo =
 	, 487/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -6421,8 +6421,8 @@ static const PropertyInfo* U3CPlayU3Ec__IteratorB_t260_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CPlayU3Ec__IteratorB_MoveNext_m968_MethodInfo;
-extern const MethodInfo U3CPlayU3Ec__IteratorB_Dispose_m969_MethodInfo;
 extern const MethodInfo U3CPlayU3Ec__IteratorB_Reset_m970_MethodInfo;
+extern const MethodInfo U3CPlayU3Ec__IteratorB_Dispose_m969_MethodInfo;
 static const Il2CppMethodReference U3CPlayU3Ec__IteratorB_t260_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -6431,9 +6431,9 @@ static const Il2CppMethodReference U3CPlayU3Ec__IteratorB_t260_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CPlayU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m967_MethodInfo,
 	&U3CPlayU3Ec__IteratorB_MoveNext_m968_MethodInfo,
+	&U3CPlayU3Ec__IteratorB_Reset_m970_MethodInfo,
 	&U3CPlayU3Ec__IteratorB_Dispose_m969_MethodInfo,
 	&U3CPlayU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m966_MethodInfo,
-	&U3CPlayU3Ec__IteratorB_Reset_m970_MethodInfo,
 };
 static bool U3CPlayU3Ec__IteratorB_t260_VTableIsGenericMethod[] =
 {
@@ -6450,14 +6450,14 @@ static bool U3CPlayU3Ec__IteratorB_t260_VTableIsGenericMethod[] =
 static const Il2CppType* U3CPlayU3Ec__IteratorB_t260_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CPlayU3Ec__IteratorB_t260_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CPlayU3Ec__IteratorB_t260_0_0_0;
@@ -6814,10 +6814,10 @@ static const Il2CppType* UnityUITypewriterEffect_t255_il2cpp_TypeInfo__nestedTyp
 };
 static const Il2CppMethodReference UnityUITypewriterEffect_t255_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUITypewriterEffect_t255_VTableIsGenericMethod[] =
 {
@@ -6938,7 +6938,7 @@ extern const MethodInfo U3CStartU3Ec__IteratorC_System_Collections_Generic_IEnum
 	, 491/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7007,7 +7007,7 @@ extern const MethodInfo U3CStartU3Ec__IteratorC_Dispose_m985_MethodInfo =
 	, 493/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7030,7 +7030,7 @@ extern const MethodInfo U3CStartU3Ec__IteratorC_Reset_m986_MethodInfo =
 	, 494/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7079,8 +7079,8 @@ static const PropertyInfo* U3CStartU3Ec__IteratorC_t264_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CStartU3Ec__IteratorC_MoveNext_m984_MethodInfo;
-extern const MethodInfo U3CStartU3Ec__IteratorC_Dispose_m985_MethodInfo;
 extern const MethodInfo U3CStartU3Ec__IteratorC_Reset_m986_MethodInfo;
+extern const MethodInfo U3CStartU3Ec__IteratorC_Dispose_m985_MethodInfo;
 static const Il2CppMethodReference U3CStartU3Ec__IteratorC_t264_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -7089,9 +7089,9 @@ static const Il2CppMethodReference U3CStartU3Ec__IteratorC_t264_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CStartU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m983_MethodInfo,
 	&U3CStartU3Ec__IteratorC_MoveNext_m984_MethodInfo,
+	&U3CStartU3Ec__IteratorC_Reset_m986_MethodInfo,
 	&U3CStartU3Ec__IteratorC_Dispose_m985_MethodInfo,
 	&U3CStartU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m982_MethodInfo,
-	&U3CStartU3Ec__IteratorC_Reset_m986_MethodInfo,
 };
 static bool U3CStartU3Ec__IteratorC_t264_VTableIsGenericMethod[] =
 {
@@ -7108,14 +7108,14 @@ static bool U3CStartU3Ec__IteratorC_t264_VTableIsGenericMethod[] =
 static const Il2CppType* U3CStartU3Ec__IteratorC_t264_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CStartU3Ec__IteratorC_t264_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CStartU3Ec__IteratorC_t264_0_0_0;
@@ -7282,10 +7282,10 @@ static const Il2CppType* UpdateLocalizedUITexts_t263_il2cpp_TypeInfo__nestedType
 };
 static const Il2CppMethodReference UpdateLocalizedUITexts_t263_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UpdateLocalizedUITexts_t263_VTableIsGenericMethod[] =
 {
@@ -7527,7 +7527,7 @@ extern const MethodInfo U3COpenAfterAnimationU3Ec__IteratorD_System_Collections_
 	, 503/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7596,7 +7596,7 @@ extern const MethodInfo U3COpenAfterAnimationU3Ec__IteratorD_Dispose_m995_Method
 	, 505/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7619,7 +7619,7 @@ extern const MethodInfo U3COpenAfterAnimationU3Ec__IteratorD_Reset_m996_MethodIn
 	, 506/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7668,8 +7668,8 @@ static const PropertyInfo* U3COpenAfterAnimationU3Ec__IteratorD_t267_PropertyInf
 	NULL
 };
 extern const MethodInfo U3COpenAfterAnimationU3Ec__IteratorD_MoveNext_m994_MethodInfo;
-extern const MethodInfo U3COpenAfterAnimationU3Ec__IteratorD_Dispose_m995_MethodInfo;
 extern const MethodInfo U3COpenAfterAnimationU3Ec__IteratorD_Reset_m996_MethodInfo;
+extern const MethodInfo U3COpenAfterAnimationU3Ec__IteratorD_Dispose_m995_MethodInfo;
 static const Il2CppMethodReference U3COpenAfterAnimationU3Ec__IteratorD_t267_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -7678,9 +7678,9 @@ static const Il2CppMethodReference U3COpenAfterAnimationU3Ec__IteratorD_t267_VTa
 	&Object_ToString_m129_MethodInfo,
 	&U3COpenAfterAnimationU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m993_MethodInfo,
 	&U3COpenAfterAnimationU3Ec__IteratorD_MoveNext_m994_MethodInfo,
+	&U3COpenAfterAnimationU3Ec__IteratorD_Reset_m996_MethodInfo,
 	&U3COpenAfterAnimationU3Ec__IteratorD_Dispose_m995_MethodInfo,
 	&U3COpenAfterAnimationU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m992_MethodInfo,
-	&U3COpenAfterAnimationU3Ec__IteratorD_Reset_m996_MethodInfo,
 };
 static bool U3COpenAfterAnimationU3Ec__IteratorD_t267_VTableIsGenericMethod[] =
 {
@@ -7697,14 +7697,14 @@ static bool U3COpenAfterAnimationU3Ec__IteratorD_t267_VTableIsGenericMethod[] =
 static const Il2CppType* U3COpenAfterAnimationU3Ec__IteratorD_t267_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3COpenAfterAnimationU3Ec__IteratorD_t267_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3COpenAfterAnimationU3Ec__IteratorD_t267_0_0_0;
@@ -7819,7 +7819,7 @@ extern const MethodInfo U3CCloseAfterAnimationU3Ec__IteratorE_System_Collections
 	, 508/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7888,7 +7888,7 @@ extern const MethodInfo U3CCloseAfterAnimationU3Ec__IteratorE_Dispose_m1001_Meth
 	, 510/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7911,7 +7911,7 @@ extern const MethodInfo U3CCloseAfterAnimationU3Ec__IteratorE_Reset_m1002_Method
 	, 511/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -7960,8 +7960,8 @@ static const PropertyInfo* U3CCloseAfterAnimationU3Ec__IteratorE_t268_PropertyIn
 	NULL
 };
 extern const MethodInfo U3CCloseAfterAnimationU3Ec__IteratorE_MoveNext_m1000_MethodInfo;
-extern const MethodInfo U3CCloseAfterAnimationU3Ec__IteratorE_Dispose_m1001_MethodInfo;
 extern const MethodInfo U3CCloseAfterAnimationU3Ec__IteratorE_Reset_m1002_MethodInfo;
+extern const MethodInfo U3CCloseAfterAnimationU3Ec__IteratorE_Dispose_m1001_MethodInfo;
 static const Il2CppMethodReference U3CCloseAfterAnimationU3Ec__IteratorE_t268_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -7970,9 +7970,9 @@ static const Il2CppMethodReference U3CCloseAfterAnimationU3Ec__IteratorE_t268_VT
 	&Object_ToString_m129_MethodInfo,
 	&U3CCloseAfterAnimationU3Ec__IteratorE_System_Collections_IEnumerator_get_Current_m999_MethodInfo,
 	&U3CCloseAfterAnimationU3Ec__IteratorE_MoveNext_m1000_MethodInfo,
+	&U3CCloseAfterAnimationU3Ec__IteratorE_Reset_m1002_MethodInfo,
 	&U3CCloseAfterAnimationU3Ec__IteratorE_Dispose_m1001_MethodInfo,
 	&U3CCloseAfterAnimationU3Ec__IteratorE_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m998_MethodInfo,
-	&U3CCloseAfterAnimationU3Ec__IteratorE_Reset_m1002_MethodInfo,
 };
 static bool U3CCloseAfterAnimationU3Ec__IteratorE_t268_VTableIsGenericMethod[] =
 {
@@ -7989,14 +7989,14 @@ static bool U3CCloseAfterAnimationU3Ec__IteratorE_t268_VTableIsGenericMethod[] =
 static const Il2CppType* U3CCloseAfterAnimationU3Ec__IteratorE_t268_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CCloseAfterAnimationU3Ec__IteratorE_t268_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CCloseAfterAnimationU3Ec__IteratorE_t268_0_0_0;
@@ -8069,19 +8069,19 @@ TypeInfo U3CCloseAfterAnimationU3Ec__IteratorE_t268_il2cpp_TypeInfo =
 	, 3/* interface_offsets_count */
 
 };
-// PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F
+// PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21
 #include "AssemblyU2DCSharp_PixelCrushers_DialogueSystem_UnityUIQuestL_2.h"
-// Metadata Definition PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F
-extern TypeInfo U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo;
-// PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F
+// Metadata Definition PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21
+extern TypeInfo U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21
 #include "AssemblyU2DCSharp_PixelCrushers_DialogueSystem_UnityUIQuestL_2MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F::.ctor()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F__ctor_m1003_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::.ctor()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21__ctor_m1003_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey1F__ctor_m1003/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21__ctor_m1003/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8099,12 +8099,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F__ctor_m1003_MethodI
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F::<>m__16()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__16_m1004_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__16()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__16_m1004_MethodInfo = 
 {
 	"<>m__16"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__16_m1004/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__16_m1004/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8122,12 +8122,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__16_m1004_M
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F::<>m__17()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__17_m1005_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__17()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__17_m1005_MethodInfo = 
 {
 	"<>m__17"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__17_m1005/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__17_m1005/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8145,12 +8145,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__17_m1005_M
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F::<>m__18()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__18_m1006_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__18()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__18_m1006_MethodInfo = 
 {
 	"<>m__18"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__18_m1006/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__18_m1006/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8168,12 +8168,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__18_m1006_M
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F::<>m__19()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__19_m1007_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__19()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__19_m1007_MethodInfo = 
 {
 	"<>m__19"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__19_m1007/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__19_m1007/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8191,12 +8191,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__19_m1007_M
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey1F::<>m__1A()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__1A_m1008_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__1A()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__1A_m1008_MethodInfo = 
 {
 	"<>m__1A"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__1A_m1008/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__1A_m1008/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8213,24 +8213,24 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__1A_m1008_M
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CAddQuestToTableU3Ec__AnonStorey1F_t270_MethodInfos[] =
+static const MethodInfo* U3CAddQuestToTableU3Ec__AnonStorey21_t270_MethodInfos[] =
 {
-	&U3CAddQuestToTableU3Ec__AnonStorey1F__ctor_m1003_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__16_m1004_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__17_m1005_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__18_m1006_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__19_m1007_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey1F_U3CU3Em__1A_m1008_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey21__ctor_m1003_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__16_m1004_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__17_m1005_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__18_m1006_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__19_m1007_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__1A_m1008_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CAddQuestToTableU3Ec__AnonStorey1F_t270_VTable[] =
+static const Il2CppMethodReference U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CAddQuestToTableU3Ec__AnonStorey1F_t270_VTableIsGenericMethod[] =
+static bool U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8238,37 +8238,37 @@ static bool U3CAddQuestToTableU3Ec__AnonStorey1F_t270_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CAddQuestToTableU3Ec__AnonStorey1F_t270_0_0_0;
-extern const Il2CppType U3CAddQuestToTableU3Ec__AnonStorey1F_t270_1_0_0;
-struct U3CAddQuestToTableU3Ec__AnonStorey1F_t270;
-const Il2CppTypeDefinitionMetadata U3CAddQuestToTableU3Ec__AnonStorey1F_t270_DefinitionMetadata = 
+extern const Il2CppType U3CAddQuestToTableU3Ec__AnonStorey21_t270_0_0_0;
+extern const Il2CppType U3CAddQuestToTableU3Ec__AnonStorey21_t270_1_0_0;
+struct U3CAddQuestToTableU3Ec__AnonStorey21_t270;
+const Il2CppTypeDefinitionMetadata U3CAddQuestToTableU3Ec__AnonStorey21_t270_DefinitionMetadata = 
 {
 	&UnityUIQuestLogWindow_t266_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CAddQuestToTableU3Ec__AnonStorey1F_t270_VTable/* vtableMethods */
-	, U3CAddQuestToTableU3Ec__AnonStorey1F_t270_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTable/* vtableMethods */
+	, U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1219/* fieldStart */
 
 };
-TypeInfo U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo = 
+TypeInfo U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<AddQuestToTable>c__AnonStorey1F"/* name */
+	, "<AddQuestToTable>c__AnonStorey21"/* name */
 	, ""/* namespaze */
-	, U3CAddQuestToTableU3Ec__AnonStorey1F_t270_MethodInfos/* methods */
+	, U3CAddQuestToTableU3Ec__AnonStorey21_t270_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo/* element_class */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 512/* custom_attributes_cache */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_0_0_0/* byval_arg */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_1_0_0/* this_arg */
-	, &U3CAddQuestToTableU3Ec__AnonStorey1F_t270_DefinitionMetadata/* definitionMetadata */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_0_0_0/* byval_arg */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_1_0_0/* this_arg */
+	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8278,8 +8278,8 @@ TypeInfo U3CAddQuestToTableU3Ec__AnonStorey1F_t270_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CAddQuestToTableU3Ec__AnonStorey1F_t270)/* instance_size */
-	, sizeof (U3CAddQuestToTableU3Ec__AnonStorey1F_t270)/* actualSize */
+	, sizeof (U3CAddQuestToTableU3Ec__AnonStorey21_t270)/* instance_size */
+	, sizeof (U3CAddQuestToTableU3Ec__AnonStorey21_t270)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9050,27 +9050,27 @@ static const Il2CppType* UnityUIQuestLogWindow_t266_il2cpp_TypeInfo__nestedTypes
 	&AnimationTransitions_t265_0_0_0,
 	&U3COpenAfterAnimationU3Ec__IteratorD_t267_0_0_0,
 	&U3CCloseAfterAnimationU3Ec__IteratorE_t268_0_0_0,
-	&U3CAddQuestToTableU3Ec__AnonStorey1F_t270_0_0_0,
+	&U3CAddQuestToTableU3Ec__AnonStorey21_t270_0_0_0,
 };
 extern const MethodInfo UnityUIQuestLogWindow_OpenWindow_m1013_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_CloseWindow_m1014_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_OnQuestListUpdated_m1018_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_ConfirmAbandonQuest_m1028_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_Awake_m1010_MethodInfo;
-extern const MethodInfo QuestLogWindow_GetNoQuestsMessage_m3364_MethodInfo;
+extern const MethodInfo QuestLogWindow_GetNoQuestsMessage_m3496_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_Start_m1011_MethodInfo;
 static const Il2CppMethodReference UnityUIQuestLogWindow_t266_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&UnityUIQuestLogWindow_OpenWindow_m1013_MethodInfo,
 	&UnityUIQuestLogWindow_CloseWindow_m1014_MethodInfo,
 	&UnityUIQuestLogWindow_OnQuestListUpdated_m1018_MethodInfo,
 	&UnityUIQuestLogWindow_ConfirmAbandonQuest_m1028_MethodInfo,
 	&UnityUIQuestLogWindow_Awake_m1010_MethodInfo,
-	&QuestLogWindow_GetNoQuestsMessage_m3364_MethodInfo,
+	&QuestLogWindow_GetNoQuestsMessage_m3496_MethodInfo,
 	&UnityUIQuestLogWindow_Start_m1011_MethodInfo,
 };
 static bool UnityUIQuestLogWindow_t266_VTableIsGenericMethod[] =
@@ -9234,10 +9234,10 @@ static const PropertyInfo* UnityUIQuestTemplate_t271_PropertyInfos[] =
 };
 static const Il2CppMethodReference UnityUIQuestTemplate_t271_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUIQuestTemplate_t271_VTableIsGenericMethod[] =
 {
@@ -9353,10 +9353,10 @@ static const MethodInfo* UnityUIQuestTitle_t272_MethodInfos[] =
 };
 static const Il2CppMethodReference UnityUIQuestTitle_t272_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUIQuestTitle_t272_VTableIsGenericMethod[] =
 {
@@ -9512,10 +9512,10 @@ static const PropertyInfo* UnityUIQuestTrackTemplate_t273_PropertyInfos[] =
 };
 static const Il2CppMethodReference UnityUIQuestTrackTemplate_t273_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUIQuestTrackTemplate_t273_VTableIsGenericMethod[] =
 {
@@ -10003,13 +10003,13 @@ extern const MethodInfo UnityUIQuestTracker_GetQuestEntryDescription_m1050_Metho
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType QuestState_t722_0_0_0;
-extern const Il2CppType QuestState_t722_0_0_0;
+extern const Il2CppType QuestState_t748_0_0_0;
+extern const Il2CppType QuestState_t748_0_0_0;
 static const ParameterInfo UnityUIQuestTracker_t275_UnityUIQuestTracker_GetQuestEntryText_m1051_ParameterInfos[] = 
 {
 	{"quest", 0, 134218574, 0, &String_t_0_0_0},
 	{"entryNum", 1, 134218575, 0, &Int32_t29_0_0_0},
-	{"entryState", 2, 134218576, 0, &QuestState_t722_0_0_0},
+	{"entryState", 2, 134218576, 0, &QuestState_t748_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t29_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.UnityUIQuestTracker::GetQuestEntryText(System.String,System.Int32,PixelCrushers.DialogueSystem.QuestState)
@@ -10054,10 +10054,10 @@ static const Il2CppType* UnityUIQuestTracker_t275_il2cpp_TypeInfo__nestedTypes[1
 };
 static const Il2CppMethodReference UnityUIQuestTracker_t275_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUIQuestTracker_t275_VTableIsGenericMethod[] =
 {
@@ -10285,15 +10285,15 @@ extern const MethodInfo UnityUISelectorDisplay__ctor_m1053_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single PixelCrushers.DialogueSystem.UnityUISelectorDisplay::get_CurrentDistance()
 extern const MethodInfo UnityUISelectorDisplay_get_CurrentDistance_m1054_MethodInfo = 
 {
 	"get_CurrentDistance"/* name */
 	, (methodPointerType)&UnityUISelectorDisplay_get_CurrentDistance_m1054/* method */
 	, &UnityUISelectorDisplay_t281_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2180/* flags */
@@ -10852,10 +10852,10 @@ static const Il2CppType* UnityUISelectorDisplay_t281_il2cpp_TypeInfo__nestedType
 };
 static const Il2CppMethodReference UnityUISelectorDisplay_t281_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UnityUISelectorDisplay_t281_VTableIsGenericMethod[] =
 {
@@ -11277,10 +11277,10 @@ static const Il2CppType* UsableUnityUI_t280_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference UsableUnityUI_t280_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UsableUnityUI_t280_VTableIsGenericMethod[] =
 {
@@ -11443,10 +11443,10 @@ static const MethodInfo* UIButtonKeyTrigger_t283_MethodInfos[] =
 };
 static const Il2CppMethodReference UIButtonKeyTrigger_t283_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool UIButtonKeyTrigger_t283_VTableIsGenericMethod[] =
 {
@@ -11532,13 +11532,13 @@ TypeInfo UIButtonKeyTrigger_t283_il2cpp_TypeInfo =
 extern TypeInfo UITools_t284_il2cpp_TypeInfo;
 // PixelCrushers.DialogueSystem.UITools
 #include "AssemblyU2DCSharp_PixelCrushers_DialogueSystem_UIToolsMethodDeclarations.h"
-extern const Il2CppType AnimatorStateInfo_t556_0_0_0;
-extern const Il2CppType AnimatorStateInfo_t556_0_0_0;
+extern const Il2CppType AnimatorStateInfo_t574_0_0_0;
+extern const Il2CppType AnimatorStateInfo_t574_0_0_0;
 static const ParameterInfo UITools_t284_UITools_GetAnimatorNameHash_m1087_ParameterInfos[] = 
 {
-	{"animatorStateInfo", 0, 134218587, 0, &AnimatorStateInfo_t556_0_0_0},
+	{"animatorStateInfo", 0, 134218587, 0, &AnimatorStateInfo_t574_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t29_AnimatorStateInfo_t556 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t29_AnimatorStateInfo_t574 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 PixelCrushers.DialogueSystem.UITools::GetAnimatorNameHash(UnityEngine.AnimatorStateInfo)
 extern const MethodInfo UITools_GetAnimatorNameHash_m1087_MethodInfo = 
 {
@@ -11546,7 +11546,7 @@ extern const MethodInfo UITools_GetAnimatorNameHash_m1087_MethodInfo =
 	, (methodPointerType)&UITools_GetAnimatorNameHash_m1087/* method */
 	, &UITools_t284_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t29_AnimatorStateInfo_t556/* invoker_method */
+	, RuntimeInvoker_Int32_t29_AnimatorStateInfo_t574/* invoker_method */
 	, UITools_t284_UITools_GetAnimatorNameHash_m1087_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -11566,7 +11566,7 @@ static const ParameterInfo UITools_t284_UITools_CreateSprite_m1088_ParameterInfo
 {
 	{"texture", 0, 134218588, 0, &Texture2D_t90_0_0_0},
 };
-extern const Il2CppType Sprite_t555_0_0_0;
+extern const Il2CppType Sprite_t573_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Sprite PixelCrushers.DialogueSystem.UITools::CreateSprite(UnityEngine.Texture2D)
 extern const MethodInfo UITools_CreateSprite_m1088_MethodInfo = 
@@ -11574,7 +11574,7 @@ extern const MethodInfo UITools_CreateSprite_m1088_MethodInfo =
 	"CreateSprite"/* name */
 	, (methodPointerType)&UITools_CreateSprite_m1088/* method */
 	, &UITools_t284_il2cpp_TypeInfo/* declaring_type */
-	, &Sprite_t555_0_0_0/* return_type */
+	, &Sprite_t573_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, UITools_t284_UITools_CreateSprite_m1088_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11590,10 +11590,10 @@ extern const MethodInfo UITools_CreateSprite_m1088_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FormattedText_t554_0_0_0;
+extern const Il2CppType FormattedText_t572_0_0_0;
 static const ParameterInfo UITools_t284_UITools_GetUIFormattedText_m1089_ParameterInfos[] = 
 {
-	{"formattedText", 0, 134218589, 0, &FormattedText_t554_0_0_0},
+	{"formattedText", 0, 134218589, 0, &FormattedText_t572_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.UITools::GetUIFormattedText(PixelCrushers.DialogueSystem.FormattedText)
@@ -11794,10 +11794,10 @@ static const MethodInfo* AlwaysFaceCamera_t285_MethodInfos[] =
 };
 static const Il2CppMethodReference AlwaysFaceCamera_t285_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool AlwaysFaceCamera_t285_VTableIsGenericMethod[] =
 {
@@ -11934,10 +11934,10 @@ extern const MethodInfo ConversationLogger_OnConversationStart_m1094_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 static const ParameterInfo ConversationLogger_t286_ConversationLogger_OnConversationLine_m1095_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218591, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134218591, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.ConversationLogger::OnConversationLine(PixelCrushers.DialogueSystem.Subtitle)
@@ -12018,10 +12018,10 @@ extern const MethodInfo ConversationLogger_GetActorName_m1097_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 static const ParameterInfo ConversationLogger_t286_ConversationLogger_GetActorColor_m1098_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218594, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134218594, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.ConversationLogger::GetActorColor(PixelCrushers.DialogueSystem.Subtitle)
@@ -12058,10 +12058,10 @@ static const MethodInfo* ConversationLogger_t286_MethodInfos[] =
 };
 static const Il2CppMethodReference ConversationLogger_t286_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool ConversationLogger_t286_VTableIsGenericMethod[] =
 {
@@ -12170,12 +12170,12 @@ extern const MethodInfo DieOnTakeDamage__ctor_m1099_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo DieOnTakeDamage_t287_DieOnTakeDamage_TakeDamage_m1100_ParameterInfos[] = 
 {
-	{"damage", 0, 134218595, 0, &Single_t583_0_0_0},
+	{"damage", 0, 134218595, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.DieOnTakeDamage::TakeDamage(System.Single)
 extern const MethodInfo DieOnTakeDamage_TakeDamage_m1100_MethodInfo = 
 {
@@ -12183,7 +12183,7 @@ extern const MethodInfo DieOnTakeDamage_TakeDamage_m1100_MethodInfo =
 	, (methodPointerType)&DieOnTakeDamage_TakeDamage_m1100/* method */
 	, &DieOnTakeDamage_t287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t604/* invoker_method */
 	, DieOnTakeDamage_t287_DieOnTakeDamage_TakeDamage_m1100_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -12198,12 +12198,12 @@ extern const MethodInfo DieOnTakeDamage_TakeDamage_m1100_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo DieOnTakeDamage_t287_DieOnTakeDamage_Damage_m1101_ParameterInfos[] = 
 {
-	{"damage", 0, 134218596, 0, &Single_t583_0_0_0},
+	{"damage", 0, 134218596, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.DieOnTakeDamage::Damage(System.Single)
 extern const MethodInfo DieOnTakeDamage_Damage_m1101_MethodInfo = 
 {
@@ -12211,7 +12211,7 @@ extern const MethodInfo DieOnTakeDamage_Damage_m1101_MethodInfo =
 	, (methodPointerType)&DieOnTakeDamage_Damage_m1101/* method */
 	, &DieOnTakeDamage_t287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t604/* invoker_method */
 	, DieOnTakeDamage_t287_DieOnTakeDamage_Damage_m1101_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -12235,10 +12235,10 @@ static const MethodInfo* DieOnTakeDamage_t287_MethodInfos[] =
 };
 static const Il2CppMethodReference DieOnTakeDamage_t287_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool DieOnTakeDamage_t287_VTableIsGenericMethod[] =
 {
@@ -12360,7 +12360,7 @@ extern const MethodInfo U3CAddDatabasesCoroutineU3Ec__IteratorF_System_Collectio
 	, 527/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -12429,7 +12429,7 @@ extern const MethodInfo U3CAddDatabasesCoroutineU3Ec__IteratorF_Dispose_m1106_Me
 	, 529/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -12452,7 +12452,7 @@ extern const MethodInfo U3CAddDatabasesCoroutineU3Ec__IteratorF_Reset_m1107_Meth
 	, 530/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -12501,8 +12501,8 @@ static const PropertyInfo* U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_Property
 	NULL
 };
 extern const MethodInfo U3CAddDatabasesCoroutineU3Ec__IteratorF_MoveNext_m1105_MethodInfo;
-extern const MethodInfo U3CAddDatabasesCoroutineU3Ec__IteratorF_Dispose_m1106_MethodInfo;
 extern const MethodInfo U3CAddDatabasesCoroutineU3Ec__IteratorF_Reset_m1107_MethodInfo;
+extern const MethodInfo U3CAddDatabasesCoroutineU3Ec__IteratorF_Dispose_m1106_MethodInfo;
 static const Il2CppMethodReference U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -12511,9 +12511,9 @@ static const Il2CppMethodReference U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_
 	&Object_ToString_m129_MethodInfo,
 	&U3CAddDatabasesCoroutineU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m1104_MethodInfo,
 	&U3CAddDatabasesCoroutineU3Ec__IteratorF_MoveNext_m1105_MethodInfo,
+	&U3CAddDatabasesCoroutineU3Ec__IteratorF_Reset_m1107_MethodInfo,
 	&U3CAddDatabasesCoroutineU3Ec__IteratorF_Dispose_m1106_MethodInfo,
 	&U3CAddDatabasesCoroutineU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1103_MethodInfo,
-	&U3CAddDatabasesCoroutineU3Ec__IteratorF_Reset_m1107_MethodInfo,
 };
 static bool U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_VTableIsGenericMethod[] =
 {
@@ -12530,14 +12530,14 @@ static bool U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_VTableIsGenericMethod[]
 static const Il2CppType* U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_0_0_0;
@@ -12654,7 +12654,7 @@ extern const MethodInfo U3CRemoveDatabasesCoroutineU3Ec__Iterator10_System_Colle
 	, 532/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -12723,7 +12723,7 @@ extern const MethodInfo U3CRemoveDatabasesCoroutineU3Ec__Iterator10_Dispose_m111
 	, 534/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -12746,7 +12746,7 @@ extern const MethodInfo U3CRemoveDatabasesCoroutineU3Ec__Iterator10_Reset_m1113_
 	, 535/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -12795,8 +12795,8 @@ static const PropertyInfo* U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_Prop
 	NULL
 };
 extern const MethodInfo U3CRemoveDatabasesCoroutineU3Ec__Iterator10_MoveNext_m1111_MethodInfo;
-extern const MethodInfo U3CRemoveDatabasesCoroutineU3Ec__Iterator10_Dispose_m1112_MethodInfo;
 extern const MethodInfo U3CRemoveDatabasesCoroutineU3Ec__Iterator10_Reset_m1113_MethodInfo;
+extern const MethodInfo U3CRemoveDatabasesCoroutineU3Ec__Iterator10_Dispose_m1112_MethodInfo;
 static const Il2CppMethodReference U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -12805,9 +12805,9 @@ static const Il2CppMethodReference U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t
 	&Object_ToString_m129_MethodInfo,
 	&U3CRemoveDatabasesCoroutineU3Ec__Iterator10_System_Collections_IEnumerator_get_Current_m1110_MethodInfo,
 	&U3CRemoveDatabasesCoroutineU3Ec__Iterator10_MoveNext_m1111_MethodInfo,
+	&U3CRemoveDatabasesCoroutineU3Ec__Iterator10_Reset_m1113_MethodInfo,
 	&U3CRemoveDatabasesCoroutineU3Ec__Iterator10_Dispose_m1112_MethodInfo,
 	&U3CRemoveDatabasesCoroutineU3Ec__Iterator10_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1109_MethodInfo,
-	&U3CRemoveDatabasesCoroutineU3Ec__Iterator10_Reset_m1113_MethodInfo,
 };
 static bool U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_VTableIsGenericMethod[] =
 {
@@ -12824,14 +12824,14 @@ static bool U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_VTableIsGenericMeth
 static const Il2CppType* U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_0_0_0;
@@ -12946,7 +12946,7 @@ extern const MethodInfo U3CStartU3Ec__Iterator11_System_Collections_Generic_IEnu
 	, 537/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -13015,7 +13015,7 @@ extern const MethodInfo U3CStartU3Ec__Iterator11_Dispose_m1118_MethodInfo =
 	, 539/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -13038,7 +13038,7 @@ extern const MethodInfo U3CStartU3Ec__Iterator11_Reset_m1119_MethodInfo =
 	, 540/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -13087,8 +13087,8 @@ static const PropertyInfo* U3CStartU3Ec__Iterator11_t292_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CStartU3Ec__Iterator11_MoveNext_m1117_MethodInfo;
-extern const MethodInfo U3CStartU3Ec__Iterator11_Dispose_m1118_MethodInfo;
 extern const MethodInfo U3CStartU3Ec__Iterator11_Reset_m1119_MethodInfo;
+extern const MethodInfo U3CStartU3Ec__Iterator11_Dispose_m1118_MethodInfo;
 static const Il2CppMethodReference U3CStartU3Ec__Iterator11_t292_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -13097,9 +13097,9 @@ static const Il2CppMethodReference U3CStartU3Ec__Iterator11_t292_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CStartU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m1116_MethodInfo,
 	&U3CStartU3Ec__Iterator11_MoveNext_m1117_MethodInfo,
+	&U3CStartU3Ec__Iterator11_Reset_m1119_MethodInfo,
 	&U3CStartU3Ec__Iterator11_Dispose_m1118_MethodInfo,
 	&U3CStartU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1115_MethodInfo,
-	&U3CStartU3Ec__Iterator11_Reset_m1119_MethodInfo,
 };
 static bool U3CStartU3Ec__Iterator11_t292_VTableIsGenericMethod[] =
 {
@@ -13116,14 +13116,14 @@ static bool U3CStartU3Ec__Iterator11_t292_VTableIsGenericMethod[] =
 static const Il2CppType* U3CStartU3Ec__Iterator11_t292_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CStartU3Ec__Iterator11_t292_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CStartU3Ec__Iterator11_t292_0_0_0;
@@ -13808,10 +13808,10 @@ static const Il2CppType* ExtraDatabases_t289_il2cpp_TypeInfo__nestedTypes[3] =
 };
 static const Il2CppMethodReference ExtraDatabases_t289_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool ExtraDatabases_t289_VTableIsGenericMethod[] =
 {
@@ -14069,10 +14069,10 @@ static const PropertyInfo* SmoothCameraWithBumper_t293_PropertyInfos[] =
 };
 static const Il2CppMethodReference SmoothCameraWithBumper_t293_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool SmoothCameraWithBumper_t293_VTableIsGenericMethod[] =
 {
@@ -14236,10 +14236,10 @@ static const MethodInfo* IncrementOnDestroy_t294_MethodInfos[] =
 };
 static const Il2CppMethodReference IncrementOnDestroy_t294_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool IncrementOnDestroy_t294_VTableIsGenericMethod[] =
 {
@@ -14546,10 +14546,10 @@ static const Il2CppType* NavigateOnMouseClick_t299_il2cpp_TypeInfo__nestedTypes[
 };
 static const Il2CppMethodReference NavigateOnMouseClick_t299_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool NavigateOnMouseClick_t299_VTableIsGenericMethod[] =
 {
@@ -14776,10 +14776,10 @@ static const PropertyInfo* PersistentDestructible_t300_PropertyInfos[] =
 };
 static const Il2CppMethodReference PersistentDestructible_t300_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PersistentDestructible_t300_VTableIsGenericMethod[] =
 {
@@ -15572,10 +15572,10 @@ static const Il2CppType* ProximitySelector_t278_il2cpp_TypeInfo__nestedTypes[1] 
 extern const MethodInfo ProximitySelector_OnGUI_m1177_MethodInfo;
 static const Il2CppMethodReference ProximitySelector_t278_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&ProximitySelector_OnGUI_m1177_MethodInfo,
 };
 static bool ProximitySelector_t278_VTableIsGenericMethod[] =
@@ -15957,7 +15957,7 @@ extern const MethodInfo U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_System_Col
 	, 561/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -16026,7 +16026,7 @@ extern const MethodInfo U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_Dispose_m1
 	, 563/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -16049,7 +16049,7 @@ extern const MethodInfo U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_Reset_m118
 	, 564/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -16098,8 +16098,8 @@ static const PropertyInfo* U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_Pr
 	NULL
 };
 extern const MethodInfo U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_MoveNext_m1183_MethodInfo;
-extern const MethodInfo U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_Dispose_m1184_MethodInfo;
 extern const MethodInfo U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_Reset_m1185_MethodInfo;
+extern const MethodInfo U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_Dispose_m1184_MethodInfo;
 static const Il2CppMethodReference U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -16108,9 +16108,9 @@ static const Il2CppMethodReference U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12
 	&Object_ToString_m129_MethodInfo,
 	&U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m1182_MethodInfo,
 	&U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_MoveNext_m1183_MethodInfo,
+	&U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_Reset_m1185_MethodInfo,
 	&U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_Dispose_m1184_MethodInfo,
 	&U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1181_MethodInfo,
-	&U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_Reset_m1185_MethodInfo,
 };
 static bool U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_VTableIsGenericMethod[] =
 {
@@ -16127,14 +16127,14 @@ static bool U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_VTableIsGenericMe
 static const Il2CppType* U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_0_0_0;
@@ -16446,12 +16446,12 @@ extern const MethodInfo QuestTracker_AddQuestEntries_m1194_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType QuestState_t722_0_0_0;
+extern const Il2CppType QuestState_t748_0_0_0;
 static const ParameterInfo QuestTracker_t308_QuestTracker_GetQuestEntryText_m1195_ParameterInfos[] = 
 {
 	{"quest", 0, 134218628, 0, &String_t_0_0_0},
 	{"entryNum", 1, 134218629, 0, &Int32_t29_0_0_0},
-	{"entryState", 2, 134218630, 0, &QuestState_t722_0_0_0},
+	{"entryState", 2, 134218630, 0, &QuestState_t748_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t29_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.QuestTracker::GetQuestEntryText(System.String,System.Int32,PixelCrushers.DialogueSystem.QuestState)
@@ -16476,10 +16476,10 @@ extern const MethodInfo QuestTracker_GetQuestEntryText_m1195_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType QuestState_t722_0_0_0;
+extern const Il2CppType QuestState_t748_0_0_0;
 static const ParameterInfo QuestTracker_t308_QuestTracker_GetTitleStyleName_m1196_ParameterInfos[] = 
 {
-	{"state", 0, 134218631, 0, &QuestState_t722_0_0_0},
+	{"state", 0, 134218631, 0, &QuestState_t748_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.QuestTracker::GetTitleStyleName(PixelCrushers.DialogueSystem.QuestState)
@@ -16504,10 +16504,10 @@ extern const MethodInfo QuestTracker_GetTitleStyleName_m1196_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType QuestState_t722_0_0_0;
+extern const Il2CppType QuestState_t748_0_0_0;
 static const ParameterInfo QuestTracker_t308_QuestTracker_GetEntryStyleName_m1197_ParameterInfos[] = 
 {
-	{"entryState", 0, 134218632, 0, &QuestState_t722_0_0_0},
+	{"entryState", 0, 134218632, 0, &QuestState_t748_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.QuestTracker::GetEntryStyleName(PixelCrushers.DialogueSystem.QuestState)
@@ -16580,10 +16580,10 @@ static const Il2CppType* QuestTracker_t308_il2cpp_TypeInfo__nestedTypes[3] =
 };
 static const Il2CppMethodReference QuestTracker_t308_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool QuestTracker_t308_VTableIsGenericMethod[] =
 {
@@ -16843,10 +16843,10 @@ static const MethodInfo* RangeTrigger_t312_MethodInfos[] =
 };
 static const Il2CppMethodReference RangeTrigger_t312_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool RangeTrigger_t312_VTableIsGenericMethod[] =
 {
@@ -17699,15 +17699,15 @@ extern const MethodInfo Selector_get_CurrentUsable_m1214_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single PixelCrushers.DialogueSystem.Selector::get_CurrentDistance()
 extern const MethodInfo Selector_get_CurrentDistance_m1215_MethodInfo = 
 {
 	"get_CurrentDistance"/* name */
 	, (methodPointerType)&Selector_get_CurrentDistance_m1215/* method */
 	, &Selector_t277_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -18074,10 +18074,10 @@ extern const MethodInfo Selector_OnGUI_m1223_MethodInfo;
 extern const MethodInfo Selector_OnDrawGizmos_m1225_MethodInfo;
 static const Il2CppMethodReference Selector_t277_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&Selector_OnGUI_m1223_MethodInfo,
 	&Selector_OnDrawGizmos_m1225_MethodInfo,
 };
@@ -18282,28 +18282,28 @@ extern const MethodInfo SelectorFollowTarget_OnGUI_m1230_MethodInfo =
 
 };
 extern const Il2CppType Usable_t279_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Reticle_t313_0_0_0;
 extern const Il2CppType GUIStyle_t303_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Color_t121_0_0_0;
 extern const Il2CppType Color_t121_0_0_0;
-extern const Il2CppType TextStyle_t723_0_0_0;
-extern const Il2CppType TextStyle_t723_0_0_0;
+extern const Il2CppType TextStyle_t749_0_0_0;
+extern const Il2CppType TextStyle_t749_0_0_0;
 extern const Il2CppType Color_t121_0_0_0;
 static const ParameterInfo SelectorFollowTarget_t320_SelectorFollowTarget_DrawOnSelection_m1231_ParameterInfos[] = 
 {
 	{"usable", 0, 134218643, 0, &Usable_t279_0_0_0},
-	{"distance", 1, 134218644, 0, &Single_t583_0_0_0},
+	{"distance", 1, 134218644, 0, &Single_t604_0_0_0},
 	{"reticle", 2, 134218645, 0, &Reticle_t313_0_0_0},
 	{"guiStyle", 3, 134218646, 0, &GUIStyle_t303_0_0_0},
 	{"defaultUseMessage", 4, 134218647, 0, &String_t_0_0_0},
 	{"inRangeColor", 5, 134218648, 0, &Color_t121_0_0_0},
 	{"outOfRangeColor", 6, 134218649, 0, &Color_t121_0_0_0},
-	{"textStyle", 7, 134218650, 0, &TextStyle_t723_0_0_0},
+	{"textStyle", 7, 134218650, 0, &TextStyle_t749_0_0_0},
 	{"textStyleColor", 8, 134218651, 0, &Color_t121_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583_Object_t_Object_t_Object_t_Color_t121_Color_t121_Int32_t29_Color_t121 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604_Object_t_Object_t_Object_t_Color_t121_Color_t121_Int32_t29_Color_t121 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.SelectorFollowTarget::DrawOnSelection(PixelCrushers.DialogueSystem.Usable,System.Single,PixelCrushers.DialogueSystem.Selector/Reticle,UnityEngine.GUIStyle,System.String,UnityEngine.Color,UnityEngine.Color,PixelCrushers.DialogueSystem.UnityGUI.TextStyle,UnityEngine.Color)
 extern const MethodInfo SelectorFollowTarget_DrawOnSelection_m1231_MethodInfo = 
 {
@@ -18311,7 +18311,7 @@ extern const MethodInfo SelectorFollowTarget_DrawOnSelection_m1231_MethodInfo =
 	, (methodPointerType)&SelectorFollowTarget_DrawOnSelection_m1231/* method */
 	, &SelectorFollowTarget_t320_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583_Object_t_Object_t_Object_t_Color_t121_Color_t121_Int32_t29_Color_t121/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604_Object_t_Object_t_Object_t_Color_t121_Color_t121_Int32_t29_Color_t121/* invoker_method */
 	, SelectorFollowTarget_t320_SelectorFollowTarget_DrawOnSelection_m1231_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
@@ -18339,10 +18339,10 @@ static const MethodInfo* SelectorFollowTarget_t320_MethodInfos[] =
 extern const MethodInfo SelectorFollowTarget_OnGUI_m1230_MethodInfo;
 static const Il2CppMethodReference SelectorFollowTarget_t320_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&SelectorFollowTarget_OnGUI_m1230_MethodInfo,
 };
 static bool SelectorFollowTarget_t320_VTableIsGenericMethod[] =
@@ -18568,24 +18568,24 @@ extern const MethodInfo SimpleController_OnFired_m1237_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo SimpleController_t322_SimpleController_ClampAngle_m1238_ParameterInfos[] = 
 {
-	{"angle", 0, 134218652, 0, &Single_t583_0_0_0},
-	{"min", 1, 134218653, 0, &Single_t583_0_0_0},
-	{"max", 2, 134218654, 0, &Single_t583_0_0_0},
+	{"angle", 0, 134218652, 0, &Single_t604_0_0_0},
+	{"min", 1, 134218653, 0, &Single_t604_0_0_0},
+	{"max", 2, 134218654, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single PixelCrushers.DialogueSystem.SimpleController::ClampAngle(System.Single,System.Single,System.Single)
 extern const MethodInfo SimpleController_ClampAngle_m1238_MethodInfo = 
 {
 	"ClampAngle"/* name */
 	, (methodPointerType)&SimpleController_ClampAngle_m1238/* method */
 	, &SimpleController_t322_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, SimpleController_t322_SimpleController_ClampAngle_m1238_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -18613,10 +18613,10 @@ static const MethodInfo* SimpleController_t322_MethodInfos[] =
 };
 static const Il2CppMethodReference SimpleController_t322_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool SimpleController_t322_VTableIsGenericMethod[] =
 {
@@ -18780,10 +18780,10 @@ static const MethodInfo* Usable_t279_MethodInfos[] =
 };
 static const Il2CppMethodReference Usable_t279_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool Usable_t279_VTableIsGenericMethod[] =
 {
@@ -18922,10 +18922,10 @@ static const MethodInfo* Demo2DJumpAndRun_t323_MethodInfos[] =
 };
 static const Il2CppMethodReference Demo2DJumpAndRun_t323_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool Demo2DJumpAndRun_t323_VTableIsGenericMethod[] =
 {
@@ -19257,10 +19257,10 @@ static const MethodInfo* JumpAndRunMovement_t326_MethodInfos[] =
 };
 static const Il2CppMethodReference JumpAndRunMovement_t326_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool JumpAndRunMovement_t326_VTableIsGenericMethod[] =
 {
@@ -19400,10 +19400,10 @@ static const MethodInfo* DemoBoxesGui_t327_MethodInfos[] =
 };
 static const Il2CppMethodReference DemoBoxesGui_t327_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool DemoBoxesGui_t327_VTableIsGenericMethod[] =
 {
@@ -19543,10 +19543,10 @@ static const MethodInfo* OnAwakePhysicsSettings_t328_MethodInfos[] =
 };
 static const Il2CppMethodReference OnAwakePhysicsSettings_t328_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool OnAwakePhysicsSettings_t328_VTableIsGenericMethod[] =
 {
@@ -19687,10 +19687,10 @@ static const MethodInfo* ClickAndDrag_t330_MethodInfos[] =
 };
 static const Il2CppMethodReference ClickAndDrag_t330_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool ClickAndDrag_t330_VTableIsGenericMethod[] =
 {
@@ -19860,10 +19860,10 @@ static const MethodInfo* DemoOwnershipGui_t331_MethodInfos[] =
 };
 static const Il2CppMethodReference DemoOwnershipGui_t331_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool DemoOwnershipGui_t331_VTableIsGenericMethod[] =
 {
@@ -20003,10 +20003,10 @@ static const MethodInfo* InstantiateCube_t332_MethodInfos[] =
 };
 static const Il2CppMethodReference InstantiateCube_t332_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool InstantiateCube_t332_VTableIsGenericMethod[] =
 {
@@ -20170,10 +20170,10 @@ static const MethodInfo* MaterialPerOwner_t333_MethodInfos[] =
 };
 static const Il2CppMethodReference MaterialPerOwner_t333_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool MaterialPerOwner_t333_VTableIsGenericMethod[] =
 {
@@ -20313,10 +20313,10 @@ static const MethodInfo* OnClickDisableObj_t334_MethodInfos[] =
 };
 static const Il2CppMethodReference OnClickDisableObj_t334_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool OnClickDisableObj_t334_VTableIsGenericMethod[] =
 {
@@ -20485,10 +20485,10 @@ static const MethodInfo* OnClickRequestOwnership_t335_MethodInfos[] =
 };
 static const Il2CppMethodReference OnClickRequestOwnership_t335_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool OnClickRequestOwnership_t335_VTableIsGenericMethod[] =
 {
@@ -20628,10 +20628,10 @@ static const MethodInfo* OnClickRightDestroy_t336_MethodInfos[] =
 };
 static const Il2CppMethodReference OnClickRightDestroy_t336_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool OnClickRightDestroy_t336_VTableIsGenericMethod[] =
 {
@@ -20771,10 +20771,10 @@ static const MethodInfo* OnJoinInstantiate_t337_MethodInfos[] =
 };
 static const Il2CppMethodReference OnJoinInstantiate_t337_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool OnJoinInstantiate_t337_VTableIsGenericMethod[] =
 {
@@ -21410,10 +21410,10 @@ extern const MethodInfo ChatGui_OnUnsubscribed_m1292_MethodInfo;
 extern const MethodInfo ChatGui_OnStatusUpdate_m1295_MethodInfo;
 static const Il2CppMethodReference ChatGui_t338_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&ChatGui_DebugReturn_m1288_MethodInfo,
 	&ChatGui_OnDisconnected_m1289_MethodInfo,
 	&ChatGui_OnConnected_m1287_MethodInfo,
@@ -21628,10 +21628,10 @@ static const MethodInfo* NamePickGui_t339_MethodInfos[] =
 };
 static const Il2CppMethodReference NamePickGui_t339_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool NamePickGui_t339_VTableIsGenericMethod[] =
 {
@@ -22111,10 +22111,10 @@ static const Il2CppType* GUICustomAuth_t341_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference GUICustomAuth_t341_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool GUICustomAuth_t341_VTableIsGenericMethod[] =
 {
@@ -22325,10 +22325,10 @@ static const MethodInfo* GUIFriendFinding_t342_MethodInfos[] =
 };
 static const Il2CppMethodReference GUIFriendFinding_t342_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool GUIFriendFinding_t342_VTableIsGenericMethod[] =
 {
@@ -22492,10 +22492,10 @@ static const MethodInfo* GUIFriendsInRoom_t343_MethodInfos[] =
 };
 static const Il2CppMethodReference GUIFriendsInRoom_t343_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool GUIFriendsInRoom_t343_VTableIsGenericMethod[] =
 {
@@ -22635,10 +22635,10 @@ static const MethodInfo* OnClickCallMethod_t344_MethodInfos[] =
 };
 static const Il2CppMethodReference OnClickCallMethod_t344_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool OnClickCallMethod_t344_VTableIsGenericMethod[] =
 {
@@ -22728,15 +22728,15 @@ static const MethodInfo* DemoBtn_t345_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m3365_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m3366_MethodInfo;
-extern const MethodInfo ValueType_ToString_m3367_MethodInfo;
+extern const MethodInfo ValueType_Equals_m3497_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m3498_MethodInfo;
+extern const MethodInfo ValueType_ToString_m3499_MethodInfo;
 static const Il2CppMethodReference DemoBtn_t345_VTable[] =
 {
-	&ValueType_Equals_m3365_MethodInfo,
+	&ValueType_Equals_m3497_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&ValueType_GetHashCode_m3366_MethodInfo,
-	&ValueType_ToString_m3367_MethodInfo,
+	&ValueType_GetHashCode_m3498_MethodInfo,
+	&ValueType_ToString_m3499_MethodInfo,
 };
 static bool DemoBtn_t345_VTableIsGenericMethod[] =
 {
@@ -22748,7 +22748,7 @@ static bool DemoBtn_t345_VTableIsGenericMethod[] =
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType DemoBtn_t345_0_0_0;
 extern const Il2CppType DemoBtn_t345_1_0_0;
-extern const Il2CppType ValueType_t724_0_0_0;
+extern const Il2CppType ValueType_t750_0_0_0;
 extern TypeInfo HubGui_t346_il2cpp_TypeInfo;
 extern const Il2CppType HubGui_t346_0_0_0;
 const Il2CppTypeDefinitionMetadata DemoBtn_t345_DefinitionMetadata = 
@@ -22757,7 +22757,7 @@ const Il2CppTypeDefinitionMetadata DemoBtn_t345_DefinitionMetadata =
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ValueType_t724_0_0_0/* parent */
+	, &ValueType_t750_0_0_0/* parent */
 	, DemoBtn_t345_VTable/* vtableMethods */
 	, DemoBtn_t345_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
@@ -22905,10 +22905,10 @@ static const Il2CppType* HubGui_t346_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference HubGui_t346_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool HubGui_t346_VTableIsGenericMethod[] =
 {
@@ -23071,10 +23071,10 @@ static const MethodInfo* MoveCam_t347_MethodInfos[] =
 };
 static const Il2CppMethodReference MoveCam_t347_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool MoveCam_t347_VTableIsGenericMethod[] =
 {
@@ -23303,10 +23303,10 @@ static const PropertyInfo* ToHubButton_t348_PropertyInfos[] =
 };
 static const Il2CppMethodReference ToHubButton_t348_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool ToHubButton_t348_VTableIsGenericMethod[] =
 {
@@ -23590,10 +23590,10 @@ extern const MethodInfo PunBehaviour_OnWebRpcResponse_m1745_MethodInfo;
 extern const MethodInfo PunBehaviour_OnOwnershipRequest_m1746_MethodInfo;
 static const Il2CppMethodReference DemoMecanimGUI_t350_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&PunBehaviour_OnConnectedToPhoton_m1722_MethodInfo,
 	&PunBehaviour_OnLeftRoom_m1723_MethodInfo,
 	&PunBehaviour_OnMasterClientSwitched_m1724_MethodInfo,
@@ -23702,10 +23702,10 @@ static bool DemoMecanimGUI_t350_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IPunCallbacks_t717_0_0_0;
+extern const Il2CppType IPunCallbacks_t743_0_0_0;
 static Il2CppInterfaceOffsetPair DemoMecanimGUI_t350_InterfacesOffsets[] = 
 {
-	{ &IPunCallbacks_t717_0_0_0, 4},
+	{ &IPunCallbacks_t743_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType DemoMecanimGUI_t350_0_0_0;
@@ -23916,10 +23916,10 @@ static const MethodInfo* MessageOverlay_t352_MethodInfos[] =
 };
 static const Il2CppMethodReference MessageOverlay_t352_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool MessageOverlay_t352_VTableIsGenericMethod[] =
 {
@@ -24064,10 +24064,10 @@ static const MethodInfo* OnCollideSwitchTeam_t353_MethodInfos[] =
 };
 static const Il2CppMethodReference OnCollideSwitchTeam_t353_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool OnCollideSwitchTeam_t353_VTableIsGenericMethod[] =
 {
@@ -24213,10 +24213,10 @@ static const MethodInfo* OnPickedUpScript_t354_MethodInfos[] =
 };
 static const Il2CppMethodReference OnPickedUpScript_t354_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool OnPickedUpScript_t354_VTableIsGenericMethod[] =
 {
@@ -24371,22 +24371,22 @@ extern const MethodInfo PickupCamera_DebugDrawStuff_m1349_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PickupCamera_t357_PickupCamera_AngleDistance_m1350_ParameterInfos[] = 
 {
-	{"a", 0, 134218678, 0, &Single_t583_0_0_0},
-	{"b", 1, 134218679, 0, &Single_t583_0_0_0},
+	{"a", 0, 134218678, 0, &Single_t604_0_0_0},
+	{"b", 1, 134218679, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single PickupCamera::AngleDistance(System.Single,System.Single)
 extern const MethodInfo PickupCamera_AngleDistance_m1350_MethodInfo = 
 {
 	"AngleDistance"/* name */
 	, (methodPointerType)&PickupCamera_AngleDistance_m1350/* method */
 	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, PickupCamera_t357_PickupCamera_AngleDistance_m1350_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -24552,10 +24552,10 @@ static const MethodInfo* PickupCamera_t357_MethodInfos[] =
 };
 static const Il2CppMethodReference PickupCamera_t357_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PickupCamera_t357_VTableIsGenericMethod[] =
 {
@@ -24949,20 +24949,20 @@ extern const MethodInfo PickupController_ApplyGravity_m1362_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PickupController_t355_PickupController_CalculateJumpVerticalSpeed_m1363_ParameterInfos[] = 
 {
-	{"targetJumpHeight", 0, 134218688, 0, &Single_t583_0_0_0},
+	{"targetJumpHeight", 0, 134218688, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single PickupController::CalculateJumpVerticalSpeed(System.Single)
 extern const MethodInfo PickupController_CalculateJumpVerticalSpeed_m1363_MethodInfo = 
 {
 	"CalculateJumpVerticalSpeed"/* name */
 	, (methodPointerType)&PickupController_CalculateJumpVerticalSpeed_m1363/* method */
 	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604/* invoker_method */
 	, PickupController_t355_PickupController_CalculateJumpVerticalSpeed_m1363_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -25000,11 +25000,11 @@ extern const MethodInfo PickupController_DidJump_m1364_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ControllerColliderHit_t557_0_0_0;
-extern const Il2CppType ControllerColliderHit_t557_0_0_0;
+extern const Il2CppType ControllerColliderHit_t575_0_0_0;
+extern const Il2CppType ControllerColliderHit_t575_0_0_0;
 static const ParameterInfo PickupController_t355_PickupController_OnControllerColliderHit_m1365_ParameterInfos[] = 
 {
-	{"hit", 0, 134218689, 0, &ControllerColliderHit_t557_0_0_0},
+	{"hit", 0, 134218689, 0, &ControllerColliderHit_t575_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PickupController::OnControllerColliderHit(UnityEngine.ControllerColliderHit)
@@ -25029,15 +25029,15 @@ extern const MethodInfo PickupController_OnControllerColliderHit_m1365_MethodInf
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single PickupController::GetSpeed()
 extern const MethodInfo PickupController_GetSpeed_m1366_MethodInfo = 
 {
 	"GetSpeed"/* name */
 	, (methodPointerType)&PickupController_GetSpeed_m1366/* method */
 	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -25144,15 +25144,15 @@ extern const MethodInfo PickupController_IsMovingBackwards_m1370_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single PickupController::GetLockCameraTimer()
 extern const MethodInfo PickupController_GetLockCameraTimer_m1371_MethodInfo = 
 {
 	"GetLockCameraTimer"/* name */
 	, (methodPointerType)&PickupController_GetLockCameraTimer_m1371/* method */
 	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -25286,10 +25286,10 @@ static const MethodInfo* PickupController_t355_MethodInfos[] =
 extern const MethodInfo PickupController_OnPhotonSerializeView_m1359_MethodInfo;
 static const Il2CppMethodReference PickupController_t355_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&PickupController_OnPhotonSerializeView_m1359_MethodInfo,
 };
 static bool PickupController_t355_VTableIsGenericMethod[] =
@@ -25300,14 +25300,14 @@ static bool PickupController_t355_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IPunObservable_t716_0_0_0;
+extern const Il2CppType IPunObservable_t742_0_0_0;
 static const Il2CppType* PickupController_t355_InterfacesTypeInfos[] = 
 {
-	&IPunObservable_t716_0_0_0,
+	&IPunObservable_t742_0_0_0,
 };
 static Il2CppInterfaceOffsetPair PickupController_t355_InterfacesOffsets[] = 
 {
-	{ &IPunObservable_t716_0_0_0, 4},
+	{ &IPunObservable_t742_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType PickupController_t355_0_0_0;
@@ -25440,10 +25440,10 @@ static const MethodInfo* PickupDemoGui_t359_MethodInfos[] =
 };
 static const Il2CppMethodReference PickupDemoGui_t359_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PickupDemoGui_t359_VTableIsGenericMethod[] =
 {
@@ -25588,10 +25588,10 @@ static const MethodInfo* PickupTriggerForward_t360_MethodInfos[] =
 };
 static const Il2CppMethodReference PickupTriggerForward_t360_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PickupTriggerForward_t360_VTableIsGenericMethod[] =
 {

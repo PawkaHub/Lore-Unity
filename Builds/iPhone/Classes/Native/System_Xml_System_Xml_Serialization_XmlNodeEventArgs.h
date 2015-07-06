@@ -9,7 +9,7 @@ struct Object_t;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 // System.Xml.Serialization.XmlNodeEventArgs
-struct  XmlNodeEventArgs_t2361  : public EventArgs_t877
+struct  XmlNodeEventArgs_t3747  : public EventArgs_t1202
 {
 	// System.Int32 System.Xml.Serialization.XmlNodeEventArgs::linenumber
 	int32_t ___linenumber_1;

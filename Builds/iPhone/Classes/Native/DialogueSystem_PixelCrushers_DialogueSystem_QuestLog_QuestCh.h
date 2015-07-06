@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PixelCrushers.DialogueSystem.QuestLog/QuestChangedDelegate
-struct  QuestChangedDelegate_t931  : public MulticastDelegate_t451
+struct  QuestChangedDelegate_t1255  : public MulticastDelegate_t451
 {
 };

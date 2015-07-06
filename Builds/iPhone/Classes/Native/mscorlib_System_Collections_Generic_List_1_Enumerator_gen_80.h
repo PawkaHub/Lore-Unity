@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Exception>
-struct List_1_t1673;
-// System.Exception
-struct Exception_t468;
+// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
+struct List_1_t897;
+// UnityEngine.CanvasGroup
+struct CanvasGroup_t211;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Exception>
-struct  Enumerator_t5783 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>
+struct  Enumerator_t6528 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Exception>::l
-	List_1_t1673 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Exception>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::l
+	List_1_t897 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Exception>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Exception>::current
-	Exception_t468 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::current
+	CanvasGroup_t211 * ___current_3;
 };

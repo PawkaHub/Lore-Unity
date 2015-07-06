@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<PixelCrushers.DialogueSystem.LuaWatchItem>
-struct IList_1_t5329;
+// System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>
+struct IList_1_t6422;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.LuaWatchItem>
-struct  ReadOnlyCollection_1_t5330  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>
+struct  ReadOnlyCollection_1_t6423  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.LuaWatchItem>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::list
 	Object_t* ___list_0;
 };

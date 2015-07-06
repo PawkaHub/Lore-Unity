@@ -11,7 +11,7 @@ struct DialogueDatabase_t202;
 // PixelCrushers.DialogueSystem.DialogueEventStarter
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEventSta.h"
 // PixelCrushers.DialogueSystem.ConversationStarter
-struct  ConversationStarter_t1001  : public DialogueEventStarter_t997
+struct  ConversationStarter_t1325  : public DialogueEventStarter_t1321
 {
 	// System.String PixelCrushers.DialogueSystem.ConversationStarter::conversation
 	String_t* ___conversation_3;

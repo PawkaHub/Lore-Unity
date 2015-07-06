@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Networking.Types.AppID
-struct AppID_t2834;
+struct AppID_t4569;
 

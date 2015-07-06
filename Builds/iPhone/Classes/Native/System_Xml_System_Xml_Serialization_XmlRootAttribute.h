@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Xml.Serialization.XmlRootAttribute
-struct  XmlRootAttribute_t1141  : public Attribute_t471
+struct  XmlRootAttribute_t1458  : public Attribute_t471
 {
 	// System.String System.Xml.Serialization.XmlRootAttribute::dataType
 	String_t* ___dataType_0;

@@ -1,2 +1,17 @@
 <linker>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.Object">
+			<method name="CheckScrollbar"/>
+		</type>
+	</assembly>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="PixelCrushers.DialogueSystem.SmartContinueButton">
+			<method name="OnFastForward"/>
+		</type>
+		<type fullname="PixelCrushers.DialogueSystem.UnityUIResponseButton">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+	</assembly>
 </linker>

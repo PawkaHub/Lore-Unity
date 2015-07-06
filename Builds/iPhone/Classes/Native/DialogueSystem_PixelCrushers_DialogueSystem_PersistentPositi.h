@@ -5,7 +5,7 @@ struct String_t;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PixelCrushers.DialogueSystem.PersistentPositionData
-struct  PersistentPositionData_t948  : public MonoBehaviour_t47
+struct  PersistentPositionData_t1272  : public MonoBehaviour_t47
 {
 	// System.String PixelCrushers.DialogueSystem.PersistentPositionData::overrideActorName
 	String_t* ___overrideActorName_2;

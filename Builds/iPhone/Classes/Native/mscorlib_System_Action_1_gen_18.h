@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Linq.Expressions.ParameterExpression
-struct ParameterExpression_t3208;
+// UnityEngine.SocialPlatforms.IAchievementDescription[]
+struct IAchievementDescriptionU5BU5D_t4672;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -12,7 +12,7 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<System.Linq.Expressions.ParameterExpression>
-struct  Action_1_t3239  : public MulticastDelegate_t451
+// System.Action`1<UnityEngine.SocialPlatforms.IAchievementDescription[]>
+struct  Action_1_t4446  : public MulticastDelegate_t451
 {
 };

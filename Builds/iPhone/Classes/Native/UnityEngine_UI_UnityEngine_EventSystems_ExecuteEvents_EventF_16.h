@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t613;
+struct BaseEventData_t634;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>
-struct  EventFunction_1_t632  : public MulticastDelegate_t451
+struct  EventFunction_1_t652  : public MulticastDelegate_t451
 {
 };

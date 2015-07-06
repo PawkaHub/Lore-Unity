@@ -9,6 +9,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // ExitGames.Client.Photon.SupportClass/IntegerMillisecondsDelegate
-struct  IntegerMillisecondsDelegate_t3155  : public MulticastDelegate_t451
+struct  IntegerMillisecondsDelegate_t4883  : public MulticastDelegate_t451
 {
 };

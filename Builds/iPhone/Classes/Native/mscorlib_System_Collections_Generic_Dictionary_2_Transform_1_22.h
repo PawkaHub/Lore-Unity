@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,ExitGames.Client.Photon.Hashtable,System.Collections.DictionaryEntry>
-struct  Transform_1_t5220  : public MulticastDelegate_t451
+struct  Transform_1_t6308  : public MulticastDelegate_t451
 {
 };

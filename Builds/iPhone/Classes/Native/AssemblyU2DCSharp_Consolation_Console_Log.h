@@ -7,7 +7,7 @@ struct String_t;
 // UnityEngine.LogType
 #include "UnityEngine_UnityEngine_LogType.h"
 // Consolation.Console/Log
-struct  Log_t536 
+struct  Log_t539 
 {
 	// System.String Consolation.Console/Log::message
 	String_t* ___message_0;
@@ -17,7 +17,7 @@ struct  Log_t536
 	int32_t ___type_2;
 };
 // Native definition for marshalling of: Consolation.Console/Log
-struct Log_t536_marshaled
+struct Log_t539_marshaled
 {
 	char* ___message_0;
 	char* ___stackTrace_1;

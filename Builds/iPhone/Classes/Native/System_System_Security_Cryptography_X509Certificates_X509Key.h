@@ -5,7 +5,7 @@
 // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
 #include "System_System_Security_Cryptography_X509Certificates_X509Key.h"
 // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
-struct  X509KeyUsageFlags_t3677 
+struct  X509KeyUsageFlags_t4122 
 {
 	// System.Int32 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::value__
 	int32_t ___value___1;

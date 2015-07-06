@@ -73,109 +73,109 @@
 #include "mscorlib_System_Resources_NeutralResourcesLanguageAttribute.h"
 // System.Resources.NeutralResourcesLanguageAttribute
 #include "mscorlib_System_Resources_NeutralResourcesLanguageAttributeMethodDeclarations.h"
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyInformationalVersionAttribute_t2561_il2cpp_TypeInfo_var;
-extern TypeInfo* SatelliteContractVersionAttribute_t2562_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyCopyrightAttribute_t1370_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyProductAttribute_t1372_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyCompanyAttribute_t1375_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyDefaultAliasAttribute_t2563_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyDescriptionAttribute_t1371_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyTitleAttribute_t1373_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyFileVersionAttribute_t1684_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyInformationalVersionAttribute_t3079_il2cpp_TypeInfo_var;
+extern TypeInfo* SatelliteContractVersionAttribute_t3080_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyCopyrightAttribute_t1014_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyProductAttribute_t1013_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyCompanyAttribute_t1012_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyDefaultAliasAttribute_t3081_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyDescriptionAttribute_t1010_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyTitleAttribute_t1016_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyFileVersionAttribute_t1017_il2cpp_TypeInfo_var;
 extern TypeInfo* RuntimeCompatibilityAttribute_t33_il2cpp_TypeInfo_var;
-extern TypeInfo* DebuggableAttribute_t741_il2cpp_TypeInfo_var;
-extern TypeInfo* CompilationRelaxationsAttribute_t1686_il2cpp_TypeInfo_var;
-extern TypeInfo* ComVisibleAttribute_t1376_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyKeyFileAttribute_t1378_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyDelaySignAttribute_t1379_il2cpp_TypeInfo_var;
-extern TypeInfo* CLSCompliantAttribute_t1374_il2cpp_TypeInfo_var;
-extern TypeInfo* NeutralResourcesLanguageAttribute_t1380_il2cpp_TypeInfo_var;
+extern TypeInfo* DebuggableAttribute_t778_il2cpp_TypeInfo_var;
+extern TypeInfo* CompilationRelaxationsAttribute_t2495_il2cpp_TypeInfo_var;
+extern TypeInfo* ComVisibleAttribute_t1015_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyKeyFileAttribute_t3082_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyDelaySignAttribute_t3083_il2cpp_TypeInfo_var;
+extern TypeInfo* CLSCompliantAttribute_t3084_il2cpp_TypeInfo_var;
+extern TypeInfo* NeutralResourcesLanguageAttribute_t3085_il2cpp_TypeInfo_var;
 void g_System_Core_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
-		AssemblyInformationalVersionAttribute_t2561_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4811);
-		SatelliteContractVersionAttribute_t2562_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4812);
-		AssemblyCopyrightAttribute_t1370_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2743);
-		AssemblyProductAttribute_t1372_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2745);
-		AssemblyCompanyAttribute_t1375_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2748);
-		AssemblyDefaultAliasAttribute_t2563_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4813);
-		AssemblyDescriptionAttribute_t1371_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2744);
-		AssemblyTitleAttribute_t1373_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2746);
-		AssemblyFileVersionAttribute_t1684_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3292);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		AssemblyInformationalVersionAttribute_t3079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5354);
+		SatelliteContractVersionAttribute_t3080_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5355);
+		AssemblyCopyrightAttribute_t1014_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1824);
+		AssemblyProductAttribute_t1013_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1823);
+		AssemblyCompanyAttribute_t1012_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1822);
+		AssemblyDefaultAliasAttribute_t3081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5356);
+		AssemblyDescriptionAttribute_t1010_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1820);
+		AssemblyTitleAttribute_t1016_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1826);
+		AssemblyFileVersionAttribute_t1017_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1827);
 		RuntimeCompatibilityAttribute_t33_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(22);
-		DebuggableAttribute_t741_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1576);
-		CompilationRelaxationsAttribute_t1686_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3294);
-		ComVisibleAttribute_t1376_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2749);
-		AssemblyKeyFileAttribute_t1378_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2751);
-		AssemblyDelaySignAttribute_t1379_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2752);
-		CLSCompliantAttribute_t1374_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2747);
-		NeutralResourcesLanguageAttribute_t1380_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2753);
+		DebuggableAttribute_t778_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1641);
+		CompilationRelaxationsAttribute_t2495_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4286);
+		ComVisibleAttribute_t1015_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1825);
+		AssemblyKeyFileAttribute_t3082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5357);
+		AssemblyDelaySignAttribute_t3083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5358);
+		CLSCompliantAttribute_t3084_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5359);
+		NeutralResourcesLanguageAttribute_t3085_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5360);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 18;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyInformationalVersionAttribute_t2561 * tmp;
-		tmp = (AssemblyInformationalVersionAttribute_t2561 *)il2cpp_codegen_object_new (AssemblyInformationalVersionAttribute_t2561_il2cpp_TypeInfo_var);
-		AssemblyInformationalVersionAttribute__ctor_m11598(tmp, il2cpp_codegen_string_new_wrapper("3.0.40818.0"), NULL);
+		AssemblyInformationalVersionAttribute_t3079 * tmp;
+		tmp = (AssemblyInformationalVersionAttribute_t3079 *)il2cpp_codegen_object_new (AssemblyInformationalVersionAttribute_t3079_il2cpp_TypeInfo_var);
+		AssemblyInformationalVersionAttribute__ctor_m10100(tmp, il2cpp_codegen_string_new_wrapper("3.0.40818.0"), NULL);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 	{
-		SatelliteContractVersionAttribute_t2562 * tmp;
-		tmp = (SatelliteContractVersionAttribute_t2562 *)il2cpp_codegen_object_new (SatelliteContractVersionAttribute_t2562_il2cpp_TypeInfo_var);
-		SatelliteContractVersionAttribute__ctor_m11599(tmp, il2cpp_codegen_string_new_wrapper("2.0.5.0"), NULL);
+		SatelliteContractVersionAttribute_t3080 * tmp;
+		tmp = (SatelliteContractVersionAttribute_t3080 *)il2cpp_codegen_object_new (SatelliteContractVersionAttribute_t3080_il2cpp_TypeInfo_var);
+		SatelliteContractVersionAttribute__ctor_m10101(tmp, il2cpp_codegen_string_new_wrapper("2.0.5.0"), NULL);
 		cache->attributes[2] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyCopyrightAttribute_t1370 * tmp;
-		tmp = (AssemblyCopyrightAttribute_t1370 *)il2cpp_codegen_object_new (AssemblyCopyrightAttribute_t1370_il2cpp_TypeInfo_var);
-		AssemblyCopyrightAttribute__ctor_m6702(tmp, il2cpp_codegen_string_new_wrapper("(c) various MONO Authors"), NULL);
+		AssemblyCopyrightAttribute_t1014 * tmp;
+		tmp = (AssemblyCopyrightAttribute_t1014 *)il2cpp_codegen_object_new (AssemblyCopyrightAttribute_t1014_il2cpp_TypeInfo_var);
+		AssemblyCopyrightAttribute__ctor_m5058(tmp, il2cpp_codegen_string_new_wrapper("(c) various MONO Authors"), NULL);
 		cache->attributes[3] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyProductAttribute_t1372 * tmp;
-		tmp = (AssemblyProductAttribute_t1372 *)il2cpp_codegen_object_new (AssemblyProductAttribute_t1372_il2cpp_TypeInfo_var);
-		AssemblyProductAttribute__ctor_m6704(tmp, il2cpp_codegen_string_new_wrapper("MONO Common language infrastructure"), NULL);
+		AssemblyProductAttribute_t1013 * tmp;
+		tmp = (AssemblyProductAttribute_t1013 *)il2cpp_codegen_object_new (AssemblyProductAttribute_t1013_il2cpp_TypeInfo_var);
+		AssemblyProductAttribute__ctor_m5057(tmp, il2cpp_codegen_string_new_wrapper("MONO Common language infrastructure"), NULL);
 		cache->attributes[4] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyCompanyAttribute_t1375 * tmp;
-		tmp = (AssemblyCompanyAttribute_t1375 *)il2cpp_codegen_object_new (AssemblyCompanyAttribute_t1375_il2cpp_TypeInfo_var);
-		AssemblyCompanyAttribute__ctor_m6707(tmp, il2cpp_codegen_string_new_wrapper("MONO development team"), NULL);
+		AssemblyCompanyAttribute_t1012 * tmp;
+		tmp = (AssemblyCompanyAttribute_t1012 *)il2cpp_codegen_object_new (AssemblyCompanyAttribute_t1012_il2cpp_TypeInfo_var);
+		AssemblyCompanyAttribute__ctor_m5056(tmp, il2cpp_codegen_string_new_wrapper("MONO development team"), NULL);
 		cache->attributes[5] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyDefaultAliasAttribute_t2563 * tmp;
-		tmp = (AssemblyDefaultAliasAttribute_t2563 *)il2cpp_codegen_object_new (AssemblyDefaultAliasAttribute_t2563_il2cpp_TypeInfo_var);
-		AssemblyDefaultAliasAttribute__ctor_m11600(tmp, il2cpp_codegen_string_new_wrapper("System.Core.dll"), NULL);
+		AssemblyDefaultAliasAttribute_t3081 * tmp;
+		tmp = (AssemblyDefaultAliasAttribute_t3081 *)il2cpp_codegen_object_new (AssemblyDefaultAliasAttribute_t3081_il2cpp_TypeInfo_var);
+		AssemblyDefaultAliasAttribute__ctor_m10102(tmp, il2cpp_codegen_string_new_wrapper("System.Core.dll"), NULL);
 		cache->attributes[6] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyDescriptionAttribute_t1371 * tmp;
-		tmp = (AssemblyDescriptionAttribute_t1371 *)il2cpp_codegen_object_new (AssemblyDescriptionAttribute_t1371_il2cpp_TypeInfo_var);
-		AssemblyDescriptionAttribute__ctor_m6703(tmp, il2cpp_codegen_string_new_wrapper("System.Core.dll"), NULL);
+		AssemblyDescriptionAttribute_t1010 * tmp;
+		tmp = (AssemblyDescriptionAttribute_t1010 *)il2cpp_codegen_object_new (AssemblyDescriptionAttribute_t1010_il2cpp_TypeInfo_var);
+		AssemblyDescriptionAttribute__ctor_m5054(tmp, il2cpp_codegen_string_new_wrapper("System.Core.dll"), NULL);
 		cache->attributes[7] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyTitleAttribute_t1373 * tmp;
-		tmp = (AssemblyTitleAttribute_t1373 *)il2cpp_codegen_object_new (AssemblyTitleAttribute_t1373_il2cpp_TypeInfo_var);
-		AssemblyTitleAttribute__ctor_m6705(tmp, il2cpp_codegen_string_new_wrapper("System.Core.dll"), NULL);
+		AssemblyTitleAttribute_t1016 * tmp;
+		tmp = (AssemblyTitleAttribute_t1016 *)il2cpp_codegen_object_new (AssemblyTitleAttribute_t1016_il2cpp_TypeInfo_var);
+		AssemblyTitleAttribute__ctor_m5060(tmp, il2cpp_codegen_string_new_wrapper("System.Core.dll"), NULL);
 		cache->attributes[8] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyFileVersionAttribute_t1684 * tmp;
-		tmp = (AssemblyFileVersionAttribute_t1684 *)il2cpp_codegen_object_new (AssemblyFileVersionAttribute_t1684_il2cpp_TypeInfo_var);
-		AssemblyFileVersionAttribute__ctor_m7701(tmp, il2cpp_codegen_string_new_wrapper("3.0.40818.0"), NULL);
+		AssemblyFileVersionAttribute_t1017 * tmp;
+		tmp = (AssemblyFileVersionAttribute_t1017 *)il2cpp_codegen_object_new (AssemblyFileVersionAttribute_t1017_il2cpp_TypeInfo_var);
+		AssemblyFileVersionAttribute__ctor_m5061(tmp, il2cpp_codegen_string_new_wrapper("3.0.40818.0"), NULL);
 		cache->attributes[9] = (Il2CppObject*)tmp;
 	}
 	{
@@ -186,45 +186,45 @@ void g_System_Core_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache
 		cache->attributes[10] = (Il2CppObject*)tmp;
 	}
 	{
-		DebuggableAttribute_t741 * tmp;
-		tmp = (DebuggableAttribute_t741 *)il2cpp_codegen_object_new (DebuggableAttribute_t741_il2cpp_TypeInfo_var);
-		DebuggableAttribute__ctor_m3382(tmp, 2, NULL);
+		DebuggableAttribute_t778 * tmp;
+		tmp = (DebuggableAttribute_t778 *)il2cpp_codegen_object_new (DebuggableAttribute_t778_il2cpp_TypeInfo_var);
+		DebuggableAttribute__ctor_m3515(tmp, 2, NULL);
 		cache->attributes[11] = (Il2CppObject*)tmp;
 	}
 	{
-		CompilationRelaxationsAttribute_t1686 * tmp;
-		tmp = (CompilationRelaxationsAttribute_t1686 *)il2cpp_codegen_object_new (CompilationRelaxationsAttribute_t1686_il2cpp_TypeInfo_var);
-		CompilationRelaxationsAttribute__ctor_m11601(tmp, 8, NULL);
+		CompilationRelaxationsAttribute_t2495 * tmp;
+		tmp = (CompilationRelaxationsAttribute_t2495 *)il2cpp_codegen_object_new (CompilationRelaxationsAttribute_t2495_il2cpp_TypeInfo_var);
+		CompilationRelaxationsAttribute__ctor_m10103(tmp, 8, NULL);
 		cache->attributes[12] = (Il2CppObject*)tmp;
 	}
 	{
-		ComVisibleAttribute_t1376 * tmp;
-		tmp = (ComVisibleAttribute_t1376 *)il2cpp_codegen_object_new (ComVisibleAttribute_t1376_il2cpp_TypeInfo_var);
-		ComVisibleAttribute__ctor_m6708(tmp, false, NULL);
+		ComVisibleAttribute_t1015 * tmp;
+		tmp = (ComVisibleAttribute_t1015 *)il2cpp_codegen_object_new (ComVisibleAttribute_t1015_il2cpp_TypeInfo_var);
+		ComVisibleAttribute__ctor_m5059(tmp, false, NULL);
 		cache->attributes[13] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyKeyFileAttribute_t1378 * tmp;
-		tmp = (AssemblyKeyFileAttribute_t1378 *)il2cpp_codegen_object_new (AssemblyKeyFileAttribute_t1378_il2cpp_TypeInfo_var);
-		AssemblyKeyFileAttribute__ctor_m6710(tmp, il2cpp_codegen_string_new_wrapper("../silverlight.pub"), NULL);
+		AssemblyKeyFileAttribute_t3082 * tmp;
+		tmp = (AssemblyKeyFileAttribute_t3082 *)il2cpp_codegen_object_new (AssemblyKeyFileAttribute_t3082_il2cpp_TypeInfo_var);
+		AssemblyKeyFileAttribute__ctor_m10104(tmp, il2cpp_codegen_string_new_wrapper("../silverlight.pub"), NULL);
 		cache->attributes[14] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyDelaySignAttribute_t1379 * tmp;
-		tmp = (AssemblyDelaySignAttribute_t1379 *)il2cpp_codegen_object_new (AssemblyDelaySignAttribute_t1379_il2cpp_TypeInfo_var);
-		AssemblyDelaySignAttribute__ctor_m6711(tmp, true, NULL);
+		AssemblyDelaySignAttribute_t3083 * tmp;
+		tmp = (AssemblyDelaySignAttribute_t3083 *)il2cpp_codegen_object_new (AssemblyDelaySignAttribute_t3083_il2cpp_TypeInfo_var);
+		AssemblyDelaySignAttribute__ctor_m10105(tmp, true, NULL);
 		cache->attributes[15] = (Il2CppObject*)tmp;
 	}
 	{
-		CLSCompliantAttribute_t1374 * tmp;
-		tmp = (CLSCompliantAttribute_t1374 *)il2cpp_codegen_object_new (CLSCompliantAttribute_t1374_il2cpp_TypeInfo_var);
-		CLSCompliantAttribute__ctor_m6706(tmp, true, NULL);
+		CLSCompliantAttribute_t3084 * tmp;
+		tmp = (CLSCompliantAttribute_t3084 *)il2cpp_codegen_object_new (CLSCompliantAttribute_t3084_il2cpp_TypeInfo_var);
+		CLSCompliantAttribute__ctor_m10106(tmp, true, NULL);
 		cache->attributes[16] = (Il2CppObject*)tmp;
 	}
 	{
-		NeutralResourcesLanguageAttribute_t1380 * tmp;
-		tmp = (NeutralResourcesLanguageAttribute_t1380 *)il2cpp_codegen_object_new (NeutralResourcesLanguageAttribute_t1380_il2cpp_TypeInfo_var);
-		NeutralResourcesLanguageAttribute__ctor_m6712(tmp, il2cpp_codegen_string_new_wrapper("en-US"), NULL);
+		NeutralResourcesLanguageAttribute_t3085 * tmp;
+		tmp = (NeutralResourcesLanguageAttribute_t3085 *)il2cpp_codegen_object_new (NeutralResourcesLanguageAttribute_t3085_il2cpp_TypeInfo_var);
+		NeutralResourcesLanguageAttribute__ctor_m10107(tmp, il2cpp_codegen_string_new_wrapper("en-US"), NULL);
 		cache->attributes[17] = (Il2CppObject*)tmp;
 	}
 }
@@ -232,21 +232,21 @@ void g_System_Core_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache
 #include "mscorlib_System_AttributeUsageAttribute.h"
 // System.AttributeUsageAttribute
 #include "mscorlib_System_AttributeUsageAttributeMethodDeclarations.h"
-extern TypeInfo* AttributeUsageAttribute_t1708_il2cpp_TypeInfo_var;
-void ExtensionAttribute_t706_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+extern TypeInfo* AttributeUsageAttribute_t2519_il2cpp_TypeInfo_var;
+void ExtensionAttribute_t732_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AttributeUsageAttribute_t1708_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3296);
+		AttributeUsageAttribute_t2519_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4288);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		AttributeUsageAttribute_t1708 * tmp;
-		tmp = (AttributeUsageAttribute_t1708 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t1708_il2cpp_TypeInfo_var);
-		AttributeUsageAttribute__ctor_m7829(tmp, 69, NULL);
+		AttributeUsageAttribute_t2519 * tmp;
+		tmp = (AttributeUsageAttribute_t2519 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t2519_il2cpp_TypeInfo_var);
+		AttributeUsageAttribute__ctor_m9151(tmp, 69, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -254,58 +254,58 @@ void ExtensionAttribute_t706_CustomAttributesCacheGenerator(CustomAttributesCach
 #include "mscorlib_System_ParamArrayAttribute.h"
 // System.ParamArrayAttribute
 #include "mscorlib_System_ParamArrayAttributeMethodDeclarations.h"
-extern TypeInfo* ParamArrayAttribute_t715_il2cpp_TypeInfo_var;
-void Expression_t588_CustomAttributesCacheGenerator_Expression_t588_Expression_Call_m2663_Arg2_ParameterInfo(CustomAttributesCache* cache)
+extern TypeInfo* ParamArrayAttribute_t741_il2cpp_TypeInfo_var;
+void Expression_t609_CustomAttributesCacheGenerator_Expression_t609_Expression_Call_m2750_Arg2_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t715_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(464);
+		ParamArrayAttribute_t741_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(474);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t715 * tmp;
-		tmp = (ParamArrayAttribute_t715 *)il2cpp_codegen_object_new (ParamArrayAttribute_t715_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m3318(tmp, NULL);
+		ParamArrayAttribute_t741 * tmp;
+		tmp = (ParamArrayAttribute_t741 *)il2cpp_codegen_object_new (ParamArrayAttribute_t741_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m3449(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t715_il2cpp_TypeInfo_var;
-void Expression_t588_CustomAttributesCacheGenerator_Expression_t588_Expression_Lambda_m14717_Arg1_ParameterInfo(CustomAttributesCache* cache)
+extern TypeInfo* ParamArrayAttribute_t741_il2cpp_TypeInfo_var;
+void Expression_t609_CustomAttributesCacheGenerator_Expression_t609_Expression_Lambda_m10109_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t715_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(464);
+		ParamArrayAttribute_t741_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(474);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t715 * tmp;
-		tmp = (ParamArrayAttribute_t715 *)il2cpp_codegen_object_new (ParamArrayAttribute_t715_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m3318(tmp, NULL);
+		ParamArrayAttribute_t741 * tmp;
+		tmp = (ParamArrayAttribute_t741 *)il2cpp_codegen_object_new (ParamArrayAttribute_t741_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m3449(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* AttributeUsageAttribute_t1708_il2cpp_TypeInfo_var;
-void MonoTODOAttribute_t3186_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+extern TypeInfo* AttributeUsageAttribute_t2519_il2cpp_TypeInfo_var;
+void MonoTODOAttribute_t3015_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AttributeUsageAttribute_t1708_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3296);
+		AttributeUsageAttribute_t2519_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4288);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		AttributeUsageAttribute_t1708 * tmp;
-		tmp = (AttributeUsageAttribute_t1708 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t1708_il2cpp_TypeInfo_var);
-		AttributeUsageAttribute__ctor_m7829(tmp, 32767, NULL);
-		AttributeUsageAttribute_set_AllowMultiple_m7831(tmp, true, NULL);
+		AttributeUsageAttribute_t2519 * tmp;
+		tmp = (AttributeUsageAttribute_t2519 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t2519_il2cpp_TypeInfo_var);
+		AttributeUsageAttribute__ctor_m9151(tmp, 32767, NULL);
+		AttributeUsageAttribute_set_AllowMultiple_m9153(tmp, true, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -313,291 +313,291 @@ void MonoTODOAttribute_t3186_CustomAttributesCacheGenerator(CustomAttributesCach
 #include "System_Core_System_MonoTODOAttribute.h"
 // System.MonoTODOAttribute
 #include "System_Core_System_MonoTODOAttributeMethodDeclarations.h"
-extern TypeInfo* MonoTODOAttribute_t3186_il2cpp_TypeInfo_var;
-void HashSet_1_t3247_CustomAttributesCacheGenerator_HashSet_1_GetObjectData_m14743(CustomAttributesCache* cache)
+extern TypeInfo* MonoTODOAttribute_t3015_il2cpp_TypeInfo_var;
+void HashSet_1_t3087_CustomAttributesCacheGenerator_HashSet_1_GetObjectData_m10135(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		MonoTODOAttribute_t3186_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6909);
+		MonoTODOAttribute_t3015_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5361);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		MonoTODOAttribute_t3186 * tmp;
-		tmp = (MonoTODOAttribute_t3186 *)il2cpp_codegen_object_new (MonoTODOAttribute_t3186_il2cpp_TypeInfo_var);
-		MonoTODOAttribute__ctor_m14482(tmp, NULL);
+		MonoTODOAttribute_t3015 * tmp;
+		tmp = (MonoTODOAttribute_t3015 *)il2cpp_codegen_object_new (MonoTODOAttribute_t3015_il2cpp_TypeInfo_var);
+		MonoTODOAttribute__ctor_m9845(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* MonoTODOAttribute_t3186_il2cpp_TypeInfo_var;
-void HashSet_1_t3247_CustomAttributesCacheGenerator_HashSet_1_OnDeserialization_m14744(CustomAttributesCache* cache)
+extern TypeInfo* MonoTODOAttribute_t3015_il2cpp_TypeInfo_var;
+void HashSet_1_t3087_CustomAttributesCacheGenerator_HashSet_1_OnDeserialization_m10136(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		MonoTODOAttribute_t3186_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6909);
+		MonoTODOAttribute_t3015_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5361);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		MonoTODOAttribute_t3186 * tmp;
-		tmp = (MonoTODOAttribute_t3186 *)il2cpp_codegen_object_new (MonoTODOAttribute_t3186_il2cpp_TypeInfo_var);
-		MonoTODOAttribute__ctor_m14482(tmp, NULL);
+		MonoTODOAttribute_t3015 * tmp;
+		tmp = (MonoTODOAttribute_t3015 *)il2cpp_codegen_object_new (MonoTODOAttribute_t3015_il2cpp_TypeInfo_var);
+		MonoTODOAttribute__ctor_m9845(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t715_il2cpp_TypeInfo_var;
-void ExpressionPrinter_t3191_CustomAttributesCacheGenerator_ExpressionPrinter_t3191_ExpressionPrinter_Print_m14501_Arg1_ParameterInfo(CustomAttributesCache* cache)
+extern TypeInfo* ParamArrayAttribute_t741_il2cpp_TypeInfo_var;
+void ExpressionPrinter_t3020_CustomAttributesCacheGenerator_ExpressionPrinter_t3020_ExpressionPrinter_Print_m9864_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t715_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(464);
+		ParamArrayAttribute_t741_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(474);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t715 * tmp;
-		tmp = (ParamArrayAttribute_t715 *)il2cpp_codegen_object_new (ParamArrayAttribute_t715_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m3318(tmp, NULL);
+		ParamArrayAttribute_t741 * tmp;
+		tmp = (ParamArrayAttribute_t741 *)il2cpp_codegen_object_new (ParamArrayAttribute_t741_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m3449(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Extensions_t3194_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Extensions_t3023_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Extensions_t3194_CustomAttributesCacheGenerator_Extensions_IsGenericInstanceOf_m14548(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Extensions_t3023_CustomAttributesCacheGenerator_Extensions_IsGenericInstanceOf_m9911(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Extensions_t3194_CustomAttributesCacheGenerator_Extensions_IsNullable_m14549(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Extensions_t3023_CustomAttributesCacheGenerator_Extensions_IsNullable_m9912(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Extensions_t3194_CustomAttributesCacheGenerator_Extensions_IsExpression_m14550(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Extensions_t3023_CustomAttributesCacheGenerator_Extensions_IsExpression_m9913(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Extensions_t3194_CustomAttributesCacheGenerator_Extensions_IsAssignableTo_m14551(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Extensions_t3023_CustomAttributesCacheGenerator_Extensions_IsAssignableTo_m9914(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Extensions_t3194_CustomAttributesCacheGenerator_Extensions_GetFirstGenericArgument_m14552(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Extensions_t3023_CustomAttributesCacheGenerator_Extensions_GetFirstGenericArgument_m9915(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Extensions_t3194_CustomAttributesCacheGenerator_Extensions_GetNotNullableType_m14553(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Extensions_t3023_CustomAttributesCacheGenerator_Extensions_GetNotNullableType_m9916(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Extensions_t3194_CustomAttributesCacheGenerator_Extensions_GetInvokeMethod_m14554(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Extensions_t3023_CustomAttributesCacheGenerator_Extensions_GetInvokeMethod_m9917(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_All_m14758(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_All_m10151(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Any_m14759(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Any_m10152(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Any_m14760(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Any_m10153(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Cast_m14761(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Cast_m10154(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -605,579 +605,839 @@ void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Cast_m14761(Cust
 #include "mscorlib_System_Diagnostics_DebuggerHiddenAttribute.h"
 // System.Diagnostics.DebuggerHiddenAttribute
 #include "mscorlib_System_Diagnostics_DebuggerHiddenAttributeMethodDeclarations.h"
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateCastIterator_m14762(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateCastIterator_m10155(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Concat_m14763(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Concat_m10156(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateConcatIterator_m14764(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateConcatIterator_m10157(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Contains_m14765(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Contains_m10158(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Contains_m14766(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Contains_m10159(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ElementAt_m14767(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Count_m10160(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ElementAtOrDefault_m14768(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Distinct_m10161(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Except_m14769(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Distinct_m10162(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Except_m14770(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateDistinctIterator_m10163(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateExceptIterator_m14771(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ElementAt_m10164(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_First_m14772(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ElementAtOrDefault_m10165(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_First_m14773(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Except_m10166(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_FirstOrDefault_m14774(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Except_m10167(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Max_m14775(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateExceptIterator_m10168(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Min_m14777(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_First_m10169(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_OfType_m14778(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_First_m10170(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateOfTypeIterator_m14779(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_FirstOrDefault_m10171(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_OrderBy_m14780(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_FirstOrDefault_m10172(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_OrderBy_m14781(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_GroupBy_m10174(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateRangeIterator_m14595(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_GroupBy_m10175(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Select_m14782(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateGroupByIterator_m10176(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 2;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[1] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Max_m10177(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateSelectIterator_m14783(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Min_m10179(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToArray_m14784(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_OfType_m10180(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToDictionary_m14785(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateOfTypeIterator_m10181(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToDictionary_m14786(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_OrderBy_m10182(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToList_m14787(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_OrderBy_m10183(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Union_m14788(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateRangeIterator_m9960(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Union_m14789(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Select_m10184(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateUnionIterator_m14790(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateSelectIterator_m10185(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Where_m14791(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_SelectMany_m10186(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateWhereIterator_m14792(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateSelectManyIterator_m10187(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t706_il2cpp_TypeInfo_var;
-void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToReadOnlyCollection_m14793(CustomAttributesCache* cache)
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Single_m10188(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(455);
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t706 * tmp;
-		tmp = (ExtensionAttribute_t706 *)il2cpp_codegen_object_new (ExtensionAttribute_t706_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m3308(tmp, NULL);
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Single_m10189(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToArray_m10190(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToDictionary_m10191(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToDictionary_m10192(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToList_m10193(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_SequenceEqual_m10194(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_SequenceEqual_m10195(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Union_m10196(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Union_m10197(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateUnionIterator_m10198(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Where_m10199(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateWhereIterator_m10200(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t732_il2cpp_TypeInfo_var;
+void Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToReadOnlyCollection_m10201(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t732 * tmp;
+		tmp = (ExtensionAttribute_t732 *)il2cpp_codegen_object_new (ExtensionAttribute_t732_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m3439(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1186,7 +1446,7 @@ void Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToReadOnlyCollec
 // System.Runtime.CompilerServices.CompilerGeneratedAttribute
 #include "mscorlib_System_Runtime_CompilerServices_CompilerGeneratedAtMethodDeclarations.h"
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void PredicateOf_1_t3251_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1(CustomAttributesCache* cache)
+void PredicateOf_1_t3091_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1204,7 +1464,7 @@ void PredicateOf_1_t3251_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1(Cus
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void PredicateOf_1_t3251_CustomAttributesCacheGenerator_PredicateOf_1_U3CAlwaysU3Em__76_m14795(CustomAttributesCache* cache)
+void PredicateOf_1_t3091_CustomAttributesCacheGenerator_PredicateOf_1_U3CAlwaysU3Em__76_m10203(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1222,7 +1482,7 @@ void PredicateOf_1_t3251_CustomAttributesCacheGenerator_PredicateOf_1_U3CAlwaysU
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1239,98 +1499,116 @@ void U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m14798(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m10206(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m14799(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10207(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_IEnumerable_GetEnumerator_m14800(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_IEnumerable_GetEnumerator_m10208(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m14801(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m10209(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_Dispose_m14803(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_Dispose_m10211(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_Reset_m10212(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1347,98 +1625,116 @@ void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerat
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m14805(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10214(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_IEnumerator_get_Current_m14806(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_IEnumerator_get_Current_m10215(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_IEnumerable_GetEnumerator_m14807(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_IEnumerable_GetEnumerator_m10216(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m14808(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10217(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_Dispose_m14810(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_Dispose_m10219(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_Reset_m10220(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1455,98 +1751,116 @@ void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerat
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m14812(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10222(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_IEnumerator_get_Current_m14813(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_System_Collections_IEnumerator_get_Current_m10223(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_IEnumerable_GetEnumerator_m14814(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_System_Collections_IEnumerable_GetEnumerator_m10224(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m14815(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10225(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_Dispose_m14817(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_Dispose_m10227(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_Reset_m10228(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1563,98 +1877,116 @@ void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerat
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m14819(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10230(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_IEnumerator_get_Current_m14820(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_IEnumerator_get_Current_m10231(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_IEnumerable_GetEnumerator_m14821(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_IEnumerable_GetEnumerator_m10232(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m14822(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10233(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_Dispose_m14824(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_Dispose_m10235(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_Reset_m10236(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1671,98 +2003,116 @@ void U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator(
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CintU3E_get_Current_m14589(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_System_Collections_Generic_IEnumeratorU3CSystem_Linq_IGroupingU3CTKeyU2CTElementU3EU3E_get_Current_m10238(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m14590(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_System_Collections_IEnumerator_get_Current_m10239(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerable_GetEnumerator_m14591(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_System_Collections_IEnumerable_GetEnumerator_m10240(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumerableU3CintU3E_GetEnumerator_m14592(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_System_Collections_Generic_IEnumerableU3CSystem_Linq_IGroupingU3CTKeyU2CTElementU3EU3E_GetEnumerator_m10241(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_Dispose_m14594(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_Dispose_m10243(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_Reset_m10244(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1779,98 +2129,116 @@ void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenera
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m14826(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m10246(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m14827(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_IEnumerator_get_Current_m10247(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m14828(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_IEnumerable_GetEnumerator_m10248(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m14829(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m10249(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m14831(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_Dispose_m10251(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_Reset_m10252(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1887,98 +2255,116 @@ void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerat
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m14833(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CintU3E_get_Current_m9953(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_IEnumerator_get_Current_m14834(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m9954(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_IEnumerable_GetEnumerator_m14835(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerable_GetEnumerator_m9955(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m14836(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumerableU3CintU3E_GetEnumerator_m9956(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_Dispose_m14838(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_Dispose_m9958(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_Reset_m9959(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1995,98 +2381,494 @@ void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerat
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m14840(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m10254(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerator_get_Current_m14841(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m10255(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerable_GetEnumerator_m14842(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m10256(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m14843(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m10257(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_Dispose_m14845(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m10259(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m10260(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CMaxU3Ec__AnonStorey2B_1_t3260_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t34 * tmp;
+		tmp = (CompilerGeneratedAttribute_t34 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m116(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m10262(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_System_Collections_IEnumerator_get_Current_m10263(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_System_Collections_IEnumerable_GetEnumerator_m10264(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m10265(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_Dispose_m10267(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_Reset_m10268(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
+void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t34 * tmp;
+		tmp = (CompilerGeneratedAttribute_t34 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m116(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10270(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_IEnumerator_get_Current_m10271(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_IEnumerable_GetEnumerator_m10272(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10273(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_Dispose_m10275(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_Reset_m10276(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
+void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(23);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t34 * tmp;
+		tmp = (CompilerGeneratedAttribute_t34 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m116(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10278(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerator_get_Current_m10279(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerable_GetEnumerator_m10280(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10281(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_Dispose_m10283(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_Reset_m10284(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
+void U3CMaxU3Ec__AnonStorey2B_1_t3103_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2104,7 +2886,7 @@ void U3CMaxU3Ec__AnonStorey2B_1_t3260_CustomAttributesCacheGenerator(CustomAttri
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CMinU3Ec__AnonStorey31_1_t3261_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CMinU3Ec__AnonStorey31_1_t3104_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2121,26 +2903,26 @@ void U3CMinU3Ec__AnonStorey31_1_t3261_CustomAttributesCacheGenerator(CustomAttri
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void QuickSort_1_t3265_CustomAttributesCacheGenerator_QuickSort_1_Sort_m14866(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void QuickSort_1_t3110_CustomAttributesCacheGenerator_QuickSort_1_Sort_m10310(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2157,98 +2939,116 @@ void U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator(CustomAttribut
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_Generic_IEnumeratorU3CTElementU3E_get_Current_m14868(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_Generic_IEnumeratorU3CTElementU3E_get_Current_m10312(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_IEnumerator_get_Current_m14869(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_IEnumerator_get_Current_m10313(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_IEnumerable_GetEnumerator_m14870(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_IEnumerable_GetEnumerator_m10314(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_Generic_IEnumerableU3CTElementU3E_GetEnumerator_m14871(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_Generic_IEnumerableU3CTElementU3E_GetEnumerator_m10315(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var;
-void U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_Dispose_m14873(CustomAttributesCache* cache)
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_Dispose_m10317(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(459);
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggerHiddenAttribute_t710 * tmp;
-		tmp = (DebuggerHiddenAttribute_t710 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t710_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m3312(tmp, NULL);
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var;
+void U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_Reset_m10318(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t736 * tmp;
+		tmp = (DebuggerHiddenAttribute_t736 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t736_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m3443(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t34_il2cpp_TypeInfo_var;
-void U3CPrivateImplementationDetailsU3E_t3225_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CPrivateImplementationDetailsU3E_t3054_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2265,120 +3065,164 @@ void U3CPrivateImplementationDetailsU3E_t3225_CustomAttributesCacheGenerator(Cus
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern const CustomAttributesCacheGenerator g_System_Core_Assembly_AttributeGenerators[114] = 
+extern const CustomAttributesCacheGenerator g_System_Core_Assembly_AttributeGenerators[158] = 
 {
 	NULL,
 	g_System_Core_Assembly_CustomAttributesCacheGenerator,
-	ExtensionAttribute_t706_CustomAttributesCacheGenerator,
-	Expression_t588_CustomAttributesCacheGenerator_Expression_t588_Expression_Call_m2663_Arg2_ParameterInfo,
-	Expression_t588_CustomAttributesCacheGenerator_Expression_t588_Expression_Lambda_m14717_Arg1_ParameterInfo,
-	MonoTODOAttribute_t3186_CustomAttributesCacheGenerator,
-	HashSet_1_t3247_CustomAttributesCacheGenerator_HashSet_1_GetObjectData_m14743,
-	HashSet_1_t3247_CustomAttributesCacheGenerator_HashSet_1_OnDeserialization_m14744,
-	ExpressionPrinter_t3191_CustomAttributesCacheGenerator_ExpressionPrinter_t3191_ExpressionPrinter_Print_m14501_Arg1_ParameterInfo,
-	Extensions_t3194_CustomAttributesCacheGenerator,
-	Extensions_t3194_CustomAttributesCacheGenerator_Extensions_IsGenericInstanceOf_m14548,
-	Extensions_t3194_CustomAttributesCacheGenerator_Extensions_IsNullable_m14549,
-	Extensions_t3194_CustomAttributesCacheGenerator_Extensions_IsExpression_m14550,
-	Extensions_t3194_CustomAttributesCacheGenerator_Extensions_IsAssignableTo_m14551,
-	Extensions_t3194_CustomAttributesCacheGenerator_Extensions_GetFirstGenericArgument_m14552,
-	Extensions_t3194_CustomAttributesCacheGenerator_Extensions_GetNotNullableType_m14553,
-	Extensions_t3194_CustomAttributesCacheGenerator_Extensions_GetInvokeMethod_m14554,
-	Enumerable_t1134_CustomAttributesCacheGenerator,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_All_m14758,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Any_m14759,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Any_m14760,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Cast_m14761,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateCastIterator_m14762,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Concat_m14763,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateConcatIterator_m14764,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Contains_m14765,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Contains_m14766,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ElementAt_m14767,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ElementAtOrDefault_m14768,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Except_m14769,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Except_m14770,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateExceptIterator_m14771,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_First_m14772,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_First_m14773,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_FirstOrDefault_m14774,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Max_m14775,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Min_m14777,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_OfType_m14778,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateOfTypeIterator_m14779,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_OrderBy_m14780,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_OrderBy_m14781,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateRangeIterator_m14595,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Select_m14782,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateSelectIterator_m14783,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToArray_m14784,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToDictionary_m14785,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToDictionary_m14786,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToList_m14787,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Union_m14788,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Union_m14789,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateUnionIterator_m14790,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_Where_m14791,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_CreateWhereIterator_m14792,
-	Enumerable_t1134_CustomAttributesCacheGenerator_Enumerable_ToReadOnlyCollection_m14793,
-	PredicateOf_1_t3251_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1,
-	PredicateOf_1_t3251_CustomAttributesCacheGenerator_PredicateOf_1_U3CAlwaysU3Em__76_m14795,
-	U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator,
-	U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m14798,
-	U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m14799,
-	U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_IEnumerable_GetEnumerator_m14800,
-	U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m14801,
-	U3CCreateCastIteratorU3Ec__Iterator0_1_t3253_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_Dispose_m14803,
-	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator,
-	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m14805,
-	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_IEnumerator_get_Current_m14806,
-	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_IEnumerable_GetEnumerator_m14807,
-	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m14808,
-	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3254_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_Dispose_m14810,
-	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator,
-	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m14812,
-	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_IEnumerator_get_Current_m14813,
-	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_IEnumerable_GetEnumerator_m14814,
-	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m14815,
-	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3255_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_Dispose_m14817,
-	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator,
-	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m14819,
-	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_IEnumerator_get_Current_m14820,
-	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_IEnumerable_GetEnumerator_m14821,
-	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m14822,
-	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3256_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_Dispose_m14824,
-	U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator,
-	U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CintU3E_get_Current_m14589,
-	U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m14590,
-	U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerable_GetEnumerator_m14591,
-	U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumerableU3CintU3E_GetEnumerator_m14592,
-	U3CCreateRangeIteratorU3Ec__IteratorD_t3213_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_Dispose_m14594,
-	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator,
-	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m14826,
-	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m14827,
-	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m14828,
-	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m14829,
-	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3257_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m14831,
-	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator,
-	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m14833,
-	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_IEnumerator_get_Current_m14834,
-	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_IEnumerable_GetEnumerator_m14835,
-	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m14836,
-	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3258_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_Dispose_m14838,
-	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator,
-	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m14840,
-	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerator_get_Current_m14841,
-	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerable_GetEnumerator_m14842,
-	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m14843,
-	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3259_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_Dispose_m14845,
-	U3CMaxU3Ec__AnonStorey2B_1_t3260_CustomAttributesCacheGenerator,
-	U3CMinU3Ec__AnonStorey31_1_t3261_CustomAttributesCacheGenerator,
-	QuickSort_1_t3265_CustomAttributesCacheGenerator_QuickSort_1_Sort_m14866,
-	U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator,
-	U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_Generic_IEnumeratorU3CTElementU3E_get_Current_m14868,
-	U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_IEnumerator_get_Current_m14869,
-	U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_IEnumerable_GetEnumerator_m14870,
-	U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_Generic_IEnumerableU3CTElementU3E_GetEnumerator_m14871,
-	U3CSortU3Ec__Iterator21_t3266_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_Dispose_m14873,
-	U3CPrivateImplementationDetailsU3E_t3225_CustomAttributesCacheGenerator,
+	ExtensionAttribute_t732_CustomAttributesCacheGenerator,
+	Expression_t609_CustomAttributesCacheGenerator_Expression_t609_Expression_Call_m2750_Arg2_ParameterInfo,
+	Expression_t609_CustomAttributesCacheGenerator_Expression_t609_Expression_Lambda_m10109_Arg1_ParameterInfo,
+	MonoTODOAttribute_t3015_CustomAttributesCacheGenerator,
+	HashSet_1_t3087_CustomAttributesCacheGenerator_HashSet_1_GetObjectData_m10135,
+	HashSet_1_t3087_CustomAttributesCacheGenerator_HashSet_1_OnDeserialization_m10136,
+	ExpressionPrinter_t3020_CustomAttributesCacheGenerator_ExpressionPrinter_t3020_ExpressionPrinter_Print_m9864_Arg1_ParameterInfo,
+	Extensions_t3023_CustomAttributesCacheGenerator,
+	Extensions_t3023_CustomAttributesCacheGenerator_Extensions_IsGenericInstanceOf_m9911,
+	Extensions_t3023_CustomAttributesCacheGenerator_Extensions_IsNullable_m9912,
+	Extensions_t3023_CustomAttributesCacheGenerator_Extensions_IsExpression_m9913,
+	Extensions_t3023_CustomAttributesCacheGenerator_Extensions_IsAssignableTo_m9914,
+	Extensions_t3023_CustomAttributesCacheGenerator_Extensions_GetFirstGenericArgument_m9915,
+	Extensions_t3023_CustomAttributesCacheGenerator_Extensions_GetNotNullableType_m9916,
+	Extensions_t3023_CustomAttributesCacheGenerator_Extensions_GetInvokeMethod_m9917,
+	Enumerable_t997_CustomAttributesCacheGenerator,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_All_m10151,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Any_m10152,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Any_m10153,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Cast_m10154,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateCastIterator_m10155,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Concat_m10156,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateConcatIterator_m10157,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Contains_m10158,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Contains_m10159,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Count_m10160,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Distinct_m10161,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Distinct_m10162,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateDistinctIterator_m10163,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ElementAt_m10164,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ElementAtOrDefault_m10165,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Except_m10166,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Except_m10167,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateExceptIterator_m10168,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_First_m10169,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_First_m10170,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_FirstOrDefault_m10171,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_FirstOrDefault_m10172,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_GroupBy_m10174,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_GroupBy_m10175,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateGroupByIterator_m10176,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Max_m10177,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Min_m10179,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_OfType_m10180,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateOfTypeIterator_m10181,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_OrderBy_m10182,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_OrderBy_m10183,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateRangeIterator_m9960,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Select_m10184,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateSelectIterator_m10185,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_SelectMany_m10186,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateSelectManyIterator_m10187,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Single_m10188,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Single_m10189,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToArray_m10190,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToDictionary_m10191,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToDictionary_m10192,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToList_m10193,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_SequenceEqual_m10194,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_SequenceEqual_m10195,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Union_m10196,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Union_m10197,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateUnionIterator_m10198,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_Where_m10199,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_CreateWhereIterator_m10200,
+	Enumerable_t997_CustomAttributesCacheGenerator_Enumerable_ToReadOnlyCollection_m10201,
+	PredicateOf_1_t3091_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1,
+	PredicateOf_1_t3091_CustomAttributesCacheGenerator_PredicateOf_1_U3CAlwaysU3Em__76_m10203,
+	U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator,
+	U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m10206,
+	U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_IEnumerator_get_Current_m10207,
+	U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_IEnumerable_GetEnumerator_m10208,
+	U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m10209,
+	U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_Dispose_m10211,
+	U3CCreateCastIteratorU3Ec__Iterator0_1_t3093_CustomAttributesCacheGenerator_U3CCreateCastIteratorU3Ec__Iterator0_1_Reset_m10212,
+	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator,
+	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10214,
+	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_IEnumerator_get_Current_m10215,
+	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_IEnumerable_GetEnumerator_m10216,
+	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10217,
+	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_Dispose_m10219,
+	U3CCreateConcatIteratorU3Ec__Iterator1_1_t3094_CustomAttributesCacheGenerator_U3CCreateConcatIteratorU3Ec__Iterator1_1_Reset_m10220,
+	U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator,
+	U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10222,
+	U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_System_Collections_IEnumerator_get_Current_m10223,
+	U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_System_Collections_IEnumerable_GetEnumerator_m10224,
+	U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10225,
+	U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_Dispose_m10227,
+	U3CCreateDistinctIteratorU3Ec__Iterator3_1_t3095_CustomAttributesCacheGenerator_U3CCreateDistinctIteratorU3Ec__Iterator3_1_Reset_m10228,
+	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator,
+	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10230,
+	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_IEnumerator_get_Current_m10231,
+	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_IEnumerable_GetEnumerator_m10232,
+	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10233,
+	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_Dispose_m10235,
+	U3CCreateExceptIteratorU3Ec__Iterator4_1_t3096_CustomAttributesCacheGenerator_U3CCreateExceptIteratorU3Ec__Iterator4_1_Reset_m10236,
+	U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator,
+	U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_System_Collections_Generic_IEnumeratorU3CSystem_Linq_IGroupingU3CTKeyU2CTElementU3EU3E_get_Current_m10238,
+	U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_System_Collections_IEnumerator_get_Current_m10239,
+	U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_System_Collections_IEnumerable_GetEnumerator_m10240,
+	U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_System_Collections_Generic_IEnumerableU3CSystem_Linq_IGroupingU3CTKeyU2CTElementU3EU3E_GetEnumerator_m10241,
+	U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_Dispose_m10243,
+	U3CCreateGroupByIteratorU3Ec__Iterator6_3_t3097_CustomAttributesCacheGenerator_U3CCreateGroupByIteratorU3Ec__Iterator6_3_Reset_m10244,
+	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator,
+	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m10246,
+	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_IEnumerator_get_Current_m10247,
+	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_IEnumerable_GetEnumerator_m10248,
+	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m10249,
+	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_Dispose_m10251,
+	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t3098_CustomAttributesCacheGenerator_U3CCreateOfTypeIteratorU3Ec__IteratorC_1_Reset_m10252,
+	U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator,
+	U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CintU3E_get_Current_m9953,
+	U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m9954,
+	U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_IEnumerable_GetEnumerator_m9955,
+	U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_System_Collections_Generic_IEnumerableU3CintU3E_GetEnumerator_m9956,
+	U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_Dispose_m9958,
+	U3CCreateRangeIteratorU3Ec__IteratorD_t3042_CustomAttributesCacheGenerator_U3CCreateRangeIteratorU3Ec__IteratorD_Reset_m9959,
+	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator,
+	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m10254,
+	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m10255,
+	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m10256,
+	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m10257,
+	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m10259,
+	U3CCreateSelectIteratorU3Ec__Iterator10_2_t3099_CustomAttributesCacheGenerator_U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m10260,
+	U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator,
+	U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m10262,
+	U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_System_Collections_IEnumerator_get_Current_m10263,
+	U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_System_Collections_IEnumerable_GetEnumerator_m10264,
+	U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m10265,
+	U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_Dispose_m10267,
+	U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t3100_CustomAttributesCacheGenerator_U3CCreateSelectManyIteratorU3Ec__Iterator14_3_Reset_m10268,
+	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator,
+	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10270,
+	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_IEnumerator_get_Current_m10271,
+	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_IEnumerable_GetEnumerator_m10272,
+	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10273,
+	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_Dispose_m10275,
+	U3CCreateUnionIteratorU3Ec__Iterator1C_1_t3101_CustomAttributesCacheGenerator_U3CCreateUnionIteratorU3Ec__Iterator1C_1_Reset_m10276,
+	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator,
+	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumeratorU3CTSourceU3E_get_Current_m10278,
+	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerator_get_Current_m10279,
+	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_IEnumerable_GetEnumerator_m10280,
+	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_System_Collections_Generic_IEnumerableU3CTSourceU3E_GetEnumerator_m10281,
+	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_Dispose_m10283,
+	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3102_CustomAttributesCacheGenerator_U3CCreateWhereIteratorU3Ec__Iterator1D_1_Reset_m10284,
+	U3CMaxU3Ec__AnonStorey2B_1_t3103_CustomAttributesCacheGenerator,
+	U3CMinU3Ec__AnonStorey31_1_t3104_CustomAttributesCacheGenerator,
+	QuickSort_1_t3110_CustomAttributesCacheGenerator_QuickSort_1_Sort_m10310,
+	U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator,
+	U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_Generic_IEnumeratorU3CTElementU3E_get_Current_m10312,
+	U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_IEnumerator_get_Current_m10313,
+	U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_IEnumerable_GetEnumerator_m10314,
+	U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_System_Collections_Generic_IEnumerableU3CTElementU3E_GetEnumerator_m10315,
+	U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_Dispose_m10317,
+	U3CSortU3Ec__Iterator21_t3111_CustomAttributesCacheGenerator_U3CSortU3Ec__Iterator21_Reset_m10318,
+	U3CPrivateImplementationDetailsU3E_t3054_CustomAttributesCacheGenerator,
 };

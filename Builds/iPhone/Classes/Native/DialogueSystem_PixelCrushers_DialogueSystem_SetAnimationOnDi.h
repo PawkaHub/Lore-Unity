@@ -7,7 +7,7 @@ struct AnimationClip_t296;
 // PixelCrushers.DialogueSystem.ActOnDialogueEvent/Action
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ActOnDialogueEve.h"
 // PixelCrushers.DialogueSystem.SetAnimationOnDialogueEvent/SetAnimationAction
-struct  SetAnimationAction_t970  : public Action_t955
+struct  SetAnimationAction_t1294  : public Action_t1279
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.SetAnimationOnDialogueEvent/SetAnimationAction::target
 	Transform_t54 * ___target_1;

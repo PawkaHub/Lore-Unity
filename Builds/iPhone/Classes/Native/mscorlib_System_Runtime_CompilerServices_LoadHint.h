@@ -5,7 +5,7 @@
 // System.Runtime.CompilerServices.LoadHint
 #include "mscorlib_System_Runtime_CompilerServices_LoadHint.h"
 // System.Runtime.CompilerServices.LoadHint
-struct  LoadHint_t4049 
+struct  LoadHint_t5139 
 {
 	// System.Int32 System.Runtime.CompilerServices.LoadHint::value__
 	int32_t ___value___1;

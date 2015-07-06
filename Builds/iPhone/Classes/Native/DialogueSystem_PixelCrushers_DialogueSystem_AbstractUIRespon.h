@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.ResponseButtonAlignment
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ResponseButtonAl.h"
 // PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls
-struct  AbstractUIResponseMenuControls_t244  : public AbstractUIControls_t929
+struct  AbstractUIResponseMenuControls_t244  : public AbstractUIControls_t1253
 {
 	// PixelCrushers.DialogueSystem.ResponseButtonAlignment PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::buttonAlignment
 	int32_t ___buttonAlignment_0;

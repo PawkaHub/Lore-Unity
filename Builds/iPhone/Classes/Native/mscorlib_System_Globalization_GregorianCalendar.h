@@ -5,7 +5,7 @@
 // System.Globalization.GregorianCalendarTypes
 #include "mscorlib_System_Globalization_GregorianCalendarTypes.h"
 // System.Globalization.GregorianCalendar
-struct  GregorianCalendar_t3959  : public Calendar_t3950
+struct  GregorianCalendar_t5049  : public Calendar_t5040
 {
 	// System.Globalization.GregorianCalendarTypes System.Globalization.GregorianCalendar::m_type
 	int32_t ___m_type_4;

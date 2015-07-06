@@ -4,28 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct Func_2_t5598;
+// System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,Parse.ParseSession>
+struct Func_2_t1632;
 // System.Object
 struct Object_t;
+// Parse.ParseSession
+struct ParseSession_t1634;
+// System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
+struct Task_1_t1717;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
 struct AsyncCallback_t449;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_13.h"
 
-// System.Void System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m33465_gshared (Func_2_t5598 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m33465(__this, ___object, ___method, method) (( void (*) (Func_2_t5598 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m33465_gshared)(__this, ___object, ___method, method)
-// TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::Invoke(T)
-extern "C" KeyValuePair_2_t1591  Func_2_Invoke_m33467_gshared (Func_2_t5598 * __this, KeyValuePair_2_t1591  ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m33467(__this, ___arg1, method) (( KeyValuePair_2_t1591  (*) (Func_2_t5598 *, KeyValuePair_2_t1591 , const MethodInfo*))Func_2_Invoke_m33467_gshared)(__this, ___arg1, method)
-// System.IAsyncResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m33469_gshared (Func_2_t5598 * __this, KeyValuePair_2_t1591  ___arg1, AsyncCallback_t449 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m33469(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t5598 *, KeyValuePair_2_t1591 , AsyncCallback_t449 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m33469_gshared)(__this, ___arg1, ___callback, ___object, method)
-// TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::EndInvoke(System.IAsyncResult)
-extern "C" KeyValuePair_2_t1591  Func_2_EndInvoke_m33471_gshared (Func_2_t5598 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m33471(__this, ___result, method) (( KeyValuePair_2_t1591  (*) (Func_2_t5598 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m33471_gshared)(__this, ___result, method)
+// System.Void System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,Parse.ParseSession>::.ctor(System.Object,System.IntPtr)
+// System.Func`2<System.Object,System.Object>
+#include "System_Core_System_Func_2_gen_17MethodDeclarations.h"
+#define Func_2__ctor_m8842(__this, ___object, ___method, method) (( void (*) (Func_2_t1632 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m8621_gshared)(__this, ___object, ___method, method)
+// TResult System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,Parse.ParseSession>::Invoke(T)
+#define Func_2_Invoke_m41301(__this, ___arg1, method) (( ParseSession_t1634 * (*) (Func_2_t1632 *, Task_1_t1717 *, const MethodInfo*))Func_2_Invoke_m36381_gshared)(__this, ___arg1, method)
+// System.IAsyncResult System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,Parse.ParseSession>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Func_2_BeginInvoke_m41302(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1632 *, Task_1_t1717 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m36382_gshared)(__this, ___arg1, ___callback, ___object, method)
+// TResult System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,Parse.ParseSession>::EndInvoke(System.IAsyncResult)
+#define Func_2_EndInvoke_m41303(__this, ___result, method) (( ParseSession_t1634 * (*) (Func_2_t1632 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m36383_gshared)(__this, ___result, method)

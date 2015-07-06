@@ -23,6 +23,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 				dialogueUI = Tools.GetComponentAnywhere<UnityUIDialogueUI>(gameObject);
 				if (dialogueUI != null) dialogueUI.OnContinue ();
 			}
+			Stop ();
 		}
 		
 		public void Update() {

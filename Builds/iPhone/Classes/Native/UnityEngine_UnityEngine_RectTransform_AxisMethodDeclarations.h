@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RectTransform/Axis
-struct Axis_t2761;
+struct Axis_t4496;
 

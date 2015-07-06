@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.Assemblies.AssemblyHashAlgorithm
-struct AssemblyHashAlgorithm_t3942;
+struct AssemblyHashAlgorithm_t5032;
 

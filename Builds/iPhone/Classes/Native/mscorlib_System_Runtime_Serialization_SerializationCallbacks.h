@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Runtime.Serialization.SerializationCallbacks/CallbackHandler
-struct  CallbackHandler_t4169  : public MulticastDelegate_t451
+struct  CallbackHandler_t5259  : public MulticastDelegate_t451
 {
 };

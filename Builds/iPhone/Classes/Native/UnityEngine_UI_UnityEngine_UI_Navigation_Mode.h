@@ -5,7 +5,7 @@
 // UnityEngine.UI.Navigation/Mode
 #include "UnityEngine_UI_UnityEngine_UI_Navigation_Mode.h"
 // UnityEngine.UI.Navigation/Mode
-struct  Mode_t2061 
+struct  Mode_t881 
 {
 	// System.Int32 UnityEngine.UI.Navigation/Mode::value__
 	int32_t ___value___1;

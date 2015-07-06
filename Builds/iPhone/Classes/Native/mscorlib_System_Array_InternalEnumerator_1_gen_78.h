@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>
-struct  InternalEnumerator_1_t5519 
+// System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction>
+struct  InternalEnumerator_1_t6745 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::array
+	// System.Array System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction>::idx
 	int32_t ___idx_1;
 };

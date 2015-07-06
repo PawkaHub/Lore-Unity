@@ -7,7 +7,7 @@ struct GameObject_t49;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.HashSet`1/Enumerator<UnityEngine.GameObject>
-struct  Enumerator_t666 
+struct  Enumerator_t683 
 {
 	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator<UnityEngine.GameObject>::hashset
 	HashSet_1_t453 * ___hashset_0;

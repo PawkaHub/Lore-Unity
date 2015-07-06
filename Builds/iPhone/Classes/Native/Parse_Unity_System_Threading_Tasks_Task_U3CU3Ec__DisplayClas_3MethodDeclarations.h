@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Threading.Tasks.Task/<>c__DisplayClass3`1/<>c__DisplayClass5<System.Object>
-struct U3CU3Ec__DisplayClass5_t5563;
+// System.Threading.Tasks.Task/<>c__DisplayClass20
+struct U3CU3Ec__DisplayClass20_t1681;
+// System.Object
+struct Object_t;
 
-// System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1/<>c__DisplayClass5<System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass5__ctor_m33148_gshared (U3CU3Ec__DisplayClass5_t5563 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass5__ctor_m33148(__this, method) (( void (*) (U3CU3Ec__DisplayClass5_t5563 *, const MethodInfo*))U3CU3Ec__DisplayClass5__ctor_m33148_gshared)(__this, method)
-// System.Void System.Threading.Tasks.Task/<>c__DisplayClass3`1/<>c__DisplayClass5<System.Object>::<ContinueWith>b__2()
-extern "C" void U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m33149_gshared (U3CU3Ec__DisplayClass5_t5563 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m33149(__this, method) (( void (*) (U3CU3Ec__DisplayClass5_t5563 *, const MethodInfo*))U3CU3Ec__DisplayClass5_U3CContinueWithU3Eb__2_m33149_gshared)(__this, method)
+// System.Void System.Threading.Tasks.Task/<>c__DisplayClass20::.ctor()
+extern "C" void U3CU3Ec__DisplayClass20__ctor_m8386 (U3CU3Ec__DisplayClass20_t1681 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Threading.Tasks.Task/<>c__DisplayClass20::<Delay>b__1f(System.Object)
+extern "C" void U3CU3Ec__DisplayClass20_U3CDelayU3Eb__1f_m8387 (U3CU3Ec__DisplayClass20_t1681 * __this, Object_t * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

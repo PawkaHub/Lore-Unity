@@ -5,7 +5,7 @@ struct RectTransform_t259;
 // UnityEngine.UI.Scrollbar
 struct Scrollbar_t240;
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
-struct ScrollRectEvent_t2071;
+struct ScrollRectEvent_t891;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_t92;
 // UnityEngine.EventSystems.UIBehaviour
@@ -17,7 +17,7 @@ struct Vector3U5BU5D_t92;
 // UnityEngine.Bounds
 #include "UnityEngine_UnityEngine_Bounds.h"
 // UnityEngine.UI.ScrollRect
-struct  ScrollRect_t2073  : public UIBehaviour_t1968
+struct  ScrollRect_t893  : public UIBehaviour_t785
 {
 	// UnityEngine.RectTransform UnityEngine.UI.ScrollRect::m_Content
 	RectTransform_t259 * ___m_Content_2;
@@ -40,7 +40,7 @@ struct  ScrollRect_t2073  : public UIBehaviour_t1968
 	// UnityEngine.UI.Scrollbar UnityEngine.UI.ScrollRect::m_VerticalScrollbar
 	Scrollbar_t240 * ___m_VerticalScrollbar_11;
 	// UnityEngine.UI.ScrollRect/ScrollRectEvent UnityEngine.UI.ScrollRect::m_OnValueChanged
-	ScrollRectEvent_t2071 * ___m_OnValueChanged_12;
+	ScrollRectEvent_t891 * ___m_OnValueChanged_12;
 	// UnityEngine.Vector2 UnityEngine.UI.ScrollRect::m_PointerStartLocalCursor
 	Vector2_t97  ___m_PointerStartLocalCursor_13;
 	// UnityEngine.Vector2 UnityEngine.UI.ScrollRect::m_ContentStartPosition

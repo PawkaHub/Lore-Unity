@@ -4,52 +4,52 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
-struct ValueCollection_t6189;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>
+struct ValueCollection_t7910;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
-struct Dictionary_2_t2839;
-// UnityEngine.Networking.Types.NetworkAccessToken
-struct NetworkAccessToken_t2838;
-// System.Collections.Generic.IEnumerator`1<UnityEngine.Networking.Types.NetworkAccessToken>
-struct IEnumerator_1_t7109;
+// System.Collections.Generic.Dictionary`2<System.String,Parse.ParseGeoPoint>
+struct Dictionary_2_t7907;
+// System.Collections.Generic.IEnumerator`1<Parse.ParseGeoPoint>
+struct IEnumerator_1_t7653;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t74;
-// UnityEngine.Networking.Types.NetworkAccessToken[]
-struct NetworkAccessTokenU5BU5D_t6166;
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_117.h"
+// Parse.ParseGeoPoint[]
+struct ParseGeoPointU5BU5D_t7658;
+// Parse.ParseGeoPoint
+#include "Parse_Unity_Parse_ParseGeoPoint.h"
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,Parse.ParseGeoPoint>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_136.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt64,System.Object>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_71MethodDeclarations.h"
-#define ValueCollection__ctor_m42264(__this, ___dictionary, method) (( void (*) (ValueCollection_t6189 *, Dictionary_2_t2839 *, const MethodInfo*))ValueCollection__ctor_m42192_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m42265(__this, ___item, method) (( void (*) (ValueCollection_t6189 *, NetworkAccessToken_t2838 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m42193_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.Generic.ICollection<TValue>.Clear()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m42266(__this, method) (( void (*) (ValueCollection_t6189 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m42194_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m42267(__this, ___item, method) (( bool (*) (ValueCollection_t6189 *, NetworkAccessToken_t2838 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m42195_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m42268(__this, ___item, method) (( bool (*) (ValueCollection_t6189 *, NetworkAccessToken_t2838 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m42196_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m42269(__this, method) (( Object_t* (*) (ValueCollection_t6189 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m42197_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ValueCollection_System_Collections_ICollection_CopyTo_m42270(__this, ___array, ___index, method) (( void (*) (ValueCollection_t6189 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m42198_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.IEnumerable.GetEnumerator()
-#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m42271(__this, method) (( Object_t * (*) (ValueCollection_t6189 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m42199_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m42272(__this, method) (( bool (*) (ValueCollection_t6189 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m42200_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.ICollection.get_IsSynchronized()
-#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m42273(__this, method) (( bool (*) (ValueCollection_t6189 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m42201_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::System.Collections.ICollection.get_SyncRoot()
-#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m42274(__this, method) (( Object_t * (*) (ValueCollection_t6189 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m42202_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::CopyTo(TValue[],System.Int32)
-#define ValueCollection_CopyTo_m42275(__this, ___array, ___index, method) (( void (*) (ValueCollection_t6189 *, NetworkAccessTokenU5BU5D_t6166*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m42203_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m42276(__this, method) (( Enumerator_t7110  (*) (ValueCollection_t6189 *, const MethodInfo*))ValueCollection_GetEnumerator_m42204_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::get_Count()
-#define ValueCollection_get_Count_m42277(__this, method) (( int32_t (*) (ValueCollection_t6189 *, const MethodInfo*))ValueCollection_get_Count_m42205_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,Parse.ParseGeoPoint>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_74MethodDeclarations.h"
+#define ValueCollection__ctor_m51562(__this, ___dictionary, method) (( void (*) (ValueCollection_t7910 *, Dictionary_2_t7907 *, const MethodInfo*))ValueCollection__ctor_m51563_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m51564(__this, ___item, method) (( void (*) (ValueCollection_t7910 *, ParseGeoPoint_t1579 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m51565_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<TValue>.Clear()
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m51566(__this, method) (( void (*) (ValueCollection_t7910 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m51567_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m51568(__this, ___item, method) (( bool (*) (ValueCollection_t7910 *, ParseGeoPoint_t1579 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m51569_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m51570(__this, ___item, method) (( bool (*) (ValueCollection_t7910 *, ParseGeoPoint_t1579 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m51571_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
+#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m51572(__this, method) (( Object_t* (*) (ValueCollection_t7910 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m51573_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define ValueCollection_System_Collections_ICollection_CopyTo_m51574(__this, ___array, ___index, method) (( void (*) (ValueCollection_t7910 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m51575_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.IEnumerable.GetEnumerator()
+#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m51576(__this, method) (( Object_t * (*) (ValueCollection_t7910 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m51577_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m51578(__this, method) (( bool (*) (ValueCollection_t7910 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m51579_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.ICollection.get_IsSynchronized()
+#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m51580(__this, method) (( bool (*) (ValueCollection_t7910 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m51581_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::System.Collections.ICollection.get_SyncRoot()
+#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m51582(__this, method) (( Object_t * (*) (ValueCollection_t7910 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m51583_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::CopyTo(TValue[],System.Int32)
+#define ValueCollection_CopyTo_m51584(__this, ___array, ___index, method) (( void (*) (ValueCollection_t7910 *, ParseGeoPointU5BU5D_t7658*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m51585_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::GetEnumerator()
+#define ValueCollection_GetEnumerator_m51586(__this, method) (( Enumerator_t10300  (*) (ValueCollection_t7910 *, const MethodInfo*))ValueCollection_GetEnumerator_m51587_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseGeoPoint>::get_Count()
+#define ValueCollection_get_Count_m51588(__this, method) (( int32_t (*) (ValueCollection_t7910 *, const MethodInfo*))ValueCollection_get_Count_m51589_gshared)(__this, method)

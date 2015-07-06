@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<PixelCrushers.DialogueSystem.QuestTracker/QuestTrackerLine>
-struct  Predicate_1_t5129  : public MulticastDelegate_t451
+struct  Predicate_1_t6217  : public MulticastDelegate_t451
 {
 };

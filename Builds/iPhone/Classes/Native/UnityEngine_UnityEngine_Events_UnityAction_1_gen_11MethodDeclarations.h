@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.UnityAction`1<System.Boolean>
-struct UnityAction_1_t5940;
+struct UnityAction_1_t6539;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,10 +18,10 @@ struct AsyncCallback_t449;
 // System.Void UnityEngine.Events.UnityAction`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
 // UnityEngine.Events.UnityAction`1<System.Byte>
 #include "UnityEngine_UnityEngine_Events_UnityAction_1_gen_10MethodDeclarations.h"
-#define UnityAction_1__ctor_m38555(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t5940 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m38547_gshared)(__this, ___object, ___method, method)
+#define UnityAction_1__ctor_m32841(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t6539 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m32833_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Boolean>::Invoke(T0)
-#define UnityAction_1_Invoke_m38556(__this, ___arg0, method) (( void (*) (UnityAction_1_t5940 *, bool, const MethodInfo*))UnityAction_1_Invoke_m38548_gshared)(__this, ___arg0, method)
+#define UnityAction_1_Invoke_m32842(__this, ___arg0, method) (( void (*) (UnityAction_1_t6539 *, bool, const MethodInfo*))UnityAction_1_Invoke_m32834_gshared)(__this, ___arg0, method)
 // System.IAsyncResult UnityEngine.Events.UnityAction`1<System.Boolean>::BeginInvoke(T0,System.AsyncCallback,System.Object)
-#define UnityAction_1_BeginInvoke_m38557(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t5940 *, bool, AsyncCallback_t449 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m38549_gshared)(__this, ___arg0, ___callback, ___object, method)
+#define UnityAction_1_BeginInvoke_m32843(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t6539 *, bool, AsyncCallback_t449 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m32835_gshared)(__this, ___arg0, ___callback, ___object, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Boolean>::EndInvoke(System.IAsyncResult)
-#define UnityAction_1_EndInvoke_m38558(__this, ___result, method) (( void (*) (UnityAction_1_t5940 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m38550_gshared)(__this, ___result, method)
+#define UnityAction_1_EndInvoke_m32844(__this, ___result, method) (( void (*) (UnityAction_1_t6539 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m32836_gshared)(__this, ___result, method)

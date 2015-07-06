@@ -5,9 +5,9 @@ struct String_t;
 // System.String[]
 struct StringU5BU5D_t20;
 // System.Globalization.DateTimeFormatInfo
-struct DateTimeFormatInfo_t2555;
+struct DateTimeFormatInfo_t3941;
 // System.Globalization.Calendar
-struct Calendar_t3950;
+struct Calendar_t5040;
 // System.Int32[]
 struct Int32U5BU5D_t119;
 // System.String[] modreq(System.Runtime.CompilerServices.IsVolatile)
@@ -17,7 +17,7 @@ struct StringU5BU5D_t20;
 // System.Globalization.DateTimeFormatFlags
 #include "mscorlib_System_Globalization_DateTimeFormatFlags.h"
 // System.Globalization.DateTimeFormatInfo
-struct  DateTimeFormatInfo_t2555  : public Object_t
+struct  DateTimeFormatInfo_t3941  : public Object_t
 {
 	// System.Boolean System.Globalization.DateTimeFormatInfo::m_isReadOnly
 	bool ___m_isReadOnly_10;
@@ -52,7 +52,7 @@ struct  DateTimeFormatInfo_t2555  : public Object_t
 	// System.Int32 System.Globalization.DateTimeFormatInfo::firstDayOfWeek
 	int32_t ___firstDayOfWeek_25;
 	// System.Globalization.Calendar System.Globalization.DateTimeFormatInfo::calendar
-	Calendar_t3950 * ___calendar_26;
+	Calendar_t5040 * ___calendar_26;
 	// System.Int32 System.Globalization.DateTimeFormatInfo::calendarWeekRule
 	int32_t ___calendarWeekRule_27;
 	// System.String[] System.Globalization.DateTimeFormatInfo::abbreviatedDayNames
@@ -116,7 +116,7 @@ struct  DateTimeFormatInfo_t2555  : public Object_t
 	// System.String[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.DateTimeFormatInfo::all_date_time_patterns
 	StringU5BU5D_t20* ___all_date_time_patterns_57;
 };
-struct DateTimeFormatInfo_t2555_StaticFields{
+struct DateTimeFormatInfo_t3941_StaticFields{
 	// System.String System.Globalization.DateTimeFormatInfo::MSG_READONLY
 	String_t* ___MSG_READONLY_1;
 	// System.String System.Globalization.DateTimeFormatInfo::MSG_ARRAYSIZE_MONTH
@@ -134,5 +134,5 @@ struct DateTimeFormatInfo_t2555_StaticFields{
 	// System.String[] System.Globalization.DateTimeFormatInfo::INVARIANT_SHORT_DAY_NAMES
 	StringU5BU5D_t20* ___INVARIANT_SHORT_DAY_NAMES_8;
 	// System.Globalization.DateTimeFormatInfo System.Globalization.DateTimeFormatInfo::theInvariantDateTimeFormatInfo
-	DateTimeFormatInfo_t2555 * ___theInvariantDateTimeFormatInfo_9;
+	DateTimeFormatInfo_t3941 * ___theInvariantDateTimeFormatInfo_9;
 };

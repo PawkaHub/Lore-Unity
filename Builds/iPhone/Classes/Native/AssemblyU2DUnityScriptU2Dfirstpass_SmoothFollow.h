@@ -5,7 +5,7 @@ struct Transform_t54;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SmoothFollow
-struct  SmoothFollow_t705  : public MonoBehaviour_t47
+struct  SmoothFollow_t777  : public MonoBehaviour_t47
 {
 	// UnityEngine.Transform SmoothFollow::target
 	Transform_t54 * ___target_2;

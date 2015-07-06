@@ -9,6 +9,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Reflection.MonoProperty/StaticGetter`1<System.Object>
-struct  StaticGetter_1_t6387  : public MulticastDelegate_t451
+struct  StaticGetter_1_t9565  : public MulticastDelegate_t451
 {
 };

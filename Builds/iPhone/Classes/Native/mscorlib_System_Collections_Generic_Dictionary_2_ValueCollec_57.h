@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct Dictionary_2_t1660;
-// System.Object
-#include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct  ValueCollection_t5772  : public Object_t
+// System.ValueType
+#include "mscorlib_System_ValueType.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Byte>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__38.h"
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Byte>
+struct  Enumerator_t7027 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>>::dictionary
-	Dictionary_2_t1660 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Byte>::host_enumerator
+	Enumerator_t7024  ___host_enumerator_0;
 };

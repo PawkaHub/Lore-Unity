@@ -13,6 +13,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.Object,System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>>
-struct  Transform_1_t5181  : public MulticastDelegate_t451
+struct  Transform_1_t6269  : public MulticastDelegate_t451
 {
 };

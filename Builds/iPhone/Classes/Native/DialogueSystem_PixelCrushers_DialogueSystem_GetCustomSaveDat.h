@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate
-struct  GetCustomSaveDataDelegate_t952  : public MulticastDelegate_t451
+struct  GetCustomSaveDataDelegate_t1276  : public MulticastDelegate_t451
 {
 };

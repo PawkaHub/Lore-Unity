@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.Material
-struct  Material_t48  : public Object_t563
+struct  Material_t48  : public Object_t584
 {
 };

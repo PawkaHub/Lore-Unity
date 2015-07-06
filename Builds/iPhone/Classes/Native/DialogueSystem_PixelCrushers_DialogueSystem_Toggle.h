@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.Toggle
 #include "DialogueSystem_PixelCrushers_DialogueSystem_Toggle.h"
 // PixelCrushers.DialogueSystem.Toggle
-struct  Toggle_t927 
+struct  Toggle_t1251 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.Toggle::value__
 	int32_t ___value___1;

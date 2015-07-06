@@ -1,18 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>
-struct Reference_t5525;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
 struct AsyncCallback_t449;
-// System.Collections.DictionaryEntry
-#include "mscorlib_System_Collections_DictionaryEntry.h"
+// System.Single
+#include "mscorlib_System_Single.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object,System.Collections.DictionaryEntry>
-struct  Transform_1_t5528  : public MulticastDelegate_t451
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Single,System.Single>
+struct  Transform_1_t6691  : public MulticastDelegate_t451
 {
 };

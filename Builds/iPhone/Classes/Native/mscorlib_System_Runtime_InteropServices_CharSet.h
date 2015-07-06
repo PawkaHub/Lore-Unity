@@ -5,7 +5,7 @@
 // System.Runtime.InteropServices.CharSet
 #include "mscorlib_System_Runtime_InteropServices_CharSet.h"
 // System.Runtime.InteropServices.CharSet
-struct  CharSet_t4057 
+struct  CharSet_t5147 
 {
 	// System.Int32 System.Runtime.InteropServices.CharSet::value__
 	int32_t ___value___1;

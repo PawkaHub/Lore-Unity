@@ -85,16 +85,16 @@ static const MethodInfo* DemoRPGMovement_t362_MethodInfos[] =
 	&DemoRPGMovement_CreatePlayerObject_m1382_MethodInfo,
 	NULL
 };
-extern const MethodInfo Object_Equals_m3345_MethodInfo;
+extern const MethodInfo Object_Equals_m3477_MethodInfo;
 extern const MethodInfo Object_Finalize_m127_MethodInfo;
-extern const MethodInfo Object_GetHashCode_m3346_MethodInfo;
-extern const MethodInfo Object_ToString_m3347_MethodInfo;
+extern const MethodInfo Object_GetHashCode_m3478_MethodInfo;
+extern const MethodInfo Object_ToString_m3479_MethodInfo;
 static const Il2CppMethodReference DemoRPGMovement_t362_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool DemoRPGMovement_t362_VTableIsGenericMethod[] =
 {
@@ -355,10 +355,10 @@ static const MethodInfo* RPGCamera_t361_MethodInfos[] =
 };
 static const Il2CppMethodReference RPGCamera_t361_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool RPGCamera_t361_VTableIsGenericMethod[] =
 {
@@ -738,10 +738,10 @@ static const MethodInfo* RPGMovement_t364_MethodInfos[] =
 };
 static const Il2CppMethodReference RPGMovement_t364_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool RPGMovement_t364_VTableIsGenericMethod[] =
 {
@@ -938,10 +938,10 @@ static const MethodInfo* CubeExtra_t365_MethodInfos[] =
 };
 static const Il2CppMethodReference CubeExtra_t365_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool CubeExtra_t365_VTableIsGenericMethod[] =
 {
@@ -1032,15 +1032,15 @@ static const MethodInfo* State_t366_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m3365_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m3366_MethodInfo;
-extern const MethodInfo ValueType_ToString_m3367_MethodInfo;
+extern const MethodInfo ValueType_Equals_m3497_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m3498_MethodInfo;
+extern const MethodInfo ValueType_ToString_m3499_MethodInfo;
 static const Il2CppMethodReference State_t366_VTable[] =
 {
-	&ValueType_Equals_m3365_MethodInfo,
+	&ValueType_Equals_m3497_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&ValueType_GetHashCode_m3366_MethodInfo,
-	&ValueType_ToString_m3367_MethodInfo,
+	&ValueType_GetHashCode_m3498_MethodInfo,
+	&ValueType_ToString_m3499_MethodInfo,
 };
 static bool State_t366_VTableIsGenericMethod[] =
 {
@@ -1052,7 +1052,7 @@ static bool State_t366_VTableIsGenericMethod[] =
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType State_t366_0_0_0;
 extern const Il2CppType State_t366_1_0_0;
-extern const Il2CppType ValueType_t724_0_0_0;
+extern const Il2CppType ValueType_t750_0_0_0;
 extern TypeInfo CubeInter_t368_il2cpp_TypeInfo;
 extern const Il2CppType CubeInter_t368_0_0_0;
 const Il2CppTypeDefinitionMetadata State_t366_DefinitionMetadata = 
@@ -1061,7 +1061,7 @@ const Il2CppTypeDefinitionMetadata State_t366_DefinitionMetadata =
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ValueType_t724_0_0_0/* parent */
+	, &ValueType_t750_0_0_0/* parent */
 	, State_t366_VTable/* vtableMethods */
 	, State_t366_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
@@ -1240,10 +1240,10 @@ static const Il2CppType* CubeInter_t368_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference CubeInter_t368_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool CubeInter_t368_VTableIsGenericMethod[] =
 {
@@ -1437,10 +1437,10 @@ static const MethodInfo* CubeLerp_t369_MethodInfos[] =
 };
 static const Il2CppMethodReference CubeLerp_t369_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool CubeLerp_t369_VTableIsGenericMethod[] =
 {
@@ -1724,10 +1724,10 @@ static const MethodInfo* IELdemo_t370_MethodInfos[] =
 };
 static const Il2CppMethodReference IELdemo_t370_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool IELdemo_t370_VTableIsGenericMethod[] =
 {
@@ -1882,23 +1882,23 @@ extern const MethodInfo ThirdPersonCamera_DebugDrawStuff_m1424_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo ThirdPersonCamera_t372_ThirdPersonCamera_AngleDistance_m1425_ParameterInfos[] = 
 {
-	{"a", 0, 134218697, 0, &Single_t583_0_0_0},
-	{"b", 1, 134218698, 0, &Single_t583_0_0_0},
+	{"a", 0, 134218697, 0, &Single_t604_0_0_0},
+	{"b", 1, 134218698, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ThirdPersonCamera::AngleDistance(System.Single,System.Single)
 extern const MethodInfo ThirdPersonCamera_AngleDistance_m1425_MethodInfo = 
 {
 	"AngleDistance"/* name */
 	, (methodPointerType)&ThirdPersonCamera_AngleDistance_m1425/* method */
 	, &ThirdPersonCamera_t372_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, ThirdPersonCamera_t372_ThirdPersonCamera_AngleDistance_m1425_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -2066,10 +2066,10 @@ static const MethodInfo* ThirdPersonCamera_t372_MethodInfos[] =
 };
 static const Il2CppMethodReference ThirdPersonCamera_t372_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool ThirdPersonCamera_t372_VTableIsGenericMethod[] =
 {
@@ -2437,20 +2437,20 @@ extern const MethodInfo ThirdPersonController_ApplyGravity_m1435_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo ThirdPersonController_t371_ThirdPersonController_CalculateJumpVerticalSpeed_m1436_ParameterInfos[] = 
 {
-	{"targetJumpHeight", 0, 134218705, 0, &Single_t583_0_0_0},
+	{"targetJumpHeight", 0, 134218705, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ThirdPersonController::CalculateJumpVerticalSpeed(System.Single)
 extern const MethodInfo ThirdPersonController_CalculateJumpVerticalSpeed_m1436_MethodInfo = 
 {
 	"CalculateJumpVerticalSpeed"/* name */
 	, (methodPointerType)&ThirdPersonController_CalculateJumpVerticalSpeed_m1436/* method */
 	, &ThirdPersonController_t371_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604/* invoker_method */
 	, ThirdPersonController_t371_ThirdPersonController_CalculateJumpVerticalSpeed_m1436_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -2511,11 +2511,11 @@ extern const MethodInfo ThirdPersonController_Update_m1438_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ControllerColliderHit_t557_0_0_0;
-extern const Il2CppType ControllerColliderHit_t557_0_0_0;
+extern const Il2CppType ControllerColliderHit_t575_0_0_0;
+extern const Il2CppType ControllerColliderHit_t575_0_0_0;
 static const ParameterInfo ThirdPersonController_t371_ThirdPersonController_OnControllerColliderHit_m1439_ParameterInfos[] = 
 {
-	{"hit", 0, 134218706, 0, &ControllerColliderHit_t557_0_0_0},
+	{"hit", 0, 134218706, 0, &ControllerColliderHit_t575_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ThirdPersonController::OnControllerColliderHit(UnityEngine.ControllerColliderHit)
@@ -2540,15 +2540,15 @@ extern const MethodInfo ThirdPersonController_OnControllerColliderHit_m1439_Meth
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ThirdPersonController::GetSpeed()
 extern const MethodInfo ThirdPersonController_GetSpeed_m1440_MethodInfo = 
 {
 	"GetSpeed"/* name */
 	, (methodPointerType)&ThirdPersonController_GetSpeed_m1440/* method */
 	, &ThirdPersonController_t371_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -2656,15 +2656,15 @@ extern const MethodInfo ThirdPersonController_IsMovingBackwards_m1444_MethodInfo
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ThirdPersonController::GetLockCameraTimer()
 extern const MethodInfo ThirdPersonController_GetLockCameraTimer_m1445_MethodInfo = 
 {
 	"GetLockCameraTimer"/* name */
 	, (methodPointerType)&ThirdPersonController_GetLockCameraTimer_m1445/* method */
 	, &ThirdPersonController_t371_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -2796,10 +2796,10 @@ static const MethodInfo* ThirdPersonController_t371_MethodInfos[] =
 };
 static const Il2CppMethodReference ThirdPersonController_t371_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool ThirdPersonController_t371_VTableIsGenericMethod[] =
 {
@@ -2994,10 +2994,10 @@ static const MethodInfo* ThirdPersonNetwork_t374_MethodInfos[] =
 };
 static const Il2CppMethodReference ThirdPersonNetwork_t374_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool ThirdPersonNetwork_t374_VTableIsGenericMethod[] =
 {
@@ -3350,10 +3350,10 @@ static const MethodInfo* WorkerInGame_t375_MethodInfos[] =
 };
 static const Il2CppMethodReference WorkerInGame_t375_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool WorkerInGame_t375_VTableIsGenericMethod[] =
 {
@@ -3792,10 +3792,10 @@ static const PropertyInfo* WorkerMenu_t376_PropertyInfos[] =
 };
 static const Il2CppMethodReference WorkerMenu_t376_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool WorkerMenu_t376_VTableIsGenericMethod[] =
 {
@@ -4012,10 +4012,10 @@ static const MethodInfo* AudioRpc_t377_MethodInfos[] =
 };
 static const Il2CppMethodReference AudioRpc_t377_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool AudioRpc_t377_VTableIsGenericMethod[] =
 {
@@ -4186,10 +4186,10 @@ static const MethodInfo* ClickDetector_t378_MethodInfos[] =
 };
 static const Il2CppMethodReference ClickDetector_t378_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool ClickDetector_t378_VTableIsGenericMethod[] =
 {
@@ -4518,10 +4518,10 @@ static const MethodInfo* GameLogic_t379_MethodInfos[] =
 };
 static const Il2CppMethodReference GameLogic_t379_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool GameLogic_t379_VTableIsGenericMethod[] =
 {
@@ -4637,10 +4637,10 @@ static const MethodInfo* myThirdPersonController_t380_MethodInfos[] =
 };
 static const Il2CppMethodReference myThirdPersonController_t380_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool myThirdPersonController_t380_VTableIsGenericMethod[] =
 {
@@ -4811,10 +4811,10 @@ static const MethodInfo* NetworkCharacter_t381_MethodInfos[] =
 };
 static const Il2CppMethodReference NetworkCharacter_t381_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool NetworkCharacter_t381_VTableIsGenericMethod[] =
 {
@@ -5075,10 +5075,10 @@ extern const MethodInfo PunBehaviour_OnWebRpcResponse_m1745_MethodInfo;
 extern const MethodInfo PunBehaviour_OnOwnershipRequest_m1746_MethodInfo;
 static const Il2CppMethodReference RandomMatchmaker_t382_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&PunBehaviour_OnConnectedToPhoton_m1722_MethodInfo,
 	&PunBehaviour_OnLeftRoom_m1723_MethodInfo,
 	&PunBehaviour_OnMasterClientSwitched_m1724_MethodInfo,
@@ -5187,10 +5187,10 @@ static bool RandomMatchmaker_t382_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IPunCallbacks_t717_0_0_0;
+extern const Il2CppType IPunCallbacks_t743_0_0_0;
 static Il2CppInterfaceOffsetPair RandomMatchmaker_t382_InterfacesOffsets[] = 
 {
-	{ &IPunCallbacks_t717_0_0_0, 4},
+	{ &IPunCallbacks_t743_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType RandomMatchmaker_t382_0_0_0;
@@ -5348,10 +5348,10 @@ static const MethodInfo* IdleRunJump_t383_MethodInfos[] =
 };
 static const Il2CppMethodReference IdleRunJump_t383_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool IdleRunJump_t383_VTableIsGenericMethod[] =
 {
@@ -5665,10 +5665,10 @@ static const PropertyInfo* PlayerDiamond_t384_PropertyInfos[] =
 };
 static const Il2CppMethodReference PlayerDiamond_t384_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PlayerDiamond_t384_VTableIsGenericMethod[] =
 {
@@ -6037,12 +6037,12 @@ extern const MethodInfo CustomTypes_Register_m1521_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MemoryStream_t558_0_0_0;
-extern const Il2CppType MemoryStream_t558_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo CustomTypes_t388_CustomTypes_SerializeVector3_m1522_ParameterInfos[] = 
 {
-	{"outStream", 0, 134218728, 0, &MemoryStream_t558_0_0_0},
+	{"outStream", 0, 134218728, 0, &MemoryStream_t576_0_0_0},
 	{"customobject", 1, 134218729, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType Int16_t27_0_0_0;
@@ -6069,11 +6069,11 @@ extern const MethodInfo CustomTypes_SerializeVector3_m1522_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MemoryStream_t558_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
 extern const Il2CppType Int16_t27_0_0_0;
 static const ParameterInfo CustomTypes_t388_CustomTypes_DeserializeVector3_m1523_ParameterInfos[] = 
 {
-	{"inStream", 0, 134218730, 0, &MemoryStream_t558_0_0_0},
+	{"inStream", 0, 134218730, 0, &MemoryStream_t576_0_0_0},
 	{"length", 1, 134218731, 0, &Int16_t27_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int16_t27 (const MethodInfo* method, void* obj, void** args);
@@ -6099,11 +6099,11 @@ extern const MethodInfo CustomTypes_DeserializeVector3_m1523_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MemoryStream_t558_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo CustomTypes_t388_CustomTypes_SerializeVector2_m1524_ParameterInfos[] = 
 {
-	{"outStream", 0, 134218732, 0, &MemoryStream_t558_0_0_0},
+	{"outStream", 0, 134218732, 0, &MemoryStream_t576_0_0_0},
 	{"customobject", 1, 134218733, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int16_t27_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -6129,11 +6129,11 @@ extern const MethodInfo CustomTypes_SerializeVector2_m1524_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MemoryStream_t558_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
 extern const Il2CppType Int16_t27_0_0_0;
 static const ParameterInfo CustomTypes_t388_CustomTypes_DeserializeVector2_m1525_ParameterInfos[] = 
 {
-	{"inStream", 0, 134218734, 0, &MemoryStream_t558_0_0_0},
+	{"inStream", 0, 134218734, 0, &MemoryStream_t576_0_0_0},
 	{"length", 1, 134218735, 0, &Int16_t27_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int16_t27 (const MethodInfo* method, void* obj, void** args);
@@ -6159,11 +6159,11 @@ extern const MethodInfo CustomTypes_DeserializeVector2_m1525_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MemoryStream_t558_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo CustomTypes_t388_CustomTypes_SerializeQuaternion_m1526_ParameterInfos[] = 
 {
-	{"outStream", 0, 134218736, 0, &MemoryStream_t558_0_0_0},
+	{"outStream", 0, 134218736, 0, &MemoryStream_t576_0_0_0},
 	{"customobject", 1, 134218737, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int16_t27_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -6189,11 +6189,11 @@ extern const MethodInfo CustomTypes_SerializeQuaternion_m1526_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MemoryStream_t558_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
 extern const Il2CppType Int16_t27_0_0_0;
 static const ParameterInfo CustomTypes_t388_CustomTypes_DeserializeQuaternion_m1527_ParameterInfos[] = 
 {
-	{"inStream", 0, 134218738, 0, &MemoryStream_t558_0_0_0},
+	{"inStream", 0, 134218738, 0, &MemoryStream_t576_0_0_0},
 	{"length", 1, 134218739, 0, &Int16_t27_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int16_t27 (const MethodInfo* method, void* obj, void** args);
@@ -6219,11 +6219,11 @@ extern const MethodInfo CustomTypes_DeserializeQuaternion_m1527_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MemoryStream_t558_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 static const ParameterInfo CustomTypes_t388_CustomTypes_SerializePhotonPlayer_m1528_ParameterInfos[] = 
 {
-	{"outStream", 0, 134218740, 0, &MemoryStream_t558_0_0_0},
+	{"outStream", 0, 134218740, 0, &MemoryStream_t576_0_0_0},
 	{"customobject", 1, 134218741, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Int16_t27_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -6249,11 +6249,11 @@ extern const MethodInfo CustomTypes_SerializePhotonPlayer_m1528_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MemoryStream_t558_0_0_0;
+extern const Il2CppType MemoryStream_t576_0_0_0;
 extern const Il2CppType Int16_t27_0_0_0;
 static const ParameterInfo CustomTypes_t388_CustomTypes_DeserializePhotonPlayer_m1529_ParameterInfos[] = 
 {
-	{"inStream", 0, 134218742, 0, &MemoryStream_t558_0_0_0},
+	{"inStream", 0, 134218742, 0, &MemoryStream_t576_0_0_0},
 	{"length", 1, 134218743, 0, &Int16_t27_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int16_t27 (const MethodInfo* method, void* obj, void** args);
@@ -7910,7 +7910,7 @@ static const ParameterInfo Extensions_t400_Extensions_GetPhotonViewsInChildren_m
 {
 	{"go", 0, 134218744, 0, &GameObject_t49_0_0_0},
 };
-extern const Il2CppType PhotonViewU5BU5D_t559_0_0_0;
+extern const Il2CppType PhotonViewU5BU5D_t577_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // PhotonView[] Extensions::GetPhotonViewsInChildren(UnityEngine.GameObject)
 extern const MethodInfo Extensions_GetPhotonViewsInChildren_m1530_MethodInfo = 
@@ -7918,7 +7918,7 @@ extern const MethodInfo Extensions_GetPhotonViewsInChildren_m1530_MethodInfo =
 	"GetPhotonViewsInChildren"/* name */
 	, (methodPointerType)&Extensions_GetPhotonViewsInChildren_m1530/* method */
 	, &Extensions_t400_il2cpp_TypeInfo/* declaring_type */
-	, &PhotonViewU5BU5D_t559_0_0_0/* return_type */
+	, &PhotonViewU5BU5D_t577_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, Extensions_t400_Extensions_GetPhotonViewsInChildren_m1530_ParameterInfos/* parameters */
 	, 597/* custom_attributes_cache */
@@ -7964,14 +7964,14 @@ extern const MethodInfo Extensions_GetPhotonView_m1531_MethodInfo =
 };
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_AlmostEquals_m1532_ParameterInfos[] = 
 {
 	{"target", 0, 134218746, 0, &Vector3_t53_0_0_0},
 	{"second", 1, 134218747, 0, &Vector3_t53_0_0_0},
-	{"sqrMagnitudePrecision", 2, 134218748, 0, &Single_t583_0_0_0},
+	{"sqrMagnitudePrecision", 2, 134218748, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t30_Vector3_t53_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Vector3_t53_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Extensions::AlmostEquals(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern const MethodInfo Extensions_AlmostEquals_m1532_MethodInfo = 
 {
@@ -7979,7 +7979,7 @@ extern const MethodInfo Extensions_AlmostEquals_m1532_MethodInfo =
 	, (methodPointerType)&Extensions_AlmostEquals_m1532/* method */
 	, &Extensions_t400_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Vector3_t53_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Vector3_t53_Vector3_t53_Single_t604/* invoker_method */
 	, Extensions_t400_Extensions_AlmostEquals_m1532_ParameterInfos/* parameters */
 	, 599/* custom_attributes_cache */
 	, 150/* flags */
@@ -7996,14 +7996,14 @@ extern const MethodInfo Extensions_AlmostEquals_m1532_MethodInfo =
 };
 extern const Il2CppType Vector2_t97_0_0_0;
 extern const Il2CppType Vector2_t97_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_AlmostEquals_m1533_ParameterInfos[] = 
 {
 	{"target", 0, 134218749, 0, &Vector2_t97_0_0_0},
 	{"second", 1, 134218750, 0, &Vector2_t97_0_0_0},
-	{"sqrMagnitudePrecision", 2, 134218751, 0, &Single_t583_0_0_0},
+	{"sqrMagnitudePrecision", 2, 134218751, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t30_Vector2_t97_Vector2_t97_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Vector2_t97_Vector2_t97_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Extensions::AlmostEquals(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
 extern const MethodInfo Extensions_AlmostEquals_m1533_MethodInfo = 
 {
@@ -8011,7 +8011,7 @@ extern const MethodInfo Extensions_AlmostEquals_m1533_MethodInfo =
 	, (methodPointerType)&Extensions_AlmostEquals_m1533/* method */
 	, &Extensions_t400_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Vector2_t97_Vector2_t97_Single_t583/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Vector2_t97_Vector2_t97_Single_t604/* invoker_method */
 	, Extensions_t400_Extensions_AlmostEquals_m1533_ParameterInfos/* parameters */
 	, 600/* custom_attributes_cache */
 	, 150/* flags */
@@ -8029,14 +8029,14 @@ extern const MethodInfo Extensions_AlmostEquals_m1533_MethodInfo =
 extern const Il2CppType Quaternion_t69_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_AlmostEquals_m1534_ParameterInfos[] = 
 {
 	{"target", 0, 134218752, 0, &Quaternion_t69_0_0_0},
 	{"second", 1, 134218753, 0, &Quaternion_t69_0_0_0},
-	{"maxAngle", 2, 134218754, 0, &Single_t583_0_0_0},
+	{"maxAngle", 2, 134218754, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t30_Quaternion_t69_Quaternion_t69_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Quaternion_t69_Quaternion_t69_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Extensions::AlmostEquals(UnityEngine.Quaternion,UnityEngine.Quaternion,System.Single)
 extern const MethodInfo Extensions_AlmostEquals_m1534_MethodInfo = 
 {
@@ -8044,7 +8044,7 @@ extern const MethodInfo Extensions_AlmostEquals_m1534_MethodInfo =
 	, (methodPointerType)&Extensions_AlmostEquals_m1534/* method */
 	, &Extensions_t400_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Quaternion_t69_Quaternion_t69_Single_t583/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Quaternion_t69_Quaternion_t69_Single_t604/* invoker_method */
 	, Extensions_t400_Extensions_AlmostEquals_m1534_ParameterInfos/* parameters */
 	, 601/* custom_attributes_cache */
 	, 150/* flags */
@@ -8059,16 +8059,16 @@ extern const MethodInfo Extensions_AlmostEquals_m1534_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_AlmostEquals_m1535_ParameterInfos[] = 
 {
-	{"target", 0, 134218755, 0, &Single_t583_0_0_0},
-	{"second", 1, 134218756, 0, &Single_t583_0_0_0},
-	{"floatDiff", 2, 134218757, 0, &Single_t583_0_0_0},
+	{"target", 0, 134218755, 0, &Single_t604_0_0_0},
+	{"second", 1, 134218756, 0, &Single_t604_0_0_0},
+	{"floatDiff", 2, 134218757, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t30_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean Extensions::AlmostEquals(System.Single,System.Single,System.Single)
 extern const MethodInfo Extensions_AlmostEquals_m1535_MethodInfo = 
 {
@@ -8076,7 +8076,7 @@ extern const MethodInfo Extensions_AlmostEquals_m1535_MethodInfo =
 	, (methodPointerType)&Extensions_AlmostEquals_m1535/* method */
 	, &Extensions_t400_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, Extensions_t400_Extensions_AlmostEquals_m1535_ParameterInfos/* parameters */
 	, 602/* custom_attributes_cache */
 	, 150/* flags */
@@ -8091,13 +8091,13 @@ extern const MethodInfo Extensions_AlmostEquals_m1535_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t560_0_0_0;
-extern const Il2CppType IDictionary_t560_0_0_0;
-extern const Il2CppType IDictionary_t560_0_0_0;
+extern const Il2CppType IDictionary_t578_0_0_0;
+extern const Il2CppType IDictionary_t578_0_0_0;
+extern const Il2CppType IDictionary_t578_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_Merge_m1536_ParameterInfos[] = 
 {
-	{"target", 0, 134218758, 0, &IDictionary_t560_0_0_0},
-	{"addHash", 1, 134218759, 0, &IDictionary_t560_0_0_0},
+	{"target", 0, 134218758, 0, &IDictionary_t578_0_0_0},
+	{"addHash", 1, 134218759, 0, &IDictionary_t578_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Extensions::Merge(System.Collections.IDictionary,System.Collections.IDictionary)
@@ -8122,12 +8122,12 @@ extern const MethodInfo Extensions_Merge_m1536_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t560_0_0_0;
-extern const Il2CppType IDictionary_t560_0_0_0;
+extern const Il2CppType IDictionary_t578_0_0_0;
+extern const Il2CppType IDictionary_t578_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_MergeStringKeys_m1537_ParameterInfos[] = 
 {
-	{"target", 0, 134218760, 0, &IDictionary_t560_0_0_0},
-	{"addHash", 1, 134218761, 0, &IDictionary_t560_0_0_0},
+	{"target", 0, 134218760, 0, &IDictionary_t578_0_0_0},
+	{"addHash", 1, 134218761, 0, &IDictionary_t578_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Extensions::MergeStringKeys(System.Collections.IDictionary,System.Collections.IDictionary)
@@ -8152,10 +8152,10 @@ extern const MethodInfo Extensions_MergeStringKeys_m1537_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t560_0_0_0;
+extern const Il2CppType IDictionary_t578_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_ToStringFull_m1538_ParameterInfos[] = 
 {
-	{"origin", 0, 134218762, 0, &IDictionary_t560_0_0_0},
+	{"origin", 0, 134218762, 0, &IDictionary_t578_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String Extensions::ToStringFull(System.Collections.IDictionary)
@@ -8180,10 +8180,10 @@ extern const MethodInfo Extensions_ToStringFull_m1538_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t560_0_0_0;
+extern const Il2CppType IDictionary_t578_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_StripToStringKeys_m1539_ParameterInfos[] = 
 {
-	{"original", 0, 134218763, 0, &IDictionary_t560_0_0_0},
+	{"original", 0, 134218763, 0, &IDictionary_t578_0_0_0},
 };
 extern const Il2CppType Hashtable_t436_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -8209,10 +8209,10 @@ extern const MethodInfo Extensions_StripToStringKeys_m1539_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IDictionary_t560_0_0_0;
+extern const Il2CppType IDictionary_t578_0_0_0;
 static const ParameterInfo Extensions_t400_Extensions_StripKeysWithNullValues_m1540_ParameterInfos[] = 
 {
-	{"original", 0, 134218764, 0, &IDictionary_t560_0_0_0},
+	{"original", 0, 134218764, 0, &IDictionary_t578_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void Extensions::StripKeysWithNullValues(System.Collections.IDictionary)
@@ -9045,15 +9045,15 @@ extern const MethodInfo GizmoTypeDrawer__ctor_m1552_MethodInfo =
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType GizmoType_t403_0_0_0;
 extern const Il2CppType Color_t121_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo GizmoTypeDrawer_t404_GizmoTypeDrawer_Draw_m1553_ParameterInfos[] = 
 {
 	{"center", 0, 134218771, 0, &Vector3_t53_0_0_0},
 	{"type", 1, 134218772, 0, &GizmoType_t403_0_0_0},
 	{"color", 2, 134218773, 0, &Color_t121_0_0_0},
-	{"size", 3, 134218774, 0, &Single_t583_0_0_0},
+	{"size", 3, 134218774, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Vector3_t53_Int32_t29_Color_t121_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Vector3_t53_Int32_t29_Color_t121_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ExitGames.Client.GUI.GizmoTypeDrawer::Draw(UnityEngine.Vector3,ExitGames.Client.GUI.GizmoType,UnityEngine.Color,System.Single)
 extern const MethodInfo GizmoTypeDrawer_Draw_m1553_MethodInfo = 
 {
@@ -9061,7 +9061,7 @@ extern const MethodInfo GizmoTypeDrawer_Draw_m1553_MethodInfo =
 	, (methodPointerType)&GizmoTypeDrawer_Draw_m1553/* method */
 	, &GizmoTypeDrawer_t404_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Vector3_t53_Int32_t29_Color_t121_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Vector3_t53_Int32_t29_Color_t121_Single_t604/* invoker_method */
 	, GizmoTypeDrawer_t404_GizmoTypeDrawer_Draw_m1553_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -13981,14 +13981,14 @@ extern const MethodInfo NetworkingPeer_ExecuteRpc_m1671_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ParameterInfoU5BU5D_t561_0_0_0;
-extern const Il2CppType ParameterInfoU5BU5D_t561_0_0_0;
-extern const Il2CppType TypeU5BU5D_t562_0_0_0;
-extern const Il2CppType TypeU5BU5D_t562_0_0_0;
+extern const Il2CppType ParameterInfoU5BU5D_t579_0_0_0;
+extern const Il2CppType ParameterInfoU5BU5D_t579_0_0_0;
+extern const Il2CppType TypeU5BU5D_t580_0_0_0;
+extern const Il2CppType TypeU5BU5D_t580_0_0_0;
 static const ParameterInfo NetworkingPeer_t434_NetworkingPeer_CheckTypeMatch_m1672_ParameterInfos[] = 
 {
-	{"methodParameters", 0, 134218907, 0, &ParameterInfoU5BU5D_t561_0_0_0},
-	{"callParameterTypes", 1, 134218908, 0, &TypeU5BU5D_t562_0_0_0},
+	{"methodParameters", 0, 134218907, 0, &ParameterInfoU5BU5D_t579_0_0_0},
+	{"callParameterTypes", 1, 134218908, 0, &TypeU5BU5D_t580_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean NetworkingPeer::CheckTypeMatch(System.Reflection.ParameterInfo[],System.Type[])
@@ -15186,7 +15186,7 @@ static const ParameterInfo NetworkingPeer_t434_NetworkingPeer_GetMethod_m1713_Pa
 	{"methodType", 1, 134218979, 0, &String_t_0_0_0},
 	{"mi", 2, 134218980, 0, &MethodInfo_t_1_0_2},
 };
-extern void* RuntimeInvoker_Boolean_t30_Object_t_Object_t_MethodInfoU26_t725 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Object_t_Object_t_MethodInfoU26_t751 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean NetworkingPeer::GetMethod(UnityEngine.MonoBehaviour,System.String,System.Reflection.MethodInfo&)
 extern const MethodInfo NetworkingPeer_GetMethod_m1713_MethodInfo = 
 {
@@ -15194,7 +15194,7 @@ extern const MethodInfo NetworkingPeer_GetMethod_m1713_MethodInfo =
 	, (methodPointerType)&NetworkingPeer_GetMethod_m1713/* method */
 	, &NetworkingPeer_t434_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Object_t_Object_t_MethodInfoU26_t725/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Object_t_Object_t_MethodInfoU26_t751/* invoker_method */
 	, NetworkingPeer_t434_NetworkingPeer_GetMethod_m1713_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 149/* flags */
@@ -15915,24 +15915,24 @@ TypeInfo NetworkingPeer_t434_il2cpp_TypeInfo =
 
 };
 // Metadata Definition IPunObservable
-extern TypeInfo IPunObservable_t716_il2cpp_TypeInfo;
+extern TypeInfo IPunObservable_t742_il2cpp_TypeInfo;
 extern const Il2CppType PhotonStream_t439_0_0_0;
 extern const Il2CppType PhotonMessageInfo_t435_0_0_0;
-static const ParameterInfo IPunObservable_t716_IPunObservable_OnPhotonSerializeView_m3319_ParameterInfos[] = 
+static const ParameterInfo IPunObservable_t742_IPunObservable_OnPhotonSerializeView_m3450_ParameterInfos[] = 
 {
 	{"stream", 0, 134218986, 0, &PhotonStream_t439_0_0_0},
 	{"info", 1, 134218987, 0, &PhotonMessageInfo_t435_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunObservable::OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
-extern const MethodInfo IPunObservable_OnPhotonSerializeView_m3319_MethodInfo = 
+extern const MethodInfo IPunObservable_OnPhotonSerializeView_m3450_MethodInfo = 
 {
 	"OnPhotonSerializeView"/* name */
 	, NULL/* method */
-	, &IPunObservable_t716_il2cpp_TypeInfo/* declaring_type */
+	, &IPunObservable_t742_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t/* invoker_method */
-	, IPunObservable_t716_IPunObservable_OnPhotonSerializeView_m3319_ParameterInfos/* parameters */
+	, IPunObservable_t742_IPunObservable_OnPhotonSerializeView_m3450_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -15946,16 +15946,16 @@ extern const MethodInfo IPunObservable_OnPhotonSerializeView_m3319_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IPunObservable_t716_MethodInfos[] =
+static const MethodInfo* IPunObservable_t742_MethodInfos[] =
 {
-	&IPunObservable_OnPhotonSerializeView_m3319_MethodInfo,
+	&IPunObservable_OnPhotonSerializeView_m3450_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType IPunObservable_t716_0_0_0;
-extern const Il2CppType IPunObservable_t716_1_0_0;
-struct IPunObservable_t716;
-const Il2CppTypeDefinitionMetadata IPunObservable_t716_DefinitionMetadata = 
+extern const Il2CppType IPunObservable_t742_0_0_0;
+extern const Il2CppType IPunObservable_t742_1_0_0;
+struct IPunObservable_t742;
+const Il2CppTypeDefinitionMetadata IPunObservable_t742_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -15968,21 +15968,21 @@ const Il2CppTypeDefinitionMetadata IPunObservable_t716_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IPunObservable_t716_il2cpp_TypeInfo = 
+TypeInfo IPunObservable_t742_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IPunObservable"/* name */
 	, ""/* namespaze */
-	, IPunObservable_t716_MethodInfos/* methods */
+	, IPunObservable_t742_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IPunObservable_t716_il2cpp_TypeInfo/* element_class */
+	, &IPunObservable_t742_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IPunObservable_t716_0_0_0/* byval_arg */
-	, &IPunObservable_t716_1_0_0/* this_arg */
-	, &IPunObservable_t716_DefinitionMetadata/* definitionMetadata */
+	, &IPunObservable_t742_0_0_0/* byval_arg */
+	, &IPunObservable_t742_1_0_0/* this_arg */
+	, &IPunObservable_t742_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16023,14 +16023,14 @@ TypeInfo IPunObservable_t716_il2cpp_TypeInfo =
 
 };
 // Metadata Definition IPunCallbacks
-extern TypeInfo IPunCallbacks_t717_il2cpp_TypeInfo;
+extern TypeInfo IPunCallbacks_t743_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnConnectedToPhoton()
-extern const MethodInfo IPunCallbacks_OnConnectedToPhoton_m3320_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnConnectedToPhoton_m3451_MethodInfo = 
 {
 	"OnConnectedToPhoton"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16049,11 +16049,11 @@ extern const MethodInfo IPunCallbacks_OnConnectedToPhoton_m3320_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnLeftRoom()
-extern const MethodInfo IPunCallbacks_OnLeftRoom_m3321_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnLeftRoom_m3452_MethodInfo = 
 {
 	"OnLeftRoom"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16071,20 +16071,20 @@ extern const MethodInfo IPunCallbacks_OnLeftRoom_m3321_MethodInfo =
 
 };
 extern const Il2CppType PhotonPlayer_t432_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnMasterClientSwitched_m3322_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnMasterClientSwitched_m3453_ParameterInfos[] = 
 {
 	{"newMasterClient", 0, 134218988, 0, &PhotonPlayer_t432_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnMasterClientSwitched(PhotonPlayer)
-extern const MethodInfo IPunCallbacks_OnMasterClientSwitched_m3322_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnMasterClientSwitched_m3453_MethodInfo = 
 {
 	"OnMasterClientSwitched"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnMasterClientSwitched_m3322_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnMasterClientSwitched_m3453_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16099,20 +16099,20 @@ extern const MethodInfo IPunCallbacks_OnMasterClientSwitched_m3322_MethodInfo =
 
 };
 extern const Il2CppType ObjectU5BU5D_t21_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnPhotonCreateRoomFailed_m3323_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnPhotonCreateRoomFailed_m3454_ParameterInfos[] = 
 {
 	{"codeAndMsg", 0, 134218989, 0, &ObjectU5BU5D_t21_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonCreateRoomFailed(System.Object[])
-extern const MethodInfo IPunCallbacks_OnPhotonCreateRoomFailed_m3323_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonCreateRoomFailed_m3454_MethodInfo = 
 {
 	"OnPhotonCreateRoomFailed"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnPhotonCreateRoomFailed_m3323_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnPhotonCreateRoomFailed_m3454_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16127,20 +16127,20 @@ extern const MethodInfo IPunCallbacks_OnPhotonCreateRoomFailed_m3323_MethodInfo 
 
 };
 extern const Il2CppType ObjectU5BU5D_t21_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnPhotonJoinRoomFailed_m3324_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnPhotonJoinRoomFailed_m3455_ParameterInfos[] = 
 {
 	{"codeAndMsg", 0, 134218990, 0, &ObjectU5BU5D_t21_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonJoinRoomFailed(System.Object[])
-extern const MethodInfo IPunCallbacks_OnPhotonJoinRoomFailed_m3324_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonJoinRoomFailed_m3455_MethodInfo = 
 {
 	"OnPhotonJoinRoomFailed"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnPhotonJoinRoomFailed_m3324_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnPhotonJoinRoomFailed_m3455_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16156,11 +16156,11 @@ extern const MethodInfo IPunCallbacks_OnPhotonJoinRoomFailed_m3324_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnCreatedRoom()
-extern const MethodInfo IPunCallbacks_OnCreatedRoom_m3325_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnCreatedRoom_m3456_MethodInfo = 
 {
 	"OnCreatedRoom"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16179,11 +16179,11 @@ extern const MethodInfo IPunCallbacks_OnCreatedRoom_m3325_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnJoinedLobby()
-extern const MethodInfo IPunCallbacks_OnJoinedLobby_m3326_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnJoinedLobby_m3457_MethodInfo = 
 {
 	"OnJoinedLobby"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16202,11 +16202,11 @@ extern const MethodInfo IPunCallbacks_OnJoinedLobby_m3326_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnLeftLobby()
-extern const MethodInfo IPunCallbacks_OnLeftLobby_m3327_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnLeftLobby_m3458_MethodInfo = 
 {
 	"OnLeftLobby"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16224,20 +16224,20 @@ extern const MethodInfo IPunCallbacks_OnLeftLobby_m3327_MethodInfo =
 
 };
 extern const Il2CppType DisconnectCause_t398_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnFailedToConnectToPhoton_m3328_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnFailedToConnectToPhoton_m3459_ParameterInfos[] = 
 {
 	{"cause", 0, 134218991, 0, &DisconnectCause_t398_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnFailedToConnectToPhoton(DisconnectCause)
-extern const MethodInfo IPunCallbacks_OnFailedToConnectToPhoton_m3328_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnFailedToConnectToPhoton_m3459_MethodInfo = 
 {
 	"OnFailedToConnectToPhoton"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Int32_t29/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnFailedToConnectToPhoton_m3328_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnFailedToConnectToPhoton_m3459_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16252,20 +16252,20 @@ extern const MethodInfo IPunCallbacks_OnFailedToConnectToPhoton_m3328_MethodInfo
 
 };
 extern const Il2CppType DisconnectCause_t398_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnConnectionFail_m3329_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnConnectionFail_m3460_ParameterInfos[] = 
 {
 	{"cause", 0, 134218992, 0, &DisconnectCause_t398_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnConnectionFail(DisconnectCause)
-extern const MethodInfo IPunCallbacks_OnConnectionFail_m3329_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnConnectionFail_m3460_MethodInfo = 
 {
 	"OnConnectionFail"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Int32_t29/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnConnectionFail_m3329_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnConnectionFail_m3460_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16281,11 +16281,11 @@ extern const MethodInfo IPunCallbacks_OnConnectionFail_m3329_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnDisconnectedFromPhoton()
-extern const MethodInfo IPunCallbacks_OnDisconnectedFromPhoton_m3330_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnDisconnectedFromPhoton_m3461_MethodInfo = 
 {
 	"OnDisconnectedFromPhoton"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16303,20 +16303,20 @@ extern const MethodInfo IPunCallbacks_OnDisconnectedFromPhoton_m3330_MethodInfo 
 
 };
 extern const Il2CppType PhotonMessageInfo_t435_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnPhotonInstantiate_m3331_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnPhotonInstantiate_m3462_ParameterInfos[] = 
 {
 	{"info", 0, 134218993, 0, &PhotonMessageInfo_t435_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonInstantiate(PhotonMessageInfo)
-extern const MethodInfo IPunCallbacks_OnPhotonInstantiate_m3331_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonInstantiate_m3462_MethodInfo = 
 {
 	"OnPhotonInstantiate"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnPhotonInstantiate_m3331_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnPhotonInstantiate_m3462_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16332,11 +16332,11 @@ extern const MethodInfo IPunCallbacks_OnPhotonInstantiate_m3331_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnReceivedRoomListUpdate()
-extern const MethodInfo IPunCallbacks_OnReceivedRoomListUpdate_m3332_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnReceivedRoomListUpdate_m3463_MethodInfo = 
 {
 	"OnReceivedRoomListUpdate"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16355,11 +16355,11 @@ extern const MethodInfo IPunCallbacks_OnReceivedRoomListUpdate_m3332_MethodInfo 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnJoinedRoom()
-extern const MethodInfo IPunCallbacks_OnJoinedRoom_m3333_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnJoinedRoom_m3464_MethodInfo = 
 {
 	"OnJoinedRoom"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16377,20 +16377,20 @@ extern const MethodInfo IPunCallbacks_OnJoinedRoom_m3333_MethodInfo =
 
 };
 extern const Il2CppType PhotonPlayer_t432_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnPhotonPlayerConnected_m3334_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnPhotonPlayerConnected_m3465_ParameterInfos[] = 
 {
 	{"newPlayer", 0, 134218994, 0, &PhotonPlayer_t432_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonPlayerConnected(PhotonPlayer)
-extern const MethodInfo IPunCallbacks_OnPhotonPlayerConnected_m3334_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonPlayerConnected_m3465_MethodInfo = 
 {
 	"OnPhotonPlayerConnected"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnPhotonPlayerConnected_m3334_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnPhotonPlayerConnected_m3465_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16405,20 +16405,20 @@ extern const MethodInfo IPunCallbacks_OnPhotonPlayerConnected_m3334_MethodInfo =
 
 };
 extern const Il2CppType PhotonPlayer_t432_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnPhotonPlayerDisconnected_m3335_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnPhotonPlayerDisconnected_m3466_ParameterInfos[] = 
 {
 	{"otherPlayer", 0, 134218995, 0, &PhotonPlayer_t432_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonPlayerDisconnected(PhotonPlayer)
-extern const MethodInfo IPunCallbacks_OnPhotonPlayerDisconnected_m3335_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonPlayerDisconnected_m3466_MethodInfo = 
 {
 	"OnPhotonPlayerDisconnected"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnPhotonPlayerDisconnected_m3335_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnPhotonPlayerDisconnected_m3466_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16433,20 +16433,20 @@ extern const MethodInfo IPunCallbacks_OnPhotonPlayerDisconnected_m3335_MethodInf
 
 };
 extern const Il2CppType ObjectU5BU5D_t21_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnPhotonRandomJoinFailed_m3336_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnPhotonRandomJoinFailed_m3467_ParameterInfos[] = 
 {
 	{"codeAndMsg", 0, 134218996, 0, &ObjectU5BU5D_t21_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonRandomJoinFailed(System.Object[])
-extern const MethodInfo IPunCallbacks_OnPhotonRandomJoinFailed_m3336_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonRandomJoinFailed_m3467_MethodInfo = 
 {
 	"OnPhotonRandomJoinFailed"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnPhotonRandomJoinFailed_m3336_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnPhotonRandomJoinFailed_m3467_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16462,11 +16462,11 @@ extern const MethodInfo IPunCallbacks_OnPhotonRandomJoinFailed_m3336_MethodInfo 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnConnectedToMaster()
-extern const MethodInfo IPunCallbacks_OnConnectedToMaster_m3337_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnConnectedToMaster_m3468_MethodInfo = 
 {
 	"OnConnectedToMaster"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16485,11 +16485,11 @@ extern const MethodInfo IPunCallbacks_OnConnectedToMaster_m3337_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonMaxCccuReached()
-extern const MethodInfo IPunCallbacks_OnPhotonMaxCccuReached_m3338_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonMaxCccuReached_m3469_MethodInfo = 
 {
 	"OnPhotonMaxCccuReached"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16507,20 +16507,20 @@ extern const MethodInfo IPunCallbacks_OnPhotonMaxCccuReached_m3338_MethodInfo =
 
 };
 extern const Il2CppType Hashtable_t436_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3339_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3470_ParameterInfos[] = 
 {
 	{"propertiesThatChanged", 0, 134218997, 0, &Hashtable_t436_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonCustomRoomPropertiesChanged(ExitGames.Client.Photon.Hashtable)
-extern const MethodInfo IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3339_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3470_MethodInfo = 
 {
 	"OnPhotonCustomRoomPropertiesChanged"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3339_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3470_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16535,20 +16535,20 @@ extern const MethodInfo IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3339_
 
 };
 extern const Il2CppType ObjectU5BU5D_t21_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3340_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3471_ParameterInfos[] = 
 {
 	{"playerAndUpdatedProps", 0, 134218998, 0, &ObjectU5BU5D_t21_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnPhotonPlayerPropertiesChanged(System.Object[])
-extern const MethodInfo IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3340_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3471_MethodInfo = 
 {
 	"OnPhotonPlayerPropertiesChanged"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3340_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3471_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16564,11 +16564,11 @@ extern const MethodInfo IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3340_Meth
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnUpdatedFriendList()
-extern const MethodInfo IPunCallbacks_OnUpdatedFriendList_m3341_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnUpdatedFriendList_m3472_MethodInfo = 
 {
 	"OnUpdatedFriendList"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16586,20 +16586,20 @@ extern const MethodInfo IPunCallbacks_OnUpdatedFriendList_m3341_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnCustomAuthenticationFailed_m3342_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnCustomAuthenticationFailed_m3473_ParameterInfos[] = 
 {
 	{"debugMessage", 0, 134218999, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnCustomAuthenticationFailed(System.String)
-extern const MethodInfo IPunCallbacks_OnCustomAuthenticationFailed_m3342_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnCustomAuthenticationFailed_m3473_MethodInfo = 
 {
 	"OnCustomAuthenticationFailed"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnCustomAuthenticationFailed_m3342_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnCustomAuthenticationFailed_m3473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16614,20 +16614,20 @@ extern const MethodInfo IPunCallbacks_OnCustomAuthenticationFailed_m3342_MethodI
 
 };
 extern const Il2CppType OperationResponse_t23_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnWebRpcResponse_m3343_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnWebRpcResponse_m3474_ParameterInfos[] = 
 {
 	{"response", 0, 134219000, 0, &OperationResponse_t23_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnWebRpcResponse(ExitGames.Client.Photon.OperationResponse)
-extern const MethodInfo IPunCallbacks_OnWebRpcResponse_m3343_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnWebRpcResponse_m3474_MethodInfo = 
 {
 	"OnWebRpcResponse"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnWebRpcResponse_m3343_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnWebRpcResponse_m3474_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16642,20 +16642,20 @@ extern const MethodInfo IPunCallbacks_OnWebRpcResponse_m3343_MethodInfo =
 
 };
 extern const Il2CppType ObjectU5BU5D_t21_0_0_0;
-static const ParameterInfo IPunCallbacks_t717_IPunCallbacks_OnOwnershipRequest_m3344_ParameterInfos[] = 
+static const ParameterInfo IPunCallbacks_t743_IPunCallbacks_OnOwnershipRequest_m3475_ParameterInfos[] = 
 {
 	{"viewAndPlayer", 0, 134219001, 0, &ObjectU5BU5D_t21_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void IPunCallbacks::OnOwnershipRequest(System.Object[])
-extern const MethodInfo IPunCallbacks_OnOwnershipRequest_m3344_MethodInfo = 
+extern const MethodInfo IPunCallbacks_OnOwnershipRequest_m3475_MethodInfo = 
 {
 	"OnOwnershipRequest"/* name */
 	, NULL/* method */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* declaring_type */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IPunCallbacks_t717_IPunCallbacks_OnOwnershipRequest_m3344_ParameterInfos/* parameters */
+	, IPunCallbacks_t743_IPunCallbacks_OnOwnershipRequest_m3475_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -16669,39 +16669,39 @@ extern const MethodInfo IPunCallbacks_OnOwnershipRequest_m3344_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IPunCallbacks_t717_MethodInfos[] =
+static const MethodInfo* IPunCallbacks_t743_MethodInfos[] =
 {
-	&IPunCallbacks_OnConnectedToPhoton_m3320_MethodInfo,
-	&IPunCallbacks_OnLeftRoom_m3321_MethodInfo,
-	&IPunCallbacks_OnMasterClientSwitched_m3322_MethodInfo,
-	&IPunCallbacks_OnPhotonCreateRoomFailed_m3323_MethodInfo,
-	&IPunCallbacks_OnPhotonJoinRoomFailed_m3324_MethodInfo,
-	&IPunCallbacks_OnCreatedRoom_m3325_MethodInfo,
-	&IPunCallbacks_OnJoinedLobby_m3326_MethodInfo,
-	&IPunCallbacks_OnLeftLobby_m3327_MethodInfo,
-	&IPunCallbacks_OnFailedToConnectToPhoton_m3328_MethodInfo,
-	&IPunCallbacks_OnConnectionFail_m3329_MethodInfo,
-	&IPunCallbacks_OnDisconnectedFromPhoton_m3330_MethodInfo,
-	&IPunCallbacks_OnPhotonInstantiate_m3331_MethodInfo,
-	&IPunCallbacks_OnReceivedRoomListUpdate_m3332_MethodInfo,
-	&IPunCallbacks_OnJoinedRoom_m3333_MethodInfo,
-	&IPunCallbacks_OnPhotonPlayerConnected_m3334_MethodInfo,
-	&IPunCallbacks_OnPhotonPlayerDisconnected_m3335_MethodInfo,
-	&IPunCallbacks_OnPhotonRandomJoinFailed_m3336_MethodInfo,
-	&IPunCallbacks_OnConnectedToMaster_m3337_MethodInfo,
-	&IPunCallbacks_OnPhotonMaxCccuReached_m3338_MethodInfo,
-	&IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3339_MethodInfo,
-	&IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3340_MethodInfo,
-	&IPunCallbacks_OnUpdatedFriendList_m3341_MethodInfo,
-	&IPunCallbacks_OnCustomAuthenticationFailed_m3342_MethodInfo,
-	&IPunCallbacks_OnWebRpcResponse_m3343_MethodInfo,
-	&IPunCallbacks_OnOwnershipRequest_m3344_MethodInfo,
+	&IPunCallbacks_OnConnectedToPhoton_m3451_MethodInfo,
+	&IPunCallbacks_OnLeftRoom_m3452_MethodInfo,
+	&IPunCallbacks_OnMasterClientSwitched_m3453_MethodInfo,
+	&IPunCallbacks_OnPhotonCreateRoomFailed_m3454_MethodInfo,
+	&IPunCallbacks_OnPhotonJoinRoomFailed_m3455_MethodInfo,
+	&IPunCallbacks_OnCreatedRoom_m3456_MethodInfo,
+	&IPunCallbacks_OnJoinedLobby_m3457_MethodInfo,
+	&IPunCallbacks_OnLeftLobby_m3458_MethodInfo,
+	&IPunCallbacks_OnFailedToConnectToPhoton_m3459_MethodInfo,
+	&IPunCallbacks_OnConnectionFail_m3460_MethodInfo,
+	&IPunCallbacks_OnDisconnectedFromPhoton_m3461_MethodInfo,
+	&IPunCallbacks_OnPhotonInstantiate_m3462_MethodInfo,
+	&IPunCallbacks_OnReceivedRoomListUpdate_m3463_MethodInfo,
+	&IPunCallbacks_OnJoinedRoom_m3464_MethodInfo,
+	&IPunCallbacks_OnPhotonPlayerConnected_m3465_MethodInfo,
+	&IPunCallbacks_OnPhotonPlayerDisconnected_m3466_MethodInfo,
+	&IPunCallbacks_OnPhotonRandomJoinFailed_m3467_MethodInfo,
+	&IPunCallbacks_OnConnectedToMaster_m3468_MethodInfo,
+	&IPunCallbacks_OnPhotonMaxCccuReached_m3469_MethodInfo,
+	&IPunCallbacks_OnPhotonCustomRoomPropertiesChanged_m3470_MethodInfo,
+	&IPunCallbacks_OnPhotonPlayerPropertiesChanged_m3471_MethodInfo,
+	&IPunCallbacks_OnUpdatedFriendList_m3472_MethodInfo,
+	&IPunCallbacks_OnCustomAuthenticationFailed_m3473_MethodInfo,
+	&IPunCallbacks_OnWebRpcResponse_m3474_MethodInfo,
+	&IPunCallbacks_OnOwnershipRequest_m3475_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType IPunCallbacks_t717_1_0_0;
-struct IPunCallbacks_t717;
-const Il2CppTypeDefinitionMetadata IPunCallbacks_t717_DefinitionMetadata = 
+extern const Il2CppType IPunCallbacks_t743_1_0_0;
+struct IPunCallbacks_t743;
+const Il2CppTypeDefinitionMetadata IPunCallbacks_t743_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -16714,21 +16714,21 @@ const Il2CppTypeDefinitionMetadata IPunCallbacks_t717_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IPunCallbacks_t717_il2cpp_TypeInfo = 
+TypeInfo IPunCallbacks_t743_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IPunCallbacks"/* name */
 	, ""/* namespaze */
-	, IPunCallbacks_t717_MethodInfos/* methods */
+	, IPunCallbacks_t743_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IPunCallbacks_t717_il2cpp_TypeInfo/* element_class */
+	, &IPunCallbacks_t743_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IPunCallbacks_t717_0_0_0/* byval_arg */
-	, &IPunCallbacks_t717_1_0_0/* this_arg */
-	, &IPunCallbacks_t717_DefinitionMetadata/* definitionMetadata */
+	, &IPunCallbacks_t743_0_0_0/* byval_arg */
+	, &IPunCallbacks_t743_1_0_0/* this_arg */
+	, &IPunCallbacks_t743_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16880,10 +16880,10 @@ static const PropertyInfo* MonoBehaviour_t329_PropertyInfos[] =
 };
 static const Il2CppMethodReference MonoBehaviour_t329_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool MonoBehaviour_t329_VTableIsGenericMethod[] =
 {
@@ -17670,10 +17670,10 @@ extern const MethodInfo PunBehaviour_OnJoinedLobby_m1728_MethodInfo;
 extern const MethodInfo PunBehaviour_OnJoinedRoom_m1735_MethodInfo;
 static const Il2CppMethodReference PunBehaviour_t351_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&PunBehaviour_OnConnectedToPhoton_m1722_MethodInfo,
 	&PunBehaviour_OnLeftRoom_m1723_MethodInfo,
 	&PunBehaviour_OnMasterClientSwitched_m1724_MethodInfo,
@@ -17784,11 +17784,11 @@ static bool PunBehaviour_t351_VTableIsGenericMethod[] =
 };
 static const Il2CppType* PunBehaviour_t351_InterfacesTypeInfos[] = 
 {
-	&IPunCallbacks_t717_0_0_0,
+	&IPunCallbacks_t743_0_0_0,
 };
 static Il2CppInterfaceOffsetPair PunBehaviour_t351_InterfacesOffsets[] = 
 {
-	{ &IPunCallbacks_t717_0_0_0, 4},
+	{ &IPunCallbacks_t743_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType PunBehaviour_t351_1_0_0;
@@ -17921,16 +17921,16 @@ extern const MethodInfo PhotonMessageInfo__ctor_m1748_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Double_t683_0_0_0;
-extern void* RuntimeInvoker_Double_t683 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType Double_t700_0_0_0;
+extern void* RuntimeInvoker_Double_t700 (const MethodInfo* method, void* obj, void** args);
 // System.Double PhotonMessageInfo::get_timestamp()
 extern const MethodInfo PhotonMessageInfo_get_timestamp_m1749_MethodInfo = 
 {
 	"get_timestamp"/* name */
 	, (methodPointerType)&PhotonMessageInfo_get_timestamp_m1749/* method */
 	, &PhotonMessageInfo_t435_il2cpp_TypeInfo/* declaring_type */
-	, &Double_t683_0_0_0/* return_type */
-	, RuntimeInvoker_Double_t683/* invoker_method */
+	, &Double_t700_0_0_0/* return_type */
+	, RuntimeInvoker_Double_t700/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -19140,7 +19140,7 @@ static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1775_Parame
 {
 	{"myBool", 0, 134219027, 0, &Boolean_t30_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_BooleanU26_t726 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_BooleanU26_t752 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(System.Boolean&)
 extern const MethodInfo PhotonStream_Serialize_m1775_MethodInfo = 
 {
@@ -19148,7 +19148,7 @@ extern const MethodInfo PhotonStream_Serialize_m1775_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1775/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_BooleanU26_t726/* invoker_method */
+	, RuntimeInvoker_Void_t35_BooleanU26_t752/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1775_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19169,7 +19169,7 @@ static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1776_Parame
 {
 	{"myInt", 0, 134219028, 0, &Int32_t29_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Int32U26_t727 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Int32U26_t753 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(System.Int32&)
 extern const MethodInfo PhotonStream_Serialize_m1776_MethodInfo = 
 {
@@ -19177,7 +19177,7 @@ extern const MethodInfo PhotonStream_Serialize_m1776_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1776/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Int32U26_t727/* invoker_method */
+	, RuntimeInvoker_Void_t35_Int32U26_t753/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1776_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19198,7 +19198,7 @@ static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1777_Parame
 {
 	{"value", 0, 134219029, 0, &String_t_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_StringU26_t728 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_StringU26_t754 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(System.String&)
 extern const MethodInfo PhotonStream_Serialize_m1777_MethodInfo = 
 {
@@ -19206,7 +19206,7 @@ extern const MethodInfo PhotonStream_Serialize_m1777_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1777/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_StringU26_t728/* invoker_method */
+	, RuntimeInvoker_Void_t35_StringU26_t754/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1777_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19221,13 +19221,13 @@ extern const MethodInfo PhotonStream_Serialize_m1777_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Char_t684_1_0_0;
-extern const Il2CppType Char_t684_1_0_0;
+extern const Il2CppType Char_t701_1_0_0;
+extern const Il2CppType Char_t701_1_0_0;
 static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1778_ParameterInfos[] = 
 {
-	{"value", 0, 134219030, 0, &Char_t684_1_0_0},
+	{"value", 0, 134219030, 0, &Char_t701_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_CharU26_t729 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_CharU26_t755 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(System.Char&)
 extern const MethodInfo PhotonStream_Serialize_m1778_MethodInfo = 
 {
@@ -19235,7 +19235,7 @@ extern const MethodInfo PhotonStream_Serialize_m1778_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1778/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_CharU26_t729/* invoker_method */
+	, RuntimeInvoker_Void_t35_CharU26_t755/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1778_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19256,7 +19256,7 @@ static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1779_Parame
 {
 	{"value", 0, 134219031, 0, &Int16_t27_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Int16U26_t730 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Int16U26_t756 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(System.Int16&)
 extern const MethodInfo PhotonStream_Serialize_m1779_MethodInfo = 
 {
@@ -19264,7 +19264,7 @@ extern const MethodInfo PhotonStream_Serialize_m1779_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1779/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Int16U26_t730/* invoker_method */
+	, RuntimeInvoker_Void_t35_Int16U26_t756/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1779_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19279,13 +19279,13 @@ extern const MethodInfo PhotonStream_Serialize_m1779_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_1_0_0;
-extern const Il2CppType Single_t583_1_0_0;
+extern const Il2CppType Single_t604_1_0_0;
+extern const Il2CppType Single_t604_1_0_0;
 static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1780_ParameterInfos[] = 
 {
-	{"obj", 0, 134219032, 0, &Single_t583_1_0_0},
+	{"obj", 0, 134219032, 0, &Single_t604_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_SingleU26_t731 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_SingleU26_t757 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(System.Single&)
 extern const MethodInfo PhotonStream_Serialize_m1780_MethodInfo = 
 {
@@ -19293,7 +19293,7 @@ extern const MethodInfo PhotonStream_Serialize_m1780_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1780/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_SingleU26_t731/* invoker_method */
+	, RuntimeInvoker_Void_t35_SingleU26_t757/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1780_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19314,7 +19314,7 @@ static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1781_Parame
 {
 	{"obj", 0, 134219033, 0, &PhotonPlayer_t432_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_PhotonPlayerU26_t732 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_PhotonPlayerU26_t758 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(PhotonPlayer&)
 extern const MethodInfo PhotonStream_Serialize_m1781_MethodInfo = 
 {
@@ -19322,7 +19322,7 @@ extern const MethodInfo PhotonStream_Serialize_m1781_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1781/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_PhotonPlayerU26_t732/* invoker_method */
+	, RuntimeInvoker_Void_t35_PhotonPlayerU26_t758/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1781_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19343,7 +19343,7 @@ static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1782_Parame
 {
 	{"obj", 0, 134219034, 0, &Vector3_t53_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Vector3U26_t733 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Vector3U26_t759 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(UnityEngine.Vector3&)
 extern const MethodInfo PhotonStream_Serialize_m1782_MethodInfo = 
 {
@@ -19351,7 +19351,7 @@ extern const MethodInfo PhotonStream_Serialize_m1782_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1782/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Vector3U26_t733/* invoker_method */
+	, RuntimeInvoker_Void_t35_Vector3U26_t759/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1782_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19372,7 +19372,7 @@ static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1783_Parame
 {
 	{"obj", 0, 134219035, 0, &Vector2_t97_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Vector2U26_t734 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Vector2U26_t760 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(UnityEngine.Vector2&)
 extern const MethodInfo PhotonStream_Serialize_m1783_MethodInfo = 
 {
@@ -19380,7 +19380,7 @@ extern const MethodInfo PhotonStream_Serialize_m1783_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1783/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Vector2U26_t734/* invoker_method */
+	, RuntimeInvoker_Void_t35_Vector2U26_t760/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1783_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19401,7 +19401,7 @@ static const ParameterInfo PhotonStream_t439_PhotonStream_Serialize_m1784_Parame
 {
 	{"obj", 0, 134219036, 0, &Quaternion_t69_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_QuaternionU26_t735 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_QuaternionU26_t761 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonStream::Serialize(UnityEngine.Quaternion&)
 extern const MethodInfo PhotonStream_Serialize_m1784_MethodInfo = 
 {
@@ -19409,7 +19409,7 @@ extern const MethodInfo PhotonStream_Serialize_m1784_MethodInfo =
 	, (methodPointerType)&PhotonStream_Serialize_m1784/* method */
 	, &PhotonStream_t439_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_QuaternionU26_t735/* invoker_method */
+	, RuntimeInvoker_Void_t35_QuaternionU26_t761/* invoker_method */
 	, PhotonStream_t439_PhotonStream_Serialize_m1784_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -20029,7 +20029,7 @@ extern const MethodInfo U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_System_
 	, 703/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20098,7 +20098,7 @@ extern const MethodInfo U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_Dispose
 	, 705/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20121,7 +20121,7 @@ extern const MethodInfo U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_Reset_m
 	, 706/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20170,8 +20170,8 @@ static const PropertyInfo* U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_t444
 	NULL
 };
 extern const MethodInfo U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_MoveNext_m1798_MethodInfo;
-extern const MethodInfo U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_Dispose_m1799_MethodInfo;
 extern const MethodInfo U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_Reset_m1800_MethodInfo;
+extern const MethodInfo U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_Dispose_m1799_MethodInfo;
 static const Il2CppMethodReference U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_t444_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -20180,9 +20180,9 @@ static const Il2CppMethodReference U3CPingAvailableRegionsCoroutineU3Ec__Iterato
 	&Object_ToString_m129_MethodInfo,
 	&U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m1797_MethodInfo,
 	&U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_MoveNext_m1798_MethodInfo,
+	&U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_Reset_m1800_MethodInfo,
 	&U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_Dispose_m1799_MethodInfo,
 	&U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1796_MethodInfo,
-	&U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_Reset_m1800_MethodInfo,
 };
 static bool U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_t444_VTableIsGenericMethod[] =
 {
@@ -20197,19 +20197,19 @@ static bool U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_t444_VTableIsGeneri
 	false,
 };
 extern const Il2CppType IEnumerator_t74_0_0_0;
-extern const Il2CppType IDisposable_t567_0_0_0;
-extern const Il2CppType IEnumerator_1_t718_0_0_0;
+extern const Il2CppType IDisposable_t588_0_0_0;
+extern const Il2CppType IEnumerator_1_t744_0_0_0;
 static const Il2CppType* U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_t444_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_t444_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CPingAvailableRegionsCoroutineU3Ec__Iterator13_t444_0_0_0;
@@ -20813,10 +20813,10 @@ extern const MethodInfo PhotonHandler_OnStatusChanged_m1814_MethodInfo;
 extern const MethodInfo PhotonHandler_OnEvent_m1815_MethodInfo;
 static const Il2CppMethodReference PhotonHandler_t446_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&PhotonHandler_DebugReturn_m1812_MethodInfo,
 	&PhotonHandler_OnOperationResponse_m1813_MethodInfo,
 	&PhotonHandler_OnStatusChanged_m1814_MethodInfo,
@@ -21123,10 +21123,10 @@ static const PropertyInfo* PhotonLagSimulationGui_t447_PropertyInfos[] =
 };
 static const Il2CppMethodReference PhotonLagSimulationGui_t447_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PhotonLagSimulationGui_t447_VTableIsGenericMethod[] =
 {
@@ -21349,30 +21349,30 @@ static const MethodInfo* EventCallback_t450_MethodInfos[] =
 	&EventCallback_EndInvoke_m1830_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m3368_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m3369_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m3370_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m3371_MethodInfo;
-extern const MethodInfo Delegate_Clone_m3372_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m3373_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m3374_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m3375_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m3500_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m3501_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetObjectData_m3502_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m3503_MethodInfo;
+extern const MethodInfo Delegate_Clone_m3504_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m3505_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m3506_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m3507_MethodInfo;
 extern const MethodInfo EventCallback_Invoke_m1828_MethodInfo;
 extern const MethodInfo EventCallback_BeginInvoke_m1829_MethodInfo;
 extern const MethodInfo EventCallback_EndInvoke_m1830_MethodInfo;
 static const Il2CppMethodReference EventCallback_t450_VTable[] =
 {
-	&MulticastDelegate_Equals_m3368_MethodInfo,
+	&MulticastDelegate_Equals_m3500_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3369_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3501_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3370_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m3371_MethodInfo,
-	&Delegate_Clone_m3372_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3370_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3373_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3374_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3375_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3502_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m3503_MethodInfo,
+	&Delegate_Clone_m3504_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3502_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3505_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3506_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3507_MethodInfo,
 	&EventCallback_Invoke_m1828_MethodInfo,
 	&EventCallback_BeginInvoke_m1829_MethodInfo,
 	&EventCallback_EndInvoke_m1830_MethodInfo,
@@ -21394,12 +21394,12 @@ static bool EventCallback_t450_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t736_0_0_0;
-extern const Il2CppType ISerializable_t737_0_0_0;
+extern const Il2CppType ICloneable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
 static Il2CppInterfaceOffsetPair EventCallback_t450_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t736_0_0_0, 4},
-	{ &ISerializable_t737_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType EventCallback_t450_0_0_0;
@@ -22603,15 +22603,15 @@ extern const MethodInfo PhotonNetwork_set_unreliableCommandsLimit_m1875_MethodIn
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Double_t683 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Double_t700 (const MethodInfo* method, void* obj, void** args);
 // System.Double PhotonNetwork::get_time()
 extern const MethodInfo PhotonNetwork_get_time_m1876_MethodInfo = 
 {
 	"get_time"/* name */
 	, (methodPointerType)&PhotonNetwork_get_time_m1876/* method */
 	, &PhotonNetwork_t455_il2cpp_TypeInfo/* declaring_type */
-	, &Double_t683_0_0_0/* return_type */
-	, RuntimeInvoker_Double_t683/* invoker_method */
+	, &Double_t700_0_0_0/* return_type */
+	, RuntimeInvoker_Double_t700/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2198/* flags */
@@ -26385,10 +26385,10 @@ static const MethodInfo* PhotonStatsGui_t456_MethodInfos[] =
 };
 static const Il2CppMethodReference PhotonStatsGui_t456_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PhotonStatsGui_t456_VTableIsGenericMethod[] =
 {
@@ -28369,9 +28369,9 @@ static const PropertyInfo* PhotonView_t325_PropertyInfos[] =
 extern const MethodInfo PhotonView_ToString_m2022_MethodInfo;
 static const Il2CppMethodReference PhotonView_t325_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
 	&PhotonView_ToString_m2022_MethodInfo,
 };
 static bool PhotonView_t325_VTableIsGenericMethod[] =
@@ -28493,7 +28493,7 @@ extern const MethodInfo U3CPingSocketU3Ec__Iterator14_System_Collections_Generic
 	, 733/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -28562,7 +28562,7 @@ extern const MethodInfo U3CPingSocketU3Ec__Iterator14_Dispose_m2027_MethodInfo =
 	, 735/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -28585,7 +28585,7 @@ extern const MethodInfo U3CPingSocketU3Ec__Iterator14_Reset_m2028_MethodInfo =
 	, 736/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -28634,8 +28634,8 @@ static const PropertyInfo* U3CPingSocketU3Ec__Iterator14_t469_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CPingSocketU3Ec__Iterator14_MoveNext_m2026_MethodInfo;
-extern const MethodInfo U3CPingSocketU3Ec__Iterator14_Dispose_m2027_MethodInfo;
 extern const MethodInfo U3CPingSocketU3Ec__Iterator14_Reset_m2028_MethodInfo;
+extern const MethodInfo U3CPingSocketU3Ec__Iterator14_Dispose_m2027_MethodInfo;
 static const Il2CppMethodReference U3CPingSocketU3Ec__Iterator14_t469_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -28644,9 +28644,9 @@ static const Il2CppMethodReference U3CPingSocketU3Ec__Iterator14_t469_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CPingSocketU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m2025_MethodInfo,
 	&U3CPingSocketU3Ec__Iterator14_MoveNext_m2026_MethodInfo,
+	&U3CPingSocketU3Ec__Iterator14_Reset_m2028_MethodInfo,
 	&U3CPingSocketU3Ec__Iterator14_Dispose_m2027_MethodInfo,
 	&U3CPingSocketU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2024_MethodInfo,
-	&U3CPingSocketU3Ec__Iterator14_Reset_m2028_MethodInfo,
 };
 static bool U3CPingSocketU3Ec__Iterator14_t469_VTableIsGenericMethod[] =
 {
@@ -28663,14 +28663,14 @@ static bool U3CPingSocketU3Ec__Iterator14_t469_VTableIsGenericMethod[] =
 static const Il2CppType* U3CPingSocketU3Ec__Iterator14_t469_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CPingSocketU3Ec__Iterator14_t469_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CPingSocketU3Ec__Iterator14_t469_0_0_0;
@@ -29059,13 +29059,13 @@ static const MethodInfo* PunRPC_t470_MethodInfos[] =
 	&PunRPC__ctor_m2035_MethodInfo,
 	NULL
 };
-extern const MethodInfo Attribute_Equals_m3376_MethodInfo;
-extern const MethodInfo Attribute_GetHashCode_m3377_MethodInfo;
+extern const MethodInfo Attribute_Equals_m3508_MethodInfo;
+extern const MethodInfo Attribute_GetHashCode_m3509_MethodInfo;
 static const Il2CppMethodReference PunRPC_t470_VTable[] =
 {
-	&Attribute_Equals_m3376_MethodInfo,
+	&Attribute_Equals_m3508_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Attribute_GetHashCode_m3377_MethodInfo,
+	&Attribute_GetHashCode_m3509_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
 static bool PunRPC_t470_VTableIsGenericMethod[] =
@@ -29075,10 +29075,10 @@ static bool PunRPC_t470_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType _Attribute_t738_0_0_0;
+extern const Il2CppType _Attribute_t764_0_0_0;
 static Il2CppInterfaceOffsetPair PunRPC_t470_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t738_0_0_0, 4},
+	{ &_Attribute_t764_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType PunRPC_t470_0_0_0;
@@ -31121,9 +31121,9 @@ static const Il2CppType* ServerSettings_t452_il2cpp_TypeInfo__nestedTypes[1] =
 extern const MethodInfo ServerSettings_ToString_m2084_MethodInfo;
 static const Il2CppMethodReference ServerSettings_t452_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
 	&ServerSettings_ToString_m2084_MethodInfo,
 };
 static bool ServerSettings_t452_VTableIsGenericMethod[] =
@@ -31720,19 +31720,19 @@ TypeInfo SynchronizedLayer_t478_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey20
+// PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey22
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CDoesLayerSynchronize.h"
-// Metadata Definition PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey20
-extern TypeInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_il2cpp_TypeInfo;
-// PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey20
+// Metadata Definition PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey22
+extern TypeInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_il2cpp_TypeInfo;
+// PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey22
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CDoesLayerSynchronizeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey20::.ctor()
-extern const MethodInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20__ctor_m2087_MethodInfo = 
+// System.Void PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey22::.ctor()
+extern const MethodInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22__ctor_m2087_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20__ctor_m2087/* method */
-	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22__ctor_m2087/* method */
+	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -31750,20 +31750,20 @@ extern const MethodInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20__ctor
 
 };
 extern const Il2CppType SynchronizedLayer_t478_0_0_0;
-static const ParameterInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_U3CU3Em__1B_m2088_ParameterInfos[] = 
+static const ParameterInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_U3CU3Em__1B_m2088_ParameterInfos[] = 
 {
 	{"item", 0, 134219281, 0, &SynchronizedLayer_t478_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey20::<>m__1B(PhotonAnimatorView/SynchronizedLayer)
-extern const MethodInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_U3CU3Em__1B_m2088_MethodInfo = 
+// System.Boolean PhotonAnimatorView/<DoesLayerSynchronizeTypeExist>c__AnonStorey22::<>m__1B(PhotonAnimatorView/SynchronizedLayer)
+extern const MethodInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_U3CU3Em__1B_m2088_MethodInfo = 
 {
 	"<>m__1B"/* name */
-	, (methodPointerType)&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_U3CU3Em__1B_m2088/* method */
-	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_U3CU3Em__1B_m2088/* method */
+	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_U3CU3Em__1B_m2088_ParameterInfos/* parameters */
+	, U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_U3CU3Em__1B_m2088_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -31777,20 +31777,20 @@ extern const MethodInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_U3CU3
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_MethodInfos[] =
+static const MethodInfo* U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_MethodInfos[] =
 {
-	&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20__ctor_m2087_MethodInfo,
-	&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_U3CU3Em__1B_m2088_MethodInfo,
+	&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22__ctor_m2087_MethodInfo,
+	&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_U3CU3Em__1B_m2088_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_VTable[] =
+static const Il2CppMethodReference U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_VTableIsGenericMethod[] =
+static bool U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -31798,37 +31798,37 @@ static bool U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_VTableIsGene
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_0_0_0;
-extern const Il2CppType U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_1_0_0;
-struct U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479;
-const Il2CppTypeDefinitionMetadata U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_DefinitionMetadata = 
+extern const Il2CppType U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_0_0_0;
+extern const Il2CppType U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_1_0_0;
+struct U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479;
+const Il2CppTypeDefinitionMetadata U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_DefinitionMetadata = 
 {
 	&PhotonAnimatorView_t349_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_VTable/* vtableMethods */
-	, U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_VTable/* vtableMethods */
+	, U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 2328/* fieldStart */
 
 };
-TypeInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_il2cpp_TypeInfo = 
+TypeInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<DoesLayerSynchronizeTypeExist>c__AnonStorey20"/* name */
+	, "<DoesLayerSynchronizeTypeExist>c__AnonStorey22"/* name */
 	, ""/* namespaze */
-	, U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_MethodInfos/* methods */
+	, U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_il2cpp_TypeInfo/* element_class */
+	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 758/* custom_attributes_cache */
-	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_0_0_0/* byval_arg */
-	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_1_0_0/* this_arg */
-	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_DefinitionMetadata/* definitionMetadata */
+	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_0_0_0/* byval_arg */
+	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_1_0_0/* this_arg */
+	, &U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -31838,8 +31838,8 @@ TypeInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_il2cpp_TypeInfo
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479)/* instance_size */
-	, sizeof (U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479)/* actualSize */
+	, sizeof (U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479)/* instance_size */
+	, sizeof (U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -31868,19 +31868,19 @@ TypeInfo U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_il2cpp_TypeInfo
 	, 0/* interface_offsets_count */
 
 };
-// PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey21
+// PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey23
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CDoesParameterSynchro.h"
-// Metadata Definition PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey21
-extern TypeInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_il2cpp_TypeInfo;
-// PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey21
+// Metadata Definition PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey23
+extern TypeInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_il2cpp_TypeInfo;
+// PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey23
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CDoesParameterSynchroMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey21::.ctor()
-extern const MethodInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21__ctor_m2089_MethodInfo = 
+// System.Void PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey23::.ctor()
+extern const MethodInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23__ctor_m2089_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21__ctor_m2089/* method */
-	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23__ctor_m2089/* method */
+	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -31898,20 +31898,20 @@ extern const MethodInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21__
 
 };
 extern const Il2CppType SynchronizedParameter_t477_0_0_0;
-static const ParameterInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_U3CU3Em__1C_m2090_ParameterInfos[] = 
+static const ParameterInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_U3CU3Em__1C_m2090_ParameterInfos[] = 
 {
 	{"item", 0, 134219282, 0, &SynchronizedParameter_t477_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey21::<>m__1C(PhotonAnimatorView/SynchronizedParameter)
-extern const MethodInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_U3CU3Em__1C_m2090_MethodInfo = 
+// System.Boolean PhotonAnimatorView/<DoesParameterSynchronizeTypeExist>c__AnonStorey23::<>m__1C(PhotonAnimatorView/SynchronizedParameter)
+extern const MethodInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_U3CU3Em__1C_m2090_MethodInfo = 
 {
 	"<>m__1C"/* name */
-	, (methodPointerType)&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_U3CU3Em__1C_m2090/* method */
-	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_U3CU3Em__1C_m2090/* method */
+	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_U3CU3Em__1C_m2090_ParameterInfos/* parameters */
+	, U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_U3CU3Em__1C_m2090_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -31925,20 +31925,20 @@ extern const MethodInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_U
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_MethodInfos[] =
+static const MethodInfo* U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_MethodInfos[] =
 {
-	&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21__ctor_m2089_MethodInfo,
-	&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_U3CU3Em__1C_m2090_MethodInfo,
+	&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23__ctor_m2089_MethodInfo,
+	&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_U3CU3Em__1C_m2090_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_VTable[] =
+static const Il2CppMethodReference U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_VTableIsGenericMethod[] =
+static bool U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -31946,37 +31946,37 @@ static bool U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_VTableIs
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_0_0_0;
-extern const Il2CppType U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_1_0_0;
-struct U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480;
-const Il2CppTypeDefinitionMetadata U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_DefinitionMetadata = 
+extern const Il2CppType U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_0_0_0;
+extern const Il2CppType U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_1_0_0;
+struct U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480;
+const Il2CppTypeDefinitionMetadata U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_DefinitionMetadata = 
 {
 	&PhotonAnimatorView_t349_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_VTable/* vtableMethods */
-	, U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_VTable/* vtableMethods */
+	, U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 2329/* fieldStart */
 
 };
-TypeInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_il2cpp_TypeInfo = 
+TypeInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<DoesParameterSynchronizeTypeExist>c__AnonStorey21"/* name */
+	, "<DoesParameterSynchronizeTypeExist>c__AnonStorey23"/* name */
 	, ""/* namespaze */
-	, U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_MethodInfos/* methods */
+	, U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_il2cpp_TypeInfo/* element_class */
+	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 759/* custom_attributes_cache */
-	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_0_0_0/* byval_arg */
-	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_1_0_0/* this_arg */
-	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_DefinitionMetadata/* definitionMetadata */
+	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_0_0_0/* byval_arg */
+	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_1_0_0/* this_arg */
+	, &U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -31986,8 +31986,8 @@ TypeInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_il2cpp_Type
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480)/* instance_size */
-	, sizeof (U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480)/* actualSize */
+	, sizeof (U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480)/* instance_size */
+	, sizeof (U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -32016,19 +32016,19 @@ TypeInfo U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_il2cpp_Type
 	, 0/* interface_offsets_count */
 
 };
-// PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey22
+// PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey24
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CGetLayerSynchronizeT.h"
-// Metadata Definition PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey22
-extern TypeInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_il2cpp_TypeInfo;
-// PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey22
+// Metadata Definition PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey24
+extern TypeInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_il2cpp_TypeInfo;
+// PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey24
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CGetLayerSynchronizeTMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey22::.ctor()
-extern const MethodInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22__ctor_m2091_MethodInfo = 
+// System.Void PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey24::.ctor()
+extern const MethodInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24__ctor_m2091_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22__ctor_m2091/* method */
-	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24__ctor_m2091/* method */
+	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -32046,20 +32046,20 @@ extern const MethodInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22__ctor_m2091
 
 };
 extern const Il2CppType SynchronizedLayer_t478_0_0_0;
-static const ParameterInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_U3CU3Em__1D_m2092_ParameterInfos[] = 
+static const ParameterInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_U3CU3Em__1D_m2092_ParameterInfos[] = 
 {
 	{"item", 0, 134219283, 0, &SynchronizedLayer_t478_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey22::<>m__1D(PhotonAnimatorView/SynchronizedLayer)
-extern const MethodInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_U3CU3Em__1D_m2092_MethodInfo = 
+// System.Boolean PhotonAnimatorView/<GetLayerSynchronizeType>c__AnonStorey24::<>m__1D(PhotonAnimatorView/SynchronizedLayer)
+extern const MethodInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_U3CU3Em__1D_m2092_MethodInfo = 
 {
 	"<>m__1D"/* name */
-	, (methodPointerType)&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_U3CU3Em__1D_m2092/* method */
-	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_U3CU3Em__1D_m2092/* method */
+	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_U3CU3Em__1D_m2092_ParameterInfos/* parameters */
+	, U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_U3CU3Em__1D_m2092_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -32073,20 +32073,20 @@ extern const MethodInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_U3CU3Em__1D
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_MethodInfos[] =
+static const MethodInfo* U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_MethodInfos[] =
 {
-	&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22__ctor_m2091_MethodInfo,
-	&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_U3CU3Em__1D_m2092_MethodInfo,
+	&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24__ctor_m2091_MethodInfo,
+	&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_U3CU3Em__1D_m2092_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_VTable[] =
+static const Il2CppMethodReference U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_VTableIsGenericMethod[] =
+static bool U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -32094,37 +32094,37 @@ static bool U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_VTableIsGenericMet
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_0_0_0;
-extern const Il2CppType U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_1_0_0;
-struct U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481;
-const Il2CppTypeDefinitionMetadata U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_DefinitionMetadata = 
+extern const Il2CppType U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_0_0_0;
+extern const Il2CppType U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_1_0_0;
+struct U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481;
+const Il2CppTypeDefinitionMetadata U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_DefinitionMetadata = 
 {
 	&PhotonAnimatorView_t349_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_VTable/* vtableMethods */
-	, U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_VTable/* vtableMethods */
+	, U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 2330/* fieldStart */
 
 };
-TypeInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_il2cpp_TypeInfo = 
+TypeInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<GetLayerSynchronizeType>c__AnonStorey22"/* name */
+	, "<GetLayerSynchronizeType>c__AnonStorey24"/* name */
 	, ""/* namespaze */
-	, U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_MethodInfos/* methods */
+	, U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_il2cpp_TypeInfo/* element_class */
+	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 760/* custom_attributes_cache */
-	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_0_0_0/* byval_arg */
-	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_1_0_0/* this_arg */
-	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_DefinitionMetadata/* definitionMetadata */
+	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_0_0_0/* byval_arg */
+	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_1_0_0/* this_arg */
+	, &U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -32134,8 +32134,8 @@ TypeInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481)/* instance_size */
-	, sizeof (U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481)/* actualSize */
+	, sizeof (U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481)/* instance_size */
+	, sizeof (U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -32164,19 +32164,19 @@ TypeInfo U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey23
+// PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey25
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CGetParameterSynchron.h"
-// Metadata Definition PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey23
-extern TypeInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_il2cpp_TypeInfo;
-// PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey23
+// Metadata Definition PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey25
+extern TypeInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_il2cpp_TypeInfo;
+// PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey25
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CGetParameterSynchronMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey23::.ctor()
-extern const MethodInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23__ctor_m2093_MethodInfo = 
+// System.Void PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey25::.ctor()
+extern const MethodInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25__ctor_m2093_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23__ctor_m2093/* method */
-	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25__ctor_m2093/* method */
+	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -32194,20 +32194,20 @@ extern const MethodInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23__ctor_m
 
 };
 extern const Il2CppType SynchronizedParameter_t477_0_0_0;
-static const ParameterInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_U3CU3Em__1E_m2094_ParameterInfos[] = 
+static const ParameterInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_U3CU3Em__1E_m2094_ParameterInfos[] = 
 {
 	{"item", 0, 134219284, 0, &SynchronizedParameter_t477_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey23::<>m__1E(PhotonAnimatorView/SynchronizedParameter)
-extern const MethodInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_U3CU3Em__1E_m2094_MethodInfo = 
+// System.Boolean PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey25::<>m__1E(PhotonAnimatorView/SynchronizedParameter)
+extern const MethodInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_U3CU3Em__1E_m2094_MethodInfo = 
 {
 	"<>m__1E"/* name */
-	, (methodPointerType)&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_U3CU3Em__1E_m2094/* method */
-	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_U3CU3Em__1E_m2094/* method */
+	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_U3CU3Em__1E_m2094_ParameterInfos/* parameters */
+	, U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_U3CU3Em__1E_m2094_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -32221,20 +32221,20 @@ extern const MethodInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_U3CU3Em
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_MethodInfos[] =
+static const MethodInfo* U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_MethodInfos[] =
 {
-	&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23__ctor_m2093_MethodInfo,
-	&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_U3CU3Em__1E_m2094_MethodInfo,
+	&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25__ctor_m2093_MethodInfo,
+	&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_U3CU3Em__1E_m2094_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_VTable[] =
+static const Il2CppMethodReference U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_VTableIsGenericMethod[] =
+static bool U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -32242,37 +32242,37 @@ static bool U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_VTableIsGeneri
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_0_0_0;
-extern const Il2CppType U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_1_0_0;
-struct U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482;
-const Il2CppTypeDefinitionMetadata U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_DefinitionMetadata = 
+extern const Il2CppType U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_0_0_0;
+extern const Il2CppType U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_1_0_0;
+struct U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482;
+const Il2CppTypeDefinitionMetadata U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_DefinitionMetadata = 
 {
 	&PhotonAnimatorView_t349_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_VTable/* vtableMethods */
-	, U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_VTable/* vtableMethods */
+	, U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 2331/* fieldStart */
 
 };
-TypeInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_il2cpp_TypeInfo = 
+TypeInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<GetParameterSynchronizeType>c__AnonStorey23"/* name */
+	, "<GetParameterSynchronizeType>c__AnonStorey25"/* name */
 	, ""/* namespaze */
-	, U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_MethodInfos/* methods */
+	, U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_il2cpp_TypeInfo/* element_class */
+	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 761/* custom_attributes_cache */
-	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_0_0_0/* byval_arg */
-	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_1_0_0/* this_arg */
-	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_DefinitionMetadata/* definitionMetadata */
+	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_0_0_0/* byval_arg */
+	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_1_0_0/* this_arg */
+	, &U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -32282,8 +32282,8 @@ TypeInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482)/* instance_size */
-	, sizeof (U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482)/* actualSize */
+	, sizeof (U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482)/* instance_size */
+	, sizeof (U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -32312,19 +32312,19 @@ TypeInfo U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey24
+// PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey26
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CSetLayerSynchronized.h"
-// Metadata Definition PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey24
-extern TypeInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_il2cpp_TypeInfo;
-// PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey24
+// Metadata Definition PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey26
+extern TypeInfo U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_il2cpp_TypeInfo;
+// PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey26
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CSetLayerSynchronizedMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey24::.ctor()
-extern const MethodInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24__ctor_m2095_MethodInfo = 
+// System.Void PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey26::.ctor()
+extern const MethodInfo U3CSetLayerSynchronizedU3Ec__AnonStorey26__ctor_m2095_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CSetLayerSynchronizedU3Ec__AnonStorey24__ctor_m2095/* method */
-	, &U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSetLayerSynchronizedU3Ec__AnonStorey26__ctor_m2095/* method */
+	, &U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -32342,20 +32342,20 @@ extern const MethodInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24__ctor_m2095_Me
 
 };
 extern const Il2CppType SynchronizedLayer_t478_0_0_0;
-static const ParameterInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_U3CSetLayerSynchronizedU3Ec__AnonStorey24_U3CU3Em__1F_m2096_ParameterInfos[] = 
+static const ParameterInfo U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_U3CSetLayerSynchronizedU3Ec__AnonStorey26_U3CU3Em__1F_m2096_ParameterInfos[] = 
 {
 	{"item", 0, 134219285, 0, &SynchronizedLayer_t478_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey24::<>m__1F(PhotonAnimatorView/SynchronizedLayer)
-extern const MethodInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24_U3CU3Em__1F_m2096_MethodInfo = 
+// System.Boolean PhotonAnimatorView/<SetLayerSynchronized>c__AnonStorey26::<>m__1F(PhotonAnimatorView/SynchronizedLayer)
+extern const MethodInfo U3CSetLayerSynchronizedU3Ec__AnonStorey26_U3CU3Em__1F_m2096_MethodInfo = 
 {
 	"<>m__1F"/* name */
-	, (methodPointerType)&U3CSetLayerSynchronizedU3Ec__AnonStorey24_U3CU3Em__1F_m2096/* method */
-	, &U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSetLayerSynchronizedU3Ec__AnonStorey26_U3CU3Em__1F_m2096/* method */
+	, &U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_U3CSetLayerSynchronizedU3Ec__AnonStorey24_U3CU3Em__1F_m2096_ParameterInfos/* parameters */
+	, U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_U3CSetLayerSynchronizedU3Ec__AnonStorey26_U3CU3Em__1F_m2096_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -32369,20 +32369,20 @@ extern const MethodInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24_U3CU3Em__1F_m2
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_MethodInfos[] =
+static const MethodInfo* U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_MethodInfos[] =
 {
-	&U3CSetLayerSynchronizedU3Ec__AnonStorey24__ctor_m2095_MethodInfo,
-	&U3CSetLayerSynchronizedU3Ec__AnonStorey24_U3CU3Em__1F_m2096_MethodInfo,
+	&U3CSetLayerSynchronizedU3Ec__AnonStorey26__ctor_m2095_MethodInfo,
+	&U3CSetLayerSynchronizedU3Ec__AnonStorey26_U3CU3Em__1F_m2096_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_VTable[] =
+static const Il2CppMethodReference U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_VTableIsGenericMethod[] =
+static bool U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -32390,37 +32390,37 @@ static bool U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_VTableIsGenericMethod
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_0_0_0;
-extern const Il2CppType U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_1_0_0;
-struct U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483;
-const Il2CppTypeDefinitionMetadata U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_DefinitionMetadata = 
+extern const Il2CppType U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_0_0_0;
+extern const Il2CppType U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_1_0_0;
+struct U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483;
+const Il2CppTypeDefinitionMetadata U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_DefinitionMetadata = 
 {
 	&PhotonAnimatorView_t349_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_VTable/* vtableMethods */
-	, U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_VTable/* vtableMethods */
+	, U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 2332/* fieldStart */
 
 };
-TypeInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_il2cpp_TypeInfo = 
+TypeInfo U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<SetLayerSynchronized>c__AnonStorey24"/* name */
+	, "<SetLayerSynchronized>c__AnonStorey26"/* name */
 	, ""/* namespaze */
-	, U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_MethodInfos/* methods */
+	, U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_il2cpp_TypeInfo/* element_class */
+	, &U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 762/* custom_attributes_cache */
-	, &U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_0_0_0/* byval_arg */
-	, &U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_1_0_0/* this_arg */
-	, &U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_DefinitionMetadata/* definitionMetadata */
+	, &U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_0_0_0/* byval_arg */
+	, &U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_1_0_0/* this_arg */
+	, &U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -32430,8 +32430,8 @@ TypeInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483)/* instance_size */
-	, sizeof (U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483)/* actualSize */
+	, sizeof (U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483)/* instance_size */
+	, sizeof (U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -32460,19 +32460,19 @@ TypeInfo U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey25
+// PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey27
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CSetParameterSynchron.h"
-// Metadata Definition PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey25
-extern TypeInfo U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_il2cpp_TypeInfo;
-// PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey25
+// Metadata Definition PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey27
+extern TypeInfo U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_il2cpp_TypeInfo;
+// PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey27
 #include "AssemblyU2DCSharp_PhotonAnimatorView_U3CSetParameterSynchronMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey25::.ctor()
-extern const MethodInfo U3CSetParameterSynchronizedU3Ec__AnonStorey25__ctor_m2097_MethodInfo = 
+// System.Void PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey27::.ctor()
+extern const MethodInfo U3CSetParameterSynchronizedU3Ec__AnonStorey27__ctor_m2097_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CSetParameterSynchronizedU3Ec__AnonStorey25__ctor_m2097/* method */
-	, &U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSetParameterSynchronizedU3Ec__AnonStorey27__ctor_m2097/* method */
+	, &U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -32490,20 +32490,20 @@ extern const MethodInfo U3CSetParameterSynchronizedU3Ec__AnonStorey25__ctor_m209
 
 };
 extern const Il2CppType SynchronizedParameter_t477_0_0_0;
-static const ParameterInfo U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_U3CSetParameterSynchronizedU3Ec__AnonStorey25_U3CU3Em__20_m2098_ParameterInfos[] = 
+static const ParameterInfo U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_U3CSetParameterSynchronizedU3Ec__AnonStorey27_U3CU3Em__20_m2098_ParameterInfos[] = 
 {
 	{"item", 0, 134219286, 0, &SynchronizedParameter_t477_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey25::<>m__20(PhotonAnimatorView/SynchronizedParameter)
-extern const MethodInfo U3CSetParameterSynchronizedU3Ec__AnonStorey25_U3CU3Em__20_m2098_MethodInfo = 
+// System.Boolean PhotonAnimatorView/<SetParameterSynchronized>c__AnonStorey27::<>m__20(PhotonAnimatorView/SynchronizedParameter)
+extern const MethodInfo U3CSetParameterSynchronizedU3Ec__AnonStorey27_U3CU3Em__20_m2098_MethodInfo = 
 {
 	"<>m__20"/* name */
-	, (methodPointerType)&U3CSetParameterSynchronizedU3Ec__AnonStorey25_U3CU3Em__20_m2098/* method */
-	, &U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSetParameterSynchronizedU3Ec__AnonStorey27_U3CU3Em__20_m2098/* method */
+	, &U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_U3CSetParameterSynchronizedU3Ec__AnonStorey25_U3CU3Em__20_m2098_ParameterInfos/* parameters */
+	, U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_U3CSetParameterSynchronizedU3Ec__AnonStorey27_U3CU3Em__20_m2098_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -32517,20 +32517,20 @@ extern const MethodInfo U3CSetParameterSynchronizedU3Ec__AnonStorey25_U3CU3Em__2
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_MethodInfos[] =
+static const MethodInfo* U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_MethodInfos[] =
 {
-	&U3CSetParameterSynchronizedU3Ec__AnonStorey25__ctor_m2097_MethodInfo,
-	&U3CSetParameterSynchronizedU3Ec__AnonStorey25_U3CU3Em__20_m2098_MethodInfo,
+	&U3CSetParameterSynchronizedU3Ec__AnonStorey27__ctor_m2097_MethodInfo,
+	&U3CSetParameterSynchronizedU3Ec__AnonStorey27_U3CU3Em__20_m2098_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_VTable[] =
+static const Il2CppMethodReference U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_VTableIsGenericMethod[] =
+static bool U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -32538,37 +32538,37 @@ static bool U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_VTableIsGenericMe
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_0_0_0;
-extern const Il2CppType U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_1_0_0;
-struct U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484;
-const Il2CppTypeDefinitionMetadata U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_DefinitionMetadata = 
+extern const Il2CppType U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_0_0_0;
+extern const Il2CppType U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_1_0_0;
+struct U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484;
+const Il2CppTypeDefinitionMetadata U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_DefinitionMetadata = 
 {
 	&PhotonAnimatorView_t349_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_VTable/* vtableMethods */
-	, U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_VTable/* vtableMethods */
+	, U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 2333/* fieldStart */
 
 };
-TypeInfo U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_il2cpp_TypeInfo = 
+TypeInfo U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<SetParameterSynchronized>c__AnonStorey25"/* name */
+	, "<SetParameterSynchronized>c__AnonStorey27"/* name */
 	, ""/* namespaze */
-	, U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_MethodInfos/* methods */
+	, U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_il2cpp_TypeInfo/* element_class */
+	, &U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 763/* custom_attributes_cache */
-	, &U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_0_0_0/* byval_arg */
-	, &U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_1_0_0/* this_arg */
-	, &U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_DefinitionMetadata/* definitionMetadata */
+	, &U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_0_0_0/* byval_arg */
+	, &U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_1_0_0/* this_arg */
+	, &U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -32578,8 +32578,8 @@ TypeInfo U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484)/* instance_size */
-	, sizeof (U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484)/* actualSize */
+	, sizeof (U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484)/* instance_size */
+	, sizeof (U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -33120,19 +33120,19 @@ static const Il2CppType* PhotonAnimatorView_t349_il2cpp_TypeInfo__nestedTypes[10
 	&SynchronizeType_t476_0_0_0,
 	&SynchronizedParameter_t477_0_0_0,
 	&SynchronizedLayer_t478_0_0_0,
-	&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey20_t479_0_0_0,
-	&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey21_t480_0_0_0,
-	&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey22_t481_0_0_0,
-	&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey23_t482_0_0_0,
-	&U3CSetLayerSynchronizedU3Ec__AnonStorey24_t483_0_0_0,
-	&U3CSetParameterSynchronizedU3Ec__AnonStorey25_t484_0_0_0,
+	&U3CDoesLayerSynchronizeTypeExistU3Ec__AnonStorey22_t479_0_0_0,
+	&U3CDoesParameterSynchronizeTypeExistU3Ec__AnonStorey23_t480_0_0_0,
+	&U3CGetLayerSynchronizeTypeU3Ec__AnonStorey24_t481_0_0_0,
+	&U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482_0_0_0,
+	&U3CSetLayerSynchronizedU3Ec__AnonStorey26_t483_0_0_0,
+	&U3CSetParameterSynchronizedU3Ec__AnonStorey27_t484_0_0_0,
 };
 static const Il2CppMethodReference PhotonAnimatorView_t349_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PhotonAnimatorView_t349_VTableIsGenericMethod[] =
 {
@@ -33302,10 +33302,10 @@ static const MethodInfo* PhotonRigidbody2DView_t487_MethodInfos[] =
 };
 static const Il2CppMethodReference PhotonRigidbody2DView_t487_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PhotonRigidbody2DView_t487_VTableIsGenericMethod[] =
 {
@@ -33476,10 +33476,10 @@ static const MethodInfo* PhotonRigidbodyView_t488_MethodInfos[] =
 };
 static const Il2CppMethodReference PhotonRigidbodyView_t488_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PhotonRigidbodyView_t488_VTableIsGenericMethod[] =
 {
@@ -33704,13 +33704,13 @@ extern const MethodInfo PhotonTransformView_UpdateScale_m2128_MethodInfo =
 
 };
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PhotonTransformView_t363_PhotonTransformView_SetSynchronizedValues_m2129_ParameterInfos[] = 
 {
 	{"speed", 0, 134219291, 0, &Vector3_t53_0_0_0},
-	{"turnSpeed", 1, 134219292, 0, &Single_t583_0_0_0},
+	{"turnSpeed", 1, 134219292, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void PhotonTransformView::SetSynchronizedValues(UnityEngine.Vector3,System.Single)
 extern const MethodInfo PhotonTransformView_SetSynchronizedValues_m2129_MethodInfo = 
 {
@@ -33718,7 +33718,7 @@ extern const MethodInfo PhotonTransformView_SetSynchronizedValues_m2129_MethodIn
 	, (methodPointerType)&PhotonTransformView_SetSynchronizedValues_m2129/* method */
 	, &PhotonTransformView_t363_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Vector3_t53_Single_t604/* invoker_method */
 	, PhotonTransformView_t363_PhotonTransformView_SetSynchronizedValues_m2129_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -33802,10 +33802,10 @@ static const MethodInfo* PhotonTransformView_t363_MethodInfos[] =
 extern const MethodInfo PhotonTransformView_OnPhotonSerializeView_m2130_MethodInfo;
 static const Il2CppMethodReference PhotonTransformView_t363_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&PhotonTransformView_OnPhotonSerializeView_m2130_MethodInfo,
 };
 static bool PhotonTransformView_t363_VTableIsGenericMethod[] =
@@ -33818,11 +33818,11 @@ static bool PhotonTransformView_t363_VTableIsGenericMethod[] =
 };
 static const Il2CppType* PhotonTransformView_t363_InterfacesTypeInfos[] = 
 {
-	&IPunObservable_t716_0_0_0,
+	&IPunObservable_t742_0_0_0,
 };
 static Il2CppInterfaceOffsetPair PhotonTransformView_t363_InterfacesOffsets[] = 
 {
-	{ &IPunObservable_t716_0_0_0, 4},
+	{ &IPunObservable_t742_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType PhotonTransformView_t363_0_0_0;

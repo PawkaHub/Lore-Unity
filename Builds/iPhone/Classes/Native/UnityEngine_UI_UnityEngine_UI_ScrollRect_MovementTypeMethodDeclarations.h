@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.ScrollRect/MovementType
-struct MovementType_t2070;
+struct MovementType_t890;
 

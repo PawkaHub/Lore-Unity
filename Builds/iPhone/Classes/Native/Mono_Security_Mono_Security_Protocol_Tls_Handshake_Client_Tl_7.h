@@ -3,13 +3,13 @@
 // System.Byte[]
 struct ByteU5BU5D_t25;
 // Mono.Security.Protocol.Tls.CipherSuite
-struct CipherSuite_t1248;
+struct CipherSuite_t4360;
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake_0.h"
 // Mono.Security.Protocol.Tls.SecurityCompressionType
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityCompression.h"
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello
-struct  TlsServerHello_t1305  : public HandshakeMessage_t1273
+struct  TlsServerHello_t4401  : public HandshakeMessage_t4377
 {
 	// Mono.Security.Protocol.Tls.SecurityCompressionType Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::compressionMethod
 	int32_t ___compressionMethod_9;
@@ -18,5 +18,5 @@ struct  TlsServerHello_t1305  : public HandshakeMessage_t1273
 	// System.Byte[] Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::sessionId
 	ByteU5BU5D_t25* ___sessionId_11;
 	// Mono.Security.Protocol.Tls.CipherSuite Mono.Security.Protocol.Tls.Handshake.Client.TlsServerHello::cipherSuite
-	CipherSuite_t1248 * ___cipherSuite_12;
+	CipherSuite_t4360 * ___cipherSuite_12;
 };

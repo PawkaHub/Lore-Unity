@@ -4,10 +4,14 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Func`2<System.Object,System.Single>
-struct Func_2_t5952;
+// System.Func`2<System.Threading.Tasks.Task`1<System.Object>,System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>
+struct Func_2_t1883;
 // System.Object
 struct Object_t;
+// System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>
+struct Task_1_t1703;
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t1723;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -15,15 +19,13 @@ struct AsyncCallback_t449;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Func`2<System.Object,System.Single>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m38773_gshared (Func_2_t5952 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m38773(__this, ___object, ___method, method) (( void (*) (Func_2_t5952 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m38773_gshared)(__this, ___object, ___method, method)
-// TResult System.Func`2<System.Object,System.Single>::Invoke(T)
-extern "C" float Func_2_Invoke_m38775_gshared (Func_2_t5952 * __this, Object_t * ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m38775(__this, ___arg1, method) (( float (*) (Func_2_t5952 *, Object_t *, const MethodInfo*))Func_2_Invoke_m38775_gshared)(__this, ___arg1, method)
-// System.IAsyncResult System.Func`2<System.Object,System.Single>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m38777_gshared (Func_2_t5952 * __this, Object_t * ___arg1, AsyncCallback_t449 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m38777(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t5952 *, Object_t *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m38777_gshared)(__this, ___arg1, ___callback, ___object, method)
-// TResult System.Func`2<System.Object,System.Single>::EndInvoke(System.IAsyncResult)
-extern "C" float Func_2_EndInvoke_m38779_gshared (Func_2_t5952 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m38779(__this, ___result, method) (( float (*) (Func_2_t5952 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m38779_gshared)(__this, ___result, method)
+// System.Void System.Func`2<System.Threading.Tasks.Task`1<System.Object>,System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>::.ctor(System.Object,System.IntPtr)
+// System.Func`2<System.Object,System.Object>
+#include "System_Core_System_Func_2_gen_17MethodDeclarations.h"
+#define Func_2__ctor_m8927(__this, ___object, ___method, method) (( void (*) (Func_2_t1883 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m8621_gshared)(__this, ___object, ___method, method)
+// TResult System.Func`2<System.Threading.Tasks.Task`1<System.Object>,System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>::Invoke(T)
+#define Func_2_Invoke_m65222(__this, ___arg1, method) (( Task_1_t1703 * (*) (Func_2_t1883 *, Task_1_t1723 *, const MethodInfo*))Func_2_Invoke_m36381_gshared)(__this, ___arg1, method)
+// System.IAsyncResult System.Func`2<System.Threading.Tasks.Task`1<System.Object>,System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Func_2_BeginInvoke_m65223(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1883 *, Task_1_t1723 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m36382_gshared)(__this, ___arg1, ___callback, ___object, method)
+// TResult System.Func`2<System.Threading.Tasks.Task`1<System.Object>,System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>::EndInvoke(System.IAsyncResult)
+#define Func_2_EndInvoke_m65224(__this, ___result, method) (( Task_1_t1703 * (*) (Func_2_t1883 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m36383_gshared)(__this, ___result, method)

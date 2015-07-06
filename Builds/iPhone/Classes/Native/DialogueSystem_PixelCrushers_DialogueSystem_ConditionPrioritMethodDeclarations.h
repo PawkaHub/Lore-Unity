@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.ConditionPriority
-struct ConditionPriority_t788;
+struct ConditionPriority_t1113;
 

@@ -5,7 +5,7 @@ struct Int32U5BU5D_t119;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Queue`1<System.Int32>
-struct  Queue_1_t3138  : public Object_t
+struct  Queue_1_t4865  : public Object_t
 {
 	// T[] System.Collections.Generic.Queue`1<System.Int32>::_array
 	Int32U5BU5D_t119* ____array_0;

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Security.Policy.StrongName
-struct StrongName_t4221;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
 struct AsyncCallback_t449;
 // System.Object
 struct Object_t;
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_72.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Security.Policy.StrongName>
-struct  Predicate_1_t6398  : public MulticastDelegate_t451
+// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>>
+struct  Predicate_1_t8482  : public MulticastDelegate_t451
 {
 };

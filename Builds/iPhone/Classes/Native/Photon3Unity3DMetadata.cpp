@@ -14,89 +14,89 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t3114_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t4842_il2cpp_TypeInfo;
 // <Module>
 #include "Photon3Unity3D_U3CModuleU3E.h"
 extern TypeInfo Hashtable_t436_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.Hashtable
 #include "Photon3Unity3D_ExitGames_Client_Photon_Hashtable.h"
-extern TypeInfo DictionaryEntryEnumerator_t3116_il2cpp_TypeInfo;
+extern TypeInfo DictionaryEntryEnumerator_t4843_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.DictionaryEntryEnumerator
 #include "Photon3Unity3D_ExitGames_Client_Photon_DictionaryEntryEnumer.h"
-extern TypeInfo BigInteger_t3117_il2cpp_TypeInfo;
+extern TypeInfo BigInteger_t4844_il2cpp_TypeInfo;
 // Photon.SocketServer.Numeric.BigInteger
 #include "Photon3Unity3D_Photon_SocketServer_Numeric_BigInteger.h"
-extern TypeInfo DiffieHellmanCryptoProvider_t3118_il2cpp_TypeInfo;
+extern TypeInfo DiffieHellmanCryptoProvider_t4845_il2cpp_TypeInfo;
 // Photon.SocketServer.Security.DiffieHellmanCryptoProvider
 #include "Photon3Unity3D_Photon_SocketServer_Security_DiffieHellmanCry.h"
-extern TypeInfo EnetChannel_t3121_il2cpp_TypeInfo;
+extern TypeInfo EnetChannel_t4848_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.EnetChannel
 #include "Photon3Unity3D_ExitGames_Client_Photon_EnetChannel.h"
-extern TypeInfo MyAction_t3122_il2cpp_TypeInfo;
+extern TypeInfo MyAction_t4849_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PeerBase/MyAction
 #include "Photon3Unity3D_ExitGames_Client_Photon_PeerBase_MyAction.h"
-extern TypeInfo ConnectionStateValue_t3123_il2cpp_TypeInfo;
+extern TypeInfo ConnectionStateValue_t4850_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PeerBase/ConnectionStateValue
 #include "Photon3Unity3D_ExitGames_Client_Photon_PeerBase_ConnectionSt.h"
-extern TypeInfo EgMessageType_t3124_il2cpp_TypeInfo;
+extern TypeInfo EgMessageType_t4851_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PeerBase/EgMessageType
 #include "Photon3Unity3D_ExitGames_Client_Photon_PeerBase_EgMessageTyp.h"
-extern TypeInfo U3CU3Ec__DisplayClass2_t3126_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClass2_t4853_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PeerBase/<>c__DisplayClass2
 #include "Photon3Unity3D_ExitGames_Client_Photon_PeerBase_U3CU3Ec__Dis.h"
-extern TypeInfo U3CU3Ec__DisplayClass6_t3127_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClass6_t4854_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PeerBase/<>c__DisplayClass6
 #include "Photon3Unity3D_ExitGames_Client_Photon_PeerBase_U3CU3Ec__Dis_0.h"
-extern TypeInfo PeerBase_t3125_il2cpp_TypeInfo;
+extern TypeInfo PeerBase_t4852_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PeerBase
 #include "Photon3Unity3D_ExitGames_Client_Photon_PeerBase.h"
-extern TypeInfo U3CU3Ec__DisplayClassb_t3133_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClassb_t4860_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.EnetPeer/<>c__DisplayClassb
 #include "Photon3Unity3D_ExitGames_Client_Photon_EnetPeer_U3CU3Ec__Dis.h"
-extern TypeInfo U3CU3Ec__DisplayClassd_t3134_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClassd_t4861_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.EnetPeer/<>c__DisplayClassd
 #include "Photon3Unity3D_ExitGames_Client_Photon_EnetPeer_U3CU3Ec__Dis_0.h"
-extern TypeInfo U3CU3Ec__DisplayClass11_t3135_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClass11_t4862_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.EnetPeer/<>c__DisplayClass11
 #include "Photon3Unity3D_ExitGames_Client_Photon_EnetPeer_U3CU3Ec__Dis_1.h"
-extern TypeInfo EnetPeer_t3132_il2cpp_TypeInfo;
+extern TypeInfo EnetPeer_t4859_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.EnetPeer
 #include "Photon3Unity3D_ExitGames_Client_Photon_EnetPeer.h"
 extern TypeInfo StatusCode_t39_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.StatusCode
 #include "Photon3Unity3D_ExitGames_Client_Photon_StatusCode.h"
 extern TypeInfo IPhotonPeerListener_t24_il2cpp_TypeInfo;
-extern TypeInfo PhotonSocketState_t3139_il2cpp_TypeInfo;
+extern TypeInfo PhotonSocketState_t4866_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PhotonSocketState
 #include "Photon3Unity3D_ExitGames_Client_Photon_PhotonSocketState.h"
-extern TypeInfo PhotonSocketError_t3140_il2cpp_TypeInfo;
+extern TypeInfo PhotonSocketError_t4867_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PhotonSocketError
 #include "Photon3Unity3D_ExitGames_Client_Photon_PhotonSocketError.h"
-extern TypeInfo U3CU3Ec__DisplayClass3_t3141_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClass3_t4868_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.IPhotonSocket/<>c__DisplayClass3
 #include "Photon3Unity3D_ExitGames_Client_Photon_IPhotonSocket_U3CU3Ec.h"
-extern TypeInfo U3CU3Ec__DisplayClass5_t3142_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClass5_t4869_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.IPhotonSocket/<>c__DisplayClass5
 #include "Photon3Unity3D_ExitGames_Client_Photon_IPhotonSocket_U3CU3Ec_0.h"
-extern TypeInfo IPhotonSocket_t3128_il2cpp_TypeInfo;
+extern TypeInfo IPhotonSocket_t4855_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.IPhotonSocket
 #include "Photon3Unity3D_ExitGames_Client_Photon_IPhotonSocket.h"
-extern TypeInfo NCommand_t3129_il2cpp_TypeInfo;
+extern TypeInfo NCommand_t4856_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.NCommand
 #include "Photon3Unity3D_ExitGames_Client_Photon_NCommand.h"
-extern TypeInfo SimulationItem_t3143_il2cpp_TypeInfo;
+extern TypeInfo SimulationItem_t4870_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.SimulationItem
 #include "Photon3Unity3D_ExitGames_Client_Photon_SimulationItem.h"
-extern TypeInfo NetworkSimulationSet_t686_il2cpp_TypeInfo;
+extern TypeInfo NetworkSimulationSet_t703_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.NetworkSimulationSet
 #include "Photon3Unity3D_ExitGames_Client_Photon_NetworkSimulationSet.h"
-extern TypeInfo OakleyGroups_t3144_il2cpp_TypeInfo;
+extern TypeInfo OakleyGroups_t4871_il2cpp_TypeInfo;
 // Photon.SocketServer.Security.OakleyGroups
 #include "Photon3Unity3D_Photon_SocketServer_Security_OakleyGroups.h"
-extern TypeInfo PhotonCodes_t3145_il2cpp_TypeInfo;
+extern TypeInfo PhotonCodes_t4872_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PhotonCodes
 #include "Photon3Unity3D_ExitGames_Client_Photon_PhotonCodes.h"
-extern TypeInfo PeerStateValue_t688_il2cpp_TypeInfo;
+extern TypeInfo PeerStateValue_t705_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PeerStateValue
 #include "Photon3Unity3D_ExitGames_Client_Photon_PeerStateValue.h"
 extern TypeInfo ConnectionProtocol_t37_il2cpp_TypeInfo;
@@ -111,16 +111,13 @@ extern TypeInfo PhotonPeer_t14_il2cpp_TypeInfo;
 extern TypeInfo PhotonPing_t466_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PhotonPing
 #include "Photon3Unity3D_ExitGames_Client_Photon_PhotonPing.h"
-extern TypeInfo PingMono_t664_il2cpp_TypeInfo;
+extern TypeInfo PingMono_t681_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PingMono
 #include "Photon3Unity3D_ExitGames_Client_Photon_PingMono.h"
-extern TypeInfo PingNativeDynamic_t693_il2cpp_TypeInfo;
+extern TypeInfo PingNativeDynamic_t710_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.PingNativeDynamic
 #include "Photon3Unity3D_ExitGames_Client_Photon_PingNativeDynamic.h"
-extern TypeInfo PingNativeStatic_t663_il2cpp_TypeInfo;
-// ExitGames.Client.Photon.PingNativeStatic
-#include "Photon3Unity3D_ExitGames_Client_Photon_PingNativeStatic.h"
-extern TypeInfo OperationRequest_t3146_il2cpp_TypeInfo;
+extern TypeInfo OperationRequest_t4873_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.OperationRequest
 #include "Photon3Unity3D_ExitGames_Client_Photon_OperationRequest.h"
 extern TypeInfo OperationResponse_t23_il2cpp_TypeInfo;
@@ -129,134 +126,145 @@ extern TypeInfo OperationResponse_t23_il2cpp_TypeInfo;
 extern TypeInfo EventData_t22_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.EventData
 #include "Photon3Unity3D_ExitGames_Client_Photon_EventData.h"
-extern TypeInfo GpType_t3147_il2cpp_TypeInfo;
+extern TypeInfo GpType_t4874_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.GpType
 #include "Photon3Unity3D_ExitGames_Client_Photon_GpType.h"
-extern TypeInfo SerializeMethod_t3148_il2cpp_TypeInfo;
+extern TypeInfo SerializeMethod_t4875_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.SerializeMethod
 #include "Photon3Unity3D_ExitGames_Client_Photon_SerializeMethod.h"
-extern TypeInfo SerializeStreamMethod_t655_il2cpp_TypeInfo;
+extern TypeInfo SerializeStreamMethod_t674_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.SerializeStreamMethod
 #include "Photon3Unity3D_ExitGames_Client_Photon_SerializeStreamMethod.h"
-extern TypeInfo DeserializeMethod_t3149_il2cpp_TypeInfo;
+extern TypeInfo DeserializeMethod_t4876_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.DeserializeMethod
 #include "Photon3Unity3D_ExitGames_Client_Photon_DeserializeMethod.h"
-extern TypeInfo DeserializeStreamMethod_t656_il2cpp_TypeInfo;
+extern TypeInfo DeserializeStreamMethod_t675_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.DeserializeStreamMethod
 #include "Photon3Unity3D_ExitGames_Client_Photon_DeserializeStreamMeth.h"
-extern TypeInfo CustomType_t3150_il2cpp_TypeInfo;
+extern TypeInfo CustomType_t4877_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.CustomType
 #include "Photon3Unity3D_ExitGames_Client_Photon_CustomType.h"
-extern TypeInfo Protocol_t657_il2cpp_TypeInfo;
+extern TypeInfo Protocol_t676_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.Protocol
 #include "Photon3Unity3D_ExitGames_Client_Photon_Protocol.h"
-extern TypeInfo SocketUdpNativeDynamic_t3154_il2cpp_TypeInfo;
-// ExitGames.Client.Photon.SocketUdpNativeDynamic
-#include "Photon3Unity3D_ExitGames_Client_Photon_SocketUdpNativeDynami.h"
-extern TypeInfo SocketUdpNativeStatic_t662_il2cpp_TypeInfo;
-// ExitGames.Client.Photon.SocketUdpNativeStatic
-#include "Photon3Unity3D_ExitGames_Client_Photon_SocketUdpNativeStatic.h"
-extern TypeInfo IntegerMillisecondsDelegate_t3155_il2cpp_TypeInfo;
+extern TypeInfo SocketTcp_t4881_il2cpp_TypeInfo;
+// ExitGames.Client.Photon.SocketTcp
+#include "Photon3Unity3D_ExitGames_Client_Photon_SocketTcp.h"
+extern TypeInfo SocketUdp_t4882_il2cpp_TypeInfo;
+// ExitGames.Client.Photon.SocketUdp
+#include "Photon3Unity3D_ExitGames_Client_Photon_SocketUdp.h"
+extern TypeInfo IntegerMillisecondsDelegate_t4883_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.SupportClass/IntegerMillisecondsDelegate
 #include "Photon3Unity3D_ExitGames_Client_Photon_SupportClass_IntegerM.h"
-extern TypeInfo ThreadSafeRandom_t3156_il2cpp_TypeInfo;
+extern TypeInfo ThreadSafeRandom_t4884_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.SupportClass/ThreadSafeRandom
 #include "Photon3Unity3D_ExitGames_Client_Photon_SupportClass_ThreadSa.h"
-extern TypeInfo U3CU3Ec__DisplayClass1_t3157_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClass1_t4885_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.SupportClass/<>c__DisplayClass1
 #include "Photon3Unity3D_ExitGames_Client_Photon_SupportClass_U3CU3Ec_.h"
-extern TypeInfo SupportClass_t659_il2cpp_TypeInfo;
+extern TypeInfo SupportClass_t678_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.SupportClass
 #include "Photon3Unity3D_ExitGames_Client_Photon_SupportClass.h"
-extern TypeInfo TrafficStatsGameLevel_t690_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__DisplayClass3_t4887_il2cpp_TypeInfo;
+// ExitGames.Client.Photon.TPeer/<>c__DisplayClass3
+#include "Photon3Unity3D_ExitGames_Client_Photon_TPeer_U3CU3Ec__Displa.h"
+extern TypeInfo TPeer_t4886_il2cpp_TypeInfo;
+// ExitGames.Client.Photon.TPeer
+#include "Photon3Unity3D_ExitGames_Client_Photon_TPeer.h"
+extern TypeInfo TrafficStatsGameLevel_t707_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.TrafficStatsGameLevel
 #include "Photon3Unity3D_ExitGames_Client_Photon_TrafficStatsGameLevel.h"
-extern TypeInfo TrafficStats_t692_il2cpp_TypeInfo;
+extern TypeInfo TrafficStats_t709_il2cpp_TypeInfo;
 // ExitGames.Client.Photon.TrafficStats
 #include "Photon3Unity3D_ExitGames_Client_Photon_TrafficStats.h"
-extern TypeInfo __StaticArrayInitTypeSizeU3D1212_t3158_il2cpp_TypeInfo;
-// <PrivateImplementationDetails>{07154D4F-DC8E-46FA-BBC6-F22AE86D94CA}/__StaticArrayInitTypeSize=1212
-#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7B07154D4F.h"
-extern TypeInfo __StaticArrayInitTypeSizeU3D96_t3159_il2cpp_TypeInfo;
-// <PrivateImplementationDetails>{07154D4F-DC8E-46FA-BBC6-F22AE86D94CA}/__StaticArrayInitTypeSize=96
-#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7B07154D4F_0.h"
-extern TypeInfo __StaticArrayInitTypeSizeU3D128_t3160_il2cpp_TypeInfo;
-// <PrivateImplementationDetails>{07154D4F-DC8E-46FA-BBC6-F22AE86D94CA}/__StaticArrayInitTypeSize=128
-#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7B07154D4F_1.h"
-extern TypeInfo __StaticArrayInitTypeSizeU3D192_t3161_il2cpp_TypeInfo;
-// <PrivateImplementationDetails>{07154D4F-DC8E-46FA-BBC6-F22AE86D94CA}/__StaticArrayInitTypeSize=192
-#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7B07154D4F_2.h"
-extern TypeInfo __StaticArrayInitTypeSizeU3D13_t3162_il2cpp_TypeInfo;
-// <PrivateImplementationDetails>{07154D4F-DC8E-46FA-BBC6-F22AE86D94CA}/__StaticArrayInitTypeSize=13
-#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7B07154D4F_3.h"
-extern TypeInfo U3CPrivateImplementationDetailsU3EU7B07154D4FU2DDC8EU2D46FAU2DBBC6U2DF22AE86D94CAU7D_t3163_il2cpp_TypeInfo;
-// <PrivateImplementationDetails>{07154D4F-DC8E-46FA-BBC6-F22AE86D94CA}
-#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7B07154D4F_4.h"
+extern TypeInfo __StaticArrayInitTypeSizeU3D1212_t4889_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>{FD8D965D-3FBB-4B9B-BB9C-5E659CC66C0E}/__StaticArrayInitTypeSize=1212
+#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7BFD8D965D.h"
+extern TypeInfo __StaticArrayInitTypeSizeU3D96_t4890_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>{FD8D965D-3FBB-4B9B-BB9C-5E659CC66C0E}/__StaticArrayInitTypeSize=96
+#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7BFD8D965D_0.h"
+extern TypeInfo __StaticArrayInitTypeSizeU3D128_t4891_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>{FD8D965D-3FBB-4B9B-BB9C-5E659CC66C0E}/__StaticArrayInitTypeSize=128
+#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7BFD8D965D_1.h"
+extern TypeInfo __StaticArrayInitTypeSizeU3D192_t4892_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>{FD8D965D-3FBB-4B9B-BB9C-5E659CC66C0E}/__StaticArrayInitTypeSize=192
+#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7BFD8D965D_2.h"
+extern TypeInfo __StaticArrayInitTypeSizeU3D13_t4893_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>{FD8D965D-3FBB-4B9B-BB9C-5E659CC66C0E}/__StaticArrayInitTypeSize=13
+#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7BFD8D965D_3.h"
+extern TypeInfo __StaticArrayInitTypeSizeU3D9_t4894_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>{FD8D965D-3FBB-4B9B-BB9C-5E659CC66C0E}/__StaticArrayInitTypeSize=9
+#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7BFD8D965D_4.h"
+extern TypeInfo U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t4895_il2cpp_TypeInfo;
+// <PrivateImplementationDetails>{FD8D965D-3FBB-4B9B-BB9C-5E659CC66C0E}
+#include "Photon3Unity3D_U3CPrivateImplementationDetailsU3EU7BFD8D965D_5.h"
 #include <map>
 struct TypeInfo;
 struct MethodInfo;
-TypeInfo* g_Photon3Unity3D_Assembly_Types[61] = 
+TypeInfo* g_Photon3Unity3D_Assembly_Types[63] = 
 {
-	&U3CModuleU3E_t3114_il2cpp_TypeInfo,
+	&U3CModuleU3E_t4842_il2cpp_TypeInfo,
 	&Hashtable_t436_il2cpp_TypeInfo,
-	&DictionaryEntryEnumerator_t3116_il2cpp_TypeInfo,
-	&BigInteger_t3117_il2cpp_TypeInfo,
-	&DiffieHellmanCryptoProvider_t3118_il2cpp_TypeInfo,
-	&EnetChannel_t3121_il2cpp_TypeInfo,
-	&MyAction_t3122_il2cpp_TypeInfo,
-	&ConnectionStateValue_t3123_il2cpp_TypeInfo,
-	&EgMessageType_t3124_il2cpp_TypeInfo,
-	&U3CU3Ec__DisplayClass2_t3126_il2cpp_TypeInfo,
-	&U3CU3Ec__DisplayClass6_t3127_il2cpp_TypeInfo,
-	&PeerBase_t3125_il2cpp_TypeInfo,
-	&U3CU3Ec__DisplayClassb_t3133_il2cpp_TypeInfo,
-	&U3CU3Ec__DisplayClassd_t3134_il2cpp_TypeInfo,
-	&U3CU3Ec__DisplayClass11_t3135_il2cpp_TypeInfo,
-	&EnetPeer_t3132_il2cpp_TypeInfo,
+	&DictionaryEntryEnumerator_t4843_il2cpp_TypeInfo,
+	&BigInteger_t4844_il2cpp_TypeInfo,
+	&DiffieHellmanCryptoProvider_t4845_il2cpp_TypeInfo,
+	&EnetChannel_t4848_il2cpp_TypeInfo,
+	&MyAction_t4849_il2cpp_TypeInfo,
+	&ConnectionStateValue_t4850_il2cpp_TypeInfo,
+	&EgMessageType_t4851_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClass2_t4853_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClass6_t4854_il2cpp_TypeInfo,
+	&PeerBase_t4852_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClassb_t4860_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClassd_t4861_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClass11_t4862_il2cpp_TypeInfo,
+	&EnetPeer_t4859_il2cpp_TypeInfo,
 	&StatusCode_t39_il2cpp_TypeInfo,
 	&IPhotonPeerListener_t24_il2cpp_TypeInfo,
-	&PhotonSocketState_t3139_il2cpp_TypeInfo,
-	&PhotonSocketError_t3140_il2cpp_TypeInfo,
-	&U3CU3Ec__DisplayClass3_t3141_il2cpp_TypeInfo,
-	&U3CU3Ec__DisplayClass5_t3142_il2cpp_TypeInfo,
-	&IPhotonSocket_t3128_il2cpp_TypeInfo,
-	&NCommand_t3129_il2cpp_TypeInfo,
-	&SimulationItem_t3143_il2cpp_TypeInfo,
-	&NetworkSimulationSet_t686_il2cpp_TypeInfo,
-	&OakleyGroups_t3144_il2cpp_TypeInfo,
-	&PhotonCodes_t3145_il2cpp_TypeInfo,
-	&PeerStateValue_t688_il2cpp_TypeInfo,
+	&PhotonSocketState_t4866_il2cpp_TypeInfo,
+	&PhotonSocketError_t4867_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClass3_t4868_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClass5_t4869_il2cpp_TypeInfo,
+	&IPhotonSocket_t4855_il2cpp_TypeInfo,
+	&NCommand_t4856_il2cpp_TypeInfo,
+	&SimulationItem_t4870_il2cpp_TypeInfo,
+	&NetworkSimulationSet_t703_il2cpp_TypeInfo,
+	&OakleyGroups_t4871_il2cpp_TypeInfo,
+	&PhotonCodes_t4872_il2cpp_TypeInfo,
+	&PeerStateValue_t705_il2cpp_TypeInfo,
 	&ConnectionProtocol_t37_il2cpp_TypeInfo,
 	&DebugLevel_t38_il2cpp_TypeInfo,
 	&PhotonPeer_t14_il2cpp_TypeInfo,
 	&PhotonPing_t466_il2cpp_TypeInfo,
-	&PingMono_t664_il2cpp_TypeInfo,
-	&PingNativeDynamic_t693_il2cpp_TypeInfo,
-	&PingNativeStatic_t663_il2cpp_TypeInfo,
-	&OperationRequest_t3146_il2cpp_TypeInfo,
+	&PingMono_t681_il2cpp_TypeInfo,
+	&PingNativeDynamic_t710_il2cpp_TypeInfo,
+	&OperationRequest_t4873_il2cpp_TypeInfo,
 	&OperationResponse_t23_il2cpp_TypeInfo,
 	&EventData_t22_il2cpp_TypeInfo,
-	&GpType_t3147_il2cpp_TypeInfo,
-	&SerializeMethod_t3148_il2cpp_TypeInfo,
-	&SerializeStreamMethod_t655_il2cpp_TypeInfo,
-	&DeserializeMethod_t3149_il2cpp_TypeInfo,
-	&DeserializeStreamMethod_t656_il2cpp_TypeInfo,
-	&CustomType_t3150_il2cpp_TypeInfo,
-	&Protocol_t657_il2cpp_TypeInfo,
-	&SocketUdpNativeDynamic_t3154_il2cpp_TypeInfo,
-	&SocketUdpNativeStatic_t662_il2cpp_TypeInfo,
-	&IntegerMillisecondsDelegate_t3155_il2cpp_TypeInfo,
-	&ThreadSafeRandom_t3156_il2cpp_TypeInfo,
-	&U3CU3Ec__DisplayClass1_t3157_il2cpp_TypeInfo,
-	&SupportClass_t659_il2cpp_TypeInfo,
-	&TrafficStatsGameLevel_t690_il2cpp_TypeInfo,
-	&TrafficStats_t692_il2cpp_TypeInfo,
-	&__StaticArrayInitTypeSizeU3D1212_t3158_il2cpp_TypeInfo,
-	&__StaticArrayInitTypeSizeU3D96_t3159_il2cpp_TypeInfo,
-	&__StaticArrayInitTypeSizeU3D128_t3160_il2cpp_TypeInfo,
-	&__StaticArrayInitTypeSizeU3D192_t3161_il2cpp_TypeInfo,
-	&__StaticArrayInitTypeSizeU3D13_t3162_il2cpp_TypeInfo,
-	&U3CPrivateImplementationDetailsU3EU7B07154D4FU2DDC8EU2D46FAU2DBBC6U2DF22AE86D94CAU7D_t3163_il2cpp_TypeInfo,
+	&GpType_t4874_il2cpp_TypeInfo,
+	&SerializeMethod_t4875_il2cpp_TypeInfo,
+	&SerializeStreamMethod_t674_il2cpp_TypeInfo,
+	&DeserializeMethod_t4876_il2cpp_TypeInfo,
+	&DeserializeStreamMethod_t675_il2cpp_TypeInfo,
+	&CustomType_t4877_il2cpp_TypeInfo,
+	&Protocol_t676_il2cpp_TypeInfo,
+	&SocketTcp_t4881_il2cpp_TypeInfo,
+	&SocketUdp_t4882_il2cpp_TypeInfo,
+	&IntegerMillisecondsDelegate_t4883_il2cpp_TypeInfo,
+	&ThreadSafeRandom_t4884_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClass1_t4885_il2cpp_TypeInfo,
+	&SupportClass_t678_il2cpp_TypeInfo,
+	&U3CU3Ec__DisplayClass3_t4887_il2cpp_TypeInfo,
+	&TPeer_t4886_il2cpp_TypeInfo,
+	&TrafficStatsGameLevel_t707_il2cpp_TypeInfo,
+	&TrafficStats_t709_il2cpp_TypeInfo,
+	&__StaticArrayInitTypeSizeU3D1212_t4889_il2cpp_TypeInfo,
+	&__StaticArrayInitTypeSizeU3D96_t4890_il2cpp_TypeInfo,
+	&__StaticArrayInitTypeSizeU3D128_t4891_il2cpp_TypeInfo,
+	&__StaticArrayInitTypeSizeU3D192_t4892_il2cpp_TypeInfo,
+	&__StaticArrayInitTypeSizeU3D13_t4893_il2cpp_TypeInfo,
+	&__StaticArrayInitTypeSizeU3D9_t4894_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t4895_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_Photon3Unity3D_dll_Image;
@@ -266,8 +274,8 @@ Il2CppAssembly g_Photon3Unity3D_Assembly =
 	&g_Photon3Unity3D_dll_Image,
 	1,
 };
-extern const CustomAttributesCacheGenerator g_Photon3Unity3D_Assembly_AttributeGenerators[137];
-static const char* s_StringTable[337] = 
+extern const CustomAttributesCacheGenerator g_Photon3Unity3D_Assembly_AttributeGenerators[138];
+static const char* s_StringTable[345] = 
 {
 	"enumerator",
 	"maxLength",
@@ -521,7 +529,7 @@ static const char* s_StringTable[337] =
 	"PingLength",
 	"PingBytes",
 	"PingId",
-	"pConnectionHandler",
+	"sock",
 	"OperationCode",
 	"Parameters",
 	"ReturnCode",
@@ -572,6 +580,13 @@ static const char* s_StringTable[337] =
 	"millisecondsInterval",
 	"IntegerMilliseconds",
 	"CS$<>9__CachedAnonymousMethodDelegate4",
+	"incomingList",
+	"outgoingStream",
+	"lastPingResult",
+	"pingRequest",
+	"tcpFramedMessageHead",
+	"tcpMsgHead",
+	"DoFraming",
 	"timeOfLastDispatchCall",
 	"timeOfLastSendCall",
 	"<OperationByteCount>k__BackingField",
@@ -601,395 +616,406 @@ static const char* s_StringTable[337] =
 	"<ControlCommandBytes>k__BackingField",
 	"<TimestampOfLastAck>k__BackingField",
 	"<TimestampOfLastReliableCommand>k__BackingField",
-	"$$method0x6000237-1",
-	"$$method0x600024a-1",
-	"$$method0x600024a-2",
-	"$$method0x600024a-3",
-	"$$method0x600014f-1",
+	"$$method0x6000251-1",
+	"$$method0x6000264-1",
+	"$$method0x6000264-2",
+	"$$method0x6000264-3",
+	"$$method0x6000159-1",
+	"$$method0x600026e-1",
 };
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-static const Il2CppFieldDefinition s_FieldTable[371] = 
+static const Il2CppFieldDefinition s_FieldTable[381] = 
 {
-	{ 0, 6707, offsetof(DictionaryEntryEnumerator_t3116, ___enumerator_0), 0 } ,
-	{ 1, 1555, 0, 0 } ,
-	{ 2, 6709, offsetof(BigInteger_t3117_StaticFields, ___primesBelow2000_1), 0 } ,
-	{ 3, 2767, offsetof(BigInteger_t3117, ___data_2), 0 } ,
-	{ 4, 536, offsetof(BigInteger_t3117, ___dataLength_3), 0 } ,
-	{ 5, 6711, offsetof(DiffieHellmanCryptoProvider_t3118_StaticFields, ___primeRoot_0), 0 } ,
-	{ 6, 6712, offsetof(DiffieHellmanCryptoProvider_t3118, ___prime_1), 0 } ,
-	{ 7, 6712, offsetof(DiffieHellmanCryptoProvider_t3118, ___secret_2), 0 } ,
-	{ 8, 6712, offsetof(DiffieHellmanCryptoProvider_t3118, ___publicKey_3), 0 } ,
-	{ 9, 6713, offsetof(DiffieHellmanCryptoProvider_t3118, ___crypto_4), 0 } ,
-	{ 10, 2781, offsetof(DiffieHellmanCryptoProvider_t3118, ___sharedKey_5), 0 } ,
-	{ 11, 6715, offsetof(EnetChannel_t3121, ___ChannelNumber_0), 0 } ,
-	{ 12, 6716, offsetof(EnetChannel_t3121, ___incomingReliableCommandsList_1), 0 } ,
-	{ 13, 6716, offsetof(EnetChannel_t3121, ___incomingUnreliableCommandsList_2), 0 } ,
-	{ 14, 6717, offsetof(EnetChannel_t3121, ___outgoingReliableCommandsList_3), 0 } ,
-	{ 15, 6717, offsetof(EnetChannel_t3121, ___outgoingUnreliableCommandsList_4), 0 } ,
-	{ 16, 517, offsetof(EnetChannel_t3121, ___incomingReliableSequenceNumber_5), 0 } ,
-	{ 17, 517, offsetof(EnetChannel_t3121, ___incomingUnreliableSequenceNumber_6), 0 } ,
-	{ 18, 517, offsetof(EnetChannel_t3121, ___outgoingReliableSequenceNumber_7), 0 } ,
-	{ 19, 517, offsetof(EnetChannel_t3121, ___outgoingUnreliableSequenceNumber_8), 0 } ,
-	{ 20, 68, offsetof(ConnectionStateValue_t3123, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 21, 6720, 0, 0 } ,
-	{ 22, 6720, 0, 0 } ,
-	{ 23, 6720, 0, 0 } ,
-	{ 24, 6720, 0, 0 } ,
-	{ 25, 6720, 0, 0 } ,
-	{ 26, 6720, 0, 0 } ,
-	{ 20, 68, offsetof(EgMessageType_t3124, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 27, 6722, 0, 0 } ,
-	{ 28, 6722, 0, 0 } ,
-	{ 29, 6722, 0, 0 } ,
-	{ 30, 6722, 0, 0 } ,
-	{ 31, 6722, 0, 0 } ,
-	{ 32, 6722, 0, 0 } ,
-	{ 33, 6722, 0, 0 } ,
-	{ 34, 6722, 0, 0 } ,
-	{ 35, 6722, 0, 0 } ,
-	{ 36, 6725, offsetof(U3CU3Ec__DisplayClass2_t3126, ___U3CU3E4__this_0), 0 } ,
-	{ 37, 6726, offsetof(U3CU3Ec__DisplayClass2_t3126, ___level_1), 0 } ,
-	{ 38, 74, offsetof(U3CU3Ec__DisplayClass2_t3126, ___debugReturn_2), 0 } ,
-	{ 36, 6725, offsetof(U3CU3Ec__DisplayClass6_t3127, ___U3CU3E4__this_0), 0 } ,
-	{ 39, 6728, offsetof(U3CU3Ec__DisplayClass6_t3127, ___statusValue_1), 0 } ,
+	{ 0, 7412, offsetof(DictionaryEntryEnumerator_t4843, ___enumerator_0), 0 } ,
+	{ 1, 1573, 0, 0 } ,
+	{ 2, 9325, offsetof(BigInteger_t4844_StaticFields, ___primesBelow2000_1), 0 } ,
+	{ 3, 8070, offsetof(BigInteger_t4844, ___data_2), 0 } ,
+	{ 4, 546, offsetof(BigInteger_t4844, ___dataLength_3), 0 } ,
+	{ 5, 9327, offsetof(DiffieHellmanCryptoProvider_t4845_StaticFields, ___primeRoot_0), 0 } ,
+	{ 6, 9328, offsetof(DiffieHellmanCryptoProvider_t4845, ___prime_1), 0 } ,
+	{ 7, 9328, offsetof(DiffieHellmanCryptoProvider_t4845, ___secret_2), 0 } ,
+	{ 8, 9328, offsetof(DiffieHellmanCryptoProvider_t4845, ___publicKey_3), 0 } ,
+	{ 9, 9329, offsetof(DiffieHellmanCryptoProvider_t4845, ___crypto_4), 0 } ,
+	{ 10, 6971, offsetof(DiffieHellmanCryptoProvider_t4845, ___sharedKey_5), 0 } ,
+	{ 11, 9331, offsetof(EnetChannel_t4848, ___ChannelNumber_0), 0 } ,
+	{ 12, 9332, offsetof(EnetChannel_t4848, ___incomingReliableCommandsList_1), 0 } ,
+	{ 13, 9332, offsetof(EnetChannel_t4848, ___incomingUnreliableCommandsList_2), 0 } ,
+	{ 14, 9333, offsetof(EnetChannel_t4848, ___outgoingReliableCommandsList_3), 0 } ,
+	{ 15, 9333, offsetof(EnetChannel_t4848, ___outgoingUnreliableCommandsList_4), 0 } ,
+	{ 16, 527, offsetof(EnetChannel_t4848, ___incomingReliableSequenceNumber_5), 0 } ,
+	{ 17, 527, offsetof(EnetChannel_t4848, ___incomingUnreliableSequenceNumber_6), 0 } ,
+	{ 18, 527, offsetof(EnetChannel_t4848, ___outgoingReliableSequenceNumber_7), 0 } ,
+	{ 19, 527, offsetof(EnetChannel_t4848, ___outgoingUnreliableSequenceNumber_8), 0 } ,
+	{ 20, 68, offsetof(ConnectionStateValue_t4850, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 21, 9336, 0, 0 } ,
+	{ 22, 9336, 0, 0 } ,
+	{ 23, 9336, 0, 0 } ,
+	{ 24, 9336, 0, 0 } ,
+	{ 25, 9336, 0, 0 } ,
+	{ 26, 9336, 0, 0 } ,
+	{ 20, 68, offsetof(EgMessageType_t4851, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 27, 9338, 0, 0 } ,
+	{ 28, 9338, 0, 0 } ,
+	{ 29, 9338, 0, 0 } ,
+	{ 30, 9338, 0, 0 } ,
+	{ 31, 9338, 0, 0 } ,
+	{ 32, 9338, 0, 0 } ,
+	{ 33, 9338, 0, 0 } ,
+	{ 34, 9338, 0, 0 } ,
+	{ 35, 9338, 0, 0 } ,
+	{ 36, 9341, offsetof(U3CU3Ec__DisplayClass2_t4853, ___U3CU3E4__this_0), 0 } ,
+	{ 37, 9342, offsetof(U3CU3Ec__DisplayClass2_t4853, ___level_1), 0 } ,
+	{ 38, 74, offsetof(U3CU3Ec__DisplayClass2_t4853, ___debugReturn_2), 0 } ,
+	{ 36, 9341, offsetof(U3CU3Ec__DisplayClass6_t4854, ___U3CU3E4__this_0), 0 } ,
+	{ 39, 9344, offsetof(U3CU3Ec__DisplayClass6_t4854, ___statusValue_1), 0 } ,
 	{ 40, 64, 0, 0 } ,
-	{ 41, 6730, 0, 0 } ,
-	{ 42, 6730, 0, 0 } ,
-	{ 43, 6730, 0, 0 } ,
-	{ 44, 6731, offsetof(PeerBase_t3125, ___SocketImplementation_4), 0 } ,
-	{ 45, 6732, offsetof(PeerBase_t3125, ___rt_5), 0 } ,
-	{ 46, 536, offsetof(PeerBase_t3125, ___ByteCountLastOperation_6), 0 } ,
-	{ 47, 536, offsetof(PeerBase_t3125, ___ByteCountCurrentDispatch_7), 0 } ,
-	{ 48, 6733, offsetof(PeerBase_t3125, ___CommandInCurrentDispatch_8), 0 } ,
-	{ 49, 517, offsetof(PeerBase_t3125, ___TrafficPackageHeaderSize_9), 0 } ,
-	{ 50, 6734, offsetof(PeerBase_t3125, ___TrafficStatsIncoming_10), 0 } ,
-	{ 51, 6734, offsetof(PeerBase_t3125, ___TrafficStatsOutgoing_11), 0 } ,
-	{ 52, 6735, offsetof(PeerBase_t3125, ___TrafficStatsGameLevel_12), 0 } ,
-	{ 53, 6736, offsetof(PeerBase_t3125, ___trafficStatsStopwatch_13), 0 } ,
-	{ 54, 30, offsetof(PeerBase_t3125, ___trafficStatsEnabled_14), 0 } ,
-	{ 55, 6737, offsetof(PeerBase_t3125, ___usedProtocol_15), 0 } ,
-	{ 56, 740, offsetof(PeerBase_t3125, ___crcEnabled_16), 0 } ,
-	{ 57, 517, offsetof(PeerBase_t3125, ___packetLossByCrc_17), 0 } ,
-	{ 58, 6738, offsetof(PeerBase_t3125, ___debugOut_18), 0 } ,
-	{ 59, 6739, offsetof(PeerBase_t3125, ___ActionQueue_19), 0 } ,
-	{ 60, 6740, offsetof(PeerBase_t3125, ___peerID_20), 0 } ,
-	{ 61, 6741, offsetof(PeerBase_t3125, ___peerConnectionState_21), 0 } ,
-	{ 62, 517, offsetof(PeerBase_t3125, ___serverTimeOffset_22), 0 } ,
-	{ 63, 740, offsetof(PeerBase_t3125, ___serverTimeOffsetIsAvailable_23), 0 } ,
-	{ 64, 517, offsetof(PeerBase_t3125, ___roundTripTime_24), 0 } ,
-	{ 65, 517, offsetof(PeerBase_t3125, ___roundTripTimeVariance_25), 0 } ,
-	{ 66, 517, offsetof(PeerBase_t3125, ___lastRoundTripTime_26), 0 } ,
-	{ 67, 517, offsetof(PeerBase_t3125, ___lowestRoundTripTime_27), 0 } ,
-	{ 68, 517, offsetof(PeerBase_t3125, ___lastRoundTripTimeVariance_28), 0 } ,
-	{ 69, 517, offsetof(PeerBase_t3125, ___highestRoundTripTimeVariance_29), 0 } ,
-	{ 70, 517, offsetof(PeerBase_t3125, ___timestampOfLastReceive_30), 0 } ,
-	{ 71, 517, offsetof(PeerBase_t3125, ___packetThrottleInterval_31), 0 } ,
-	{ 72, 6742, offsetof(PeerBase_t3125_StaticFields, ___peerCount_32), 0 } ,
-	{ 73, 6743, offsetof(PeerBase_t3125, ___bytesOut_33), 0 } ,
-	{ 74, 6743, offsetof(PeerBase_t3125, ___bytesIn_34), 0 } ,
-	{ 75, 517, offsetof(PeerBase_t3125, ___commandBufferSize_35), 0 } ,
-	{ 76, 517, offsetof(PeerBase_t3125, ___warningSize_36), 0 } ,
-	{ 77, 517, offsetof(PeerBase_t3125, ___sentCountAllowance_37), 0 } ,
-	{ 78, 517, offsetof(PeerBase_t3125, ___DisconnectTimeout_38), 0 } ,
-	{ 79, 517, offsetof(PeerBase_t3125, ___timePingInterval_39), 0 } ,
-	{ 80, 6715, offsetof(PeerBase_t3125, ___ChannelCount_40), 0 } ,
-	{ 81, 517, offsetof(PeerBase_t3125, ___limitOfUnreliableCommands_41), 0 } ,
-	{ 82, 6744, offsetof(PeerBase_t3125, ___CryptoProvider_42), 0 } ,
-	{ 83, 6745, offsetof(PeerBase_t3125, ___lagRandomizer_43), 0 } ,
-	{ 84, 6746, offsetof(PeerBase_t3125, ___NetSimListOutgoing_44), 0 } ,
-	{ 85, 6746, offsetof(PeerBase_t3125, ___NetSimListIncoming_45), 0 } ,
-	{ 86, 6747, offsetof(PeerBase_t3125, ___networkSimulationSettings_46), 0 } ,
-	{ 87, 6748, offsetof(PeerBase_t3125, ___INIT_BYTES_47), 0 } ,
-	{ 88, 517, offsetof(PeerBase_t3125, ___timeBase_48), 0 } ,
-	{ 89, 517, offsetof(PeerBase_t3125, ___timeInt_49), 0 } ,
-	{ 90, 517, offsetof(PeerBase_t3125, ___timeoutInt_50), 0 } ,
-	{ 91, 517, offsetof(PeerBase_t3125, ___timeLastAckReceive_51), 0 } ,
-	{ 92, 740, offsetof(PeerBase_t3125, ___ApplicationIsInitialized_52), 0 } ,
-	{ 93, 740, offsetof(PeerBase_t3125, ___isEncryptionAvailable_53), 0 } ,
-	{ 94, 1374, offsetof(PeerBase_t3125_StaticFields, ___outgoingStreamBufferSize_54), 0 } ,
-	{ 95, 517, offsetof(PeerBase_t3125, ___outgoingCommandsInStream_55), 0 } ,
-	{ 96, 517, offsetof(PeerBase_t3125, ___mtu_56), 0 } ,
-	{ 97, 517, offsetof(PeerBase_t3125, ___rhttpMinConnections_57), 0 } ,
-	{ 98, 517, offsetof(PeerBase_t3125, ___rhttpMaxConnections_58), 0 } ,
-	{ 99, 6749, offsetof(PeerBase_t3125, ___SerializeMemStream_59), 0 } ,
-	{ 100, 40, offsetof(PeerBase_t3125, ___U3CServerAddressU3Ek__BackingField_60), 3 } ,
-	{ 101, 40, offsetof(PeerBase_t3125, ___U3CHttpUrlParametersU3Ek__BackingField_61), 4 } ,
-	{ 102, 1287, offsetof(PeerBase_t3125, ___U3CListenerU3Ek__BackingField_62), 5 } ,
-	{ 103, 1342, offsetof(PeerBase_t3125, ___U3CQuickResendAttemptsU3Ek__BackingField_63), 6 } ,
-	{ 104, 2781, offsetof(PeerBase_t3125, ___U3CTcpConnectionPrefixU3Ek__BackingField_64), 7 } ,
-	{ 105, 30, offsetof(PeerBase_t3125, ___U3CIsSendingOnlyAcksU3Ek__BackingField_65), 8 } ,
-	{ 36, 6751, offsetof(U3CU3Ec__DisplayClassb_t3133, ___U3CU3E4__this_0), 0 } ,
-	{ 106, 536, offsetof(U3CU3Ec__DisplayClassb_t3133, ___length_1), 0 } ,
-	{ 107, 6753, offsetof(U3CU3Ec__DisplayClassd_t3134, ___CSU24U3CU3E8__localsc_0), 0 } ,
-	{ 108, 3338, offsetof(U3CU3Ec__DisplayClassd_t3134, ___dataCopy_1), 0 } ,
-	{ 109, 6755, offsetof(U3CU3Ec__DisplayClass11_t3135, ___readCommand_0), 0 } ,
-	{ 36, 6751, offsetof(U3CU3Ec__DisplayClass11_t3135, ___U3CU3E4__this_1), 0 } ,
-	{ 110, 6757, offsetof(EnetPeer_t3132, ___channels_66), 0 } ,
-	{ 111, 6758, offsetof(EnetPeer_t3132, ___sentReliableCommands_67), 0 } ,
-	{ 112, 6759, offsetof(EnetPeer_t3132, ___outgoingAcknowledgementsList_68), 0 } ,
-	{ 113, 6760, offsetof(EnetPeer_t3132, ___windowSize_69), 0 } ,
-	{ 114, 1342, offsetof(EnetPeer_t3132, ___udpCommandCount_70), 0 } ,
-	{ 115, 2781, offsetof(EnetPeer_t3132, ___udpBuffer_71), 0 } ,
-	{ 116, 44, offsetof(EnetPeer_t3132, ___udpBufferIndex_72), 0 } ,
-	{ 117, 517, offsetof(EnetPeer_t3132, ___challenge_73), 0 } ,
-	{ 118, 517, offsetof(EnetPeer_t3132, ___reliableCommandsRepeated_74), 0 } ,
-	{ 119, 517, offsetof(EnetPeer_t3132, ___reliableCommandsSent_75), 0 } ,
-	{ 120, 517, offsetof(EnetPeer_t3132, ___serverSentTime_76), 0 } ,
-	{ 121, 6761, offsetof(EnetPeer_t3132_StaticFields, ___udpHeader0xF3_77), 0 } ,
-	{ 122, 6761, offsetof(EnetPeer_t3132_StaticFields, ___messageHeader_78), 0 } ,
-	{ 123, 2781, offsetof(EnetPeer_t3132, ___initData_79), 0 } ,
-	{ 124, 6762, offsetof(EnetPeer_t3132, ___commandsToRemove_80), 0 } ,
+	{ 41, 9346, 0, 0 } ,
+	{ 42, 9346, 0, 0 } ,
+	{ 43, 9346, 0, 0 } ,
+	{ 44, 9347, offsetof(PeerBase_t4852, ___SocketImplementation_4), 0 } ,
+	{ 45, 9348, offsetof(PeerBase_t4852, ___rt_5), 0 } ,
+	{ 46, 546, offsetof(PeerBase_t4852, ___ByteCountLastOperation_6), 0 } ,
+	{ 47, 546, offsetof(PeerBase_t4852, ___ByteCountCurrentDispatch_7), 0 } ,
+	{ 48, 9349, offsetof(PeerBase_t4852, ___CommandInCurrentDispatch_8), 0 } ,
+	{ 49, 527, offsetof(PeerBase_t4852, ___TrafficPackageHeaderSize_9), 0 } ,
+	{ 50, 9350, offsetof(PeerBase_t4852, ___TrafficStatsIncoming_10), 0 } ,
+	{ 51, 9350, offsetof(PeerBase_t4852, ___TrafficStatsOutgoing_11), 0 } ,
+	{ 52, 9351, offsetof(PeerBase_t4852, ___TrafficStatsGameLevel_12), 0 } ,
+	{ 53, 9352, offsetof(PeerBase_t4852, ___trafficStatsStopwatch_13), 0 } ,
+	{ 54, 30, offsetof(PeerBase_t4852, ___trafficStatsEnabled_14), 0 } ,
+	{ 55, 9353, offsetof(PeerBase_t4852, ___usedProtocol_15), 0 } ,
+	{ 56, 750, offsetof(PeerBase_t4852, ___crcEnabled_16), 0 } ,
+	{ 57, 527, offsetof(PeerBase_t4852, ___packetLossByCrc_17), 0 } ,
+	{ 58, 9354, offsetof(PeerBase_t4852, ___debugOut_18), 0 } ,
+	{ 59, 9355, offsetof(PeerBase_t4852, ___ActionQueue_19), 0 } ,
+	{ 60, 9356, offsetof(PeerBase_t4852, ___peerID_20), 0 } ,
+	{ 61, 9357, offsetof(PeerBase_t4852, ___peerConnectionState_21), 0 } ,
+	{ 62, 527, offsetof(PeerBase_t4852, ___serverTimeOffset_22), 0 } ,
+	{ 63, 750, offsetof(PeerBase_t4852, ___serverTimeOffsetIsAvailable_23), 0 } ,
+	{ 64, 527, offsetof(PeerBase_t4852, ___roundTripTime_24), 0 } ,
+	{ 65, 527, offsetof(PeerBase_t4852, ___roundTripTimeVariance_25), 0 } ,
+	{ 66, 527, offsetof(PeerBase_t4852, ___lastRoundTripTime_26), 0 } ,
+	{ 67, 527, offsetof(PeerBase_t4852, ___lowestRoundTripTime_27), 0 } ,
+	{ 68, 527, offsetof(PeerBase_t4852, ___lastRoundTripTimeVariance_28), 0 } ,
+	{ 69, 527, offsetof(PeerBase_t4852, ___highestRoundTripTimeVariance_29), 0 } ,
+	{ 70, 527, offsetof(PeerBase_t4852, ___timestampOfLastReceive_30), 0 } ,
+	{ 71, 527, offsetof(PeerBase_t4852, ___packetThrottleInterval_31), 0 } ,
+	{ 72, 9358, offsetof(PeerBase_t4852_StaticFields, ___peerCount_32), 0 } ,
+	{ 73, 7621, offsetof(PeerBase_t4852, ___bytesOut_33), 0 } ,
+	{ 74, 7621, offsetof(PeerBase_t4852, ___bytesIn_34), 0 } ,
+	{ 75, 527, offsetof(PeerBase_t4852, ___commandBufferSize_35), 0 } ,
+	{ 76, 527, offsetof(PeerBase_t4852, ___warningSize_36), 0 } ,
+	{ 77, 527, offsetof(PeerBase_t4852, ___sentCountAllowance_37), 0 } ,
+	{ 78, 527, offsetof(PeerBase_t4852, ___DisconnectTimeout_38), 0 } ,
+	{ 79, 527, offsetof(PeerBase_t4852, ___timePingInterval_39), 0 } ,
+	{ 80, 9331, offsetof(PeerBase_t4852, ___ChannelCount_40), 0 } ,
+	{ 81, 527, offsetof(PeerBase_t4852, ___limitOfUnreliableCommands_41), 0 } ,
+	{ 82, 9359, offsetof(PeerBase_t4852, ___CryptoProvider_42), 0 } ,
+	{ 83, 9360, offsetof(PeerBase_t4852, ___lagRandomizer_43), 0 } ,
+	{ 84, 9361, offsetof(PeerBase_t4852, ___NetSimListOutgoing_44), 0 } ,
+	{ 85, 9361, offsetof(PeerBase_t4852, ___NetSimListIncoming_45), 0 } ,
+	{ 86, 9362, offsetof(PeerBase_t4852, ___networkSimulationSettings_46), 0 } ,
+	{ 87, 7485, offsetof(PeerBase_t4852, ___INIT_BYTES_47), 0 } ,
+	{ 88, 527, offsetof(PeerBase_t4852, ___timeBase_48), 0 } ,
+	{ 89, 527, offsetof(PeerBase_t4852, ___timeInt_49), 0 } ,
+	{ 90, 527, offsetof(PeerBase_t4852, ___timeoutInt_50), 0 } ,
+	{ 91, 527, offsetof(PeerBase_t4852, ___timeLastAckReceive_51), 0 } ,
+	{ 92, 750, offsetof(PeerBase_t4852, ___ApplicationIsInitialized_52), 0 } ,
+	{ 93, 750, offsetof(PeerBase_t4852, ___isEncryptionAvailable_53), 0 } ,
+	{ 94, 1384, offsetof(PeerBase_t4852_StaticFields, ___outgoingStreamBufferSize_54), 0 } ,
+	{ 95, 527, offsetof(PeerBase_t4852, ___outgoingCommandsInStream_55), 0 } ,
+	{ 96, 527, offsetof(PeerBase_t4852, ___mtu_56), 0 } ,
+	{ 97, 527, offsetof(PeerBase_t4852, ___rhttpMinConnections_57), 0 } ,
+	{ 98, 527, offsetof(PeerBase_t4852, ___rhttpMaxConnections_58), 0 } ,
+	{ 99, 9363, offsetof(PeerBase_t4852, ___SerializeMemStream_59), 0 } ,
+	{ 100, 40, offsetof(PeerBase_t4852, ___U3CServerAddressU3Ek__BackingField_60), 3 } ,
+	{ 101, 40, offsetof(PeerBase_t4852, ___U3CHttpUrlParametersU3Ek__BackingField_61), 4 } ,
+	{ 102, 1297, offsetof(PeerBase_t4852, ___U3CListenerU3Ek__BackingField_62), 5 } ,
+	{ 103, 1352, offsetof(PeerBase_t4852, ___U3CQuickResendAttemptsU3Ek__BackingField_63), 6 } ,
+	{ 104, 6971, offsetof(PeerBase_t4852, ___U3CTcpConnectionPrefixU3Ek__BackingField_64), 7 } ,
+	{ 105, 30, offsetof(PeerBase_t4852, ___U3CIsSendingOnlyAcksU3Ek__BackingField_65), 8 } ,
+	{ 36, 9365, offsetof(U3CU3Ec__DisplayClassb_t4860, ___U3CU3E4__this_0), 0 } ,
+	{ 106, 546, offsetof(U3CU3Ec__DisplayClassb_t4860, ___length_1), 0 } ,
+	{ 107, 9367, offsetof(U3CU3Ec__DisplayClassd_t4861, ___CSU24U3CU3E8__localsc_0), 0 } ,
+	{ 108, 4331, offsetof(U3CU3Ec__DisplayClassd_t4861, ___dataCopy_1), 0 } ,
+	{ 109, 9369, offsetof(U3CU3Ec__DisplayClass11_t4862, ___readCommand_0), 0 } ,
+	{ 36, 9365, offsetof(U3CU3Ec__DisplayClass11_t4862, ___U3CU3E4__this_1), 0 } ,
+	{ 110, 9371, offsetof(EnetPeer_t4859, ___channels_66), 0 } ,
+	{ 111, 9372, offsetof(EnetPeer_t4859, ___sentReliableCommands_67), 0 } ,
+	{ 112, 9373, offsetof(EnetPeer_t4859, ___outgoingAcknowledgementsList_68), 0 } ,
+	{ 113, 9374, offsetof(EnetPeer_t4859, ___windowSize_69), 0 } ,
+	{ 114, 1352, offsetof(EnetPeer_t4859, ___udpCommandCount_70), 0 } ,
+	{ 115, 6971, offsetof(EnetPeer_t4859, ___udpBuffer_71), 0 } ,
+	{ 116, 44, offsetof(EnetPeer_t4859, ___udpBufferIndex_72), 0 } ,
+	{ 117, 527, offsetof(EnetPeer_t4859, ___challenge_73), 0 } ,
+	{ 118, 527, offsetof(EnetPeer_t4859, ___reliableCommandsRepeated_74), 0 } ,
+	{ 119, 527, offsetof(EnetPeer_t4859, ___reliableCommandsSent_75), 0 } ,
+	{ 120, 527, offsetof(EnetPeer_t4859, ___serverSentTime_76), 0 } ,
+	{ 121, 9375, offsetof(EnetPeer_t4859_StaticFields, ___udpHeader0xF3_77), 0 } ,
+	{ 122, 9375, offsetof(EnetPeer_t4859_StaticFields, ___messageHeader_78), 0 } ,
+	{ 123, 6971, offsetof(EnetPeer_t4859, ___initData_79), 0 } ,
+	{ 124, 9376, offsetof(EnetPeer_t4859, ___commandsToRemove_80), 0 } ,
 	{ 20, 50, offsetof(StatusCode_t39, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 125, 6764, 0, 0 } ,
-	{ 126, 6764, 0, 0 } ,
-	{ 127, 6764, 0, 0 } ,
-	{ 128, 6764, 0, 0 } ,
-	{ 129, 6764, 0, 0 } ,
-	{ 130, 6764, 0, 0 } ,
-	{ 131, 6764, 0, 0 } ,
-	{ 132, 6764, 0, 0 } ,
-	{ 133, 6764, 0, 0 } ,
-	{ 134, 6764, 0, 0 } ,
-	{ 135, 6764, 0, 0 } ,
-	{ 136, 6764, 0, 0 } ,
-	{ 137, 6764, 0, 0 } ,
-	{ 138, 6764, 0, 23 } ,
-	{ 139, 6764, 0, 0 } ,
-	{ 140, 6764, 0, 0 } ,
-	{ 141, 6764, 0, 0 } ,
-	{ 142, 6764, 0, 0 } ,
-	{ 143, 6764, 0, 24 } ,
-	{ 144, 6764, 0, 25 } ,
-	{ 145, 6764, 0, 26 } ,
-	{ 146, 6764, 0, 27 } ,
-	{ 147, 6764, 0, 0 } ,
-	{ 148, 6764, 0, 0 } ,
-	{ 20, 50, offsetof(PhotonSocketState_t3139, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 21, 6767, 0, 0 } ,
-	{ 22, 6767, 0, 0 } ,
-	{ 23, 6767, 0, 0 } ,
-	{ 24, 6767, 0, 0 } ,
-	{ 20, 50, offsetof(PhotonSocketError_t3140, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 149, 6769, 0, 0 } ,
-	{ 150, 6769, 0, 0 } ,
-	{ 151, 6769, 0, 0 } ,
-	{ 127, 6769, 0, 0 } ,
-	{ 36, 6772, offsetof(U3CU3Ec__DisplayClass3_t3141, ___U3CU3E4__this_0), 0 } ,
-	{ 152, 3338, offsetof(U3CU3Ec__DisplayClass3_t3141, ___inBuffer_1), 0 } ,
-	{ 106, 536, offsetof(U3CU3Ec__DisplayClass3_t3141, ___length_2), 0 } ,
-	{ 153, 6774, offsetof(U3CU3Ec__DisplayClass5_t3142, ___CSU24U3CU3E8__locals4_0), 0 } ,
-	{ 154, 3338, offsetof(U3CU3Ec__DisplayClass5_t3142, ___inBufferCopy_1), 0 } ,
-	{ 155, 6777, offsetof(IPhotonSocket_t3128, ___peerBase_0), 0 } ,
-	{ 156, 483, offsetof(IPhotonSocket_t3128, ___PollReceive_1), 0 } ,
-	{ 157, 6778, offsetof(IPhotonSocket_t3128, ___U3CProtocolU3Ek__BackingField_2), 28 } ,
-	{ 158, 6779, offsetof(IPhotonSocket_t3128, ___U3CStateU3Ek__BackingField_3), 29 } ,
-	{ 100, 40, offsetof(IPhotonSocket_t3128, ___U3CServerAddressU3Ek__BackingField_4), 30 } ,
-	{ 159, 44, offsetof(IPhotonSocket_t3128, ___U3CServerPortU3Ek__BackingField_5), 31 } ,
-	{ 160, 6730, 0, 0 } ,
-	{ 161, 6730, 0, 0 } ,
-	{ 162, 6781, 0, 0 } ,
-	{ 163, 6781, 0, 0 } ,
-	{ 164, 6781, 0, 0 } ,
-	{ 165, 6781, 0, 0 } ,
-	{ 166, 6781, 0, 0 } ,
-	{ 167, 6781, 0, 0 } ,
-	{ 168, 6781, 0, 0 } ,
-	{ 169, 6781, 0, 0 } ,
-	{ 170, 6781, 0, 0 } ,
-	{ 171, 6781, 0, 0 } ,
-	{ 172, 6781, 0, 0 } ,
-	{ 173, 6781, 0, 0 } ,
-	{ 174, 6781, 0, 0 } ,
-	{ 175, 6730, 0, 0 } ,
-	{ 176, 6730, 0, 0 } ,
-	{ 177, 6730, 0, 0 } ,
-	{ 178, 6730, 0, 0 } ,
-	{ 179, 6730, 0, 0 } ,
-	{ 180, 6730, 0, 0 } ,
-	{ 181, 6730, 0, 0 } ,
-	{ 182, 6730, 0, 0 } ,
-	{ 183, 6730, 0, 0 } ,
-	{ 184, 6730, 0, 0 } ,
-	{ 185, 6730, 0, 0 } ,
-	{ 186, 6715, offsetof(NCommand_t3129, ___commandFlags_26), 0 } ,
-	{ 187, 6715, offsetof(NCommand_t3129, ___commandType_27), 0 } ,
-	{ 188, 6715, offsetof(NCommand_t3129, ___commandChannelID_28), 0 } ,
-	{ 189, 517, offsetof(NCommand_t3129, ___reliableSequenceNumber_29), 0 } ,
-	{ 190, 517, offsetof(NCommand_t3129, ___unreliableSequenceNumber_30), 0 } ,
-	{ 191, 517, offsetof(NCommand_t3129, ___unsequencedGroupNumber_31), 0 } ,
-	{ 192, 6715, offsetof(NCommand_t3129, ___reservedByte_32), 0 } ,
-	{ 193, 517, offsetof(NCommand_t3129, ___startSequenceNumber_33), 0 } ,
-	{ 194, 517, offsetof(NCommand_t3129, ___fragmentCount_34), 0 } ,
-	{ 195, 517, offsetof(NCommand_t3129, ___fragmentNumber_35), 0 } ,
-	{ 196, 517, offsetof(NCommand_t3129, ___totalLength_36), 0 } ,
-	{ 197, 517, offsetof(NCommand_t3129, ___fragmentOffset_37), 0 } ,
-	{ 198, 517, offsetof(NCommand_t3129, ___fragmentsRemaining_38), 0 } ,
-	{ 199, 6748, offsetof(NCommand_t3129, ___Payload_39), 0 } ,
-	{ 200, 517, offsetof(NCommand_t3129, ___commandSentTime_40), 0 } ,
-	{ 201, 6715, offsetof(NCommand_t3129, ___commandSentCount_41), 0 } ,
-	{ 202, 517, offsetof(NCommand_t3129, ___roundTripTimeout_42), 0 } ,
-	{ 203, 517, offsetof(NCommand_t3129, ___timeoutTime_43), 0 } ,
-	{ 204, 517, offsetof(NCommand_t3129, ___ackReceivedReliableSequenceNumber_44), 0 } ,
-	{ 205, 517, offsetof(NCommand_t3129, ___ackReceivedSentTime_45), 0 } ,
-	{ 206, 2781, offsetof(NCommand_t3129, ___completeCommand_46), 0 } ,
-	{ 207, 517, offsetof(NCommand_t3129, ___Size_47), 0 } ,
-	{ 208, 6784, offsetof(SimulationItem_t3143, ___stopw_0), 0 } ,
-	{ 209, 536, offsetof(SimulationItem_t3143, ___TimeToExecute_1), 0 } ,
-	{ 210, 6785, offsetof(SimulationItem_t3143, ___ActionToExecute_2), 0 } ,
-	{ 211, 44, offsetof(SimulationItem_t3143, ___U3CDelayU3Ek__BackingField_3), 43 } ,
-	{ 212, 30, offsetof(NetworkSimulationSet_t686, ___isSimulationEnabled_0), 0 } ,
-	{ 213, 44, offsetof(NetworkSimulationSet_t686, ___outgoingLag_1), 0 } ,
-	{ 214, 44, offsetof(NetworkSimulationSet_t686, ___outgoingJitter_2), 0 } ,
-	{ 215, 44, offsetof(NetworkSimulationSet_t686, ___outgoingLossPercentage_3), 0 } ,
-	{ 216, 44, offsetof(NetworkSimulationSet_t686, ___incomingLag_4), 0 } ,
-	{ 217, 44, offsetof(NetworkSimulationSet_t686, ___incomingJitter_5), 0 } ,
-	{ 218, 44, offsetof(NetworkSimulationSet_t686, ___incomingLossPercentage_6), 0 } ,
-	{ 155, 6777, offsetof(NetworkSimulationSet_t686, ___peerBase_7), 0 } ,
-	{ 219, 6787, offsetof(NetworkSimulationSet_t686, ___netSimThread_8), 0 } ,
-	{ 220, 6788, offsetof(NetworkSimulationSet_t686, ___NetSimManualResetEvent_9), 0 } ,
-	{ 221, 44, offsetof(NetworkSimulationSet_t686, ___U3CLostPackagesOutU3Ek__BackingField_10), 46 } ,
-	{ 222, 44, offsetof(NetworkSimulationSet_t686, ___U3CLostPackagesInU3Ek__BackingField_11), 47 } ,
-	{ 223, 1368, offsetof(OakleyGroups_t3144_StaticFields, ___Generator_0), 0 } ,
-	{ 224, 1213, offsetof(OakleyGroups_t3144_StaticFields, ___OakleyPrime768_1), 0 } ,
-	{ 225, 1213, offsetof(OakleyGroups_t3144_StaticFields, ___OakleyPrime1024_2), 0 } ,
-	{ 226, 1213, offsetof(OakleyGroups_t3144_StaticFields, ___OakleyPrime1536_3), 0 } ,
-	{ 227, 6791, offsetof(PhotonCodes_t3145_StaticFields, ___ClientKey_0), 0 } ,
-	{ 228, 6791, offsetof(PhotonCodes_t3145_StaticFields, ___ModeKey_1), 0 } ,
-	{ 229, 6791, offsetof(PhotonCodes_t3145_StaticFields, ___ServerKey_2), 0 } ,
-	{ 230, 6791, offsetof(PhotonCodes_t3145_StaticFields, ___InitEncryption_3), 0 } ,
-	{ 231, 6791, offsetof(PhotonCodes_t3145_StaticFields, ___Ping_4), 0 } ,
-	{ 20, 68, offsetof(PeerStateValue_t688, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 21, 6793, 0, 0 } ,
-	{ 22, 6793, 0, 0 } ,
-	{ 232, 6793, 0, 0 } ,
-	{ 23, 6793, 0, 0 } ,
-	{ 24, 6793, 0, 0 } ,
+	{ 125, 9378, 0, 0 } ,
+	{ 126, 9378, 0, 0 } ,
+	{ 127, 9378, 0, 0 } ,
+	{ 128, 9378, 0, 0 } ,
+	{ 129, 9378, 0, 0 } ,
+	{ 130, 9378, 0, 0 } ,
+	{ 131, 9378, 0, 0 } ,
+	{ 132, 9378, 0, 0 } ,
+	{ 133, 9378, 0, 0 } ,
+	{ 134, 9378, 0, 0 } ,
+	{ 135, 9378, 0, 0 } ,
+	{ 136, 9378, 0, 0 } ,
+	{ 137, 9378, 0, 0 } ,
+	{ 138, 9378, 0, 23 } ,
+	{ 139, 9378, 0, 0 } ,
+	{ 140, 9378, 0, 0 } ,
+	{ 141, 9378, 0, 0 } ,
+	{ 142, 9378, 0, 0 } ,
+	{ 143, 9378, 0, 24 } ,
+	{ 144, 9378, 0, 25 } ,
+	{ 145, 9378, 0, 26 } ,
+	{ 146, 9378, 0, 27 } ,
+	{ 147, 9378, 0, 0 } ,
+	{ 148, 9378, 0, 0 } ,
+	{ 20, 50, offsetof(PhotonSocketState_t4866, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 21, 9381, 0, 0 } ,
+	{ 22, 9381, 0, 0 } ,
+	{ 23, 9381, 0, 0 } ,
+	{ 24, 9381, 0, 0 } ,
+	{ 20, 50, offsetof(PhotonSocketError_t4867, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 149, 9383, 0, 0 } ,
+	{ 150, 9383, 0, 0 } ,
+	{ 151, 9383, 0, 0 } ,
+	{ 127, 9383, 0, 0 } ,
+	{ 36, 9386, offsetof(U3CU3Ec__DisplayClass3_t4868, ___U3CU3E4__this_0), 0 } ,
+	{ 152, 4331, offsetof(U3CU3Ec__DisplayClass3_t4868, ___inBuffer_1), 0 } ,
+	{ 106, 546, offsetof(U3CU3Ec__DisplayClass3_t4868, ___length_2), 0 } ,
+	{ 153, 9388, offsetof(U3CU3Ec__DisplayClass5_t4869, ___CSU24U3CU3E8__locals4_0), 0 } ,
+	{ 154, 4331, offsetof(U3CU3Ec__DisplayClass5_t4869, ___inBufferCopy_1), 0 } ,
+	{ 155, 9391, offsetof(IPhotonSocket_t4855, ___peerBase_0), 0 } ,
+	{ 156, 493, offsetof(IPhotonSocket_t4855, ___PollReceive_1), 0 } ,
+	{ 157, 9392, offsetof(IPhotonSocket_t4855, ___U3CProtocolU3Ek__BackingField_2), 28 } ,
+	{ 158, 9393, offsetof(IPhotonSocket_t4855, ___U3CStateU3Ek__BackingField_3), 29 } ,
+	{ 100, 40, offsetof(IPhotonSocket_t4855, ___U3CServerAddressU3Ek__BackingField_4), 30 } ,
+	{ 159, 44, offsetof(IPhotonSocket_t4855, ___U3CServerPortU3Ek__BackingField_5), 31 } ,
+	{ 160, 9346, 0, 0 } ,
+	{ 161, 9346, 0, 0 } ,
+	{ 162, 9395, 0, 0 } ,
+	{ 163, 9395, 0, 0 } ,
+	{ 164, 9395, 0, 0 } ,
+	{ 165, 9395, 0, 0 } ,
+	{ 166, 9395, 0, 0 } ,
+	{ 167, 9395, 0, 0 } ,
+	{ 168, 9395, 0, 0 } ,
+	{ 169, 9395, 0, 0 } ,
+	{ 170, 9395, 0, 0 } ,
+	{ 171, 9395, 0, 0 } ,
+	{ 172, 9395, 0, 0 } ,
+	{ 173, 9395, 0, 0 } ,
+	{ 174, 9395, 0, 0 } ,
+	{ 175, 9346, 0, 0 } ,
+	{ 176, 9346, 0, 0 } ,
+	{ 177, 9346, 0, 0 } ,
+	{ 178, 9346, 0, 0 } ,
+	{ 179, 9346, 0, 0 } ,
+	{ 180, 9346, 0, 0 } ,
+	{ 181, 9346, 0, 0 } ,
+	{ 182, 9346, 0, 0 } ,
+	{ 183, 9346, 0, 0 } ,
+	{ 184, 9346, 0, 0 } ,
+	{ 185, 9346, 0, 0 } ,
+	{ 186, 9331, offsetof(NCommand_t4856, ___commandFlags_26), 0 } ,
+	{ 187, 9331, offsetof(NCommand_t4856, ___commandType_27), 0 } ,
+	{ 188, 9331, offsetof(NCommand_t4856, ___commandChannelID_28), 0 } ,
+	{ 189, 527, offsetof(NCommand_t4856, ___reliableSequenceNumber_29), 0 } ,
+	{ 190, 527, offsetof(NCommand_t4856, ___unreliableSequenceNumber_30), 0 } ,
+	{ 191, 527, offsetof(NCommand_t4856, ___unsequencedGroupNumber_31), 0 } ,
+	{ 192, 9331, offsetof(NCommand_t4856, ___reservedByte_32), 0 } ,
+	{ 193, 527, offsetof(NCommand_t4856, ___startSequenceNumber_33), 0 } ,
+	{ 194, 527, offsetof(NCommand_t4856, ___fragmentCount_34), 0 } ,
+	{ 195, 527, offsetof(NCommand_t4856, ___fragmentNumber_35), 0 } ,
+	{ 196, 527, offsetof(NCommand_t4856, ___totalLength_36), 0 } ,
+	{ 197, 527, offsetof(NCommand_t4856, ___fragmentOffset_37), 0 } ,
+	{ 198, 527, offsetof(NCommand_t4856, ___fragmentsRemaining_38), 0 } ,
+	{ 199, 7485, offsetof(NCommand_t4856, ___Payload_39), 0 } ,
+	{ 200, 527, offsetof(NCommand_t4856, ___commandSentTime_40), 0 } ,
+	{ 201, 9331, offsetof(NCommand_t4856, ___commandSentCount_41), 0 } ,
+	{ 202, 527, offsetof(NCommand_t4856, ___roundTripTimeout_42), 0 } ,
+	{ 203, 527, offsetof(NCommand_t4856, ___timeoutTime_43), 0 } ,
+	{ 204, 527, offsetof(NCommand_t4856, ___ackReceivedReliableSequenceNumber_44), 0 } ,
+	{ 205, 527, offsetof(NCommand_t4856, ___ackReceivedSentTime_45), 0 } ,
+	{ 206, 6971, offsetof(NCommand_t4856, ___completeCommand_46), 0 } ,
+	{ 207, 527, offsetof(NCommand_t4856, ___Size_47), 0 } ,
+	{ 208, 9398, offsetof(SimulationItem_t4870, ___stopw_0), 0 } ,
+	{ 209, 546, offsetof(SimulationItem_t4870, ___TimeToExecute_1), 0 } ,
+	{ 210, 9399, offsetof(SimulationItem_t4870, ___ActionToExecute_2), 0 } ,
+	{ 211, 44, offsetof(SimulationItem_t4870, ___U3CDelayU3Ek__BackingField_3), 43 } ,
+	{ 212, 30, offsetof(NetworkSimulationSet_t703, ___isSimulationEnabled_0), 0 } ,
+	{ 213, 44, offsetof(NetworkSimulationSet_t703, ___outgoingLag_1), 0 } ,
+	{ 214, 44, offsetof(NetworkSimulationSet_t703, ___outgoingJitter_2), 0 } ,
+	{ 215, 44, offsetof(NetworkSimulationSet_t703, ___outgoingLossPercentage_3), 0 } ,
+	{ 216, 44, offsetof(NetworkSimulationSet_t703, ___incomingLag_4), 0 } ,
+	{ 217, 44, offsetof(NetworkSimulationSet_t703, ___incomingJitter_5), 0 } ,
+	{ 218, 44, offsetof(NetworkSimulationSet_t703, ___incomingLossPercentage_6), 0 } ,
+	{ 155, 9391, offsetof(NetworkSimulationSet_t703, ___peerBase_7), 0 } ,
+	{ 219, 5937, offsetof(NetworkSimulationSet_t703, ___netSimThread_8), 0 } ,
+	{ 220, 9401, offsetof(NetworkSimulationSet_t703, ___NetSimManualResetEvent_9), 0 } ,
+	{ 221, 44, offsetof(NetworkSimulationSet_t703, ___U3CLostPackagesOutU3Ek__BackingField_10), 46 } ,
+	{ 222, 44, offsetof(NetworkSimulationSet_t703, ___U3CLostPackagesInU3Ek__BackingField_11), 47 } ,
+	{ 223, 1378, offsetof(OakleyGroups_t4871_StaticFields, ___Generator_0), 0 } ,
+	{ 224, 1223, offsetof(OakleyGroups_t4871_StaticFields, ___OakleyPrime768_1), 0 } ,
+	{ 225, 1223, offsetof(OakleyGroups_t4871_StaticFields, ___OakleyPrime1024_2), 0 } ,
+	{ 226, 1223, offsetof(OakleyGroups_t4871_StaticFields, ___OakleyPrime1536_3), 0 } ,
+	{ 227, 9404, offsetof(PhotonCodes_t4872_StaticFields, ___ClientKey_0), 0 } ,
+	{ 228, 9404, offsetof(PhotonCodes_t4872_StaticFields, ___ModeKey_1), 0 } ,
+	{ 229, 9404, offsetof(PhotonCodes_t4872_StaticFields, ___ServerKey_2), 0 } ,
+	{ 230, 9404, offsetof(PhotonCodes_t4872_StaticFields, ___InitEncryption_3), 0 } ,
+	{ 231, 9404, offsetof(PhotonCodes_t4872_StaticFields, ___Ping_4), 0 } ,
+	{ 20, 68, offsetof(PeerStateValue_t705, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 21, 9406, 0, 0 } ,
+	{ 22, 9406, 0, 0 } ,
+	{ 232, 9406, 0, 0 } ,
+	{ 23, 9406, 0, 0 } ,
+	{ 24, 9406, 0, 0 } ,
 	{ 20, 68, offsetof(ConnectionProtocol_t37, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 233, 6795, 0, 0 } ,
-	{ 234, 6795, 0, 0 } ,
-	{ 235, 6795, 0, 0 } ,
-	{ 236, 6795, 0, 0 } ,
+	{ 233, 9408, 0, 0 } ,
+	{ 234, 9408, 0, 0 } ,
+	{ 235, 9408, 0, 0 } ,
+	{ 236, 9408, 0, 0 } ,
 	{ 20, 68, offsetof(DebugLevel_t38, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 237, 6797, 0, 0 } ,
-	{ 238, 6797, 0, 0 } ,
-	{ 239, 6797, 0, 0 } ,
-	{ 240, 6797, 0, 0 } ,
-	{ 241, 6797, 0, 0 } ,
-	{ 242, 6799, 0, 0 } ,
-	{ 155, 6777, offsetof(PhotonPeer_t14, ___peerBase_1), 0 } ,
-	{ 243, 3555, offsetof(PhotonPeer_t14, ___SendOutgoingLockObject_2), 0 } ,
-	{ 244, 3555, offsetof(PhotonPeer_t14, ___DispatchLockObject_3), 0 } ,
-	{ 245, 3555, offsetof(PhotonPeer_t14, ___EnqueueLock_4), 0 } ,
+	{ 237, 9410, 0, 0 } ,
+	{ 238, 9410, 0, 0 } ,
+	{ 239, 9410, 0, 0 } ,
+	{ 240, 9410, 0, 0 } ,
+	{ 241, 9410, 0, 0 } ,
+	{ 242, 9412, 0, 0 } ,
+	{ 155, 9391, offsetof(PhotonPeer_t14, ___peerBase_1), 0 } ,
+	{ 243, 4615, offsetof(PhotonPeer_t14, ___SendOutgoingLockObject_2), 0 } ,
+	{ 244, 4615, offsetof(PhotonPeer_t14, ___DispatchLockObject_3), 0 } ,
+	{ 245, 4615, offsetof(PhotonPeer_t14, ___EnqueueLock_4), 0 } ,
 	{ 246, 74, offsetof(PhotonPing_t466, ___DebugString_0), 0 } ,
-	{ 247, 483, offsetof(PhotonPing_t466, ___Successful_1), 0 } ,
-	{ 248, 1301, offsetof(PhotonPing_t466, ___GotResult_2), 0 } ,
-	{ 249, 1420, offsetof(PhotonPing_t466, ___PingLength_3), 0 } ,
-	{ 250, 6801, offsetof(PhotonPing_t466, ___PingBytes_4), 0 } ,
-	{ 251, 6802, offsetof(PhotonPing_t466, ___PingId_5), 0 } ,
-	{ 252, 5914, offsetof(PingNativeDynamic_t693, ___pConnectionHandler_6), 0 } ,
-	{ 252, 5914, offsetof(PingNativeStatic_t663, ___pConnectionHandler_6), 0 } ,
-	{ 253, 1319, offsetof(OperationRequest_t3146, ___OperationCode_0), 0 } ,
-	{ 254, 6807, offsetof(OperationRequest_t3146, ___Parameters_1), 0 } ,
-	{ 253, 1319, offsetof(OperationResponse_t23, ___OperationCode_0), 0 } ,
-	{ 255, 6809, offsetof(OperationResponse_t23, ___ReturnCode_1), 0 } ,
+	{ 247, 493, offsetof(PhotonPing_t466, ___Successful_1), 0 } ,
+	{ 248, 1311, offsetof(PhotonPing_t466, ___GotResult_2), 0 } ,
+	{ 249, 1430, offsetof(PhotonPing_t466, ___PingLength_3), 0 } ,
+	{ 250, 9414, offsetof(PhotonPing_t466, ___PingBytes_4), 0 } ,
+	{ 251, 9415, offsetof(PhotonPing_t466, ___PingId_5), 0 } ,
+	{ 252, 7487, offsetof(PingMono_t681, ___sock_6), 0 } ,
+	{ 253, 1329, offsetof(OperationRequest_t4873, ___OperationCode_0), 0 } ,
+	{ 254, 9419, offsetof(OperationRequest_t4873, ___Parameters_1), 0 } ,
+	{ 253, 1329, offsetof(OperationResponse_t23, ___OperationCode_0), 0 } ,
+	{ 255, 9421, offsetof(OperationResponse_t23, ___ReturnCode_1), 0 } ,
 	{ 256, 74, offsetof(OperationResponse_t23, ___DebugMessage_2), 0 } ,
-	{ 254, 6807, offsetof(OperationResponse_t23, ___Parameters_3), 0 } ,
-	{ 257, 1319, offsetof(EventData_t22, ___Code_0), 0 } ,
-	{ 254, 6807, offsetof(EventData_t22, ___Parameters_1), 0 } ,
-	{ 20, 68, offsetof(GpType_t3147, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 258, 6812, 0, 0 } ,
-	{ 259, 6812, 0, 0 } ,
-	{ 260, 6812, 0, 0 } ,
-	{ 261, 6812, 0, 0 } ,
-	{ 262, 6812, 0, 0 } ,
-	{ 263, 6812, 0, 0 } ,
-	{ 264, 6812, 0, 0 } ,
-	{ 265, 6812, 0, 0 } ,
-	{ 266, 6812, 0, 0 } ,
-	{ 267, 6812, 0, 0 } ,
-	{ 268, 6812, 0, 0 } ,
-	{ 269, 6812, 0, 0 } ,
-	{ 270, 6812, 0, 0 } ,
-	{ 271, 6812, 0, 0 } ,
-	{ 272, 6812, 0, 0 } ,
-	{ 273, 6812, 0, 0 } ,
-	{ 274, 6812, 0, 0 } ,
-	{ 275, 6812, 0, 0 } ,
-	{ 276, 6812, 0, 0 } ,
-	{ 277, 6812, 0, 0 } ,
-	{ 30, 6812, 0, 0 } ,
-	{ 257, 6821, offsetof(CustomType_t3150, ___Code_0), 0 } ,
-	{ 278, 6822, offsetof(CustomType_t3150, ___Type_1), 0 } ,
-	{ 279, 6823, offsetof(CustomType_t3150, ___SerializeFunction_2), 0 } ,
-	{ 280, 6824, offsetof(CustomType_t3150, ___DeserializeFunction_3), 0 } ,
-	{ 281, 6825, offsetof(CustomType_t3150, ___SerializeStreamFunction_4), 0 } ,
-	{ 282, 6826, offsetof(CustomType_t3150, ___DeserializeStreamFunction_5), 0 } ,
-	{ 283, 6830, offsetof(Protocol_t657_StaticFields, ___TypeDict_0), 0 } ,
-	{ 284, 6831, offsetof(Protocol_t657_StaticFields, ___CodeDict_1), 0 } ,
-	{ 285, 2801, offsetof(Protocol_t657_StaticFields, ___memShort_2), 0 } ,
-	{ 286, 6832, offsetof(Protocol_t657_StaticFields, ___memLongBlock_3), 0 } ,
-	{ 287, 2801, offsetof(Protocol_t657_StaticFields, ___memLongBlockBytes_4), 0 } ,
-	{ 288, 6833, offsetof(Protocol_t657_StaticFields, ___memFloatBlock_5), 0 } ,
-	{ 289, 2801, offsetof(Protocol_t657_StaticFields, ___memFloatBlockBytes_6), 0 } ,
-	{ 290, 6834, offsetof(Protocol_t657_StaticFields, ___memDoubleBlock_7), 0 } ,
-	{ 291, 2801, offsetof(Protocol_t657_StaticFields, ___memDoubleBlockBytes_8), 0 } ,
-	{ 292, 2801, offsetof(Protocol_t657_StaticFields, ___memInteger_9), 0 } ,
-	{ 293, 2801, offsetof(Protocol_t657_StaticFields, ___memLong_10), 0 } ,
-	{ 294, 2801, offsetof(Protocol_t657_StaticFields, ___memFloat_11), 0 } ,
-	{ 295, 2801, offsetof(Protocol_t657_StaticFields, ___memDeserialize_12), 0 } ,
-	{ 296, 2801, offsetof(Protocol_t657_StaticFields, ___memDouble_13), 0 } ,
-	{ 252, 5914, offsetof(SocketUdpNativeDynamic_t3154, ___pConnectionHandler_6), 0 } ,
-	{ 297, 3524, offsetof(SocketUdpNativeDynamic_t3154_StaticFields, ___syncer_7), 0 } ,
-	{ 252, 5914, offsetof(SocketUdpNativeStatic_t662, ___pConnectionHandler_6), 0 } ,
-	{ 297, 3524, offsetof(SocketUdpNativeStatic_t662_StaticFields, ___syncer_7), 0 } ,
-	{ 298, 6840, offsetof(ThreadSafeRandom_t3156_StaticFields, ____r_0), 0 } ,
-	{ 299, 6842, offsetof(U3CU3Ec__DisplayClass1_t3157, ___myThread_0), 0 } ,
-	{ 300, 536, offsetof(U3CU3Ec__DisplayClass1_t3157, ___millisecondsInterval_1), 0 } ,
-	{ 301, 6844, offsetof(SupportClass_t659_StaticFields, ___IntegerMilliseconds_0), 0 } ,
-	{ 302, 6845, offsetof(SupportClass_t659_StaticFields, ___CSU24U3CU3E9__CachedAnonymousMethodDelegate4_1), 54 } ,
-	{ 303, 44, offsetof(TrafficStatsGameLevel_t690, ___timeOfLastDispatchCall_0), 0 } ,
-	{ 304, 44, offsetof(TrafficStatsGameLevel_t690, ___timeOfLastSendCall_1), 0 } ,
-	{ 305, 44, offsetof(TrafficStatsGameLevel_t690, ___U3COperationByteCountU3Ek__BackingField_2), 57 } ,
-	{ 306, 44, offsetof(TrafficStatsGameLevel_t690, ___U3COperationCountU3Ek__BackingField_3), 58 } ,
-	{ 307, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CResultByteCountU3Ek__BackingField_4), 59 } ,
-	{ 308, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CResultCountU3Ek__BackingField_5), 60 } ,
-	{ 309, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CEventByteCountU3Ek__BackingField_6), 61 } ,
-	{ 310, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CEventCountU3Ek__BackingField_7), 62 } ,
-	{ 311, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CLongestOpResponseCallbackU3Ek__BackingField_8), 63 } ,
-	{ 312, 1342, offsetof(TrafficStatsGameLevel_t690, ___U3CLongestOpResponseCallbackOpCodeU3Ek__BackingField_9), 64 } ,
-	{ 313, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CLongestEventCallbackU3Ek__BackingField_10), 65 } ,
-	{ 314, 1342, offsetof(TrafficStatsGameLevel_t690, ___U3CLongestEventCallbackCodeU3Ek__BackingField_11), 66 } ,
-	{ 315, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CLongestDeltaBetweenDispatchingU3Ek__BackingField_12), 67 } ,
-	{ 316, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CLongestDeltaBetweenSendingU3Ek__BackingField_13), 68 } ,
-	{ 317, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CDispatchIncomingCommandsCallsU3Ek__BackingField_14), 69 } ,
-	{ 318, 44, offsetof(TrafficStatsGameLevel_t690, ___U3CSendOutgoingCommandsCallsU3Ek__BackingField_15), 70 } ,
-	{ 319, 44, offsetof(TrafficStats_t692, ___U3CPackageHeaderSizeU3Ek__BackingField_0), 99 } ,
-	{ 320, 44, offsetof(TrafficStats_t692, ___U3CReliableCommandCountU3Ek__BackingField_1), 100 } ,
-	{ 321, 44, offsetof(TrafficStats_t692, ___U3CUnreliableCommandCountU3Ek__BackingField_2), 101 } ,
-	{ 322, 44, offsetof(TrafficStats_t692, ___U3CFragmentCommandCountU3Ek__BackingField_3), 102 } ,
-	{ 323, 44, offsetof(TrafficStats_t692, ___U3CControlCommandCountU3Ek__BackingField_4), 103 } ,
-	{ 324, 44, offsetof(TrafficStats_t692, ___U3CTotalPacketCountU3Ek__BackingField_5), 104 } ,
-	{ 325, 44, offsetof(TrafficStats_t692, ___U3CTotalCommandsInPacketsU3Ek__BackingField_6), 105 } ,
-	{ 326, 44, offsetof(TrafficStats_t692, ___U3CReliableCommandBytesU3Ek__BackingField_7), 106 } ,
-	{ 327, 44, offsetof(TrafficStats_t692, ___U3CUnreliableCommandBytesU3Ek__BackingField_8), 107 } ,
-	{ 328, 44, offsetof(TrafficStats_t692, ___U3CFragmentCommandBytesU3Ek__BackingField_9), 108 } ,
-	{ 329, 44, offsetof(TrafficStats_t692, ___U3CControlCommandBytesU3Ek__BackingField_10), 109 } ,
-	{ 330, 44, offsetof(TrafficStats_t692, ___U3CTimestampOfLastAckU3Ek__BackingField_11), 110 } ,
-	{ 331, 44, offsetof(TrafficStats_t692, ___U3CTimestampOfLastReliableCommandU3Ek__BackingField_12), 111 } ,
-	{ 332, 6859, offsetof(U3CPrivateImplementationDetailsU3EU7B07154D4FU2DDC8EU2D46FAU2DBBC6U2DF22AE86D94CAU7D_t3163_StaticFields, ___U24U24method0x6000237U2D1_0), 0 } ,
-	{ 333, 6860, offsetof(U3CPrivateImplementationDetailsU3EU7B07154D4FU2DDC8EU2D46FAU2DBBC6U2DF22AE86D94CAU7D_t3163_StaticFields, ___U24U24method0x600024aU2D1_1), 0 } ,
-	{ 334, 6861, offsetof(U3CPrivateImplementationDetailsU3EU7B07154D4FU2DDC8EU2D46FAU2DBBC6U2DF22AE86D94CAU7D_t3163_StaticFields, ___U24U24method0x600024aU2D2_2), 0 } ,
-	{ 335, 6862, offsetof(U3CPrivateImplementationDetailsU3EU7B07154D4FU2DDC8EU2D46FAU2DBBC6U2DF22AE86D94CAU7D_t3163_StaticFields, ___U24U24method0x600024aU2D3_3), 0 } ,
-	{ 336, 6863, offsetof(U3CPrivateImplementationDetailsU3EU7B07154D4FU2DDC8EU2D46FAU2DBBC6U2DF22AE86D94CAU7D_t3163_StaticFields, ___U24U24method0x600014fU2D1_4), 0 } ,
+	{ 254, 9419, offsetof(OperationResponse_t23, ___Parameters_3), 0 } ,
+	{ 257, 1329, offsetof(EventData_t22, ___Code_0), 0 } ,
+	{ 254, 9419, offsetof(EventData_t22, ___Parameters_1), 0 } ,
+	{ 20, 68, offsetof(GpType_t4874, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 258, 9424, 0, 0 } ,
+	{ 259, 9424, 0, 0 } ,
+	{ 260, 9424, 0, 0 } ,
+	{ 261, 9424, 0, 0 } ,
+	{ 262, 9424, 0, 0 } ,
+	{ 263, 9424, 0, 0 } ,
+	{ 264, 9424, 0, 0 } ,
+	{ 265, 9424, 0, 0 } ,
+	{ 266, 9424, 0, 0 } ,
+	{ 267, 9424, 0, 0 } ,
+	{ 268, 9424, 0, 0 } ,
+	{ 269, 9424, 0, 0 } ,
+	{ 270, 9424, 0, 0 } ,
+	{ 271, 9424, 0, 0 } ,
+	{ 272, 9424, 0, 0 } ,
+	{ 273, 9424, 0, 0 } ,
+	{ 274, 9424, 0, 0 } ,
+	{ 275, 9424, 0, 0 } ,
+	{ 276, 9424, 0, 0 } ,
+	{ 277, 9424, 0, 0 } ,
+	{ 30, 9424, 0, 0 } ,
+	{ 257, 9433, offsetof(CustomType_t4877, ___Code_0), 0 } ,
+	{ 278, 9434, offsetof(CustomType_t4877, ___Type_1), 0 } ,
+	{ 279, 9435, offsetof(CustomType_t4877, ___SerializeFunction_2), 0 } ,
+	{ 280, 9436, offsetof(CustomType_t4877, ___DeserializeFunction_3), 0 } ,
+	{ 281, 9437, offsetof(CustomType_t4877, ___SerializeStreamFunction_4), 0 } ,
+	{ 282, 9438, offsetof(CustomType_t4877, ___DeserializeStreamFunction_5), 0 } ,
+	{ 283, 9442, offsetof(Protocol_t676_StaticFields, ___TypeDict_0), 0 } ,
+	{ 284, 9443, offsetof(Protocol_t676_StaticFields, ___CodeDict_1), 0 } ,
+	{ 285, 6937, offsetof(Protocol_t676_StaticFields, ___memShort_2), 0 } ,
+	{ 286, 9444, offsetof(Protocol_t676_StaticFields, ___memLongBlock_3), 0 } ,
+	{ 287, 6937, offsetof(Protocol_t676_StaticFields, ___memLongBlockBytes_4), 0 } ,
+	{ 288, 9445, offsetof(Protocol_t676_StaticFields, ___memFloatBlock_5), 0 } ,
+	{ 289, 6937, offsetof(Protocol_t676_StaticFields, ___memFloatBlockBytes_6), 0 } ,
+	{ 290, 9446, offsetof(Protocol_t676_StaticFields, ___memDoubleBlock_7), 0 } ,
+	{ 291, 6937, offsetof(Protocol_t676_StaticFields, ___memDoubleBlockBytes_8), 0 } ,
+	{ 292, 6937, offsetof(Protocol_t676_StaticFields, ___memInteger_9), 0 } ,
+	{ 293, 6937, offsetof(Protocol_t676_StaticFields, ___memLong_10), 0 } ,
+	{ 294, 6937, offsetof(Protocol_t676_StaticFields, ___memFloat_11), 0 } ,
+	{ 295, 6937, offsetof(Protocol_t676_StaticFields, ___memDeserialize_12), 0 } ,
+	{ 296, 6937, offsetof(Protocol_t676_StaticFields, ___memDouble_13), 0 } ,
+	{ 252, 7487, offsetof(SocketTcp_t4881, ___sock_6), 0 } ,
+	{ 297, 4615, offsetof(SocketTcp_t4881, ___syncer_7), 0 } ,
+	{ 252, 7487, offsetof(SocketUdp_t4882, ___sock_6), 0 } ,
+	{ 297, 4615, offsetof(SocketUdp_t4882, ___syncer_7), 0 } ,
+	{ 298, 9451, offsetof(ThreadSafeRandom_t4884_StaticFields, ____r_0), 0 } ,
+	{ 299, 9453, offsetof(U3CU3Ec__DisplayClass1_t4885, ___myThread_0), 0 } ,
+	{ 300, 546, offsetof(U3CU3Ec__DisplayClass1_t4885, ___millisecondsInterval_1), 0 } ,
+	{ 301, 9455, offsetof(SupportClass_t678_StaticFields, ___IntegerMilliseconds_0), 0 } ,
+	{ 302, 9456, offsetof(SupportClass_t678_StaticFields, ___CSU24U3CU3E9__CachedAnonymousMethodDelegate4_1), 54 } ,
+	{ 36, 9458, offsetof(U3CU3Ec__DisplayClass3_t4887, ___U3CU3E4__this_0), 0 } ,
+	{ 3, 4331, offsetof(U3CU3Ec__DisplayClass3_t4887, ___data_1), 0 } ,
+	{ 303, 9460, offsetof(TPeer_t4886, ___incomingList_66), 0 } ,
+	{ 304, 9461, offsetof(TPeer_t4886, ___outgoingStream_67), 0 } ,
+	{ 305, 44, offsetof(TPeer_t4886, ___lastPingResult_68), 0 } ,
+	{ 306, 6971, offsetof(TPeer_t4886, ___pingRequest_69), 0 } ,
+	{ 307, 9375, offsetof(TPeer_t4886_StaticFields, ___tcpFramedMessageHead_70), 0 } ,
+	{ 308, 9375, offsetof(TPeer_t4886_StaticFields, ___tcpMsgHead_71), 0 } ,
+	{ 122, 7485, offsetof(TPeer_t4886, ___messageHeader_72), 0 } ,
+	{ 309, 1311, offsetof(TPeer_t4886, ___DoFraming_73), 0 } ,
+	{ 310, 44, offsetof(TrafficStatsGameLevel_t707, ___timeOfLastDispatchCall_0), 0 } ,
+	{ 311, 44, offsetof(TrafficStatsGameLevel_t707, ___timeOfLastSendCall_1), 0 } ,
+	{ 312, 44, offsetof(TrafficStatsGameLevel_t707, ___U3COperationByteCountU3Ek__BackingField_2), 58 } ,
+	{ 313, 44, offsetof(TrafficStatsGameLevel_t707, ___U3COperationCountU3Ek__BackingField_3), 59 } ,
+	{ 314, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CResultByteCountU3Ek__BackingField_4), 60 } ,
+	{ 315, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CResultCountU3Ek__BackingField_5), 61 } ,
+	{ 316, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CEventByteCountU3Ek__BackingField_6), 62 } ,
+	{ 317, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CEventCountU3Ek__BackingField_7), 63 } ,
+	{ 318, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CLongestOpResponseCallbackU3Ek__BackingField_8), 64 } ,
+	{ 319, 1352, offsetof(TrafficStatsGameLevel_t707, ___U3CLongestOpResponseCallbackOpCodeU3Ek__BackingField_9), 65 } ,
+	{ 320, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CLongestEventCallbackU3Ek__BackingField_10), 66 } ,
+	{ 321, 1352, offsetof(TrafficStatsGameLevel_t707, ___U3CLongestEventCallbackCodeU3Ek__BackingField_11), 67 } ,
+	{ 322, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CLongestDeltaBetweenDispatchingU3Ek__BackingField_12), 68 } ,
+	{ 323, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CLongestDeltaBetweenSendingU3Ek__BackingField_13), 69 } ,
+	{ 324, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CDispatchIncomingCommandsCallsU3Ek__BackingField_14), 70 } ,
+	{ 325, 44, offsetof(TrafficStatsGameLevel_t707, ___U3CSendOutgoingCommandsCallsU3Ek__BackingField_15), 71 } ,
+	{ 326, 44, offsetof(TrafficStats_t709, ___U3CPackageHeaderSizeU3Ek__BackingField_0), 100 } ,
+	{ 327, 44, offsetof(TrafficStats_t709, ___U3CReliableCommandCountU3Ek__BackingField_1), 101 } ,
+	{ 328, 44, offsetof(TrafficStats_t709, ___U3CUnreliableCommandCountU3Ek__BackingField_2), 102 } ,
+	{ 329, 44, offsetof(TrafficStats_t709, ___U3CFragmentCommandCountU3Ek__BackingField_3), 103 } ,
+	{ 330, 44, offsetof(TrafficStats_t709, ___U3CControlCommandCountU3Ek__BackingField_4), 104 } ,
+	{ 331, 44, offsetof(TrafficStats_t709, ___U3CTotalPacketCountU3Ek__BackingField_5), 105 } ,
+	{ 332, 44, offsetof(TrafficStats_t709, ___U3CTotalCommandsInPacketsU3Ek__BackingField_6), 106 } ,
+	{ 333, 44, offsetof(TrafficStats_t709, ___U3CReliableCommandBytesU3Ek__BackingField_7), 107 } ,
+	{ 334, 44, offsetof(TrafficStats_t709, ___U3CUnreliableCommandBytesU3Ek__BackingField_8), 108 } ,
+	{ 335, 44, offsetof(TrafficStats_t709, ___U3CFragmentCommandBytesU3Ek__BackingField_9), 109 } ,
+	{ 336, 44, offsetof(TrafficStats_t709, ___U3CControlCommandBytesU3Ek__BackingField_10), 110 } ,
+	{ 337, 44, offsetof(TrafficStats_t709, ___U3CTimestampOfLastAckU3Ek__BackingField_11), 111 } ,
+	{ 338, 44, offsetof(TrafficStats_t709, ___U3CTimestampOfLastReliableCommandU3Ek__BackingField_12), 112 } ,
+	{ 339, 9477, offsetof(U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t4895_StaticFields, ___U24U24method0x6000251U2D1_0), 0 } ,
+	{ 340, 9478, offsetof(U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t4895_StaticFields, ___U24U24method0x6000264U2D1_1), 0 } ,
+	{ 341, 9479, offsetof(U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t4895_StaticFields, ___U24U24method0x6000264U2D2_2), 0 } ,
+	{ 342, 9480, offsetof(U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t4895_StaticFields, ___U24U24method0x6000264U2D3_3), 0 } ,
+	{ 343, 9481, offsetof(U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t4895_StaticFields, ___U24U24method0x6000159U2D1_4), 0 } ,
+	{ 344, 9482, offsetof(U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t4895_StaticFields, ___U24U24method0x600026eU2D1_5), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-static const Il2CppFieldDefaultValue s_DefaultValues[119] = 
+static const Il2CppFieldDefaultValue s_DefaultValues[120] = 
 {
 	{ 1, 14, 0 },
 	{ 21, 8, 4 },
@@ -1084,34 +1110,35 @@ static const Il2CppFieldDefaultValue s_DefaultValues[119] =
 	{ 263, 8, 247 },
 	{ 264, 8, 248 },
 	{ 265, 15, 249 },
-	{ 287, 8, 250 },
-	{ 288, 8, 251 },
-	{ 289, 8, 252 },
-	{ 290, 8, 253 },
-	{ 291, 8, 254 },
-	{ 292, 8, 255 },
-	{ 293, 8, 256 },
-	{ 294, 8, 257 },
-	{ 295, 8, 258 },
-	{ 296, 8, 259 },
-	{ 297, 8, 260 },
-	{ 298, 8, 261 },
-	{ 299, 8, 262 },
-	{ 300, 8, 263 },
-	{ 301, 8, 264 },
-	{ 302, 8, 265 },
-	{ 303, 8, 266 },
-	{ 304, 8, 267 },
-	{ 305, 8, 268 },
-	{ 306, 8, 269 },
-	{ 307, 8, 270 },
-	{ 366, 6849, 271 },
-	{ 367, 6851, 1483 },
-	{ 368, 6853, 1579 },
-	{ 369, 6855, 1707 },
-	{ 370, 6857, 1899 },
+	{ 286, 8, 250 },
+	{ 287, 8, 251 },
+	{ 288, 8, 252 },
+	{ 289, 8, 253 },
+	{ 290, 8, 254 },
+	{ 291, 8, 255 },
+	{ 292, 8, 256 },
+	{ 293, 8, 257 },
+	{ 294, 8, 258 },
+	{ 295, 8, 259 },
+	{ 296, 8, 260 },
+	{ 297, 8, 261 },
+	{ 298, 8, 262 },
+	{ 299, 8, 263 },
+	{ 300, 8, 264 },
+	{ 301, 8, 265 },
+	{ 302, 8, 266 },
+	{ 303, 8, 267 },
+	{ 304, 8, 268 },
+	{ 305, 8, 269 },
+	{ 306, 8, 270 },
+	{ 375, 9465, 271 },
+	{ 376, 9467, 1483 },
+	{ 377, 9469, 1579 },
+	{ 378, 9471, 1707 },
+	{ 379, 9473, 1899 },
+	{ 380, 9475, 1912 },
 };
-static const uint8_t s_DefaultValueDataTable[1912] = 
+static const uint8_t s_DefaultValueDataTable[1921] = 
 {
 	0x46,
 	0x00,
@@ -1362,7 +1389,7 @@ static const uint8_t s_DefaultValueDataTable[1912] =
 	0x02,
 	0x03,
 	0x05,
-	0x01,
+	0x00,
 	0x00,
 	0x79,
 	0x6F,
@@ -3025,23 +3052,32 @@ static const uint8_t s_DefaultValueDataTable[1912] =
 	0x7D,
 	0x7D,
 	0x00,
+	0xFB,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0xF3,
+	0x02,
 };
 Il2CppImage g_Photon3Unity3D_dll_Image = 
 {
 	 "Photon3Unity3D.dll" ,
 	&g_Photon3Unity3D_Assembly,
 	g_Photon3Unity3D_Assembly_Types,
-	60,
+	62,
 	NULL,
 	s_StringTable,
-	337,
+	345,
 	s_FieldTable,
-	371,
+	381,
 	s_DefaultValues,
-	119,
+	120,
 	s_DefaultValueDataTable,
-	1912,
-	137,
+	1921,
+	138,
 	NULL,
 	g_Photon3Unity3D_Assembly_AttributeGenerators,
 };

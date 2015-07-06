@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // PixelCrushers.DialogueSystem.ChatMapper.Assets
-struct Assets_t828;
+struct Assets_t1153;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject
-struct  ChatMapperProject_t550  : public Object_t
+struct  ChatMapperProject_t568  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::Title
 	String_t* ___Title_0;
@@ -15,24 +15,34 @@ struct  ChatMapperProject_t550  : public Object_t
 	String_t* ___Version_1;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::Author
 	String_t* ___Author_2;
+	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisColor1Label
+	String_t* ___EmphasisColor1Label_3;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisColor1
-	String_t* ___EmphasisColor1_3;
+	String_t* ___EmphasisColor1_4;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisStyle1
-	String_t* ___EmphasisStyle1_4;
+	String_t* ___EmphasisStyle1_5;
+	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisColor2Label
+	String_t* ___EmphasisColor2Label_6;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisColor2
-	String_t* ___EmphasisColor2_5;
+	String_t* ___EmphasisColor2_7;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisStyle2
-	String_t* ___EmphasisStyle2_6;
+	String_t* ___EmphasisStyle2_8;
+	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisColor3Label
+	String_t* ___EmphasisColor3Label_9;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisColor3
-	String_t* ___EmphasisColor3_7;
+	String_t* ___EmphasisColor3_10;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisStyle3
-	String_t* ___EmphasisStyle3_8;
+	String_t* ___EmphasisStyle3_11;
+	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisColor4Label
+	String_t* ___EmphasisColor4Label_12;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisColor4
-	String_t* ___EmphasisColor4_9;
+	String_t* ___EmphasisColor4_13;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::EmphasisStyle4
-	String_t* ___EmphasisStyle4_10;
+	String_t* ___EmphasisStyle4_14;
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::Description
-	String_t* ___Description_11;
+	String_t* ___Description_15;
+	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::UserScript
+	String_t* ___UserScript_16;
 	// PixelCrushers.DialogueSystem.ChatMapper.Assets PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::Assets
-	Assets_t828 * ___Assets_12;
+	Assets_t1153 * ___Assets_17;
 };

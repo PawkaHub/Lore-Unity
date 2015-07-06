@@ -7,7 +7,7 @@ struct AudioClip_t261;
 // PixelCrushers.DialogueSystem.UnityGUI.GUIEffect
 #include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_GUIEffe.h"
 // PixelCrushers.DialogueSystem.UnityGUI.TypewriterEffect
-struct  TypewriterEffect_t1039  : public GUIEffect_t1037
+struct  TypewriterEffect_t1363  : public GUIEffect_t1361
 {
 	// System.Single PixelCrushers.DialogueSystem.UnityGUI.TypewriterEffect::charactersPerSecond
 	float ___charactersPerSecond_9;

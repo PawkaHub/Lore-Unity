@@ -5,7 +5,7 @@ struct Int32U5BU5D_t119;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Text.RegularExpressions.Interpreter/IntStack
-struct  IntStack_t3711 
+struct  IntStack_t4158 
 {
 	// System.Int32[] System.Text.RegularExpressions.Interpreter/IntStack::values
 	Int32U5BU5D_t119* ___values_0;
@@ -13,7 +13,7 @@ struct  IntStack_t3711
 	int32_t ___count_1;
 };
 // Native definition for marshalling of: System.Text.RegularExpressions.Interpreter/IntStack
-struct IntStack_t3711_marshaled
+struct IntStack_t4158_marshaled
 {
 	int32_t* ___values_0;
 	int32_t ___count_1;

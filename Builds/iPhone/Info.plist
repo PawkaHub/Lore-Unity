@@ -4,7 +4,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>Lore</string>
+    <string>guisystem</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIconFiles</key>
@@ -18,7 +18,7 @@
       <string>AppIcon76x76~ipad.png</string>
     </array>
     <key>CFBundleIdentifier</key>
-    <string>com.ParkerTech.${PRODUCT_NAME}</string>
+    <string>com.Company.${PRODUCT_NAME}</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -51,9 +51,29 @@
         <key>UILaunchImageMinimumOSVersion</key>
         <string>7.0</string>
         <key>UILaunchImageName</key>
+        <string>LaunchImage-700</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Landscape</string>
+        <key>UILaunchImageSize</key>
+        <string>{320, 480}</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+        <key>UILaunchImageName</key>
         <string>LaunchImage-700-568h</string>
         <key>UILaunchImageOrientation</key>
         <string>Portrait</string>
+        <key>UILaunchImageSize</key>
+        <string>{320, 568}</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+        <key>UILaunchImageName</key>
+        <string>LaunchImage-700-568h</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Landscape</string>
         <key>UILaunchImageSize</key>
         <string>{320, 568}</string>
       </dict>
@@ -64,6 +84,16 @@
         <string>LaunchImage-800-667h</string>
         <key>UILaunchImageOrientation</key>
         <string>Portrait</string>
+        <key>UILaunchImageSize</key>
+        <string>{375, 667}</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageName</key>
+        <string>LaunchImage-800-667h</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Landscape</string>
         <key>UILaunchImageSize</key>
         <string>{375, 667}</string>
       </dict>
@@ -125,6 +155,9 @@
     <key>UISupportedInterfaceOrientations</key>
     <array>
       <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
     </array>
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>

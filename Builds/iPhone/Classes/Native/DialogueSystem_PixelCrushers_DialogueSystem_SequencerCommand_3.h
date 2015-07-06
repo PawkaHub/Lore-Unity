@@ -7,7 +7,7 @@ struct Animator_t214;
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
 #include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimatorLayer
-struct  SequencerCommandAnimatorLayer_t893  : public SequencerCommand_t209
+struct  SequencerCommandAnimatorLayer_t1218  : public SequencerCommand_t209
 {
 	// System.Int32 PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimatorLayer::layerIndex
 	int32_t ___layerIndex_7;

@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<System.Exception>
-struct Predicate_1_t5782;
+// System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>
+struct Predicate_1_t6649;
 // System.Object
 struct Object_t;
-// System.Exception
-struct Exception_t468;
+// PixelCrushers.DialogueSystem.ChatMapper.Conversation
+struct Conversation_t1164;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -17,13 +17,13 @@ struct AsyncCallback_t449;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Predicate`1<System.Exception>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_17MethodDeclarations.h"
-#define Predicate_1__ctor_m36109(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5782 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m22656_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<System.Exception>::Invoke(T)
-#define Predicate_1_Invoke_m36110(__this, ___obj, method) (( bool (*) (Predicate_1_t5782 *, Exception_t468 *, const MethodInfo*))Predicate_1_Invoke_m22657_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<System.Exception>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m36111(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5782 *, Exception_t468 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m22658_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<System.Exception>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m36112(__this, ___result, method) (( bool (*) (Predicate_1_t5782 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m22659_gshared)(__this, ___result, method)
+#define Predicate_1__ctor_m35090(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6649 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m23999_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>::Invoke(T)
+#define Predicate_1_Invoke_m35091(__this, ___obj, method) (( bool (*) (Predicate_1_t6649 *, Conversation_t1164 *, const MethodInfo*))Predicate_1_Invoke_m24000_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m35092(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6649 *, Conversation_t1164 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m24001_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m35093(__this, ___result, method) (( bool (*) (Predicate_1_t6649 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m24002_gshared)(__this, ___result, method)

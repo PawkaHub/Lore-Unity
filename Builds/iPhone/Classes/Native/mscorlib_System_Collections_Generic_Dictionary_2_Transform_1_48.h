@@ -6,11 +6,13 @@ struct Object_t;
 struct IAsyncResult_t448;
 // System.AsyncCallback
 struct AsyncCallback_t449;
-// System.Int64
-#include "mscorlib_System_Int64.h"
+// System.Collections.DictionaryEntry
+#include "mscorlib_System_Collections_DictionaryEntry.h"
+// System.Single
+#include "mscorlib_System_Single.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Object,System.Int64>
-struct  Transform_1_t5579  : public MulticastDelegate_t451
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Single,System.Collections.DictionaryEntry>
+struct  Transform_1_t6681  : public MulticastDelegate_t451
 {
 };

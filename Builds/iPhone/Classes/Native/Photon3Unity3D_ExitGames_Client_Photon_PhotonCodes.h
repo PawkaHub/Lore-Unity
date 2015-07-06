@@ -3,10 +3,10 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.PhotonCodes
-struct  PhotonCodes_t3145  : public Object_t
+struct  PhotonCodes_t4872  : public Object_t
 {
 };
-struct PhotonCodes_t3145_StaticFields{
+struct PhotonCodes_t4872_StaticFields{
 	// System.Byte ExitGames.Client.Photon.PhotonCodes::ClientKey
 	uint8_t ___ClientKey_0;
 	// System.Byte ExitGames.Client.Photon.PhotonCodes::ModeKey

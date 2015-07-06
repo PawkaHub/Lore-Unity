@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAudioWWW/State
-struct State_t897;
+struct State_t1222;
 

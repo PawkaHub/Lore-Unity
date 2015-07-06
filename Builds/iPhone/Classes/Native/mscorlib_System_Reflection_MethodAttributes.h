@@ -5,7 +5,7 @@
 // System.Reflection.MethodAttributes
 #include "mscorlib_System_Reflection_MethodAttributes.h"
 // System.Reflection.MethodAttributes
-struct  MethodAttributes_t4028 
+struct  MethodAttributes_t5118 
 {
 	// System.Int32 System.Reflection.MethodAttributes::value__
 	int32_t ___value___1;

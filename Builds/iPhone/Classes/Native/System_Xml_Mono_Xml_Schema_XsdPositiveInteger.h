@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdNonNegativeInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNonNegativeInteger.h"
 // Mono.Xml.Schema.XsdPositiveInteger
-struct  XsdPositiveInteger_t2275  : public XsdNonNegativeInteger_t2270
+struct  XsdPositiveInteger_t3659  : public XsdNonNegativeInteger_t3654
 {
 };

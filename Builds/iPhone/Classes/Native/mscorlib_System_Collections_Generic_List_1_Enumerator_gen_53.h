@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Color32>
-struct List_1_t577;
+// System.Collections.Generic.List`1<ParticlePlayground.PlaygroundEventC>
+struct List_1_t185;
+// ParticlePlayground.PlaygroundEventC
+struct PlaygroundEventC_t127;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// UnityEngine.Color32
-#include "UnityEngine_UnityEngine_Color32.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>
-struct  Enumerator_t5039 
+// System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundEventC>
+struct  Enumerator_t6117 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::l
-	List_1_t577 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundEventC>::l
+	List_1_t185 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundEventC>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundEventC>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::current
-	Color32_t89  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundEventC>::current
+	PlaygroundEventC_t127 * ___current_3;
 };

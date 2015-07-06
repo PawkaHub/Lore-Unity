@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.DatabaseMerger/ConflictingIDRule
-struct ConflictingIDRule_t848;
+struct ConflictingIDRule_t1173;
 

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.ChatMapper.Location[]
-struct LocationU5BU5D_t5407;
+// PixelCrushers.DialogueSystem.Conversation[]
+struct ConversationU5BU5D_t6571;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Location>
-struct  List_1_t831  : public Object_t
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>
+struct  List_1_t1141  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Location>::_items
-	LocationU5BU5D_t5407* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Location>::_size
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>::_items
+	ConversationU5BU5D_t6571* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Location>::_version
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>::_version
 	int32_t ____version_3;
 };
-struct List_1_t831_StaticFields{
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Location>::EmptyArray
-	LocationU5BU5D_t5407* ___EmptyArray_4;
+struct List_1_t1141_StaticFields{
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>::EmptyArray
+	ConversationU5BU5D_t6571* ___EmptyArray_4;
 };

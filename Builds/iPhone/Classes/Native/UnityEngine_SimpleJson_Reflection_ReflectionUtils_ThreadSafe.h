@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t2852;
+struct ConstructorDelegate_t4587;
 // System.Type
 struct Type_t;
 // System.IAsyncResult
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct  ThreadSafeDictionaryValueFactory_2_t2952  : public MulticastDelegate_t451
+struct  ThreadSafeDictionaryValueFactory_2_t4683  : public MulticastDelegate_t451
 {
 };

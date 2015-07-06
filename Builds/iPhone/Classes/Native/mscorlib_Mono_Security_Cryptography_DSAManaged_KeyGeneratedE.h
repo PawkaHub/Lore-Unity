@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.EventArgs
-struct EventArgs_t877;
+struct EventArgs_t1202;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler
-struct  KeyGeneratedEventHandler_t3883  : public MulticastDelegate_t451
+struct  KeyGeneratedEventHandler_t4973  : public MulticastDelegate_t451
 {
 };

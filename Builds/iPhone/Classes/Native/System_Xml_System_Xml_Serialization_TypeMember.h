@@ -7,7 +7,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Serialization.TypeMember
-struct  TypeMember_t2332  : public Object_t
+struct  TypeMember_t3717  : public Object_t
 {
 	// System.Type System.Xml.Serialization.TypeMember::type
 	Type_t * ___type_0;

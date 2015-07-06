@@ -6,11 +6,11 @@ struct IAsyncResult_t448;
 struct AsyncCallback_t449;
 // System.Object
 struct Object_t;
-// System.Char
-#include "mscorlib_System_Char.h"
+// System.Boolean
+#include "mscorlib_System_Boolean.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<System.Char>
-struct  Comparison_1_t6038  : public MulticastDelegate_t451
+// System.Comparison`1<System.Boolean>
+struct  Comparison_1_t7727  : public MulticastDelegate_t451
 {
 };

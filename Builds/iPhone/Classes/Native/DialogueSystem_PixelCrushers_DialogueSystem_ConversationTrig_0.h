@@ -7,7 +7,7 @@ struct Transform_t54;
 // PixelCrushers.DialogueSystem.DialogueTriggerEvent
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTriggerE.h"
 // PixelCrushers.DialogueSystem.ConversationTrigger
-struct  ConversationTrigger_t1008  : public ConversationStarter_t1001
+struct  ConversationTrigger_t1332  : public ConversationStarter_t1325
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.ConversationTrigger::actor
 	Transform_t54 * ___actor_11;

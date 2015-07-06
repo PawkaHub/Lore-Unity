@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int64>
-struct Dictionary_2_t2821;
+struct Dictionary_2_t4556;
 // UnityEngine.Networking.Match.Request
 #include "UnityEngine_UnityEngine_Networking_Match_Request.h"
 // UnityEngine.Networking.Match.CreateMatchRequest
-struct  CreateMatchRequest_t2822  : public Request_t2817
+struct  CreateMatchRequest_t4557  : public Request_t4552
 {
 	// System.String UnityEngine.Networking.Match.CreateMatchRequest::<name>k__BackingField
 	String_t* ___U3CnameU3Ek__BackingField_4;
@@ -18,5 +18,5 @@ struct  CreateMatchRequest_t2822  : public Request_t2817
 	// System.String UnityEngine.Networking.Match.CreateMatchRequest::<password>k__BackingField
 	String_t* ___U3CpasswordU3Ek__BackingField_7;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int64> UnityEngine.Networking.Match.CreateMatchRequest::<matchAttributes>k__BackingField
-	Dictionary_2_t2821 * ___U3CmatchAttributesU3Ek__BackingField_8;
+	Dictionary_2_t4556 * ___U3CmatchAttributesU3Ek__BackingField_8;
 };

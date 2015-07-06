@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.String
-struct String_t;
-// Mono.Xml.DTDNode
-struct DTDNode_t2423;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>
-struct  KeyValuePair_2_t2427 
+// System.DateTime
+#include "mscorlib_System_DateTime.h"
+// System.TimeZoneInfo/TimeType
+#include "System_Core_System_TimeZoneInfo_TimeType.h"
+// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>
+struct  KeyValuePair_2_t3078 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::key
-	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::value
-	DTDNode_t2423 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::key
+	DateTime_t1705  ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::value
+	TimeType_t3051  ___value_1;
 };

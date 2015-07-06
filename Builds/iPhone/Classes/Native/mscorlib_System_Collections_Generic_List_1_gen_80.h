@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.RectTransform[]
-struct RectTransformU5BU5D_t5946;
+// System.Exception[]
+struct ExceptionU5BU5D_t9111;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct  List_1_t2110  : public Object_t
+// System.Collections.Generic.List`1<System.Exception>
+struct  List_1_t2479  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::_items
-	RectTransformU5BU5D_t5946* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_size
+	// T[] System.Collections.Generic.List`1<System.Exception>::_items
+	ExceptionU5BU5D_t9111* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Exception>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2110_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::EmptyArray
-	RectTransformU5BU5D_t5946* ___EmptyArray_4;
+struct List_1_t2479_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Exception>::EmptyArray
+	ExceptionU5BU5D_t9111* ___EmptyArray_4;
 };

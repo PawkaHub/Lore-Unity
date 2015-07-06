@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.ReadState
-struct ReadState_t2451;
+struct ReadState_t3837;
 

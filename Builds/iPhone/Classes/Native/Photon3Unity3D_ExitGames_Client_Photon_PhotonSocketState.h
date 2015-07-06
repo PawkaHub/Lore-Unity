@@ -5,7 +5,7 @@
 // ExitGames.Client.Photon.PhotonSocketState
 #include "Photon3Unity3D_ExitGames_Client_Photon_PhotonSocketState.h"
 // ExitGames.Client.Photon.PhotonSocketState
-struct  PhotonSocketState_t3139 
+struct  PhotonSocketState_t4866 
 {
 	// System.Int32 ExitGames.Client.Photon.PhotonSocketState::value__
 	int32_t ___value___1;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // <PrivateImplementationDetails>
-struct U3CPrivateImplementationDetailsU3E_t4361;
+struct U3CPrivateImplementationDetailsU3E_t5452;
 

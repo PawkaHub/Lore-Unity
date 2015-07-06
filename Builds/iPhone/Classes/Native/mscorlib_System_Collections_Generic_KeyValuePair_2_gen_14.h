@@ -7,7 +7,7 @@ struct ChatChannel_t3;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,ExitGames.Client.Photon.Chat.ChatChannel>
-struct  KeyValuePair_2_t4907 
+struct  KeyValuePair_2_t5995 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,ExitGames.Client.Photon.Chat.ChatChannel>::key
 	String_t* ___key_0;

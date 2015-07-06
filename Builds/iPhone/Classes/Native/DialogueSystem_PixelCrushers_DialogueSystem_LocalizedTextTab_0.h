@@ -7,7 +7,7 @@ struct List_1_t1;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField
-struct  LocalizedTextField_t745  : public Object_t
+struct  LocalizedTextField_t1072  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField::name
 	String_t* ___name_0;

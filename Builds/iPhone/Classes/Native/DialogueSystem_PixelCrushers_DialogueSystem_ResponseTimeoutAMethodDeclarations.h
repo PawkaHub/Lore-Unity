@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.ResponseTimeoutAction
-struct ResponseTimeoutAction_t920;
+struct ResponseTimeoutAction_t1244;
 

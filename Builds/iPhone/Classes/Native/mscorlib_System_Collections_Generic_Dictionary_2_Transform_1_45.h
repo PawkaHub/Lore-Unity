@@ -10,11 +10,9 @@ struct AsyncCallback_t449;
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.Single
-#include "mscorlib_System_Single.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Single,System.Collections.DictionaryEntry>
-struct  Transform_1_t5446  : public MulticastDelegate_t451
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.String,System.Collections.DictionaryEntry>
+struct  Transform_1_t6677  : public MulticastDelegate_t451
 {
 };

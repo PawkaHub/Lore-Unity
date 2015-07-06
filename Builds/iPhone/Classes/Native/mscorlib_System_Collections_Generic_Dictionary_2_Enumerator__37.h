@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>
-struct Dictionary_2_t1649;
+// System.Collections.Generic.Dictionary`2<System.Int64,System.Byte>
+struct Dictionary_2_t7009;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_42.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>
-struct  Enumerator_t5758 
+// System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_44.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Byte>
+struct  Enumerator_t7012 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>::dictionary
-	Dictionary_2_t1649 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Byte>::dictionary
+	Dictionary_2_t7009 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Byte>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Byte>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>>::current
-	KeyValuePair_2_t5755  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Byte>::current
+	KeyValuePair_2_t7006  ___current_3;
 };

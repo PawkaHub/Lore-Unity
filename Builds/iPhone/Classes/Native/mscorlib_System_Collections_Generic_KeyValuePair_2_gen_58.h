@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Type
-struct Type_t;
-// System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct IDictionary_2_t2935;
+// System.String
+struct String_t;
+// Parse.ParseFile
+struct ParseFile_t1574;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
-struct  KeyValuePair_2_t6203 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>
+struct  KeyValuePair_2_t7928 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::key
-	Type_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::value
-	Object_t* ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::value
+	ParseFile_t1574 * ___value_1;
 };

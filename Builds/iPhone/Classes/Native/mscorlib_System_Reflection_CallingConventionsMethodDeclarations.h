@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.CallingConventions
-struct CallingConventions_t4022;
+struct CallingConventions_t5112;
 

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<ParticlePlayground.PlaygroundGradientC>
-struct List_1_t181;
-// ParticlePlayground.PlaygroundGradientC
-struct PlaygroundGradientC_t125;
+// System.Collections.Generic.List`1<ParticlePlayground.ManipulatorPropertyC>
+struct List_1_t111;
+// ParticlePlayground.ManipulatorPropertyC
+struct ManipulatorPropertyC_t110;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundGradientC>
-struct  Enumerator_t5071 
+// System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorPropertyC>
+struct  Enumerator_t6145 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundGradientC>::l
-	List_1_t181 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundGradientC>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorPropertyC>::l
+	List_1_t111 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorPropertyC>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundGradientC>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorPropertyC>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundGradientC>::current
-	PlaygroundGradientC_t125 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorPropertyC>::current
+	ManipulatorPropertyC_t110 * ___current_3;
 };

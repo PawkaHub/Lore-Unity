@@ -5,44 +5,44 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskCompletionSource`1<System.Int32>
-struct TaskCompletionSource_1_t1521;
+struct TaskCompletionSource_1_t1674;
 // System.Threading.Tasks.Task`1<System.Int32>
-struct Task_1_t1543;
+struct Task_1_t1701;
 // System.AggregateException
-struct AggregateException_t1516;
+struct AggregateException_t1669;
 // System.Exception
 struct Exception_t468;
 
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::.ctor()
-extern "C" void TaskCompletionSource_1__ctor_m7329_gshared (TaskCompletionSource_1_t1521 * __this, const MethodInfo* method);
-#define TaskCompletionSource_1__ctor_m7329(__this, method) (( void (*) (TaskCompletionSource_1_t1521 *, const MethodInfo*))TaskCompletionSource_1__ctor_m7329_gshared)(__this, method)
+extern "C" void TaskCompletionSource_1__ctor_m8444_gshared (TaskCompletionSource_1_t1674 * __this, const MethodInfo* method);
+#define TaskCompletionSource_1__ctor_m8444(__this, method) (( void (*) (TaskCompletionSource_1_t1674 *, const MethodInfo*))TaskCompletionSource_1__ctor_m8444_gshared)(__this, method)
 // System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::get_Task()
-extern "C" Task_1_t1543 * TaskCompletionSource_1_get_Task_m7331_gshared (TaskCompletionSource_1_t1521 * __this, const MethodInfo* method);
-#define TaskCompletionSource_1_get_Task_m7331(__this, method) (( Task_1_t1543 * (*) (TaskCompletionSource_1_t1521 *, const MethodInfo*))TaskCompletionSource_1_get_Task_m7331_gshared)(__this, method)
+extern "C" Task_1_t1701 * TaskCompletionSource_1_get_Task_m8446_gshared (TaskCompletionSource_1_t1674 * __this, const MethodInfo* method);
+#define TaskCompletionSource_1_get_Task_m8446(__this, method) (( Task_1_t1701 * (*) (TaskCompletionSource_1_t1674 *, const MethodInfo*))TaskCompletionSource_1_get_Task_m8446_gshared)(__this, method)
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::set_Task(System.Threading.Tasks.Task`1<T>)
-extern "C" void TaskCompletionSource_1_set_Task_m33037_gshared (TaskCompletionSource_1_t1521 * __this, Task_1_t1543 * ___value, const MethodInfo* method);
-#define TaskCompletionSource_1_set_Task_m33037(__this, ___value, method) (( void (*) (TaskCompletionSource_1_t1521 *, Task_1_t1543 *, const MethodInfo*))TaskCompletionSource_1_set_Task_m33037_gshared)(__this, ___value, method)
+extern "C" void TaskCompletionSource_1_set_Task_m37024_gshared (TaskCompletionSource_1_t1674 * __this, Task_1_t1701 * ___value, const MethodInfo* method);
+#define TaskCompletionSource_1_set_Task_m37024(__this, ___value, method) (( void (*) (TaskCompletionSource_1_t1674 *, Task_1_t1701 *, const MethodInfo*))TaskCompletionSource_1_set_Task_m37024_gshared)(__this, ___value, method)
 // System.Boolean System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::TrySetResult(T)
-extern "C" bool TaskCompletionSource_1_TrySetResult_m7686_gshared (TaskCompletionSource_1_t1521 * __this, int32_t ___result, const MethodInfo* method);
-#define TaskCompletionSource_1_TrySetResult_m7686(__this, ___result, method) (( bool (*) (TaskCompletionSource_1_t1521 *, int32_t, const MethodInfo*))TaskCompletionSource_1_TrySetResult_m7686_gshared)(__this, ___result, method)
+extern "C" bool TaskCompletionSource_1_TrySetResult_m8959_gshared (TaskCompletionSource_1_t1674 * __this, int32_t ___result, const MethodInfo* method);
+#define TaskCompletionSource_1_TrySetResult_m8959(__this, ___result, method) (( bool (*) (TaskCompletionSource_1_t1674 *, int32_t, const MethodInfo*))TaskCompletionSource_1_TrySetResult_m8959_gshared)(__this, ___result, method)
 // System.Boolean System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::TrySetException(System.AggregateException)
-extern "C" bool TaskCompletionSource_1_TrySetException_m7683_gshared (TaskCompletionSource_1_t1521 * __this, AggregateException_t1516 * ___exception, const MethodInfo* method);
-#define TaskCompletionSource_1_TrySetException_m7683(__this, ___exception, method) (( bool (*) (TaskCompletionSource_1_t1521 *, AggregateException_t1516 *, const MethodInfo*))TaskCompletionSource_1_TrySetException_m7683_gshared)(__this, ___exception, method)
+extern "C" bool TaskCompletionSource_1_TrySetException_m8980_gshared (TaskCompletionSource_1_t1674 * __this, AggregateException_t1669 * ___exception, const MethodInfo* method);
+#define TaskCompletionSource_1_TrySetException_m8980(__this, ___exception, method) (( bool (*) (TaskCompletionSource_1_t1674 *, AggregateException_t1669 *, const MethodInfo*))TaskCompletionSource_1_TrySetException_m8980_gshared)(__this, ___exception, method)
 // System.Boolean System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::TrySetException(System.Exception)
-extern "C" bool TaskCompletionSource_1_TrySetException_m33038_gshared (TaskCompletionSource_1_t1521 * __this, Exception_t468 * ___exception, const MethodInfo* method);
-#define TaskCompletionSource_1_TrySetException_m33038(__this, ___exception, method) (( bool (*) (TaskCompletionSource_1_t1521 *, Exception_t468 *, const MethodInfo*))TaskCompletionSource_1_TrySetException_m33038_gshared)(__this, ___exception, method)
+extern "C" bool TaskCompletionSource_1_TrySetException_m37025_gshared (TaskCompletionSource_1_t1674 * __this, Exception_t468 * ___exception, const MethodInfo* method);
+#define TaskCompletionSource_1_TrySetException_m37025(__this, ___exception, method) (( bool (*) (TaskCompletionSource_1_t1674 *, Exception_t468 *, const MethodInfo*))TaskCompletionSource_1_TrySetException_m37025_gshared)(__this, ___exception, method)
 // System.Boolean System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::TrySetCanceled()
-extern "C" bool TaskCompletionSource_1_TrySetCanceled_m7684_gshared (TaskCompletionSource_1_t1521 * __this, const MethodInfo* method);
-#define TaskCompletionSource_1_TrySetCanceled_m7684(__this, method) (( bool (*) (TaskCompletionSource_1_t1521 *, const MethodInfo*))TaskCompletionSource_1_TrySetCanceled_m7684_gshared)(__this, method)
+extern "C" bool TaskCompletionSource_1_TrySetCanceled_m8981_gshared (TaskCompletionSource_1_t1674 * __this, const MethodInfo* method);
+#define TaskCompletionSource_1_TrySetCanceled_m8981(__this, method) (( bool (*) (TaskCompletionSource_1_t1674 *, const MethodInfo*))TaskCompletionSource_1_TrySetCanceled_m8981_gshared)(__this, method)
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::SetResult(T)
-extern "C" void TaskCompletionSource_1_SetResult_m7670_gshared (TaskCompletionSource_1_t1521 * __this, int32_t ___result, const MethodInfo* method);
-#define TaskCompletionSource_1_SetResult_m7670(__this, ___result, method) (( void (*) (TaskCompletionSource_1_t1521 *, int32_t, const MethodInfo*))TaskCompletionSource_1_SetResult_m7670_gshared)(__this, ___result, method)
+extern "C" void TaskCompletionSource_1_SetResult_m8957_gshared (TaskCompletionSource_1_t1674 * __this, int32_t ___result, const MethodInfo* method);
+#define TaskCompletionSource_1_SetResult_m8957(__this, ___result, method) (( void (*) (TaskCompletionSource_1_t1674 *, int32_t, const MethodInfo*))TaskCompletionSource_1_SetResult_m8957_gshared)(__this, ___result, method)
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::SetException(System.AggregateException)
-extern "C" void TaskCompletionSource_1_SetException_m7669_gshared (TaskCompletionSource_1_t1521 * __this, AggregateException_t1516 * ___exception, const MethodInfo* method);
-#define TaskCompletionSource_1_SetException_m7669(__this, ___exception, method) (( void (*) (TaskCompletionSource_1_t1521 *, AggregateException_t1516 *, const MethodInfo*))TaskCompletionSource_1_SetException_m7669_gshared)(__this, ___exception, method)
+extern "C" void TaskCompletionSource_1_SetException_m8956_gshared (TaskCompletionSource_1_t1674 * __this, AggregateException_t1669 * ___exception, const MethodInfo* method);
+#define TaskCompletionSource_1_SetException_m8956(__this, ___exception, method) (( void (*) (TaskCompletionSource_1_t1674 *, AggregateException_t1669 *, const MethodInfo*))TaskCompletionSource_1_SetException_m8956_gshared)(__this, ___exception, method)
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::SetException(System.Exception)
-extern "C" void TaskCompletionSource_1_SetException_m33039_gshared (TaskCompletionSource_1_t1521 * __this, Exception_t468 * ___exception, const MethodInfo* method);
-#define TaskCompletionSource_1_SetException_m33039(__this, ___exception, method) (( void (*) (TaskCompletionSource_1_t1521 *, Exception_t468 *, const MethodInfo*))TaskCompletionSource_1_SetException_m33039_gshared)(__this, ___exception, method)
+extern "C" void TaskCompletionSource_1_SetException_m37026_gshared (TaskCompletionSource_1_t1674 * __this, Exception_t468 * ___exception, const MethodInfo* method);
+#define TaskCompletionSource_1_SetException_m37026(__this, ___exception, method) (( void (*) (TaskCompletionSource_1_t1674 *, Exception_t468 *, const MethodInfo*))TaskCompletionSource_1_SetException_m37026_gshared)(__this, ___exception, method)
 // System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Int32>::SetCanceled()
-extern "C" void TaskCompletionSource_1_SetCanceled_m7330_gshared (TaskCompletionSource_1_t1521 * __this, const MethodInfo* method);
-#define TaskCompletionSource_1_SetCanceled_m7330(__this, method) (( void (*) (TaskCompletionSource_1_t1521 *, const MethodInfo*))TaskCompletionSource_1_SetCanceled_m7330_gshared)(__this, method)
+extern "C" void TaskCompletionSource_1_SetCanceled_m8445_gshared (TaskCompletionSource_1_t1674 * __this, const MethodInfo* method);
+#define TaskCompletionSource_1_SetCanceled_m8445(__this, method) (( void (*) (TaskCompletionSource_1_t1674 *, const MethodInfo*))TaskCompletionSource_1_SetCanceled_m8445_gshared)(__this, method)

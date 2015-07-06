@@ -7,7 +7,7 @@
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.LogType,UnityEngine.Color>
-struct  KeyValuePair_2_t5320 
+struct  KeyValuePair_2_t6408 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.LogType,UnityEngine.Color>::key
 	int32_t ___key_0;

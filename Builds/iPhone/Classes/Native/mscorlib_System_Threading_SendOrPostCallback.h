@@ -11,6 +11,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Threading.SendOrPostCallback
-struct  SendOrPostCallback_t1682  : public MulticastDelegate_t451
+struct  SendOrPostCallback_t2493  : public MulticastDelegate_t451
 {
 };

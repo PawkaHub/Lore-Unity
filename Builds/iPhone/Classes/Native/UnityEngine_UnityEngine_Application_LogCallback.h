@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Application/LogCallback
-struct  LogCallback_t703  : public MulticastDelegate_t451
+struct  LogCallback_t721  : public MulticastDelegate_t451
 {
 };

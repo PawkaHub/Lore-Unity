@@ -9,6 +9,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.Object>
-struct  CreateValueCallback_t5538  : public MulticastDelegate_t451
+struct  CreateValueCallback_t6766  : public MulticastDelegate_t451
 {
 };

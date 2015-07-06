@@ -9,7 +9,7 @@ struct StringU5BU5D_t20;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Globalization.NumberFormatInfo
-struct  NumberFormatInfo_t3955  : public Object_t
+struct  NumberFormatInfo_t5045  : public Object_t
 {
 	// System.Boolean System.Globalization.NumberFormatInfo::isReadOnly
 	bool ___isReadOnly_0;
@@ -88,7 +88,7 @@ struct  NumberFormatInfo_t3955  : public Object_t
 	// System.Int32 System.Globalization.NumberFormatInfo::digitSubstitution
 	int32_t ___digitSubstitution_37;
 };
-struct NumberFormatInfo_t3955_StaticFields{
+struct NumberFormatInfo_t5045_StaticFields{
 	// System.String[] System.Globalization.NumberFormatInfo::invariantNativeDigits
 	StringU5BU5D_t20* ___invariantNativeDigits_38;
 };

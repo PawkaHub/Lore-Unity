@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>
-struct List_1_t865;
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
+struct List_1_t818;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// PixelCrushers.DialogueSystem.Emphasis
-#include "DialogueSystem_PixelCrushers_DialogueSystem_Emphasis.h"
-// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>
-struct  Enumerator_t5462 
+// UnityEngine.EventSystems.RaycastResult
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>
+struct  Enumerator_t6421 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::l
-	List_1_t865 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::l
+	List_1_t818 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::current
-	Emphasis_t615  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::current
+	RaycastResult_t814  ___current_3;
 };

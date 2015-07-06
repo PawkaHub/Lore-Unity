@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction
-struct SendMessageAction_t1004;
+struct SendMessageAction_t1328;
 
 // System.Void PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction::.ctor()
-extern "C" void SendMessageAction__ctor_m4786 (SendMessageAction_t1004 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SendMessageAction__ctor_m6632 (SendMessageAction_t1328 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

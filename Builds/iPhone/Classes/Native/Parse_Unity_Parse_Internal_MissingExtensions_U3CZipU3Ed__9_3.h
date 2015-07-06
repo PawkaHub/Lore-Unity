@@ -3,15 +3,15 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t1072;
+struct IEnumerable_1_t998;
 // System.Func`3<System.Object,System.Object,System.Object>
-struct Func_3_t1610;
+struct Func_3_t1526;
 // System.Collections.Generic.IEnumerator`1<System.Object>
-struct IEnumerator_1_t718;
+struct IEnumerator_1_t744;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.MissingExtensions/<Zip>d__9`3<System.Object,System.Object,System.Object>
-struct  U3CZipU3Ed__9_3_t5555  : public Object_t
+struct  U3CZipU3Ed__9_3_t6782  : public Object_t
 {
 	// TResult Parse.Internal.MissingExtensions/<Zip>d__9`3<System.Object,System.Object,System.Object>::<>2__current
 	Object_t * ___U3CU3E2__current_0;
@@ -28,9 +28,9 @@ struct  U3CZipU3Ed__9_3_t5555  : public Object_t
 	// System.Collections.Generic.IEnumerable`1<T2> Parse.Internal.MissingExtensions/<Zip>d__9`3<System.Object,System.Object,System.Object>::<>3__list2
 	Object_t* ___U3CU3E3__list2_6;
 	// System.Func`3<T1,T2,TResult> Parse.Internal.MissingExtensions/<Zip>d__9`3<System.Object,System.Object,System.Object>::zipper
-	Func_3_t1610 * ___zipper_7;
+	Func_3_t1526 * ___zipper_7;
 	// System.Func`3<T1,T2,TResult> Parse.Internal.MissingExtensions/<Zip>d__9`3<System.Object,System.Object,System.Object>::<>3__zipper
-	Func_3_t1610 * ___U3CU3E3__zipper_8;
+	Func_3_t1526 * ___U3CU3E3__zipper_8;
 	// System.Collections.Generic.IEnumerator`1<T1> Parse.Internal.MissingExtensions/<Zip>d__9`3<System.Object,System.Object,System.Object>::<e1>5__a
 	Object_t* ___U3Ce1U3E5__a_9;
 	// System.Collections.Generic.IEnumerator`1<T2> Parse.Internal.MissingExtensions/<Zip>d__9`3<System.Object,System.Object,System.Object>::<e2>5__b

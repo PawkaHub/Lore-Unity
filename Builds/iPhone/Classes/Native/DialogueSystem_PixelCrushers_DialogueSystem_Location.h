@@ -3,6 +3,6 @@
 // PixelCrushers.DialogueSystem.Asset
 #include "DialogueSystem_PixelCrushers_DialogueSystem_Asset.h"
 // PixelCrushers.DialogueSystem.Location
-struct  Location_t826  : public Asset_t785
+struct  Location_t1151  : public Asset_t1110
 {
 };

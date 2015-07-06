@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.ArrayTypeMismatchException
-struct  ArrayTypeMismatchException_t4278  : public SystemException_t2475
+struct  ArrayTypeMismatchException_t5369  : public SystemException_t3862
 {
 };

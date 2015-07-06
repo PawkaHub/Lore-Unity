@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>
-struct Dictionary_2_t6171;
+// System.Collections.Generic.Dictionary`2<System.String,Parse.ParseObject>
+struct Dictionary_2_t1829;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_54.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.UInt64,System.Object>
-struct  Enumerator_t6177 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseObject>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_56.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseObject>
+struct  Enumerator_t7902 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.UInt64,System.Object>::dictionary
-	Dictionary_2_t6171 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.UInt64,System.Object>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseObject>::dictionary
+	Dictionary_2_t1829 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseObject>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.UInt64,System.Object>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseObject>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.UInt64,System.Object>::current
-	KeyValuePair_2_t6172  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.ParseObject>::current
+	KeyValuePair_2_t7899  ___current_3;
 };

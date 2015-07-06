@@ -41,9 +41,9 @@ struct Int32U5BU5D_t119;
 // System.Object[]
 struct ObjectU5BU5D_t21;
 // System.Reflection.ParameterInfo[]
-struct ParameterInfoU5BU5D_t561;
+struct ParameterInfoU5BU5D_t579;
 // System.Type[]
-struct TypeU5BU5D_t562;
+struct TypeU5BU5D_t580;
 // UnityEngine.GameObject
 struct GameObject_t49;
 // PhotonView
@@ -246,7 +246,7 @@ extern "C" void NetworkingPeer_SendMonoMessage_m1670 (Object_t * __this /* stati
 // System.Void NetworkingPeer::ExecuteRpc(ExitGames.Client.Photon.Hashtable,PhotonPlayer)
 extern "C" void NetworkingPeer_ExecuteRpc_m1671 (NetworkingPeer_t434 * __this, Hashtable_t436 * ___rpcData, PhotonPlayer_t432 * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean NetworkingPeer::CheckTypeMatch(System.Reflection.ParameterInfo[],System.Type[])
-extern "C" bool NetworkingPeer_CheckTypeMatch_m1672 (NetworkingPeer_t434 * __this, ParameterInfoU5BU5D_t561* ___methodParameters, TypeU5BU5D_t562* ___callParameterTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NetworkingPeer_CheckTypeMatch_m1672 (NetworkingPeer_t434 * __this, ParameterInfoU5BU5D_t579* ___methodParameters, TypeU5BU5D_t580* ___callParameterTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ExitGames.Client.Photon.Hashtable NetworkingPeer::SendInstantiate(System.String,UnityEngine.Vector3,UnityEngine.Quaternion,System.Int32,System.Int32[],System.Object[],System.Boolean)
 extern "C" Hashtable_t436 * NetworkingPeer_SendInstantiate_m1673 (NetworkingPeer_t434 * __this, String_t* ___prefabName, Vector3_t53  ___position, Quaternion_t69  ___rotation, int32_t ___group, Int32U5BU5D_t119* ___viewIDs, ObjectU5BU5D_t21* ___data, bool ___isGlobalObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject NetworkingPeer::DoInstantiate(ExitGames.Client.Photon.Hashtable,PhotonPlayer,UnityEngine.GameObject)

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<Region>
-struct Predicate_1_t5189;
+struct Predicate_1_t6277;
 // System.Object
 struct Object_t;
 // Region
@@ -20,10 +20,10 @@ struct AsyncCallback_t449;
 // System.Void System.Predicate`1<Region>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_17MethodDeclarations.h"
-#define Predicate_1__ctor_m27098(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5189 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m22656_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m28555(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6277 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m23999_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<Region>::Invoke(T)
-#define Predicate_1_Invoke_m27099(__this, ___obj, method) (( bool (*) (Predicate_1_t5189 *, Region_t443 *, const MethodInfo*))Predicate_1_Invoke_m22657_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m28556(__this, ___obj, method) (( bool (*) (Predicate_1_t6277 *, Region_t443 *, const MethodInfo*))Predicate_1_Invoke_m24000_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<Region>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m27100(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5189 *, Region_t443 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m22658_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m28557(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6277 *, Region_t443 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m24001_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<Region>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m27101(__this, ___result, method) (( bool (*) (Predicate_1_t5189 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m22659_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m28558(__this, ___result, method) (( bool (*) (Predicate_1_t6277 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m24002_gshared)(__this, ___result, method)

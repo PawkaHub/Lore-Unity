@@ -11,7 +11,7 @@ struct OnPlaygroundParticle_t83;
 // ParticlePlayground.PlaygroundEventParticle
 struct PlaygroundEventParticle_t114;
 // System.Collections.Generic.List`1<ParticlePlayground.PlaygroundEventParticle>
-struct List_1_t549;
+struct List_1_t567;
 // UnityEngine.Transform
 struct Transform_t54;
 // UnityEngine.Vector3
@@ -56,7 +56,7 @@ extern "C" PlaygroundEventParticle_t114 * ManipulatorObjectC_GetParticle_m487 (M
 // ParticlePlayground.PlaygroundEventParticle ParticlePlayground.ManipulatorObjectC::GetParticle(System.Int32,System.Int32)
 extern "C" PlaygroundEventParticle_t114 * ManipulatorObjectC_GetParticle_m488 (ManipulatorObjectC_t115 * __this, int32_t ___particleSystemId, int32_t ___particleId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<ParticlePlayground.PlaygroundEventParticle> ParticlePlayground.ManipulatorObjectC::GetParticles()
-extern "C" List_1_t549 * ManipulatorObjectC_GetParticles_m489 (ManipulatorObjectC_t115 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t567 * ManipulatorObjectC_GetParticles_m489 (ManipulatorObjectC_t115 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ParticlePlayground.ManipulatorObjectC::ContainsParticle(System.Int32,System.Int32)
 extern "C" bool ManipulatorObjectC_ContainsParticle_m490 (ManipulatorObjectC_t115 * __this, int32_t ___particleSystemId, int32_t ___particleId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ParticlePlayground.ManipulatorObjectC::IsSameId(System.Int32)

@@ -5,7 +5,7 @@
 // System.AttributeTargets
 #include "mscorlib_System_AttributeTargets.h"
 // System.AttributeTargets
-struct  AttributeTargets_t4280 
+struct  AttributeTargets_t5371 
 {
 	// System.Int32 System.AttributeTargets::value__
 	int32_t ___value___1;

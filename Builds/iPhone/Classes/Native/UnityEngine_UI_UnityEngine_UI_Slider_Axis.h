@@ -5,7 +5,7 @@
 // UnityEngine.UI.Slider/Axis
 #include "UnityEngine_UI_UnityEngine_UI_Slider_Axis.h"
 // UnityEngine.UI.Slider/Axis
-struct  Axis_t2082 
+struct  Axis_t902 
 {
 	// System.Int32 UnityEngine.UI.Slider/Axis::value__
 	int32_t ___value___1;

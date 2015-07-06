@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.ChatMapper.UserVariable[]
-struct UserVariableU5BU5D_t5417;
+// UnityEngine.Texture2D[]
+struct Texture2DU5BU5D_t565;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.UserVariable>
-struct  List_1_t833  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Texture2D>
+struct  List_1_t1108  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.UserVariable>::_items
-	UserVariableU5BU5D_t5417* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.UserVariable>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.Texture2D>::_items
+	Texture2DU5BU5D_t565* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Texture2D>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.UserVariable>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Texture2D>::_version
 	int32_t ____version_3;
 };
-struct List_1_t833_StaticFields{
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.UserVariable>::EmptyArray
-	UserVariableU5BU5D_t5417* ___EmptyArray_4;
+struct List_1_t1108_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.Texture2D>::EmptyArray
+	Texture2DU5BU5D_t565* ___EmptyArray_4;
 };

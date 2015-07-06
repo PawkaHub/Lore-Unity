@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // ExitGames.Client.Photon.PeerBase
-struct PeerBase_t3125;
+struct PeerBase_t4852;
 // System.Threading.Thread
-struct Thread_t1597;
+struct Thread_t1801;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t1270;
+struct ManualResetEvent_t3076;
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.NetworkSimulationSet
-struct  NetworkSimulationSet_t686  : public Object_t
+struct  NetworkSimulationSet_t703  : public Object_t
 {
 	// System.Boolean ExitGames.Client.Photon.NetworkSimulationSet::isSimulationEnabled
 	bool ___isSimulationEnabled_0;
@@ -26,11 +26,11 @@ struct  NetworkSimulationSet_t686  : public Object_t
 	// System.Int32 ExitGames.Client.Photon.NetworkSimulationSet::incomingLossPercentage
 	int32_t ___incomingLossPercentage_6;
 	// ExitGames.Client.Photon.PeerBase ExitGames.Client.Photon.NetworkSimulationSet::peerBase
-	PeerBase_t3125 * ___peerBase_7;
+	PeerBase_t4852 * ___peerBase_7;
 	// System.Threading.Thread ExitGames.Client.Photon.NetworkSimulationSet::netSimThread
-	Thread_t1597 * ___netSimThread_8;
+	Thread_t1801 * ___netSimThread_8;
 	// System.Threading.ManualResetEvent ExitGames.Client.Photon.NetworkSimulationSet::NetSimManualResetEvent
-	ManualResetEvent_t1270 * ___NetSimManualResetEvent_9;
+	ManualResetEvent_t3076 * ___NetSimManualResetEvent_9;
 	// System.Int32 ExitGames.Client.Photon.NetworkSimulationSet::<LostPackagesOut>k__BackingField
 	int32_t ___U3CLostPackagesOutU3Ek__BackingField_10;
 	// System.Int32 ExitGames.Client.Photon.NetworkSimulationSet::<LostPackagesIn>k__BackingField

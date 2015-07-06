@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.UnityGUI.ScaledRectAlignment
-struct ScaledRectAlignment_t1052;
+struct ScaledRectAlignment_t1376;
 

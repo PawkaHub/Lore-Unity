@@ -5,7 +5,7 @@
 // UnityEngine.AudioType
 #include "UnityEngine_UnityEngine_AudioType.h"
 // UnityEngine.AudioType
-struct  AudioType_t2797 
+struct  AudioType_t4532 
 {
 	// System.Int32 UnityEngine.AudioType::value__
 	int32_t ___value___1;

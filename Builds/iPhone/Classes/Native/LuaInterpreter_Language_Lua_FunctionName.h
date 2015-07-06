@@ -7,7 +7,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Language.Lua.FunctionName
-struct  FunctionName_t2585  : public Object_t
+struct  FunctionName_t3513  : public Object_t
 {
 	// System.Collections.Generic.List`1<System.String> Language.Lua.FunctionName::FullName
 	List_1_t1 * ___FullName_0;

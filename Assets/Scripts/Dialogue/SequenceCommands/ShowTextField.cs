@@ -9,6 +9,8 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 		string textField;
 		string name;
 		string value;
+
+		//Hide Text Input
 		
 		public void Start() {
 			// Add your initialization code here. You can use the GetParameter***() and GetSubject()
@@ -45,6 +47,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			Debug.Log (name);
 			Debug.Log (value);
 			PixelCrushers.DialogueSystem.DialogueManager.PlaySequence("TextInput(" + textField + "," + name + "," + value + ")");
+			Stop ();
 		}
 	}
 	

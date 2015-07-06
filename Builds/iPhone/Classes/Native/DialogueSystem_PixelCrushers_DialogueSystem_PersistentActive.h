@@ -7,7 +7,7 @@ struct Condition_t203;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PixelCrushers.DialogueSystem.PersistentActiveData
-struct  PersistentActiveData_t950  : public MonoBehaviour_t47
+struct  PersistentActiveData_t1274  : public MonoBehaviour_t47
 {
 	// UnityEngine.GameObject PixelCrushers.DialogueSystem.PersistentActiveData::target
 	GameObject_t49 * ___target_2;

@@ -5,7 +5,7 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_t3830 
+struct  RuntimeTypeHandle_t4920 
 {
 	// System.IntPtr System.RuntimeTypeHandle::value
 	IntPtr_t ___value_0;

@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.Remoting.Proxies.ProxyAttribute
-struct  ProxyAttribute_t4117  : public Attribute_t471
+struct  ProxyAttribute_t5207  : public Attribute_t471
 {
 };

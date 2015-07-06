@@ -13,7 +13,7 @@ struct Texture2D_t90;
 // System.String
 struct String_t;
 // PixelCrushers.DialogueSystem.Response[]
-struct ResponseU5BU5D_t553;
+struct ResponseU5BU5D_t571;
 // UnityEngine.Transform
 struct Transform_t54;
 // PixelCrushers.DialogueSystem.UnityUIResponseButton
@@ -34,7 +34,7 @@ extern "C" void UnityUIResponseMenuControls_SetActive_m901 (UnityUIResponseMenuC
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseMenuControls::ClearResponseButtons()
 extern "C" void UnityUIResponseMenuControls_ClearResponseButtons_m902 (UnityUIResponseMenuControls_t228 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseMenuControls::SetResponseButtons(PixelCrushers.DialogueSystem.Response[],UnityEngine.Transform)
-extern "C" void UnityUIResponseMenuControls_SetResponseButtons_m903 (UnityUIResponseMenuControls_t228 * __this, ResponseU5BU5D_t553* ___responses, Transform_t54 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityUIResponseMenuControls_SetResponseButtons_m903 (UnityUIResponseMenuControls_t228 * __this, ResponseU5BU5D_t571* ___responses, Transform_t54 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseMenuControls::SetResponseButton(PixelCrushers.DialogueSystem.UnityUIResponseButton,PixelCrushers.DialogueSystem.Response,UnityEngine.Transform)
 extern "C" void UnityUIResponseMenuControls_SetResponseButton_m904 (UnityUIResponseMenuControls_t228 * __this, UnityUIResponseButton_t236 * ___button, Response_t235 * ___response, Transform_t54 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 PixelCrushers.DialogueSystem.UnityUIResponseMenuControls::GetNextAvailableResponseButtonPosition(System.Int32,System.Int32)

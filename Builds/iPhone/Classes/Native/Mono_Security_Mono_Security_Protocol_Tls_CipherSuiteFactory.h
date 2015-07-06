@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.CipherSuiteFactory
-struct  CipherSuiteFactory_t1250  : public Object_t
+struct  CipherSuiteFactory_t4362  : public Object_t
 {
 };

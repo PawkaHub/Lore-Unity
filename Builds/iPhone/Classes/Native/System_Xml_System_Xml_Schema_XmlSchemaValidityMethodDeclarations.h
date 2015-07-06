@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaValidity
-struct XmlSchemaValidity_t2322;
+struct XmlSchemaValidity_t3707;
 

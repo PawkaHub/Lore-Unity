@@ -4,27 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>
-struct InternalEnumerator_1_t5450;
+// System.Array/InternalEnumerator`1<UnityEngine.EventSystems.RaycastResult>
+struct InternalEnumerator_1_t6420;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_31.h"
+// UnityEngine.EventSystems.RaycastResult
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m31754_gshared (InternalEnumerator_1_t5450 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m31754(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5450 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m31754_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m31755_gshared (InternalEnumerator_1_t5450 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m31755(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5450 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m31755_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m31756_gshared (InternalEnumerator_1_t5450 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m31756(__this, method) (( void (*) (InternalEnumerator_1_t5450 *, const MethodInfo*))InternalEnumerator_1_Dispose_m31756_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m31757_gshared (InternalEnumerator_1_t5450 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m31757(__this, method) (( bool (*) (InternalEnumerator_1_t5450 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m31757_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>::get_Current()
-extern "C" KeyValuePair_2_t5449  InternalEnumerator_1_get_Current_m31758_gshared (InternalEnumerator_1_t5450 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m31758(__this, method) (( KeyValuePair_2_t5449  (*) (InternalEnumerator_1_t5450 *, const MethodInfo*))InternalEnumerator_1_get_Current_m31758_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.EventSystems.RaycastResult>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m30849_gshared (InternalEnumerator_1_t6420 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m30849(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6420 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m30849_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m30850_gshared (InternalEnumerator_1_t6420 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m30850(__this, method) (( void (*) (InternalEnumerator_1_t6420 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m30850_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m30851_gshared (InternalEnumerator_1_t6420 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m30851(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6420 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m30851_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.EventSystems.RaycastResult>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m30852_gshared (InternalEnumerator_1_t6420 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m30852(__this, method) (( void (*) (InternalEnumerator_1_t6420 *, const MethodInfo*))InternalEnumerator_1_Dispose_m30852_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.EventSystems.RaycastResult>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m30853_gshared (InternalEnumerator_1_t6420 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m30853(__this, method) (( bool (*) (InternalEnumerator_1_t6420 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m30853_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.EventSystems.RaycastResult>::get_Current()
+extern "C" RaycastResult_t814  InternalEnumerator_1_get_Current_m30854_gshared (InternalEnumerator_1_t6420 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m30854(__this, method) (( RaycastResult_t814  (*) (InternalEnumerator_1_t6420 *, const MethodInfo*))InternalEnumerator_1_get_Current_m30854_gshared)(__this, method)

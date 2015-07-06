@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.GUI/WindowFunction
-struct  WindowFunction_t565  : public MulticastDelegate_t451
+struct  WindowFunction_t586  : public MulticastDelegate_t451
 {
 };

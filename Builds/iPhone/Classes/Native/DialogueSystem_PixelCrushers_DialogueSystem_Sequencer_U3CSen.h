@@ -7,7 +7,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.Sequencer/<SendTimedSequencerMessage>c__Iterator9
-struct  U3CSendTimedSequencerMessageU3Ec__Iterator9_t882  : public Object_t
+struct  U3CSendTimedSequencerMessageU3Ec__Iterator9_t1207  : public Object_t
 {
 	// System.Single PixelCrushers.DialogueSystem.Sequencer/<SendTimedSequencerMessage>c__Iterator9::delay
 	float ___delay_0;

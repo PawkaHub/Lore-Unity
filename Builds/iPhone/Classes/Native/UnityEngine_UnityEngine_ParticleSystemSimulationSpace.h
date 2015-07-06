@@ -5,7 +5,7 @@
 // UnityEngine.ParticleSystemSimulationSpace
 #include "UnityEngine_UnityEngine_ParticleSystemSimulationSpace.h"
 // UnityEngine.ParticleSystemSimulationSpace
-struct  ParticleSystemSimulationSpace_t2788 
+struct  ParticleSystemSimulationSpace_t4523 
 {
 	// System.Int32 UnityEngine.ParticleSystemSimulationSpace::value__
 	int32_t ___value___1;

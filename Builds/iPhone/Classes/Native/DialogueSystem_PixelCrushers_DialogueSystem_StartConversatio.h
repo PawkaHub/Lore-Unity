@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.ActOnDialogueEvent/Action
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ActOnDialogueEve.h"
 // PixelCrushers.DialogueSystem.StartConversationOnDialogueEvent/ConversationAction
-struct  ConversationAction_t987  : public Action_t955
+struct  ConversationAction_t1311  : public Action_t1279
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.StartConversationOnDialogueEvent/ConversationAction::speaker
 	Transform_t54 * ___speaker_1;

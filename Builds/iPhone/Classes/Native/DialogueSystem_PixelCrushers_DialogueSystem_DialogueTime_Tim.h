@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.DialogueTime/TimeMode
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTime_Tim.h"
 // PixelCrushers.DialogueSystem.DialogueTime/TimeMode
-struct  TimeMode_t925 
+struct  TimeMode_t1249 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.DialogueTime/TimeMode::value__
 	int32_t ___value___1;

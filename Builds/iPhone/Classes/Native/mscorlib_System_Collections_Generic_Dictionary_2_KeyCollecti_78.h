@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.Byte,ExitGames.Client.Photon.CustomType>
-struct Dictionary_2_t3152;
-// System.Object
-#include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Byte,ExitGames.Client.Photon.CustomType>
-struct  KeyCollection_t6300  : public Object_t
+// System.ValueType
+#include "mscorlib_System_ValueType.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Int32>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__57.h"
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>
+struct  Enumerator_t9121 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Byte,ExitGames.Client.Photon.CustomType>::dictionary
-	Dictionary_2_t3152 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>::host_enumerator
+	Enumerator_t9122  ___host_enumerator_0;
 };

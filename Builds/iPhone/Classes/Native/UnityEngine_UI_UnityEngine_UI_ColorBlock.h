@@ -5,7 +5,7 @@
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // UnityEngine.UI.ColorBlock
-struct  ColorBlock_t2026 
+struct  ColorBlock_t841 
 {
 	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_NormalColor
 	Color_t121  ___m_NormalColor_0;

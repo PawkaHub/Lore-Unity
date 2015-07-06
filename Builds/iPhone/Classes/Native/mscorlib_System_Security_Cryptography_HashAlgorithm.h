@@ -5,7 +5,7 @@ struct ByteU5BU5D_t25;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.HashAlgorithm
-struct  HashAlgorithm_t1200  : public Object_t
+struct  HashAlgorithm_t4035  : public Object_t
 {
 	// System.Byte[] System.Security.Cryptography.HashAlgorithm::HashValue
 	ByteU5BU5D_t25* ___HashValue_0;

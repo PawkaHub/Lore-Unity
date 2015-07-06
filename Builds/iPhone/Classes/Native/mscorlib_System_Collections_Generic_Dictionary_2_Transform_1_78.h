@@ -1,9 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Canvas
-struct Canvas_t213;
-// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
-struct IndexedSet_1_t2171;
+// System.String
+struct String_t;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -12,9 +10,11 @@ struct AsyncCallback_t449;
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
+// System.Double
+#include "mscorlib_System_Double.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>,System.Collections.DictionaryEntry>
-struct  Transform_1_t5897  : public MulticastDelegate_t451
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Double,System.Collections.DictionaryEntry>
+struct  Transform_1_t7853  : public MulticastDelegate_t451
 {
 };

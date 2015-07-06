@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.ProtocolType
-struct ProtocolType_t3568;
+struct ProtocolType_t4000;
 

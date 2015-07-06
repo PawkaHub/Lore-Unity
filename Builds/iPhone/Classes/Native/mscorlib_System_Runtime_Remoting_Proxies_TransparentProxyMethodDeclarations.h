@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Proxies.TransparentProxy
-struct TransparentProxy_t4119;
+struct TransparentProxy_t5209;
 

@@ -9,12 +9,12 @@ struct ByteU5BU5D_t25;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.Protocol.Tls.ClientSessionInfo
-struct  ClientSessionInfo_t1255  : public Object_t
+struct  ClientSessionInfo_t4366  : public Object_t
 {
 	// System.Boolean Mono.Security.Protocol.Tls.ClientSessionInfo::disposed
 	bool ___disposed_1;
 	// System.DateTime Mono.Security.Protocol.Tls.ClientSessionInfo::validuntil
-	DateTime_t1219  ___validuntil_2;
+	DateTime_t1705  ___validuntil_2;
 	// System.String Mono.Security.Protocol.Tls.ClientSessionInfo::host
 	String_t* ___host_3;
 	// System.Byte[] Mono.Security.Protocol.Tls.ClientSessionInfo::sid
@@ -22,7 +22,7 @@ struct  ClientSessionInfo_t1255  : public Object_t
 	// System.Byte[] Mono.Security.Protocol.Tls.ClientSessionInfo::masterSecret
 	ByteU5BU5D_t25* ___masterSecret_5;
 };
-struct ClientSessionInfo_t1255_StaticFields{
+struct ClientSessionInfo_t4366_StaticFields{
 	// System.Int32 Mono.Security.Protocol.Tls.ClientSessionInfo::ValidityInterval
 	int32_t ___ValidityInterval_0;
 };

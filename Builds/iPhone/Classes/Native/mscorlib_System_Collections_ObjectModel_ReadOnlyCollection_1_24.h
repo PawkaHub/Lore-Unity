@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<ParticlePlayground.ParticleStateC>
-struct IList_1_t5074;
+struct IList_1_t6162;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<ParticlePlayground.ParticleStateC>
-struct  ReadOnlyCollection_1_t5075  : public Object_t
+struct  ReadOnlyCollection_1_t6163  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<ParticlePlayground.ParticleStateC>::list
 	Object_t* ___list_0;

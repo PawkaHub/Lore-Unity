@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // PixelCrushers.DialogueSystem.Actor
-struct Actor_t784;
+struct Actor_t1109;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewActorIDs>c__AnonStorey34
-struct  U3CGetNewActorIDsU3Ec__AnonStorey34_t851  : public Object_t
+struct  U3CGetNewActorIDsU3Ec__AnonStorey34_t1176  : public Object_t
 {
 	// PixelCrushers.DialogueSystem.Actor PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewActorIDs>c__AnonStorey34::actor
-	Actor_t784 * ___actor_0;
+	Actor_t1109 * ___actor_0;
 };

@@ -2,15 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
+// Parse.ParseUser
+struct ParseUser_t722;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_9.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>
-struct  KeyValuePair_2_t6226 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseUser>
+struct  KeyValuePair_2_t7946 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseUser>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>::value
-	KeyValuePair_2_t2962  ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseUser>::value
+	ParseUser_t722 * ___value_1;
 };

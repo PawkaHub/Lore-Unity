@@ -7,7 +7,7 @@ struct Component_t462;
 // PixelCrushers.DialogueSystem.Toggle
 #include "DialogueSystem_PixelCrushers_DialogueSystem_Toggle.h"
 // PixelCrushers.DialogueSystem.SetComponentEnabledOnDialogueEvent/SetComponentEnabledAction
-struct  SetComponentEnabledAction_t976  : public Action_t955
+struct  SetComponentEnabledAction_t1300  : public Action_t1279
 {
 	// UnityEngine.Component PixelCrushers.DialogueSystem.SetComponentEnabledOnDialogueEvent/SetComponentEnabledAction::target
 	Component_t462 * ___target_1;

@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.UnityUIResponseButton>
-struct  InternalEnumerator_1_t5092 
+struct  InternalEnumerator_1_t6180 
 {
 	// System.Array System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.UnityUIResponseButton>::array
 	Array_t * ___array_0;

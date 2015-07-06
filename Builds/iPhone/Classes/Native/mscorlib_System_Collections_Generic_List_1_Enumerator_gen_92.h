@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct List_1_t2077;
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t211;
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+struct List_1_t6865;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>
-struct  Enumerator_t5929 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_5.h"
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+struct  Enumerator_t6869 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::l
-	List_1_t2077 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::l
+	List_1_t6865 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::current
-	CanvasGroup_t211 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::current
+	KeyValuePair_2_t1714  ___current_3;
 };

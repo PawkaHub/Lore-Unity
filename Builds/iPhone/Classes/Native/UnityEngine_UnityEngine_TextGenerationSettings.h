@@ -17,7 +17,7 @@ struct Font_t529;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.TextGenerationSettings
-struct  TextGenerationSettings_t2151 
+struct  TextGenerationSettings_t963 
 {
 	// UnityEngine.Font UnityEngine.TextGenerationSettings::font
 	Font_t529 * ___font_0;

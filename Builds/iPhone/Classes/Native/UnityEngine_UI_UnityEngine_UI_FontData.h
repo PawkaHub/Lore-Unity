@@ -13,7 +13,7 @@ struct Font_t529;
 // UnityEngine.VerticalWrapMode
 #include "UnityEngine_UnityEngine_VerticalWrapMode.h"
 // UnityEngine.UI.FontData
-struct  FontData_t2027  : public Object_t
+struct  FontData_t842  : public Object_t
 {
 	// UnityEngine.Font UnityEngine.UI.FontData::m_Font
 	Font_t529 * ___m_Font_0;

@@ -5,9 +5,9 @@ struct String_t;
 // System.String[]
 struct StringU5BU5D_t20;
 // System.Uri/UriScheme[]
-struct UriSchemeU5BU5D_t3747;
+struct UriSchemeU5BU5D_t4194;
 // System.UriParser
-struct UriParser_t3744;
+struct UriParser_t4191;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t427;
 // System.Object
@@ -52,7 +52,7 @@ struct  Uri_t32  : public Object_t
 	// System.Int32 System.Uri::cachedHashCode
 	int32_t ___cachedHashCode_18;
 	// System.UriParser System.Uri::parser
-	UriParser_t3744 * ___parser_32;
+	UriParser_t4191 * ___parser_32;
 };
 struct Uri_t32_StaticFields{
 	// System.String System.Uri::hexUpperChars
@@ -80,7 +80,7 @@ struct Uri_t32_StaticFields{
 	// System.String System.Uri::UriSchemeNetTcp
 	String_t* ___UriSchemeNetTcp_30;
 	// System.Uri/UriScheme[] System.Uri::schemes
-	UriSchemeU5BU5D_t3747* ___schemes_31;
+	UriSchemeU5BU5D_t4194* ___schemes_31;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map12
 	Dictionary_2_t427 * ___U3CU3Ef__switchU24map12_33;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map13

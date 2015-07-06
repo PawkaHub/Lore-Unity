@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Security.Policy.StrongName[]
-struct StrongNameU5BU5D_t6396;
+// ExitGames.Client.Photon.NCommand[]
+struct NCommandU5BU5D_t9509;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Security.Policy.StrongName>
-struct  List_1_t4391  : public Object_t
+// System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>
+struct  List_1_t4864  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_items
-	StrongNameU5BU5D_t6396* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_size
+	// T[] System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_items
+	NCommandU5BU5D_t9509* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_version
+	// System.Int32 System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_version
 	int32_t ____version_3;
 };
-struct List_1_t4391_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::EmptyArray
-	StrongNameU5BU5D_t6396* ___EmptyArray_4;
+struct List_1_t4864_StaticFields{
+	// T[] System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::EmptyArray
+	NCommandU5BU5D_t9509* ___EmptyArray_4;
 };

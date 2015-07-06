@@ -2,15 +2,13 @@
 #include <stdint.h>
 // System.String
 struct String_t;
-// System.Object
-struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
-struct  KeyValuePair_2_t1547 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Single>
+struct  KeyValuePair_2_t1439 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Object>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Single>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Object>::value
-	Object_t * ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Single>::value
+	float ___value_1;
 };

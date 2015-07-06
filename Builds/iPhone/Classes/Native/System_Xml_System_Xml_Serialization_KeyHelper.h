@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Serialization.KeyHelper
-struct  KeyHelper_t2324  : public Object_t
+struct  KeyHelper_t3709  : public Object_t
 {
 };

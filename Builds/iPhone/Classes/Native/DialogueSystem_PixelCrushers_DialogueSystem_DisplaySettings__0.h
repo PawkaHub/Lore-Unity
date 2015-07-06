@@ -7,7 +7,7 @@ struct LocalizedTextTable_t252;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.DisplaySettings/LocalizationSettings
-struct  LocalizationSettings_t617  : public Object_t
+struct  LocalizationSettings_t638  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.DisplaySettings/LocalizationSettings::language
 	String_t* ___language_0;

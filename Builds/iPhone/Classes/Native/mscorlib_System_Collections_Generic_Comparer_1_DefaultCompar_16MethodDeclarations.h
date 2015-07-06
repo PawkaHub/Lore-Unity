@@ -4,14 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>
-struct DefaultComparer_t6411;
-// System.Guid
-#include "mscorlib_System_Guid.h"
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.Double>
+struct DefaultComparer_t7560;
 
-// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>::.ctor()
-extern "C" void DefaultComparer__ctor_m45200_gshared (DefaultComparer_t6411 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m45200(__this, method) (( void (*) (DefaultComparer_t6411 *, const MethodInfo*))DefaultComparer__ctor_m45200_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m45201_gshared (DefaultComparer_t6411 * __this, Guid_t1562  ___x, Guid_t1562  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m45201(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t6411 *, Guid_t1562 , Guid_t1562 , const MethodInfo*))DefaultComparer_Compare_m45201_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Double>::.ctor()
+extern "C" void DefaultComparer__ctor_m47024_gshared (DefaultComparer_t7560 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m47024(__this, method) (( void (*) (DefaultComparer_t7560 *, const MethodInfo*))DefaultComparer__ctor_m47024_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Double>::Compare(T,T)
+extern "C" int32_t DefaultComparer_Compare_m47025_gshared (DefaultComparer_t7560 * __this, double ___x, double ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m47025(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t7560 *, double, double, const MethodInfo*))DefaultComparer_Compare_m47025_gshared)(__this, ___x, ___y, method)

@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<UnityEngine.CanvasGroup>
-struct Comparison_1_t5930;
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+struct Comparison_1_t6923;
 // System.Object
 struct Object_t;
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t211;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
 struct AsyncCallback_t449;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3.h"
 
-// System.Void System.Comparison`1<UnityEngine.CanvasGroup>::.ctor(System.Object,System.IntPtr)
-// System.Comparison`1<System.Object>
-#include "mscorlib_System_Comparison_1_gen_5MethodDeclarations.h"
-#define Comparison_1__ctor_m38428(__this, ___object, ___method, method) (( void (*) (Comparison_1_t5930 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m22686_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<UnityEngine.CanvasGroup>::Invoke(T,T)
-#define Comparison_1_Invoke_m38429(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t5930 *, CanvasGroup_t211 *, CanvasGroup_t211 *, const MethodInfo*))Comparison_1_Invoke_m22687_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<UnityEngine.CanvasGroup>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m38430(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t5930 *, CanvasGroup_t211 *, CanvasGroup_t211 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m22688_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<UnityEngine.CanvasGroup>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m38431(__this, ___result, method) (( int32_t (*) (Comparison_1_t5930 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m22689_gshared)(__this, ___result, method)
+// System.Void System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::.ctor(System.Object,System.IntPtr)
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+#include "mscorlib_System_Comparison_1_gen_80MethodDeclarations.h"
+#define Comparison_1__ctor_m38815(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6923 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m37982_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Invoke(T,T)
+#define Comparison_1_Invoke_m38816(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6923 *, KeyValuePair_2_t1437 , KeyValuePair_2_t1437 , const MethodInfo*))Comparison_1_Invoke_m37983_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m38817(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6923 *, KeyValuePair_2_t1437 , KeyValuePair_2_t1437 , AsyncCallback_t449 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m37984_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m38818(__this, ___result, method) (( int32_t (*) (Comparison_1_t6923 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m37985_gshared)(__this, ___result, method)

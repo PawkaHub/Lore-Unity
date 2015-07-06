@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.DialogueEntry
-struct DialogueEntry_t777;
+// UnityEngine.Canvas
+struct Canvas_t213;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t449;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<PixelCrushers.DialogueSystem.DialogueEntry>
-struct  Comparison_1_t5359  : public MulticastDelegate_t451
+// System.Comparison`1<UnityEngine.Canvas>
+struct  Comparison_1_t6491  : public MulticastDelegate_t451
 {
 };

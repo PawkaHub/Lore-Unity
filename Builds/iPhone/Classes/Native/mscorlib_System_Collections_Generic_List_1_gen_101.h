@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Type[]
-struct TypeU5BU5D_t562;
+// UnityEngine.Rigidbody2D[]
+struct Rigidbody2DU5BU5D_t9354;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Type>
-struct  List_1_t2970  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
+struct  List_1_t4528  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Type>::_items
-	TypeU5BU5D_t562* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Type>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>::_items
+	Rigidbody2DU5BU5D_t9354* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Type>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2970_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Type>::EmptyArray
-	TypeU5BU5D_t562* ___EmptyArray_4;
+struct List_1_t4528_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>::EmptyArray
+	Rigidbody2DU5BU5D_t9354* ___EmptyArray_4;
 };

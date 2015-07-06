@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.ResponseButtonAlignment
-struct ResponseButtonAlignment_t875;
+struct ResponseButtonAlignment_t1200;
 

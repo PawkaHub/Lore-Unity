@@ -2,15 +2,15 @@
 #include <stdint.h>
 // System.String
 struct String_t;
-// Parse.Internal.IParseFieldOperation
-struct IParseFieldOperation_t1546;
+// System.Object
+struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>
-struct  KeyValuePair_2_t1636 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
+struct  KeyValuePair_2_t1714 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>::key
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Object>::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>::value
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Object>::value
 	Object_t * ___value_1;
 };

@@ -3,20 +3,20 @@
 // System.Byte[]
 struct ByteU5BU5D_t25;
 // System.UInt32[]
-struct UInt32U5BU5D_t1182;
+struct UInt32U5BU5D_t3848;
 // Mono.Security.Cryptography.SymmetricTransform
 #include "mscorlib_Mono_Security_Cryptography_SymmetricTransform.h"
 // System.Security.Cryptography.DESTransform
-struct  DESTransform_t4179  : public SymmetricTransform_t3893
+struct  DESTransform_t5269  : public SymmetricTransform_t4983
 {
 	// System.Byte[] System.Security.Cryptography.DESTransform::keySchedule
 	ByteU5BU5D_t25* ___keySchedule_16;
 	// System.Byte[] System.Security.Cryptography.DESTransform::byteBuff
 	ByteU5BU5D_t25* ___byteBuff_17;
 	// System.UInt32[] System.Security.Cryptography.DESTransform::dwordBuff
-	UInt32U5BU5D_t1182* ___dwordBuff_18;
+	UInt32U5BU5D_t3848* ___dwordBuff_18;
 };
-struct DESTransform_t4179_StaticFields{
+struct DESTransform_t5269_StaticFields{
 	// System.Int32 System.Security.Cryptography.DESTransform::KEY_BIT_SIZE
 	int32_t ___KEY_BIT_SIZE_12;
 	// System.Int32 System.Security.Cryptography.DESTransform::KEY_BYTE_SIZE
@@ -26,7 +26,7 @@ struct DESTransform_t4179_StaticFields{
 	// System.Int32 System.Security.Cryptography.DESTransform::BLOCK_BYTE_SIZE
 	int32_t ___BLOCK_BYTE_SIZE_15;
 	// System.UInt32[] System.Security.Cryptography.DESTransform::spBoxes
-	UInt32U5BU5D_t1182* ___spBoxes_19;
+	UInt32U5BU5D_t3848* ___spBoxes_19;
 	// System.Byte[] System.Security.Cryptography.DESTransform::PC1
 	ByteU5BU5D_t25* ___PC1_20;
 	// System.Byte[] System.Security.Cryptography.DESTransform::leftRotTotal
@@ -34,7 +34,7 @@ struct DESTransform_t4179_StaticFields{
 	// System.Byte[] System.Security.Cryptography.DESTransform::PC2
 	ByteU5BU5D_t25* ___PC2_22;
 	// System.UInt32[] System.Security.Cryptography.DESTransform::ipTab
-	UInt32U5BU5D_t1182* ___ipTab_23;
+	UInt32U5BU5D_t3848* ___ipTab_23;
 	// System.UInt32[] System.Security.Cryptography.DESTransform::fpTab
-	UInt32U5BU5D_t1182* ___fpTab_24;
+	UInt32U5BU5D_t3848* ___fpTab_24;
 };

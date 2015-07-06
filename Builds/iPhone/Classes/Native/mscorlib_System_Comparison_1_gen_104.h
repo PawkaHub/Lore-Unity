@@ -6,11 +6,11 @@ struct IAsyncResult_t448;
 struct AsyncCallback_t449;
 // System.Object
 struct Object_t;
-// UnityEngine.UILineInfo
-#include "UnityEngine_UnityEngine_UILineInfo.h"
+// System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_64.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.UILineInfo>
-struct  Comparison_1_t6134  : public MulticastDelegate_t451
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>>
+struct  Comparison_1_t8159  : public MulticastDelegate_t451
 {
 };

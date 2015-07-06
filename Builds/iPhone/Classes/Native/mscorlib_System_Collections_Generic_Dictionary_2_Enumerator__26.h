@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<System.String,System.Type>
-struct Dictionary_2_t888;
+// System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>
+struct Dictionary_2_t981;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Type>
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_32.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Type>
-struct  Enumerator_t5484 
+// System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>
+struct  Enumerator_t6511 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Type>::dictionary
-	Dictionary_2_t888 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Type>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::dictionary
+	Dictionary_2_t981 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Type>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Type>::current
-	KeyValuePair_2_t5481  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::current
+	KeyValuePair_2_t6508  ___current_3;
 };

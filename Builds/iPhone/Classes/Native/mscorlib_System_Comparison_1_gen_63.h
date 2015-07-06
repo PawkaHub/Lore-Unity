@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
-struct SequencerCommand_t209;
+// PixelCrushers.DialogueSystem.Location
+struct Location_t1151;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t449;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand>
-struct  Comparison_1_t5479  : public MulticastDelegate_t451
+// System.Comparison`1<PixelCrushers.DialogueSystem.Location>
+struct  Comparison_1_t6615  : public MulticastDelegate_t451
 {
 };

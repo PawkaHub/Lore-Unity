@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct List_1_t2084;
-// UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t2083;
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+struct List_1_t1807;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Enumerator_t5935 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3.h"
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+struct  Enumerator_t6922 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::l
-	List_1_t2084 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::l
+	List_1_t1807 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::current
-	MatEntry_t2083 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::current
+	KeyValuePair_2_t1437  ___current_3;
 };

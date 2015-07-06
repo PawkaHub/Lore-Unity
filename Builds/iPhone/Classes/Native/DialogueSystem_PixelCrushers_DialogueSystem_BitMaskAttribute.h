@@ -5,7 +5,7 @@ struct Type_t;
 // UnityEngine.PropertyAttribute
 #include "UnityEngine_UnityEngine_PropertyAttribute.h"
 // PixelCrushers.DialogueSystem.BitMaskAttribute
-struct  BitMaskAttribute_t922  : public PropertyAttribute_t923
+struct  BitMaskAttribute_t1246  : public PropertyAttribute_t1247
 {
 	// System.Type PixelCrushers.DialogueSystem.BitMaskAttribute::propType
 	Type_t * ___propType_0;

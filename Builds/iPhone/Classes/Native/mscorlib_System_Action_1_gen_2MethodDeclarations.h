@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Action`1<System.Byte[]>
-struct Action_1_t1446;
+// System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>
+struct Action_1_t1759;
 // System.Object
 struct Object_t;
-// System.Byte[]
-struct ByteU5BU5D_t25;
+// System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>
+struct Task_1_t1703;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -17,13 +17,13 @@ struct AsyncCallback_t449;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Action`1<System.Byte[]>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Object>
-#include "mscorlib_System_Action_1_gen_20MethodDeclarations.h"
-#define Action_1__ctor_m7444(__this, ___object, ___method, method) (( void (*) (Action_1_t1446 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m32374_gshared)(__this, ___object, ___method, method)
-// System.Void System.Action`1<System.Byte[]>::Invoke(T)
-#define Action_1_Invoke_m34467(__this, ___obj, method) (( void (*) (Action_1_t1446 *, ByteU5BU5D_t25*, const MethodInfo*))Action_1_Invoke_m32375_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Action`1<System.Byte[]>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m34468(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t1446 *, ByteU5BU5D_t25*, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m32376_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Void System.Action`1<System.Byte[]>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m34469(__this, ___result, method) (( void (*) (Action_1_t1446 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m32377_gshared)(__this, ___result, method)
+#include "mscorlib_System_Action_1_gen_22MethodDeclarations.h"
+#define Action_1__ctor_m8458(__this, ___object, ___method, method) (( void (*) (Action_1_t1759 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m31792_gshared)(__this, ___object, ___method, method)
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>::Invoke(T)
+#define Action_1_Invoke_m37746(__this, ___obj, method) (( void (*) (Action_1_t1759 *, Task_1_t1703 *, const MethodInfo*))Action_1_Invoke_m31794_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Action_1_BeginInvoke_m37747(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t1759 *, Task_1_t1703 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m31796_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>::EndInvoke(System.IAsyncResult)
+#define Action_1_EndInvoke_m37748(__this, ___result, method) (( void (*) (Action_1_t1759 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m31798_gshared)(__this, ___result, method)

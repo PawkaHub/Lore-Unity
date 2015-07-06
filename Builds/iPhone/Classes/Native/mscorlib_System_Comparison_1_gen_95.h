@@ -6,11 +6,11 @@ struct IAsyncResult_t448;
 struct AsyncCallback_t449;
 // System.Object
 struct Object_t;
-// System.UInt16
-#include "mscorlib_System_UInt16.h"
+// Parse.ParseGeoPoint
+#include "Parse_Unity_Parse_ParseGeoPoint.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<System.UInt16>
-struct  Comparison_1_t6033  : public MulticastDelegate_t451
+// System.Comparison`1<Parse.ParseGeoPoint>
+struct  Comparison_1_t7668  : public MulticastDelegate_t451
 {
 };

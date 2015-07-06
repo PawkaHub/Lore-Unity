@@ -4,24 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct KeyValuePair_2_t6084;
-// UnityEngine.GUILayoutUtility/LayoutCache
-struct LayoutCache_t2738;
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>
+struct KeyValuePair_2_t7110;
 // System.String
 struct String_t;
+// Parse.Internal.IParseAuthenticationProvider
+struct IParseAuthenticationProvider_t1742;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::.ctor(TKey,TValue)
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_18MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m40698(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6084 *, int32_t, LayoutCache_t2738 *, const MethodInfo*))KeyValuePair_2__ctor_m26876_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::get_Key()
-#define KeyValuePair_2_get_Key_m40699(__this, method) (( int32_t (*) (KeyValuePair_2_t6084 *, const MethodInfo*))KeyValuePair_2_get_Key_m26877_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m40700(__this, ___value, method) (( void (*) (KeyValuePair_2_t6084 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m26878_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::get_Value()
-#define KeyValuePair_2_get_Value_m40701(__this, method) (( LayoutCache_t2738 * (*) (KeyValuePair_2_t6084 *, const MethodInfo*))KeyValuePair_2_get_Value_m26879_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m40702(__this, ___value, method) (( void (*) (KeyValuePair_2_t6084 *, LayoutCache_t2738 *, const MethodInfo*))KeyValuePair_2_set_Value_m26880_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::ToString()
-#define KeyValuePair_2_ToString_m40703(__this, method) (( String_t* (*) (KeyValuePair_2_t6084 *, const MethodInfo*))KeyValuePair_2_ToString_m26881_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_13MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m41497(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t7110 *, String_t*, Object_t *, const MethodInfo*))KeyValuePair_2__ctor_m24209_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::get_Key()
+#define KeyValuePair_2_get_Key_m41498(__this, method) (( String_t* (*) (KeyValuePair_2_t7110 *, const MethodInfo*))KeyValuePair_2_get_Key_m24210_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m41499(__this, ___value, method) (( void (*) (KeyValuePair_2_t7110 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m24211_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::get_Value()
+#define KeyValuePair_2_get_Value_m41500(__this, method) (( Object_t * (*) (KeyValuePair_2_t7110 *, const MethodInfo*))KeyValuePair_2_get_Value_m24212_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m41501(__this, ___value, method) (( void (*) (KeyValuePair_2_t7110 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Value_m24213_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::ToString()
+#define KeyValuePair_2_ToString_m41502(__this, method) (( String_t* (*) (KeyValuePair_2_t7110 *, const MethodInfo*))KeyValuePair_2_ToString_m24214_gshared)(__this, method)

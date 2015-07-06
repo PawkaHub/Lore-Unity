@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Hashtable/Slot
-struct Slot_t3927;
+struct Slot_t5017;
 

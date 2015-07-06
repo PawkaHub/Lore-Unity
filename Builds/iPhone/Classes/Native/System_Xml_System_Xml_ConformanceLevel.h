@@ -5,7 +5,7 @@
 // System.Xml.ConformanceLevel
 #include "System_Xml_System_Xml_ConformanceLevel.h"
 // System.Xml.ConformanceLevel
-struct  ConformanceLevel_t2415 
+struct  ConformanceLevel_t3801 
 {
 	// System.Int32 System.Xml.ConformanceLevel::value__
 	int32_t ___value___1;

@@ -4,26 +4,22 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Type,ExitGames.Client.Photon.CustomType>
-struct KeyValuePair_2_t6294;
-// System.Type
-struct Type_t;
-// ExitGames.Client.Photon.CustomType
-struct CustomType_t3150;
+// System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>
+struct KeyValuePair_2_t7974;
 // System.String
 struct String_t;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,ExitGames.Client.Photon.CustomType>::.ctor(TKey,TValue)
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_13MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m43847(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6294 *, Type_t *, CustomType_t3150 *, const MethodInfo*))KeyValuePair_2__ctor_m22861_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Type,ExitGames.Client.Photon.CustomType>::get_Key()
-#define KeyValuePair_2_get_Key_m43848(__this, method) (( Type_t * (*) (KeyValuePair_2_t6294 *, const MethodInfo*))KeyValuePair_2_get_Key_m22862_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,ExitGames.Client.Photon.CustomType>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m43849(__this, ___value, method) (( void (*) (KeyValuePair_2_t6294 *, Type_t *, const MethodInfo*))KeyValuePair_2_set_Key_m22863_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Type,ExitGames.Client.Photon.CustomType>::get_Value()
-#define KeyValuePair_2_get_Value_m43850(__this, method) (( CustomType_t3150 * (*) (KeyValuePair_2_t6294 *, const MethodInfo*))KeyValuePair_2_get_Value_m22864_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,ExitGames.Client.Photon.CustomType>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m43851(__this, ___value, method) (( void (*) (KeyValuePair_2_t6294 *, CustomType_t3150 *, const MethodInfo*))KeyValuePair_2_set_Value_m22865_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Type,ExitGames.Client.Photon.CustomType>::ToString()
-#define KeyValuePair_2_ToString_m43852(__this, method) (( String_t* (*) (KeyValuePair_2_t6294 *, const MethodInfo*))KeyValuePair_2_ToString_m22866_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_63MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m52460(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t7974 *, String_t*, int8_t, const MethodInfo*))KeyValuePair_2__ctor_m52446_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>::get_Key()
+#define KeyValuePair_2_get_Key_m52461(__this, method) (( String_t* (*) (KeyValuePair_2_t7974 *, const MethodInfo*))KeyValuePair_2_get_Key_m52447_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m52462(__this, ___value, method) (( void (*) (KeyValuePair_2_t7974 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m52448_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>::get_Value()
+#define KeyValuePair_2_get_Value_m52463(__this, method) (( int8_t (*) (KeyValuePair_2_t7974 *, const MethodInfo*))KeyValuePair_2_get_Value_m52449_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m52464(__this, ___value, method) (( void (*) (KeyValuePair_2_t7974 *, int8_t, const MethodInfo*))KeyValuePair_2_set_Value_m52450_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>::ToString()
+#define KeyValuePair_2_ToString_m52465(__this, method) (( String_t* (*) (KeyValuePair_2_t7974 *, const MethodInfo*))KeyValuePair_2_ToString_m52451_gshared)(__this, method)

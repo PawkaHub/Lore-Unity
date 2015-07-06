@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<ParticlePlayground.ParticleStateC>
-struct  Comparison_1_t5078  : public MulticastDelegate_t451
+struct  Comparison_1_t6166  : public MulticastDelegate_t451
 {
 };

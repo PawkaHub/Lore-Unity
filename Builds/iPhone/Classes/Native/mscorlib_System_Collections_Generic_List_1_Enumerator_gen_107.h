@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchDesc>
-struct List_1_t2832;
-// UnityEngine.Networking.Match.MatchDesc
-struct MatchDesc_t2831;
+// System.Collections.Generic.List`1<Parse.ParseFile>
+struct List_1_t7756;
+// Parse.ParseFile
+struct ParseFile_t1574;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>
-struct  Enumerator_t6163 
+// System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>
+struct  Enumerator_t7759 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::l
-	List_1_t2832 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>::l
+	List_1_t7756 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Networking.Match.MatchDesc>::current
-	MatchDesc_t2831 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseFile>::current
+	ParseFile_t1574 * ___current_3;
 };

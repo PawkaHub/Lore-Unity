@@ -4,44 +4,56 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>
-struct Enumerator_t6096;
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>
+struct Enumerator_t7863;
 // System.Object
 struct Object_t;
-// System.String
-struct String_t;
-// UnityEngine.GUIStyle
-struct GUIStyle_t303;
-// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle>
-struct Dictionary_2_t2751;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Double>
+struct Dictionary_2_t7860;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Double>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_51.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__7MethodDeclarations.h"
-#define Enumerator__ctor_m40932(__this, ___dictionary, method) (( void (*) (Enumerator_t6096 *, Dictionary_2_t2751 *, const MethodInfo*))Enumerator__ctor_m22888_gshared)(__this, ___dictionary, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m40933(__this, method) (( Object_t * (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m22889_gshared)(__this, method)
-// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::System.Collections.IDictionaryEnumerator.get_Entry()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m40934(__this, method) (( DictionaryEntry_t660  (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m22890_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::System.Collections.IDictionaryEnumerator.get_Key()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m40935(__this, method) (( Object_t * (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m22891_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::System.Collections.IDictionaryEnumerator.get_Value()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m40936(__this, method) (( Object_t * (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m22892_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::MoveNext()
-#define Enumerator_MoveNext_m40937(__this, method) (( bool (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_MoveNext_m22893_gshared)(__this, method)
-// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::get_Current()
-#define Enumerator_get_Current_m40938(__this, method) (( KeyValuePair_2_t6094  (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_get_Current_m22894_gshared)(__this, method)
-// TKey System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::get_CurrentKey()
-#define Enumerator_get_CurrentKey_m40939(__this, method) (( String_t* (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_get_CurrentKey_m22895_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m40940(__this, method) (( GUIStyle_t303 * (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_get_CurrentValue_m22896_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::VerifyState()
-#define Enumerator_VerifyState_m40941(__this, method) (( void (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_VerifyState_m22897_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::VerifyCurrent()
-#define Enumerator_VerifyCurrent_m40942(__this, method) (( void (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_VerifyCurrent_m22898_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>::Dispose()
-#define Enumerator_Dispose_m40943(__this, method) (( void (*) (Enumerator_t6096 *, const MethodInfo*))Enumerator_Dispose_m22899_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+extern "C" void Enumerator__ctor_m50877_gshared (Enumerator_t7863 * __this, Dictionary_2_t7860 * ___dictionary, const MethodInfo* method);
+#define Enumerator__ctor_m50877(__this, ___dictionary, method) (( void (*) (Enumerator_t7863 *, Dictionary_2_t7860 *, const MethodInfo*))Enumerator__ctor_m50877_gshared)(__this, ___dictionary, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m50879_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m50879(__this, method) (( Object_t * (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m50879_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m50881_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m50881(__this, method) (( void (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m50881_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::System.Collections.IDictionaryEnumerator.get_Entry()
+extern "C" DictionaryEntry_t679  Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m50883_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m50883(__this, method) (( DictionaryEntry_t679  (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m50883_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::System.Collections.IDictionaryEnumerator.get_Key()
+extern "C" Object_t * Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m50885_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m50885(__this, method) (( Object_t * (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m50885_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::System.Collections.IDictionaryEnumerator.get_Value()
+extern "C" Object_t * Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m50887_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m50887(__this, method) (( Object_t * (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m50887_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m50889_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m50889(__this, method) (( bool (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_MoveNext_m50889_gshared)(__this, method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::get_Current()
+extern "C" KeyValuePair_2_t7803  Enumerator_get_Current_m50891_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m50891(__this, method) (( KeyValuePair_2_t7803  (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_get_Current_m50891_gshared)(__this, method)
+// TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::get_CurrentKey()
+extern "C" Object_t * Enumerator_get_CurrentKey_m50893_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_get_CurrentKey_m50893(__this, method) (( Object_t * (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_get_CurrentKey_m50893_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::get_CurrentValue()
+extern "C" double Enumerator_get_CurrentValue_m50895_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_get_CurrentValue_m50895(__this, method) (( double (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_get_CurrentValue_m50895_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::Reset()
+extern "C" void Enumerator_Reset_m50897_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_Reset_m50897(__this, method) (( void (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_Reset_m50897_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::VerifyState()
+extern "C" void Enumerator_VerifyState_m50899_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_VerifyState_m50899(__this, method) (( void (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_VerifyState_m50899_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::VerifyCurrent()
+extern "C" void Enumerator_VerifyCurrent_m50901_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_VerifyCurrent_m50901(__this, method) (( void (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_VerifyCurrent_m50901_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>::Dispose()
+extern "C" void Enumerator_Dispose_m50903_gshared (Enumerator_t7863 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m50903(__this, method) (( void (*) (Enumerator_t7863 *, const MethodInfo*))Enumerator_Dispose_m50903_gshared)(__this, method)

@@ -5,7 +5,7 @@
 // System.Runtime.InteropServices.CallingConvention
 #include "mscorlib_System_Runtime_InteropServices_CallingConvention.h"
 // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
-struct  UnmanagedFunctionPointerAttribute_t3778  : public Attribute_t471
+struct  UnmanagedFunctionPointerAttribute_t4262  : public Attribute_t471
 {
 	// System.Runtime.InteropServices.CallingConvention System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute::call_conv
 	int32_t ___call_conv_0;

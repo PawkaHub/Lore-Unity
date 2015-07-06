@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.Motion
-struct  Motion_t2786  : public Object_t563
+struct  Motion_t4521  : public Object_t584
 {
 };

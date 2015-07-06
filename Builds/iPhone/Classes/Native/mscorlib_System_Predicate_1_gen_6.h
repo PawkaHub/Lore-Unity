@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.Location
-struct Location_t826;
+// PixelCrushers.DialogueSystem.DialogueEntry
+struct DialogueEntry_t1102;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t449;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<PixelCrushers.DialogueSystem.Location>
-struct  Predicate_1_t1092  : public MulticastDelegate_t451
+// System.Predicate`1<PixelCrushers.DialogueSystem.DialogueEntry>
+struct  Predicate_1_t1117  : public MulticastDelegate_t451
 {
 };

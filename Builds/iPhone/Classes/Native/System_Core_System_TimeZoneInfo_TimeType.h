@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.TimeZoneInfo/TimeType
-struct  TimeType_t3222 
+struct  TimeType_t3051 
 {
 	// System.Int32 System.TimeZoneInfo/TimeType::Offset
 	int32_t ___Offset_0;
@@ -15,7 +15,7 @@ struct  TimeType_t3222
 	String_t* ___Name_2;
 };
 // Native definition for marshalling of: System.TimeZoneInfo/TimeType
-struct TimeType_t3222_marshaled
+struct TimeType_t3051_marshaled
 {
 	int32_t ___Offset_0;
 	int32_t ___IsDst_1;

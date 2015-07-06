@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ExitGames.Client.Photon.PhotonSocketState
-struct PhotonSocketState_t3139;
+struct PhotonSocketState_t4866;
 

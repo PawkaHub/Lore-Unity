@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // ExitGames.Client.Photon.PeerBase
-struct PeerBase_t3125;
+struct PeerBase_t4852;
 // System.String
 struct String_t;
 // System.Object
@@ -11,10 +11,10 @@ struct String_t;
 // ExitGames.Client.Photon.PhotonSocketState
 #include "Photon3Unity3D_ExitGames_Client_Photon_PhotonSocketState.h"
 // ExitGames.Client.Photon.IPhotonSocket
-struct  IPhotonSocket_t3128  : public Object_t
+struct  IPhotonSocket_t4855  : public Object_t
 {
 	// ExitGames.Client.Photon.PeerBase ExitGames.Client.Photon.IPhotonSocket::peerBase
-	PeerBase_t3125 * ___peerBase_0;
+	PeerBase_t4852 * ___peerBase_0;
 	// System.Boolean ExitGames.Client.Photon.IPhotonSocket::PollReceive
 	bool ___PollReceive_1;
 	// ExitGames.Client.Photon.ConnectionProtocol ExitGames.Client.Photon.IPhotonSocket::<Protocol>k__BackingField

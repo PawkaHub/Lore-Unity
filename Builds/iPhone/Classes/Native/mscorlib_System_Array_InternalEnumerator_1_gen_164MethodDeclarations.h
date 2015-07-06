@@ -4,24 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>
-struct InternalEnumerator_1_t6379;
+// System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>
+struct InternalEnumerator_1_t9466;
 // System.Object
 struct Object_t;
-// System.Reflection.Emit.ParameterBuilder
-struct ParameterBuilder_t4007;
+// UnityEngine.DisallowMultipleComponent
+struct DisallowMultipleComponent_t1025;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m44963(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6379 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m22566_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m44964(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6379 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22567_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::Dispose()
-#define InternalEnumerator_1_Dispose_m44965(__this, method) (( void (*) (InternalEnumerator_1_t6379 *, const MethodInfo*))InternalEnumerator_1_Dispose_m22568_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m44966(__this, method) (( bool (*) (InternalEnumerator_1_t6379 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m22569_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Reflection.Emit.ParameterBuilder>::get_Current()
-#define InternalEnumerator_1_get_Current_m44967(__this, method) (( ParameterBuilder_t4007 * (*) (InternalEnumerator_1_t6379 *, const MethodInfo*))InternalEnumerator_1_get_Current_m22570_gshared)(__this, method)
+#define InternalEnumerator_1__ctor_m71054(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9466 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m23907_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m71055(__this, method) (( void (*) (InternalEnumerator_1_t9466 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m23908_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m71056(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9466 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m23909_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::Dispose()
+#define InternalEnumerator_1_Dispose_m71057(__this, method) (( void (*) (InternalEnumerator_1_t9466 *, const MethodInfo*))InternalEnumerator_1_Dispose_m23910_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m71058(__this, method) (( bool (*) (InternalEnumerator_1_t9466 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m23911_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.DisallowMultipleComponent>::get_Current()
+#define InternalEnumerator_1_get_Current_m71059(__this, method) (( DisallowMultipleComponent_t1025 * (*) (InternalEnumerator_1_t9466 *, const MethodInfo*))InternalEnumerator_1_get_Current_m23912_gshared)(__this, method)

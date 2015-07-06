@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // ExitGames.Client.Photon.PeerBase/MyAction
-struct  MyAction_t3122  : public MulticastDelegate_t451
+struct  MyAction_t4849  : public MulticastDelegate_t451
 {
 };

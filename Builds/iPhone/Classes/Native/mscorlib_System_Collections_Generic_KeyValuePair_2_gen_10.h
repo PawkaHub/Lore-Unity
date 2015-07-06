@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.String
-struct String_t;
-// SimpleJson.Reflection.ReflectionUtils/GetDelegate
-struct GetDelegate_t2850;
+// System.Type
+struct Type_t;
+// SimpleJson.Reflection.ReflectionUtils/SetDelegate
+struct SetDelegate_t4586;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct  KeyValuePair_2_t2964 
+// System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>
+struct  KeyValuePair_2_t4693 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::key
-	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::value
-	GetDelegate_t2850 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>::key
+	Type_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>::value
+	SetDelegate_t4586 * ___value_1;
 };

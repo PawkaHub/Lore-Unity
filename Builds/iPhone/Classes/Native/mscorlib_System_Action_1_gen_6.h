@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Threading.Tasks.Task[]
-struct TaskU5BU5D_t1520;
+// UnityEngine.WWW
+struct WWW_t1224;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -12,7 +12,7 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<System.Threading.Tasks.Task[]>
-struct  Action_1_t1536  : public MulticastDelegate_t451
+// System.Action`1<UnityEngine.WWW>
+struct  Action_1_t1650  : public MulticastDelegate_t451
 {
 };

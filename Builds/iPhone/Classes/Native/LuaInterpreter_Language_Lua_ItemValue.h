@@ -3,6 +3,6 @@
 // Language.Lua.Field
 #include "LuaInterpreter_Language_Lua_Field.h"
 // Language.Lua.ItemValue
-struct  ItemValue_t2656  : public Field_t2655
+struct  ItemValue_t3586  : public Field_t3585
 {
 };

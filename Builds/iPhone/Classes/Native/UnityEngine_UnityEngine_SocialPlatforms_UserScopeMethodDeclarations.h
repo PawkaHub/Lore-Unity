@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.UserScope
-struct UserScope_t2892;
+struct UserScope_t4627;
 

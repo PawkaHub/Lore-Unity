@@ -7,7 +7,7 @@ struct DialogueDatabase_t202;
 // PixelCrushers.DialogueSystem.DialogueEvent
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEvent.h"
 // PixelCrushers.DialogueSystem.ActOnDialogueEvent
-struct  ActOnDialogueEvent_t956  : public MonoBehaviour_t47
+struct  ActOnDialogueEvent_t1280  : public MonoBehaviour_t47
 {
 	// PixelCrushers.DialogueSystem.DialogueEvent PixelCrushers.DialogueSystem.ActOnDialogueEvent::trigger
 	int32_t ___trigger_2;

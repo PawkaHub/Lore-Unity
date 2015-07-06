@@ -9,7 +9,7 @@ struct Transform_t54;
 // UnityEngine.Quaternion
 #include "UnityEngine_UnityEngine_Quaternion.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandMoveTo
-struct  SequencerCommandMoveTo_t908  : public SequencerCommand_t209
+struct  SequencerCommandMoveTo_t1232  : public SequencerCommand_t209
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandMoveTo::target
 	Transform_t54 * ___target_7;

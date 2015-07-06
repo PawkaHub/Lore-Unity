@@ -9,13 +9,13 @@ struct String_t;
 // PixelCrushers.DialogueSystem.LocalizedTextTable
 struct LocalizedTextTable_t252;
 // PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction[]
-struct SendMessageActionU5BU5D_t1007;
+struct SendMessageActionU5BU5D_t1331;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PixelCrushers.DialogueSystem.QuestState
 #include "DialogueSystem_PixelCrushers_DialogueSystem_QuestState.h"
 // PixelCrushers.DialogueSystem.ConditionObserver
-struct  ConditionObserver_t1005  : public MonoBehaviour_t47
+struct  ConditionObserver_t1329  : public MonoBehaviour_t47
 {
 	// System.Single PixelCrushers.DialogueSystem.ConditionObserver::frequency
 	float ___frequency_2;
@@ -38,7 +38,7 @@ struct  ConditionObserver_t1005  : public MonoBehaviour_t47
 	// PixelCrushers.DialogueSystem.LocalizedTextTable PixelCrushers.DialogueSystem.ConditionObserver::localizedTextTable
 	LocalizedTextTable_t252 * ___localizedTextTable_11;
 	// PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction[] PixelCrushers.DialogueSystem.ConditionObserver::sendMessages
-	SendMessageActionU5BU5D_t1007* ___sendMessages_12;
+	SendMessageActionU5BU5D_t1331* ___sendMessages_12;
 	// System.Boolean PixelCrushers.DialogueSystem.ConditionObserver::useQuestNamePicker
 	bool ___useQuestNamePicker_13;
 	// System.Boolean PixelCrushers.DialogueSystem.ConditionObserver::started

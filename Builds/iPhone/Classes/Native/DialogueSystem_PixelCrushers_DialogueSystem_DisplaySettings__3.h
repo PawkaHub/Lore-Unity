@@ -3,7 +3,7 @@
 // System.String[]
 struct StringU5BU5D_t20;
 // PixelCrushers.DialogueSystem.InputTrigger
-struct InputTrigger_t917;
+struct InputTrigger_t1241;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.ResponseTimeoutAction
@@ -11,7 +11,7 @@ struct InputTrigger_t917;
 // PixelCrushers.DialogueSystem.EmTag
 #include "DialogueSystem_PixelCrushers_DialogueSystem_EmTag.h"
 // PixelCrushers.DialogueSystem.DisplaySettings/InputSettings
-struct  InputSettings_t918  : public Object_t
+struct  InputSettings_t1242  : public Object_t
 {
 	// System.Boolean PixelCrushers.DialogueSystem.DisplaySettings/InputSettings::alwaysForceResponseMenu
 	bool ___alwaysForceResponseMenu_0;
@@ -24,7 +24,7 @@ struct  InputSettings_t918  : public Object_t
 	// System.String[] PixelCrushers.DialogueSystem.DisplaySettings/InputSettings::qteButtons
 	StringU5BU5D_t20* ___qteButtons_4;
 	// PixelCrushers.DialogueSystem.InputTrigger PixelCrushers.DialogueSystem.DisplaySettings/InputSettings::cancel
-	InputTrigger_t917 * ___cancel_5;
+	InputTrigger_t1241 * ___cancel_5;
 	// PixelCrushers.DialogueSystem.InputTrigger PixelCrushers.DialogueSystem.DisplaySettings/InputSettings::cancelConversation
-	InputTrigger_t917 * ___cancelConversation_6;
+	InputTrigger_t1241 * ___cancelConversation_6;
 };

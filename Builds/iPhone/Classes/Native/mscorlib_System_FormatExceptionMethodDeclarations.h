@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.FormatException
-struct FormatException_t1330;
+struct FormatException_t3938;
 // System.String
 struct String_t;
 // System.Exception
 struct Exception_t468;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t1322;
+struct SerializationInfo_t3058;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.FormatException::.ctor()
-extern "C" void FormatException__ctor_m11536 (FormatException_t1330 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormatException__ctor_m12828 (FormatException_t3938 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.FormatException::.ctor(System.String)
-extern "C" void FormatException__ctor_m6577 (FormatException_t1330 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormatException__ctor_m12818 (FormatException_t3938 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.FormatException::.ctor(System.String,System.Exception)
-extern "C" void FormatException__ctor_m16797 (FormatException_t1330 * __this, String_t* ___message, Exception_t468 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormatException__ctor_m14896 (FormatException_t3938 * __this, String_t* ___message, Exception_t468 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.FormatException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FormatException__ctor_m16798 (FormatException_t1330 * __this, SerializationInfo_t1322 * ___info, StreamingContext_t1323  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormatException__ctor_m14897 (FormatException_t3938 * __this, SerializationInfo_t3058 * ___info, StreamingContext_t3059  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

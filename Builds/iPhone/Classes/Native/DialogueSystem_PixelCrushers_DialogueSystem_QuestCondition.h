@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.QuestState
 #include "DialogueSystem_PixelCrushers_DialogueSystem_QuestState.h"
 // PixelCrushers.DialogueSystem.QuestCondition
-struct  QuestCondition_t954  : public Object_t
+struct  QuestCondition_t1278  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.QuestCondition::questName
 	String_t* ___questName_0;

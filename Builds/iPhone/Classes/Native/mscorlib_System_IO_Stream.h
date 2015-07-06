@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IO.Stream
-struct Stream_t1271;
+struct Stream_t1494;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IO.Stream
-struct  Stream_t1271  : public Object_t
+struct  Stream_t1494  : public Object_t
 {
 };
-struct Stream_t1271_StaticFields{
+struct Stream_t1494_StaticFields{
 	// System.IO.Stream System.IO.Stream::Null
-	Stream_t1271 * ___Null_0;
+	Stream_t1494 * ___Null_0;
 };

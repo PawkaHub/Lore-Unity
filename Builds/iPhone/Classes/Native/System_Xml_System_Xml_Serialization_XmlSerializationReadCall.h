@@ -9,6 +9,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Xml.Serialization.XmlSerializationReadCallback
-struct  XmlSerializationReadCallback_t2366  : public MulticastDelegate_t451
+struct  XmlSerializationReadCallback_t3752  : public MulticastDelegate_t451
 {
 };

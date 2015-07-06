@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.SchemaTypes
-struct SchemaTypes_t2328;
+struct SchemaTypes_t3713;
 

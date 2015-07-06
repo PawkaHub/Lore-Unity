@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.StoreName
-struct StoreName_t3656;
+struct StoreName_t4097;
 

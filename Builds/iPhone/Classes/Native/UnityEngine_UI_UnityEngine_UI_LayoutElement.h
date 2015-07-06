@@ -3,7 +3,7 @@
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.UI.LayoutElement
-struct  LayoutElement_t2109  : public UIBehaviour_t1968
+struct  LayoutElement_t929  : public UIBehaviour_t785
 {
 	// System.Boolean UnityEngine.UI.LayoutElement::m_IgnoreLayout
 	bool ___m_IgnoreLayout_2;

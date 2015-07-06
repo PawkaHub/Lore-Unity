@@ -5,7 +5,7 @@
 // System.Configuration.Assemblies.AssemblyHashAlgorithm
 #include "mscorlib_System_Configuration_Assemblies_AssemblyHashAlgorit.h"
 // System.Configuration.Assemblies.AssemblyHashAlgorithm
-struct  AssemblyHashAlgorithm_t3942 
+struct  AssemblyHashAlgorithm_t5032 
 {
 	// System.Int32 System.Configuration.Assemblies.AssemblyHashAlgorithm::value__
 	int32_t ___value___1;

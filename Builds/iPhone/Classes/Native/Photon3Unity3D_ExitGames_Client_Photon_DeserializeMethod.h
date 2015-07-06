@@ -11,6 +11,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // ExitGames.Client.Photon.DeserializeMethod
-struct  DeserializeMethod_t3149  : public MulticastDelegate_t451
+struct  DeserializeMethod_t4876  : public MulticastDelegate_t451
 {
 };

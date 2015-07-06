@@ -11,7 +11,7 @@ struct String_t;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.IO.FileStream
-struct  FileStream_t1348  : public Stream_t1271
+struct  FileStream_t1880  : public Stream_t1494
 {
 	// System.IO.FileAccess System.IO.FileStream::access
 	int32_t ___access_1;

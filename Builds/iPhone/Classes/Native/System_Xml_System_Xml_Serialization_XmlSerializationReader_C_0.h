@@ -7,7 +7,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Serialization.XmlSerializationReader/CollectionItemFixup
-struct  CollectionItemFixup_t2372  : public Object_t
+struct  CollectionItemFixup_t3758  : public Object_t
 {
 	// System.Array System.Xml.Serialization.XmlSerializationReader/CollectionItemFixup::list
 	Array_t * ___list_0;

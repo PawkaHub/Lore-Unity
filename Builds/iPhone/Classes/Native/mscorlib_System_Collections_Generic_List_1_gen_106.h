@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>[]
-struct KeyValuePair_2U5BU5D_t6330;
+// System.Type[]
+struct TypeU5BU5D_t580;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct  List_1_t3232  : public Object_t
+// System.Collections.Generic.List`1<System.Type>
+struct  List_1_t4700  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::_items
-	KeyValuePair_2U5BU5D_t6330* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::_size
+	// T[] System.Collections.Generic.List`1<System.Type>::_items
+	TypeU5BU5D_t580* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Type>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Type>::_version
 	int32_t ____version_3;
 };
-struct List_1_t3232_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::EmptyArray
-	KeyValuePair_2U5BU5D_t6330* ___EmptyArray_4;
+struct List_1_t4700_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Type>::EmptyArray
+	TypeU5BU5D_t580* ___EmptyArray_4;
 };

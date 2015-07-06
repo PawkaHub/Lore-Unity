@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo
-struct QuestInfo_t269;
+// UnityEngine.Texture2D
+struct Texture2D_t90;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t449;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo>
-struct  Predicate_1_t5496  : public MulticastDelegate_t451
+// System.Predicate`1<UnityEngine.Texture2D>
+struct  Predicate_1_t6582  : public MulticastDelegate_t451
 {
 };

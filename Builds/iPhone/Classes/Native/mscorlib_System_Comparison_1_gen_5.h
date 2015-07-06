@@ -9,6 +9,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<System.Object>
-struct  Comparison_1_t4889  : public MulticastDelegate_t451
+struct  Comparison_1_t5979  : public MulticastDelegate_t451
 {
 };

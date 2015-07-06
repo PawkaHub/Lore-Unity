@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonView>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator_.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,PhotonView>
-struct  Enumerator_t665 
+struct  Enumerator_t682 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,PhotonView>::host_enumerator
-	Enumerator_t679  ___host_enumerator_0;
+	Enumerator_t696  ___host_enumerator_0;
 };

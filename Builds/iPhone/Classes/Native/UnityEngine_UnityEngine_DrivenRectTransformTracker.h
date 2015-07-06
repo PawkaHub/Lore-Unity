@@ -3,6 +3,6 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.DrivenRectTransformTracker
-struct  DrivenRectTransformTracker_t2069 
+struct  DrivenRectTransformTracker_t889 
 {
 };

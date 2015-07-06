@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.SerializationFormat
-struct SerializationFormat_t2356;
+struct SerializationFormat_t3742;
 

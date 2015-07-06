@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class NetworkManager : MonoBehaviour {
@@ -53,4 +53,4 @@ public class NetworkManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	}
-}
+}*/

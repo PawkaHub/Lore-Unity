@@ -11,7 +11,7 @@ struct Texture2D_t90;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // PixelCrushers.DialogueSystem.UnityGUI.GUIImageParams
-struct  GUIImageParams_t1022  : public Object_t
+struct  GUIImageParams_t1346  : public Object_t
 {
 	// UnityEngine.Rect PixelCrushers.DialogueSystem.UnityGUI.GUIImageParams::pixelRect
 	Rect_t201  ___pixelRect_0;

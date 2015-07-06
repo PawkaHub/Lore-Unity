@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.DialogueTriggerEvent
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTriggerE.h"
 // PixelCrushers.DialogueSystem.DialogueTriggerEvent
-struct  DialogueTriggerEvent_t1010 
+struct  DialogueTriggerEvent_t1334 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.DialogueTriggerEvent::value__
 	int32_t ___value___1;

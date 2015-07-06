@@ -5,7 +5,7 @@ struct LocalizedTextTable_t252;
 // System.String
 struct String_t;
 // PixelCrushers.DialogueSystem.FormattedText
-struct FormattedText_t554;
+struct FormattedText_t572;
 // UnityEngine.GUIStyle
 struct GUIStyle_t303;
 // PixelCrushers.DialogueSystem.UnityGUI.GUIControl
@@ -13,7 +13,7 @@ struct GUIStyle_t303;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // PixelCrushers.DialogueSystem.UnityGUI.GUIVisibleControl
-struct  GUIVisibleControl_t1023  : public GUIControl_t937
+struct  GUIVisibleControl_t1347  : public GUIControl_t1261
 {
 	// PixelCrushers.DialogueSystem.LocalizedTextTable PixelCrushers.DialogueSystem.UnityGUI.GUIVisibleControl::localizedText
 	LocalizedTextTable_t252 * ___localizedText_19;
@@ -22,7 +22,7 @@ struct  GUIVisibleControl_t1023  : public GUIControl_t937
 	// System.String PixelCrushers.DialogueSystem.UnityGUI.GUIVisibleControl::guiStyleName
 	String_t* ___guiStyleName_21;
 	// PixelCrushers.DialogueSystem.FormattedText PixelCrushers.DialogueSystem.UnityGUI.GUIVisibleControl::formattingToApply
-	FormattedText_t554 * ___formattingToApply_22;
+	FormattedText_t572 * ___formattingToApply_22;
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.GUIVisibleControl::isFormattingApplied
 	bool ___isFormattingApplied_23;
 	// UnityEngine.GUIStyle PixelCrushers.DialogueSystem.UnityGUI.GUIVisibleControl::guiStyle

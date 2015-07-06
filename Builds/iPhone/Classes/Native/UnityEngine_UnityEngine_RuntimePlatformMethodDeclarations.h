@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RuntimePlatform
-struct RuntimePlatform_t2703;
+struct RuntimePlatform_t4438;
 

@@ -9,7 +9,7 @@ struct Type_t;
 // System.Xml.Schema.XmlSchemaForm
 #include "System_Xml_System_Xml_Schema_XmlSchemaForm.h"
 // System.Xml.Serialization.XmlAttributeAttribute
-struct  XmlAttributeAttribute_t1142  : public Attribute_t471
+struct  XmlAttributeAttribute_t1459  : public Attribute_t471
 {
 	// System.String System.Xml.Serialization.XmlAttributeAttribute::attributeName
 	String_t* ___attributeName_0;

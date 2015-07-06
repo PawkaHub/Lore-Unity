@@ -4,28 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.Byte>
-struct Enumerator_t5253;
+// System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>
+struct Enumerator_t6232;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.List`1<System.Byte>
-struct List_1_t680;
+// PhotonAnimatorView/SynchronizedParameter
+struct SynchronizedParameter_t477;
+// System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>
+struct List_1_t485;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Byte>::.ctor(System.Collections.Generic.List`1<T>)
-extern "C" void Enumerator__ctor_m28184_gshared (Enumerator_t5253 * __this, List_1_t680 * ___l, const MethodInfo* method);
-#define Enumerator__ctor_m28184(__this, ___l, method) (( void (*) (Enumerator_t5253 *, List_1_t680 *, const MethodInfo*))Enumerator__ctor_m28184_gshared)(__this, ___l, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<System.Byte>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m28185_gshared (Enumerator_t5253 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m28185(__this, method) (( Object_t * (*) (Enumerator_t5253 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m28185_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Byte>::Dispose()
-extern "C" void Enumerator_Dispose_m28186_gshared (Enumerator_t5253 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m28186(__this, method) (( void (*) (Enumerator_t5253 *, const MethodInfo*))Enumerator_Dispose_m28186_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Byte>::VerifyState()
-extern "C" void Enumerator_VerifyState_m28187_gshared (Enumerator_t5253 * __this, const MethodInfo* method);
-#define Enumerator_VerifyState_m28187(__this, method) (( void (*) (Enumerator_t5253 *, const MethodInfo*))Enumerator_VerifyState_m28187_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Byte>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m28188_gshared (Enumerator_t5253 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m28188(__this, method) (( bool (*) (Enumerator_t5253 *, const MethodInfo*))Enumerator_MoveNext_m28188_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<System.Byte>::get_Current()
-extern "C" uint8_t Enumerator_get_Current_m28189_gshared (Enumerator_t5253 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m28189(__this, method) (( uint8_t (*) (Enumerator_t5253 *, const MethodInfo*))Enumerator_get_Current_m28189_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Collections.Generic.List`1/Enumerator<System.Object>
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_41MethodDeclarations.h"
+#define Enumerator__ctor_m27909(__this, ___l, method) (( void (*) (Enumerator_t6232 *, List_1_t485 *, const MethodInfo*))Enumerator__ctor_m23913_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m27910(__this, method) (( void (*) (Enumerator_t6232 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m23914_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m27911(__this, method) (( Object_t * (*) (Enumerator_t6232 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m23915_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>::Dispose()
+#define Enumerator_Dispose_m27912(__this, method) (( void (*) (Enumerator_t6232 *, const MethodInfo*))Enumerator_Dispose_m23916_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>::VerifyState()
+#define Enumerator_VerifyState_m27913(__this, method) (( void (*) (Enumerator_t6232 *, const MethodInfo*))Enumerator_VerifyState_m23917_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>::MoveNext()
+#define Enumerator_MoveNext_m27914(__this, method) (( bool (*) (Enumerator_t6232 *, const MethodInfo*))Enumerator_MoveNext_m23918_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>::get_Current()
+#define Enumerator_get_Current_m27915(__this, method) (( SynchronizedParameter_t477 * (*) (Enumerator_t6232 *, const MethodInfo*))Enumerator_get_Current_m23919_gshared)(__this, method)

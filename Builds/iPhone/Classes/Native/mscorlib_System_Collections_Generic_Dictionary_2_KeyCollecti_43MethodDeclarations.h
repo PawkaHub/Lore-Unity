@@ -4,62 +4,52 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>
-struct KeyCollection_t5687;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>
+struct KeyCollection_t6716;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.Int64,System.Byte>
-struct Dictionary_2_t5686;
-// System.Collections.Generic.IEnumerator`1<System.Int64>
-struct IEnumerator_1_t6793;
+// System.Collections.Generic.Dictionary`2<System.String,System.Type>
+struct Dictionary_2_t1213;
+// System.String
+struct String_t;
+// System.Collections.Generic.IEnumerator`1<System.String>
+struct IEnumerator_1_t1394;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t74;
-// System.Int64[]
-struct Int64U5BU5D_t2413;
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Byte>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_44.h"
+// System.String[]
+struct StringU5BU5D_t20;
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,System.Type>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_119.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void KeyCollection__ctor_m34596_gshared (KeyCollection_t5687 * __this, Dictionary_2_t5686 * ___dictionary, const MethodInfo* method);
-#define KeyCollection__ctor_m34596(__this, ___dictionary, method) (( void (*) (KeyCollection_t5687 *, Dictionary_2_t5686 *, const MethodInfo*))KeyCollection__ctor_m34596_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
-extern "C" void KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m34597_gshared (KeyCollection_t5687 * __this, int64_t ___item, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m34597(__this, ___item, method) (( void (*) (KeyCollection_t5687 *, int64_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m34597_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.Generic.ICollection<TKey>.Clear()
-extern "C" void KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m34598_gshared (KeyCollection_t5687 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m34598(__this, method) (( void (*) (KeyCollection_t5687 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m34598_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
-extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m34599_gshared (KeyCollection_t5687 * __this, int64_t ___item, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m34599(__this, ___item, method) (( bool (*) (KeyCollection_t5687 *, int64_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m34599_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
-extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m34600_gshared (KeyCollection_t5687 * __this, int64_t ___item, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m34600(__this, ___item, method) (( bool (*) (KeyCollection_t5687 *, int64_t, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m34600_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
-extern "C" Object_t* KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m34601_gshared (KeyCollection_t5687 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m34601(__this, method) (( Object_t* (*) (KeyCollection_t5687 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m34601_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void KeyCollection_System_Collections_ICollection_CopyTo_m34602_gshared (KeyCollection_t5687 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method);
-#define KeyCollection_System_Collections_ICollection_CopyTo_m34602(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5687 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m34602_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * KeyCollection_System_Collections_IEnumerable_GetEnumerator_m34603_gshared (KeyCollection_t5687 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m34603(__this, method) (( Object_t * (*) (KeyCollection_t5687 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m34603_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
-extern "C" bool KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m34604_gshared (KeyCollection_t5687 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m34604(__this, method) (( bool (*) (KeyCollection_t5687 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m34604_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool KeyCollection_System_Collections_ICollection_get_IsSynchronized_m34605_gshared (KeyCollection_t5687 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m34605(__this, method) (( bool (*) (KeyCollection_t5687 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m34605_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * KeyCollection_System_Collections_ICollection_get_SyncRoot_m34606_gshared (KeyCollection_t5687 * __this, const MethodInfo* method);
-#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m34606(__this, method) (( Object_t * (*) (KeyCollection_t5687 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m34606_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::CopyTo(TKey[],System.Int32)
-extern "C" void KeyCollection_CopyTo_m34607_gshared (KeyCollection_t5687 * __this, Int64U5BU5D_t2413* ___array, int32_t ___index, const MethodInfo* method);
-#define KeyCollection_CopyTo_m34607(__this, ___array, ___index, method) (( void (*) (KeyCollection_t5687 *, Int64U5BU5D_t2413*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m34607_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::GetEnumerator()
-extern "C" Enumerator_t5688  KeyCollection_GetEnumerator_m34608_gshared (KeyCollection_t5687 * __this, const MethodInfo* method);
-#define KeyCollection_GetEnumerator_m34608(__this, method) (( Enumerator_t5688  (*) (KeyCollection_t5687 *, const MethodInfo*))KeyCollection_GetEnumerator_m34608_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Int64,System.Byte>::get_Count()
-extern "C" int32_t KeyCollection_get_Count_m34609_gshared (KeyCollection_t5687 * __this, const MethodInfo* method);
-#define KeyCollection_get_Count_m34609(__this, method) (( int32_t (*) (KeyCollection_t5687 *, const MethodInfo*))KeyCollection_get_Count_m34609_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_3MethodDeclarations.h"
+#define KeyCollection__ctor_m36298(__this, ___dictionary, method) (( void (*) (KeyCollection_t6716 *, Dictionary_2_t1213 *, const MethodInfo*))KeyCollection__ctor_m24221_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m36299(__this, ___item, method) (( void (*) (KeyCollection_t6716 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m24222_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.Generic.ICollection<TKey>.Clear()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m36300(__this, method) (( void (*) (KeyCollection_t6716 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m24223_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m36301(__this, ___item, method) (( bool (*) (KeyCollection_t6716 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m24224_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m36302(__this, ___item, method) (( bool (*) (KeyCollection_t6716 *, String_t*, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m24225_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
+#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m36303(__this, method) (( Object_t* (*) (KeyCollection_t6716 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m24226_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define KeyCollection_System_Collections_ICollection_CopyTo_m36304(__this, ___array, ___index, method) (( void (*) (KeyCollection_t6716 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m24227_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.IEnumerable.GetEnumerator()
+#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m36305(__this, method) (( Object_t * (*) (KeyCollection_t6716 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m24228_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m36306(__this, method) (( bool (*) (KeyCollection_t6716 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m24229_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.ICollection.get_IsSynchronized()
+#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m36307(__this, method) (( bool (*) (KeyCollection_t6716 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m24230_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::System.Collections.ICollection.get_SyncRoot()
+#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m36308(__this, method) (( Object_t * (*) (KeyCollection_t6716 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m24231_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::CopyTo(TKey[],System.Int32)
+#define KeyCollection_CopyTo_m36309(__this, ___array, ___index, method) (( void (*) (KeyCollection_t6716 *, StringU5BU5D_t20*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m24232_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::GetEnumerator()
+#define KeyCollection_GetEnumerator_m36310(__this, method) (( Enumerator_t10025  (*) (KeyCollection_t6716 *, const MethodInfo*))KeyCollection_GetEnumerator_m3212_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Type>::get_Count()
+#define KeyCollection_get_Count_m36311(__this, method) (( int32_t (*) (KeyCollection_t6716 *, const MethodInfo*))KeyCollection_get_Count_m24233_gshared)(__this, method)

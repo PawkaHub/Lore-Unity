@@ -6,11 +6,11 @@ struct IAsyncResult_t448;
 struct AsyncCallback_t449;
 // System.Object
 struct Object_t;
-// UnityEngine.EventSystems.RaycastResult
-#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
+// UnityEngine.RaycastHit
+#include "UnityEngine_UnityEngine_RaycastHit.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
-struct  Comparison_1_t1967  : public MulticastDelegate_t451
+// System.Comparison`1<UnityEngine.RaycastHit>
+struct  Comparison_1_t829  : public MulticastDelegate_t451
 {
 };

@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<PixelCrushers.DialogueSystem.LuaWatchItem>
-struct Predicate_1_t1085;
+// System.Predicate`1<UnityEngine.UI.Toggle>
+struct Predicate_1_t912;
 // System.Object
 struct Object_t;
-// PixelCrushers.DialogueSystem.LuaWatchItem
-struct LuaWatchItem_t758;
+// UnityEngine.UI.Toggle
+struct Toggle_t910;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -17,13 +17,13 @@ struct AsyncCallback_t449;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Predicate`1<PixelCrushers.DialogueSystem.LuaWatchItem>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Predicate`1<UnityEngine.UI.Toggle>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_17MethodDeclarations.h"
-#define Predicate_1__ctor_m5255(__this, ___object, ___method, method) (( void (*) (Predicate_1_t1085 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m22656_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.LuaWatchItem>::Invoke(T)
-#define Predicate_1_Invoke_m29355(__this, ___obj, method) (( bool (*) (Predicate_1_t1085 *, LuaWatchItem_t758 *, const MethodInfo*))Predicate_1_Invoke_m22657_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<PixelCrushers.DialogueSystem.LuaWatchItem>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m29356(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t1085 *, LuaWatchItem_t758 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m22658_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.LuaWatchItem>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m29357(__this, ___result, method) (( bool (*) (Predicate_1_t1085 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m22659_gshared)(__this, ___result, method)
+#define Predicate_1__ctor_m5004(__this, ___object, ___method, method) (( void (*) (Predicate_1_t912 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m23999_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.UI.Toggle>::Invoke(T)
+#define Predicate_1_Invoke_m32935(__this, ___obj, method) (( bool (*) (Predicate_1_t912 *, Toggle_t910 *, const MethodInfo*))Predicate_1_Invoke_m24000_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.UI.Toggle>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m32936(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t912 *, Toggle_t910 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m24001_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.UI.Toggle>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m32937(__this, ___result, method) (( bool (*) (Predicate_1_t912 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m24002_gshared)(__this, ___result, method)

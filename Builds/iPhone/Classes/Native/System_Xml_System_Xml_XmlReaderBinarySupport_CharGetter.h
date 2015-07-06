@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t646;
+struct CharU5BU5D_t665;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Xml.XmlReaderBinarySupport/CharGetter
-struct  CharGetter_t2503  : public MulticastDelegate_t451
+struct  CharGetter_t3889  : public MulticastDelegate_t451
 {
 };

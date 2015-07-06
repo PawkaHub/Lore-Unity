@@ -1,14 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Object
-struct Object_t;
+// System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>
+struct Task_1_t1703;
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t1723;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
 struct AsyncCallback_t449;
+// System.Object
+struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Func`2<System.Object,System.Single>
-struct  Func_2_t5952  : public MulticastDelegate_t451
+// System.Func`2<System.Threading.Tasks.Task`1<System.Object>,System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>>
+struct  Func_2_t1883  : public MulticastDelegate_t451
 {
 };

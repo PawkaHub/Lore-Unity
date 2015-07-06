@@ -3,6 +3,6 @@
 // System.Collections.Generic.List`1<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_gen.h"
 // SimpleJson.JsonArray
-struct  JsonArray_t2842  : public List_1_t2
+struct  JsonArray_t4577  : public List_1_t2
 {
 };

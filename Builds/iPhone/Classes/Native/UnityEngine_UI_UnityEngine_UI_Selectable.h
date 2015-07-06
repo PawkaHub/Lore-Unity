@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
-struct List_1_t2076;
+struct List_1_t896;
 // UnityEngine.UI.AnimationTriggers
-struct AnimationTriggers_t2018;
+struct AnimationTriggers_t834;
 // UnityEngine.UI.Graphic
 struct Graphic_t219;
 // System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct List_1_t2077;
+struct List_1_t897;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.UI.Navigation
@@ -21,18 +21,18 @@ struct List_1_t2077;
 // UnityEngine.UI.Selectable/SelectionState
 #include "UnityEngine_UI_UnityEngine_UI_Selectable_SelectionState.h"
 // UnityEngine.UI.Selectable
-struct  Selectable_t2020  : public UIBehaviour_t1968
+struct  Selectable_t727  : public UIBehaviour_t785
 {
 	// UnityEngine.UI.Navigation UnityEngine.UI.Selectable::m_Navigation
-	Navigation_t2062  ___m_Navigation_3;
+	Navigation_t882  ___m_Navigation_3;
 	// UnityEngine.UI.Selectable/Transition UnityEngine.UI.Selectable::m_Transition
 	int32_t ___m_Transition_4;
 	// UnityEngine.UI.ColorBlock UnityEngine.UI.Selectable::m_Colors
-	ColorBlock_t2026  ___m_Colors_5;
+	ColorBlock_t841  ___m_Colors_5;
 	// UnityEngine.UI.SpriteState UnityEngine.UI.Selectable::m_SpriteState
-	SpriteState_t2078  ___m_SpriteState_6;
+	SpriteState_t898  ___m_SpriteState_6;
 	// UnityEngine.UI.AnimationTriggers UnityEngine.UI.Selectable::m_AnimationTriggers
-	AnimationTriggers_t2018 * ___m_AnimationTriggers_7;
+	AnimationTriggers_t834 * ___m_AnimationTriggers_7;
 	// System.Boolean UnityEngine.UI.Selectable::m_Interactable
 	bool ___m_Interactable_8;
 	// UnityEngine.UI.Graphic UnityEngine.UI.Selectable::m_TargetGraphic
@@ -42,7 +42,7 @@ struct  Selectable_t2020  : public UIBehaviour_t1968
 	// UnityEngine.UI.Selectable/SelectionState UnityEngine.UI.Selectable::m_CurrentSelectionState
 	int32_t ___m_CurrentSelectionState_11;
 	// System.Collections.Generic.List`1<UnityEngine.CanvasGroup> UnityEngine.UI.Selectable::m_CanvasGroupCache
-	List_1_t2077 * ___m_CanvasGroupCache_12;
+	List_1_t897 * ___m_CanvasGroupCache_12;
 	// System.Boolean UnityEngine.UI.Selectable::<isPointerInside>k__BackingField
 	bool ___U3CisPointerInsideU3Ek__BackingField_13;
 	// System.Boolean UnityEngine.UI.Selectable::<isPointerDown>k__BackingField
@@ -50,7 +50,7 @@ struct  Selectable_t2020  : public UIBehaviour_t1968
 	// System.Boolean UnityEngine.UI.Selectable::<hasSelection>k__BackingField
 	bool ___U3ChasSelectionU3Ek__BackingField_15;
 };
-struct Selectable_t2020_StaticFields{
+struct Selectable_t727_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.UI.Selectable> UnityEngine.UI.Selectable::s_List
-	List_1_t2076 * ___s_List_2;
+	List_1_t896 * ___s_List_2;
 };

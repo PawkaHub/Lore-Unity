@@ -3,11 +3,11 @@
 // System.Object
 struct Object_t;
 // PixelCrushers.DialogueSystem.UnityGUI.FadeEffect
-struct FadeEffect_t1041;
+struct FadeEffect_t1365;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.UnityGUI.FadeEffect/<Play>c__Iterator18
-struct  U3CPlayU3Ec__Iterator18_t1042  : public Object_t
+struct  U3CPlayU3Ec__Iterator18_t1366  : public Object_t
 {
 	// System.Single PixelCrushers.DialogueSystem.UnityGUI.FadeEffect/<Play>c__Iterator18::<startTime>__0
 	float ___U3CstartTimeU3E__0_0;
@@ -22,5 +22,5 @@ struct  U3CPlayU3Ec__Iterator18_t1042  : public Object_t
 	// System.Object PixelCrushers.DialogueSystem.UnityGUI.FadeEffect/<Play>c__Iterator18::$current
 	Object_t * ___U24current_5;
 	// PixelCrushers.DialogueSystem.UnityGUI.FadeEffect PixelCrushers.DialogueSystem.UnityGUI.FadeEffect/<Play>c__Iterator18::<>f__this
-	FadeEffect_t1041 * ___U3CU3Ef__this_6;
+	FadeEffect_t1365 * ___U3CU3Ef__this_6;
 };

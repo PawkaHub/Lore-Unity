@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.IO.Compression.DeflateStream/UnmanagedReadOrWrite
-struct  UnmanagedReadOrWrite_t3551  : public MulticastDelegate_t451
+struct  UnmanagedReadOrWrite_t3980  : public MulticastDelegate_t451
 {
 };

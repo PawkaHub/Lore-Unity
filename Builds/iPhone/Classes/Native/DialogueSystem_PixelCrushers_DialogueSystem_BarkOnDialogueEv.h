@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.ActOnDialogueEvent/Action
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ActOnDialogueEve.h"
 // PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction
-struct  BarkAction_t957  : public Action_t955
+struct  BarkAction_t1281  : public Action_t1279
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.BarkOnDialogueEvent/BarkAction::speaker
 	Transform_t54 * ___speaker_1;

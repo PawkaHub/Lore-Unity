@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Object[]
-struct ObjectU5BU5D_t21;
+// System.Byte[][]
+struct ByteU5BU5DU5BU5D_t4425;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Queue`1<System.Object>
-struct  Queue_1_t5485  : public Object_t
+// System.Collections.Generic.Queue`1<System.Byte[]>
+struct  Queue_1_t4888  : public Object_t
 {
-	// T[] System.Collections.Generic.Queue`1<System.Object>::_array
-	ObjectU5BU5D_t21* ____array_0;
-	// System.Int32 System.Collections.Generic.Queue`1<System.Object>::_head
+	// T[] System.Collections.Generic.Queue`1<System.Byte[]>::_array
+	ByteU5BU5DU5BU5D_t4425* ____array_0;
+	// System.Int32 System.Collections.Generic.Queue`1<System.Byte[]>::_head
 	int32_t ____head_1;
-	// System.Int32 System.Collections.Generic.Queue`1<System.Object>::_tail
+	// System.Int32 System.Collections.Generic.Queue`1<System.Byte[]>::_tail
 	int32_t ____tail_2;
-	// System.Int32 System.Collections.Generic.Queue`1<System.Object>::_size
+	// System.Int32 System.Collections.Generic.Queue`1<System.Byte[]>::_size
 	int32_t ____size_3;
-	// System.Int32 System.Collections.Generic.Queue`1<System.Object>::_version
+	// System.Int32 System.Collections.Generic.Queue`1<System.Byte[]>::_version
 	int32_t ____version_4;
 };

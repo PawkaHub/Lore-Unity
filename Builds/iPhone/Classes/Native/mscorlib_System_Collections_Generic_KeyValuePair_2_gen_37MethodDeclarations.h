@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>
-struct KeyValuePair_2_t5683;
+// System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>
+struct KeyValuePair_2_t6758;
+// System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>
+struct Reference_t6753;
+// System.Object
+struct Object_t;
 // System.String
 struct String_t;
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m34539_gshared (KeyValuePair_2_t5683 * __this, int64_t ___key, uint8_t ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m34539(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t5683 *, int64_t, uint8_t, const MethodInfo*))KeyValuePair_2__ctor_m34539_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>::get_Key()
-extern "C" int64_t KeyValuePair_2_get_Key_m34540_gshared (KeyValuePair_2_t5683 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m34540(__this, method) (( int64_t (*) (KeyValuePair_2_t5683 *, const MethodInfo*))KeyValuePair_2_get_Key_m34540_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m34541_gshared (KeyValuePair_2_t5683 * __this, int64_t ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m34541(__this, ___value, method) (( void (*) (KeyValuePair_2_t5683 *, int64_t, const MethodInfo*))KeyValuePair_2_set_Key_m34541_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>::get_Value()
-extern "C" uint8_t KeyValuePair_2_get_Value_m34542_gshared (KeyValuePair_2_t5683 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m34542(__this, method) (( uint8_t (*) (KeyValuePair_2_t5683 *, const MethodInfo*))KeyValuePair_2_get_Value_m34542_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m34543_gshared (KeyValuePair_2_t5683 * __this, uint8_t ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m34543(__this, ___value, method) (( void (*) (KeyValuePair_2_t5683 *, uint8_t, const MethodInfo*))KeyValuePair_2_set_Value_m34543_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m34544_gshared (KeyValuePair_2_t5683 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m34544(__this, method) (( String_t* (*) (KeyValuePair_2_t5683 *, const MethodInfo*))KeyValuePair_2_ToString_m34544_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::.ctor(TKey,TValue)
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_13MethodDeclarations.h"
+#define KeyValuePair_2__ctor_m36844(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t6758 *, Reference_t6753 *, Object_t *, const MethodInfo*))KeyValuePair_2__ctor_m24209_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::get_Key()
+#define KeyValuePair_2_get_Key_m36845(__this, method) (( Reference_t6753 * (*) (KeyValuePair_2_t6758 *, const MethodInfo*))KeyValuePair_2_get_Key_m24210_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m36846(__this, ___value, method) (( void (*) (KeyValuePair_2_t6758 *, Reference_t6753 *, const MethodInfo*))KeyValuePair_2_set_Key_m24211_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::get_Value()
+#define KeyValuePair_2_get_Value_m36847(__this, method) (( Object_t * (*) (KeyValuePair_2_t6758 *, const MethodInfo*))KeyValuePair_2_get_Value_m24212_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m36848(__this, ___value, method) (( void (*) (KeyValuePair_2_t6758 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Value_m24213_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::ToString()
+#define KeyValuePair_2_ToString_m36849(__this, method) (( String_t* (*) (KeyValuePair_2_t6758 *, const MethodInfo*))KeyValuePair_2_ToString_m24214_gshared)(__this, method)

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.CharacterInfo
-struct CharacterInfo_t607;
+// UnityEngine.UI.Graphic
+struct Graphic_t219;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -14,7 +14,7 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,PixelCrushers.DialogueSystem.CharacterInfo,System.Collections.DictionaryEntry>
-struct  Transform_1_t5434  : public MulticastDelegate_t451
+// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.Graphic,System.Int32,System.Collections.DictionaryEntry>
+struct  Transform_1_t6499  : public MulticastDelegate_t451
 {
 };

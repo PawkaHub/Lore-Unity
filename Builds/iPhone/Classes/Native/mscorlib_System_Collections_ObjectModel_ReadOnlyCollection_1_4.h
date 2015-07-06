@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<System.Reflection.MemberInfo>
-struct IList_1_t6306;
+// System.Collections.Generic.IList`1<System.Linq.Expressions.MemberBinding>
+struct IList_1_t9156;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo>
-struct  ReadOnlyCollection_1_t3207  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding>
+struct  ReadOnlyCollection_1_t3031  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding>::list
 	Object_t* ___list_0;
 };

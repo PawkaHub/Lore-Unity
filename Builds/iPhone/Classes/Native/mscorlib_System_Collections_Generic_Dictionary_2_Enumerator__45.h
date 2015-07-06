@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Dictionary`2<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>
-struct Dictionary_2_t2652;
+// System.Collections.Generic.Dictionary`2<System.String,Parse.Internal.IParseAuthenticationProvider>
+struct Dictionary_2_t1879;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_49.h"
-// System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>
-struct  Enumerator_t6062 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_50.h"
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>
+struct  Enumerator_t7113 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::dictionary
-	Dictionary_2_t2652 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>::dictionary
+	Dictionary_2_t1879 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::current
-	KeyValuePair_2_t6059  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,Parse.Internal.IParseAuthenticationProvider>::current
+	KeyValuePair_2_t7110  ___current_3;
 };

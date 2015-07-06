@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.LuaWatchFrequency
 #include "DialogueSystem_PixelCrushers_DialogueSystem_LuaWatchFrequenc.h"
 // PixelCrushers.DialogueSystem.LuaWatchFrequency
-struct  LuaWatchFrequency_t772 
+struct  LuaWatchFrequency_t1097 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.LuaWatchFrequency::value__
 	int32_t ___value___1;

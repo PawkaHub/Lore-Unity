@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.EventTrigger/Entry[]
-struct EntryU5BU5D_t5836;
+// PixelCrushers.DialogueSystem.Emphasis[]
+struct EmphasisU5BU5D_t635;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  List_1_t1972  : public Object_t
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>
+struct  List_1_t1190  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::_items
-	EntryU5BU5D_t5836* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::_size
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>::_items
+	EmphasisU5BU5D_t635* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::_version
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1972_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::EmptyArray
-	EntryU5BU5D_t5836* ___EmptyArray_4;
+struct List_1_t1190_StaticFields{
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>::EmptyArray
+	EmphasisU5BU5D_t635* ___EmptyArray_4;
 };

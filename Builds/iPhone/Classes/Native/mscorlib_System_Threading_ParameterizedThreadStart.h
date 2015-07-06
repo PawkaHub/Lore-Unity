@@ -11,6 +11,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Threading.ParameterizedThreadStart
-struct  ParameterizedThreadStart_t1671  : public MulticastDelegate_t451
+struct  ParameterizedThreadStart_t2477  : public MulticastDelegate_t451
 {
 };

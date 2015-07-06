@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Xml.Serialization.XmlElementEventArgs
-struct XmlElementEventArgs_t2351;
+struct XmlElementEventArgs_t3737;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Xml.Serialization.XmlElementEventHandler
-struct  XmlElementEventHandler_t2392  : public MulticastDelegate_t451
+struct  XmlElementEventHandler_t3778  : public MulticastDelegate_t451
 {
 };

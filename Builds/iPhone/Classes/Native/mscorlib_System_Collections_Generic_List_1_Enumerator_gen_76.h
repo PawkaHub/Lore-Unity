@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Threading.Tasks.Task>
-struct List_1_t1629;
-// System.Threading.Tasks.Task
-struct Task_t1418;
+// System.Collections.Generic.List`1<UnityEngine.UIVertex>
+struct List_1_t878;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>
-struct  Enumerator_t5648 
+// UnityEngine.UIVertex
+#include "UnityEngine_UnityEngine_UIVertex.h"
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>
+struct  Enumerator_t6477 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::l
-	List_1_t1629 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::l
+	List_1_t878 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::current
-	Task_t1418 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::current
+	UIVertex_t876  ___current_3;
 };

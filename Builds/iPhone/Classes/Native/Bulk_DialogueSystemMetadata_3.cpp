@@ -5,29 +5,29 @@
 // PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEntrySpo.h"
 // Metadata Definition PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate
-extern TypeInfo DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo;
+extern TypeInfo DialogueEntrySpokenDelegate_t1198_il2cpp_TypeInfo;
 // PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEntrySpoMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo DialogueEntrySpokenDelegate_t873_DialogueEntrySpokenDelegate__ctor_m5215_ParameterInfos[] = 
+static const ParameterInfo DialogueEntrySpokenDelegate_t1198_DialogueEntrySpokenDelegate__ctor_m7069_ParameterInfos[] = 
 {
-	{"object", 0, 134219372, 0, &Object_t_0_0_0},
-	{"method", 1, 134219373, 0, &IntPtr_t_0_0_0},
+	{"object", 0, 134219376, 0, &Object_t_0_0_0},
+	{"method", 1, 134219377, 0, &IntPtr_t_0_0_0},
 };
 extern const Il2CppType Void_t35_0_0_0;
 extern void* RuntimeInvoker_Void_t35_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo DialogueEntrySpokenDelegate__ctor_m5215_MethodInfo = 
+extern const MethodInfo DialogueEntrySpokenDelegate__ctor_m7069_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DialogueEntrySpokenDelegate__ctor_m5215/* method */
-	, &DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DialogueEntrySpokenDelegate__ctor_m7069/* method */
+	, &DialogueEntrySpokenDelegate_t1198_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_IntPtr_t/* invoker_method */
-	, DialogueEntrySpokenDelegate_t873_DialogueEntrySpokenDelegate__ctor_m5215_ParameterInfos/* parameters */
+	, DialogueEntrySpokenDelegate_t1198_DialogueEntrySpokenDelegate__ctor_m7069_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -35,28 +35,28 @@ extern const MethodInfo DialogueEntrySpokenDelegate__ctor_m5215_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2015/* token */
+	, 2034/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
-extern const Il2CppType Subtitle_t552_0_0_0;
-static const ParameterInfo DialogueEntrySpokenDelegate_t873_DialogueEntrySpokenDelegate_Invoke_m5216_ParameterInfos[] = 
+extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
+static const ParameterInfo DialogueEntrySpokenDelegate_t1198_DialogueEntrySpokenDelegate_Invoke_m7070_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134219374, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134219378, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate::Invoke(PixelCrushers.DialogueSystem.Subtitle)
-extern const MethodInfo DialogueEntrySpokenDelegate_Invoke_m5216_MethodInfo = 
+extern const MethodInfo DialogueEntrySpokenDelegate_Invoke_m7070_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&DialogueEntrySpokenDelegate_Invoke_m5216/* method */
-	, &DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DialogueEntrySpokenDelegate_Invoke_m7070/* method */
+	, &DialogueEntrySpokenDelegate_t1198_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, DialogueEntrySpokenDelegate_t873_DialogueEntrySpokenDelegate_Invoke_m5216_ParameterInfos/* parameters */
+	, DialogueEntrySpokenDelegate_t1198_DialogueEntrySpokenDelegate_Invoke_m7070_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -64,33 +64,33 @@ extern const MethodInfo DialogueEntrySpokenDelegate_Invoke_m5216_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2016/* token */
+	, 2035/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 extern const Il2CppType AsyncCallback_t449_0_0_0;
 extern const Il2CppType AsyncCallback_t449_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo DialogueEntrySpokenDelegate_t873_DialogueEntrySpokenDelegate_BeginInvoke_m5217_ParameterInfos[] = 
+static const ParameterInfo DialogueEntrySpokenDelegate_t1198_DialogueEntrySpokenDelegate_BeginInvoke_m7071_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134219375, 0, &Subtitle_t552_0_0_0},
-	{"callback", 1, 134219376, 0, &AsyncCallback_t449_0_0_0},
-	{"object", 2, 134219377, 0, &Object_t_0_0_0},
+	{"subtitle", 0, 134219379, 0, &Subtitle_t570_0_0_0},
+	{"callback", 1, 134219380, 0, &AsyncCallback_t449_0_0_0},
+	{"object", 2, 134219381, 0, &Object_t_0_0_0},
 };
 extern const Il2CppType IAsyncResult_t448_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate::BeginInvoke(PixelCrushers.DialogueSystem.Subtitle,System.AsyncCallback,System.Object)
-extern const MethodInfo DialogueEntrySpokenDelegate_BeginInvoke_m5217_MethodInfo = 
+extern const MethodInfo DialogueEntrySpokenDelegate_BeginInvoke_m7071_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&DialogueEntrySpokenDelegate_BeginInvoke_m5217/* method */
-	, &DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DialogueEntrySpokenDelegate_BeginInvoke_m7071/* method */
+	, &DialogueEntrySpokenDelegate_t1198_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t448_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, DialogueEntrySpokenDelegate_t873_DialogueEntrySpokenDelegate_BeginInvoke_m5217_ParameterInfos/* parameters */
+	, DialogueEntrySpokenDelegate_t1198_DialogueEntrySpokenDelegate_BeginInvoke_m7071_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -98,27 +98,27 @@ extern const MethodInfo DialogueEntrySpokenDelegate_BeginInvoke_m5217_MethodInfo
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2017/* token */
+	, 2036/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IAsyncResult_t448_0_0_0;
-static const ParameterInfo DialogueEntrySpokenDelegate_t873_DialogueEntrySpokenDelegate_EndInvoke_m5218_ParameterInfos[] = 
+static const ParameterInfo DialogueEntrySpokenDelegate_t1198_DialogueEntrySpokenDelegate_EndInvoke_m7072_ParameterInfos[] = 
 {
-	{"result", 0, 134219378, 0, &IAsyncResult_t448_0_0_0},
+	{"result", 0, 134219382, 0, &IAsyncResult_t448_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate::EndInvoke(System.IAsyncResult)
-extern const MethodInfo DialogueEntrySpokenDelegate_EndInvoke_m5218_MethodInfo = 
+extern const MethodInfo DialogueEntrySpokenDelegate_EndInvoke_m7072_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&DialogueEntrySpokenDelegate_EndInvoke_m5218/* method */
-	, &DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DialogueEntrySpokenDelegate_EndInvoke_m7072/* method */
+	, &DialogueEntrySpokenDelegate_t1198_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, DialogueEntrySpokenDelegate_t873_DialogueEntrySpokenDelegate_EndInvoke_m5218_ParameterInfos/* parameters */
+	, DialogueEntrySpokenDelegate_t1198_DialogueEntrySpokenDelegate_EndInvoke_m7072_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -126,51 +126,51 @@ extern const MethodInfo DialogueEntrySpokenDelegate_EndInvoke_m5218_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2018/* token */
+	, 2037/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static const MethodInfo* DialogueEntrySpokenDelegate_t873_MethodInfos[] =
+static const MethodInfo* DialogueEntrySpokenDelegate_t1198_MethodInfos[] =
 {
-	&DialogueEntrySpokenDelegate__ctor_m5215_MethodInfo,
-	&DialogueEntrySpokenDelegate_Invoke_m5216_MethodInfo,
-	&DialogueEntrySpokenDelegate_BeginInvoke_m5217_MethodInfo,
-	&DialogueEntrySpokenDelegate_EndInvoke_m5218_MethodInfo,
+	&DialogueEntrySpokenDelegate__ctor_m7069_MethodInfo,
+	&DialogueEntrySpokenDelegate_Invoke_m7070_MethodInfo,
+	&DialogueEntrySpokenDelegate_BeginInvoke_m7071_MethodInfo,
+	&DialogueEntrySpokenDelegate_EndInvoke_m7072_MethodInfo,
 	NULL
 };
-extern const MethodInfo MulticastDelegate_Equals_m3368_MethodInfo;
+extern const MethodInfo MulticastDelegate_Equals_m3500_MethodInfo;
 extern const MethodInfo Object_Finalize_m127_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetHashCode_m3369_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetHashCode_m3501_MethodInfo;
 extern const MethodInfo Object_ToString_m129_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetObjectData_m3370_MethodInfo;
-extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m3371_MethodInfo;
-extern const MethodInfo Delegate_Clone_m3372_MethodInfo;
-extern const MethodInfo MulticastDelegate_GetInvocationList_m3373_MethodInfo;
-extern const MethodInfo MulticastDelegate_CombineImpl_m3374_MethodInfo;
-extern const MethodInfo MulticastDelegate_RemoveImpl_m3375_MethodInfo;
-extern const MethodInfo DialogueEntrySpokenDelegate_Invoke_m5216_MethodInfo;
-extern const MethodInfo DialogueEntrySpokenDelegate_BeginInvoke_m5217_MethodInfo;
-extern const MethodInfo DialogueEntrySpokenDelegate_EndInvoke_m5218_MethodInfo;
-static const Il2CppMethodReference DialogueEntrySpokenDelegate_t873_VTable[] =
+extern const MethodInfo MulticastDelegate_GetObjectData_m3502_MethodInfo;
+extern const MethodInfo MulticastDelegate_DynamicInvokeImpl_m3503_MethodInfo;
+extern const MethodInfo Delegate_Clone_m3504_MethodInfo;
+extern const MethodInfo MulticastDelegate_GetInvocationList_m3505_MethodInfo;
+extern const MethodInfo MulticastDelegate_CombineImpl_m3506_MethodInfo;
+extern const MethodInfo MulticastDelegate_RemoveImpl_m3507_MethodInfo;
+extern const MethodInfo DialogueEntrySpokenDelegate_Invoke_m7070_MethodInfo;
+extern const MethodInfo DialogueEntrySpokenDelegate_BeginInvoke_m7071_MethodInfo;
+extern const MethodInfo DialogueEntrySpokenDelegate_EndInvoke_m7072_MethodInfo;
+static const Il2CppMethodReference DialogueEntrySpokenDelegate_t1198_VTable[] =
 {
-	&MulticastDelegate_Equals_m3368_MethodInfo,
+	&MulticastDelegate_Equals_m3500_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3369_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3501_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3370_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m3371_MethodInfo,
-	&Delegate_Clone_m3372_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3370_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3373_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3374_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3375_MethodInfo,
-	&DialogueEntrySpokenDelegate_Invoke_m5216_MethodInfo,
-	&DialogueEntrySpokenDelegate_BeginInvoke_m5217_MethodInfo,
-	&DialogueEntrySpokenDelegate_EndInvoke_m5218_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3502_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m3503_MethodInfo,
+	&Delegate_Clone_m3504_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3502_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3505_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3506_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3507_MethodInfo,
+	&DialogueEntrySpokenDelegate_Invoke_m7070_MethodInfo,
+	&DialogueEntrySpokenDelegate_BeginInvoke_m7071_MethodInfo,
+	&DialogueEntrySpokenDelegate_EndInvoke_m7072_MethodInfo,
 };
-static bool DialogueEntrySpokenDelegate_t873_VTableIsGenericMethod[] =
+static bool DialogueEntrySpokenDelegate_t1198_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -187,57 +187,57 @@ static bool DialogueEntrySpokenDelegate_t873_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t736_0_0_0;
-extern const Il2CppType ISerializable_t737_0_0_0;
-static Il2CppInterfaceOffsetPair DialogueEntrySpokenDelegate_t873_InterfacesOffsets[] = 
+extern const Il2CppType ICloneable_t762_0_0_0;
+extern const Il2CppType ISerializable_t763_0_0_0;
+static Il2CppInterfaceOffsetPair DialogueEntrySpokenDelegate_t1198_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t736_0_0_0, 4},
-	{ &ISerializable_t737_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_DialogueSystem_dll_Image;
-extern const Il2CppType DialogueEntrySpokenDelegate_t873_0_0_0;
-extern const Il2CppType DialogueEntrySpokenDelegate_t873_1_0_0;
+extern const Il2CppType DialogueEntrySpokenDelegate_t1198_0_0_0;
+extern const Il2CppType DialogueEntrySpokenDelegate_t1198_1_0_0;
 extern const Il2CppType MulticastDelegate_t451_0_0_0;
-struct DialogueEntrySpokenDelegate_t873;
-const Il2CppTypeDefinitionMetadata DialogueEntrySpokenDelegate_t873_DefinitionMetadata = 
+struct DialogueEntrySpokenDelegate_t1198;
+const Il2CppTypeDefinitionMetadata DialogueEntrySpokenDelegate_t1198_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, DialogueEntrySpokenDelegate_t873_InterfacesOffsets/* interfaceOffsets */
+	, DialogueEntrySpokenDelegate_t1198_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t451_0_0_0/* parent */
-	, DialogueEntrySpokenDelegate_t873_VTable/* vtableMethods */
-	, DialogueEntrySpokenDelegate_t873_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, DialogueEntrySpokenDelegate_t1198_VTable/* vtableMethods */
+	, DialogueEntrySpokenDelegate_t1198_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo = 
+TypeInfo DialogueEntrySpokenDelegate_t1198_il2cpp_TypeInfo = 
 {
 	&g_DialogueSystem_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DialogueEntrySpokenDelegate"/* name */
 	, "PixelCrushers.DialogueSystem"/* namespaze */
-	, DialogueEntrySpokenDelegate_t873_MethodInfos/* methods */
+	, DialogueEntrySpokenDelegate_t1198_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &DialogueEntrySpokenDelegate_t873_il2cpp_TypeInfo/* element_class */
+	, &DialogueEntrySpokenDelegate_t1198_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DialogueEntrySpokenDelegate_t873_0_0_0/* byval_arg */
-	, &DialogueEntrySpokenDelegate_t873_1_0_0/* this_arg */
-	, &DialogueEntrySpokenDelegate_t873_DefinitionMetadata/* definitionMetadata */
+	, &DialogueEntrySpokenDelegate_t1198_0_0_0/* byval_arg */
+	, &DialogueEntrySpokenDelegate_t1198_1_0_0/* this_arg */
+	, &DialogueEntrySpokenDelegate_t1198_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
-	, (methodPointerType)pinvoke_delegate_wrapper_DialogueEntrySpokenDelegate_t873/* pinvoke_delegate_wrapper */
+	, (methodPointerType)pinvoke_delegate_wrapper_DialogueEntrySpokenDelegate_t1198/* pinvoke_delegate_wrapper */
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DialogueEntrySpokenDelegate_t873)/* instance_size */
-	, sizeof (DialogueEntrySpokenDelegate_t873)/* actualSize */
+	, sizeof (DialogueEntrySpokenDelegate_t1198)/* instance_size */
+	, sizeof (DialogueEntrySpokenDelegate_t1198)/* actualSize */
 	, 0/* element_size */
 	, sizeof(methodPointerType)/* native_size */
 	, 0/* static_fields_size */
@@ -274,21 +274,21 @@ extern TypeInfo AcceptedTextDelegate_t248_il2cpp_TypeInfo;
 #include "DialogueSystem_PixelCrushers_DialogueSystem_AcceptedTextDeleMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo AcceptedTextDelegate_t248_AcceptedTextDelegate__ctor_m5219_ParameterInfos[] = 
+static const ParameterInfo AcceptedTextDelegate_t248_AcceptedTextDelegate__ctor_m7073_ParameterInfos[] = 
 {
-	{"object", 0, 134219379, 0, &Object_t_0_0_0},
-	{"method", 1, 134219380, 0, &IntPtr_t_0_0_0},
+	{"object", 0, 134219383, 0, &Object_t_0_0_0},
+	{"method", 1, 134219384, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.AcceptedTextDelegate::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo AcceptedTextDelegate__ctor_m5219_MethodInfo = 
+extern const MethodInfo AcceptedTextDelegate__ctor_m7073_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AcceptedTextDelegate__ctor_m5219/* method */
+	, (methodPointerType)&AcceptedTextDelegate__ctor_m7073/* method */
 	, &AcceptedTextDelegate_t248_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_IntPtr_t/* invoker_method */
-	, AcceptedTextDelegate_t248_AcceptedTextDelegate__ctor_m5219_ParameterInfos/* parameters */
+	, AcceptedTextDelegate_t248_AcceptedTextDelegate__ctor_m7073_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -296,7 +296,7 @@ extern const MethodInfo AcceptedTextDelegate__ctor_m5219_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2019/* token */
+	, 2038/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -304,20 +304,20 @@ extern const MethodInfo AcceptedTextDelegate__ctor_m5219_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo AcceptedTextDelegate_t248_AcceptedTextDelegate_Invoke_m5220_ParameterInfos[] = 
+static const ParameterInfo AcceptedTextDelegate_t248_AcceptedTextDelegate_Invoke_m7074_ParameterInfos[] = 
 {
-	{"text", 0, 134219381, 0, &String_t_0_0_0},
+	{"text", 0, 134219385, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.AcceptedTextDelegate::Invoke(System.String)
-extern const MethodInfo AcceptedTextDelegate_Invoke_m5220_MethodInfo = 
+extern const MethodInfo AcceptedTextDelegate_Invoke_m7074_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&AcceptedTextDelegate_Invoke_m5220/* method */
+	, (methodPointerType)&AcceptedTextDelegate_Invoke_m7074/* method */
 	, &AcceptedTextDelegate_t248_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, AcceptedTextDelegate_t248_AcceptedTextDelegate_Invoke_m5220_ParameterInfos/* parameters */
+	, AcceptedTextDelegate_t248_AcceptedTextDelegate_Invoke_m7074_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -325,7 +325,7 @@ extern const MethodInfo AcceptedTextDelegate_Invoke_m5220_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2020/* token */
+	, 2039/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -334,22 +334,22 @@ extern const MethodInfo AcceptedTextDelegate_Invoke_m5220_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType AsyncCallback_t449_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo AcceptedTextDelegate_t248_AcceptedTextDelegate_BeginInvoke_m5221_ParameterInfos[] = 
+static const ParameterInfo AcceptedTextDelegate_t248_AcceptedTextDelegate_BeginInvoke_m7075_ParameterInfos[] = 
 {
-	{"text", 0, 134219382, 0, &String_t_0_0_0},
-	{"callback", 1, 134219383, 0, &AsyncCallback_t449_0_0_0},
-	{"object", 2, 134219384, 0, &Object_t_0_0_0},
+	{"text", 0, 134219386, 0, &String_t_0_0_0},
+	{"callback", 1, 134219387, 0, &AsyncCallback_t449_0_0_0},
+	{"object", 2, 134219388, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult PixelCrushers.DialogueSystem.AcceptedTextDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
-extern const MethodInfo AcceptedTextDelegate_BeginInvoke_m5221_MethodInfo = 
+extern const MethodInfo AcceptedTextDelegate_BeginInvoke_m7075_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&AcceptedTextDelegate_BeginInvoke_m5221/* method */
+	, (methodPointerType)&AcceptedTextDelegate_BeginInvoke_m7075/* method */
 	, &AcceptedTextDelegate_t248_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t448_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, AcceptedTextDelegate_t248_AcceptedTextDelegate_BeginInvoke_m5221_ParameterInfos/* parameters */
+	, AcceptedTextDelegate_t248_AcceptedTextDelegate_BeginInvoke_m7075_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -357,27 +357,27 @@ extern const MethodInfo AcceptedTextDelegate_BeginInvoke_m5221_MethodInfo =
 	, 3/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2021/* token */
+	, 2040/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IAsyncResult_t448_0_0_0;
-static const ParameterInfo AcceptedTextDelegate_t248_AcceptedTextDelegate_EndInvoke_m5222_ParameterInfos[] = 
+static const ParameterInfo AcceptedTextDelegate_t248_AcceptedTextDelegate_EndInvoke_m7076_ParameterInfos[] = 
 {
-	{"result", 0, 134219385, 0, &IAsyncResult_t448_0_0_0},
+	{"result", 0, 134219389, 0, &IAsyncResult_t448_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.AcceptedTextDelegate::EndInvoke(System.IAsyncResult)
-extern const MethodInfo AcceptedTextDelegate_EndInvoke_m5222_MethodInfo = 
+extern const MethodInfo AcceptedTextDelegate_EndInvoke_m7076_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&AcceptedTextDelegate_EndInvoke_m5222/* method */
+	, (methodPointerType)&AcceptedTextDelegate_EndInvoke_m7076/* method */
 	, &AcceptedTextDelegate_t248_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, AcceptedTextDelegate_t248_AcceptedTextDelegate_EndInvoke_m5222_ParameterInfos/* parameters */
+	, AcceptedTextDelegate_t248_AcceptedTextDelegate_EndInvoke_m7076_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -385,7 +385,7 @@ extern const MethodInfo AcceptedTextDelegate_EndInvoke_m5222_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2022/* token */
+	, 2041/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -393,31 +393,31 @@ extern const MethodInfo AcceptedTextDelegate_EndInvoke_m5222_MethodInfo =
 };
 static const MethodInfo* AcceptedTextDelegate_t248_MethodInfos[] =
 {
-	&AcceptedTextDelegate__ctor_m5219_MethodInfo,
-	&AcceptedTextDelegate_Invoke_m5220_MethodInfo,
-	&AcceptedTextDelegate_BeginInvoke_m5221_MethodInfo,
-	&AcceptedTextDelegate_EndInvoke_m5222_MethodInfo,
+	&AcceptedTextDelegate__ctor_m7073_MethodInfo,
+	&AcceptedTextDelegate_Invoke_m7074_MethodInfo,
+	&AcceptedTextDelegate_BeginInvoke_m7075_MethodInfo,
+	&AcceptedTextDelegate_EndInvoke_m7076_MethodInfo,
 	NULL
 };
-extern const MethodInfo AcceptedTextDelegate_Invoke_m5220_MethodInfo;
-extern const MethodInfo AcceptedTextDelegate_BeginInvoke_m5221_MethodInfo;
-extern const MethodInfo AcceptedTextDelegate_EndInvoke_m5222_MethodInfo;
+extern const MethodInfo AcceptedTextDelegate_Invoke_m7074_MethodInfo;
+extern const MethodInfo AcceptedTextDelegate_BeginInvoke_m7075_MethodInfo;
+extern const MethodInfo AcceptedTextDelegate_EndInvoke_m7076_MethodInfo;
 static const Il2CppMethodReference AcceptedTextDelegate_t248_VTable[] =
 {
-	&MulticastDelegate_Equals_m3368_MethodInfo,
+	&MulticastDelegate_Equals_m3500_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3369_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3501_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3370_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m3371_MethodInfo,
-	&Delegate_Clone_m3372_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3370_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3373_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3374_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3375_MethodInfo,
-	&AcceptedTextDelegate_Invoke_m5220_MethodInfo,
-	&AcceptedTextDelegate_BeginInvoke_m5221_MethodInfo,
-	&AcceptedTextDelegate_EndInvoke_m5222_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3502_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m3503_MethodInfo,
+	&Delegate_Clone_m3504_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3502_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3505_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3506_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3507_MethodInfo,
+	&AcceptedTextDelegate_Invoke_m7074_MethodInfo,
+	&AcceptedTextDelegate_BeginInvoke_m7075_MethodInfo,
+	&AcceptedTextDelegate_EndInvoke_m7076_MethodInfo,
 };
 static bool AcceptedTextDelegate_t248_VTableIsGenericMethod[] =
 {
@@ -438,8 +438,8 @@ static bool AcceptedTextDelegate_t248_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair AcceptedTextDelegate_t248_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t736_0_0_0, 4},
-	{ &ISerializable_t737_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_DialogueSystem_dll_Image;
 extern const Il2CppType AcceptedTextDelegate_t248_0_0_0;
@@ -515,26 +515,26 @@ TypeInfo AcceptedTextDelegate_t248_il2cpp_TypeInfo =
 // PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate
 #include "DialogueSystem_PixelCrushers_DialogueSystem_GetCustomSaveDat.h"
 // Metadata Definition PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate
-extern TypeInfo GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo;
+extern TypeInfo GetCustomSaveDataDelegate_t1276_il2cpp_TypeInfo;
 // PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate
 #include "DialogueSystem_PixelCrushers_DialogueSystem_GetCustomSaveDatMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo GetCustomSaveDataDelegate_t952_GetCustomSaveDataDelegate__ctor_m5223_ParameterInfos[] = 
+static const ParameterInfo GetCustomSaveDataDelegate_t1276_GetCustomSaveDataDelegate__ctor_m7077_ParameterInfos[] = 
 {
-	{"object", 0, 134219386, 0, &Object_t_0_0_0},
-	{"method", 1, 134219387, 0, &IntPtr_t_0_0_0},
+	{"object", 0, 134219390, 0, &Object_t_0_0_0},
+	{"method", 1, 134219391, 0, &IntPtr_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate::.ctor(System.Object,System.IntPtr)
-extern const MethodInfo GetCustomSaveDataDelegate__ctor_m5223_MethodInfo = 
+extern const MethodInfo GetCustomSaveDataDelegate__ctor_m7077_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&GetCustomSaveDataDelegate__ctor_m5223/* method */
-	, &GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&GetCustomSaveDataDelegate__ctor_m7077/* method */
+	, &GetCustomSaveDataDelegate_t1276_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_IntPtr_t/* invoker_method */
-	, GetCustomSaveDataDelegate_t952_GetCustomSaveDataDelegate__ctor_m5223_ParameterInfos/* parameters */
+	, GetCustomSaveDataDelegate_t1276_GetCustomSaveDataDelegate__ctor_m7077_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -542,7 +542,7 @@ extern const MethodInfo GetCustomSaveDataDelegate__ctor_m5223_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2023/* token */
+	, 2042/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -550,11 +550,11 @@ extern const MethodInfo GetCustomSaveDataDelegate__ctor_m5223_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate::Invoke()
-extern const MethodInfo GetCustomSaveDataDelegate_Invoke_m5224_MethodInfo = 
+extern const MethodInfo GetCustomSaveDataDelegate_Invoke_m7078_MethodInfo = 
 {
 	"Invoke"/* name */
-	, (methodPointerType)&GetCustomSaveDataDelegate_Invoke_m5224/* method */
-	, &GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&GetCustomSaveDataDelegate_Invoke_m7078/* method */
+	, &GetCustomSaveDataDelegate_t1276_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -565,7 +565,7 @@ extern const MethodInfo GetCustomSaveDataDelegate_Invoke_m5224_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2024/* token */
+	, 2043/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -573,21 +573,21 @@ extern const MethodInfo GetCustomSaveDataDelegate_Invoke_m5224_MethodInfo =
 };
 extern const Il2CppType AsyncCallback_t449_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo GetCustomSaveDataDelegate_t952_GetCustomSaveDataDelegate_BeginInvoke_m5225_ParameterInfos[] = 
+static const ParameterInfo GetCustomSaveDataDelegate_t1276_GetCustomSaveDataDelegate_BeginInvoke_m7079_ParameterInfos[] = 
 {
-	{"callback", 0, 134219388, 0, &AsyncCallback_t449_0_0_0},
-	{"object", 1, 134219389, 0, &Object_t_0_0_0},
+	{"callback", 0, 134219392, 0, &AsyncCallback_t449_0_0_0},
+	{"object", 1, 134219393, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.IAsyncResult PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate::BeginInvoke(System.AsyncCallback,System.Object)
-extern const MethodInfo GetCustomSaveDataDelegate_BeginInvoke_m5225_MethodInfo = 
+extern const MethodInfo GetCustomSaveDataDelegate_BeginInvoke_m7079_MethodInfo = 
 {
 	"BeginInvoke"/* name */
-	, (methodPointerType)&GetCustomSaveDataDelegate_BeginInvoke_m5225/* method */
-	, &GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&GetCustomSaveDataDelegate_BeginInvoke_m7079/* method */
+	, &GetCustomSaveDataDelegate_t1276_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t448_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, GetCustomSaveDataDelegate_t952_GetCustomSaveDataDelegate_BeginInvoke_m5225_ParameterInfos/* parameters */
+	, GetCustomSaveDataDelegate_t1276_GetCustomSaveDataDelegate_BeginInvoke_m7079_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -595,27 +595,27 @@ extern const MethodInfo GetCustomSaveDataDelegate_BeginInvoke_m5225_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2025/* token */
+	, 2044/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern const Il2CppType IAsyncResult_t448_0_0_0;
-static const ParameterInfo GetCustomSaveDataDelegate_t952_GetCustomSaveDataDelegate_EndInvoke_m5226_ParameterInfos[] = 
+static const ParameterInfo GetCustomSaveDataDelegate_t1276_GetCustomSaveDataDelegate_EndInvoke_m7080_ParameterInfos[] = 
 {
-	{"result", 0, 134219390, 0, &IAsyncResult_t448_0_0_0},
+	{"result", 0, 134219394, 0, &IAsyncResult_t448_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.GetCustomSaveDataDelegate::EndInvoke(System.IAsyncResult)
-extern const MethodInfo GetCustomSaveDataDelegate_EndInvoke_m5226_MethodInfo = 
+extern const MethodInfo GetCustomSaveDataDelegate_EndInvoke_m7080_MethodInfo = 
 {
 	"EndInvoke"/* name */
-	, (methodPointerType)&GetCustomSaveDataDelegate_EndInvoke_m5226/* method */
-	, &GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&GetCustomSaveDataDelegate_EndInvoke_m7080/* method */
+	, &GetCustomSaveDataDelegate_t1276_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, GetCustomSaveDataDelegate_t952_GetCustomSaveDataDelegate_EndInvoke_m5226_ParameterInfos/* parameters */
+	, GetCustomSaveDataDelegate_t1276_GetCustomSaveDataDelegate_EndInvoke_m7080_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -623,41 +623,41 @@ extern const MethodInfo GetCustomSaveDataDelegate_EndInvoke_m5226_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 2026/* token */
+	, 2045/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static const MethodInfo* GetCustomSaveDataDelegate_t952_MethodInfos[] =
+static const MethodInfo* GetCustomSaveDataDelegate_t1276_MethodInfos[] =
 {
-	&GetCustomSaveDataDelegate__ctor_m5223_MethodInfo,
-	&GetCustomSaveDataDelegate_Invoke_m5224_MethodInfo,
-	&GetCustomSaveDataDelegate_BeginInvoke_m5225_MethodInfo,
-	&GetCustomSaveDataDelegate_EndInvoke_m5226_MethodInfo,
+	&GetCustomSaveDataDelegate__ctor_m7077_MethodInfo,
+	&GetCustomSaveDataDelegate_Invoke_m7078_MethodInfo,
+	&GetCustomSaveDataDelegate_BeginInvoke_m7079_MethodInfo,
+	&GetCustomSaveDataDelegate_EndInvoke_m7080_MethodInfo,
 	NULL
 };
-extern const MethodInfo GetCustomSaveDataDelegate_Invoke_m5224_MethodInfo;
-extern const MethodInfo GetCustomSaveDataDelegate_BeginInvoke_m5225_MethodInfo;
-extern const MethodInfo GetCustomSaveDataDelegate_EndInvoke_m5226_MethodInfo;
-static const Il2CppMethodReference GetCustomSaveDataDelegate_t952_VTable[] =
+extern const MethodInfo GetCustomSaveDataDelegate_Invoke_m7078_MethodInfo;
+extern const MethodInfo GetCustomSaveDataDelegate_BeginInvoke_m7079_MethodInfo;
+extern const MethodInfo GetCustomSaveDataDelegate_EndInvoke_m7080_MethodInfo;
+static const Il2CppMethodReference GetCustomSaveDataDelegate_t1276_VTable[] =
 {
-	&MulticastDelegate_Equals_m3368_MethodInfo,
+	&MulticastDelegate_Equals_m3500_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&MulticastDelegate_GetHashCode_m3369_MethodInfo,
+	&MulticastDelegate_GetHashCode_m3501_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3370_MethodInfo,
-	&MulticastDelegate_DynamicInvokeImpl_m3371_MethodInfo,
-	&Delegate_Clone_m3372_MethodInfo,
-	&MulticastDelegate_GetObjectData_m3370_MethodInfo,
-	&MulticastDelegate_GetInvocationList_m3373_MethodInfo,
-	&MulticastDelegate_CombineImpl_m3374_MethodInfo,
-	&MulticastDelegate_RemoveImpl_m3375_MethodInfo,
-	&GetCustomSaveDataDelegate_Invoke_m5224_MethodInfo,
-	&GetCustomSaveDataDelegate_BeginInvoke_m5225_MethodInfo,
-	&GetCustomSaveDataDelegate_EndInvoke_m5226_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3502_MethodInfo,
+	&MulticastDelegate_DynamicInvokeImpl_m3503_MethodInfo,
+	&Delegate_Clone_m3504_MethodInfo,
+	&MulticastDelegate_GetObjectData_m3502_MethodInfo,
+	&MulticastDelegate_GetInvocationList_m3505_MethodInfo,
+	&MulticastDelegate_CombineImpl_m3506_MethodInfo,
+	&MulticastDelegate_RemoveImpl_m3507_MethodInfo,
+	&GetCustomSaveDataDelegate_Invoke_m7078_MethodInfo,
+	&GetCustomSaveDataDelegate_BeginInvoke_m7079_MethodInfo,
+	&GetCustomSaveDataDelegate_EndInvoke_m7080_MethodInfo,
 };
-static bool GetCustomSaveDataDelegate_t952_VTableIsGenericMethod[] =
+static bool GetCustomSaveDataDelegate_t1276_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -674,54 +674,54 @@ static bool GetCustomSaveDataDelegate_t952_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair GetCustomSaveDataDelegate_t952_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair GetCustomSaveDataDelegate_t1276_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t736_0_0_0, 4},
-	{ &ISerializable_t737_0_0_0, 4},
+	{ &ICloneable_t762_0_0_0, 4},
+	{ &ISerializable_t763_0_0_0, 4},
 };
 extern Il2CppImage g_DialogueSystem_dll_Image;
-extern const Il2CppType GetCustomSaveDataDelegate_t952_0_0_0;
-extern const Il2CppType GetCustomSaveDataDelegate_t952_1_0_0;
-struct GetCustomSaveDataDelegate_t952;
-const Il2CppTypeDefinitionMetadata GetCustomSaveDataDelegate_t952_DefinitionMetadata = 
+extern const Il2CppType GetCustomSaveDataDelegate_t1276_0_0_0;
+extern const Il2CppType GetCustomSaveDataDelegate_t1276_1_0_0;
+struct GetCustomSaveDataDelegate_t1276;
+const Il2CppTypeDefinitionMetadata GetCustomSaveDataDelegate_t1276_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, GetCustomSaveDataDelegate_t952_InterfacesOffsets/* interfaceOffsets */
+	, GetCustomSaveDataDelegate_t1276_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t451_0_0_0/* parent */
-	, GetCustomSaveDataDelegate_t952_VTable/* vtableMethods */
-	, GetCustomSaveDataDelegate_t952_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, GetCustomSaveDataDelegate_t1276_VTable/* vtableMethods */
+	, GetCustomSaveDataDelegate_t1276_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo = 
+TypeInfo GetCustomSaveDataDelegate_t1276_il2cpp_TypeInfo = 
 {
 	&g_DialogueSystem_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "GetCustomSaveDataDelegate"/* name */
 	, "PixelCrushers.DialogueSystem"/* namespaze */
-	, GetCustomSaveDataDelegate_t952_MethodInfos/* methods */
+	, GetCustomSaveDataDelegate_t1276_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo/* element_class */
+	, &GetCustomSaveDataDelegate_t1276_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &GetCustomSaveDataDelegate_t952_0_0_0/* byval_arg */
-	, &GetCustomSaveDataDelegate_t952_1_0_0/* this_arg */
-	, &GetCustomSaveDataDelegate_t952_DefinitionMetadata/* definitionMetadata */
+	, &GetCustomSaveDataDelegate_t1276_0_0_0/* byval_arg */
+	, &GetCustomSaveDataDelegate_t1276_1_0_0/* this_arg */
+	, &GetCustomSaveDataDelegate_t1276_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
-	, (methodPointerType)pinvoke_delegate_wrapper_GetCustomSaveDataDelegate_t952/* pinvoke_delegate_wrapper */
+	, (methodPointerType)pinvoke_delegate_wrapper_GetCustomSaveDataDelegate_t1276/* pinvoke_delegate_wrapper */
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (GetCustomSaveDataDelegate_t952)/* instance_size */
-	, sizeof (GetCustomSaveDataDelegate_t952)/* actualSize */
+	, sizeof (GetCustomSaveDataDelegate_t1276)/* instance_size */
+	, sizeof (GetCustomSaveDataDelegate_t1276)/* actualSize */
 	, 0/* element_size */
 	, sizeof(methodPointerType)/* native_size */
 	, 0/* static_fields_size */
@@ -753,24 +753,24 @@ TypeInfo GetCustomSaveDataDelegate_t952_il2cpp_TypeInfo =
 // <PrivateImplementationDetails>/$ArrayType$8
 #include "DialogueSystem_U3CPrivateImplementationDetailsU3E_U24ArrayTy.h"
 // Metadata Definition <PrivateImplementationDetails>/$ArrayType$8
-extern TypeInfo U24ArrayTypeU248_t1068_il2cpp_TypeInfo;
+extern TypeInfo U24ArrayTypeU248_t1392_il2cpp_TypeInfo;
 // <PrivateImplementationDetails>/$ArrayType$8
 #include "DialogueSystem_U3CPrivateImplementationDetailsU3E_U24ArrayTyMethodDeclarations.h"
-static const MethodInfo* U24ArrayTypeU248_t1068_MethodInfos[] =
+static const MethodInfo* U24ArrayTypeU248_t1392_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m3365_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m3366_MethodInfo;
-extern const MethodInfo ValueType_ToString_m3367_MethodInfo;
-static const Il2CppMethodReference U24ArrayTypeU248_t1068_VTable[] =
+extern const MethodInfo ValueType_Equals_m3497_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m3498_MethodInfo;
+extern const MethodInfo ValueType_ToString_m3499_MethodInfo;
+static const Il2CppMethodReference U24ArrayTypeU248_t1392_VTable[] =
 {
-	&ValueType_Equals_m3365_MethodInfo,
+	&ValueType_Equals_m3497_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&ValueType_GetHashCode_m3366_MethodInfo,
-	&ValueType_ToString_m3367_MethodInfo,
+	&ValueType_GetHashCode_m3498_MethodInfo,
+	&ValueType_ToString_m3499_MethodInfo,
 };
-static bool U24ArrayTypeU248_t1068_VTableIsGenericMethod[] =
+static bool U24ArrayTypeU248_t1392_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -778,52 +778,52 @@ static bool U24ArrayTypeU248_t1068_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_DialogueSystem_dll_Image;
-extern const Il2CppType U24ArrayTypeU248_t1068_0_0_0;
-extern const Il2CppType U24ArrayTypeU248_t1068_1_0_0;
-extern const Il2CppType ValueType_t724_0_0_0;
-extern TypeInfo U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo;
-extern const Il2CppType U3CPrivateImplementationDetailsU3E_t1069_0_0_0;
-const Il2CppTypeDefinitionMetadata U24ArrayTypeU248_t1068_DefinitionMetadata = 
+extern const Il2CppType U24ArrayTypeU248_t1392_0_0_0;
+extern const Il2CppType U24ArrayTypeU248_t1392_1_0_0;
+extern const Il2CppType ValueType_t750_0_0_0;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t1393_il2cpp_TypeInfo;
+extern const Il2CppType U3CPrivateImplementationDetailsU3E_t1393_0_0_0;
+const Il2CppTypeDefinitionMetadata U24ArrayTypeU248_t1392_DefinitionMetadata = 
 {
-	&U3CPrivateImplementationDetailsU3E_t1069_0_0_0/* declaringType */
+	&U3CPrivateImplementationDetailsU3E_t1393_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ValueType_t724_0_0_0/* parent */
-	, U24ArrayTypeU248_t1068_VTable/* vtableMethods */
-	, U24ArrayTypeU248_t1068_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ValueType_t750_0_0_0/* parent */
+	, U24ArrayTypeU248_t1392_VTable/* vtableMethods */
+	, U24ArrayTypeU248_t1392_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo U24ArrayTypeU248_t1068_il2cpp_TypeInfo = 
+TypeInfo U24ArrayTypeU248_t1392_il2cpp_TypeInfo = 
 {
 	&g_DialogueSystem_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "$ArrayType$8"/* name */
 	, ""/* namespaze */
-	, U24ArrayTypeU248_t1068_MethodInfos/* methods */
+	, U24ArrayTypeU248_t1392_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U24ArrayTypeU248_t1068_il2cpp_TypeInfo/* element_class */
+	, &U24ArrayTypeU248_t1392_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &U24ArrayTypeU248_t1068_0_0_0/* byval_arg */
-	, &U24ArrayTypeU248_t1068_1_0_0/* this_arg */
-	, &U24ArrayTypeU248_t1068_DefinitionMetadata/* definitionMetadata */
+	, &U24ArrayTypeU248_t1392_0_0_0/* byval_arg */
+	, &U24ArrayTypeU248_t1392_1_0_0/* this_arg */
+	, &U24ArrayTypeU248_t1392_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)U24ArrayTypeU248_t1068_marshal/* marshal_to_native_func */
-	, (methodPointerType)U24ArrayTypeU248_t1068_marshal_back/* marshal_from_native_func */
-	, (methodPointerType)U24ArrayTypeU248_t1068_marshal_cleanup/* marshal_cleanup_func */
-	, sizeof (U24ArrayTypeU248_t1068)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (U24ArrayTypeU248_t1068)+ sizeof (Il2CppObject)/* actualSize */
+	, (methodPointerType)U24ArrayTypeU248_t1392_marshal/* marshal_to_native_func */
+	, (methodPointerType)U24ArrayTypeU248_t1392_marshal_back/* marshal_from_native_func */
+	, (methodPointerType)U24ArrayTypeU248_t1392_marshal_cleanup/* marshal_cleanup_func */
+	, sizeof (U24ArrayTypeU248_t1392)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (U24ArrayTypeU248_t1392)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
-	, sizeof(U24ArrayTypeU248_t1068_marshaled)/* native_size */
+	, sizeof(U24ArrayTypeU248_t1392_marshaled)/* native_size */
 	, 0/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
@@ -855,24 +855,48 @@ TypeInfo U24ArrayTypeU248_t1068_il2cpp_TypeInfo =
 // Metadata Definition <PrivateImplementationDetails>
 // <PrivateImplementationDetails>
 #include "DialogueSystem_U3CPrivateImplementationDetailsU3EMethodDeclarations.h"
-static const MethodInfo* U3CPrivateImplementationDetailsU3E_t1069_MethodInfos[] =
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void <PrivateImplementationDetails>::.ctor()
+extern const MethodInfo U3CPrivateImplementationDetailsU3E__ctor_m7081_MethodInfo = 
 {
+	".ctor"/* name */
+	, (methodPointerType)&U3CPrivateImplementationDetailsU3E__ctor_m7081/* method */
+	, &U3CPrivateImplementationDetailsU3E_t1393_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 2046/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CPrivateImplementationDetailsU3E_t1393_MethodInfos[] =
+{
+	&U3CPrivateImplementationDetailsU3E__ctor_m7081_MethodInfo,
 	NULL
 };
-static const Il2CppType* U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo__nestedTypes[1] =
+static const Il2CppType* U3CPrivateImplementationDetailsU3E_t1393_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&U24ArrayTypeU248_t1068_0_0_0,
+	&U24ArrayTypeU248_t1392_0_0_0,
 };
 extern const MethodInfo Object_Equals_m126_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m128_MethodInfo;
-static const Il2CppMethodReference U3CPrivateImplementationDetailsU3E_t1069_VTable[] =
+static const Il2CppMethodReference U3CPrivateImplementationDetailsU3E_t1393_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CPrivateImplementationDetailsU3E_t1069_VTableIsGenericMethod[] =
+static bool U3CPrivateImplementationDetailsU3E_t1393_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -880,36 +904,36 @@ static bool U3CPrivateImplementationDetailsU3E_t1069_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_DialogueSystem_dll_Image;
-extern const Il2CppType U3CPrivateImplementationDetailsU3E_t1069_1_0_0;
-struct U3CPrivateImplementationDetailsU3E_t1069;
-const Il2CppTypeDefinitionMetadata U3CPrivateImplementationDetailsU3E_t1069_DefinitionMetadata = 
+extern const Il2CppType U3CPrivateImplementationDetailsU3E_t1393_1_0_0;
+struct U3CPrivateImplementationDetailsU3E_t1393;
+const Il2CppTypeDefinitionMetadata U3CPrivateImplementationDetailsU3E_t1393_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, U3CPrivateImplementationDetailsU3E_t1393_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CPrivateImplementationDetailsU3E_t1069_VTable/* vtableMethods */
-	, U3CPrivateImplementationDetailsU3E_t1069_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CPrivateImplementationDetailsU3E_t1393_VTable/* vtableMethods */
+	, U3CPrivateImplementationDetailsU3E_t1393_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1254/* fieldStart */
+	, 1261/* fieldStart */
 
 };
-TypeInfo U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo = 
+TypeInfo U3CPrivateImplementationDetailsU3E_t1393_il2cpp_TypeInfo = 
 {
 	&g_DialogueSystem_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "<PrivateImplementationDetails>"/* name */
 	, ""/* namespaze */
-	, U3CPrivateImplementationDetailsU3E_t1069_MethodInfos/* methods */
+	, U3CPrivateImplementationDetailsU3E_t1393_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo/* element_class */
+	, &U3CPrivateImplementationDetailsU3E_t1393_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 532/* custom_attributes_cache */
-	, &U3CPrivateImplementationDetailsU3E_t1069_0_0_0/* byval_arg */
-	, &U3CPrivateImplementationDetailsU3E_t1069_1_0_0/* this_arg */
-	, &U3CPrivateImplementationDetailsU3E_t1069_DefinitionMetadata/* definitionMetadata */
+	, 546/* custom_attributes_cache */
+	, &U3CPrivateImplementationDetailsU3E_t1393_0_0_0/* byval_arg */
+	, &U3CPrivateImplementationDetailsU3E_t1393_1_0_0/* this_arg */
+	, &U3CPrivateImplementationDetailsU3E_t1393_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -919,11 +943,11 @@ TypeInfo U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CPrivateImplementationDetailsU3E_t1069)/* instance_size */
-	, sizeof (U3CPrivateImplementationDetailsU3E_t1069)/* actualSize */
+	, sizeof (U3CPrivateImplementationDetailsU3E_t1393)/* instance_size */
+	, sizeof (U3CPrivateImplementationDetailsU3E_t1393)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(U3CPrivateImplementationDetailsU3E_t1069_StaticFields)/* static_fields_size */
+	, sizeof(U3CPrivateImplementationDetailsU3E_t1393_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 0/* flags */
@@ -939,7 +963,7 @@ TypeInfo U3CPrivateImplementationDetailsU3E_t1069_il2cpp_TypeInfo =
 	, false/* has_finalize */
 	, false/* has_cctor */
 	, false/* is_blittable */
-	, 0/* method_count */
+	, 1/* method_count */
 	, 0/* property_count */
 	, 1/* field_count */
 	, 0/* event_count */

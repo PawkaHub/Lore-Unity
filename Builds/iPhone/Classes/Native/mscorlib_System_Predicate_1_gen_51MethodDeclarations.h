@@ -4,12 +4,12 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>
-struct Predicate_1_t5363;
+// System.Predicate`1<UnityEngine.EventSystems.BaseRaycaster>
+struct Predicate_1_t6433;
 // System.Object
 struct Object_t;
-// PixelCrushers.DialogueSystem.ChatMapper.DialogEntry
-struct DialogEntry_t841;
+// UnityEngine.EventSystems.BaseRaycaster
+struct BaseRaycaster_t813;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -17,13 +17,13 @@ struct AsyncCallback_t449;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Predicate`1<UnityEngine.EventSystems.BaseRaycaster>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_17MethodDeclarations.h"
-#define Predicate_1__ctor_m30004(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5363 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m22656_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::Invoke(T)
-#define Predicate_1_Invoke_m30005(__this, ___obj, method) (( bool (*) (Predicate_1_t5363 *, DialogEntry_t841 *, const MethodInfo*))Predicate_1_Invoke_m22657_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m30006(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5363 *, DialogEntry_t841 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m22658_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m30007(__this, ___result, method) (( bool (*) (Predicate_1_t5363 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m22659_gshared)(__this, ___result, method)
+#define Predicate_1__ctor_m31037(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6433 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m23999_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.EventSystems.BaseRaycaster>::Invoke(T)
+#define Predicate_1_Invoke_m31038(__this, ___obj, method) (( bool (*) (Predicate_1_t6433 *, BaseRaycaster_t813 *, const MethodInfo*))Predicate_1_Invoke_m24000_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.EventSystems.BaseRaycaster>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m31039(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6433 *, BaseRaycaster_t813 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m24001_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.EventSystems.BaseRaycaster>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m31040(__this, ___result, method) (( bool (*) (Predicate_1_t6433 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m24002_gshared)(__this, ___result, method)

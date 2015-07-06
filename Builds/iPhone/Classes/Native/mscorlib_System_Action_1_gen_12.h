@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.SocialPlatforms.IAchievementDescription[]
-struct IAchievementDescriptionU5BU5D_t2941;
+// System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>
+struct Task_1_t1747;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -12,7 +12,7 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<UnityEngine.SocialPlatforms.IAchievementDescription[]>
-struct  Action_1_t2711  : public MulticastDelegate_t451
+// System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>>
+struct  Action_1_t2492  : public MulticastDelegate_t451
 {
 };

@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.FieldType
 #include "DialogueSystem_PixelCrushers_DialogueSystem_FieldType.h"
 // PixelCrushers.DialogueSystem.FieldType
-struct  FieldType_t823 
+struct  FieldType_t1148 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.FieldType::value__
 	int32_t ___value___1;

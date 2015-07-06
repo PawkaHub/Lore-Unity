@@ -11,7 +11,7 @@ struct PhotonStream_t439;
 // PhotonMessageInfo
 struct PhotonMessageInfo_t435;
 // UnityEngine.ControllerColliderHit
-struct ControllerColliderHit_t557;
+struct ControllerColliderHit_t575;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 
@@ -34,7 +34,7 @@ extern "C" float PickupController_CalculateJumpVerticalSpeed_m1363 (PickupContro
 // System.Void PickupController::DidJump()
 extern "C" void PickupController_DidJump_m1364 (PickupController_t355 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PickupController::OnControllerColliderHit(UnityEngine.ControllerColliderHit)
-extern "C" void PickupController_OnControllerColliderHit_m1365 (PickupController_t355 * __this, ControllerColliderHit_t557 * ___hit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PickupController_OnControllerColliderHit_m1365 (PickupController_t355 * __this, ControllerColliderHit_t575 * ___hit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single PickupController::GetSpeed()
 extern "C" float PickupController_GetSpeed_m1366 (PickupController_t355 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean PickupController::IsJumping()

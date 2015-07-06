@@ -11,7 +11,7 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.IFormatProvider
-struct IFormatProvider_t3990;
+struct IFormatProvider_t5080;
 // System.String
 struct String_t;
 // System.DateTime
@@ -22,52 +22,52 @@ struct String_t;
 #include "mscorlib_System_TypeCode.h"
 
 // System.Void System.Boolean::.cctor()
-extern "C" void Boolean__cctor_m17518 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Boolean__cctor_m18801 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Boolean::System.IConvertible.ToType(System.Type,System.IFormatProvider)
-extern "C" Object_t * Boolean_System_IConvertible_ToType_m17519 (bool* __this, Type_t * ___targetType, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Boolean_System_IConvertible_ToType_m18802 (bool* __this, Type_t * ___targetType, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Boolean::System.IConvertible.ToBoolean(System.IFormatProvider)
-extern "C" bool Boolean_System_IConvertible_ToBoolean_m17520 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Boolean_System_IConvertible_ToBoolean_m18803 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Boolean::System.IConvertible.ToByte(System.IFormatProvider)
-extern "C" uint8_t Boolean_System_IConvertible_ToByte_m17521 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t Boolean_System_IConvertible_ToByte_m18804 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Boolean::System.IConvertible.ToChar(System.IFormatProvider)
-extern "C" uint16_t Boolean_System_IConvertible_ToChar_m17522 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Boolean_System_IConvertible_ToChar_m18805 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.Boolean::System.IConvertible.ToDateTime(System.IFormatProvider)
-extern "C" DateTime_t1219  Boolean_System_IConvertible_ToDateTime_m17523 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t1705  Boolean_System_IConvertible_ToDateTime_m18806 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Boolean::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t2541  Boolean_System_IConvertible_ToDecimal_m17524 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t1781  Boolean_System_IConvertible_ToDecimal_m18807 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Boolean::System.IConvertible.ToDouble(System.IFormatProvider)
-extern "C" double Boolean_System_IConvertible_ToDouble_m17525 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double Boolean_System_IConvertible_ToDouble_m18808 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Boolean::System.IConvertible.ToInt16(System.IFormatProvider)
-extern "C" int16_t Boolean_System_IConvertible_ToInt16_m17526 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t Boolean_System_IConvertible_ToInt16_m18809 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Boolean::System.IConvertible.ToInt32(System.IFormatProvider)
-extern "C" int32_t Boolean_System_IConvertible_ToInt32_m17527 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Boolean_System_IConvertible_ToInt32_m18810 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Boolean::System.IConvertible.ToInt64(System.IFormatProvider)
-extern "C" int64_t Boolean_System_IConvertible_ToInt64_m17528 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t Boolean_System_IConvertible_ToInt64_m18811 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.SByte System.Boolean::System.IConvertible.ToSByte(System.IFormatProvider)
-extern "C" int8_t Boolean_System_IConvertible_ToSByte_m17529 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int8_t Boolean_System_IConvertible_ToSByte_m18812 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Boolean::System.IConvertible.ToSingle(System.IFormatProvider)
-extern "C" float Boolean_System_IConvertible_ToSingle_m17530 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Boolean_System_IConvertible_ToSingle_m18813 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 System.Boolean::System.IConvertible.ToUInt16(System.IFormatProvider)
-extern "C" uint16_t Boolean_System_IConvertible_ToUInt16_m17531 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Boolean_System_IConvertible_ToUInt16_m18814 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Boolean::System.IConvertible.ToUInt32(System.IFormatProvider)
-extern "C" uint32_t Boolean_System_IConvertible_ToUInt32_m17532 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t Boolean_System_IConvertible_ToUInt32_m18815 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Boolean::System.IConvertible.ToUInt64(System.IFormatProvider)
-extern "C" uint64_t Boolean_System_IConvertible_ToUInt64_m17533 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Boolean_System_IConvertible_ToUInt64_m18816 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Boolean::CompareTo(System.Object)
-extern "C" int32_t Boolean_CompareTo_m17534 (bool* __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Boolean_CompareTo_m18817 (bool* __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Boolean::Equals(System.Object)
-extern "C" bool Boolean_Equals_m17535 (bool* __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Boolean_Equals_m18818 (bool* __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Boolean::CompareTo(System.Boolean)
-extern "C" int32_t Boolean_CompareTo_m17536 (bool* __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Boolean_CompareTo_m18819 (bool* __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Boolean::Equals(System.Boolean)
-extern "C" bool Boolean_Equals_m17537 (bool* __this, bool ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Boolean_Equals_m18820 (bool* __this, bool ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Boolean::GetHashCode()
-extern "C" int32_t Boolean_GetHashCode_m17538 (bool* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Boolean_GetHashCode_m18821 (bool* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Boolean::Parse(System.String)
-extern "C" bool Boolean_Parse_m12148 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Boolean_Parse_m10940 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Boolean::ToString()
-extern "C" String_t* Boolean_ToString_m5351 (bool* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Boolean_ToString_m7204 (bool* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TypeCode System.Boolean::GetTypeCode()
-extern "C" int32_t Boolean_GetTypeCode_m17539 (bool* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Boolean_GetTypeCode_m18822 (bool* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Boolean::ToString(System.IFormatProvider)
-extern "C" String_t* Boolean_ToString_m17540 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Boolean_ToString_m18823 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;

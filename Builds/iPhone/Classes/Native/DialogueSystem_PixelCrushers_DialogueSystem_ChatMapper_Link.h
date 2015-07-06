@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.ChatMapper.Link
-struct  Link_t842  : public Object_t
+struct  Link_t1167  : public Object_t
 {
 	// System.Int32 PixelCrushers.DialogueSystem.ChatMapper.Link::ConversationID
 	int32_t ___ConversationID_0;

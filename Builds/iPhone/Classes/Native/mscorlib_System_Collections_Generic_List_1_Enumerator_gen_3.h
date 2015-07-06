@@ -7,7 +7,7 @@ struct FriendInfo_t402;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<FriendInfo>
-struct  Enumerator_t647 
+struct  Enumerator_t666 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<FriendInfo>::l
 	List_1_t454 * ___l_0;

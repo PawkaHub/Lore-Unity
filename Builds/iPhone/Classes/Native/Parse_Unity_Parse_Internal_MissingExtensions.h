@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.MissingExtensions
-struct  MissingExtensions_t1399  : public Object_t
+struct  MissingExtensions_t1497  : public Object_t
 {
 };

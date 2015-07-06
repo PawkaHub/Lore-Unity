@@ -5,10 +5,10 @@
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Nullable`1<System.DateTime>
-struct  Nullable_1_t1479 
+struct  Nullable_1_t1619 
 {
 	// T System.Nullable`1<System.DateTime>::value
-	DateTime_t1219  ___value_0;
+	DateTime_t1705  ___value_0;
 	// System.Boolean System.Nullable`1<System.DateTime>::has_value
 	bool ___has_value_1;
 };

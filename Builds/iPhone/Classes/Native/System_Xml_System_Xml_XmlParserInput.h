@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Stack
-struct Stack_t2442;
+struct Stack_t3828;
 // System.Xml.XmlParserInput/XmlParserInputSource
-struct XmlParserInputSource_t2498;
+struct XmlParserInputSource_t3884;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlParserInput
-struct  XmlParserInput_t2441  : public Object_t
+struct  XmlParserInput_t3827  : public Object_t
 {
 	// System.Collections.Stack System.Xml.XmlParserInput::sourceStack
-	Stack_t2442 * ___sourceStack_0;
+	Stack_t3828 * ___sourceStack_0;
 	// System.Xml.XmlParserInput/XmlParserInputSource System.Xml.XmlParserInput::source
-	XmlParserInputSource_t2498 * ___source_1;
+	XmlParserInputSource_t3884 * ___source_1;
 	// System.Boolean System.Xml.XmlParserInput::has_peek
 	bool ___has_peek_2;
 	// System.Int32 System.Xml.XmlParserInput::peek_char

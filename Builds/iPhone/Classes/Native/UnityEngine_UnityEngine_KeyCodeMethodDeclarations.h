@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.KeyCode
-struct KeyCode_t1146;
+struct KeyCode_t1463;
 

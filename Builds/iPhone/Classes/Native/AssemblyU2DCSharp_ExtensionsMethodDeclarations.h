@@ -7,13 +7,13 @@
 // Extensions
 struct Extensions_t400;
 // PhotonView[]
-struct PhotonViewU5BU5D_t559;
+struct PhotonViewU5BU5D_t577;
 // UnityEngine.GameObject
 struct GameObject_t49;
 // PhotonView
 struct PhotonView_t325;
 // System.Collections.IDictionary
-struct IDictionary_t560;
+struct IDictionary_t578;
 // System.String
 struct String_t;
 // ExitGames.Client.Photon.Hashtable
@@ -28,7 +28,7 @@ struct Int32U5BU5D_t119;
 #include "UnityEngine_UnityEngine_Quaternion.h"
 
 // PhotonView[] Extensions::GetPhotonViewsInChildren(UnityEngine.GameObject)
-extern "C" PhotonViewU5BU5D_t559* Extensions_GetPhotonViewsInChildren_m1530 (Object_t * __this /* static, unused */, GameObject_t49 * ___go, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PhotonViewU5BU5D_t577* Extensions_GetPhotonViewsInChildren_m1530 (Object_t * __this /* static, unused */, GameObject_t49 * ___go, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // PhotonView Extensions::GetPhotonView(UnityEngine.GameObject)
 extern "C" PhotonView_t325 * Extensions_GetPhotonView_m1531 (Object_t * __this /* static, unused */, GameObject_t49 * ___go, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Extensions::AlmostEquals(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)

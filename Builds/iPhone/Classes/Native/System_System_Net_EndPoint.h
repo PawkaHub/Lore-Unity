@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.EndPoint
-struct  EndPoint_t3571  : public Object_t
+struct  EndPoint_t4004  : public Object_t
 {
 };

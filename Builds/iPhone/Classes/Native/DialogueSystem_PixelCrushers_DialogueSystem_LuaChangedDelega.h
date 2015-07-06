@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // PixelCrushers.DialogueSystem.LuaWatchItem
-struct LuaWatchItem_t758;
+struct LuaWatchItem_t582;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PixelCrushers.DialogueSystem.LuaChangedDelegate
-struct  LuaChangedDelegate_t757  : public MulticastDelegate_t451
+struct  LuaChangedDelegate_t724  : public MulticastDelegate_t451
 {
 };

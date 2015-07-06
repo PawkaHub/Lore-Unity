@@ -6,11 +6,11 @@ struct Object_t;
 struct IAsyncResult_t448;
 // System.AsyncCallback
 struct AsyncCallback_t449;
-// System.UInt64
-#include "mscorlib_System_UInt64.h"
+// Parse.ParseGeoPoint
+#include "Parse_Unity_Parse_ParseGeoPoint.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.UInt64,System.Object,System.Object>
-struct  Transform_1_t6181  : public MulticastDelegate_t451
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.ParseGeoPoint,System.Object>
+struct  Transform_1_t7917  : public MulticastDelegate_t451
 {
 };

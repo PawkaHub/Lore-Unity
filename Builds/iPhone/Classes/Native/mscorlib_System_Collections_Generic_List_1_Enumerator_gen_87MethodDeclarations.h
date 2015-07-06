@@ -4,26 +4,33 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>
-struct Enumerator_t5868;
+// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>
+struct Enumerator_t6696;
 // System.Object
 struct Object_t;
-// UnityEngine.UI.Text
-struct Text_t212;
-// System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct List_1_t2161;
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>
+struct List_1_t1190;
+// PixelCrushers.DialogueSystem.Emphasis
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Emphasis.h"
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::.ctor(System.Collections.Generic.List`1<T>)
-// System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_39MethodDeclarations.h"
-#define Enumerator__ctor_m37468(__this, ___l, method) (( void (*) (Enumerator_t5868 *, List_1_t2161 *, const MethodInfo*))Enumerator__ctor_m22571_gshared)(__this, ___l, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m37469(__this, method) (( Object_t * (*) (Enumerator_t5868 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m22572_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::Dispose()
-#define Enumerator_Dispose_m37470(__this, method) (( void (*) (Enumerator_t5868 *, const MethodInfo*))Enumerator_Dispose_m22573_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::VerifyState()
-#define Enumerator_VerifyState_m37471(__this, method) (( void (*) (Enumerator_t5868 *, const MethodInfo*))Enumerator_VerifyState_m22574_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::MoveNext()
-#define Enumerator_MoveNext_m37472(__this, method) (( bool (*) (Enumerator_t5868 *, const MethodInfo*))Enumerator_MoveNext_m22575_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::get_Current()
-#define Enumerator_get_Current_m37473(__this, method) (( Text_t212 * (*) (Enumerator_t5868 *, const MethodInfo*))Enumerator_get_Current_m22576_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::.ctor(System.Collections.Generic.List`1<T>)
+extern "C" void Enumerator__ctor_m35942_gshared (Enumerator_t6696 * __this, List_1_t1190 * ___l, const MethodInfo* method);
+#define Enumerator__ctor_m35942(__this, ___l, method) (( void (*) (Enumerator_t6696 *, List_1_t1190 *, const MethodInfo*))Enumerator__ctor_m35942_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m35943_gshared (Enumerator_t6696 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m35943(__this, method) (( void (*) (Enumerator_t6696 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m35943_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m35944_gshared (Enumerator_t6696 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m35944(__this, method) (( Object_t * (*) (Enumerator_t6696 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m35944_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::Dispose()
+extern "C" void Enumerator_Dispose_m35945_gshared (Enumerator_t6696 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m35945(__this, method) (( void (*) (Enumerator_t6696 *, const MethodInfo*))Enumerator_Dispose_m35945_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::VerifyState()
+extern "C" void Enumerator_VerifyState_m35946_gshared (Enumerator_t6696 * __this, const MethodInfo* method);
+#define Enumerator_VerifyState_m35946(__this, method) (( void (*) (Enumerator_t6696 *, const MethodInfo*))Enumerator_VerifyState_m35946_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m35947_gshared (Enumerator_t6696 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m35947(__this, method) (( bool (*) (Enumerator_t6696 *, const MethodInfo*))Enumerator_MoveNext_m35947_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Emphasis>::get_Current()
+extern "C" Emphasis_t636  Enumerator_get_Current_m35948_gshared (Enumerator_t6696 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m35948(__this, method) (( Emphasis_t636  (*) (Enumerator_t6696 *, const MethodInfo*))Enumerator_get_Current_m35948_gshared)(__this, method)

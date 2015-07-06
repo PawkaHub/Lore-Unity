@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
-struct TouchScreenKeyboard_InternalConstructorHelperArguments_t2754;
+struct TouchScreenKeyboard_InternalConstructorHelperArguments_t4489;
 

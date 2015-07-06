@@ -7,7 +7,7 @@ struct List_1_t82;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Language.Lua.TextInput
-struct  TextInput_t2653  : public Object_t
+struct  TextInput_t3583  : public Object_t
 {
 	// System.String Language.Lua.TextInput::InputText
 	String_t* ___InputText_0;

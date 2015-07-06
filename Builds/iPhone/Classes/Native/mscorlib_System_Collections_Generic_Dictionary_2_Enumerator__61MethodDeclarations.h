@@ -4,52 +4,48 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
-struct Enumerator_t6321;
+// System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>
+struct Enumerator_t9269;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>
-struct Dictionary_2_t3231;
+// Language.Lua.Tuple`2<System.Int32,System.String>
+struct Tuple_2_t3603;
+// Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>
+struct Tuple_3_t3604;
+// System.Collections.Generic.Dictionary`2<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>
+struct Dictionary_2_t3582;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_67.h"
-// System.TimeZoneInfo/TimeType
-#include "System_Core_System_TimeZoneInfo_TimeType.h"
+// System.Collections.Generic.KeyValuePair`2<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_130.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void Enumerator__ctor_m44396_gshared (Enumerator_t6321 * __this, Dictionary_2_t3231 * ___dictionary, const MethodInfo* method);
-#define Enumerator__ctor_m44396(__this, ___dictionary, method) (( void (*) (Enumerator_t6321 *, Dictionary_2_t3231 *, const MethodInfo*))Enumerator__ctor_m44396_gshared)(__this, ___dictionary, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m44397_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m44397(__this, method) (( Object_t * (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m44397_gshared)(__this, method)
-// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.IDictionaryEnumerator.get_Entry()
-extern "C" DictionaryEntry_t660  Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m44398_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m44398(__this, method) (( DictionaryEntry_t660  (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m44398_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.IDictionaryEnumerator.get_Key()
-extern "C" Object_t * Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m44399_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m44399(__this, method) (( Object_t * (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m44399_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::System.Collections.IDictionaryEnumerator.get_Value()
-extern "C" Object_t * Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m44400_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m44400(__this, method) (( Object_t * (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m44400_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m44401_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m44401(__this, method) (( bool (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_MoveNext_m44401_gshared)(__this, method)
-// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::get_Current()
-extern "C" KeyValuePair_2_t6316  Enumerator_get_Current_m44402_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m44402(__this, method) (( KeyValuePair_2_t6316  (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_get_Current_m44402_gshared)(__this, method)
-// TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::get_CurrentKey()
-extern "C" int32_t Enumerator_get_CurrentKey_m44403_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_get_CurrentKey_m44403(__this, method) (( int32_t (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_get_CurrentKey_m44403_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::get_CurrentValue()
-extern "C" TimeType_t3222  Enumerator_get_CurrentValue_m44404_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_get_CurrentValue_m44404(__this, method) (( TimeType_t3222  (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_get_CurrentValue_m44404_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::VerifyState()
-extern "C" void Enumerator_VerifyState_m44405_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_VerifyState_m44405(__this, method) (( void (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_VerifyState_m44405_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::VerifyCurrent()
-extern "C" void Enumerator_VerifyCurrent_m44406_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_VerifyCurrent_m44406(__this, method) (( void (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_VerifyCurrent_m44406_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>::Dispose()
-extern "C" void Enumerator_Dispose_m44407_gshared (Enumerator_t6321 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m44407(__this, method) (( void (*) (Enumerator_t6321 *, const MethodInfo*))Enumerator_Dispose_m44407_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__7MethodDeclarations.h"
+#define Enumerator__ctor_m68199(__this, ___dictionary, method) (( void (*) (Enumerator_t9269 *, Dictionary_2_t3582 *, const MethodInfo*))Enumerator__ctor_m24238_gshared)(__this, ___dictionary, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m68200(__this, method) (( Object_t * (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m24239_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m68201(__this, method) (( void (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m24240_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::System.Collections.IDictionaryEnumerator.get_Entry()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m68202(__this, method) (( DictionaryEntry_t679  (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m24241_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::System.Collections.IDictionaryEnumerator.get_Key()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m68203(__this, method) (( Object_t * (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m24242_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::System.Collections.IDictionaryEnumerator.get_Value()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m68204(__this, method) (( Object_t * (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m24243_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::MoveNext()
+#define Enumerator_MoveNext_m68205(__this, method) (( bool (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_MoveNext_m24244_gshared)(__this, method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::get_Current()
+#define Enumerator_get_Current_m68206(__this, method) (( KeyValuePair_2_t9266  (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_get_Current_m24245_gshared)(__this, method)
+// TKey System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::get_CurrentKey()
+#define Enumerator_get_CurrentKey_m68207(__this, method) (( Tuple_2_t3603 * (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_get_CurrentKey_m24246_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::get_CurrentValue()
+#define Enumerator_get_CurrentValue_m68208(__this, method) (( Tuple_3_t3604 * (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_get_CurrentValue_m24247_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::Reset()
+#define Enumerator_Reset_m68209(__this, method) (( void (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_Reset_m24248_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::VerifyState()
+#define Enumerator_VerifyState_m68210(__this, method) (( void (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_VerifyState_m24249_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::VerifyCurrent()
+#define Enumerator_VerifyCurrent_m68211(__this, method) (( void (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_VerifyCurrent_m24250_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<Language.Lua.Tuple`2<System.Int32,System.String>,Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>>::Dispose()
+#define Enumerator_Dispose_m68212(__this, method) (( void (*) (Enumerator_t9269 *, const MethodInfo*))Enumerator_Dispose_m24251_gshared)(__this, method)

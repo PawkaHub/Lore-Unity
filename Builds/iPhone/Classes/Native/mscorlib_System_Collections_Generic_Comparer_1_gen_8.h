@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>
-struct Comparer_1_t5828;
+// System.Collections.Generic.Comparer`1<PixelCrushers.DialogueSystem.Emphasis>
+struct Comparer_1_t6703;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>
-struct  Comparer_1_t5828  : public Object_t
+// System.Collections.Generic.Comparer`1<PixelCrushers.DialogueSystem.Emphasis>
+struct  Comparer_1_t6703  : public Object_t
 {
 };
-struct Comparer_1_t5828_StaticFields{
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>::_default
-	Comparer_1_t5828 * ____default_0;
+struct Comparer_1_t6703_StaticFields{
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<PixelCrushers.DialogueSystem.Emphasis>::_default
+	Comparer_1_t6703 * ____default_0;
 };

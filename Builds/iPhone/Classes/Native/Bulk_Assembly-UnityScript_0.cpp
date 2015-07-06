@@ -42,15 +42,15 @@
 
 
 // System.Void GUITestScript::.ctor()
-extern "C" void GUITestScript__ctor_m3383 (GUITestScript_t743 * __this, const MethodInfo* method)
+extern "C" void GUITestScript__ctor_m3516 (GUITestScript_t780 * __this, const MethodInfo* method)
 {
 	{
-		MonoBehaviour__ctor_m2326(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2413(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void GUITestScript::Main()
-extern "C" void GUITestScript_Main_m3384 (GUITestScript_t743 * __this, const MethodInfo* method)
+extern "C" void GUITestScript_Main_m3517 (GUITestScript_t780 * __this, const MethodInfo* method)
 {
 	{
 		return;

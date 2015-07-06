@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.GameSaver/FunctionOnUse
-struct FunctionOnUse_t944;
+struct FunctionOnUse_t1268;
 

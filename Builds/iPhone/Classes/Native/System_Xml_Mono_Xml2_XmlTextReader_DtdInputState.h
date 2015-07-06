@@ -5,7 +5,7 @@
 // Mono.Xml2.XmlTextReader/DtdInputState
 #include "System_Xml_Mono_Xml2_XmlTextReader_DtdInputState.h"
 // Mono.Xml2.XmlTextReader/DtdInputState
-struct  DtdInputState_t2511 
+struct  DtdInputState_t3897 
 {
 	// System.Int32 Mono.Xml2.XmlTextReader/DtdInputState::value__
 	int32_t ___value___1;

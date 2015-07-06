@@ -4,25 +4,50 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>
-struct Enumerator_t5791;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>
+struct KeyCollection_t7038;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.Dictionary`2<System.Int64,System.Int32>
-struct Dictionary_2_t5789;
+// System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>
+struct Dictionary_2_t1839;
+// System.Collections.Generic.IEnumerator`1<System.Object>
+struct IEnumerator_1_t744;
+// System.Array
+struct Array_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t74;
+// System.Object[]
+struct ObjectU5BU5D_t21;
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_126.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void Enumerator__ctor_m36204_gshared (Enumerator_t5791 * __this, Dictionary_2_t5789 * ___host, const MethodInfo* method);
-#define Enumerator__ctor_m36204(__this, ___host, method) (( void (*) (Enumerator_t5791 *, Dictionary_2_t5789 *, const MethodInfo*))Enumerator__ctor_m36204_gshared)(__this, ___host, method)
-// System.Object System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m36205_gshared (Enumerator_t5791 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m36205(__this, method) (( Object_t * (*) (Enumerator_t5791 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m36205_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>::Dispose()
-extern "C" void Enumerator_Dispose_m36206_gshared (Enumerator_t5791 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m36206(__this, method) (( void (*) (Enumerator_t5791 *, const MethodInfo*))Enumerator_Dispose_m36206_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m36207_gshared (Enumerator_t5791 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m36207(__this, method) (( bool (*) (Enumerator_t5791 *, const MethodInfo*))Enumerator_MoveNext_m36207_gshared)(__this, method)
-// TKey System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>::get_Current()
-extern "C" int64_t Enumerator_get_Current_m36208_gshared (Enumerator_t5791 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m36208(__this, method) (( int64_t (*) (Enumerator_t5791 *, const MethodInfo*))Enumerator_get_Current_m36208_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_3MethodDeclarations.h"
+#define KeyCollection__ctor_m40142(__this, ___dictionary, method) (( void (*) (KeyCollection_t7038 *, Dictionary_2_t1839 *, const MethodInfo*))KeyCollection__ctor_m24221_gshared)(__this, ___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.Generic.ICollection<TKey>.Add(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m40143(__this, ___item, method) (( void (*) (KeyCollection_t7038 *, Object_t *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Add_m24222_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.Generic.ICollection<TKey>.Clear()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m40144(__this, method) (( void (*) (KeyCollection_t7038 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Clear_m24223_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.Generic.ICollection<TKey>.Contains(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m40145(__this, ___item, method) (( bool (*) (KeyCollection_t7038 *, Object_t *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Contains_m24224_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.Generic.ICollection<TKey>.Remove(TKey)
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m40146(__this, ___item, method) (( bool (*) (KeyCollection_t7038 *, Object_t *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_Remove_m24225_gshared)(__this, ___item, method)
+// System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
+#define KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m40147(__this, method) (( Object_t* (*) (KeyCollection_t7038 *, const MethodInfo*))KeyCollection_System_Collections_Generic_IEnumerableU3CTKeyU3E_GetEnumerator_m24226_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define KeyCollection_System_Collections_ICollection_CopyTo_m40148(__this, ___array, ___index, method) (( void (*) (KeyCollection_t7038 *, Array_t *, int32_t, const MethodInfo*))KeyCollection_System_Collections_ICollection_CopyTo_m24227_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.IEnumerable.GetEnumerator()
+#define KeyCollection_System_Collections_IEnumerable_GetEnumerator_m40149(__this, method) (( Object_t * (*) (KeyCollection_t7038 *, const MethodInfo*))KeyCollection_System_Collections_IEnumerable_GetEnumerator_m24228_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
+#define KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m40150(__this, method) (( bool (*) (KeyCollection_t7038 *, const MethodInfo*))KeyCollection_System_Collections_Generic_ICollectionU3CTKeyU3E_get_IsReadOnly_m24229_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.ICollection.get_IsSynchronized()
+#define KeyCollection_System_Collections_ICollection_get_IsSynchronized_m40151(__this, method) (( bool (*) (KeyCollection_t7038 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_IsSynchronized_m24230_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.ICollection.get_SyncRoot()
+#define KeyCollection_System_Collections_ICollection_get_SyncRoot_m40152(__this, method) (( Object_t * (*) (KeyCollection_t7038 *, const MethodInfo*))KeyCollection_System_Collections_ICollection_get_SyncRoot_m24231_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::CopyTo(TKey[],System.Int32)
+#define KeyCollection_CopyTo_m40153(__this, ___array, ___index, method) (( void (*) (KeyCollection_t7038 *, ObjectU5BU5D_t21*, int32_t, const MethodInfo*))KeyCollection_CopyTo_m24232_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::GetEnumerator()
+#define KeyCollection_GetEnumerator_m40154(__this, method) (( Enumerator_t10123  (*) (KeyCollection_t7038 *, const MethodInfo*))KeyCollection_GetEnumerator_m3212_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::get_Count()
+#define KeyCollection_get_Count_m40155(__this, method) (( int32_t (*) (KeyCollection_t7038 *, const MethodInfo*))KeyCollection_get_Count_m24233_gshared)(__this, method)

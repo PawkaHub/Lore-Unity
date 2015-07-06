@@ -1,32 +1,32 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.Type,ExitGames.Client.Photon.CustomType>
-struct Dictionary_2_t3151;
+struct Dictionary_2_t4878;
 // System.Collections.Generic.Dictionary`2<System.Byte,ExitGames.Client.Photon.CustomType>
-struct Dictionary_2_t3152;
+struct Dictionary_2_t4879;
 // System.Byte[]
 struct ByteU5BU5D_t25;
 // System.Int64[]
-struct Int64U5BU5D_t2413;
+struct Int64U5BU5D_t3799;
 // System.Single[]
 struct SingleU5BU5D_t168;
 // System.Double[]
-struct DoubleU5BU5D_t3153;
+struct DoubleU5BU5D_t4880;
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.Protocol
-struct  Protocol_t657  : public Object_t
+struct  Protocol_t676  : public Object_t
 {
 };
-struct Protocol_t657_StaticFields{
+struct Protocol_t676_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.Type,ExitGames.Client.Photon.CustomType> ExitGames.Client.Photon.Protocol::TypeDict
-	Dictionary_2_t3151 * ___TypeDict_0;
+	Dictionary_2_t4878 * ___TypeDict_0;
 	// System.Collections.Generic.Dictionary`2<System.Byte,ExitGames.Client.Photon.CustomType> ExitGames.Client.Photon.Protocol::CodeDict
-	Dictionary_2_t3152 * ___CodeDict_1;
+	Dictionary_2_t4879 * ___CodeDict_1;
 	// System.Byte[] ExitGames.Client.Photon.Protocol::memShort
 	ByteU5BU5D_t25* ___memShort_2;
 	// System.Int64[] ExitGames.Client.Photon.Protocol::memLongBlock
-	Int64U5BU5D_t2413* ___memLongBlock_3;
+	Int64U5BU5D_t3799* ___memLongBlock_3;
 	// System.Byte[] ExitGames.Client.Photon.Protocol::memLongBlockBytes
 	ByteU5BU5D_t25* ___memLongBlockBytes_4;
 	// System.Single[] ExitGames.Client.Photon.Protocol::memFloatBlock
@@ -34,7 +34,7 @@ struct Protocol_t657_StaticFields{
 	// System.Byte[] ExitGames.Client.Photon.Protocol::memFloatBlockBytes
 	ByteU5BU5D_t25* ___memFloatBlockBytes_6;
 	// System.Double[] ExitGames.Client.Photon.Protocol::memDoubleBlock
-	DoubleU5BU5D_t3153* ___memDoubleBlock_7;
+	DoubleU5BU5D_t4880* ___memDoubleBlock_7;
 	// System.Byte[] ExitGames.Client.Photon.Protocol::memDoubleBlockBytes
 	ByteU5BU5D_t25* ___memDoubleBlockBytes_8;
 	// System.Byte[] ExitGames.Client.Photon.Protocol::memInteger

@@ -11,7 +11,7 @@ struct Condition_t203;
 // PixelCrushers.DialogueSystem.DialogueTriggerEvent
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTriggerE.h"
 // PixelCrushers.DialogueSystem.AlertTrigger
-struct  AlertTrigger_t995  : public DialogueEventStarter_t997
+struct  AlertTrigger_t1319  : public DialogueEventStarter_t1321
 {
 	// PixelCrushers.DialogueSystem.DialogueTriggerEvent PixelCrushers.DialogueSystem.AlertTrigger::trigger
 	int32_t ___trigger_3;

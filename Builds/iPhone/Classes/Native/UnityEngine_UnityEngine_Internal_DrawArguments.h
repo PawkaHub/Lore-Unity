@@ -7,7 +7,7 @@
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.Internal_DrawArguments
-struct  Internal_DrawArguments_t2752 
+struct  Internal_DrawArguments_t4487 
 {
 	// System.IntPtr UnityEngine.Internal_DrawArguments::target
 	IntPtr_t ___target_0;

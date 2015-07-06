@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AudioListener
-struct AudioListener_t1120;
+struct AudioListener_t1443;
 

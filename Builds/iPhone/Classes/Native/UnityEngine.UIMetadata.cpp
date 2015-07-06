@@ -14,529 +14,553 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t1964_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t781_il2cpp_TypeInfo;
 // <Module>
 #include "UnityEngine_UI_U3CModuleU3E.h"
-extern TypeInfo IEventSystemHandler_t2192_il2cpp_TypeInfo;
-extern TypeInfo IPointerEnterHandler_t2128_il2cpp_TypeInfo;
-extern TypeInfo IPointerExitHandler_t2129_il2cpp_TypeInfo;
-extern TypeInfo IPointerDownHandler_t2130_il2cpp_TypeInfo;
-extern TypeInfo IPointerUpHandler_t2131_il2cpp_TypeInfo;
-extern TypeInfo IPointerClickHandler_t2132_il2cpp_TypeInfo;
-extern TypeInfo IBeginDragHandler_t2134_il2cpp_TypeInfo;
-extern TypeInfo IInitializePotentialDragHandler_t2133_il2cpp_TypeInfo;
-extern TypeInfo IDragHandler_t2135_il2cpp_TypeInfo;
-extern TypeInfo IEndDragHandler_t2136_il2cpp_TypeInfo;
-extern TypeInfo IDropHandler_t2137_il2cpp_TypeInfo;
-extern TypeInfo IScrollHandler_t2138_il2cpp_TypeInfo;
-extern TypeInfo IUpdateSelectedHandler_t2139_il2cpp_TypeInfo;
-extern TypeInfo ISelectHandler_t2140_il2cpp_TypeInfo;
-extern TypeInfo IDeselectHandler_t2141_il2cpp_TypeInfo;
-extern TypeInfo IMoveHandler_t2142_il2cpp_TypeInfo;
-extern TypeInfo ISubmitHandler_t629_il2cpp_TypeInfo;
-extern TypeInfo ICancelHandler_t2143_il2cpp_TypeInfo;
-extern TypeInfo EventSystem_t612_il2cpp_TypeInfo;
+extern TypeInfo EventHandle_t782_il2cpp_TypeInfo;
+// UnityEngine.EventSystems.EventHandle
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventHandle.h"
+extern TypeInfo IEventSystemHandler_t766_il2cpp_TypeInfo;
+extern TypeInfo IPointerEnterHandler_t774_il2cpp_TypeInfo;
+extern TypeInfo IPointerExitHandler_t775_il2cpp_TypeInfo;
+extern TypeInfo IPointerDownHandler_t772_il2cpp_TypeInfo;
+extern TypeInfo IPointerUpHandler_t948_il2cpp_TypeInfo;
+extern TypeInfo IPointerClickHandler_t765_il2cpp_TypeInfo;
+extern TypeInfo IBeginDragHandler_t769_il2cpp_TypeInfo;
+extern TypeInfo IInitializePotentialDragHandler_t949_il2cpp_TypeInfo;
+extern TypeInfo IDragHandler_t770_il2cpp_TypeInfo;
+extern TypeInfo IEndDragHandler_t771_il2cpp_TypeInfo;
+extern TypeInfo IDropHandler_t773_il2cpp_TypeInfo;
+extern TypeInfo IScrollHandler_t950_il2cpp_TypeInfo;
+extern TypeInfo IUpdateSelectedHandler_t951_il2cpp_TypeInfo;
+extern TypeInfo ISelectHandler_t952_il2cpp_TypeInfo;
+extern TypeInfo IDeselectHandler_t953_il2cpp_TypeInfo;
+extern TypeInfo IMoveHandler_t954_il2cpp_TypeInfo;
+extern TypeInfo ISubmitHandler_t649_il2cpp_TypeInfo;
+extern TypeInfo ICancelHandler_t955_il2cpp_TypeInfo;
+extern TypeInfo EventSystem_t633_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.EventSystem
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventSystem.h"
-extern TypeInfo TriggerEvent_t1969_il2cpp_TypeInfo;
+extern TypeInfo TriggerEvent_t786_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.EventTrigger/TriggerEvent
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventTrigger_Trigger.h"
-extern TypeInfo Entry_t1971_il2cpp_TypeInfo;
+extern TypeInfo Entry_t788_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.EventTrigger/Entry
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventTrigger_Entry.h"
-extern TypeInfo EventTrigger_t1973_il2cpp_TypeInfo;
+extern TypeInfo EventTrigger_t790_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.EventTrigger
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventTrigger.h"
-extern TypeInfo EventTriggerType_t1974_il2cpp_TypeInfo;
+extern TypeInfo EventTriggerType_t791_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.EventTriggerType
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventTriggerType.h"
-extern TypeInfo EventFunction_1_t2194_il2cpp_TypeInfo;
-extern TypeInfo ExecuteEvents_t630_il2cpp_TypeInfo;
+extern TypeInfo EventFunction_1_t1020_il2cpp_TypeInfo;
+extern TypeInfo ExecuteEvents_t650_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.ExecuteEvents
 #include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEvents.h"
-extern TypeInfo MoveDirection_t1993_il2cpp_TypeInfo;
+extern TypeInfo MoveDirection_t810_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.MoveDirection
 #include "UnityEngine_UI_UnityEngine_EventSystems_MoveDirection.h"
-extern TypeInfo RaycasterManager_t1995_il2cpp_TypeInfo;
+extern TypeInfo RaycasterManager_t812_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.RaycasterManager
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycasterManager.h"
-extern TypeInfo RaycastResult_t1997_il2cpp_TypeInfo;
+extern TypeInfo RaycastResult_t814_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.RaycastResult
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
-extern TypeInfo UIBehaviour_t1968_il2cpp_TypeInfo;
+extern TypeInfo UIBehaviour_t785_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
-extern TypeInfo AxisEventData_t1998_il2cpp_TypeInfo;
+extern TypeInfo AxisEventData_t815_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.AxisEventData
 #include "UnityEngine_UI_UnityEngine_EventSystems_AxisEventData.h"
-extern TypeInfo BaseEventData_t613_il2cpp_TypeInfo;
+extern TypeInfo BaseEventData_t634_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.BaseEventData
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseEventData.h"
-extern TypeInfo InputButton_t1999_il2cpp_TypeInfo;
+extern TypeInfo InputButton_t816_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.PointerEventData/InputButton
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEventData_Inp.h"
-extern TypeInfo FramePressState_t2000_il2cpp_TypeInfo;
+extern TypeInfo FramePressState_t817_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.PointerEventData/FramePressState
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEventData_Fra.h"
-extern TypeInfo PointerEventData_t633_il2cpp_TypeInfo;
+extern TypeInfo PointerEventData_t581_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.PointerEventData
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEventData.h"
-extern TypeInfo BaseInputModule_t1966_il2cpp_TypeInfo;
+extern TypeInfo BaseInputModule_t730_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.BaseInputModule
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseInputModule.h"
-extern TypeInfo ButtonState_t2003_il2cpp_TypeInfo;
+extern TypeInfo ButtonState_t820_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.PointerInputModule/ButtonState
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerInputModule_B.h"
-extern TypeInfo MouseState_t2005_il2cpp_TypeInfo;
+extern TypeInfo MouseState_t822_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.PointerInputModule/MouseState
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerInputModule_M.h"
-extern TypeInfo MouseButtonEventData_t2002_il2cpp_TypeInfo;
+extern TypeInfo MouseButtonEventData_t819_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerInputModule_M_0.h"
-extern TypeInfo PointerInputModule_t2007_il2cpp_TypeInfo;
+extern TypeInfo PointerInputModule_t824_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.PointerInputModule
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerInputModule.h"
-extern TypeInfo InputMode_t2008_il2cpp_TypeInfo;
+extern TypeInfo InputMode_t825_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.StandaloneInputModule/InputMode
-#include "UnityEngine_UI_UnityEngine_EventSystems_StandaloneInputModul.h"
-extern TypeInfo StandaloneInputModule_t2009_il2cpp_TypeInfo;
-// UnityEngine.EventSystems.StandaloneInputModule
 #include "UnityEngine_UI_UnityEngine_EventSystems_StandaloneInputModul_0.h"
-extern TypeInfo TouchInputModule_t2010_il2cpp_TypeInfo;
+extern TypeInfo StandaloneInputModule_t729_il2cpp_TypeInfo;
+// UnityEngine.EventSystems.StandaloneInputModule
+#include "UnityEngine_UI_UnityEngine_EventSystems_StandaloneInputModul.h"
+extern TypeInfo TouchInputModule_t826_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.TouchInputModule
 #include "UnityEngine_UI_UnityEngine_EventSystems_TouchInputModule.h"
-extern TypeInfo BaseRaycaster_t1996_il2cpp_TypeInfo;
+extern TypeInfo BaseRaycaster_t813_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.BaseRaycaster
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycaster.h"
-extern TypeInfo Physics2DRaycaster_t2011_il2cpp_TypeInfo;
+extern TypeInfo Physics2DRaycaster_t827_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.Physics2DRaycaster
 #include "UnityEngine_UI_UnityEngine_EventSystems_Physics2DRaycaster.h"
-extern TypeInfo PhysicsRaycaster_t2012_il2cpp_TypeInfo;
+extern TypeInfo PhysicsRaycaster_t828_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.PhysicsRaycaster
 #include "UnityEngine_UI_UnityEngine_EventSystems_PhysicsRaycaster.h"
-extern TypeInfo ITweenValue_t2195_il2cpp_TypeInfo;
-extern TypeInfo ColorTweenMode_t2014_il2cpp_TypeInfo;
+extern TypeInfo ITweenValue_t1021_il2cpp_TypeInfo;
+extern TypeInfo ColorTweenMode_t830_il2cpp_TypeInfo;
 // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_ColorTween_Colo.h"
-extern TypeInfo ColorTweenCallback_t2015_il2cpp_TypeInfo;
+extern TypeInfo ColorTweenCallback_t831_il2cpp_TypeInfo;
 // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_ColorTween_Colo_0.h"
-extern TypeInfo ColorTween_t2017_il2cpp_TypeInfo;
+extern TypeInfo ColorTween_t833_il2cpp_TypeInfo;
 // UnityEngine.UI.CoroutineTween.ColorTween
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_ColorTween.h"
-extern TypeInfo U3CStartU3Ec__Iterator0_t2197_il2cpp_TypeInfo;
-extern TypeInfo TweenRunner_1_t2196_il2cpp_TypeInfo;
-extern TypeInfo AnimationTriggers_t2018_il2cpp_TypeInfo;
+extern TypeInfo U3CStartU3Ec__Iterator0_t1023_il2cpp_TypeInfo;
+extern TypeInfo TweenRunner_1_t1022_il2cpp_TypeInfo;
+extern TypeInfo AnimationTriggers_t834_il2cpp_TypeInfo;
 // UnityEngine.UI.AnimationTriggers
 #include "UnityEngine_UI_UnityEngine_UI_AnimationTriggers.h"
-extern TypeInfo ButtonClickedEvent_t624_il2cpp_TypeInfo;
+extern TypeInfo ButtonClickedEvent_t645_il2cpp_TypeInfo;
 // UnityEngine.UI.Button/ButtonClickedEvent
 #include "UnityEngine_UI_UnityEngine_UI_Button_ButtonClickedEvent.h"
-extern TypeInfo U3COnFinishSubmitU3Ec__Iterator1_t2019_il2cpp_TypeInfo;
+extern TypeInfo U3COnFinishSubmitU3Ec__Iterator1_t835_il2cpp_TypeInfo;
 // UnityEngine.UI.Button/<OnFinishSubmit>c__Iterator1
 #include "UnityEngine_UI_UnityEngine_UI_Button_U3COnFinishSubmitU3Ec__.h"
 extern TypeInfo Button_t220_il2cpp_TypeInfo;
 // UnityEngine.UI.Button
 #include "UnityEngine_UI_UnityEngine_UI_Button.h"
-extern TypeInfo CanvasUpdate_t2021_il2cpp_TypeInfo;
+extern TypeInfo CanvasUpdate_t836_il2cpp_TypeInfo;
 // UnityEngine.UI.CanvasUpdate
 #include "UnityEngine_UI_UnityEngine_UI_CanvasUpdate.h"
-extern TypeInfo ICanvasElement_t2147_il2cpp_TypeInfo;
-extern TypeInfo CanvasUpdateRegistry_t2022_il2cpp_TypeInfo;
+extern TypeInfo ICanvasElement_t959_il2cpp_TypeInfo;
+extern TypeInfo CanvasUpdateRegistry_t837_il2cpp_TypeInfo;
 // UnityEngine.UI.CanvasUpdateRegistry
 #include "UnityEngine_UI_UnityEngine_UI_CanvasUpdateRegistry.h"
-extern TypeInfo ColorBlock_t2026_il2cpp_TypeInfo;
+extern TypeInfo ColorBlock_t841_il2cpp_TypeInfo;
 // UnityEngine.UI.ColorBlock
 #include "UnityEngine_UI_UnityEngine_UI_ColorBlock.h"
-extern TypeInfo FontData_t2027_il2cpp_TypeInfo;
+extern TypeInfo FontData_t842_il2cpp_TypeInfo;
 // UnityEngine.UI.FontData
 #include "UnityEngine_UI_UnityEngine_UI_FontData.h"
-extern TypeInfo FontUpdateTracker_t2029_il2cpp_TypeInfo;
+extern TypeInfo FontUpdateTracker_t844_il2cpp_TypeInfo;
 // UnityEngine.UI.FontUpdateTracker
 #include "UnityEngine_UI_UnityEngine_UI_FontUpdateTracker.h"
 extern TypeInfo Graphic_t219_il2cpp_TypeInfo;
 // UnityEngine.UI.Graphic
 #include "UnityEngine_UI_UnityEngine_UI_Graphic.h"
-extern TypeInfo BlockingObjects_t2034_il2cpp_TypeInfo;
+extern TypeInfo BlockingObjects_t849_il2cpp_TypeInfo;
 // UnityEngine.UI.GraphicRaycaster/BlockingObjects
 #include "UnityEngine_UI_UnityEngine_UI_GraphicRaycaster_BlockingObjec.h"
-extern TypeInfo GraphicRaycaster_t2037_il2cpp_TypeInfo;
+extern TypeInfo GraphicRaycaster_t852_il2cpp_TypeInfo;
 // UnityEngine.UI.GraphicRaycaster
 #include "UnityEngine_UI_UnityEngine_UI_GraphicRaycaster.h"
-extern TypeInfo GraphicRegistry_t2038_il2cpp_TypeInfo;
+extern TypeInfo GraphicRegistry_t853_il2cpp_TypeInfo;
 // UnityEngine.UI.GraphicRegistry
 #include "UnityEngine_UI_UnityEngine_UI_GraphicRegistry.h"
-extern TypeInfo IGraphicEnabledDisabled_t2164_il2cpp_TypeInfo;
-extern TypeInfo Type_t2040_il2cpp_TypeInfo;
+extern TypeInfo IGraphicEnabledDisabled_t976_il2cpp_TypeInfo;
+extern TypeInfo Type_t855_il2cpp_TypeInfo;
 // UnityEngine.UI.Image/Type
 #include "UnityEngine_UI_UnityEngine_UI_Image_Type.h"
-extern TypeInfo FillMethod_t2041_il2cpp_TypeInfo;
+extern TypeInfo FillMethod_t856_il2cpp_TypeInfo;
 // UnityEngine.UI.Image/FillMethod
 #include "UnityEngine_UI_UnityEngine_UI_Image_FillMethod.h"
+extern TypeInfo OriginHorizontal_t857_il2cpp_TypeInfo;
+// UnityEngine.UI.Image/OriginHorizontal
+#include "UnityEngine_UI_UnityEngine_UI_Image_OriginHorizontal.h"
+extern TypeInfo OriginVertical_t858_il2cpp_TypeInfo;
+// UnityEngine.UI.Image/OriginVertical
+#include "UnityEngine_UI_UnityEngine_UI_Image_OriginVertical.h"
+extern TypeInfo Origin90_t859_il2cpp_TypeInfo;
+// UnityEngine.UI.Image/Origin90
+#include "UnityEngine_UI_UnityEngine_UI_Image_Origin90.h"
+extern TypeInfo Origin180_t860_il2cpp_TypeInfo;
+// UnityEngine.UI.Image/Origin180
+#include "UnityEngine_UI_UnityEngine_UI_Image_Origin180.h"
+extern TypeInfo Origin360_t861_il2cpp_TypeInfo;
+// UnityEngine.UI.Image/Origin360
+#include "UnityEngine_UI_UnityEngine_UI_Image_Origin360.h"
 extern TypeInfo Image_t237_il2cpp_TypeInfo;
 // UnityEngine.UI.Image
 #include "UnityEngine_UI_UnityEngine_UI_Image.h"
-extern TypeInfo IMask_t2180_il2cpp_TypeInfo;
-extern TypeInfo IMaskable_t2190_il2cpp_TypeInfo;
-extern TypeInfo ContentType_t2043_il2cpp_TypeInfo;
+extern TypeInfo IMask_t992_il2cpp_TypeInfo;
+extern TypeInfo IMaskable_t1008_il2cpp_TypeInfo;
+extern TypeInfo ContentType_t863_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/ContentType
 #include "UnityEngine_UI_UnityEngine_UI_InputField_ContentType.h"
-extern TypeInfo InputType_t2044_il2cpp_TypeInfo;
+extern TypeInfo InputType_t864_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/InputType
 #include "UnityEngine_UI_UnityEngine_UI_InputField_InputType.h"
-extern TypeInfo CharacterValidation_t2045_il2cpp_TypeInfo;
+extern TypeInfo CharacterValidation_t865_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/CharacterValidation
 #include "UnityEngine_UI_UnityEngine_UI_InputField_CharacterValidation.h"
-extern TypeInfo LineType_t2046_il2cpp_TypeInfo;
+extern TypeInfo LineType_t866_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/LineType
 #include "UnityEngine_UI_UnityEngine_UI_InputField_LineType.h"
-extern TypeInfo SubmitEvent_t2047_il2cpp_TypeInfo;
+extern TypeInfo SubmitEvent_t867_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/SubmitEvent
 #include "UnityEngine_UI_UnityEngine_UI_InputField_SubmitEvent.h"
-extern TypeInfo OnChangeEvent_t2049_il2cpp_TypeInfo;
+extern TypeInfo OnChangeEvent_t869_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/OnChangeEvent
 #include "UnityEngine_UI_UnityEngine_UI_InputField_OnChangeEvent.h"
-extern TypeInfo EditState_t2050_il2cpp_TypeInfo;
+extern TypeInfo EditState_t870_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/EditState
 #include "UnityEngine_UI_UnityEngine_UI_InputField_EditState.h"
-extern TypeInfo OnValidateInput_t2051_il2cpp_TypeInfo;
+extern TypeInfo OnValidateInput_t871_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/OnValidateInput
 #include "UnityEngine_UI_UnityEngine_UI_InputField_OnValidateInput.h"
-extern TypeInfo U3CCaretBlinkU3Ec__Iterator2_t2052_il2cpp_TypeInfo;
+extern TypeInfo U3CCaretBlinkU3Ec__Iterator2_t872_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/<CaretBlink>c__Iterator2
 #include "UnityEngine_UI_UnityEngine_UI_InputField_U3CCaretBlinkU3Ec__.h"
-extern TypeInfo U3CMouseDragOutsideRectU3Ec__Iterator3_t2053_il2cpp_TypeInfo;
+extern TypeInfo U3CMouseDragOutsideRectU3Ec__Iterator3_t873_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator3
 #include "UnityEngine_UI_UnityEngine_UI_InputField_U3CMouseDragOutside.h"
 extern TypeInfo InputField_t247_il2cpp_TypeInfo;
 // UnityEngine.UI.InputField
 #include "UnityEngine_UI_UnityEngine_UI_InputField.h"
-extern TypeInfo MaskableGraphic_t2042_il2cpp_TypeInfo;
+extern TypeInfo MaskableGraphic_t862_il2cpp_TypeInfo;
 // UnityEngine.UI.MaskableGraphic
 #include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic.h"
-extern TypeInfo Misc_t2060_il2cpp_TypeInfo;
+extern TypeInfo Misc_t880_il2cpp_TypeInfo;
 // UnityEngine.UI.Misc
 #include "UnityEngine_UI_UnityEngine_UI_Misc.h"
-extern TypeInfo Mode_t2061_il2cpp_TypeInfo;
+extern TypeInfo Mode_t881_il2cpp_TypeInfo;
 // UnityEngine.UI.Navigation/Mode
 #include "UnityEngine_UI_UnityEngine_UI_Navigation_Mode.h"
-extern TypeInfo Navigation_t2062_il2cpp_TypeInfo;
+extern TypeInfo Navigation_t882_il2cpp_TypeInfo;
 // UnityEngine.UI.Navigation
 #include "UnityEngine_UI_UnityEngine_UI_Navigation.h"
-extern TypeInfo RawImage_t2063_il2cpp_TypeInfo;
+extern TypeInfo RawImage_t883_il2cpp_TypeInfo;
 // UnityEngine.UI.RawImage
 #include "UnityEngine_UI_UnityEngine_UI_RawImage.h"
-extern TypeInfo Direction_t2064_il2cpp_TypeInfo;
+extern TypeInfo Direction_t884_il2cpp_TypeInfo;
 // UnityEngine.UI.Scrollbar/Direction
 #include "UnityEngine_UI_UnityEngine_UI_Scrollbar_Direction.h"
-extern TypeInfo ScrollEvent_t2065_il2cpp_TypeInfo;
+extern TypeInfo ScrollEvent_t885_il2cpp_TypeInfo;
 // UnityEngine.UI.Scrollbar/ScrollEvent
 #include "UnityEngine_UI_UnityEngine_UI_Scrollbar_ScrollEvent.h"
-extern TypeInfo Axis_t2067_il2cpp_TypeInfo;
+extern TypeInfo Axis_t887_il2cpp_TypeInfo;
 // UnityEngine.UI.Scrollbar/Axis
 #include "UnityEngine_UI_UnityEngine_UI_Scrollbar_Axis.h"
-extern TypeInfo U3CClickRepeatU3Ec__Iterator4_t2068_il2cpp_TypeInfo;
+extern TypeInfo U3CClickRepeatU3Ec__Iterator4_t888_il2cpp_TypeInfo;
 // UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4
 #include "UnityEngine_UI_UnityEngine_UI_Scrollbar_U3CClickRepeatU3Ec__.h"
 extern TypeInfo Scrollbar_t240_il2cpp_TypeInfo;
 // UnityEngine.UI.Scrollbar
 #include "UnityEngine_UI_UnityEngine_UI_Scrollbar.h"
-extern TypeInfo MovementType_t2070_il2cpp_TypeInfo;
+extern TypeInfo MovementType_t890_il2cpp_TypeInfo;
 // UnityEngine.UI.ScrollRect/MovementType
 #include "UnityEngine_UI_UnityEngine_UI_ScrollRect_MovementType.h"
-extern TypeInfo ScrollRectEvent_t2071_il2cpp_TypeInfo;
+extern TypeInfo ScrollRectEvent_t891_il2cpp_TypeInfo;
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
 #include "UnityEngine_UI_UnityEngine_UI_ScrollRect_ScrollRectEvent.h"
-extern TypeInfo ScrollRect_t2073_il2cpp_TypeInfo;
+extern TypeInfo ScrollRect_t893_il2cpp_TypeInfo;
 // UnityEngine.UI.ScrollRect
 #include "UnityEngine_UI_UnityEngine_UI_ScrollRect.h"
-extern TypeInfo Transition_t2074_il2cpp_TypeInfo;
+extern TypeInfo Transition_t894_il2cpp_TypeInfo;
 // UnityEngine.UI.Selectable/Transition
 #include "UnityEngine_UI_UnityEngine_UI_Selectable_Transition.h"
-extern TypeInfo SelectionState_t2075_il2cpp_TypeInfo;
+extern TypeInfo SelectionState_t895_il2cpp_TypeInfo;
 // UnityEngine.UI.Selectable/SelectionState
 #include "UnityEngine_UI_UnityEngine_UI_Selectable_SelectionState.h"
-extern TypeInfo Selectable_t2020_il2cpp_TypeInfo;
+extern TypeInfo Selectable_t727_il2cpp_TypeInfo;
 // UnityEngine.UI.Selectable
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
-extern TypeInfo SetPropertyUtility_t2079_il2cpp_TypeInfo;
+extern TypeInfo SetPropertyUtility_t899_il2cpp_TypeInfo;
 // UnityEngine.UI.SetPropertyUtility
 #include "UnityEngine_UI_UnityEngine_UI_SetPropertyUtility.h"
-extern TypeInfo Direction_t2080_il2cpp_TypeInfo;
+extern TypeInfo Direction_t900_il2cpp_TypeInfo;
 // UnityEngine.UI.Slider/Direction
 #include "UnityEngine_UI_UnityEngine_UI_Slider_Direction.h"
-extern TypeInfo SliderEvent_t2081_il2cpp_TypeInfo;
+extern TypeInfo SliderEvent_t901_il2cpp_TypeInfo;
 // UnityEngine.UI.Slider/SliderEvent
 #include "UnityEngine_UI_UnityEngine_UI_Slider_SliderEvent.h"
-extern TypeInfo Axis_t2082_il2cpp_TypeInfo;
+extern TypeInfo Axis_t902_il2cpp_TypeInfo;
 // UnityEngine.UI.Slider/Axis
 #include "UnityEngine_UI_UnityEngine_UI_Slider_Axis.h"
 extern TypeInfo Slider_t238_il2cpp_TypeInfo;
 // UnityEngine.UI.Slider
 #include "UnityEngine_UI_UnityEngine_UI_Slider.h"
-extern TypeInfo SpriteState_t2078_il2cpp_TypeInfo;
+extern TypeInfo SpriteState_t898_il2cpp_TypeInfo;
 // UnityEngine.UI.SpriteState
 #include "UnityEngine_UI_UnityEngine_UI_SpriteState.h"
-extern TypeInfo MatEntry_t2083_il2cpp_TypeInfo;
+extern TypeInfo MatEntry_t903_il2cpp_TypeInfo;
 // UnityEngine.UI.StencilMaterial/MatEntry
 #include "UnityEngine_UI_UnityEngine_UI_StencilMaterial_MatEntry.h"
-extern TypeInfo StencilMaterial_t2085_il2cpp_TypeInfo;
+extern TypeInfo StencilMaterial_t905_il2cpp_TypeInfo;
 // UnityEngine.UI.StencilMaterial
 #include "UnityEngine_UI_UnityEngine_UI_StencilMaterial.h"
 extern TypeInfo Text_t212_il2cpp_TypeInfo;
 // UnityEngine.UI.Text
 #include "UnityEngine_UI_UnityEngine_UI_Text.h"
-extern TypeInfo ToggleTransition_t2086_il2cpp_TypeInfo;
+extern TypeInfo ToggleTransition_t906_il2cpp_TypeInfo;
 // UnityEngine.UI.Toggle/ToggleTransition
 #include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleTransition.h"
-extern TypeInfo ToggleEvent_t2087_il2cpp_TypeInfo;
+extern TypeInfo ToggleEvent_t907_il2cpp_TypeInfo;
 // UnityEngine.UI.Toggle/ToggleEvent
 #include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleEvent.h"
-extern TypeInfo Toggle_t2090_il2cpp_TypeInfo;
+extern TypeInfo Toggle_t910_il2cpp_TypeInfo;
 // UnityEngine.UI.Toggle
 #include "UnityEngine_UI_UnityEngine_UI_Toggle.h"
-extern TypeInfo ToggleGroup_t2089_il2cpp_TypeInfo;
+extern TypeInfo ToggleGroup_t909_il2cpp_TypeInfo;
 // UnityEngine.UI.ToggleGroup
 #include "UnityEngine_UI_UnityEngine_UI_ToggleGroup.h"
-extern TypeInfo AspectMode_t2094_il2cpp_TypeInfo;
+extern TypeInfo AspectMode_t914_il2cpp_TypeInfo;
 // UnityEngine.UI.AspectRatioFitter/AspectMode
 #include "UnityEngine_UI_UnityEngine_UI_AspectRatioFitter_AspectMode.h"
-extern TypeInfo AspectRatioFitter_t2095_il2cpp_TypeInfo;
+extern TypeInfo AspectRatioFitter_t915_il2cpp_TypeInfo;
 // UnityEngine.UI.AspectRatioFitter
 #include "UnityEngine_UI_UnityEngine_UI_AspectRatioFitter.h"
-extern TypeInfo ScaleMode_t2096_il2cpp_TypeInfo;
+extern TypeInfo ScaleMode_t916_il2cpp_TypeInfo;
 // UnityEngine.UI.CanvasScaler/ScaleMode
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_ScaleMode.h"
-extern TypeInfo ScreenMatchMode_t2097_il2cpp_TypeInfo;
+extern TypeInfo ScreenMatchMode_t917_il2cpp_TypeInfo;
 // UnityEngine.UI.CanvasScaler/ScreenMatchMode
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_ScreenMatchMode.h"
-extern TypeInfo Unit_t2098_il2cpp_TypeInfo;
+extern TypeInfo Unit_t918_il2cpp_TypeInfo;
 // UnityEngine.UI.CanvasScaler/Unit
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_Unit.h"
-extern TypeInfo CanvasScaler_t2099_il2cpp_TypeInfo;
+extern TypeInfo CanvasScaler_t919_il2cpp_TypeInfo;
 // UnityEngine.UI.CanvasScaler
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler.h"
-extern TypeInfo FitMode_t2100_il2cpp_TypeInfo;
+extern TypeInfo FitMode_t920_il2cpp_TypeInfo;
 // UnityEngine.UI.ContentSizeFitter/FitMode
 #include "UnityEngine_UI_UnityEngine_UI_ContentSizeFitter_FitMode.h"
-extern TypeInfo ContentSizeFitter_t2101_il2cpp_TypeInfo;
+extern TypeInfo ContentSizeFitter_t921_il2cpp_TypeInfo;
 // UnityEngine.UI.ContentSizeFitter
 #include "UnityEngine_UI_UnityEngine_UI_ContentSizeFitter.h"
-extern TypeInfo Corner_t2102_il2cpp_TypeInfo;
+extern TypeInfo Corner_t922_il2cpp_TypeInfo;
 // UnityEngine.UI.GridLayoutGroup/Corner
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Corner.h"
-extern TypeInfo Axis_t2103_il2cpp_TypeInfo;
+extern TypeInfo Axis_t923_il2cpp_TypeInfo;
 // UnityEngine.UI.GridLayoutGroup/Axis
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Axis.h"
-extern TypeInfo Constraint_t2104_il2cpp_TypeInfo;
+extern TypeInfo Constraint_t924_il2cpp_TypeInfo;
 // UnityEngine.UI.GridLayoutGroup/Constraint
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Constraint.h"
-extern TypeInfo GridLayoutGroup_t2105_il2cpp_TypeInfo;
+extern TypeInfo GridLayoutGroup_t925_il2cpp_TypeInfo;
 // UnityEngine.UI.GridLayoutGroup
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup.h"
-extern TypeInfo HorizontalLayoutGroup_t2107_il2cpp_TypeInfo;
+extern TypeInfo HorizontalLayoutGroup_t927_il2cpp_TypeInfo;
 // UnityEngine.UI.HorizontalLayoutGroup
 #include "UnityEngine_UI_UnityEngine_UI_HorizontalLayoutGroup.h"
-extern TypeInfo HorizontalOrVerticalLayoutGroup_t2108_il2cpp_TypeInfo;
+extern TypeInfo HorizontalOrVerticalLayoutGroup_t928_il2cpp_TypeInfo;
 // UnityEngine.UI.HorizontalOrVerticalLayoutGroup
 #include "UnityEngine_UI_UnityEngine_UI_HorizontalOrVerticalLayoutGrou.h"
-extern TypeInfo ILayoutElement_t2153_il2cpp_TypeInfo;
-extern TypeInfo ILayoutController_t2188_il2cpp_TypeInfo;
-extern TypeInfo ILayoutGroup_t2186_il2cpp_TypeInfo;
-extern TypeInfo ILayoutSelfController_t2189_il2cpp_TypeInfo;
-extern TypeInfo ILayoutIgnorer_t2185_il2cpp_TypeInfo;
-extern TypeInfo LayoutElement_t2109_il2cpp_TypeInfo;
+extern TypeInfo ILayoutElement_t965_il2cpp_TypeInfo;
+extern TypeInfo ILayoutController_t1005_il2cpp_TypeInfo;
+extern TypeInfo ILayoutGroup_t1003_il2cpp_TypeInfo;
+extern TypeInfo ILayoutSelfController_t1006_il2cpp_TypeInfo;
+extern TypeInfo ILayoutIgnorer_t1002_il2cpp_TypeInfo;
+extern TypeInfo LayoutElement_t929_il2cpp_TypeInfo;
 // UnityEngine.UI.LayoutElement
 #include "UnityEngine_UI_UnityEngine_UI_LayoutElement.h"
-extern TypeInfo LayoutGroup_t2106_il2cpp_TypeInfo;
+extern TypeInfo LayoutGroup_t926_il2cpp_TypeInfo;
 // UnityEngine.UI.LayoutGroup
 #include "UnityEngine_UI_UnityEngine_UI_LayoutGroup.h"
-extern TypeInfo LayoutRebuilder_t2113_il2cpp_TypeInfo;
+extern TypeInfo LayoutRebuilder_t933_il2cpp_TypeInfo;
 // UnityEngine.UI.LayoutRebuilder
 #include "UnityEngine_UI_UnityEngine_UI_LayoutRebuilder.h"
-extern TypeInfo LayoutUtility_t2115_il2cpp_TypeInfo;
+extern TypeInfo LayoutUtility_t935_il2cpp_TypeInfo;
 // UnityEngine.UI.LayoutUtility
 #include "UnityEngine_UI_UnityEngine_UI_LayoutUtility.h"
-extern TypeInfo VerticalLayoutGroup_t2116_il2cpp_TypeInfo;
+extern TypeInfo VerticalLayoutGroup_t936_il2cpp_TypeInfo;
 // UnityEngine.UI.VerticalLayoutGroup
 #include "UnityEngine_UI_UnityEngine_UI_VerticalLayoutGroup.h"
-extern TypeInfo IMaterialModifier_t2163_il2cpp_TypeInfo;
-extern TypeInfo Mask_t2117_il2cpp_TypeInfo;
+extern TypeInfo IMaterialModifier_t975_il2cpp_TypeInfo;
+extern TypeInfo Mask_t937_il2cpp_TypeInfo;
 // UnityEngine.UI.Mask
 #include "UnityEngine_UI_UnityEngine_UI_Mask.h"
-extern TypeInfo IndexedSet_1_t2204_il2cpp_TypeInfo;
-extern TypeInfo CanvasListPool_t2120_il2cpp_TypeInfo;
+extern TypeInfo IndexedSet_1_t1030_il2cpp_TypeInfo;
+extern TypeInfo CanvasListPool_t940_il2cpp_TypeInfo;
 // UnityEngine.UI.CanvasListPool
 #include "UnityEngine_UI_UnityEngine_UI_CanvasListPool.h"
-extern TypeInfo ComponentListPool_t2123_il2cpp_TypeInfo;
+extern TypeInfo ComponentListPool_t943_il2cpp_TypeInfo;
 // UnityEngine.UI.ComponentListPool
 #include "UnityEngine_UI_UnityEngine_UI_ComponentListPool.h"
-extern TypeInfo ObjectPool_1_t2205_il2cpp_TypeInfo;
-extern TypeInfo BaseVertexEffect_t2124_il2cpp_TypeInfo;
+extern TypeInfo ObjectPool_1_t1032_il2cpp_TypeInfo;
+extern TypeInfo BaseVertexEffect_t944_il2cpp_TypeInfo;
 // UnityEngine.UI.BaseVertexEffect
 #include "UnityEngine_UI_UnityEngine_UI_BaseVertexEffect.h"
-extern TypeInfo IVertexModifier_t2165_il2cpp_TypeInfo;
-extern TypeInfo Outline_t2125_il2cpp_TypeInfo;
+extern TypeInfo IVertexModifier_t977_il2cpp_TypeInfo;
+extern TypeInfo Outline_t945_il2cpp_TypeInfo;
 // UnityEngine.UI.Outline
 #include "UnityEngine_UI_UnityEngine_UI_Outline.h"
-extern TypeInfo PositionAsUV1_t2127_il2cpp_TypeInfo;
+extern TypeInfo PositionAsUV1_t947_il2cpp_TypeInfo;
 // UnityEngine.UI.PositionAsUV1
 #include "UnityEngine_UI_UnityEngine_UI_PositionAsUV1.h"
-extern TypeInfo Shadow_t2126_il2cpp_TypeInfo;
+extern TypeInfo Shadow_t946_il2cpp_TypeInfo;
 // UnityEngine.UI.Shadow
 #include "UnityEngine_UI_UnityEngine_UI_Shadow.h"
 #include <map>
 struct TypeInfo;
 struct MethodInfo;
-TypeInfo* g_UnityEngine_UI_Assembly_Types[148] = 
+TypeInfo* g_UnityEngine_UI_Assembly_Types[154] = 
 {
-	&U3CModuleU3E_t1964_il2cpp_TypeInfo,
-	&IEventSystemHandler_t2192_il2cpp_TypeInfo,
-	&IPointerEnterHandler_t2128_il2cpp_TypeInfo,
-	&IPointerExitHandler_t2129_il2cpp_TypeInfo,
-	&IPointerDownHandler_t2130_il2cpp_TypeInfo,
-	&IPointerUpHandler_t2131_il2cpp_TypeInfo,
-	&IPointerClickHandler_t2132_il2cpp_TypeInfo,
-	&IBeginDragHandler_t2134_il2cpp_TypeInfo,
-	&IInitializePotentialDragHandler_t2133_il2cpp_TypeInfo,
-	&IDragHandler_t2135_il2cpp_TypeInfo,
-	&IEndDragHandler_t2136_il2cpp_TypeInfo,
-	&IDropHandler_t2137_il2cpp_TypeInfo,
-	&IScrollHandler_t2138_il2cpp_TypeInfo,
-	&IUpdateSelectedHandler_t2139_il2cpp_TypeInfo,
-	&ISelectHandler_t2140_il2cpp_TypeInfo,
-	&IDeselectHandler_t2141_il2cpp_TypeInfo,
-	&IMoveHandler_t2142_il2cpp_TypeInfo,
-	&ISubmitHandler_t629_il2cpp_TypeInfo,
-	&ICancelHandler_t2143_il2cpp_TypeInfo,
-	&EventSystem_t612_il2cpp_TypeInfo,
-	&TriggerEvent_t1969_il2cpp_TypeInfo,
-	&Entry_t1971_il2cpp_TypeInfo,
-	&EventTrigger_t1973_il2cpp_TypeInfo,
-	&EventTriggerType_t1974_il2cpp_TypeInfo,
-	&EventFunction_1_t2194_il2cpp_TypeInfo,
-	&ExecuteEvents_t630_il2cpp_TypeInfo,
-	&MoveDirection_t1993_il2cpp_TypeInfo,
-	&RaycasterManager_t1995_il2cpp_TypeInfo,
-	&RaycastResult_t1997_il2cpp_TypeInfo,
-	&UIBehaviour_t1968_il2cpp_TypeInfo,
-	&AxisEventData_t1998_il2cpp_TypeInfo,
-	&BaseEventData_t613_il2cpp_TypeInfo,
-	&InputButton_t1999_il2cpp_TypeInfo,
-	&FramePressState_t2000_il2cpp_TypeInfo,
-	&PointerEventData_t633_il2cpp_TypeInfo,
-	&BaseInputModule_t1966_il2cpp_TypeInfo,
-	&ButtonState_t2003_il2cpp_TypeInfo,
-	&MouseState_t2005_il2cpp_TypeInfo,
-	&MouseButtonEventData_t2002_il2cpp_TypeInfo,
-	&PointerInputModule_t2007_il2cpp_TypeInfo,
-	&InputMode_t2008_il2cpp_TypeInfo,
-	&StandaloneInputModule_t2009_il2cpp_TypeInfo,
-	&TouchInputModule_t2010_il2cpp_TypeInfo,
-	&BaseRaycaster_t1996_il2cpp_TypeInfo,
-	&Physics2DRaycaster_t2011_il2cpp_TypeInfo,
-	&PhysicsRaycaster_t2012_il2cpp_TypeInfo,
-	&ITweenValue_t2195_il2cpp_TypeInfo,
-	&ColorTweenMode_t2014_il2cpp_TypeInfo,
-	&ColorTweenCallback_t2015_il2cpp_TypeInfo,
-	&ColorTween_t2017_il2cpp_TypeInfo,
-	&U3CStartU3Ec__Iterator0_t2197_il2cpp_TypeInfo,
-	&TweenRunner_1_t2196_il2cpp_TypeInfo,
-	&AnimationTriggers_t2018_il2cpp_TypeInfo,
-	&ButtonClickedEvent_t624_il2cpp_TypeInfo,
-	&U3COnFinishSubmitU3Ec__Iterator1_t2019_il2cpp_TypeInfo,
+	&U3CModuleU3E_t781_il2cpp_TypeInfo,
+	&EventHandle_t782_il2cpp_TypeInfo,
+	&IEventSystemHandler_t766_il2cpp_TypeInfo,
+	&IPointerEnterHandler_t774_il2cpp_TypeInfo,
+	&IPointerExitHandler_t775_il2cpp_TypeInfo,
+	&IPointerDownHandler_t772_il2cpp_TypeInfo,
+	&IPointerUpHandler_t948_il2cpp_TypeInfo,
+	&IPointerClickHandler_t765_il2cpp_TypeInfo,
+	&IBeginDragHandler_t769_il2cpp_TypeInfo,
+	&IInitializePotentialDragHandler_t949_il2cpp_TypeInfo,
+	&IDragHandler_t770_il2cpp_TypeInfo,
+	&IEndDragHandler_t771_il2cpp_TypeInfo,
+	&IDropHandler_t773_il2cpp_TypeInfo,
+	&IScrollHandler_t950_il2cpp_TypeInfo,
+	&IUpdateSelectedHandler_t951_il2cpp_TypeInfo,
+	&ISelectHandler_t952_il2cpp_TypeInfo,
+	&IDeselectHandler_t953_il2cpp_TypeInfo,
+	&IMoveHandler_t954_il2cpp_TypeInfo,
+	&ISubmitHandler_t649_il2cpp_TypeInfo,
+	&ICancelHandler_t955_il2cpp_TypeInfo,
+	&EventSystem_t633_il2cpp_TypeInfo,
+	&TriggerEvent_t786_il2cpp_TypeInfo,
+	&Entry_t788_il2cpp_TypeInfo,
+	&EventTrigger_t790_il2cpp_TypeInfo,
+	&EventTriggerType_t791_il2cpp_TypeInfo,
+	&EventFunction_1_t1020_il2cpp_TypeInfo,
+	&ExecuteEvents_t650_il2cpp_TypeInfo,
+	&MoveDirection_t810_il2cpp_TypeInfo,
+	&RaycasterManager_t812_il2cpp_TypeInfo,
+	&RaycastResult_t814_il2cpp_TypeInfo,
+	&UIBehaviour_t785_il2cpp_TypeInfo,
+	&AxisEventData_t815_il2cpp_TypeInfo,
+	&BaseEventData_t634_il2cpp_TypeInfo,
+	&InputButton_t816_il2cpp_TypeInfo,
+	&FramePressState_t817_il2cpp_TypeInfo,
+	&PointerEventData_t581_il2cpp_TypeInfo,
+	&BaseInputModule_t730_il2cpp_TypeInfo,
+	&ButtonState_t820_il2cpp_TypeInfo,
+	&MouseState_t822_il2cpp_TypeInfo,
+	&MouseButtonEventData_t819_il2cpp_TypeInfo,
+	&PointerInputModule_t824_il2cpp_TypeInfo,
+	&InputMode_t825_il2cpp_TypeInfo,
+	&StandaloneInputModule_t729_il2cpp_TypeInfo,
+	&TouchInputModule_t826_il2cpp_TypeInfo,
+	&BaseRaycaster_t813_il2cpp_TypeInfo,
+	&Physics2DRaycaster_t827_il2cpp_TypeInfo,
+	&PhysicsRaycaster_t828_il2cpp_TypeInfo,
+	&ITweenValue_t1021_il2cpp_TypeInfo,
+	&ColorTweenMode_t830_il2cpp_TypeInfo,
+	&ColorTweenCallback_t831_il2cpp_TypeInfo,
+	&ColorTween_t833_il2cpp_TypeInfo,
+	&U3CStartU3Ec__Iterator0_t1023_il2cpp_TypeInfo,
+	&TweenRunner_1_t1022_il2cpp_TypeInfo,
+	&AnimationTriggers_t834_il2cpp_TypeInfo,
+	&ButtonClickedEvent_t645_il2cpp_TypeInfo,
+	&U3COnFinishSubmitU3Ec__Iterator1_t835_il2cpp_TypeInfo,
 	&Button_t220_il2cpp_TypeInfo,
-	&CanvasUpdate_t2021_il2cpp_TypeInfo,
-	&ICanvasElement_t2147_il2cpp_TypeInfo,
-	&CanvasUpdateRegistry_t2022_il2cpp_TypeInfo,
-	&ColorBlock_t2026_il2cpp_TypeInfo,
-	&FontData_t2027_il2cpp_TypeInfo,
-	&FontUpdateTracker_t2029_il2cpp_TypeInfo,
+	&CanvasUpdate_t836_il2cpp_TypeInfo,
+	&ICanvasElement_t959_il2cpp_TypeInfo,
+	&CanvasUpdateRegistry_t837_il2cpp_TypeInfo,
+	&ColorBlock_t841_il2cpp_TypeInfo,
+	&FontData_t842_il2cpp_TypeInfo,
+	&FontUpdateTracker_t844_il2cpp_TypeInfo,
 	&Graphic_t219_il2cpp_TypeInfo,
-	&BlockingObjects_t2034_il2cpp_TypeInfo,
-	&GraphicRaycaster_t2037_il2cpp_TypeInfo,
-	&GraphicRegistry_t2038_il2cpp_TypeInfo,
-	&IGraphicEnabledDisabled_t2164_il2cpp_TypeInfo,
-	&Type_t2040_il2cpp_TypeInfo,
-	&FillMethod_t2041_il2cpp_TypeInfo,
+	&BlockingObjects_t849_il2cpp_TypeInfo,
+	&GraphicRaycaster_t852_il2cpp_TypeInfo,
+	&GraphicRegistry_t853_il2cpp_TypeInfo,
+	&IGraphicEnabledDisabled_t976_il2cpp_TypeInfo,
+	&Type_t855_il2cpp_TypeInfo,
+	&FillMethod_t856_il2cpp_TypeInfo,
+	&OriginHorizontal_t857_il2cpp_TypeInfo,
+	&OriginVertical_t858_il2cpp_TypeInfo,
+	&Origin90_t859_il2cpp_TypeInfo,
+	&Origin180_t860_il2cpp_TypeInfo,
+	&Origin360_t861_il2cpp_TypeInfo,
 	&Image_t237_il2cpp_TypeInfo,
-	&IMask_t2180_il2cpp_TypeInfo,
-	&IMaskable_t2190_il2cpp_TypeInfo,
-	&ContentType_t2043_il2cpp_TypeInfo,
-	&InputType_t2044_il2cpp_TypeInfo,
-	&CharacterValidation_t2045_il2cpp_TypeInfo,
-	&LineType_t2046_il2cpp_TypeInfo,
-	&SubmitEvent_t2047_il2cpp_TypeInfo,
-	&OnChangeEvent_t2049_il2cpp_TypeInfo,
-	&EditState_t2050_il2cpp_TypeInfo,
-	&OnValidateInput_t2051_il2cpp_TypeInfo,
-	&U3CCaretBlinkU3Ec__Iterator2_t2052_il2cpp_TypeInfo,
-	&U3CMouseDragOutsideRectU3Ec__Iterator3_t2053_il2cpp_TypeInfo,
+	&IMask_t992_il2cpp_TypeInfo,
+	&IMaskable_t1008_il2cpp_TypeInfo,
+	&ContentType_t863_il2cpp_TypeInfo,
+	&InputType_t864_il2cpp_TypeInfo,
+	&CharacterValidation_t865_il2cpp_TypeInfo,
+	&LineType_t866_il2cpp_TypeInfo,
+	&SubmitEvent_t867_il2cpp_TypeInfo,
+	&OnChangeEvent_t869_il2cpp_TypeInfo,
+	&EditState_t870_il2cpp_TypeInfo,
+	&OnValidateInput_t871_il2cpp_TypeInfo,
+	&U3CCaretBlinkU3Ec__Iterator2_t872_il2cpp_TypeInfo,
+	&U3CMouseDragOutsideRectU3Ec__Iterator3_t873_il2cpp_TypeInfo,
 	&InputField_t247_il2cpp_TypeInfo,
-	&MaskableGraphic_t2042_il2cpp_TypeInfo,
-	&Misc_t2060_il2cpp_TypeInfo,
-	&Mode_t2061_il2cpp_TypeInfo,
-	&Navigation_t2062_il2cpp_TypeInfo,
-	&RawImage_t2063_il2cpp_TypeInfo,
-	&Direction_t2064_il2cpp_TypeInfo,
-	&ScrollEvent_t2065_il2cpp_TypeInfo,
-	&Axis_t2067_il2cpp_TypeInfo,
-	&U3CClickRepeatU3Ec__Iterator4_t2068_il2cpp_TypeInfo,
+	&MaskableGraphic_t862_il2cpp_TypeInfo,
+	&Misc_t880_il2cpp_TypeInfo,
+	&Mode_t881_il2cpp_TypeInfo,
+	&Navigation_t882_il2cpp_TypeInfo,
+	&RawImage_t883_il2cpp_TypeInfo,
+	&Direction_t884_il2cpp_TypeInfo,
+	&ScrollEvent_t885_il2cpp_TypeInfo,
+	&Axis_t887_il2cpp_TypeInfo,
+	&U3CClickRepeatU3Ec__Iterator4_t888_il2cpp_TypeInfo,
 	&Scrollbar_t240_il2cpp_TypeInfo,
-	&MovementType_t2070_il2cpp_TypeInfo,
-	&ScrollRectEvent_t2071_il2cpp_TypeInfo,
-	&ScrollRect_t2073_il2cpp_TypeInfo,
-	&Transition_t2074_il2cpp_TypeInfo,
-	&SelectionState_t2075_il2cpp_TypeInfo,
-	&Selectable_t2020_il2cpp_TypeInfo,
-	&SetPropertyUtility_t2079_il2cpp_TypeInfo,
-	&Direction_t2080_il2cpp_TypeInfo,
-	&SliderEvent_t2081_il2cpp_TypeInfo,
-	&Axis_t2082_il2cpp_TypeInfo,
+	&MovementType_t890_il2cpp_TypeInfo,
+	&ScrollRectEvent_t891_il2cpp_TypeInfo,
+	&ScrollRect_t893_il2cpp_TypeInfo,
+	&Transition_t894_il2cpp_TypeInfo,
+	&SelectionState_t895_il2cpp_TypeInfo,
+	&Selectable_t727_il2cpp_TypeInfo,
+	&SetPropertyUtility_t899_il2cpp_TypeInfo,
+	&Direction_t900_il2cpp_TypeInfo,
+	&SliderEvent_t901_il2cpp_TypeInfo,
+	&Axis_t902_il2cpp_TypeInfo,
 	&Slider_t238_il2cpp_TypeInfo,
-	&SpriteState_t2078_il2cpp_TypeInfo,
-	&MatEntry_t2083_il2cpp_TypeInfo,
-	&StencilMaterial_t2085_il2cpp_TypeInfo,
+	&SpriteState_t898_il2cpp_TypeInfo,
+	&MatEntry_t903_il2cpp_TypeInfo,
+	&StencilMaterial_t905_il2cpp_TypeInfo,
 	&Text_t212_il2cpp_TypeInfo,
-	&ToggleTransition_t2086_il2cpp_TypeInfo,
-	&ToggleEvent_t2087_il2cpp_TypeInfo,
-	&Toggle_t2090_il2cpp_TypeInfo,
-	&ToggleGroup_t2089_il2cpp_TypeInfo,
-	&AspectMode_t2094_il2cpp_TypeInfo,
-	&AspectRatioFitter_t2095_il2cpp_TypeInfo,
-	&ScaleMode_t2096_il2cpp_TypeInfo,
-	&ScreenMatchMode_t2097_il2cpp_TypeInfo,
-	&Unit_t2098_il2cpp_TypeInfo,
-	&CanvasScaler_t2099_il2cpp_TypeInfo,
-	&FitMode_t2100_il2cpp_TypeInfo,
-	&ContentSizeFitter_t2101_il2cpp_TypeInfo,
-	&Corner_t2102_il2cpp_TypeInfo,
-	&Axis_t2103_il2cpp_TypeInfo,
-	&Constraint_t2104_il2cpp_TypeInfo,
-	&GridLayoutGroup_t2105_il2cpp_TypeInfo,
-	&HorizontalLayoutGroup_t2107_il2cpp_TypeInfo,
-	&HorizontalOrVerticalLayoutGroup_t2108_il2cpp_TypeInfo,
-	&ILayoutElement_t2153_il2cpp_TypeInfo,
-	&ILayoutController_t2188_il2cpp_TypeInfo,
-	&ILayoutGroup_t2186_il2cpp_TypeInfo,
-	&ILayoutSelfController_t2189_il2cpp_TypeInfo,
-	&ILayoutIgnorer_t2185_il2cpp_TypeInfo,
-	&LayoutElement_t2109_il2cpp_TypeInfo,
-	&LayoutGroup_t2106_il2cpp_TypeInfo,
-	&LayoutRebuilder_t2113_il2cpp_TypeInfo,
-	&LayoutUtility_t2115_il2cpp_TypeInfo,
-	&VerticalLayoutGroup_t2116_il2cpp_TypeInfo,
-	&IMaterialModifier_t2163_il2cpp_TypeInfo,
-	&Mask_t2117_il2cpp_TypeInfo,
-	&IndexedSet_1_t2204_il2cpp_TypeInfo,
-	&CanvasListPool_t2120_il2cpp_TypeInfo,
-	&ComponentListPool_t2123_il2cpp_TypeInfo,
-	&ObjectPool_1_t2205_il2cpp_TypeInfo,
-	&BaseVertexEffect_t2124_il2cpp_TypeInfo,
-	&IVertexModifier_t2165_il2cpp_TypeInfo,
-	&Outline_t2125_il2cpp_TypeInfo,
-	&PositionAsUV1_t2127_il2cpp_TypeInfo,
-	&Shadow_t2126_il2cpp_TypeInfo,
+	&ToggleTransition_t906_il2cpp_TypeInfo,
+	&ToggleEvent_t907_il2cpp_TypeInfo,
+	&Toggle_t910_il2cpp_TypeInfo,
+	&ToggleGroup_t909_il2cpp_TypeInfo,
+	&AspectMode_t914_il2cpp_TypeInfo,
+	&AspectRatioFitter_t915_il2cpp_TypeInfo,
+	&ScaleMode_t916_il2cpp_TypeInfo,
+	&ScreenMatchMode_t917_il2cpp_TypeInfo,
+	&Unit_t918_il2cpp_TypeInfo,
+	&CanvasScaler_t919_il2cpp_TypeInfo,
+	&FitMode_t920_il2cpp_TypeInfo,
+	&ContentSizeFitter_t921_il2cpp_TypeInfo,
+	&Corner_t922_il2cpp_TypeInfo,
+	&Axis_t923_il2cpp_TypeInfo,
+	&Constraint_t924_il2cpp_TypeInfo,
+	&GridLayoutGroup_t925_il2cpp_TypeInfo,
+	&HorizontalLayoutGroup_t927_il2cpp_TypeInfo,
+	&HorizontalOrVerticalLayoutGroup_t928_il2cpp_TypeInfo,
+	&ILayoutElement_t965_il2cpp_TypeInfo,
+	&ILayoutController_t1005_il2cpp_TypeInfo,
+	&ILayoutGroup_t1003_il2cpp_TypeInfo,
+	&ILayoutSelfController_t1006_il2cpp_TypeInfo,
+	&ILayoutIgnorer_t1002_il2cpp_TypeInfo,
+	&LayoutElement_t929_il2cpp_TypeInfo,
+	&LayoutGroup_t926_il2cpp_TypeInfo,
+	&LayoutRebuilder_t933_il2cpp_TypeInfo,
+	&LayoutUtility_t935_il2cpp_TypeInfo,
+	&VerticalLayoutGroup_t936_il2cpp_TypeInfo,
+	&IMaterialModifier_t975_il2cpp_TypeInfo,
+	&Mask_t937_il2cpp_TypeInfo,
+	&IndexedSet_1_t1030_il2cpp_TypeInfo,
+	&CanvasListPool_t940_il2cpp_TypeInfo,
+	&ComponentListPool_t943_il2cpp_TypeInfo,
+	&ObjectPool_1_t1032_il2cpp_TypeInfo,
+	&BaseVertexEffect_t944_il2cpp_TypeInfo,
+	&IVertexModifier_t977_il2cpp_TypeInfo,
+	&Outline_t945_il2cpp_TypeInfo,
+	&PositionAsUV1_t947_il2cpp_TypeInfo,
+	&Shadow_t946_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_UnityEngine_UI_dll_Image;
@@ -546,9 +570,12 @@ Il2CppAssembly g_UnityEngine_UI_Assembly =
 	&g_UnityEngine_UI_dll_Image,
 	1,
 };
-extern const CustomAttributesCacheGenerator g_UnityEngine_UI_Assembly_AttributeGenerators[334];
-static const char* s_StringTable[494] = 
+extern const CustomAttributesCacheGenerator g_UnityEngine_UI_Assembly_AttributeGenerators[350];
+static const char* s_StringTable[504] = 
 {
+	"value__",
+	"Unused",
+	"Used",
 	"m_SystemInputModules",
 	"m_CurrentInputModule",
 	"m_FirstSelected",
@@ -563,7 +590,6 @@ static const char* s_StringTable[494] =
 	"callback",
 	"m_Delegates",
 	"delegates",
-	"value__",
 	"PointerEnter",
 	"PointerExit",
 	"PointerDown",
@@ -638,6 +664,8 @@ static const char* s_StringTable[494] =
 	"<position>k__BackingField",
 	"<delta>k__BackingField",
 	"<pressPosition>k__BackingField",
+	"<worldPosition>k__BackingField",
+	"<worldNormal>k__BackingField",
 	"<clickTime>k__BackingField",
 	"<clickCount>k__BackingField",
 	"<scrollDelta>k__BackingField",
@@ -772,6 +800,12 @@ static const char* s_StringTable[494] =
 	"Radial90",
 	"Radial180",
 	"Radial360",
+	"Bottom",
+	"Top",
+	"BottomLeft",
+	"TopLeft",
+	"TopRight",
+	"BottomRight",
 	"m_Sprite",
 	"m_OverrideSprite",
 	"m_Type",
@@ -1049,769 +1083,821 @@ static const char* s_StringTable[494] =
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-static const Il2CppFieldDefinition s_FieldTable[603] = 
+static const Il2CppFieldDefinition s_FieldTable[629] = 
 {
-	{ 0, 4128, offsetof(EventSystem_t612, ___m_SystemInputModules_2), 0 } ,
-	{ 1, 4129, offsetof(EventSystem_t612, ___m_CurrentInputModule_3), 0 } ,
-	{ 2, 493, offsetof(EventSystem_t612, ___m_FirstSelected_4), 3 } ,
-	{ 3, 30, offsetof(EventSystem_t612, ___m_sendNavigationEvents_5), 4 } ,
-	{ 4, 44, offsetof(EventSystem_t612, ___m_DragThreshold_6), 5 } ,
-	{ 5, 493, offsetof(EventSystem_t612, ___m_CurrentSelected_7), 0 } ,
-	{ 6, 30, offsetof(EventSystem_t612, ___m_SelectionGuard_8), 0 } ,
-	{ 7, 4130, offsetof(EventSystem_t612, ___m_DummyData_9), 0 } ,
-	{ 8, 4131, offsetof(EventSystem_t612_StaticFields, ___s_RaycastComparer_10), 0 } ,
-	{ 9, 4132, offsetof(EventSystem_t612_StaticFields, ___U3CcurrentU3Ek__BackingField_11), 6 } ,
-	{ 10, 4139, offsetof(Entry_t1971, ___eventID_0), 0 } ,
-	{ 11, 4140, offsetof(Entry_t1971, ___callback_1), 0 } ,
-	{ 12, 4143, offsetof(EventTrigger_t1973, ___m_Delegates_2), 11 } ,
-	{ 13, 4144, offsetof(EventTrigger_t1973, ___delegates_3), 12 } ,
-	{ 14, 50, offsetof(EventTriggerType_t1974, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 15, 4146, 0, 0 } ,
-	{ 16, 4146, 0, 0 } ,
-	{ 17, 4146, 0, 0 } ,
-	{ 18, 4146, 0, 0 } ,
-	{ 19, 4146, 0, 0 } ,
-	{ 20, 4146, 0, 0 } ,
-	{ 21, 4146, 0, 0 } ,
-	{ 22, 4146, 0, 0 } ,
-	{ 23, 4146, 0, 0 } ,
-	{ 24, 4146, 0, 0 } ,
-	{ 25, 4146, 0, 0 } ,
-	{ 26, 4146, 0, 0 } ,
-	{ 27, 4146, 0, 0 } ,
-	{ 28, 4146, 0, 0 } ,
-	{ 29, 4146, 0, 0 } ,
-	{ 30, 4146, 0, 0 } ,
-	{ 31, 4146, 0, 0 } ,
-	{ 32, 4162, offsetof(ExecuteEvents_t630_StaticFields, ___s_PointerEnterHandler_0), 0 } ,
-	{ 33, 4163, offsetof(ExecuteEvents_t630_StaticFields, ___s_PointerExitHandler_1), 0 } ,
-	{ 34, 4164, offsetof(ExecuteEvents_t630_StaticFields, ___s_PointerDownHandler_2), 0 } ,
-	{ 35, 4165, offsetof(ExecuteEvents_t630_StaticFields, ___s_PointerUpHandler_3), 0 } ,
-	{ 36, 4166, offsetof(ExecuteEvents_t630_StaticFields, ___s_PointerClickHandler_4), 0 } ,
-	{ 37, 4167, offsetof(ExecuteEvents_t630_StaticFields, ___s_InitializePotentialDragHandler_5), 0 } ,
-	{ 38, 4168, offsetof(ExecuteEvents_t630_StaticFields, ___s_BeginDragHandler_6), 0 } ,
-	{ 39, 4169, offsetof(ExecuteEvents_t630_StaticFields, ___s_DragHandler_7), 0 } ,
-	{ 40, 4170, offsetof(ExecuteEvents_t630_StaticFields, ___s_EndDragHandler_8), 0 } ,
-	{ 41, 4171, offsetof(ExecuteEvents_t630_StaticFields, ___s_DropHandler_9), 0 } ,
-	{ 42, 4172, offsetof(ExecuteEvents_t630_StaticFields, ___s_ScrollHandler_10), 0 } ,
-	{ 43, 4173, offsetof(ExecuteEvents_t630_StaticFields, ___s_UpdateSelectedHandler_11), 0 } ,
-	{ 44, 4174, offsetof(ExecuteEvents_t630_StaticFields, ___s_SelectHandler_12), 0 } ,
-	{ 45, 4175, offsetof(ExecuteEvents_t630_StaticFields, ___s_DeselectHandler_13), 0 } ,
-	{ 46, 4176, offsetof(ExecuteEvents_t630_StaticFields, ___s_MoveHandler_14), 0 } ,
-	{ 47, 4177, offsetof(ExecuteEvents_t630_StaticFields, ___s_SubmitHandler_15), 0 } ,
-	{ 48, 4178, offsetof(ExecuteEvents_t630_StaticFields, ___s_CancelHandler_16), 0 } ,
-	{ 49, 4179, offsetof(ExecuteEvents_t630_StaticFields, ___s_HandlerListPool_17), 0 } ,
-	{ 50, 4180, offsetof(ExecuteEvents_t630_StaticFields, ___s_InternalTransformList_18), 0 } ,
-	{ 51, 4181, offsetof(ExecuteEvents_t630_StaticFields, ___U3CU3Ef__amU24cache13_19), 13 } ,
-	{ 14, 50, offsetof(MoveDirection_t1993, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 52, 4183, 0, 0 } ,
-	{ 53, 4183, 0, 0 } ,
-	{ 54, 4183, 0, 0 } ,
-	{ 55, 4183, 0, 0 } ,
-	{ 56, 4183, 0, 0 } ,
-	{ 57, 4186, offsetof(RaycasterManager_t1995_StaticFields, ___s_Raycasters_0), 0 } ,
-	{ 58, 493, offsetof(RaycastResult_t1997, ___m_GameObject_0) + sizeof(Object_t), 0 } ,
-	{ 59, 4188, offsetof(RaycastResult_t1997, ___module_1) + sizeof(Object_t), 0 } ,
-	{ 60, 467, offsetof(RaycastResult_t1997, ___distance_2) + sizeof(Object_t), 0 } ,
-	{ 61, 467, offsetof(RaycastResult_t1997, ___index_3) + sizeof(Object_t), 0 } ,
-	{ 62, 536, offsetof(RaycastResult_t1997, ___depth_4) + sizeof(Object_t), 0 } ,
-	{ 63, 536, offsetof(RaycastResult_t1997, ___sortingLayer_5) + sizeof(Object_t), 0 } ,
-	{ 64, 536, offsetof(RaycastResult_t1997, ___sortingOrder_6) + sizeof(Object_t), 0 } ,
-	{ 65, 501, offsetof(RaycastResult_t1997, ___worldPosition_7) + sizeof(Object_t), 0 } ,
-	{ 66, 501, offsetof(RaycastResult_t1997, ___worldNormal_8) + sizeof(Object_t), 0 } ,
-	{ 67, 1058, offsetof(AxisEventData_t1998, ___U3CmoveVectorU3Ek__BackingField_2), 15 } ,
-	{ 68, 4191, offsetof(AxisEventData_t1998, ___U3CmoveDirU3Ek__BackingField_3), 16 } ,
-	{ 69, 4193, offsetof(BaseEventData_t613, ___m_EventSystem_0), 0 } ,
-	{ 70, 30, offsetof(BaseEventData_t613, ___m_Used_1), 0 } ,
-	{ 14, 50, offsetof(InputButton_t1999, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 52, 4195, 0, 0 } ,
-	{ 54, 4195, 0, 0 } ,
-	{ 71, 4195, 0, 0 } ,
-	{ 14, 50, offsetof(FramePressState_t2000, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 72, 4198, 0, 0 } ,
-	{ 73, 4198, 0, 0 } ,
-	{ 74, 4198, 0, 0 } ,
-	{ 75, 4198, 0, 0 } ,
-	{ 76, 493, offsetof(PointerEventData_t633, ___m_PointerPress_2), 0 } ,
-	{ 77, 895, offsetof(PointerEventData_t633, ___hovered_3), 0 } ,
-	{ 78, 493, offsetof(PointerEventData_t633, ___U3CpointerEnterU3Ek__BackingField_4), 20 } ,
-	{ 79, 493, offsetof(PointerEventData_t633, ___U3ClastPressU3Ek__BackingField_5), 21 } ,
-	{ 80, 493, offsetof(PointerEventData_t633, ___U3CrawPointerPressU3Ek__BackingField_6), 22 } ,
-	{ 81, 493, offsetof(PointerEventData_t633, ___U3CpointerDragU3Ek__BackingField_7), 23 } ,
-	{ 82, 4201, offsetof(PointerEventData_t633, ___U3CpointerCurrentRaycastU3Ek__BackingField_8), 24 } ,
-	{ 83, 4201, offsetof(PointerEventData_t633, ___U3CpointerPressRaycastU3Ek__BackingField_9), 25 } ,
-	{ 84, 30, offsetof(PointerEventData_t633, ___U3CeligibleForClickU3Ek__BackingField_10), 26 } ,
-	{ 85, 44, offsetof(PointerEventData_t633, ___U3CpointerIdU3Ek__BackingField_11), 27 } ,
-	{ 86, 1058, offsetof(PointerEventData_t633, ___U3CpositionU3Ek__BackingField_12), 28 } ,
-	{ 87, 1058, offsetof(PointerEventData_t633, ___U3CdeltaU3Ek__BackingField_13), 29 } ,
-	{ 88, 1058, offsetof(PointerEventData_t633, ___U3CpressPositionU3Ek__BackingField_14), 30 } ,
-	{ 89, 478, offsetof(PointerEventData_t633, ___U3CclickTimeU3Ek__BackingField_15), 31 } ,
-	{ 90, 44, offsetof(PointerEventData_t633, ___U3CclickCountU3Ek__BackingField_16), 32 } ,
-	{ 91, 1058, offsetof(PointerEventData_t633, ___U3CscrollDeltaU3Ek__BackingField_17), 33 } ,
-	{ 92, 30, offsetof(PointerEventData_t633, ___U3CuseDragThresholdU3Ek__BackingField_18), 34 } ,
-	{ 93, 30, offsetof(PointerEventData_t633, ___U3CdraggingU3Ek__BackingField_19), 35 } ,
-	{ 94, 4202, offsetof(PointerEventData_t633, ___U3CbuttonU3Ek__BackingField_20), 36 } ,
-	{ 95, 4204, offsetof(BaseInputModule_t1966, ___m_RaycastResultCache_2), 0 } ,
-	{ 96, 4205, offsetof(BaseInputModule_t1966, ___m_AxisEventData_3), 0 } ,
-	{ 69, 4206, offsetof(BaseInputModule_t1966, ___m_EventSystem_4), 0 } ,
-	{ 97, 4130, offsetof(BaseInputModule_t1966, ___m_BaseEventData_5), 0 } ,
-	{ 98, 4202, offsetof(ButtonState_t2003, ___m_Button_0), 0 } ,
-	{ 99, 4208, offsetof(ButtonState_t2003, ___m_EventData_1), 0 } ,
-	{ 100, 4211, offsetof(MouseState_t2005, ___m_TrackedButtons_0), 0 } ,
-	{ 101, 4213, offsetof(MouseButtonEventData_t2002, ___buttonState_0), 0 } ,
-	{ 102, 4214, offsetof(MouseButtonEventData_t2002, ___buttonData_1), 0 } ,
-	{ 103, 79, 0, 0 } ,
-	{ 104, 79, 0, 0 } ,
-	{ 105, 79, 0, 0 } ,
-	{ 106, 79, 0, 0 } ,
-	{ 107, 4218, offsetof(PointerInputModule_t2007, ___m_PointerData_10), 0 } ,
-	{ 108, 4219, offsetof(PointerInputModule_t2007, ___m_MouseState_11), 0 } ,
-	{ 14, 50, offsetof(InputMode_t2008, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 109, 4221, 0, 0 } ,
-	{ 110, 4221, 0, 0 } ,
-	{ 111, 478, offsetof(StandaloneInputModule_t2009, ___m_PrevActionTime_12), 0 } ,
-	{ 112, 1058, offsetof(StandaloneInputModule_t2009, ___m_LastMoveVector_13), 0 } ,
-	{ 113, 44, offsetof(StandaloneInputModule_t2009, ___m_ConsecutiveMoveCount_14), 0 } ,
-	{ 114, 1058, offsetof(StandaloneInputModule_t2009, ___m_LastMousePosition_15), 0 } ,
-	{ 115, 1058, offsetof(StandaloneInputModule_t2009, ___m_MousePosition_16), 0 } ,
-	{ 116, 40, offsetof(StandaloneInputModule_t2009, ___m_HorizontalAxis_17), 72 } ,
-	{ 117, 40, offsetof(StandaloneInputModule_t2009, ___m_VerticalAxis_18), 73 } ,
-	{ 118, 40, offsetof(StandaloneInputModule_t2009, ___m_SubmitButton_19), 74 } ,
-	{ 119, 40, offsetof(StandaloneInputModule_t2009, ___m_CancelButton_20), 75 } ,
-	{ 120, 478, offsetof(StandaloneInputModule_t2009, ___m_InputActionsPerSecond_21), 76 } ,
-	{ 121, 478, offsetof(StandaloneInputModule_t2009, ___m_RepeatDelay_22), 77 } ,
-	{ 122, 30, offsetof(StandaloneInputModule_t2009, ___m_AllowActivationOnMobileDevice_23), 78 } ,
-	{ 114, 1058, offsetof(TouchInputModule_t2010, ___m_LastMousePosition_12), 0 } ,
-	{ 115, 1058, offsetof(TouchInputModule_t2010, ___m_MousePosition_13), 0 } ,
-	{ 123, 30, offsetof(TouchInputModule_t2010, ___m_AllowActivationOnStandalone_14), 82 } ,
-	{ 124, 4231, 0, 0 } ,
-	{ 125, 4232, offsetof(PhysicsRaycaster_t2012, ___m_EventCamera_3), 0 } ,
-	{ 126, 4233, offsetof(PhysicsRaycaster_t2012, ___m_EventMask_4), 86 } ,
-	{ 127, 4234, offsetof(PhysicsRaycaster_t2012_StaticFields, ___U3CU3Ef__amU24cache2_5), 87 } ,
-	{ 14, 50, offsetof(ColorTweenMode_t2014, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 128, 4238, 0, 0 } ,
-	{ 129, 4238, 0, 0 } ,
-	{ 130, 4238, 0, 0 } ,
-	{ 131, 4243, offsetof(ColorTween_t2017, ___m_Target_0) + sizeof(Object_t), 0 } ,
-	{ 132, 902, offsetof(ColorTween_t2017, ___m_StartColor_1) + sizeof(Object_t), 0 } ,
-	{ 133, 902, offsetof(ColorTween_t2017, ___m_TargetColor_2) + sizeof(Object_t), 0 } ,
-	{ 134, 4244, offsetof(ColorTween_t2017, ___m_TweenMode_3) + sizeof(Object_t), 0 } ,
-	{ 135, 478, offsetof(ColorTween_t2017, ___m_Duration_4) + sizeof(Object_t), 0 } ,
-	{ 136, 30, offsetof(ColorTween_t2017, ___m_IgnoreTimeScale_5) + sizeof(Object_t), 0 } ,
-	{ 137, 4247, 0, 0 } ,
-	{ 138, 738, 0, 0 } ,
-	{ 139, 738, 0, 0 } ,
-	{ 140, 517, 0, 0 } ,
-	{ 141, 518, 0, 0 } ,
-	{ 142, 4247, 0, 0 } ,
-	{ 143, 4252, 0, 0 } ,
-	{ 144, 4253, 0, 0 } ,
-	{ 145, 39, 0, 0 } ,
-	{ 146, 39, 0, 0 } ,
-	{ 147, 39, 0, 0 } ,
-	{ 148, 39, 0, 0 } ,
-	{ 149, 40, offsetof(AnimationTriggers_t2018, ___m_NormalTrigger_4), 94 } ,
-	{ 150, 40, offsetof(AnimationTriggers_t2018, ___m_HighlightedTrigger_5), 95 } ,
-	{ 151, 40, offsetof(AnimationTriggers_t2018, ___m_PressedTrigger_6), 96 } ,
-	{ 152, 40, offsetof(AnimationTriggers_t2018, ___m_DisabledTrigger_7), 97 } ,
-	{ 153, 738, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t2019, ___U3CfadeTimeU3E__0_0), 0 } ,
-	{ 154, 738, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t2019, ___U3CelapsedTimeU3E__1_1), 0 } ,
-	{ 140, 517, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t2019, ___U24PC_2), 0 } ,
-	{ 141, 518, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t2019, ___U24current_3), 0 } ,
-	{ 155, 4258, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t2019, ___U3CU3Ef__this_4), 0 } ,
-	{ 156, 4260, offsetof(Button_t220, ___m_OnClick_16), 99 } ,
-	{ 14, 50, offsetof(CanvasUpdate_t2021, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 157, 4262, 0, 0 } ,
-	{ 158, 4262, 0, 0 } ,
-	{ 159, 4262, 0, 0 } ,
-	{ 160, 4262, 0, 0 } ,
-	{ 161, 4262, 0, 0 } ,
-	{ 162, 4262, 0, 0 } ,
-	{ 163, 4266, offsetof(CanvasUpdateRegistry_t2022_StaticFields, ___s_Instance_0), 0 } ,
-	{ 164, 30, offsetof(CanvasUpdateRegistry_t2022, ___m_PerformingLayoutUpdate_1), 0 } ,
-	{ 165, 30, offsetof(CanvasUpdateRegistry_t2022, ___m_PerformingGraphicUpdate_2), 0 } ,
-	{ 166, 4267, offsetof(CanvasUpdateRegistry_t2022, ___m_LayoutRebuildQueue_3), 0 } ,
-	{ 167, 4267, offsetof(CanvasUpdateRegistry_t2022, ___m_GraphicRebuildQueue_4), 0 } ,
-	{ 168, 4268, offsetof(CanvasUpdateRegistry_t2022_StaticFields, ___s_SortLayoutFunction_5), 0 } ,
-	{ 169, 4269, offsetof(CanvasUpdateRegistry_t2022_StaticFields, ___U3CU3Ef__amU24cache6_6), 105 } ,
-	{ 170, 4269, offsetof(CanvasUpdateRegistry_t2022_StaticFields, ___U3CU3Ef__amU24cache7_7), 106 } ,
-	{ 171, 902, offsetof(ColorBlock_t2026, ___m_NormalColor_0) + sizeof(Object_t), 109 } ,
-	{ 172, 902, offsetof(ColorBlock_t2026, ___m_HighlightedColor_1) + sizeof(Object_t), 110 } ,
-	{ 173, 902, offsetof(ColorBlock_t2026, ___m_PressedColor_2) + sizeof(Object_t), 111 } ,
-	{ 174, 902, offsetof(ColorBlock_t2026, ___m_DisabledColor_3) + sizeof(Object_t), 112 } ,
-	{ 175, 478, offsetof(ColorBlock_t2026, ___m_ColorMultiplier_4) + sizeof(Object_t), 113 } ,
-	{ 176, 478, offsetof(ColorBlock_t2026, ___m_FadeDuration_5) + sizeof(Object_t), 114 } ,
-	{ 177, 4274, offsetof(FontData_t2027, ___m_Font_0), 115 } ,
-	{ 178, 44, offsetof(FontData_t2027, ___m_FontSize_1), 116 } ,
-	{ 179, 4275, offsetof(FontData_t2027, ___m_FontStyle_2), 117 } ,
-	{ 180, 30, offsetof(FontData_t2027, ___m_BestFit_3), 118 } ,
-	{ 181, 44, offsetof(FontData_t2027, ___m_MinSize_4), 119 } ,
-	{ 182, 44, offsetof(FontData_t2027, ___m_MaxSize_5), 120 } ,
-	{ 183, 4276, offsetof(FontData_t2027, ___m_Alignment_6), 121 } ,
-	{ 184, 30, offsetof(FontData_t2027, ___m_RichText_7), 122 } ,
-	{ 185, 4277, offsetof(FontData_t2027, ___m_HorizontalOverflow_8), 123 } ,
-	{ 186, 4278, offsetof(FontData_t2027, ___m_VerticalOverflow_9), 124 } ,
-	{ 187, 478, offsetof(FontData_t2027, ___m_LineSpacing_10), 125 } ,
-	{ 188, 4280, offsetof(FontUpdateTracker_t2029_StaticFields, ___m_Tracked_0), 0 } ,
-	{ 189, 4283, offsetof(Graphic_t219_StaticFields, ___s_DefaultUI_2), 0 } ,
-	{ 190, 4284, offsetof(Graphic_t219_StaticFields, ___s_WhiteTexture_3), 0 } ,
-	{ 191, 4285, offsetof(Graphic_t219_StaticFields, ___s_VboPool_4), 0 } ,
-	{ 192, 4286, offsetof(Graphic_t219, ___m_Material_5), 127 } ,
-	{ 193, 902, offsetof(Graphic_t219, ___m_Color_6), 128 } ,
-	{ 194, 4287, offsetof(Graphic_t219, ___m_RectTransform_7), 0 } ,
-	{ 195, 4288, offsetof(Graphic_t219, ___m_CanvasRender_8), 0 } ,
-	{ 196, 4289, offsetof(Graphic_t219, ___m_Canvas_9), 0 } ,
-	{ 197, 594, offsetof(Graphic_t219, ___m_VertsDirty_10), 0 } ,
-	{ 198, 594, offsetof(Graphic_t219, ___m_MaterialDirty_11), 0 } ,
-	{ 199, 4290, offsetof(Graphic_t219, ___m_OnDirtyLayoutCallback_12), 0 } ,
-	{ 200, 4290, offsetof(Graphic_t219, ___m_OnDirtyVertsCallback_13), 0 } ,
-	{ 201, 4290, offsetof(Graphic_t219, ___m_OnDirtyMaterialCallback_14), 0 } ,
-	{ 202, 4291, offsetof(Graphic_t219, ___m_ColorTweenRunner_15), 0 } ,
-	{ 203, 4292, offsetof(Graphic_t219_StaticFields, ___U3CU3Ef__amU24cacheE_16), 129 } ,
-	{ 204, 4292, offsetof(Graphic_t219_StaticFields, ___U3CU3Ef__amU24cacheF_17), 130 } ,
-	{ 14, 50, offsetof(BlockingObjects_t2034, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 56, 4294, 0, 0 } ,
-	{ 205, 4294, 0, 0 } ,
-	{ 206, 4294, 0, 0 } ,
-	{ 128, 4294, 0, 0 } ,
-	{ 124, 4231, 0, 0 } ,
-	{ 207, 30, offsetof(GraphicRaycaster_t2037, ___m_IgnoreReversedGraphics_3), 134 } ,
-	{ 208, 4297, offsetof(GraphicRaycaster_t2037, ___m_BlockingObjects_4), 135 } ,
-	{ 209, 4233, offsetof(GraphicRaycaster_t2037, ___m_BlockingMask_5), 136 } ,
-	{ 196, 846, offsetof(GraphicRaycaster_t2037, ___m_Canvas_6), 0 } ,
-	{ 210, 4298, offsetof(GraphicRaycaster_t2037, ___m_RaycastResults_7), 0 } ,
-	{ 211, 4299, offsetof(GraphicRaycaster_t2037_StaticFields, ___s_SortedGraphics_8), 0 } ,
-	{ 169, 4300, offsetof(GraphicRaycaster_t2037_StaticFields, ___U3CU3Ef__amU24cache6_9), 137 } ,
-	{ 163, 4302, offsetof(GraphicRegistry_t2038_StaticFields, ___s_Instance_0), 0 } ,
-	{ 212, 4303, offsetof(GraphicRegistry_t2038, ___m_Graphics_1), 0 } ,
-	{ 213, 4304, offsetof(GraphicRegistry_t2038_StaticFields, ___s_EmptyList_2), 0 } ,
-	{ 14, 50, offsetof(Type_t2040, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 214, 4307, 0, 0 } ,
-	{ 215, 4307, 0, 0 } ,
-	{ 216, 4307, 0, 0 } ,
-	{ 217, 4307, 0, 0 } ,
-	{ 14, 50, offsetof(FillMethod_t2041, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 218, 4309, 0, 0 } ,
-	{ 219, 4309, 0, 0 } ,
-	{ 220, 4309, 0, 0 } ,
-	{ 221, 4309, 0, 0 } ,
-	{ 222, 4309, 0, 0 } ,
-	{ 223, 4312, offsetof(Image_t237, ___m_Sprite_23), 140 } ,
-	{ 224, 4313, offsetof(Image_t237, ___m_OverrideSprite_24), 0 } ,
-	{ 225, 4314, offsetof(Image_t237, ___m_Type_25), 141 } ,
-	{ 226, 30, offsetof(Image_t237, ___m_PreserveAspect_26), 142 } ,
-	{ 227, 30, offsetof(Image_t237, ___m_FillCenter_27), 143 } ,
-	{ 228, 4315, offsetof(Image_t237, ___m_FillMethod_28), 144 } ,
-	{ 229, 478, offsetof(Image_t237, ___m_FillAmount_29), 145 } ,
-	{ 230, 30, offsetof(Image_t237, ___m_FillClockwise_30), 146 } ,
-	{ 231, 44, offsetof(Image_t237, ___m_FillOrigin_31), 147 } ,
-	{ 232, 478, offsetof(Image_t237, ___m_EventAlphaThreshold_32), 0 } ,
-	{ 233, 4316, offsetof(Image_t237_StaticFields, ___s_VertScratch_33), 0 } ,
-	{ 234, 4316, offsetof(Image_t237_StaticFields, ___s_UVScratch_34), 0 } ,
-	{ 235, 4316, offsetof(Image_t237_StaticFields, ___s_Xy_35), 0 } ,
-	{ 236, 4316, offsetof(Image_t237_StaticFields, ___s_Uv_36), 0 } ,
-	{ 14, 50, offsetof(ContentType_t2043, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 237, 4321, 0, 0 } ,
-	{ 238, 4321, 0, 0 } ,
-	{ 239, 4321, 0, 0 } ,
-	{ 240, 4321, 0, 0 } ,
-	{ 241, 4321, 0, 0 } ,
-	{ 242, 4321, 0, 0 } ,
-	{ 243, 4321, 0, 0 } ,
-	{ 244, 4321, 0, 0 } ,
-	{ 245, 4321, 0, 0 } ,
-	{ 246, 4321, 0, 0 } ,
-	{ 14, 50, offsetof(InputType_t2044, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 237, 4323, 0, 0 } ,
-	{ 247, 4323, 0, 0 } ,
-	{ 244, 4323, 0, 0 } ,
-	{ 14, 50, offsetof(CharacterValidation_t2045, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 56, 4325, 0, 0 } ,
-	{ 248, 4325, 0, 0 } ,
-	{ 249, 4325, 0, 0 } ,
-	{ 241, 4325, 0, 0 } ,
-	{ 242, 4325, 0, 0 } ,
-	{ 243, 4325, 0, 0 } ,
-	{ 14, 50, offsetof(LineType_t2046, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 250, 4327, 0, 0 } ,
-	{ 251, 4327, 0, 0 } ,
-	{ 252, 4327, 0, 0 } ,
-	{ 14, 50, offsetof(EditState_t2050, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 253, 4332, 0, 0 } ,
-	{ 254, 4332, 0, 0 } ,
-	{ 255, 738, offsetof(U3CCaretBlinkU3Ec__Iterator2_t2052, ___U3CblinkPeriodU3E__0_0), 0 } ,
-	{ 256, 740, offsetof(U3CCaretBlinkU3Ec__Iterator2_t2052, ___U3CblinkStateU3E__1_1), 0 } ,
-	{ 140, 517, offsetof(U3CCaretBlinkU3Ec__Iterator2_t2052, ___U24PC_2), 0 } ,
-	{ 141, 518, offsetof(U3CCaretBlinkU3Ec__Iterator2_t2052, ___U24current_3), 0 } ,
-	{ 155, 4336, offsetof(U3CCaretBlinkU3Ec__Iterator2_t2052, ___U3CU3Ef__this_4), 0 } ,
-	{ 257, 4338, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t2053, ___eventData_0), 0 } ,
-	{ 258, 4339, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t2053, ___U3ClocalMousePosU3E__0_1), 0 } ,
-	{ 259, 2520, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t2053, ___U3CrectU3E__1_2), 0 } ,
-	{ 260, 738, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t2053, ___U3CdelayU3E__2_3), 0 } ,
-	{ 140, 517, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t2053, ___U24PC_4), 0 } ,
-	{ 141, 518, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t2053, ___U24current_5), 0 } ,
-	{ 261, 4338, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t2053, ___U3CU24U3EeventData_6), 0 } ,
-	{ 155, 4336, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t2053, ___U3CU3Ef__this_7), 0 } ,
-	{ 262, 1014, 0, 0 } ,
-	{ 263, 1014, 0, 0 } ,
-	{ 264, 39, 0, 0 } ,
-	{ 265, 4342, offsetof(InputField_t247_StaticFields, ___m_Keyboard_19), 0 } ,
-	{ 266, 3516, offsetof(InputField_t247_StaticFields, ___kSeparators_20), 0 } ,
-	{ 267, 4343, offsetof(InputField_t247, ___m_TextComponent_21), 149 } ,
-	{ 268, 4344, offsetof(InputField_t247, ___m_Placeholder_22), 150 } ,
-	{ 269, 4345, offsetof(InputField_t247, ___m_ContentType_23), 151 } ,
-	{ 270, 4346, offsetof(InputField_t247, ___m_InputType_24), 152 } ,
-	{ 271, 4347, offsetof(InputField_t247, ___m_AsteriskChar_25), 153 } ,
-	{ 272, 4348, offsetof(InputField_t247, ___m_KeyboardType_26), 154 } ,
-	{ 273, 4349, offsetof(InputField_t247, ___m_LineType_27), 155 } ,
-	{ 274, 30, offsetof(InputField_t247, ___m_HideMobileInput_28), 156 } ,
-	{ 275, 4350, offsetof(InputField_t247, ___m_CharacterValidation_29), 157 } ,
-	{ 276, 44, offsetof(InputField_t247, ___m_CharacterLimit_30), 158 } ,
-	{ 277, 4351, offsetof(InputField_t247, ___m_EndEdit_31), 159 } ,
-	{ 278, 4352, offsetof(InputField_t247, ___m_OnValueChange_32), 160 } ,
-	{ 279, 4353, offsetof(InputField_t247, ___m_OnValidateInput_33), 161 } ,
-	{ 280, 902, offsetof(InputField_t247, ___m_SelectionColor_34), 162 } ,
-	{ 281, 1419, offsetof(InputField_t247, ___m_Text_35), 163 } ,
-	{ 282, 478, offsetof(InputField_t247, ___m_CaretBlinkRate_36), 164 } ,
-	{ 283, 4354, offsetof(InputField_t247, ___m_CaretPosition_37), 0 } ,
-	{ 284, 4354, offsetof(InputField_t247, ___m_CaretSelectPosition_38), 0 } ,
-	{ 285, 4355, offsetof(InputField_t247, ___caretRectTrans_39), 0 } ,
-	{ 286, 4356, offsetof(InputField_t247, ___m_CursorVerts_40), 0 } ,
-	{ 287, 4357, offsetof(InputField_t247, ___m_InputTextCache_41), 0 } ,
-	{ 288, 4358, offsetof(InputField_t247, ___m_CachedInputRenderer_42), 0 } ,
-	{ 289, 30, offsetof(InputField_t247, ___m_PreventFontCallback_43), 0 } ,
-	{ 290, 4359, offsetof(InputField_t247, ___m_Vbo_44), 0 } ,
-	{ 291, 30, offsetof(InputField_t247, ___m_AllowInput_45), 0 } ,
-	{ 292, 30, offsetof(InputField_t247, ___m_ShouldActivateNextUpdate_46), 0 } ,
-	{ 293, 30, offsetof(InputField_t247, ___m_UpdateDrag_47), 0 } ,
-	{ 294, 30, offsetof(InputField_t247, ___m_DragPositionOutOfBounds_48), 0 } ,
-	{ 295, 1418, offsetof(InputField_t247, ___m_CaretVisible_49), 0 } ,
-	{ 296, 4360, offsetof(InputField_t247, ___m_BlinkCoroutine_50), 0 } ,
-	{ 297, 478, offsetof(InputField_t247, ___m_BlinkStartTime_51), 0 } ,
-	{ 298, 4354, offsetof(InputField_t247, ___m_DrawStart_52), 0 } ,
-	{ 299, 4354, offsetof(InputField_t247, ___m_DrawEnd_53), 0 } ,
-	{ 300, 4360, offsetof(InputField_t247, ___m_DragCoroutine_54), 0 } ,
-	{ 301, 40, offsetof(InputField_t247, ___m_OriginalText_55), 0 } ,
-	{ 302, 30, offsetof(InputField_t247, ___m_WasCanceled_56), 0 } ,
-	{ 303, 30, offsetof(InputField_t247, ___m_HasDoneFocusTransition_57), 0 } ,
-	{ 304, 4361, offsetof(InputField_t247, ___m_ProcessingEvent_58), 0 } ,
-	{ 305, 594, offsetof(MaskableGraphic_t2042, ___m_Maskable_18), 0 } ,
-	{ 306, 4363, offsetof(MaskableGraphic_t2042, ___m_MaskMaterial_19), 0 } ,
-	{ 307, 4364, offsetof(MaskableGraphic_t2042, ___m_IncludeForMasking_20), 0 } ,
-	{ 308, 4365, offsetof(MaskableGraphic_t2042, ___m_StencilValue_21), 0 } ,
-	{ 309, 4364, offsetof(MaskableGraphic_t2042, ___m_ShouldRecalculate_22), 0 } ,
-	{ 14, 50, offsetof(Mode_t2061, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 56, 4369, 0, 0 } ,
-	{ 218, 4369, 0, 0 } ,
-	{ 219, 4369, 0, 0 } ,
-	{ 310, 4369, 0, 0 } ,
-	{ 311, 4369, 0, 0 } ,
-	{ 312, 4372, offsetof(Navigation_t2062, ___m_Mode_0) + sizeof(Object_t), 176 } ,
-	{ 313, 4373, offsetof(Navigation_t2062, ___m_SelectOnUp_1) + sizeof(Object_t), 177 } ,
-	{ 314, 4373, offsetof(Navigation_t2062, ___m_SelectOnDown_2) + sizeof(Object_t), 178 } ,
-	{ 315, 4373, offsetof(Navigation_t2062, ___m_SelectOnLeft_3) + sizeof(Object_t), 179 } ,
-	{ 316, 4373, offsetof(Navigation_t2062, ___m_SelectOnRight_4) + sizeof(Object_t), 180 } ,
-	{ 317, 2203, offsetof(RawImage_t2063, ___m_Texture_23), 183 } ,
-	{ 318, 822, offsetof(RawImage_t2063, ___m_UVRect_24), 184 } ,
-	{ 14, 50, offsetof(Direction_t2064, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 319, 4377, 0, 0 } ,
-	{ 320, 4377, 0, 0 } ,
-	{ 321, 4377, 0, 0 } ,
-	{ 322, 4377, 0, 0 } ,
-	{ 14, 50, offsetof(Axis_t2067, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 218, 4382, 0, 0 } ,
-	{ 219, 4382, 0, 0 } ,
-	{ 257, 4338, offsetof(U3CClickRepeatU3Ec__Iterator4_t2068, ___eventData_0), 0 } ,
-	{ 258, 4339, offsetof(U3CClickRepeatU3Ec__Iterator4_t2068, ___U3ClocalMousePosU3E__0_1), 0 } ,
-	{ 323, 738, offsetof(U3CClickRepeatU3Ec__Iterator4_t2068, ___U3CaxisCoordinateU3E__1_2), 0 } ,
-	{ 140, 517, offsetof(U3CClickRepeatU3Ec__Iterator4_t2068, ___U24PC_3), 0 } ,
-	{ 141, 518, offsetof(U3CClickRepeatU3Ec__Iterator4_t2068, ___U24current_4), 0 } ,
-	{ 261, 4338, offsetof(U3CClickRepeatU3Ec__Iterator4_t2068, ___U3CU24U3EeventData_5), 0 } ,
-	{ 155, 4385, offsetof(U3CClickRepeatU3Ec__Iterator4_t2068, ___U3CU3Ef__this_6), 0 } ,
-	{ 324, 4355, offsetof(Scrollbar_t240, ___m_HandleRect_16), 186 } ,
-	{ 325, 4387, offsetof(Scrollbar_t240, ___m_Direction_17), 187 } ,
-	{ 326, 478, offsetof(Scrollbar_t240, ___m_Value_18), 188 } ,
-	{ 327, 478, offsetof(Scrollbar_t240, ___m_Size_19), 189 } ,
-	{ 328, 44, offsetof(Scrollbar_t240, ___m_NumberOfSteps_20), 190 } ,
-	{ 329, 4388, offsetof(Scrollbar_t240, ___m_OnValueChanged_21), 191 } ,
-	{ 330, 4355, offsetof(Scrollbar_t240, ___m_ContainerRect_22), 0 } ,
-	{ 331, 1058, offsetof(Scrollbar_t240, ___m_Offset_23), 0 } ,
-	{ 332, 4389, offsetof(Scrollbar_t240, ___m_Tracker_24), 0 } ,
-	{ 333, 4360, offsetof(Scrollbar_t240, ___m_PointerDownRepeat_25), 0 } ,
-	{ 334, 30, offsetof(Scrollbar_t240, ___isPointerDownAndNotDragging_26), 0 } ,
-	{ 14, 50, offsetof(MovementType_t2070, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 335, 4391, 0, 0 } ,
-	{ 336, 4391, 0, 0 } ,
-	{ 337, 4391, 0, 0 } ,
-	{ 338, 4355, offsetof(ScrollRect_t2073, ___m_Content_2), 198 } ,
-	{ 339, 30, offsetof(ScrollRect_t2073, ___m_Horizontal_3), 199 } ,
-	{ 340, 30, offsetof(ScrollRect_t2073, ___m_Vertical_4), 200 } ,
-	{ 341, 4397, offsetof(ScrollRect_t2073, ___m_MovementType_5), 201 } ,
-	{ 342, 478, offsetof(ScrollRect_t2073, ___m_Elasticity_6), 202 } ,
-	{ 343, 30, offsetof(ScrollRect_t2073, ___m_Inertia_7), 203 } ,
-	{ 344, 478, offsetof(ScrollRect_t2073, ___m_DecelerationRate_8), 204 } ,
-	{ 345, 478, offsetof(ScrollRect_t2073, ___m_ScrollSensitivity_9), 205 } ,
-	{ 346, 4398, offsetof(ScrollRect_t2073, ___m_HorizontalScrollbar_10), 206 } ,
-	{ 347, 4398, offsetof(ScrollRect_t2073, ___m_VerticalScrollbar_11), 207 } ,
-	{ 329, 4399, offsetof(ScrollRect_t2073, ___m_OnValueChanged_12), 208 } ,
-	{ 348, 1058, offsetof(ScrollRect_t2073, ___m_PointerStartLocalCursor_13), 0 } ,
-	{ 349, 1058, offsetof(ScrollRect_t2073, ___m_ContentStartPosition_14), 0 } ,
-	{ 350, 4355, offsetof(ScrollRect_t2073, ___m_ViewRect_15), 0 } ,
-	{ 351, 484, offsetof(ScrollRect_t2073, ___m_ContentBounds_16), 0 } ,
-	{ 352, 484, offsetof(ScrollRect_t2073, ___m_ViewBounds_17), 0 } ,
-	{ 353, 1058, offsetof(ScrollRect_t2073, ___m_Velocity_18), 0 } ,
-	{ 354, 30, offsetof(ScrollRect_t2073, ___m_Dragging_19), 0 } ,
-	{ 355, 1058, offsetof(ScrollRect_t2073, ___m_PrevPosition_20), 0 } ,
-	{ 356, 484, offsetof(ScrollRect_t2073, ___m_PrevContentBounds_21), 0 } ,
-	{ 357, 484, offsetof(ScrollRect_t2073, ___m_PrevViewBounds_22), 0 } ,
-	{ 358, 594, offsetof(ScrollRect_t2073, ___m_HasRebuiltLayout_23), 0 } ,
-	{ 359, 4400, offsetof(ScrollRect_t2073, ___m_Corners_24), 0 } ,
-	{ 14, 50, offsetof(Transition_t2074, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 56, 4402, 0, 0 } ,
-	{ 360, 4402, 0, 0 } ,
-	{ 361, 4402, 0, 0 } ,
-	{ 362, 4402, 0, 0 } ,
-	{ 14, 50, offsetof(SelectionState_t2075, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 363, 4404, 0, 0 } ,
-	{ 364, 4404, 0, 0 } ,
-	{ 72, 4404, 0, 0 } ,
-	{ 365, 4404, 0, 0 } ,
-	{ 366, 4406, offsetof(Selectable_t2020_StaticFields, ___s_List_2), 0 } ,
-	{ 367, 4407, offsetof(Selectable_t2020, ___m_Navigation_3), 210 } ,
-	{ 368, 4408, offsetof(Selectable_t2020, ___m_Transition_4), 211 } ,
-	{ 369, 4409, offsetof(Selectable_t2020, ___m_Colors_5), 212 } ,
-	{ 370, 4410, offsetof(Selectable_t2020, ___m_SpriteState_6), 213 } ,
-	{ 371, 4411, offsetof(Selectable_t2020, ___m_AnimationTriggers_7), 214 } ,
-	{ 372, 30, offsetof(Selectable_t2020, ___m_Interactable_8), 215 } ,
-	{ 373, 4412, offsetof(Selectable_t2020, ___m_TargetGraphic_9), 216 } ,
-	{ 374, 30, offsetof(Selectable_t2020, ___m_GroupsAllowInteraction_10), 0 } ,
-	{ 375, 4413, offsetof(Selectable_t2020, ___m_CurrentSelectionState_11), 0 } ,
-	{ 376, 4414, offsetof(Selectable_t2020, ___m_CanvasGroupCache_12), 0 } ,
-	{ 377, 30, offsetof(Selectable_t2020, ___U3CisPointerInsideU3Ek__BackingField_13), 217 } ,
-	{ 378, 30, offsetof(Selectable_t2020, ___U3CisPointerDownU3Ek__BackingField_14), 218 } ,
-	{ 379, 30, offsetof(Selectable_t2020, ___U3ChasSelectionU3Ek__BackingField_15), 219 } ,
-	{ 14, 50, offsetof(Direction_t2080, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 319, 4423, 0, 0 } ,
-	{ 320, 4423, 0, 0 } ,
-	{ 321, 4423, 0, 0 } ,
-	{ 322, 4423, 0, 0 } ,
-	{ 14, 50, offsetof(Axis_t2082, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 218, 4426, 0, 0 } ,
-	{ 219, 4426, 0, 0 } ,
-	{ 380, 4355, offsetof(Slider_t238, ___m_FillRect_16), 228 } ,
-	{ 324, 4355, offsetof(Slider_t238, ___m_HandleRect_17), 229 } ,
-	{ 325, 4429, offsetof(Slider_t238, ___m_Direction_18), 230 } ,
-	{ 381, 478, offsetof(Slider_t238, ___m_MinValue_19), 231 } ,
-	{ 382, 478, offsetof(Slider_t238, ___m_MaxValue_20), 232 } ,
-	{ 383, 30, offsetof(Slider_t238, ___m_WholeNumbers_21), 233 } ,
-	{ 326, 478, offsetof(Slider_t238, ___m_Value_22), 234 } ,
-	{ 329, 4430, offsetof(Slider_t238, ___m_OnValueChanged_23), 235 } ,
-	{ 384, 4431, offsetof(Slider_t238, ___m_FillImage_24), 0 } ,
-	{ 385, 796, offsetof(Slider_t238, ___m_FillTransform_25), 0 } ,
-	{ 386, 4355, offsetof(Slider_t238, ___m_FillContainerRect_26), 0 } ,
-	{ 387, 796, offsetof(Slider_t238, ___m_HandleTransform_27), 0 } ,
-	{ 388, 4355, offsetof(Slider_t238, ___m_HandleContainerRect_28), 0 } ,
-	{ 331, 1058, offsetof(Slider_t238, ___m_Offset_29), 0 } ,
-	{ 332, 4389, offsetof(Slider_t238, ___m_Tracker_30), 0 } ,
-	{ 389, 4312, offsetof(SpriteState_t2078, ___m_HighlightedSprite_0) + sizeof(Object_t), 236 } ,
-	{ 390, 4312, offsetof(SpriteState_t2078, ___m_PressedSprite_1) + sizeof(Object_t), 237 } ,
-	{ 391, 4312, offsetof(SpriteState_t2078, ___m_DisabledSprite_2) + sizeof(Object_t), 238 } ,
-	{ 392, 470, offsetof(MatEntry_t2083, ___baseMat_0), 0 } ,
-	{ 393, 470, offsetof(MatEntry_t2083, ___customMat_1), 0 } ,
-	{ 394, 536, offsetof(MatEntry_t2083, ___count_2), 0 } ,
-	{ 395, 536, offsetof(MatEntry_t2083, ___stencilID_3), 0 } ,
-	{ 396, 4435, offsetof(StencilMaterial_t2085_StaticFields, ___m_List_0), 0 } ,
-	{ 397, 4437, offsetof(Text_t212, ___m_FontData_23), 240 } ,
-	{ 281, 1419, offsetof(Text_t212, ___m_Text_24), 241 } ,
-	{ 398, 4357, offsetof(Text_t212, ___m_TextCache_25), 0 } ,
-	{ 399, 4357, offsetof(Text_t212, ___m_TextCacheForLayout_26), 0 } ,
-	{ 400, 4283, offsetof(Text_t212_StaticFields, ___s_DefaultText_27), 0 } ,
-	{ 401, 594, offsetof(Text_t212, ___m_DisableFontTextureRebuiltCallback_28), 0 } ,
-	{ 14, 50, offsetof(ToggleTransition_t2086, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 56, 4439, 0, 0 } ,
-	{ 402, 4439, 0, 0 } ,
-	{ 403, 4444, offsetof(Toggle_t2090, ___toggleTransition_16), 0 } ,
-	{ 404, 854, offsetof(Toggle_t2090, ___graphic_17), 0 } ,
-	{ 405, 4445, offsetof(Toggle_t2090, ___m_Group_18), 243 } ,
-	{ 406, 4446, offsetof(Toggle_t2090, ___onValueChanged_19), 0 } ,
-	{ 407, 30, offsetof(Toggle_t2090, ___m_IsOn_20), 244 } ,
-	{ 408, 30, offsetof(ToggleGroup_t2089, ___m_AllowSwitchOff_2), 246 } ,
-	{ 409, 4449, offsetof(ToggleGroup_t2089, ___m_Toggles_3), 0 } ,
-	{ 127, 4450, offsetof(ToggleGroup_t2089_StaticFields, ___U3CU3Ef__amU24cache2_4), 247 } ,
-	{ 410, 4451, offsetof(ToggleGroup_t2089_StaticFields, ___U3CU3Ef__amU24cache3_5), 248 } ,
-	{ 14, 50, offsetof(AspectMode_t2094, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 56, 4453, 0, 0 } ,
-	{ 411, 4453, 0, 0 } ,
-	{ 412, 4453, 0, 0 } ,
-	{ 413, 4453, 0, 0 } ,
-	{ 414, 4453, 0, 0 } ,
-	{ 415, 4456, offsetof(AspectRatioFitter_t2095, ___m_AspectMode_2), 252 } ,
-	{ 416, 478, offsetof(AspectRatioFitter_t2095, ___m_AspectRatio_3), 253 } ,
-	{ 417, 4287, offsetof(AspectRatioFitter_t2095, ___m_Rect_4), 0 } ,
-	{ 332, 4389, offsetof(AspectRatioFitter_t2095, ___m_Tracker_5), 0 } ,
-	{ 14, 50, offsetof(ScaleMode_t2096, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 418, 4458, 0, 0 } ,
-	{ 419, 4458, 0, 0 } ,
-	{ 420, 4458, 0, 0 } ,
-	{ 14, 50, offsetof(ScreenMatchMode_t2097, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 421, 4462, 0, 0 } ,
-	{ 422, 4462, 0, 0 } ,
-	{ 423, 4462, 0, 0 } ,
-	{ 14, 50, offsetof(Unit_t2098, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 424, 4465, 0, 0 } ,
-	{ 425, 4465, 0, 0 } ,
-	{ 426, 4465, 0, 0 } ,
-	{ 427, 4465, 0, 0 } ,
-	{ 428, 4465, 0, 0 } ,
-	{ 429, 1014, 0, 0 } ,
-	{ 430, 4468, offsetof(CanvasScaler_t2099, ___m_UiScaleMode_3), 255 } ,
-	{ 431, 2289, offsetof(CanvasScaler_t2099, ___m_ReferencePixelsPerUnit_4), 256 } ,
-	{ 432, 2289, offsetof(CanvasScaler_t2099, ___m_ScaleFactor_5), 257 } ,
-	{ 433, 2573, offsetof(CanvasScaler_t2099, ___m_ReferenceResolution_6), 258 } ,
-	{ 434, 4469, offsetof(CanvasScaler_t2099, ___m_ScreenMatchMode_7), 259 } ,
-	{ 435, 2289, offsetof(CanvasScaler_t2099, ___m_MatchWidthOrHeight_8), 260 } ,
-	{ 436, 4470, offsetof(CanvasScaler_t2099, ___m_PhysicalUnit_9), 261 } ,
-	{ 437, 2289, offsetof(CanvasScaler_t2099, ___m_FallbackScreenDPI_10), 262 } ,
-	{ 438, 2289, offsetof(CanvasScaler_t2099, ___m_DefaultSpriteDPI_11), 263 } ,
-	{ 439, 2289, offsetof(CanvasScaler_t2099, ___m_DynamicPixelsPerUnit_12), 264 } ,
-	{ 196, 846, offsetof(CanvasScaler_t2099, ___m_Canvas_13), 0 } ,
-	{ 440, 4471, offsetof(CanvasScaler_t2099, ___m_PrevScaleFactor_14), 0 } ,
-	{ 441, 4471, offsetof(CanvasScaler_t2099, ___m_PrevReferencePixelsPerUnit_15), 0 } ,
-	{ 14, 50, offsetof(FitMode_t2100, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 442, 4473, 0, 0 } ,
-	{ 443, 4473, 0, 0 } ,
-	{ 444, 4473, 0, 0 } ,
-	{ 445, 4476, offsetof(ContentSizeFitter_t2101, ___m_HorizontalFit_2), 266 } ,
-	{ 446, 4476, offsetof(ContentSizeFitter_t2101, ___m_VerticalFit_3), 267 } ,
-	{ 417, 4287, offsetof(ContentSizeFitter_t2101, ___m_Rect_4), 0 } ,
-	{ 332, 4389, offsetof(ContentSizeFitter_t2101, ___m_Tracker_5), 0 } ,
-	{ 14, 50, offsetof(Corner_t2102, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 447, 4478, 0, 0 } ,
-	{ 448, 4478, 0, 0 } ,
-	{ 449, 4478, 0, 0 } ,
-	{ 450, 4478, 0, 0 } ,
-	{ 14, 50, offsetof(Axis_t2103, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 218, 4481, 0, 0 } ,
-	{ 219, 4481, 0, 0 } ,
-	{ 14, 50, offsetof(Constraint_t2104, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 451, 4483, 0, 0 } ,
-	{ 452, 4483, 0, 0 } ,
-	{ 453, 4483, 0, 0 } ,
-	{ 454, 4485, offsetof(GridLayoutGroup_t2105, ___m_StartCorner_10), 269 } ,
-	{ 455, 4486, offsetof(GridLayoutGroup_t2105, ___m_StartAxis_11), 270 } ,
-	{ 456, 2573, offsetof(GridLayoutGroup_t2105, ___m_CellSize_12), 271 } ,
-	{ 457, 2573, offsetof(GridLayoutGroup_t2105, ___m_Spacing_13), 272 } ,
-	{ 458, 4487, offsetof(GridLayoutGroup_t2105, ___m_Constraint_14), 273 } ,
-	{ 459, 4354, offsetof(GridLayoutGroup_t2105, ___m_ConstraintCount_15), 274 } ,
-	{ 457, 2289, offsetof(HorizontalOrVerticalLayoutGroup_t2108, ___m_Spacing_10), 276 } ,
-	{ 460, 1418, offsetof(HorizontalOrVerticalLayoutGroup_t2108, ___m_ChildForceExpandWidth_11), 277 } ,
-	{ 461, 1418, offsetof(HorizontalOrVerticalLayoutGroup_t2108, ___m_ChildForceExpandHeight_12), 278 } ,
-	{ 462, 30, offsetof(LayoutElement_t2109, ___m_IgnoreLayout_2), 280 } ,
-	{ 463, 478, offsetof(LayoutElement_t2109, ___m_MinWidth_3), 281 } ,
-	{ 464, 478, offsetof(LayoutElement_t2109, ___m_MinHeight_4), 282 } ,
-	{ 465, 478, offsetof(LayoutElement_t2109, ___m_PreferredWidth_5), 283 } ,
-	{ 466, 478, offsetof(LayoutElement_t2109, ___m_PreferredHeight_6), 284 } ,
-	{ 467, 478, offsetof(LayoutElement_t2109, ___m_FlexibleWidth_7), 285 } ,
-	{ 468, 478, offsetof(LayoutElement_t2109, ___m_FlexibleHeight_8), 286 } ,
-	{ 469, 4502, offsetof(LayoutGroup_t2106, ___m_Padding_2), 288 } ,
-	{ 470, 4503, offsetof(LayoutGroup_t2106, ___m_ChildAlignment_3), 289 } ,
-	{ 417, 4287, offsetof(LayoutGroup_t2106, ___m_Rect_4), 0 } ,
-	{ 332, 4504, offsetof(LayoutGroup_t2106, ___m_Tracker_5), 0 } ,
-	{ 471, 1058, offsetof(LayoutGroup_t2106, ___m_TotalMinSize_6), 0 } ,
-	{ 472, 1058, offsetof(LayoutGroup_t2106, ___m_TotalPreferredSize_7), 0 } ,
-	{ 473, 1058, offsetof(LayoutGroup_t2106, ___m_TotalFlexibleSize_8), 0 } ,
-	{ 474, 4505, offsetof(LayoutGroup_t2106, ___m_RectChildren_9), 0 } ,
-	{ 475, 4507, offsetof(LayoutRebuilder_t2113, ___m_ToRebuild_0) + sizeof(Object_t), 0 } ,
-	{ 476, 4508, offsetof(LayoutRebuilder_t2113, ___m_CachedHashFromTransform_1) + sizeof(Object_t), 0 } ,
-	{ 127, 4509, offsetof(LayoutRebuilder_t2113_StaticFields, ___U3CU3Ef__amU24cache2_2), 290 } ,
-	{ 410, 4509, offsetof(LayoutRebuilder_t2113_StaticFields, ___U3CU3Ef__amU24cache3_3), 291 } ,
-	{ 477, 4509, offsetof(LayoutRebuilder_t2113_StaticFields, ___U3CU3Ef__amU24cache4_4), 292 } ,
-	{ 478, 4509, offsetof(LayoutRebuilder_t2113_StaticFields, ___U3CU3Ef__amU24cache5_5), 293 } ,
-	{ 169, 4510, offsetof(LayoutRebuilder_t2113_StaticFields, ___U3CU3Ef__amU24cache6_6), 294 } ,
-	{ 479, 4514, offsetof(LayoutUtility_t2115_StaticFields, ___U3CU3Ef__amU24cache0_0), 300 } ,
-	{ 480, 4514, offsetof(LayoutUtility_t2115_StaticFields, ___U3CU3Ef__amU24cache1_1), 301 } ,
-	{ 127, 4514, offsetof(LayoutUtility_t2115_StaticFields, ___U3CU3Ef__amU24cache2_2), 302 } ,
-	{ 410, 4514, offsetof(LayoutUtility_t2115_StaticFields, ___U3CU3Ef__amU24cache3_3), 303 } ,
-	{ 477, 4514, offsetof(LayoutUtility_t2115_StaticFields, ___U3CU3Ef__amU24cache4_4), 304 } ,
-	{ 478, 4514, offsetof(LayoutUtility_t2115_StaticFields, ___U3CU3Ef__amU24cache5_5), 305 } ,
-	{ 169, 4514, offsetof(LayoutUtility_t2115_StaticFields, ___U3CU3Ef__amU24cache6_6), 306 } ,
-	{ 170, 4514, offsetof(LayoutUtility_t2115_StaticFields, ___U3CU3Ef__amU24cache7_7), 307 } ,
-	{ 481, 30, offsetof(Mask_t2117, ___m_ShowMaskGraphic_2), 318 } ,
-	{ 482, 4519, offsetof(Mask_t2117, ___m_RenderMaterial_3), 0 } ,
-	{ 483, 4412, offsetof(Mask_t2117, ___m_Graphic_4), 0 } ,
-	{ 194, 4355, offsetof(Mask_t2117, ___m_RectTransform_5), 0 } ,
-	{ 396, 4527, 0, 0 } ,
-	{ 484, 4528, 0, 0 } ,
-	{ 485, 4536, offsetof(CanvasListPool_t2120_StaticFields, ___s_CanvasListPool_0), 0 } ,
-	{ 480, 4537, offsetof(CanvasListPool_t2120_StaticFields, ___U3CU3Ef__amU24cache1_1), 320 } ,
-	{ 486, 4539, offsetof(ComponentListPool_t2123_StaticFields, ___s_ComponentListPool_0), 0 } ,
-	{ 480, 4540, offsetof(ComponentListPool_t2123_StaticFields, ___U3CU3Ef__amU24cache1_1), 322 } ,
-	{ 487, 4544, 0, 0 } ,
-	{ 488, 4545, 0, 0 } ,
-	{ 489, 4545, 0, 0 } ,
-	{ 490, 44, 0, 324 } ,
-	{ 483, 4549, offsetof(BaseVertexEffect_t2124, ___m_Graphic_2), 0 } ,
-	{ 491, 902, offsetof(Shadow_t2126, ___m_EffectColor_3), 331 } ,
-	{ 492, 1058, offsetof(Shadow_t2126, ___m_EffectDistance_4), 332 } ,
-	{ 493, 30, offsetof(Shadow_t2126, ___m_UseGraphicAlpha_5), 333 } ,
+	{ 0, 50, offsetof(EventHandle_t782, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 1, 1839, 0, 0 } ,
+	{ 2, 1839, 0, 0 } ,
+	{ 3, 1860, offsetof(EventSystem_t633, ___m_SystemInputModules_2), 0 } ,
+	{ 4, 1861, offsetof(EventSystem_t633, ___m_CurrentInputModule_3), 0 } ,
+	{ 5, 503, offsetof(EventSystem_t633, ___m_FirstSelected_4), 4 } ,
+	{ 6, 30, offsetof(EventSystem_t633, ___m_sendNavigationEvents_5), 5 } ,
+	{ 7, 44, offsetof(EventSystem_t633, ___m_DragThreshold_6), 6 } ,
+	{ 8, 503, offsetof(EventSystem_t633, ___m_CurrentSelected_7), 0 } ,
+	{ 9, 30, offsetof(EventSystem_t633, ___m_SelectionGuard_8), 0 } ,
+	{ 10, 1862, offsetof(EventSystem_t633, ___m_DummyData_9), 0 } ,
+	{ 11, 1863, offsetof(EventSystem_t633_StaticFields, ___s_RaycastComparer_10), 0 } ,
+	{ 12, 1864, offsetof(EventSystem_t633_StaticFields, ___U3CcurrentU3Ek__BackingField_11), 7 } ,
+	{ 13, 1871, offsetof(Entry_t788, ___eventID_0), 0 } ,
+	{ 14, 1872, offsetof(Entry_t788, ___callback_1), 0 } ,
+	{ 15, 1875, offsetof(EventTrigger_t790, ___m_Delegates_2), 12 } ,
+	{ 16, 1876, offsetof(EventTrigger_t790, ___delegates_3), 13 } ,
+	{ 0, 50, offsetof(EventTriggerType_t791, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 17, 1878, 0, 0 } ,
+	{ 18, 1878, 0, 0 } ,
+	{ 19, 1878, 0, 0 } ,
+	{ 20, 1878, 0, 0 } ,
+	{ 21, 1878, 0, 0 } ,
+	{ 22, 1878, 0, 0 } ,
+	{ 23, 1878, 0, 0 } ,
+	{ 24, 1878, 0, 0 } ,
+	{ 25, 1878, 0, 0 } ,
+	{ 26, 1878, 0, 0 } ,
+	{ 27, 1878, 0, 0 } ,
+	{ 28, 1878, 0, 0 } ,
+	{ 29, 1878, 0, 0 } ,
+	{ 30, 1878, 0, 0 } ,
+	{ 31, 1878, 0, 0 } ,
+	{ 32, 1878, 0, 0 } ,
+	{ 33, 1878, 0, 0 } ,
+	{ 34, 1894, offsetof(ExecuteEvents_t650_StaticFields, ___s_PointerEnterHandler_0), 0 } ,
+	{ 35, 1895, offsetof(ExecuteEvents_t650_StaticFields, ___s_PointerExitHandler_1), 0 } ,
+	{ 36, 1896, offsetof(ExecuteEvents_t650_StaticFields, ___s_PointerDownHandler_2), 0 } ,
+	{ 37, 1897, offsetof(ExecuteEvents_t650_StaticFields, ___s_PointerUpHandler_3), 0 } ,
+	{ 38, 1898, offsetof(ExecuteEvents_t650_StaticFields, ___s_PointerClickHandler_4), 0 } ,
+	{ 39, 1899, offsetof(ExecuteEvents_t650_StaticFields, ___s_InitializePotentialDragHandler_5), 0 } ,
+	{ 40, 1900, offsetof(ExecuteEvents_t650_StaticFields, ___s_BeginDragHandler_6), 0 } ,
+	{ 41, 1901, offsetof(ExecuteEvents_t650_StaticFields, ___s_DragHandler_7), 0 } ,
+	{ 42, 1902, offsetof(ExecuteEvents_t650_StaticFields, ___s_EndDragHandler_8), 0 } ,
+	{ 43, 1903, offsetof(ExecuteEvents_t650_StaticFields, ___s_DropHandler_9), 0 } ,
+	{ 44, 1904, offsetof(ExecuteEvents_t650_StaticFields, ___s_ScrollHandler_10), 0 } ,
+	{ 45, 1905, offsetof(ExecuteEvents_t650_StaticFields, ___s_UpdateSelectedHandler_11), 0 } ,
+	{ 46, 1906, offsetof(ExecuteEvents_t650_StaticFields, ___s_SelectHandler_12), 0 } ,
+	{ 47, 1907, offsetof(ExecuteEvents_t650_StaticFields, ___s_DeselectHandler_13), 0 } ,
+	{ 48, 1908, offsetof(ExecuteEvents_t650_StaticFields, ___s_MoveHandler_14), 0 } ,
+	{ 49, 1909, offsetof(ExecuteEvents_t650_StaticFields, ___s_SubmitHandler_15), 0 } ,
+	{ 50, 1910, offsetof(ExecuteEvents_t650_StaticFields, ___s_CancelHandler_16), 0 } ,
+	{ 51, 1911, offsetof(ExecuteEvents_t650_StaticFields, ___s_HandlerListPool_17), 0 } ,
+	{ 52, 1912, offsetof(ExecuteEvents_t650_StaticFields, ___s_InternalTransformList_18), 0 } ,
+	{ 53, 1913, offsetof(ExecuteEvents_t650_StaticFields, ___U3CU3Ef__amU24cache13_19), 14 } ,
+	{ 0, 50, offsetof(MoveDirection_t810, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 54, 1915, 0, 0 } ,
+	{ 55, 1915, 0, 0 } ,
+	{ 56, 1915, 0, 0 } ,
+	{ 57, 1915, 0, 0 } ,
+	{ 58, 1915, 0, 0 } ,
+	{ 59, 1918, offsetof(RaycasterManager_t812_StaticFields, ___s_Raycasters_0), 0 } ,
+	{ 60, 503, offsetof(RaycastResult_t814, ___m_GameObject_0) + sizeof(Object_t), 0 } ,
+	{ 61, 1920, offsetof(RaycastResult_t814, ___module_1) + sizeof(Object_t), 0 } ,
+	{ 62, 477, offsetof(RaycastResult_t814, ___distance_2) + sizeof(Object_t), 0 } ,
+	{ 63, 477, offsetof(RaycastResult_t814, ___index_3) + sizeof(Object_t), 0 } ,
+	{ 64, 546, offsetof(RaycastResult_t814, ___depth_4) + sizeof(Object_t), 0 } ,
+	{ 65, 546, offsetof(RaycastResult_t814, ___sortingLayer_5) + sizeof(Object_t), 0 } ,
+	{ 66, 546, offsetof(RaycastResult_t814, ___sortingOrder_6) + sizeof(Object_t), 0 } ,
+	{ 67, 511, offsetof(RaycastResult_t814, ___worldPosition_7) + sizeof(Object_t), 0 } ,
+	{ 68, 511, offsetof(RaycastResult_t814, ___worldNormal_8) + sizeof(Object_t), 0 } ,
+	{ 69, 1068, offsetof(AxisEventData_t815, ___U3CmoveVectorU3Ek__BackingField_2), 16 } ,
+	{ 70, 1923, offsetof(AxisEventData_t815, ___U3CmoveDirU3Ek__BackingField_3), 17 } ,
+	{ 71, 1925, offsetof(BaseEventData_t634, ___m_EventSystem_0), 0 } ,
+	{ 72, 30, offsetof(BaseEventData_t634, ___m_Used_1), 0 } ,
+	{ 0, 50, offsetof(InputButton_t816, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 54, 1927, 0, 0 } ,
+	{ 56, 1927, 0, 0 } ,
+	{ 73, 1927, 0, 0 } ,
+	{ 0, 50, offsetof(FramePressState_t817, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 74, 1930, 0, 0 } ,
+	{ 75, 1930, 0, 0 } ,
+	{ 76, 1930, 0, 0 } ,
+	{ 77, 1930, 0, 0 } ,
+	{ 78, 503, offsetof(PointerEventData_t581, ___m_PointerPress_2), 0 } ,
+	{ 79, 905, offsetof(PointerEventData_t581, ___hovered_3), 0 } ,
+	{ 80, 503, offsetof(PointerEventData_t581, ___U3CpointerEnterU3Ek__BackingField_4), 22 } ,
+	{ 81, 503, offsetof(PointerEventData_t581, ___U3ClastPressU3Ek__BackingField_5), 23 } ,
+	{ 82, 503, offsetof(PointerEventData_t581, ___U3CrawPointerPressU3Ek__BackingField_6), 24 } ,
+	{ 83, 503, offsetof(PointerEventData_t581, ___U3CpointerDragU3Ek__BackingField_7), 25 } ,
+	{ 84, 1933, offsetof(PointerEventData_t581, ___U3CpointerCurrentRaycastU3Ek__BackingField_8), 26 } ,
+	{ 85, 1933, offsetof(PointerEventData_t581, ___U3CpointerPressRaycastU3Ek__BackingField_9), 27 } ,
+	{ 86, 30, offsetof(PointerEventData_t581, ___U3CeligibleForClickU3Ek__BackingField_10), 28 } ,
+	{ 87, 44, offsetof(PointerEventData_t581, ___U3CpointerIdU3Ek__BackingField_11), 29 } ,
+	{ 88, 1068, offsetof(PointerEventData_t581, ___U3CpositionU3Ek__BackingField_12), 30 } ,
+	{ 89, 1068, offsetof(PointerEventData_t581, ___U3CdeltaU3Ek__BackingField_13), 31 } ,
+	{ 90, 1068, offsetof(PointerEventData_t581, ___U3CpressPositionU3Ek__BackingField_14), 32 } ,
+	{ 91, 489, offsetof(PointerEventData_t581, ___U3CworldPositionU3Ek__BackingField_15), 33 } ,
+	{ 92, 489, offsetof(PointerEventData_t581, ___U3CworldNormalU3Ek__BackingField_16), 34 } ,
+	{ 93, 488, offsetof(PointerEventData_t581, ___U3CclickTimeU3Ek__BackingField_17), 35 } ,
+	{ 94, 44, offsetof(PointerEventData_t581, ___U3CclickCountU3Ek__BackingField_18), 36 } ,
+	{ 95, 1068, offsetof(PointerEventData_t581, ___U3CscrollDeltaU3Ek__BackingField_19), 37 } ,
+	{ 96, 30, offsetof(PointerEventData_t581, ___U3CuseDragThresholdU3Ek__BackingField_20), 38 } ,
+	{ 97, 30, offsetof(PointerEventData_t581, ___U3CdraggingU3Ek__BackingField_21), 39 } ,
+	{ 98, 1934, offsetof(PointerEventData_t581, ___U3CbuttonU3Ek__BackingField_22), 40 } ,
+	{ 99, 1936, offsetof(BaseInputModule_t730, ___m_RaycastResultCache_2), 0 } ,
+	{ 100, 1937, offsetof(BaseInputModule_t730, ___m_AxisEventData_3), 0 } ,
+	{ 71, 1938, offsetof(BaseInputModule_t730, ___m_EventSystem_4), 0 } ,
+	{ 101, 1862, offsetof(BaseInputModule_t730, ___m_BaseEventData_5), 0 } ,
+	{ 102, 1934, offsetof(ButtonState_t820, ___m_Button_0), 0 } ,
+	{ 103, 1940, offsetof(ButtonState_t820, ___m_EventData_1), 0 } ,
+	{ 104, 1943, offsetof(MouseState_t822, ___m_TrackedButtons_0), 0 } ,
+	{ 105, 1945, offsetof(MouseButtonEventData_t819, ___buttonState_0), 0 } ,
+	{ 106, 1946, offsetof(MouseButtonEventData_t819, ___buttonData_1), 0 } ,
+	{ 107, 79, 0, 0 } ,
+	{ 108, 79, 0, 0 } ,
+	{ 109, 79, 0, 0 } ,
+	{ 110, 79, 0, 0 } ,
+	{ 111, 1951, offsetof(PointerInputModule_t824, ___m_PointerData_10), 0 } ,
+	{ 112, 1952, offsetof(PointerInputModule_t824, ___m_MouseState_11), 0 } ,
+	{ 0, 50, offsetof(InputMode_t825, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 113, 1954, 0, 0 } ,
+	{ 114, 1954, 0, 0 } ,
+	{ 115, 488, offsetof(StandaloneInputModule_t729, ___m_PrevActionTime_12), 0 } ,
+	{ 116, 1068, offsetof(StandaloneInputModule_t729, ___m_LastMoveVector_13), 0 } ,
+	{ 117, 44, offsetof(StandaloneInputModule_t729, ___m_ConsecutiveMoveCount_14), 0 } ,
+	{ 118, 1068, offsetof(StandaloneInputModule_t729, ___m_LastMousePosition_15), 0 } ,
+	{ 119, 1068, offsetof(StandaloneInputModule_t729, ___m_MousePosition_16), 0 } ,
+	{ 120, 40, offsetof(StandaloneInputModule_t729, ___m_HorizontalAxis_17), 83 } ,
+	{ 121, 40, offsetof(StandaloneInputModule_t729, ___m_VerticalAxis_18), 84 } ,
+	{ 122, 40, offsetof(StandaloneInputModule_t729, ___m_SubmitButton_19), 85 } ,
+	{ 123, 40, offsetof(StandaloneInputModule_t729, ___m_CancelButton_20), 86 } ,
+	{ 124, 488, offsetof(StandaloneInputModule_t729, ___m_InputActionsPerSecond_21), 87 } ,
+	{ 125, 488, offsetof(StandaloneInputModule_t729, ___m_RepeatDelay_22), 88 } ,
+	{ 126, 30, offsetof(StandaloneInputModule_t729, ___m_AllowActivationOnMobileDevice_23), 89 } ,
+	{ 118, 1068, offsetof(TouchInputModule_t826, ___m_LastMousePosition_12), 0 } ,
+	{ 119, 1068, offsetof(TouchInputModule_t826, ___m_MousePosition_13), 0 } ,
+	{ 127, 30, offsetof(TouchInputModule_t826, ___m_AllowActivationOnStandalone_14), 93 } ,
+	{ 128, 1963, 0, 0 } ,
+	{ 129, 1964, offsetof(PhysicsRaycaster_t828, ___m_EventCamera_3), 0 } ,
+	{ 130, 1965, offsetof(PhysicsRaycaster_t828, ___m_EventMask_4), 97 } ,
+	{ 131, 1966, offsetof(PhysicsRaycaster_t828_StaticFields, ___U3CU3Ef__amU24cache2_5), 98 } ,
+	{ 0, 50, offsetof(ColorTweenMode_t830, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 132, 1970, 0, 0 } ,
+	{ 133, 1970, 0, 0 } ,
+	{ 134, 1970, 0, 0 } ,
+	{ 135, 1975, offsetof(ColorTween_t833, ___m_Target_0) + sizeof(Object_t), 0 } ,
+	{ 136, 912, offsetof(ColorTween_t833, ___m_StartColor_1) + sizeof(Object_t), 0 } ,
+	{ 137, 912, offsetof(ColorTween_t833, ___m_TargetColor_2) + sizeof(Object_t), 0 } ,
+	{ 138, 1976, offsetof(ColorTween_t833, ___m_TweenMode_3) + sizeof(Object_t), 0 } ,
+	{ 139, 488, offsetof(ColorTween_t833, ___m_Duration_4) + sizeof(Object_t), 0 } ,
+	{ 140, 30, offsetof(ColorTween_t833, ___m_IgnoreTimeScale_5) + sizeof(Object_t), 0 } ,
+	{ 141, 1979, 0, 0 } ,
+	{ 142, 748, 0, 0 } ,
+	{ 143, 748, 0, 0 } ,
+	{ 144, 527, 0, 0 } ,
+	{ 145, 528, 0, 0 } ,
+	{ 146, 1979, 0, 0 } ,
+	{ 147, 1984, 0, 0 } ,
+	{ 148, 1985, 0, 0 } ,
+	{ 149, 39, 0, 0 } ,
+	{ 150, 39, 0, 0 } ,
+	{ 151, 39, 0, 0 } ,
+	{ 152, 39, 0, 0 } ,
+	{ 153, 40, offsetof(AnimationTriggers_t834, ___m_NormalTrigger_4), 106 } ,
+	{ 154, 40, offsetof(AnimationTriggers_t834, ___m_HighlightedTrigger_5), 107 } ,
+	{ 155, 40, offsetof(AnimationTriggers_t834, ___m_PressedTrigger_6), 108 } ,
+	{ 156, 40, offsetof(AnimationTriggers_t834, ___m_DisabledTrigger_7), 109 } ,
+	{ 157, 748, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t835, ___U3CfadeTimeU3E__0_0), 0 } ,
+	{ 158, 748, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t835, ___U3CelapsedTimeU3E__1_1), 0 } ,
+	{ 144, 527, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t835, ___U24PC_2), 0 } ,
+	{ 145, 528, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t835, ___U24current_3), 0 } ,
+	{ 159, 1990, offsetof(U3COnFinishSubmitU3Ec__Iterator1_t835, ___U3CU3Ef__this_4), 0 } ,
+	{ 160, 1992, offsetof(Button_t220, ___m_OnClick_16), 111 } ,
+	{ 0, 50, offsetof(CanvasUpdate_t836, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 161, 1994, 0, 0 } ,
+	{ 162, 1994, 0, 0 } ,
+	{ 163, 1994, 0, 0 } ,
+	{ 164, 1994, 0, 0 } ,
+	{ 165, 1994, 0, 0 } ,
+	{ 166, 1994, 0, 0 } ,
+	{ 167, 1998, offsetof(CanvasUpdateRegistry_t837_StaticFields, ___s_Instance_0), 0 } ,
+	{ 168, 30, offsetof(CanvasUpdateRegistry_t837, ___m_PerformingLayoutUpdate_1), 0 } ,
+	{ 169, 30, offsetof(CanvasUpdateRegistry_t837, ___m_PerformingGraphicUpdate_2), 0 } ,
+	{ 170, 1999, offsetof(CanvasUpdateRegistry_t837, ___m_LayoutRebuildQueue_3), 0 } ,
+	{ 171, 1999, offsetof(CanvasUpdateRegistry_t837, ___m_GraphicRebuildQueue_4), 0 } ,
+	{ 172, 2000, offsetof(CanvasUpdateRegistry_t837_StaticFields, ___s_SortLayoutFunction_5), 0 } ,
+	{ 173, 2001, offsetof(CanvasUpdateRegistry_t837_StaticFields, ___U3CU3Ef__amU24cache6_6), 118 } ,
+	{ 174, 2001, offsetof(CanvasUpdateRegistry_t837_StaticFields, ___U3CU3Ef__amU24cache7_7), 119 } ,
+	{ 175, 912, offsetof(ColorBlock_t841, ___m_NormalColor_0) + sizeof(Object_t), 122 } ,
+	{ 176, 912, offsetof(ColorBlock_t841, ___m_HighlightedColor_1) + sizeof(Object_t), 123 } ,
+	{ 177, 912, offsetof(ColorBlock_t841, ___m_PressedColor_2) + sizeof(Object_t), 124 } ,
+	{ 178, 912, offsetof(ColorBlock_t841, ___m_DisabledColor_3) + sizeof(Object_t), 125 } ,
+	{ 179, 488, offsetof(ColorBlock_t841, ___m_ColorMultiplier_4) + sizeof(Object_t), 126 } ,
+	{ 180, 488, offsetof(ColorBlock_t841, ___m_FadeDuration_5) + sizeof(Object_t), 127 } ,
+	{ 181, 2007, offsetof(FontData_t842, ___m_Font_0), 128 } ,
+	{ 182, 44, offsetof(FontData_t842, ___m_FontSize_1), 129 } ,
+	{ 183, 2008, offsetof(FontData_t842, ___m_FontStyle_2), 130 } ,
+	{ 184, 30, offsetof(FontData_t842, ___m_BestFit_3), 131 } ,
+	{ 185, 44, offsetof(FontData_t842, ___m_MinSize_4), 132 } ,
+	{ 186, 44, offsetof(FontData_t842, ___m_MaxSize_5), 133 } ,
+	{ 187, 2009, offsetof(FontData_t842, ___m_Alignment_6), 134 } ,
+	{ 188, 30, offsetof(FontData_t842, ___m_RichText_7), 135 } ,
+	{ 189, 2010, offsetof(FontData_t842, ___m_HorizontalOverflow_8), 136 } ,
+	{ 190, 2011, offsetof(FontData_t842, ___m_VerticalOverflow_9), 137 } ,
+	{ 191, 488, offsetof(FontData_t842, ___m_LineSpacing_10), 138 } ,
+	{ 192, 2013, offsetof(FontUpdateTracker_t844_StaticFields, ___m_Tracked_0), 0 } ,
+	{ 193, 2017, offsetof(Graphic_t219_StaticFields, ___s_DefaultUI_2), 0 } ,
+	{ 194, 2018, offsetof(Graphic_t219_StaticFields, ___s_WhiteTexture_3), 0 } ,
+	{ 195, 2019, offsetof(Graphic_t219_StaticFields, ___s_VboPool_4), 0 } ,
+	{ 196, 2020, offsetof(Graphic_t219, ___m_Material_5), 140 } ,
+	{ 197, 912, offsetof(Graphic_t219, ___m_Color_6), 141 } ,
+	{ 198, 2021, offsetof(Graphic_t219, ___m_RectTransform_7), 0 } ,
+	{ 199, 2022, offsetof(Graphic_t219, ___m_CanvasRender_8), 0 } ,
+	{ 200, 2023, offsetof(Graphic_t219, ___m_Canvas_9), 0 } ,
+	{ 201, 604, offsetof(Graphic_t219, ___m_VertsDirty_10), 0 } ,
+	{ 202, 604, offsetof(Graphic_t219, ___m_MaterialDirty_11), 0 } ,
+	{ 203, 2024, offsetof(Graphic_t219, ___m_OnDirtyLayoutCallback_12), 0 } ,
+	{ 204, 2024, offsetof(Graphic_t219, ___m_OnDirtyVertsCallback_13), 0 } ,
+	{ 205, 2024, offsetof(Graphic_t219, ___m_OnDirtyMaterialCallback_14), 0 } ,
+	{ 206, 2025, offsetof(Graphic_t219, ___m_ColorTweenRunner_15), 0 } ,
+	{ 207, 2026, offsetof(Graphic_t219_StaticFields, ___U3CU3Ef__amU24cacheE_16), 142 } ,
+	{ 208, 2026, offsetof(Graphic_t219_StaticFields, ___U3CU3Ef__amU24cacheF_17), 143 } ,
+	{ 0, 50, offsetof(BlockingObjects_t849, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 58, 2028, 0, 0 } ,
+	{ 209, 2028, 0, 0 } ,
+	{ 210, 2028, 0, 0 } ,
+	{ 132, 2028, 0, 0 } ,
+	{ 128, 1963, 0, 0 } ,
+	{ 211, 30, offsetof(GraphicRaycaster_t852, ___m_IgnoreReversedGraphics_3), 147 } ,
+	{ 212, 2031, offsetof(GraphicRaycaster_t852, ___m_BlockingObjects_4), 148 } ,
+	{ 213, 1965, offsetof(GraphicRaycaster_t852, ___m_BlockingMask_5), 149 } ,
+	{ 200, 856, offsetof(GraphicRaycaster_t852, ___m_Canvas_6), 0 } ,
+	{ 214, 2032, offsetof(GraphicRaycaster_t852, ___m_RaycastResults_7), 0 } ,
+	{ 215, 2033, offsetof(GraphicRaycaster_t852_StaticFields, ___s_SortedGraphics_8), 0 } ,
+	{ 173, 2034, offsetof(GraphicRaycaster_t852_StaticFields, ___U3CU3Ef__amU24cache6_9), 150 } ,
+	{ 167, 2036, offsetof(GraphicRegistry_t853_StaticFields, ___s_Instance_0), 0 } ,
+	{ 216, 2037, offsetof(GraphicRegistry_t853, ___m_Graphics_1), 0 } ,
+	{ 217, 2038, offsetof(GraphicRegistry_t853_StaticFields, ___s_EmptyList_2), 0 } ,
+	{ 0, 50, offsetof(Type_t855, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 218, 2041, 0, 0 } ,
+	{ 219, 2041, 0, 0 } ,
+	{ 220, 2041, 0, 0 } ,
+	{ 221, 2041, 0, 0 } ,
+	{ 0, 50, offsetof(FillMethod_t856, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 222, 2043, 0, 0 } ,
+	{ 223, 2043, 0, 0 } ,
+	{ 224, 2043, 0, 0 } ,
+	{ 225, 2043, 0, 0 } ,
+	{ 226, 2043, 0, 0 } ,
+	{ 0, 50, offsetof(OriginHorizontal_t857, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 54, 2045, 0, 0 } ,
+	{ 56, 2045, 0, 0 } ,
+	{ 0, 50, offsetof(OriginVertical_t858, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 227, 2048, 0, 0 } ,
+	{ 228, 2048, 0, 0 } ,
+	{ 0, 50, offsetof(Origin90_t859, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 229, 2051, 0, 0 } ,
+	{ 230, 2051, 0, 0 } ,
+	{ 231, 2051, 0, 0 } ,
+	{ 232, 2051, 0, 0 } ,
+	{ 0, 50, offsetof(Origin180_t860, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 227, 2054, 0, 0 } ,
+	{ 54, 2054, 0, 0 } ,
+	{ 228, 2054, 0, 0 } ,
+	{ 56, 2054, 0, 0 } ,
+	{ 0, 50, offsetof(Origin360_t861, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 227, 2057, 0, 0 } ,
+	{ 56, 2057, 0, 0 } ,
+	{ 228, 2057, 0, 0 } ,
+	{ 54, 2057, 0, 0 } ,
+	{ 233, 2061, offsetof(Image_t237, ___m_Sprite_23), 153 } ,
+	{ 234, 2062, offsetof(Image_t237, ___m_OverrideSprite_24), 0 } ,
+	{ 235, 2063, offsetof(Image_t237, ___m_Type_25), 154 } ,
+	{ 236, 30, offsetof(Image_t237, ___m_PreserveAspect_26), 155 } ,
+	{ 237, 30, offsetof(Image_t237, ___m_FillCenter_27), 156 } ,
+	{ 238, 2064, offsetof(Image_t237, ___m_FillMethod_28), 157 } ,
+	{ 239, 488, offsetof(Image_t237, ___m_FillAmount_29), 158 } ,
+	{ 240, 30, offsetof(Image_t237, ___m_FillClockwise_30), 159 } ,
+	{ 241, 44, offsetof(Image_t237, ___m_FillOrigin_31), 160 } ,
+	{ 242, 488, offsetof(Image_t237, ___m_EventAlphaThreshold_32), 0 } ,
+	{ 243, 2065, offsetof(Image_t237_StaticFields, ___s_VertScratch_33), 0 } ,
+	{ 244, 2065, offsetof(Image_t237_StaticFields, ___s_UVScratch_34), 0 } ,
+	{ 245, 2065, offsetof(Image_t237_StaticFields, ___s_Xy_35), 0 } ,
+	{ 246, 2065, offsetof(Image_t237_StaticFields, ___s_Uv_36), 0 } ,
+	{ 0, 50, offsetof(ContentType_t863, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 247, 2070, 0, 0 } ,
+	{ 248, 2070, 0, 0 } ,
+	{ 249, 2070, 0, 0 } ,
+	{ 250, 2070, 0, 0 } ,
+	{ 251, 2070, 0, 0 } ,
+	{ 252, 2070, 0, 0 } ,
+	{ 253, 2070, 0, 0 } ,
+	{ 254, 2070, 0, 0 } ,
+	{ 255, 2070, 0, 0 } ,
+	{ 256, 2070, 0, 0 } ,
+	{ 0, 50, offsetof(InputType_t864, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 247, 2072, 0, 0 } ,
+	{ 257, 2072, 0, 0 } ,
+	{ 254, 2072, 0, 0 } ,
+	{ 0, 50, offsetof(CharacterValidation_t865, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 58, 2074, 0, 0 } ,
+	{ 258, 2074, 0, 0 } ,
+	{ 259, 2074, 0, 0 } ,
+	{ 251, 2074, 0, 0 } ,
+	{ 252, 2074, 0, 0 } ,
+	{ 253, 2074, 0, 0 } ,
+	{ 0, 50, offsetof(LineType_t866, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 260, 2076, 0, 0 } ,
+	{ 261, 2076, 0, 0 } ,
+	{ 262, 2076, 0, 0 } ,
+	{ 0, 50, offsetof(EditState_t870, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 263, 2081, 0, 0 } ,
+	{ 264, 2081, 0, 0 } ,
+	{ 265, 748, offsetof(U3CCaretBlinkU3Ec__Iterator2_t872, ___U3CblinkPeriodU3E__0_0), 0 } ,
+	{ 266, 750, offsetof(U3CCaretBlinkU3Ec__Iterator2_t872, ___U3CblinkStateU3E__1_1), 0 } ,
+	{ 144, 527, offsetof(U3CCaretBlinkU3Ec__Iterator2_t872, ___U24PC_2), 0 } ,
+	{ 145, 528, offsetof(U3CCaretBlinkU3Ec__Iterator2_t872, ___U24current_3), 0 } ,
+	{ 159, 2085, offsetof(U3CCaretBlinkU3Ec__Iterator2_t872, ___U3CU3Ef__this_4), 0 } ,
+	{ 267, 2087, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t873, ___eventData_0), 0 } ,
+	{ 268, 2088, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t873, ___U3ClocalMousePosU3E__0_1), 0 } ,
+	{ 269, 2089, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t873, ___U3CrectU3E__1_2), 0 } ,
+	{ 270, 748, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t873, ___U3CdelayU3E__2_3), 0 } ,
+	{ 144, 527, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t873, ___U24PC_4), 0 } ,
+	{ 145, 528, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t873, ___U24current_5), 0 } ,
+	{ 271, 2087, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t873, ___U3CU24U3EeventData_6), 0 } ,
+	{ 159, 2085, offsetof(U3CMouseDragOutsideRectU3Ec__Iterator3_t873, ___U3CU3Ef__this_7), 0 } ,
+	{ 272, 1024, 0, 0 } ,
+	{ 273, 1024, 0, 0 } ,
+	{ 274, 39, 0, 0 } ,
+	{ 275, 2092, offsetof(InputField_t247_StaticFields, ___m_Keyboard_19), 0 } ,
+	{ 276, 2093, offsetof(InputField_t247_StaticFields, ___kSeparators_20), 0 } ,
+	{ 277, 2094, offsetof(InputField_t247, ___m_TextComponent_21), 162 } ,
+	{ 278, 2095, offsetof(InputField_t247, ___m_Placeholder_22), 163 } ,
+	{ 279, 2096, offsetof(InputField_t247, ___m_ContentType_23), 164 } ,
+	{ 280, 2097, offsetof(InputField_t247, ___m_InputType_24), 165 } ,
+	{ 281, 2098, offsetof(InputField_t247, ___m_AsteriskChar_25), 166 } ,
+	{ 282, 2099, offsetof(InputField_t247, ___m_KeyboardType_26), 167 } ,
+	{ 283, 2100, offsetof(InputField_t247, ___m_LineType_27), 168 } ,
+	{ 284, 30, offsetof(InputField_t247, ___m_HideMobileInput_28), 169 } ,
+	{ 285, 2101, offsetof(InputField_t247, ___m_CharacterValidation_29), 170 } ,
+	{ 286, 44, offsetof(InputField_t247, ___m_CharacterLimit_30), 171 } ,
+	{ 287, 2102, offsetof(InputField_t247, ___m_EndEdit_31), 172 } ,
+	{ 288, 2103, offsetof(InputField_t247, ___m_OnValueChange_32), 173 } ,
+	{ 289, 2104, offsetof(InputField_t247, ___m_OnValidateInput_33), 174 } ,
+	{ 290, 912, offsetof(InputField_t247, ___m_SelectionColor_34), 175 } ,
+	{ 291, 1429, offsetof(InputField_t247, ___m_Text_35), 176 } ,
+	{ 292, 488, offsetof(InputField_t247, ___m_CaretBlinkRate_36), 177 } ,
+	{ 293, 2105, offsetof(InputField_t247, ___m_CaretPosition_37), 0 } ,
+	{ 294, 2105, offsetof(InputField_t247, ___m_CaretSelectPosition_38), 0 } ,
+	{ 295, 1602, offsetof(InputField_t247, ___caretRectTrans_39), 0 } ,
+	{ 296, 2106, offsetof(InputField_t247, ___m_CursorVerts_40), 0 } ,
+	{ 297, 2107, offsetof(InputField_t247, ___m_InputTextCache_41), 0 } ,
+	{ 298, 2108, offsetof(InputField_t247, ___m_CachedInputRenderer_42), 0 } ,
+	{ 299, 30, offsetof(InputField_t247, ___m_PreventFontCallback_43), 0 } ,
+	{ 300, 2109, offsetof(InputField_t247, ___m_Vbo_44), 0 } ,
+	{ 301, 30, offsetof(InputField_t247, ___m_AllowInput_45), 0 } ,
+	{ 302, 30, offsetof(InputField_t247, ___m_ShouldActivateNextUpdate_46), 0 } ,
+	{ 303, 30, offsetof(InputField_t247, ___m_UpdateDrag_47), 0 } ,
+	{ 304, 30, offsetof(InputField_t247, ___m_DragPositionOutOfBounds_48), 0 } ,
+	{ 305, 1428, offsetof(InputField_t247, ___m_CaretVisible_49), 0 } ,
+	{ 306, 2110, offsetof(InputField_t247, ___m_BlinkCoroutine_50), 0 } ,
+	{ 307, 488, offsetof(InputField_t247, ___m_BlinkStartTime_51), 0 } ,
+	{ 308, 2105, offsetof(InputField_t247, ___m_DrawStart_52), 0 } ,
+	{ 309, 2105, offsetof(InputField_t247, ___m_DrawEnd_53), 0 } ,
+	{ 310, 2110, offsetof(InputField_t247, ___m_DragCoroutine_54), 0 } ,
+	{ 311, 40, offsetof(InputField_t247, ___m_OriginalText_55), 0 } ,
+	{ 312, 30, offsetof(InputField_t247, ___m_WasCanceled_56), 0 } ,
+	{ 313, 30, offsetof(InputField_t247, ___m_HasDoneFocusTransition_57), 0 } ,
+	{ 314, 2111, offsetof(InputField_t247, ___m_ProcessingEvent_58), 0 } ,
+	{ 315, 604, offsetof(MaskableGraphic_t862, ___m_Maskable_18), 0 } ,
+	{ 316, 2113, offsetof(MaskableGraphic_t862, ___m_MaskMaterial_19), 0 } ,
+	{ 317, 2114, offsetof(MaskableGraphic_t862, ___m_IncludeForMasking_20), 0 } ,
+	{ 318, 2115, offsetof(MaskableGraphic_t862, ___m_StencilValue_21), 0 } ,
+	{ 319, 2114, offsetof(MaskableGraphic_t862, ___m_ShouldRecalculate_22), 0 } ,
+	{ 0, 50, offsetof(Mode_t881, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 58, 2119, 0, 0 } ,
+	{ 222, 2119, 0, 0 } ,
+	{ 223, 2119, 0, 0 } ,
+	{ 320, 2119, 0, 0 } ,
+	{ 321, 2119, 0, 0 } ,
+	{ 322, 2122, offsetof(Navigation_t882, ___m_Mode_0) + sizeof(Object_t), 191 } ,
+	{ 323, 2123, offsetof(Navigation_t882, ___m_SelectOnUp_1) + sizeof(Object_t), 192 } ,
+	{ 324, 2123, offsetof(Navigation_t882, ___m_SelectOnDown_2) + sizeof(Object_t), 193 } ,
+	{ 325, 2123, offsetof(Navigation_t882, ___m_SelectOnLeft_3) + sizeof(Object_t), 194 } ,
+	{ 326, 2123, offsetof(Navigation_t882, ___m_SelectOnRight_4) + sizeof(Object_t), 195 } ,
+	{ 327, 2125, offsetof(RawImage_t883, ___m_Texture_23), 198 } ,
+	{ 328, 832, offsetof(RawImage_t883, ___m_UVRect_24), 199 } ,
+	{ 0, 50, offsetof(Direction_t884, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 329, 2128, 0, 0 } ,
+	{ 330, 2128, 0, 0 } ,
+	{ 331, 2128, 0, 0 } ,
+	{ 332, 2128, 0, 0 } ,
+	{ 0, 50, offsetof(Axis_t887, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 222, 2133, 0, 0 } ,
+	{ 223, 2133, 0, 0 } ,
+	{ 267, 2087, offsetof(U3CClickRepeatU3Ec__Iterator4_t888, ___eventData_0), 0 } ,
+	{ 268, 2088, offsetof(U3CClickRepeatU3Ec__Iterator4_t888, ___U3ClocalMousePosU3E__0_1), 0 } ,
+	{ 333, 748, offsetof(U3CClickRepeatU3Ec__Iterator4_t888, ___U3CaxisCoordinateU3E__1_2), 0 } ,
+	{ 144, 527, offsetof(U3CClickRepeatU3Ec__Iterator4_t888, ___U24PC_3), 0 } ,
+	{ 145, 528, offsetof(U3CClickRepeatU3Ec__Iterator4_t888, ___U24current_4), 0 } ,
+	{ 271, 2087, offsetof(U3CClickRepeatU3Ec__Iterator4_t888, ___U3CU24U3EeventData_5), 0 } ,
+	{ 159, 2136, offsetof(U3CClickRepeatU3Ec__Iterator4_t888, ___U3CU3Ef__this_6), 0 } ,
+	{ 334, 1602, offsetof(Scrollbar_t240, ___m_HandleRect_16), 201 } ,
+	{ 335, 2138, offsetof(Scrollbar_t240, ___m_Direction_17), 202 } ,
+	{ 336, 488, offsetof(Scrollbar_t240, ___m_Value_18), 203 } ,
+	{ 337, 488, offsetof(Scrollbar_t240, ___m_Size_19), 204 } ,
+	{ 338, 44, offsetof(Scrollbar_t240, ___m_NumberOfSteps_20), 205 } ,
+	{ 339, 2139, offsetof(Scrollbar_t240, ___m_OnValueChanged_21), 206 } ,
+	{ 340, 1602, offsetof(Scrollbar_t240, ___m_ContainerRect_22), 0 } ,
+	{ 341, 1068, offsetof(Scrollbar_t240, ___m_Offset_23), 0 } ,
+	{ 342, 2140, offsetof(Scrollbar_t240, ___m_Tracker_24), 0 } ,
+	{ 343, 2110, offsetof(Scrollbar_t240, ___m_PointerDownRepeat_25), 0 } ,
+	{ 344, 30, offsetof(Scrollbar_t240, ___isPointerDownAndNotDragging_26), 0 } ,
+	{ 0, 50, offsetof(MovementType_t890, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 345, 2142, 0, 0 } ,
+	{ 346, 2142, 0, 0 } ,
+	{ 347, 2142, 0, 0 } ,
+	{ 348, 1602, offsetof(ScrollRect_t893, ___m_Content_2), 214 } ,
+	{ 349, 30, offsetof(ScrollRect_t893, ___m_Horizontal_3), 215 } ,
+	{ 350, 30, offsetof(ScrollRect_t893, ___m_Vertical_4), 216 } ,
+	{ 351, 2148, offsetof(ScrollRect_t893, ___m_MovementType_5), 217 } ,
+	{ 352, 488, offsetof(ScrollRect_t893, ___m_Elasticity_6), 218 } ,
+	{ 353, 30, offsetof(ScrollRect_t893, ___m_Inertia_7), 219 } ,
+	{ 354, 488, offsetof(ScrollRect_t893, ___m_DecelerationRate_8), 220 } ,
+	{ 355, 488, offsetof(ScrollRect_t893, ___m_ScrollSensitivity_9), 221 } ,
+	{ 356, 2149, offsetof(ScrollRect_t893, ___m_HorizontalScrollbar_10), 222 } ,
+	{ 357, 2149, offsetof(ScrollRect_t893, ___m_VerticalScrollbar_11), 223 } ,
+	{ 339, 2150, offsetof(ScrollRect_t893, ___m_OnValueChanged_12), 224 } ,
+	{ 358, 1068, offsetof(ScrollRect_t893, ___m_PointerStartLocalCursor_13), 0 } ,
+	{ 359, 1068, offsetof(ScrollRect_t893, ___m_ContentStartPosition_14), 0 } ,
+	{ 360, 1602, offsetof(ScrollRect_t893, ___m_ViewRect_15), 0 } ,
+	{ 361, 494, offsetof(ScrollRect_t893, ___m_ContentBounds_16), 0 } ,
+	{ 362, 494, offsetof(ScrollRect_t893, ___m_ViewBounds_17), 0 } ,
+	{ 363, 1068, offsetof(ScrollRect_t893, ___m_Velocity_18), 0 } ,
+	{ 364, 30, offsetof(ScrollRect_t893, ___m_Dragging_19), 0 } ,
+	{ 365, 1068, offsetof(ScrollRect_t893, ___m_PrevPosition_20), 0 } ,
+	{ 366, 494, offsetof(ScrollRect_t893, ___m_PrevContentBounds_21), 0 } ,
+	{ 367, 494, offsetof(ScrollRect_t893, ___m_PrevViewBounds_22), 0 } ,
+	{ 368, 604, offsetof(ScrollRect_t893, ___m_HasRebuiltLayout_23), 0 } ,
+	{ 369, 2151, offsetof(ScrollRect_t893, ___m_Corners_24), 0 } ,
+	{ 0, 50, offsetof(Transition_t894, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 58, 2153, 0, 0 } ,
+	{ 370, 2153, 0, 0 } ,
+	{ 371, 2153, 0, 0 } ,
+	{ 372, 2153, 0, 0 } ,
+	{ 0, 50, offsetof(SelectionState_t895, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 373, 2155, 0, 0 } ,
+	{ 374, 2155, 0, 0 } ,
+	{ 74, 2155, 0, 0 } ,
+	{ 375, 2155, 0, 0 } ,
+	{ 376, 2157, offsetof(Selectable_t727_StaticFields, ___s_List_2), 0 } ,
+	{ 377, 2158, offsetof(Selectable_t727, ___m_Navigation_3), 226 } ,
+	{ 378, 2159, offsetof(Selectable_t727, ___m_Transition_4), 227 } ,
+	{ 379, 2160, offsetof(Selectable_t727, ___m_Colors_5), 228 } ,
+	{ 380, 2161, offsetof(Selectable_t727, ___m_SpriteState_6), 229 } ,
+	{ 381, 2162, offsetof(Selectable_t727, ___m_AnimationTriggers_7), 230 } ,
+	{ 382, 30, offsetof(Selectable_t727, ___m_Interactable_8), 231 } ,
+	{ 383, 2163, offsetof(Selectable_t727, ___m_TargetGraphic_9), 232 } ,
+	{ 384, 30, offsetof(Selectable_t727, ___m_GroupsAllowInteraction_10), 0 } ,
+	{ 385, 2164, offsetof(Selectable_t727, ___m_CurrentSelectionState_11), 0 } ,
+	{ 386, 2165, offsetof(Selectable_t727, ___m_CanvasGroupCache_12), 0 } ,
+	{ 387, 30, offsetof(Selectable_t727, ___U3CisPointerInsideU3Ek__BackingField_13), 233 } ,
+	{ 388, 30, offsetof(Selectable_t727, ___U3CisPointerDownU3Ek__BackingField_14), 234 } ,
+	{ 389, 30, offsetof(Selectable_t727, ___U3ChasSelectionU3Ek__BackingField_15), 235 } ,
+	{ 0, 50, offsetof(Direction_t900, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 329, 2174, 0, 0 } ,
+	{ 330, 2174, 0, 0 } ,
+	{ 331, 2174, 0, 0 } ,
+	{ 332, 2174, 0, 0 } ,
+	{ 0, 50, offsetof(Axis_t902, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 222, 2177, 0, 0 } ,
+	{ 223, 2177, 0, 0 } ,
+	{ 390, 1602, offsetof(Slider_t238, ___m_FillRect_16), 244 } ,
+	{ 334, 1602, offsetof(Slider_t238, ___m_HandleRect_17), 245 } ,
+	{ 335, 2180, offsetof(Slider_t238, ___m_Direction_18), 246 } ,
+	{ 391, 488, offsetof(Slider_t238, ___m_MinValue_19), 247 } ,
+	{ 392, 488, offsetof(Slider_t238, ___m_MaxValue_20), 248 } ,
+	{ 393, 30, offsetof(Slider_t238, ___m_WholeNumbers_21), 249 } ,
+	{ 336, 488, offsetof(Slider_t238, ___m_Value_22), 250 } ,
+	{ 339, 2181, offsetof(Slider_t238, ___m_OnValueChanged_23), 251 } ,
+	{ 394, 1625, offsetof(Slider_t238, ___m_FillImage_24), 0 } ,
+	{ 395, 806, offsetof(Slider_t238, ___m_FillTransform_25), 0 } ,
+	{ 396, 1602, offsetof(Slider_t238, ___m_FillContainerRect_26), 0 } ,
+	{ 397, 806, offsetof(Slider_t238, ___m_HandleTransform_27), 0 } ,
+	{ 398, 1602, offsetof(Slider_t238, ___m_HandleContainerRect_28), 0 } ,
+	{ 341, 1068, offsetof(Slider_t238, ___m_Offset_29), 0 } ,
+	{ 342, 2140, offsetof(Slider_t238, ___m_Tracker_30), 0 } ,
+	{ 399, 2061, offsetof(SpriteState_t898, ___m_HighlightedSprite_0) + sizeof(Object_t), 252 } ,
+	{ 400, 2061, offsetof(SpriteState_t898, ___m_PressedSprite_1) + sizeof(Object_t), 253 } ,
+	{ 401, 2061, offsetof(SpriteState_t898, ___m_DisabledSprite_2) + sizeof(Object_t), 254 } ,
+	{ 402, 480, offsetof(MatEntry_t903, ___baseMat_0), 0 } ,
+	{ 403, 480, offsetof(MatEntry_t903, ___customMat_1), 0 } ,
+	{ 404, 546, offsetof(MatEntry_t903, ___count_2), 0 } ,
+	{ 405, 546, offsetof(MatEntry_t903, ___stencilID_3), 0 } ,
+	{ 406, 2185, offsetof(StencilMaterial_t905_StaticFields, ___m_List_0), 0 } ,
+	{ 407, 2187, offsetof(Text_t212, ___m_FontData_23), 256 } ,
+	{ 291, 1429, offsetof(Text_t212, ___m_Text_24), 257 } ,
+	{ 408, 2107, offsetof(Text_t212, ___m_TextCache_25), 0 } ,
+	{ 409, 2107, offsetof(Text_t212, ___m_TextCacheForLayout_26), 0 } ,
+	{ 410, 2017, offsetof(Text_t212_StaticFields, ___s_DefaultText_27), 0 } ,
+	{ 411, 604, offsetof(Text_t212, ___m_DisableFontTextureRebuiltCallback_28), 0 } ,
+	{ 0, 50, offsetof(ToggleTransition_t906, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 58, 2189, 0, 0 } ,
+	{ 412, 2189, 0, 0 } ,
+	{ 413, 2194, offsetof(Toggle_t910, ___toggleTransition_16), 0 } ,
+	{ 414, 864, offsetof(Toggle_t910, ___graphic_17), 0 } ,
+	{ 415, 2195, offsetof(Toggle_t910, ___m_Group_18), 259 } ,
+	{ 416, 2196, offsetof(Toggle_t910, ___onValueChanged_19), 0 } ,
+	{ 417, 30, offsetof(Toggle_t910, ___m_IsOn_20), 260 } ,
+	{ 418, 30, offsetof(ToggleGroup_t909, ___m_AllowSwitchOff_2), 262 } ,
+	{ 419, 2199, offsetof(ToggleGroup_t909, ___m_Toggles_3), 0 } ,
+	{ 131, 2200, offsetof(ToggleGroup_t909_StaticFields, ___U3CU3Ef__amU24cache2_4), 263 } ,
+	{ 420, 2201, offsetof(ToggleGroup_t909_StaticFields, ___U3CU3Ef__amU24cache3_5), 264 } ,
+	{ 0, 50, offsetof(AspectMode_t914, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 58, 2203, 0, 0 } ,
+	{ 421, 2203, 0, 0 } ,
+	{ 422, 2203, 0, 0 } ,
+	{ 423, 2203, 0, 0 } ,
+	{ 424, 2203, 0, 0 } ,
+	{ 425, 2206, offsetof(AspectRatioFitter_t915, ___m_AspectMode_2), 268 } ,
+	{ 426, 488, offsetof(AspectRatioFitter_t915, ___m_AspectRatio_3), 269 } ,
+	{ 427, 2021, offsetof(AspectRatioFitter_t915, ___m_Rect_4), 0 } ,
+	{ 342, 2140, offsetof(AspectRatioFitter_t915, ___m_Tracker_5), 0 } ,
+	{ 0, 50, offsetof(ScaleMode_t916, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 428, 2208, 0, 0 } ,
+	{ 429, 2208, 0, 0 } ,
+	{ 430, 2208, 0, 0 } ,
+	{ 0, 50, offsetof(ScreenMatchMode_t917, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 431, 2212, 0, 0 } ,
+	{ 432, 2212, 0, 0 } ,
+	{ 433, 2212, 0, 0 } ,
+	{ 0, 50, offsetof(Unit_t918, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 434, 2215, 0, 0 } ,
+	{ 435, 2215, 0, 0 } ,
+	{ 436, 2215, 0, 0 } ,
+	{ 437, 2215, 0, 0 } ,
+	{ 438, 2215, 0, 0 } ,
+	{ 439, 1024, 0, 0 } ,
+	{ 440, 2218, offsetof(CanvasScaler_t919, ___m_UiScaleMode_3), 271 } ,
+	{ 441, 2219, offsetof(CanvasScaler_t919, ___m_ReferencePixelsPerUnit_4), 272 } ,
+	{ 442, 2219, offsetof(CanvasScaler_t919, ___m_ScaleFactor_5), 273 } ,
+	{ 443, 2220, offsetof(CanvasScaler_t919, ___m_ReferenceResolution_6), 274 } ,
+	{ 444, 2221, offsetof(CanvasScaler_t919, ___m_ScreenMatchMode_7), 275 } ,
+	{ 445, 2219, offsetof(CanvasScaler_t919, ___m_MatchWidthOrHeight_8), 276 } ,
+	{ 446, 2222, offsetof(CanvasScaler_t919, ___m_PhysicalUnit_9), 277 } ,
+	{ 447, 2219, offsetof(CanvasScaler_t919, ___m_FallbackScreenDPI_10), 278 } ,
+	{ 448, 2219, offsetof(CanvasScaler_t919, ___m_DefaultSpriteDPI_11), 279 } ,
+	{ 449, 2219, offsetof(CanvasScaler_t919, ___m_DynamicPixelsPerUnit_12), 280 } ,
+	{ 200, 856, offsetof(CanvasScaler_t919, ___m_Canvas_13), 0 } ,
+	{ 450, 2223, offsetof(CanvasScaler_t919, ___m_PrevScaleFactor_14), 0 } ,
+	{ 451, 2223, offsetof(CanvasScaler_t919, ___m_PrevReferencePixelsPerUnit_15), 0 } ,
+	{ 0, 50, offsetof(FitMode_t920, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 452, 2225, 0, 0 } ,
+	{ 453, 2225, 0, 0 } ,
+	{ 454, 2225, 0, 0 } ,
+	{ 455, 2228, offsetof(ContentSizeFitter_t921, ___m_HorizontalFit_2), 282 } ,
+	{ 456, 2228, offsetof(ContentSizeFitter_t921, ___m_VerticalFit_3), 283 } ,
+	{ 427, 2021, offsetof(ContentSizeFitter_t921, ___m_Rect_4), 0 } ,
+	{ 342, 2140, offsetof(ContentSizeFitter_t921, ___m_Tracker_5), 0 } ,
+	{ 0, 50, offsetof(Corner_t922, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 457, 2230, 0, 0 } ,
+	{ 458, 2230, 0, 0 } ,
+	{ 459, 2230, 0, 0 } ,
+	{ 460, 2230, 0, 0 } ,
+	{ 0, 50, offsetof(Axis_t923, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 222, 2233, 0, 0 } ,
+	{ 223, 2233, 0, 0 } ,
+	{ 0, 50, offsetof(Constraint_t924, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 461, 2235, 0, 0 } ,
+	{ 462, 2235, 0, 0 } ,
+	{ 463, 2235, 0, 0 } ,
+	{ 464, 2237, offsetof(GridLayoutGroup_t925, ___m_StartCorner_10), 285 } ,
+	{ 465, 2238, offsetof(GridLayoutGroup_t925, ___m_StartAxis_11), 286 } ,
+	{ 466, 2220, offsetof(GridLayoutGroup_t925, ___m_CellSize_12), 287 } ,
+	{ 467, 2220, offsetof(GridLayoutGroup_t925, ___m_Spacing_13), 288 } ,
+	{ 468, 2239, offsetof(GridLayoutGroup_t925, ___m_Constraint_14), 289 } ,
+	{ 469, 2105, offsetof(GridLayoutGroup_t925, ___m_ConstraintCount_15), 290 } ,
+	{ 467, 2219, offsetof(HorizontalOrVerticalLayoutGroup_t928, ___m_Spacing_10), 292 } ,
+	{ 470, 1428, offsetof(HorizontalOrVerticalLayoutGroup_t928, ___m_ChildForceExpandWidth_11), 293 } ,
+	{ 471, 1428, offsetof(HorizontalOrVerticalLayoutGroup_t928, ___m_ChildForceExpandHeight_12), 294 } ,
+	{ 472, 30, offsetof(LayoutElement_t929, ___m_IgnoreLayout_2), 296 } ,
+	{ 473, 488, offsetof(LayoutElement_t929, ___m_MinWidth_3), 297 } ,
+	{ 474, 488, offsetof(LayoutElement_t929, ___m_MinHeight_4), 298 } ,
+	{ 475, 488, offsetof(LayoutElement_t929, ___m_PreferredWidth_5), 299 } ,
+	{ 476, 488, offsetof(LayoutElement_t929, ___m_PreferredHeight_6), 300 } ,
+	{ 477, 488, offsetof(LayoutElement_t929, ___m_FlexibleWidth_7), 301 } ,
+	{ 478, 488, offsetof(LayoutElement_t929, ___m_FlexibleHeight_8), 302 } ,
+	{ 479, 2254, offsetof(LayoutGroup_t926, ___m_Padding_2), 304 } ,
+	{ 480, 2255, offsetof(LayoutGroup_t926, ___m_ChildAlignment_3), 305 } ,
+	{ 427, 2021, offsetof(LayoutGroup_t926, ___m_Rect_4), 0 } ,
+	{ 342, 2256, offsetof(LayoutGroup_t926, ___m_Tracker_5), 0 } ,
+	{ 481, 1068, offsetof(LayoutGroup_t926, ___m_TotalMinSize_6), 0 } ,
+	{ 482, 1068, offsetof(LayoutGroup_t926, ___m_TotalPreferredSize_7), 0 } ,
+	{ 483, 1068, offsetof(LayoutGroup_t926, ___m_TotalFlexibleSize_8), 0 } ,
+	{ 484, 2257, offsetof(LayoutGroup_t926, ___m_RectChildren_9), 0 } ,
+	{ 485, 2259, offsetof(LayoutRebuilder_t933, ___m_ToRebuild_0) + sizeof(Object_t), 0 } ,
+	{ 486, 2260, offsetof(LayoutRebuilder_t933, ___m_CachedHashFromTransform_1) + sizeof(Object_t), 0 } ,
+	{ 131, 2261, offsetof(LayoutRebuilder_t933_StaticFields, ___U3CU3Ef__amU24cache2_2), 306 } ,
+	{ 420, 2261, offsetof(LayoutRebuilder_t933_StaticFields, ___U3CU3Ef__amU24cache3_3), 307 } ,
+	{ 487, 2261, offsetof(LayoutRebuilder_t933_StaticFields, ___U3CU3Ef__amU24cache4_4), 308 } ,
+	{ 488, 2261, offsetof(LayoutRebuilder_t933_StaticFields, ___U3CU3Ef__amU24cache5_5), 309 } ,
+	{ 173, 2262, offsetof(LayoutRebuilder_t933_StaticFields, ___U3CU3Ef__amU24cache6_6), 310 } ,
+	{ 489, 2266, offsetof(LayoutUtility_t935_StaticFields, ___U3CU3Ef__amU24cache0_0), 316 } ,
+	{ 490, 2266, offsetof(LayoutUtility_t935_StaticFields, ___U3CU3Ef__amU24cache1_1), 317 } ,
+	{ 131, 2266, offsetof(LayoutUtility_t935_StaticFields, ___U3CU3Ef__amU24cache2_2), 318 } ,
+	{ 420, 2266, offsetof(LayoutUtility_t935_StaticFields, ___U3CU3Ef__amU24cache3_3), 319 } ,
+	{ 487, 2266, offsetof(LayoutUtility_t935_StaticFields, ___U3CU3Ef__amU24cache4_4), 320 } ,
+	{ 488, 2266, offsetof(LayoutUtility_t935_StaticFields, ___U3CU3Ef__amU24cache5_5), 321 } ,
+	{ 173, 2266, offsetof(LayoutUtility_t935_StaticFields, ___U3CU3Ef__amU24cache6_6), 322 } ,
+	{ 174, 2266, offsetof(LayoutUtility_t935_StaticFields, ___U3CU3Ef__amU24cache7_7), 323 } ,
+	{ 491, 30, offsetof(Mask_t937, ___m_ShowMaskGraphic_2), 334 } ,
+	{ 492, 1624, offsetof(Mask_t937, ___m_RenderMaterial_3), 0 } ,
+	{ 493, 2163, offsetof(Mask_t937, ___m_Graphic_4), 0 } ,
+	{ 198, 1602, offsetof(Mask_t937, ___m_RectTransform_5), 0 } ,
+	{ 406, 2278, 0, 0 } ,
+	{ 494, 2279, 0, 0 } ,
+	{ 495, 2287, offsetof(CanvasListPool_t940_StaticFields, ___s_CanvasListPool_0), 0 } ,
+	{ 490, 2288, offsetof(CanvasListPool_t940_StaticFields, ___U3CU3Ef__amU24cache1_1), 336 } ,
+	{ 496, 2290, offsetof(ComponentListPool_t943_StaticFields, ___s_ComponentListPool_0), 0 } ,
+	{ 490, 2291, offsetof(ComponentListPool_t943_StaticFields, ___U3CU3Ef__amU24cache1_1), 338 } ,
+	{ 497, 2295, 0, 0 } ,
+	{ 498, 2296, 0, 0 } ,
+	{ 499, 2296, 0, 0 } ,
+	{ 500, 44, 0, 340 } ,
+	{ 493, 2300, offsetof(BaseVertexEffect_t944, ___m_Graphic_2), 0 } ,
+	{ 501, 912, offsetof(Shadow_t946, ___m_EffectColor_3), 347 } ,
+	{ 502, 1068, offsetof(Shadow_t946, ___m_EffectDistance_4), 348 } ,
+	{ 503, 30, offsetof(Shadow_t946, ___m_UseGraphicAlpha_5), 349 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-static const Il2CppFieldDefaultValue s_DefaultValues[149] = 
+static const Il2CppFieldDefaultValue s_DefaultValues[167] = 
 {
-	{ 15, 14, 0 },
-	{ 16, 14, 4 },
-	{ 17, 14, 8 },
-	{ 18, 14, 12 },
-	{ 19, 14, 16 },
-	{ 20, 14, 20 },
-	{ 21, 14, 24 },
-	{ 22, 14, 28 },
-	{ 23, 14, 32 },
-	{ 24, 14, 36 },
-	{ 25, 14, 40 },
-	{ 26, 14, 44 },
-	{ 27, 14, 48 },
-	{ 28, 14, 52 },
-	{ 29, 14, 56 },
-	{ 30, 14, 60 },
-	{ 31, 14, 64 },
-	{ 53, 14, 68 },
-	{ 54, 14, 72 },
-	{ 55, 14, 76 },
-	{ 56, 14, 80 },
-	{ 57, 14, 84 },
-	{ 73, 14, 88 },
-	{ 74, 14, 92 },
-	{ 75, 14, 96 },
+	{ 1, 14, 0 },
+	{ 2, 14, 4 },
+	{ 18, 14, 8 },
+	{ 19, 14, 12 },
+	{ 20, 14, 16 },
+	{ 21, 14, 20 },
+	{ 22, 14, 24 },
+	{ 23, 14, 28 },
+	{ 24, 14, 32 },
+	{ 25, 14, 36 },
+	{ 26, 14, 40 },
+	{ 27, 14, 44 },
+	{ 28, 14, 48 },
+	{ 29, 14, 52 },
+	{ 30, 14, 56 },
+	{ 31, 14, 60 },
+	{ 32, 14, 64 },
+	{ 33, 14, 68 },
+	{ 34, 14, 72 },
+	{ 56, 14, 76 },
+	{ 57, 14, 80 },
+	{ 58, 14, 84 },
+	{ 59, 14, 88 },
+	{ 60, 14, 92 },
+	{ 76, 14, 96 },
 	{ 77, 14, 100 },
 	{ 78, 14, 104 },
-	{ 79, 14, 108 },
-	{ 80, 14, 112 },
-	{ 109, 14, 116 },
-	{ 110, 14, 120 },
-	{ 111, 14, 124 },
-	{ 112, 14, 128 },
+	{ 80, 14, 108 },
+	{ 81, 14, 112 },
+	{ 82, 14, 116 },
+	{ 83, 14, 120 },
+	{ 114, 14, 124 },
+	{ 115, 14, 128 },
 	{ 116, 14, 132 },
 	{ 117, 14, 136 },
-	{ 133, 14, 140 },
-	{ 138, 14, 144 },
-	{ 139, 14, 148 },
-	{ 140, 14, 152 },
-	{ 155, 1, 156 },
-	{ 156, 1, 166 },
-	{ 157, 1, 181 },
-	{ 158, 1, 192 },
-	{ 170, 14, 204 },
-	{ 171, 14, 208 },
-	{ 172, 14, 212 },
-	{ 173, 14, 216 },
-	{ 174, 14, 220 },
-	{ 175, 14, 224 },
-	{ 219, 14, 228 },
-	{ 220, 14, 232 },
-	{ 221, 14, 236 },
-	{ 222, 14, 240 },
-	{ 223, 14, 244 },
-	{ 235, 14, 248 },
-	{ 236, 14, 252 },
-	{ 237, 14, 256 },
-	{ 238, 14, 260 },
-	{ 240, 14, 264 },
-	{ 241, 14, 268 },
-	{ 242, 14, 272 },
-	{ 243, 14, 276 },
-	{ 244, 14, 280 },
-	{ 260, 14, 284 },
-	{ 261, 14, 288 },
-	{ 262, 14, 292 },
-	{ 263, 14, 296 },
-	{ 264, 14, 300 },
-	{ 265, 14, 304 },
-	{ 266, 14, 308 },
-	{ 267, 14, 312 },
-	{ 268, 14, 316 },
-	{ 269, 14, 320 },
-	{ 271, 14, 324 },
-	{ 272, 14, 328 },
-	{ 273, 14, 332 },
-	{ 275, 14, 336 },
-	{ 276, 14, 340 },
-	{ 277, 14, 344 },
-	{ 278, 14, 348 },
-	{ 279, 14, 352 },
-	{ 280, 14, 356 },
-	{ 282, 14, 360 },
-	{ 283, 14, 364 },
-	{ 284, 14, 368 },
-	{ 286, 14, 372 },
-	{ 287, 14, 376 },
-	{ 301, 135, 380 },
-	{ 302, 135, 384 },
-	{ 303, 1, 388 },
-	{ 350, 14, 411 },
-	{ 351, 14, 415 },
-	{ 352, 14, 419 },
-	{ 353, 14, 423 },
-	{ 354, 14, 427 },
-	{ 363, 14, 431 },
-	{ 364, 14, 435 },
-	{ 365, 14, 439 },
-	{ 366, 14, 443 },
-	{ 368, 14, 447 },
-	{ 369, 14, 451 },
-	{ 389, 14, 455 },
-	{ 390, 14, 459 },
-	{ 391, 14, 463 },
-	{ 416, 14, 467 },
-	{ 417, 14, 471 },
-	{ 418, 14, 475 },
-	{ 419, 14, 479 },
-	{ 421, 14, 483 },
-	{ 422, 14, 487 },
-	{ 423, 14, 491 },
-	{ 424, 14, 495 },
-	{ 440, 14, 499 },
-	{ 441, 14, 503 },
-	{ 442, 14, 507 },
-	{ 443, 14, 511 },
-	{ 445, 14, 515 },
-	{ 446, 14, 519 },
-	{ 477, 14, 523 },
-	{ 478, 14, 527 },
-	{ 489, 14, 531 },
-	{ 490, 14, 535 },
-	{ 491, 14, 539 },
-	{ 492, 14, 543 },
-	{ 493, 14, 547 },
-	{ 499, 14, 551 },
-	{ 500, 14, 555 },
-	{ 501, 14, 559 },
-	{ 503, 14, 563 },
-	{ 504, 14, 567 },
-	{ 505, 14, 571 },
-	{ 507, 14, 575 },
-	{ 508, 14, 579 },
-	{ 509, 14, 583 },
-	{ 510, 14, 587 },
-	{ 511, 14, 591 },
-	{ 512, 135, 595 },
-	{ 527, 14, 599 },
-	{ 528, 14, 603 },
-	{ 529, 14, 607 },
-	{ 535, 14, 611 },
-	{ 536, 14, 615 },
-	{ 537, 14, 619 },
-	{ 538, 14, 623 },
-	{ 540, 14, 627 },
-	{ 541, 14, 631 },
-	{ 543, 14, 635 },
-	{ 544, 14, 639 },
-	{ 545, 14, 643 },
+	{ 121, 14, 140 },
+	{ 122, 14, 144 },
+	{ 138, 14, 148 },
+	{ 143, 14, 152 },
+	{ 144, 14, 156 },
+	{ 145, 14, 160 },
+	{ 160, 1, 164 },
+	{ 161, 1, 174 },
+	{ 162, 1, 189 },
+	{ 163, 1, 200 },
+	{ 175, 14, 212 },
+	{ 176, 14, 216 },
+	{ 177, 14, 220 },
+	{ 178, 14, 224 },
+	{ 179, 14, 228 },
+	{ 180, 14, 232 },
+	{ 224, 14, 236 },
+	{ 225, 14, 240 },
+	{ 226, 14, 244 },
+	{ 227, 14, 248 },
+	{ 228, 14, 252 },
+	{ 240, 14, 256 },
+	{ 241, 14, 260 },
+	{ 242, 14, 264 },
+	{ 243, 14, 268 },
+	{ 245, 14, 272 },
+	{ 246, 14, 276 },
+	{ 247, 14, 280 },
+	{ 248, 14, 284 },
+	{ 249, 14, 288 },
+	{ 251, 14, 292 },
+	{ 252, 14, 296 },
+	{ 254, 14, 300 },
+	{ 255, 14, 304 },
+	{ 257, 14, 308 },
+	{ 258, 14, 312 },
+	{ 259, 14, 316 },
+	{ 260, 14, 320 },
+	{ 262, 14, 324 },
+	{ 263, 14, 328 },
+	{ 264, 14, 332 },
+	{ 265, 14, 336 },
+	{ 267, 14, 340 },
+	{ 268, 14, 344 },
+	{ 269, 14, 348 },
+	{ 270, 14, 352 },
+	{ 286, 14, 356 },
+	{ 287, 14, 360 },
+	{ 288, 14, 364 },
+	{ 289, 14, 368 },
+	{ 290, 14, 372 },
+	{ 291, 14, 376 },
+	{ 292, 14, 380 },
+	{ 293, 14, 384 },
+	{ 294, 14, 388 },
+	{ 295, 14, 392 },
+	{ 297, 14, 396 },
+	{ 298, 14, 400 },
+	{ 299, 14, 404 },
+	{ 301, 14, 408 },
+	{ 302, 14, 412 },
+	{ 303, 14, 416 },
+	{ 304, 14, 420 },
+	{ 305, 14, 424 },
+	{ 306, 14, 428 },
+	{ 308, 14, 432 },
+	{ 309, 14, 436 },
+	{ 310, 14, 440 },
+	{ 312, 14, 444 },
+	{ 313, 14, 448 },
+	{ 327, 135, 452 },
+	{ 328, 135, 456 },
+	{ 329, 1, 460 },
+	{ 376, 14, 483 },
+	{ 377, 14, 487 },
+	{ 378, 14, 491 },
+	{ 379, 14, 495 },
+	{ 380, 14, 499 },
+	{ 389, 14, 503 },
+	{ 390, 14, 507 },
+	{ 391, 14, 511 },
+	{ 392, 14, 515 },
+	{ 394, 14, 519 },
+	{ 395, 14, 523 },
+	{ 415, 14, 527 },
+	{ 416, 14, 531 },
+	{ 417, 14, 535 },
+	{ 442, 14, 539 },
+	{ 443, 14, 543 },
+	{ 444, 14, 547 },
+	{ 445, 14, 551 },
+	{ 447, 14, 555 },
+	{ 448, 14, 559 },
+	{ 449, 14, 563 },
+	{ 450, 14, 567 },
+	{ 466, 14, 571 },
+	{ 467, 14, 575 },
+	{ 468, 14, 579 },
+	{ 469, 14, 583 },
+	{ 471, 14, 587 },
+	{ 472, 14, 591 },
+	{ 503, 14, 595 },
+	{ 504, 14, 599 },
+	{ 515, 14, 603 },
+	{ 516, 14, 607 },
+	{ 517, 14, 611 },
+	{ 518, 14, 615 },
+	{ 519, 14, 619 },
+	{ 525, 14, 623 },
+	{ 526, 14, 627 },
+	{ 527, 14, 631 },
+	{ 529, 14, 635 },
+	{ 530, 14, 639 },
+	{ 531, 14, 643 },
+	{ 533, 14, 647 },
+	{ 534, 14, 651 },
+	{ 535, 14, 655 },
+	{ 536, 14, 659 },
+	{ 537, 14, 663 },
+	{ 538, 135, 667 },
+	{ 553, 14, 671 },
+	{ 554, 14, 675 },
+	{ 555, 14, 679 },
+	{ 561, 14, 683 },
+	{ 562, 14, 687 },
+	{ 563, 14, 691 },
+	{ 564, 14, 695 },
+	{ 566, 14, 699 },
+	{ 567, 14, 703 },
+	{ 569, 14, 707 },
+	{ 570, 14, 711 },
+	{ 571, 14, 715 },
 };
-static const uint8_t s_DefaultValueDataTable[647] = 
+static const uint8_t s_DefaultValueDataTable[719] = 
 {
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
 	0x00,
 	0x00,
 	0x00,
@@ -2093,6 +2179,70 @@ static const uint8_t s_DefaultValueDataTable[647] =
 	0x00,
 	0x00,
 	0x04,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x00,
+	0x01,
+	0x00,
+	0x00,
+	0x00,
+	0x02,
+	0x00,
+	0x00,
+	0x00,
+	0x03,
 	0x00,
 	0x00,
 	0x00,
@@ -2465,17 +2615,17 @@ Il2CppImage g_UnityEngine_UI_dll_Image =
 	 "UnityEngine.UI.dll" ,
 	&g_UnityEngine_UI_Assembly,
 	g_UnityEngine_UI_Assembly_Types,
-	147,
+	153,
 	NULL,
 	s_StringTable,
-	494,
+	504,
 	s_FieldTable,
-	603,
+	629,
 	s_DefaultValues,
-	149,
+	167,
 	s_DefaultValueDataTable,
-	647,
-	334,
+	719,
+	350,
 	NULL,
 	g_UnityEngine_UI_Assembly_AttributeGenerators,
 };

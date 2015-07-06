@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.Toggle
-struct Toggle_t927;
+struct Toggle_t1251;
 

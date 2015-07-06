@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdWhitespaceFacet
-struct XsdWhitespaceFacet_t2245;
+struct XsdWhitespaceFacet_t3629;
 

@@ -5,7 +5,7 @@ struct ObjectU5BU5D_t21;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Stack`1<System.Object>
-struct  Stack_1_t5109  : public Object_t
+struct  Stack_1_t6197  : public Object_t
 {
 	// T[] System.Collections.Generic.Stack`1<System.Object>::_array
 	ObjectU5BU5D_t21* ____array_1;

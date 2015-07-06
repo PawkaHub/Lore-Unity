@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Activation.ContextLevelActivator
-struct ContextLevelActivator_t4074;
+struct ContextLevelActivator_t5164;
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t4070;
+struct IActivator_t5160;
 
 // System.Void System.Runtime.Remoting.Activation.ContextLevelActivator::.ctor(System.Runtime.Remoting.Activation.IActivator)
-extern "C" void ContextLevelActivator__ctor_m19654 (ContextLevelActivator_t4074 * __this, Object_t * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContextLevelActivator__ctor_m20960 (ContextLevelActivator_t5164 * __this, Object_t * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -7,7 +7,7 @@ struct Dictionary_2_t523;
 // System.Collections.Generic.KeyValuePair`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>
-struct  Enumerator_t5154 
+struct  Enumerator_t6242 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::dictionary
 	Dictionary_2_t523 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t5154
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::current
-	KeyValuePair_2_t5159  ___current_3;
+	KeyValuePair_2_t6247  ___current_3;
 };

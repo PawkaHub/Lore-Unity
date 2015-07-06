@@ -142,16 +142,16 @@ static const MethodInfo* FFCloudFlow_t46_MethodInfos[] =
 	&FFCloudFlow_Update_m166_MethodInfo,
 	NULL
 };
-extern const MethodInfo Object_Equals_m3345_MethodInfo;
+extern const MethodInfo Object_Equals_m3477_MethodInfo;
 extern const MethodInfo Object_Finalize_m127_MethodInfo;
-extern const MethodInfo Object_GetHashCode_m3346_MethodInfo;
-extern const MethodInfo Object_ToString_m3347_MethodInfo;
+extern const MethodInfo Object_GetHashCode_m3478_MethodInfo;
+extern const MethodInfo Object_ToString_m3479_MethodInfo;
 static const Il2CppMethodReference FFCloudFlow_t46_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FFCloudFlow_t46_VTableIsGenericMethod[] =
 {
@@ -530,10 +530,10 @@ static const MethodInfo* FFController_t50_MethodInfos[] =
 };
 static const Il2CppMethodReference FFController_t50_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FFController_t50_VTableIsGenericMethod[] =
 {
@@ -893,10 +893,10 @@ static const Il2CppType* FFFloatObject_t52_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference FFFloatObject_t52_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FFFloatObject_t52_VTableIsGenericMethod[] =
 {
@@ -1059,10 +1059,10 @@ static const MethodInfo* FFFollowObject_t55_MethodInfos[] =
 };
 static const Il2CppMethodReference FFFollowObject_t55_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FFFollowObject_t55_VTableIsGenericMethod[] =
 {
@@ -1286,18 +1286,18 @@ extern const MethodInfo FFOrbitCamera_CalculateDesiredPosition_m190_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo FFOrbitCamera_t57_FFOrbitCamera_CalculatePosition_m191_ParameterInfos[] = 
 {
-	{"rotationX", 0, 134217733, 0, &Single_t583_0_0_0},
-	{"rotationY", 1, 134217734, 0, &Single_t583_0_0_0},
-	{"distance", 2, 134217735, 0, &Single_t583_0_0_0},
+	{"rotationX", 0, 134217733, 0, &Single_t604_0_0_0},
+	{"rotationY", 1, 134217734, 0, &Single_t604_0_0_0},
+	{"distance", 2, 134217735, 0, &Single_t604_0_0_0},
 };
 extern const Il2CppType Vector3_t53_0_0_0;
-extern void* RuntimeInvoker_Vector3_t53_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 FFOrbitCamera::CalculatePosition(System.Single,System.Single,System.Single)
 extern const MethodInfo FFOrbitCamera_CalculatePosition_m191_MethodInfo = 
 {
@@ -1305,7 +1305,7 @@ extern const MethodInfo FFOrbitCamera_CalculatePosition_m191_MethodInfo =
 	, (methodPointerType)&FFOrbitCamera_CalculatePosition_m191/* method */
 	, &FFOrbitCamera_t57_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, FFOrbitCamera_t57_FFOrbitCamera_CalculatePosition_m191_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -1366,24 +1366,24 @@ extern const MethodInfo FFOrbitCamera_Reset_m193_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo FFOrbitCamera_t57_FFOrbitCamera_ClampAngle_m194_ParameterInfos[] = 
 {
-	{"angle", 0, 134217736, 0, &Single_t583_0_0_0},
-	{"min", 1, 134217737, 0, &Single_t583_0_0_0},
-	{"max", 2, 134217738, 0, &Single_t583_0_0_0},
+	{"angle", 0, 134217736, 0, &Single_t604_0_0_0},
+	{"min", 1, 134217737, 0, &Single_t604_0_0_0},
+	{"max", 2, 134217738, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single FFOrbitCamera::ClampAngle(System.Single,System.Single,System.Single)
 extern const MethodInfo FFOrbitCamera_ClampAngle_m194_MethodInfo = 
 {
 	"ClampAngle"/* name */
 	, (methodPointerType)&FFOrbitCamera_ClampAngle_m194/* method */
 	, &FFOrbitCamera_t57_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, FFOrbitCamera_t57_FFOrbitCamera_ClampAngle_m194_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -1414,10 +1414,10 @@ static const MethodInfo* FFOrbitCamera_t57_MethodInfos[] =
 };
 static const Il2CppMethodReference FFOrbitCamera_t57_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FFOrbitCamera_t57_VTableIsGenericMethod[] =
 {
@@ -1605,10 +1605,10 @@ static const MethodInfo* FFRandomMoveOnTerrain_t59_MethodInfos[] =
 };
 static const Il2CppMethodReference FFRandomMoveOnTerrain_t59_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FFRandomMoveOnTerrain_t59_VTableIsGenericMethod[] =
 {
@@ -1849,10 +1849,10 @@ static const MethodInfo* FFTestParticles_t61_MethodInfos[] =
 };
 static const Il2CppMethodReference FFTestParticles_t61_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FFTestParticles_t61_VTableIsGenericMethod[] =
 {
@@ -1992,10 +1992,10 @@ static const MethodInfo* FFWaterFlow_t62_MethodInfos[] =
 };
 static const Il2CppMethodReference FFWaterFlow_t62_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FFWaterFlow_t62_VTableIsGenericMethod[] =
 {
@@ -2665,12 +2665,12 @@ extern const MethodInfo PlaygroundSpline_get_NodeCount_m228_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundSpline_t67_PlaygroundSpline_GetPoint_m229_ParameterInfos[] = 
 {
-	{"t", 0, 134217757, 0, &Single_t583_0_0_0},
+	{"t", 0, 134217757, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 PlaygroundSplines.PlaygroundSpline::GetPoint(System.Single)
 extern const MethodInfo PlaygroundSpline_GetPoint_m229_MethodInfo = 
 {
@@ -2678,7 +2678,7 @@ extern const MethodInfo PlaygroundSpline_GetPoint_m229_MethodInfo =
 	, (methodPointerType)&PlaygroundSpline_GetPoint_m229/* method */
 	, &PlaygroundSpline_t67_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Single_t604/* invoker_method */
 	, PlaygroundSpline_t67_PlaygroundSpline_GetPoint_m229_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -2693,12 +2693,12 @@ extern const MethodInfo PlaygroundSpline_GetPoint_m229_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundSpline_t67_PlaygroundSpline_GetVelocity_m230_ParameterInfos[] = 
 {
-	{"t", 0, 134217758, 0, &Single_t583_0_0_0},
+	{"t", 0, 134217758, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 PlaygroundSplines.PlaygroundSpline::GetVelocity(System.Single)
 extern const MethodInfo PlaygroundSpline_GetVelocity_m230_MethodInfo = 
 {
@@ -2706,7 +2706,7 @@ extern const MethodInfo PlaygroundSpline_GetVelocity_m230_MethodInfo =
 	, (methodPointerType)&PlaygroundSpline_GetVelocity_m230/* method */
 	, &PlaygroundSpline_t67_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Single_t604/* invoker_method */
 	, PlaygroundSpline_t67_PlaygroundSpline_GetVelocity_m230_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -2866,25 +2866,25 @@ extern const MethodInfo PlaygroundSpline_TranslatePoint_m235_MethodInfo =
 
 };
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 static const ParameterInfo PlaygroundSpline_t67_PlaygroundSpline_CPOB_m236_ParameterInfos[] = 
 {
 	{"aP", 0, 134217766, 0, &Vector3_t53_0_0_0},
-	{"aStart", 1, 134217767, 0, &Single_t583_0_0_0},
-	{"aEnd", 2, 134217768, 0, &Single_t583_0_0_0},
+	{"aStart", 1, 134217767, 0, &Single_t604_0_0_0},
+	{"aEnd", 2, 134217768, 0, &Single_t604_0_0_0},
 	{"aSteps", 3, 134217769, 0, &Int32_t29_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Vector3_t53_Single_t583_Single_t583_Int32_t29 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Vector3_t53_Single_t604_Single_t604_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Single PlaygroundSplines.PlaygroundSpline::CPOB(UnityEngine.Vector3,System.Single,System.Single,System.Int32)
 extern const MethodInfo PlaygroundSpline_CPOB_m236_MethodInfo = 
 {
 	"CPOB"/* name */
 	, (methodPointerType)&PlaygroundSpline_CPOB_m236/* method */
 	, &PlaygroundSpline_t67_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Vector3_t53_Single_t583_Single_t583_Int32_t29/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Vector3_t53_Single_t604_Single_t604_Int32_t29/* invoker_method */
 	, PlaygroundSpline_t67_PlaygroundSpline_CPOB_m236_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -2904,15 +2904,15 @@ static const ParameterInfo PlaygroundSpline_t67_PlaygroundSpline_ClosestTimeFrom
 {
 	{"aP", 0, 134217770, 0, &Vector3_t53_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
 // System.Single PlaygroundSplines.PlaygroundSpline::ClosestTimeFromPoint(UnityEngine.Vector3)
 extern const MethodInfo PlaygroundSpline_ClosestTimeFromPoint_m237_MethodInfo = 
 {
 	"ClosestTimeFromPoint"/* name */
 	, (methodPointerType)&PlaygroundSpline_ClosestTimeFromPoint_m237/* method */
 	, &PlaygroundSpline_t67_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Vector3_t53/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Vector3_t53/* invoker_method */
 	, PlaygroundSpline_t67_PlaygroundSpline_ClosestTimeFromPoint_m237_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -2955,12 +2955,12 @@ extern const MethodInfo PlaygroundSpline_ClosestPointFromPosition_m238_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundSpline_t67_PlaygroundSpline_GetDirection_m239_ParameterInfos[] = 
 {
-	{"t", 0, 134217772, 0, &Single_t583_0_0_0},
+	{"t", 0, 134217772, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 PlaygroundSplines.PlaygroundSpline::GetDirection(System.Single)
 extern const MethodInfo PlaygroundSpline_GetDirection_m239_MethodInfo = 
 {
@@ -2968,7 +2968,7 @@ extern const MethodInfo PlaygroundSpline_GetDirection_m239_MethodInfo =
 	, (methodPointerType)&PlaygroundSpline_GetDirection_m239/* method */
 	, &PlaygroundSpline_t67_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Single_t604/* invoker_method */
 	, PlaygroundSpline_t67_PlaygroundSpline_GetDirection_m239_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -3393,10 +3393,10 @@ static const PropertyInfo* PlaygroundSpline_t67_PropertyInfos[] =
 };
 static const Il2CppMethodReference PlaygroundSpline_t67_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PlaygroundSpline_t67_VTableIsGenericMethod[] =
 {
@@ -3485,15 +3485,15 @@ extern TypeInfo Bezier_t70_il2cpp_TypeInfo;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Bezier_t70_Bezier_GetPoint_m253_ParameterInfos[] = 
 {
 	{"p0", 0, 134217777, 0, &Vector3_t53_0_0_0},
 	{"p1", 1, 134217778, 0, &Vector3_t53_0_0_0},
 	{"p2", 2, 134217779, 0, &Vector3_t53_0_0_0},
-	{"t", 3, 134217780, 0, &Single_t583_0_0_0},
+	{"t", 3, 134217780, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 PlaygroundSplines.Bezier::GetPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern const MethodInfo Bezier_GetPoint_m253_MethodInfo = 
 {
@@ -3501,7 +3501,7 @@ extern const MethodInfo Bezier_GetPoint_m253_MethodInfo =
 	, (methodPointerType)&Bezier_GetPoint_m253/* method */
 	, &Bezier_t70_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t604/* invoker_method */
 	, Bezier_t70_Bezier_GetPoint_m253_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -3519,15 +3519,15 @@ extern const MethodInfo Bezier_GetPoint_m253_MethodInfo =
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Bezier_t70_Bezier_GetFirstDerivative_m254_ParameterInfos[] = 
 {
 	{"p0", 0, 134217781, 0, &Vector3_t53_0_0_0},
 	{"p1", 1, 134217782, 0, &Vector3_t53_0_0_0},
 	{"p2", 2, 134217783, 0, &Vector3_t53_0_0_0},
-	{"t", 3, 134217784, 0, &Single_t583_0_0_0},
+	{"t", 3, 134217784, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 PlaygroundSplines.Bezier::GetFirstDerivative(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern const MethodInfo Bezier_GetFirstDerivative_m254_MethodInfo = 
 {
@@ -3535,7 +3535,7 @@ extern const MethodInfo Bezier_GetFirstDerivative_m254_MethodInfo =
 	, (methodPointerType)&Bezier_GetFirstDerivative_m254/* method */
 	, &Bezier_t70_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t604/* invoker_method */
 	, Bezier_t70_Bezier_GetFirstDerivative_m254_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -3554,16 +3554,16 @@ extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Bezier_t70_Bezier_GetPoint_m255_ParameterInfos[] = 
 {
 	{"p0", 0, 134217785, 0, &Vector3_t53_0_0_0},
 	{"p1", 1, 134217786, 0, &Vector3_t53_0_0_0},
 	{"p2", 2, 134217787, 0, &Vector3_t53_0_0_0},
 	{"p3", 3, 134217788, 0, &Vector3_t53_0_0_0},
-	{"t", 4, 134217789, 0, &Single_t583_0_0_0},
+	{"t", 4, 134217789, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 PlaygroundSplines.Bezier::GetPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern const MethodInfo Bezier_GetPoint_m255_MethodInfo = 
 {
@@ -3571,7 +3571,7 @@ extern const MethodInfo Bezier_GetPoint_m255_MethodInfo =
 	, (methodPointerType)&Bezier_GetPoint_m255/* method */
 	, &Bezier_t70_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t604/* invoker_method */
 	, Bezier_t70_Bezier_GetPoint_m255_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -3590,16 +3590,16 @@ extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Bezier_t70_Bezier_GetFirstDerivative_m256_ParameterInfos[] = 
 {
 	{"p0", 0, 134217790, 0, &Vector3_t53_0_0_0},
 	{"p1", 1, 134217791, 0, &Vector3_t53_0_0_0},
 	{"p2", 2, 134217792, 0, &Vector3_t53_0_0_0},
 	{"p3", 3, 134217793, 0, &Vector3_t53_0_0_0},
-	{"t", 4, 134217794, 0, &Single_t583_0_0_0},
+	{"t", 4, 134217794, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 PlaygroundSplines.Bezier::GetFirstDerivative(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern const MethodInfo Bezier_GetFirstDerivative_m256_MethodInfo = 
 {
@@ -3607,7 +3607,7 @@ extern const MethodInfo Bezier_GetFirstDerivative_m256_MethodInfo =
 	, (methodPointerType)&Bezier_GetFirstDerivative_m256/* method */
 	, &Bezier_t70_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Vector3_t53_Single_t604/* invoker_method */
 	, Bezier_t70_Bezier_GetFirstDerivative_m256_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -4338,7 +4338,7 @@ extern const MethodInfo U3CInitializePlaygroundU3Ec__Iterator0_System_Collection
 	, 44/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -4407,7 +4407,7 @@ extern const MethodInfo U3CInitializePlaygroundU3Ec__Iterator0_Dispose_m269_Meth
 	, 46/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -4430,7 +4430,7 @@ extern const MethodInfo U3CInitializePlaygroundU3Ec__Iterator0_Reset_m270_Method
 	, 47/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -4479,8 +4479,8 @@ static const PropertyInfo* U3CInitializePlaygroundU3Ec__Iterator0_t76_PropertyIn
 	NULL
 };
 extern const MethodInfo U3CInitializePlaygroundU3Ec__Iterator0_MoveNext_m268_MethodInfo;
-extern const MethodInfo U3CInitializePlaygroundU3Ec__Iterator0_Dispose_m269_MethodInfo;
 extern const MethodInfo U3CInitializePlaygroundU3Ec__Iterator0_Reset_m270_MethodInfo;
+extern const MethodInfo U3CInitializePlaygroundU3Ec__Iterator0_Dispose_m269_MethodInfo;
 static const Il2CppMethodReference U3CInitializePlaygroundU3Ec__Iterator0_t76_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -4489,9 +4489,9 @@ static const Il2CppMethodReference U3CInitializePlaygroundU3Ec__Iterator0_t76_VT
 	&Object_ToString_m129_MethodInfo,
 	&U3CInitializePlaygroundU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m267_MethodInfo,
 	&U3CInitializePlaygroundU3Ec__Iterator0_MoveNext_m268_MethodInfo,
+	&U3CInitializePlaygroundU3Ec__Iterator0_Reset_m270_MethodInfo,
 	&U3CInitializePlaygroundU3Ec__Iterator0_Dispose_m269_MethodInfo,
 	&U3CInitializePlaygroundU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m266_MethodInfo,
-	&U3CInitializePlaygroundU3Ec__Iterator0_Reset_m270_MethodInfo,
 };
 static bool U3CInitializePlaygroundU3Ec__Iterator0_t76_VTableIsGenericMethod[] =
 {
@@ -4506,19 +4506,19 @@ static bool U3CInitializePlaygroundU3Ec__Iterator0_t76_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType IEnumerator_t74_0_0_0;
-extern const Il2CppType IDisposable_t567_0_0_0;
-extern const Il2CppType IEnumerator_1_t718_0_0_0;
+extern const Il2CppType IDisposable_t588_0_0_0;
+extern const Il2CppType IEnumerator_1_t744_0_0_0;
 static const Il2CppType* U3CInitializePlaygroundU3Ec__Iterator0_t76_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CInitializePlaygroundU3Ec__Iterator0_t76_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CInitializePlaygroundU3Ec__Iterator0_t76_0_0_0;
@@ -5036,8 +5036,8 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Material_t48_0_0_0;
 extern const Il2CppType Material_t48_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Particle_m287_ParameterInfos[] = 
@@ -5047,11 +5047,11 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_Particle_m287_ParameterIn
 	{"position", 2, 134217812, 0, &Vector3_t53_0_0_0},
 	{"rotation", 3, 134217813, 0, &Quaternion_t69_0_0_0},
 	{"offset", 4, 134217814, 0, &Vector3_t53_0_0_0},
-	{"particleSize", 5, 134217815, 0, &Single_t583_0_0_0},
-	{"scale", 6, 134217816, 0, &Single_t583_0_0_0},
+	{"particleSize", 5, 134217815, 0, &Single_t604_0_0_0},
+	{"scale", 6, 134217816, 0, &Single_t604_0_0_0},
 	{"material", 7, 134217817, 0, &Material_t48_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t583_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t604_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Texture2D,System.String,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Material)
 extern const MethodInfo PlaygroundC_Particle_m287_MethodInfo = 
 {
@@ -5059,7 +5059,7 @@ extern const MethodInfo PlaygroundC_Particle_m287_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Particle_m287/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &PlaygroundParticlesC_t126_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t583_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t604_Single_t604_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Particle_m287_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5102,27 +5102,27 @@ extern const MethodInfo PlaygroundC_Particle_m288_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Texture2DU5BU5D_t547_0_0_0;
-extern const Il2CppType Texture2DU5BU5D_t547_0_0_0;
+extern const Il2CppType Texture2DU5BU5D_t565_0_0_0;
+extern const Il2CppType Texture2DU5BU5D_t565_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Material_t48_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Particle_m289_ParameterInfos[] = 
 {
-	{"images", 0, 134217819, 0, &Texture2DU5BU5D_t547_0_0_0},
+	{"images", 0, 134217819, 0, &Texture2DU5BU5D_t565_0_0_0},
 	{"name", 1, 134217820, 0, &String_t_0_0_0},
 	{"position", 2, 134217821, 0, &Vector3_t53_0_0_0},
 	{"rotation", 3, 134217822, 0, &Quaternion_t69_0_0_0},
 	{"offset", 4, 134217823, 0, &Vector3_t53_0_0_0},
-	{"particleSize", 5, 134217824, 0, &Single_t583_0_0_0},
-	{"scale", 6, 134217825, 0, &Single_t583_0_0_0},
+	{"particleSize", 5, 134217824, 0, &Single_t604_0_0_0},
+	{"scale", 6, 134217825, 0, &Single_t604_0_0_0},
 	{"material", 7, 134217826, 0, &Material_t48_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t583_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t604_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Texture2D[],System.String,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Material)
 extern const MethodInfo PlaygroundC_Particle_m289_MethodInfo = 
 {
@@ -5130,7 +5130,7 @@ extern const MethodInfo PlaygroundC_Particle_m289_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Particle_m289/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &PlaygroundParticlesC_t126_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t583_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t604_Single_t604_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Particle_m289_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5145,10 +5145,10 @@ extern const MethodInfo PlaygroundC_Particle_m289_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Texture2DU5BU5D_t547_0_0_0;
+extern const Il2CppType Texture2DU5BU5D_t565_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Particle_m290_ParameterInfos[] = 
 {
-	{"images", 0, 134217827, 0, &Texture2DU5BU5D_t547_0_0_0},
+	{"images", 0, 134217827, 0, &Texture2DU5BU5D_t565_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Texture2D[])
@@ -5179,7 +5179,7 @@ extern const Il2CppType Texture2D_t90_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Material_t48_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Particle_m291_ParameterInfos[] = 
@@ -5189,11 +5189,11 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_Particle_m291_ParameterIn
 	{"name", 2, 134217830, 0, &String_t_0_0_0},
 	{"position", 3, 134217831, 0, &Vector3_t53_0_0_0},
 	{"rotation", 4, 134217832, 0, &Quaternion_t69_0_0_0},
-	{"particleScale", 5, 134217833, 0, &Single_t583_0_0_0},
+	{"particleScale", 5, 134217833, 0, &Single_t604_0_0_0},
 	{"offset", 6, 134217834, 0, &Vector3_t53_0_0_0},
 	{"material", 7, 134217835, 0, &Material_t48_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t583_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t604_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Mesh,UnityEngine.Texture2D,System.String,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Vector3,UnityEngine.Material)
 extern const MethodInfo PlaygroundC_Particle_m291_MethodInfo = 
 {
@@ -5201,7 +5201,7 @@ extern const MethodInfo PlaygroundC_Particle_m291_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Particle_m291/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &PlaygroundParticlesC_t126_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t583_Vector3_t53_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t604_Vector3_t53_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Particle_m291_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5246,27 +5246,27 @@ extern const MethodInfo PlaygroundC_Particle_m292_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MeshU5BU5D_t548_0_0_0;
-extern const Il2CppType MeshU5BU5D_t548_0_0_0;
-extern const Il2CppType Texture2DU5BU5D_t547_0_0_0;
+extern const Il2CppType MeshU5BU5D_t566_0_0_0;
+extern const Il2CppType MeshU5BU5D_t566_0_0_0;
+extern const Il2CppType Texture2DU5BU5D_t565_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3U5BU5D_t92_0_0_0;
 extern const Il2CppType Material_t48_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Particle_m293_ParameterInfos[] = 
 {
-	{"meshes", 0, 134217838, 0, &MeshU5BU5D_t548_0_0_0},
-	{"textures", 1, 134217839, 0, &Texture2DU5BU5D_t547_0_0_0},
+	{"meshes", 0, 134217838, 0, &MeshU5BU5D_t566_0_0_0},
+	{"textures", 1, 134217839, 0, &Texture2DU5BU5D_t565_0_0_0},
 	{"name", 2, 134217840, 0, &String_t_0_0_0},
 	{"position", 3, 134217841, 0, &Vector3_t53_0_0_0},
 	{"rotation", 4, 134217842, 0, &Quaternion_t69_0_0_0},
-	{"particleScale", 5, 134217843, 0, &Single_t583_0_0_0},
+	{"particleScale", 5, 134217843, 0, &Single_t604_0_0_0},
 	{"offsets", 6, 134217844, 0, &Vector3U5BU5D_t92_0_0_0},
 	{"material", 7, 134217845, 0, &Material_t48_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t583_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t604_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Mesh[],UnityEngine.Texture2D[],System.String,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Vector3[],UnityEngine.Material)
 extern const MethodInfo PlaygroundC_Particle_m293_MethodInfo = 
 {
@@ -5274,7 +5274,7 @@ extern const MethodInfo PlaygroundC_Particle_m293_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Particle_m293/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &PlaygroundParticlesC_t126_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t583_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t604_Object_t_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Particle_m293_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5289,12 +5289,12 @@ extern const MethodInfo PlaygroundC_Particle_m293_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MeshU5BU5D_t548_0_0_0;
-extern const Il2CppType Texture2DU5BU5D_t547_0_0_0;
+extern const Il2CppType MeshU5BU5D_t566_0_0_0;
+extern const Il2CppType Texture2DU5BU5D_t565_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Particle_m294_ParameterInfos[] = 
 {
-	{"meshes", 0, 134217846, 0, &MeshU5BU5D_t548_0_0_0},
-	{"textures", 1, 134217847, 0, &Texture2DU5BU5D_t547_0_0_0},
+	{"meshes", 0, 134217846, 0, &MeshU5BU5D_t566_0_0_0},
+	{"textures", 1, 134217847, 0, &Texture2DU5BU5D_t565_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Mesh[],UnityEngine.Texture2D[])
@@ -5565,13 +5565,13 @@ extern const MethodInfo PlaygroundC_SetColor_m302_MethodInfo =
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_SetAlpha_m303_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134217865, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"alpha", 1, 134217866, 0, &Single_t583_0_0_0},
+	{"alpha", 1, 134217866, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::SetAlpha(ParticlePlayground.PlaygroundParticlesC,System.Single)
 extern const MethodInfo PlaygroundC_SetAlpha_m303_MethodInfo = 
 {
@@ -5579,7 +5579,7 @@ extern const MethodInfo PlaygroundC_SetAlpha_m303_MethodInfo =
 	, (methodPointerType)&PlaygroundC_SetAlpha_m303/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_SetAlpha_m303_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5595,13 +5595,13 @@ extern const MethodInfo PlaygroundC_SetAlpha_m303_MethodInfo =
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_SetSize_m304_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134217867, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"size", 1, 134217868, 0, &Single_t583_0_0_0},
+	{"size", 1, 134217868, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::SetSize(ParticlePlayground.PlaygroundParticlesC,System.Single)
 extern const MethodInfo PlaygroundC_SetSize_m304_MethodInfo = 
 {
@@ -5609,7 +5609,7 @@ extern const MethodInfo PlaygroundC_SetSize_m304_MethodInfo =
 	, (methodPointerType)&PlaygroundC_SetSize_m304/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_SetSize_m304_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5687,18 +5687,18 @@ extern const MethodInfo PlaygroundC_Add_m306_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m307_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134217873, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"image", 1, 134217874, 0, &Texture2D_t90_0_0_0},
-	{"scale", 2, 134217875, 0, &Single_t583_0_0_0},
+	{"scale", 2, 134217875, 0, &Single_t604_0_0_0},
 	{"offset", 3, 134217876, 0, &Vector3_t53_0_0_0},
 	{"stateName", 4, 134217877, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Texture2D,System.Single,UnityEngine.Vector3,System.String)
 extern const MethodInfo PlaygroundC_Add_m307_MethodInfo = 
 {
@@ -5706,7 +5706,7 @@ extern const MethodInfo PlaygroundC_Add_m307_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Add_m307/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Add_m307_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5723,7 +5723,7 @@ extern const MethodInfo PlaygroundC_Add_m307_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -5731,12 +5731,12 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m308_ParameterInfos[]
 {
 	{"playgroundParticles", 0, 134217878, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"image", 1, 134217879, 0, &Texture2D_t90_0_0_0},
-	{"scale", 2, 134217880, 0, &Single_t583_0_0_0},
+	{"scale", 2, 134217880, 0, &Single_t604_0_0_0},
 	{"offset", 3, 134217881, 0, &Vector3_t53_0_0_0},
 	{"stateName", 4, 134217882, 0, &String_t_0_0_0},
 	{"stateTransform", 5, 134217883, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Texture2D,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo PlaygroundC_Add_m308_MethodInfo = 
 {
@@ -5744,7 +5744,7 @@ extern const MethodInfo PlaygroundC_Add_m308_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Add_m308/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Add_m308_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5762,8 +5762,8 @@ extern const MethodInfo PlaygroundC_Add_m308_MethodInfo =
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m309_ParameterInfos[] = 
@@ -5771,12 +5771,12 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m309_ParameterInfos[]
 	{"playgroundParticles", 0, 134217884, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"image", 1, 134217885, 0, &Texture2D_t90_0_0_0},
 	{"depthmap", 2, 134217886, 0, &Texture2D_t90_0_0_0},
-	{"depthmapStrength", 3, 134217887, 0, &Single_t583_0_0_0},
-	{"scale", 4, 134217888, 0, &Single_t583_0_0_0},
+	{"depthmapStrength", 3, 134217887, 0, &Single_t604_0_0_0},
+	{"scale", 4, 134217888, 0, &Single_t604_0_0_0},
 	{"offset", 5, 134217889, 0, &Vector3_t53_0_0_0},
 	{"stateName", 6, 134217890, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Single_t583_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Single_t604_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Texture2D,UnityEngine.Texture2D,System.Single,System.Single,UnityEngine.Vector3,System.String)
 extern const MethodInfo PlaygroundC_Add_m309_MethodInfo = 
 {
@@ -5784,7 +5784,7 @@ extern const MethodInfo PlaygroundC_Add_m309_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Add_m309/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Single_t583_Vector3_t53_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Single_t604_Vector3_t53_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Add_m309_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5802,8 +5802,8 @@ extern const MethodInfo PlaygroundC_Add_m309_MethodInfo =
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -5812,13 +5812,13 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m310_ParameterInfos[]
 	{"playgroundParticles", 0, 134217891, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"image", 1, 134217892, 0, &Texture2D_t90_0_0_0},
 	{"depthmap", 2, 134217893, 0, &Texture2D_t90_0_0_0},
-	{"depthmapStrength", 3, 134217894, 0, &Single_t583_0_0_0},
-	{"scale", 4, 134217895, 0, &Single_t583_0_0_0},
+	{"depthmapStrength", 3, 134217894, 0, &Single_t604_0_0_0},
+	{"scale", 4, 134217895, 0, &Single_t604_0_0_0},
 	{"offset", 5, 134217896, 0, &Vector3_t53_0_0_0},
 	{"stateName", 6, 134217897, 0, &String_t_0_0_0},
 	{"stateTransform", 7, 134217898, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Texture2D,UnityEngine.Texture2D,System.Single,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo PlaygroundC_Add_m310_MethodInfo = 
 {
@@ -5826,7 +5826,7 @@ extern const MethodInfo PlaygroundC_Add_m310_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Add_m310/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Add_m310_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5843,18 +5843,18 @@ extern const MethodInfo PlaygroundC_Add_m310_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Mesh_t93_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m311_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134217899, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"mesh", 1, 134217900, 0, &Mesh_t93_0_0_0},
-	{"scale", 2, 134217901, 0, &Single_t583_0_0_0},
+	{"scale", 2, 134217901, 0, &Single_t604_0_0_0},
 	{"offset", 3, 134217902, 0, &Vector3_t53_0_0_0},
 	{"stateName", 4, 134217903, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Mesh,System.Single,UnityEngine.Vector3,System.String)
 extern const MethodInfo PlaygroundC_Add_m311_MethodInfo = 
 {
@@ -5862,7 +5862,7 @@ extern const MethodInfo PlaygroundC_Add_m311_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Add_m311/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Add_m311_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5879,7 +5879,7 @@ extern const MethodInfo PlaygroundC_Add_m311_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Mesh_t93_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -5887,12 +5887,12 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m312_ParameterInfos[]
 {
 	{"playgroundParticles", 0, 134217904, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"mesh", 1, 134217905, 0, &Mesh_t93_0_0_0},
-	{"scale", 2, 134217906, 0, &Single_t583_0_0_0},
+	{"scale", 2, 134217906, 0, &Single_t604_0_0_0},
 	{"offset", 3, 134217907, 0, &Vector3_t53_0_0_0},
 	{"stateName", 4, 134217908, 0, &String_t_0_0_0},
 	{"stateTransform", 5, 134217909, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Mesh,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo PlaygroundC_Add_m312_MethodInfo = 
 {
@@ -5900,7 +5900,7 @@ extern const MethodInfo PlaygroundC_Add_m312_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Add_m312/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Add_m312_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5918,7 +5918,7 @@ extern const MethodInfo PlaygroundC_Add_m312_MethodInfo =
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Mesh_t93_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m313_ParameterInfos[] = 
@@ -5926,11 +5926,11 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m313_ParameterInfos[]
 	{"playgroundParticles", 0, 134217910, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"mesh", 1, 134217911, 0, &Mesh_t93_0_0_0},
 	{"texture", 2, 134217912, 0, &Texture2D_t90_0_0_0},
-	{"scale", 3, 134217913, 0, &Single_t583_0_0_0},
+	{"scale", 3, 134217913, 0, &Single_t604_0_0_0},
 	{"offset", 4, 134217914, 0, &Vector3_t53_0_0_0},
 	{"stateName", 5, 134217915, 0, &String_t_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Vector3_t53_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Mesh,UnityEngine.Texture2D,System.Single,UnityEngine.Vector3,System.String)
 extern const MethodInfo PlaygroundC_Add_m313_MethodInfo = 
 {
@@ -5938,7 +5938,7 @@ extern const MethodInfo PlaygroundC_Add_m313_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Add_m313/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Vector3_t53_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Vector3_t53_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Add_m313_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -5956,7 +5956,7 @@ extern const MethodInfo PlaygroundC_Add_m313_MethodInfo =
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Mesh_t93_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -5965,12 +5965,12 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_Add_m314_ParameterInfos[]
 	{"playgroundParticles", 0, 134217916, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"mesh", 1, 134217917, 0, &Mesh_t93_0_0_0},
 	{"texture", 2, 134217918, 0, &Texture2D_t90_0_0_0},
-	{"scale", 3, 134217919, 0, &Single_t583_0_0_0},
+	{"scale", 3, 134217919, 0, &Single_t604_0_0_0},
 	{"offset", 4, 134217920, 0, &Vector3_t53_0_0_0},
 	{"stateName", 5, 134217921, 0, &String_t_0_0_0},
 	{"stateTransform", 6, 134217922, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Mesh,UnityEngine.Texture2D,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo PlaygroundC_Add_m314_MethodInfo = 
 {
@@ -5978,7 +5978,7 @@ extern const MethodInfo PlaygroundC_Add_m314_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Add_m314/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Add_m314_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -6083,13 +6083,13 @@ extern const MethodInfo PlaygroundC_SetParticleCount_m317_MethodInfo =
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_SetLifetime_m318_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134217928, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"time", 1, 134217929, 0, &Single_t583_0_0_0},
+	{"time", 1, 134217929, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundC::SetLifetime(ParticlePlayground.PlaygroundParticlesC,System.Single)
 extern const MethodInfo PlaygroundC_SetLifetime_m318_MethodInfo = 
 {
@@ -6097,7 +6097,7 @@ extern const MethodInfo PlaygroundC_SetLifetime_m318_MethodInfo =
 	, (methodPointerType)&PlaygroundC_SetLifetime_m318/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_SetLifetime_m318_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -6231,18 +6231,18 @@ extern const Il2CppType MANIPULATORTYPEC_t128_0_0_0;
 extern const Il2CppType LayerMask_t87_0_0_0;
 extern const Il2CppType LayerMask_t87_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_ManipulatorObject_m323_ParameterInfos[] = 
 {
 	{"type", 0, 134217935, 0, &MANIPULATORTYPEC_t128_0_0_0},
 	{"affects", 1, 134217936, 0, &LayerMask_t87_0_0_0},
 	{"manipulatorTransform", 2, 134217937, 0, &Transform_t54_0_0_0},
-	{"size", 3, 134217938, 0, &Single_t583_0_0_0},
-	{"strength", 4, 134217939, 0, &Single_t583_0_0_0},
+	{"size", 3, 134217938, 0, &Single_t604_0_0_0},
+	{"strength", 4, 134217939, 0, &Single_t604_0_0_0},
 };
 extern const Il2CppType ManipulatorObjectC_t115_0_0_0;
-extern void* RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.ManipulatorObjectC ParticlePlayground.PlaygroundC::ManipulatorObject(ParticlePlayground.MANIPULATORTYPEC,UnityEngine.LayerMask,UnityEngine.Transform,System.Single,System.Single)
 extern const MethodInfo PlaygroundC_ManipulatorObject_m323_MethodInfo = 
 {
@@ -6250,7 +6250,7 @@ extern const MethodInfo PlaygroundC_ManipulatorObject_m323_MethodInfo =
 	, (methodPointerType)&PlaygroundC_ManipulatorObject_m323/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &ManipulatorObjectC_t115_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_ManipulatorObject_m323_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -6296,19 +6296,19 @@ extern const MethodInfo PlaygroundC_ManipulatorObject_m324_MethodInfo =
 extern const Il2CppType MANIPULATORTYPEC_t128_0_0_0;
 extern const Il2CppType LayerMask_t87_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_ManipulatorObject_m325_ParameterInfos[] = 
 {
 	{"type", 0, 134217941, 0, &MANIPULATORTYPEC_t128_0_0_0},
 	{"affects", 1, 134217942, 0, &LayerMask_t87_0_0_0},
 	{"manipulatorTransform", 2, 134217943, 0, &Transform_t54_0_0_0},
-	{"size", 3, 134217944, 0, &Single_t583_0_0_0},
-	{"strength", 4, 134217945, 0, &Single_t583_0_0_0},
+	{"size", 3, 134217944, 0, &Single_t604_0_0_0},
+	{"strength", 4, 134217945, 0, &Single_t604_0_0_0},
 	{"playgroundParticles", 5, 134217946, 0, &PlaygroundParticlesC_t126_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t583_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t604_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.ManipulatorObjectC ParticlePlayground.PlaygroundC::ManipulatorObject(ParticlePlayground.MANIPULATORTYPEC,UnityEngine.LayerMask,UnityEngine.Transform,System.Single,System.Single,ParticlePlayground.PlaygroundParticlesC)
 extern const MethodInfo PlaygroundC_ManipulatorObject_m325_MethodInfo = 
 {
@@ -6316,7 +6316,7 @@ extern const MethodInfo PlaygroundC_ManipulatorObject_m325_MethodInfo =
 	, (methodPointerType)&PlaygroundC_ManipulatorObject_m325/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &ManipulatorObjectC_t115_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t583_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t604_Single_t604_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_ManipulatorObject_m325_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -6426,7 +6426,7 @@ static const ParameterInfo PlaygroundC_t75_PlaygroundC_GetManipulatorParticles_m
 	{"manipulator", 0, 134217952, 0, &Int32_t29_0_0_0},
 	{"playgroundParticles", 1, 134217953, 0, &PlaygroundParticlesC_t126_0_0_0},
 };
-extern const Il2CppType List_1_t549_0_0_0;
+extern const Il2CppType List_1_t567_0_0_0;
 extern void* RuntimeInvoker_Object_t_Int32_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<ParticlePlayground.PlaygroundEventParticle> ParticlePlayground.PlaygroundC::GetManipulatorParticles(System.Int32,ParticlePlayground.PlaygroundParticlesC)
 extern const MethodInfo PlaygroundC_GetManipulatorParticles_m329_MethodInfo = 
@@ -6434,7 +6434,7 @@ extern const MethodInfo PlaygroundC_GetManipulatorParticles_m329_MethodInfo =
 	"GetManipulatorParticles"/* name */
 	, (methodPointerType)&PlaygroundC_GetManipulatorParticles_m329/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t549_0_0_0/* return_type */
+	, &List_1_t567_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t29_Object_t/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_GetManipulatorParticles_m329_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6462,7 +6462,7 @@ extern const MethodInfo PlaygroundC_GetManipulatorParticles_m330_MethodInfo =
 	"GetManipulatorParticles"/* name */
 	, (methodPointerType)&PlaygroundC_GetManipulatorParticles_m330/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t549_0_0_0/* return_type */
+	, &List_1_t567_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t29/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_GetManipulatorParticles_m330_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6882,14 +6882,14 @@ extern const MethodInfo PlaygroundC_Paint_m344_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Erase_m345_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134217976, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"position", 1, 134217977, 0, &Vector3_t53_0_0_0},
-	{"radius", 2, 134217978, 0, &Single_t583_0_0_0},
+	{"radius", 2, 134217978, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t30_Object_t_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Object_t_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean ParticlePlayground.PlaygroundC::Erase(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Vector3,System.Single)
 extern const MethodInfo PlaygroundC_Erase_m345_MethodInfo = 
 {
@@ -6897,7 +6897,7 @@ extern const MethodInfo PlaygroundC_Erase_m345_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Erase_m345/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Object_t_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Object_t_Vector3_t53_Single_t604/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Erase_m345_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -6914,14 +6914,14 @@ extern const MethodInfo PlaygroundC_Erase_m345_MethodInfo =
 };
 extern const Il2CppType PaintObjectC_t86_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Erase_m346_ParameterInfos[] = 
 {
 	{"paintObject", 0, 134217979, 0, &PaintObjectC_t86_0_0_0},
 	{"position", 1, 134217980, 0, &Vector3_t53_0_0_0},
-	{"radius", 2, 134217981, 0, &Single_t583_0_0_0},
+	{"radius", 2, 134217981, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t30_Object_t_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Object_t_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean ParticlePlayground.PlaygroundC::Erase(ParticlePlayground.PaintObjectC,UnityEngine.Vector3,System.Single)
 extern const MethodInfo PlaygroundC_Erase_m346_MethodInfo = 
 {
@@ -6929,7 +6929,7 @@ extern const MethodInfo PlaygroundC_Erase_m346_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Erase_m346/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Object_t_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Object_t_Vector3_t53_Single_t604/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Erase_m346_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -7354,15 +7354,15 @@ extern const Il2CppType PLAYGROUNDORIGINC_t135_0_0_0;
 extern const Il2CppType PLAYGROUNDORIGINC_t135_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_Offset_m362_ParameterInfos[] = 
 {
 	{"origin", 0, 134217997, 0, &PLAYGROUNDORIGINC_t135_0_0_0},
 	{"imageWidth", 1, 134217998, 0, &Int32_t29_0_0_0},
 	{"imageHeight", 2, 134217999, 0, &Int32_t29_0_0_0},
-	{"meshScale", 3, 134218000, 0, &Single_t583_0_0_0},
+	{"meshScale", 3, 134218000, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Int32_t29_Int32_t29_Int32_t29_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Int32_t29_Int32_t29_Int32_t29_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.PlaygroundC::Offset(ParticlePlayground.PLAYGROUNDORIGINC,System.Int32,System.Int32,System.Single)
 extern const MethodInfo PlaygroundC_Offset_m362_MethodInfo = 
 {
@@ -7370,7 +7370,7 @@ extern const MethodInfo PlaygroundC_Offset_m362_MethodInfo =
 	, (methodPointerType)&PlaygroundC_Offset_m362/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Int32_t29_Int32_t29_Int32_t29_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Int32_t29_Int32_t29_Int32_t29_Single_t604/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_Offset_m362_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -7418,16 +7418,16 @@ extern const MethodInfo PlaygroundC_RandomVector3_m363_MethodInfo =
 
 };
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundC_t75_PlaygroundC_RandomFloat_m364_ParameterInfos[] = 
 {
 	{"length", 0, 134218004, 0, &Int32_t29_0_0_0},
-	{"min", 1, 134218005, 0, &Single_t583_0_0_0},
-	{"max", 2, 134218006, 0, &Single_t583_0_0_0},
+	{"min", 1, 134218005, 0, &Single_t604_0_0_0},
+	{"max", 2, 134218006, 0, &Single_t604_0_0_0},
 };
 extern const Il2CppType SingleU5BU5D_t168_0_0_0;
-extern void* RuntimeInvoker_Object_t_Int32_t29_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int32_t29_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single[] ParticlePlayground.PlaygroundC::RandomFloat(System.Int32,System.Single,System.Single)
 extern const MethodInfo PlaygroundC_RandomFloat_m364_MethodInfo = 
 {
@@ -7435,7 +7435,7 @@ extern const MethodInfo PlaygroundC_RandomFloat_m364_MethodInfo =
 	, (methodPointerType)&PlaygroundC_RandomFloat_m364/* method */
 	, &PlaygroundC_t75_il2cpp_TypeInfo/* declaring_type */
 	, &SingleU5BU5D_t168_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t29_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Object_t_Int32_t29_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundC_t75_PlaygroundC_RandomFloat_m364_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -8232,10 +8232,10 @@ static const Il2CppType* PlaygroundC_t75_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference PlaygroundC_t75_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PlaygroundC_t75_VTableIsGenericMethod[] =
 {
@@ -8432,13 +8432,13 @@ extern const MethodInfo PaintObjectC_Paint_m392_MethodInfo =
 
 };
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PaintObjectC_t86_PaintObjectC_Erase_m393_ParameterInfos[] = 
 {
 	{"pos", 0, 134218020, 0, &Vector3_t53_0_0_0},
-	{"radius", 1, 134218021, 0, &Single_t583_0_0_0},
+	{"radius", 1, 134218021, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t30_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean ParticlePlayground.PaintObjectC::Erase(UnityEngine.Vector3,System.Single)
 extern const MethodInfo PaintObjectC_Erase_m393_MethodInfo = 
 {
@@ -8446,7 +8446,7 @@ extern const MethodInfo PaintObjectC_Erase_m393_MethodInfo =
 	, (methodPointerType)&PaintObjectC_Erase_m393/* method */
 	, &PaintObjectC_t86_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Vector3_t53_Single_t604/* invoker_method */
 	, PaintObjectC_t86_PaintObjectC_Erase_m393_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -9361,19 +9361,19 @@ extern const MethodInfo ParticleStateC_UpdateMatrix_m416_MethodInfo =
 
 };
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
 static const ParameterInfo ParticleStateC_t94_ParticleStateC_ConstructParticles_m417_ParameterInfos[] = 
 {
 	{"image", 0, 134218035, 0, &Texture2D_t90_0_0_0},
-	{"scale", 1, 134218036, 0, &Single_t583_0_0_0},
+	{"scale", 1, 134218036, 0, &Single_t604_0_0_0},
 	{"offset", 2, 134218037, 0, &Vector3_t53_0_0_0},
 	{"newStateName", 3, 134218038, 0, &String_t_0_0_0},
 	{"newStateTransform", 4, 134218039, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.ParticleStateC::ConstructParticles(UnityEngine.Texture2D,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo ParticleStateC_ConstructParticles_m417_MethodInfo = 
 {
@@ -9381,7 +9381,7 @@ extern const MethodInfo ParticleStateC_ConstructParticles_m417_MethodInfo =
 	, (methodPointerType)&ParticleStateC_ConstructParticles_m417/* method */
 	, &ParticleStateC_t94_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, ParticleStateC_t94_ParticleStateC_ConstructParticles_m417_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -9398,7 +9398,7 @@ extern const MethodInfo ParticleStateC_ConstructParticles_m417_MethodInfo =
 };
 extern const Il2CppType Mesh_t93_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -9406,12 +9406,12 @@ static const ParameterInfo ParticleStateC_t94_ParticleStateC_ConstructParticles_
 {
 	{"mesh", 0, 134218040, 0, &Mesh_t93_0_0_0},
 	{"texture", 1, 134218041, 0, &Texture2D_t90_0_0_0},
-	{"scale", 2, 134218042, 0, &Single_t583_0_0_0},
+	{"scale", 2, 134218042, 0, &Single_t604_0_0_0},
 	{"offset", 3, 134218043, 0, &Vector3_t53_0_0_0},
 	{"newStateName", 4, 134218044, 0, &String_t_0_0_0},
 	{"newStateTransform", 5, 134218045, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.ParticleStateC::ConstructParticles(UnityEngine.Mesh,UnityEngine.Texture2D,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo ParticleStateC_ConstructParticles_m418_MethodInfo = 
 {
@@ -9419,7 +9419,7 @@ extern const MethodInfo ParticleStateC_ConstructParticles_m418_MethodInfo =
 	, (methodPointerType)&ParticleStateC_ConstructParticles_m418/* method */
 	, &ParticleStateC_t94_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, ParticleStateC_t94_ParticleStateC_ConstructParticles_m418_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -9435,19 +9435,19 @@ extern const MethodInfo ParticleStateC_ConstructParticles_m418_MethodInfo =
 
 };
 extern const Il2CppType Mesh_t93_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
 static const ParameterInfo ParticleStateC_t94_ParticleStateC_ConstructParticles_m419_ParameterInfos[] = 
 {
 	{"mesh", 0, 134218046, 0, &Mesh_t93_0_0_0},
-	{"scale", 1, 134218047, 0, &Single_t583_0_0_0},
+	{"scale", 1, 134218047, 0, &Single_t604_0_0_0},
 	{"offset", 2, 134218048, 0, &Vector3_t53_0_0_0},
 	{"newStateName", 3, 134218049, 0, &String_t_0_0_0},
 	{"newStateTransform", 4, 134218050, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.ParticleStateC::ConstructParticles(UnityEngine.Mesh,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo ParticleStateC_ConstructParticles_m419_MethodInfo = 
 {
@@ -9455,7 +9455,7 @@ extern const MethodInfo ParticleStateC_ConstructParticles_m419_MethodInfo =
 	, (methodPointerType)&ParticleStateC_ConstructParticles_m419/* method */
 	, &ParticleStateC_t94_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, ParticleStateC_t94_ParticleStateC_ConstructParticles_m419_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -10376,12 +10376,12 @@ extern const MethodInfo Vector3AnimationCurveC__ctor_m445_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Vector3AnimationCurveC_t99_Vector3AnimationCurveC_Evaluate_m446_ParameterInfos[] = 
 {
-	{"time", 0, 134218071, 0, &Single_t583_0_0_0},
+	{"time", 0, 134218071, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.Vector3AnimationCurveC::Evaluate(System.Single)
 extern const MethodInfo Vector3AnimationCurveC_Evaluate_m446_MethodInfo = 
 {
@@ -10389,7 +10389,7 @@ extern const MethodInfo Vector3AnimationCurveC_Evaluate_m446_MethodInfo =
 	, (methodPointerType)&Vector3AnimationCurveC_Evaluate_m446/* method */
 	, &Vector3AnimationCurveC_t99_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Single_t604/* invoker_method */
 	, Vector3AnimationCurveC_t99_Vector3AnimationCurveC_Evaluate_m446_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -10404,14 +10404,14 @@ extern const MethodInfo Vector3AnimationCurveC_Evaluate_m446_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Vector3AnimationCurveC_t99_Vector3AnimationCurveC_Evaluate_m447_ParameterInfos[] = 
 {
-	{"time", 0, 134218072, 0, &Single_t583_0_0_0},
-	{"scale", 1, 134218073, 0, &Single_t583_0_0_0},
+	{"time", 0, 134218072, 0, &Single_t604_0_0_0},
+	{"scale", 1, 134218073, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.Vector3AnimationCurveC::Evaluate(System.Single,System.Single)
 extern const MethodInfo Vector3AnimationCurveC_Evaluate_m447_MethodInfo = 
 {
@@ -10419,7 +10419,7 @@ extern const MethodInfo Vector3AnimationCurveC_Evaluate_m447_MethodInfo =
 	, (methodPointerType)&Vector3AnimationCurveC_Evaluate_m447/* method */
 	, &Vector3AnimationCurveC_t99_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Single_t604_Single_t604/* invoker_method */
 	, Vector3AnimationCurveC_t99_Vector3AnimationCurveC_Evaluate_m447_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -10458,13 +10458,13 @@ extern const MethodInfo Vector3AnimationCurveC_HasKeys_m448_MethodInfo =
 
 };
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Vector3AnimationCurveC_t99_Vector3AnimationCurveC_SetKeyValues_m449_ParameterInfos[] = 
 {
 	{"key", 0, 134218074, 0, &Int32_t29_0_0_0},
-	{"value", 1, 134218075, 0, &Single_t583_0_0_0},
+	{"value", 1, 134218075, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Int32_t29_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Int32_t29_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.Vector3AnimationCurveC::SetKeyValues(System.Int32,System.Single)
 extern const MethodInfo Vector3AnimationCurveC_SetKeyValues_m449_MethodInfo = 
 {
@@ -10472,7 +10472,7 @@ extern const MethodInfo Vector3AnimationCurveC_SetKeyValues_m449_MethodInfo =
 	, (methodPointerType)&Vector3AnimationCurveC_SetKeyValues_m449/* method */
 	, &Vector3AnimationCurveC_t99_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Int32_t29_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Int32_t29_Single_t604/* invoker_method */
 	, Vector3AnimationCurveC_t99_Vector3AnimationCurveC_SetKeyValues_m449_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -10489,16 +10489,16 @@ extern const MethodInfo Vector3AnimationCurveC_SetKeyValues_m449_MethodInfo =
 };
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo Vector3AnimationCurveC_t99_Vector3AnimationCurveC_SetKeyValues_m450_ParameterInfos[] = 
 {
 	{"key", 0, 134218076, 0, &Int32_t29_0_0_0},
 	{"value", 1, 134218077, 0, &Vector3_t53_0_0_0},
-	{"inTangent", 2, 134218078, 0, &Single_t583_0_0_0},
-	{"outTangent", 3, 134218079, 0, &Single_t583_0_0_0},
+	{"inTangent", 2, 134218078, 0, &Single_t604_0_0_0},
+	{"outTangent", 3, 134218079, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Int32_t29_Vector3_t53_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Int32_t29_Vector3_t53_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.Vector3AnimationCurveC::SetKeyValues(System.Int32,UnityEngine.Vector3,System.Single,System.Single)
 extern const MethodInfo Vector3AnimationCurveC_SetKeyValues_m450_MethodInfo = 
 {
@@ -10506,7 +10506,7 @@ extern const MethodInfo Vector3AnimationCurveC_SetKeyValues_m450_MethodInfo =
 	, (methodPointerType)&Vector3AnimationCurveC_SetKeyValues_m450/* method */
 	, &Vector3AnimationCurveC_t99_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Int32_t29_Vector3_t53_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Int32_t29_Vector3_t53_Single_t604_Single_t604/* invoker_method */
 	, Vector3AnimationCurveC_t99_Vector3AnimationCurveC_SetKeyValues_m450_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -11879,7 +11879,7 @@ extern const MethodInfo ManipulatorObjectC_GetParticles_m489_MethodInfo =
 	"GetParticles"/* name */
 	, (methodPointerType)&ManipulatorObjectC_GetParticles_m489/* method */
 	, &ManipulatorObjectC_t115_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t549_0_0_0/* return_type */
+	, &List_1_t567_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12126,14 +12126,14 @@ extern const MethodInfo ManipulatorObjectC_RemoveNonAffectedParticle_m497_Method
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo ManipulatorObjectC_t115_ManipulatorObjectC_LifetimeFilter_m498_ParameterInfos[] = 
 {
-	{"life", 0, 134218109, 0, &Single_t583_0_0_0},
-	{"total", 1, 134218110, 0, &Single_t583_0_0_0},
+	{"life", 0, 134218109, 0, &Single_t604_0_0_0},
+	{"total", 1, 134218110, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Boolean_t30_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t30_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean ParticlePlayground.ManipulatorObjectC::LifetimeFilter(System.Single,System.Single)
 extern const MethodInfo ManipulatorObjectC_LifetimeFilter_m498_MethodInfo = 
 {
@@ -12141,7 +12141,7 @@ extern const MethodInfo ManipulatorObjectC_LifetimeFilter_m498_MethodInfo =
 	, (methodPointerType)&ManipulatorObjectC_LifetimeFilter_m498/* method */
 	, &ManipulatorObjectC_t115_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Boolean_t30_Single_t604_Single_t604/* invoker_method */
 	, ManipulatorObjectC_t115_ManipulatorObjectC_LifetimeFilter_m498_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -12980,13 +12980,13 @@ extern const MethodInfo MathManipulatorProperty_Update_m518_MethodInfo =
 
 };
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo MathManipulatorProperty_t116_MathManipulatorProperty_Evaluate_m519_ParameterInfos[] = 
 {
 	{"inValue", 0, 134218122, 0, &Vector3_t53_0_0_0},
-	{"time", 1, 134218123, 0, &Single_t583_0_0_0},
+	{"time", 1, 134218123, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.MathManipulatorProperty::Evaluate(UnityEngine.Vector3,System.Single)
 extern const MethodInfo MathManipulatorProperty_Evaluate_m519_MethodInfo = 
 {
@@ -12994,7 +12994,7 @@ extern const MethodInfo MathManipulatorProperty_Evaluate_m519_MethodInfo =
 	, (methodPointerType)&MathManipulatorProperty_Evaluate_m519/* method */
 	, &MathManipulatorProperty_t116_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Vector3_t53_Single_t604/* invoker_method */
 	, MathManipulatorProperty_t116_MathManipulatorProperty_Evaluate_m519_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -13010,13 +13010,13 @@ extern const MethodInfo MathManipulatorProperty_Evaluate_m519_MethodInfo =
 
 };
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo MathManipulatorProperty_t116_MathManipulatorProperty_EvaluatePosition_m520_ParameterInfos[] = 
 {
 	{"inValue", 0, 134218124, 0, &Vector3_t53_0_0_0},
-	{"time", 1, 134218125, 0, &Single_t583_0_0_0},
+	{"time", 1, 134218125, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.MathManipulatorProperty::EvaluatePosition(UnityEngine.Vector3,System.Single)
 extern const MethodInfo MathManipulatorProperty_EvaluatePosition_m520_MethodInfo = 
 {
@@ -13024,7 +13024,7 @@ extern const MethodInfo MathManipulatorProperty_EvaluatePosition_m520_MethodInfo
 	, (methodPointerType)&MathManipulatorProperty_EvaluatePosition_m520/* method */
 	, &MathManipulatorProperty_t116_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Vector3_t53_Single_t604/* invoker_method */
 	, MathManipulatorProperty_t116_MathManipulatorProperty_EvaluatePosition_m520_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -13039,22 +13039,22 @@ extern const MethodInfo MathManipulatorProperty_EvaluatePosition_m520_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo MathManipulatorProperty_t116_MathManipulatorProperty_Evaluate_m521_ParameterInfos[] = 
 {
-	{"inValue", 0, 134218126, 0, &Single_t583_0_0_0},
-	{"time", 1, 134218127, 0, &Single_t583_0_0_0},
+	{"inValue", 0, 134218126, 0, &Single_t604_0_0_0},
+	{"time", 1, 134218127, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ParticlePlayground.MathManipulatorProperty::Evaluate(System.Single,System.Single)
 extern const MethodInfo MathManipulatorProperty_Evaluate_m521_MethodInfo = 
 {
 	"Evaluate"/* name */
 	, (methodPointerType)&MathManipulatorProperty_Evaluate_m521/* method */
 	, &MathManipulatorProperty_t116_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, MathManipulatorProperty_t116_MathManipulatorProperty_Evaluate_m521_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -13069,20 +13069,20 @@ extern const MethodInfo MathManipulatorProperty_Evaluate_m521_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo MathManipulatorProperty_t116_MathManipulatorProperty_Clamp_m522_ParameterInfos[] = 
 {
-	{"val", 0, 134218128, 0, &Single_t583_0_0_0},
+	{"val", 0, 134218128, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ParticlePlayground.MathManipulatorProperty::Clamp(System.Single)
 extern const MethodInfo MathManipulatorProperty_Clamp_m522_MethodInfo = 
 {
 	"Clamp"/* name */
 	, (methodPointerType)&MathManipulatorProperty_Clamp_m522/* method */
 	, &MathManipulatorProperty_t116_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604/* invoker_method */
 	, MathManipulatorProperty_t116_MathManipulatorProperty_Clamp_m522_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -13153,20 +13153,20 @@ extern const MethodInfo MathManipulatorProperty_ClampPosition_m524_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo MathManipulatorProperty_t116_MathManipulatorProperty_ClampOut_m525_ParameterInfos[] = 
 {
-	{"val", 0, 134218131, 0, &Single_t583_0_0_0},
+	{"val", 0, 134218131, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ParticlePlayground.MathManipulatorProperty::ClampOut(System.Single)
 extern const MethodInfo MathManipulatorProperty_ClampOut_m525_MethodInfo = 
 {
 	"ClampOut"/* name */
 	, (methodPointerType)&MathManipulatorProperty_ClampOut_m525/* method */
 	, &MathManipulatorProperty_t116_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604/* invoker_method */
 	, MathManipulatorProperty_t116_MathManipulatorProperty_ClampOut_m525_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -14401,12 +14401,12 @@ extern const MethodInfo PlaygroundEventC_UpdateTime_m550_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundEventC_t127_PlaygroundEventC_SetTimer_m551_ParameterInfos[] = 
 {
-	{"newTime", 0, 134218142, 0, &Single_t583_0_0_0},
+	{"newTime", 0, 134218142, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundEventC::SetTimer(System.Single)
 extern const MethodInfo PlaygroundEventC_SetTimer_m551_MethodInfo = 
 {
@@ -14414,7 +14414,7 @@ extern const MethodInfo PlaygroundEventC_SetTimer_m551_MethodInfo =
 	, (methodPointerType)&PlaygroundEventC_SetTimer_m551/* method */
 	, &PlaygroundEventC_t127_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t604/* invoker_method */
 	, PlaygroundEventC_t127_PlaygroundEventC_SetTimer_m551_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -19648,7 +19648,7 @@ extern const MethodInfo U3CSaveRoutineU3Ec__Iterator1_System_Collections_Generic
 	, 283/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -19717,7 +19717,7 @@ extern const MethodInfo U3CSaveRoutineU3Ec__Iterator1_Dispose_m561_MethodInfo =
 	, 285/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -19740,7 +19740,7 @@ extern const MethodInfo U3CSaveRoutineU3Ec__Iterator1_Reset_m562_MethodInfo =
 	, 286/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -19789,8 +19789,8 @@ static const PropertyInfo* U3CSaveRoutineU3Ec__Iterator1_t165_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CSaveRoutineU3Ec__Iterator1_MoveNext_m560_MethodInfo;
-extern const MethodInfo U3CSaveRoutineU3Ec__Iterator1_Dispose_m561_MethodInfo;
 extern const MethodInfo U3CSaveRoutineU3Ec__Iterator1_Reset_m562_MethodInfo;
+extern const MethodInfo U3CSaveRoutineU3Ec__Iterator1_Dispose_m561_MethodInfo;
 static const Il2CppMethodReference U3CSaveRoutineU3Ec__Iterator1_t165_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -19799,9 +19799,9 @@ static const Il2CppMethodReference U3CSaveRoutineU3Ec__Iterator1_t165_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CSaveRoutineU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m559_MethodInfo,
 	&U3CSaveRoutineU3Ec__Iterator1_MoveNext_m560_MethodInfo,
+	&U3CSaveRoutineU3Ec__Iterator1_Reset_m562_MethodInfo,
 	&U3CSaveRoutineU3Ec__Iterator1_Dispose_m561_MethodInfo,
 	&U3CSaveRoutineU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m558_MethodInfo,
-	&U3CSaveRoutineU3Ec__Iterator1_Reset_m562_MethodInfo,
 };
 static bool U3CSaveRoutineU3Ec__Iterator1_t165_VTableIsGenericMethod[] =
 {
@@ -19818,14 +19818,14 @@ static bool U3CSaveRoutineU3Ec__Iterator1_t165_VTableIsGenericMethod[] =
 static const Il2CppType* U3CSaveRoutineU3Ec__Iterator1_t165_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CSaveRoutineU3Ec__Iterator1_t165_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CSaveRoutineU3Ec__Iterator1_t165_0_0_0;
@@ -19941,7 +19941,7 @@ extern const MethodInfo U3CLoadRoutineU3Ec__Iterator2_System_Collections_Generic
 	, 288/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20010,7 +20010,7 @@ extern const MethodInfo U3CLoadRoutineU3Ec__Iterator2_Dispose_m567_MethodInfo =
 	, 290/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20033,7 +20033,7 @@ extern const MethodInfo U3CLoadRoutineU3Ec__Iterator2_Reset_m568_MethodInfo =
 	, 291/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20082,8 +20082,8 @@ static const PropertyInfo* U3CLoadRoutineU3Ec__Iterator2_t166_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CLoadRoutineU3Ec__Iterator2_MoveNext_m566_MethodInfo;
-extern const MethodInfo U3CLoadRoutineU3Ec__Iterator2_Dispose_m567_MethodInfo;
 extern const MethodInfo U3CLoadRoutineU3Ec__Iterator2_Reset_m568_MethodInfo;
+extern const MethodInfo U3CLoadRoutineU3Ec__Iterator2_Dispose_m567_MethodInfo;
 static const Il2CppMethodReference U3CLoadRoutineU3Ec__Iterator2_t166_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -20092,9 +20092,9 @@ static const Il2CppMethodReference U3CLoadRoutineU3Ec__Iterator2_t166_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CLoadRoutineU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m565_MethodInfo,
 	&U3CLoadRoutineU3Ec__Iterator2_MoveNext_m566_MethodInfo,
+	&U3CLoadRoutineU3Ec__Iterator2_Reset_m568_MethodInfo,
 	&U3CLoadRoutineU3Ec__Iterator2_Dispose_m567_MethodInfo,
 	&U3CLoadRoutineU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m564_MethodInfo,
-	&U3CLoadRoutineU3Ec__Iterator2_Reset_m568_MethodInfo,
 };
 static bool U3CLoadRoutineU3Ec__Iterator2_t166_VTableIsGenericMethod[] =
 {
@@ -20111,14 +20111,14 @@ static bool U3CLoadRoutineU3Ec__Iterator2_t166_VTableIsGenericMethod[] =
 static const Il2CppType* U3CLoadRoutineU3Ec__Iterator2_t166_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CLoadRoutineU3Ec__Iterator2_t166_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CLoadRoutineU3Ec__Iterator2_t166_0_0_0;
@@ -20233,7 +20233,7 @@ extern const MethodInfo U3CLoadTransitionU3Ec__Iterator3_System_Collections_Gene
 	, 293/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20302,7 +20302,7 @@ extern const MethodInfo U3CLoadTransitionU3Ec__Iterator3_Dispose_m573_MethodInfo
 	, 295/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20325,7 +20325,7 @@ extern const MethodInfo U3CLoadTransitionU3Ec__Iterator3_Reset_m574_MethodInfo =
 	, 296/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20422,8 +20422,8 @@ static const PropertyInfo* U3CLoadTransitionU3Ec__Iterator3_t169_PropertyInfos[]
 	NULL
 };
 extern const MethodInfo U3CLoadTransitionU3Ec__Iterator3_MoveNext_m572_MethodInfo;
-extern const MethodInfo U3CLoadTransitionU3Ec__Iterator3_Dispose_m573_MethodInfo;
 extern const MethodInfo U3CLoadTransitionU3Ec__Iterator3_Reset_m574_MethodInfo;
+extern const MethodInfo U3CLoadTransitionU3Ec__Iterator3_Dispose_m573_MethodInfo;
 static const Il2CppMethodReference U3CLoadTransitionU3Ec__Iterator3_t169_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -20432,9 +20432,9 @@ static const Il2CppMethodReference U3CLoadTransitionU3Ec__Iterator3_t169_VTable[
 	&Object_ToString_m129_MethodInfo,
 	&U3CLoadTransitionU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m571_MethodInfo,
 	&U3CLoadTransitionU3Ec__Iterator3_MoveNext_m572_MethodInfo,
+	&U3CLoadTransitionU3Ec__Iterator3_Reset_m574_MethodInfo,
 	&U3CLoadTransitionU3Ec__Iterator3_Dispose_m573_MethodInfo,
 	&U3CLoadTransitionU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m570_MethodInfo,
-	&U3CLoadTransitionU3Ec__Iterator3_Reset_m574_MethodInfo,
 };
 static bool U3CLoadTransitionU3Ec__Iterator3_t169_VTableIsGenericMethod[] =
 {
@@ -20451,14 +20451,14 @@ static bool U3CLoadTransitionU3Ec__Iterator3_t169_VTableIsGenericMethod[] =
 static const Il2CppType* U3CLoadTransitionU3Ec__Iterator3_t169_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CLoadTransitionU3Ec__Iterator3_t169_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CLoadTransitionU3Ec__Iterator3_t169_0_0_0;
@@ -20573,7 +20573,7 @@ extern const MethodInfo U3CYieldedRefreshU3Ec__Iterator4_System_Collections_Gene
 	, 298/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20642,7 +20642,7 @@ extern const MethodInfo U3CYieldedRefreshU3Ec__Iterator4_Dispose_m581_MethodInfo
 	, 300/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20665,7 +20665,7 @@ extern const MethodInfo U3CYieldedRefreshU3Ec__Iterator4_Reset_m582_MethodInfo =
 	, 301/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20714,8 +20714,8 @@ static const PropertyInfo* U3CYieldedRefreshU3Ec__Iterator4_t170_PropertyInfos[]
 	NULL
 };
 extern const MethodInfo U3CYieldedRefreshU3Ec__Iterator4_MoveNext_m580_MethodInfo;
-extern const MethodInfo U3CYieldedRefreshU3Ec__Iterator4_Dispose_m581_MethodInfo;
 extern const MethodInfo U3CYieldedRefreshU3Ec__Iterator4_Reset_m582_MethodInfo;
+extern const MethodInfo U3CYieldedRefreshU3Ec__Iterator4_Dispose_m581_MethodInfo;
 static const Il2CppMethodReference U3CYieldedRefreshU3Ec__Iterator4_t170_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -20724,9 +20724,9 @@ static const Il2CppMethodReference U3CYieldedRefreshU3Ec__Iterator4_t170_VTable[
 	&Object_ToString_m129_MethodInfo,
 	&U3CYieldedRefreshU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m579_MethodInfo,
 	&U3CYieldedRefreshU3Ec__Iterator4_MoveNext_m580_MethodInfo,
+	&U3CYieldedRefreshU3Ec__Iterator4_Reset_m582_MethodInfo,
 	&U3CYieldedRefreshU3Ec__Iterator4_Dispose_m581_MethodInfo,
 	&U3CYieldedRefreshU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m578_MethodInfo,
-	&U3CYieldedRefreshU3Ec__Iterator4_Reset_m582_MethodInfo,
 };
 static bool U3CYieldedRefreshU3Ec__Iterator4_t170_VTableIsGenericMethod[] =
 {
@@ -20743,14 +20743,14 @@ static bool U3CYieldedRefreshU3Ec__Iterator4_t170_VTableIsGenericMethod[] =
 static const Il2CppType* U3CYieldedRefreshU3Ec__Iterator4_t170_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CYieldedRefreshU3Ec__Iterator4_t170_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CYieldedRefreshU3Ec__Iterator4_t170_0_0_0;
@@ -20865,7 +20865,7 @@ extern const MethodInfo U3CPrewarmU3Ec__Iterator5_System_Collections_Generic_IEn
 	, 303/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20934,7 +20934,7 @@ extern const MethodInfo U3CPrewarmU3Ec__Iterator5_Dispose_m587_MethodInfo =
 	, 305/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -20957,7 +20957,7 @@ extern const MethodInfo U3CPrewarmU3Ec__Iterator5_Reset_m588_MethodInfo =
 	, 306/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -21030,8 +21030,8 @@ static const PropertyInfo* U3CPrewarmU3Ec__Iterator5_t171_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CPrewarmU3Ec__Iterator5_MoveNext_m586_MethodInfo;
-extern const MethodInfo U3CPrewarmU3Ec__Iterator5_Dispose_m587_MethodInfo;
 extern const MethodInfo U3CPrewarmU3Ec__Iterator5_Reset_m588_MethodInfo;
+extern const MethodInfo U3CPrewarmU3Ec__Iterator5_Dispose_m587_MethodInfo;
 static const Il2CppMethodReference U3CPrewarmU3Ec__Iterator5_t171_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -21040,9 +21040,9 @@ static const Il2CppMethodReference U3CPrewarmU3Ec__Iterator5_t171_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CPrewarmU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m585_MethodInfo,
 	&U3CPrewarmU3Ec__Iterator5_MoveNext_m586_MethodInfo,
+	&U3CPrewarmU3Ec__Iterator5_Reset_m588_MethodInfo,
 	&U3CPrewarmU3Ec__Iterator5_Dispose_m587_MethodInfo,
 	&U3CPrewarmU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m584_MethodInfo,
-	&U3CPrewarmU3Ec__Iterator5_Reset_m588_MethodInfo,
 };
 static bool U3CPrewarmU3Ec__Iterator5_t171_VTableIsGenericMethod[] =
 {
@@ -21059,14 +21059,14 @@ static bool U3CPrewarmU3Ec__Iterator5_t171_VTableIsGenericMethod[] =
 static const Il2CppType* U3CPrewarmU3Ec__Iterator5_t171_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CPrewarmU3Ec__Iterator5_t171_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CPrewarmU3Ec__Iterator5_t171_0_0_0;
@@ -21181,7 +21181,7 @@ extern const MethodInfo U3CBootU3Ec__Iterator6_System_Collections_Generic_IEnume
 	, 308/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
-	, 7/* slot */
+	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -21250,7 +21250,7 @@ extern const MethodInfo U3CBootU3Ec__Iterator6_Dispose_m594_MethodInfo =
 	, 310/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 6/* slot */
+	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -21273,7 +21273,7 @@ extern const MethodInfo U3CBootU3Ec__Iterator6_Reset_m595_MethodInfo =
 	, 311/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
-	, 8/* slot */
+	, 6/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
@@ -21322,8 +21322,8 @@ static const PropertyInfo* U3CBootU3Ec__Iterator6_t172_PropertyInfos[] =
 	NULL
 };
 extern const MethodInfo U3CBootU3Ec__Iterator6_MoveNext_m593_MethodInfo;
-extern const MethodInfo U3CBootU3Ec__Iterator6_Dispose_m594_MethodInfo;
 extern const MethodInfo U3CBootU3Ec__Iterator6_Reset_m595_MethodInfo;
+extern const MethodInfo U3CBootU3Ec__Iterator6_Dispose_m594_MethodInfo;
 static const Il2CppMethodReference U3CBootU3Ec__Iterator6_t172_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
@@ -21332,9 +21332,9 @@ static const Il2CppMethodReference U3CBootU3Ec__Iterator6_t172_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	&U3CBootU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m592_MethodInfo,
 	&U3CBootU3Ec__Iterator6_MoveNext_m593_MethodInfo,
+	&U3CBootU3Ec__Iterator6_Reset_m595_MethodInfo,
 	&U3CBootU3Ec__Iterator6_Dispose_m594_MethodInfo,
 	&U3CBootU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m591_MethodInfo,
-	&U3CBootU3Ec__Iterator6_Reset_m595_MethodInfo,
 };
 static bool U3CBootU3Ec__Iterator6_t172_VTableIsGenericMethod[] =
 {
@@ -21351,14 +21351,14 @@ static bool U3CBootU3Ec__Iterator6_t172_VTableIsGenericMethod[] =
 static const Il2CppType* U3CBootU3Ec__Iterator6_t172_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t567_0_0_0,
-	&IEnumerator_1_t718_0_0_0,
+	&IDisposable_t588_0_0_0,
+	&IEnumerator_1_t744_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CBootU3Ec__Iterator6_t172_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t567_0_0_0, 6},
-	{ &IEnumerator_1_t718_0_0_0, 7},
+	{ &IDisposable_t588_0_0_0, 7},
+	{ &IEnumerator_1_t744_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CBootU3Ec__Iterator6_t172_0_0_0;
@@ -21431,19 +21431,19 @@ TypeInfo U3CBootU3Ec__Iterator6_t172_il2cpp_TypeInfo =
 	, 3/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey16
+// ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey18
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_5.h"
-// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey16
-extern TypeInfo U3CGetPositionU3Ec__AnonStorey16_t173_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey16
+// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey18
+extern TypeInfo U3CGetPositionU3Ec__AnonStorey18_t173_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey18
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_5MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey16::.ctor()
-extern const MethodInfo U3CGetPositionU3Ec__AnonStorey16__ctor_m596_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey18::.ctor()
+extern const MethodInfo U3CGetPositionU3Ec__AnonStorey18__ctor_m596_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CGetPositionU3Ec__AnonStorey16__ctor_m596/* method */
-	, &U3CGetPositionU3Ec__AnonStorey16_t173_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CGetPositionU3Ec__AnonStorey18__ctor_m596/* method */
+	, &U3CGetPositionU3Ec__AnonStorey18_t173_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -21461,12 +21461,12 @@ extern const MethodInfo U3CGetPositionU3Ec__AnonStorey16__ctor_m596_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey16::<>m__6()
-extern const MethodInfo U3CGetPositionU3Ec__AnonStorey16_U3CU3Em__6_m597_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<GetPosition>c__AnonStorey18::<>m__6()
+extern const MethodInfo U3CGetPositionU3Ec__AnonStorey18_U3CU3Em__6_m597_MethodInfo = 
 {
 	"<>m__6"/* name */
-	, (methodPointerType)&U3CGetPositionU3Ec__AnonStorey16_U3CU3Em__6_m597/* method */
-	, &U3CGetPositionU3Ec__AnonStorey16_t173_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CGetPositionU3Ec__AnonStorey18_U3CU3Em__6_m597/* method */
+	, &U3CGetPositionU3Ec__AnonStorey18_t173_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -21483,20 +21483,20 @@ extern const MethodInfo U3CGetPositionU3Ec__AnonStorey16_U3CU3Em__6_m597_MethodI
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CGetPositionU3Ec__AnonStorey16_t173_MethodInfos[] =
+static const MethodInfo* U3CGetPositionU3Ec__AnonStorey18_t173_MethodInfos[] =
 {
-	&U3CGetPositionU3Ec__AnonStorey16__ctor_m596_MethodInfo,
-	&U3CGetPositionU3Ec__AnonStorey16_U3CU3Em__6_m597_MethodInfo,
+	&U3CGetPositionU3Ec__AnonStorey18__ctor_m596_MethodInfo,
+	&U3CGetPositionU3Ec__AnonStorey18_U3CU3Em__6_m597_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CGetPositionU3Ec__AnonStorey16_t173_VTable[] =
+static const Il2CppMethodReference U3CGetPositionU3Ec__AnonStorey18_t173_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CGetPositionU3Ec__AnonStorey16_t173_VTableIsGenericMethod[] =
+static bool U3CGetPositionU3Ec__AnonStorey18_t173_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -21504,37 +21504,37 @@ static bool U3CGetPositionU3Ec__AnonStorey16_t173_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CGetPositionU3Ec__AnonStorey16_t173_0_0_0;
-extern const Il2CppType U3CGetPositionU3Ec__AnonStorey16_t173_1_0_0;
-struct U3CGetPositionU3Ec__AnonStorey16_t173;
-const Il2CppTypeDefinitionMetadata U3CGetPositionU3Ec__AnonStorey16_t173_DefinitionMetadata = 
+extern const Il2CppType U3CGetPositionU3Ec__AnonStorey18_t173_0_0_0;
+extern const Il2CppType U3CGetPositionU3Ec__AnonStorey18_t173_1_0_0;
+struct U3CGetPositionU3Ec__AnonStorey18_t173;
+const Il2CppTypeDefinitionMetadata U3CGetPositionU3Ec__AnonStorey18_t173_DefinitionMetadata = 
 {
 	&PlaygroundParticlesC_t126_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CGetPositionU3Ec__AnonStorey16_t173_VTable/* vtableMethods */
-	, U3CGetPositionU3Ec__AnonStorey16_t173_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CGetPositionU3Ec__AnonStorey18_t173_VTable/* vtableMethods */
+	, U3CGetPositionU3Ec__AnonStorey18_t173_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 640/* fieldStart */
 
 };
-TypeInfo U3CGetPositionU3Ec__AnonStorey16_t173_il2cpp_TypeInfo = 
+TypeInfo U3CGetPositionU3Ec__AnonStorey18_t173_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<GetPosition>c__AnonStorey16"/* name */
+	, "<GetPosition>c__AnonStorey18"/* name */
 	, ""/* namespaze */
-	, U3CGetPositionU3Ec__AnonStorey16_t173_MethodInfos/* methods */
+	, U3CGetPositionU3Ec__AnonStorey18_t173_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CGetPositionU3Ec__AnonStorey16_t173_il2cpp_TypeInfo/* element_class */
+	, &U3CGetPositionU3Ec__AnonStorey18_t173_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 312/* custom_attributes_cache */
-	, &U3CGetPositionU3Ec__AnonStorey16_t173_0_0_0/* byval_arg */
-	, &U3CGetPositionU3Ec__AnonStorey16_t173_1_0_0/* this_arg */
-	, &U3CGetPositionU3Ec__AnonStorey16_t173_DefinitionMetadata/* definitionMetadata */
+	, &U3CGetPositionU3Ec__AnonStorey18_t173_0_0_0/* byval_arg */
+	, &U3CGetPositionU3Ec__AnonStorey18_t173_1_0_0/* this_arg */
+	, &U3CGetPositionU3Ec__AnonStorey18_t173_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -21544,8 +21544,8 @@ TypeInfo U3CGetPositionU3Ec__AnonStorey16_t173_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CGetPositionU3Ec__AnonStorey16_t173)/* instance_size */
-	, sizeof (U3CGetPositionU3Ec__AnonStorey16_t173)/* actualSize */
+	, sizeof (U3CGetPositionU3Ec__AnonStorey18_t173)/* instance_size */
+	, sizeof (U3CGetPositionU3Ec__AnonStorey18_t173)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -21574,19 +21574,19 @@ TypeInfo U3CGetPositionU3Ec__AnonStorey16_t173_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey17
+// ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey19
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_6.h"
-// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey17
-extern TypeInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey17
+// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey19
+extern TypeInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey19
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_6MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey17::.ctor()
-extern const MethodInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey17__ctor_m598_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey19::.ctor()
+extern const MethodInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey19__ctor_m598_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CSetLifetimeThreadSafeU3Ec__AnonStorey17__ctor_m598/* method */
-	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSetLifetimeThreadSafeU3Ec__AnonStorey19__ctor_m598/* method */
+	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -21604,12 +21604,12 @@ extern const MethodInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey17__ctor_m598_Me
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey17::<>m__7()
-extern const MethodInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_U3CU3Em__7_m599_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<SetLifetimeThreadSafe>c__AnonStorey19::<>m__7()
+extern const MethodInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_U3CU3Em__7_m599_MethodInfo = 
 {
 	"<>m__7"/* name */
-	, (methodPointerType)&U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_U3CU3Em__7_m599/* method */
-	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_U3CU3Em__7_m599/* method */
+	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -21626,20 +21626,20 @@ extern const MethodInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_U3CU3Em__7_m5
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_MethodInfos[] =
+static const MethodInfo* U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_MethodInfos[] =
 {
-	&U3CSetLifetimeThreadSafeU3Ec__AnonStorey17__ctor_m598_MethodInfo,
-	&U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_U3CU3Em__7_m599_MethodInfo,
+	&U3CSetLifetimeThreadSafeU3Ec__AnonStorey19__ctor_m598_MethodInfo,
+	&U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_U3CU3Em__7_m599_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_VTable[] =
+static const Il2CppMethodReference U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_VTableIsGenericMethod[] =
+static bool U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -21647,37 +21647,37 @@ static bool U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_VTableIsGenericMetho
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_0_0_0;
-extern const Il2CppType U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_1_0_0;
-struct U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174;
-const Il2CppTypeDefinitionMetadata U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_DefinitionMetadata = 
+extern const Il2CppType U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_0_0_0;
+extern const Il2CppType U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_1_0_0;
+struct U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174;
+const Il2CppTypeDefinitionMetadata U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_DefinitionMetadata = 
 {
 	&PlaygroundParticlesC_t126_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_VTable/* vtableMethods */
-	, U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_VTable/* vtableMethods */
+	, U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 645/* fieldStart */
 
 };
-TypeInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_il2cpp_TypeInfo = 
+TypeInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<SetLifetimeThreadSafe>c__AnonStorey17"/* name */
+	, "<SetLifetimeThreadSafe>c__AnonStorey19"/* name */
 	, ""/* namespaze */
-	, U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_MethodInfos/* methods */
+	, U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_il2cpp_TypeInfo/* element_class */
+	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 313/* custom_attributes_cache */
-	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_0_0_0/* byval_arg */
-	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_1_0_0/* this_arg */
-	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_DefinitionMetadata/* definitionMetadata */
+	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_0_0_0/* byval_arg */
+	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_1_0_0/* this_arg */
+	, &U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -21687,8 +21687,8 @@ TypeInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174)/* instance_size */
-	, sizeof (U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174)/* actualSize */
+	, sizeof (U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174)/* instance_size */
+	, sizeof (U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -21717,19 +21717,19 @@ TypeInfo U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey18
+// ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey1A
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_7.h"
-// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey18
-extern TypeInfo U3CSetParticleCountU3Ec__AnonStorey18_t175_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey18
+// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey1A
+extern TypeInfo U3CSetParticleCountU3Ec__AnonStorey1A_t175_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey1A
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_7MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey18::.ctor()
-extern const MethodInfo U3CSetParticleCountU3Ec__AnonStorey18__ctor_m600_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey1A::.ctor()
+extern const MethodInfo U3CSetParticleCountU3Ec__AnonStorey1A__ctor_m600_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CSetParticleCountU3Ec__AnonStorey18__ctor_m600/* method */
-	, &U3CSetParticleCountU3Ec__AnonStorey18_t175_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSetParticleCountU3Ec__AnonStorey1A__ctor_m600/* method */
+	, &U3CSetParticleCountU3Ec__AnonStorey1A_t175_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -21747,12 +21747,12 @@ extern const MethodInfo U3CSetParticleCountU3Ec__AnonStorey18__ctor_m600_MethodI
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey18::<>m__8()
-extern const MethodInfo U3CSetParticleCountU3Ec__AnonStorey18_U3CU3Em__8_m601_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<SetParticleCount>c__AnonStorey1A::<>m__8()
+extern const MethodInfo U3CSetParticleCountU3Ec__AnonStorey1A_U3CU3Em__8_m601_MethodInfo = 
 {
 	"<>m__8"/* name */
-	, (methodPointerType)&U3CSetParticleCountU3Ec__AnonStorey18_U3CU3Em__8_m601/* method */
-	, &U3CSetParticleCountU3Ec__AnonStorey18_t175_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSetParticleCountU3Ec__AnonStorey1A_U3CU3Em__8_m601/* method */
+	, &U3CSetParticleCountU3Ec__AnonStorey1A_t175_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -21769,20 +21769,20 @@ extern const MethodInfo U3CSetParticleCountU3Ec__AnonStorey18_U3CU3Em__8_m601_Me
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CSetParticleCountU3Ec__AnonStorey18_t175_MethodInfos[] =
+static const MethodInfo* U3CSetParticleCountU3Ec__AnonStorey1A_t175_MethodInfos[] =
 {
-	&U3CSetParticleCountU3Ec__AnonStorey18__ctor_m600_MethodInfo,
-	&U3CSetParticleCountU3Ec__AnonStorey18_U3CU3Em__8_m601_MethodInfo,
+	&U3CSetParticleCountU3Ec__AnonStorey1A__ctor_m600_MethodInfo,
+	&U3CSetParticleCountU3Ec__AnonStorey1A_U3CU3Em__8_m601_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CSetParticleCountU3Ec__AnonStorey18_t175_VTable[] =
+static const Il2CppMethodReference U3CSetParticleCountU3Ec__AnonStorey1A_t175_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CSetParticleCountU3Ec__AnonStorey18_t175_VTableIsGenericMethod[] =
+static bool U3CSetParticleCountU3Ec__AnonStorey1A_t175_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -21790,37 +21790,37 @@ static bool U3CSetParticleCountU3Ec__AnonStorey18_t175_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CSetParticleCountU3Ec__AnonStorey18_t175_0_0_0;
-extern const Il2CppType U3CSetParticleCountU3Ec__AnonStorey18_t175_1_0_0;
-struct U3CSetParticleCountU3Ec__AnonStorey18_t175;
-const Il2CppTypeDefinitionMetadata U3CSetParticleCountU3Ec__AnonStorey18_t175_DefinitionMetadata = 
+extern const Il2CppType U3CSetParticleCountU3Ec__AnonStorey1A_t175_0_0_0;
+extern const Il2CppType U3CSetParticleCountU3Ec__AnonStorey1A_t175_1_0_0;
+struct U3CSetParticleCountU3Ec__AnonStorey1A_t175;
+const Il2CppTypeDefinitionMetadata U3CSetParticleCountU3Ec__AnonStorey1A_t175_DefinitionMetadata = 
 {
 	&PlaygroundParticlesC_t126_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CSetParticleCountU3Ec__AnonStorey18_t175_VTable/* vtableMethods */
-	, U3CSetParticleCountU3Ec__AnonStorey18_t175_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CSetParticleCountU3Ec__AnonStorey1A_t175_VTable/* vtableMethods */
+	, U3CSetParticleCountU3Ec__AnonStorey1A_t175_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 648/* fieldStart */
 
 };
-TypeInfo U3CSetParticleCountU3Ec__AnonStorey18_t175_il2cpp_TypeInfo = 
+TypeInfo U3CSetParticleCountU3Ec__AnonStorey1A_t175_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<SetParticleCount>c__AnonStorey18"/* name */
+	, "<SetParticleCount>c__AnonStorey1A"/* name */
 	, ""/* namespaze */
-	, U3CSetParticleCountU3Ec__AnonStorey18_t175_MethodInfos/* methods */
+	, U3CSetParticleCountU3Ec__AnonStorey1A_t175_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CSetParticleCountU3Ec__AnonStorey18_t175_il2cpp_TypeInfo/* element_class */
+	, &U3CSetParticleCountU3Ec__AnonStorey1A_t175_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 314/* custom_attributes_cache */
-	, &U3CSetParticleCountU3Ec__AnonStorey18_t175_0_0_0/* byval_arg */
-	, &U3CSetParticleCountU3Ec__AnonStorey18_t175_1_0_0/* this_arg */
-	, &U3CSetParticleCountU3Ec__AnonStorey18_t175_DefinitionMetadata/* definitionMetadata */
+	, &U3CSetParticleCountU3Ec__AnonStorey1A_t175_0_0_0/* byval_arg */
+	, &U3CSetParticleCountU3Ec__AnonStorey1A_t175_1_0_0/* this_arg */
+	, &U3CSetParticleCountU3Ec__AnonStorey1A_t175_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -21830,8 +21830,8 @@ TypeInfo U3CSetParticleCountU3Ec__AnonStorey18_t175_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CSetParticleCountU3Ec__AnonStorey18_t175)/* instance_size */
-	, sizeof (U3CSetParticleCountU3Ec__AnonStorey18_t175)/* actualSize */
+	, sizeof (U3CSetParticleCountU3Ec__AnonStorey1A_t175)/* instance_size */
+	, sizeof (U3CSetParticleCountU3Ec__AnonStorey1A_t175)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -21860,19 +21860,19 @@ TypeInfo U3CSetParticleCountU3Ec__AnonStorey18_t175_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey19
+// ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey1B
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_8.h"
-// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey19
-extern TypeInfo U3CEmissionU3Ec__AnonStorey19_t176_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey19
+// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey1B
+extern TypeInfo U3CEmissionU3Ec__AnonStorey1B_t176_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey1B
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_8MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey19::.ctor()
-extern const MethodInfo U3CEmissionU3Ec__AnonStorey19__ctor_m602_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey1B::.ctor()
+extern const MethodInfo U3CEmissionU3Ec__AnonStorey1B__ctor_m602_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CEmissionU3Ec__AnonStorey19__ctor_m602/* method */
-	, &U3CEmissionU3Ec__AnonStorey19_t176_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CEmissionU3Ec__AnonStorey1B__ctor_m602/* method */
+	, &U3CEmissionU3Ec__AnonStorey1B_t176_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -21890,12 +21890,12 @@ extern const MethodInfo U3CEmissionU3Ec__AnonStorey19__ctor_m602_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey19::<>m__9()
-extern const MethodInfo U3CEmissionU3Ec__AnonStorey19_U3CU3Em__9_m603_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<Emission>c__AnonStorey1B::<>m__9()
+extern const MethodInfo U3CEmissionU3Ec__AnonStorey1B_U3CU3Em__9_m603_MethodInfo = 
 {
 	"<>m__9"/* name */
-	, (methodPointerType)&U3CEmissionU3Ec__AnonStorey19_U3CU3Em__9_m603/* method */
-	, &U3CEmissionU3Ec__AnonStorey19_t176_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CEmissionU3Ec__AnonStorey1B_U3CU3Em__9_m603/* method */
+	, &U3CEmissionU3Ec__AnonStorey1B_t176_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -21912,20 +21912,20 @@ extern const MethodInfo U3CEmissionU3Ec__AnonStorey19_U3CU3Em__9_m603_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CEmissionU3Ec__AnonStorey19_t176_MethodInfos[] =
+static const MethodInfo* U3CEmissionU3Ec__AnonStorey1B_t176_MethodInfos[] =
 {
-	&U3CEmissionU3Ec__AnonStorey19__ctor_m602_MethodInfo,
-	&U3CEmissionU3Ec__AnonStorey19_U3CU3Em__9_m603_MethodInfo,
+	&U3CEmissionU3Ec__AnonStorey1B__ctor_m602_MethodInfo,
+	&U3CEmissionU3Ec__AnonStorey1B_U3CU3Em__9_m603_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CEmissionU3Ec__AnonStorey19_t176_VTable[] =
+static const Il2CppMethodReference U3CEmissionU3Ec__AnonStorey1B_t176_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CEmissionU3Ec__AnonStorey19_t176_VTableIsGenericMethod[] =
+static bool U3CEmissionU3Ec__AnonStorey1B_t176_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -21933,37 +21933,37 @@ static bool U3CEmissionU3Ec__AnonStorey19_t176_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CEmissionU3Ec__AnonStorey19_t176_0_0_0;
-extern const Il2CppType U3CEmissionU3Ec__AnonStorey19_t176_1_0_0;
-struct U3CEmissionU3Ec__AnonStorey19_t176;
-const Il2CppTypeDefinitionMetadata U3CEmissionU3Ec__AnonStorey19_t176_DefinitionMetadata = 
+extern const Il2CppType U3CEmissionU3Ec__AnonStorey1B_t176_0_0_0;
+extern const Il2CppType U3CEmissionU3Ec__AnonStorey1B_t176_1_0_0;
+struct U3CEmissionU3Ec__AnonStorey1B_t176;
+const Il2CppTypeDefinitionMetadata U3CEmissionU3Ec__AnonStorey1B_t176_DefinitionMetadata = 
 {
 	&PlaygroundParticlesC_t126_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CEmissionU3Ec__AnonStorey19_t176_VTable/* vtableMethods */
-	, U3CEmissionU3Ec__AnonStorey19_t176_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CEmissionU3Ec__AnonStorey1B_t176_VTable/* vtableMethods */
+	, U3CEmissionU3Ec__AnonStorey1B_t176_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 650/* fieldStart */
 
 };
-TypeInfo U3CEmissionU3Ec__AnonStorey19_t176_il2cpp_TypeInfo = 
+TypeInfo U3CEmissionU3Ec__AnonStorey1B_t176_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<Emission>c__AnonStorey19"/* name */
+	, "<Emission>c__AnonStorey1B"/* name */
 	, ""/* namespaze */
-	, U3CEmissionU3Ec__AnonStorey19_t176_MethodInfos/* methods */
+	, U3CEmissionU3Ec__AnonStorey1B_t176_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CEmissionU3Ec__AnonStorey19_t176_il2cpp_TypeInfo/* element_class */
+	, &U3CEmissionU3Ec__AnonStorey1B_t176_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 315/* custom_attributes_cache */
-	, &U3CEmissionU3Ec__AnonStorey19_t176_0_0_0/* byval_arg */
-	, &U3CEmissionU3Ec__AnonStorey19_t176_1_0_0/* this_arg */
-	, &U3CEmissionU3Ec__AnonStorey19_t176_DefinitionMetadata/* definitionMetadata */
+	, &U3CEmissionU3Ec__AnonStorey1B_t176_0_0_0/* byval_arg */
+	, &U3CEmissionU3Ec__AnonStorey1B_t176_1_0_0/* this_arg */
+	, &U3CEmissionU3Ec__AnonStorey1B_t176_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -21973,8 +21973,8 @@ TypeInfo U3CEmissionU3Ec__AnonStorey19_t176_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CEmissionU3Ec__AnonStorey19_t176)/* instance_size */
-	, sizeof (U3CEmissionU3Ec__AnonStorey19_t176)/* actualSize */
+	, sizeof (U3CEmissionU3Ec__AnonStorey1B_t176)/* instance_size */
+	, sizeof (U3CEmissionU3Ec__AnonStorey1B_t176)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -22003,19 +22003,19 @@ TypeInfo U3CEmissionU3Ec__AnonStorey19_t176_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1A
+// ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1C
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_9.h"
-// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1A
-extern TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1A
+// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1C
+extern TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1C
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_9MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1A::.ctor()
-extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1A__ctor_m604_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1C::.ctor()
+extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1C__ctor_m604_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CNewCalculatedThreadU3Ec__AnonStorey1A__ctor_m604/* method */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CNewCalculatedThreadU3Ec__AnonStorey1C__ctor_m604/* method */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -22033,12 +22033,12 @@ extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1A__ctor_m604_Meth
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1A::<>m__A()
-extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1A_U3CU3Em__A_m605_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1C::<>m__A()
+extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1C_U3CU3Em__A_m605_MethodInfo = 
 {
 	"<>m__A"/* name */
-	, (methodPointerType)&U3CNewCalculatedThreadU3Ec__AnonStorey1A_U3CU3Em__A_m605/* method */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CNewCalculatedThreadU3Ec__AnonStorey1C_U3CU3Em__A_m605/* method */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -22055,20 +22055,20 @@ extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1A_U3CU3Em__A_m605
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_MethodInfos[] =
+static const MethodInfo* U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_MethodInfos[] =
 {
-	&U3CNewCalculatedThreadU3Ec__AnonStorey1A__ctor_m604_MethodInfo,
-	&U3CNewCalculatedThreadU3Ec__AnonStorey1A_U3CU3Em__A_m605_MethodInfo,
+	&U3CNewCalculatedThreadU3Ec__AnonStorey1C__ctor_m604_MethodInfo,
+	&U3CNewCalculatedThreadU3Ec__AnonStorey1C_U3CU3Em__A_m605_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_VTable[] =
+static const Il2CppMethodReference U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_VTableIsGenericMethod[] =
+static bool U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -22076,37 +22076,37 @@ static bool U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_VTableIsGenericMethod[
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_0_0_0;
-extern const Il2CppType U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_1_0_0;
-struct U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177;
-const Il2CppTypeDefinitionMetadata U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_DefinitionMetadata = 
+extern const Il2CppType U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_0_0_0;
+extern const Il2CppType U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_1_0_0;
+struct U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177;
+const Il2CppTypeDefinitionMetadata U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_DefinitionMetadata = 
 {
 	&PlaygroundParticlesC_t126_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_VTable/* vtableMethods */
-	, U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_VTable/* vtableMethods */
+	, U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 652/* fieldStart */
 
 };
-TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_il2cpp_TypeInfo = 
+TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<NewCalculatedThread>c__AnonStorey1A"/* name */
+	, "<NewCalculatedThread>c__AnonStorey1C"/* name */
 	, ""/* namespaze */
-	, U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_MethodInfos/* methods */
+	, U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_il2cpp_TypeInfo/* element_class */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 316/* custom_attributes_cache */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_0_0_0/* byval_arg */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_1_0_0/* this_arg */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_DefinitionMetadata/* definitionMetadata */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_0_0_0/* byval_arg */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_1_0_0/* this_arg */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -22116,8 +22116,8 @@ TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177)/* instance_size */
-	, sizeof (U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177)/* actualSize */
+	, sizeof (U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177)/* instance_size */
+	, sizeof (U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -22146,19 +22146,19 @@ TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1B
+// ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1D
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_10.h"
-// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1B
-extern TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1B
+// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1D
+extern TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1D
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_10MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1B::.ctor()
-extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1B__ctor_m606_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1D::.ctor()
+extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1D__ctor_m606_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CNewCalculatedThreadU3Ec__AnonStorey1B__ctor_m606/* method */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CNewCalculatedThreadU3Ec__AnonStorey1D__ctor_m606/* method */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -22176,12 +22176,12 @@ extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1B__ctor_m606_Meth
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1B::<>m__B()
-extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1B_U3CU3Em__B_m607_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<NewCalculatedThread>c__AnonStorey1D::<>m__B()
+extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1D_U3CU3Em__B_m607_MethodInfo = 
 {
 	"<>m__B"/* name */
-	, (methodPointerType)&U3CNewCalculatedThreadU3Ec__AnonStorey1B_U3CU3Em__B_m607/* method */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CNewCalculatedThreadU3Ec__AnonStorey1D_U3CU3Em__B_m607/* method */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -22198,20 +22198,20 @@ extern const MethodInfo U3CNewCalculatedThreadU3Ec__AnonStorey1B_U3CU3Em__B_m607
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_MethodInfos[] =
+static const MethodInfo* U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_MethodInfos[] =
 {
-	&U3CNewCalculatedThreadU3Ec__AnonStorey1B__ctor_m606_MethodInfo,
-	&U3CNewCalculatedThreadU3Ec__AnonStorey1B_U3CU3Em__B_m607_MethodInfo,
+	&U3CNewCalculatedThreadU3Ec__AnonStorey1D__ctor_m606_MethodInfo,
+	&U3CNewCalculatedThreadU3Ec__AnonStorey1D_U3CU3Em__B_m607_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_VTable[] =
+static const Il2CppMethodReference U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_VTableIsGenericMethod[] =
+static bool U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -22219,37 +22219,37 @@ static bool U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_VTableIsGenericMethod[
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_0_0_0;
-extern const Il2CppType U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_1_0_0;
-struct U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179;
-const Il2CppTypeDefinitionMetadata U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_DefinitionMetadata = 
+extern const Il2CppType U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_0_0_0;
+extern const Il2CppType U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_1_0_0;
+struct U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179;
+const Il2CppTypeDefinitionMetadata U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_DefinitionMetadata = 
 {
 	&PlaygroundParticlesC_t126_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_VTable/* vtableMethods */
-	, U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_VTable/* vtableMethods */
+	, U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 653/* fieldStart */
 
 };
-TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_il2cpp_TypeInfo = 
+TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<NewCalculatedThread>c__AnonStorey1B"/* name */
+	, "<NewCalculatedThread>c__AnonStorey1D"/* name */
 	, ""/* namespaze */
-	, U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_MethodInfos/* methods */
+	, U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_il2cpp_TypeInfo/* element_class */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 317/* custom_attributes_cache */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_0_0_0/* byval_arg */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_1_0_0/* this_arg */
-	, &U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_DefinitionMetadata/* definitionMetadata */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_0_0_0/* byval_arg */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_1_0_0/* this_arg */
+	, &U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -22259,8 +22259,8 @@ TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179)/* instance_size */
-	, sizeof (U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179)/* actualSize */
+	, sizeof (U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179)/* instance_size */
+	, sizeof (U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -22289,19 +22289,19 @@ TypeInfo U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1C
+// ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1E
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_11.h"
-// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1C
-extern TypeInfo U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1C
+// Metadata Definition ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1E
+extern TypeInfo U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1E
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundParticlesC_U3_11MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1C::.ctor()
-extern const MethodInfo U3CThreadedCalculationsU3Ec__AnonStorey1C__ctor_m608_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1E::.ctor()
+extern const MethodInfo U3CThreadedCalculationsU3Ec__AnonStorey1E__ctor_m608_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CThreadedCalculationsU3Ec__AnonStorey1C__ctor_m608/* method */
-	, &U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CThreadedCalculationsU3Ec__AnonStorey1E__ctor_m608/* method */
+	, &U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -22319,12 +22319,12 @@ extern const MethodInfo U3CThreadedCalculationsU3Ec__AnonStorey1C__ctor_m608_Met
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1C::<>m__C()
-extern const MethodInfo U3CThreadedCalculationsU3Ec__AnonStorey1C_U3CU3Em__C_m609_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundParticlesC/<ThreadedCalculations>c__AnonStorey1E::<>m__C()
+extern const MethodInfo U3CThreadedCalculationsU3Ec__AnonStorey1E_U3CU3Em__C_m609_MethodInfo = 
 {
 	"<>m__C"/* name */
-	, (methodPointerType)&U3CThreadedCalculationsU3Ec__AnonStorey1C_U3CU3Em__C_m609/* method */
-	, &U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CThreadedCalculationsU3Ec__AnonStorey1E_U3CU3Em__C_m609/* method */
+	, &U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -22341,20 +22341,20 @@ extern const MethodInfo U3CThreadedCalculationsU3Ec__AnonStorey1C_U3CU3Em__C_m60
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_MethodInfos[] =
+static const MethodInfo* U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_MethodInfos[] =
 {
-	&U3CThreadedCalculationsU3Ec__AnonStorey1C__ctor_m608_MethodInfo,
-	&U3CThreadedCalculationsU3Ec__AnonStorey1C_U3CU3Em__C_m609_MethodInfo,
+	&U3CThreadedCalculationsU3Ec__AnonStorey1E__ctor_m608_MethodInfo,
+	&U3CThreadedCalculationsU3Ec__AnonStorey1E_U3CU3Em__C_m609_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_VTable[] =
+static const Il2CppMethodReference U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_VTableIsGenericMethod[] =
+static bool U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -22362,37 +22362,37 @@ static bool U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_VTableIsGenericMethod
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_0_0_0;
-extern const Il2CppType U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_1_0_0;
-struct U3CThreadedCalculationsU3Ec__AnonStorey1C_t180;
-const Il2CppTypeDefinitionMetadata U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_DefinitionMetadata = 
+extern const Il2CppType U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_0_0_0;
+extern const Il2CppType U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_1_0_0;
+struct U3CThreadedCalculationsU3Ec__AnonStorey1E_t180;
+const Il2CppTypeDefinitionMetadata U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_DefinitionMetadata = 
 {
 	&PlaygroundParticlesC_t126_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_VTable/* vtableMethods */
-	, U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_VTable/* vtableMethods */
+	, U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 654/* fieldStart */
 
 };
-TypeInfo U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_il2cpp_TypeInfo = 
+TypeInfo U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<ThreadedCalculations>c__AnonStorey1C"/* name */
+	, "<ThreadedCalculations>c__AnonStorey1E"/* name */
 	, ""/* namespaze */
-	, U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_MethodInfos/* methods */
+	, U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_il2cpp_TypeInfo/* element_class */
+	, &U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 318/* custom_attributes_cache */
-	, &U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_0_0_0/* byval_arg */
-	, &U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_1_0_0/* this_arg */
-	, &U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_DefinitionMetadata/* definitionMetadata */
+	, &U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_0_0_0/* byval_arg */
+	, &U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_1_0_0/* this_arg */
+	, &U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -22402,8 +22402,8 @@ TypeInfo U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CThreadedCalculationsU3Ec__AnonStorey1C_t180)/* instance_size */
-	, sizeof (U3CThreadedCalculationsU3Ec__AnonStorey1C_t180)/* actualSize */
+	, sizeof (U3CThreadedCalculationsU3Ec__AnonStorey1E_t180)/* instance_size */
+	, sizeof (U3CThreadedCalculationsU3Ec__AnonStorey1E_t180)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -22759,12 +22759,12 @@ extern const MethodInfo PlaygroundParticlesC_Emit_m620_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Emit_m621_ParameterInfos[] = 
 {
-	{"giveLifetime", 0, 134218168, 0, &Single_t583_0_0_0},
+	{"giveLifetime", 0, 134218168, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t29_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t29_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 ParticlePlayground.PlaygroundParticlesC::Emit(System.Single)
 extern const MethodInfo PlaygroundParticlesC_Emit_m621_MethodInfo = 
 {
@@ -22772,7 +22772,7 @@ extern const MethodInfo PlaygroundParticlesC_Emit_m621_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_Emit_m621/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t29_Single_t583/* invoker_method */
+	, RuntimeInvoker_Int32_t29_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_Emit_m621_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -22788,13 +22788,13 @@ extern const MethodInfo PlaygroundParticlesC_Emit_m621_MethodInfo =
 
 };
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Emit_m622_ParameterInfos[] = 
 {
 	{"givePosition", 0, 134218169, 0, &Vector3_t53_0_0_0},
-	{"giveLifetime", 1, 134218170, 0, &Single_t583_0_0_0},
+	{"giveLifetime", 1, 134218170, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t29_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t29_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 ParticlePlayground.PlaygroundParticlesC::Emit(UnityEngine.Vector3,System.Single)
 extern const MethodInfo PlaygroundParticlesC_Emit_m622_MethodInfo = 
 {
@@ -22802,7 +22802,7 @@ extern const MethodInfo PlaygroundParticlesC_Emit_m622_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_Emit_m622/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t29_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Int32_t29_Vector3_t53_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_Emit_m622_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -22819,14 +22819,14 @@ extern const MethodInfo PlaygroundParticlesC_Emit_m622_MethodInfo =
 };
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Emit_m623_ParameterInfos[] = 
 {
 	{"givePosition", 0, 134218171, 0, &Vector3_t53_0_0_0},
 	{"giveVelocity", 1, 134218172, 0, &Vector3_t53_0_0_0},
-	{"giveLifetime", 2, 134218173, 0, &Single_t583_0_0_0},
+	{"giveLifetime", 2, 134218173, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t29_Vector3_t53_Vector3_t53_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t29_Vector3_t53_Vector3_t53_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 ParticlePlayground.PlaygroundParticlesC::Emit(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern const MethodInfo PlaygroundParticlesC_Emit_m623_MethodInfo = 
 {
@@ -22834,7 +22834,7 @@ extern const MethodInfo PlaygroundParticlesC_Emit_m623_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_Emit_m623/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t29_Vector3_t53_Vector3_t53_Single_t583/* invoker_method */
+	, RuntimeInvoker_Int32_t29_Vector3_t53_Vector3_t53_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_Emit_m623_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -22851,16 +22851,16 @@ extern const MethodInfo PlaygroundParticlesC_Emit_m623_MethodInfo =
 };
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Color32_t89_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Emit_m624_ParameterInfos[] = 
 {
 	{"givePosition", 0, 134218174, 0, &Vector3_t53_0_0_0},
 	{"giveVelocity", 1, 134218175, 0, &Vector3_t53_0_0_0},
-	{"giveLifetime", 2, 134218176, 0, &Single_t583_0_0_0},
+	{"giveLifetime", 2, 134218176, 0, &Single_t604_0_0_0},
 	{"giveColor", 3, 134218177, 0, &Color32_t89_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t29_Vector3_t53_Vector3_t53_Single_t583_Color32_t89 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t29_Vector3_t53_Vector3_t53_Single_t604_Color32_t89 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 ParticlePlayground.PlaygroundParticlesC::Emit(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Color32)
 extern const MethodInfo PlaygroundParticlesC_Emit_m624_MethodInfo = 
 {
@@ -22868,7 +22868,7 @@ extern const MethodInfo PlaygroundParticlesC_Emit_m624_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_Emit_m624/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t29_Vector3_t53_Vector3_t53_Single_t583_Color32_t89/* invoker_method */
+	, RuntimeInvoker_Int32_t29_Vector3_t53_Vector3_t53_Single_t604_Color32_t89/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_Emit_m624_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -23379,15 +23379,15 @@ extern const MethodInfo PlaygroundParticlesC_IsReportingBadUpdateRate_m644_Metho
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ParticlePlayground.PlaygroundParticlesC::GetDeltaTime()
 extern const MethodInfo PlaygroundParticlesC_GetDeltaTime_m645_MethodInfo = 
 {
 	"GetDeltaTime"/* name */
 	, (methodPointerType)&PlaygroundParticlesC_GetDeltaTime_m645/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -23402,15 +23402,15 @@ extern const MethodInfo PlaygroundParticlesC_GetDeltaTime_m645_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ParticlePlayground.PlaygroundParticlesC::get_LastTimeUpdated()
 extern const MethodInfo PlaygroundParticlesC_get_LastTimeUpdated_m646_MethodInfo = 
 {
 	"get_LastTimeUpdated"/* name */
 	, (methodPointerType)&PlaygroundParticlesC_get_LastTimeUpdated_m646/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -23425,12 +23425,12 @@ extern const MethodInfo PlaygroundParticlesC_get_LastTimeUpdated_m646_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_set_LastTimeUpdated_m647_ParameterInfos[] = 
 {
-	{"value", 0, 134218190, 0, &Single_t583_0_0_0},
+	{"value", 0, 134218190, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::set_LastTimeUpdated(System.Single)
 extern const MethodInfo PlaygroundParticlesC_set_LastTimeUpdated_m647_MethodInfo = 
 {
@@ -23438,7 +23438,7 @@ extern const MethodInfo PlaygroundParticlesC_set_LastTimeUpdated_m647_MethodInfo
 	, (methodPointerType)&PlaygroundParticlesC_set_LastTimeUpdated_m647/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_set_LastTimeUpdated_m647_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -23992,26 +23992,26 @@ extern const MethodInfo PlaygroundParticlesC_RefreshMaskSorting_m667_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Texture2DU5BU5D_t547_0_0_0;
+extern const Il2CppType Texture2DU5BU5D_t565_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Material_t48_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_CreatePlaygroundParticles_m668_ParameterInfos[] = 
 {
-	{"images", 0, 134218212, 0, &Texture2DU5BU5D_t547_0_0_0},
+	{"images", 0, 134218212, 0, &Texture2DU5BU5D_t565_0_0_0},
 	{"name", 1, 134218213, 0, &String_t_0_0_0},
 	{"position", 2, 134218214, 0, &Vector3_t53_0_0_0},
 	{"rotation", 3, 134218215, 0, &Quaternion_t69_0_0_0},
 	{"offset", 4, 134218216, 0, &Vector3_t53_0_0_0},
-	{"particleSize", 5, 134218217, 0, &Single_t583_0_0_0},
-	{"scale", 6, 134218218, 0, &Single_t583_0_0_0},
+	{"particleSize", 5, 134218217, 0, &Single_t604_0_0_0},
+	{"scale", 6, 134218218, 0, &Single_t604_0_0_0},
 	{"material", 7, 134218219, 0, &Material_t48_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t583_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t604_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundParticlesC::CreatePlaygroundParticles(UnityEngine.Texture2D[],System.String,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Material)
 extern const MethodInfo PlaygroundParticlesC_CreatePlaygroundParticles_m668_MethodInfo = 
 {
@@ -24019,7 +24019,7 @@ extern const MethodInfo PlaygroundParticlesC_CreatePlaygroundParticles_m668_Meth
 	, (methodPointerType)&PlaygroundParticlesC_CreatePlaygroundParticles_m668/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &PlaygroundParticlesC_t126_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t583_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Vector3_t53_Single_t604_Single_t604_Object_t/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_CreatePlaygroundParticles_m668_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24065,17 +24065,17 @@ extern const MethodInfo PlaygroundParticlesC_OnCreatePlaygroundParticles_m669_Me
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Material_t48_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_CreateParticleObject_m670_ParameterInfos[] = 
 {
 	{"name", 0, 134218221, 0, &String_t_0_0_0},
 	{"position", 1, 134218222, 0, &Vector3_t53_0_0_0},
 	{"rotation", 2, 134218223, 0, &Quaternion_t69_0_0_0},
-	{"particleSize", 3, 134218224, 0, &Single_t583_0_0_0},
+	{"particleSize", 3, 134218224, 0, &Single_t604_0_0_0},
 	{"material", 4, 134218225, 0, &Material_t48_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundParticlesC::CreateParticleObject(System.String,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Material)
 extern const MethodInfo PlaygroundParticlesC_CreateParticleObject_m670_MethodInfo = 
 {
@@ -24083,7 +24083,7 @@ extern const MethodInfo PlaygroundParticlesC_CreateParticleObject_m670_MethodInf
 	, (methodPointerType)&PlaygroundParticlesC_CreateParticleObject_m670/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &PlaygroundParticlesC_t126_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t604_Object_t/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_CreateParticleObject_m670_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24243,19 +24243,19 @@ extern const MethodInfo PlaygroundParticlesC_NewProjectionObject_m675_MethodInfo
 extern const Il2CppType MANIPULATORTYPEC_t128_0_0_0;
 extern const Il2CppType LayerMask_t87_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_NewManipulatorObject_m676_ParameterInfos[] = 
 {
 	{"type", 0, 134218232, 0, &MANIPULATORTYPEC_t128_0_0_0},
 	{"affects", 1, 134218233, 0, &LayerMask_t87_0_0_0},
 	{"manipulatorTransform", 2, 134218234, 0, &Transform_t54_0_0_0},
-	{"size", 3, 134218235, 0, &Single_t583_0_0_0},
-	{"strength", 4, 134218236, 0, &Single_t583_0_0_0},
+	{"size", 3, 134218235, 0, &Single_t604_0_0_0},
+	{"strength", 4, 134218236, 0, &Single_t604_0_0_0},
 	{"playgroundParticles", 5, 134218237, 0, &PlaygroundParticlesC_t126_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t583_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t604_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.ManipulatorObjectC ParticlePlayground.PlaygroundParticlesC::NewManipulatorObject(ParticlePlayground.MANIPULATORTYPEC,UnityEngine.LayerMask,UnityEngine.Transform,System.Single,System.Single,ParticlePlayground.PlaygroundParticlesC)
 extern const MethodInfo PlaygroundParticlesC_NewManipulatorObject_m676_MethodInfo = 
 {
@@ -24263,7 +24263,7 @@ extern const MethodInfo PlaygroundParticlesC_NewManipulatorObject_m676_MethodInf
 	, (methodPointerType)&PlaygroundParticlesC_NewManipulatorObject_m676/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &ManipulatorObjectC_t115_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t583_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Int32_t29_LayerMask_t87_Object_t_Single_t604_Single_t604_Object_t/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_NewManipulatorObject_m676_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24459,13 +24459,13 @@ extern const MethodInfo PlaygroundParticlesC_GetNormals_m682_MethodInfo =
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_SetSize_m683_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218250, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"size", 1, 134218251, 0, &Single_t583_0_0_0},
+	{"size", 1, 134218251, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::SetSize(ParticlePlayground.PlaygroundParticlesC,System.Single)
 extern const MethodInfo PlaygroundParticlesC_SetSize_m683_MethodInfo = 
 {
@@ -24473,7 +24473,7 @@ extern const MethodInfo PlaygroundParticlesC_SetSize_m683_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_SetSize_m683/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SetSize_m683_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24512,15 +24512,15 @@ extern const MethodInfo PlaygroundParticlesC_RefreshSystemRandom_m684_MethodInfo
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_SetSizeRandom_m685_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218252, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"sizeMinimum", 1, 134218253, 0, &Single_t583_0_0_0},
-	{"sizeMaximum", 2, 134218254, 0, &Single_t583_0_0_0},
+	{"sizeMinimum", 1, 134218253, 0, &Single_t604_0_0_0},
+	{"sizeMaximum", 2, 134218254, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::SetSizeRandom(ParticlePlayground.PlaygroundParticlesC,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_SetSizeRandom_m685_MethodInfo = 
 {
@@ -24528,7 +24528,7 @@ extern const MethodInfo PlaygroundParticlesC_SetSizeRandom_m685_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_SetSizeRandom_m685/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SetSizeRandom_m685_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24544,15 +24544,15 @@ extern const MethodInfo PlaygroundParticlesC_SetSizeRandom_m685_MethodInfo =
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_SetRotationRandom_m686_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218255, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"rotationMinimum", 1, 134218256, 0, &Single_t583_0_0_0},
-	{"rotationMaximum", 2, 134218257, 0, &Single_t583_0_0_0},
+	{"rotationMinimum", 1, 134218256, 0, &Single_t604_0_0_0},
+	{"rotationMaximum", 2, 134218257, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::SetRotationRandom(ParticlePlayground.PlaygroundParticlesC,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_SetRotationRandom_m686_MethodInfo = 
 {
@@ -24560,7 +24560,7 @@ extern const MethodInfo PlaygroundParticlesC_SetRotationRandom_m686_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_SetRotationRandom_m686/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SetRotationRandom_m686_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24576,15 +24576,15 @@ extern const MethodInfo PlaygroundParticlesC_SetRotationRandom_m686_MethodInfo =
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_SetInitialRotationRandom_m687_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218258, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"rotationMinimum", 1, 134218259, 0, &Single_t583_0_0_0},
-	{"rotationMaximum", 2, 134218260, 0, &Single_t583_0_0_0},
+	{"rotationMinimum", 1, 134218259, 0, &Single_t604_0_0_0},
+	{"rotationMaximum", 2, 134218260, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::SetInitialRotationRandom(ParticlePlayground.PlaygroundParticlesC,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_SetInitialRotationRandom_m687_MethodInfo = 
 {
@@ -24592,7 +24592,7 @@ extern const MethodInfo PlaygroundParticlesC_SetInitialRotationRandom_m687_Metho
 	, (methodPointerType)&PlaygroundParticlesC_SetInitialRotationRandom_m687/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SetInitialRotationRandom_m687_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24702,13 +24702,13 @@ extern const MethodInfo PlaygroundParticlesC_SetMaterial_m690_MethodInfo =
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_SetAlpha_m691_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218269, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"alpha", 1, 134218270, 0, &Single_t583_0_0_0},
+	{"alpha", 1, 134218270, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::SetAlpha(ParticlePlayground.PlaygroundParticlesC,System.Single)
 extern const MethodInfo PlaygroundParticlesC_SetAlpha_m691_MethodInfo = 
 {
@@ -24716,7 +24716,7 @@ extern const MethodInfo PlaygroundParticlesC_SetAlpha_m691_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_SetAlpha_m691/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SetAlpha_m691_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24793,7 +24793,7 @@ extern const MethodInfo PlaygroundParticlesC_Add_m693_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -24801,12 +24801,12 @@ static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Add_m6
 {
 	{"playgroundParticles", 0, 134218275, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"image", 1, 134218276, 0, &Texture2D_t90_0_0_0},
-	{"scale", 2, 134218277, 0, &Single_t583_0_0_0},
+	{"scale", 2, 134218277, 0, &Single_t604_0_0_0},
 	{"offset", 3, 134218278, 0, &Vector3_t53_0_0_0},
 	{"stateName", 4, 134218279, 0, &String_t_0_0_0},
 	{"stateTransform", 5, 134218280, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Texture2D,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo PlaygroundParticlesC_Add_m694_MethodInfo = 
 {
@@ -24814,7 +24814,7 @@ extern const MethodInfo PlaygroundParticlesC_Add_m694_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_Add_m694/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_Add_m694_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24832,8 +24832,8 @@ extern const MethodInfo PlaygroundParticlesC_Add_m694_MethodInfo =
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -24842,13 +24842,13 @@ static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Add_m6
 	{"playgroundParticles", 0, 134218281, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"image", 1, 134218282, 0, &Texture2D_t90_0_0_0},
 	{"depthmap", 2, 134218283, 0, &Texture2D_t90_0_0_0},
-	{"depthmapStrength", 3, 134218284, 0, &Single_t583_0_0_0},
-	{"scale", 4, 134218285, 0, &Single_t583_0_0_0},
+	{"depthmapStrength", 3, 134218284, 0, &Single_t604_0_0_0},
+	{"scale", 4, 134218285, 0, &Single_t604_0_0_0},
 	{"offset", 5, 134218286, 0, &Vector3_t53_0_0_0},
 	{"stateName", 6, 134218287, 0, &String_t_0_0_0},
 	{"stateTransform", 7, 134218288, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Texture2D,UnityEngine.Texture2D,System.Single,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo PlaygroundParticlesC_Add_m695_MethodInfo = 
 {
@@ -24856,7 +24856,7 @@ extern const MethodInfo PlaygroundParticlesC_Add_m695_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_Add_m695/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_Add_m695_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24901,14 +24901,14 @@ extern const MethodInfo PlaygroundParticlesC_Destroy_m696_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType SORTINGC_t144_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_SetLifetime_m697_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218290, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"sorting", 1, 134218291, 0, &SORTINGC_t144_0_0_0},
-	{"time", 2, 134218292, 0, &Single_t583_0_0_0},
+	{"time", 2, 134218292, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::SetLifetime(ParticlePlayground.PlaygroundParticlesC,ParticlePlayground.SORTINGC,System.Single)
 extern const MethodInfo PlaygroundParticlesC_SetLifetime_m697_MethodInfo = 
 {
@@ -24916,7 +24916,7 @@ extern const MethodInfo PlaygroundParticlesC_SetLifetime_m697_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_SetLifetime_m697/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SetLifetime_m697_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -24933,14 +24933,14 @@ extern const MethodInfo PlaygroundParticlesC_SetLifetime_m697_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType SORTINGC_t144_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_SetLifetimeThreadSafe_m698_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218293, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"sorting", 1, 134218294, 0, &SORTINGC_t144_0_0_0},
-	{"time", 2, 134218295, 0, &Single_t583_0_0_0},
+	{"time", 2, 134218295, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::SetLifetimeThreadSafe(ParticlePlayground.PlaygroundParticlesC,ParticlePlayground.SORTINGC,System.Single)
 extern const MethodInfo PlaygroundParticlesC_SetLifetimeThreadSafe_m698_MethodInfo = 
 {
@@ -24948,7 +24948,7 @@ extern const MethodInfo PlaygroundParticlesC_SetLifetimeThreadSafe_m698_MethodIn
 	, (methodPointerType)&PlaygroundParticlesC_SetLifetimeThreadSafe_m698/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SetLifetimeThreadSafe_m698_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25076,13 +25076,13 @@ extern const MethodInfo PlaygroundParticlesC_SetParticleTimeNowWithRestEmission_
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_GetColorAtLifetime_m703_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218300, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"time", 1, 134218301, 0, &Single_t583_0_0_0},
+	{"time", 1, 134218301, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Color32_t89_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Color32_t89_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Color32 ParticlePlayground.PlaygroundParticlesC::GetColorAtLifetime(ParticlePlayground.PlaygroundParticlesC,System.Single)
 extern const MethodInfo PlaygroundParticlesC_GetColorAtLifetime_m703_MethodInfo = 
 {
@@ -25090,7 +25090,7 @@ extern const MethodInfo PlaygroundParticlesC_GetColorAtLifetime_m703_MethodInfo 
 	, (methodPointerType)&PlaygroundParticlesC_GetColorAtLifetime_m703/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Color32_t89_0_0_0/* return_type */
-	, RuntimeInvoker_Color32_t89_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Color32_t89_Object_t_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_GetColorAtLifetime_m703_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25106,13 +25106,13 @@ extern const MethodInfo PlaygroundParticlesC_GetColorAtLifetime_m703_MethodInfo 
 
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_SetColorAtLifetime_m704_ParameterInfos[] = 
 {
 	{"playgroundParticles", 0, 134218302, 0, &PlaygroundParticlesC_t126_0_0_0},
-	{"time", 1, 134218303, 0, &Single_t583_0_0_0},
+	{"time", 1, 134218303, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::SetColorAtLifetime(ParticlePlayground.PlaygroundParticlesC,System.Single)
 extern const MethodInfo PlaygroundParticlesC_SetColorAtLifetime_m704_MethodInfo = 
 {
@@ -25120,7 +25120,7 @@ extern const MethodInfo PlaygroundParticlesC_SetColorAtLifetime_m704_MethodInfo 
 	, (methodPointerType)&PlaygroundParticlesC_SetColorAtLifetime_m704/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t583/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SetColorAtLifetime_m704_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25335,15 +25335,15 @@ static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Signed
 	{"b", 1, 134218314, 0, &Vector3_t53_0_0_0},
 	{"n", 2, 134218315, 0, &Vector3_t53_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Vector3_t53_Vector3_t53_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Vector3_t53_Vector3_t53_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
 // System.Single ParticlePlayground.PlaygroundParticlesC::SignedAngle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
 extern const MethodInfo PlaygroundParticlesC_SignedAngle_m712_MethodInfo = 
 {
 	"SignedAngle"/* name */
 	, (methodPointerType)&PlaygroundParticlesC_SignedAngle_m712/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Vector3_t53_Vector3_t53_Vector3_t53/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Vector3_t53_Vector3_t53_Vector3_t53/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_SignedAngle_m712_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25472,15 +25472,15 @@ extern const MethodInfo PlaygroundParticlesC_NewCalculatedThread_m716_MethodInfo
 
 };
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_GetParticleColor_m717_ParameterInfos[] = 
 {
 	{"p", 0, 134218321, 0, &Int32_t29_0_0_0},
-	{"normalizedLife", 1, 134218322, 0, &Single_t583_0_0_0},
-	{"normalizedP", 2, 134218323, 0, &Single_t583_0_0_0},
+	{"normalizedLife", 1, 134218322, 0, &Single_t604_0_0_0},
+	{"normalizedP", 2, 134218323, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Color32_t89_Int32_t29_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Color32_t89_Int32_t29_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Color32 ParticlePlayground.PlaygroundParticlesC::GetParticleColor(System.Int32,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_GetParticleColor_m717_MethodInfo = 
 {
@@ -25488,7 +25488,7 @@ extern const MethodInfo PlaygroundParticlesC_GetParticleColor_m717_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_GetParticleColor_m717/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Color32_t89_0_0_0/* return_type */
-	, RuntimeInvoker_Color32_t89_Int32_t29_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Color32_t89_Int32_t29_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_GetParticleColor_m717_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -25592,11 +25592,11 @@ extern const MethodInfo PlaygroundParticlesC_SendDeathEvents_m720_MethodInfo =
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType SimplexNoise_t120_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType TURBULENCETYPE_t156_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
 extern const Il2CppType AnimationCurve_t98_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Turbulence_m721_ParameterInfos[] = 
@@ -25604,15 +25604,15 @@ static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Turbul
 	{"playgroundParticles", 0, 134218328, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"turbulenceSimplex", 1, 134218329, 0, &SimplexNoise_t120_0_0_0},
 	{"p", 2, 134218330, 0, &Int32_t29_0_0_0},
-	{"t", 3, 134218331, 0, &Single_t583_0_0_0},
+	{"t", 3, 134218331, 0, &Single_t604_0_0_0},
 	{"turbulenceType", 4, 134218332, 0, &TURBULENCETYPE_t156_0_0_0},
-	{"turbulenceTimeScale", 5, 134218333, 0, &Single_t583_0_0_0},
-	{"turbulenceScale", 6, 134218334, 0, &Single_t583_0_0_0},
-	{"turbulenceStrength", 7, 134218335, 0, &Single_t583_0_0_0},
+	{"turbulenceTimeScale", 5, 134218333, 0, &Single_t604_0_0_0},
+	{"turbulenceScale", 6, 134218334, 0, &Single_t604_0_0_0},
+	{"turbulenceStrength", 7, 134218335, 0, &Single_t604_0_0_0},
 	{"turbulenceApplyLifetimeStrength", 8, 134218336, 0, &Boolean_t30_0_0_0},
 	{"turbulenceLifetimeStrength", 9, 134218337, 0, &AnimationCurve_t98_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Int32_t29_Single_t583_Int32_t29_Single_t583_Single_t583_Single_t583_SByte_t36_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Int32_t29_Single_t604_Int32_t29_Single_t604_Single_t604_Single_t604_SByte_t36_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::Turbulence(ParticlePlayground.PlaygroundParticlesC,ParticlePlayground.SimplexNoise,System.Int32,System.Single,ParticlePlayground.TURBULENCETYPE,System.Single,System.Single,System.Single,System.Boolean,UnityEngine.AnimationCurve)
 extern const MethodInfo PlaygroundParticlesC_Turbulence_m721_MethodInfo = 
 {
@@ -25620,7 +25620,7 @@ extern const MethodInfo PlaygroundParticlesC_Turbulence_m721_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_Turbulence_m721/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Int32_t29_Single_t583_Int32_t29_Single_t583_Single_t583_Single_t583_SByte_t36_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Int32_t29_Single_t604_Int32_t29_Single_t604_Single_t604_Single_t604_SByte_t36_Object_t/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_Turbulence_m721_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25762,8 +25762,8 @@ extern const MethodInfo PlaygroundParticlesC_Vector3Scale_m725_MethodInfo =
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType ManipulatorObjectC_t115_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
@@ -25772,13 +25772,13 @@ static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Calcul
 	{"playgroundParticles", 0, 134218348, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"thisManipulator", 1, 134218349, 0, &ManipulatorObjectC_t115_0_0_0},
 	{"p", 2, 134218350, 0, &Int32_t29_0_0_0},
-	{"t", 3, 134218351, 0, &Single_t583_0_0_0},
-	{"life", 4, 134218352, 0, &Single_t583_0_0_0},
+	{"t", 3, 134218351, 0, &Single_t604_0_0_0},
+	{"life", 4, 134218352, 0, &Single_t604_0_0_0},
 	{"particlePosition", 5, 134218353, 0, &Vector3_t53_0_0_0},
 	{"manipulatorPosition", 6, 134218354, 0, &Vector3_t53_0_0_0},
 	{"localSpace", 7, 134218355, 0, &Boolean_t30_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Int32_t29_Single_t583_Single_t583_Vector3_t53_Vector3_t53_SByte_t36 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Int32_t29_Single_t604_Single_t604_Vector3_t53_Vector3_t53_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::CalculateManipulator(ParticlePlayground.PlaygroundParticlesC,ParticlePlayground.ManipulatorObjectC,System.Int32,System.Single,System.Single,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean)
 extern const MethodInfo PlaygroundParticlesC_CalculateManipulator_m726_MethodInfo = 
 {
@@ -25786,7 +25786,7 @@ extern const MethodInfo PlaygroundParticlesC_CalculateManipulator_m726_MethodInf
 	, (methodPointerType)&PlaygroundParticlesC_CalculateManipulator_m726/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Int32_t29_Single_t583_Single_t583_Vector3_t53_Vector3_t53_SByte_t36/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Int32_t29_Single_t604_Single_t604_Vector3_t53_Vector3_t53_SByte_t36/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_CalculateManipulator_m726_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25805,10 +25805,10 @@ extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType ManipulatorObjectC_t115_0_0_0;
 extern const Il2CppType ManipulatorPropertyC_t110_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_PropertyManipulator_m727_ParameterInfos[] = 
@@ -25817,14 +25817,14 @@ static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Proper
 	{"thisManipulator", 1, 134218357, 0, &ManipulatorObjectC_t115_0_0_0},
 	{"thisManipulatorProperty", 2, 134218358, 0, &ManipulatorPropertyC_t110_0_0_0},
 	{"p", 3, 134218359, 0, &Int32_t29_0_0_0},
-	{"t", 4, 134218360, 0, &Single_t583_0_0_0},
+	{"t", 4, 134218360, 0, &Single_t604_0_0_0},
 	{"particlePosition", 5, 134218361, 0, &Vector3_t53_0_0_0},
 	{"manipulatorPosition", 6, 134218362, 0, &Vector3_t53_0_0_0},
-	{"manipulatorDistance", 7, 134218363, 0, &Single_t583_0_0_0},
+	{"manipulatorDistance", 7, 134218363, 0, &Single_t604_0_0_0},
 	{"localSpace", 8, 134218364, 0, &Boolean_t30_0_0_0},
 	{"contains", 9, 134218365, 0, &Boolean_t30_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Int32_t29_Single_t583_Vector3_t53_Vector3_t53_Single_t583_SByte_t36_SByte_t36 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Int32_t29_Single_t604_Vector3_t53_Vector3_t53_Single_t604_SByte_t36_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::PropertyManipulator(ParticlePlayground.PlaygroundParticlesC,ParticlePlayground.ManipulatorObjectC,ParticlePlayground.ManipulatorPropertyC,System.Int32,System.Single,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean,System.Boolean)
 extern const MethodInfo PlaygroundParticlesC_PropertyManipulator_m727_MethodInfo = 
 {
@@ -25832,7 +25832,7 @@ extern const MethodInfo PlaygroundParticlesC_PropertyManipulator_m727_MethodInfo
 	, (methodPointerType)&PlaygroundParticlesC_PropertyManipulator_m727/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Int32_t29_Single_t583_Vector3_t53_Vector3_t53_Single_t583_SByte_t36_SByte_t36/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Int32_t29_Single_t604_Vector3_t53_Vector3_t53_Single_t604_SByte_t36_SByte_t36/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_PropertyManipulator_m727_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25871,23 +25871,23 @@ extern const MethodInfo PlaygroundParticlesC_RefreshScatter_m728_MethodInfo =
 
 };
 extern const Il2CppType Random_t81_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRange_m729_ParameterInfos[] = 
 {
 	{"random", 0, 134218366, 0, &Random_t81_0_0_0},
-	{"min", 1, 134218367, 0, &Single_t583_0_0_0},
-	{"max", 2, 134218368, 0, &Single_t583_0_0_0},
+	{"min", 1, 134218367, 0, &Single_t604_0_0_0},
+	{"max", 2, 134218368, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Object_t_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Object_t_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ParticlePlayground.PlaygroundParticlesC::RandomRange(System.Random,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_RandomRange_m729_MethodInfo = 
 {
 	"RandomRange"/* name */
 	, (methodPointerType)&PlaygroundParticlesC_RandomRange_m729/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Object_t_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Object_t_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRange_m729_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25935,15 +25935,15 @@ extern const MethodInfo PlaygroundParticlesC_RandomRange_m730_MethodInfo =
 
 };
 extern const Il2CppType Random_t81_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRangeSpherical_m731_ParameterInfos[] = 
 {
 	{"random", 0, 134218372, 0, &Random_t81_0_0_0},
-	{"min", 1, 134218373, 0, &Single_t583_0_0_0},
-	{"max", 2, 134218374, 0, &Single_t583_0_0_0},
+	{"min", 1, 134218373, 0, &Single_t604_0_0_0},
+	{"max", 2, 134218374, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Object_t_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Object_t_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.PlaygroundParticlesC::RandomRangeSpherical(System.Random,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m731_MethodInfo = 
 {
@@ -25951,7 +25951,7 @@ extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m731_MethodInf
 	, (methodPointerType)&PlaygroundParticlesC_RandomRangeSpherical_m731/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Object_t_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Object_t_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRangeSpherical_m731_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -25967,17 +25967,17 @@ extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m731_MethodInf
 
 };
 extern const Il2CppType Random_t81_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRangeSpherical_m732_ParameterInfos[] = 
 {
 	{"random", 0, 134218375, 0, &Random_t81_0_0_0},
-	{"min", 1, 134218376, 0, &Single_t583_0_0_0},
-	{"max", 2, 134218377, 0, &Single_t583_0_0_0},
-	{"step", 3, 134218378, 0, &Single_t583_0_0_0},
+	{"min", 1, 134218376, 0, &Single_t604_0_0_0},
+	{"max", 2, 134218377, 0, &Single_t604_0_0_0},
+	{"step", 3, 134218378, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Object_t_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Object_t_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.PlaygroundParticlesC::RandomRangeSpherical(System.Random,System.Single,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m732_MethodInfo = 
 {
@@ -25985,7 +25985,7 @@ extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m732_MethodInf
 	, (methodPointerType)&PlaygroundParticlesC_RandomRangeSpherical_m732/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Object_t_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Object_t_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRangeSpherical_m732_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -26001,19 +26001,19 @@ extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m732_MethodInf
 
 };
 extern const Il2CppType Random_t81_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRangeSpherical_m733_ParameterInfos[] = 
 {
 	{"random", 0, 134218379, 0, &Random_t81_0_0_0},
-	{"min", 1, 134218380, 0, &Single_t583_0_0_0},
-	{"max", 2, 134218381, 0, &Single_t583_0_0_0},
-	{"sectorA", 3, 134218382, 0, &Single_t583_0_0_0},
-	{"sectorB", 4, 134218383, 0, &Single_t583_0_0_0},
+	{"min", 1, 134218380, 0, &Single_t604_0_0_0},
+	{"max", 2, 134218381, 0, &Single_t604_0_0_0},
+	{"sectorA", 3, 134218382, 0, &Single_t604_0_0_0},
+	{"sectorB", 4, 134218383, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Object_t_Single_t583_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Object_t_Single_t604_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.PlaygroundParticlesC::RandomRangeSpherical(System.Random,System.Single,System.Single,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m733_MethodInfo = 
 {
@@ -26021,7 +26021,7 @@ extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m733_MethodInf
 	, (methodPointerType)&PlaygroundParticlesC_RandomRangeSpherical_m733/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Object_t_Single_t583_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Object_t_Single_t604_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRangeSpherical_m733_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -26037,21 +26037,21 @@ extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m733_MethodInf
 
 };
 extern const Il2CppType Random_t81_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRangeSpherical_m734_ParameterInfos[] = 
 {
 	{"random", 0, 134218384, 0, &Random_t81_0_0_0},
-	{"min", 1, 134218385, 0, &Single_t583_0_0_0},
-	{"max", 2, 134218386, 0, &Single_t583_0_0_0},
-	{"sectorA", 3, 134218387, 0, &Single_t583_0_0_0},
-	{"sectorB", 4, 134218388, 0, &Single_t583_0_0_0},
-	{"step", 5, 134218389, 0, &Single_t583_0_0_0},
+	{"min", 1, 134218385, 0, &Single_t604_0_0_0},
+	{"max", 2, 134218386, 0, &Single_t604_0_0_0},
+	{"sectorA", 3, 134218387, 0, &Single_t604_0_0_0},
+	{"sectorB", 4, 134218388, 0, &Single_t604_0_0_0},
+	{"step", 5, 134218389, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Vector3_t53_Object_t_Single_t583_Single_t583_Single_t583_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Vector3_t53_Object_t_Single_t604_Single_t604_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 ParticlePlayground.PlaygroundParticlesC::RandomRangeSpherical(System.Random,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m734_MethodInfo = 
 {
@@ -26059,7 +26059,7 @@ extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m734_MethodInf
 	, (methodPointerType)&PlaygroundParticlesC_RandomRangeSpherical_m734/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53_Object_t_Single_t583_Single_t583_Single_t583_Single_t583_Single_t583/* invoker_method */
+	, RuntimeInvoker_Vector3_t53_Object_t_Single_t604_Single_t604_Single_t604_Single_t604_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomRangeSpherical_m734_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -26075,17 +26075,17 @@ extern const MethodInfo PlaygroundParticlesC_RandomRangeSpherical_m734_MethodInf
 
 };
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Random_t81_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomFloat_m735_ParameterInfos[] = 
 {
 	{"length", 0, 134218390, 0, &Int32_t29_0_0_0},
-	{"min", 1, 134218391, 0, &Single_t583_0_0_0},
-	{"max", 2, 134218392, 0, &Single_t583_0_0_0},
+	{"min", 1, 134218391, 0, &Single_t604_0_0_0},
+	{"max", 2, 134218392, 0, &Single_t604_0_0_0},
 	{"random", 3, 134218393, 0, &Random_t81_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Int32_t29_Single_t583_Single_t583_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Int32_t29_Single_t604_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single[] ParticlePlayground.PlaygroundParticlesC::RandomFloat(System.Int32,System.Single,System.Single,System.Random)
 extern const MethodInfo PlaygroundParticlesC_RandomFloat_m735_MethodInfo = 
 {
@@ -26093,7 +26093,7 @@ extern const MethodInfo PlaygroundParticlesC_RandomFloat_m735_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_RandomFloat_m735/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &SingleU5BU5D_t168_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Int32_t29_Single_t583_Single_t583_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Int32_t29_Single_t604_Single_t604_Object_t/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_RandomFloat_m735_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -26708,21 +26708,21 @@ extern const MethodInfo PlaygroundParticlesC_LoadTransition_m755_MethodInfo =
 
 };
 extern const Il2CppType INDIVIDUALTRANSITIONTYPEC_t141_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_TransitionType_m756_ParameterInfos[] = 
 {
 	{"thisTransitionType", 0, 134218436, 0, &INDIVIDUALTRANSITIONTYPEC_t141_0_0_0},
-	{"t", 1, 134218437, 0, &Single_t583_0_0_0},
+	{"t", 1, 134218437, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Int32_t29_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Int32_t29_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single ParticlePlayground.PlaygroundParticlesC::TransitionType(ParticlePlayground.INDIVIDUALTRANSITIONTYPEC,System.Single)
 extern const MethodInfo PlaygroundParticlesC_TransitionType_m756_MethodInfo = 
 {
 	"TransitionType"/* name */
 	, (methodPointerType)&PlaygroundParticlesC_TransitionType_m756/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Int32_t29_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Int32_t29_Single_t604/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_TransitionType_m756_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -26783,14 +26783,14 @@ extern const MethodInfo PlaygroundParticlesC_YieldedRefresh_m758_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_Prewarm_m759_ParameterInfos[] = 
 {
-	{"time", 0, 134218438, 0, &Single_t583_0_0_0},
+	{"time", 0, 134218438, 0, &Single_t604_0_0_0},
 	{"resolution", 1, 134218439, 0, &Int32_t29_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Single_t583_Int32_t29 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Single_t604_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator ParticlePlayground.PlaygroundParticlesC::Prewarm(System.Single,System.Int32)
 extern const MethodInfo PlaygroundParticlesC_Prewarm_m759_MethodInfo = 
 {
@@ -26798,7 +26798,7 @@ extern const MethodInfo PlaygroundParticlesC_Prewarm_m759_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_Prewarm_m759/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t74_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Single_t583_Int32_t29/* invoker_method */
+	, RuntimeInvoker_Object_t_Single_t604_Int32_t29/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_Prewarm_m759_ParameterInfos/* parameters */
 	, 280/* custom_attributes_cache */
 	, 129/* flags */
@@ -26813,14 +26813,14 @@ extern const MethodInfo PlaygroundParticlesC_Prewarm_m759_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 static const ParameterInfo PlaygroundParticlesC_t126_PlaygroundParticlesC_PrewarmStepper_m760_ParameterInfos[] = 
 {
-	{"time", 0, 134218440, 0, &Single_t583_0_0_0},
+	{"time", 0, 134218440, 0, &Single_t604_0_0_0},
 	{"resolution", 1, 134218441, 0, &Int32_t29_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t583_Int32_t29 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t604_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.PlaygroundParticlesC::PrewarmStepper(System.Single,System.Int32)
 extern const MethodInfo PlaygroundParticlesC_PrewarmStepper_m760_MethodInfo = 
 {
@@ -26828,7 +26828,7 @@ extern const MethodInfo PlaygroundParticlesC_PrewarmStepper_m760_MethodInfo =
 	, (methodPointerType)&PlaygroundParticlesC_PrewarmStepper_m760/* method */
 	, &PlaygroundParticlesC_t126_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t583_Int32_t29/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t604_Int32_t29/* invoker_method */
 	, PlaygroundParticlesC_t126_PlaygroundParticlesC_PrewarmStepper_m760_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -27180,20 +27180,20 @@ static const Il2CppType* PlaygroundParticlesC_t126_il2cpp_TypeInfo__nestedTypes[
 	&U3CYieldedRefreshU3Ec__Iterator4_t170_0_0_0,
 	&U3CPrewarmU3Ec__Iterator5_t171_0_0_0,
 	&U3CBootU3Ec__Iterator6_t172_0_0_0,
-	&U3CGetPositionU3Ec__AnonStorey16_t173_0_0_0,
-	&U3CSetLifetimeThreadSafeU3Ec__AnonStorey17_t174_0_0_0,
-	&U3CSetParticleCountU3Ec__AnonStorey18_t175_0_0_0,
-	&U3CEmissionU3Ec__AnonStorey19_t176_0_0_0,
-	&U3CNewCalculatedThreadU3Ec__AnonStorey1A_t177_0_0_0,
-	&U3CNewCalculatedThreadU3Ec__AnonStorey1B_t179_0_0_0,
-	&U3CThreadedCalculationsU3Ec__AnonStorey1C_t180_0_0_0,
+	&U3CGetPositionU3Ec__AnonStorey18_t173_0_0_0,
+	&U3CSetLifetimeThreadSafeU3Ec__AnonStorey19_t174_0_0_0,
+	&U3CSetParticleCountU3Ec__AnonStorey1A_t175_0_0_0,
+	&U3CEmissionU3Ec__AnonStorey1B_t176_0_0_0,
+	&U3CNewCalculatedThreadU3Ec__AnonStorey1C_t177_0_0_0,
+	&U3CNewCalculatedThreadU3Ec__AnonStorey1D_t179_0_0_0,
+	&U3CThreadedCalculationsU3Ec__AnonStorey1E_t180_0_0_0,
 };
 static const Il2CppMethodReference PlaygroundParticlesC_t126_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool PlaygroundParticlesC_t126_VTableIsGenericMethod[] =
 {
@@ -27301,28 +27301,28 @@ extern const MethodInfo MeshParticles__ctor_m767_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType MeshU5BU5D_t548_0_0_0;
-extern const Il2CppType Texture2DU5BU5D_t547_0_0_0;
-extern const Il2CppType Texture2DU5BU5D_t547_0_0_0;
+extern const Il2CppType MeshU5BU5D_t566_0_0_0;
+extern const Il2CppType Texture2DU5BU5D_t565_0_0_0;
+extern const Il2CppType Texture2DU5BU5D_t565_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType Quaternion_t69_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3U5BU5D_t92_0_0_0;
 extern const Il2CppType Material_t48_0_0_0;
 static const ParameterInfo MeshParticles_t191_MeshParticles_CreateMeshParticles_m768_ParameterInfos[] = 
 {
-	{"meshes", 0, 134218442, 0, &MeshU5BU5D_t548_0_0_0},
-	{"textures", 1, 134218443, 0, &Texture2DU5BU5D_t547_0_0_0},
-	{"heightMap", 2, 134218444, 0, &Texture2DU5BU5D_t547_0_0_0},
+	{"meshes", 0, 134218442, 0, &MeshU5BU5D_t566_0_0_0},
+	{"textures", 1, 134218443, 0, &Texture2DU5BU5D_t565_0_0_0},
+	{"heightMap", 2, 134218444, 0, &Texture2DU5BU5D_t565_0_0_0},
 	{"name", 3, 134218445, 0, &String_t_0_0_0},
 	{"position", 4, 134218446, 0, &Vector3_t53_0_0_0},
 	{"rotation", 5, 134218447, 0, &Quaternion_t69_0_0_0},
-	{"particleScale", 6, 134218448, 0, &Single_t583_0_0_0},
+	{"particleScale", 6, 134218448, 0, &Single_t604_0_0_0},
 	{"offsets", 7, 134218449, 0, &Vector3U5BU5D_t92_0_0_0},
 	{"material", 8, 134218450, 0, &Material_t48_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t583_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t604_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.MeshParticles::CreateMeshParticles(UnityEngine.Mesh[],UnityEngine.Texture2D[],UnityEngine.Texture2D[],System.String,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Vector3[],UnityEngine.Material)
 extern const MethodInfo MeshParticles_CreateMeshParticles_m768_MethodInfo = 
 {
@@ -27330,7 +27330,7 @@ extern const MethodInfo MeshParticles_CreateMeshParticles_m768_MethodInfo =
 	, (methodPointerType)&MeshParticles_CreateMeshParticles_m768/* method */
 	, &MeshParticles_t191_il2cpp_TypeInfo/* declaring_type */
 	, &PlaygroundParticlesC_t126_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t583_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Vector3_t53_Quaternion_t69_Single_t604_Object_t_Object_t/* invoker_method */
 	, MeshParticles_t191_MeshParticles_CreateMeshParticles_m768_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -27347,7 +27347,7 @@ extern const MethodInfo MeshParticles_CreateMeshParticles_m768_MethodInfo =
 };
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Mesh_t93_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -27355,12 +27355,12 @@ static const ParameterInfo MeshParticles_t191_MeshParticles_Add_m769_ParameterIn
 {
 	{"meshParticles", 0, 134218451, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"mesh", 1, 134218452, 0, &Mesh_t93_0_0_0},
-	{"scale", 2, 134218453, 0, &Single_t583_0_0_0},
+	{"scale", 2, 134218453, 0, &Single_t604_0_0_0},
 	{"offset", 3, 134218454, 0, &Vector3_t53_0_0_0},
 	{"stateName", 4, 134218455, 0, &String_t_0_0_0},
 	{"stateTransform", 5, 134218456, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.MeshParticles::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Mesh,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo MeshParticles_Add_m769_MethodInfo = 
 {
@@ -27368,7 +27368,7 @@ extern const MethodInfo MeshParticles_Add_m769_MethodInfo =
 	, (methodPointerType)&MeshParticles_Add_m769/* method */
 	, &MeshParticles_t191_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, MeshParticles_t191_MeshParticles_Add_m769_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -27386,7 +27386,7 @@ extern const MethodInfo MeshParticles_Add_m769_MethodInfo =
 extern const Il2CppType PlaygroundParticlesC_t126_0_0_0;
 extern const Il2CppType Mesh_t93_0_0_0;
 extern const Il2CppType Texture2D_t90_0_0_0;
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 extern const Il2CppType Vector3_t53_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
@@ -27395,12 +27395,12 @@ static const ParameterInfo MeshParticles_t191_MeshParticles_Add_m770_ParameterIn
 	{"meshParticles", 0, 134218457, 0, &PlaygroundParticlesC_t126_0_0_0},
 	{"mesh", 1, 134218458, 0, &Mesh_t93_0_0_0},
 	{"texture", 2, 134218459, 0, &Texture2D_t90_0_0_0},
-	{"scale", 3, 134218460, 0, &Single_t583_0_0_0},
+	{"scale", 3, 134218460, 0, &Single_t604_0_0_0},
 	{"offset", 4, 134218461, 0, &Vector3_t53_0_0_0},
 	{"stateName", 5, 134218462, 0, &String_t_0_0_0},
 	{"stateTransform", 6, 134218463, 0, &Transform_t54_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void ParticlePlayground.MeshParticles::Add(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Mesh,UnityEngine.Texture2D,System.Single,UnityEngine.Vector3,System.String,UnityEngine.Transform)
 extern const MethodInfo MeshParticles_Add_m770_MethodInfo = 
 {
@@ -27408,7 +27408,7 @@ extern const MethodInfo MeshParticles_Add_m770_MethodInfo =
 	, (methodPointerType)&MeshParticles_Add_m770/* method */
 	, &MeshParticles_t191_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t583_Vector3_t53_Object_t_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Single_t604_Vector3_t53_Object_t_Object_t/* invoker_method */
 	, MeshParticles_t191_MeshParticles_Add_m770_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -27433,10 +27433,10 @@ static const MethodInfo* MeshParticles_t191_MethodInfos[] =
 };
 static const Il2CppMethodReference MeshParticles_t191_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool MeshParticles_t191_VTableIsGenericMethod[] =
 {
@@ -27516,19 +27516,19 @@ TypeInfo MeshParticles_t191_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1D
+// ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1F
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundSave_U3CLoadU.h"
-// Metadata Definition ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1D
-extern TypeInfo U3CLoadU3Ec__AnonStorey1D_t192_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1D
+// Metadata Definition ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1F
+extern TypeInfo U3CLoadU3Ec__AnonStorey1F_t192_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1F
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundSave_U3CLoadUMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1D::.ctor()
-extern const MethodInfo U3CLoadU3Ec__AnonStorey1D__ctor_m771_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1F::.ctor()
+extern const MethodInfo U3CLoadU3Ec__AnonStorey1F__ctor_m771_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CLoadU3Ec__AnonStorey1D__ctor_m771/* method */
-	, &U3CLoadU3Ec__AnonStorey1D_t192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CLoadU3Ec__AnonStorey1F__ctor_m771/* method */
+	, &U3CLoadU3Ec__AnonStorey1F_t192_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -27546,12 +27546,12 @@ extern const MethodInfo U3CLoadU3Ec__AnonStorey1D__ctor_m771_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1D::<>m__10()
-extern const MethodInfo U3CLoadU3Ec__AnonStorey1D_U3CU3Em__10_m772_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundSave/<Load>c__AnonStorey1F::<>m__10()
+extern const MethodInfo U3CLoadU3Ec__AnonStorey1F_U3CU3Em__10_m772_MethodInfo = 
 {
 	"<>m__10"/* name */
-	, (methodPointerType)&U3CLoadU3Ec__AnonStorey1D_U3CU3Em__10_m772/* method */
-	, &U3CLoadU3Ec__AnonStorey1D_t192_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CLoadU3Ec__AnonStorey1F_U3CU3Em__10_m772/* method */
+	, &U3CLoadU3Ec__AnonStorey1F_t192_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -27568,20 +27568,20 @@ extern const MethodInfo U3CLoadU3Ec__AnonStorey1D_U3CU3Em__10_m772_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CLoadU3Ec__AnonStorey1D_t192_MethodInfos[] =
+static const MethodInfo* U3CLoadU3Ec__AnonStorey1F_t192_MethodInfos[] =
 {
-	&U3CLoadU3Ec__AnonStorey1D__ctor_m771_MethodInfo,
-	&U3CLoadU3Ec__AnonStorey1D_U3CU3Em__10_m772_MethodInfo,
+	&U3CLoadU3Ec__AnonStorey1F__ctor_m771_MethodInfo,
+	&U3CLoadU3Ec__AnonStorey1F_U3CU3Em__10_m772_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CLoadU3Ec__AnonStorey1D_t192_VTable[] =
+static const Il2CppMethodReference U3CLoadU3Ec__AnonStorey1F_t192_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CLoadU3Ec__AnonStorey1D_t192_VTableIsGenericMethod[] =
+static bool U3CLoadU3Ec__AnonStorey1F_t192_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -27589,39 +27589,39 @@ static bool U3CLoadU3Ec__AnonStorey1D_t192_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CLoadU3Ec__AnonStorey1D_t192_0_0_0;
-extern const Il2CppType U3CLoadU3Ec__AnonStorey1D_t192_1_0_0;
+extern const Il2CppType U3CLoadU3Ec__AnonStorey1F_t192_0_0_0;
+extern const Il2CppType U3CLoadU3Ec__AnonStorey1F_t192_1_0_0;
 extern TypeInfo PlaygroundSave_t164_il2cpp_TypeInfo;
 extern const Il2CppType PlaygroundSave_t164_0_0_0;
-struct U3CLoadU3Ec__AnonStorey1D_t192;
-const Il2CppTypeDefinitionMetadata U3CLoadU3Ec__AnonStorey1D_t192_DefinitionMetadata = 
+struct U3CLoadU3Ec__AnonStorey1F_t192;
+const Il2CppTypeDefinitionMetadata U3CLoadU3Ec__AnonStorey1F_t192_DefinitionMetadata = 
 {
 	&PlaygroundSave_t164_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CLoadU3Ec__AnonStorey1D_t192_VTable/* vtableMethods */
-	, U3CLoadU3Ec__AnonStorey1D_t192_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CLoadU3Ec__AnonStorey1F_t192_VTable/* vtableMethods */
+	, U3CLoadU3Ec__AnonStorey1F_t192_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 928/* fieldStart */
 
 };
-TypeInfo U3CLoadU3Ec__AnonStorey1D_t192_il2cpp_TypeInfo = 
+TypeInfo U3CLoadU3Ec__AnonStorey1F_t192_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<Load>c__AnonStorey1D"/* name */
+	, "<Load>c__AnonStorey1F"/* name */
 	, ""/* namespaze */
-	, U3CLoadU3Ec__AnonStorey1D_t192_MethodInfos/* methods */
+	, U3CLoadU3Ec__AnonStorey1F_t192_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CLoadU3Ec__AnonStorey1D_t192_il2cpp_TypeInfo/* element_class */
+	, &U3CLoadU3Ec__AnonStorey1F_t192_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 334/* custom_attributes_cache */
-	, &U3CLoadU3Ec__AnonStorey1D_t192_0_0_0/* byval_arg */
-	, &U3CLoadU3Ec__AnonStorey1D_t192_1_0_0/* this_arg */
-	, &U3CLoadU3Ec__AnonStorey1D_t192_DefinitionMetadata/* definitionMetadata */
+	, &U3CLoadU3Ec__AnonStorey1F_t192_0_0_0/* byval_arg */
+	, &U3CLoadU3Ec__AnonStorey1F_t192_1_0_0/* this_arg */
+	, &U3CLoadU3Ec__AnonStorey1F_t192_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -27631,8 +27631,8 @@ TypeInfo U3CLoadU3Ec__AnonStorey1D_t192_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CLoadU3Ec__AnonStorey1D_t192)/* instance_size */
-	, sizeof (U3CLoadU3Ec__AnonStorey1D_t192)/* actualSize */
+	, sizeof (U3CLoadU3Ec__AnonStorey1F_t192)/* instance_size */
+	, sizeof (U3CLoadU3Ec__AnonStorey1F_t192)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -27661,19 +27661,19 @@ TypeInfo U3CLoadU3Ec__AnonStorey1D_t192_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey1E
+// ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey20
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundSave_U3CSaveU.h"
-// Metadata Definition ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey1E
-extern TypeInfo U3CSaveU3Ec__AnonStorey1E_t193_il2cpp_TypeInfo;
-// ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey1E
+// Metadata Definition ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey20
+extern TypeInfo U3CSaveU3Ec__AnonStorey20_t193_il2cpp_TypeInfo;
+// ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey20
 #include "AssemblyU2DCSharp_ParticlePlayground_PlaygroundSave_U3CSaveUMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey1E::.ctor()
-extern const MethodInfo U3CSaveU3Ec__AnonStorey1E__ctor_m773_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey20::.ctor()
+extern const MethodInfo U3CSaveU3Ec__AnonStorey20__ctor_m773_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CSaveU3Ec__AnonStorey1E__ctor_m773/* method */
-	, &U3CSaveU3Ec__AnonStorey1E_t193_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSaveU3Ec__AnonStorey20__ctor_m773/* method */
+	, &U3CSaveU3Ec__AnonStorey20_t193_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -27691,12 +27691,12 @@ extern const MethodInfo U3CSaveU3Ec__AnonStorey1E__ctor_m773_MethodInfo =
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey1E::<>m__11()
-extern const MethodInfo U3CSaveU3Ec__AnonStorey1E_U3CU3Em__11_m774_MethodInfo = 
+// System.Void ParticlePlayground.PlaygroundSave/<Save>c__AnonStorey20::<>m__11()
+extern const MethodInfo U3CSaveU3Ec__AnonStorey20_U3CU3Em__11_m774_MethodInfo = 
 {
 	"<>m__11"/* name */
-	, (methodPointerType)&U3CSaveU3Ec__AnonStorey1E_U3CU3Em__11_m774/* method */
-	, &U3CSaveU3Ec__AnonStorey1E_t193_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CSaveU3Ec__AnonStorey20_U3CU3Em__11_m774/* method */
+	, &U3CSaveU3Ec__AnonStorey20_t193_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -27713,20 +27713,20 @@ extern const MethodInfo U3CSaveU3Ec__AnonStorey1E_U3CU3Em__11_m774_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CSaveU3Ec__AnonStorey1E_t193_MethodInfos[] =
+static const MethodInfo* U3CSaveU3Ec__AnonStorey20_t193_MethodInfos[] =
 {
-	&U3CSaveU3Ec__AnonStorey1E__ctor_m773_MethodInfo,
-	&U3CSaveU3Ec__AnonStorey1E_U3CU3Em__11_m774_MethodInfo,
+	&U3CSaveU3Ec__AnonStorey20__ctor_m773_MethodInfo,
+	&U3CSaveU3Ec__AnonStorey20_U3CU3Em__11_m774_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CSaveU3Ec__AnonStorey1E_t193_VTable[] =
+static const Il2CppMethodReference U3CSaveU3Ec__AnonStorey20_t193_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CSaveU3Ec__AnonStorey1E_t193_VTableIsGenericMethod[] =
+static bool U3CSaveU3Ec__AnonStorey20_t193_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -27734,37 +27734,37 @@ static bool U3CSaveU3Ec__AnonStorey1E_t193_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CSaveU3Ec__AnonStorey1E_t193_0_0_0;
-extern const Il2CppType U3CSaveU3Ec__AnonStorey1E_t193_1_0_0;
-struct U3CSaveU3Ec__AnonStorey1E_t193;
-const Il2CppTypeDefinitionMetadata U3CSaveU3Ec__AnonStorey1E_t193_DefinitionMetadata = 
+extern const Il2CppType U3CSaveU3Ec__AnonStorey20_t193_0_0_0;
+extern const Il2CppType U3CSaveU3Ec__AnonStorey20_t193_1_0_0;
+struct U3CSaveU3Ec__AnonStorey20_t193;
+const Il2CppTypeDefinitionMetadata U3CSaveU3Ec__AnonStorey20_t193_DefinitionMetadata = 
 {
 	&PlaygroundSave_t164_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CSaveU3Ec__AnonStorey1E_t193_VTable/* vtableMethods */
-	, U3CSaveU3Ec__AnonStorey1E_t193_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CSaveU3Ec__AnonStorey20_t193_VTable/* vtableMethods */
+	, U3CSaveU3Ec__AnonStorey20_t193_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 930/* fieldStart */
 
 };
-TypeInfo U3CSaveU3Ec__AnonStorey1E_t193_il2cpp_TypeInfo = 
+TypeInfo U3CSaveU3Ec__AnonStorey20_t193_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<Save>c__AnonStorey1E"/* name */
+	, "<Save>c__AnonStorey20"/* name */
 	, ""/* namespaze */
-	, U3CSaveU3Ec__AnonStorey1E_t193_MethodInfos/* methods */
+	, U3CSaveU3Ec__AnonStorey20_t193_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CSaveU3Ec__AnonStorey1E_t193_il2cpp_TypeInfo/* element_class */
+	, &U3CSaveU3Ec__AnonStorey20_t193_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 335/* custom_attributes_cache */
-	, &U3CSaveU3Ec__AnonStorey1E_t193_0_0_0/* byval_arg */
-	, &U3CSaveU3Ec__AnonStorey1E_t193_1_0_0/* this_arg */
-	, &U3CSaveU3Ec__AnonStorey1E_t193_DefinitionMetadata/* definitionMetadata */
+	, &U3CSaveU3Ec__AnonStorey20_t193_0_0_0/* byval_arg */
+	, &U3CSaveU3Ec__AnonStorey20_t193_1_0_0/* this_arg */
+	, &U3CSaveU3Ec__AnonStorey20_t193_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -27774,8 +27774,8 @@ TypeInfo U3CSaveU3Ec__AnonStorey1E_t193_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CSaveU3Ec__AnonStorey1E_t193)/* instance_size */
-	, sizeof (U3CSaveU3Ec__AnonStorey1E_t193)/* actualSize */
+	, sizeof (U3CSaveU3Ec__AnonStorey20_t193)/* instance_size */
+	, sizeof (U3CSaveU3Ec__AnonStorey20_t193)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -27969,8 +27969,8 @@ static const MethodInfo* PlaygroundSave_t164_MethodInfos[] =
 };
 static const Il2CppType* PlaygroundSave_t164_il2cpp_TypeInfo__nestedTypes[2] =
 {
-	&U3CLoadU3Ec__AnonStorey1D_t192_0_0_0,
-	&U3CSaveU3Ec__AnonStorey1E_t193_0_0_0,
+	&U3CLoadU3Ec__AnonStorey1F_t192_0_0_0,
+	&U3CSaveU3Ec__AnonStorey20_t193_0_0_0,
 };
 static const Il2CppMethodReference PlaygroundSave_t164_VTable[] =
 {
@@ -28393,13 +28393,13 @@ extern const MethodInfo SimplexNoise__cctor_m786_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
 static const ParameterInfo SimplexNoise_t120_SimplexNoise_fastfloor_m787_ParameterInfos[] = 
 {
-	{"x", 0, 134218466, 0, &Double_t683_0_0_0},
+	{"x", 0, 134218466, 0, &Double_t700_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t29_Double_t683 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t29_Double_t700 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 ParticlePlayground.SimplexNoise::fastfloor(System.Double)
 extern const MethodInfo SimplexNoise_fastfloor_m787_MethodInfo = 
 {
@@ -28407,7 +28407,7 @@ extern const MethodInfo SimplexNoise_fastfloor_m787_MethodInfo =
 	, (methodPointerType)&SimplexNoise_fastfloor_m787/* method */
 	, &SimplexNoise_t120_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t29_Double_t683/* invoker_method */
+	, RuntimeInvoker_Int32_t29_Double_t700/* invoker_method */
 	, SimplexNoise_t120_SimplexNoise_fastfloor_m787_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -28423,23 +28423,23 @@ extern const MethodInfo SimplexNoise_fastfloor_m787_MethodInfo =
 
 };
 extern const Il2CppType Int32U5BU5D_t119_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
 static const ParameterInfo SimplexNoise_t120_SimplexNoise_dot_m788_ParameterInfos[] = 
 {
 	{"g", 0, 134218467, 0, &Int32U5BU5D_t119_0_0_0},
-	{"x", 1, 134218468, 0, &Double_t683_0_0_0},
-	{"y", 2, 134218469, 0, &Double_t683_0_0_0},
+	{"x", 1, 134218468, 0, &Double_t700_0_0_0},
+	{"y", 2, 134218469, 0, &Double_t700_0_0_0},
 };
-extern void* RuntimeInvoker_Double_t683_Object_t_Double_t683_Double_t683 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Double_t700_Object_t_Double_t700_Double_t700 (const MethodInfo* method, void* obj, void** args);
 // System.Double ParticlePlayground.SimplexNoise::dot(System.Int32[],System.Double,System.Double)
 extern const MethodInfo SimplexNoise_dot_m788_MethodInfo = 
 {
 	"dot"/* name */
 	, (methodPointerType)&SimplexNoise_dot_m788/* method */
 	, &SimplexNoise_t120_il2cpp_TypeInfo/* declaring_type */
-	, &Double_t683_0_0_0/* return_type */
-	, RuntimeInvoker_Double_t683_Object_t_Double_t683_Double_t683/* invoker_method */
+	, &Double_t700_0_0_0/* return_type */
+	, RuntimeInvoker_Double_t700_Object_t_Double_t700_Double_t700/* invoker_method */
 	, SimplexNoise_t120_SimplexNoise_dot_m788_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -28455,25 +28455,25 @@ extern const MethodInfo SimplexNoise_dot_m788_MethodInfo =
 
 };
 extern const Il2CppType Int32U5BU5D_t119_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
 static const ParameterInfo SimplexNoise_t120_SimplexNoise_dot_m789_ParameterInfos[] = 
 {
 	{"g", 0, 134218470, 0, &Int32U5BU5D_t119_0_0_0},
-	{"x", 1, 134218471, 0, &Double_t683_0_0_0},
-	{"y", 2, 134218472, 0, &Double_t683_0_0_0},
-	{"z", 3, 134218473, 0, &Double_t683_0_0_0},
+	{"x", 1, 134218471, 0, &Double_t700_0_0_0},
+	{"y", 2, 134218472, 0, &Double_t700_0_0_0},
+	{"z", 3, 134218473, 0, &Double_t700_0_0_0},
 };
-extern void* RuntimeInvoker_Double_t683_Object_t_Double_t683_Double_t683_Double_t683 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Double_t700_Object_t_Double_t700_Double_t700_Double_t700 (const MethodInfo* method, void* obj, void** args);
 // System.Double ParticlePlayground.SimplexNoise::dot(System.Int32[],System.Double,System.Double,System.Double)
 extern const MethodInfo SimplexNoise_dot_m789_MethodInfo = 
 {
 	"dot"/* name */
 	, (methodPointerType)&SimplexNoise_dot_m789/* method */
 	, &SimplexNoise_t120_il2cpp_TypeInfo/* declaring_type */
-	, &Double_t683_0_0_0/* return_type */
-	, RuntimeInvoker_Double_t683_Object_t_Double_t683_Double_t683_Double_t683/* invoker_method */
+	, &Double_t700_0_0_0/* return_type */
+	, RuntimeInvoker_Double_t700_Object_t_Double_t700_Double_t700_Double_t700/* invoker_method */
 	, SimplexNoise_t120_SimplexNoise_dot_m789_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -28489,27 +28489,27 @@ extern const MethodInfo SimplexNoise_dot_m789_MethodInfo =
 
 };
 extern const Il2CppType Int32U5BU5D_t119_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
 static const ParameterInfo SimplexNoise_t120_SimplexNoise_dot_m790_ParameterInfos[] = 
 {
 	{"g", 0, 134218474, 0, &Int32U5BU5D_t119_0_0_0},
-	{"x", 1, 134218475, 0, &Double_t683_0_0_0},
-	{"y", 2, 134218476, 0, &Double_t683_0_0_0},
-	{"z", 3, 134218477, 0, &Double_t683_0_0_0},
-	{"w", 4, 134218478, 0, &Double_t683_0_0_0},
+	{"x", 1, 134218475, 0, &Double_t700_0_0_0},
+	{"y", 2, 134218476, 0, &Double_t700_0_0_0},
+	{"z", 3, 134218477, 0, &Double_t700_0_0_0},
+	{"w", 4, 134218478, 0, &Double_t700_0_0_0},
 };
-extern void* RuntimeInvoker_Double_t683_Object_t_Double_t683_Double_t683_Double_t683_Double_t683 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Double_t700_Object_t_Double_t700_Double_t700_Double_t700_Double_t700 (const MethodInfo* method, void* obj, void** args);
 // System.Double ParticlePlayground.SimplexNoise::dot(System.Int32[],System.Double,System.Double,System.Double,System.Double)
 extern const MethodInfo SimplexNoise_dot_m790_MethodInfo = 
 {
 	"dot"/* name */
 	, (methodPointerType)&SimplexNoise_dot_m790/* method */
 	, &SimplexNoise_t120_il2cpp_TypeInfo/* declaring_type */
-	, &Double_t683_0_0_0/* return_type */
-	, RuntimeInvoker_Double_t683_Object_t_Double_t683_Double_t683_Double_t683_Double_t683/* invoker_method */
+	, &Double_t700_0_0_0/* return_type */
+	, RuntimeInvoker_Double_t700_Object_t_Double_t700_Double_t700_Double_t700_Double_t700/* invoker_method */
 	, SimplexNoise_t120_SimplexNoise_dot_m790_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
@@ -28524,24 +28524,24 @@ extern const MethodInfo SimplexNoise_dot_m790_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
 static const ParameterInfo SimplexNoise_t120_SimplexNoise_noise_m791_ParameterInfos[] = 
 {
-	{"xin", 0, 134218479, 0, &Double_t683_0_0_0},
-	{"yin", 1, 134218480, 0, &Double_t683_0_0_0},
-	{"zin", 2, 134218481, 0, &Double_t683_0_0_0},
+	{"xin", 0, 134218479, 0, &Double_t700_0_0_0},
+	{"yin", 1, 134218480, 0, &Double_t700_0_0_0},
+	{"zin", 2, 134218481, 0, &Double_t700_0_0_0},
 };
-extern void* RuntimeInvoker_Double_t683_Double_t683_Double_t683_Double_t683 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Double_t700_Double_t700_Double_t700_Double_t700 (const MethodInfo* method, void* obj, void** args);
 // System.Double ParticlePlayground.SimplexNoise::noise(System.Double,System.Double,System.Double)
 extern const MethodInfo SimplexNoise_noise_m791_MethodInfo = 
 {
 	"noise"/* name */
 	, (methodPointerType)&SimplexNoise_noise_m791/* method */
 	, &SimplexNoise_t120_il2cpp_TypeInfo/* declaring_type */
-	, &Double_t683_0_0_0/* return_type */
-	, RuntimeInvoker_Double_t683_Double_t683_Double_t683_Double_t683/* invoker_method */
+	, &Double_t700_0_0_0/* return_type */
+	, RuntimeInvoker_Double_t700_Double_t700_Double_t700_Double_t700/* invoker_method */
 	, SimplexNoise_t120_SimplexNoise_noise_m791_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -28556,26 +28556,26 @@ extern const MethodInfo SimplexNoise_noise_m791_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
-extern const Il2CppType Double_t683_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
+extern const Il2CppType Double_t700_0_0_0;
 static const ParameterInfo SimplexNoise_t120_SimplexNoise_noise_m792_ParameterInfos[] = 
 {
-	{"x", 0, 134218482, 0, &Double_t683_0_0_0},
-	{"y", 1, 134218483, 0, &Double_t683_0_0_0},
-	{"z", 2, 134218484, 0, &Double_t683_0_0_0},
-	{"w", 3, 134218485, 0, &Double_t683_0_0_0},
+	{"x", 0, 134218482, 0, &Double_t700_0_0_0},
+	{"y", 1, 134218483, 0, &Double_t700_0_0_0},
+	{"z", 2, 134218484, 0, &Double_t700_0_0_0},
+	{"w", 3, 134218485, 0, &Double_t700_0_0_0},
 };
-extern void* RuntimeInvoker_Double_t683_Double_t683_Double_t683_Double_t683_Double_t683 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Double_t700_Double_t700_Double_t700_Double_t700_Double_t700 (const MethodInfo* method, void* obj, void** args);
 // System.Double ParticlePlayground.SimplexNoise::noise(System.Double,System.Double,System.Double,System.Double)
 extern const MethodInfo SimplexNoise_noise_m792_MethodInfo = 
 {
 	"noise"/* name */
 	, (methodPointerType)&SimplexNoise_noise_m792/* method */
 	, &SimplexNoise_t120_il2cpp_TypeInfo/* declaring_type */
-	, &Double_t683_0_0_0/* return_type */
-	, RuntimeInvoker_Double_t683_Double_t683_Double_t683_Double_t683_Double_t683/* invoker_method */
+	, &Double_t700_0_0_0/* return_type */
+	, RuntimeInvoker_Double_t700_Double_t700_Double_t700_Double_t700_Double_t700/* invoker_method */
 	, SimplexNoise_t120_SimplexNoise_noise_m792_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -28972,10 +28972,10 @@ static const MethodInfo* FeatureDemo_t200_MethodInfos[] =
 };
 static const Il2CppMethodReference FeatureDemo_t200_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool FeatureDemo_t200_VTableIsGenericMethod[] =
 {
@@ -29149,10 +29149,10 @@ static const MethodInfo* AddRemoveDatabaseTrigger_t204_MethodInfos[] =
 };
 static const Il2CppMethodReference AddRemoveDatabaseTrigger_t204_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool AddRemoveDatabaseTrigger_t204_VTableIsGenericMethod[] =
 {
@@ -29284,20 +29284,20 @@ extern const MethodInfo LuaExample_Start_m808_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t583_0_0_0;
+extern const Il2CppType Single_t604_0_0_0;
 static const ParameterInfo LuaExample_t205_LuaExample_sqrt_m809_ParameterInfos[] = 
 {
-	{"x", 0, 134218490, 0, &Single_t583_0_0_0},
+	{"x", 0, 134218490, 0, &Single_t604_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t583_Single_t583 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
 // System.Single PixelCrushers.DialogueSystem.Examples.LuaExample::sqrt(System.Single)
 extern const MethodInfo LuaExample_sqrt_m809_MethodInfo = 
 {
 	"sqrt"/* name */
 	, (methodPointerType)&LuaExample_sqrt_m809/* method */
 	, &LuaExample_t205_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t583_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t583_Single_t583/* invoker_method */
+	, &Single_t604_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t604_Single_t604/* invoker_method */
 	, LuaExample_t205_LuaExample_sqrt_m809_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -29321,10 +29321,10 @@ static const MethodInfo* LuaExample_t205_MethodInfos[] =
 };
 static const Il2CppMethodReference LuaExample_t205_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool LuaExample_t205_VTableIsGenericMethod[] =
 {
@@ -29469,10 +29469,10 @@ static const MethodInfo* Pickup_t206_MethodInfos[] =
 };
 static const Il2CppMethodReference Pickup_t206_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool Pickup_t206_VTableIsGenericMethod[] =
 {
@@ -29558,13 +29558,13 @@ TypeInfo Pickup_t206_il2cpp_TypeInfo =
 extern TypeInfo ChatMapperTools_t207_il2cpp_TypeInfo;
 // PixelCrushers.DialogueSystem.ChatMapper.ChatMapperTools
 #include "AssemblyU2DCSharp_PixelCrushers_DialogueSystem_ChatMapper_ChMethodDeclarations.h"
-extern const Il2CppType TextAsset_t551_0_0_0;
-extern const Il2CppType TextAsset_t551_0_0_0;
+extern const Il2CppType TextAsset_t569_0_0_0;
+extern const Il2CppType TextAsset_t569_0_0_0;
 static const ParameterInfo ChatMapperTools_t207_ChatMapperTools_Load_m812_ParameterInfos[] = 
 {
-	{"xmlFile", 0, 134218492, 0, &TextAsset_t551_0_0_0},
+	{"xmlFile", 0, 134218492, 0, &TextAsset_t569_0_0_0},
 };
-extern const Il2CppType ChatMapperProject_t550_0_0_0;
+extern const Il2CppType ChatMapperProject_t568_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject PixelCrushers.DialogueSystem.ChatMapper.ChatMapperTools::Load(UnityEngine.TextAsset)
 extern const MethodInfo ChatMapperTools_Load_m812_MethodInfo = 
@@ -29572,7 +29572,7 @@ extern const MethodInfo ChatMapperTools_Load_m812_MethodInfo =
 	"Load"/* name */
 	, (methodPointerType)&ChatMapperTools_Load_m812/* method */
 	, &ChatMapperTools_t207_il2cpp_TypeInfo/* declaring_type */
-	, &ChatMapperProject_t550_0_0_0/* return_type */
+	, &ChatMapperProject_t568_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, ChatMapperTools_t207_ChatMapperTools_Load_m812_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -29600,7 +29600,7 @@ extern const MethodInfo ChatMapperTools_Load_m813_MethodInfo =
 	"Load"/* name */
 	, (methodPointerType)&ChatMapperTools_Load_m813/* method */
 	, &ChatMapperTools_t207_il2cpp_TypeInfo/* declaring_type */
-	, &ChatMapperProject_t550_0_0_0/* return_type */
+	, &ChatMapperProject_t568_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, ChatMapperTools_t207_ChatMapperTools_Load_m813_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -29616,11 +29616,11 @@ extern const MethodInfo ChatMapperTools_Load_m813_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ChatMapperProject_t550_0_0_0;
+extern const Il2CppType ChatMapperProject_t568_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo ChatMapperTools_t207_ChatMapperTools_Save_m814_ParameterInfos[] = 
 {
-	{"chatMapperProject", 0, 134218494, 0, &ChatMapperProject_t550_0_0_0},
+	{"chatMapperProject", 0, 134218494, 0, &ChatMapperProject_t568_0_0_0},
 	{"filename", 1, 134218495, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -29798,10 +29798,10 @@ static const MethodInfo* SequencerCommandLoadLevel_t208_MethodInfos[] =
 };
 static const Il2CppMethodReference SequencerCommandLoadLevel_t208_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 };
 static bool SequencerCommandLoadLevel_t208_VTableIsGenericMethod[] =
 {
@@ -30100,11 +30100,11 @@ extern const MethodInfo UnityUIBarkUI_Start_m821_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 static const ParameterInfo UnityUIBarkUI_t215_UnityUIBarkUI_ShouldShowText_m822_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218496, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134218496, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean PixelCrushers.DialogueSystem.UnityUIBarkUI::ShouldShowText(PixelCrushers.DialogueSystem.Subtitle)
@@ -30129,10 +30129,10 @@ extern const MethodInfo UnityUIBarkUI_ShouldShowText_m822_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t552_0_0_0;
+extern const Il2CppType Subtitle_t570_0_0_0;
 static const ParameterInfo UnityUIBarkUI_t215_UnityUIBarkUI_Bark_m823_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218497, 0, &Subtitle_t552_0_0_0},
+	{"subtitle", 0, 134218497, 0, &Subtitle_t570_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIBarkUI::Bark(PixelCrushers.DialogueSystem.Subtitle)
@@ -30320,10 +30320,10 @@ static const Il2CppType* UnityUIBarkUI_t215_il2cpp_TypeInfo__nestedTypes[1] =
 extern const MethodInfo UnityUIBarkUI_Bark_m823_MethodInfo;
 static const Il2CppMethodReference UnityUIBarkUI_t215_VTable[] =
 {
-	&Object_Equals_m3345_MethodInfo,
+	&Object_Equals_m3477_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3346_MethodInfo,
-	&Object_ToString_m3347_MethodInfo,
+	&Object_GetHashCode_m3478_MethodInfo,
+	&Object_ToString_m3479_MethodInfo,
 	&UnityUIBarkUI_Bark_m823_MethodInfo,
 	&UnityUIBarkUI_get_IsPlaying_m819_MethodInfo,
 };
@@ -30336,14 +30336,14 @@ static bool UnityUIBarkUI_t215_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IBarkUI_t719_0_0_0;
+extern const Il2CppType IBarkUI_t745_0_0_0;
 static const Il2CppType* UnityUIBarkUI_t215_InterfacesTypeInfos[] = 
 {
-	&IBarkUI_t719_0_0_0,
+	&IBarkUI_t745_0_0_0,
 };
 static Il2CppInterfaceOffsetPair UnityUIBarkUI_t215_InterfacesOffsets[] = 
 {
-	{ &IBarkUI_t719_0_0_0, 4},
+	{ &IBarkUI_t745_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType UnityUIBarkUI_t215_1_0_0;

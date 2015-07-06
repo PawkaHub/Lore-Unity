@@ -4,42 +4,48 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>
-struct Enumerator_t5717;
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>
+struct Enumerator_t6894;
 // System.Object
 struct Object_t;
-// Parse.Internal.ParseJSONCacheItem
-struct ParseJSONCacheItem_t1415;
-// System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>
-struct Dictionary_2_t1631;
+// System.Tuple`2<System.Type,System.Type>
+struct Tuple_2_t1776;
+// System.Func`3<System.Object,System.Object,System.Object>
+struct Func_3_t1526;
+// System.Collections.Generic.Dictionary`2<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>
+struct Dictionary_2_t1779;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-// System.Collections.Generic.KeyValuePair`2<System.Object,Parse.Internal.ParseJSONCacheItem>
+// System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_39.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__7MethodDeclarations.h"
-#define Enumerator__ctor_m34990(__this, ___dictionary, method) (( void (*) (Enumerator_t5717 *, Dictionary_2_t1631 *, const MethodInfo*))Enumerator__ctor_m22888_gshared)(__this, ___dictionary, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m34991(__this, method) (( Object_t * (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m22889_gshared)(__this, method)
-// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.IDictionaryEnumerator.get_Entry()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m34992(__this, method) (( DictionaryEntry_t660  (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m22890_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.IDictionaryEnumerator.get_Key()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m34993(__this, method) (( Object_t * (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m22891_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::System.Collections.IDictionaryEnumerator.get_Value()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m34994(__this, method) (( Object_t * (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m22892_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::MoveNext()
-#define Enumerator_MoveNext_m34995(__this, method) (( bool (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_MoveNext_m22893_gshared)(__this, method)
-// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::get_Current()
-#define Enumerator_get_Current_m34996(__this, method) (( KeyValuePair_2_t5714  (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_get_Current_m22894_gshared)(__this, method)
-// TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::get_CurrentKey()
-#define Enumerator_get_CurrentKey_m34997(__this, method) (( Object_t * (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_get_CurrentKey_m22895_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m34998(__this, method) (( ParseJSONCacheItem_t1415 * (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_get_CurrentValue_m22896_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::VerifyState()
-#define Enumerator_VerifyState_m34999(__this, method) (( void (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_VerifyState_m22897_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::VerifyCurrent()
-#define Enumerator_VerifyCurrent_m35000(__this, method) (( void (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_VerifyCurrent_m22898_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::Dispose()
-#define Enumerator_Dispose_m35001(__this, method) (( void (*) (Enumerator_t5717 *, const MethodInfo*))Enumerator_Dispose_m22899_gshared)(__this, method)
+#define Enumerator__ctor_m38308(__this, ___dictionary, method) (( void (*) (Enumerator_t6894 *, Dictionary_2_t1779 *, const MethodInfo*))Enumerator__ctor_m24238_gshared)(__this, ___dictionary, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m38309(__this, method) (( Object_t * (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m24239_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m38310(__this, method) (( void (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m24240_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::System.Collections.IDictionaryEnumerator.get_Entry()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m38311(__this, method) (( DictionaryEntry_t679  (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m24241_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::System.Collections.IDictionaryEnumerator.get_Key()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m38312(__this, method) (( Object_t * (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m24242_gshared)(__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::System.Collections.IDictionaryEnumerator.get_Value()
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m38313(__this, method) (( Object_t * (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m24243_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::MoveNext()
+#define Enumerator_MoveNext_m38314(__this, method) (( bool (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_MoveNext_m24244_gshared)(__this, method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::get_Current()
+#define Enumerator_get_Current_m38315(__this, method) (( KeyValuePair_2_t6891  (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_get_Current_m24245_gshared)(__this, method)
+// TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::get_CurrentKey()
+#define Enumerator_get_CurrentKey_m38316(__this, method) (( Tuple_2_t1776 * (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_get_CurrentKey_m24246_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::get_CurrentValue()
+#define Enumerator_get_CurrentValue_m38317(__this, method) (( Func_3_t1526 * (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_get_CurrentValue_m24247_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::Reset()
+#define Enumerator_Reset_m38318(__this, method) (( void (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_Reset_m24248_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::VerifyState()
+#define Enumerator_VerifyState_m38319(__this, method) (( void (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_VerifyState_m24249_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::VerifyCurrent()
+#define Enumerator_VerifyCurrent_m38320(__this, method) (( void (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_VerifyCurrent_m24250_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::Dispose()
+#define Enumerator_Dispose_m38321(__this, method) (( void (*) (Enumerator_t6894 *, const MethodInfo*))Enumerator_Dispose_m24251_gshared)(__this, method)

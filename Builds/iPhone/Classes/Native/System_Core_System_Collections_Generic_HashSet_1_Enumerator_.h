@@ -7,7 +7,7 @@ struct PickupItem_t516;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.HashSet`1/Enumerator<PickupItem>
-struct  Enumerator_t650 
+struct  Enumerator_t669 
 {
 	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator<PickupItem>::hashset
 	HashSet_1_t515 * ___hashset_0;

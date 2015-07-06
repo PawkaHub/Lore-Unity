@@ -1,14 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.GUILayoutUtility/LayoutCache
-struct LayoutCache_t2738;
+// System.String
+struct String_t;
+// Parse.Internal.IParseAuthenticationProvider
+struct IParseAuthenticationProvider_t1742;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct  KeyValuePair_2_t6084 
+// System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>
+struct  KeyValuePair_2_t7110 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::value
-	LayoutCache_t2738 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseAuthenticationProvider>::value
+	Object_t * ___value_1;
 };

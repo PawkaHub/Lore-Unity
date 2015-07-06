@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>
-struct List_1_t2742;
-// UnityEngine.GUILayoutEntry
-struct GUILayoutEntry_t2741;
+// System.Collections.Generic.List`1<System.Net.Cookie>
+struct List_1_t4027;
+// System.Net.Cookie
+struct Cookie_t4025;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>
-struct  Enumerator_t2946 
+// System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>
+struct  Enumerator_t4230 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::l
-	List_1_t2742 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::l
+	List_1_t4027 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.GUILayoutEntry>::current
-	GUILayoutEntry_t2741 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::current
+	Cookie_t4025 * ___current_3;
 };

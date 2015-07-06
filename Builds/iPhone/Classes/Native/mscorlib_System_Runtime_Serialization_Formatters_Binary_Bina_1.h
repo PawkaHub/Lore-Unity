@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Serialization.SerializationBinder
-struct SerializationBinder_t4145;
+struct SerializationBinder_t5235;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t4114;
+struct ISurrogateSelector_t5204;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
@@ -15,14 +15,14 @@ struct ISurrogateSelector_t4114;
 // System.Runtime.Serialization.Formatters.TypeFilterLevel
 #include "mscorlib_System_Runtime_Serialization_Formatters_TypeFilterL.h"
 // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-struct  BinaryFormatter_t4133  : public Object_t
+struct  BinaryFormatter_t5223  : public Object_t
 {
 	// System.Runtime.Serialization.Formatters.FormatterAssemblyStyle System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::assembly_format
 	int32_t ___assembly_format_0;
 	// System.Runtime.Serialization.SerializationBinder System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::binder
-	SerializationBinder_t4145 * ___binder_1;
+	SerializationBinder_t5235 * ___binder_1;
 	// System.Runtime.Serialization.StreamingContext System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::context
-	StreamingContext_t1323  ___context_2;
+	StreamingContext_t3059  ___context_2;
 	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::surrogate_selector
 	Object_t * ___surrogate_selector_3;
 	// System.Runtime.Serialization.Formatters.FormatterTypeStyle System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::type_format
@@ -30,7 +30,7 @@ struct  BinaryFormatter_t4133  : public Object_t
 	// System.Runtime.Serialization.Formatters.TypeFilterLevel System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::filter_level
 	int32_t ___filter_level_5;
 };
-struct BinaryFormatter_t4133_StaticFields{
+struct BinaryFormatter_t5223_StaticFields{
 	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::<DefaultSurrogateSelector>k__BackingField
 	Object_t * ___U3CDefaultSurrogateSelectorU3Ek__BackingField_6;
 };

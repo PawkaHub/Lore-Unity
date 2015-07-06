@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.EntrytagFormat
-struct EntrytagFormat_t820;
+struct EntrytagFormat_t1145;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.EmTag
-struct EmTag_t921;
+struct EmTag_t1245;
 

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewLocationIDs>c__AnonStorey36
-struct U3CGetNewLocationIDsU3Ec__AnonStorey36_t853;
+struct U3CGetNewLocationIDsU3Ec__AnonStorey36_t1178;
 // PixelCrushers.DialogueSystem.Location
-struct Location_t826;
+struct Location_t1151;
 
 // System.Void PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewLocationIDs>c__AnonStorey36::.ctor()
-extern "C" void U3CGetNewLocationIDsU3Ec__AnonStorey36__ctor_m3932 (U3CGetNewLocationIDsU3Ec__AnonStorey36_t853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CGetNewLocationIDsU3Ec__AnonStorey36__ctor_m5777 (U3CGetNewLocationIDsU3Ec__AnonStorey36_t1178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean PixelCrushers.DialogueSystem.DatabaseMerger/<GetNewLocationIDs>c__AnonStorey36::<>m__26(PixelCrushers.DialogueSystem.Location)
-extern "C" bool U3CGetNewLocationIDsU3Ec__AnonStorey36_U3CU3Em__26_m3933 (U3CGetNewLocationIDsU3Ec__AnonStorey36_t853 * __this, Location_t826 * ___x, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CGetNewLocationIDsU3Ec__AnonStorey36_U3CU3Em__26_m5778 (U3CGetNewLocationIDsU3Ec__AnonStorey36_t1178 * __this, Location_t1151 * ___x, const MethodInfo* method) IL2CPP_METHOD_ATTR;

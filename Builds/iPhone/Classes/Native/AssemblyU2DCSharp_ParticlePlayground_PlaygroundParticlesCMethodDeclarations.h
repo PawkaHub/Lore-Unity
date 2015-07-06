@@ -13,7 +13,7 @@ struct Transform_t54;
 // ParticlePlayground.ManipulatorObjectC
 struct ManipulatorObjectC_t115;
 // UnityEngine.Texture2D[]
-struct Texture2DU5BU5D_t547;
+struct Texture2DU5BU5D_t565;
 // System.String
 struct String_t;
 // UnityEngine.Material
@@ -189,7 +189,7 @@ extern "C" int32_t PlaygroundParticlesC_GetTransformIndex_m666 (PlaygroundPartic
 // System.Void ParticlePlayground.PlaygroundParticlesC::RefreshMaskSorting()
 extern "C" void PlaygroundParticlesC_RefreshMaskSorting_m667 (PlaygroundParticlesC_t126 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundParticlesC::CreatePlaygroundParticles(UnityEngine.Texture2D[],System.String,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Material)
-extern "C" PlaygroundParticlesC_t126 * PlaygroundParticlesC_CreatePlaygroundParticles_m668 (Object_t * __this /* static, unused */, Texture2DU5BU5D_t547* ___images, String_t* ___name, Vector3_t53  ___position, Quaternion_t69  ___rotation, Vector3_t53  ___offset, float ___particleSize, float ___scale, Material_t48 * ___material, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PlaygroundParticlesC_t126 * PlaygroundParticlesC_CreatePlaygroundParticles_m668 (Object_t * __this /* static, unused */, Texture2DU5BU5D_t565* ___images, String_t* ___name, Vector3_t53  ___position, Quaternion_t69  ___rotation, Vector3_t53  ___offset, float ___particleSize, float ___scale, Material_t48 * ___material, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ParticlePlayground.PlaygroundParticlesC::OnCreatePlaygroundParticles(ParticlePlayground.PlaygroundParticlesC)
 extern "C" void PlaygroundParticlesC_OnCreatePlaygroundParticles_m669 (Object_t * __this /* static, unused */, PlaygroundParticlesC_t126 * ___playgroundParticles, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundParticlesC::CreateParticleObject(System.String,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Material)

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.EventType
-struct EventType_t2755;
+struct EventType_t4490;
 

@@ -4,24 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>
-struct InternalEnumerator_1_t6376;
+// System.Array/InternalEnumerator`1<UnityEngine.ParticleSystem>
+struct InternalEnumerator_1_t9348;
 // System.Object
 struct Object_t;
-// System.Diagnostics.StackFrame
-struct StackFrame_t2971;
+// UnityEngine.ParticleSystem
+struct ParticleSystem_t189;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.ParticleSystem>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m44948(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6376 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m22566_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m44949(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6376 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22567_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::Dispose()
-#define InternalEnumerator_1_Dispose_m44950(__this, method) (( void (*) (InternalEnumerator_1_t6376 *, const MethodInfo*))InternalEnumerator_1_Dispose_m22568_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m44951(__this, method) (( bool (*) (InternalEnumerator_1_t6376 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m22569_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::get_Current()
-#define InternalEnumerator_1_get_Current_m44952(__this, method) (( StackFrame_t2971 * (*) (InternalEnumerator_1_t6376 *, const MethodInfo*))InternalEnumerator_1_get_Current_m22570_gshared)(__this, method)
+#define InternalEnumerator_1__ctor_m69210(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9348 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m23907_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.ParticleSystem>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m69211(__this, method) (( void (*) (InternalEnumerator_1_t9348 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m23908_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.ParticleSystem>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m69212(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9348 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m23909_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.ParticleSystem>::Dispose()
+#define InternalEnumerator_1_Dispose_m69213(__this, method) (( void (*) (InternalEnumerator_1_t9348 *, const MethodInfo*))InternalEnumerator_1_Dispose_m23910_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.ParticleSystem>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m69214(__this, method) (( bool (*) (InternalEnumerator_1_t9348 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m23911_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.ParticleSystem>::get_Current()
+#define InternalEnumerator_1_get_Current_m69215(__this, method) (( ParticleSystem_t189 * (*) (InternalEnumerator_1_t9348 *, const MethodInfo*))InternalEnumerator_1_get_Current_m23912_gshared)(__this, method)

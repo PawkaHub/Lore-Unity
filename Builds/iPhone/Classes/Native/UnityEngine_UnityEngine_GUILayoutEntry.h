@@ -7,7 +7,7 @@ struct GUIStyle_t303;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.GUILayoutEntry
-struct  GUILayoutEntry_t2741  : public Object_t
+struct  GUILayoutEntry_t4476  : public Object_t
 {
 	// System.Single UnityEngine.GUILayoutEntry::minWidth
 	float ___minWidth_0;
@@ -26,7 +26,7 @@ struct  GUILayoutEntry_t2741  : public Object_t
 	// UnityEngine.GUIStyle UnityEngine.GUILayoutEntry::m_Style
 	GUIStyle_t303 * ___m_Style_7;
 };
-struct GUILayoutEntry_t2741_StaticFields{
+struct GUILayoutEntry_t4476_StaticFields{
 	// UnityEngine.Rect UnityEngine.GUILayoutEntry::kDummyRect
 	Rect_t201  ___kDummyRect_8;
 	// System.Int32 UnityEngine.GUILayoutEntry::indent

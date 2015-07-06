@@ -7,7 +7,7 @@ struct Transform_t54;
 // PixelCrushers.DialogueSystem.DialogueTriggerEvent
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTriggerE.h"
 // PixelCrushers.DialogueSystem.BarkTrigger
-struct  BarkTrigger_t1002  : public BarkStarter_t1000
+struct  BarkTrigger_t1326  : public BarkStarter_t1324
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.BarkTrigger::target
 	Transform_t54 * ___target_18;

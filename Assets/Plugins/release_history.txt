@@ -25,6 +25,7 @@ http://forum.exitgames.com
     Changed: SocketUdp and SocketTcp now implement IDisposable, which seems to help with infrequent freezes in the Unity Editor.
     Added: PhotonPeer.QuickResendAttempts. Sets how many resend attempts for a reliable command will be done in quick succession (after RTT+4*Variance), before the time between repeats will be increased. Use with care and with low values.
     Added: IP/Hostname to logged exceptions when Connect fails. This is easier to support (e.g. DNS lookup fails).
+    Fixed: Library for PUN+ export to WebGL. Originally, we forced UDP as protocol for PUN+ export, as the native sockets library doesn't support TCP. However, WebGL export introduced a new use case.
 LoadBalancing (Realtime and Turnbased API)
     Added: GamePropertyKey.MasterClientId (248) and ParameterCode.MasterClientId (203)
     Added: ParameterCode.ExpectedValues (231)

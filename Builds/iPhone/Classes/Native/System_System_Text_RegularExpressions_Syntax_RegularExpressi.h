@@ -3,7 +3,7 @@
 // System.Text.RegularExpressions.Syntax.Group
 #include "System_System_Text_RegularExpressions_Syntax_Group.h"
 // System.Text.RegularExpressions.Syntax.RegularExpression
-struct  RegularExpression_t3727  : public Group_t3726
+struct  RegularExpression_t4174  : public Group_t4173
 {
 	// System.Int32 System.Text.RegularExpressions.Syntax.RegularExpression::group_count
 	int32_t ___group_count_1;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AssemblyIsEditorAssembly
-struct AssemblyIsEditorAssembly_t2867;
+struct AssemblyIsEditorAssembly_t4602;
 
 // System.Void UnityEngine.AssemblyIsEditorAssembly::.ctor()
-extern "C" void AssemblyIsEditorAssembly__ctor_m13481 (AssemblyIsEditorAssembly_t2867 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyIsEditorAssembly__ctor_m17360 (AssemblyIsEditorAssembly_t4602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

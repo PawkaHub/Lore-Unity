@@ -4,30 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Type,ExitGames.Client.Photon.CustomType,System.Collections.DictionaryEntry>
-struct Transform_1_t6293;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.TimeZoneInfo/TimeType,System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>>
+struct Transform_1_t9181;
 // System.Object
 struct Object_t;
-// System.Type
-struct Type_t;
-// ExitGames.Client.Photon.CustomType
-struct CustomType_t3150;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
 struct AsyncCallback_t449;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-// System.Collections.DictionaryEntry
-#include "mscorlib_System_Collections_DictionaryEntry.h"
+// System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_129.h"
+// System.TimeZoneInfo/TimeType
+#include "System_Core_System_TimeZoneInfo_TimeType.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Type,ExitGames.Client.Photon.CustomType,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Collections.DictionaryEntry>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_0MethodDeclarations.h"
-#define Transform_1__ctor_m43843(__this, ___object, ___method, method) (( void (*) (Transform_1_t6293 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m22923_gshared)(__this, ___object, ___method, method)
-// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Type,ExitGames.Client.Photon.CustomType,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m43844(__this, ___key, ___value, method) (( DictionaryEntry_t660  (*) (Transform_1_t6293 *, Type_t *, CustomType_t3150 *, const MethodInfo*))Transform_1_Invoke_m22924_gshared)(__this, ___key, ___value, method)
-// System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Type,ExitGames.Client.Photon.CustomType,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m43845(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t6293 *, Type_t *, CustomType_t3150 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m22925_gshared)(__this, ___key, ___value, ___callback, ___object, method)
-// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Type,ExitGames.Client.Photon.CustomType,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m43846(__this, ___result, method) (( DictionaryEntry_t660  (*) (Transform_1_t6293 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m22926_gshared)(__this, ___result, method)
+// System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.TimeZoneInfo/TimeType,System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>>::.ctor(System.Object,System.IntPtr)
+extern "C" void Transform_1__ctor_m66610_gshared (Transform_1_t9181 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Transform_1__ctor_m66610(__this, ___object, ___method, method) (( void (*) (Transform_1_t9181 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m66610_gshared)(__this, ___object, ___method, method)
+// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.TimeZoneInfo/TimeType,System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>>::Invoke(TKey,TValue)
+extern "C" KeyValuePair_2_t9171  Transform_1_Invoke_m66611_gshared (Transform_1_t9181 * __this, int32_t ___key, TimeType_t3051  ___value, const MethodInfo* method);
+#define Transform_1_Invoke_m66611(__this, ___key, ___value, method) (( KeyValuePair_2_t9171  (*) (Transform_1_t9181 *, int32_t, TimeType_t3051 , const MethodInfo*))Transform_1_Invoke_m66611_gshared)(__this, ___key, ___value, method)
+// System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.TimeZoneInfo/TimeType,System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
+extern "C" Object_t * Transform_1_BeginInvoke_m66612_gshared (Transform_1_t9181 * __this, int32_t ___key, TimeType_t3051  ___value, AsyncCallback_t449 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Transform_1_BeginInvoke_m66612(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t9181 *, int32_t, TimeType_t3051 , AsyncCallback_t449 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m66612_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.TimeZoneInfo/TimeType,System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>>::EndInvoke(System.IAsyncResult)
+extern "C" KeyValuePair_2_t9171  Transform_1_EndInvoke_m66613_gshared (Transform_1_t9181 * __this, Object_t * ___result, const MethodInfo* method);
+#define Transform_1_EndInvoke_m66613(__this, ___result, method) (( KeyValuePair_2_t9171  (*) (Transform_1_t9181 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m66613_gshared)(__this, ___result, method)

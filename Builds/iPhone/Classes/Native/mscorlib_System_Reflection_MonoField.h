@@ -18,7 +18,7 @@ struct  MonoField_t  : public FieldInfo_t
 	// System.IntPtr System.Reflection.MonoField::klass
 	IntPtr_t ___klass_0;
 	// System.RuntimeFieldHandle System.Reflection.MonoField::fhandle
-	RuntimeFieldHandle_t3831  ___fhandle_1;
+	RuntimeFieldHandle_t4921  ___fhandle_1;
 	// System.String System.Reflection.MonoField::name
 	String_t* ___name_2;
 	// System.Type System.Reflection.MonoField::type

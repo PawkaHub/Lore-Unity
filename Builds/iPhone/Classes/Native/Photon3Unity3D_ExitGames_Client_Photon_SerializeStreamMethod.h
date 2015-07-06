@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IO.MemoryStream
-struct MemoryStream_t558;
+struct MemoryStream_t576;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -11,6 +11,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // ExitGames.Client.Photon.SerializeStreamMethod
-struct  SerializeStreamMethod_t655  : public MulticastDelegate_t451
+struct  SerializeStreamMethod_t674  : public MulticastDelegate_t451
 {
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.XmlMemberMapping
-struct XmlMemberMapping_t2357;
+struct XmlMemberMapping_t3743;
 

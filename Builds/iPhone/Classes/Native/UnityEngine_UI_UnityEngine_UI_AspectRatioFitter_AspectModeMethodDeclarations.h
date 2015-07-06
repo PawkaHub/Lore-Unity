@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.AspectRatioFitter/AspectMode
-struct AspectMode_t2094;
+struct AspectMode_t914;
 

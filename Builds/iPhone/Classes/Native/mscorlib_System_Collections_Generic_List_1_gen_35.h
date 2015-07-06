@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.Conversation[]
-struct ConversationU5BU5D_t5337;
+// UnityEngine.EventSystems.BaseRaycaster[]
+struct BaseRaycasterU5BU5D_t6430;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>
-struct  List_1_t816  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
+struct  List_1_t811  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>::_items
-	ConversationU5BU5D_t5337* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_items
+	BaseRaycasterU5BU5D_t6430* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::_version
 	int32_t ____version_3;
 };
-struct List_1_t816_StaticFields{
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Conversation>::EmptyArray
-	ConversationU5BU5D_t5337* ___EmptyArray_4;
+struct List_1_t811_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::EmptyArray
+	BaseRaycasterU5BU5D_t6430* ___EmptyArray_4;
 };

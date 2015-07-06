@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Xml.Serialization.TypeData
-struct TypeData_t2331;
+struct TypeData_t3716;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Object
@@ -11,7 +11,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Serialization.XmlTypeMapMember
-struct  XmlTypeMapMember_t2396  : public Object_t
+struct  XmlTypeMapMember_t3782  : public Object_t
 {
 	// System.String System.Xml.Serialization.XmlTypeMapMember::_name
 	String_t* ____name_0;
@@ -20,7 +20,7 @@ struct  XmlTypeMapMember_t2396  : public Object_t
 	// System.Int32 System.Xml.Serialization.XmlTypeMapMember::_globalIndex
 	int32_t ____globalIndex_2;
 	// System.Xml.Serialization.TypeData System.Xml.Serialization.XmlTypeMapMember::_typeData
-	TypeData_t2331 * ____typeData_3;
+	TypeData_t3716 * ____typeData_3;
 	// System.Reflection.MemberInfo System.Xml.Serialization.XmlTypeMapMember::_member
 	MemberInfo_t * ____member_4;
 	// System.Reflection.MemberInfo System.Xml.Serialization.XmlTypeMapMember::_specifiedMember

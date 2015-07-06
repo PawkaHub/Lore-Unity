@@ -7,7 +7,7 @@ struct MethodInfo_t;
 // Language.Lua.LuaFunction
 #include "LuaInterpreter_Language_Lua_LuaFunction.h"
 // Language.Lua.LuaMethodFunction
-struct  LuaMethodFunction_t2639  : public LuaFunction_t2638
+struct  LuaMethodFunction_t3569  : public LuaFunction_t3568
 {
 	// System.Object Language.Lua.LuaMethodFunction::<Target>k__BackingField
 	Object_t * ___U3CTargetU3Ek__BackingField_1;

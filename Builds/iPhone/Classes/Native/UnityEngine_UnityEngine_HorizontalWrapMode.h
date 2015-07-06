@@ -5,7 +5,7 @@
 // UnityEngine.HorizontalWrapMode
 #include "UnityEngine_UnityEngine_HorizontalWrapMode.h"
 // UnityEngine.HorizontalWrapMode
-struct  HorizontalWrapMode_t2222 
+struct  HorizontalWrapMode_t1050 
 {
 	// System.Int32 UnityEngine.HorizontalWrapMode::value__
 	int32_t ___value___1;

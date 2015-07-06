@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlAttribute
-struct XmlAttribute_t2339;
+struct XmlAttribute_t3725;
 // System.Object
 struct Object_t;
 // System.String
@@ -9,10 +9,10 @@ struct String_t;
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
 // System.Xml.Serialization.XmlAttributeEventArgs
-struct  XmlAttributeEventArgs_t2340  : public EventArgs_t877
+struct  XmlAttributeEventArgs_t3726  : public EventArgs_t1202
 {
 	// System.Xml.XmlAttribute System.Xml.Serialization.XmlAttributeEventArgs::attr
-	XmlAttribute_t2339 * ___attr_1;
+	XmlAttribute_t3725 * ___attr_1;
 	// System.Int32 System.Xml.Serialization.XmlAttributeEventArgs::lineNumber
 	int32_t ___lineNumber_2;
 	// System.Int32 System.Xml.Serialization.XmlAttributeEventArgs::linePosition

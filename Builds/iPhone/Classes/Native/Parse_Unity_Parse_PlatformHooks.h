@@ -1,24 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t1430;
+struct IDictionary_2_t1555;
 // System.String
 struct String_t;
 // System.Threading.ReaderWriterLockSlim
-struct ReaderWriterLockSlim_t1470;
+struct ReaderWriterLockSlim_t1609;
 // System.Collections.Generic.Queue`1<System.Action>
-struct Queue_1_t1511;
+struct Queue_1_t1664;
+// System.Action
+struct Action_t250;
 // System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>,System.Threading.Tasks.Task`1<System.Object>>
-struct Func_2_t1512;
+struct Func_2_t1665;
 // System.Func`2<System.Reflection.MethodInfo,System.Boolean>
-struct Func_2_t1513;
+struct Func_2_t1666;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.PlatformHooks
-struct  PlatformHooks_t1514  : public Object_t
+struct  PlatformHooks_t1667  : public Object_t
 {
 };
-struct PlatformHooks_t1514_StaticFields{
+struct PlatformHooks_t1667_StaticFields{
 	// System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.PlatformHooks::settings
 	Object_t* ___settings_0;
 	// System.String Parse.PlatformHooks::settingsPath
@@ -28,13 +30,43 @@ struct PlatformHooks_t1514_StaticFields{
 	// System.Boolean Parse.PlatformHooks::isWebPlayer
 	bool ___isWebPlayer_3;
 	// System.Threading.ReaderWriterLockSlim Parse.PlatformHooks::dispatchQueueLock
-	ReaderWriterLockSlim_t1470 * ___dispatchQueueLock_4;
+	ReaderWriterLockSlim_t1609 * ___dispatchQueueLock_4;
 	// System.Collections.Generic.Queue`1<System.Action> Parse.PlatformHooks::dispatchQueue
-	Queue_1_t1511 * ___dispatchQueue_5;
+	Queue_1_t1664 * ___dispatchQueue_5;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate10
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate10_6;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate11
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate11_7;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate12
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate12_8;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate13
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate13_9;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate14
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate14_10;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate15
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate15_11;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate16
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate16_12;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate17
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate17_13;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate18
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate18_14;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate19
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate19_15;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate1a
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1a_16;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate1b
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1b_17;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate1c
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1c_18;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate1d
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1d_19;
+	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate1e
+	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1e_20;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>,System.Threading.Tasks.Task`1<System.Object>> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate37
-	Func_2_t1512 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate37_6;
+	Func_2_t1665 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate37_21;
 	// System.Func`2<System.Reflection.MethodInfo,System.Boolean> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate48
-	Func_2_t1513 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate48_7;
+	Func_2_t1666 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate48_22;
 	// System.Func`2<System.Reflection.MethodInfo,System.Boolean> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate49
-	Func_2_t1513 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate49_8;
+	Func_2_t1666 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate49_23;
 };

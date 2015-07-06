@@ -7,7 +7,7 @@ struct RoomInfo_t472;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,RoomInfo>
-struct  KeyValuePair_2_t5209 
+struct  KeyValuePair_2_t6297 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,RoomInfo>::key
 	String_t* ___key_0;

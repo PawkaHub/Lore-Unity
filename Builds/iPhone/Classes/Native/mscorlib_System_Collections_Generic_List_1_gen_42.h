@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.Actor[]
-struct ActorU5BU5D_t5370;
+// UnityEngine.UI.Graphic[]
+struct GraphicU5BU5D_t231;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Actor>
-struct  List_1_t812  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
+struct  List_1_t850  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Actor>::_items
-	ActorU5BU5D_t5370* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Actor>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_items
+	GraphicU5BU5D_t231* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Actor>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_version
 	int32_t ____version_3;
 };
-struct List_1_t812_StaticFields{
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Actor>::EmptyArray
-	ActorU5BU5D_t5370* ___EmptyArray_4;
+struct List_1_t850_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::EmptyArray
+	GraphicU5BU5D_t231* ___EmptyArray_4;
 };

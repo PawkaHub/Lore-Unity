@@ -3,18 +3,18 @@
 // UnityEngine.GameObject
 struct GameObject_t49;
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t1996;
+struct BaseRaycaster_t813;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.EventSystems.RaycastResult
-struct  RaycastResult_t1997 
+struct  RaycastResult_t814 
 {
 	// UnityEngine.GameObject UnityEngine.EventSystems.RaycastResult::m_GameObject
 	GameObject_t49 * ___m_GameObject_0;
 	// UnityEngine.EventSystems.BaseRaycaster UnityEngine.EventSystems.RaycastResult::module
-	BaseRaycaster_t1996 * ___module_1;
+	BaseRaycaster_t813 * ___module_1;
 	// System.Single UnityEngine.EventSystems.RaycastResult::distance
 	float ___distance_2;
 	// System.Single UnityEngine.EventSystems.RaycastResult::index

@@ -1251,11 +1251,9 @@
             While true, the peer will not send any other commands except ACKs (used in UDP connections).
             </summary>
         </member>
-        <member name="T:ExitGames.Client.Photon.PingNativeDynamic">
-            <summary>Uses dynamic linked native Photon socket library via DllImport("PhotonSocketPlugin") attribute (as done by Unity Android).</summary>
-        </member>
-        <member name="T:ExitGames.Client.Photon.PingNativeStatic">
-            <summary>Uses static linked native Photon socket library via DllImport("__Internal") attribute (as done by Unity iOS).</summary>
+        <member name="T:ExitGames.Client.Photon.PingMono">
+            <summary>Uses C# Socket class from System.Net.Sockets (as Unity usually does).</summary>
+            <remarks>Incompatible with Windows 8 Store/Phone API.</remarks>
         </member>
         <member name="T:ExitGames.Client.Photon.OperationRequest">
             <summary>
@@ -1560,11 +1558,24 @@
             <param name="source">The byte-array to deserialize from</param>
             <param name="offset">The offset in the byte-array</param>
         </member>
-        <member name="M:ExitGames.Client.Photon.SocketUdpNativeDynamic.Send(System.Byte[],System.Int32)">
+        <member name="T:ExitGames.Client.Photon.SocketTcp">
+            <summary>
+            Internal class to encapsulate the network i/o functionality for the realtime libary.
+            </summary>
+        </member>
+        <member name="M:ExitGames.Client.Photon.SocketTcp.Send(System.Byte[],System.Int32)">
+            <summary>
+            used by TPeer*
+            </summary>
+        </member>
+        <member name="T:ExitGames.Client.Photon.SocketUdp">
+            <summary> Internal class to encapsulate the network i/o functionality for the realtime libary.</summary>
+        </member>
+        <member name="M:ExitGames.Client.Photon.SocketUdp.Send(System.Byte[],System.Int32)">
             <summary>used by PhotonPeer*</summary>
         </member>
-        <member name="M:ExitGames.Client.Photon.SocketUdpNativeStatic.Send(System.Byte[],System.Int32)">
-            <summary>used by PhotonPeer*</summary>
+        <member name="M:ExitGames.Client.Photon.SocketUdp.ReceiveLoop">
+            <summary>Endless loop, run in Receive Thread.</summary>
         </member>
         <member name="T:ExitGames.Client.Photon.SupportClass">
             <summary>
@@ -1657,6 +1668,46 @@
             <summary>
             Class to wrap static access to the random.Next() call in a thread safe manner.
             </summary>
+        </member>
+        <member name="F:ExitGames.Client.Photon.TPeer.TCP_HEADER_BYTES">
+            <summary>TCP "Package" header: 7 bytes</summary>
+        </member>
+        <member name="F:ExitGames.Client.Photon.TPeer.MSG_HEADER_BYTES">
+            <summary>TCP "Message" header: 2 bytes</summary>
+        </member>
+        <member name="F:ExitGames.Client.Photon.TPeer.ALL_HEADER_BYTES">
+            <summary>TCP header combined: 9 bytes</summary>
+        </member>
+        <member name="F:ExitGames.Client.Photon.TPeer.DoFraming">
+            <summary>Defines if the (TCP) socket implementation needs to do "framing".</summary>
+            <remarks>The WebSocket protocol (e.g.) includes framing, so when that is used, we set DoFraming to false.</remarks>
+        </member>
+        <member name="M:ExitGames.Client.Photon.TPeer.DispatchIncomingCommands">
+            <summary>
+            Checks the incoming queue and Dispatches received data if possible. Returns if a Dispatch happened or
+            not, which shows if more Dispatches might be needed.
+            </summary>
+        </member>
+        <member name="M:ExitGames.Client.Photon.TPeer.SendOutgoingCommands">
+            <summary>
+            gathers commands from all (out)queues until udp-packet is full and sends it!
+            </summary>
+        </member>
+        <member name="M:ExitGames.Client.Photon.TPeer.SendAcksOnly">
+            <summary>Sends a ping in intervals to keep connection alive (server will timeout connection if nothing is sent).</summary>
+            <returns>Always false in this case (local queues are ignored. true would be: "call again to send remaining data").</returns>
+        </member>
+        <member name="M:ExitGames.Client.Photon.TPeer.SerializeOperationToMessage(System.Byte,System.Collections.Generic.Dictionary{System.Byte,System.Object},ExitGames.Client.Photon.PeerBase.EgMessageType,System.Boolean)">
+            <summary> Returns the UDP Payload starting with Magic Number for binary protocol </summary>
+        </member>
+        <member name="M:ExitGames.Client.Photon.TPeer.EnqueueMessageAsPayload(System.Boolean,System.Byte[],System.Byte)">
+            <summary>enqueues serialized operations to be sent as tcp stream / package</summary>
+        </member>
+        <member name="M:ExitGames.Client.Photon.TPeer.SendPing">
+            <summary>Sends a ping and modifies this.lastPingResult to avoid another ping for a while.</summary>
+        </member>
+        <member name="M:ExitGames.Client.Photon.TPeer.ReceiveIncomingCommands(System.Byte[],System.Int32)">
+            <summary>reads incoming tcp-packages to create and queue incoming commands*</summary>
         </member>
         <member name="T:ExitGames.Client.Photon.TrafficStatsGameLevel">
             <summary>

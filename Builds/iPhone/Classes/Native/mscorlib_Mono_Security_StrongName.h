@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.RSA
-struct RSA_t1210;
+struct RSA_t4209;
 // System.Byte[]
 struct ByteU5BU5D_t25;
 // System.String
@@ -11,10 +11,10 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.StrongName
-struct  StrongName_t3909  : public Object_t
+struct  StrongName_t4999  : public Object_t
 {
 	// System.Security.Cryptography.RSA Mono.Security.StrongName::rsa
-	RSA_t1210 * ___rsa_0;
+	RSA_t4209 * ___rsa_0;
 	// System.Byte[] Mono.Security.StrongName::publicKey
 	ByteU5BU5D_t25* ___publicKey_1;
 	// System.Byte[] Mono.Security.StrongName::keyToken
@@ -22,7 +22,7 @@ struct  StrongName_t3909  : public Object_t
 	// System.String Mono.Security.StrongName::tokenAlgorithm
 	String_t* ___tokenAlgorithm_3;
 };
-struct StrongName_t3909_StaticFields{
+struct StrongName_t4999_StaticFields{
 	// System.Object Mono.Security.StrongName::lockObject
 	Object_t * ___lockObject_4;
 	// System.Boolean Mono.Security.StrongName::initialized

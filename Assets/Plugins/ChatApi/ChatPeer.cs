@@ -60,7 +60,7 @@ namespace ExitGames.Client.Photon.Chat
 			if (protocol == ConnectionProtocol.WebSocket || protocol == ConnectionProtocol.WebSocketSecure) {
             	UnityEngine.Debug.Log("Using SocketWebTcp");
             	this.SocketImplementation = Type.GetType("ExitGames.Client.Photon.SocketWebTcp, Assembly-CSharp");//typeof(SocketWebTcp);
-			}	
+			}
 #endif
         }
 		/// <summary>
@@ -70,7 +70,7 @@ namespace ExitGames.Client.Photon.Chat
 		private string GetNameServerAddress()
 		{
 			#if RHTTP
-			if (currentProtocol == ConnectionProtocol.RHttp)
+			if (this.UsedProtocol == ConnectionProtocol.RHttp)
 			{
 				return NameServerHttp;
 			}
@@ -96,7 +96,7 @@ namespace ExitGames.Client.Photon.Chat
         public bool Connect()
         {
             this.Listener.DebugReturn(DebugLevel.INFO, "Connecting to nameserver " + this.NameServerAddress);
-			return this.Connect(this.NameServerAddress, "NameServer");           
+			return this.Connect(this.NameServerAddress, "NameServer");
         }
 
         public bool AuthenticateOnNameServer(string appId, string appVersion, string region, AuthenticationValues authValues)
@@ -168,12 +168,12 @@ namespace ExitGames.Client.Photon.Chat
     /// Container for user authentication in Photon. Set AuthValues before you connect - all else is handled.
     /// </summary>
     /// <remarks>
-    /// On Photon, user authentication is optional but can be useful in many cases. 
+    /// On Photon, user authentication is optional but can be useful in many cases.
     /// If you want to FindFriends, a unique ID per user is very practical.
-    /// 
+    ///
     /// There are basically three options for user authentification: None at all, the client sets some UserId
     /// or you can use some account web-service to authenticate a user (and set the UserId server-side).
-    /// 
+    ///
     /// Custom Authentication lets you verify end-users by some kind of login or token. It sends those
     /// values to Photon which will verify them before granting access or disconnecting the client.
     ///

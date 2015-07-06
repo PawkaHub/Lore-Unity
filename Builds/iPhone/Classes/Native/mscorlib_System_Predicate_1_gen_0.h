@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<PhotonAnimatorView/SynchronizedParameter>
-struct  Predicate_1_t698  : public MulticastDelegate_t451
+struct  Predicate_1_t715  : public MulticastDelegate_t451
 {
 };

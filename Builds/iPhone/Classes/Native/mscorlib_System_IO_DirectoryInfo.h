@@ -5,7 +5,7 @@ struct String_t;
 // System.IO.FileSystemInfo
 #include "mscorlib_System_IO_FileSystemInfo.h"
 // System.IO.DirectoryInfo
-struct  DirectoryInfo_t3966  : public FileSystemInfo_t3967
+struct  DirectoryInfo_t5056  : public FileSystemInfo_t5057
 {
 	// System.String System.IO.DirectoryInfo::current
 	String_t* ___current_5;

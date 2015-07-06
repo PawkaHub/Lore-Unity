@@ -3,6 +3,6 @@
 // UnityEngine.YieldInstruction
 #include "UnityEngine_UnityEngine_YieldInstruction.h"
 // UnityEngine.WaitForEndOfFrame
-struct  WaitForEndOfFrame_t2181  : public YieldInstruction_t2705
+struct  WaitForEndOfFrame_t726  : public YieldInstruction_t4440
 {
 };

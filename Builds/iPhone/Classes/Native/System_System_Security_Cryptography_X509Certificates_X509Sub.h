@@ -9,7 +9,7 @@ struct ByteU5BU5D_t25;
 // System.Security.Cryptography.AsnDecodeStatus
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
-struct  X509SubjectKeyIdentifierExtension_t3681  : public X509Extension_t3660
+struct  X509SubjectKeyIdentifierExtension_t4127  : public X509Extension_t4101
 {
 	// System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::_subjectKeyIdentifier
 	ByteU5BU5D_t25* ____subjectKeyIdentifier_6;

@@ -5,7 +5,7 @@
 // ExitGames.Client.Photon.ConnectionProtocol
 #include "Photon3Unity3D_ExitGames_Client_Photon_ConnectionProtocol.h"
 // System.Collections.Generic.KeyValuePair`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>
-struct  KeyValuePair_2_t4945 
+struct  KeyValuePair_2_t6033 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::key
 	uint8_t ___key_0;

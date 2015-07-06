@@ -3,7 +3,7 @@
 // System.String[]
 struct StringU5BU5D_t20;
 // PixelCrushers.DialogueSystem.QuestCondition[]
-struct QuestConditionU5BU5D_t953;
+struct QuestConditionU5BU5D_t1277;
 // UnityEngine.GameObject[]
 struct GameObjectU5BU5D_t60;
 // System.Object
@@ -14,7 +14,7 @@ struct  Condition_t203  : public Object_t
 	// System.String[] PixelCrushers.DialogueSystem.Condition::luaConditions
 	StringU5BU5D_t20* ___luaConditions_0;
 	// PixelCrushers.DialogueSystem.QuestCondition[] PixelCrushers.DialogueSystem.Condition::questConditions
-	QuestConditionU5BU5D_t953* ___questConditions_1;
+	QuestConditionU5BU5D_t1277* ___questConditions_1;
 	// System.String[] PixelCrushers.DialogueSystem.Condition::acceptedTags
 	StringU5BU5D_t20* ___acceptedTags_2;
 	// UnityEngine.GameObject[] PixelCrushers.DialogueSystem.Condition::acceptedGameObjects

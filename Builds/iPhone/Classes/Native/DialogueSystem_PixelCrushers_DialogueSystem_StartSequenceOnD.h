@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.ActOnDialogueEvent/Action
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ActOnDialogueEve.h"
 // PixelCrushers.DialogueSystem.StartSequenceOnDialogueEvent/SequenceAction
-struct  SequenceAction_t990  : public Action_t955
+struct  SequenceAction_t1314  : public Action_t1279
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.StartSequenceOnDialogueEvent/SequenceAction::actor
 	Transform_t54 * ___actor_1;

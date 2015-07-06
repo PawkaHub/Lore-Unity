@@ -4,35 +4,36 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Nullable`1<System.TimeSpan>
-struct Nullable_1_t4374;
+// System.Nullable`1<System.Int32>
+struct Nullable_1_t2835;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
-// System.TimeSpan
-#include "mscorlib_System_TimeSpan.h"
-// System.Nullable`1<System.TimeSpan>
+// System.Nullable`1<System.Int32>
 #include "mscorlib_System_Nullable_1_gen_2.h"
 
-// System.Void System.Nullable`1<System.TimeSpan>::.ctor(T)
-extern "C" void Nullable_1__ctor_m21643_gshared (Nullable_1_t4374 * __this, TimeSpan_t2672  ___value, const MethodInfo* method);
-#define Nullable_1__ctor_m21643(__this, ___value, method) (( void (*) (Nullable_1_t4374 *, TimeSpan_t2672 , const MethodInfo*))Nullable_1__ctor_m21643_gshared)(__this, ___value, method)
-// System.Boolean System.Nullable`1<System.TimeSpan>::get_HasValue()
-extern "C" bool Nullable_1_get_HasValue_m21644_gshared (Nullable_1_t4374 * __this, const MethodInfo* method);
-#define Nullable_1_get_HasValue_m21644(__this, method) (( bool (*) (Nullable_1_t4374 *, const MethodInfo*))Nullable_1_get_HasValue_m21644_gshared)(__this, method)
-// T System.Nullable`1<System.TimeSpan>::get_Value()
-extern "C" TimeSpan_t2672  Nullable_1_get_Value_m21645_gshared (Nullable_1_t4374 * __this, const MethodInfo* method);
-#define Nullable_1_get_Value_m21645(__this, method) (( TimeSpan_t2672  (*) (Nullable_1_t4374 *, const MethodInfo*))Nullable_1_get_Value_m21645_gshared)(__this, method)
-// System.Boolean System.Nullable`1<System.TimeSpan>::Equals(System.Object)
-extern "C" bool Nullable_1_Equals_m45191_gshared (Nullable_1_t4374 * __this, Object_t * ___other, const MethodInfo* method);
-#define Nullable_1_Equals_m45191(__this, ___other, method) (( bool (*) (Nullable_1_t4374 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m45191_gshared)(__this, ___other, method)
-// System.Boolean System.Nullable`1<System.TimeSpan>::Equals(System.Nullable`1<T>)
-extern "C" bool Nullable_1_Equals_m45192_gshared (Nullable_1_t4374 * __this, Nullable_1_t4374  ___other, const MethodInfo* method);
-#define Nullable_1_Equals_m45192(__this, ___other, method) (( bool (*) (Nullable_1_t4374 *, Nullable_1_t4374 , const MethodInfo*))Nullable_1_Equals_m45192_gshared)(__this, ___other, method)
-// System.Int32 System.Nullable`1<System.TimeSpan>::GetHashCode()
-extern "C" int32_t Nullable_1_GetHashCode_m45193_gshared (Nullable_1_t4374 * __this, const MethodInfo* method);
-#define Nullable_1_GetHashCode_m45193(__this, method) (( int32_t (*) (Nullable_1_t4374 *, const MethodInfo*))Nullable_1_GetHashCode_m45193_gshared)(__this, method)
-// System.String System.Nullable`1<System.TimeSpan>::ToString()
-extern "C" String_t* Nullable_1_ToString_m45194_gshared (Nullable_1_t4374 * __this, const MethodInfo* method);
-#define Nullable_1_ToString_m45194(__this, method) (( String_t* (*) (Nullable_1_t4374 *, const MethodInfo*))Nullable_1_ToString_m45194_gshared)(__this, method)
+// System.Void System.Nullable`1<System.Int32>::.ctor(T)
+extern "C" void Nullable_1__ctor_m10946_gshared (Nullable_1_t2835 * __this, int32_t ___value, const MethodInfo* method);
+#define Nullable_1__ctor_m10946(__this, ___value, method) (( void (*) (Nullable_1_t2835 *, int32_t, const MethodInfo*))Nullable_1__ctor_m10946_gshared)(__this, ___value, method)
+// System.Boolean System.Nullable`1<System.Int32>::get_HasValue()
+extern "C" bool Nullable_1_get_HasValue_m10943_gshared (Nullable_1_t2835 * __this, const MethodInfo* method);
+#define Nullable_1_get_HasValue_m10943(__this, method) (( bool (*) (Nullable_1_t2835 *, const MethodInfo*))Nullable_1_get_HasValue_m10943_gshared)(__this, method)
+// T System.Nullable`1<System.Int32>::get_Value()
+extern "C" int32_t Nullable_1_get_Value_m10944_gshared (Nullable_1_t2835 * __this, const MethodInfo* method);
+#define Nullable_1_get_Value_m10944(__this, method) (( int32_t (*) (Nullable_1_t2835 *, const MethodInfo*))Nullable_1_get_Value_m10944_gshared)(__this, method)
+// System.Boolean System.Nullable`1<System.Int32>::Equals(System.Object)
+extern "C" bool Nullable_1_Equals_m39164_gshared (Nullable_1_t2835 * __this, Object_t * ___other, const MethodInfo* method);
+#define Nullable_1_Equals_m39164(__this, ___other, method) (( bool (*) (Nullable_1_t2835 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m39164_gshared)(__this, ___other, method)
+// System.Boolean System.Nullable`1<System.Int32>::Equals(System.Nullable`1<T>)
+extern "C" bool Nullable_1_Equals_m39165_gshared (Nullable_1_t2835 * __this, Nullable_1_t2835  ___other, const MethodInfo* method);
+#define Nullable_1_Equals_m39165(__this, ___other, method) (( bool (*) (Nullable_1_t2835 *, Nullable_1_t2835 , const MethodInfo*))Nullable_1_Equals_m39165_gshared)(__this, ___other, method)
+// System.Int32 System.Nullable`1<System.Int32>::GetHashCode()
+extern "C" int32_t Nullable_1_GetHashCode_m39166_gshared (Nullable_1_t2835 * __this, const MethodInfo* method);
+#define Nullable_1_GetHashCode_m39166(__this, method) (( int32_t (*) (Nullable_1_t2835 *, const MethodInfo*))Nullable_1_GetHashCode_m39166_gshared)(__this, method)
+// T System.Nullable`1<System.Int32>::GetValueOrDefault()
+extern "C" int32_t Nullable_1_GetValueOrDefault_m39167_gshared (Nullable_1_t2835 * __this, const MethodInfo* method);
+#define Nullable_1_GetValueOrDefault_m39167(__this, method) (( int32_t (*) (Nullable_1_t2835 *, const MethodInfo*))Nullable_1_GetValueOrDefault_m39167_gshared)(__this, method)
+// System.String System.Nullable`1<System.Int32>::ToString()
+extern "C" String_t* Nullable_1_ToString_m39168_gshared (Nullable_1_t2835 * __this, const MethodInfo* method);
+#define Nullable_1_ToString_m39168(__this, method) (( String_t* (*) (Nullable_1_t2835 *, const MethodInfo*))Nullable_1_ToString_m39168_gshared)(__this, method)

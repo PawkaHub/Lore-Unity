@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Toggle
-struct Toggle_t2090;
+// PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
+struct SequencerCommand_t209;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t449;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<UnityEngine.UI.Toggle>
-struct  Predicate_1_t2092  : public MulticastDelegate_t451
+// System.Predicate`1<PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand>
+struct  Predicate_1_t1214  : public MulticastDelegate_t451
 {
 };

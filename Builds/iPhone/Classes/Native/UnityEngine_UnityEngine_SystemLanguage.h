@@ -5,7 +5,7 @@
 // UnityEngine.SystemLanguage
 #include "UnityEngine_UnityEngine_SystemLanguage.h"
 // UnityEngine.SystemLanguage
-struct  SystemLanguage_t1157 
+struct  SystemLanguage_t1474 
 {
 	// System.Int32 UnityEngine.SystemLanguage::value__
 	int32_t ___value___1;

@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.SetEnabledOnDialogueEvent/SetEnabledAction>
-struct  InternalEnumerator_1_t5507 
+// System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.SendMessageOnDialogueEvent/SendMessageAction>
+struct  InternalEnumerator_1_t6736 
 {
-	// System.Array System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.SetEnabledOnDialogueEvent/SetEnabledAction>::array
+	// System.Array System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.SendMessageOnDialogueEvent/SendMessageAction>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.SetEnabledOnDialogueEvent/SetEnabledAction>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.SendMessageOnDialogueEvent/SendMessageAction>::idx
 	int32_t ___idx_1;
 };

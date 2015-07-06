@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct EqualityComparer_1_t5607;
+// System.Collections.Generic.EqualityComparer`1<PixelCrushers.DialogueSystem.Emphasis>
+struct EqualityComparer_1_t6700;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct  EqualityComparer_1_t5607  : public Object_t
+// System.Collections.Generic.EqualityComparer`1<PixelCrushers.DialogueSystem.Emphasis>
+struct  EqualityComparer_1_t6700  : public Object_t
 {
 };
-struct EqualityComparer_1_t5607_StaticFields{
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::_default
-	EqualityComparer_1_t5607 * ____default_0;
+struct EqualityComparer_1_t6700_StaticFields{
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<PixelCrushers.DialogueSystem.Emphasis>::_default
+	EqualityComparer_1_t6700 * ____default_0;
 };

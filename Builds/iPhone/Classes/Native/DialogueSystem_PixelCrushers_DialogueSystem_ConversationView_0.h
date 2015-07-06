@@ -1,52 +1,52 @@
 ﻿#pragma once
 #include <stdint.h>
 // PixelCrushers.DialogueSystem.IDialogueUI
-struct IDialogueUI_t720;
+struct IDialogueUI_t746;
 // PixelCrushers.DialogueSystem.Sequencer
-struct Sequencer_t597;
+struct Sequencer_t618;
 // PixelCrushers.DialogueSystem.DisplaySettings
-struct DisplaySettings_t605;
+struct DisplaySettings_t626;
 // PixelCrushers.DialogueSystem.Subtitle
-struct Subtitle_t552;
+struct Subtitle_t570;
 // PixelCrushers.DialogueSystem.ConversationView/IsCancelKeyDownDelegate
-struct IsCancelKeyDownDelegate_t872;
+struct IsCancelKeyDownDelegate_t1197;
 // System.Action
 struct Action_t250;
 // PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate
-struct DialogueEntrySpokenDelegate_t873;
+struct DialogueEntrySpokenDelegate_t1198;
 // System.EventHandler
-struct EventHandler_t874;
+struct EventHandler_t1199;
 // System.EventHandler`1<PixelCrushers.DialogueSystem.SelectedResponseEventArgs>
-struct EventHandler_1_t869;
+struct EventHandler_1_t1194;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PixelCrushers.DialogueSystem.ConversationView
-struct  ConversationView_t782  : public MonoBehaviour_t47
+struct  ConversationView_t1107  : public MonoBehaviour_t47
 {
 	// PixelCrushers.DialogueSystem.IDialogueUI PixelCrushers.DialogueSystem.ConversationView::ui
 	Object_t * ___ui_2;
 	// PixelCrushers.DialogueSystem.Sequencer PixelCrushers.DialogueSystem.ConversationView::sequencer
-	Sequencer_t597 * ___sequencer_3;
+	Sequencer_t618 * ___sequencer_3;
 	// PixelCrushers.DialogueSystem.DisplaySettings PixelCrushers.DialogueSystem.ConversationView::settings
-	DisplaySettings_t605 * ___settings_4;
+	DisplaySettings_t626 * ___settings_4;
 	// PixelCrushers.DialogueSystem.Subtitle PixelCrushers.DialogueSystem.ConversationView::lastNPCSubtitle
-	Subtitle_t552 * ___lastNPCSubtitle_5;
+	Subtitle_t570 * ___lastNPCSubtitle_5;
 	// PixelCrushers.DialogueSystem.Subtitle PixelCrushers.DialogueSystem.ConversationView::lastPCSubtitle
-	Subtitle_t552 * ___lastPCSubtitle_6;
+	Subtitle_t570 * ___lastPCSubtitle_6;
 	// PixelCrushers.DialogueSystem.Subtitle PixelCrushers.DialogueSystem.ConversationView::lastSubtitle
-	Subtitle_t552 * ___lastSubtitle_7;
+	Subtitle_t570 * ___lastSubtitle_7;
 	// PixelCrushers.DialogueSystem.ConversationView/IsCancelKeyDownDelegate PixelCrushers.DialogueSystem.ConversationView::IsCancelKeyDown
-	IsCancelKeyDownDelegate_t872 * ___IsCancelKeyDown_8;
+	IsCancelKeyDownDelegate_t1197 * ___IsCancelKeyDown_8;
 	// System.Action PixelCrushers.DialogueSystem.ConversationView::CancelledHandler
 	Action_t250 * ___CancelledHandler_9;
 	// PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate PixelCrushers.DialogueSystem.ConversationView::dialogueEntrySpokenHandler
-	DialogueEntrySpokenDelegate_t873 * ___dialogueEntrySpokenHandler_10;
+	DialogueEntrySpokenDelegate_t1198 * ___dialogueEntrySpokenHandler_10;
 	// System.Boolean PixelCrushers.DialogueSystem.ConversationView::waitForContinue
 	bool ___waitForContinue_11;
 	// System.Boolean PixelCrushers.DialogueSystem.ConversationView::isPlayingResponseMenuSequence
 	bool ___isPlayingResponseMenuSequence_12;
 	// System.EventHandler PixelCrushers.DialogueSystem.ConversationView::FinishedSubtitleHandler
-	EventHandler_t874 * ___FinishedSubtitleHandler_13;
+	EventHandler_t1199 * ___FinishedSubtitleHandler_13;
 	// System.EventHandler`1<PixelCrushers.DialogueSystem.SelectedResponseEventArgs> PixelCrushers.DialogueSystem.ConversationView::SelectedResponseHandler
-	EventHandler_1_t869 * ___SelectedResponseHandler_14;
+	EventHandler_1_t1194 * ___SelectedResponseHandler_14;
 };

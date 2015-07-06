@@ -5,7 +5,7 @@
 // System.ComponentModel.EditorBrowsableState
 #include "System_System_ComponentModel_EditorBrowsableState.h"
 // System.ComponentModel.EditorBrowsableAttribute
-struct  EditorBrowsableAttribute_t1711  : public Attribute_t471
+struct  EditorBrowsableAttribute_t2527  : public Attribute_t471
 {
 	// System.ComponentModel.EditorBrowsableState System.ComponentModel.EditorBrowsableAttribute::state
 	int32_t ___state_0;

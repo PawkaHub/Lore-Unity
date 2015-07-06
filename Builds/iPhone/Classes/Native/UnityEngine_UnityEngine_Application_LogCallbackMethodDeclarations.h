@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Application/LogCallback
-struct LogCallback_t703;
+struct LogCallback_t721;
 // System.Object
 struct Object_t;
 // System.String
@@ -20,13 +20,13 @@ struct AsyncCallback_t449;
 #include "UnityEngine_UnityEngine_LogType.h"
 
 // System.Void UnityEngine.Application/LogCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void LogCallback__ctor_m3294 (LogCallback_t703 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogCallback__ctor_m3385 (LogCallback_t721 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Application/LogCallback::Invoke(System.String,System.String,UnityEngine.LogType)
-extern "C" void LogCallback_Invoke_m12897 (LogCallback_t703 * __this, String_t* ___condition, String_t* ___stackTrace, int32_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogCallback_Invoke_m16775 (LogCallback_t721 * __this, String_t* ___condition, String_t* ___stackTrace, int32_t ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String
 #include "mscorlib_System_String.h"
-extern "C" void pinvoke_delegate_wrapper_LogCallback_t703(Il2CppObject* delegate, String_t* ___condition, String_t* ___stackTrace, int32_t ___type);
+extern "C" void pinvoke_delegate_wrapper_LogCallback_t721(Il2CppObject* delegate, String_t* ___condition, String_t* ___stackTrace, int32_t ___type);
 // System.IAsyncResult UnityEngine.Application/LogCallback::BeginInvoke(System.String,System.String,UnityEngine.LogType,System.AsyncCallback,System.Object)
-extern "C" Object_t * LogCallback_BeginInvoke_m12898 (LogCallback_t703 * __this, String_t* ___condition, String_t* ___stackTrace, int32_t ___type, AsyncCallback_t449 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * LogCallback_BeginInvoke_m16776 (LogCallback_t721 * __this, String_t* ___condition, String_t* ___stackTrace, int32_t ___type, AsyncCallback_t449 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Application/LogCallback::EndInvoke(System.IAsyncResult)
-extern "C" void LogCallback_EndInvoke_m12899 (LogCallback_t703 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogCallback_EndInvoke_m16777 (LogCallback_t721 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

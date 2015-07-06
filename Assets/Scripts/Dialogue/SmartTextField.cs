@@ -54,7 +54,15 @@ namespace PixelCrushers.DialogueSystem {
 
 		public string textFieldLabel;
 
+		//private TouchScreenKeyboard keyboard;
+
+		//private TouchScreenKeyboard keyboard;
+
+		//private TouchScreenKeyboard keyboard = TouchScreenKeyboard;
+
 		void Start() {
+			//Config keyboard
+			Debug.Log ("SmartTextField started!");
 			if (DialogueDebug.LogWarnings && (textField == null)) Debug.LogWarning(string.Format("{0}: No InputField is assigned to the text field UI {1}. TextInput() sequencer commands or [var?=] won't work.", new object[] { DialogueDebug.Prefix, name }));
 			Hide();
 		}
@@ -71,6 +79,8 @@ namespace PixelCrushers.DialogueSystem {
 			if (textField != null) {
 				textField.text = text;
 				textField.characterLimit = maxLength;
+				textField.keyboardType = TouchScreenKeyboardType.EmailAddress;
+				TouchScreenKeyboard.hideInput = true;
 			}
 			this.acceptedText = acceptedText;
 			Show();
@@ -81,11 +91,17 @@ namespace PixelCrushers.DialogueSystem {
 
 		public void Update() {
 			if (isAwaitingInput) {
+				Debug.Log ("Update");
+				//Detect mobile support
 				if (Input.GetKeyDown(acceptKey)) {
 					AcceptTextInput();
-				} else if (Input.GetKeyDown(cancelKey)) {
-					CancelTextInput();
-				}
+				} /*else if (keyboard != null) {
+					Debug.Log ("Mobile Keyboard support!");
+					if (keyboard.done) {
+						Debug.Log ("Mobile Done Pressed!");
+						AcceptTextInput();
+					}
+				}*/
 			}
 		}
 
@@ -123,6 +139,8 @@ namespace PixelCrushers.DialogueSystem {
 			SetActive(true);
 			if (textField != null) {
 				textField.ActivateInputField();
+				//keyboard = TouchScreenKeyboard;
+				TouchScreenKeyboard.hideInput = true;
 				//Disable continue button while the text field is active
 				if (UnityEngine.EventSystems.EventSystem.current != null) {
 					UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(textField.gameObject, null);

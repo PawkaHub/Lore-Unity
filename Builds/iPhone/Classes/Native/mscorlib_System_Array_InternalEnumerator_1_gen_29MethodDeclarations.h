@@ -5,23 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>
-struct InternalEnumerator_1_t5090;
+struct InternalEnumerator_1_t6178;
 // System.Object
 struct Object_t;
 // PixelCrushers.DialogueSystem.EmphasisSetting
-struct EmphasisSetting_t819;
+struct EmphasisSetting_t1144;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_genMethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m25627(__this, ___array, method) (( void (*) (InternalEnumerator_1_t5090 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m22566_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m27036(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6178 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m23907_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m27037(__this, method) (( void (*) (InternalEnumerator_1_t6178 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m23908_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25628(__this, method) (( Object_t * (*) (InternalEnumerator_1_t5090 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m22567_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m27038(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6178 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m23909_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>::Dispose()
-#define InternalEnumerator_1_Dispose_m25629(__this, method) (( void (*) (InternalEnumerator_1_t5090 *, const MethodInfo*))InternalEnumerator_1_Dispose_m22568_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m27039(__this, method) (( void (*) (InternalEnumerator_1_t6178 *, const MethodInfo*))InternalEnumerator_1_Dispose_m23910_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m25630(__this, method) (( bool (*) (InternalEnumerator_1_t5090 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m22569_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m27040(__this, method) (( bool (*) (InternalEnumerator_1_t6178 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m23911_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>::get_Current()
-#define InternalEnumerator_1_get_Current_m25631(__this, method) (( EmphasisSetting_t819 * (*) (InternalEnumerator_1_t5090 *, const MethodInfo*))InternalEnumerator_1_get_Current_m22570_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m27041(__this, method) (( EmphasisSetting_t1144 * (*) (InternalEnumerator_1_t6178 *, const MethodInfo*))InternalEnumerator_1_get_Current_m23912_gshared)(__this, method)

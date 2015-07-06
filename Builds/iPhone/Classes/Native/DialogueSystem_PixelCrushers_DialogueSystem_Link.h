@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.ConditionPriority
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ConditionPriorit.h"
 // PixelCrushers.DialogueSystem.Link
-struct  Link_t806  : public Object_t
+struct  Link_t1131  : public Object_t
 {
 	// System.Int32 PixelCrushers.DialogueSystem.Link::originConversationID
 	int32_t ___originConversationID_0;

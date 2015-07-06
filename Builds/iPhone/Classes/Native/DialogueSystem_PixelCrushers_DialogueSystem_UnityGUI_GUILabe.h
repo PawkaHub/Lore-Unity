@@ -3,7 +3,7 @@
 // UnityEngine.Texture2D
 struct Texture2D_t90;
 // PixelCrushers.DialogueSystem.UnityGUI.ImageAnimation
-struct ImageAnimation_t1029;
+struct ImageAnimation_t1353;
 // System.Collections.Generic.List`1<System.String>
 struct List_1_t1;
 // System.String
@@ -15,7 +15,7 @@ struct String_t;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // PixelCrushers.DialogueSystem.UnityGUI.GUILabel
-struct  GUILabel_t938  : public GUIVisibleControl_t1023
+struct  GUILabel_t1262  : public GUIVisibleControl_t1347
 {
 	// PixelCrushers.DialogueSystem.UnityGUI.TextStyle PixelCrushers.DialogueSystem.UnityGUI.GUILabel::textStyle
 	int32_t ___textStyle_28;
@@ -26,7 +26,7 @@ struct  GUILabel_t938  : public GUIVisibleControl_t1023
 	// UnityEngine.Texture2D PixelCrushers.DialogueSystem.UnityGUI.GUILabel::image
 	Texture2D_t90 * ___image_31;
 	// PixelCrushers.DialogueSystem.UnityGUI.ImageAnimation PixelCrushers.DialogueSystem.UnityGUI.GUILabel::imageAnimation
-	ImageAnimation_t1029 * ___imageAnimation_32;
+	ImageAnimation_t1353 * ___imageAnimation_32;
 	// System.Collections.Generic.List`1<System.String> PixelCrushers.DialogueSystem.UnityGUI.GUILabel::closureTags
 	List_1_t1 * ___closureTags_33;
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.GUILabel::useSubstring

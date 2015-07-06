@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>
-struct  InternalEnumerator_1_t5090 
+struct  InternalEnumerator_1_t6178 
 {
 	// System.Array System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.EmphasisSetting>::array
 	Array_t * ___array_0;

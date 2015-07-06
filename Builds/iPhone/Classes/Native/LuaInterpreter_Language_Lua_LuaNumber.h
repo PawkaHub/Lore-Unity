@@ -3,7 +3,7 @@
 // Language.Lua.LuaValue
 #include "LuaInterpreter_Language_Lua_LuaValue.h"
 // Language.Lua.LuaNumber
-struct  LuaNumber_t1075  : public LuaValue_t748
+struct  LuaNumber_t1398  : public LuaValue_t1075
 {
 	// System.Double Language.Lua.LuaNumber::<Number>k__BackingField
 	double ___U3CNumberU3Ek__BackingField_0;

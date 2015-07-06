@@ -5,7 +5,7 @@ struct PhotonView_t325;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,PhotonView>
-struct  KeyValuePair_2_t678 
+struct  KeyValuePair_2_t695 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,PhotonView>::key
 	int32_t ___key_0;

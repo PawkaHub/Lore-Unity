@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<Consolation.Console/Log>
-struct List_1_t537;
+// System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedLayer>
+struct List_1_t486;
+// PhotonAnimatorView/SynchronizedLayer
+struct SynchronizedLayer_t478;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// Consolation.Console/Log
-#include "AssemblyU2DCSharp_Consolation_Console_Log.h"
-// System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>
-struct  Enumerator_t5292 
+// System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedLayer>
+struct  Enumerator_t6363 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::l
-	List_1_t537 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedLayer>::l
+	List_1_t486 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedLayer>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedLayer>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::current
-	Log_t536  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedLayer>::current
+	SynchronizedLayer_t478 * ___current_3;
 };

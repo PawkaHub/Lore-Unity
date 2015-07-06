@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // PixelCrushers.DialogueSystem.ConversationTrigger
-struct ConversationTrigger_t1008;
+struct ConversationTrigger_t1332;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.ConversationTrigger/<StartConversationAfterOneFrame>c__Iterator13
-struct  U3CStartConversationAfterOneFrameU3Ec__Iterator13_t1009  : public Object_t
+struct  U3CStartConversationAfterOneFrameU3Ec__Iterator13_t1333  : public Object_t
 {
 	// System.Int32 PixelCrushers.DialogueSystem.ConversationTrigger/<StartConversationAfterOneFrame>c__Iterator13::$PC
 	int32_t ___U24PC_0;
 	// System.Object PixelCrushers.DialogueSystem.ConversationTrigger/<StartConversationAfterOneFrame>c__Iterator13::$current
 	Object_t * ___U24current_1;
 	// PixelCrushers.DialogueSystem.ConversationTrigger PixelCrushers.DialogueSystem.ConversationTrigger/<StartConversationAfterOneFrame>c__Iterator13::<>f__this
-	ConversationTrigger_t1008 * ___U3CU3Ef__this_2;
+	ConversationTrigger_t1332 * ___U3CU3Ef__this_2;
 };

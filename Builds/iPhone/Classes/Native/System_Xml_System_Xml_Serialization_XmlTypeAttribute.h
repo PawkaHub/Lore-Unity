@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Xml.Serialization.XmlTypeAttribute
-struct  XmlTypeAttribute_t2346  : public Attribute_t471
+struct  XmlTypeAttribute_t3732  : public Attribute_t471
 {
 	// System.Boolean System.Xml.Serialization.XmlTypeAttribute::includeInSchema
 	bool ___includeInSchema_0;

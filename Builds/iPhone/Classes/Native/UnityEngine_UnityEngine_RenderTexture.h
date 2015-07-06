@@ -3,6 +3,6 @@
 // UnityEngine.Texture
 #include "UnityEngine_UnityEngine_Texture.h"
 // UnityEngine.RenderTexture
-struct  RenderTexture_t2727  : public Texture_t903
+struct  RenderTexture_t4462  : public Texture_t731
 {
 };

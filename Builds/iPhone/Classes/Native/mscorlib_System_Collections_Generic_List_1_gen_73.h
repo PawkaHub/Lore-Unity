@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t2055;
+// PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo[]
+struct QuestInfoU5BU5D_t642;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct  List_1_t2058  : public Object_t
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo>
+struct  List_1_t1453  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::_items
-	UIVertexU5BU5D_t2055* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::_size
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo>::_items
+	QuestInfoU5BU5D_t642* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::_version
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2058_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::EmptyArray
-	UIVertexU5BU5D_t2055* ___EmptyArray_4;
+struct List_1_t1453_StaticFields{
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo>::EmptyArray
+	QuestInfoU5BU5D_t642* ___EmptyArray_4;
 };

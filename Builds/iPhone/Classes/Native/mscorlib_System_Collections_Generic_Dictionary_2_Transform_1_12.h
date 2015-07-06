@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<PhotonPlayer>
-struct List_1_t652;
+struct List_1_t671;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>,System.Collections.DictionaryEntry>
-struct  Transform_1_t5163  : public MulticastDelegate_t451
+struct  Transform_1_t6251  : public MulticastDelegate_t451
 {
 };

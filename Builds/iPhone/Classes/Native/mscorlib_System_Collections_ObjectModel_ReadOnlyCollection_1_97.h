@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<Language.Lua.Field>
-struct IList_1_t6017;
+// System.Collections.Generic.IList`1<System.DateTime>
+struct IList_1_t7629;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<Language.Lua.Field>
-struct  ReadOnlyCollection_1_t6018  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.DateTime>
+struct  ReadOnlyCollection_1_t7640  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Language.Lua.Field>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.DateTime>::list
 	Object_t* ___list_0;
 };

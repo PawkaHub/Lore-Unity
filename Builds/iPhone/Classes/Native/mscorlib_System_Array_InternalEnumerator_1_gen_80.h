@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>
-struct  InternalEnumerator_1_t5521 
+// System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.UnityGUI.GUIButton>
+struct  InternalEnumerator_1_t6750 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>::array
+	// System.Array System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.UnityGUI.GUIButton>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<PixelCrushers.DialogueSystem.UnityGUI.GUIButton>::idx
 	int32_t ___idx_1;
 };

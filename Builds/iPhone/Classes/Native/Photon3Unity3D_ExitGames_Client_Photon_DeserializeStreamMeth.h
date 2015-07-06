@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.IO.MemoryStream
-struct MemoryStream_t558;
+struct MemoryStream_t576;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // ExitGames.Client.Photon.DeserializeStreamMethod
-struct  DeserializeStreamMethod_t656  : public MulticastDelegate_t451
+struct  DeserializeStreamMethod_t675  : public MulticastDelegate_t451
 {
 };

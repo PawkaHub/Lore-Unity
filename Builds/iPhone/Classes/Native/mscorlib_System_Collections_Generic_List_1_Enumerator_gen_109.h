@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
-struct List_1_t2911;
-// UnityEngine.Events.BaseInvokableCall
-struct BaseInvokableCall_t2905;
+// System.Collections.Generic.List`1<Parse.ParseUser>
+struct List_1_t7774;
+// Parse.ParseUser
+struct ParseUser_t722;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>
-struct  Enumerator_t6269 
+// System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>
+struct  Enumerator_t7777 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::l
-	List_1_t2911 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::l
+	List_1_t7774 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>::current
-	BaseInvokableCall_t2905 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseUser>::current
+	ParseUser_t722 * ___current_3;
 };

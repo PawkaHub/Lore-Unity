@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // PixelCrushers.DialogueSystem.ITextFieldUI
-struct ITextFieldUI_t721;
+struct ITextFieldUI_t747;
 // System.String
 struct String_t;
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
 #include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandTextInput
-struct  SequencerCommandTextInput_t911  : public SequencerCommand_t209
+struct  SequencerCommandTextInput_t1235  : public SequencerCommand_t209
 {
 	// PixelCrushers.DialogueSystem.ITextFieldUI PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandTextInput::textFieldUI
 	Object_t * ___textFieldUI_6;

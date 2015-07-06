@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ExitGames.Client.Photon.PhotonCodes
-struct PhotonCodes_t3145;
+struct PhotonCodes_t4872;
 
 // System.Void ExitGames.Client.Photon.PhotonCodes::.cctor()
-extern "C" void PhotonCodes__cctor_m14168 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonCodes__cctor_m18038 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

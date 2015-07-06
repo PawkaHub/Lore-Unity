@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
+// System.Object
+struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.TimeZoneInfo/TimeType
-#include "System_Core_System_TimeZoneInfo_TimeType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>
-struct  KeyValuePair_2_t6316 
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>
+struct  KeyValuePair_2_t7994 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>::value
-	TimeType_t3222  ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>::key
+	Object_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>::value
+	uint16_t ___value_1;
 };

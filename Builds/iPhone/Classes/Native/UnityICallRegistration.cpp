@@ -1,4 +1,4 @@
-//Generated on : 2015-06-29 8:48:58 PM
+//Generated on : 2015-07-05 8:41:48 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.Animation
@@ -95,9 +95,17 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Animator
 
+		//System.Boolean UnityEngine.Animator::GetBoolID(System.Int32)
+		void Register_UnityEngine_Animator_GetBoolID();
+		Register_UnityEngine_Animator_GetBoolID();
+
 		//System.Boolean UnityEngine.Animator::GetBoolString(System.String)
 		void Register_UnityEngine_Animator_GetBoolString();
 		Register_UnityEngine_Animator_GetBoolString();
+
+		//System.Boolean UnityEngine.Animator::IsInTransition(System.Int32)
+		void Register_UnityEngine_Animator_IsInTransition();
+		Register_UnityEngine_Animator_IsInTransition();
 
 		//System.Int32 UnityEngine.Animator::GetIntegerString(System.String)
 		void Register_UnityEngine_Animator_GetIntegerString();
@@ -134,6 +142,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
+
+		//System.Void UnityEngine.Animator::SetBoolID(System.Int32,System.Boolean)
+		void Register_UnityEngine_Animator_SetBoolID();
+		Register_UnityEngine_Animator_SetBoolID();
 
 		//System.Void UnityEngine.Animator::SetBoolString(System.String,System.Boolean)
 		void Register_UnityEngine_Animator_SetBoolString();
@@ -546,6 +558,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.CanvasGroup::get_interactable()
 		void Register_UnityEngine_CanvasGroup_get_interactable();
 		Register_UnityEngine_CanvasGroup_get_interactable();
+
+		//System.Void UnityEngine.CanvasGroup::set_blocksRaycasts(System.Boolean)
+		void Register_UnityEngine_CanvasGroup_set_blocksRaycasts();
+		Register_UnityEngine_CanvasGroup_set_blocksRaycasts();
 
 	//End Registrations for type : UnityEngine.CanvasGroup
 
@@ -1417,6 +1433,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.LayerMask
 
+	//Start Registrations for type : UnityEngine.Light
+
+		//System.Void UnityEngine.Light::INTERNAL_get_color(UnityEngine.Color&)
+		void Register_UnityEngine_Light_INTERNAL_get_color();
+		Register_UnityEngine_Light_INTERNAL_get_color();
+
+		//System.Void UnityEngine.Light::INTERNAL_set_color(UnityEngine.Color&)
+		void Register_UnityEngine_Light_INTERNAL_set_color();
+		Register_UnityEngine_Light_INTERNAL_set_color();
+
+	//End Registrations for type : UnityEngine.Light
+
 	//Start Registrations for type : UnityEngine.Material
 
 		//System.Boolean UnityEngine.Material::HasProperty(System.Int32)
@@ -1442,6 +1470,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Material::SetFloat(System.Int32,System.Single)
 		void Register_UnityEngine_Material_SetFloat();
 		Register_UnityEngine_Material_SetFloat();
+
+		//UnityEngine.Color UnityEngine.Material::GetColor(System.Int32)
+		void Register_UnityEngine_Material_GetColor();
+		Register_UnityEngine_Material_GetColor();
 
 		//UnityEngine.Texture UnityEngine.Material::GetTexture(System.Int32)
 		void Register_UnityEngine_Material_GetTexture();
@@ -2027,14 +2059,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rigidbody_INTERNAL_get_angularVelocity();
 		Register_UnityEngine_Rigidbody_INTERNAL_get_angularVelocity();
 
-		//System.Void UnityEngine.Rigidbody::INTERNAL_get_position(UnityEngine.Vector3&)
-		void Register_UnityEngine_Rigidbody_INTERNAL_get_position();
-		Register_UnityEngine_Rigidbody_INTERNAL_get_position();
-
-		//System.Void UnityEngine.Rigidbody::INTERNAL_get_rotation(UnityEngine.Quaternion&)
-		void Register_UnityEngine_Rigidbody_INTERNAL_get_rotation();
-		Register_UnityEngine_Rigidbody_INTERNAL_get_rotation();
-
 		//System.Void UnityEngine.Rigidbody::INTERNAL_get_velocity(UnityEngine.Vector3&)
 		void Register_UnityEngine_Rigidbody_INTERNAL_get_velocity();
 		Register_UnityEngine_Rigidbody_INTERNAL_get_velocity();
@@ -2042,14 +2066,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Rigidbody::INTERNAL_set_angularVelocity(UnityEngine.Vector3&)
 		void Register_UnityEngine_Rigidbody_INTERNAL_set_angularVelocity();
 		Register_UnityEngine_Rigidbody_INTERNAL_set_angularVelocity();
-
-		//System.Void UnityEngine.Rigidbody::INTERNAL_set_position(UnityEngine.Vector3&)
-		void Register_UnityEngine_Rigidbody_INTERNAL_set_position();
-		Register_UnityEngine_Rigidbody_INTERNAL_set_position();
-
-		//System.Void UnityEngine.Rigidbody::INTERNAL_set_rotation(UnityEngine.Quaternion&)
-		void Register_UnityEngine_Rigidbody_INTERNAL_set_rotation();
-		Register_UnityEngine_Rigidbody_INTERNAL_set_rotation();
 
 		//System.Void UnityEngine.Rigidbody::INTERNAL_set_velocity(UnityEngine.Vector3&)
 		void Register_UnityEngine_Rigidbody_INTERNAL_set_velocity();
@@ -2614,6 +2630,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::SetAsFirstSibling()
 		void Register_UnityEngine_Transform_SetAsFirstSibling();
 		Register_UnityEngine_Transform_SetAsFirstSibling();
+
+		//System.Void UnityEngine.Transform::SetAsLastSibling()
+		void Register_UnityEngine_Transform_SetAsLastSibling();
+		Register_UnityEngine_Transform_SetAsLastSibling();
 
 		//System.Void UnityEngine.Transform::SetParent(UnityEngine.Transform,System.Boolean)
 		void Register_UnityEngine_Transform_SetParent();

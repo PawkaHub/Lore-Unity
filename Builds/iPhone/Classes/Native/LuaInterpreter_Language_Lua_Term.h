@@ -3,6 +3,6 @@
 // Language.Lua.Expr
 #include "LuaInterpreter_Language_Lua_Expr.h"
 // Language.Lua.Term
-struct  Term_t2597  : public Expr_t2581
+struct  Term_t3525  : public Expr_t3509
 {
 };

@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.HashSet`1/Link<UnityEngine.AssetBundle>
-struct  Link_t5334 
+struct  Link_t6568 
 {
 	// System.Int32 System.Collections.Generic.HashSet`1/Link<UnityEngine.AssetBundle>::HashCode
 	int32_t ___HashCode_0;

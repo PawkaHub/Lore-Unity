@@ -9,10 +9,10 @@ struct Dictionary_2_t427;
 // System.Globalization.DateTimeStyles
 #include "mscorlib_System_Globalization_DateTimeStyles.h"
 // System.Xml.XmlConvert
-struct  XmlConvert_t2464  : public Object_t
+struct  XmlConvert_t3851  : public Object_t
 {
 };
-struct XmlConvert_t2464_StaticFields{
+struct XmlConvert_t3851_StaticFields{
 	// System.String[] System.Xml.XmlConvert::datetimeFormats
 	StringU5BU5D_t20* ___datetimeFormats_0;
 	// System.String[] System.Xml.XmlConvert::defaultDateTimeFormats

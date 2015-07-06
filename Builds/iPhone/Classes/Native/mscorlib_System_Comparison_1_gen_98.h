@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t2721;
+// Parse.ParseACL
+struct ParseACL_t1547;
 // System.IAsyncResult
 struct IAsyncResult_t448;
 // System.AsyncCallback
@@ -10,7 +10,7 @@ struct AsyncCallback_t449;
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Comparison_1_t6075  : public MulticastDelegate_t451
+// System.Comparison`1<Parse.ParseACL>
+struct  Comparison_1_t7769  : public MulticastDelegate_t451
 {
 };

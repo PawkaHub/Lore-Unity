@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode
-struct ColorTweenMode_t2014;
+struct ColorTweenMode_t830;
 

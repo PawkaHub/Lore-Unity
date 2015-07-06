@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<PhotonAnimatorView/SynchronizedParameter>
-struct Predicate_1_t698;
+struct Predicate_1_t715;
 // System.Object
 struct Object_t;
 // PhotonAnimatorView/SynchronizedParameter
@@ -20,10 +20,10 @@ struct AsyncCallback_t449;
 // System.Void System.Predicate`1<PhotonAnimatorView/SynchronizedParameter>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_17MethodDeclarations.h"
-#define Predicate_1__ctor_m3249(__this, ___object, ___method, method) (( void (*) (Predicate_1_t698 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m22656_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m3334(__this, ___object, ___method, method) (( void (*) (Predicate_1_t715 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m23999_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<PhotonAnimatorView/SynchronizedParameter>::Invoke(T)
-#define Predicate_1_Invoke_m26470(__this, ___obj, method) (( bool (*) (Predicate_1_t698 *, SynchronizedParameter_t477 *, const MethodInfo*))Predicate_1_Invoke_m22657_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m27906(__this, ___obj, method) (( bool (*) (Predicate_1_t715 *, SynchronizedParameter_t477 *, const MethodInfo*))Predicate_1_Invoke_m24000_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<PhotonAnimatorView/SynchronizedParameter>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m26471(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t698 *, SynchronizedParameter_t477 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m22658_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m27907(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t715 *, SynchronizedParameter_t477 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m24001_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<PhotonAnimatorView/SynchronizedParameter>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m26472(__this, ___result, method) (( bool (*) (Predicate_1_t698 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m22659_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m27908(__this, ___result, method) (( bool (*) (Predicate_1_t715 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m24002_gshared)(__this, ___result, method)

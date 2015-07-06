@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Vector4
-struct  Vector4_t2149 
+struct  Vector4_t961 
 {
 	// System.Single UnityEngine.Vector4::x
 	float ___x_1;

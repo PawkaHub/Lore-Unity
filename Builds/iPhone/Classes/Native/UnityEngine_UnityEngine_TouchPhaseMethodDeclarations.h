@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TouchPhase
-struct TouchPhase_t2778;
+struct TouchPhase_t4513;
 

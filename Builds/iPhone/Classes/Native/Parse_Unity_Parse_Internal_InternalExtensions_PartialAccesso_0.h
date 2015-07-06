@@ -11,6 +11,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // Parse.Internal.InternalExtensions/PartialAccessor`1<System.Object>
-struct  PartialAccessor_1_t5622  : public MulticastDelegate_t451
+struct  PartialAccessor_1_t6873  : public MulticastDelegate_t451
 {
 };

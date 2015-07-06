@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>
-struct  InternalEnumerator_1_t6078 
+// System.Array/InternalEnumerator`1<System.Xml.XmlNode>
+struct  InternalEnumerator_1_t9274 
 {
-	// System.Array System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>::array
+	// System.Array System.Array/InternalEnumerator`1<System.Xml.XmlNode>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcScoreData>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<System.Xml.XmlNode>::idx
 	int32_t ___idx_1;
 };

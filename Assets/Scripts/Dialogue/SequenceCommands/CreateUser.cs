@@ -26,6 +26,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			};
 
 			Task signUpTask = user.SignUpAsync();
+			Stop ();
 		}
 
 		public void Update() {

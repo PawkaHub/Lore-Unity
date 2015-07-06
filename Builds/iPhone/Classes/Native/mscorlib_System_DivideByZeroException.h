@@ -3,6 +3,6 @@
 // System.ArithmeticException
 #include "mscorlib_System_ArithmeticException.h"
 // System.DivideByZeroException
-struct  DivideByZeroException_t4289  : public ArithmeticException_t1326
+struct  DivideByZeroException_t5380  : public ArithmeticException_t4416
 {
 };

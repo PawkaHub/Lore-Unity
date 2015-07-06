@@ -7,7 +7,7 @@ struct GUIStyle_t303;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.RectOffset
-struct  RectOffset_t648  : public Object_t
+struct  RectOffset_t667  : public Object_t
 {
 	// System.IntPtr UnityEngine.RectOffset::m_Ptr
 	IntPtr_t ___m_Ptr_0;

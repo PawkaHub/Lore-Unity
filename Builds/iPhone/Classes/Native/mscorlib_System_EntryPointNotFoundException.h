@@ -3,6 +3,6 @@
 // System.TypeLoadException
 #include "mscorlib_System_TypeLoadException.h"
 // System.EntryPointNotFoundException
-struct  EntryPointNotFoundException_t4292  : public TypeLoadException_t4291
+struct  EntryPointNotFoundException_t5383  : public TypeLoadException_t5382
 {
 };

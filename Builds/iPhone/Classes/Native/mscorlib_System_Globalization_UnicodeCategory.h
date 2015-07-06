@@ -5,7 +5,7 @@
 // System.Globalization.UnicodeCategory
 #include "mscorlib_System_Globalization_UnicodeCategory.h"
 // System.Globalization.UnicodeCategory
-struct  UnicodeCategory_t3821 
+struct  UnicodeCategory_t4308 
 {
 	// System.Int32 System.Globalization.UnicodeCategory::value__
 	int32_t ___value___1;

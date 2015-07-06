@@ -9,6 +9,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PixelCrushers.DialogueSystem.ConversationView/IsCancelKeyDownDelegate
-struct  IsCancelKeyDownDelegate_t872  : public MulticastDelegate_t451
+struct  IsCancelKeyDownDelegate_t1197  : public MulticastDelegate_t451
 {
 };

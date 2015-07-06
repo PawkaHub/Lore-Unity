@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.UInt16
-struct  UInt16_t2173 
+struct  UInt16_t985 
 {
 	// System.UInt16 System.UInt16::m_value
 	uint16_t ___m_value_2;

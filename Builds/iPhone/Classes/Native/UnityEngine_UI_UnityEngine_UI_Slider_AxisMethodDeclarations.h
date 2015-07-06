@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Slider/Axis
-struct Axis_t2082;
+struct Axis_t902;
 

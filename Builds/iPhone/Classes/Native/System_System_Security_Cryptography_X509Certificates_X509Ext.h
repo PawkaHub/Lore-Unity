@@ -3,7 +3,7 @@
 // System.Security.Cryptography.AsnEncodedData
 #include "System_System_Security_Cryptography_AsnEncodedData.h"
 // System.Security.Cryptography.X509Certificates.X509Extension
-struct  X509Extension_t3660  : public AsnEncodedData_t3652
+struct  X509Extension_t4101  : public AsnEncodedData_t4093
 {
 	// System.Boolean System.Security.Cryptography.X509Certificates.X509Extension::_critical
 	bool ____critical_3;

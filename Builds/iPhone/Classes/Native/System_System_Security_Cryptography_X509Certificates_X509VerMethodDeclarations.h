@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509VerificationFlags
-struct X509VerificationFlags_t3683;
+struct X509VerificationFlags_t4129;
 

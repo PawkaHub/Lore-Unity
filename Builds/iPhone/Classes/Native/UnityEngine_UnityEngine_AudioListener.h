@@ -3,6 +3,6 @@
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.AudioListener
-struct  AudioListener_t1120  : public Behaviour_t1130
+struct  AudioListener_t1443  : public Behaviour_t1007
 {
 };

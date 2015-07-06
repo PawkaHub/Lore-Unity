@@ -5,7 +5,7 @@
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // PixelCrushers.DialogueSystem.EmphasisSetting
-struct  EmphasisSetting_t819  : public Object_t
+struct  EmphasisSetting_t1144  : public Object_t
 {
 	// UnityEngine.Color PixelCrushers.DialogueSystem.EmphasisSetting::color
 	Color_t121  ___color_0;

@@ -7,7 +7,7 @@ struct Transform_t54;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandZoom2D
-struct  SequencerCommandZoom2D_t914  : public SequencerCommand_t209
+struct  SequencerCommandZoom2D_t1238  : public SequencerCommand_t209
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandZoom2D::subject
 	Transform_t54 * ___subject_7;
