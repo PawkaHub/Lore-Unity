@@ -90,6 +90,24 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
+  - id: 8
+    fields:
+    - title: Name
+      value: DisableContinue
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
   - id: 7
     fields:
     - title: Name
@@ -101,6 +119,42 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 13
+    fields:
+    - title: Name
+      value: Forgot.UserFound
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 14
+    fields:
+    - title: Name
+      value: Forgot.Username
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
       value: 
       type: 0
       typeString: CustomFieldType_Text
@@ -146,46 +200,10 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 8
-    fields:
-    - title: Name
-      value: ShowingInput
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Initial Value
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: 
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
   - id: 9
     fields:
     - title: Name
       value: Signup.Email
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Initial Value
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: 
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-  - id: 10
-    fields:
-    - title: Name
-      value: Signup.Username
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -222,6 +240,24 @@ MonoBehaviour:
     fields:
     - title: Name
       value: Signup.PasscodeConfirm
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 10
+    fields:
+    - title: Name
+      value: Signup.Username
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -476,7 +512,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 163
-        y: 511
+        y: 518
         width: 160
         height: 30
     - id: 3
@@ -549,8 +585,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 630
-        y: 496
+        x: 622
+        y: 606
         width: 160
         height: 30
     - id: 4
@@ -755,8 +791,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 636
-        y: 555
+        x: 624
+        y: 664
         width: 160
         height: 30
     - id: 7
@@ -980,8 +1016,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 635
-        y: 615
+        x: 625
+        y: 724
         width: 160
         height: 30
     - id: 10
@@ -1048,8 +1084,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 640
-        y: 671
+        x: 625
+        y: 781
         width: 160
         height: 30
     - id: 11
@@ -1117,8 +1153,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 641
-        y: 724
+        x: 625
+        y: 834
         width: 160
         height: 30
     - id: 12
@@ -1186,8 +1222,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 646
-        y: 770
+        x: 626
+        y: 884
         width: 160
         height: 30
     - id: 13
@@ -1249,8 +1285,8 @@ MonoBehaviour:
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 647
-        y: 822
+        x: 623
+        y: 934
         width: 160
         height: 30
     - id: 14
@@ -1532,13 +1568,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 17
         destinationConversationID: 1
-        destinationDialogueID: 27
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 17
-        destinationConversationID: 1
-        destinationDialogueID: 26
+        destinationDialogueID: 28
         isConnector: 0
         priority: 2
       conditionsString: InputIsEmail("Forgot.Email") == true
@@ -2128,8 +2158,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ah! I remember you!  Okay! I'll send your info to the big wigs upstairs!
-          You should hear from them pretty soon!
+        value: Ah! [lua(Variable['Forgot.Username'])] right?! Okay! I'll send your
+          info to the big wigs upstairs! You should hear from them pretty soon!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2145,6 +2175,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: ResetPassword()
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -2155,13 +2189,19 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 26
+        destinationConversationID: 1
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["Forgot.UserFound"] == true
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 623
-        y: 394
+        x: 620
+        y: 436
         width: 160
         height: 30
     - id: 27
@@ -2191,7 +2231,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hmm.. can't seem to recall that one. You sure you remember it right?
+        value: Hmm.. can't seem to recall that one. Perhaps you forgot it!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2217,13 +2257,19 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 27
+        destinationConversationID: 1
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["Forgot.UserFound"] == false
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 810
-        y: 340
+        x: 917
+        y: 386
         width: 160
         height: 30
     - id: 28
@@ -2269,7 +2315,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: ForceContinue()
         type: 0
         typeString: 
       conversationID: 1
@@ -2279,13 +2325,25 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 28
+        destinationConversationID: 1
+        destinationDialogueID: 26
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 28
+        destinationConversationID: 1
+        destinationDialogueID: 27
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       canvasRect:
         serializedVersion: 2
-        x: 1002
-        y: 458
+        x: 618
+        y: 386
         width: 160
         height: 30
   syncInfo:

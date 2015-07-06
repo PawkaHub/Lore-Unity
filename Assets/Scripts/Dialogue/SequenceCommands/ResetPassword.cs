@@ -1,16 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using PixelCrushers.DialogueSystem;
+using Parse;
+using System.Threading.Tasks;
 
 namespace PixelCrushers.DialogueSystem.SequencerCommands {
 	
-	public class SequencerCommandShowTextField : SequencerCommand {
-
-		string textField;
-		string name;
-		string value;
-
-		//Hide Text Input
+	public class SequencerCommandResetPassword : SequencerCommand {
 		
 		public void Start() {
 			// Add your initialization code here. You can use the GetParameter***() and GetSubject()
@@ -21,12 +17,11 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			//
 			// If your sequencer command only does something immediately and then finishes,
 			// you can call Stop() here and remove the Update() method.
-			//Debug.Log ("Waiting for Sequence to end before showing text field!");
-			textField = GetParameter (0);
-			name = GetParameter (1);
-			value = GetParameter (2);
-			//Debug.Log ("Set Showing Input to true!");
-			DialogueLua.SetVariable ("DisableContinue", true);
+			Debug.Log ("Reset Password!");
+
+			string email = DialogueLua.GetVariable("Forgot.Email").AsString;
+			Task requestPasswordTask = ParseUser.RequestPasswordResetAsync(email);
+			Stop ();
 		}
 		
 		public void Update() {
@@ -38,17 +33,8 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			// Add your finalization code here. This is critical. If the sequence is cancelled and this
 			// command is marked as "required", then only Start() and OnDestroy() will be called.
 			// If you don't need to do anything at the end, you can delete this method.
-			DialogueLua.SetVariable ("DisableContinue", false);
 		}
-
-		public void OnShowInput() {
-			//Debug.Log ("OnShowInput!");
-			//Debug.Log (textField);
-			//Debug.Log (name);
-			//Debug.Log (value);
-			PixelCrushers.DialogueSystem.DialogueManager.PlaySequence("TextInput(" + textField + "," + name + "," + value + ")");
-			Stop ();
-		}
+		
 	}
 	
 }

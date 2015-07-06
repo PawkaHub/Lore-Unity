@@ -31,7 +31,7 @@ namespace PixelCrushers.DialogueSystem {
 				typewriterEffect.Stop ();
 			} else {
 				//Disable continue whenever a text field is present
-				bool showingInput = DialogueLua.GetVariable("ShowingInput").AsBool;
+				bool showingInput = DialogueLua.GetVariable("DisableContinue").AsBool;
 
 				if ((textField != null) && textField.IsVisible == false) {
 					//Debug.Log ("Go");

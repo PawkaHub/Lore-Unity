@@ -130,7 +130,7 @@ namespace PixelCrushers.DialogueSystem {
 		}
 
 		public void CheckInput() {
-			bool showingInput = DialogueLua.GetVariable("ShowingInput").AsBool;
+			bool showingInput = DialogueLua.GetVariable("DisableContinue").AsBool;
 			//Debug.Log ("Are we showing an input?");
 			if (showingInput == true) {
 				//Debug.Log ("Yes we are");

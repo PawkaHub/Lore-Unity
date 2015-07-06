@@ -151,7 +151,7 @@ namespace PixelCrushers.DialogueSystem {
 		private void Hide() {
 			IsVisible = false;
 			SetActive(false);
-			DialogueLua.SetVariable ("ShowingInput", false);
+			DialogueLua.SetVariable ("DisableContinue", false);
 			continueButton.OnFastForward ();
 		}
 
