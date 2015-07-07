@@ -1,18 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
 using Parse;
 using System.Threading.Tasks;
 
 namespace PixelCrushers.DialogueSystem.SequencerCommands {
 	
-	public class SequencerCommandCreateUser : SequencerCommand {
-
+	public class SequencerCommandLoginUser : SequencerCommand {
+		
 		private enum State { Idle, Loading, Success, Error }
 		private State state = State.Idle;
 
-		string username;
 		string email;
 		string password;
 		
@@ -26,52 +24,30 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			// If your sequencer command only does something immediately and then finishes,
 			// you can call Stop() here and remove the Update() method.
 			//Disable Continue
-
+			
 			DialogueLua.SetVariable ("DisableContinue", true);
-
-			//username = Lua.Run("return Variable['Signup.Username']").AsString;
-			//email = Lua.Run("return Variable['Signup.Email']").AsString;
-			//password = Lua.Run("return Variable['Signup.Passcode']").AsString;
-
-			username = DialogueLua.GetVariable ("Signup.Username").AsString;
-			email = DialogueLua.GetVariable ("Signup.Email").AsString;
-			password = DialogueLua.GetVariable ("Signup.Passcode").AsString;
-
-			Debug.Log ("CreateUser");
-			Debug.Log (username);
+			
+			email = DialogueLua.GetVariable ("Login.Email").AsString;
+			password = DialogueLua.GetVariable ("Login.Passcode").AsString;
+			
+			Debug.Log ("LoginUser");
 			Debug.Log (email);
 			Debug.Log (password);
+			
+			if (email == null) return;
+			if (password == null) return;
 
-			//Debug: Logout User to test signup flow on every create attempt
+			//Debug: Logout User to test login flow on every login attempt
 			//ParseUser.LogOut();
-
+			
 			state = State.Loading;
 
-			var user = new ParseUser()
-			{
-				Username = email,
-				Password = password,
-				Email = email
-			};
-
-			user ["gamertag"] = username;
-
-			user.SignUpAsync().ContinueWith(t => {
+			ParseUser.LogInAsync(email,password).ContinueWith(t => {
 				if (t.IsFaulted) {
-					Debug.Log ("User Signup Error!");
-					// Errors from Parse Cloud and network interactions
-					using (IEnumerator<System.Exception> enumerator = t.Exception.InnerExceptions.GetEnumerator()) {
-						if (enumerator.MoveNext()) {
-							ParseException error = (ParseException) enumerator.Current;
-							Debug.Log ("Parse Error!");
-							Debug.Log (error.Message);
-							// error.Message will contain an error message
-							// error.Code will return "OtherCause"
-						}
-					}
+					Debug.Log ("User Login Error!"); 
 					state = State.Error;
 				} else {
-					Debug.Log ("User Signup Succeeded!");
+					Debug.Log ("User Login Succeeded!");
 					state = State.Success;
 				}
 			});
@@ -90,12 +66,12 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 				break;
 			case State.Success:
 				Debug.Log("Success!");
-				DialogueLua.SetVariable ("Signup.Successful",true);
+				DialogueLua.SetVariable ("Login.Successful",true);
 				Stop ();
 				break;
 			case State.Error:
 				Debug.Log("Error");
-				DialogueLua.SetVariable ("Signup.Successful",false);
+				DialogueLua.SetVariable ("Login.Successful",false);
 				Stop ();
 				break;
 			}

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 using PixelCrushers.DialogueSystem;
 using Parse;
@@ -12,6 +13,13 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 		private enum State { Idle, Loading, Success, Error }
 		private State state = State.Idle;
 		ParseObject user;
+		string forgotValue = "Forgot.Email";
+		string loginValue = "Login.Email";
+		string signupValue = "Signup.Email";
+		bool isForgot;
+		bool isLogin;
+		bool isSignup;
+		string subject;
 
 		public void Start() {
 			// Add your initialization code here. You can use the GetParameter***() and GetSubject()
@@ -26,22 +34,43 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			DialogueLua.SetVariable ("DisableContinue", true);
 			value = GetParameter (0);
 			Debug.Log (value);
-			string result = Lua.Run("return Variable[" + value + "]").AsString;
+			//string result = Lua.Run("return Variable['" + value + "']").AsString;
+			string result = DialogueLua.GetVariable(value).AsString;
 			Debug.Log ("Query For User");
 			Debug.Log (result);
+			Debug.Log (forgotValue);
+			Debug.Log (loginValue);
+			if (value == forgotValue) {
+				Debug.Log ("Forgot Match!");
+				isForgot = true;
+
+			}
+			if (value == loginValue) {
+				Debug.Log ("Login Match!");
+				isLogin = true;
+			}
+			if (value == signupValue) {
+				Debug.Log ("Signup Match!");
+				isSignup = true;
+			}
 			var query = ParseUser.Query.WhereEqualTo ("email", result);
 			state = State.Loading;
 			query.FirstAsync().ContinueWith(t => {
 				if (t.IsFaulted) {
 					Debug.Log ("No User Found!"); 
 					state = State.Error;
-					DialogueLua.SetVariable ("Forgot.Username","");
 				} else {
 					Debug.Log ("User Found!");
 					state = State.Success;
 					user = t.Result;
 					//Set the Username
-					DialogueLua.SetVariable ("Forgot.Username",user["username"]);
+					if (isForgot) {
+						DialogueLua.SetVariable ("Forgot.Username",user["gamertag"]);
+					}
+					if (isLogin) {
+						DialogueLua.SetVariable ("Login.Username",user["gamertag"]);
+					}
+
 				}
 			});
 		}
@@ -52,19 +81,43 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			//Debug.Log (queryCompleted);
 			switch (state) {
 			case State.Idle:
-				Debug.Log("Idle!");
+				//Debug.Log("Idle!");
 				break;
 			case State.Loading:
-				Debug.Log("Loading!");
+				//Debug.Log("Loading!");
 				break;
 			case State.Success:
 				Debug.Log("Success!");
-				DialogueLua.SetVariable ("Forgot.UserFound",true);
+				Debug.Log (value);
+				if (isForgot) {
+					Debug.Log ("Set Forgot.UserFound");
+					DialogueLua.SetVariable ("Forgot.UserFound",true);
+				}
+				if (isLogin) {
+					Debug.Log ("Set Login.UserFound");
+					DialogueLua.SetVariable("Login.UserFound",true);
+				}
+				if (isSignup) {
+					Debug.Log ("Set Signup.UserFound");
+					DialogueLua.SetVariable("Signup.UserFound",true);
+				}
 				Stop ();
 				break;
 			case State.Error:
 				Debug.Log("Error");
-				DialogueLua.SetVariable ("Forgot.UserFound",false);
+				Debug.Log (value);
+				if (isForgot) {
+					Debug.Log ("Set Forgot.UserFound");
+					DialogueLua.SetVariable ("Forgot.UserFound",false);
+				}
+				if (isLogin) {
+					Debug.Log ("Set Login.UserFound");
+					DialogueLua.SetVariable("Login.UserFound",false);
+				}
+				if (isLogin) {
+					Debug.Log ("Set Signup.UserFound");
+					DialogueLua.SetVariable("Signup.UserFound",false);
+				}
 				Stop ();
 				break;
 			}
