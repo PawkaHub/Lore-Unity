@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Formatting
-struct Formatting_t3831;
+struct Formatting_t4069;
 

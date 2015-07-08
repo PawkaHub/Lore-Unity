@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // ExitGames.Client.Photon.Hashtable
-struct Hashtable_t436;
+struct Hashtable_t464;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // RoomInfo
-struct  RoomInfo_t472  : public Object_t
+struct  RoomInfo_t499  : public Object_t
 {
 	// ExitGames.Client.Photon.Hashtable RoomInfo::customPropertiesField
-	Hashtable_t436 * ___customPropertiesField_0;
+	Hashtable_t464 * ___customPropertiesField_0;
 	// System.Byte RoomInfo::maxPlayersField
 	uint8_t ___maxPlayersField_1;
 	// System.Boolean RoomInfo::openField

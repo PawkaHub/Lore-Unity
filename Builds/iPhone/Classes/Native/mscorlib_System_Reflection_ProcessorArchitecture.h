@@ -5,7 +5,7 @@
 // System.Reflection.ProcessorArchitecture
 #include "mscorlib_System_Reflection_ProcessorArchitecture.h"
 // System.Reflection.ProcessorArchitecture
-struct  ProcessorArchitecture_t5131 
+struct  ProcessorArchitecture_t5369 
 {
 	// System.Int32 System.Reflection.ProcessorArchitecture::value__
 	int32_t ___value___1;

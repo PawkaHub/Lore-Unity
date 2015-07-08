@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.SocketFlags
-struct SocketFlags_t4011;
+struct SocketFlags_t4249;
 

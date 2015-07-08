@@ -5,10 +5,10 @@ struct ByteU5BU5D_t25;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.PKCS1
-struct  PKCS1_t4332  : public Object_t
+struct  PKCS1_t4570  : public Object_t
 {
 };
-struct PKCS1_t4332_StaticFields{
+struct PKCS1_t4570_StaticFields{
 	// System.Byte[] Mono.Security.Cryptography.PKCS1::emptySHA1
 	ByteU5BU5D_t25* ___emptySHA1_0;
 	// System.Byte[] Mono.Security.Cryptography.PKCS1::emptySHA256

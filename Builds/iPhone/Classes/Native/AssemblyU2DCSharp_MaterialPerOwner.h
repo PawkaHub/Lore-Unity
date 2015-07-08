@@ -5,7 +5,7 @@ struct Renderer_t103;
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // MaterialPerOwner
-struct  MaterialPerOwner_t333  : public MonoBehaviour_t329
+struct  MaterialPerOwner_t361  : public MonoBehaviour_t357
 {
 	// System.Int32 MaterialPerOwner::assignedColorForUserId
 	int32_t ___assignedColorForUserId_2;

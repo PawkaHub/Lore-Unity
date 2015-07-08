@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // PixelCrushers.DialogueSystem.UnityGUI.GUIControl[]
-struct GUIControlU5BU5D_t1378;
+struct GUIControlU5BU5D_t1637;
 // System.String
 struct String_t;
 // System.Object
@@ -9,7 +9,7 @@ struct String_t;
 // UnityEngine.KeyCode
 #include "UnityEngine_UnityEngine_KeyCode.h"
 // PixelCrushers.DialogueSystem.UnityGUI.Navigation
-struct  Navigation_t1350  : public Object_t
+struct  Navigation_t1609  : public Object_t
 {
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.Navigation::enabled
 	bool ___enabled_2;
@@ -18,7 +18,7 @@ struct  Navigation_t1350  : public Object_t
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.Navigation::jumpToMousePosition
 	bool ___jumpToMousePosition_4;
 	// PixelCrushers.DialogueSystem.UnityGUI.GUIControl[] PixelCrushers.DialogueSystem.UnityGUI.Navigation::order
-	GUIControlU5BU5D_t1378* ___order_5;
+	GUIControlU5BU5D_t1637* ___order_5;
 	// System.String PixelCrushers.DialogueSystem.UnityGUI.Navigation::clickButton
 	String_t* ___clickButton_6;
 	// UnityEngine.KeyCode PixelCrushers.DialogueSystem.UnityGUI.Navigation::click

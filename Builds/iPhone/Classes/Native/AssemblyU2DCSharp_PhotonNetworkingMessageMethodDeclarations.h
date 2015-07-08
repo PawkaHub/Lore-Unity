@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PhotonNetworkingMessage
-struct PhotonNetworkingMessage_t389;
+struct PhotonNetworkingMessage_t417;
 

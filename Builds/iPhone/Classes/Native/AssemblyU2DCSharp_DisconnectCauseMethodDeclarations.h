@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // DisconnectCause
-struct DisconnectCause_t398;
+struct DisconnectCause_t426;
 

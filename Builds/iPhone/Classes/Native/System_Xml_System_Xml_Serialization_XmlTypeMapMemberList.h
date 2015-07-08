@@ -3,6 +3,6 @@
 // System.Xml.Serialization.XmlTypeMapMemberElement
 #include "System_Xml_System_Xml_Serialization_XmlTypeMapMemberElement.h"
 // System.Xml.Serialization.XmlTypeMapMemberList
-struct  XmlTypeMapMemberList_t3787  : public XmlTypeMapMemberElement_t3786
+struct  XmlTypeMapMemberList_t4025  : public XmlTypeMapMemberElement_t4024
 {
 };

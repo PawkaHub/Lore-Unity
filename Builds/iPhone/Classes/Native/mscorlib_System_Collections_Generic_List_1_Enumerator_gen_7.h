@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>
-struct List_1_t1111;
-// PixelCrushers.DialogueSystem.Field
-struct Field_t1147;
+// System.Collections.Generic.List`1<PhotonPlayer>
+struct List_1_t740;
+// PhotonPlayer
+struct PhotonPlayer_t460;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>
-struct  Enumerator_t1412 
+// System.Collections.Generic.List`1/Enumerator<PhotonPlayer>
+struct  Enumerator_t741 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::l
-	List_1_t1111 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::l
+	List_1_t740 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::current
-	Field_t1147 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::current
+	PhotonPlayer_t460 * ___current_3;
 };

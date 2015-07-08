@@ -11,7 +11,7 @@ struct String_t;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // InRoomChat
-struct  InRoomChat_t502  : public MonoBehaviour_t329
+struct  InRoomChat_t529  : public MonoBehaviour_t357
 {
 	// UnityEngine.Rect InRoomChat::GuiRect
 	Rect_t201  ___GuiRect_2;
@@ -26,7 +26,7 @@ struct  InRoomChat_t502  : public MonoBehaviour_t329
 	// UnityEngine.Vector2 InRoomChat::scrollPos
 	Vector2_t97  ___scrollPos_7;
 };
-struct InRoomChat_t502_StaticFields{
+struct InRoomChat_t529_StaticFields{
 	// System.String InRoomChat::ChatRPC
 	String_t* ___ChatRPC_8;
 };

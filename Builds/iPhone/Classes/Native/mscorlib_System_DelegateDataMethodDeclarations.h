@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.DelegateData
-struct DelegateData_t4916;
+struct DelegateData_t5154;
 

@@ -3,14 +3,14 @@
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Events.UnityAction`4<System.Object,System.Object,System.Object,System.Object>
-struct  UnityAction_4_t9488  : public MulticastDelegate_t451
+struct  UnityAction_4_t9770  : public MulticastDelegate_t479
 {
 };

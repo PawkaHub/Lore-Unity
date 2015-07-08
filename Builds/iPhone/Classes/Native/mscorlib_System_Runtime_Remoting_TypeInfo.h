@@ -7,7 +7,7 @@ struct StringU5BU5D_t20;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.TypeInfo
-struct  TypeInfo_t5228  : public Object_t
+struct  TypeInfo_t5466  : public Object_t
 {
 	// System.String System.Runtime.Remoting.TypeInfo::serverType
 	String_t* ___serverType_0;

@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.AudioClip/PCMSetPositionCallback
-struct  PCMSetPositionCallback_t4534  : public MulticastDelegate_t451
+struct  PCMSetPositionCallback_t4772  : public MulticastDelegate_t479
 {
 };

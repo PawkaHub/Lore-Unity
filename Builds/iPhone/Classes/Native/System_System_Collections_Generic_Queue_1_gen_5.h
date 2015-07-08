@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[][]
-struct ByteU5BU5DU5BU5D_t4425;
+struct ByteU5BU5DU5BU5D_t4663;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Queue`1<System.Byte[]>
-struct  Queue_1_t4888  : public Object_t
+struct  Queue_1_t5126  : public Object_t
 {
 	// T[] System.Collections.Generic.Queue`1<System.Byte[]>::_array
-	ByteU5BU5DU5BU5D_t4425* ____array_0;
+	ByteU5BU5DU5BU5D_t4663* ____array_0;
 	// System.Int32 System.Collections.Generic.Queue`1<System.Byte[]>::_head
 	int32_t ____head_1;
 	// System.Int32 System.Collections.Generic.Queue`1<System.Byte[]>::_tail

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ExitGames.Client.Photon.PeerBase/EgMessageType
-struct EgMessageType_t4851;
+struct EgMessageType_t5089;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ExitGames.Client.GUI.GizmoType
-struct GizmoType_t403;
+struct GizmoType_t431;
 

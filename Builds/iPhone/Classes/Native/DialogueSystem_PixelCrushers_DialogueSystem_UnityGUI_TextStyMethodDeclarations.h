@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.UnityGUI.TextStyle
-struct TextStyle_t749;
+struct TextStyle_t842;
 

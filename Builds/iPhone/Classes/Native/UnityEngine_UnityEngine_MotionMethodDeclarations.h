@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Motion
-struct Motion_t4521;
+struct Motion_t4759;
 

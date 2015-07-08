@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.QuestLogWindow/QuestHeadingSource
-struct QuestHeadingSource_t1260;
+struct QuestHeadingSource_t1519;
 

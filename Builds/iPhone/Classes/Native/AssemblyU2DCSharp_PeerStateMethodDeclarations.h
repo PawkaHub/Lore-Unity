@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PeerState
-struct PeerState_t397;
+struct PeerState_t425;
 

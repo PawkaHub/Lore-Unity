@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>
-struct ObjectPool_1_t808;
+struct ObjectPool_1_t1098;
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>
-struct UnityAction_1_t809;
+struct UnityAction_1_t1099;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct List_1_t957;
+struct List_1_t1232;
 
 // System.Void UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::.ctor(UnityEngine.Events.UnityAction`1<T>,UnityEngine.Events.UnityAction`1<T>)
 // UnityEngine.UI.ObjectPool`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_UI_ObjectPool_1_gen_3MethodDeclarations.h"
-#define ObjectPool_1__ctor_m4715(__this, ___actionOnGet, ___actionOnRelease, method) (( void (*) (ObjectPool_1_t808 *, UnityAction_1_t809 *, UnityAction_1_t809 *, const MethodInfo*))ObjectPool_1__ctor_m27307_gshared)(__this, ___actionOnGet, ___actionOnRelease, method)
+#define ObjectPool_1__ctor_m5249(__this, ___actionOnGet, ___actionOnRelease, method) (( void (*) (ObjectPool_1_t1098 *, UnityAction_1_t1099 *, UnityAction_1_t1099 *, const MethodInfo*))ObjectPool_1__ctor_m27724_gshared)(__this, ___actionOnGet, ___actionOnRelease, method)
 // System.Int32 UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::get_countAll()
-#define ObjectPool_1_get_countAll_m27308(__this, method) (( int32_t (*) (ObjectPool_1_t808 *, const MethodInfo*))ObjectPool_1_get_countAll_m27309_gshared)(__this, method)
+#define ObjectPool_1_get_countAll_m27725(__this, method) (( int32_t (*) (ObjectPool_1_t1098 *, const MethodInfo*))ObjectPool_1_get_countAll_m27726_gshared)(__this, method)
 // System.Void UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::set_countAll(System.Int32)
-#define ObjectPool_1_set_countAll_m27310(__this, ___value, method) (( void (*) (ObjectPool_1_t808 *, int32_t, const MethodInfo*))ObjectPool_1_set_countAll_m27311_gshared)(__this, ___value, method)
+#define ObjectPool_1_set_countAll_m27727(__this, ___value, method) (( void (*) (ObjectPool_1_t1098 *, int32_t, const MethodInfo*))ObjectPool_1_set_countAll_m27728_gshared)(__this, ___value, method)
 // System.Int32 UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::get_countActive()
-#define ObjectPool_1_get_countActive_m27312(__this, method) (( int32_t (*) (ObjectPool_1_t808 *, const MethodInfo*))ObjectPool_1_get_countActive_m27313_gshared)(__this, method)
+#define ObjectPool_1_get_countActive_m27729(__this, method) (( int32_t (*) (ObjectPool_1_t1098 *, const MethodInfo*))ObjectPool_1_get_countActive_m27730_gshared)(__this, method)
 // System.Int32 UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::get_countInactive()
-#define ObjectPool_1_get_countInactive_m27314(__this, method) (( int32_t (*) (ObjectPool_1_t808 *, const MethodInfo*))ObjectPool_1_get_countInactive_m27315_gshared)(__this, method)
+#define ObjectPool_1_get_countInactive_m27731(__this, method) (( int32_t (*) (ObjectPool_1_t1098 *, const MethodInfo*))ObjectPool_1_get_countInactive_m27732_gshared)(__this, method)
 // T UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::Get()
-#define ObjectPool_1_Get_m27316(__this, method) (( List_1_t957 * (*) (ObjectPool_1_t808 *, const MethodInfo*))ObjectPool_1_Get_m27317_gshared)(__this, method)
+#define ObjectPool_1_Get_m27733(__this, method) (( List_1_t1232 * (*) (ObjectPool_1_t1098 *, const MethodInfo*))ObjectPool_1_Get_m27734_gshared)(__this, method)
 // System.Void UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::Release(T)
-#define ObjectPool_1_Release_m27318(__this, ___element, method) (( void (*) (ObjectPool_1_t808 *, List_1_t957 *, const MethodInfo*))ObjectPool_1_Release_m27319_gshared)(__this, ___element, method)
+#define ObjectPool_1_Release_m27735(__this, ___element, method) (( void (*) (ObjectPool_1_t1098 *, List_1_t1232 *, const MethodInfo*))ObjectPool_1_Release_m27736_gshared)(__this, ___element, method)

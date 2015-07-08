@@ -19,11 +19,11 @@ struct String_t;
 // UnityEngine.Material
 struct Material_t48;
 // UnityEngine.Texture2D[]
-struct Texture2DU5BU5D_t565;
+struct Texture2DU5BU5D_t618;
 // UnityEngine.Mesh
 struct Mesh_t93;
 // UnityEngine.Mesh[]
-struct MeshU5BU5D_t566;
+struct MeshU5BU5D_t619;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_t92;
 // ParticlePlayground.SkinnedWorldObject
@@ -39,7 +39,7 @@ struct PlaygroundColliderC_t123;
 // ParticlePlayground.ManipulatorObjectC
 struct ManipulatorObjectC_t115;
 // System.Collections.Generic.List`1<ParticlePlayground.PlaygroundEventParticle>
-struct List_1_t567;
+struct List_1_t620;
 // PlaygroundSplines.PlaygroundSpline
 struct PlaygroundSpline_t67;
 // ParticlePlayground.ManipulatorPropertyC
@@ -116,17 +116,17 @@ extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m287 (Object_t * __t
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Texture2D)
 extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m288 (Object_t * __this /* static, unused */, Texture2D_t90 * ___image, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Texture2D[],System.String,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Material)
-extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m289 (Object_t * __this /* static, unused */, Texture2DU5BU5D_t565* ___images, String_t* ___name, Vector3_t53  ___position, Quaternion_t69  ___rotation, Vector3_t53  ___offset, float ___particleSize, float ___scale, Material_t48 * ___material, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m289 (Object_t * __this /* static, unused */, Texture2DU5BU5D_t618* ___images, String_t* ___name, Vector3_t53  ___position, Quaternion_t69  ___rotation, Vector3_t53  ___offset, float ___particleSize, float ___scale, Material_t48 * ___material, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Texture2D[])
-extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m290 (Object_t * __this /* static, unused */, Texture2DU5BU5D_t565* ___images, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m290 (Object_t * __this /* static, unused */, Texture2DU5BU5D_t618* ___images, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Mesh,UnityEngine.Texture2D,System.String,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Vector3,UnityEngine.Material)
 extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m291 (Object_t * __this /* static, unused */, Mesh_t93 * ___mesh, Texture2D_t90 * ___texture, String_t* ___name, Vector3_t53  ___position, Quaternion_t69  ___rotation, float ___particleScale, Vector3_t53  ___offset, Material_t48 * ___material, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Mesh,UnityEngine.Texture2D)
 extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m292 (Object_t * __this /* static, unused */, Mesh_t93 * ___mesh, Texture2D_t90 * ___texture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Mesh[],UnityEngine.Texture2D[],System.String,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Vector3[],UnityEngine.Material)
-extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m293 (Object_t * __this /* static, unused */, MeshU5BU5D_t566* ___meshes, Texture2DU5BU5D_t565* ___textures, String_t* ___name, Vector3_t53  ___position, Quaternion_t69  ___rotation, float ___particleScale, Vector3U5BU5D_t92* ___offsets, Material_t48 * ___material, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m293 (Object_t * __this /* static, unused */, MeshU5BU5D_t619* ___meshes, Texture2DU5BU5D_t618* ___textures, String_t* ___name, Vector3_t53  ___position, Quaternion_t69  ___rotation, float ___particleScale, Vector3U5BU5D_t92* ___offsets, Material_t48 * ___material, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ParticlePlayground.PlaygroundParticlesC ParticlePlayground.PlaygroundC::Particle(UnityEngine.Mesh[],UnityEngine.Texture2D[])
-extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m294 (Object_t * __this /* static, unused */, MeshU5BU5D_t566* ___meshes, Texture2DU5BU5D_t565* ___textures, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PlaygroundParticlesC_t126 * PlaygroundC_Particle_m294 (Object_t * __this /* static, unused */, MeshU5BU5D_t619* ___meshes, Texture2DU5BU5D_t618* ___textures, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ParticlePlayground.PlaygroundC::Emit(ParticlePlayground.PlaygroundParticlesC)
 extern "C" int32_t PlaygroundC_Emit_m295 (Object_t * __this /* static, unused */, PlaygroundParticlesC_t126 * ___playgroundParticles, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ParticlePlayground.PlaygroundC::Emit(ParticlePlayground.PlaygroundParticlesC,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color)
@@ -196,9 +196,9 @@ extern "C" ManipulatorObjectC_t115 * PlaygroundC_GetManipulator_m327 (Object_t *
 // ParticlePlayground.ManipulatorObjectC ParticlePlayground.PlaygroundC::GetManipulator(System.Int32,ParticlePlayground.PlaygroundParticlesC)
 extern "C" ManipulatorObjectC_t115 * PlaygroundC_GetManipulator_m328 (Object_t * __this /* static, unused */, int32_t ___i, PlaygroundParticlesC_t126 * ___playgroundParticles, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<ParticlePlayground.PlaygroundEventParticle> ParticlePlayground.PlaygroundC::GetManipulatorParticles(System.Int32,ParticlePlayground.PlaygroundParticlesC)
-extern "C" List_1_t567 * PlaygroundC_GetManipulatorParticles_m329 (Object_t * __this /* static, unused */, int32_t ___manipulator, PlaygroundParticlesC_t126 * ___playgroundParticles, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t620 * PlaygroundC_GetManipulatorParticles_m329 (Object_t * __this /* static, unused */, int32_t ___manipulator, PlaygroundParticlesC_t126 * ___playgroundParticles, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<ParticlePlayground.PlaygroundEventParticle> ParticlePlayground.PlaygroundC::GetManipulatorParticles(System.Int32)
-extern "C" List_1_t567 * PlaygroundC_GetManipulatorParticles_m330 (Object_t * __this /* static, unused */, int32_t ___manipulator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t620 * PlaygroundC_GetManipulatorParticles_m330 (Object_t * __this /* static, unused */, int32_t ___manipulator, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform ParticlePlayground.PlaygroundC::CreateTransform()
 extern "C" Transform_t54 * PlaygroundC_CreateTransform_m331 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform ParticlePlayground.PlaygroundC::CreatePlaygroundTransform(ParticlePlayground.PlaygroundParticlesC)

@@ -11,7 +11,7 @@ struct AudioSource_t262;
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
 #include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandVoice
-struct  SequencerCommandVoice_t1236  : public SequencerCommand_t209
+struct  SequencerCommandVoice_t1495  : public SequencerCommand_t209
 {
 	// System.Single PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandVoice::stopTime
 	float ___stopTime_6;

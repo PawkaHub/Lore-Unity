@@ -14,10 +14,10 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t779_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t1068_il2cpp_TypeInfo;
 // <Module>
 #include "AssemblyU2DUnityScript_U3CModuleU3E.h"
-extern TypeInfo GUITestScript_t780_il2cpp_TypeInfo;
+extern TypeInfo GUITestScript_t1069_il2cpp_TypeInfo;
 // GUITestScript
 #include "AssemblyU2DUnityScript_GUITestScript.h"
 #include <map>
@@ -25,8 +25,8 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_AssemblyU2DUnityScript_Assembly_Types[3] = 
 {
-	&U3CModuleU3E_t779_il2cpp_TypeInfo,
-	&GUITestScript_t780_il2cpp_TypeInfo,
+	&U3CModuleU3E_t1068_il2cpp_TypeInfo,
+	&GUITestScript_t1069_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_AssemblyU2DUnityScript_Image;

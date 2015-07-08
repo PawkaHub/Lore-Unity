@@ -5,18 +5,18 @@
 // <Module>
 #include "AssemblyU2DUnityScriptU2Dfirstpass_U3CModuleU3E.h"
 // Metadata Definition <Module>
-extern TypeInfo U3CModuleU3E_t776_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t1065_il2cpp_TypeInfo;
 // <Module>
 #include "AssemblyU2DUnityScriptU2Dfirstpass_U3CModuleU3EMethodDeclarations.h"
-static const MethodInfo* U3CModuleU3E_t776_MethodInfos[] =
+static const MethodInfo* U3CModuleU3E_t1065_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_AssemblyU2DUnityScriptU2Dfirstpass_Image;
-extern const Il2CppType U3CModuleU3E_t776_0_0_0;
-extern const Il2CppType U3CModuleU3E_t776_1_0_0;
-struct U3CModuleU3E_t776;
-const Il2CppTypeDefinitionMetadata U3CModuleU3E_t776_DefinitionMetadata = 
+extern const Il2CppType U3CModuleU3E_t1065_0_0_0;
+extern const Il2CppType U3CModuleU3E_t1065_1_0_0;
+struct U3CModuleU3E_t1065;
+const Il2CppTypeDefinitionMetadata U3CModuleU3E_t1065_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -29,21 +29,21 @@ const Il2CppTypeDefinitionMetadata U3CModuleU3E_t776_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo U3CModuleU3E_t776_il2cpp_TypeInfo = 
+TypeInfo U3CModuleU3E_t1065_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DUnityScriptU2Dfirstpass_Image/* image */
 	, NULL/* gc_desc */
 	, "<Module>"/* name */
 	, ""/* namespaze */
-	, U3CModuleU3E_t776_MethodInfos/* methods */
+	, U3CModuleU3E_t1065_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CModuleU3E_t776_il2cpp_TypeInfo/* element_class */
+	, &U3CModuleU3E_t1065_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &U3CModuleU3E_t776_0_0_0/* byval_arg */
-	, &U3CModuleU3E_t776_1_0_0/* this_arg */
-	, &U3CModuleU3E_t776_DefinitionMetadata/* definitionMetadata */
+	, &U3CModuleU3E_t1065_0_0_0/* byval_arg */
+	, &U3CModuleU3E_t1065_1_0_0/* this_arg */
+	, &U3CModuleU3E_t1065_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -53,8 +53,8 @@ TypeInfo U3CModuleU3E_t776_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CModuleU3E_t776)/* instance_size */
-	, sizeof (U3CModuleU3E_t776)/* actualSize */
+	, sizeof (U3CModuleU3E_t1065)/* instance_size */
+	, sizeof (U3CModuleU3E_t1065)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -86,17 +86,17 @@ TypeInfo U3CModuleU3E_t776_il2cpp_TypeInfo =
 // SmoothFollow
 #include "AssemblyU2DUnityScriptU2Dfirstpass_SmoothFollow.h"
 // Metadata Definition SmoothFollow
-extern TypeInfo SmoothFollow_t777_il2cpp_TypeInfo;
+extern TypeInfo SmoothFollow_t1066_il2cpp_TypeInfo;
 // SmoothFollow
 #include "AssemblyU2DUnityScriptU2Dfirstpass_SmoothFollowMethodDeclarations.h"
 extern const Il2CppType Void_t35_0_0_0;
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void SmoothFollow::.ctor()
-extern const MethodInfo SmoothFollow__ctor_m3511_MethodInfo = 
+extern const MethodInfo SmoothFollow__ctor_m4085_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SmoothFollow__ctor_m3511/* method */
-	, &SmoothFollow_t777_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SmoothFollow__ctor_m4085/* method */
+	, &SmoothFollow_t1066_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -115,11 +115,11 @@ extern const MethodInfo SmoothFollow__ctor_m3511_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void SmoothFollow::LateUpdate()
-extern const MethodInfo SmoothFollow_LateUpdate_m3512_MethodInfo = 
+extern const MethodInfo SmoothFollow_LateUpdate_m4086_MethodInfo = 
 {
 	"LateUpdate"/* name */
-	, (methodPointerType)&SmoothFollow_LateUpdate_m3512/* method */
-	, &SmoothFollow_t777_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SmoothFollow_LateUpdate_m4086/* method */
+	, &SmoothFollow_t1066_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -138,11 +138,11 @@ extern const MethodInfo SmoothFollow_LateUpdate_m3512_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void SmoothFollow::Main()
-extern const MethodInfo SmoothFollow_Main_m3513_MethodInfo = 
+extern const MethodInfo SmoothFollow_Main_m4087_MethodInfo = 
 {
 	"Main"/* name */
-	, (methodPointerType)&SmoothFollow_Main_m3513/* method */
-	, &SmoothFollow_t777_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SmoothFollow_Main_m4087/* method */
+	, &SmoothFollow_t1066_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -159,29 +159,29 @@ extern const MethodInfo SmoothFollow_Main_m3513_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SmoothFollow_t777_MethodInfos[] =
+static const MethodInfo* SmoothFollow_t1066_MethodInfos[] =
 {
-	&SmoothFollow__ctor_m3511_MethodInfo,
-	&SmoothFollow_LateUpdate_m3512_MethodInfo,
-	&SmoothFollow_Main_m3513_MethodInfo,
+	&SmoothFollow__ctor_m4085_MethodInfo,
+	&SmoothFollow_LateUpdate_m4086_MethodInfo,
+	&SmoothFollow_Main_m4087_MethodInfo,
 	NULL
 };
-extern const MethodInfo Object_Equals_m3477_MethodInfo;
+extern const MethodInfo Object_Equals_m3889_MethodInfo;
 extern const MethodInfo Object_Finalize_m127_MethodInfo;
-extern const MethodInfo Object_GetHashCode_m3478_MethodInfo;
-extern const MethodInfo Object_ToString_m3479_MethodInfo;
-extern const MethodInfo SmoothFollow_LateUpdate_m3512_MethodInfo;
-extern const MethodInfo SmoothFollow_Main_m3513_MethodInfo;
-static const Il2CppMethodReference SmoothFollow_t777_VTable[] =
+extern const MethodInfo Object_GetHashCode_m3890_MethodInfo;
+extern const MethodInfo Object_ToString_m3891_MethodInfo;
+extern const MethodInfo SmoothFollow_LateUpdate_m4086_MethodInfo;
+extern const MethodInfo SmoothFollow_Main_m4087_MethodInfo;
+static const Il2CppMethodReference SmoothFollow_t1066_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-	&SmoothFollow_LateUpdate_m3512_MethodInfo,
-	&SmoothFollow_Main_m3513_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
+	&SmoothFollow_LateUpdate_m4086_MethodInfo,
+	&SmoothFollow_Main_m4087_MethodInfo,
 };
-static bool SmoothFollow_t777_VTableIsGenericMethod[] =
+static bool SmoothFollow_t1066_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -191,38 +191,38 @@ static bool SmoothFollow_t777_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DUnityScriptU2Dfirstpass_Image;
-extern const Il2CppType SmoothFollow_t777_0_0_0;
-extern const Il2CppType SmoothFollow_t777_1_0_0;
+extern const Il2CppType SmoothFollow_t1066_0_0_0;
+extern const Il2CppType SmoothFollow_t1066_1_0_0;
 extern const Il2CppType MonoBehaviour_t47_0_0_0;
-struct SmoothFollow_t777;
-const Il2CppTypeDefinitionMetadata SmoothFollow_t777_DefinitionMetadata = 
+struct SmoothFollow_t1066;
+const Il2CppTypeDefinitionMetadata SmoothFollow_t1066_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t47_0_0_0/* parent */
-	, SmoothFollow_t777_VTable/* vtableMethods */
-	, SmoothFollow_t777_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, SmoothFollow_t1066_VTable/* vtableMethods */
+	, SmoothFollow_t1066_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 0/* fieldStart */
 
 };
-TypeInfo SmoothFollow_t777_il2cpp_TypeInfo = 
+TypeInfo SmoothFollow_t1066_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DUnityScriptU2Dfirstpass_Image/* image */
 	, NULL/* gc_desc */
 	, "SmoothFollow"/* name */
 	, ""/* namespaze */
-	, SmoothFollow_t777_MethodInfos/* methods */
+	, SmoothFollow_t1066_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &SmoothFollow_t777_il2cpp_TypeInfo/* element_class */
+	, &SmoothFollow_t1066_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 2/* custom_attributes_cache */
-	, &SmoothFollow_t777_0_0_0/* byval_arg */
-	, &SmoothFollow_t777_1_0_0/* this_arg */
-	, &SmoothFollow_t777_DefinitionMetadata/* definitionMetadata */
+	, &SmoothFollow_t1066_0_0_0/* byval_arg */
+	, &SmoothFollow_t1066_1_0_0/* this_arg */
+	, &SmoothFollow_t1066_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -232,8 +232,8 @@ TypeInfo SmoothFollow_t777_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SmoothFollow_t777)/* instance_size */
-	, sizeof (SmoothFollow_t777)/* actualSize */
+	, sizeof (SmoothFollow_t1066)/* instance_size */
+	, sizeof (SmoothFollow_t1066)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */

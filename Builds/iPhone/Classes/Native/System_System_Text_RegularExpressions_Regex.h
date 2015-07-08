@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.FactoryCache
-struct FactoryCache_t4140;
+struct FactoryCache_t4378;
 // System.Text.RegularExpressions.IMachineFactory
-struct IMachineFactory_t4141;
+struct IMachineFactory_t4379;
 // System.Collections.IDictionary
-struct IDictionary_t578;
+struct IDictionary_t634;
 // System.String[]
 struct StringU5BU5D_t20;
 // System.Int32[]
@@ -13,15 +13,15 @@ struct Int32U5BU5D_t119;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t427;
+struct Dictionary_2_t455;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
-struct Dictionary_2_t1174;
+struct Dictionary_2_t1433;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 // System.Text.RegularExpressions.Regex
-struct  Regex_t1424  : public Object_t
+struct  Regex_t789  : public Object_t
 {
 	// System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.Regex::machineFactory
 	Object_t * ___machineFactory_1;
@@ -42,15 +42,15 @@ struct  Regex_t1424  : public Object_t
 	// System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.Regex::roptions
 	int32_t ___roptions_9;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Text.RegularExpressions.Regex::capnames
-	Dictionary_2_t427 * ___capnames_10;
+	Dictionary_2_t455 * ___capnames_10;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> System.Text.RegularExpressions.Regex::caps
-	Dictionary_2_t1174 * ___caps_11;
+	Dictionary_2_t1433 * ___caps_11;
 	// System.Int32 System.Text.RegularExpressions.Regex::capsize
 	int32_t ___capsize_12;
 	// System.String[] System.Text.RegularExpressions.Regex::capslist
 	StringU5BU5D_t20* ___capslist_13;
 };
-struct Regex_t1424_StaticFields{
+struct Regex_t789_StaticFields{
 	// System.Text.RegularExpressions.FactoryCache System.Text.RegularExpressions.Regex::cache
-	FactoryCache_t4140 * ___cache_0;
+	FactoryCache_t4378 * ___cache_0;
 };

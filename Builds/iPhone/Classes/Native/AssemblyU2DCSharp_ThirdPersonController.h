@@ -13,7 +13,7 @@ struct Animation_t298;
 // UnityEngine.CollisionFlags
 #include "UnityEngine_UnityEngine_CollisionFlags.h"
 // ThirdPersonController
-struct  ThirdPersonController_t371  : public MonoBehaviour_t47
+struct  ThirdPersonController_t399  : public MonoBehaviour_t47
 {
 	// UnityEngine.AnimationClip ThirdPersonController::idleAnimation
 	AnimationClip_t296 * ___idleAnimation_2;

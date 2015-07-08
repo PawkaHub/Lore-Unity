@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FtpStatusCode
-struct FtpStatusCode_t4052;
+struct FtpStatusCode_t4290;
 

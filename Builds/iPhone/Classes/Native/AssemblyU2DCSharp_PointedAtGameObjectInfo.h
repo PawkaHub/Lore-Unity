@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PointedAtGameObjectInfo
-struct  PointedAtGameObjectInfo_t519  : public MonoBehaviour_t47
+struct  PointedAtGameObjectInfo_t546  : public MonoBehaviour_t47
 {
 };

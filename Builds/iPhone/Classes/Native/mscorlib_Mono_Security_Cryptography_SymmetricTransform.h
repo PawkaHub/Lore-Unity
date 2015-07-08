@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.SymmetricAlgorithm
-struct SymmetricAlgorithm_t4337;
+struct SymmetricAlgorithm_t4575;
 // System.Byte[]
 struct ByteU5BU5D_t25;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t4034;
+struct RandomNumberGenerator_t4272;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.SymmetricTransform
-struct  SymmetricTransform_t4983  : public Object_t
+struct  SymmetricTransform_t5221  : public Object_t
 {
 	// System.Security.Cryptography.SymmetricAlgorithm Mono.Security.Cryptography.SymmetricTransform::algo
-	SymmetricAlgorithm_t4337 * ___algo_0;
+	SymmetricAlgorithm_t4575 * ___algo_0;
 	// System.Boolean Mono.Security.Cryptography.SymmetricTransform::encrypt
 	bool ___encrypt_1;
 	// System.Int32 Mono.Security.Cryptography.SymmetricTransform::BlockSizeByte
@@ -34,5 +34,5 @@ struct  SymmetricTransform_t4983  : public Object_t
 	// System.Boolean Mono.Security.Cryptography.SymmetricTransform::lastBlock
 	bool ___lastBlock_10;
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.Cryptography.SymmetricTransform::_rng
-	RandomNumberGenerator_t4034 * ____rng_11;
+	RandomNumberGenerator_t4272 * ____rng_11;
 };

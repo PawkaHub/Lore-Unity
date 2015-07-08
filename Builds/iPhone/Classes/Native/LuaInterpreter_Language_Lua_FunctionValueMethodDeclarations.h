@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Language.Lua.FunctionValue
-struct FunctionValue_t3531;
+struct FunctionValue_t3769;
 // Language.Lua.LuaValue
-struct LuaValue_t1075;
+struct LuaValue_t1334;
 // Language.Lua.LuaTable
-struct LuaTable_t1077;
+struct LuaTable_t1336;
 
 // System.Void Language.Lua.FunctionValue::.ctor()
-extern "C" void FunctionValue__ctor_m10570 (FunctionValue_t3531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FunctionValue__ctor_m10989 (FunctionValue_t3769 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Language.Lua.LuaValue Language.Lua.FunctionValue::Evaluate(Language.Lua.LuaTable)
-extern "C" LuaValue_t1075 * FunctionValue_Evaluate_m10571 (FunctionValue_t3531 * __this, LuaTable_t1077 * ___enviroment, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" LuaValue_t1334 * FunctionValue_Evaluate_m10990 (FunctionValue_t3769 * __this, LuaTable_t1336 * ___enviroment, const MethodInfo* method) IL2CPP_METHOD_ATTR;

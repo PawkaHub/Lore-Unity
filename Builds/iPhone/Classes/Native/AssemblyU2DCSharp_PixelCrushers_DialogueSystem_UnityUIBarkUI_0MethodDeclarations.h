@@ -7,7 +7,7 @@
 // PixelCrushers.DialogueSystem.UnityUIBarkUI
 struct UnityUIBarkUI_t215;
 // PixelCrushers.DialogueSystem.Subtitle
-struct Subtitle_t570;
+struct Subtitle_t623;
 // UnityEngine.Transform
 struct Transform_t54;
 
@@ -20,9 +20,9 @@ extern "C" void UnityUIBarkUI_Awake_m820 (UnityUIBarkUI_t215 * __this, const Met
 // System.Void PixelCrushers.DialogueSystem.UnityUIBarkUI::Start()
 extern "C" void UnityUIBarkUI_Start_m821 (UnityUIBarkUI_t215 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean PixelCrushers.DialogueSystem.UnityUIBarkUI::ShouldShowText(PixelCrushers.DialogueSystem.Subtitle)
-extern "C" bool UnityUIBarkUI_ShouldShowText_m822 (UnityUIBarkUI_t215 * __this, Subtitle_t570 * ___subtitle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UnityUIBarkUI_ShouldShowText_m822 (UnityUIBarkUI_t215 * __this, Subtitle_t623 * ___subtitle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIBarkUI::Bark(PixelCrushers.DialogueSystem.Subtitle)
-extern "C" void UnityUIBarkUI_Bark_m823 (UnityUIBarkUI_t215 * __this, Subtitle_t570 * ___subtitle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityUIBarkUI_Bark_m823 (UnityUIBarkUI_t215 * __this, Subtitle_t623 * ___subtitle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIBarkUI::SetUIElementsActive(System.Boolean)
 extern "C" void UnityUIBarkUI_SetUIElementsActive_m824 (UnityUIBarkUI_t215 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIBarkUI::OnBarkEnd(UnityEngine.Transform)

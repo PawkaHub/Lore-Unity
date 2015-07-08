@@ -5,7 +5,7 @@ struct Graphic_t219;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
-struct  KeyValuePair_2_t6504 
+struct  KeyValuePair_2_t6838 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::key
 	Graphic_t219 * ___key_0;

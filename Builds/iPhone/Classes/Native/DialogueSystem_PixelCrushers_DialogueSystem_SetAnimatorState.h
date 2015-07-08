@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.ActOnDialogueEvent/Action
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ActOnDialogueEve.h"
 // PixelCrushers.DialogueSystem.SetAnimatorStateOnDialogueEvent/SetAnimatorStateAction
-struct  SetAnimatorStateAction_t1297  : public Action_t1279
+struct  SetAnimatorStateAction_t1556  : public Action_t1538
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.SetAnimatorStateOnDialogueEvent/SetAnimatorStateAction::target
 	Transform_t54 * ___target_1;

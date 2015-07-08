@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.ParseRole
-struct ParseRole_t1631;
+// Parse.ParseFile
+struct ParseFile_t1827;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<Parse.ParseRole>
-struct  Comparison_1_t7787  : public MulticastDelegate_t451
+// System.Comparison`1<Parse.ParseFile>
+struct  Comparison_1_t8042  : public MulticastDelegate_t479
 {
 };

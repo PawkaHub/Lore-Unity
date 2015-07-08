@@ -9,25 +9,25 @@ struct AbstractUIResponseMenuControls_t244;
 // PixelCrushers.DialogueSystem.AbstractUISubtitleControls
 struct AbstractUISubtitleControls_t246;
 // PixelCrushers.DialogueSystem.Response[]
-struct ResponseU5BU5D_t571;
+struct ResponseU5BU5D_t624;
 // UnityEngine.Transform
 struct Transform_t54;
 // PixelCrushers.DialogueSystem.Subtitle
-struct Subtitle_t570;
+struct Subtitle_t623;
 // UnityEngine.Texture2D
 struct Texture2D_t90;
 // System.String
 struct String_t;
 
 // System.Void PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::.ctor()
-extern "C" void AbstractUIResponseMenuControls__ctor_m2828 (AbstractUIResponseMenuControls_t244 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AbstractUIResponseMenuControls__ctor_m3000 (AbstractUIResponseMenuControls_t244 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // PixelCrushers.DialogueSystem.AbstractUISubtitleControls PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::get_SubtitleReminder()
 // System.Void PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::ClearResponseButtons()
 // System.Void PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::SetResponseButtons(PixelCrushers.DialogueSystem.Response[],UnityEngine.Transform)
 // System.Void PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::StartTimer(System.Single)
 // System.Void PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::ShowResponses(PixelCrushers.DialogueSystem.Subtitle,PixelCrushers.DialogueSystem.Response[],UnityEngine.Transform)
-extern "C" void AbstractUIResponseMenuControls_ShowResponses_m6281 (AbstractUIResponseMenuControls_t244 * __this, Subtitle_t570 * ___subtitle, ResponseU5BU5D_t571* ___responses, Transform_t54 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AbstractUIResponseMenuControls_ShowResponses_m6729 (AbstractUIResponseMenuControls_t244 * __this, Subtitle_t623 * ___subtitle, ResponseU5BU5D_t624* ___responses, Transform_t54 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::SetPCPortrait(UnityEngine.Texture2D,System.String)
-extern "C" void AbstractUIResponseMenuControls_SetPCPortrait_m6282 (AbstractUIResponseMenuControls_t244 * __this, Texture2D_t90 * ___portraitTexture, String_t* ___portraitName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AbstractUIResponseMenuControls_SetPCPortrait_m6730 (AbstractUIResponseMenuControls_t244 * __this, Texture2D_t90 * ___portraitTexture, String_t* ___portraitName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.AbstractUIResponseMenuControls::SetActorPortraitTexture(System.String,UnityEngine.Texture2D)
-extern "C" void AbstractUIResponseMenuControls_SetActorPortraitTexture_m6283 (AbstractUIResponseMenuControls_t244 * __this, String_t* ___actorName, Texture2D_t90 * ___portraitTexture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AbstractUIResponseMenuControls_SetActorPortraitTexture_m6731 (AbstractUIResponseMenuControls_t244 * __this, String_t* ___actorName, Texture2D_t90 * ___portraitTexture, const MethodInfo* method) IL2CPP_METHOD_ATTR;

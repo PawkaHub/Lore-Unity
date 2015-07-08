@@ -5,7 +5,7 @@
 // CharacterState
 #include "AssemblyU2DCSharp_CharacterState.h"
 // CharacterState
-struct  CharacterState_t373 
+struct  CharacterState_t401 
 {
 	// System.Int32 CharacterState::value__
 	int32_t ___value___1;

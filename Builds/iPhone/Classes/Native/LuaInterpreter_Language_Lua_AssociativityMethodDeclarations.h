@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Language.Lua.Associativity
-struct Associativity_t3541;
+struct Associativity_t3779;
 

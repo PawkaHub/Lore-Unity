@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Syntax.Expression
-struct Expression_t4171;
+struct Expression_t4409;
 // System.String
 struct String_t;
 // System.Object
@@ -9,10 +9,10 @@ struct String_t;
 // System.Text.RegularExpressions.Position
 #include "System_System_Text_RegularExpressions_Position.h"
 // System.Text.RegularExpressions.Syntax.AnchorInfo
-struct  AnchorInfo_t4189  : public Object_t
+struct  AnchorInfo_t4427  : public Object_t
 {
 	// System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.AnchorInfo::expr
-	Expression_t4171 * ___expr_0;
+	Expression_t4409 * ___expr_0;
 	// System.Text.RegularExpressions.Position System.Text.RegularExpressions.Syntax.AnchorInfo::pos
 	uint16_t ___pos_1;
 	// System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::offset

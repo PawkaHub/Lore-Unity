@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Networking.Match.JoinMatchResponse
-struct JoinMatchResponse_t4560;
+struct JoinMatchResponse_t4798;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<UnityEngine.Networking.Match.JoinMatchResponse>
-struct  ResponseDelegate_1_t4666  : public MulticastDelegate_t451
+struct  ResponseDelegate_1_t4904  : public MulticastDelegate_t479
 {
 };

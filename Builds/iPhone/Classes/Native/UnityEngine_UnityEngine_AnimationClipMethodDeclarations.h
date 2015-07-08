@@ -8,4 +8,4 @@
 struct AnimationClip_t296;
 
 // System.Single UnityEngine.AnimationClip::get_length()
-extern "C" float AnimationClip_get_length_m3027 (AnimationClip_t296 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float AnimationClip_get_length_m3199 (AnimationClip_t296 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

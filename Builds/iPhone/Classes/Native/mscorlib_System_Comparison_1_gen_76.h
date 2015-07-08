@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem
-struct QuestWatchItem_t1256;
+// PixelCrushers.DialogueSystem.Response
+struct Response_t235;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem>
-struct  Comparison_1_t6727  : public MulticastDelegate_t451
+// System.Comparison`1<PixelCrushers.DialogueSystem.Response>
+struct  Comparison_1_t7007  : public MulticastDelegate_t479
 {
 };

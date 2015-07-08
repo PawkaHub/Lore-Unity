@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.QuestState
-struct QuestState_t748;
+struct QuestState_t841;
 

@@ -5,7 +5,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>
-struct  Tuple_3_t3604  : public Object_t
+struct  Tuple_3_t3842  : public Object_t
 {
 	// T1 Language.Lua.Tuple`3<System.Object,System.Boolean,System.Int32>::item1
 	Object_t * ___item1_0;

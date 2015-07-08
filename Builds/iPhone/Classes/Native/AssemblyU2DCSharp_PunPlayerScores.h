@@ -5,6 +5,6 @@ struct String_t;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PunPlayerScores
-struct  PunPlayerScores_t520  : public MonoBehaviour_t47
+struct  PunPlayerScores_t547  : public MonoBehaviour_t47
 {
 };

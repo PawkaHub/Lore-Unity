@@ -3,7 +3,7 @@
 // PixelCrushers.DialogueSystem.UnityGUI.ScaledRect
 struct ScaledRect_t199;
 // PixelCrushers.DialogueSystem.UnityGUI.ScaledValue
-struct ScaledValue_t606;
+struct ScaledValue_t664;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.UnityGUI.ScaledRectAlignment
@@ -16,13 +16,13 @@ struct  ScaledRect_t199  : public Object_t
 	// PixelCrushers.DialogueSystem.UnityGUI.ScaledRectAlignment PixelCrushers.DialogueSystem.UnityGUI.ScaledRect::alignment
 	int32_t ___alignment_3;
 	// PixelCrushers.DialogueSystem.UnityGUI.ScaledValue PixelCrushers.DialogueSystem.UnityGUI.ScaledRect::x
-	ScaledValue_t606 * ___x_4;
+	ScaledValue_t664 * ___x_4;
 	// PixelCrushers.DialogueSystem.UnityGUI.ScaledValue PixelCrushers.DialogueSystem.UnityGUI.ScaledRect::y
-	ScaledValue_t606 * ___y_5;
+	ScaledValue_t664 * ___y_5;
 	// PixelCrushers.DialogueSystem.UnityGUI.ScaledValue PixelCrushers.DialogueSystem.UnityGUI.ScaledRect::width
-	ScaledValue_t606 * ___width_6;
+	ScaledValue_t664 * ___width_6;
 	// PixelCrushers.DialogueSystem.UnityGUI.ScaledValue PixelCrushers.DialogueSystem.UnityGUI.ScaledRect::height
-	ScaledValue_t606 * ___height_7;
+	ScaledValue_t664 * ___height_7;
 	// System.Single PixelCrushers.DialogueSystem.UnityGUI.ScaledRect::minPixelWidth
 	float ___minPixelWidth_8;
 	// System.Single PixelCrushers.DialogueSystem.UnityGUI.ScaledRect::minPixelHeight

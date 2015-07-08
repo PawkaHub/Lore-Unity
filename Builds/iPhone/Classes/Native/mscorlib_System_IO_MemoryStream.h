@@ -5,7 +5,7 @@ struct ByteU5BU5D_t25;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.IO.MemoryStream
-struct  MemoryStream_t576  : public Stream_t1494
+struct  MemoryStream_t632  : public Stream_t1751
 {
 	// System.Boolean System.IO.MemoryStream::canWrite
 	bool ___canWrite_1;

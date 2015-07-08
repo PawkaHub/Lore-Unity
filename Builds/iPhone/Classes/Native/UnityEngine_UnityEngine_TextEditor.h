@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.TouchScreenKeyboard
-struct TouchScreenKeyboard_t874;
+struct TouchScreenKeyboard_t582;
 // UnityEngine.GUIContent
-struct GUIContent_t542;
+struct GUIContent_t566;
 // UnityEngine.GUIStyle
 struct GUIStyle_t303;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct Dictionary_2_t4637;
+struct Dictionary_2_t4875;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Rect
@@ -19,10 +19,10 @@ struct Dictionary_2_t4637;
 // UnityEngine.TextEditor/DblClickSnapping
 #include "UnityEngine_UnityEngine_TextEditor_DblClickSnapping.h"
 // UnityEngine.TextEditor
-struct  TextEditor_t986  : public Object_t
+struct  TextEditor_t795  : public Object_t
 {
 	// UnityEngine.TouchScreenKeyboard UnityEngine.TextEditor::keyboardOnScreen
-	TouchScreenKeyboard_t874 * ___keyboardOnScreen_0;
+	TouchScreenKeyboard_t582 * ___keyboardOnScreen_0;
 	// System.Int32 UnityEngine.TextEditor::pos
 	int32_t ___pos_1;
 	// System.Int32 UnityEngine.TextEditor::selectPos
@@ -30,7 +30,7 @@ struct  TextEditor_t986  : public Object_t
 	// System.Int32 UnityEngine.TextEditor::controlID
 	int32_t ___controlID_3;
 	// UnityEngine.GUIContent UnityEngine.TextEditor::content
-	GUIContent_t542 * ___content_4;
+	GUIContent_t566 * ___content_4;
 	// UnityEngine.GUIStyle UnityEngine.TextEditor::style
 	GUIStyle_t303 * ___style_5;
 	// UnityEngine.Rect UnityEngine.TextEditor::position
@@ -68,7 +68,7 @@ struct  TextEditor_t986  : public Object_t
 	// System.Int32 UnityEngine.TextEditor::oldSelectPos
 	int32_t ___oldSelectPos_22;
 };
-struct TextEditor_t986_StaticFields{
+struct TextEditor_t795_StaticFields{
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp> UnityEngine.TextEditor::s_Keyactions
-	Dictionary_2_t4637 * ___s_Keyactions_23;
+	Dictionary_2_t4875 * ___s_Keyactions_23;
 };

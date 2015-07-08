@@ -5,7 +5,7 @@
 // UnityEngine.RectTransform/Edge
 #include "UnityEngine_UnityEngine_RectTransform_Edge.h"
 // UnityEngine.RectTransform/Edge
-struct  Edge_t4495 
+struct  Edge_t4733 
 {
 	// System.Int32 UnityEngine.RectTransform/Edge::value__
 	int32_t ___value___1;

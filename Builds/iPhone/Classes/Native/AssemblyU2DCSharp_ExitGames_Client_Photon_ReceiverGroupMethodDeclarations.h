@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ExitGames.Client.Photon.ReceiverGroup
-struct ReceiverGroup_t412;
+struct ReceiverGroup_t440;
 

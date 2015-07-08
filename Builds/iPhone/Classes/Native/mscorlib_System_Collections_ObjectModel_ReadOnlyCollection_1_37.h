@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<PhotonAnimatorView/SynchronizedLayer>
-struct IList_1_t6361;
+// System.Collections.Generic.IList`1<PhotonPlayer>
+struct IList_1_t6571;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<PhotonAnimatorView/SynchronizedLayer>
-struct  ReadOnlyCollection_1_t6362  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<PhotonPlayer>
+struct  ReadOnlyCollection_1_t6572  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<PhotonAnimatorView/SynchronizedLayer>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<PhotonPlayer>::list
 	Object_t* ___list_0;
 };

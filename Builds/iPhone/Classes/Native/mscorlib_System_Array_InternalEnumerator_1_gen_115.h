@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct  InternalEnumerator_1_t9186 
+// System.Array/InternalEnumerator`1<System.TimeZoneInfo/AdjustmentRule>
+struct  InternalEnumerator_1_t9445 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::array
+	// System.Array System.Array/InternalEnumerator`1<System.TimeZoneInfo/AdjustmentRule>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<System.TimeZoneInfo/AdjustmentRule>::idx
 	int32_t ___idx_1;
 };

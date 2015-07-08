@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlDateTimeSerializationMode
-struct XmlDateTimeSerializationMode_t3852;
+struct XmlDateTimeSerializationMode_t4090;
 

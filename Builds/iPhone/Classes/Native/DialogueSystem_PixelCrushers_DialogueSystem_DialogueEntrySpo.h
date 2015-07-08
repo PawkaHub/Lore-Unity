@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // PixelCrushers.DialogueSystem.Subtitle
-struct Subtitle_t570;
+struct Subtitle_t623;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PixelCrushers.DialogueSystem.DialogueEntrySpokenDelegate
-struct  DialogueEntrySpokenDelegate_t1198  : public MulticastDelegate_t451
+struct  DialogueEntrySpokenDelegate_t1457  : public MulticastDelegate_t479
 {
 };

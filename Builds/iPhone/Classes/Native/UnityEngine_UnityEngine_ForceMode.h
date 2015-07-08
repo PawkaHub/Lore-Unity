@@ -5,7 +5,7 @@
 // UnityEngine.ForceMode
 #include "UnityEngine_UnityEngine_ForceMode.h"
 // UnityEngine.ForceMode
-struct  ForceMode_t4525 
+struct  ForceMode_t4763 
 {
 	// System.Int32 UnityEngine.ForceMode::value__
 	int32_t ___value___1;

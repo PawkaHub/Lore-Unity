@@ -12,8 +12,8 @@ struct CharacterController_t321;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // UnityEngine.CollisionFlags UnityEngine.CharacterController::Move(UnityEngine.Vector3)
-extern "C" int32_t CharacterController_Move_m3030 (CharacterController_t321 * __this, Vector3_t53  ___motion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CharacterController_Move_m3202 (CharacterController_t321 * __this, Vector3_t53  ___motion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.CollisionFlags UnityEngine.CharacterController::INTERNAL_CALL_Move(UnityEngine.CharacterController,UnityEngine.Vector3&)
-extern "C" int32_t CharacterController_INTERNAL_CALL_Move_m16951 (Object_t * __this /* static, unused */, CharacterController_t321 * ___self, Vector3_t53 * ___motion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CharacterController_INTERNAL_CALL_Move_m17370 (Object_t * __this /* static, unused */, CharacterController_t321 * ___self, Vector3_t53 * ___motion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.CharacterController::get_height()
-extern "C" float CharacterController_get_height_m7360 (CharacterController_t321 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CharacterController_get_height_m7807 (CharacterController_t321 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

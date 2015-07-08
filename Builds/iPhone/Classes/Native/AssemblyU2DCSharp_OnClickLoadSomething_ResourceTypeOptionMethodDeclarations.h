@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // OnClickLoadSomething/ResourceTypeOption
-struct ResourceTypeOption_t511;
+struct ResourceTypeOption_t538;
 

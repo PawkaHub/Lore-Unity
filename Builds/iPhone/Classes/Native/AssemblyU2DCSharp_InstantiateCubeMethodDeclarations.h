@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // InstantiateCube
-struct InstantiateCube_t332;
+struct InstantiateCube_t360;
 
 // System.Void InstantiateCube::.ctor()
-extern "C" void InstantiateCube__ctor_m1263 (InstantiateCube_t332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InstantiateCube__ctor_m1309 (InstantiateCube_t360 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void InstantiateCube::OnClick()
-extern "C" void InstantiateCube_OnClick_m1264 (InstantiateCube_t332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InstantiateCube_OnClick_m1310 (InstantiateCube_t360 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

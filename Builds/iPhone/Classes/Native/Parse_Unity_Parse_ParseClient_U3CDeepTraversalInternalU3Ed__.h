@@ -3,23 +3,23 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.ICollection`1<System.Object>
-struct ICollection_1_t1554;
+struct ICollection_1_t1809;
 // System.Collections.IEnumerable
-struct IEnumerable_t677;
+struct IEnumerable_t746;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t1555;
+struct IDictionary_2_t1810;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t998;
+struct IEnumerable_1_t729;
 // System.Collections.IEnumerator
 struct IEnumerator_t74;
 // System.IDisposable
-struct IDisposable_t588;
+struct IDisposable_t646;
 // System.Collections.Generic.IEnumerator`1<System.Object>
-struct IEnumerator_1_t744;
+struct IEnumerator_1_t838;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseClient/<DeepTraversalInternal>d__17
-struct  U3CDeepTraversalInternalU3Ed__17_t1556  : public Object_t
+struct  U3CDeepTraversalInternalU3Ed__17_t1811  : public Object_t
 {
 	// System.Object Parse.ParseClient/<DeepTraversalInternal>d__17::<>2__current
 	Object_t * ___U3CU3E2__current_0;

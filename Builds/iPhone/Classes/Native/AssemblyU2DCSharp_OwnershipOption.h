@@ -5,7 +5,7 @@
 // OwnershipOption
 #include "AssemblyU2DCSharp_OwnershipOption.h"
 // OwnershipOption
-struct  OwnershipOption_t461 
+struct  OwnershipOption_t489 
 {
 	// System.Int32 OwnershipOption::value__
 	int32_t ___value___1;

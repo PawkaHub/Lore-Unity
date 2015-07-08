@@ -3,7 +3,7 @@
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // ConnectAndJoinRandom
-struct  ConnectAndJoinRandom_t500  : public MonoBehaviour_t329
+struct  ConnectAndJoinRandom_t527  : public MonoBehaviour_t357
 {
 	// System.Boolean ConnectAndJoinRandom::AutoConnect
 	bool ___AutoConnect_2;

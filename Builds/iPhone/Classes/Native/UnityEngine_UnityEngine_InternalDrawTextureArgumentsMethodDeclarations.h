@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.InternalDrawTextureArguments
-struct InternalDrawTextureArguments_t4458;
+struct InternalDrawTextureArguments_t4696;
 

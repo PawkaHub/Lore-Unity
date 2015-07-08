@@ -5,7 +5,7 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // CubeExtra
-struct  CubeExtra_t365  : public MonoBehaviour_t329
+struct  CubeExtra_t393  : public MonoBehaviour_t357
 {
 	// UnityEngine.Vector3 CubeExtra::latestCorrectPos
 	Vector3_t53  ___latestCorrectPos_2;

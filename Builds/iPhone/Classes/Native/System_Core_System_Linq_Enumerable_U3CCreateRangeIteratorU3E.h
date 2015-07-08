@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD
-struct  U3CCreateRangeIteratorU3Ec__IteratorD_t3042  : public Object_t
+struct  U3CCreateRangeIteratorU3Ec__IteratorD_t3279  : public Object_t
 {
 	// System.Int32 System.Linq.Enumerable/<CreateRangeIterator>c__IteratorD::start
 	int32_t ___start_0;

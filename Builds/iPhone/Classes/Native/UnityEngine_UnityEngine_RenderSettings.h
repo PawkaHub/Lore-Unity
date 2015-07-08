@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.RenderSettings
-struct  RenderSettings_t4457  : public Object_t584
+struct  RenderSettings_t4695  : public Object_t642
 {
 };

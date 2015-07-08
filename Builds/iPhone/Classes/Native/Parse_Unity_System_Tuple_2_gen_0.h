@@ -7,7 +7,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Tuple`2<System.String,System.Object>
-struct  Tuple_2_t1766  : public Object_t
+struct  Tuple_2_t2007  : public Object_t
 {
 	// T1 System.Tuple`2<System.String,System.Object>::<Item1>k__BackingField
 	String_t* ___U3CItem1U3Ek__BackingField_0;

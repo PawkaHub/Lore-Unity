@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.QuestState
 #include "DialogueSystem_PixelCrushers_DialogueSystem_QuestState.h"
 // PixelCrushers.DialogueSystem.QuestState
-struct  QuestState_t748 
+struct  QuestState_t841 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.QuestState::value__
 	int32_t ___value___1;

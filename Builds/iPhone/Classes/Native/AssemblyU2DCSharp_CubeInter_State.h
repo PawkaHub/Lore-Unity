@@ -7,7 +7,7 @@
 // UnityEngine.Quaternion
 #include "UnityEngine_UnityEngine_Quaternion.h"
 // CubeInter/State
-struct  State_t366 
+struct  State_t394 
 {
 	// System.Double CubeInter/State::timestamp
 	double ___timestamp_0;

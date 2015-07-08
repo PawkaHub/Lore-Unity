@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.DialogueDebug/DebugLevel
-struct DebugLevel_t1248;
+struct DebugLevel_t1507;
 

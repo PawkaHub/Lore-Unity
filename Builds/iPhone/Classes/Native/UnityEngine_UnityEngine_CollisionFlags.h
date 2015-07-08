@@ -5,7 +5,7 @@
 // UnityEngine.CollisionFlags
 #include "UnityEngine_UnityEngine_CollisionFlags.h"
 // UnityEngine.CollisionFlags
-struct  CollisionFlags_t4527 
+struct  CollisionFlags_t4765 
 {
 	// System.Int32 UnityEngine.CollisionFlags::value__
 	int32_t ___value___1;

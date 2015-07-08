@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SystemLanguage
-struct SystemLanguage_t1474;
+struct SystemLanguage_t1731;
 

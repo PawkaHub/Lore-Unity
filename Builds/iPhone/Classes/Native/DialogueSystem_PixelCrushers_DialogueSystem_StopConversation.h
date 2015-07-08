@@ -5,11 +5,11 @@ struct Transform_t54;
 // System.Object
 struct Object_t;
 // PixelCrushers.DialogueSystem.StopConversationIfTooFar
-struct StopConversationIfTooFar_t1317;
+struct StopConversationIfTooFar_t1576;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.StopConversationIfTooFar/<MonitorDistance>c__IteratorE
-struct  U3CMonitorDistanceU3Ec__IteratorE_t1318  : public Object_t
+struct  U3CMonitorDistanceU3Ec__IteratorE_t1577  : public Object_t
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.StopConversationIfTooFar/<MonitorDistance>c__IteratorE::actor
 	Transform_t54 * ___actor_0;
@@ -22,5 +22,5 @@ struct  U3CMonitorDistanceU3Ec__IteratorE_t1318  : public Object_t
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.StopConversationIfTooFar/<MonitorDistance>c__IteratorE::<$>actor
 	Transform_t54 * ___U3CU24U3Eactor_4;
 	// PixelCrushers.DialogueSystem.StopConversationIfTooFar PixelCrushers.DialogueSystem.StopConversationIfTooFar/<MonitorDistance>c__IteratorE::<>f__this
-	StopConversationIfTooFar_t1317 * ___U3CU3Ef__this_5;
+	StopConversationIfTooFar_t1576 * ___U3CU3Ef__this_5;
 };

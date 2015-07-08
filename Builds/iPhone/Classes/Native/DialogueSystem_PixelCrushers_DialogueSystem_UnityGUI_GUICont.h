@@ -3,17 +3,17 @@
 // PixelCrushers.DialogueSystem.UnityGUI.ScaledRect
 struct ScaledRect_t199;
 // PixelCrushers.DialogueSystem.UnityGUI.AutoSize
-struct AutoSize_t1348;
+struct AutoSize_t1607;
 // PixelCrushers.DialogueSystem.UnityGUI.Fit
-struct Fit_t1349;
+struct Fit_t1608;
 // PixelCrushers.DialogueSystem.UnityGUI.Navigation
-struct Navigation_t1350;
+struct Navigation_t1609;
 // System.String
 struct String_t;
 // System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl>
-struct List_1_t1351;
+struct List_1_t1610;
 // System.Comparison`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl>
-struct Comparison_1_t1352;
+struct Comparison_1_t1611;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector2
@@ -21,7 +21,7 @@ struct Comparison_1_t1352;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // PixelCrushers.DialogueSystem.UnityGUI.GUIControl
-struct  GUIControl_t1261  : public MonoBehaviour_t47
+struct  GUIControl_t1520  : public MonoBehaviour_t47
 {
 	// System.Int32 PixelCrushers.DialogueSystem.UnityGUI.GUIControl::depth
 	int32_t ___depth_2;
@@ -30,11 +30,11 @@ struct  GUIControl_t1261  : public MonoBehaviour_t47
 	// PixelCrushers.DialogueSystem.UnityGUI.ScaledRect PixelCrushers.DialogueSystem.UnityGUI.GUIControl::scaledRect
 	ScaledRect_t199 * ___scaledRect_4;
 	// PixelCrushers.DialogueSystem.UnityGUI.AutoSize PixelCrushers.DialogueSystem.UnityGUI.GUIControl::autoSize
-	AutoSize_t1348 * ___autoSize_5;
+	AutoSize_t1607 * ___autoSize_5;
 	// PixelCrushers.DialogueSystem.UnityGUI.Fit PixelCrushers.DialogueSystem.UnityGUI.GUIControl::fit
-	Fit_t1349 * ___fit_6;
+	Fit_t1608 * ___fit_6;
 	// PixelCrushers.DialogueSystem.UnityGUI.Navigation PixelCrushers.DialogueSystem.UnityGUI.GUIControl::navigation
-	Navigation_t1350 * ___navigation_7;
+	Navigation_t1609 * ___navigation_7;
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.GUIControl::visible
 	bool ___visible_8;
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.GUIControl::clipChildren
@@ -42,7 +42,7 @@ struct  GUIControl_t1261  : public MonoBehaviour_t47
 	// System.String PixelCrushers.DialogueSystem.UnityGUI.GUIControl::fullName
 	String_t* ___fullName_10;
 	// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl> PixelCrushers.DialogueSystem.UnityGUI.GUIControl::children
-	List_1_t1351 * ___children_11;
+	List_1_t1610 * ___children_11;
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.GUIControl::needToUpdateLayout
 	bool ___needToUpdateLayout_12;
 	// UnityEngine.Vector2 PixelCrushers.DialogueSystem.UnityGUI.GUIControl::windowSize
@@ -56,7 +56,7 @@ struct  GUIControl_t1261  : public MonoBehaviour_t47
 	// UnityEngine.Vector2 PixelCrushers.DialogueSystem.UnityGUI.GUIControl::<dRect>k__BackingField
 	Vector2_t97  ___U3CdRectU3Ek__BackingField_17;
 };
-struct GUIControl_t1261_StaticFields{
+struct GUIControl_t1520_StaticFields{
 	// System.Comparison`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl> PixelCrushers.DialogueSystem.UnityGUI.GUIControl::<>f__am$cache10
-	Comparison_1_t1352 * ___U3CU3Ef__amU24cache10_18;
+	Comparison_1_t1611 * ___U3CU3Ef__amU24cache10_18;
 };

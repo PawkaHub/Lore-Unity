@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.FieldType
-struct FieldType_t1148;
+struct FieldType_t1407;
 

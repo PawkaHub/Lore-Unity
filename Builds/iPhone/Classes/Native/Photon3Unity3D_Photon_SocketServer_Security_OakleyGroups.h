@@ -5,10 +5,10 @@ struct ByteU5BU5D_t25;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Photon.SocketServer.Security.OakleyGroups
-struct  OakleyGroups_t4871  : public Object_t
+struct  OakleyGroups_t5109  : public Object_t
 {
 };
-struct OakleyGroups_t4871_StaticFields{
+struct OakleyGroups_t5109_StaticFields{
 	// System.Int32 Photon.SocketServer.Security.OakleyGroups::Generator
 	int32_t ___Generator_0;
 	// System.Byte[] Photon.SocketServer.Security.OakleyGroups::OakleyPrime768

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t581;
+struct PointerEventData_t580;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Scrollbar
@@ -11,10 +11,10 @@ struct Scrollbar_t240;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4
-struct  U3CClickRepeatU3Ec__Iterator4_t888  : public Object_t
+struct  U3CClickRepeatU3Ec__Iterator4_t1169  : public Object_t
 {
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::eventData
-	PointerEventData_t581 * ___eventData_0;
+	PointerEventData_t580 * ___eventData_0;
 	// UnityEngine.Vector2 UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::<localMousePos>__0
 	Vector2_t97  ___U3ClocalMousePosU3E__0_1;
 	// System.Single UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::<axisCoordinate>__1
@@ -24,7 +24,7 @@ struct  U3CClickRepeatU3Ec__Iterator4_t888  : public Object_t
 	// System.Object UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::$current
 	Object_t * ___U24current_4;
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::<$>eventData
-	PointerEventData_t581 * ___U3CU24U3EeventData_5;
+	PointerEventData_t580 * ___U3CU24U3EeventData_5;
 	// UnityEngine.UI.Scrollbar UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::<>f__this
 	Scrollbar_t240 * ___U3CU3Ef__this_6;
 };

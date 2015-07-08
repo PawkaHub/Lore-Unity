@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Linq.Expressions.Expression[]
-struct ExpressionU5BU5D_t614;
+// System.Threading.Tasks.Task[]
+struct TaskU5BU5D_t1922;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Linq.Expressions.Expression>
-struct  List_1_t3064  : public Object_t
+// System.Collections.Generic.List`1<System.Threading.Tasks.Task>
+struct  List_1_t2073  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_items
-	ExpressionU5BU5D_t614* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_size
+	// T[] System.Collections.Generic.List`1<System.Threading.Tasks.Task>::_items
+	TaskU5BU5D_t1922* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Threading.Tasks.Task>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Threading.Tasks.Task>::_version
 	int32_t ____version_3;
 };
-struct List_1_t3064_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::EmptyArray
-	ExpressionU5BU5D_t614* ___EmptyArray_4;
+struct List_1_t2073_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Threading.Tasks.Task>::EmptyArray
+	TaskU5BU5D_t1922* ___EmptyArray_4;
 };

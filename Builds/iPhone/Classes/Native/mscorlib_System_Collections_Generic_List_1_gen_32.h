@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// Consolation.Console/Log[]
-struct LogU5BU5D_t6378;
+// UnityEngine.Component[]
+struct ComponentU5BU5D_t311;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<Consolation.Console/Log>
-struct  List_1_t540  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Component>
+struct  List_1_t491  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<Consolation.Console/Log>::_items
-	LogU5BU5D_t6378* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<Consolation.Console/Log>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.Component>::_items
+	ComponentU5BU5D_t311* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<Consolation.Console/Log>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::_version
 	int32_t ____version_3;
 };
-struct List_1_t540_StaticFields{
-	// T[] System.Collections.Generic.List`1<Consolation.Console/Log>::EmptyArray
-	LogU5BU5D_t6378* ___EmptyArray_4;
+struct List_1_t491_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.Component>::EmptyArray
+	ComponentU5BU5D_t311* ___EmptyArray_4;
 };

@@ -5,7 +5,7 @@
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // UnityEngine.GUISettings
-struct  GUISettings_t4484  : public Object_t
+struct  GUISettings_t4722  : public Object_t
 {
 	// System.Boolean UnityEngine.GUISettings::m_DoubleClickSelectsWord
 	bool ___m_DoubleClickSelectsWord_0;

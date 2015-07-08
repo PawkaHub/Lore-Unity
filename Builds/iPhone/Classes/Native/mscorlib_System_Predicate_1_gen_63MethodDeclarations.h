@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Field>
-struct Predicate_1_t6588;
+// System.Predicate`1<UnityEngine.CanvasGroup>
+struct Predicate_1_t6859;
 // System.Object
 struct Object_t;
-// PixelCrushers.DialogueSystem.ChatMapper.Field
-struct Field_t1169;
+// UnityEngine.CanvasGroup
+struct CanvasGroup_t211;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Field>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Predicate`1<UnityEngine.CanvasGroup>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_17MethodDeclarations.h"
-#define Predicate_1__ctor_m33763(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6588 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m23999_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Field>::Invoke(T)
-#define Predicate_1_Invoke_m33764(__this, ___obj, method) (( bool (*) (Predicate_1_t6588 *, Field_t1169 *, const MethodInfo*))Predicate_1_Invoke_m24000_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Field>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m33765(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6588 *, Field_t1169 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m24001_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Field>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m33766(__this, ___result, method) (( bool (*) (Predicate_1_t6588 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m24002_gshared)(__this, ___result, method)
+#define Predicate_1__ctor_m34158(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6859 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m24416_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.CanvasGroup>::Invoke(T)
+#define Predicate_1_Invoke_m34159(__this, ___obj, method) (( bool (*) (Predicate_1_t6859 *, CanvasGroup_t211 *, const MethodInfo*))Predicate_1_Invoke_m24417_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.CanvasGroup>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m34160(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6859 *, CanvasGroup_t211 *, AsyncCallback_t477 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m24418_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.CanvasGroup>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m34161(__this, ___result, method) (( bool (*) (Predicate_1_t6859 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m24419_gshared)(__this, ___result, method)

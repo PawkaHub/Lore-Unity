@@ -5,7 +5,7 @@
 // ExitGames.Client.GUI.GizmoType
 #include "AssemblyU2DCSharp_ExitGames_Client_GUI_GizmoType.h"
 // ExitGames.Client.GUI.GizmoType
-struct  GizmoType_t403 
+struct  GizmoType_t431 
 {
 	// System.Int32 ExitGames.Client.GUI.GizmoType::value__
 	int32_t ___value___1;

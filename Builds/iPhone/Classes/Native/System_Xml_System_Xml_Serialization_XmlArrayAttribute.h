@@ -7,7 +7,7 @@ struct String_t;
 // System.Xml.Schema.XmlSchemaForm
 #include "System_Xml_System_Xml_Schema_XmlSchemaForm.h"
 // System.Xml.Serialization.XmlArrayAttribute
-struct  XmlArrayAttribute_t1461  : public Attribute_t471
+struct  XmlArrayAttribute_t1718  : public Attribute_t335
 {
 	// System.String System.Xml.Serialization.XmlArrayAttribute::elementName
 	String_t* ___elementName_0;

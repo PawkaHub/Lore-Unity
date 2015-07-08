@@ -3,15 +3,15 @@
 // System.Object[]
 struct ObjectU5BU5D_t21;
 // UnityEngine.Component
-struct Component_t462;
+struct Component_t490;
 // System.Collections.Generic.List`1<UnityEngine.Component>
-struct List_1_t463;
+struct List_1_t491;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Component,System.Reflection.MethodInfo>
-struct Dictionary_2_t464;
+struct Dictionary_2_t492;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // UnityEngine.MonoBehaviour[]
-struct MonoBehaviourU5BU5D_t465;
+struct MonoBehaviourU5BU5D_t493;
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // ViewSynchronization
@@ -23,7 +23,7 @@ struct MonoBehaviourU5BU5D_t465;
 // OwnershipOption
 #include "AssemblyU2DCSharp_OwnershipOption.h"
 // PhotonView
-struct  PhotonView_t325  : public MonoBehaviour_t329
+struct  PhotonView_t353  : public MonoBehaviour_t357
 {
 	// System.Int32 PhotonView::ownerId
 	int32_t ___ownerId_2;
@@ -40,7 +40,7 @@ struct  PhotonView_t325  : public MonoBehaviour_t329
 	// System.Object[] PhotonView::lastOnSerializeDataReceived
 	ObjectU5BU5D_t21* ___lastOnSerializeDataReceived_8;
 	// UnityEngine.Component PhotonView::observed
-	Component_t462 * ___observed_9;
+	Component_t490 * ___observed_9;
 	// ViewSynchronization PhotonView::synchronization
 	int32_t ___synchronization_10;
 	// OnSerializeTransform PhotonView::onSerializeTransformOption
@@ -50,9 +50,9 @@ struct  PhotonView_t325  : public MonoBehaviour_t329
 	// OwnershipOption PhotonView::ownershipTransfer
 	int32_t ___ownershipTransfer_13;
 	// System.Collections.Generic.List`1<UnityEngine.Component> PhotonView::ObservedComponents
-	List_1_t463 * ___ObservedComponents_14;
+	List_1_t491 * ___ObservedComponents_14;
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Component,System.Reflection.MethodInfo> PhotonView::m_OnSerializeMethodInfos
-	Dictionary_2_t464 * ___m_OnSerializeMethodInfos_15;
+	Dictionary_2_t492 * ___m_OnSerializeMethodInfos_15;
 	// System.Boolean PhotonView::ObservedComponentsFoldoutOpen
 	bool ___ObservedComponentsFoldoutOpen_16;
 	// System.Int32 PhotonView::viewIdField
@@ -70,5 +70,5 @@ struct  PhotonView_t325  : public MonoBehaviour_t329
 	// System.Boolean PhotonView::failedToFindOnSerialize
 	bool ___failedToFindOnSerialize_23;
 	// UnityEngine.MonoBehaviour[] PhotonView::RpcMonoBehaviours
-	MonoBehaviourU5BU5D_t465* ___RpcMonoBehaviours_24;
+	MonoBehaviourU5BU5D_t493* ___RpcMonoBehaviours_24;
 };

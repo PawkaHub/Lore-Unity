@@ -5,7 +5,7 @@
 // ServerSettings/HostingOption
 #include "AssemblyU2DCSharp_ServerSettings_HostingOption.h"
 // ServerSettings/HostingOption
-struct  HostingOption_t473 
+struct  HostingOption_t500 
 {
 	// System.Int32 ServerSettings/HostingOption::value__
 	int32_t ___value___1;

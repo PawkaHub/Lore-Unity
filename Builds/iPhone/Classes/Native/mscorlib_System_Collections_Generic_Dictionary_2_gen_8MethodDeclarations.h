@@ -5,37 +5,37 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>
-struct Dictionary_2_t426;
+struct Dictionary_2_t454;
 // System.Collections.Generic.ICollection`1<System.Int32>
-struct ICollection_1_t9603;
+struct ICollection_1_t9885;
 // System.Collections.Generic.ICollection`1<ExitGames.Client.Photon.Hashtable>
-struct ICollection_1_t9767;
+struct ICollection_1_t10066;
 // System.Collections.ICollection
-struct ICollection_t680;
+struct ICollection_t749;
 // System.Object
 struct Object_t;
 // ExitGames.Client.Photon.Hashtable
-struct Hashtable_t436;
+struct Hashtable_t464;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,ExitGames.Client.Photon.Hashtable>
-struct KeyCollection_t6309;
+struct KeyCollection_t6637;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,ExitGames.Client.Photon.Hashtable>
-struct ValueCollection_t6310;
+struct ValueCollection_t6638;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t6257;
+struct IEqualityComparer_1_t6585;
 // System.Collections.Generic.IDictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>
-struct IDictionary_2_t9768;
+struct IDictionary_2_t10067;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t3058;
+struct SerializationInfo_t3296;
 // System.Collections.Generic.KeyValuePair`2<System.Int32,ExitGames.Client.Photon.Hashtable>[]
-struct KeyValuePair_2U5BU5D_t9769;
+struct KeyValuePair_2U5BU5D_t10068;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t74;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,ExitGames.Client.Photon.Hashtable>>
-struct IEnumerator_1_t9770;
+struct IEnumerator_1_t10069;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t3962;
+struct IDictionaryEnumerator_t4200;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,ExitGames.Client.Photon.Hashtable>
@@ -48,104 +48,104 @@ struct IDictionaryEnumerator_t3962;
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::.ctor()
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_46MethodDeclarations.h"
-#define Dictionary_2__ctor_m3196(__this, method) (( void (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2__ctor_m17639_gshared)(__this, method)
+#define Dictionary_2__ctor_m3425(__this, method) (( void (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2__ctor_m18057_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m29116(__this, ___comparer, method) (( void (*) (Dictionary_2_t426 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m28222_gshared)(__this, ___comparer, method)
+#define Dictionary_2__ctor_m30589(__this, ___comparer, method) (( void (*) (Dictionary_2_t454 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m29695_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-#define Dictionary_2__ctor_m29117(__this, ___dictionary, method) (( void (*) (Dictionary_2_t426 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m28224_gshared)(__this, ___dictionary, method)
+#define Dictionary_2__ctor_m30590(__this, ___dictionary, method) (( void (*) (Dictionary_2_t454 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m29697_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::.ctor(System.Int32)
-#define Dictionary_2__ctor_m29118(__this, ___capacity, method) (( void (*) (Dictionary_2_t426 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m28226_gshared)(__this, ___capacity, method)
+#define Dictionary_2__ctor_m30591(__this, ___capacity, method) (( void (*) (Dictionary_2_t454 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m29699_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m29119(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t426 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m28228_gshared)(__this, ___dictionary, ___comparer, method)
+#define Dictionary_2__ctor_m30592(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t454 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m29701_gshared)(__this, ___dictionary, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2__ctor_m29120(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t426 *, SerializationInfo_t3058 *, StreamingContext_t3059 , const MethodInfo*))Dictionary_2__ctor_m28230_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2__ctor_m30593(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t454 *, SerializationInfo_t3296 *, StreamingContext_t3297 , const MethodInfo*))Dictionary_2__ctor_m29703_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m29121(__this, method) (( Object_t* (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m28232_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m30594(__this, method) (( Object_t* (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m29705_gshared)(__this, method)
 // System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m29122(__this, method) (( Object_t* (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m28234_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m30595(__this, method) (( Object_t* (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m29707_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.IDictionary.get_Keys()
-#define Dictionary_2_System_Collections_IDictionary_get_Keys_m29123(__this, method) (( Object_t * (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m28236_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Keys_m30596(__this, method) (( Object_t * (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m29709_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.IDictionary.get_Item(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_get_Item_m29124(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t426 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m28238_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m30597(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t454 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m29711_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_set_Item_m29125(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t426 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m28240_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m30598(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t454 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m29713_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.IDictionary.Add(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Add_m29126(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t426 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m28242_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_Add_m30599(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t454 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m29715_gshared)(__this, ___key, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.IDictionary.Contains(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Contains_m29127(__this, ___key, method) (( bool (*) (Dictionary_2_t426 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m28244_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Contains_m30600(__this, ___key, method) (( bool (*) (Dictionary_2_t454 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m29717_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.IDictionary.Remove(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Remove_m29128(__this, ___key, method) (( void (*) (Dictionary_2_t426 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m28246_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Remove_m30601(__this, ___key, method) (( void (*) (Dictionary_2_t454 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m29719_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.ICollection.get_IsSynchronized()
-#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m29129(__this, method) (( bool (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m28248_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m30602(__this, method) (( bool (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m29721_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.ICollection.get_SyncRoot()
-#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m29130(__this, method) (( Object_t * (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m28250_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m30603(__this, method) (( Object_t * (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m29723_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m29131(__this, method) (( bool (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m28252_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m30604(__this, method) (( bool (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m29725_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m29132(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t426 *, KeyValuePair_2_t698 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m28254_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m30605(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t454 *, KeyValuePair_2_t767 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m29727_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m29133(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t426 *, KeyValuePair_2_t698 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m28256_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m30606(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t454 *, KeyValuePair_2_t767 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m29729_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m29134(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t426 *, KeyValuePair_2U5BU5D_t9769*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m28258_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m30607(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t454 *, KeyValuePair_2U5BU5D_t10068*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m29731_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m29135(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t426 *, KeyValuePair_2_t698 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m28260_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m30608(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t454 *, KeyValuePair_2_t767 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m29733_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define Dictionary_2_System_Collections_ICollection_CopyTo_m29136(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t426 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m28262_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m30609(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t454 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m29735_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.IEnumerable.GetEnumerator()
-#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m29137(__this, method) (( Object_t * (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m28264_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m30610(__this, method) (( Object_t * (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m29737_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m29138(__this, method) (( Object_t* (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m28266_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m30611(__this, method) (( Object_t* (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m29739_gshared)(__this, method)
 // System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::System.Collections.IDictionary.GetEnumerator()
-#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m29139(__this, method) (( Object_t * (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m28268_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m30612(__this, method) (( Object_t * (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m29741_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::get_Count()
-#define Dictionary_2_get_Count_m29140(__this, method) (( int32_t (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_get_Count_m28270_gshared)(__this, method)
+#define Dictionary_2_get_Count_m30613(__this, method) (( int32_t (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_get_Count_m29743_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::get_Item(TKey)
-#define Dictionary_2_get_Item_m29141(__this, ___key, method) (( Hashtable_t436 * (*) (Dictionary_2_t426 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m28272_gshared)(__this, ___key, method)
+#define Dictionary_2_get_Item_m30614(__this, ___key, method) (( Hashtable_t464 * (*) (Dictionary_2_t454 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m29745_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m29142(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t426 *, int32_t, Hashtable_t436 *, const MethodInfo*))Dictionary_2_set_Item_m28274_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_set_Item_m30615(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t454 *, int32_t, Hashtable_t464 *, const MethodInfo*))Dictionary_2_set_Item_m29747_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2_Init_m29143(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t426 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m28276_gshared)(__this, ___capacity, ___hcp, method)
+#define Dictionary_2_Init_m30616(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t454 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m29749_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::InitArrays(System.Int32)
-#define Dictionary_2_InitArrays_m29144(__this, ___size, method) (( void (*) (Dictionary_2_t426 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m28278_gshared)(__this, ___size, method)
+#define Dictionary_2_InitArrays_m30617(__this, ___size, method) (( void (*) (Dictionary_2_t454 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m29751_gshared)(__this, ___size, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::CopyToCheck(System.Array,System.Int32)
-#define Dictionary_2_CopyToCheck_m29145(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t426 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m28280_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyToCheck_m30618(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t454 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m29753_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m29146(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t698  (*) (Object_t * /* static, unused */, int32_t, Hashtable_t436 *, const MethodInfo*))Dictionary_2_make_pair_m28282_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m30619(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t767  (*) (Object_t * /* static, unused */, int32_t, Hashtable_t464 *, const MethodInfo*))Dictionary_2_make_pair_m29755_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m29147(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, Hashtable_t436 *, const MethodInfo*))Dictionary_2_pick_key_m28284_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_key_m30620(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, Hashtable_t464 *, const MethodInfo*))Dictionary_2_pick_key_m29757_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m29148(__this /* static, unused */, ___key, ___value, method) (( Hashtable_t436 * (*) (Object_t * /* static, unused */, int32_t, Hashtable_t436 *, const MethodInfo*))Dictionary_2_pick_value_m28286_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_value_m30621(__this /* static, unused */, ___key, ___value, method) (( Hashtable_t464 * (*) (Object_t * /* static, unused */, int32_t, Hashtable_t464 *, const MethodInfo*))Dictionary_2_pick_value_m29759_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_CopyTo_m29149(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t426 *, KeyValuePair_2U5BU5D_t9769*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m28288_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyTo_m30622(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t454 *, KeyValuePair_2U5BU5D_t10068*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m29761_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::Resize()
-#define Dictionary_2_Resize_m29150(__this, method) (( void (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_Resize_m28290_gshared)(__this, method)
+#define Dictionary_2_Resize_m30623(__this, method) (( void (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_Resize_m29763_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::Add(TKey,TValue)
-#define Dictionary_2_Add_m29151(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t426 *, int32_t, Hashtable_t436 *, const MethodInfo*))Dictionary_2_Add_m28292_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_Add_m30624(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t454 *, int32_t, Hashtable_t464 *, const MethodInfo*))Dictionary_2_Add_m29765_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::Clear()
-#define Dictionary_2_Clear_m29152(__this, method) (( void (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_Clear_m28294_gshared)(__this, method)
+#define Dictionary_2_Clear_m30625(__this, method) (( void (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_Clear_m29767_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::ContainsKey(TKey)
-#define Dictionary_2_ContainsKey_m29153(__this, ___key, method) (( bool (*) (Dictionary_2_t426 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m28296_gshared)(__this, ___key, method)
+#define Dictionary_2_ContainsKey_m30626(__this, ___key, method) (( bool (*) (Dictionary_2_t454 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m29769_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::ContainsValue(TValue)
-#define Dictionary_2_ContainsValue_m29154(__this, ___value, method) (( bool (*) (Dictionary_2_t426 *, Hashtable_t436 *, const MethodInfo*))Dictionary_2_ContainsValue_m28298_gshared)(__this, ___value, method)
+#define Dictionary_2_ContainsValue_m30627(__this, ___value, method) (( bool (*) (Dictionary_2_t454 *, Hashtable_t464 *, const MethodInfo*))Dictionary_2_ContainsValue_m29771_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2_GetObjectData_m29155(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t426 *, SerializationInfo_t3058 *, StreamingContext_t3059 , const MethodInfo*))Dictionary_2_GetObjectData_m28300_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2_GetObjectData_m30628(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t454 *, SerializationInfo_t3296 *, StreamingContext_t3297 , const MethodInfo*))Dictionary_2_GetObjectData_m29773_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::OnDeserialization(System.Object)
-#define Dictionary_2_OnDeserialization_m29156(__this, ___sender, method) (( void (*) (Dictionary_2_t426 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m28302_gshared)(__this, ___sender, method)
+#define Dictionary_2_OnDeserialization_m30629(__this, ___sender, method) (( void (*) (Dictionary_2_t454 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m29775_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::Remove(TKey)
-#define Dictionary_2_Remove_m29157(__this, ___key, method) (( bool (*) (Dictionary_2_t426 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m28304_gshared)(__this, ___key, method)
+#define Dictionary_2_Remove_m30630(__this, ___key, method) (( bool (*) (Dictionary_2_t454 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m29777_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m29158(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t426 *, int32_t, Hashtable_t436 **, const MethodInfo*))Dictionary_2_TryGetValue_m28306_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_TryGetValue_m30631(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t454 *, int32_t, Hashtable_t464 **, const MethodInfo*))Dictionary_2_TryGetValue_m29779_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::get_Keys()
-#define Dictionary_2_get_Keys_m29159(__this, method) (( KeyCollection_t6309 * (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_get_Keys_m28307_gshared)(__this, method)
+#define Dictionary_2_get_Keys_m30632(__this, method) (( KeyCollection_t6637 * (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_get_Keys_m29780_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::get_Values()
-#define Dictionary_2_get_Values_m29160(__this, method) (( ValueCollection_t6310 * (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_get_Values_m28308_gshared)(__this, method)
+#define Dictionary_2_get_Values_m30633(__this, method) (( ValueCollection_t6638 * (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_get_Values_m29781_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::ToTKey(System.Object)
-#define Dictionary_2_ToTKey_m29161(__this, ___key, method) (( int32_t (*) (Dictionary_2_t426 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m28310_gshared)(__this, ___key, method)
+#define Dictionary_2_ToTKey_m30634(__this, ___key, method) (( int32_t (*) (Dictionary_2_t454 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m29783_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::ToTValue(System.Object)
-#define Dictionary_2_ToTValue_m29162(__this, ___value, method) (( Hashtable_t436 * (*) (Dictionary_2_t426 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m28312_gshared)(__this, ___value, method)
+#define Dictionary_2_ToTValue_m30635(__this, ___value, method) (( Hashtable_t464 * (*) (Dictionary_2_t454 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m29785_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_ContainsKeyValuePair_m29163(__this, ___pair, method) (( bool (*) (Dictionary_2_t426 *, KeyValuePair_2_t698 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m28314_gshared)(__this, ___pair, method)
+#define Dictionary_2_ContainsKeyValuePair_m30636(__this, ___pair, method) (( bool (*) (Dictionary_2_t454 *, KeyValuePair_2_t767 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m29787_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::GetEnumerator()
-#define Dictionary_2_GetEnumerator_m3245(__this, method) (( Enumerator_t699  (*) (Dictionary_2_t426 *, const MethodInfo*))Dictionary_2_GetEnumerator_m28316_gshared)(__this, method)
+#define Dictionary_2_GetEnumerator_m3474(__this, method) (( Enumerator_t768  (*) (Dictionary_2_t454 *, const MethodInfo*))Dictionary_2_GetEnumerator_m29789_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>::<CopyTo>m__0(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__0_m29164(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t679  (*) (Object_t * /* static, unused */, int32_t, Hashtable_t436 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m28318_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__0_m30637(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t748  (*) (Object_t * /* static, unused */, int32_t, Hashtable_t464 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m29791_gshared)(__this /* static, unused */, ___key, ___value, method)

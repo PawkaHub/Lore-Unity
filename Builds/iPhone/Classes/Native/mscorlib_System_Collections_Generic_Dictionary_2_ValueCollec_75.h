@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__52.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>
-struct  Enumerator_t7919 
+struct  Enumerator_t8201 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>::host_enumerator
-	Enumerator_t7916  ___host_enumerator_0;
+	Enumerator_t8198  ___host_enumerator_0;
 };

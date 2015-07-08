@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PunTeams/Team
-struct Team_t522;
+struct Team_t549;
 

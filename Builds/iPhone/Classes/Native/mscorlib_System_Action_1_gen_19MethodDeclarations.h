@@ -4,26 +4,24 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>
-struct Action_1_t4447;
+// System.Action`1<System.Boolean>
+struct Action_1_t4683;
 // System.Object
 struct Object_t;
-// UnityEngine.SocialPlatforms.IAchievement[]
-struct IAchievementU5BU5D_t4674;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>::.ctor(System.Object,System.IntPtr)
-// System.Action`1<System.Object>
-#include "mscorlib_System_Action_1_gen_22MethodDeclarations.h"
-#define Action_1__ctor_m68603(__this, ___object, ___method, method) (( void (*) (Action_1_t4447 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m31792_gshared)(__this, ___object, ___method, method)
-// System.Void System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>::Invoke(T)
-#define Action_1_Invoke_m68604(__this, ___obj, method) (( void (*) (Action_1_t4447 *, IAchievementU5BU5D_t4674*, const MethodInfo*))Action_1_Invoke_m31794_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m68605(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t4447 *, IAchievementU5BU5D_t4674*, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m31796_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Void System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m68606(__this, ___result, method) (( void (*) (Action_1_t4447 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m31798_gshared)(__this, ___result, method)
+// System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
+// System.Action`1<System.Byte>
+#include "mscorlib_System_Action_1_gen_57MethodDeclarations.h"
+#define Action_1__ctor_m69500(__this, ___object, ___method, method) (( void (*) (Action_1_t4683 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m69501_gshared)(__this, ___object, ___method, method)
+// System.Void System.Action`1<System.Boolean>::Invoke(T)
+#define Action_1_Invoke_m69502(__this, ___obj, method) (( void (*) (Action_1_t4683 *, bool, const MethodInfo*))Action_1_Invoke_m69503_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Action`1<System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Action_1_BeginInvoke_m69504(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t4683 *, bool, AsyncCallback_t477 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m69505_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Void System.Action`1<System.Boolean>::EndInvoke(System.IAsyncResult)
+#define Action_1_EndInvoke_m69506(__this, ___result, method) (( void (*) (Action_1_t4683 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m69507_gshared)(__this, ___result, method)

@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.ConditionPriority
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ConditionPriorit.h"
 // PixelCrushers.DialogueSystem.ConditionPriority
-struct  ConditionPriority_t1113 
+struct  ConditionPriority_t1372 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.ConditionPriority::value__
 	int32_t ___value___1;

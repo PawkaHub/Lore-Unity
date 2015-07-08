@@ -9,7 +9,7 @@ struct String_t;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // WorkerMenu
-struct  WorkerMenu_t376  : public MonoBehaviour_t47
+struct  WorkerMenu_t404  : public MonoBehaviour_t47
 {
 	// UnityEngine.GUISkin WorkerMenu::Skin
 	GUISkin_t197 * ___Skin_2;
@@ -26,7 +26,7 @@ struct  WorkerMenu_t376  : public MonoBehaviour_t47
 	// System.Double WorkerMenu::timeToClearDialog
 	double ___timeToClearDialog_10;
 };
-struct WorkerMenu_t376_StaticFields{
+struct WorkerMenu_t404_StaticFields{
 	// System.String WorkerMenu::SceneNameMenu
 	String_t* ___SceneNameMenu_7;
 	// System.String WorkerMenu::SceneNameGame

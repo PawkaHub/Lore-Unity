@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PhotonTransformViewRotationModel
-struct PhotonTransformViewRotationModel_t490;
+struct PhotonTransformViewRotationModel_t517;
 
 // System.Void PhotonTransformViewRotationModel::.ctor()
-extern "C" void PhotonTransformViewRotationModel__ctor_m2145 (PhotonTransformViewRotationModel_t490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonTransformViewRotationModel__ctor_m2191 (PhotonTransformViewRotationModel_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

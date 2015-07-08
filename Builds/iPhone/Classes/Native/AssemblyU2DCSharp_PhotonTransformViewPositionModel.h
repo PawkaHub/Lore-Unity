@@ -10,7 +10,7 @@ struct AnimationCurve_t98_marshaled;
 // PhotonTransformViewPositionModel/ExtrapolateOptions
 #include "AssemblyU2DCSharp_PhotonTransformViewPositionModel_Extrapola.h"
 // PhotonTransformViewPositionModel
-struct  PhotonTransformViewPositionModel_t489  : public Object_t
+struct  PhotonTransformViewPositionModel_t516  : public Object_t
 {
 	// System.Boolean PhotonTransformViewPositionModel::SynchronizeEnabled
 	bool ___SynchronizeEnabled_0;

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>
-struct Enumerator_t6272;
+struct Enumerator_t6600;
 // System.Object
 struct Object_t;
 // PhotonPlayer
-struct PhotonPlayer_t432;
+struct PhotonPlayer_t460;
 // System.Collections.Generic.Dictionary`2<System.Int32,PhotonPlayer>
-struct Dictionary_2_t418;
+struct Dictionary_2_t446;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,PhotonPlayer>
@@ -20,30 +20,30 @@ struct Dictionary_2_t418;
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__12MethodDeclarations.h"
-#define Enumerator__ctor_m28445(__this, ___dictionary, method) (( void (*) (Enumerator_t6272 *, Dictionary_2_t418 *, const MethodInfo*))Enumerator__ctor_m28351_gshared)(__this, ___dictionary, method)
+#define Enumerator__ctor_m29918(__this, ___dictionary, method) (( void (*) (Enumerator_t6600 *, Dictionary_2_t446 *, const MethodInfo*))Enumerator__ctor_m29824_gshared)(__this, ___dictionary, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m28446(__this, method) (( Object_t * (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m28352_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m29919(__this, method) (( Object_t * (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m29825_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m28447(__this, method) (( void (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m28353_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m29920(__this, method) (( void (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m29826_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::System.Collections.IDictionaryEnumerator.get_Entry()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m28448(__this, method) (( DictionaryEntry_t679  (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m28354_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m29921(__this, method) (( DictionaryEntry_t748  (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m29827_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::System.Collections.IDictionaryEnumerator.get_Key()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m28449(__this, method) (( Object_t * (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m28355_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m29922(__this, method) (( Object_t * (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m29828_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::System.Collections.IDictionaryEnumerator.get_Value()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m28450(__this, method) (( Object_t * (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m28356_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m29923(__this, method) (( Object_t * (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Value_m29829_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::MoveNext()
-#define Enumerator_MoveNext_m28451(__this, method) (( bool (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_MoveNext_m28357_gshared)(__this, method)
+#define Enumerator_MoveNext_m29924(__this, method) (( bool (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_MoveNext_m29830_gshared)(__this, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::get_Current()
-#define Enumerator_get_Current_m28452(__this, method) (( KeyValuePair_2_t6271  (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_get_Current_m28358_gshared)(__this, method)
+#define Enumerator_get_Current_m29925(__this, method) (( KeyValuePair_2_t6599  (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_get_Current_m29831_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::get_CurrentKey()
-#define Enumerator_get_CurrentKey_m28453(__this, method) (( int32_t (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_get_CurrentKey_m28359_gshared)(__this, method)
+#define Enumerator_get_CurrentKey_m29926(__this, method) (( int32_t (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_get_CurrentKey_m29832_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::get_CurrentValue()
-#define Enumerator_get_CurrentValue_m28454(__this, method) (( PhotonPlayer_t432 * (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_get_CurrentValue_m28360_gshared)(__this, method)
+#define Enumerator_get_CurrentValue_m29927(__this, method) (( PhotonPlayer_t460 * (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_get_CurrentValue_m29833_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::Reset()
-#define Enumerator_Reset_m28455(__this, method) (( void (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_Reset_m28361_gshared)(__this, method)
+#define Enumerator_Reset_m29928(__this, method) (( void (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_Reset_m29834_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::VerifyState()
-#define Enumerator_VerifyState_m28456(__this, method) (( void (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_VerifyState_m28362_gshared)(__this, method)
+#define Enumerator_VerifyState_m29929(__this, method) (( void (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_VerifyState_m29835_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::VerifyCurrent()
-#define Enumerator_VerifyCurrent_m28457(__this, method) (( void (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_VerifyCurrent_m28363_gshared)(__this, method)
+#define Enumerator_VerifyCurrent_m29930(__this, method) (( void (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_VerifyCurrent_m29836_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,PhotonPlayer>::Dispose()
-#define Enumerator_Dispose_m28458(__this, method) (( void (*) (Enumerator_t6272 *, const MethodInfo*))Enumerator_Dispose_m28364_gshared)(__this, method)
+#define Enumerator_Dispose_m29931(__this, method) (( void (*) (Enumerator_t6600 *, const MethodInfo*))Enumerator_Dispose_m29837_gshared)(__this, method)

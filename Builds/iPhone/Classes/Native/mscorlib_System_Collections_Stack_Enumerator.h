@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Stack
-struct Stack_t3828;
+struct Stack_t4066;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Stack/Enumerator
-struct  Enumerator_t5031  : public Object_t
+struct  Enumerator_t5269  : public Object_t
 {
 	// System.Collections.Stack System.Collections.Stack/Enumerator::stack
-	Stack_t3828 * ___stack_0;
+	Stack_t4066 * ___stack_0;
 	// System.Int32 System.Collections.Stack/Enumerator::modCount
 	int32_t ___modCount_1;
 	// System.Int32 System.Collections.Stack/Enumerator::current

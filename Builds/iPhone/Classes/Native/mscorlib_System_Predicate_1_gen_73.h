@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.Response
-struct Response_t235;
+// PixelCrushers.DialogueSystem.ChatMapper.Item
+struct Item_t1420;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<PixelCrushers.DialogueSystem.Response>
-struct  Predicate_1_t6674  : public MulticastDelegate_t451
+// System.Predicate`1<PixelCrushers.DialogueSystem.ChatMapper.Item>
+struct  Predicate_1_t6970  : public MulticastDelegate_t479
 {
 };

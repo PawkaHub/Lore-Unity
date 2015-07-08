@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Xml.XmlNamespaceManager/NsScope
-struct  NsScope_t3868 
+struct  NsScope_t4106 
 {
 	// System.Int32 System.Xml.XmlNamespaceManager/NsScope::DeclCount
 	int32_t ___DeclCount_0;
@@ -13,7 +13,7 @@ struct  NsScope_t3868
 	String_t* ___DefaultNamespace_1;
 };
 // Native definition for marshalling of: System.Xml.XmlNamespaceManager/NsScope
-struct NsScope_t3868_marshaled
+struct NsScope_t4106_marshaled
 {
 	int32_t ___DeclCount_0;
 	char* ___DefaultNamespace_1;

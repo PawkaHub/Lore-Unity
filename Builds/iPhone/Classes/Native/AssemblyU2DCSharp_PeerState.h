@@ -5,7 +5,7 @@
 // PeerState
 #include "AssemblyU2DCSharp_PeerState.h"
 // PeerState
-struct  PeerState_t397 
+struct  PeerState_t425 
 {
 	// System.Int32 PeerState::value__
 	int32_t ___value___1;

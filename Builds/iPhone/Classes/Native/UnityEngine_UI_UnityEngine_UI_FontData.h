@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Font
-struct Font_t529;
+struct Font_t556;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.FontStyle
@@ -13,10 +13,10 @@ struct Font_t529;
 // UnityEngine.VerticalWrapMode
 #include "UnityEngine_UnityEngine_VerticalWrapMode.h"
 // UnityEngine.UI.FontData
-struct  FontData_t842  : public Object_t
+struct  FontData_t1131  : public Object_t
 {
 	// UnityEngine.Font UnityEngine.UI.FontData::m_Font
-	Font_t529 * ___m_Font_0;
+	Font_t556 * ___m_Font_0;
 	// System.Int32 UnityEngine.UI.FontData::m_FontSize
 	int32_t ___m_FontSize_1;
 	// UnityEngine.FontStyle UnityEngine.UI.FontData::m_FontStyle

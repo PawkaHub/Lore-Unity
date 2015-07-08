@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ExitGames.Client.Photon.PeerStateValue
-struct PeerStateValue_t705;
+struct PeerStateValue_t773;
 

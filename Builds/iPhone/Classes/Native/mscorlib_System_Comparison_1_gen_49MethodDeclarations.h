@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct Comparison_1_t6535;
+// System.Comparison`1<UnityEngine.UI.Text>
+struct Comparison_1_t6812;
 // System.Object
 struct Object_t;
-// UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t903;
+// UnityEngine.UI.Text
+struct Text_t212;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Comparison`1<UnityEngine.UI.Text>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_5MethodDeclarations.h"
-#define Comparison_1__ctor_m32819(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6535 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m24033_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>::Invoke(T,T)
-#define Comparison_1_Invoke_m32820(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6535 *, MatEntry_t903 *, MatEntry_t903 *, const MethodInfo*))Comparison_1_Invoke_m24034_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m32821(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6535 *, MatEntry_t903 *, MatEntry_t903 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m24035_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m32822(__this, ___result, method) (( int32_t (*) (Comparison_1_t6535 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m24036_gshared)(__this, ___result, method)
+#define Comparison_1__ctor_m33367(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6812 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m24450_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<UnityEngine.UI.Text>::Invoke(T,T)
+#define Comparison_1_Invoke_m33368(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6812 *, Text_t212 *, Text_t212 *, const MethodInfo*))Comparison_1_Invoke_m24451_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<UnityEngine.UI.Text>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m33369(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6812 *, Text_t212 *, Text_t212 *, AsyncCallback_t477 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m24452_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<UnityEngine.UI.Text>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m33370(__this, ___result, method) (( int32_t (*) (Comparison_1_t6812 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m24453_gshared)(__this, ___result, method)

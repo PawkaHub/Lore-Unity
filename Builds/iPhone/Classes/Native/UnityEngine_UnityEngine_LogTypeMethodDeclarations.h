@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.LogType
-struct LogType_t767;
+struct LogType_t1044;
 

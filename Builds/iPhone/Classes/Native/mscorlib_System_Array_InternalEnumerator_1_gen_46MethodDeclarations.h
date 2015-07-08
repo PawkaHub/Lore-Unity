@@ -4,30 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<CubeInter/State>
-struct InternalEnumerator_1_t6253;
+// System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>
+struct InternalEnumerator_1_t6509;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
-// CubeInter/State
-#include "AssemblyU2DCSharp_CubeInter_State.h"
+// System.Collections.Generic.HashSet`1/Link<System.Object>
+#include "System_Core_System_Collections_Generic_HashSet_1_Link_gen.h"
 
-// System.Void System.Array/InternalEnumerator`1<CubeInter/State>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m28197_gshared (InternalEnumerator_1_t6253 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m28197(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6253 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m28197_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<CubeInter/State>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28198_gshared (InternalEnumerator_1_t6253 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28198(__this, method) (( void (*) (InternalEnumerator_1_t6253 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28198_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<CubeInter/State>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28199_gshared (InternalEnumerator_1_t6253 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28199(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6253 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28199_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<CubeInter/State>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m28200_gshared (InternalEnumerator_1_t6253 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m28200(__this, method) (( void (*) (InternalEnumerator_1_t6253 *, const MethodInfo*))InternalEnumerator_1_Dispose_m28200_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<CubeInter/State>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m28201_gshared (InternalEnumerator_1_t6253 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m28201(__this, method) (( bool (*) (InternalEnumerator_1_t6253 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m28201_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<CubeInter/State>::get_Current()
-extern "C" State_t366  InternalEnumerator_1_get_Current_m28202_gshared (InternalEnumerator_1_t6253 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m28202(__this, method) (( State_t366  (*) (InternalEnumerator_1_t6253 *, const MethodInfo*))InternalEnumerator_1_get_Current_m28202_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m28889_gshared (InternalEnumerator_1_t6509 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m28889(__this, ___array, method) (( void (*) (InternalEnumerator_1_t6509 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m28889_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28890_gshared (InternalEnumerator_1_t6509 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28890(__this, method) (( void (*) (InternalEnumerator_1_t6509 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m28890_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28891_gshared (InternalEnumerator_1_t6509 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28891(__this, method) (( Object_t * (*) (InternalEnumerator_1_t6509 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m28891_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m28892_gshared (InternalEnumerator_1_t6509 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m28892(__this, method) (( void (*) (InternalEnumerator_1_t6509 *, const MethodInfo*))InternalEnumerator_1_Dispose_m28892_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m28893_gshared (InternalEnumerator_1_t6509 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m28893(__this, method) (( bool (*) (InternalEnumerator_1_t6509 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m28893_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Collections.Generic.HashSet`1/Link<System.Object>>::get_Current()
+extern "C" Link_t6508  InternalEnumerator_1_get_Current_m28894_gshared (InternalEnumerator_1_t6509 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m28894(__this, method) (( Link_t6508  (*) (InternalEnumerator_1_t6509 *, const MethodInfo*))InternalEnumerator_1_get_Current_m28894_gshared)(__this, method)

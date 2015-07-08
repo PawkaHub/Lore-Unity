@@ -5,7 +5,7 @@
 // Language.Lua.Associativity
 #include "LuaInterpreter_Language_Lua_Associativity.h"
 // Language.Lua.Associativity
-struct  Associativity_t3541 
+struct  Associativity_t3779 
 {
 	// System.Int32 Language.Lua.Associativity::value__
 	int32_t ___value___1;

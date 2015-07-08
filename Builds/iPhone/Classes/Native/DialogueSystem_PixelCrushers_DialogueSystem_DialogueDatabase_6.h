@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.DialogueDatabase/<GetLocation>c__AnonStorey27
-struct  U3CGetLocationU3Ec__AnonStorey27_t1125  : public Object_t
+struct  U3CGetLocationU3Ec__AnonStorey27_t1384  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.DialogueDatabase/<GetLocation>c__AnonStorey27::locationName
 	String_t* ___locationName_0;

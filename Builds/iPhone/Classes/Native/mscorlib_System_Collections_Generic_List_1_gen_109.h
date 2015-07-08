@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// ExitGames.Client.Photon.NCommand[]
-struct NCommandU5BU5D_t9509;
+// System.Type[]
+struct TypeU5BU5D_t636;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>
-struct  List_1_t4864  : public Object_t
+// System.Collections.Generic.List`1<System.Type>
+struct  List_1_t4938  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_items
-	NCommandU5BU5D_t9509* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_size
+	// T[] System.Collections.Generic.List`1<System.Type>::_items
+	TypeU5BU5D_t636* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Type>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Type>::_version
 	int32_t ____version_3;
 };
-struct List_1_t4864_StaticFields{
-	// T[] System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::EmptyArray
-	NCommandU5BU5D_t9509* ___EmptyArray_4;
+struct List_1_t4938_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Type>::EmptyArray
+	TypeU5BU5D_t636* ___EmptyArray_4;
 };

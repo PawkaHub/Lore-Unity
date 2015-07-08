@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.UnityGUI.GUIEffectTrigger
-struct GUIEffectTrigger_t1369;
+struct GUIEffectTrigger_t1628;
 

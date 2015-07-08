@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.UnityGUI.GUIProgressBar/Origin
-struct Origin_t1355;
+struct Origin_t1614;
 

@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // QuitOnEscapeOrBack
-struct  QuitOnEscapeOrBack_t526  : public MonoBehaviour_t47
+struct  QuitOnEscapeOrBack_t553  : public MonoBehaviour_t47
 {
 };

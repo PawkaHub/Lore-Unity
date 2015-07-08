@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.XmlAnyAttributeAttribute
-struct XmlAnyAttributeAttribute_t3720;
+struct XmlAnyAttributeAttribute_t3958;
 

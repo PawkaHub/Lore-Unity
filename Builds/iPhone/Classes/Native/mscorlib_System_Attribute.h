@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Attribute
-struct  Attribute_t471  : public Object_t
+struct  Attribute_t335  : public Object_t
 {
 };

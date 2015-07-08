@@ -5,7 +5,7 @@
 // System.Net.SecurityProtocolType
 #include "System_System_Net_SecurityProtocolType.h"
 // System.Net.SecurityProtocolType
-struct  SecurityProtocolType_t4072 
+struct  SecurityProtocolType_t4310 
 {
 	// System.Int32 System.Net.SecurityProtocolType::value__
 	int32_t ___value___1;

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // PixelCrushers.DialogueSystem.Usable[]
-struct UsableU5BU5D_t6207;
+struct UsableU5BU5D_t6445;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Usable>
 struct  List_1_t302  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Usable>::_items
-	UsableU5BU5D_t6207* ____items_1;
+	UsableU5BU5D_t6445* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Usable>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Usable>::_version
@@ -16,5 +16,5 @@ struct  List_1_t302  : public Object_t
 };
 struct List_1_t302_StaticFields{
 	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Usable>::EmptyArray
-	UsableU5BU5D_t6207* ___EmptyArray_4;
+	UsableU5BU5D_t6445* ___EmptyArray_4;
 };

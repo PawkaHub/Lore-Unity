@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.UnityGUI.ScaledRectAlignment
 #include "DialogueSystem_PixelCrushers_DialogueSystem_UnityGUI_ScaledR_0.h"
 // PixelCrushers.DialogueSystem.UnityGUI.ScaledRectAlignment
-struct  ScaledRectAlignment_t1376 
+struct  ScaledRectAlignment_t1635 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.UnityGUI.ScaledRectAlignment::value__
 	int32_t ___value___1;

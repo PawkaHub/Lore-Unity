@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t1658;
+struct Hashtable_t1909;
 // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-struct BinaryFormatter_t5223;
+struct BinaryFormatter_t5461;
 // System.String
 struct String_t;
 // System.Reflection.MethodInfo
@@ -13,16 +13,16 @@ struct MethodInfo_t;
 // System.Reflection.BindingFlags
 #include "mscorlib_System_Reflection_BindingFlags.h"
 // System.Runtime.Remoting.RemotingServices
-struct  RemotingServices_t5224  : public Object_t
+struct  RemotingServices_t5462  : public Object_t
 {
 };
-struct RemotingServices_t5224_StaticFields{
+struct RemotingServices_t5462_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingServices::uri_hash
-	Hashtable_t1658 * ___uri_hash_0;
+	Hashtable_t1909 * ___uri_hash_0;
 	// System.Runtime.Serialization.Formatters.Binary.BinaryFormatter System.Runtime.Remoting.RemotingServices::_serializationFormatter
-	BinaryFormatter_t5223 * ____serializationFormatter_1;
+	BinaryFormatter_t5461 * ____serializationFormatter_1;
 	// System.Runtime.Serialization.Formatters.Binary.BinaryFormatter System.Runtime.Remoting.RemotingServices::_deserializationFormatter
-	BinaryFormatter_t5223 * ____deserializationFormatter_2;
+	BinaryFormatter_t5461 * ____deserializationFormatter_2;
 	// System.String System.Runtime.Remoting.RemotingServices::app_id
 	String_t* ___app_id_3;
 	// System.Int32 System.Runtime.Remoting.RemotingServices::next_id

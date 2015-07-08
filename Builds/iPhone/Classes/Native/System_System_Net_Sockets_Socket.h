@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Queue
-struct Queue_t3771;
+struct Queue_t4009;
 // System.Threading.Thread
-struct Thread_t1801;
+struct Thread_t628;
 // System.Net.EndPoint
-struct EndPoint_t4004;
+struct EndPoint_t4242;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object
@@ -19,12 +19,12 @@ struct MethodInfo_t;
 // System.Net.Sockets.ProtocolType
 #include "System_System_Net_Sockets_ProtocolType.h"
 // System.Net.Sockets.Socket
-struct  Socket_t3998  : public Object_t
+struct  Socket_t4236  : public Object_t
 {
 	// System.Collections.Queue System.Net.Sockets.Socket::readQ
-	Queue_t3771 * ___readQ_0;
+	Queue_t4009 * ___readQ_0;
 	// System.Collections.Queue System.Net.Sockets.Socket::writeQ
-	Queue_t3771 * ___writeQ_1;
+	Queue_t4009 * ___writeQ_1;
 	// System.Boolean System.Net.Sockets.Socket::islistening
 	bool ___islistening_2;
 	// System.Int32 System.Net.Sockets.Socket::MinListenPort
@@ -44,7 +44,7 @@ struct  Socket_t3998  : public Object_t
 	// System.Boolean System.Net.Sockets.Socket::blocking
 	bool ___blocking_12;
 	// System.Threading.Thread System.Net.Sockets.Socket::blocking_thread
-	Thread_t1801 * ___blocking_thread_13;
+	Thread_t628 * ___blocking_thread_13;
 	// System.Boolean System.Net.Sockets.Socket::isbound
 	bool ___isbound_14;
 	// System.Int32 System.Net.Sockets.Socket::max_bind_count
@@ -56,9 +56,9 @@ struct  Socket_t3998  : public Object_t
 	// System.Boolean System.Net.Sockets.Socket::disposed
 	bool ___disposed_19;
 	// System.Net.EndPoint System.Net.Sockets.Socket::seed_endpoint
-	EndPoint_t4004 * ___seed_endpoint_20;
+	EndPoint_t4242 * ___seed_endpoint_20;
 };
-struct Socket_t3998_StaticFields{
+struct Socket_t4236_StaticFields{
 	// System.Int32 System.Net.Sockets.Socket::ipv4Supported
 	int32_t ___ipv4Supported_5;
 	// System.Int32 System.Net.Sockets.Socket::ipv6Supported

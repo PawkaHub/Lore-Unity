@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Principal.PrincipalPolicy
-struct PrincipalPolicy_t5312;
+struct PrincipalPolicy_t5550;
 

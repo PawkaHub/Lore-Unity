@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Xml.NameTable/Entry
-struct Entry_t3832;
+struct Entry_t4070;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.NameTable/Entry
-struct  Entry_t3832  : public Object_t
+struct  Entry_t4070  : public Object_t
 {
 	// System.String System.Xml.NameTable/Entry::str
 	String_t* ___str_0;
@@ -16,5 +16,5 @@ struct  Entry_t3832  : public Object_t
 	// System.Int32 System.Xml.NameTable/Entry::len
 	int32_t ___len_2;
 	// System.Xml.NameTable/Entry System.Xml.NameTable/Entry::next
-	Entry_t3832 * ___next_3;
+	Entry_t4070 * ___next_3;
 };

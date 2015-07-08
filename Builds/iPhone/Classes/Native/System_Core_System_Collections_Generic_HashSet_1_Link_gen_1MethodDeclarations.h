@@ -4,6 +4,6 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.HashSet`1/Link<System.Int32>
-struct Link_t6301;
+// System.Collections.Generic.HashSet`1/Link<PickupItem>
+struct Link_t6568;
 

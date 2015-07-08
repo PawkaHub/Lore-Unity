@@ -5,7 +5,7 @@ struct Rigidbody_t100;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PhotonRigidbodyView
-struct  PhotonRigidbodyView_t488  : public MonoBehaviour_t47
+struct  PhotonRigidbodyView_t515  : public MonoBehaviour_t47
 {
 	// System.Boolean PhotonRigidbodyView::m_SynchronizeVelocity
 	bool ___m_SynchronizeVelocity_2;

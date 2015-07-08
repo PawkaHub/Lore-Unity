@@ -7,7 +7,7 @@ struct Transform_t54;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // MoveCam
-struct  MoveCam_t347  : public MonoBehaviour_t47
+struct  MoveCam_t375  : public MonoBehaviour_t47
 {
 	// UnityEngine.Vector3 MoveCam::originalPos
 	Vector3_t53  ___originalPos_2;

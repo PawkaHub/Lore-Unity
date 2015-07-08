@@ -5,7 +5,7 @@
 // MatchmakingMode
 #include "AssemblyU2DCSharp_MatchmakingMode.h"
 // MatchmakingMode
-struct  MatchmakingMode_t415 
+struct  MatchmakingMode_t443 
 {
 	// System.Byte MatchmakingMode::value__
 	uint8_t ___value___1;

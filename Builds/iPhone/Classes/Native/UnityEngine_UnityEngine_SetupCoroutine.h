@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.SetupCoroutine
-struct  SetupCoroutine_t4600  : public Object_t
+struct  SetupCoroutine_t4838  : public Object_t
 {
 };

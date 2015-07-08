@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlOutputMethod
-struct XmlOutputMethod_t3881;
+struct XmlOutputMethod_t4119;
 

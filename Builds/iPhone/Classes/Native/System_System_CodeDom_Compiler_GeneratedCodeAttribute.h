@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.CodeDom.Compiler.GeneratedCodeAttribute
-struct  GeneratedCodeAttribute_t3958  : public Attribute_t471
+struct  GeneratedCodeAttribute_t4196  : public Attribute_t335
 {
 	// System.String System.CodeDom.Compiler.GeneratedCodeAttribute::tool
 	String_t* ___tool_0;

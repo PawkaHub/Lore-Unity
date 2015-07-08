@@ -5,7 +5,7 @@
 // System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
 #include "mscorlib_System_Security_Cryptography_X509Certificates_X509K.h"
 // System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
-struct  X509KeyStorageFlags_t4307 
+struct  X509KeyStorageFlags_t4545 
 {
 	// System.Int32 System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::value__
 	int32_t ___value___1;

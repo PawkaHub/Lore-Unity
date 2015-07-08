@@ -7,7 +7,7 @@ struct String_t;
 // UnityEngine.KeyCode
 #include "UnityEngine_UnityEngine_KeyCode.h"
 // PixelCrushers.DialogueSystem.InputTrigger
-struct  InputTrigger_t1241  : public Object_t
+struct  InputTrigger_t1500  : public Object_t
 {
 	// UnityEngine.KeyCode PixelCrushers.DialogueSystem.InputTrigger::key
 	int32_t ___key_0;

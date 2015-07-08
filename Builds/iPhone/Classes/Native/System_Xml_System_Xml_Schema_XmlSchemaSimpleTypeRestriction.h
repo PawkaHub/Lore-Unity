@@ -7,10 +7,10 @@
 // System.Xml.Schema.XmlSchemaFacet/Facet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet_Facet.h"
 // System.Xml.Schema.XmlSchemaSimpleTypeRestriction
-struct  XmlSchemaSimpleTypeRestriction_t3704  : public XmlSchemaSimpleTypeContent_t3702
+struct  XmlSchemaSimpleTypeRestriction_t3942  : public XmlSchemaSimpleTypeContent_t3940
 {
 };
-struct XmlSchemaSimpleTypeRestriction_t3704_StaticFields{
+struct XmlSchemaSimpleTypeRestriction_t3942_StaticFields{
 	// System.Globalization.NumberStyles System.Xml.Schema.XmlSchemaSimpleTypeRestriction::lengthStyle
 	int32_t ___lengthStyle_3;
 	// System.Xml.Schema.XmlSchemaFacet/Facet System.Xml.Schema.XmlSchemaSimpleTypeRestriction::listFacets

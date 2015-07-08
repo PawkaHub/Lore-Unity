@@ -5,7 +5,7 @@
 // CloudRegionCode
 #include "AssemblyU2DCSharp_CloudRegionCode.h"
 // CloudRegionCode
-struct  CloudRegionCode_t393 
+struct  CloudRegionCode_t421 
 {
 	// System.Int32 CloudRegionCode::value__
 	int32_t ___value___1;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GUICustomAuth/GuiState
-struct GuiState_t340;
+struct GuiState_t368;
 

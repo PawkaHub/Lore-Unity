@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<PhotonHandler>
-struct  InternalEnumerator_1_t6352 
+// System.Array/InternalEnumerator`1<PhotonView>
+struct  InternalEnumerator_1_t6601 
 {
-	// System.Array System.Array/InternalEnumerator`1<PhotonHandler>::array
+	// System.Array System.Array/InternalEnumerator`1<PhotonView>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<PhotonHandler>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<PhotonView>::idx
 	int32_t ___idx_1;
 };

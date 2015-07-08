@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.LuaWatchFrequency
-struct LuaWatchFrequency_t1097;
+struct LuaWatchFrequency_t1356;
 

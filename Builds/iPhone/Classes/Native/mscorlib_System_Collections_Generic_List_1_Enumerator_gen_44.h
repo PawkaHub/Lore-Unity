@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Vector3>
-struct List_1_t63;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t2;
+// System.Object
+struct Object_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// UnityEngine.Vector3
-#include "UnityEngine_UnityEngine_Vector3.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>
-struct  Enumerator_t6055 
+// System.Collections.Generic.List`1/Enumerator<System.Object>
+struct  Enumerator_t6205 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::l
-	List_1_t63 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Object>::l
+	List_1_t2 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Object>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Object>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::current
-	Vector3_t53  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Object>::current
+	Object_t * ___current_3;
 };

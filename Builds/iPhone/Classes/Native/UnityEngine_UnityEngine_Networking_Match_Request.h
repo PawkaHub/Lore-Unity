@@ -7,7 +7,7 @@
 // UnityEngine.Networking.Types.AppID
 #include "UnityEngine_UnityEngine_Networking_Types_AppID.h"
 // UnityEngine.Networking.Match.Request
-struct  Request_t4552  : public Object_t
+struct  Request_t4790  : public Object_t
 {
 	// System.Int32 UnityEngine.Networking.Match.Request::version
 	int32_t ___version_0;

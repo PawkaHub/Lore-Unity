@@ -7,7 +7,7 @@ struct Type_t;
 // System.Xml.Serialization.SerializationSource
 #include "System_Xml_System_Xml_Serialization_SerializationSource.h"
 // System.Xml.Serialization.XmlTypeSerializationSource
-struct  XmlTypeSerializationSource_t3715  : public SerializationSource_t3714
+struct  XmlTypeSerializationSource_t3953  : public SerializationSource_t3952
 {
 	// System.String System.Xml.Serialization.XmlTypeSerializationSource::attributeOverridesHash
 	String_t* ___attributeOverridesHash_3;

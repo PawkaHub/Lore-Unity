@@ -5,7 +5,7 @@
 // CustomAuthenticationType
 #include "AssemblyU2DCSharp_CustomAuthenticationType.h"
 // CustomAuthenticationType
-struct  CustomAuthenticationType_t416 
+struct  CustomAuthenticationType_t444 
 {
 	// System.Byte CustomAuthenticationType::value__
 	uint8_t ___value___1;

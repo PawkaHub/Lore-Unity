@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.HashSet`1/Link<Parse.ParseObject>
-struct Link_t7054;
+struct Link_t7341;
 

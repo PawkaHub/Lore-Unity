@@ -5,7 +5,7 @@
 // System.Security.Authentication.SslProtocols
 #include "System_System_Security_Authentication_SslProtocols.h"
 // System.Security.Authentication.SslProtocols
-struct  SslProtocols_t4088 
+struct  SslProtocols_t4326 
 {
 	// System.Int32 System.Security.Authentication.SslProtocols::value__
 	int32_t ___value___1;

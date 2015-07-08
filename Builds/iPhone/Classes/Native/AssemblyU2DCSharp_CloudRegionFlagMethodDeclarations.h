@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // CloudRegionFlag
-struct CloudRegionFlag_t394;
+struct CloudRegionFlag_t422;
 

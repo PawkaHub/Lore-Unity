@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // FriendInfo
-struct  FriendInfo_t402  : public Object_t
+struct  FriendInfo_t430  : public Object_t
 {
 	// System.String FriendInfo::<Name>k__BackingField
 	String_t* ___U3CNameU3Ek__BackingField_0;

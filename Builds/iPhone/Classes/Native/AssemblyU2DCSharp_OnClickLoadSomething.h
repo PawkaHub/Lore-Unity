@@ -7,7 +7,7 @@ struct String_t;
 // OnClickLoadSomething/ResourceTypeOption
 #include "AssemblyU2DCSharp_OnClickLoadSomething_ResourceTypeOption.h"
 // OnClickLoadSomething
-struct  OnClickLoadSomething_t512  : public MonoBehaviour_t47
+struct  OnClickLoadSomething_t539  : public MonoBehaviour_t47
 {
 	// OnClickLoadSomething/ResourceTypeOption OnClickLoadSomething::ResourceTypeToLoad
 	uint8_t ___ResourceTypeToLoad_2;

@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // StartGame
-struct  StartGame_t562  : public MonoBehaviour_t47
+struct  StartGame_t615  : public MonoBehaviour_t47
 {
 };

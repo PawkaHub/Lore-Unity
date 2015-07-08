@@ -5,10 +5,10 @@ struct ByteU5BU5D_t25;
 // System.Object
 #include "mscorlib_System_Object.h"
 // CustomTypes
-struct  CustomTypes_t388  : public Object_t
+struct  CustomTypes_t416  : public Object_t
 {
 };
-struct CustomTypes_t388_StaticFields{
+struct CustomTypes_t416_StaticFields{
 	// System.Byte[] CustomTypes::memVector3
 	ByteU5BU5D_t25* ___memVector3_0;
 	// System.Byte[] CustomTypes::memVector2

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.SerializationBinder
-struct  SerializationBinder_t5235  : public Object_t
+struct  SerializationBinder_t5473  : public Object_t
 {
 };

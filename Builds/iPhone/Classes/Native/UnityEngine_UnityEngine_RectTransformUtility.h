@@ -5,10 +5,10 @@ struct Vector3U5BU5D_t92;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.RectTransformUtility
-struct  RectTransformUtility_t725  : public Object_t
+struct  RectTransformUtility_t790  : public Object_t
 {
 };
-struct RectTransformUtility_t725_StaticFields{
+struct RectTransformUtility_t790_StaticFields{
 	// UnityEngine.Vector3[] UnityEngine.RectTransformUtility::s_Corners
 	Vector3U5BU5D_t92* ___s_Corners_0;
 };

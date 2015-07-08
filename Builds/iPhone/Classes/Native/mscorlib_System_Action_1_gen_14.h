@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Linq.Expressions.ElementInit
-struct ElementInit_t3019;
+// System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>
+struct Task_1_t1990;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<System.Linq.Expressions.ElementInit>
-struct  Action_1_t3068  : public MulticastDelegate_t451
+// System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>>
+struct  Action_1_t2730  : public MulticastDelegate_t479
 {
 };

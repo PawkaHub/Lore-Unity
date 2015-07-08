@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ViewSynchronization
-struct ViewSynchronization_t458;
+struct ViewSynchronization_t486;
 

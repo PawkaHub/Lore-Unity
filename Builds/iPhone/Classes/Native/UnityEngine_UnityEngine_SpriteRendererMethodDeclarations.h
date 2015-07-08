@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SpriteRenderer
-struct SpriteRenderer_t716;
+struct SpriteRenderer_t784;
 

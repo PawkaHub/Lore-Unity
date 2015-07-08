@@ -3,7 +3,7 @@
 // UnityEngine.GameObject
 struct GameObject_t49;
 // UnityEngine.Camera
-struct Camera_t356;
+struct Camera_t384;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -11,7 +11,7 @@ struct Camera_t356;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // InputToEvent
-struct  InputToEvent_t504  : public MonoBehaviour_t47
+struct  InputToEvent_t531  : public MonoBehaviour_t47
 {
 	// UnityEngine.GameObject InputToEvent::lastGo
 	GameObject_t49 * ___lastGo_2;
@@ -24,9 +24,9 @@ struct  InputToEvent_t504  : public MonoBehaviour_t47
 	// System.Boolean InputToEvent::Dragging
 	bool ___Dragging_7;
 	// UnityEngine.Camera InputToEvent::m_Camera
-	Camera_t356 * ___m_Camera_8;
+	Camera_t384 * ___m_Camera_8;
 };
-struct InputToEvent_t504_StaticFields{
+struct InputToEvent_t531_StaticFields{
 	// UnityEngine.Vector3 InputToEvent::inputHitPos
 	Vector3_t53  ___inputHitPos_3;
 	// UnityEngine.GameObject InputToEvent::<goPointedAt>k__BackingField

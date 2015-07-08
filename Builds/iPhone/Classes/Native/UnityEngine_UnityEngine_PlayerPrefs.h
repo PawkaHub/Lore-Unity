@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.PlayerPrefs
-struct  PlayerPrefs_t4520  : public Object_t
+struct  PlayerPrefs_t4758  : public Object_t
 {
 };

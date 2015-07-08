@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlWriterSettings
-struct XmlWriterSettings_t3915;
+struct XmlWriterSettings_t4153;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlWriter
-struct  XmlWriter_t3770  : public Object_t
+struct  XmlWriter_t4008  : public Object_t
 {
 	// System.Xml.XmlWriterSettings System.Xml.XmlWriter::settings
-	XmlWriterSettings_t3915 * ___settings_0;
+	XmlWriterSettings_t4153 * ___settings_0;
 };

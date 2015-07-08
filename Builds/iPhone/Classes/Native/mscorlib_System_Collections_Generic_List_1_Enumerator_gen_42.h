@@ -1,18 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Int32>
-struct List_1_t82;
+// System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>
+struct List_1_t5102;
+// ExitGames.Client.Photon.NCommand
+struct NCommand_t5094;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Int32>
-struct  Enumerator_t6040 
+// System.Collections.Generic.List`1/Enumerator<ExitGames.Client.Photon.NCommand>
+struct  Enumerator_t5141 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Int32>::l
-	List_1_t82 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ExitGames.Client.Photon.NCommand>::l
+	List_1_t5102 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ExitGames.Client.Photon.NCommand>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ExitGames.Client.Photon.NCommand>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Int32>::current
-	int32_t ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<ExitGames.Client.Photon.NCommand>::current
+	NCommand_t5094 * ___current_3;
 };

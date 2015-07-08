@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.QuestState
 #include "DialogueSystem_PixelCrushers_DialogueSystem_QuestState.h"
 // PixelCrushers.DialogueSystem.SetQuestStateOnDialogueEvent/SetQuestStateAction
-struct  SetQuestStateAction_t1306  : public Action_t1279
+struct  SetQuestStateAction_t1565  : public Action_t1538
 {
 	// System.String PixelCrushers.DialogueSystem.SetQuestStateOnDialogueEvent/SetQuestStateAction::questName
 	String_t* ___questName_1;

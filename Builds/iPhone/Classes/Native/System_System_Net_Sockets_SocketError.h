@@ -5,7 +5,7 @@
 // System.Net.Sockets.SocketError
 #include "System_System_Net_Sockets_SocketError.h"
 // System.Net.Sockets.SocketError
-struct  SocketError_t4009 
+struct  SocketError_t4247 
 {
 	// System.Int32 System.Net.Sockets.SocketError::value__
 	int32_t ___value___1;

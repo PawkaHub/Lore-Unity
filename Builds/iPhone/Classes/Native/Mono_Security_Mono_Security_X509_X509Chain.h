@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t4205;
+struct X509CertificateCollection_t4443;
 // Mono.Security.X509.X509Certificate
-struct X509Certificate_t4103;
+struct X509Certificate_t4341;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.X509ChainStatusFlags
 #include "Mono_Security_Mono_Security_X509_X509ChainStatusFlags.h"
 // Mono.Security.X509.X509Chain
-struct  X509Chain_t4341  : public Object_t
+struct  X509Chain_t4579  : public Object_t
 {
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509Chain::roots
-	X509CertificateCollection_t4205 * ___roots_0;
+	X509CertificateCollection_t4443 * ___roots_0;
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509Chain::certs
-	X509CertificateCollection_t4205 * ___certs_1;
+	X509CertificateCollection_t4443 * ___certs_1;
 	// Mono.Security.X509.X509Certificate Mono.Security.X509.X509Chain::_root
-	X509Certificate_t4103 * ____root_2;
+	X509Certificate_t4341 * ____root_2;
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509Chain::_chain
-	X509CertificateCollection_t4205 * ____chain_3;
+	X509CertificateCollection_t4443 * ____chain_3;
 	// Mono.Security.X509.X509ChainStatusFlags Mono.Security.X509.X509Chain::_status
 	int32_t ____status_4;
 };

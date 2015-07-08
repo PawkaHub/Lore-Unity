@@ -7,7 +7,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction
-struct  SendMessageAction_t1328  : public Object_t
+struct  SendMessageAction_t1587  : public Object_t
 {
 	// UnityEngine.GameObject PixelCrushers.DialogueSystem.ConditionObserver/SendMessageAction::gameObject
 	GameObject_t49 * ___gameObject_0;

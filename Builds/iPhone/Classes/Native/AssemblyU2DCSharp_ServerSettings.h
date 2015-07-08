@@ -15,7 +15,7 @@ struct List_1_t1;
 // CloudRegionFlag
 #include "AssemblyU2DCSharp_CloudRegionFlag.h"
 // ServerSettings
-struct  ServerSettings_t452  : public ScriptableObject_t474
+struct  ServerSettings_t480  : public ScriptableObject_t501
 {
 	// ServerSettings/HostingOption ServerSettings::HostType
 	int32_t ___HostType_2;

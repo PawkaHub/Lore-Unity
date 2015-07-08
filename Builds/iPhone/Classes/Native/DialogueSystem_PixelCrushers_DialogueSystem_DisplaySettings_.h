@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.DisplaySettings/SubtitleSettings/ContinueButtonMode
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DisplaySettings__1.h"
 // PixelCrushers.DialogueSystem.DisplaySettings/SubtitleSettings
-struct  SubtitleSettings_t627  : public Object_t
+struct  SubtitleSettings_t684  : public Object_t
 {
 	// System.Boolean PixelCrushers.DialogueSystem.DisplaySettings/SubtitleSettings::showNPCSubtitlesDuringLine
 	bool ___showNPCSubtitlesDuringLine_0;

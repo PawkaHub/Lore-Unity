@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<UnityEngine.UICharInfo>
-struct  InternalEnumerator_1_t6514 
+// System.Array/InternalEnumerator`1<UnityEngine.UI.MobileInputField/ContentType>
+struct  InternalEnumerator_1_t6738 
 {
-	// System.Array System.Array/InternalEnumerator`1<UnityEngine.UICharInfo>::array
+	// System.Array System.Array/InternalEnumerator`1<UnityEngine.UI.MobileInputField/ContentType>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.UICharInfo>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.UI.MobileInputField/ContentType>::idx
 	int32_t ___idx_1;
 };

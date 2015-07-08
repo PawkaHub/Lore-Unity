@@ -3,6 +3,6 @@
 // Language.Lua.Term
 #include "LuaInterpreter_Language_Lua_Term.h"
 // Language.Lua.NilLiteral
-struct  NilLiteral_t3536  : public Term_t3525
+struct  NilLiteral_t3774  : public Term_t3763
 {
 };

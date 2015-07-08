@@ -5,7 +5,7 @@
 // PhotonTransformViewRotationModel/InterpolateOptions
 #include "AssemblyU2DCSharp_PhotonTransformViewRotationModel_Interpola.h"
 // PhotonTransformViewRotationModel
-struct  PhotonTransformViewRotationModel_t490  : public Object_t
+struct  PhotonTransformViewRotationModel_t517  : public Object_t
 {
 	// System.Boolean PhotonTransformViewRotationModel::SynchronizeEnabled
 	bool ___SynchronizeEnabled_0;

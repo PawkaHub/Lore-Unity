@@ -5,7 +5,7 @@
 // System.UriKind
 #include "System_System_UriKind.h"
 // System.UriKind
-struct  UriKind_t4196 
+struct  UriKind_t4434 
 {
 	// System.Int32 System.UriKind::value__
 	int32_t ___value___1;

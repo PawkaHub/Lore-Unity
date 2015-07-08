@@ -7,7 +7,7 @@ struct AudioSource_t262;
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // AudioRpc
-struct  AudioRpc_t377  : public MonoBehaviour_t329
+struct  AudioRpc_t405  : public MonoBehaviour_t357
 {
 	// UnityEngine.AudioClip AudioRpc::marco
 	AudioClip_t261 * ___marco_2;

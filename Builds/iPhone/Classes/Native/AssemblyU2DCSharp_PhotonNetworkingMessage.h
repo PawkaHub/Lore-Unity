@@ -5,7 +5,7 @@
 // PhotonNetworkingMessage
 #include "AssemblyU2DCSharp_PhotonNetworkingMessage.h"
 // PhotonNetworkingMessage
-struct  PhotonNetworkingMessage_t389 
+struct  PhotonNetworkingMessage_t417 
 {
 	// System.Int32 PhotonNetworkingMessage::value__
 	int32_t ___value___1;

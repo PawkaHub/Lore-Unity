@@ -5,7 +5,7 @@
 // PhotonTransformViewScaleModel/InterpolateOptions
 #include "AssemblyU2DCSharp_PhotonTransformViewScaleModel_InterpolateO.h"
 // PhotonTransformViewScaleModel/InterpolateOptions
-struct  InterpolateOptions_t499 
+struct  InterpolateOptions_t526 
 {
 	// System.Int32 PhotonTransformViewScaleModel/InterpolateOptions::value__
 	int32_t ___value___1;

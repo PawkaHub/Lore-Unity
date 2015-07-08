@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.Emphasis[]
-struct EmphasisU5BU5D_t635;
+// PixelCrushers.DialogueSystem.ChatMapper.Conversation[]
+struct ConversationU5BU5D_t6977;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>
-struct  List_1_t1190  : public Object_t
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>
+struct  List_1_t1416  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>::_items
-	EmphasisU5BU5D_t635* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>::_size
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>::_items
+	ConversationU5BU5D_t6977* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>::_version
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1190_StaticFields{
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Emphasis>::EmptyArray
-	EmphasisU5BU5D_t635* ___EmptyArray_4;
+struct List_1_t1416_StaticFields{
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Conversation>::EmptyArray
+	ConversationU5BU5D_t6977* ___EmptyArray_4;
 };

@@ -5,7 +5,7 @@
 // PhotonLogLevel
 #include "AssemblyU2DCSharp_PhotonLogLevel.h"
 // PhotonLogLevel
-struct  PhotonLogLevel_t390 
+struct  PhotonLogLevel_t418 
 {
 	// System.Int32 PhotonLogLevel::value__
 	int32_t ___value___1;

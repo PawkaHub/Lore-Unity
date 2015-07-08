@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.DrivenTransformProperties
-struct DrivenTransformProperties_t4494;
+struct DrivenTransformProperties_t4732;
 

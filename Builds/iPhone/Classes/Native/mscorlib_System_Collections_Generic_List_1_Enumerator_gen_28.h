@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<Language.Lua.Statement>
-struct List_1_t3506;
-// Language.Lua.Statement
-struct Statement_t3504;
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem>
+struct List_1_t1518;
+// PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem
+struct QuestWatchItem_t1515;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<Language.Lua.Statement>
-struct  Enumerator_t3592 
+// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem>
+struct  Enumerator_t1708 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Language.Lua.Statement>::l
-	List_1_t3506 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Language.Lua.Statement>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem>::l
+	List_1_t1518 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Language.Lua.Statement>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<Language.Lua.Statement>::current
-	Statement_t3504 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.QuestLog/QuestWatchItem>::current
+	QuestWatchItem_t1515 * ___current_3;
 };

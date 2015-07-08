@@ -3,15 +3,15 @@
 // System.Int32[]
 struct Int32U5BU5D_t119;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5982;
+struct LinkU5BU5D_t6220;
 // ExitGames.Client.Photon.ConnectionProtocol[]
-struct ConnectionProtocolU5BU5D_t6014;
+struct ConnectionProtocolU5BU5D_t6252;
 // System.Collections.Generic.IEqualityComparer`1<ExitGames.Client.Photon.ConnectionProtocol>
-struct IEqualityComparer_1_t6015;
+struct IEqualityComparer_1_t6253;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t3058;
+struct SerializationInfo_t3296;
 // System.Collections.Generic.Dictionary`2/Transform`1<ExitGames.Client.Photon.ConnectionProtocol,System.Int32,System.Collections.DictionaryEntry>
-struct Transform_1_t6016;
+struct Transform_1_t6254;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>
@@ -20,9 +20,9 @@ struct  Dictionary_2_t13  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::table
 	Int32U5BU5D_t119* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::linkSlots
-	LinkU5BU5D_t5982* ___linkSlots_5;
+	LinkU5BU5D_t6220* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::keySlots
-	ConnectionProtocolU5BU5D_t6014* ___keySlots_6;
+	ConnectionProtocolU5BU5D_t6252* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::valueSlots
 	Int32U5BU5D_t119* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::touchedSlots
@@ -36,11 +36,11 @@ struct  Dictionary_2_t13  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::serialization_info
-	SerializationInfo_t3058 * ___serialization_info_13;
+	SerializationInfo_t3296 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::generation
 	int32_t ___generation_14;
 };
 struct Dictionary_2_t13_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Int32>::<>f__am$cacheB
-	Transform_1_t6016 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t6254 * ___U3CU3Ef__amU24cacheB_15;
 };

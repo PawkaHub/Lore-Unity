@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // CubeInter/State
-struct State_t366;
+struct State_t394;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // CharacterState
-struct CharacterState_t373;
+struct CharacterState_t401;
 

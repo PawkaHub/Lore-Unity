@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AudioType
-struct AudioType_t4532;
+struct AudioType_t4770;
 

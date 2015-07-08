@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t3802;
+struct DTDObjectModel_t4040;
 // Mono.Xml.DTDContentModel
-struct DTDContentModel_t3817;
+struct DTDContentModel_t4055;
 // System.String
 struct String_t;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
 // Mono.Xml.DTDElementDeclaration
-struct  DTDElementDeclaration_t3818  : public DTDNode_t3809
+struct  DTDElementDeclaration_t4056  : public DTDNode_t4047
 {
 	// Mono.Xml.DTDObjectModel Mono.Xml.DTDElementDeclaration::root
-	DTDObjectModel_t3802 * ___root_5;
+	DTDObjectModel_t4040 * ___root_5;
 	// Mono.Xml.DTDContentModel Mono.Xml.DTDElementDeclaration::contentModel
-	DTDContentModel_t3817 * ___contentModel_6;
+	DTDContentModel_t4055 * ___contentModel_6;
 	// System.String Mono.Xml.DTDElementDeclaration::name
 	String_t* ___name_7;
 	// System.Boolean Mono.Xml.DTDElementDeclaration::isEmpty

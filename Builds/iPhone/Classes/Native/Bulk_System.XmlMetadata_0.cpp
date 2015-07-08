@@ -5,18 +5,18 @@
 // <Module>
 #include "System_Xml_U3CModuleU3E.h"
 // Metadata Definition <Module>
-extern TypeInfo U3CModuleU3E_t3627_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3865_il2cpp_TypeInfo;
 // <Module>
 #include "System_Xml_U3CModuleU3EMethodDeclarations.h"
-static const MethodInfo* U3CModuleU3E_t3627_MethodInfos[] =
+static const MethodInfo* U3CModuleU3E_t3865_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType U3CModuleU3E_t3627_0_0_0;
-extern const Il2CppType U3CModuleU3E_t3627_1_0_0;
-struct U3CModuleU3E_t3627;
-const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3627_DefinitionMetadata = 
+extern const Il2CppType U3CModuleU3E_t3865_0_0_0;
+extern const Il2CppType U3CModuleU3E_t3865_1_0_0;
+struct U3CModuleU3E_t3865;
+const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3865_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -29,21 +29,21 @@ const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3627_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo U3CModuleU3E_t3627_il2cpp_TypeInfo = 
+TypeInfo U3CModuleU3E_t3865_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "<Module>"/* name */
 	, ""/* namespaze */
-	, U3CModuleU3E_t3627_MethodInfos/* methods */
+	, U3CModuleU3E_t3865_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CModuleU3E_t3627_il2cpp_TypeInfo/* element_class */
+	, &U3CModuleU3E_t3865_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &U3CModuleU3E_t3627_0_0_0/* byval_arg */
-	, &U3CModuleU3E_t3627_1_0_0/* this_arg */
-	, &U3CModuleU3E_t3627_DefinitionMetadata/* definitionMetadata */
+	, &U3CModuleU3E_t3865_0_0_0/* byval_arg */
+	, &U3CModuleU3E_t3865_1_0_0/* this_arg */
+	, &U3CModuleU3E_t3865_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -53,8 +53,8 @@ TypeInfo U3CModuleU3E_t3627_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CModuleU3E_t3627)/* instance_size */
-	, sizeof (U3CModuleU3E_t3627)/* actualSize */
+	, sizeof (U3CModuleU3E_t3865)/* instance_size */
+	, sizeof (U3CModuleU3E_t3865)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -86,17 +86,17 @@ TypeInfo U3CModuleU3E_t3627_il2cpp_TypeInfo =
 // System.MonoTODOAttribute
 #include "System_Xml_System_MonoTODOAttribute.h"
 // Metadata Definition System.MonoTODOAttribute
-extern TypeInfo MonoTODOAttribute_t3628_il2cpp_TypeInfo;
+extern TypeInfo MonoTODOAttribute_t3866_il2cpp_TypeInfo;
 // System.MonoTODOAttribute
 #include "System_Xml_System_MonoTODOAttributeMethodDeclarations.h"
 extern const Il2CppType Void_t35_0_0_0;
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.MonoTODOAttribute::.ctor()
-extern const MethodInfo MonoTODOAttribute__ctor_m11053_MethodInfo = 
+extern const MethodInfo MonoTODOAttribute__ctor_m11472_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MonoTODOAttribute__ctor_m11053/* method */
-	, &MonoTODOAttribute_t3628_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&MonoTODOAttribute__ctor_m11472/* method */
+	, &MonoTODOAttribute_t3866_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -113,67 +113,67 @@ extern const MethodInfo MonoTODOAttribute__ctor_m11053_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MonoTODOAttribute_t3628_MethodInfos[] =
+static const MethodInfo* MonoTODOAttribute_t3866_MethodInfos[] =
 {
-	&MonoTODOAttribute__ctor_m11053_MethodInfo,
+	&MonoTODOAttribute__ctor_m11472_MethodInfo,
 	NULL
 };
-extern const MethodInfo Attribute_Equals_m3508_MethodInfo;
+extern const MethodInfo Attribute_Equals_m3960_MethodInfo;
 extern const MethodInfo Object_Finalize_m127_MethodInfo;
-extern const MethodInfo Attribute_GetHashCode_m3509_MethodInfo;
+extern const MethodInfo Attribute_GetHashCode_m3961_MethodInfo;
 extern const MethodInfo Object_ToString_m129_MethodInfo;
-static const Il2CppMethodReference MonoTODOAttribute_t3628_VTable[] =
+static const Il2CppMethodReference MonoTODOAttribute_t3866_VTable[] =
 {
-	&Attribute_Equals_m3508_MethodInfo,
+	&Attribute_Equals_m3960_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Attribute_GetHashCode_m3509_MethodInfo,
+	&Attribute_GetHashCode_m3961_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool MonoTODOAttribute_t3628_VTableIsGenericMethod[] =
+static bool MonoTODOAttribute_t3866_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-extern const Il2CppType _Attribute_t764_0_0_0;
-static Il2CppInterfaceOffsetPair MonoTODOAttribute_t3628_InterfacesOffsets[] = 
+extern const Il2CppType _Attribute_t954_0_0_0;
+static Il2CppInterfaceOffsetPair MonoTODOAttribute_t3866_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t764_0_0_0, 4},
+	{ &_Attribute_t954_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType MonoTODOAttribute_t3628_0_0_0;
-extern const Il2CppType MonoTODOAttribute_t3628_1_0_0;
-extern const Il2CppType Attribute_t471_0_0_0;
-struct MonoTODOAttribute_t3628;
-const Il2CppTypeDefinitionMetadata MonoTODOAttribute_t3628_DefinitionMetadata = 
+extern const Il2CppType MonoTODOAttribute_t3866_0_0_0;
+extern const Il2CppType MonoTODOAttribute_t3866_1_0_0;
+extern const Il2CppType Attribute_t335_0_0_0;
+struct MonoTODOAttribute_t3866;
+const Il2CppTypeDefinitionMetadata MonoTODOAttribute_t3866_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MonoTODOAttribute_t3628_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t471_0_0_0/* parent */
-	, MonoTODOAttribute_t3628_VTable/* vtableMethods */
-	, MonoTODOAttribute_t3628_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MonoTODOAttribute_t3866_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t335_0_0_0/* parent */
+	, MonoTODOAttribute_t3866_VTable/* vtableMethods */
+	, MonoTODOAttribute_t3866_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo MonoTODOAttribute_t3628_il2cpp_TypeInfo = 
+TypeInfo MonoTODOAttribute_t3866_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoTODOAttribute"/* name */
 	, "System"/* namespaze */
-	, MonoTODOAttribute_t3628_MethodInfos/* methods */
+	, MonoTODOAttribute_t3866_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &MonoTODOAttribute_t3628_il2cpp_TypeInfo/* element_class */
+	, &MonoTODOAttribute_t3866_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 2/* custom_attributes_cache */
-	, &MonoTODOAttribute_t3628_0_0_0/* byval_arg */
-	, &MonoTODOAttribute_t3628_1_0_0/* this_arg */
-	, &MonoTODOAttribute_t3628_DefinitionMetadata/* definitionMetadata */
+	, &MonoTODOAttribute_t3866_0_0_0/* byval_arg */
+	, &MonoTODOAttribute_t3866_1_0_0/* this_arg */
+	, &MonoTODOAttribute_t3866_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -183,8 +183,8 @@ TypeInfo MonoTODOAttribute_t3628_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoTODOAttribute_t3628)/* instance_size */
-	, sizeof (MonoTODOAttribute_t3628)/* actualSize */
+	, sizeof (MonoTODOAttribute_t3866)/* instance_size */
+	, sizeof (MonoTODOAttribute_t3866)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -214,16 +214,16 @@ TypeInfo MonoTODOAttribute_t3628_il2cpp_TypeInfo =
 
 };
 // Metadata Definition Mono.Xml.IHasXmlParserContext
-extern TypeInfo IHasXmlParserContext_t3942_il2cpp_TypeInfo;
-extern const Il2CppType XmlParserContext_t3883_0_0_0;
+extern TypeInfo IHasXmlParserContext_t4180_il2cpp_TypeInfo;
+extern const Il2CppType XmlParserContext_t4121_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlParserContext Mono.Xml.IHasXmlParserContext::get_ParserContext()
-extern const MethodInfo IHasXmlParserContext_get_ParserContext_m12896_MethodInfo = 
+extern const MethodInfo IHasXmlParserContext_get_ParserContext_m13314_MethodInfo = 
 {
 	"get_ParserContext"/* name */
 	, NULL/* method */
-	, &IHasXmlParserContext_t3942_il2cpp_TypeInfo/* declaring_type */
-	, &XmlParserContext_t3883_0_0_0/* return_type */
+	, &IHasXmlParserContext_t4180_il2cpp_TypeInfo/* declaring_type */
+	, &XmlParserContext_t4121_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -239,32 +239,32 @@ extern const MethodInfo IHasXmlParserContext_get_ParserContext_m12896_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IHasXmlParserContext_t3942_MethodInfos[] =
+static const MethodInfo* IHasXmlParserContext_t4180_MethodInfos[] =
 {
-	&IHasXmlParserContext_get_ParserContext_m12896_MethodInfo,
+	&IHasXmlParserContext_get_ParserContext_m13314_MethodInfo,
 	NULL
 };
-extern const MethodInfo IHasXmlParserContext_get_ParserContext_m12896_MethodInfo;
-static const PropertyInfo IHasXmlParserContext_t3942____ParserContext_PropertyInfo = 
+extern const MethodInfo IHasXmlParserContext_get_ParserContext_m13314_MethodInfo;
+static const PropertyInfo IHasXmlParserContext_t4180____ParserContext_PropertyInfo = 
 {
-	&IHasXmlParserContext_t3942_il2cpp_TypeInfo/* parent */
+	&IHasXmlParserContext_t4180_il2cpp_TypeInfo/* parent */
 	, "ParserContext"/* name */
-	, &IHasXmlParserContext_get_ParserContext_m12896_MethodInfo/* get */
+	, &IHasXmlParserContext_get_ParserContext_m13314_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IHasXmlParserContext_t3942_PropertyInfos[] =
+static const PropertyInfo* IHasXmlParserContext_t4180_PropertyInfos[] =
 {
-	&IHasXmlParserContext_t3942____ParserContext_PropertyInfo,
+	&IHasXmlParserContext_t4180____ParserContext_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType IHasXmlParserContext_t3942_0_0_0;
-extern const Il2CppType IHasXmlParserContext_t3942_1_0_0;
-struct IHasXmlParserContext_t3942;
-const Il2CppTypeDefinitionMetadata IHasXmlParserContext_t3942_DefinitionMetadata = 
+extern const Il2CppType IHasXmlParserContext_t4180_0_0_0;
+extern const Il2CppType IHasXmlParserContext_t4180_1_0_0;
+struct IHasXmlParserContext_t4180;
+const Il2CppTypeDefinitionMetadata IHasXmlParserContext_t4180_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -277,21 +277,21 @@ const Il2CppTypeDefinitionMetadata IHasXmlParserContext_t3942_DefinitionMetadata
 	, -1/* fieldStart */
 
 };
-TypeInfo IHasXmlParserContext_t3942_il2cpp_TypeInfo = 
+TypeInfo IHasXmlParserContext_t4180_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IHasXmlParserContext"/* name */
 	, "Mono.Xml"/* namespaze */
-	, IHasXmlParserContext_t3942_MethodInfos/* methods */
-	, IHasXmlParserContext_t3942_PropertyInfos/* properties */
+	, IHasXmlParserContext_t4180_MethodInfos/* methods */
+	, IHasXmlParserContext_t4180_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IHasXmlParserContext_t3942_il2cpp_TypeInfo/* element_class */
+	, &IHasXmlParserContext_t4180_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IHasXmlParserContext_t3942_0_0_0/* byval_arg */
-	, &IHasXmlParserContext_t3942_1_0_0/* this_arg */
-	, &IHasXmlParserContext_t3942_DefinitionMetadata/* definitionMetadata */
+	, &IHasXmlParserContext_t4180_0_0_0/* byval_arg */
+	, &IHasXmlParserContext_t4180_1_0_0/* this_arg */
+	, &IHasXmlParserContext_t4180_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -334,10 +334,10 @@ TypeInfo IHasXmlParserContext_t3942_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdWhitespaceFacet
 #include "System_Xml_Mono_Xml_Schema_XsdWhitespaceFacet.h"
 // Metadata Definition Mono.Xml.Schema.XsdWhitespaceFacet
-extern TypeInfo XsdWhitespaceFacet_t3629_il2cpp_TypeInfo;
+extern TypeInfo XsdWhitespaceFacet_t3867_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdWhitespaceFacet
 #include "System_Xml_Mono_Xml_Schema_XsdWhitespaceFacetMethodDeclarations.h"
-static const MethodInfo* XsdWhitespaceFacet_t3629_MethodInfos[] =
+static const MethodInfo* XsdWhitespaceFacet_t3867_MethodInfos[] =
 {
 	NULL
 };
@@ -363,7 +363,7 @@ extern const MethodInfo Enum_System_IConvertible_ToUInt32_m148_MethodInfo;
 extern const MethodInfo Enum_System_IConvertible_ToUInt64_m149_MethodInfo;
 extern const MethodInfo Enum_CompareTo_m150_MethodInfo;
 extern const MethodInfo Enum_GetTypeCode_m151_MethodInfo;
-static const Il2CppMethodReference XsdWhitespaceFacet_t3629_VTable[] =
+static const Il2CppMethodReference XsdWhitespaceFacet_t3867_VTable[] =
 {
 	&Enum_Equals_m130_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
@@ -389,7 +389,7 @@ static const Il2CppMethodReference XsdWhitespaceFacet_t3629_VTable[] =
 	&Enum_CompareTo_m150_MethodInfo,
 	&Enum_GetTypeCode_m151_MethodInfo,
 };
-static bool XsdWhitespaceFacet_t3629_VTableIsGenericMethod[] =
+static bool XsdWhitespaceFacet_t3867_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -418,47 +418,47 @@ static bool XsdWhitespaceFacet_t3629_VTableIsGenericMethod[] =
 extern const Il2CppType IFormattable_t41_0_0_0;
 extern const Il2CppType IConvertible_t42_0_0_0;
 extern const Il2CppType IComparable_t43_0_0_0;
-static Il2CppInterfaceOffsetPair XsdWhitespaceFacet_t3629_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XsdWhitespaceFacet_t3867_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t41_0_0_0, 4},
 	{ &IConvertible_t42_0_0_0, 5},
 	{ &IComparable_t43_0_0_0, 21},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdWhitespaceFacet_t3629_0_0_0;
-extern const Il2CppType XsdWhitespaceFacet_t3629_1_0_0;
+extern const Il2CppType XsdWhitespaceFacet_t3867_0_0_0;
+extern const Il2CppType XsdWhitespaceFacet_t3867_1_0_0;
 extern const Il2CppType Enum_t44_0_0_0;
 // System.Int32
 #include "mscorlib_System_Int32.h"
 extern TypeInfo Int32_t29_il2cpp_TypeInfo;
-const Il2CppTypeDefinitionMetadata XsdWhitespaceFacet_t3629_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata XsdWhitespaceFacet_t3867_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XsdWhitespaceFacet_t3629_InterfacesOffsets/* interfaceOffsets */
+	, XsdWhitespaceFacet_t3867_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t44_0_0_0/* parent */
-	, XsdWhitespaceFacet_t3629_VTable/* vtableMethods */
-	, XsdWhitespaceFacet_t3629_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XsdWhitespaceFacet_t3867_VTable/* vtableMethods */
+	, XsdWhitespaceFacet_t3867_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 0/* fieldStart */
 
 };
-TypeInfo XsdWhitespaceFacet_t3629_il2cpp_TypeInfo = 
+TypeInfo XsdWhitespaceFacet_t3867_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdWhitespaceFacet"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdWhitespaceFacet_t3629_MethodInfos/* methods */
+	, XsdWhitespaceFacet_t3867_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t29_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdWhitespaceFacet_t3629_0_0_0/* byval_arg */
-	, &XsdWhitespaceFacet_t3629_1_0_0/* this_arg */
-	, &XsdWhitespaceFacet_t3629_DefinitionMetadata/* definitionMetadata */
+	, &XsdWhitespaceFacet_t3867_0_0_0/* byval_arg */
+	, &XsdWhitespaceFacet_t3867_1_0_0/* this_arg */
+	, &XsdWhitespaceFacet_t3867_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -468,8 +468,8 @@ TypeInfo XsdWhitespaceFacet_t3629_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdWhitespaceFacet_t3629)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (XsdWhitespaceFacet_t3629)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (XsdWhitespaceFacet_t3867)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (XsdWhitespaceFacet_t3867)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -501,16 +501,16 @@ TypeInfo XsdWhitespaceFacet_t3629_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Metadata Definition Mono.Xml.Schema.XsdAnySimpleType
-extern TypeInfo XsdAnySimpleType_t3630_il2cpp_TypeInfo;
+extern TypeInfo XsdAnySimpleType_t3868_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.ctor()
-extern const MethodInfo XsdAnySimpleType__ctor_m11054_MethodInfo = 
+extern const MethodInfo XsdAnySimpleType__ctor_m11473_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdAnySimpleType__ctor_m11054/* method */
-	, &XsdAnySimpleType_t3630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdAnySimpleType__ctor_m11473/* method */
+	, &XsdAnySimpleType_t3868_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -529,11 +529,11 @@ extern const MethodInfo XsdAnySimpleType__ctor_m11054_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdAnySimpleType::.cctor()
-extern const MethodInfo XsdAnySimpleType__cctor_m11055_MethodInfo = 
+extern const MethodInfo XsdAnySimpleType__cctor_m11474_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XsdAnySimpleType__cctor_m11055/* method */
-	, &XsdAnySimpleType_t3630_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdAnySimpleType__cctor_m11474/* method */
+	, &XsdAnySimpleType_t3868_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -550,15 +550,15 @@ extern const MethodInfo XsdAnySimpleType__cctor_m11055_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XsdAnySimpleType_t3630_0_0_0;
+extern const Il2CppType XsdAnySimpleType_t3868_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // Mono.Xml.Schema.XsdAnySimpleType Mono.Xml.Schema.XsdAnySimpleType::get_Instance()
-extern const MethodInfo XsdAnySimpleType_get_Instance_m11056_MethodInfo = 
+extern const MethodInfo XsdAnySimpleType_get_Instance_m11475_MethodInfo = 
 {
 	"get_Instance"/* name */
-	, (methodPointerType)&XsdAnySimpleType_get_Instance_m11056/* method */
-	, &XsdAnySimpleType_t3630_il2cpp_TypeInfo/* declaring_type */
-	, &XsdAnySimpleType_t3630_0_0_0/* return_type */
+	, (methodPointerType)&XsdAnySimpleType_get_Instance_m11475/* method */
+	, &XsdAnySimpleType_t3868_il2cpp_TypeInfo/* declaring_type */
+	, &XsdAnySimpleType_t3868_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -574,16 +574,16 @@ extern const MethodInfo XsdAnySimpleType_get_Instance_m11056_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlTokenizedType_t3911_0_0_0;
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType XmlTokenizedType_t4149_0_0_0;
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdAnySimpleType::get_TokenizedType()
-extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo = 
+extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdAnySimpleType_get_TokenizedType_m11057/* method */
-	, &XsdAnySimpleType_t3630_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdAnySimpleType_get_TokenizedType_m11476/* method */
+	, &XsdAnySimpleType_t3868_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -598,53 +598,53 @@ extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdAnySimpleType_t3630_MethodInfos[] =
+static const MethodInfo* XsdAnySimpleType_t3868_MethodInfos[] =
 {
-	&XsdAnySimpleType__ctor_m11054_MethodInfo,
-	&XsdAnySimpleType__cctor_m11055_MethodInfo,
-	&XsdAnySimpleType_get_Instance_m11056_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType__ctor_m11473_MethodInfo,
+	&XsdAnySimpleType__cctor_m11474_MethodInfo,
+	&XsdAnySimpleType_get_Instance_m11475_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdAnySimpleType_get_Instance_m11056_MethodInfo;
-static const PropertyInfo XsdAnySimpleType_t3630____Instance_PropertyInfo = 
+extern const MethodInfo XsdAnySimpleType_get_Instance_m11475_MethodInfo;
+static const PropertyInfo XsdAnySimpleType_t3868____Instance_PropertyInfo = 
 {
-	&XsdAnySimpleType_t3630_il2cpp_TypeInfo/* parent */
+	&XsdAnySimpleType_t3868_il2cpp_TypeInfo/* parent */
 	, "Instance"/* name */
-	, &XsdAnySimpleType_get_Instance_m11056_MethodInfo/* get */
+	, &XsdAnySimpleType_get_Instance_m11475_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo;
-static const PropertyInfo XsdAnySimpleType_t3630____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo;
+static const PropertyInfo XsdAnySimpleType_t3868____TokenizedType_PropertyInfo = 
 {
-	&XsdAnySimpleType_t3630_il2cpp_TypeInfo/* parent */
+	&XsdAnySimpleType_t3868_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo/* get */
+	, &XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdAnySimpleType_t3630_PropertyInfos[] =
+static const PropertyInfo* XsdAnySimpleType_t3868_PropertyInfos[] =
 {
-	&XsdAnySimpleType_t3630____Instance_PropertyInfo,
-	&XsdAnySimpleType_t3630____TokenizedType_PropertyInfo,
+	&XsdAnySimpleType_t3868____Instance_PropertyInfo,
+	&XsdAnySimpleType_t3868____TokenizedType_PropertyInfo,
 	NULL
 };
 extern const MethodInfo Object_Equals_m126_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m128_MethodInfo;
-static const Il2CppMethodReference XsdAnySimpleType_t3630_VTable[] =
+static const Il2CppMethodReference XsdAnySimpleType_t3868_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XsdAnySimpleType_t3630_VTableIsGenericMethod[] =
+static bool XsdAnySimpleType_t3868_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -653,37 +653,37 @@ static bool XsdAnySimpleType_t3630_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdAnySimpleType_t3630_1_0_0;
-extern const Il2CppType XmlSchemaDatatype_t3631_0_0_0;
-struct XsdAnySimpleType_t3630;
-const Il2CppTypeDefinitionMetadata XsdAnySimpleType_t3630_DefinitionMetadata = 
+extern const Il2CppType XsdAnySimpleType_t3868_1_0_0;
+extern const Il2CppType XmlSchemaDatatype_t3869_0_0_0;
+struct XsdAnySimpleType_t3868;
+const Il2CppTypeDefinitionMetadata XsdAnySimpleType_t3868_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaDatatype_t3631_0_0_0/* parent */
-	, XsdAnySimpleType_t3630_VTable/* vtableMethods */
-	, XsdAnySimpleType_t3630_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaDatatype_t3869_0_0_0/* parent */
+	, XsdAnySimpleType_t3868_VTable/* vtableMethods */
+	, XsdAnySimpleType_t3868_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 4/* fieldStart */
 
 };
-TypeInfo XsdAnySimpleType_t3630_il2cpp_TypeInfo = 
+TypeInfo XsdAnySimpleType_t3868_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdAnySimpleType"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdAnySimpleType_t3630_MethodInfos/* methods */
-	, XsdAnySimpleType_t3630_PropertyInfos/* properties */
+	, XsdAnySimpleType_t3868_MethodInfos/* methods */
+	, XsdAnySimpleType_t3868_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdAnySimpleType_t3630_il2cpp_TypeInfo/* element_class */
+	, &XsdAnySimpleType_t3868_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdAnySimpleType_t3630_0_0_0/* byval_arg */
-	, &XsdAnySimpleType_t3630_1_0_0/* this_arg */
-	, &XsdAnySimpleType_t3630_DefinitionMetadata/* definitionMetadata */
+	, &XsdAnySimpleType_t3868_0_0_0/* byval_arg */
+	, &XsdAnySimpleType_t3868_1_0_0/* this_arg */
+	, &XsdAnySimpleType_t3868_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -693,11 +693,11 @@ TypeInfo XsdAnySimpleType_t3630_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdAnySimpleType_t3630)/* instance_size */
-	, sizeof (XsdAnySimpleType_t3630)/* actualSize */
+	, sizeof (XsdAnySimpleType_t3868)/* instance_size */
+	, sizeof (XsdAnySimpleType_t3868)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XsdAnySimpleType_t3630_StaticFields)/* static_fields_size */
+	, sizeof(XsdAnySimpleType_t3868_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 0/* flags */
@@ -726,16 +726,16 @@ TypeInfo XsdAnySimpleType_t3630_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XdtAnyAtomicType
 #include "System_Xml_Mono_Xml_Schema_XdtAnyAtomicType.h"
 // Metadata Definition Mono.Xml.Schema.XdtAnyAtomicType
-extern TypeInfo XdtAnyAtomicType_t3632_il2cpp_TypeInfo;
+extern TypeInfo XdtAnyAtomicType_t3870_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XdtAnyAtomicType
 #include "System_Xml_Mono_Xml_Schema_XdtAnyAtomicTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XdtAnyAtomicType::.ctor()
-extern const MethodInfo XdtAnyAtomicType__ctor_m11058_MethodInfo = 
+extern const MethodInfo XdtAnyAtomicType__ctor_m11477_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XdtAnyAtomicType__ctor_m11058/* method */
-	, &XdtAnyAtomicType_t3632_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XdtAnyAtomicType__ctor_m11477/* method */
+	, &XdtAnyAtomicType_t3870_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -752,20 +752,20 @@ extern const MethodInfo XdtAnyAtomicType__ctor_m11058_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XdtAnyAtomicType_t3632_MethodInfos[] =
+static const MethodInfo* XdtAnyAtomicType_t3870_MethodInfos[] =
 {
-	&XdtAnyAtomicType__ctor_m11058_MethodInfo,
+	&XdtAnyAtomicType__ctor_m11477_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XdtAnyAtomicType_t3632_VTable[] =
+static const Il2CppMethodReference XdtAnyAtomicType_t3870_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XdtAnyAtomicType_t3632_VTableIsGenericMethod[] =
+static bool XdtAnyAtomicType_t3870_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -774,37 +774,37 @@ static bool XdtAnyAtomicType_t3632_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XdtAnyAtomicType_t3632_0_0_0;
-extern const Il2CppType XdtAnyAtomicType_t3632_1_0_0;
-struct XdtAnyAtomicType_t3632;
-const Il2CppTypeDefinitionMetadata XdtAnyAtomicType_t3632_DefinitionMetadata = 
+extern const Il2CppType XdtAnyAtomicType_t3870_0_0_0;
+extern const Il2CppType XdtAnyAtomicType_t3870_1_0_0;
+struct XdtAnyAtomicType_t3870;
+const Il2CppTypeDefinitionMetadata XdtAnyAtomicType_t3870_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XdtAnyAtomicType_t3632_VTable/* vtableMethods */
-	, XdtAnyAtomicType_t3632_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XdtAnyAtomicType_t3870_VTable/* vtableMethods */
+	, XdtAnyAtomicType_t3870_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XdtAnyAtomicType_t3632_il2cpp_TypeInfo = 
+TypeInfo XdtAnyAtomicType_t3870_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XdtAnyAtomicType"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XdtAnyAtomicType_t3632_MethodInfos/* methods */
+	, XdtAnyAtomicType_t3870_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XdtAnyAtomicType_t3632_il2cpp_TypeInfo/* element_class */
+	, &XdtAnyAtomicType_t3870_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XdtAnyAtomicType_t3632_0_0_0/* byval_arg */
-	, &XdtAnyAtomicType_t3632_1_0_0/* this_arg */
-	, &XdtAnyAtomicType_t3632_DefinitionMetadata/* definitionMetadata */
+	, &XdtAnyAtomicType_t3870_0_0_0/* byval_arg */
+	, &XdtAnyAtomicType_t3870_1_0_0/* this_arg */
+	, &XdtAnyAtomicType_t3870_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -814,8 +814,8 @@ TypeInfo XdtAnyAtomicType_t3632_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XdtAnyAtomicType_t3632)/* instance_size */
-	, sizeof (XdtAnyAtomicType_t3632)/* actualSize */
+	, sizeof (XdtAnyAtomicType_t3870)/* instance_size */
+	, sizeof (XdtAnyAtomicType_t3870)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -847,16 +847,16 @@ TypeInfo XdtAnyAtomicType_t3632_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XdtUntypedAtomic
 #include "System_Xml_Mono_Xml_Schema_XdtUntypedAtomic.h"
 // Metadata Definition Mono.Xml.Schema.XdtUntypedAtomic
-extern TypeInfo XdtUntypedAtomic_t3633_il2cpp_TypeInfo;
+extern TypeInfo XdtUntypedAtomic_t3871_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XdtUntypedAtomic
 #include "System_Xml_Mono_Xml_Schema_XdtUntypedAtomicMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XdtUntypedAtomic::.ctor()
-extern const MethodInfo XdtUntypedAtomic__ctor_m11059_MethodInfo = 
+extern const MethodInfo XdtUntypedAtomic__ctor_m11478_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XdtUntypedAtomic__ctor_m11059/* method */
-	, &XdtUntypedAtomic_t3633_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XdtUntypedAtomic__ctor_m11478/* method */
+	, &XdtUntypedAtomic_t3871_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -873,20 +873,20 @@ extern const MethodInfo XdtUntypedAtomic__ctor_m11059_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XdtUntypedAtomic_t3633_MethodInfos[] =
+static const MethodInfo* XdtUntypedAtomic_t3871_MethodInfos[] =
 {
-	&XdtUntypedAtomic__ctor_m11059_MethodInfo,
+	&XdtUntypedAtomic__ctor_m11478_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XdtUntypedAtomic_t3633_VTable[] =
+static const Il2CppMethodReference XdtUntypedAtomic_t3871_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XdtUntypedAtomic_t3633_VTableIsGenericMethod[] =
+static bool XdtUntypedAtomic_t3871_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -895,37 +895,37 @@ static bool XdtUntypedAtomic_t3633_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XdtUntypedAtomic_t3633_0_0_0;
-extern const Il2CppType XdtUntypedAtomic_t3633_1_0_0;
-struct XdtUntypedAtomic_t3633;
-const Il2CppTypeDefinitionMetadata XdtUntypedAtomic_t3633_DefinitionMetadata = 
+extern const Il2CppType XdtUntypedAtomic_t3871_0_0_0;
+extern const Il2CppType XdtUntypedAtomic_t3871_1_0_0;
+struct XdtUntypedAtomic_t3871;
+const Il2CppTypeDefinitionMetadata XdtUntypedAtomic_t3871_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XdtAnyAtomicType_t3632_0_0_0/* parent */
-	, XdtUntypedAtomic_t3633_VTable/* vtableMethods */
-	, XdtUntypedAtomic_t3633_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XdtAnyAtomicType_t3870_0_0_0/* parent */
+	, XdtUntypedAtomic_t3871_VTable/* vtableMethods */
+	, XdtUntypedAtomic_t3871_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XdtUntypedAtomic_t3633_il2cpp_TypeInfo = 
+TypeInfo XdtUntypedAtomic_t3871_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XdtUntypedAtomic"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XdtUntypedAtomic_t3633_MethodInfos/* methods */
+	, XdtUntypedAtomic_t3871_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XdtUntypedAtomic_t3633_il2cpp_TypeInfo/* element_class */
+	, &XdtUntypedAtomic_t3871_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XdtUntypedAtomic_t3633_0_0_0/* byval_arg */
-	, &XdtUntypedAtomic_t3633_1_0_0/* this_arg */
-	, &XdtUntypedAtomic_t3633_DefinitionMetadata/* definitionMetadata */
+	, &XdtUntypedAtomic_t3871_0_0_0/* byval_arg */
+	, &XdtUntypedAtomic_t3871_1_0_0/* this_arg */
+	, &XdtUntypedAtomic_t3871_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -935,8 +935,8 @@ TypeInfo XdtUntypedAtomic_t3633_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XdtUntypedAtomic_t3633)/* instance_size */
-	, sizeof (XdtUntypedAtomic_t3633)/* actualSize */
+	, sizeof (XdtUntypedAtomic_t3871)/* instance_size */
+	, sizeof (XdtUntypedAtomic_t3871)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -968,16 +968,16 @@ TypeInfo XdtUntypedAtomic_t3633_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdString
 #include "System_Xml_Mono_Xml_Schema_XsdString.h"
 // Metadata Definition Mono.Xml.Schema.XsdString
-extern TypeInfo XsdString_t3634_il2cpp_TypeInfo;
+extern TypeInfo XsdString_t3872_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdString
 #include "System_Xml_Mono_Xml_Schema_XsdStringMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdString::.ctor()
-extern const MethodInfo XsdString__ctor_m11060_MethodInfo = 
+extern const MethodInfo XsdString__ctor_m11479_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdString__ctor_m11060/* method */
-	, &XsdString_t3634_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdString__ctor_m11479/* method */
+	, &XsdString_t3872_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -994,15 +994,15 @@ extern const MethodInfo XsdString__ctor_m11060_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdString::get_TokenizedType()
-extern const MethodInfo XsdString_get_TokenizedType_m11061_MethodInfo = 
+extern const MethodInfo XsdString_get_TokenizedType_m11480_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdString_get_TokenizedType_m11061/* method */
-	, &XsdString_t3634_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdString_get_TokenizedType_m11480/* method */
+	, &XsdString_t3872_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -1017,37 +1017,37 @@ extern const MethodInfo XsdString_get_TokenizedType_m11061_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdString_t3634_MethodInfos[] =
+static const MethodInfo* XsdString_t3872_MethodInfos[] =
 {
-	&XsdString__ctor_m11060_MethodInfo,
-	&XsdString_get_TokenizedType_m11061_MethodInfo,
+	&XsdString__ctor_m11479_MethodInfo,
+	&XsdString_get_TokenizedType_m11480_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdString_get_TokenizedType_m11061_MethodInfo;
-static const PropertyInfo XsdString_t3634____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdString_get_TokenizedType_m11480_MethodInfo;
+static const PropertyInfo XsdString_t3872____TokenizedType_PropertyInfo = 
 {
-	&XsdString_t3634_il2cpp_TypeInfo/* parent */
+	&XsdString_t3872_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdString_get_TokenizedType_m11061_MethodInfo/* get */
+	, &XsdString_get_TokenizedType_m11480_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdString_t3634_PropertyInfos[] =
+static const PropertyInfo* XsdString_t3872_PropertyInfos[] =
 {
-	&XsdString_t3634____TokenizedType_PropertyInfo,
+	&XsdString_t3872____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdString_t3634_VTable[] =
+static const Il2CppMethodReference XsdString_t3872_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdString_get_TokenizedType_m11061_MethodInfo,
+	&XsdString_get_TokenizedType_m11480_MethodInfo,
 };
-static bool XsdString_t3634_VTableIsGenericMethod[] =
+static bool XsdString_t3872_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1056,37 +1056,37 @@ static bool XsdString_t3634_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdString_t3634_0_0_0;
-extern const Il2CppType XsdString_t3634_1_0_0;
-struct XsdString_t3634;
-const Il2CppTypeDefinitionMetadata XsdString_t3634_DefinitionMetadata = 
+extern const Il2CppType XsdString_t3872_0_0_0;
+extern const Il2CppType XsdString_t3872_1_0_0;
+struct XsdString_t3872;
+const Il2CppTypeDefinitionMetadata XsdString_t3872_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdString_t3634_VTable/* vtableMethods */
-	, XsdString_t3634_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdString_t3872_VTable/* vtableMethods */
+	, XsdString_t3872_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdString_t3634_il2cpp_TypeInfo = 
+TypeInfo XsdString_t3872_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdString"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdString_t3634_MethodInfos/* methods */
-	, XsdString_t3634_PropertyInfos/* properties */
+	, XsdString_t3872_MethodInfos/* methods */
+	, XsdString_t3872_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdString_t3634_il2cpp_TypeInfo/* element_class */
+	, &XsdString_t3872_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdString_t3634_0_0_0/* byval_arg */
-	, &XsdString_t3634_1_0_0/* this_arg */
-	, &XsdString_t3634_DefinitionMetadata/* definitionMetadata */
+	, &XsdString_t3872_0_0_0/* byval_arg */
+	, &XsdString_t3872_1_0_0/* this_arg */
+	, &XsdString_t3872_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1096,8 +1096,8 @@ TypeInfo XsdString_t3634_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdString_t3634)/* instance_size */
-	, sizeof (XsdString_t3634)/* actualSize */
+	, sizeof (XsdString_t3872)/* instance_size */
+	, sizeof (XsdString_t3872)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1129,16 +1129,16 @@ TypeInfo XsdString_t3634_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdNormalizedString
 #include "System_Xml_Mono_Xml_Schema_XsdNormalizedString.h"
 // Metadata Definition Mono.Xml.Schema.XsdNormalizedString
-extern TypeInfo XsdNormalizedString_t3635_il2cpp_TypeInfo;
+extern TypeInfo XsdNormalizedString_t3873_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNormalizedString
 #include "System_Xml_Mono_Xml_Schema_XsdNormalizedStringMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNormalizedString::.ctor()
-extern const MethodInfo XsdNormalizedString__ctor_m11062_MethodInfo = 
+extern const MethodInfo XsdNormalizedString__ctor_m11481_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNormalizedString__ctor_m11062/* method */
-	, &XsdNormalizedString_t3635_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdNormalizedString__ctor_m11481/* method */
+	, &XsdNormalizedString_t3873_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -1155,15 +1155,15 @@ extern const MethodInfo XsdNormalizedString__ctor_m11062_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNormalizedString::get_TokenizedType()
-extern const MethodInfo XsdNormalizedString_get_TokenizedType_m11063_MethodInfo = 
+extern const MethodInfo XsdNormalizedString_get_TokenizedType_m11482_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNormalizedString_get_TokenizedType_m11063/* method */
-	, &XsdNormalizedString_t3635_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdNormalizedString_get_TokenizedType_m11482/* method */
+	, &XsdNormalizedString_t3873_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -1178,37 +1178,37 @@ extern const MethodInfo XsdNormalizedString_get_TokenizedType_m11063_MethodInfo 
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdNormalizedString_t3635_MethodInfos[] =
+static const MethodInfo* XsdNormalizedString_t3873_MethodInfos[] =
 {
-	&XsdNormalizedString__ctor_m11062_MethodInfo,
-	&XsdNormalizedString_get_TokenizedType_m11063_MethodInfo,
+	&XsdNormalizedString__ctor_m11481_MethodInfo,
+	&XsdNormalizedString_get_TokenizedType_m11482_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNormalizedString_get_TokenizedType_m11063_MethodInfo;
-static const PropertyInfo XsdNormalizedString_t3635____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdNormalizedString_get_TokenizedType_m11482_MethodInfo;
+static const PropertyInfo XsdNormalizedString_t3873____TokenizedType_PropertyInfo = 
 {
-	&XsdNormalizedString_t3635_il2cpp_TypeInfo/* parent */
+	&XsdNormalizedString_t3873_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNormalizedString_get_TokenizedType_m11063_MethodInfo/* get */
+	, &XsdNormalizedString_get_TokenizedType_m11482_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdNormalizedString_t3635_PropertyInfos[] =
+static const PropertyInfo* XsdNormalizedString_t3873_PropertyInfos[] =
 {
-	&XsdNormalizedString_t3635____TokenizedType_PropertyInfo,
+	&XsdNormalizedString_t3873____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdNormalizedString_t3635_VTable[] =
+static const Il2CppMethodReference XsdNormalizedString_t3873_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdNormalizedString_get_TokenizedType_m11063_MethodInfo,
+	&XsdNormalizedString_get_TokenizedType_m11482_MethodInfo,
 };
-static bool XsdNormalizedString_t3635_VTableIsGenericMethod[] =
+static bool XsdNormalizedString_t3873_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1217,37 +1217,37 @@ static bool XsdNormalizedString_t3635_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdNormalizedString_t3635_0_0_0;
-extern const Il2CppType XsdNormalizedString_t3635_1_0_0;
-struct XsdNormalizedString_t3635;
-const Il2CppTypeDefinitionMetadata XsdNormalizedString_t3635_DefinitionMetadata = 
+extern const Il2CppType XsdNormalizedString_t3873_0_0_0;
+extern const Il2CppType XsdNormalizedString_t3873_1_0_0;
+struct XsdNormalizedString_t3873;
+const Il2CppTypeDefinitionMetadata XsdNormalizedString_t3873_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdString_t3634_0_0_0/* parent */
-	, XsdNormalizedString_t3635_VTable/* vtableMethods */
-	, XsdNormalizedString_t3635_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdString_t3872_0_0_0/* parent */
+	, XsdNormalizedString_t3873_VTable/* vtableMethods */
+	, XsdNormalizedString_t3873_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdNormalizedString_t3635_il2cpp_TypeInfo = 
+TypeInfo XsdNormalizedString_t3873_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdNormalizedString"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdNormalizedString_t3635_MethodInfos/* methods */
-	, XsdNormalizedString_t3635_PropertyInfos/* properties */
+	, XsdNormalizedString_t3873_MethodInfos/* methods */
+	, XsdNormalizedString_t3873_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdNormalizedString_t3635_il2cpp_TypeInfo/* element_class */
+	, &XsdNormalizedString_t3873_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdNormalizedString_t3635_0_0_0/* byval_arg */
-	, &XsdNormalizedString_t3635_1_0_0/* this_arg */
-	, &XsdNormalizedString_t3635_DefinitionMetadata/* definitionMetadata */
+	, &XsdNormalizedString_t3873_0_0_0/* byval_arg */
+	, &XsdNormalizedString_t3873_1_0_0/* this_arg */
+	, &XsdNormalizedString_t3873_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1257,8 +1257,8 @@ TypeInfo XsdNormalizedString_t3635_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdNormalizedString_t3635)/* instance_size */
-	, sizeof (XsdNormalizedString_t3635)/* actualSize */
+	, sizeof (XsdNormalizedString_t3873)/* instance_size */
+	, sizeof (XsdNormalizedString_t3873)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1290,16 +1290,16 @@ TypeInfo XsdNormalizedString_t3635_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdToken
 #include "System_Xml_Mono_Xml_Schema_XsdToken.h"
 // Metadata Definition Mono.Xml.Schema.XsdToken
-extern TypeInfo XsdToken_t3636_il2cpp_TypeInfo;
+extern TypeInfo XsdToken_t3874_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdToken
 #include "System_Xml_Mono_Xml_Schema_XsdTokenMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdToken::.ctor()
-extern const MethodInfo XsdToken__ctor_m11064_MethodInfo = 
+extern const MethodInfo XsdToken__ctor_m11483_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdToken__ctor_m11064/* method */
-	, &XsdToken_t3636_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdToken__ctor_m11483/* method */
+	, &XsdToken_t3874_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -1316,15 +1316,15 @@ extern const MethodInfo XsdToken__ctor_m11064_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdToken::get_TokenizedType()
-extern const MethodInfo XsdToken_get_TokenizedType_m11065_MethodInfo = 
+extern const MethodInfo XsdToken_get_TokenizedType_m11484_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdToken_get_TokenizedType_m11065/* method */
-	, &XsdToken_t3636_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdToken_get_TokenizedType_m11484/* method */
+	, &XsdToken_t3874_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -1339,37 +1339,37 @@ extern const MethodInfo XsdToken_get_TokenizedType_m11065_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdToken_t3636_MethodInfos[] =
+static const MethodInfo* XsdToken_t3874_MethodInfos[] =
 {
-	&XsdToken__ctor_m11064_MethodInfo,
-	&XsdToken_get_TokenizedType_m11065_MethodInfo,
+	&XsdToken__ctor_m11483_MethodInfo,
+	&XsdToken_get_TokenizedType_m11484_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdToken_get_TokenizedType_m11065_MethodInfo;
-static const PropertyInfo XsdToken_t3636____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdToken_get_TokenizedType_m11484_MethodInfo;
+static const PropertyInfo XsdToken_t3874____TokenizedType_PropertyInfo = 
 {
-	&XsdToken_t3636_il2cpp_TypeInfo/* parent */
+	&XsdToken_t3874_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdToken_get_TokenizedType_m11065_MethodInfo/* get */
+	, &XsdToken_get_TokenizedType_m11484_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdToken_t3636_PropertyInfos[] =
+static const PropertyInfo* XsdToken_t3874_PropertyInfos[] =
 {
-	&XsdToken_t3636____TokenizedType_PropertyInfo,
+	&XsdToken_t3874____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdToken_t3636_VTable[] =
+static const Il2CppMethodReference XsdToken_t3874_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdToken_get_TokenizedType_m11065_MethodInfo,
+	&XsdToken_get_TokenizedType_m11484_MethodInfo,
 };
-static bool XsdToken_t3636_VTableIsGenericMethod[] =
+static bool XsdToken_t3874_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1378,37 +1378,37 @@ static bool XsdToken_t3636_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdToken_t3636_0_0_0;
-extern const Il2CppType XsdToken_t3636_1_0_0;
-struct XsdToken_t3636;
-const Il2CppTypeDefinitionMetadata XsdToken_t3636_DefinitionMetadata = 
+extern const Il2CppType XsdToken_t3874_0_0_0;
+extern const Il2CppType XsdToken_t3874_1_0_0;
+struct XsdToken_t3874;
+const Il2CppTypeDefinitionMetadata XsdToken_t3874_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdNormalizedString_t3635_0_0_0/* parent */
-	, XsdToken_t3636_VTable/* vtableMethods */
-	, XsdToken_t3636_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdNormalizedString_t3873_0_0_0/* parent */
+	, XsdToken_t3874_VTable/* vtableMethods */
+	, XsdToken_t3874_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdToken_t3636_il2cpp_TypeInfo = 
+TypeInfo XsdToken_t3874_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdToken"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdToken_t3636_MethodInfos/* methods */
-	, XsdToken_t3636_PropertyInfos/* properties */
+	, XsdToken_t3874_MethodInfos/* methods */
+	, XsdToken_t3874_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdToken_t3636_il2cpp_TypeInfo/* element_class */
+	, &XsdToken_t3874_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdToken_t3636_0_0_0/* byval_arg */
-	, &XsdToken_t3636_1_0_0/* this_arg */
-	, &XsdToken_t3636_DefinitionMetadata/* definitionMetadata */
+	, &XsdToken_t3874_0_0_0/* byval_arg */
+	, &XsdToken_t3874_1_0_0/* this_arg */
+	, &XsdToken_t3874_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1418,8 +1418,8 @@ TypeInfo XsdToken_t3636_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdToken_t3636)/* instance_size */
-	, sizeof (XsdToken_t3636)/* actualSize */
+	, sizeof (XsdToken_t3874)/* instance_size */
+	, sizeof (XsdToken_t3874)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1451,16 +1451,16 @@ TypeInfo XsdToken_t3636_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdLanguage
 #include "System_Xml_Mono_Xml_Schema_XsdLanguage.h"
 // Metadata Definition Mono.Xml.Schema.XsdLanguage
-extern TypeInfo XsdLanguage_t3637_il2cpp_TypeInfo;
+extern TypeInfo XsdLanguage_t3875_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdLanguage
 #include "System_Xml_Mono_Xml_Schema_XsdLanguageMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdLanguage::.ctor()
-extern const MethodInfo XsdLanguage__ctor_m11066_MethodInfo = 
+extern const MethodInfo XsdLanguage__ctor_m11485_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdLanguage__ctor_m11066/* method */
-	, &XsdLanguage_t3637_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdLanguage__ctor_m11485/* method */
+	, &XsdLanguage_t3875_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -1477,15 +1477,15 @@ extern const MethodInfo XsdLanguage__ctor_m11066_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdLanguage::get_TokenizedType()
-extern const MethodInfo XsdLanguage_get_TokenizedType_m11067_MethodInfo = 
+extern const MethodInfo XsdLanguage_get_TokenizedType_m11486_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdLanguage_get_TokenizedType_m11067/* method */
-	, &XsdLanguage_t3637_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdLanguage_get_TokenizedType_m11486/* method */
+	, &XsdLanguage_t3875_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -1500,37 +1500,37 @@ extern const MethodInfo XsdLanguage_get_TokenizedType_m11067_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdLanguage_t3637_MethodInfos[] =
+static const MethodInfo* XsdLanguage_t3875_MethodInfos[] =
 {
-	&XsdLanguage__ctor_m11066_MethodInfo,
-	&XsdLanguage_get_TokenizedType_m11067_MethodInfo,
+	&XsdLanguage__ctor_m11485_MethodInfo,
+	&XsdLanguage_get_TokenizedType_m11486_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdLanguage_get_TokenizedType_m11067_MethodInfo;
-static const PropertyInfo XsdLanguage_t3637____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdLanguage_get_TokenizedType_m11486_MethodInfo;
+static const PropertyInfo XsdLanguage_t3875____TokenizedType_PropertyInfo = 
 {
-	&XsdLanguage_t3637_il2cpp_TypeInfo/* parent */
+	&XsdLanguage_t3875_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdLanguage_get_TokenizedType_m11067_MethodInfo/* get */
+	, &XsdLanguage_get_TokenizedType_m11486_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdLanguage_t3637_PropertyInfos[] =
+static const PropertyInfo* XsdLanguage_t3875_PropertyInfos[] =
 {
-	&XsdLanguage_t3637____TokenizedType_PropertyInfo,
+	&XsdLanguage_t3875____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdLanguage_t3637_VTable[] =
+static const Il2CppMethodReference XsdLanguage_t3875_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdLanguage_get_TokenizedType_m11067_MethodInfo,
+	&XsdLanguage_get_TokenizedType_m11486_MethodInfo,
 };
-static bool XsdLanguage_t3637_VTableIsGenericMethod[] =
+static bool XsdLanguage_t3875_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1539,37 +1539,37 @@ static bool XsdLanguage_t3637_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdLanguage_t3637_0_0_0;
-extern const Il2CppType XsdLanguage_t3637_1_0_0;
-struct XsdLanguage_t3637;
-const Il2CppTypeDefinitionMetadata XsdLanguage_t3637_DefinitionMetadata = 
+extern const Il2CppType XsdLanguage_t3875_0_0_0;
+extern const Il2CppType XsdLanguage_t3875_1_0_0;
+struct XsdLanguage_t3875;
+const Il2CppTypeDefinitionMetadata XsdLanguage_t3875_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdToken_t3636_0_0_0/* parent */
-	, XsdLanguage_t3637_VTable/* vtableMethods */
-	, XsdLanguage_t3637_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdToken_t3874_0_0_0/* parent */
+	, XsdLanguage_t3875_VTable/* vtableMethods */
+	, XsdLanguage_t3875_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdLanguage_t3637_il2cpp_TypeInfo = 
+TypeInfo XsdLanguage_t3875_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdLanguage"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdLanguage_t3637_MethodInfos/* methods */
-	, XsdLanguage_t3637_PropertyInfos/* properties */
+	, XsdLanguage_t3875_MethodInfos/* methods */
+	, XsdLanguage_t3875_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdLanguage_t3637_il2cpp_TypeInfo/* element_class */
+	, &XsdLanguage_t3875_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdLanguage_t3637_0_0_0/* byval_arg */
-	, &XsdLanguage_t3637_1_0_0/* this_arg */
-	, &XsdLanguage_t3637_DefinitionMetadata/* definitionMetadata */
+	, &XsdLanguage_t3875_0_0_0/* byval_arg */
+	, &XsdLanguage_t3875_1_0_0/* this_arg */
+	, &XsdLanguage_t3875_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1579,8 +1579,8 @@ TypeInfo XsdLanguage_t3637_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdLanguage_t3637)/* instance_size */
-	, sizeof (XsdLanguage_t3637)/* actualSize */
+	, sizeof (XsdLanguage_t3875)/* instance_size */
+	, sizeof (XsdLanguage_t3875)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1612,16 +1612,16 @@ TypeInfo XsdLanguage_t3637_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdNMToken
 #include "System_Xml_Mono_Xml_Schema_XsdNMToken.h"
 // Metadata Definition Mono.Xml.Schema.XsdNMToken
-extern TypeInfo XsdNMToken_t3638_il2cpp_TypeInfo;
+extern TypeInfo XsdNMToken_t3876_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNMToken
 #include "System_Xml_Mono_Xml_Schema_XsdNMTokenMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNMToken::.ctor()
-extern const MethodInfo XsdNMToken__ctor_m11068_MethodInfo = 
+extern const MethodInfo XsdNMToken__ctor_m11487_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNMToken__ctor_m11068/* method */
-	, &XsdNMToken_t3638_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdNMToken__ctor_m11487/* method */
+	, &XsdNMToken_t3876_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -1638,15 +1638,15 @@ extern const MethodInfo XsdNMToken__ctor_m11068_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNMToken::get_TokenizedType()
-extern const MethodInfo XsdNMToken_get_TokenizedType_m11069_MethodInfo = 
+extern const MethodInfo XsdNMToken_get_TokenizedType_m11488_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNMToken_get_TokenizedType_m11069/* method */
-	, &XsdNMToken_t3638_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdNMToken_get_TokenizedType_m11488/* method */
+	, &XsdNMToken_t3876_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -1661,37 +1661,37 @@ extern const MethodInfo XsdNMToken_get_TokenizedType_m11069_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdNMToken_t3638_MethodInfos[] =
+static const MethodInfo* XsdNMToken_t3876_MethodInfos[] =
 {
-	&XsdNMToken__ctor_m11068_MethodInfo,
-	&XsdNMToken_get_TokenizedType_m11069_MethodInfo,
+	&XsdNMToken__ctor_m11487_MethodInfo,
+	&XsdNMToken_get_TokenizedType_m11488_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNMToken_get_TokenizedType_m11069_MethodInfo;
-static const PropertyInfo XsdNMToken_t3638____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdNMToken_get_TokenizedType_m11488_MethodInfo;
+static const PropertyInfo XsdNMToken_t3876____TokenizedType_PropertyInfo = 
 {
-	&XsdNMToken_t3638_il2cpp_TypeInfo/* parent */
+	&XsdNMToken_t3876_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNMToken_get_TokenizedType_m11069_MethodInfo/* get */
+	, &XsdNMToken_get_TokenizedType_m11488_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdNMToken_t3638_PropertyInfos[] =
+static const PropertyInfo* XsdNMToken_t3876_PropertyInfos[] =
 {
-	&XsdNMToken_t3638____TokenizedType_PropertyInfo,
+	&XsdNMToken_t3876____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdNMToken_t3638_VTable[] =
+static const Il2CppMethodReference XsdNMToken_t3876_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdNMToken_get_TokenizedType_m11069_MethodInfo,
+	&XsdNMToken_get_TokenizedType_m11488_MethodInfo,
 };
-static bool XsdNMToken_t3638_VTableIsGenericMethod[] =
+static bool XsdNMToken_t3876_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1700,37 +1700,37 @@ static bool XsdNMToken_t3638_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdNMToken_t3638_0_0_0;
-extern const Il2CppType XsdNMToken_t3638_1_0_0;
-struct XsdNMToken_t3638;
-const Il2CppTypeDefinitionMetadata XsdNMToken_t3638_DefinitionMetadata = 
+extern const Il2CppType XsdNMToken_t3876_0_0_0;
+extern const Il2CppType XsdNMToken_t3876_1_0_0;
+struct XsdNMToken_t3876;
+const Il2CppTypeDefinitionMetadata XsdNMToken_t3876_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdToken_t3636_0_0_0/* parent */
-	, XsdNMToken_t3638_VTable/* vtableMethods */
-	, XsdNMToken_t3638_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdToken_t3874_0_0_0/* parent */
+	, XsdNMToken_t3876_VTable/* vtableMethods */
+	, XsdNMToken_t3876_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdNMToken_t3638_il2cpp_TypeInfo = 
+TypeInfo XsdNMToken_t3876_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdNMToken"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdNMToken_t3638_MethodInfos/* methods */
-	, XsdNMToken_t3638_PropertyInfos/* properties */
+	, XsdNMToken_t3876_MethodInfos/* methods */
+	, XsdNMToken_t3876_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdNMToken_t3638_il2cpp_TypeInfo/* element_class */
+	, &XsdNMToken_t3876_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdNMToken_t3638_0_0_0/* byval_arg */
-	, &XsdNMToken_t3638_1_0_0/* this_arg */
-	, &XsdNMToken_t3638_DefinitionMetadata/* definitionMetadata */
+	, &XsdNMToken_t3876_0_0_0/* byval_arg */
+	, &XsdNMToken_t3876_1_0_0/* this_arg */
+	, &XsdNMToken_t3876_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1740,8 +1740,8 @@ TypeInfo XsdNMToken_t3638_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdNMToken_t3638)/* instance_size */
-	, sizeof (XsdNMToken_t3638)/* actualSize */
+	, sizeof (XsdNMToken_t3876)/* instance_size */
+	, sizeof (XsdNMToken_t3876)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1773,16 +1773,16 @@ TypeInfo XsdNMToken_t3638_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdNMTokens
 #include "System_Xml_Mono_Xml_Schema_XsdNMTokens.h"
 // Metadata Definition Mono.Xml.Schema.XsdNMTokens
-extern TypeInfo XsdNMTokens_t3639_il2cpp_TypeInfo;
+extern TypeInfo XsdNMTokens_t3877_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNMTokens
 #include "System_Xml_Mono_Xml_Schema_XsdNMTokensMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNMTokens::.ctor()
-extern const MethodInfo XsdNMTokens__ctor_m11070_MethodInfo = 
+extern const MethodInfo XsdNMTokens__ctor_m11489_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNMTokens__ctor_m11070/* method */
-	, &XsdNMTokens_t3639_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdNMTokens__ctor_m11489/* method */
+	, &XsdNMTokens_t3877_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -1799,15 +1799,15 @@ extern const MethodInfo XsdNMTokens__ctor_m11070_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNMTokens::get_TokenizedType()
-extern const MethodInfo XsdNMTokens_get_TokenizedType_m11071_MethodInfo = 
+extern const MethodInfo XsdNMTokens_get_TokenizedType_m11490_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNMTokens_get_TokenizedType_m11071/* method */
-	, &XsdNMTokens_t3639_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdNMTokens_get_TokenizedType_m11490/* method */
+	, &XsdNMTokens_t3877_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -1822,37 +1822,37 @@ extern const MethodInfo XsdNMTokens_get_TokenizedType_m11071_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdNMTokens_t3639_MethodInfos[] =
+static const MethodInfo* XsdNMTokens_t3877_MethodInfos[] =
 {
-	&XsdNMTokens__ctor_m11070_MethodInfo,
-	&XsdNMTokens_get_TokenizedType_m11071_MethodInfo,
+	&XsdNMTokens__ctor_m11489_MethodInfo,
+	&XsdNMTokens_get_TokenizedType_m11490_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNMTokens_get_TokenizedType_m11071_MethodInfo;
-static const PropertyInfo XsdNMTokens_t3639____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdNMTokens_get_TokenizedType_m11490_MethodInfo;
+static const PropertyInfo XsdNMTokens_t3877____TokenizedType_PropertyInfo = 
 {
-	&XsdNMTokens_t3639_il2cpp_TypeInfo/* parent */
+	&XsdNMTokens_t3877_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNMTokens_get_TokenizedType_m11071_MethodInfo/* get */
+	, &XsdNMTokens_get_TokenizedType_m11490_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdNMTokens_t3639_PropertyInfos[] =
+static const PropertyInfo* XsdNMTokens_t3877_PropertyInfos[] =
 {
-	&XsdNMTokens_t3639____TokenizedType_PropertyInfo,
+	&XsdNMTokens_t3877____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdNMTokens_t3639_VTable[] =
+static const Il2CppMethodReference XsdNMTokens_t3877_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdNMTokens_get_TokenizedType_m11071_MethodInfo,
+	&XsdNMTokens_get_TokenizedType_m11490_MethodInfo,
 };
-static bool XsdNMTokens_t3639_VTableIsGenericMethod[] =
+static bool XsdNMTokens_t3877_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1861,37 +1861,37 @@ static bool XsdNMTokens_t3639_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdNMTokens_t3639_0_0_0;
-extern const Il2CppType XsdNMTokens_t3639_1_0_0;
-struct XsdNMTokens_t3639;
-const Il2CppTypeDefinitionMetadata XsdNMTokens_t3639_DefinitionMetadata = 
+extern const Il2CppType XsdNMTokens_t3877_0_0_0;
+extern const Il2CppType XsdNMTokens_t3877_1_0_0;
+struct XsdNMTokens_t3877;
+const Il2CppTypeDefinitionMetadata XsdNMTokens_t3877_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdNMToken_t3638_0_0_0/* parent */
-	, XsdNMTokens_t3639_VTable/* vtableMethods */
-	, XsdNMTokens_t3639_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdNMToken_t3876_0_0_0/* parent */
+	, XsdNMTokens_t3877_VTable/* vtableMethods */
+	, XsdNMTokens_t3877_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdNMTokens_t3639_il2cpp_TypeInfo = 
+TypeInfo XsdNMTokens_t3877_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdNMTokens"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdNMTokens_t3639_MethodInfos/* methods */
-	, XsdNMTokens_t3639_PropertyInfos/* properties */
+	, XsdNMTokens_t3877_MethodInfos/* methods */
+	, XsdNMTokens_t3877_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdNMTokens_t3639_il2cpp_TypeInfo/* element_class */
+	, &XsdNMTokens_t3877_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdNMTokens_t3639_0_0_0/* byval_arg */
-	, &XsdNMTokens_t3639_1_0_0/* this_arg */
-	, &XsdNMTokens_t3639_DefinitionMetadata/* definitionMetadata */
+	, &XsdNMTokens_t3877_0_0_0/* byval_arg */
+	, &XsdNMTokens_t3877_1_0_0/* this_arg */
+	, &XsdNMTokens_t3877_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1901,8 +1901,8 @@ TypeInfo XsdNMTokens_t3639_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdNMTokens_t3639)/* instance_size */
-	, sizeof (XsdNMTokens_t3639)/* actualSize */
+	, sizeof (XsdNMTokens_t3877)/* instance_size */
+	, sizeof (XsdNMTokens_t3877)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1934,16 +1934,16 @@ TypeInfo XsdNMTokens_t3639_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdName
 #include "System_Xml_Mono_Xml_Schema_XsdName.h"
 // Metadata Definition Mono.Xml.Schema.XsdName
-extern TypeInfo XsdName_t3640_il2cpp_TypeInfo;
+extern TypeInfo XsdName_t3878_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdName
 #include "System_Xml_Mono_Xml_Schema_XsdNameMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdName::.ctor()
-extern const MethodInfo XsdName__ctor_m11072_MethodInfo = 
+extern const MethodInfo XsdName__ctor_m11491_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdName__ctor_m11072/* method */
-	, &XsdName_t3640_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdName__ctor_m11491/* method */
+	, &XsdName_t3878_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -1960,15 +1960,15 @@ extern const MethodInfo XsdName__ctor_m11072_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdName::get_TokenizedType()
-extern const MethodInfo XsdName_get_TokenizedType_m11073_MethodInfo = 
+extern const MethodInfo XsdName_get_TokenizedType_m11492_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdName_get_TokenizedType_m11073/* method */
-	, &XsdName_t3640_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdName_get_TokenizedType_m11492/* method */
+	, &XsdName_t3878_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -1983,37 +1983,37 @@ extern const MethodInfo XsdName_get_TokenizedType_m11073_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdName_t3640_MethodInfos[] =
+static const MethodInfo* XsdName_t3878_MethodInfos[] =
 {
-	&XsdName__ctor_m11072_MethodInfo,
-	&XsdName_get_TokenizedType_m11073_MethodInfo,
+	&XsdName__ctor_m11491_MethodInfo,
+	&XsdName_get_TokenizedType_m11492_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdName_get_TokenizedType_m11073_MethodInfo;
-static const PropertyInfo XsdName_t3640____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdName_get_TokenizedType_m11492_MethodInfo;
+static const PropertyInfo XsdName_t3878____TokenizedType_PropertyInfo = 
 {
-	&XsdName_t3640_il2cpp_TypeInfo/* parent */
+	&XsdName_t3878_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdName_get_TokenizedType_m11073_MethodInfo/* get */
+	, &XsdName_get_TokenizedType_m11492_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdName_t3640_PropertyInfos[] =
+static const PropertyInfo* XsdName_t3878_PropertyInfos[] =
 {
-	&XsdName_t3640____TokenizedType_PropertyInfo,
+	&XsdName_t3878____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdName_t3640_VTable[] =
+static const Il2CppMethodReference XsdName_t3878_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdName_get_TokenizedType_m11073_MethodInfo,
+	&XsdName_get_TokenizedType_m11492_MethodInfo,
 };
-static bool XsdName_t3640_VTableIsGenericMethod[] =
+static bool XsdName_t3878_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2022,37 +2022,37 @@ static bool XsdName_t3640_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdName_t3640_0_0_0;
-extern const Il2CppType XsdName_t3640_1_0_0;
-struct XsdName_t3640;
-const Il2CppTypeDefinitionMetadata XsdName_t3640_DefinitionMetadata = 
+extern const Il2CppType XsdName_t3878_0_0_0;
+extern const Il2CppType XsdName_t3878_1_0_0;
+struct XsdName_t3878;
+const Il2CppTypeDefinitionMetadata XsdName_t3878_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdToken_t3636_0_0_0/* parent */
-	, XsdName_t3640_VTable/* vtableMethods */
-	, XsdName_t3640_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdToken_t3874_0_0_0/* parent */
+	, XsdName_t3878_VTable/* vtableMethods */
+	, XsdName_t3878_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdName_t3640_il2cpp_TypeInfo = 
+TypeInfo XsdName_t3878_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdName"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdName_t3640_MethodInfos/* methods */
-	, XsdName_t3640_PropertyInfos/* properties */
+	, XsdName_t3878_MethodInfos/* methods */
+	, XsdName_t3878_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdName_t3640_il2cpp_TypeInfo/* element_class */
+	, &XsdName_t3878_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdName_t3640_0_0_0/* byval_arg */
-	, &XsdName_t3640_1_0_0/* this_arg */
-	, &XsdName_t3640_DefinitionMetadata/* definitionMetadata */
+	, &XsdName_t3878_0_0_0/* byval_arg */
+	, &XsdName_t3878_1_0_0/* this_arg */
+	, &XsdName_t3878_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2062,8 +2062,8 @@ TypeInfo XsdName_t3640_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdName_t3640)/* instance_size */
-	, sizeof (XsdName_t3640)/* actualSize */
+	, sizeof (XsdName_t3878)/* instance_size */
+	, sizeof (XsdName_t3878)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2095,16 +2095,16 @@ TypeInfo XsdName_t3640_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdNCName
 #include "System_Xml_Mono_Xml_Schema_XsdNCName.h"
 // Metadata Definition Mono.Xml.Schema.XsdNCName
-extern TypeInfo XsdNCName_t3641_il2cpp_TypeInfo;
+extern TypeInfo XsdNCName_t3879_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNCName
 #include "System_Xml_Mono_Xml_Schema_XsdNCNameMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNCName::.ctor()
-extern const MethodInfo XsdNCName__ctor_m11074_MethodInfo = 
+extern const MethodInfo XsdNCName__ctor_m11493_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNCName__ctor_m11074/* method */
-	, &XsdNCName_t3641_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdNCName__ctor_m11493/* method */
+	, &XsdNCName_t3879_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -2121,15 +2121,15 @@ extern const MethodInfo XsdNCName__ctor_m11074_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNCName::get_TokenizedType()
-extern const MethodInfo XsdNCName_get_TokenizedType_m11075_MethodInfo = 
+extern const MethodInfo XsdNCName_get_TokenizedType_m11494_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNCName_get_TokenizedType_m11075/* method */
-	, &XsdNCName_t3641_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdNCName_get_TokenizedType_m11494/* method */
+	, &XsdNCName_t3879_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -2144,37 +2144,37 @@ extern const MethodInfo XsdNCName_get_TokenizedType_m11075_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdNCName_t3641_MethodInfos[] =
+static const MethodInfo* XsdNCName_t3879_MethodInfos[] =
 {
-	&XsdNCName__ctor_m11074_MethodInfo,
-	&XsdNCName_get_TokenizedType_m11075_MethodInfo,
+	&XsdNCName__ctor_m11493_MethodInfo,
+	&XsdNCName_get_TokenizedType_m11494_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNCName_get_TokenizedType_m11075_MethodInfo;
-static const PropertyInfo XsdNCName_t3641____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdNCName_get_TokenizedType_m11494_MethodInfo;
+static const PropertyInfo XsdNCName_t3879____TokenizedType_PropertyInfo = 
 {
-	&XsdNCName_t3641_il2cpp_TypeInfo/* parent */
+	&XsdNCName_t3879_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNCName_get_TokenizedType_m11075_MethodInfo/* get */
+	, &XsdNCName_get_TokenizedType_m11494_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdNCName_t3641_PropertyInfos[] =
+static const PropertyInfo* XsdNCName_t3879_PropertyInfos[] =
 {
-	&XsdNCName_t3641____TokenizedType_PropertyInfo,
+	&XsdNCName_t3879____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdNCName_t3641_VTable[] =
+static const Il2CppMethodReference XsdNCName_t3879_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdNCName_get_TokenizedType_m11075_MethodInfo,
+	&XsdNCName_get_TokenizedType_m11494_MethodInfo,
 };
-static bool XsdNCName_t3641_VTableIsGenericMethod[] =
+static bool XsdNCName_t3879_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2183,37 +2183,37 @@ static bool XsdNCName_t3641_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdNCName_t3641_0_0_0;
-extern const Il2CppType XsdNCName_t3641_1_0_0;
-struct XsdNCName_t3641;
-const Il2CppTypeDefinitionMetadata XsdNCName_t3641_DefinitionMetadata = 
+extern const Il2CppType XsdNCName_t3879_0_0_0;
+extern const Il2CppType XsdNCName_t3879_1_0_0;
+struct XsdNCName_t3879;
+const Il2CppTypeDefinitionMetadata XsdNCName_t3879_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdName_t3640_0_0_0/* parent */
-	, XsdNCName_t3641_VTable/* vtableMethods */
-	, XsdNCName_t3641_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdName_t3878_0_0_0/* parent */
+	, XsdNCName_t3879_VTable/* vtableMethods */
+	, XsdNCName_t3879_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdNCName_t3641_il2cpp_TypeInfo = 
+TypeInfo XsdNCName_t3879_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdNCName"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdNCName_t3641_MethodInfos/* methods */
-	, XsdNCName_t3641_PropertyInfos/* properties */
+	, XsdNCName_t3879_MethodInfos/* methods */
+	, XsdNCName_t3879_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdNCName_t3641_il2cpp_TypeInfo/* element_class */
+	, &XsdNCName_t3879_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdNCName_t3641_0_0_0/* byval_arg */
-	, &XsdNCName_t3641_1_0_0/* this_arg */
-	, &XsdNCName_t3641_DefinitionMetadata/* definitionMetadata */
+	, &XsdNCName_t3879_0_0_0/* byval_arg */
+	, &XsdNCName_t3879_1_0_0/* this_arg */
+	, &XsdNCName_t3879_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2223,8 +2223,8 @@ TypeInfo XsdNCName_t3641_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdNCName_t3641)/* instance_size */
-	, sizeof (XsdNCName_t3641)/* actualSize */
+	, sizeof (XsdNCName_t3879)/* instance_size */
+	, sizeof (XsdNCName_t3879)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2256,16 +2256,16 @@ TypeInfo XsdNCName_t3641_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdID
 #include "System_Xml_Mono_Xml_Schema_XsdID.h"
 // Metadata Definition Mono.Xml.Schema.XsdID
-extern TypeInfo XsdID_t3642_il2cpp_TypeInfo;
+extern TypeInfo XsdID_t3880_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdID
 #include "System_Xml_Mono_Xml_Schema_XsdIDMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdID::.ctor()
-extern const MethodInfo XsdID__ctor_m11076_MethodInfo = 
+extern const MethodInfo XsdID__ctor_m11495_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdID__ctor_m11076/* method */
-	, &XsdID_t3642_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdID__ctor_m11495/* method */
+	, &XsdID_t3880_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -2282,15 +2282,15 @@ extern const MethodInfo XsdID__ctor_m11076_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdID::get_TokenizedType()
-extern const MethodInfo XsdID_get_TokenizedType_m11077_MethodInfo = 
+extern const MethodInfo XsdID_get_TokenizedType_m11496_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdID_get_TokenizedType_m11077/* method */
-	, &XsdID_t3642_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdID_get_TokenizedType_m11496/* method */
+	, &XsdID_t3880_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -2305,37 +2305,37 @@ extern const MethodInfo XsdID_get_TokenizedType_m11077_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdID_t3642_MethodInfos[] =
+static const MethodInfo* XsdID_t3880_MethodInfos[] =
 {
-	&XsdID__ctor_m11076_MethodInfo,
-	&XsdID_get_TokenizedType_m11077_MethodInfo,
+	&XsdID__ctor_m11495_MethodInfo,
+	&XsdID_get_TokenizedType_m11496_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdID_get_TokenizedType_m11077_MethodInfo;
-static const PropertyInfo XsdID_t3642____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdID_get_TokenizedType_m11496_MethodInfo;
+static const PropertyInfo XsdID_t3880____TokenizedType_PropertyInfo = 
 {
-	&XsdID_t3642_il2cpp_TypeInfo/* parent */
+	&XsdID_t3880_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdID_get_TokenizedType_m11077_MethodInfo/* get */
+	, &XsdID_get_TokenizedType_m11496_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdID_t3642_PropertyInfos[] =
+static const PropertyInfo* XsdID_t3880_PropertyInfos[] =
 {
-	&XsdID_t3642____TokenizedType_PropertyInfo,
+	&XsdID_t3880____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdID_t3642_VTable[] =
+static const Il2CppMethodReference XsdID_t3880_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdID_get_TokenizedType_m11077_MethodInfo,
+	&XsdID_get_TokenizedType_m11496_MethodInfo,
 };
-static bool XsdID_t3642_VTableIsGenericMethod[] =
+static bool XsdID_t3880_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2344,37 +2344,37 @@ static bool XsdID_t3642_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdID_t3642_0_0_0;
-extern const Il2CppType XsdID_t3642_1_0_0;
-struct XsdID_t3642;
-const Il2CppTypeDefinitionMetadata XsdID_t3642_DefinitionMetadata = 
+extern const Il2CppType XsdID_t3880_0_0_0;
+extern const Il2CppType XsdID_t3880_1_0_0;
+struct XsdID_t3880;
+const Il2CppTypeDefinitionMetadata XsdID_t3880_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdName_t3640_0_0_0/* parent */
-	, XsdID_t3642_VTable/* vtableMethods */
-	, XsdID_t3642_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdName_t3878_0_0_0/* parent */
+	, XsdID_t3880_VTable/* vtableMethods */
+	, XsdID_t3880_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdID_t3642_il2cpp_TypeInfo = 
+TypeInfo XsdID_t3880_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdID"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdID_t3642_MethodInfos/* methods */
-	, XsdID_t3642_PropertyInfos/* properties */
+	, XsdID_t3880_MethodInfos/* methods */
+	, XsdID_t3880_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdID_t3642_il2cpp_TypeInfo/* element_class */
+	, &XsdID_t3880_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdID_t3642_0_0_0/* byval_arg */
-	, &XsdID_t3642_1_0_0/* this_arg */
-	, &XsdID_t3642_DefinitionMetadata/* definitionMetadata */
+	, &XsdID_t3880_0_0_0/* byval_arg */
+	, &XsdID_t3880_1_0_0/* this_arg */
+	, &XsdID_t3880_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2384,8 +2384,8 @@ TypeInfo XsdID_t3642_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdID_t3642)/* instance_size */
-	, sizeof (XsdID_t3642)/* actualSize */
+	, sizeof (XsdID_t3880)/* instance_size */
+	, sizeof (XsdID_t3880)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2417,16 +2417,16 @@ TypeInfo XsdID_t3642_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdIDRef
 #include "System_Xml_Mono_Xml_Schema_XsdIDRef.h"
 // Metadata Definition Mono.Xml.Schema.XsdIDRef
-extern TypeInfo XsdIDRef_t3643_il2cpp_TypeInfo;
+extern TypeInfo XsdIDRef_t3881_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdIDRef
 #include "System_Xml_Mono_Xml_Schema_XsdIDRefMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdIDRef::.ctor()
-extern const MethodInfo XsdIDRef__ctor_m11078_MethodInfo = 
+extern const MethodInfo XsdIDRef__ctor_m11497_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdIDRef__ctor_m11078/* method */
-	, &XsdIDRef_t3643_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdIDRef__ctor_m11497/* method */
+	, &XsdIDRef_t3881_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -2443,15 +2443,15 @@ extern const MethodInfo XsdIDRef__ctor_m11078_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdIDRef::get_TokenizedType()
-extern const MethodInfo XsdIDRef_get_TokenizedType_m11079_MethodInfo = 
+extern const MethodInfo XsdIDRef_get_TokenizedType_m11498_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdIDRef_get_TokenizedType_m11079/* method */
-	, &XsdIDRef_t3643_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdIDRef_get_TokenizedType_m11498/* method */
+	, &XsdIDRef_t3881_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -2466,37 +2466,37 @@ extern const MethodInfo XsdIDRef_get_TokenizedType_m11079_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdIDRef_t3643_MethodInfos[] =
+static const MethodInfo* XsdIDRef_t3881_MethodInfos[] =
 {
-	&XsdIDRef__ctor_m11078_MethodInfo,
-	&XsdIDRef_get_TokenizedType_m11079_MethodInfo,
+	&XsdIDRef__ctor_m11497_MethodInfo,
+	&XsdIDRef_get_TokenizedType_m11498_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdIDRef_get_TokenizedType_m11079_MethodInfo;
-static const PropertyInfo XsdIDRef_t3643____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdIDRef_get_TokenizedType_m11498_MethodInfo;
+static const PropertyInfo XsdIDRef_t3881____TokenizedType_PropertyInfo = 
 {
-	&XsdIDRef_t3643_il2cpp_TypeInfo/* parent */
+	&XsdIDRef_t3881_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdIDRef_get_TokenizedType_m11079_MethodInfo/* get */
+	, &XsdIDRef_get_TokenizedType_m11498_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdIDRef_t3643_PropertyInfos[] =
+static const PropertyInfo* XsdIDRef_t3881_PropertyInfos[] =
 {
-	&XsdIDRef_t3643____TokenizedType_PropertyInfo,
+	&XsdIDRef_t3881____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdIDRef_t3643_VTable[] =
+static const Il2CppMethodReference XsdIDRef_t3881_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdIDRef_get_TokenizedType_m11079_MethodInfo,
+	&XsdIDRef_get_TokenizedType_m11498_MethodInfo,
 };
-static bool XsdIDRef_t3643_VTableIsGenericMethod[] =
+static bool XsdIDRef_t3881_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2505,37 +2505,37 @@ static bool XsdIDRef_t3643_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdIDRef_t3643_0_0_0;
-extern const Il2CppType XsdIDRef_t3643_1_0_0;
-struct XsdIDRef_t3643;
-const Il2CppTypeDefinitionMetadata XsdIDRef_t3643_DefinitionMetadata = 
+extern const Il2CppType XsdIDRef_t3881_0_0_0;
+extern const Il2CppType XsdIDRef_t3881_1_0_0;
+struct XsdIDRef_t3881;
+const Il2CppTypeDefinitionMetadata XsdIDRef_t3881_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdName_t3640_0_0_0/* parent */
-	, XsdIDRef_t3643_VTable/* vtableMethods */
-	, XsdIDRef_t3643_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdName_t3878_0_0_0/* parent */
+	, XsdIDRef_t3881_VTable/* vtableMethods */
+	, XsdIDRef_t3881_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdIDRef_t3643_il2cpp_TypeInfo = 
+TypeInfo XsdIDRef_t3881_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdIDRef"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdIDRef_t3643_MethodInfos/* methods */
-	, XsdIDRef_t3643_PropertyInfos/* properties */
+	, XsdIDRef_t3881_MethodInfos/* methods */
+	, XsdIDRef_t3881_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdIDRef_t3643_il2cpp_TypeInfo/* element_class */
+	, &XsdIDRef_t3881_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdIDRef_t3643_0_0_0/* byval_arg */
-	, &XsdIDRef_t3643_1_0_0/* this_arg */
-	, &XsdIDRef_t3643_DefinitionMetadata/* definitionMetadata */
+	, &XsdIDRef_t3881_0_0_0/* byval_arg */
+	, &XsdIDRef_t3881_1_0_0/* this_arg */
+	, &XsdIDRef_t3881_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2545,8 +2545,8 @@ TypeInfo XsdIDRef_t3643_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdIDRef_t3643)/* instance_size */
-	, sizeof (XsdIDRef_t3643)/* actualSize */
+	, sizeof (XsdIDRef_t3881)/* instance_size */
+	, sizeof (XsdIDRef_t3881)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2578,16 +2578,16 @@ TypeInfo XsdIDRef_t3643_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdIDRefs
 #include "System_Xml_Mono_Xml_Schema_XsdIDRefs.h"
 // Metadata Definition Mono.Xml.Schema.XsdIDRefs
-extern TypeInfo XsdIDRefs_t3644_il2cpp_TypeInfo;
+extern TypeInfo XsdIDRefs_t3882_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdIDRefs
 #include "System_Xml_Mono_Xml_Schema_XsdIDRefsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdIDRefs::.ctor()
-extern const MethodInfo XsdIDRefs__ctor_m11080_MethodInfo = 
+extern const MethodInfo XsdIDRefs__ctor_m11499_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdIDRefs__ctor_m11080/* method */
-	, &XsdIDRefs_t3644_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdIDRefs__ctor_m11499/* method */
+	, &XsdIDRefs_t3882_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -2604,15 +2604,15 @@ extern const MethodInfo XsdIDRefs__ctor_m11080_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdIDRefs::get_TokenizedType()
-extern const MethodInfo XsdIDRefs_get_TokenizedType_m11081_MethodInfo = 
+extern const MethodInfo XsdIDRefs_get_TokenizedType_m11500_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdIDRefs_get_TokenizedType_m11081/* method */
-	, &XsdIDRefs_t3644_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdIDRefs_get_TokenizedType_m11500/* method */
+	, &XsdIDRefs_t3882_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -2627,37 +2627,37 @@ extern const MethodInfo XsdIDRefs_get_TokenizedType_m11081_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdIDRefs_t3644_MethodInfos[] =
+static const MethodInfo* XsdIDRefs_t3882_MethodInfos[] =
 {
-	&XsdIDRefs__ctor_m11080_MethodInfo,
-	&XsdIDRefs_get_TokenizedType_m11081_MethodInfo,
+	&XsdIDRefs__ctor_m11499_MethodInfo,
+	&XsdIDRefs_get_TokenizedType_m11500_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdIDRefs_get_TokenizedType_m11081_MethodInfo;
-static const PropertyInfo XsdIDRefs_t3644____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdIDRefs_get_TokenizedType_m11500_MethodInfo;
+static const PropertyInfo XsdIDRefs_t3882____TokenizedType_PropertyInfo = 
 {
-	&XsdIDRefs_t3644_il2cpp_TypeInfo/* parent */
+	&XsdIDRefs_t3882_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdIDRefs_get_TokenizedType_m11081_MethodInfo/* get */
+	, &XsdIDRefs_get_TokenizedType_m11500_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdIDRefs_t3644_PropertyInfos[] =
+static const PropertyInfo* XsdIDRefs_t3882_PropertyInfos[] =
 {
-	&XsdIDRefs_t3644____TokenizedType_PropertyInfo,
+	&XsdIDRefs_t3882____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdIDRefs_t3644_VTable[] =
+static const Il2CppMethodReference XsdIDRefs_t3882_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdIDRefs_get_TokenizedType_m11081_MethodInfo,
+	&XsdIDRefs_get_TokenizedType_m11500_MethodInfo,
 };
-static bool XsdIDRefs_t3644_VTableIsGenericMethod[] =
+static bool XsdIDRefs_t3882_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2666,37 +2666,37 @@ static bool XsdIDRefs_t3644_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdIDRefs_t3644_0_0_0;
-extern const Il2CppType XsdIDRefs_t3644_1_0_0;
-struct XsdIDRefs_t3644;
-const Il2CppTypeDefinitionMetadata XsdIDRefs_t3644_DefinitionMetadata = 
+extern const Il2CppType XsdIDRefs_t3882_0_0_0;
+extern const Il2CppType XsdIDRefs_t3882_1_0_0;
+struct XsdIDRefs_t3882;
+const Il2CppTypeDefinitionMetadata XsdIDRefs_t3882_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdName_t3640_0_0_0/* parent */
-	, XsdIDRefs_t3644_VTable/* vtableMethods */
-	, XsdIDRefs_t3644_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdName_t3878_0_0_0/* parent */
+	, XsdIDRefs_t3882_VTable/* vtableMethods */
+	, XsdIDRefs_t3882_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdIDRefs_t3644_il2cpp_TypeInfo = 
+TypeInfo XsdIDRefs_t3882_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdIDRefs"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdIDRefs_t3644_MethodInfos/* methods */
-	, XsdIDRefs_t3644_PropertyInfos/* properties */
+	, XsdIDRefs_t3882_MethodInfos/* methods */
+	, XsdIDRefs_t3882_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdIDRefs_t3644_il2cpp_TypeInfo/* element_class */
+	, &XsdIDRefs_t3882_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdIDRefs_t3644_0_0_0/* byval_arg */
-	, &XsdIDRefs_t3644_1_0_0/* this_arg */
-	, &XsdIDRefs_t3644_DefinitionMetadata/* definitionMetadata */
+	, &XsdIDRefs_t3882_0_0_0/* byval_arg */
+	, &XsdIDRefs_t3882_1_0_0/* this_arg */
+	, &XsdIDRefs_t3882_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2706,8 +2706,8 @@ TypeInfo XsdIDRefs_t3644_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdIDRefs_t3644)/* instance_size */
-	, sizeof (XsdIDRefs_t3644)/* actualSize */
+	, sizeof (XsdIDRefs_t3882)/* instance_size */
+	, sizeof (XsdIDRefs_t3882)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2739,16 +2739,16 @@ TypeInfo XsdIDRefs_t3644_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdEntity
 #include "System_Xml_Mono_Xml_Schema_XsdEntity.h"
 // Metadata Definition Mono.Xml.Schema.XsdEntity
-extern TypeInfo XsdEntity_t3645_il2cpp_TypeInfo;
+extern TypeInfo XsdEntity_t3883_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdEntity
 #include "System_Xml_Mono_Xml_Schema_XsdEntityMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdEntity::.ctor()
-extern const MethodInfo XsdEntity__ctor_m11082_MethodInfo = 
+extern const MethodInfo XsdEntity__ctor_m11501_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdEntity__ctor_m11082/* method */
-	, &XsdEntity_t3645_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdEntity__ctor_m11501/* method */
+	, &XsdEntity_t3883_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -2765,15 +2765,15 @@ extern const MethodInfo XsdEntity__ctor_m11082_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdEntity::get_TokenizedType()
-extern const MethodInfo XsdEntity_get_TokenizedType_m11083_MethodInfo = 
+extern const MethodInfo XsdEntity_get_TokenizedType_m11502_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdEntity_get_TokenizedType_m11083/* method */
-	, &XsdEntity_t3645_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdEntity_get_TokenizedType_m11502/* method */
+	, &XsdEntity_t3883_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -2788,37 +2788,37 @@ extern const MethodInfo XsdEntity_get_TokenizedType_m11083_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdEntity_t3645_MethodInfos[] =
+static const MethodInfo* XsdEntity_t3883_MethodInfos[] =
 {
-	&XsdEntity__ctor_m11082_MethodInfo,
-	&XsdEntity_get_TokenizedType_m11083_MethodInfo,
+	&XsdEntity__ctor_m11501_MethodInfo,
+	&XsdEntity_get_TokenizedType_m11502_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdEntity_get_TokenizedType_m11083_MethodInfo;
-static const PropertyInfo XsdEntity_t3645____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdEntity_get_TokenizedType_m11502_MethodInfo;
+static const PropertyInfo XsdEntity_t3883____TokenizedType_PropertyInfo = 
 {
-	&XsdEntity_t3645_il2cpp_TypeInfo/* parent */
+	&XsdEntity_t3883_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdEntity_get_TokenizedType_m11083_MethodInfo/* get */
+	, &XsdEntity_get_TokenizedType_m11502_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdEntity_t3645_PropertyInfos[] =
+static const PropertyInfo* XsdEntity_t3883_PropertyInfos[] =
 {
-	&XsdEntity_t3645____TokenizedType_PropertyInfo,
+	&XsdEntity_t3883____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdEntity_t3645_VTable[] =
+static const Il2CppMethodReference XsdEntity_t3883_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdEntity_get_TokenizedType_m11083_MethodInfo,
+	&XsdEntity_get_TokenizedType_m11502_MethodInfo,
 };
-static bool XsdEntity_t3645_VTableIsGenericMethod[] =
+static bool XsdEntity_t3883_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2827,37 +2827,37 @@ static bool XsdEntity_t3645_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdEntity_t3645_0_0_0;
-extern const Il2CppType XsdEntity_t3645_1_0_0;
-struct XsdEntity_t3645;
-const Il2CppTypeDefinitionMetadata XsdEntity_t3645_DefinitionMetadata = 
+extern const Il2CppType XsdEntity_t3883_0_0_0;
+extern const Il2CppType XsdEntity_t3883_1_0_0;
+struct XsdEntity_t3883;
+const Il2CppTypeDefinitionMetadata XsdEntity_t3883_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdName_t3640_0_0_0/* parent */
-	, XsdEntity_t3645_VTable/* vtableMethods */
-	, XsdEntity_t3645_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdName_t3878_0_0_0/* parent */
+	, XsdEntity_t3883_VTable/* vtableMethods */
+	, XsdEntity_t3883_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdEntity_t3645_il2cpp_TypeInfo = 
+TypeInfo XsdEntity_t3883_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdEntity"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdEntity_t3645_MethodInfos/* methods */
-	, XsdEntity_t3645_PropertyInfos/* properties */
+	, XsdEntity_t3883_MethodInfos/* methods */
+	, XsdEntity_t3883_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdEntity_t3645_il2cpp_TypeInfo/* element_class */
+	, &XsdEntity_t3883_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdEntity_t3645_0_0_0/* byval_arg */
-	, &XsdEntity_t3645_1_0_0/* this_arg */
-	, &XsdEntity_t3645_DefinitionMetadata/* definitionMetadata */
+	, &XsdEntity_t3883_0_0_0/* byval_arg */
+	, &XsdEntity_t3883_1_0_0/* this_arg */
+	, &XsdEntity_t3883_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2867,8 +2867,8 @@ TypeInfo XsdEntity_t3645_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdEntity_t3645)/* instance_size */
-	, sizeof (XsdEntity_t3645)/* actualSize */
+	, sizeof (XsdEntity_t3883)/* instance_size */
+	, sizeof (XsdEntity_t3883)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2900,16 +2900,16 @@ TypeInfo XsdEntity_t3645_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdEntities
 #include "System_Xml_Mono_Xml_Schema_XsdEntities.h"
 // Metadata Definition Mono.Xml.Schema.XsdEntities
-extern TypeInfo XsdEntities_t3646_il2cpp_TypeInfo;
+extern TypeInfo XsdEntities_t3884_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdEntities
 #include "System_Xml_Mono_Xml_Schema_XsdEntitiesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdEntities::.ctor()
-extern const MethodInfo XsdEntities__ctor_m11084_MethodInfo = 
+extern const MethodInfo XsdEntities__ctor_m11503_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdEntities__ctor_m11084/* method */
-	, &XsdEntities_t3646_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdEntities__ctor_m11503/* method */
+	, &XsdEntities_t3884_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -2926,15 +2926,15 @@ extern const MethodInfo XsdEntities__ctor_m11084_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdEntities::get_TokenizedType()
-extern const MethodInfo XsdEntities_get_TokenizedType_m11085_MethodInfo = 
+extern const MethodInfo XsdEntities_get_TokenizedType_m11504_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdEntities_get_TokenizedType_m11085/* method */
-	, &XsdEntities_t3646_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdEntities_get_TokenizedType_m11504/* method */
+	, &XsdEntities_t3884_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -2949,37 +2949,37 @@ extern const MethodInfo XsdEntities_get_TokenizedType_m11085_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdEntities_t3646_MethodInfos[] =
+static const MethodInfo* XsdEntities_t3884_MethodInfos[] =
 {
-	&XsdEntities__ctor_m11084_MethodInfo,
-	&XsdEntities_get_TokenizedType_m11085_MethodInfo,
+	&XsdEntities__ctor_m11503_MethodInfo,
+	&XsdEntities_get_TokenizedType_m11504_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdEntities_get_TokenizedType_m11085_MethodInfo;
-static const PropertyInfo XsdEntities_t3646____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdEntities_get_TokenizedType_m11504_MethodInfo;
+static const PropertyInfo XsdEntities_t3884____TokenizedType_PropertyInfo = 
 {
-	&XsdEntities_t3646_il2cpp_TypeInfo/* parent */
+	&XsdEntities_t3884_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdEntities_get_TokenizedType_m11085_MethodInfo/* get */
+	, &XsdEntities_get_TokenizedType_m11504_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdEntities_t3646_PropertyInfos[] =
+static const PropertyInfo* XsdEntities_t3884_PropertyInfos[] =
 {
-	&XsdEntities_t3646____TokenizedType_PropertyInfo,
+	&XsdEntities_t3884____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdEntities_t3646_VTable[] =
+static const Il2CppMethodReference XsdEntities_t3884_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdEntities_get_TokenizedType_m11085_MethodInfo,
+	&XsdEntities_get_TokenizedType_m11504_MethodInfo,
 };
-static bool XsdEntities_t3646_VTableIsGenericMethod[] =
+static bool XsdEntities_t3884_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2988,37 +2988,37 @@ static bool XsdEntities_t3646_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdEntities_t3646_0_0_0;
-extern const Il2CppType XsdEntities_t3646_1_0_0;
-struct XsdEntities_t3646;
-const Il2CppTypeDefinitionMetadata XsdEntities_t3646_DefinitionMetadata = 
+extern const Il2CppType XsdEntities_t3884_0_0_0;
+extern const Il2CppType XsdEntities_t3884_1_0_0;
+struct XsdEntities_t3884;
+const Il2CppTypeDefinitionMetadata XsdEntities_t3884_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdName_t3640_0_0_0/* parent */
-	, XsdEntities_t3646_VTable/* vtableMethods */
-	, XsdEntities_t3646_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdName_t3878_0_0_0/* parent */
+	, XsdEntities_t3884_VTable/* vtableMethods */
+	, XsdEntities_t3884_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdEntities_t3646_il2cpp_TypeInfo = 
+TypeInfo XsdEntities_t3884_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdEntities"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdEntities_t3646_MethodInfos/* methods */
-	, XsdEntities_t3646_PropertyInfos/* properties */
+	, XsdEntities_t3884_MethodInfos/* methods */
+	, XsdEntities_t3884_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdEntities_t3646_il2cpp_TypeInfo/* element_class */
+	, &XsdEntities_t3884_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdEntities_t3646_0_0_0/* byval_arg */
-	, &XsdEntities_t3646_1_0_0/* this_arg */
-	, &XsdEntities_t3646_DefinitionMetadata/* definitionMetadata */
+	, &XsdEntities_t3884_0_0_0/* byval_arg */
+	, &XsdEntities_t3884_1_0_0/* this_arg */
+	, &XsdEntities_t3884_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3028,8 +3028,8 @@ TypeInfo XsdEntities_t3646_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdEntities_t3646)/* instance_size */
-	, sizeof (XsdEntities_t3646)/* actualSize */
+	, sizeof (XsdEntities_t3884)/* instance_size */
+	, sizeof (XsdEntities_t3884)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3061,16 +3061,16 @@ TypeInfo XsdEntities_t3646_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdNotation
 #include "System_Xml_Mono_Xml_Schema_XsdNotation.h"
 // Metadata Definition Mono.Xml.Schema.XsdNotation
-extern TypeInfo XsdNotation_t3647_il2cpp_TypeInfo;
+extern TypeInfo XsdNotation_t3885_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNotation
 #include "System_Xml_Mono_Xml_Schema_XsdNotationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNotation::.ctor()
-extern const MethodInfo XsdNotation__ctor_m11086_MethodInfo = 
+extern const MethodInfo XsdNotation__ctor_m11505_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNotation__ctor_m11086/* method */
-	, &XsdNotation_t3647_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdNotation__ctor_m11505/* method */
+	, &XsdNotation_t3885_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -3087,15 +3087,15 @@ extern const MethodInfo XsdNotation__ctor_m11086_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdNotation::get_TokenizedType()
-extern const MethodInfo XsdNotation_get_TokenizedType_m11087_MethodInfo = 
+extern const MethodInfo XsdNotation_get_TokenizedType_m11506_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdNotation_get_TokenizedType_m11087/* method */
-	, &XsdNotation_t3647_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdNotation_get_TokenizedType_m11506/* method */
+	, &XsdNotation_t3885_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -3110,37 +3110,37 @@ extern const MethodInfo XsdNotation_get_TokenizedType_m11087_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdNotation_t3647_MethodInfos[] =
+static const MethodInfo* XsdNotation_t3885_MethodInfos[] =
 {
-	&XsdNotation__ctor_m11086_MethodInfo,
-	&XsdNotation_get_TokenizedType_m11087_MethodInfo,
+	&XsdNotation__ctor_m11505_MethodInfo,
+	&XsdNotation_get_TokenizedType_m11506_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdNotation_get_TokenizedType_m11087_MethodInfo;
-static const PropertyInfo XsdNotation_t3647____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdNotation_get_TokenizedType_m11506_MethodInfo;
+static const PropertyInfo XsdNotation_t3885____TokenizedType_PropertyInfo = 
 {
-	&XsdNotation_t3647_il2cpp_TypeInfo/* parent */
+	&XsdNotation_t3885_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdNotation_get_TokenizedType_m11087_MethodInfo/* get */
+	, &XsdNotation_get_TokenizedType_m11506_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdNotation_t3647_PropertyInfos[] =
+static const PropertyInfo* XsdNotation_t3885_PropertyInfos[] =
 {
-	&XsdNotation_t3647____TokenizedType_PropertyInfo,
+	&XsdNotation_t3885____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdNotation_t3647_VTable[] =
+static const Il2CppMethodReference XsdNotation_t3885_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdNotation_get_TokenizedType_m11087_MethodInfo,
+	&XsdNotation_get_TokenizedType_m11506_MethodInfo,
 };
-static bool XsdNotation_t3647_VTableIsGenericMethod[] =
+static bool XsdNotation_t3885_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3149,37 +3149,37 @@ static bool XsdNotation_t3647_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdNotation_t3647_0_0_0;
-extern const Il2CppType XsdNotation_t3647_1_0_0;
-struct XsdNotation_t3647;
-const Il2CppTypeDefinitionMetadata XsdNotation_t3647_DefinitionMetadata = 
+extern const Il2CppType XsdNotation_t3885_0_0_0;
+extern const Il2CppType XsdNotation_t3885_1_0_0;
+struct XsdNotation_t3885;
+const Il2CppTypeDefinitionMetadata XsdNotation_t3885_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdNotation_t3647_VTable/* vtableMethods */
-	, XsdNotation_t3647_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdNotation_t3885_VTable/* vtableMethods */
+	, XsdNotation_t3885_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdNotation_t3647_il2cpp_TypeInfo = 
+TypeInfo XsdNotation_t3885_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdNotation"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdNotation_t3647_MethodInfos/* methods */
-	, XsdNotation_t3647_PropertyInfos/* properties */
+	, XsdNotation_t3885_MethodInfos/* methods */
+	, XsdNotation_t3885_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdNotation_t3647_il2cpp_TypeInfo/* element_class */
+	, &XsdNotation_t3885_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdNotation_t3647_0_0_0/* byval_arg */
-	, &XsdNotation_t3647_1_0_0/* this_arg */
-	, &XsdNotation_t3647_DefinitionMetadata/* definitionMetadata */
+	, &XsdNotation_t3885_0_0_0/* byval_arg */
+	, &XsdNotation_t3885_1_0_0/* this_arg */
+	, &XsdNotation_t3885_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3189,8 +3189,8 @@ TypeInfo XsdNotation_t3647_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdNotation_t3647)/* instance_size */
-	, sizeof (XsdNotation_t3647)/* actualSize */
+	, sizeof (XsdNotation_t3885)/* instance_size */
+	, sizeof (XsdNotation_t3885)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3222,16 +3222,16 @@ TypeInfo XsdNotation_t3647_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdDecimal
 #include "System_Xml_Mono_Xml_Schema_XsdDecimal.h"
 // Metadata Definition Mono.Xml.Schema.XsdDecimal
-extern TypeInfo XsdDecimal_t3648_il2cpp_TypeInfo;
+extern TypeInfo XsdDecimal_t3886_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDecimal
 #include "System_Xml_Mono_Xml_Schema_XsdDecimalMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDecimal::.ctor()
-extern const MethodInfo XsdDecimal__ctor_m11088_MethodInfo = 
+extern const MethodInfo XsdDecimal__ctor_m11507_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDecimal__ctor_m11088/* method */
-	, &XsdDecimal_t3648_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdDecimal__ctor_m11507/* method */
+	, &XsdDecimal_t3886_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -3248,15 +3248,15 @@ extern const MethodInfo XsdDecimal__ctor_m11088_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDecimal::get_TokenizedType()
-extern const MethodInfo XsdDecimal_get_TokenizedType_m11089_MethodInfo = 
+extern const MethodInfo XsdDecimal_get_TokenizedType_m11508_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdDecimal_get_TokenizedType_m11089/* method */
-	, &XsdDecimal_t3648_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdDecimal_get_TokenizedType_m11508/* method */
+	, &XsdDecimal_t3886_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -3271,37 +3271,37 @@ extern const MethodInfo XsdDecimal_get_TokenizedType_m11089_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdDecimal_t3648_MethodInfos[] =
+static const MethodInfo* XsdDecimal_t3886_MethodInfos[] =
 {
-	&XsdDecimal__ctor_m11088_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal__ctor_m11507_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdDecimal_get_TokenizedType_m11089_MethodInfo;
-static const PropertyInfo XsdDecimal_t3648____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdDecimal_get_TokenizedType_m11508_MethodInfo;
+static const PropertyInfo XsdDecimal_t3886____TokenizedType_PropertyInfo = 
 {
-	&XsdDecimal_t3648_il2cpp_TypeInfo/* parent */
+	&XsdDecimal_t3886_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdDecimal_get_TokenizedType_m11089_MethodInfo/* get */
+	, &XsdDecimal_get_TokenizedType_m11508_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdDecimal_t3648_PropertyInfos[] =
+static const PropertyInfo* XsdDecimal_t3886_PropertyInfos[] =
 {
-	&XsdDecimal_t3648____TokenizedType_PropertyInfo,
+	&XsdDecimal_t3886____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdDecimal_t3648_VTable[] =
+static const Il2CppMethodReference XsdDecimal_t3886_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdDecimal_t3648_VTableIsGenericMethod[] =
+static bool XsdDecimal_t3886_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3310,37 +3310,37 @@ static bool XsdDecimal_t3648_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdDecimal_t3648_0_0_0;
-extern const Il2CppType XsdDecimal_t3648_1_0_0;
-struct XsdDecimal_t3648;
-const Il2CppTypeDefinitionMetadata XsdDecimal_t3648_DefinitionMetadata = 
+extern const Il2CppType XsdDecimal_t3886_0_0_0;
+extern const Il2CppType XsdDecimal_t3886_1_0_0;
+struct XsdDecimal_t3886;
+const Il2CppTypeDefinitionMetadata XsdDecimal_t3886_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdDecimal_t3648_VTable/* vtableMethods */
-	, XsdDecimal_t3648_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdDecimal_t3886_VTable/* vtableMethods */
+	, XsdDecimal_t3886_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdDecimal_t3648_il2cpp_TypeInfo = 
+TypeInfo XsdDecimal_t3886_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdDecimal"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdDecimal_t3648_MethodInfos/* methods */
-	, XsdDecimal_t3648_PropertyInfos/* properties */
+	, XsdDecimal_t3886_MethodInfos/* methods */
+	, XsdDecimal_t3886_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdDecimal_t3648_il2cpp_TypeInfo/* element_class */
+	, &XsdDecimal_t3886_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdDecimal_t3648_0_0_0/* byval_arg */
-	, &XsdDecimal_t3648_1_0_0/* this_arg */
-	, &XsdDecimal_t3648_DefinitionMetadata/* definitionMetadata */
+	, &XsdDecimal_t3886_0_0_0/* byval_arg */
+	, &XsdDecimal_t3886_1_0_0/* this_arg */
+	, &XsdDecimal_t3886_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3350,8 +3350,8 @@ TypeInfo XsdDecimal_t3648_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdDecimal_t3648)/* instance_size */
-	, sizeof (XsdDecimal_t3648)/* actualSize */
+	, sizeof (XsdDecimal_t3886)/* instance_size */
+	, sizeof (XsdDecimal_t3886)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3383,16 +3383,16 @@ TypeInfo XsdDecimal_t3648_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdInteger
 #include "System_Xml_Mono_Xml_Schema_XsdInteger.h"
 // Metadata Definition Mono.Xml.Schema.XsdInteger
-extern TypeInfo XsdInteger_t3649_il2cpp_TypeInfo;
+extern TypeInfo XsdInteger_t3887_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdInteger
 #include "System_Xml_Mono_Xml_Schema_XsdIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdInteger::.ctor()
-extern const MethodInfo XsdInteger__ctor_m11090_MethodInfo = 
+extern const MethodInfo XsdInteger__ctor_m11509_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdInteger__ctor_m11090/* method */
-	, &XsdInteger_t3649_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdInteger__ctor_m11509/* method */
+	, &XsdInteger_t3887_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -3409,20 +3409,20 @@ extern const MethodInfo XsdInteger__ctor_m11090_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdInteger_t3649_MethodInfos[] =
+static const MethodInfo* XsdInteger_t3887_MethodInfos[] =
 {
-	&XsdInteger__ctor_m11090_MethodInfo,
+	&XsdInteger__ctor_m11509_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdInteger_t3649_VTable[] =
+static const Il2CppMethodReference XsdInteger_t3887_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdInteger_t3649_VTableIsGenericMethod[] =
+static bool XsdInteger_t3887_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3431,37 +3431,37 @@ static bool XsdInteger_t3649_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdInteger_t3649_0_0_0;
-extern const Il2CppType XsdInteger_t3649_1_0_0;
-struct XsdInteger_t3649;
-const Il2CppTypeDefinitionMetadata XsdInteger_t3649_DefinitionMetadata = 
+extern const Il2CppType XsdInteger_t3887_0_0_0;
+extern const Il2CppType XsdInteger_t3887_1_0_0;
+struct XsdInteger_t3887;
+const Il2CppTypeDefinitionMetadata XsdInteger_t3887_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdDecimal_t3648_0_0_0/* parent */
-	, XsdInteger_t3649_VTable/* vtableMethods */
-	, XsdInteger_t3649_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdDecimal_t3886_0_0_0/* parent */
+	, XsdInteger_t3887_VTable/* vtableMethods */
+	, XsdInteger_t3887_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdInteger_t3649_il2cpp_TypeInfo = 
+TypeInfo XsdInteger_t3887_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdInteger"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdInteger_t3649_MethodInfos/* methods */
+	, XsdInteger_t3887_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdInteger_t3649_il2cpp_TypeInfo/* element_class */
+	, &XsdInteger_t3887_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdInteger_t3649_0_0_0/* byval_arg */
-	, &XsdInteger_t3649_1_0_0/* this_arg */
-	, &XsdInteger_t3649_DefinitionMetadata/* definitionMetadata */
+	, &XsdInteger_t3887_0_0_0/* byval_arg */
+	, &XsdInteger_t3887_1_0_0/* this_arg */
+	, &XsdInteger_t3887_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3471,8 +3471,8 @@ TypeInfo XsdInteger_t3649_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdInteger_t3649)/* instance_size */
-	, sizeof (XsdInteger_t3649)/* actualSize */
+	, sizeof (XsdInteger_t3887)/* instance_size */
+	, sizeof (XsdInteger_t3887)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3504,16 +3504,16 @@ TypeInfo XsdInteger_t3649_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdLong
 #include "System_Xml_Mono_Xml_Schema_XsdLong.h"
 // Metadata Definition Mono.Xml.Schema.XsdLong
-extern TypeInfo XsdLong_t3650_il2cpp_TypeInfo;
+extern TypeInfo XsdLong_t3888_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdLong
 #include "System_Xml_Mono_Xml_Schema_XsdLongMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdLong::.ctor()
-extern const MethodInfo XsdLong__ctor_m11091_MethodInfo = 
+extern const MethodInfo XsdLong__ctor_m11510_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdLong__ctor_m11091/* method */
-	, &XsdLong_t3650_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdLong__ctor_m11510/* method */
+	, &XsdLong_t3888_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -3530,20 +3530,20 @@ extern const MethodInfo XsdLong__ctor_m11091_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdLong_t3650_MethodInfos[] =
+static const MethodInfo* XsdLong_t3888_MethodInfos[] =
 {
-	&XsdLong__ctor_m11091_MethodInfo,
+	&XsdLong__ctor_m11510_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdLong_t3650_VTable[] =
+static const Il2CppMethodReference XsdLong_t3888_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdLong_t3650_VTableIsGenericMethod[] =
+static bool XsdLong_t3888_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3552,37 +3552,37 @@ static bool XsdLong_t3650_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdLong_t3650_0_0_0;
-extern const Il2CppType XsdLong_t3650_1_0_0;
-struct XsdLong_t3650;
-const Il2CppTypeDefinitionMetadata XsdLong_t3650_DefinitionMetadata = 
+extern const Il2CppType XsdLong_t3888_0_0_0;
+extern const Il2CppType XsdLong_t3888_1_0_0;
+struct XsdLong_t3888;
+const Il2CppTypeDefinitionMetadata XsdLong_t3888_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdInteger_t3649_0_0_0/* parent */
-	, XsdLong_t3650_VTable/* vtableMethods */
-	, XsdLong_t3650_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdInteger_t3887_0_0_0/* parent */
+	, XsdLong_t3888_VTable/* vtableMethods */
+	, XsdLong_t3888_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdLong_t3650_il2cpp_TypeInfo = 
+TypeInfo XsdLong_t3888_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdLong"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdLong_t3650_MethodInfos/* methods */
+	, XsdLong_t3888_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdLong_t3650_il2cpp_TypeInfo/* element_class */
+	, &XsdLong_t3888_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdLong_t3650_0_0_0/* byval_arg */
-	, &XsdLong_t3650_1_0_0/* this_arg */
-	, &XsdLong_t3650_DefinitionMetadata/* definitionMetadata */
+	, &XsdLong_t3888_0_0_0/* byval_arg */
+	, &XsdLong_t3888_1_0_0/* this_arg */
+	, &XsdLong_t3888_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3592,8 +3592,8 @@ TypeInfo XsdLong_t3650_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdLong_t3650)/* instance_size */
-	, sizeof (XsdLong_t3650)/* actualSize */
+	, sizeof (XsdLong_t3888)/* instance_size */
+	, sizeof (XsdLong_t3888)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3625,16 +3625,16 @@ TypeInfo XsdLong_t3650_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdInt
 #include "System_Xml_Mono_Xml_Schema_XsdInt.h"
 // Metadata Definition Mono.Xml.Schema.XsdInt
-extern TypeInfo XsdInt_t3651_il2cpp_TypeInfo;
+extern TypeInfo XsdInt_t3889_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdInt
 #include "System_Xml_Mono_Xml_Schema_XsdIntMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdInt::.ctor()
-extern const MethodInfo XsdInt__ctor_m11092_MethodInfo = 
+extern const MethodInfo XsdInt__ctor_m11511_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdInt__ctor_m11092/* method */
-	, &XsdInt_t3651_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdInt__ctor_m11511/* method */
+	, &XsdInt_t3889_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -3651,20 +3651,20 @@ extern const MethodInfo XsdInt__ctor_m11092_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdInt_t3651_MethodInfos[] =
+static const MethodInfo* XsdInt_t3889_MethodInfos[] =
 {
-	&XsdInt__ctor_m11092_MethodInfo,
+	&XsdInt__ctor_m11511_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdInt_t3651_VTable[] =
+static const Il2CppMethodReference XsdInt_t3889_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdInt_t3651_VTableIsGenericMethod[] =
+static bool XsdInt_t3889_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3673,37 +3673,37 @@ static bool XsdInt_t3651_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdInt_t3651_0_0_0;
-extern const Il2CppType XsdInt_t3651_1_0_0;
-struct XsdInt_t3651;
-const Il2CppTypeDefinitionMetadata XsdInt_t3651_DefinitionMetadata = 
+extern const Il2CppType XsdInt_t3889_0_0_0;
+extern const Il2CppType XsdInt_t3889_1_0_0;
+struct XsdInt_t3889;
+const Il2CppTypeDefinitionMetadata XsdInt_t3889_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdLong_t3650_0_0_0/* parent */
-	, XsdInt_t3651_VTable/* vtableMethods */
-	, XsdInt_t3651_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdLong_t3888_0_0_0/* parent */
+	, XsdInt_t3889_VTable/* vtableMethods */
+	, XsdInt_t3889_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdInt_t3651_il2cpp_TypeInfo = 
+TypeInfo XsdInt_t3889_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdInt"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdInt_t3651_MethodInfos/* methods */
+	, XsdInt_t3889_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdInt_t3651_il2cpp_TypeInfo/* element_class */
+	, &XsdInt_t3889_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdInt_t3651_0_0_0/* byval_arg */
-	, &XsdInt_t3651_1_0_0/* this_arg */
-	, &XsdInt_t3651_DefinitionMetadata/* definitionMetadata */
+	, &XsdInt_t3889_0_0_0/* byval_arg */
+	, &XsdInt_t3889_1_0_0/* this_arg */
+	, &XsdInt_t3889_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3713,8 +3713,8 @@ TypeInfo XsdInt_t3651_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdInt_t3651)/* instance_size */
-	, sizeof (XsdInt_t3651)/* actualSize */
+	, sizeof (XsdInt_t3889)/* instance_size */
+	, sizeof (XsdInt_t3889)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3746,16 +3746,16 @@ TypeInfo XsdInt_t3651_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdShort
 #include "System_Xml_Mono_Xml_Schema_XsdShort.h"
 // Metadata Definition Mono.Xml.Schema.XsdShort
-extern TypeInfo XsdShort_t3652_il2cpp_TypeInfo;
+extern TypeInfo XsdShort_t3890_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdShort
 #include "System_Xml_Mono_Xml_Schema_XsdShortMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdShort::.ctor()
-extern const MethodInfo XsdShort__ctor_m11093_MethodInfo = 
+extern const MethodInfo XsdShort__ctor_m11512_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdShort__ctor_m11093/* method */
-	, &XsdShort_t3652_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdShort__ctor_m11512/* method */
+	, &XsdShort_t3890_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -3772,20 +3772,20 @@ extern const MethodInfo XsdShort__ctor_m11093_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdShort_t3652_MethodInfos[] =
+static const MethodInfo* XsdShort_t3890_MethodInfos[] =
 {
-	&XsdShort__ctor_m11093_MethodInfo,
+	&XsdShort__ctor_m11512_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdShort_t3652_VTable[] =
+static const Il2CppMethodReference XsdShort_t3890_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdShort_t3652_VTableIsGenericMethod[] =
+static bool XsdShort_t3890_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3794,37 +3794,37 @@ static bool XsdShort_t3652_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdShort_t3652_0_0_0;
-extern const Il2CppType XsdShort_t3652_1_0_0;
-struct XsdShort_t3652;
-const Il2CppTypeDefinitionMetadata XsdShort_t3652_DefinitionMetadata = 
+extern const Il2CppType XsdShort_t3890_0_0_0;
+extern const Il2CppType XsdShort_t3890_1_0_0;
+struct XsdShort_t3890;
+const Il2CppTypeDefinitionMetadata XsdShort_t3890_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdInt_t3651_0_0_0/* parent */
-	, XsdShort_t3652_VTable/* vtableMethods */
-	, XsdShort_t3652_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdInt_t3889_0_0_0/* parent */
+	, XsdShort_t3890_VTable/* vtableMethods */
+	, XsdShort_t3890_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdShort_t3652_il2cpp_TypeInfo = 
+TypeInfo XsdShort_t3890_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdShort"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdShort_t3652_MethodInfos/* methods */
+	, XsdShort_t3890_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdShort_t3652_il2cpp_TypeInfo/* element_class */
+	, &XsdShort_t3890_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdShort_t3652_0_0_0/* byval_arg */
-	, &XsdShort_t3652_1_0_0/* this_arg */
-	, &XsdShort_t3652_DefinitionMetadata/* definitionMetadata */
+	, &XsdShort_t3890_0_0_0/* byval_arg */
+	, &XsdShort_t3890_1_0_0/* this_arg */
+	, &XsdShort_t3890_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3834,8 +3834,8 @@ TypeInfo XsdShort_t3652_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdShort_t3652)/* instance_size */
-	, sizeof (XsdShort_t3652)/* actualSize */
+	, sizeof (XsdShort_t3890)/* instance_size */
+	, sizeof (XsdShort_t3890)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3867,16 +3867,16 @@ TypeInfo XsdShort_t3652_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdByte
 #include "System_Xml_Mono_Xml_Schema_XsdByte.h"
 // Metadata Definition Mono.Xml.Schema.XsdByte
-extern TypeInfo XsdByte_t3653_il2cpp_TypeInfo;
+extern TypeInfo XsdByte_t3891_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdByte
 #include "System_Xml_Mono_Xml_Schema_XsdByteMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdByte::.ctor()
-extern const MethodInfo XsdByte__ctor_m11094_MethodInfo = 
+extern const MethodInfo XsdByte__ctor_m11513_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdByte__ctor_m11094/* method */
-	, &XsdByte_t3653_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdByte__ctor_m11513/* method */
+	, &XsdByte_t3891_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -3893,20 +3893,20 @@ extern const MethodInfo XsdByte__ctor_m11094_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdByte_t3653_MethodInfos[] =
+static const MethodInfo* XsdByte_t3891_MethodInfos[] =
 {
-	&XsdByte__ctor_m11094_MethodInfo,
+	&XsdByte__ctor_m11513_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdByte_t3653_VTable[] =
+static const Il2CppMethodReference XsdByte_t3891_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdByte_t3653_VTableIsGenericMethod[] =
+static bool XsdByte_t3891_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3915,37 +3915,37 @@ static bool XsdByte_t3653_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdByte_t3653_0_0_0;
-extern const Il2CppType XsdByte_t3653_1_0_0;
-struct XsdByte_t3653;
-const Il2CppTypeDefinitionMetadata XsdByte_t3653_DefinitionMetadata = 
+extern const Il2CppType XsdByte_t3891_0_0_0;
+extern const Il2CppType XsdByte_t3891_1_0_0;
+struct XsdByte_t3891;
+const Il2CppTypeDefinitionMetadata XsdByte_t3891_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdShort_t3652_0_0_0/* parent */
-	, XsdByte_t3653_VTable/* vtableMethods */
-	, XsdByte_t3653_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdShort_t3890_0_0_0/* parent */
+	, XsdByte_t3891_VTable/* vtableMethods */
+	, XsdByte_t3891_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdByte_t3653_il2cpp_TypeInfo = 
+TypeInfo XsdByte_t3891_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdByte"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdByte_t3653_MethodInfos/* methods */
+	, XsdByte_t3891_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdByte_t3653_il2cpp_TypeInfo/* element_class */
+	, &XsdByte_t3891_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdByte_t3653_0_0_0/* byval_arg */
-	, &XsdByte_t3653_1_0_0/* this_arg */
-	, &XsdByte_t3653_DefinitionMetadata/* definitionMetadata */
+	, &XsdByte_t3891_0_0_0/* byval_arg */
+	, &XsdByte_t3891_1_0_0/* this_arg */
+	, &XsdByte_t3891_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3955,8 +3955,8 @@ TypeInfo XsdByte_t3653_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdByte_t3653)/* instance_size */
-	, sizeof (XsdByte_t3653)/* actualSize */
+	, sizeof (XsdByte_t3891)/* instance_size */
+	, sizeof (XsdByte_t3891)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3988,16 +3988,16 @@ TypeInfo XsdByte_t3653_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdNonNegativeInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNonNegativeInteger.h"
 // Metadata Definition Mono.Xml.Schema.XsdNonNegativeInteger
-extern TypeInfo XsdNonNegativeInteger_t3654_il2cpp_TypeInfo;
+extern TypeInfo XsdNonNegativeInteger_t3892_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNonNegativeInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNonNegativeIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNonNegativeInteger::.ctor()
-extern const MethodInfo XsdNonNegativeInteger__ctor_m11095_MethodInfo = 
+extern const MethodInfo XsdNonNegativeInteger__ctor_m11514_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNonNegativeInteger__ctor_m11095/* method */
-	, &XsdNonNegativeInteger_t3654_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdNonNegativeInteger__ctor_m11514/* method */
+	, &XsdNonNegativeInteger_t3892_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4014,20 +4014,20 @@ extern const MethodInfo XsdNonNegativeInteger__ctor_m11095_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdNonNegativeInteger_t3654_MethodInfos[] =
+static const MethodInfo* XsdNonNegativeInteger_t3892_MethodInfos[] =
 {
-	&XsdNonNegativeInteger__ctor_m11095_MethodInfo,
+	&XsdNonNegativeInteger__ctor_m11514_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdNonNegativeInteger_t3654_VTable[] =
+static const Il2CppMethodReference XsdNonNegativeInteger_t3892_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdNonNegativeInteger_t3654_VTableIsGenericMethod[] =
+static bool XsdNonNegativeInteger_t3892_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4036,37 +4036,37 @@ static bool XsdNonNegativeInteger_t3654_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdNonNegativeInteger_t3654_0_0_0;
-extern const Il2CppType XsdNonNegativeInteger_t3654_1_0_0;
-struct XsdNonNegativeInteger_t3654;
-const Il2CppTypeDefinitionMetadata XsdNonNegativeInteger_t3654_DefinitionMetadata = 
+extern const Il2CppType XsdNonNegativeInteger_t3892_0_0_0;
+extern const Il2CppType XsdNonNegativeInteger_t3892_1_0_0;
+struct XsdNonNegativeInteger_t3892;
+const Il2CppTypeDefinitionMetadata XsdNonNegativeInteger_t3892_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdInteger_t3649_0_0_0/* parent */
-	, XsdNonNegativeInteger_t3654_VTable/* vtableMethods */
-	, XsdNonNegativeInteger_t3654_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdInteger_t3887_0_0_0/* parent */
+	, XsdNonNegativeInteger_t3892_VTable/* vtableMethods */
+	, XsdNonNegativeInteger_t3892_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdNonNegativeInteger_t3654_il2cpp_TypeInfo = 
+TypeInfo XsdNonNegativeInteger_t3892_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdNonNegativeInteger"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdNonNegativeInteger_t3654_MethodInfos/* methods */
+	, XsdNonNegativeInteger_t3892_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdNonNegativeInteger_t3654_il2cpp_TypeInfo/* element_class */
+	, &XsdNonNegativeInteger_t3892_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdNonNegativeInteger_t3654_0_0_0/* byval_arg */
-	, &XsdNonNegativeInteger_t3654_1_0_0/* this_arg */
-	, &XsdNonNegativeInteger_t3654_DefinitionMetadata/* definitionMetadata */
+	, &XsdNonNegativeInteger_t3892_0_0_0/* byval_arg */
+	, &XsdNonNegativeInteger_t3892_1_0_0/* this_arg */
+	, &XsdNonNegativeInteger_t3892_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4076,8 +4076,8 @@ TypeInfo XsdNonNegativeInteger_t3654_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdNonNegativeInteger_t3654)/* instance_size */
-	, sizeof (XsdNonNegativeInteger_t3654)/* actualSize */
+	, sizeof (XsdNonNegativeInteger_t3892)/* instance_size */
+	, sizeof (XsdNonNegativeInteger_t3892)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4109,16 +4109,16 @@ TypeInfo XsdNonNegativeInteger_t3654_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdUnsignedLong
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedLong.h"
 // Metadata Definition Mono.Xml.Schema.XsdUnsignedLong
-extern TypeInfo XsdUnsignedLong_t3655_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedLong_t3893_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdUnsignedLong
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedLongMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdUnsignedLong::.ctor()
-extern const MethodInfo XsdUnsignedLong__ctor_m11096_MethodInfo = 
+extern const MethodInfo XsdUnsignedLong__ctor_m11515_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdUnsignedLong__ctor_m11096/* method */
-	, &XsdUnsignedLong_t3655_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdUnsignedLong__ctor_m11515/* method */
+	, &XsdUnsignedLong_t3893_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4135,20 +4135,20 @@ extern const MethodInfo XsdUnsignedLong__ctor_m11096_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdUnsignedLong_t3655_MethodInfos[] =
+static const MethodInfo* XsdUnsignedLong_t3893_MethodInfos[] =
 {
-	&XsdUnsignedLong__ctor_m11096_MethodInfo,
+	&XsdUnsignedLong__ctor_m11515_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdUnsignedLong_t3655_VTable[] =
+static const Il2CppMethodReference XsdUnsignedLong_t3893_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdUnsignedLong_t3655_VTableIsGenericMethod[] =
+static bool XsdUnsignedLong_t3893_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4157,37 +4157,37 @@ static bool XsdUnsignedLong_t3655_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdUnsignedLong_t3655_0_0_0;
-extern const Il2CppType XsdUnsignedLong_t3655_1_0_0;
-struct XsdUnsignedLong_t3655;
-const Il2CppTypeDefinitionMetadata XsdUnsignedLong_t3655_DefinitionMetadata = 
+extern const Il2CppType XsdUnsignedLong_t3893_0_0_0;
+extern const Il2CppType XsdUnsignedLong_t3893_1_0_0;
+struct XsdUnsignedLong_t3893;
+const Il2CppTypeDefinitionMetadata XsdUnsignedLong_t3893_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdNonNegativeInteger_t3654_0_0_0/* parent */
-	, XsdUnsignedLong_t3655_VTable/* vtableMethods */
-	, XsdUnsignedLong_t3655_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdNonNegativeInteger_t3892_0_0_0/* parent */
+	, XsdUnsignedLong_t3893_VTable/* vtableMethods */
+	, XsdUnsignedLong_t3893_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdUnsignedLong_t3655_il2cpp_TypeInfo = 
+TypeInfo XsdUnsignedLong_t3893_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdUnsignedLong"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdUnsignedLong_t3655_MethodInfos/* methods */
+	, XsdUnsignedLong_t3893_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdUnsignedLong_t3655_il2cpp_TypeInfo/* element_class */
+	, &XsdUnsignedLong_t3893_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdUnsignedLong_t3655_0_0_0/* byval_arg */
-	, &XsdUnsignedLong_t3655_1_0_0/* this_arg */
-	, &XsdUnsignedLong_t3655_DefinitionMetadata/* definitionMetadata */
+	, &XsdUnsignedLong_t3893_0_0_0/* byval_arg */
+	, &XsdUnsignedLong_t3893_1_0_0/* this_arg */
+	, &XsdUnsignedLong_t3893_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4197,8 +4197,8 @@ TypeInfo XsdUnsignedLong_t3655_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdUnsignedLong_t3655)/* instance_size */
-	, sizeof (XsdUnsignedLong_t3655)/* actualSize */
+	, sizeof (XsdUnsignedLong_t3893)/* instance_size */
+	, sizeof (XsdUnsignedLong_t3893)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4230,16 +4230,16 @@ TypeInfo XsdUnsignedLong_t3655_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdUnsignedInt
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedInt.h"
 // Metadata Definition Mono.Xml.Schema.XsdUnsignedInt
-extern TypeInfo XsdUnsignedInt_t3656_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedInt_t3894_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdUnsignedInt
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedIntMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdUnsignedInt::.ctor()
-extern const MethodInfo XsdUnsignedInt__ctor_m11097_MethodInfo = 
+extern const MethodInfo XsdUnsignedInt__ctor_m11516_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdUnsignedInt__ctor_m11097/* method */
-	, &XsdUnsignedInt_t3656_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdUnsignedInt__ctor_m11516/* method */
+	, &XsdUnsignedInt_t3894_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4256,20 +4256,20 @@ extern const MethodInfo XsdUnsignedInt__ctor_m11097_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdUnsignedInt_t3656_MethodInfos[] =
+static const MethodInfo* XsdUnsignedInt_t3894_MethodInfos[] =
 {
-	&XsdUnsignedInt__ctor_m11097_MethodInfo,
+	&XsdUnsignedInt__ctor_m11516_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdUnsignedInt_t3656_VTable[] =
+static const Il2CppMethodReference XsdUnsignedInt_t3894_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdUnsignedInt_t3656_VTableIsGenericMethod[] =
+static bool XsdUnsignedInt_t3894_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4278,37 +4278,37 @@ static bool XsdUnsignedInt_t3656_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdUnsignedInt_t3656_0_0_0;
-extern const Il2CppType XsdUnsignedInt_t3656_1_0_0;
-struct XsdUnsignedInt_t3656;
-const Il2CppTypeDefinitionMetadata XsdUnsignedInt_t3656_DefinitionMetadata = 
+extern const Il2CppType XsdUnsignedInt_t3894_0_0_0;
+extern const Il2CppType XsdUnsignedInt_t3894_1_0_0;
+struct XsdUnsignedInt_t3894;
+const Il2CppTypeDefinitionMetadata XsdUnsignedInt_t3894_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdUnsignedLong_t3655_0_0_0/* parent */
-	, XsdUnsignedInt_t3656_VTable/* vtableMethods */
-	, XsdUnsignedInt_t3656_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdUnsignedLong_t3893_0_0_0/* parent */
+	, XsdUnsignedInt_t3894_VTable/* vtableMethods */
+	, XsdUnsignedInt_t3894_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdUnsignedInt_t3656_il2cpp_TypeInfo = 
+TypeInfo XsdUnsignedInt_t3894_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdUnsignedInt"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdUnsignedInt_t3656_MethodInfos/* methods */
+	, XsdUnsignedInt_t3894_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdUnsignedInt_t3656_il2cpp_TypeInfo/* element_class */
+	, &XsdUnsignedInt_t3894_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdUnsignedInt_t3656_0_0_0/* byval_arg */
-	, &XsdUnsignedInt_t3656_1_0_0/* this_arg */
-	, &XsdUnsignedInt_t3656_DefinitionMetadata/* definitionMetadata */
+	, &XsdUnsignedInt_t3894_0_0_0/* byval_arg */
+	, &XsdUnsignedInt_t3894_1_0_0/* this_arg */
+	, &XsdUnsignedInt_t3894_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4318,8 +4318,8 @@ TypeInfo XsdUnsignedInt_t3656_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdUnsignedInt_t3656)/* instance_size */
-	, sizeof (XsdUnsignedInt_t3656)/* actualSize */
+	, sizeof (XsdUnsignedInt_t3894)/* instance_size */
+	, sizeof (XsdUnsignedInt_t3894)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4351,16 +4351,16 @@ TypeInfo XsdUnsignedInt_t3656_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdUnsignedShort
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedShort.h"
 // Metadata Definition Mono.Xml.Schema.XsdUnsignedShort
-extern TypeInfo XsdUnsignedShort_t3657_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedShort_t3895_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdUnsignedShort
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedShortMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdUnsignedShort::.ctor()
-extern const MethodInfo XsdUnsignedShort__ctor_m11098_MethodInfo = 
+extern const MethodInfo XsdUnsignedShort__ctor_m11517_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdUnsignedShort__ctor_m11098/* method */
-	, &XsdUnsignedShort_t3657_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdUnsignedShort__ctor_m11517/* method */
+	, &XsdUnsignedShort_t3895_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4377,20 +4377,20 @@ extern const MethodInfo XsdUnsignedShort__ctor_m11098_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdUnsignedShort_t3657_MethodInfos[] =
+static const MethodInfo* XsdUnsignedShort_t3895_MethodInfos[] =
 {
-	&XsdUnsignedShort__ctor_m11098_MethodInfo,
+	&XsdUnsignedShort__ctor_m11517_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdUnsignedShort_t3657_VTable[] =
+static const Il2CppMethodReference XsdUnsignedShort_t3895_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdUnsignedShort_t3657_VTableIsGenericMethod[] =
+static bool XsdUnsignedShort_t3895_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4399,37 +4399,37 @@ static bool XsdUnsignedShort_t3657_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdUnsignedShort_t3657_0_0_0;
-extern const Il2CppType XsdUnsignedShort_t3657_1_0_0;
-struct XsdUnsignedShort_t3657;
-const Il2CppTypeDefinitionMetadata XsdUnsignedShort_t3657_DefinitionMetadata = 
+extern const Il2CppType XsdUnsignedShort_t3895_0_0_0;
+extern const Il2CppType XsdUnsignedShort_t3895_1_0_0;
+struct XsdUnsignedShort_t3895;
+const Il2CppTypeDefinitionMetadata XsdUnsignedShort_t3895_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdUnsignedInt_t3656_0_0_0/* parent */
-	, XsdUnsignedShort_t3657_VTable/* vtableMethods */
-	, XsdUnsignedShort_t3657_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdUnsignedInt_t3894_0_0_0/* parent */
+	, XsdUnsignedShort_t3895_VTable/* vtableMethods */
+	, XsdUnsignedShort_t3895_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdUnsignedShort_t3657_il2cpp_TypeInfo = 
+TypeInfo XsdUnsignedShort_t3895_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdUnsignedShort"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdUnsignedShort_t3657_MethodInfos/* methods */
+	, XsdUnsignedShort_t3895_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdUnsignedShort_t3657_il2cpp_TypeInfo/* element_class */
+	, &XsdUnsignedShort_t3895_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdUnsignedShort_t3657_0_0_0/* byval_arg */
-	, &XsdUnsignedShort_t3657_1_0_0/* this_arg */
-	, &XsdUnsignedShort_t3657_DefinitionMetadata/* definitionMetadata */
+	, &XsdUnsignedShort_t3895_0_0_0/* byval_arg */
+	, &XsdUnsignedShort_t3895_1_0_0/* this_arg */
+	, &XsdUnsignedShort_t3895_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4439,8 +4439,8 @@ TypeInfo XsdUnsignedShort_t3657_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdUnsignedShort_t3657)/* instance_size */
-	, sizeof (XsdUnsignedShort_t3657)/* actualSize */
+	, sizeof (XsdUnsignedShort_t3895)/* instance_size */
+	, sizeof (XsdUnsignedShort_t3895)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4472,16 +4472,16 @@ TypeInfo XsdUnsignedShort_t3657_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdUnsignedByte
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedByte.h"
 // Metadata Definition Mono.Xml.Schema.XsdUnsignedByte
-extern TypeInfo XsdUnsignedByte_t3658_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedByte_t3896_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdUnsignedByte
 #include "System_Xml_Mono_Xml_Schema_XsdUnsignedByteMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdUnsignedByte::.ctor()
-extern const MethodInfo XsdUnsignedByte__ctor_m11099_MethodInfo = 
+extern const MethodInfo XsdUnsignedByte__ctor_m11518_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdUnsignedByte__ctor_m11099/* method */
-	, &XsdUnsignedByte_t3658_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdUnsignedByte__ctor_m11518/* method */
+	, &XsdUnsignedByte_t3896_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4498,20 +4498,20 @@ extern const MethodInfo XsdUnsignedByte__ctor_m11099_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdUnsignedByte_t3658_MethodInfos[] =
+static const MethodInfo* XsdUnsignedByte_t3896_MethodInfos[] =
 {
-	&XsdUnsignedByte__ctor_m11099_MethodInfo,
+	&XsdUnsignedByte__ctor_m11518_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdUnsignedByte_t3658_VTable[] =
+static const Il2CppMethodReference XsdUnsignedByte_t3896_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdUnsignedByte_t3658_VTableIsGenericMethod[] =
+static bool XsdUnsignedByte_t3896_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4520,37 +4520,37 @@ static bool XsdUnsignedByte_t3658_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdUnsignedByte_t3658_0_0_0;
-extern const Il2CppType XsdUnsignedByte_t3658_1_0_0;
-struct XsdUnsignedByte_t3658;
-const Il2CppTypeDefinitionMetadata XsdUnsignedByte_t3658_DefinitionMetadata = 
+extern const Il2CppType XsdUnsignedByte_t3896_0_0_0;
+extern const Il2CppType XsdUnsignedByte_t3896_1_0_0;
+struct XsdUnsignedByte_t3896;
+const Il2CppTypeDefinitionMetadata XsdUnsignedByte_t3896_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdUnsignedShort_t3657_0_0_0/* parent */
-	, XsdUnsignedByte_t3658_VTable/* vtableMethods */
-	, XsdUnsignedByte_t3658_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdUnsignedShort_t3895_0_0_0/* parent */
+	, XsdUnsignedByte_t3896_VTable/* vtableMethods */
+	, XsdUnsignedByte_t3896_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdUnsignedByte_t3658_il2cpp_TypeInfo = 
+TypeInfo XsdUnsignedByte_t3896_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdUnsignedByte"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdUnsignedByte_t3658_MethodInfos/* methods */
+	, XsdUnsignedByte_t3896_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdUnsignedByte_t3658_il2cpp_TypeInfo/* element_class */
+	, &XsdUnsignedByte_t3896_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdUnsignedByte_t3658_0_0_0/* byval_arg */
-	, &XsdUnsignedByte_t3658_1_0_0/* this_arg */
-	, &XsdUnsignedByte_t3658_DefinitionMetadata/* definitionMetadata */
+	, &XsdUnsignedByte_t3896_0_0_0/* byval_arg */
+	, &XsdUnsignedByte_t3896_1_0_0/* this_arg */
+	, &XsdUnsignedByte_t3896_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4560,8 +4560,8 @@ TypeInfo XsdUnsignedByte_t3658_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdUnsignedByte_t3658)/* instance_size */
-	, sizeof (XsdUnsignedByte_t3658)/* actualSize */
+	, sizeof (XsdUnsignedByte_t3896)/* instance_size */
+	, sizeof (XsdUnsignedByte_t3896)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4593,16 +4593,16 @@ TypeInfo XsdUnsignedByte_t3658_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdPositiveInteger
 #include "System_Xml_Mono_Xml_Schema_XsdPositiveInteger.h"
 // Metadata Definition Mono.Xml.Schema.XsdPositiveInteger
-extern TypeInfo XsdPositiveInteger_t3659_il2cpp_TypeInfo;
+extern TypeInfo XsdPositiveInteger_t3897_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdPositiveInteger
 #include "System_Xml_Mono_Xml_Schema_XsdPositiveIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdPositiveInteger::.ctor()
-extern const MethodInfo XsdPositiveInteger__ctor_m11100_MethodInfo = 
+extern const MethodInfo XsdPositiveInteger__ctor_m11519_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdPositiveInteger__ctor_m11100/* method */
-	, &XsdPositiveInteger_t3659_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdPositiveInteger__ctor_m11519/* method */
+	, &XsdPositiveInteger_t3897_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4619,20 +4619,20 @@ extern const MethodInfo XsdPositiveInteger__ctor_m11100_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdPositiveInteger_t3659_MethodInfos[] =
+static const MethodInfo* XsdPositiveInteger_t3897_MethodInfos[] =
 {
-	&XsdPositiveInteger__ctor_m11100_MethodInfo,
+	&XsdPositiveInteger__ctor_m11519_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdPositiveInteger_t3659_VTable[] =
+static const Il2CppMethodReference XsdPositiveInteger_t3897_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdPositiveInteger_t3659_VTableIsGenericMethod[] =
+static bool XsdPositiveInteger_t3897_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4641,37 +4641,37 @@ static bool XsdPositiveInteger_t3659_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdPositiveInteger_t3659_0_0_0;
-extern const Il2CppType XsdPositiveInteger_t3659_1_0_0;
-struct XsdPositiveInteger_t3659;
-const Il2CppTypeDefinitionMetadata XsdPositiveInteger_t3659_DefinitionMetadata = 
+extern const Il2CppType XsdPositiveInteger_t3897_0_0_0;
+extern const Il2CppType XsdPositiveInteger_t3897_1_0_0;
+struct XsdPositiveInteger_t3897;
+const Il2CppTypeDefinitionMetadata XsdPositiveInteger_t3897_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdNonNegativeInteger_t3654_0_0_0/* parent */
-	, XsdPositiveInteger_t3659_VTable/* vtableMethods */
-	, XsdPositiveInteger_t3659_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdNonNegativeInteger_t3892_0_0_0/* parent */
+	, XsdPositiveInteger_t3897_VTable/* vtableMethods */
+	, XsdPositiveInteger_t3897_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdPositiveInteger_t3659_il2cpp_TypeInfo = 
+TypeInfo XsdPositiveInteger_t3897_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdPositiveInteger"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdPositiveInteger_t3659_MethodInfos/* methods */
+	, XsdPositiveInteger_t3897_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdPositiveInteger_t3659_il2cpp_TypeInfo/* element_class */
+	, &XsdPositiveInteger_t3897_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdPositiveInteger_t3659_0_0_0/* byval_arg */
-	, &XsdPositiveInteger_t3659_1_0_0/* this_arg */
-	, &XsdPositiveInteger_t3659_DefinitionMetadata/* definitionMetadata */
+	, &XsdPositiveInteger_t3897_0_0_0/* byval_arg */
+	, &XsdPositiveInteger_t3897_1_0_0/* this_arg */
+	, &XsdPositiveInteger_t3897_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4681,8 +4681,8 @@ TypeInfo XsdPositiveInteger_t3659_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdPositiveInteger_t3659)/* instance_size */
-	, sizeof (XsdPositiveInteger_t3659)/* actualSize */
+	, sizeof (XsdPositiveInteger_t3897)/* instance_size */
+	, sizeof (XsdPositiveInteger_t3897)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4714,16 +4714,16 @@ TypeInfo XsdPositiveInteger_t3659_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdNonPositiveInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNonPositiveInteger.h"
 // Metadata Definition Mono.Xml.Schema.XsdNonPositiveInteger
-extern TypeInfo XsdNonPositiveInteger_t3660_il2cpp_TypeInfo;
+extern TypeInfo XsdNonPositiveInteger_t3898_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNonPositiveInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNonPositiveIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNonPositiveInteger::.ctor()
-extern const MethodInfo XsdNonPositiveInteger__ctor_m11101_MethodInfo = 
+extern const MethodInfo XsdNonPositiveInteger__ctor_m11520_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNonPositiveInteger__ctor_m11101/* method */
-	, &XsdNonPositiveInteger_t3660_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdNonPositiveInteger__ctor_m11520/* method */
+	, &XsdNonPositiveInteger_t3898_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4740,20 +4740,20 @@ extern const MethodInfo XsdNonPositiveInteger__ctor_m11101_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdNonPositiveInteger_t3660_MethodInfos[] =
+static const MethodInfo* XsdNonPositiveInteger_t3898_MethodInfos[] =
 {
-	&XsdNonPositiveInteger__ctor_m11101_MethodInfo,
+	&XsdNonPositiveInteger__ctor_m11520_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdNonPositiveInteger_t3660_VTable[] =
+static const Il2CppMethodReference XsdNonPositiveInteger_t3898_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdNonPositiveInteger_t3660_VTableIsGenericMethod[] =
+static bool XsdNonPositiveInteger_t3898_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4762,37 +4762,37 @@ static bool XsdNonPositiveInteger_t3660_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdNonPositiveInteger_t3660_0_0_0;
-extern const Il2CppType XsdNonPositiveInteger_t3660_1_0_0;
-struct XsdNonPositiveInteger_t3660;
-const Il2CppTypeDefinitionMetadata XsdNonPositiveInteger_t3660_DefinitionMetadata = 
+extern const Il2CppType XsdNonPositiveInteger_t3898_0_0_0;
+extern const Il2CppType XsdNonPositiveInteger_t3898_1_0_0;
+struct XsdNonPositiveInteger_t3898;
+const Il2CppTypeDefinitionMetadata XsdNonPositiveInteger_t3898_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdInteger_t3649_0_0_0/* parent */
-	, XsdNonPositiveInteger_t3660_VTable/* vtableMethods */
-	, XsdNonPositiveInteger_t3660_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdInteger_t3887_0_0_0/* parent */
+	, XsdNonPositiveInteger_t3898_VTable/* vtableMethods */
+	, XsdNonPositiveInteger_t3898_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdNonPositiveInteger_t3660_il2cpp_TypeInfo = 
+TypeInfo XsdNonPositiveInteger_t3898_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdNonPositiveInteger"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdNonPositiveInteger_t3660_MethodInfos/* methods */
+	, XsdNonPositiveInteger_t3898_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdNonPositiveInteger_t3660_il2cpp_TypeInfo/* element_class */
+	, &XsdNonPositiveInteger_t3898_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdNonPositiveInteger_t3660_0_0_0/* byval_arg */
-	, &XsdNonPositiveInteger_t3660_1_0_0/* this_arg */
-	, &XsdNonPositiveInteger_t3660_DefinitionMetadata/* definitionMetadata */
+	, &XsdNonPositiveInteger_t3898_0_0_0/* byval_arg */
+	, &XsdNonPositiveInteger_t3898_1_0_0/* this_arg */
+	, &XsdNonPositiveInteger_t3898_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4802,8 +4802,8 @@ TypeInfo XsdNonPositiveInteger_t3660_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdNonPositiveInteger_t3660)/* instance_size */
-	, sizeof (XsdNonPositiveInteger_t3660)/* actualSize */
+	, sizeof (XsdNonPositiveInteger_t3898)/* instance_size */
+	, sizeof (XsdNonPositiveInteger_t3898)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4835,16 +4835,16 @@ TypeInfo XsdNonPositiveInteger_t3660_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdNegativeInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNegativeInteger.h"
 // Metadata Definition Mono.Xml.Schema.XsdNegativeInteger
-extern TypeInfo XsdNegativeInteger_t3661_il2cpp_TypeInfo;
+extern TypeInfo XsdNegativeInteger_t3899_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdNegativeInteger
 #include "System_Xml_Mono_Xml_Schema_XsdNegativeIntegerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdNegativeInteger::.ctor()
-extern const MethodInfo XsdNegativeInteger__ctor_m11102_MethodInfo = 
+extern const MethodInfo XsdNegativeInteger__ctor_m11521_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdNegativeInteger__ctor_m11102/* method */
-	, &XsdNegativeInteger_t3661_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdNegativeInteger__ctor_m11521/* method */
+	, &XsdNegativeInteger_t3899_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4861,20 +4861,20 @@ extern const MethodInfo XsdNegativeInteger__ctor_m11102_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdNegativeInteger_t3661_MethodInfos[] =
+static const MethodInfo* XsdNegativeInteger_t3899_MethodInfos[] =
 {
-	&XsdNegativeInteger__ctor_m11102_MethodInfo,
+	&XsdNegativeInteger__ctor_m11521_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdNegativeInteger_t3661_VTable[] =
+static const Il2CppMethodReference XsdNegativeInteger_t3899_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDecimal_get_TokenizedType_m11089_MethodInfo,
+	&XsdDecimal_get_TokenizedType_m11508_MethodInfo,
 };
-static bool XsdNegativeInteger_t3661_VTableIsGenericMethod[] =
+static bool XsdNegativeInteger_t3899_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -4883,37 +4883,37 @@ static bool XsdNegativeInteger_t3661_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdNegativeInteger_t3661_0_0_0;
-extern const Il2CppType XsdNegativeInteger_t3661_1_0_0;
-struct XsdNegativeInteger_t3661;
-const Il2CppTypeDefinitionMetadata XsdNegativeInteger_t3661_DefinitionMetadata = 
+extern const Il2CppType XsdNegativeInteger_t3899_0_0_0;
+extern const Il2CppType XsdNegativeInteger_t3899_1_0_0;
+struct XsdNegativeInteger_t3899;
+const Il2CppTypeDefinitionMetadata XsdNegativeInteger_t3899_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdNonPositiveInteger_t3660_0_0_0/* parent */
-	, XsdNegativeInteger_t3661_VTable/* vtableMethods */
-	, XsdNegativeInteger_t3661_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdNonPositiveInteger_t3898_0_0_0/* parent */
+	, XsdNegativeInteger_t3899_VTable/* vtableMethods */
+	, XsdNegativeInteger_t3899_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdNegativeInteger_t3661_il2cpp_TypeInfo = 
+TypeInfo XsdNegativeInteger_t3899_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdNegativeInteger"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdNegativeInteger_t3661_MethodInfos/* methods */
+	, XsdNegativeInteger_t3899_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdNegativeInteger_t3661_il2cpp_TypeInfo/* element_class */
+	, &XsdNegativeInteger_t3899_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdNegativeInteger_t3661_0_0_0/* byval_arg */
-	, &XsdNegativeInteger_t3661_1_0_0/* this_arg */
-	, &XsdNegativeInteger_t3661_DefinitionMetadata/* definitionMetadata */
+	, &XsdNegativeInteger_t3899_0_0_0/* byval_arg */
+	, &XsdNegativeInteger_t3899_1_0_0/* this_arg */
+	, &XsdNegativeInteger_t3899_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -4923,8 +4923,8 @@ TypeInfo XsdNegativeInteger_t3661_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdNegativeInteger_t3661)/* instance_size */
-	, sizeof (XsdNegativeInteger_t3661)/* actualSize */
+	, sizeof (XsdNegativeInteger_t3899)/* instance_size */
+	, sizeof (XsdNegativeInteger_t3899)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -4956,16 +4956,16 @@ TypeInfo XsdNegativeInteger_t3661_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdFloat
 #include "System_Xml_Mono_Xml_Schema_XsdFloat.h"
 // Metadata Definition Mono.Xml.Schema.XsdFloat
-extern TypeInfo XsdFloat_t3662_il2cpp_TypeInfo;
+extern TypeInfo XsdFloat_t3900_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdFloat
 #include "System_Xml_Mono_Xml_Schema_XsdFloatMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdFloat::.ctor()
-extern const MethodInfo XsdFloat__ctor_m11103_MethodInfo = 
+extern const MethodInfo XsdFloat__ctor_m11522_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdFloat__ctor_m11103/* method */
-	, &XsdFloat_t3662_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdFloat__ctor_m11522/* method */
+	, &XsdFloat_t3900_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -4982,20 +4982,20 @@ extern const MethodInfo XsdFloat__ctor_m11103_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdFloat_t3662_MethodInfos[] =
+static const MethodInfo* XsdFloat_t3900_MethodInfos[] =
 {
-	&XsdFloat__ctor_m11103_MethodInfo,
+	&XsdFloat__ctor_m11522_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdFloat_t3662_VTable[] =
+static const Il2CppMethodReference XsdFloat_t3900_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XsdFloat_t3662_VTableIsGenericMethod[] =
+static bool XsdFloat_t3900_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5004,37 +5004,37 @@ static bool XsdFloat_t3662_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdFloat_t3662_0_0_0;
-extern const Il2CppType XsdFloat_t3662_1_0_0;
-struct XsdFloat_t3662;
-const Il2CppTypeDefinitionMetadata XsdFloat_t3662_DefinitionMetadata = 
+extern const Il2CppType XsdFloat_t3900_0_0_0;
+extern const Il2CppType XsdFloat_t3900_1_0_0;
+struct XsdFloat_t3900;
+const Il2CppTypeDefinitionMetadata XsdFloat_t3900_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdFloat_t3662_VTable/* vtableMethods */
-	, XsdFloat_t3662_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdFloat_t3900_VTable/* vtableMethods */
+	, XsdFloat_t3900_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdFloat_t3662_il2cpp_TypeInfo = 
+TypeInfo XsdFloat_t3900_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdFloat"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdFloat_t3662_MethodInfos/* methods */
+	, XsdFloat_t3900_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdFloat_t3662_il2cpp_TypeInfo/* element_class */
+	, &XsdFloat_t3900_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdFloat_t3662_0_0_0/* byval_arg */
-	, &XsdFloat_t3662_1_0_0/* this_arg */
-	, &XsdFloat_t3662_DefinitionMetadata/* definitionMetadata */
+	, &XsdFloat_t3900_0_0_0/* byval_arg */
+	, &XsdFloat_t3900_1_0_0/* this_arg */
+	, &XsdFloat_t3900_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5044,8 +5044,8 @@ TypeInfo XsdFloat_t3662_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdFloat_t3662)/* instance_size */
-	, sizeof (XsdFloat_t3662)/* actualSize */
+	, sizeof (XsdFloat_t3900)/* instance_size */
+	, sizeof (XsdFloat_t3900)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5077,16 +5077,16 @@ TypeInfo XsdFloat_t3662_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdDouble
 #include "System_Xml_Mono_Xml_Schema_XsdDouble.h"
 // Metadata Definition Mono.Xml.Schema.XsdDouble
-extern TypeInfo XsdDouble_t3663_il2cpp_TypeInfo;
+extern TypeInfo XsdDouble_t3901_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDouble
 #include "System_Xml_Mono_Xml_Schema_XsdDoubleMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDouble::.ctor()
-extern const MethodInfo XsdDouble__ctor_m11104_MethodInfo = 
+extern const MethodInfo XsdDouble__ctor_m11523_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDouble__ctor_m11104/* method */
-	, &XsdDouble_t3663_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdDouble__ctor_m11523/* method */
+	, &XsdDouble_t3901_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -5103,20 +5103,20 @@ extern const MethodInfo XsdDouble__ctor_m11104_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdDouble_t3663_MethodInfos[] =
+static const MethodInfo* XsdDouble_t3901_MethodInfos[] =
 {
-	&XsdDouble__ctor_m11104_MethodInfo,
+	&XsdDouble__ctor_m11523_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdDouble_t3663_VTable[] =
+static const Il2CppMethodReference XsdDouble_t3901_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XsdDouble_t3663_VTableIsGenericMethod[] =
+static bool XsdDouble_t3901_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5125,37 +5125,37 @@ static bool XsdDouble_t3663_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdDouble_t3663_0_0_0;
-extern const Il2CppType XsdDouble_t3663_1_0_0;
-struct XsdDouble_t3663;
-const Il2CppTypeDefinitionMetadata XsdDouble_t3663_DefinitionMetadata = 
+extern const Il2CppType XsdDouble_t3901_0_0_0;
+extern const Il2CppType XsdDouble_t3901_1_0_0;
+struct XsdDouble_t3901;
+const Il2CppTypeDefinitionMetadata XsdDouble_t3901_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdDouble_t3663_VTable/* vtableMethods */
-	, XsdDouble_t3663_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdDouble_t3901_VTable/* vtableMethods */
+	, XsdDouble_t3901_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdDouble_t3663_il2cpp_TypeInfo = 
+TypeInfo XsdDouble_t3901_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdDouble"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdDouble_t3663_MethodInfos/* methods */
+	, XsdDouble_t3901_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdDouble_t3663_il2cpp_TypeInfo/* element_class */
+	, &XsdDouble_t3901_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdDouble_t3663_0_0_0/* byval_arg */
-	, &XsdDouble_t3663_1_0_0/* this_arg */
-	, &XsdDouble_t3663_DefinitionMetadata/* definitionMetadata */
+	, &XsdDouble_t3901_0_0_0/* byval_arg */
+	, &XsdDouble_t3901_1_0_0/* this_arg */
+	, &XsdDouble_t3901_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5165,8 +5165,8 @@ TypeInfo XsdDouble_t3663_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdDouble_t3663)/* instance_size */
-	, sizeof (XsdDouble_t3663)/* actualSize */
+	, sizeof (XsdDouble_t3901)/* instance_size */
+	, sizeof (XsdDouble_t3901)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5198,16 +5198,16 @@ TypeInfo XsdDouble_t3663_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdBase64Binary
 #include "System_Xml_Mono_Xml_Schema_XsdBase64Binary.h"
 // Metadata Definition Mono.Xml.Schema.XsdBase64Binary
-extern TypeInfo XsdBase64Binary_t3664_il2cpp_TypeInfo;
+extern TypeInfo XsdBase64Binary_t3902_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdBase64Binary
 #include "System_Xml_Mono_Xml_Schema_XsdBase64BinaryMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdBase64Binary::.ctor()
-extern const MethodInfo XsdBase64Binary__ctor_m11105_MethodInfo = 
+extern const MethodInfo XsdBase64Binary__ctor_m11524_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdBase64Binary__ctor_m11105/* method */
-	, &XsdBase64Binary_t3664_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdBase64Binary__ctor_m11524/* method */
+	, &XsdBase64Binary_t3902_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -5226,11 +5226,11 @@ extern const MethodInfo XsdBase64Binary__ctor_m11105_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdBase64Binary::.cctor()
-extern const MethodInfo XsdBase64Binary__cctor_m11106_MethodInfo = 
+extern const MethodInfo XsdBase64Binary__cctor_m11525_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XsdBase64Binary__cctor_m11106/* method */
-	, &XsdBase64Binary_t3664_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdBase64Binary__cctor_m11525/* method */
+	, &XsdBase64Binary_t3902_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -5247,21 +5247,21 @@ extern const MethodInfo XsdBase64Binary__cctor_m11106_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdBase64Binary_t3664_MethodInfos[] =
+static const MethodInfo* XsdBase64Binary_t3902_MethodInfos[] =
 {
-	&XsdBase64Binary__ctor_m11105_MethodInfo,
-	&XsdBase64Binary__cctor_m11106_MethodInfo,
+	&XsdBase64Binary__ctor_m11524_MethodInfo,
+	&XsdBase64Binary__cctor_m11525_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdBase64Binary_t3664_VTable[] =
+static const Il2CppMethodReference XsdBase64Binary_t3902_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdString_get_TokenizedType_m11061_MethodInfo,
+	&XsdString_get_TokenizedType_m11480_MethodInfo,
 };
-static bool XsdBase64Binary_t3664_VTableIsGenericMethod[] =
+static bool XsdBase64Binary_t3902_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5270,37 +5270,37 @@ static bool XsdBase64Binary_t3664_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdBase64Binary_t3664_0_0_0;
-extern const Il2CppType XsdBase64Binary_t3664_1_0_0;
-struct XsdBase64Binary_t3664;
-const Il2CppTypeDefinitionMetadata XsdBase64Binary_t3664_DefinitionMetadata = 
+extern const Il2CppType XsdBase64Binary_t3902_0_0_0;
+extern const Il2CppType XsdBase64Binary_t3902_1_0_0;
+struct XsdBase64Binary_t3902;
+const Il2CppTypeDefinitionMetadata XsdBase64Binary_t3902_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdString_t3634_0_0_0/* parent */
-	, XsdBase64Binary_t3664_VTable/* vtableMethods */
-	, XsdBase64Binary_t3664_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdString_t3872_0_0_0/* parent */
+	, XsdBase64Binary_t3902_VTable/* vtableMethods */
+	, XsdBase64Binary_t3902_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 10/* fieldStart */
 
 };
-TypeInfo XsdBase64Binary_t3664_il2cpp_TypeInfo = 
+TypeInfo XsdBase64Binary_t3902_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdBase64Binary"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdBase64Binary_t3664_MethodInfos/* methods */
+	, XsdBase64Binary_t3902_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdBase64Binary_t3664_il2cpp_TypeInfo/* element_class */
+	, &XsdBase64Binary_t3902_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdBase64Binary_t3664_0_0_0/* byval_arg */
-	, &XsdBase64Binary_t3664_1_0_0/* this_arg */
-	, &XsdBase64Binary_t3664_DefinitionMetadata/* definitionMetadata */
+	, &XsdBase64Binary_t3902_0_0_0/* byval_arg */
+	, &XsdBase64Binary_t3902_1_0_0/* this_arg */
+	, &XsdBase64Binary_t3902_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5310,11 +5310,11 @@ TypeInfo XsdBase64Binary_t3664_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdBase64Binary_t3664)/* instance_size */
-	, sizeof (XsdBase64Binary_t3664)/* actualSize */
+	, sizeof (XsdBase64Binary_t3902)/* instance_size */
+	, sizeof (XsdBase64Binary_t3902)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XsdBase64Binary_t3664_StaticFields)/* static_fields_size */
+	, sizeof(XsdBase64Binary_t3902_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 0/* flags */
@@ -5343,16 +5343,16 @@ TypeInfo XsdBase64Binary_t3664_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdHexBinary
 #include "System_Xml_Mono_Xml_Schema_XsdHexBinary.h"
 // Metadata Definition Mono.Xml.Schema.XsdHexBinary
-extern TypeInfo XsdHexBinary_t3665_il2cpp_TypeInfo;
+extern TypeInfo XsdHexBinary_t3903_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdHexBinary
 #include "System_Xml_Mono_Xml_Schema_XsdHexBinaryMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdHexBinary::.ctor()
-extern const MethodInfo XsdHexBinary__ctor_m11107_MethodInfo = 
+extern const MethodInfo XsdHexBinary__ctor_m11526_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdHexBinary__ctor_m11107/* method */
-	, &XsdHexBinary_t3665_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdHexBinary__ctor_m11526/* method */
+	, &XsdHexBinary_t3903_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -5369,15 +5369,15 @@ extern const MethodInfo XsdHexBinary__ctor_m11107_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdHexBinary::get_TokenizedType()
-extern const MethodInfo XsdHexBinary_get_TokenizedType_m11108_MethodInfo = 
+extern const MethodInfo XsdHexBinary_get_TokenizedType_m11527_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdHexBinary_get_TokenizedType_m11108/* method */
-	, &XsdHexBinary_t3665_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdHexBinary_get_TokenizedType_m11527/* method */
+	, &XsdHexBinary_t3903_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -5392,37 +5392,37 @@ extern const MethodInfo XsdHexBinary_get_TokenizedType_m11108_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdHexBinary_t3665_MethodInfos[] =
+static const MethodInfo* XsdHexBinary_t3903_MethodInfos[] =
 {
-	&XsdHexBinary__ctor_m11107_MethodInfo,
-	&XsdHexBinary_get_TokenizedType_m11108_MethodInfo,
+	&XsdHexBinary__ctor_m11526_MethodInfo,
+	&XsdHexBinary_get_TokenizedType_m11527_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdHexBinary_get_TokenizedType_m11108_MethodInfo;
-static const PropertyInfo XsdHexBinary_t3665____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdHexBinary_get_TokenizedType_m11527_MethodInfo;
+static const PropertyInfo XsdHexBinary_t3903____TokenizedType_PropertyInfo = 
 {
-	&XsdHexBinary_t3665_il2cpp_TypeInfo/* parent */
+	&XsdHexBinary_t3903_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdHexBinary_get_TokenizedType_m11108_MethodInfo/* get */
+	, &XsdHexBinary_get_TokenizedType_m11527_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdHexBinary_t3665_PropertyInfos[] =
+static const PropertyInfo* XsdHexBinary_t3903_PropertyInfos[] =
 {
-	&XsdHexBinary_t3665____TokenizedType_PropertyInfo,
+	&XsdHexBinary_t3903____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdHexBinary_t3665_VTable[] =
+static const Il2CppMethodReference XsdHexBinary_t3903_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdHexBinary_get_TokenizedType_m11108_MethodInfo,
+	&XsdHexBinary_get_TokenizedType_m11527_MethodInfo,
 };
-static bool XsdHexBinary_t3665_VTableIsGenericMethod[] =
+static bool XsdHexBinary_t3903_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5431,37 +5431,37 @@ static bool XsdHexBinary_t3665_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdHexBinary_t3665_0_0_0;
-extern const Il2CppType XsdHexBinary_t3665_1_0_0;
-struct XsdHexBinary_t3665;
-const Il2CppTypeDefinitionMetadata XsdHexBinary_t3665_DefinitionMetadata = 
+extern const Il2CppType XsdHexBinary_t3903_0_0_0;
+extern const Il2CppType XsdHexBinary_t3903_1_0_0;
+struct XsdHexBinary_t3903;
+const Il2CppTypeDefinitionMetadata XsdHexBinary_t3903_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdHexBinary_t3665_VTable/* vtableMethods */
-	, XsdHexBinary_t3665_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdHexBinary_t3903_VTable/* vtableMethods */
+	, XsdHexBinary_t3903_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdHexBinary_t3665_il2cpp_TypeInfo = 
+TypeInfo XsdHexBinary_t3903_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdHexBinary"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdHexBinary_t3665_MethodInfos/* methods */
-	, XsdHexBinary_t3665_PropertyInfos/* properties */
+	, XsdHexBinary_t3903_MethodInfos/* methods */
+	, XsdHexBinary_t3903_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdHexBinary_t3665_il2cpp_TypeInfo/* element_class */
+	, &XsdHexBinary_t3903_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdHexBinary_t3665_0_0_0/* byval_arg */
-	, &XsdHexBinary_t3665_1_0_0/* this_arg */
-	, &XsdHexBinary_t3665_DefinitionMetadata/* definitionMetadata */
+	, &XsdHexBinary_t3903_0_0_0/* byval_arg */
+	, &XsdHexBinary_t3903_1_0_0/* this_arg */
+	, &XsdHexBinary_t3903_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5471,8 +5471,8 @@ TypeInfo XsdHexBinary_t3665_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdHexBinary_t3665)/* instance_size */
-	, sizeof (XsdHexBinary_t3665)/* actualSize */
+	, sizeof (XsdHexBinary_t3903)/* instance_size */
+	, sizeof (XsdHexBinary_t3903)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5504,16 +5504,16 @@ TypeInfo XsdHexBinary_t3665_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdQName
 #include "System_Xml_Mono_Xml_Schema_XsdQName.h"
 // Metadata Definition Mono.Xml.Schema.XsdQName
-extern TypeInfo XsdQName_t3666_il2cpp_TypeInfo;
+extern TypeInfo XsdQName_t3904_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdQName
 #include "System_Xml_Mono_Xml_Schema_XsdQNameMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdQName::.ctor()
-extern const MethodInfo XsdQName__ctor_m11109_MethodInfo = 
+extern const MethodInfo XsdQName__ctor_m11528_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdQName__ctor_m11109/* method */
-	, &XsdQName_t3666_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdQName__ctor_m11528/* method */
+	, &XsdQName_t3904_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -5530,15 +5530,15 @@ extern const MethodInfo XsdQName__ctor_m11109_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdQName::get_TokenizedType()
-extern const MethodInfo XsdQName_get_TokenizedType_m11110_MethodInfo = 
+extern const MethodInfo XsdQName_get_TokenizedType_m11529_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdQName_get_TokenizedType_m11110/* method */
-	, &XsdQName_t3666_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdQName_get_TokenizedType_m11529/* method */
+	, &XsdQName_t3904_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -5553,37 +5553,37 @@ extern const MethodInfo XsdQName_get_TokenizedType_m11110_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdQName_t3666_MethodInfos[] =
+static const MethodInfo* XsdQName_t3904_MethodInfos[] =
 {
-	&XsdQName__ctor_m11109_MethodInfo,
-	&XsdQName_get_TokenizedType_m11110_MethodInfo,
+	&XsdQName__ctor_m11528_MethodInfo,
+	&XsdQName_get_TokenizedType_m11529_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdQName_get_TokenizedType_m11110_MethodInfo;
-static const PropertyInfo XsdQName_t3666____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdQName_get_TokenizedType_m11529_MethodInfo;
+static const PropertyInfo XsdQName_t3904____TokenizedType_PropertyInfo = 
 {
-	&XsdQName_t3666_il2cpp_TypeInfo/* parent */
+	&XsdQName_t3904_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdQName_get_TokenizedType_m11110_MethodInfo/* get */
+	, &XsdQName_get_TokenizedType_m11529_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdQName_t3666_PropertyInfos[] =
+static const PropertyInfo* XsdQName_t3904_PropertyInfos[] =
 {
-	&XsdQName_t3666____TokenizedType_PropertyInfo,
+	&XsdQName_t3904____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdQName_t3666_VTable[] =
+static const Il2CppMethodReference XsdQName_t3904_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdQName_get_TokenizedType_m11110_MethodInfo,
+	&XsdQName_get_TokenizedType_m11529_MethodInfo,
 };
-static bool XsdQName_t3666_VTableIsGenericMethod[] =
+static bool XsdQName_t3904_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5592,37 +5592,37 @@ static bool XsdQName_t3666_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdQName_t3666_0_0_0;
-extern const Il2CppType XsdQName_t3666_1_0_0;
-struct XsdQName_t3666;
-const Il2CppTypeDefinitionMetadata XsdQName_t3666_DefinitionMetadata = 
+extern const Il2CppType XsdQName_t3904_0_0_0;
+extern const Il2CppType XsdQName_t3904_1_0_0;
+struct XsdQName_t3904;
+const Il2CppTypeDefinitionMetadata XsdQName_t3904_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdName_t3640_0_0_0/* parent */
-	, XsdQName_t3666_VTable/* vtableMethods */
-	, XsdQName_t3666_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdName_t3878_0_0_0/* parent */
+	, XsdQName_t3904_VTable/* vtableMethods */
+	, XsdQName_t3904_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdQName_t3666_il2cpp_TypeInfo = 
+TypeInfo XsdQName_t3904_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdQName"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdQName_t3666_MethodInfos/* methods */
-	, XsdQName_t3666_PropertyInfos/* properties */
+	, XsdQName_t3904_MethodInfos/* methods */
+	, XsdQName_t3904_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdQName_t3666_il2cpp_TypeInfo/* element_class */
+	, &XsdQName_t3904_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdQName_t3666_0_0_0/* byval_arg */
-	, &XsdQName_t3666_1_0_0/* this_arg */
-	, &XsdQName_t3666_DefinitionMetadata/* definitionMetadata */
+	, &XsdQName_t3904_0_0_0/* byval_arg */
+	, &XsdQName_t3904_1_0_0/* this_arg */
+	, &XsdQName_t3904_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5632,8 +5632,8 @@ TypeInfo XsdQName_t3666_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdQName_t3666)/* instance_size */
-	, sizeof (XsdQName_t3666)/* actualSize */
+	, sizeof (XsdQName_t3904)/* instance_size */
+	, sizeof (XsdQName_t3904)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5665,16 +5665,16 @@ TypeInfo XsdQName_t3666_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdBoolean
 #include "System_Xml_Mono_Xml_Schema_XsdBoolean.h"
 // Metadata Definition Mono.Xml.Schema.XsdBoolean
-extern TypeInfo XsdBoolean_t3667_il2cpp_TypeInfo;
+extern TypeInfo XsdBoolean_t3905_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdBoolean
 #include "System_Xml_Mono_Xml_Schema_XsdBooleanMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdBoolean::.ctor()
-extern const MethodInfo XsdBoolean__ctor_m11111_MethodInfo = 
+extern const MethodInfo XsdBoolean__ctor_m11530_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdBoolean__ctor_m11111/* method */
-	, &XsdBoolean_t3667_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdBoolean__ctor_m11530/* method */
+	, &XsdBoolean_t3905_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -5691,15 +5691,15 @@ extern const MethodInfo XsdBoolean__ctor_m11111_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdBoolean::get_TokenizedType()
-extern const MethodInfo XsdBoolean_get_TokenizedType_m11112_MethodInfo = 
+extern const MethodInfo XsdBoolean_get_TokenizedType_m11531_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdBoolean_get_TokenizedType_m11112/* method */
-	, &XsdBoolean_t3667_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdBoolean_get_TokenizedType_m11531/* method */
+	, &XsdBoolean_t3905_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -5714,37 +5714,37 @@ extern const MethodInfo XsdBoolean_get_TokenizedType_m11112_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdBoolean_t3667_MethodInfos[] =
+static const MethodInfo* XsdBoolean_t3905_MethodInfos[] =
 {
-	&XsdBoolean__ctor_m11111_MethodInfo,
-	&XsdBoolean_get_TokenizedType_m11112_MethodInfo,
+	&XsdBoolean__ctor_m11530_MethodInfo,
+	&XsdBoolean_get_TokenizedType_m11531_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdBoolean_get_TokenizedType_m11112_MethodInfo;
-static const PropertyInfo XsdBoolean_t3667____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdBoolean_get_TokenizedType_m11531_MethodInfo;
+static const PropertyInfo XsdBoolean_t3905____TokenizedType_PropertyInfo = 
 {
-	&XsdBoolean_t3667_il2cpp_TypeInfo/* parent */
+	&XsdBoolean_t3905_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdBoolean_get_TokenizedType_m11112_MethodInfo/* get */
+	, &XsdBoolean_get_TokenizedType_m11531_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdBoolean_t3667_PropertyInfos[] =
+static const PropertyInfo* XsdBoolean_t3905_PropertyInfos[] =
 {
-	&XsdBoolean_t3667____TokenizedType_PropertyInfo,
+	&XsdBoolean_t3905____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdBoolean_t3667_VTable[] =
+static const Il2CppMethodReference XsdBoolean_t3905_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdBoolean_get_TokenizedType_m11112_MethodInfo,
+	&XsdBoolean_get_TokenizedType_m11531_MethodInfo,
 };
-static bool XsdBoolean_t3667_VTableIsGenericMethod[] =
+static bool XsdBoolean_t3905_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5753,37 +5753,37 @@ static bool XsdBoolean_t3667_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdBoolean_t3667_0_0_0;
-extern const Il2CppType XsdBoolean_t3667_1_0_0;
-struct XsdBoolean_t3667;
-const Il2CppTypeDefinitionMetadata XsdBoolean_t3667_DefinitionMetadata = 
+extern const Il2CppType XsdBoolean_t3905_0_0_0;
+extern const Il2CppType XsdBoolean_t3905_1_0_0;
+struct XsdBoolean_t3905;
+const Il2CppTypeDefinitionMetadata XsdBoolean_t3905_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdBoolean_t3667_VTable/* vtableMethods */
-	, XsdBoolean_t3667_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdBoolean_t3905_VTable/* vtableMethods */
+	, XsdBoolean_t3905_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdBoolean_t3667_il2cpp_TypeInfo = 
+TypeInfo XsdBoolean_t3905_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdBoolean"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdBoolean_t3667_MethodInfos/* methods */
-	, XsdBoolean_t3667_PropertyInfos/* properties */
+	, XsdBoolean_t3905_MethodInfos/* methods */
+	, XsdBoolean_t3905_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdBoolean_t3667_il2cpp_TypeInfo/* element_class */
+	, &XsdBoolean_t3905_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdBoolean_t3667_0_0_0/* byval_arg */
-	, &XsdBoolean_t3667_1_0_0/* this_arg */
-	, &XsdBoolean_t3667_DefinitionMetadata/* definitionMetadata */
+	, &XsdBoolean_t3905_0_0_0/* byval_arg */
+	, &XsdBoolean_t3905_1_0_0/* this_arg */
+	, &XsdBoolean_t3905_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5793,8 +5793,8 @@ TypeInfo XsdBoolean_t3667_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdBoolean_t3667)/* instance_size */
-	, sizeof (XsdBoolean_t3667)/* actualSize */
+	, sizeof (XsdBoolean_t3905)/* instance_size */
+	, sizeof (XsdBoolean_t3905)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5826,16 +5826,16 @@ TypeInfo XsdBoolean_t3667_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdAnyURI
 #include "System_Xml_Mono_Xml_Schema_XsdAnyURI.h"
 // Metadata Definition Mono.Xml.Schema.XsdAnyURI
-extern TypeInfo XsdAnyURI_t3668_il2cpp_TypeInfo;
+extern TypeInfo XsdAnyURI_t3906_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdAnyURI
 #include "System_Xml_Mono_Xml_Schema_XsdAnyURIMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdAnyURI::.ctor()
-extern const MethodInfo XsdAnyURI__ctor_m11113_MethodInfo = 
+extern const MethodInfo XsdAnyURI__ctor_m11532_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdAnyURI__ctor_m11113/* method */
-	, &XsdAnyURI_t3668_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdAnyURI__ctor_m11532/* method */
+	, &XsdAnyURI_t3906_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -5852,15 +5852,15 @@ extern const MethodInfo XsdAnyURI__ctor_m11113_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdAnyURI::get_TokenizedType()
-extern const MethodInfo XsdAnyURI_get_TokenizedType_m11114_MethodInfo = 
+extern const MethodInfo XsdAnyURI_get_TokenizedType_m11533_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdAnyURI_get_TokenizedType_m11114/* method */
-	, &XsdAnyURI_t3668_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdAnyURI_get_TokenizedType_m11533/* method */
+	, &XsdAnyURI_t3906_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -5875,37 +5875,37 @@ extern const MethodInfo XsdAnyURI_get_TokenizedType_m11114_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdAnyURI_t3668_MethodInfos[] =
+static const MethodInfo* XsdAnyURI_t3906_MethodInfos[] =
 {
-	&XsdAnyURI__ctor_m11113_MethodInfo,
-	&XsdAnyURI_get_TokenizedType_m11114_MethodInfo,
+	&XsdAnyURI__ctor_m11532_MethodInfo,
+	&XsdAnyURI_get_TokenizedType_m11533_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdAnyURI_get_TokenizedType_m11114_MethodInfo;
-static const PropertyInfo XsdAnyURI_t3668____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdAnyURI_get_TokenizedType_m11533_MethodInfo;
+static const PropertyInfo XsdAnyURI_t3906____TokenizedType_PropertyInfo = 
 {
-	&XsdAnyURI_t3668_il2cpp_TypeInfo/* parent */
+	&XsdAnyURI_t3906_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdAnyURI_get_TokenizedType_m11114_MethodInfo/* get */
+	, &XsdAnyURI_get_TokenizedType_m11533_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdAnyURI_t3668_PropertyInfos[] =
+static const PropertyInfo* XsdAnyURI_t3906_PropertyInfos[] =
 {
-	&XsdAnyURI_t3668____TokenizedType_PropertyInfo,
+	&XsdAnyURI_t3906____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdAnyURI_t3668_VTable[] =
+static const Il2CppMethodReference XsdAnyURI_t3906_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnyURI_get_TokenizedType_m11114_MethodInfo,
+	&XsdAnyURI_get_TokenizedType_m11533_MethodInfo,
 };
-static bool XsdAnyURI_t3668_VTableIsGenericMethod[] =
+static bool XsdAnyURI_t3906_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5914,37 +5914,37 @@ static bool XsdAnyURI_t3668_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdAnyURI_t3668_0_0_0;
-extern const Il2CppType XsdAnyURI_t3668_1_0_0;
-struct XsdAnyURI_t3668;
-const Il2CppTypeDefinitionMetadata XsdAnyURI_t3668_DefinitionMetadata = 
+extern const Il2CppType XsdAnyURI_t3906_0_0_0;
+extern const Il2CppType XsdAnyURI_t3906_1_0_0;
+struct XsdAnyURI_t3906;
+const Il2CppTypeDefinitionMetadata XsdAnyURI_t3906_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdString_t3634_0_0_0/* parent */
-	, XsdAnyURI_t3668_VTable/* vtableMethods */
-	, XsdAnyURI_t3668_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdString_t3872_0_0_0/* parent */
+	, XsdAnyURI_t3906_VTable/* vtableMethods */
+	, XsdAnyURI_t3906_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdAnyURI_t3668_il2cpp_TypeInfo = 
+TypeInfo XsdAnyURI_t3906_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdAnyURI"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdAnyURI_t3668_MethodInfos/* methods */
-	, XsdAnyURI_t3668_PropertyInfos/* properties */
+	, XsdAnyURI_t3906_MethodInfos/* methods */
+	, XsdAnyURI_t3906_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdAnyURI_t3668_il2cpp_TypeInfo/* element_class */
+	, &XsdAnyURI_t3906_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdAnyURI_t3668_0_0_0/* byval_arg */
-	, &XsdAnyURI_t3668_1_0_0/* this_arg */
-	, &XsdAnyURI_t3668_DefinitionMetadata/* definitionMetadata */
+	, &XsdAnyURI_t3906_0_0_0/* byval_arg */
+	, &XsdAnyURI_t3906_1_0_0/* this_arg */
+	, &XsdAnyURI_t3906_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5954,8 +5954,8 @@ TypeInfo XsdAnyURI_t3668_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdAnyURI_t3668)/* instance_size */
-	, sizeof (XsdAnyURI_t3668)/* actualSize */
+	, sizeof (XsdAnyURI_t3906)/* instance_size */
+	, sizeof (XsdAnyURI_t3906)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5987,16 +5987,16 @@ TypeInfo XsdAnyURI_t3668_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdDuration
 #include "System_Xml_Mono_Xml_Schema_XsdDuration.h"
 // Metadata Definition Mono.Xml.Schema.XsdDuration
-extern TypeInfo XsdDuration_t3669_il2cpp_TypeInfo;
+extern TypeInfo XsdDuration_t3907_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDuration
 #include "System_Xml_Mono_Xml_Schema_XsdDurationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDuration::.ctor()
-extern const MethodInfo XsdDuration__ctor_m11115_MethodInfo = 
+extern const MethodInfo XsdDuration__ctor_m11534_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDuration__ctor_m11115/* method */
-	, &XsdDuration_t3669_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdDuration__ctor_m11534/* method */
+	, &XsdDuration_t3907_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -6013,15 +6013,15 @@ extern const MethodInfo XsdDuration__ctor_m11115_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDuration::get_TokenizedType()
-extern const MethodInfo XsdDuration_get_TokenizedType_m11116_MethodInfo = 
+extern const MethodInfo XsdDuration_get_TokenizedType_m11535_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdDuration_get_TokenizedType_m11116/* method */
-	, &XsdDuration_t3669_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdDuration_get_TokenizedType_m11535/* method */
+	, &XsdDuration_t3907_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -6036,37 +6036,37 @@ extern const MethodInfo XsdDuration_get_TokenizedType_m11116_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdDuration_t3669_MethodInfos[] =
+static const MethodInfo* XsdDuration_t3907_MethodInfos[] =
 {
-	&XsdDuration__ctor_m11115_MethodInfo,
-	&XsdDuration_get_TokenizedType_m11116_MethodInfo,
+	&XsdDuration__ctor_m11534_MethodInfo,
+	&XsdDuration_get_TokenizedType_m11535_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdDuration_get_TokenizedType_m11116_MethodInfo;
-static const PropertyInfo XsdDuration_t3669____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdDuration_get_TokenizedType_m11535_MethodInfo;
+static const PropertyInfo XsdDuration_t3907____TokenizedType_PropertyInfo = 
 {
-	&XsdDuration_t3669_il2cpp_TypeInfo/* parent */
+	&XsdDuration_t3907_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdDuration_get_TokenizedType_m11116_MethodInfo/* get */
+	, &XsdDuration_get_TokenizedType_m11535_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdDuration_t3669_PropertyInfos[] =
+static const PropertyInfo* XsdDuration_t3907_PropertyInfos[] =
 {
-	&XsdDuration_t3669____TokenizedType_PropertyInfo,
+	&XsdDuration_t3907____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdDuration_t3669_VTable[] =
+static const Il2CppMethodReference XsdDuration_t3907_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDuration_get_TokenizedType_m11116_MethodInfo,
+	&XsdDuration_get_TokenizedType_m11535_MethodInfo,
 };
-static bool XsdDuration_t3669_VTableIsGenericMethod[] =
+static bool XsdDuration_t3907_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6075,37 +6075,37 @@ static bool XsdDuration_t3669_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdDuration_t3669_0_0_0;
-extern const Il2CppType XsdDuration_t3669_1_0_0;
-struct XsdDuration_t3669;
-const Il2CppTypeDefinitionMetadata XsdDuration_t3669_DefinitionMetadata = 
+extern const Il2CppType XsdDuration_t3907_0_0_0;
+extern const Il2CppType XsdDuration_t3907_1_0_0;
+struct XsdDuration_t3907;
+const Il2CppTypeDefinitionMetadata XsdDuration_t3907_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdDuration_t3669_VTable/* vtableMethods */
-	, XsdDuration_t3669_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdDuration_t3907_VTable/* vtableMethods */
+	, XsdDuration_t3907_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdDuration_t3669_il2cpp_TypeInfo = 
+TypeInfo XsdDuration_t3907_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdDuration"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdDuration_t3669_MethodInfos/* methods */
-	, XsdDuration_t3669_PropertyInfos/* properties */
+	, XsdDuration_t3907_MethodInfos/* methods */
+	, XsdDuration_t3907_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdDuration_t3669_il2cpp_TypeInfo/* element_class */
+	, &XsdDuration_t3907_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdDuration_t3669_0_0_0/* byval_arg */
-	, &XsdDuration_t3669_1_0_0/* this_arg */
-	, &XsdDuration_t3669_DefinitionMetadata/* definitionMetadata */
+	, &XsdDuration_t3907_0_0_0/* byval_arg */
+	, &XsdDuration_t3907_1_0_0/* this_arg */
+	, &XsdDuration_t3907_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6115,8 +6115,8 @@ TypeInfo XsdDuration_t3669_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdDuration_t3669)/* instance_size */
-	, sizeof (XsdDuration_t3669)/* actualSize */
+	, sizeof (XsdDuration_t3907)/* instance_size */
+	, sizeof (XsdDuration_t3907)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6148,16 +6148,16 @@ TypeInfo XsdDuration_t3669_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XdtDayTimeDuration
 #include "System_Xml_Mono_Xml_Schema_XdtDayTimeDuration.h"
 // Metadata Definition Mono.Xml.Schema.XdtDayTimeDuration
-extern TypeInfo XdtDayTimeDuration_t3670_il2cpp_TypeInfo;
+extern TypeInfo XdtDayTimeDuration_t3908_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XdtDayTimeDuration
 #include "System_Xml_Mono_Xml_Schema_XdtDayTimeDurationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XdtDayTimeDuration::.ctor()
-extern const MethodInfo XdtDayTimeDuration__ctor_m11117_MethodInfo = 
+extern const MethodInfo XdtDayTimeDuration__ctor_m11536_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XdtDayTimeDuration__ctor_m11117/* method */
-	, &XdtDayTimeDuration_t3670_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XdtDayTimeDuration__ctor_m11536/* method */
+	, &XdtDayTimeDuration_t3908_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -6174,20 +6174,20 @@ extern const MethodInfo XdtDayTimeDuration__ctor_m11117_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XdtDayTimeDuration_t3670_MethodInfos[] =
+static const MethodInfo* XdtDayTimeDuration_t3908_MethodInfos[] =
 {
-	&XdtDayTimeDuration__ctor_m11117_MethodInfo,
+	&XdtDayTimeDuration__ctor_m11536_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XdtDayTimeDuration_t3670_VTable[] =
+static const Il2CppMethodReference XdtDayTimeDuration_t3908_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDuration_get_TokenizedType_m11116_MethodInfo,
+	&XsdDuration_get_TokenizedType_m11535_MethodInfo,
 };
-static bool XdtDayTimeDuration_t3670_VTableIsGenericMethod[] =
+static bool XdtDayTimeDuration_t3908_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6196,37 +6196,37 @@ static bool XdtDayTimeDuration_t3670_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XdtDayTimeDuration_t3670_0_0_0;
-extern const Il2CppType XdtDayTimeDuration_t3670_1_0_0;
-struct XdtDayTimeDuration_t3670;
-const Il2CppTypeDefinitionMetadata XdtDayTimeDuration_t3670_DefinitionMetadata = 
+extern const Il2CppType XdtDayTimeDuration_t3908_0_0_0;
+extern const Il2CppType XdtDayTimeDuration_t3908_1_0_0;
+struct XdtDayTimeDuration_t3908;
+const Il2CppTypeDefinitionMetadata XdtDayTimeDuration_t3908_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdDuration_t3669_0_0_0/* parent */
-	, XdtDayTimeDuration_t3670_VTable/* vtableMethods */
-	, XdtDayTimeDuration_t3670_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdDuration_t3907_0_0_0/* parent */
+	, XdtDayTimeDuration_t3908_VTable/* vtableMethods */
+	, XdtDayTimeDuration_t3908_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XdtDayTimeDuration_t3670_il2cpp_TypeInfo = 
+TypeInfo XdtDayTimeDuration_t3908_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XdtDayTimeDuration"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XdtDayTimeDuration_t3670_MethodInfos/* methods */
+	, XdtDayTimeDuration_t3908_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XdtDayTimeDuration_t3670_il2cpp_TypeInfo/* element_class */
+	, &XdtDayTimeDuration_t3908_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XdtDayTimeDuration_t3670_0_0_0/* byval_arg */
-	, &XdtDayTimeDuration_t3670_1_0_0/* this_arg */
-	, &XdtDayTimeDuration_t3670_DefinitionMetadata/* definitionMetadata */
+	, &XdtDayTimeDuration_t3908_0_0_0/* byval_arg */
+	, &XdtDayTimeDuration_t3908_1_0_0/* this_arg */
+	, &XdtDayTimeDuration_t3908_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6236,8 +6236,8 @@ TypeInfo XdtDayTimeDuration_t3670_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XdtDayTimeDuration_t3670)/* instance_size */
-	, sizeof (XdtDayTimeDuration_t3670)/* actualSize */
+	, sizeof (XdtDayTimeDuration_t3908)/* instance_size */
+	, sizeof (XdtDayTimeDuration_t3908)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6269,16 +6269,16 @@ TypeInfo XdtDayTimeDuration_t3670_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XdtYearMonthDuration
 #include "System_Xml_Mono_Xml_Schema_XdtYearMonthDuration.h"
 // Metadata Definition Mono.Xml.Schema.XdtYearMonthDuration
-extern TypeInfo XdtYearMonthDuration_t3671_il2cpp_TypeInfo;
+extern TypeInfo XdtYearMonthDuration_t3909_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XdtYearMonthDuration
 #include "System_Xml_Mono_Xml_Schema_XdtYearMonthDurationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XdtYearMonthDuration::.ctor()
-extern const MethodInfo XdtYearMonthDuration__ctor_m11118_MethodInfo = 
+extern const MethodInfo XdtYearMonthDuration__ctor_m11537_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XdtYearMonthDuration__ctor_m11118/* method */
-	, &XdtYearMonthDuration_t3671_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XdtYearMonthDuration__ctor_m11537/* method */
+	, &XdtYearMonthDuration_t3909_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -6295,20 +6295,20 @@ extern const MethodInfo XdtYearMonthDuration__ctor_m11118_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XdtYearMonthDuration_t3671_MethodInfos[] =
+static const MethodInfo* XdtYearMonthDuration_t3909_MethodInfos[] =
 {
-	&XdtYearMonthDuration__ctor_m11118_MethodInfo,
+	&XdtYearMonthDuration__ctor_m11537_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XdtYearMonthDuration_t3671_VTable[] =
+static const Il2CppMethodReference XdtYearMonthDuration_t3909_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDuration_get_TokenizedType_m11116_MethodInfo,
+	&XsdDuration_get_TokenizedType_m11535_MethodInfo,
 };
-static bool XdtYearMonthDuration_t3671_VTableIsGenericMethod[] =
+static bool XdtYearMonthDuration_t3909_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6317,37 +6317,37 @@ static bool XdtYearMonthDuration_t3671_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XdtYearMonthDuration_t3671_0_0_0;
-extern const Il2CppType XdtYearMonthDuration_t3671_1_0_0;
-struct XdtYearMonthDuration_t3671;
-const Il2CppTypeDefinitionMetadata XdtYearMonthDuration_t3671_DefinitionMetadata = 
+extern const Il2CppType XdtYearMonthDuration_t3909_0_0_0;
+extern const Il2CppType XdtYearMonthDuration_t3909_1_0_0;
+struct XdtYearMonthDuration_t3909;
+const Il2CppTypeDefinitionMetadata XdtYearMonthDuration_t3909_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdDuration_t3669_0_0_0/* parent */
-	, XdtYearMonthDuration_t3671_VTable/* vtableMethods */
-	, XdtYearMonthDuration_t3671_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdDuration_t3907_0_0_0/* parent */
+	, XdtYearMonthDuration_t3909_VTable/* vtableMethods */
+	, XdtYearMonthDuration_t3909_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XdtYearMonthDuration_t3671_il2cpp_TypeInfo = 
+TypeInfo XdtYearMonthDuration_t3909_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XdtYearMonthDuration"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XdtYearMonthDuration_t3671_MethodInfos/* methods */
+	, XdtYearMonthDuration_t3909_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XdtYearMonthDuration_t3671_il2cpp_TypeInfo/* element_class */
+	, &XdtYearMonthDuration_t3909_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XdtYearMonthDuration_t3671_0_0_0/* byval_arg */
-	, &XdtYearMonthDuration_t3671_1_0_0/* this_arg */
-	, &XdtYearMonthDuration_t3671_DefinitionMetadata/* definitionMetadata */
+	, &XdtYearMonthDuration_t3909_0_0_0/* byval_arg */
+	, &XdtYearMonthDuration_t3909_1_0_0/* this_arg */
+	, &XdtYearMonthDuration_t3909_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6357,8 +6357,8 @@ TypeInfo XdtYearMonthDuration_t3671_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XdtYearMonthDuration_t3671)/* instance_size */
-	, sizeof (XdtYearMonthDuration_t3671)/* actualSize */
+	, sizeof (XdtYearMonthDuration_t3909)/* instance_size */
+	, sizeof (XdtYearMonthDuration_t3909)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6390,16 +6390,16 @@ TypeInfo XdtYearMonthDuration_t3671_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdDateTime
 #include "System_Xml_Mono_Xml_Schema_XsdDateTime.h"
 // Metadata Definition Mono.Xml.Schema.XsdDateTime
-extern TypeInfo XsdDateTime_t3672_il2cpp_TypeInfo;
+extern TypeInfo XsdDateTime_t3910_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDateTime
 #include "System_Xml_Mono_Xml_Schema_XsdDateTimeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDateTime::.ctor()
-extern const MethodInfo XsdDateTime__ctor_m11119_MethodInfo = 
+extern const MethodInfo XsdDateTime__ctor_m11538_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDateTime__ctor_m11119/* method */
-	, &XsdDateTime_t3672_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdDateTime__ctor_m11538/* method */
+	, &XsdDateTime_t3910_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -6416,15 +6416,15 @@ extern const MethodInfo XsdDateTime__ctor_m11119_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDateTime::get_TokenizedType()
-extern const MethodInfo XsdDateTime_get_TokenizedType_m11120_MethodInfo = 
+extern const MethodInfo XsdDateTime_get_TokenizedType_m11539_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdDateTime_get_TokenizedType_m11120/* method */
-	, &XsdDateTime_t3672_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdDateTime_get_TokenizedType_m11539/* method */
+	, &XsdDateTime_t3910_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -6439,37 +6439,37 @@ extern const MethodInfo XsdDateTime_get_TokenizedType_m11120_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdDateTime_t3672_MethodInfos[] =
+static const MethodInfo* XsdDateTime_t3910_MethodInfos[] =
 {
-	&XsdDateTime__ctor_m11119_MethodInfo,
-	&XsdDateTime_get_TokenizedType_m11120_MethodInfo,
+	&XsdDateTime__ctor_m11538_MethodInfo,
+	&XsdDateTime_get_TokenizedType_m11539_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdDateTime_get_TokenizedType_m11120_MethodInfo;
-static const PropertyInfo XsdDateTime_t3672____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdDateTime_get_TokenizedType_m11539_MethodInfo;
+static const PropertyInfo XsdDateTime_t3910____TokenizedType_PropertyInfo = 
 {
-	&XsdDateTime_t3672_il2cpp_TypeInfo/* parent */
+	&XsdDateTime_t3910_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdDateTime_get_TokenizedType_m11120_MethodInfo/* get */
+	, &XsdDateTime_get_TokenizedType_m11539_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdDateTime_t3672_PropertyInfos[] =
+static const PropertyInfo* XsdDateTime_t3910_PropertyInfos[] =
 {
-	&XsdDateTime_t3672____TokenizedType_PropertyInfo,
+	&XsdDateTime_t3910____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdDateTime_t3672_VTable[] =
+static const Il2CppMethodReference XsdDateTime_t3910_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDateTime_get_TokenizedType_m11120_MethodInfo,
+	&XsdDateTime_get_TokenizedType_m11539_MethodInfo,
 };
-static bool XsdDateTime_t3672_VTableIsGenericMethod[] =
+static bool XsdDateTime_t3910_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6478,37 +6478,37 @@ static bool XsdDateTime_t3672_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdDateTime_t3672_0_0_0;
-extern const Il2CppType XsdDateTime_t3672_1_0_0;
-struct XsdDateTime_t3672;
-const Il2CppTypeDefinitionMetadata XsdDateTime_t3672_DefinitionMetadata = 
+extern const Il2CppType XsdDateTime_t3910_0_0_0;
+extern const Il2CppType XsdDateTime_t3910_1_0_0;
+struct XsdDateTime_t3910;
+const Il2CppTypeDefinitionMetadata XsdDateTime_t3910_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdDateTime_t3672_VTable/* vtableMethods */
-	, XsdDateTime_t3672_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdDateTime_t3910_VTable/* vtableMethods */
+	, XsdDateTime_t3910_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdDateTime_t3672_il2cpp_TypeInfo = 
+TypeInfo XsdDateTime_t3910_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdDateTime"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdDateTime_t3672_MethodInfos/* methods */
-	, XsdDateTime_t3672_PropertyInfos/* properties */
+	, XsdDateTime_t3910_MethodInfos/* methods */
+	, XsdDateTime_t3910_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdDateTime_t3672_il2cpp_TypeInfo/* element_class */
+	, &XsdDateTime_t3910_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdDateTime_t3672_0_0_0/* byval_arg */
-	, &XsdDateTime_t3672_1_0_0/* this_arg */
-	, &XsdDateTime_t3672_DefinitionMetadata/* definitionMetadata */
+	, &XsdDateTime_t3910_0_0_0/* byval_arg */
+	, &XsdDateTime_t3910_1_0_0/* this_arg */
+	, &XsdDateTime_t3910_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6518,8 +6518,8 @@ TypeInfo XsdDateTime_t3672_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdDateTime_t3672)/* instance_size */
-	, sizeof (XsdDateTime_t3672)/* actualSize */
+	, sizeof (XsdDateTime_t3910)/* instance_size */
+	, sizeof (XsdDateTime_t3910)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6551,16 +6551,16 @@ TypeInfo XsdDateTime_t3672_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdDate
 #include "System_Xml_Mono_Xml_Schema_XsdDate.h"
 // Metadata Definition Mono.Xml.Schema.XsdDate
-extern TypeInfo XsdDate_t3673_il2cpp_TypeInfo;
+extern TypeInfo XsdDate_t3911_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdDate
 #include "System_Xml_Mono_Xml_Schema_XsdDateMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdDate::.ctor()
-extern const MethodInfo XsdDate__ctor_m11121_MethodInfo = 
+extern const MethodInfo XsdDate__ctor_m11540_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdDate__ctor_m11121/* method */
-	, &XsdDate_t3673_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdDate__ctor_m11540/* method */
+	, &XsdDate_t3911_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -6577,15 +6577,15 @@ extern const MethodInfo XsdDate__ctor_m11121_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdDate::get_TokenizedType()
-extern const MethodInfo XsdDate_get_TokenizedType_m11122_MethodInfo = 
+extern const MethodInfo XsdDate_get_TokenizedType_m11541_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdDate_get_TokenizedType_m11122/* method */
-	, &XsdDate_t3673_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdDate_get_TokenizedType_m11541/* method */
+	, &XsdDate_t3911_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -6600,37 +6600,37 @@ extern const MethodInfo XsdDate_get_TokenizedType_m11122_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdDate_t3673_MethodInfos[] =
+static const MethodInfo* XsdDate_t3911_MethodInfos[] =
 {
-	&XsdDate__ctor_m11121_MethodInfo,
-	&XsdDate_get_TokenizedType_m11122_MethodInfo,
+	&XsdDate__ctor_m11540_MethodInfo,
+	&XsdDate_get_TokenizedType_m11541_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdDate_get_TokenizedType_m11122_MethodInfo;
-static const PropertyInfo XsdDate_t3673____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdDate_get_TokenizedType_m11541_MethodInfo;
+static const PropertyInfo XsdDate_t3911____TokenizedType_PropertyInfo = 
 {
-	&XsdDate_t3673_il2cpp_TypeInfo/* parent */
+	&XsdDate_t3911_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdDate_get_TokenizedType_m11122_MethodInfo/* get */
+	, &XsdDate_get_TokenizedType_m11541_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdDate_t3673_PropertyInfos[] =
+static const PropertyInfo* XsdDate_t3911_PropertyInfos[] =
 {
-	&XsdDate_t3673____TokenizedType_PropertyInfo,
+	&XsdDate_t3911____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdDate_t3673_VTable[] =
+static const Il2CppMethodReference XsdDate_t3911_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdDate_get_TokenizedType_m11122_MethodInfo,
+	&XsdDate_get_TokenizedType_m11541_MethodInfo,
 };
-static bool XsdDate_t3673_VTableIsGenericMethod[] =
+static bool XsdDate_t3911_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6639,37 +6639,37 @@ static bool XsdDate_t3673_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdDate_t3673_0_0_0;
-extern const Il2CppType XsdDate_t3673_1_0_0;
-struct XsdDate_t3673;
-const Il2CppTypeDefinitionMetadata XsdDate_t3673_DefinitionMetadata = 
+extern const Il2CppType XsdDate_t3911_0_0_0;
+extern const Il2CppType XsdDate_t3911_1_0_0;
+struct XsdDate_t3911;
+const Il2CppTypeDefinitionMetadata XsdDate_t3911_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdDate_t3673_VTable/* vtableMethods */
-	, XsdDate_t3673_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdDate_t3911_VTable/* vtableMethods */
+	, XsdDate_t3911_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdDate_t3673_il2cpp_TypeInfo = 
+TypeInfo XsdDate_t3911_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdDate"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdDate_t3673_MethodInfos/* methods */
-	, XsdDate_t3673_PropertyInfos/* properties */
+	, XsdDate_t3911_MethodInfos/* methods */
+	, XsdDate_t3911_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdDate_t3673_il2cpp_TypeInfo/* element_class */
+	, &XsdDate_t3911_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdDate_t3673_0_0_0/* byval_arg */
-	, &XsdDate_t3673_1_0_0/* this_arg */
-	, &XsdDate_t3673_DefinitionMetadata/* definitionMetadata */
+	, &XsdDate_t3911_0_0_0/* byval_arg */
+	, &XsdDate_t3911_1_0_0/* this_arg */
+	, &XsdDate_t3911_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6679,8 +6679,8 @@ TypeInfo XsdDate_t3673_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdDate_t3673)/* instance_size */
-	, sizeof (XsdDate_t3673)/* actualSize */
+	, sizeof (XsdDate_t3911)/* instance_size */
+	, sizeof (XsdDate_t3911)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6712,16 +6712,16 @@ TypeInfo XsdDate_t3673_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdTime
 #include "System_Xml_Mono_Xml_Schema_XsdTime.h"
 // Metadata Definition Mono.Xml.Schema.XsdTime
-extern TypeInfo XsdTime_t3674_il2cpp_TypeInfo;
+extern TypeInfo XsdTime_t3912_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdTime
 #include "System_Xml_Mono_Xml_Schema_XsdTimeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdTime::.ctor()
-extern const MethodInfo XsdTime__ctor_m11123_MethodInfo = 
+extern const MethodInfo XsdTime__ctor_m11542_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdTime__ctor_m11123/* method */
-	, &XsdTime_t3674_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdTime__ctor_m11542/* method */
+	, &XsdTime_t3912_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -6740,11 +6740,11 @@ extern const MethodInfo XsdTime__ctor_m11123_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdTime::.cctor()
-extern const MethodInfo XsdTime__cctor_m11124_MethodInfo = 
+extern const MethodInfo XsdTime__cctor_m11543_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XsdTime__cctor_m11124/* method */
-	, &XsdTime_t3674_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdTime__cctor_m11543/* method */
+	, &XsdTime_t3912_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -6761,15 +6761,15 @@ extern const MethodInfo XsdTime__cctor_m11124_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdTime::get_TokenizedType()
-extern const MethodInfo XsdTime_get_TokenizedType_m11125_MethodInfo = 
+extern const MethodInfo XsdTime_get_TokenizedType_m11544_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
-	, (methodPointerType)&XsdTime_get_TokenizedType_m11125/* method */
-	, &XsdTime_t3674_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, (methodPointerType)&XsdTime_get_TokenizedType_m11544/* method */
+	, &XsdTime_t3912_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2246/* flags */
@@ -6784,38 +6784,38 @@ extern const MethodInfo XsdTime_get_TokenizedType_m11125_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdTime_t3674_MethodInfos[] =
+static const MethodInfo* XsdTime_t3912_MethodInfos[] =
 {
-	&XsdTime__ctor_m11123_MethodInfo,
-	&XsdTime__cctor_m11124_MethodInfo,
-	&XsdTime_get_TokenizedType_m11125_MethodInfo,
+	&XsdTime__ctor_m11542_MethodInfo,
+	&XsdTime__cctor_m11543_MethodInfo,
+	&XsdTime_get_TokenizedType_m11544_MethodInfo,
 	NULL
 };
-extern const MethodInfo XsdTime_get_TokenizedType_m11125_MethodInfo;
-static const PropertyInfo XsdTime_t3674____TokenizedType_PropertyInfo = 
+extern const MethodInfo XsdTime_get_TokenizedType_m11544_MethodInfo;
+static const PropertyInfo XsdTime_t3912____TokenizedType_PropertyInfo = 
 {
-	&XsdTime_t3674_il2cpp_TypeInfo/* parent */
+	&XsdTime_t3912_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XsdTime_get_TokenizedType_m11125_MethodInfo/* get */
+	, &XsdTime_get_TokenizedType_m11544_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XsdTime_t3674_PropertyInfos[] =
+static const PropertyInfo* XsdTime_t3912_PropertyInfos[] =
 {
-	&XsdTime_t3674____TokenizedType_PropertyInfo,
+	&XsdTime_t3912____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdTime_t3674_VTable[] =
+static const Il2CppMethodReference XsdTime_t3912_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdTime_get_TokenizedType_m11125_MethodInfo,
+	&XsdTime_get_TokenizedType_m11544_MethodInfo,
 };
-static bool XsdTime_t3674_VTableIsGenericMethod[] =
+static bool XsdTime_t3912_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6824,37 +6824,37 @@ static bool XsdTime_t3674_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdTime_t3674_0_0_0;
-extern const Il2CppType XsdTime_t3674_1_0_0;
-struct XsdTime_t3674;
-const Il2CppTypeDefinitionMetadata XsdTime_t3674_DefinitionMetadata = 
+extern const Il2CppType XsdTime_t3912_0_0_0;
+extern const Il2CppType XsdTime_t3912_1_0_0;
+struct XsdTime_t3912;
+const Il2CppTypeDefinitionMetadata XsdTime_t3912_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdTime_t3674_VTable/* vtableMethods */
-	, XsdTime_t3674_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdTime_t3912_VTable/* vtableMethods */
+	, XsdTime_t3912_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 12/* fieldStart */
 
 };
-TypeInfo XsdTime_t3674_il2cpp_TypeInfo = 
+TypeInfo XsdTime_t3912_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdTime"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdTime_t3674_MethodInfos/* methods */
-	, XsdTime_t3674_PropertyInfos/* properties */
+	, XsdTime_t3912_MethodInfos/* methods */
+	, XsdTime_t3912_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XsdTime_t3674_il2cpp_TypeInfo/* element_class */
+	, &XsdTime_t3912_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdTime_t3674_0_0_0/* byval_arg */
-	, &XsdTime_t3674_1_0_0/* this_arg */
-	, &XsdTime_t3674_DefinitionMetadata/* definitionMetadata */
+	, &XsdTime_t3912_0_0_0/* byval_arg */
+	, &XsdTime_t3912_1_0_0/* this_arg */
+	, &XsdTime_t3912_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6864,11 +6864,11 @@ TypeInfo XsdTime_t3674_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdTime_t3674)/* instance_size */
-	, sizeof (XsdTime_t3674)/* actualSize */
+	, sizeof (XsdTime_t3912)/* instance_size */
+	, sizeof (XsdTime_t3912)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XsdTime_t3674_StaticFields)/* static_fields_size */
+	, sizeof(XsdTime_t3912_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -6897,16 +6897,16 @@ TypeInfo XsdTime_t3674_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdGYearMonth
 #include "System_Xml_Mono_Xml_Schema_XsdGYearMonth.h"
 // Metadata Definition Mono.Xml.Schema.XsdGYearMonth
-extern TypeInfo XsdGYearMonth_t3675_il2cpp_TypeInfo;
+extern TypeInfo XsdGYearMonth_t3913_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGYearMonth
 #include "System_Xml_Mono_Xml_Schema_XsdGYearMonthMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGYearMonth::.ctor()
-extern const MethodInfo XsdGYearMonth__ctor_m11126_MethodInfo = 
+extern const MethodInfo XsdGYearMonth__ctor_m11545_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGYearMonth__ctor_m11126/* method */
-	, &XsdGYearMonth_t3675_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdGYearMonth__ctor_m11545/* method */
+	, &XsdGYearMonth_t3913_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -6923,20 +6923,20 @@ extern const MethodInfo XsdGYearMonth__ctor_m11126_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdGYearMonth_t3675_MethodInfos[] =
+static const MethodInfo* XsdGYearMonth_t3913_MethodInfos[] =
 {
-	&XsdGYearMonth__ctor_m11126_MethodInfo,
+	&XsdGYearMonth__ctor_m11545_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdGYearMonth_t3675_VTable[] =
+static const Il2CppMethodReference XsdGYearMonth_t3913_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XsdGYearMonth_t3675_VTableIsGenericMethod[] =
+static bool XsdGYearMonth_t3913_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6945,37 +6945,37 @@ static bool XsdGYearMonth_t3675_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdGYearMonth_t3675_0_0_0;
-extern const Il2CppType XsdGYearMonth_t3675_1_0_0;
-struct XsdGYearMonth_t3675;
-const Il2CppTypeDefinitionMetadata XsdGYearMonth_t3675_DefinitionMetadata = 
+extern const Il2CppType XsdGYearMonth_t3913_0_0_0;
+extern const Il2CppType XsdGYearMonth_t3913_1_0_0;
+struct XsdGYearMonth_t3913;
+const Il2CppTypeDefinitionMetadata XsdGYearMonth_t3913_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdGYearMonth_t3675_VTable/* vtableMethods */
-	, XsdGYearMonth_t3675_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdGYearMonth_t3913_VTable/* vtableMethods */
+	, XsdGYearMonth_t3913_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdGYearMonth_t3675_il2cpp_TypeInfo = 
+TypeInfo XsdGYearMonth_t3913_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdGYearMonth"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdGYearMonth_t3675_MethodInfos/* methods */
+	, XsdGYearMonth_t3913_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdGYearMonth_t3675_il2cpp_TypeInfo/* element_class */
+	, &XsdGYearMonth_t3913_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdGYearMonth_t3675_0_0_0/* byval_arg */
-	, &XsdGYearMonth_t3675_1_0_0/* this_arg */
-	, &XsdGYearMonth_t3675_DefinitionMetadata/* definitionMetadata */
+	, &XsdGYearMonth_t3913_0_0_0/* byval_arg */
+	, &XsdGYearMonth_t3913_1_0_0/* this_arg */
+	, &XsdGYearMonth_t3913_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6985,8 +6985,8 @@ TypeInfo XsdGYearMonth_t3675_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdGYearMonth_t3675)/* instance_size */
-	, sizeof (XsdGYearMonth_t3675)/* actualSize */
+	, sizeof (XsdGYearMonth_t3913)/* instance_size */
+	, sizeof (XsdGYearMonth_t3913)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7018,16 +7018,16 @@ TypeInfo XsdGYearMonth_t3675_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdGMonthDay
 #include "System_Xml_Mono_Xml_Schema_XsdGMonthDay.h"
 // Metadata Definition Mono.Xml.Schema.XsdGMonthDay
-extern TypeInfo XsdGMonthDay_t3676_il2cpp_TypeInfo;
+extern TypeInfo XsdGMonthDay_t3914_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGMonthDay
 #include "System_Xml_Mono_Xml_Schema_XsdGMonthDayMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGMonthDay::.ctor()
-extern const MethodInfo XsdGMonthDay__ctor_m11127_MethodInfo = 
+extern const MethodInfo XsdGMonthDay__ctor_m11546_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGMonthDay__ctor_m11127/* method */
-	, &XsdGMonthDay_t3676_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdGMonthDay__ctor_m11546/* method */
+	, &XsdGMonthDay_t3914_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -7044,20 +7044,20 @@ extern const MethodInfo XsdGMonthDay__ctor_m11127_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdGMonthDay_t3676_MethodInfos[] =
+static const MethodInfo* XsdGMonthDay_t3914_MethodInfos[] =
 {
-	&XsdGMonthDay__ctor_m11127_MethodInfo,
+	&XsdGMonthDay__ctor_m11546_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdGMonthDay_t3676_VTable[] =
+static const Il2CppMethodReference XsdGMonthDay_t3914_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XsdGMonthDay_t3676_VTableIsGenericMethod[] =
+static bool XsdGMonthDay_t3914_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7066,37 +7066,37 @@ static bool XsdGMonthDay_t3676_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdGMonthDay_t3676_0_0_0;
-extern const Il2CppType XsdGMonthDay_t3676_1_0_0;
-struct XsdGMonthDay_t3676;
-const Il2CppTypeDefinitionMetadata XsdGMonthDay_t3676_DefinitionMetadata = 
+extern const Il2CppType XsdGMonthDay_t3914_0_0_0;
+extern const Il2CppType XsdGMonthDay_t3914_1_0_0;
+struct XsdGMonthDay_t3914;
+const Il2CppTypeDefinitionMetadata XsdGMonthDay_t3914_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdGMonthDay_t3676_VTable/* vtableMethods */
-	, XsdGMonthDay_t3676_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdGMonthDay_t3914_VTable/* vtableMethods */
+	, XsdGMonthDay_t3914_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdGMonthDay_t3676_il2cpp_TypeInfo = 
+TypeInfo XsdGMonthDay_t3914_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdGMonthDay"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdGMonthDay_t3676_MethodInfos/* methods */
+	, XsdGMonthDay_t3914_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdGMonthDay_t3676_il2cpp_TypeInfo/* element_class */
+	, &XsdGMonthDay_t3914_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdGMonthDay_t3676_0_0_0/* byval_arg */
-	, &XsdGMonthDay_t3676_1_0_0/* this_arg */
-	, &XsdGMonthDay_t3676_DefinitionMetadata/* definitionMetadata */
+	, &XsdGMonthDay_t3914_0_0_0/* byval_arg */
+	, &XsdGMonthDay_t3914_1_0_0/* this_arg */
+	, &XsdGMonthDay_t3914_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7106,8 +7106,8 @@ TypeInfo XsdGMonthDay_t3676_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdGMonthDay_t3676)/* instance_size */
-	, sizeof (XsdGMonthDay_t3676)/* actualSize */
+	, sizeof (XsdGMonthDay_t3914)/* instance_size */
+	, sizeof (XsdGMonthDay_t3914)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7139,16 +7139,16 @@ TypeInfo XsdGMonthDay_t3676_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdGYear
 #include "System_Xml_Mono_Xml_Schema_XsdGYear.h"
 // Metadata Definition Mono.Xml.Schema.XsdGYear
-extern TypeInfo XsdGYear_t3677_il2cpp_TypeInfo;
+extern TypeInfo XsdGYear_t3915_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGYear
 #include "System_Xml_Mono_Xml_Schema_XsdGYearMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGYear::.ctor()
-extern const MethodInfo XsdGYear__ctor_m11128_MethodInfo = 
+extern const MethodInfo XsdGYear__ctor_m11547_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGYear__ctor_m11128/* method */
-	, &XsdGYear_t3677_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdGYear__ctor_m11547/* method */
+	, &XsdGYear_t3915_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -7165,20 +7165,20 @@ extern const MethodInfo XsdGYear__ctor_m11128_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdGYear_t3677_MethodInfos[] =
+static const MethodInfo* XsdGYear_t3915_MethodInfos[] =
 {
-	&XsdGYear__ctor_m11128_MethodInfo,
+	&XsdGYear__ctor_m11547_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdGYear_t3677_VTable[] =
+static const Il2CppMethodReference XsdGYear_t3915_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XsdGYear_t3677_VTableIsGenericMethod[] =
+static bool XsdGYear_t3915_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7187,37 +7187,37 @@ static bool XsdGYear_t3677_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdGYear_t3677_0_0_0;
-extern const Il2CppType XsdGYear_t3677_1_0_0;
-struct XsdGYear_t3677;
-const Il2CppTypeDefinitionMetadata XsdGYear_t3677_DefinitionMetadata = 
+extern const Il2CppType XsdGYear_t3915_0_0_0;
+extern const Il2CppType XsdGYear_t3915_1_0_0;
+struct XsdGYear_t3915;
+const Il2CppTypeDefinitionMetadata XsdGYear_t3915_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdGYear_t3677_VTable/* vtableMethods */
-	, XsdGYear_t3677_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdGYear_t3915_VTable/* vtableMethods */
+	, XsdGYear_t3915_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdGYear_t3677_il2cpp_TypeInfo = 
+TypeInfo XsdGYear_t3915_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdGYear"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdGYear_t3677_MethodInfos/* methods */
+	, XsdGYear_t3915_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdGYear_t3677_il2cpp_TypeInfo/* element_class */
+	, &XsdGYear_t3915_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdGYear_t3677_0_0_0/* byval_arg */
-	, &XsdGYear_t3677_1_0_0/* this_arg */
-	, &XsdGYear_t3677_DefinitionMetadata/* definitionMetadata */
+	, &XsdGYear_t3915_0_0_0/* byval_arg */
+	, &XsdGYear_t3915_1_0_0/* this_arg */
+	, &XsdGYear_t3915_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7227,8 +7227,8 @@ TypeInfo XsdGYear_t3677_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdGYear_t3677)/* instance_size */
-	, sizeof (XsdGYear_t3677)/* actualSize */
+	, sizeof (XsdGYear_t3915)/* instance_size */
+	, sizeof (XsdGYear_t3915)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7260,16 +7260,16 @@ TypeInfo XsdGYear_t3677_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdGMonth
 #include "System_Xml_Mono_Xml_Schema_XsdGMonth.h"
 // Metadata Definition Mono.Xml.Schema.XsdGMonth
-extern TypeInfo XsdGMonth_t3678_il2cpp_TypeInfo;
+extern TypeInfo XsdGMonth_t3916_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGMonth
 #include "System_Xml_Mono_Xml_Schema_XsdGMonthMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGMonth::.ctor()
-extern const MethodInfo XsdGMonth__ctor_m11129_MethodInfo = 
+extern const MethodInfo XsdGMonth__ctor_m11548_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGMonth__ctor_m11129/* method */
-	, &XsdGMonth_t3678_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdGMonth__ctor_m11548/* method */
+	, &XsdGMonth_t3916_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -7286,20 +7286,20 @@ extern const MethodInfo XsdGMonth__ctor_m11129_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdGMonth_t3678_MethodInfos[] =
+static const MethodInfo* XsdGMonth_t3916_MethodInfos[] =
 {
-	&XsdGMonth__ctor_m11129_MethodInfo,
+	&XsdGMonth__ctor_m11548_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdGMonth_t3678_VTable[] =
+static const Il2CppMethodReference XsdGMonth_t3916_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XsdGMonth_t3678_VTableIsGenericMethod[] =
+static bool XsdGMonth_t3916_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7308,37 +7308,37 @@ static bool XsdGMonth_t3678_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdGMonth_t3678_0_0_0;
-extern const Il2CppType XsdGMonth_t3678_1_0_0;
-struct XsdGMonth_t3678;
-const Il2CppTypeDefinitionMetadata XsdGMonth_t3678_DefinitionMetadata = 
+extern const Il2CppType XsdGMonth_t3916_0_0_0;
+extern const Il2CppType XsdGMonth_t3916_1_0_0;
+struct XsdGMonth_t3916;
+const Il2CppTypeDefinitionMetadata XsdGMonth_t3916_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdGMonth_t3678_VTable/* vtableMethods */
-	, XsdGMonth_t3678_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdGMonth_t3916_VTable/* vtableMethods */
+	, XsdGMonth_t3916_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdGMonth_t3678_il2cpp_TypeInfo = 
+TypeInfo XsdGMonth_t3916_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdGMonth"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdGMonth_t3678_MethodInfos/* methods */
+	, XsdGMonth_t3916_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdGMonth_t3678_il2cpp_TypeInfo/* element_class */
+	, &XsdGMonth_t3916_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdGMonth_t3678_0_0_0/* byval_arg */
-	, &XsdGMonth_t3678_1_0_0/* this_arg */
-	, &XsdGMonth_t3678_DefinitionMetadata/* definitionMetadata */
+	, &XsdGMonth_t3916_0_0_0/* byval_arg */
+	, &XsdGMonth_t3916_1_0_0/* this_arg */
+	, &XsdGMonth_t3916_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7348,8 +7348,8 @@ TypeInfo XsdGMonth_t3678_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdGMonth_t3678)/* instance_size */
-	, sizeof (XsdGMonth_t3678)/* actualSize */
+	, sizeof (XsdGMonth_t3916)/* instance_size */
+	, sizeof (XsdGMonth_t3916)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7381,16 +7381,16 @@ TypeInfo XsdGMonth_t3678_il2cpp_TypeInfo =
 // Mono.Xml.Schema.XsdGDay
 #include "System_Xml_Mono_Xml_Schema_XsdGDay.h"
 // Metadata Definition Mono.Xml.Schema.XsdGDay
-extern TypeInfo XsdGDay_t3679_il2cpp_TypeInfo;
+extern TypeInfo XsdGDay_t3917_il2cpp_TypeInfo;
 // Mono.Xml.Schema.XsdGDay
 #include "System_Xml_Mono_Xml_Schema_XsdGDayMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void Mono.Xml.Schema.XsdGDay::.ctor()
-extern const MethodInfo XsdGDay__ctor_m11130_MethodInfo = 
+extern const MethodInfo XsdGDay__ctor_m11549_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XsdGDay__ctor_m11130/* method */
-	, &XsdGDay_t3679_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XsdGDay__ctor_m11549/* method */
+	, &XsdGDay_t3917_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -7407,20 +7407,20 @@ extern const MethodInfo XsdGDay__ctor_m11130_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XsdGDay_t3679_MethodInfos[] =
+static const MethodInfo* XsdGDay_t3917_MethodInfos[] =
 {
-	&XsdGDay__ctor_m11130_MethodInfo,
+	&XsdGDay__ctor_m11549_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XsdGDay_t3679_VTable[] =
+static const Il2CppMethodReference XsdGDay_t3917_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XsdAnySimpleType_get_TokenizedType_m11057_MethodInfo,
+	&XsdAnySimpleType_get_TokenizedType_m11476_MethodInfo,
 };
-static bool XsdGDay_t3679_VTableIsGenericMethod[] =
+static bool XsdGDay_t3917_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7429,37 +7429,37 @@ static bool XsdGDay_t3679_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XsdGDay_t3679_0_0_0;
-extern const Il2CppType XsdGDay_t3679_1_0_0;
-struct XsdGDay_t3679;
-const Il2CppTypeDefinitionMetadata XsdGDay_t3679_DefinitionMetadata = 
+extern const Il2CppType XsdGDay_t3917_0_0_0;
+extern const Il2CppType XsdGDay_t3917_1_0_0;
+struct XsdGDay_t3917;
+const Il2CppTypeDefinitionMetadata XsdGDay_t3917_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XsdAnySimpleType_t3630_0_0_0/* parent */
-	, XsdGDay_t3679_VTable/* vtableMethods */
-	, XsdGDay_t3679_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XsdAnySimpleType_t3868_0_0_0/* parent */
+	, XsdGDay_t3917_VTable/* vtableMethods */
+	, XsdGDay_t3917_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XsdGDay_t3679_il2cpp_TypeInfo = 
+TypeInfo XsdGDay_t3917_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XsdGDay"/* name */
 	, "Mono.Xml.Schema"/* namespaze */
-	, XsdGDay_t3679_MethodInfos/* methods */
+	, XsdGDay_t3917_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XsdGDay_t3679_il2cpp_TypeInfo/* element_class */
+	, &XsdGDay_t3917_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XsdGDay_t3679_0_0_0/* byval_arg */
-	, &XsdGDay_t3679_1_0_0/* this_arg */
-	, &XsdGDay_t3679_DefinitionMetadata/* definitionMetadata */
+	, &XsdGDay_t3917_0_0_0/* byval_arg */
+	, &XsdGDay_t3917_1_0_0/* this_arg */
+	, &XsdGDay_t3917_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7469,8 +7469,8 @@ TypeInfo XsdGDay_t3679_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XsdGDay_t3679)/* instance_size */
-	, sizeof (XsdGDay_t3679)/* actualSize */
+	, sizeof (XsdGDay_t3917)/* instance_size */
+	, sizeof (XsdGDay_t3917)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7500,15 +7500,15 @@ TypeInfo XsdGDay_t3679_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Xml.Schema.IXmlSchemaInfo
-extern TypeInfo IXmlSchemaInfo_t3842_il2cpp_TypeInfo;
+extern TypeInfo IXmlSchemaInfo_t4080_il2cpp_TypeInfo;
 extern const Il2CppType Boolean_t30_0_0_0;
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Schema.IXmlSchemaInfo::get_IsDefault()
-extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m12897_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m13315_MethodInfo = 
 {
 	"get_IsDefault"/* name */
 	, NULL/* method */
-	, &IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* declaring_type */
+	, &IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -7527,11 +7527,11 @@ extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m12897_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Schema.IXmlSchemaInfo::get_IsNil()
-extern const MethodInfo IXmlSchemaInfo_get_IsNil_m12898_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_IsNil_m13316_MethodInfo = 
 {
 	"get_IsNil"/* name */
 	, NULL/* method */
-	, &IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* declaring_type */
+	, &IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -7548,15 +7548,15 @@ extern const MethodInfo IXmlSchemaInfo_get_IsNil_m12898_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlSchemaSimpleType_t3694_0_0_0;
+extern const Il2CppType XmlSchemaSimpleType_t3932_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.IXmlSchemaInfo::get_MemberType()
-extern const MethodInfo IXmlSchemaInfo_get_MemberType_m12899_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_MemberType_m13317_MethodInfo = 
 {
 	"get_MemberType"/* name */
 	, NULL/* method */
-	, &IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaSimpleType_t3694_0_0_0/* return_type */
+	, &IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaSimpleType_t3932_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -7572,15 +7572,15 @@ extern const MethodInfo IXmlSchemaInfo_get_MemberType_m12899_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlSchemaAttribute_t3683_0_0_0;
+extern const Il2CppType XmlSchemaAttribute_t3921_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.IXmlSchemaInfo::get_SchemaAttribute()
-extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m12900_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m13318_MethodInfo = 
 {
 	"get_SchemaAttribute"/* name */
 	, NULL/* method */
-	, &IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaAttribute_t3683_0_0_0/* return_type */
+	, &IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaAttribute_t3921_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -7596,15 +7596,15 @@ extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m12900_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlSchemaElement_t3689_0_0_0;
+extern const Il2CppType XmlSchemaElement_t3927_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaElement System.Xml.Schema.IXmlSchemaInfo::get_SchemaElement()
-extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m12901_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m13319_MethodInfo = 
 {
 	"get_SchemaElement"/* name */
 	, NULL/* method */
-	, &IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaElement_t3689_0_0_0/* return_type */
+	, &IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaElement_t3927_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -7620,15 +7620,15 @@ extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m12901_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlSchemaType_t3687_0_0_0;
+extern const Il2CppType XmlSchemaType_t3925_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaType System.Xml.Schema.IXmlSchemaInfo::get_SchemaType()
-extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m12902_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m13320_MethodInfo = 
 {
 	"get_SchemaType"/* name */
 	, NULL/* method */
-	, &IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaType_t3687_0_0_0/* return_type */
+	, &IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaType_t3925_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -7644,16 +7644,16 @@ extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m12902_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlSchemaValidity_t3707_0_0_0;
-extern void* RuntimeInvoker_XmlSchemaValidity_t3707 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType XmlSchemaValidity_t3945_0_0_0;
+extern void* RuntimeInvoker_XmlSchemaValidity_t3945 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.IXmlSchemaInfo::get_Validity()
-extern const MethodInfo IXmlSchemaInfo_get_Validity_m12903_MethodInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_Validity_m13321_MethodInfo = 
 {
 	"get_Validity"/* name */
 	, NULL/* method */
-	, &IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaValidity_t3707_0_0_0/* return_type */
-	, RuntimeInvoker_XmlSchemaValidity_t3707/* invoker_method */
+	, &IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaValidity_t3945_0_0_0/* return_type */
+	, RuntimeInvoker_XmlSchemaValidity_t3945/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
@@ -7668,110 +7668,110 @@ extern const MethodInfo IXmlSchemaInfo_get_Validity_m12903_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IXmlSchemaInfo_t3842_MethodInfos[] =
+static const MethodInfo* IXmlSchemaInfo_t4080_MethodInfos[] =
 {
-	&IXmlSchemaInfo_get_IsDefault_m12897_MethodInfo,
-	&IXmlSchemaInfo_get_IsNil_m12898_MethodInfo,
-	&IXmlSchemaInfo_get_MemberType_m12899_MethodInfo,
-	&IXmlSchemaInfo_get_SchemaAttribute_m12900_MethodInfo,
-	&IXmlSchemaInfo_get_SchemaElement_m12901_MethodInfo,
-	&IXmlSchemaInfo_get_SchemaType_m12902_MethodInfo,
-	&IXmlSchemaInfo_get_Validity_m12903_MethodInfo,
+	&IXmlSchemaInfo_get_IsDefault_m13315_MethodInfo,
+	&IXmlSchemaInfo_get_IsNil_m13316_MethodInfo,
+	&IXmlSchemaInfo_get_MemberType_m13317_MethodInfo,
+	&IXmlSchemaInfo_get_SchemaAttribute_m13318_MethodInfo,
+	&IXmlSchemaInfo_get_SchemaElement_m13319_MethodInfo,
+	&IXmlSchemaInfo_get_SchemaType_m13320_MethodInfo,
+	&IXmlSchemaInfo_get_Validity_m13321_MethodInfo,
 	NULL
 };
-extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m12897_MethodInfo;
-static const PropertyInfo IXmlSchemaInfo_t3842____IsDefault_PropertyInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_IsDefault_m13315_MethodInfo;
+static const PropertyInfo IXmlSchemaInfo_t4080____IsDefault_PropertyInfo = 
 {
-	&IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* parent */
+	&IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* parent */
 	, "IsDefault"/* name */
-	, &IXmlSchemaInfo_get_IsDefault_m12897_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_IsDefault_m13315_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_IsNil_m12898_MethodInfo;
-static const PropertyInfo IXmlSchemaInfo_t3842____IsNil_PropertyInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_IsNil_m13316_MethodInfo;
+static const PropertyInfo IXmlSchemaInfo_t4080____IsNil_PropertyInfo = 
 {
-	&IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* parent */
+	&IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* parent */
 	, "IsNil"/* name */
-	, &IXmlSchemaInfo_get_IsNil_m12898_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_IsNil_m13316_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_MemberType_m12899_MethodInfo;
-static const PropertyInfo IXmlSchemaInfo_t3842____MemberType_PropertyInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_MemberType_m13317_MethodInfo;
+static const PropertyInfo IXmlSchemaInfo_t4080____MemberType_PropertyInfo = 
 {
-	&IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* parent */
+	&IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* parent */
 	, "MemberType"/* name */
-	, &IXmlSchemaInfo_get_MemberType_m12899_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_MemberType_m13317_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m12900_MethodInfo;
-static const PropertyInfo IXmlSchemaInfo_t3842____SchemaAttribute_PropertyInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaAttribute_m13318_MethodInfo;
+static const PropertyInfo IXmlSchemaInfo_t4080____SchemaAttribute_PropertyInfo = 
 {
-	&IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* parent */
+	&IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* parent */
 	, "SchemaAttribute"/* name */
-	, &IXmlSchemaInfo_get_SchemaAttribute_m12900_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_SchemaAttribute_m13318_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m12901_MethodInfo;
-static const PropertyInfo IXmlSchemaInfo_t3842____SchemaElement_PropertyInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaElement_m13319_MethodInfo;
+static const PropertyInfo IXmlSchemaInfo_t4080____SchemaElement_PropertyInfo = 
 {
-	&IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* parent */
+	&IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* parent */
 	, "SchemaElement"/* name */
-	, &IXmlSchemaInfo_get_SchemaElement_m12901_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_SchemaElement_m13319_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m12902_MethodInfo;
-static const PropertyInfo IXmlSchemaInfo_t3842____SchemaType_PropertyInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_SchemaType_m13320_MethodInfo;
+static const PropertyInfo IXmlSchemaInfo_t4080____SchemaType_PropertyInfo = 
 {
-	&IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* parent */
+	&IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* parent */
 	, "SchemaType"/* name */
-	, &IXmlSchemaInfo_get_SchemaType_m12902_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_SchemaType_m13320_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IXmlSchemaInfo_get_Validity_m12903_MethodInfo;
-static const PropertyInfo IXmlSchemaInfo_t3842____Validity_PropertyInfo = 
+extern const MethodInfo IXmlSchemaInfo_get_Validity_m13321_MethodInfo;
+static const PropertyInfo IXmlSchemaInfo_t4080____Validity_PropertyInfo = 
 {
-	&IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* parent */
+	&IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* parent */
 	, "Validity"/* name */
-	, &IXmlSchemaInfo_get_Validity_m12903_MethodInfo/* get */
+	, &IXmlSchemaInfo_get_Validity_m13321_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IXmlSchemaInfo_t3842_PropertyInfos[] =
+static const PropertyInfo* IXmlSchemaInfo_t4080_PropertyInfos[] =
 {
-	&IXmlSchemaInfo_t3842____IsDefault_PropertyInfo,
-	&IXmlSchemaInfo_t3842____IsNil_PropertyInfo,
-	&IXmlSchemaInfo_t3842____MemberType_PropertyInfo,
-	&IXmlSchemaInfo_t3842____SchemaAttribute_PropertyInfo,
-	&IXmlSchemaInfo_t3842____SchemaElement_PropertyInfo,
-	&IXmlSchemaInfo_t3842____SchemaType_PropertyInfo,
-	&IXmlSchemaInfo_t3842____Validity_PropertyInfo,
+	&IXmlSchemaInfo_t4080____IsDefault_PropertyInfo,
+	&IXmlSchemaInfo_t4080____IsNil_PropertyInfo,
+	&IXmlSchemaInfo_t4080____MemberType_PropertyInfo,
+	&IXmlSchemaInfo_t4080____SchemaAttribute_PropertyInfo,
+	&IXmlSchemaInfo_t4080____SchemaElement_PropertyInfo,
+	&IXmlSchemaInfo_t4080____SchemaType_PropertyInfo,
+	&IXmlSchemaInfo_t4080____Validity_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType IXmlSchemaInfo_t3842_0_0_0;
-extern const Il2CppType IXmlSchemaInfo_t3842_1_0_0;
-struct IXmlSchemaInfo_t3842;
-const Il2CppTypeDefinitionMetadata IXmlSchemaInfo_t3842_DefinitionMetadata = 
+extern const Il2CppType IXmlSchemaInfo_t4080_0_0_0;
+extern const Il2CppType IXmlSchemaInfo_t4080_1_0_0;
+struct IXmlSchemaInfo_t4080;
+const Il2CppTypeDefinitionMetadata IXmlSchemaInfo_t4080_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -7784,21 +7784,21 @@ const Il2CppTypeDefinitionMetadata IXmlSchemaInfo_t3842_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IXmlSchemaInfo_t3842_il2cpp_TypeInfo = 
+TypeInfo IXmlSchemaInfo_t4080_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IXmlSchemaInfo"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, IXmlSchemaInfo_t3842_MethodInfos/* methods */
-	, IXmlSchemaInfo_t3842_PropertyInfos/* properties */
+	, IXmlSchemaInfo_t4080_MethodInfos/* methods */
+	, IXmlSchemaInfo_t4080_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IXmlSchemaInfo_t3842_il2cpp_TypeInfo/* element_class */
+	, &IXmlSchemaInfo_t4080_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IXmlSchemaInfo_t3842_0_0_0/* byval_arg */
-	, &IXmlSchemaInfo_t3842_1_0_0/* this_arg */
-	, &IXmlSchemaInfo_t3842_DefinitionMetadata/* definitionMetadata */
+	, &IXmlSchemaInfo_t4080_0_0_0/* byval_arg */
+	, &IXmlSchemaInfo_t4080_1_0_0/* this_arg */
+	, &IXmlSchemaInfo_t4080_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7841,17 +7841,17 @@ TypeInfo IXmlSchemaInfo_t3842_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchema
 #include "System_Xml_System_Xml_Schema_XmlSchema.h"
 // Metadata Definition System.Xml.Schema.XmlSchema
-extern TypeInfo XmlSchema_t3680_il2cpp_TypeInfo;
+extern TypeInfo XmlSchema_t3918_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchema
 #include "System_Xml_System_Xml_Schema_XmlSchemaMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Schema.XmlSchema::get_Id()
-extern const MethodInfo XmlSchema_get_Id_m11131_MethodInfo = 
+extern const MethodInfo XmlSchema_get_Id_m11550_MethodInfo = 
 {
 	"get_Id"/* name */
-	, (methodPointerType)&XmlSchema_get_Id_m11131/* method */
-	, &XmlSchema_t3680_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchema_get_Id_m11550/* method */
+	, &XmlSchema_t3918_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7868,35 +7868,35 @@ extern const MethodInfo XmlSchema_get_Id_m11131_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchema_t3680_MethodInfos[] =
+static const MethodInfo* XmlSchema_t3918_MethodInfos[] =
 {
-	&XmlSchema_get_Id_m11131_MethodInfo,
+	&XmlSchema_get_Id_m11550_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchema_get_Id_m11131_MethodInfo;
-static const PropertyInfo XmlSchema_t3680____Id_PropertyInfo = 
+extern const MethodInfo XmlSchema_get_Id_m11550_MethodInfo;
+static const PropertyInfo XmlSchema_t3918____Id_PropertyInfo = 
 {
-	&XmlSchema_t3680_il2cpp_TypeInfo/* parent */
+	&XmlSchema_t3918_il2cpp_TypeInfo/* parent */
 	, "Id"/* name */
-	, &XmlSchema_get_Id_m11131_MethodInfo/* get */
+	, &XmlSchema_get_Id_m11550_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 4/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlSchema_t3680_PropertyInfos[] =
+static const PropertyInfo* XmlSchema_t3918_PropertyInfos[] =
 {
-	&XmlSchema_t3680____Id_PropertyInfo,
+	&XmlSchema_t3918____Id_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchema_t3680_VTable[] =
+static const Il2CppMethodReference XmlSchema_t3918_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchema_t3680_VTableIsGenericMethod[] =
+static bool XmlSchema_t3918_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7904,38 +7904,38 @@ static bool XmlSchema_t3680_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchema_t3680_0_0_0;
-extern const Il2CppType XmlSchema_t3680_1_0_0;
-extern const Il2CppType XmlSchemaObject_t3681_0_0_0;
-struct XmlSchema_t3680;
-const Il2CppTypeDefinitionMetadata XmlSchema_t3680_DefinitionMetadata = 
+extern const Il2CppType XmlSchema_t3918_0_0_0;
+extern const Il2CppType XmlSchema_t3918_1_0_0;
+extern const Il2CppType XmlSchemaObject_t3919_0_0_0;
+struct XmlSchema_t3918;
+const Il2CppTypeDefinitionMetadata XmlSchema_t3918_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaObject_t3681_0_0_0/* parent */
-	, XmlSchema_t3680_VTable/* vtableMethods */
-	, XmlSchema_t3680_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaObject_t3919_0_0_0/* parent */
+	, XmlSchema_t3918_VTable/* vtableMethods */
+	, XmlSchema_t3918_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 13/* fieldStart */
 
 };
-TypeInfo XmlSchema_t3680_il2cpp_TypeInfo = 
+TypeInfo XmlSchema_t3918_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchema"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchema_t3680_MethodInfos/* methods */
-	, XmlSchema_t3680_PropertyInfos/* properties */
+	, XmlSchema_t3918_MethodInfos/* methods */
+	, XmlSchema_t3918_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlSchema_t3680_il2cpp_TypeInfo/* element_class */
+	, &XmlSchema_t3918_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 3/* custom_attributes_cache */
-	, &XmlSchema_t3680_0_0_0/* byval_arg */
-	, &XmlSchema_t3680_1_0_0/* this_arg */
-	, &XmlSchema_t3680_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchema_t3918_0_0_0/* byval_arg */
+	, &XmlSchema_t3918_1_0_0/* this_arg */
+	, &XmlSchema_t3918_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7945,8 +7945,8 @@ TypeInfo XmlSchema_t3680_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchema_t3680)/* instance_size */
-	, sizeof (XmlSchema_t3680)/* actualSize */
+	, sizeof (XmlSchema_t3918)/* instance_size */
+	, sizeof (XmlSchema_t3918)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7978,16 +7978,16 @@ TypeInfo XmlSchema_t3680_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaAnnotated
 #include "System_Xml_System_Xml_Schema_XmlSchemaAnnotated.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaAnnotated
-extern TypeInfo XmlSchemaAnnotated_t3682_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAnnotated_t3920_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaAnnotated
 #include "System_Xml_System_Xml_Schema_XmlSchemaAnnotatedMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaAnnotated::.ctor()
-extern const MethodInfo XmlSchemaAnnotated__ctor_m11132_MethodInfo = 
+extern const MethodInfo XmlSchemaAnnotated__ctor_m11551_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaAnnotated__ctor_m11132/* method */
-	, &XmlSchemaAnnotated_t3682_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaAnnotated__ctor_m11551/* method */
+	, &XmlSchemaAnnotated_t3920_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8004,19 +8004,19 @@ extern const MethodInfo XmlSchemaAnnotated__ctor_m11132_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaAnnotated_t3682_MethodInfos[] =
+static const MethodInfo* XmlSchemaAnnotated_t3920_MethodInfos[] =
 {
-	&XmlSchemaAnnotated__ctor_m11132_MethodInfo,
+	&XmlSchemaAnnotated__ctor_m11551_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaAnnotated_t3682_VTable[] =
+static const Il2CppMethodReference XmlSchemaAnnotated_t3920_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaAnnotated_t3682_VTableIsGenericMethod[] =
+static bool XmlSchemaAnnotated_t3920_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8024,37 +8024,37 @@ static bool XmlSchemaAnnotated_t3682_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaAnnotated_t3682_0_0_0;
-extern const Il2CppType XmlSchemaAnnotated_t3682_1_0_0;
-struct XmlSchemaAnnotated_t3682;
-const Il2CppTypeDefinitionMetadata XmlSchemaAnnotated_t3682_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaAnnotated_t3920_0_0_0;
+extern const Il2CppType XmlSchemaAnnotated_t3920_1_0_0;
+struct XmlSchemaAnnotated_t3920;
+const Il2CppTypeDefinitionMetadata XmlSchemaAnnotated_t3920_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaObject_t3681_0_0_0/* parent */
-	, XmlSchemaAnnotated_t3682_VTable/* vtableMethods */
-	, XmlSchemaAnnotated_t3682_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaObject_t3919_0_0_0/* parent */
+	, XmlSchemaAnnotated_t3920_VTable/* vtableMethods */
+	, XmlSchemaAnnotated_t3920_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlSchemaAnnotated_t3682_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaAnnotated_t3920_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaAnnotated"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaAnnotated_t3682_MethodInfos/* methods */
+	, XmlSchemaAnnotated_t3920_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaAnnotated_t3682_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaAnnotated_t3920_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaAnnotated_t3682_0_0_0/* byval_arg */
-	, &XmlSchemaAnnotated_t3682_1_0_0/* this_arg */
-	, &XmlSchemaAnnotated_t3682_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaAnnotated_t3920_0_0_0/* byval_arg */
+	, &XmlSchemaAnnotated_t3920_1_0_0/* this_arg */
+	, &XmlSchemaAnnotated_t3920_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8064,8 +8064,8 @@ TypeInfo XmlSchemaAnnotated_t3682_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaAnnotated_t3682)/* instance_size */
-	, sizeof (XmlSchemaAnnotated_t3682)/* actualSize */
+	, sizeof (XmlSchemaAnnotated_t3920)/* instance_size */
+	, sizeof (XmlSchemaAnnotated_t3920)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8097,21 +8097,21 @@ TypeInfo XmlSchemaAnnotated_t3682_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaAttribute
 #include "System_Xml_System_Xml_Schema_XmlSchemaAttribute.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaAttribute
-extern TypeInfo XmlSchemaAttribute_t3683_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAttribute_t3921_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaAttribute
 #include "System_Xml_System_Xml_Schema_XmlSchemaAttributeMethodDeclarations.h"
-static const MethodInfo* XmlSchemaAttribute_t3683_MethodInfos[] =
+static const MethodInfo* XmlSchemaAttribute_t3921_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaAttribute_t3683_VTable[] =
+static const Il2CppMethodReference XmlSchemaAttribute_t3921_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaAttribute_t3683_VTableIsGenericMethod[] =
+static bool XmlSchemaAttribute_t3921_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8119,36 +8119,36 @@ static bool XmlSchemaAttribute_t3683_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaAttribute_t3683_1_0_0;
-struct XmlSchemaAttribute_t3683;
-const Il2CppTypeDefinitionMetadata XmlSchemaAttribute_t3683_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaAttribute_t3921_1_0_0;
+struct XmlSchemaAttribute_t3921;
+const Il2CppTypeDefinitionMetadata XmlSchemaAttribute_t3921_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaAnnotated_t3682_0_0_0/* parent */
-	, XmlSchemaAttribute_t3683_VTable/* vtableMethods */
-	, XmlSchemaAttribute_t3683_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaAnnotated_t3920_0_0_0/* parent */
+	, XmlSchemaAttribute_t3921_VTable/* vtableMethods */
+	, XmlSchemaAttribute_t3921_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlSchemaAttribute_t3683_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaAttribute_t3921_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaAttribute"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaAttribute_t3683_MethodInfos/* methods */
+	, XmlSchemaAttribute_t3921_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaAttribute_t3683_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaAttribute_t3921_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaAttribute_t3683_0_0_0/* byval_arg */
-	, &XmlSchemaAttribute_t3683_1_0_0/* this_arg */
-	, &XmlSchemaAttribute_t3683_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaAttribute_t3921_0_0_0/* byval_arg */
+	, &XmlSchemaAttribute_t3921_1_0_0/* this_arg */
+	, &XmlSchemaAttribute_t3921_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8158,8 +8158,8 @@ TypeInfo XmlSchemaAttribute_t3683_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaAttribute_t3683)/* instance_size */
-	, sizeof (XmlSchemaAttribute_t3683)/* actualSize */
+	, sizeof (XmlSchemaAttribute_t3921)/* instance_size */
+	, sizeof (XmlSchemaAttribute_t3921)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8191,16 +8191,16 @@ TypeInfo XmlSchemaAttribute_t3683_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaCompilationSettings
 #include "System_Xml_System_Xml_Schema_XmlSchemaCompilationSettings.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaCompilationSettings
-extern TypeInfo XmlSchemaCompilationSettings_t3684_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaCompilationSettings_t3922_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaCompilationSettings
 #include "System_Xml_System_Xml_Schema_XmlSchemaCompilationSettingsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaCompilationSettings::.ctor()
-extern const MethodInfo XmlSchemaCompilationSettings__ctor_m11133_MethodInfo = 
+extern const MethodInfo XmlSchemaCompilationSettings__ctor_m11552_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaCompilationSettings__ctor_m11133/* method */
-	, &XmlSchemaCompilationSettings_t3684_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaCompilationSettings__ctor_m11552/* method */
+	, &XmlSchemaCompilationSettings_t3922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8217,19 +8217,19 @@ extern const MethodInfo XmlSchemaCompilationSettings__ctor_m11133_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaCompilationSettings_t3684_MethodInfos[] =
+static const MethodInfo* XmlSchemaCompilationSettings_t3922_MethodInfos[] =
 {
-	&XmlSchemaCompilationSettings__ctor_m11133_MethodInfo,
+	&XmlSchemaCompilationSettings__ctor_m11552_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaCompilationSettings_t3684_VTable[] =
+static const Il2CppMethodReference XmlSchemaCompilationSettings_t3922_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaCompilationSettings_t3684_VTableIsGenericMethod[] =
+static bool XmlSchemaCompilationSettings_t3922_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8237,38 +8237,38 @@ static bool XmlSchemaCompilationSettings_t3684_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaCompilationSettings_t3684_0_0_0;
-extern const Il2CppType XmlSchemaCompilationSettings_t3684_1_0_0;
+extern const Il2CppType XmlSchemaCompilationSettings_t3922_0_0_0;
+extern const Il2CppType XmlSchemaCompilationSettings_t3922_1_0_0;
 extern const Il2CppType Object_t_0_0_0;
-struct XmlSchemaCompilationSettings_t3684;
-const Il2CppTypeDefinitionMetadata XmlSchemaCompilationSettings_t3684_DefinitionMetadata = 
+struct XmlSchemaCompilationSettings_t3922;
+const Il2CppTypeDefinitionMetadata XmlSchemaCompilationSettings_t3922_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlSchemaCompilationSettings_t3684_VTable/* vtableMethods */
-	, XmlSchemaCompilationSettings_t3684_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaCompilationSettings_t3922_VTable/* vtableMethods */
+	, XmlSchemaCompilationSettings_t3922_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 14/* fieldStart */
 
 };
-TypeInfo XmlSchemaCompilationSettings_t3684_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaCompilationSettings_t3922_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaCompilationSettings"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaCompilationSettings_t3684_MethodInfos/* methods */
+	, XmlSchemaCompilationSettings_t3922_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaCompilationSettings_t3684_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaCompilationSettings_t3922_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaCompilationSettings_t3684_0_0_0/* byval_arg */
-	, &XmlSchemaCompilationSettings_t3684_1_0_0/* this_arg */
-	, &XmlSchemaCompilationSettings_t3684_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaCompilationSettings_t3922_0_0_0/* byval_arg */
+	, &XmlSchemaCompilationSettings_t3922_1_0_0/* this_arg */
+	, &XmlSchemaCompilationSettings_t3922_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8278,8 +8278,8 @@ TypeInfo XmlSchemaCompilationSettings_t3684_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaCompilationSettings_t3684)/* instance_size */
-	, sizeof (XmlSchemaCompilationSettings_t3684)/* actualSize */
+	, sizeof (XmlSchemaCompilationSettings_t3922)/* instance_size */
+	, sizeof (XmlSchemaCompilationSettings_t3922)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8311,16 +8311,16 @@ TypeInfo XmlSchemaCompilationSettings_t3684_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaComplexType
 #include "System_Xml_System_Xml_Schema_XmlSchemaComplexType.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaComplexType
-extern TypeInfo XmlSchemaComplexType_t3686_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaComplexType_t3924_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaComplexType
 #include "System_Xml_System_Xml_Schema_XmlSchemaComplexTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaComplexType::.cctor()
-extern const MethodInfo XmlSchemaComplexType__cctor_m11134_MethodInfo = 
+extern const MethodInfo XmlSchemaComplexType__cctor_m11553_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaComplexType__cctor_m11134/* method */
-	, &XmlSchemaComplexType_t3686_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaComplexType__cctor_m11553/* method */
+	, &XmlSchemaComplexType_t3924_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8337,19 +8337,19 @@ extern const MethodInfo XmlSchemaComplexType__cctor_m11134_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaComplexType_t3686_MethodInfos[] =
+static const MethodInfo* XmlSchemaComplexType_t3924_MethodInfos[] =
 {
-	&XmlSchemaComplexType__cctor_m11134_MethodInfo,
+	&XmlSchemaComplexType__cctor_m11553_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaComplexType_t3686_VTable[] =
+static const Il2CppMethodReference XmlSchemaComplexType_t3924_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaComplexType_t3686_VTableIsGenericMethod[] =
+static bool XmlSchemaComplexType_t3924_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8357,37 +8357,37 @@ static bool XmlSchemaComplexType_t3686_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaComplexType_t3686_0_0_0;
-extern const Il2CppType XmlSchemaComplexType_t3686_1_0_0;
-struct XmlSchemaComplexType_t3686;
-const Il2CppTypeDefinitionMetadata XmlSchemaComplexType_t3686_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaComplexType_t3924_0_0_0;
+extern const Il2CppType XmlSchemaComplexType_t3924_1_0_0;
+struct XmlSchemaComplexType_t3924;
+const Il2CppTypeDefinitionMetadata XmlSchemaComplexType_t3924_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaType_t3687_0_0_0/* parent */
-	, XmlSchemaComplexType_t3686_VTable/* vtableMethods */
-	, XmlSchemaComplexType_t3686_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaType_t3925_0_0_0/* parent */
+	, XmlSchemaComplexType_t3924_VTable/* vtableMethods */
+	, XmlSchemaComplexType_t3924_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 15/* fieldStart */
 
 };
-TypeInfo XmlSchemaComplexType_t3686_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaComplexType_t3924_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaComplexType"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaComplexType_t3686_MethodInfos/* methods */
+	, XmlSchemaComplexType_t3924_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaComplexType_t3686_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaComplexType_t3924_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaComplexType_t3686_0_0_0/* byval_arg */
-	, &XmlSchemaComplexType_t3686_1_0_0/* this_arg */
-	, &XmlSchemaComplexType_t3686_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaComplexType_t3924_0_0_0/* byval_arg */
+	, &XmlSchemaComplexType_t3924_1_0_0/* this_arg */
+	, &XmlSchemaComplexType_t3924_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8397,11 +8397,11 @@ TypeInfo XmlSchemaComplexType_t3686_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaComplexType_t3686)/* instance_size */
-	, sizeof (XmlSchemaComplexType_t3686)/* actualSize */
+	, sizeof (XmlSchemaComplexType_t3924)/* instance_size */
+	, sizeof (XmlSchemaComplexType_t3924)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlSchemaComplexType_t3686_StaticFields)/* static_fields_size */
+	, sizeof(XmlSchemaComplexType_t3924_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -8430,16 +8430,16 @@ TypeInfo XmlSchemaComplexType_t3686_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaDatatype
 #include "System_Xml_System_Xml_Schema_XmlSchemaDatatype.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaDatatype
-extern TypeInfo XmlSchemaDatatype_t3631_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaDatatype_t3869_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaDatatype
 #include "System_Xml_System_Xml_Schema_XmlSchemaDatatypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.ctor()
-extern const MethodInfo XmlSchemaDatatype__ctor_m11135_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype__ctor_m11554_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaDatatype__ctor_m11135/* method */
-	, &XmlSchemaDatatype_t3631_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaDatatype__ctor_m11554/* method */
+	, &XmlSchemaDatatype_t3869_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8458,11 +8458,11 @@ extern const MethodInfo XmlSchemaDatatype__ctor_m11135_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaDatatype::.cctor()
-extern const MethodInfo XmlSchemaDatatype__cctor_m11136_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype__cctor_m11555_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaDatatype__cctor_m11136/* method */
-	, &XmlSchemaDatatype_t3631_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaDatatype__cctor_m11555/* method */
+	, &XmlSchemaDatatype_t3869_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8479,15 +8479,15 @@ extern const MethodInfo XmlSchemaDatatype__cctor_m11136_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlTokenizedType_t3911 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlTokenizedType_t4149 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlTokenizedType System.Xml.Schema.XmlSchemaDatatype::get_TokenizedType()
-extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m12904_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m13322_MethodInfo = 
 {
 	"get_TokenizedType"/* name */
 	, NULL/* method */
-	, &XmlSchemaDatatype_t3631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTokenizedType_t3911_0_0_0/* return_type */
-	, RuntimeInvoker_XmlTokenizedType_t3911/* invoker_method */
+	, &XmlSchemaDatatype_t3869_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTokenizedType_t4149_0_0_0/* return_type */
+	, RuntimeInvoker_XmlTokenizedType_t4149/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
@@ -8502,22 +8502,22 @@ extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m12904_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlQualifiedName_t3685_0_0_0;
-extern const Il2CppType XmlQualifiedName_t3685_0_0_0;
-static const ParameterInfo XmlSchemaDatatype_t3631_XmlSchemaDatatype_FromName_m11137_ParameterInfos[] = 
+extern const Il2CppType XmlQualifiedName_t3923_0_0_0;
+extern const Il2CppType XmlQualifiedName_t3923_0_0_0;
+static const ParameterInfo XmlSchemaDatatype_t3869_XmlSchemaDatatype_FromName_m11556_ParameterInfos[] = 
 {
-	{"qname", 0, 134217729, 0, &XmlQualifiedName_t3685_0_0_0},
+	{"qname", 0, 134217729, 0, &XmlQualifiedName_t3923_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromName(System.Xml.XmlQualifiedName)
-extern const MethodInfo XmlSchemaDatatype_FromName_m11137_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype_FromName_m11556_MethodInfo = 
 {
 	"FromName"/* name */
-	, (methodPointerType)&XmlSchemaDatatype_FromName_m11137/* method */
-	, &XmlSchemaDatatype_t3631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaDatatype_t3631_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaDatatype_FromName_m11556/* method */
+	, &XmlSchemaDatatype_t3869_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaDatatype_t3869_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlSchemaDatatype_t3631_XmlSchemaDatatype_FromName_m11137_ParameterInfos/* parameters */
+	, XmlSchemaDatatype_t3869_XmlSchemaDatatype_FromName_m11556_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -8533,21 +8533,21 @@ extern const MethodInfo XmlSchemaDatatype_FromName_m11137_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlSchemaDatatype_t3631_XmlSchemaDatatype_FromName_m11138_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaDatatype_t3869_XmlSchemaDatatype_FromName_m11557_ParameterInfos[] = 
 {
 	{"localName", 0, 134217730, 0, &String_t_0_0_0},
 	{"ns", 1, 134217731, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaDatatype::FromName(System.String,System.String)
-extern const MethodInfo XmlSchemaDatatype_FromName_m11138_MethodInfo = 
+extern const MethodInfo XmlSchemaDatatype_FromName_m11557_MethodInfo = 
 {
 	"FromName"/* name */
-	, (methodPointerType)&XmlSchemaDatatype_FromName_m11138/* method */
-	, &XmlSchemaDatatype_t3631_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaDatatype_t3631_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaDatatype_FromName_m11557/* method */
+	, &XmlSchemaDatatype_t3869_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaDatatype_t3869_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlSchemaDatatype_t3631_XmlSchemaDatatype_FromName_m11138_ParameterInfos/* parameters */
+	, XmlSchemaDatatype_t3869_XmlSchemaDatatype_FromName_m11557_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -8561,32 +8561,32 @@ extern const MethodInfo XmlSchemaDatatype_FromName_m11138_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaDatatype_t3631_MethodInfos[] =
+static const MethodInfo* XmlSchemaDatatype_t3869_MethodInfos[] =
 {
-	&XmlSchemaDatatype__ctor_m11135_MethodInfo,
-	&XmlSchemaDatatype__cctor_m11136_MethodInfo,
-	&XmlSchemaDatatype_get_TokenizedType_m12904_MethodInfo,
-	&XmlSchemaDatatype_FromName_m11137_MethodInfo,
-	&XmlSchemaDatatype_FromName_m11138_MethodInfo,
+	&XmlSchemaDatatype__ctor_m11554_MethodInfo,
+	&XmlSchemaDatatype__cctor_m11555_MethodInfo,
+	&XmlSchemaDatatype_get_TokenizedType_m13322_MethodInfo,
+	&XmlSchemaDatatype_FromName_m11556_MethodInfo,
+	&XmlSchemaDatatype_FromName_m11557_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m12904_MethodInfo;
-static const PropertyInfo XmlSchemaDatatype_t3631____TokenizedType_PropertyInfo = 
+extern const MethodInfo XmlSchemaDatatype_get_TokenizedType_m13322_MethodInfo;
+static const PropertyInfo XmlSchemaDatatype_t3869____TokenizedType_PropertyInfo = 
 {
-	&XmlSchemaDatatype_t3631_il2cpp_TypeInfo/* parent */
+	&XmlSchemaDatatype_t3869_il2cpp_TypeInfo/* parent */
 	, "TokenizedType"/* name */
-	, &XmlSchemaDatatype_get_TokenizedType_m12904_MethodInfo/* get */
+	, &XmlSchemaDatatype_get_TokenizedType_m13322_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlSchemaDatatype_t3631_PropertyInfos[] =
+static const PropertyInfo* XmlSchemaDatatype_t3869_PropertyInfos[] =
 {
-	&XmlSchemaDatatype_t3631____TokenizedType_PropertyInfo,
+	&XmlSchemaDatatype_t3869____TokenizedType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaDatatype_t3631_VTable[] =
+static const Il2CppMethodReference XmlSchemaDatatype_t3869_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
@@ -8594,7 +8594,7 @@ static const Il2CppMethodReference XmlSchemaDatatype_t3631_VTable[] =
 	&Object_ToString_m129_MethodInfo,
 	NULL,
 };
-static bool XmlSchemaDatatype_t3631_VTableIsGenericMethod[] =
+static bool XmlSchemaDatatype_t3869_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8603,36 +8603,36 @@ static bool XmlSchemaDatatype_t3631_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaDatatype_t3631_1_0_0;
-struct XmlSchemaDatatype_t3631;
-const Il2CppTypeDefinitionMetadata XmlSchemaDatatype_t3631_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaDatatype_t3869_1_0_0;
+struct XmlSchemaDatatype_t3869;
+const Il2CppTypeDefinitionMetadata XmlSchemaDatatype_t3869_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlSchemaDatatype_t3631_VTable/* vtableMethods */
-	, XmlSchemaDatatype_t3631_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaDatatype_t3869_VTable/* vtableMethods */
+	, XmlSchemaDatatype_t3869_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 16/* fieldStart */
 
 };
-TypeInfo XmlSchemaDatatype_t3631_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaDatatype_t3869_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaDatatype"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaDatatype_t3631_MethodInfos/* methods */
-	, XmlSchemaDatatype_t3631_PropertyInfos/* properties */
+	, XmlSchemaDatatype_t3869_MethodInfos/* methods */
+	, XmlSchemaDatatype_t3869_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlSchemaDatatype_t3631_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaDatatype_t3869_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaDatatype_t3631_0_0_0/* byval_arg */
-	, &XmlSchemaDatatype_t3631_1_0_0/* this_arg */
-	, &XmlSchemaDatatype_t3631_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaDatatype_t3869_0_0_0/* byval_arg */
+	, &XmlSchemaDatatype_t3869_1_0_0/* this_arg */
+	, &XmlSchemaDatatype_t3869_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8642,11 +8642,11 @@ TypeInfo XmlSchemaDatatype_t3631_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaDatatype_t3631)/* instance_size */
-	, sizeof (XmlSchemaDatatype_t3631)/* actualSize */
+	, sizeof (XmlSchemaDatatype_t3869)/* instance_size */
+	, sizeof (XmlSchemaDatatype_t3869)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlSchemaDatatype_t3631_StaticFields)/* static_fields_size */
+	, sizeof(XmlSchemaDatatype_t3869_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048705/* flags */
@@ -8675,14 +8675,14 @@ TypeInfo XmlSchemaDatatype_t3631_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaDerivationMethod
-extern TypeInfo XmlSchemaDerivationMethod_t3688_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaDerivationMethod_t3926_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethodMethodDeclarations.h"
-static const MethodInfo* XmlSchemaDerivationMethod_t3688_MethodInfos[] =
+static const MethodInfo* XmlSchemaDerivationMethod_t3926_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaDerivationMethod_t3688_VTable[] =
+static const Il2CppMethodReference XmlSchemaDerivationMethod_t3926_VTable[] =
 {
 	&Enum_Equals_m130_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
@@ -8708,7 +8708,7 @@ static const Il2CppMethodReference XmlSchemaDerivationMethod_t3688_VTable[] =
 	&Enum_CompareTo_m150_MethodInfo,
 	&Enum_GetTypeCode_m151_MethodInfo,
 };
-static bool XmlSchemaDerivationMethod_t3688_VTableIsGenericMethod[] =
+static bool XmlSchemaDerivationMethod_t3926_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8734,43 +8734,43 @@ static bool XmlSchemaDerivationMethod_t3688_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlSchemaDerivationMethod_t3688_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlSchemaDerivationMethod_t3926_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t41_0_0_0, 4},
 	{ &IConvertible_t42_0_0_0, 5},
 	{ &IComparable_t43_0_0_0, 21},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaDerivationMethod_t3688_0_0_0;
-extern const Il2CppType XmlSchemaDerivationMethod_t3688_1_0_0;
-const Il2CppTypeDefinitionMetadata XmlSchemaDerivationMethod_t3688_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaDerivationMethod_t3926_0_0_0;
+extern const Il2CppType XmlSchemaDerivationMethod_t3926_1_0_0;
+const Il2CppTypeDefinitionMetadata XmlSchemaDerivationMethod_t3926_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlSchemaDerivationMethod_t3688_InterfacesOffsets/* interfaceOffsets */
+	, XmlSchemaDerivationMethod_t3926_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t44_0_0_0/* parent */
-	, XmlSchemaDerivationMethod_t3688_VTable/* vtableMethods */
-	, XmlSchemaDerivationMethod_t3688_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaDerivationMethod_t3926_VTable/* vtableMethods */
+	, XmlSchemaDerivationMethod_t3926_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 71/* fieldStart */
 
 };
-TypeInfo XmlSchemaDerivationMethod_t3688_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaDerivationMethod_t3926_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaDerivationMethod"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaDerivationMethod_t3688_MethodInfos/* methods */
+	, XmlSchemaDerivationMethod_t3926_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t29_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 8/* custom_attributes_cache */
-	, &XmlSchemaDerivationMethod_t3688_0_0_0/* byval_arg */
-	, &XmlSchemaDerivationMethod_t3688_1_0_0/* this_arg */
-	, &XmlSchemaDerivationMethod_t3688_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaDerivationMethod_t3926_0_0_0/* byval_arg */
+	, &XmlSchemaDerivationMethod_t3926_1_0_0/* this_arg */
+	, &XmlSchemaDerivationMethod_t3926_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8780,8 +8780,8 @@ TypeInfo XmlSchemaDerivationMethod_t3688_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaDerivationMethod_t3688)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (XmlSchemaDerivationMethod_t3688)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (XmlSchemaDerivationMethod_t3926)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (XmlSchemaDerivationMethod_t3926)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -8813,21 +8813,21 @@ TypeInfo XmlSchemaDerivationMethod_t3688_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaElement
 #include "System_Xml_System_Xml_Schema_XmlSchemaElement.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaElement
-extern TypeInfo XmlSchemaElement_t3689_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaElement_t3927_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaElement
 #include "System_Xml_System_Xml_Schema_XmlSchemaElementMethodDeclarations.h"
-static const MethodInfo* XmlSchemaElement_t3689_MethodInfos[] =
+static const MethodInfo* XmlSchemaElement_t3927_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaElement_t3689_VTable[] =
+static const Il2CppMethodReference XmlSchemaElement_t3927_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaElement_t3689_VTableIsGenericMethod[] =
+static bool XmlSchemaElement_t3927_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8835,37 +8835,37 @@ static bool XmlSchemaElement_t3689_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaElement_t3689_1_0_0;
-extern const Il2CppType XmlSchemaParticle_t3690_0_0_0;
-struct XmlSchemaElement_t3689;
-const Il2CppTypeDefinitionMetadata XmlSchemaElement_t3689_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaElement_t3927_1_0_0;
+extern const Il2CppType XmlSchemaParticle_t3928_0_0_0;
+struct XmlSchemaElement_t3927;
+const Il2CppTypeDefinitionMetadata XmlSchemaElement_t3927_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaParticle_t3690_0_0_0/* parent */
-	, XmlSchemaElement_t3689_VTable/* vtableMethods */
-	, XmlSchemaElement_t3689_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaParticle_t3928_0_0_0/* parent */
+	, XmlSchemaElement_t3927_VTable/* vtableMethods */
+	, XmlSchemaElement_t3927_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlSchemaElement_t3689_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaElement_t3927_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaElement"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaElement_t3689_MethodInfos/* methods */
+	, XmlSchemaElement_t3927_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaElement_t3689_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaElement_t3927_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaElement_t3689_0_0_0/* byval_arg */
-	, &XmlSchemaElement_t3689_1_0_0/* this_arg */
-	, &XmlSchemaElement_t3689_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaElement_t3927_0_0_0/* byval_arg */
+	, &XmlSchemaElement_t3927_1_0_0/* this_arg */
+	, &XmlSchemaElement_t3927_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8875,8 +8875,8 @@ TypeInfo XmlSchemaElement_t3689_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaElement_t3689)/* instance_size */
-	, sizeof (XmlSchemaElement_t3689)/* actualSize */
+	, sizeof (XmlSchemaElement_t3927)/* instance_size */
+	, sizeof (XmlSchemaElement_t3927)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8908,14 +8908,14 @@ TypeInfo XmlSchemaElement_t3689_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaFacet/Facet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet_Facet.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaFacet/Facet
-extern TypeInfo Facet_t3691_il2cpp_TypeInfo;
+extern TypeInfo Facet_t3929_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaFacet/Facet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet_FacetMethodDeclarations.h"
-static const MethodInfo* Facet_t3691_MethodInfos[] =
+static const MethodInfo* Facet_t3929_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference Facet_t3691_VTable[] =
+static const Il2CppMethodReference Facet_t3929_VTable[] =
 {
 	&Enum_Equals_m130_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
@@ -8941,7 +8941,7 @@ static const Il2CppMethodReference Facet_t3691_VTable[] =
 	&Enum_CompareTo_m150_MethodInfo,
 	&Enum_GetTypeCode_m151_MethodInfo,
 };
-static bool Facet_t3691_VTableIsGenericMethod[] =
+static bool Facet_t3929_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8967,45 +8967,45 @@ static bool Facet_t3691_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair Facet_t3691_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair Facet_t3929_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t41_0_0_0, 4},
 	{ &IConvertible_t42_0_0_0, 5},
 	{ &IComparable_t43_0_0_0, 21},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType Facet_t3691_0_0_0;
-extern const Il2CppType Facet_t3691_1_0_0;
-extern TypeInfo XmlSchemaFacet_t3692_il2cpp_TypeInfo;
-extern const Il2CppType XmlSchemaFacet_t3692_0_0_0;
-const Il2CppTypeDefinitionMetadata Facet_t3691_DefinitionMetadata = 
+extern const Il2CppType Facet_t3929_0_0_0;
+extern const Il2CppType Facet_t3929_1_0_0;
+extern TypeInfo XmlSchemaFacet_t3930_il2cpp_TypeInfo;
+extern const Il2CppType XmlSchemaFacet_t3930_0_0_0;
+const Il2CppTypeDefinitionMetadata Facet_t3929_DefinitionMetadata = 
 {
-	&XmlSchemaFacet_t3692_0_0_0/* declaringType */
+	&XmlSchemaFacet_t3930_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, Facet_t3691_InterfacesOffsets/* interfaceOffsets */
+	, Facet_t3929_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t44_0_0_0/* parent */
-	, Facet_t3691_VTable/* vtableMethods */
-	, Facet_t3691_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Facet_t3929_VTable/* vtableMethods */
+	, Facet_t3929_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 80/* fieldStart */
 
 };
-TypeInfo Facet_t3691_il2cpp_TypeInfo = 
+TypeInfo Facet_t3929_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Facet"/* name */
 	, ""/* namespaze */
-	, Facet_t3691_MethodInfos/* methods */
+	, Facet_t3929_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t29_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 18/* custom_attributes_cache */
-	, &Facet_t3691_0_0_0/* byval_arg */
-	, &Facet_t3691_1_0_0/* this_arg */
-	, &Facet_t3691_DefinitionMetadata/* definitionMetadata */
+	, &Facet_t3929_0_0_0/* byval_arg */
+	, &Facet_t3929_1_0_0/* this_arg */
+	, &Facet_t3929_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9015,8 +9015,8 @@ TypeInfo Facet_t3691_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Facet_t3691)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (Facet_t3691)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (Facet_t3929)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (Facet_t3929)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -9052,11 +9052,11 @@ TypeInfo Facet_t3691_il2cpp_TypeInfo =
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacetMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaFacet::.ctor()
-extern const MethodInfo XmlSchemaFacet__ctor_m11139_MethodInfo = 
+extern const MethodInfo XmlSchemaFacet__ctor_m11558_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaFacet__ctor_m11139/* method */
-	, &XmlSchemaFacet_t3692_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaFacet__ctor_m11558/* method */
+	, &XmlSchemaFacet_t3930_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -9075,11 +9075,11 @@ extern const MethodInfo XmlSchemaFacet__ctor_m11139_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaFacet::.cctor()
-extern const MethodInfo XmlSchemaFacet__cctor_m11140_MethodInfo = 
+extern const MethodInfo XmlSchemaFacet__cctor_m11559_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaFacet__cctor_m11140/* method */
-	, &XmlSchemaFacet_t3692_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaFacet__cctor_m11559/* method */
+	, &XmlSchemaFacet_t3930_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -9097,20 +9097,20 @@ extern const MethodInfo XmlSchemaFacet__cctor_m11140_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlSchemaFacet_t3692_XmlSchemaFacet_set_Value_m11141_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaFacet_t3930_XmlSchemaFacet_set_Value_m11560_ParameterInfos[] = 
 {
 	{"value", 0, 134217732, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaFacet::set_Value(System.String)
-extern const MethodInfo XmlSchemaFacet_set_Value_m11141_MethodInfo = 
+extern const MethodInfo XmlSchemaFacet_set_Value_m11560_MethodInfo = 
 {
 	"set_Value"/* name */
-	, (methodPointerType)&XmlSchemaFacet_set_Value_m11141/* method */
-	, &XmlSchemaFacet_t3692_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaFacet_set_Value_m11560/* method */
+	, &XmlSchemaFacet_t3930_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlSchemaFacet_t3692_XmlSchemaFacet_set_Value_m11141_ParameterInfos/* parameters */
+	, XmlSchemaFacet_t3930_XmlSchemaFacet_set_Value_m11560_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9124,41 +9124,41 @@ extern const MethodInfo XmlSchemaFacet_set_Value_m11141_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaFacet_t3692_MethodInfos[] =
+static const MethodInfo* XmlSchemaFacet_t3930_MethodInfos[] =
 {
-	&XmlSchemaFacet__ctor_m11139_MethodInfo,
-	&XmlSchemaFacet__cctor_m11140_MethodInfo,
-	&XmlSchemaFacet_set_Value_m11141_MethodInfo,
+	&XmlSchemaFacet__ctor_m11558_MethodInfo,
+	&XmlSchemaFacet__cctor_m11559_MethodInfo,
+	&XmlSchemaFacet_set_Value_m11560_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaFacet_set_Value_m11141_MethodInfo;
-static const PropertyInfo XmlSchemaFacet_t3692____Value_PropertyInfo = 
+extern const MethodInfo XmlSchemaFacet_set_Value_m11560_MethodInfo;
+static const PropertyInfo XmlSchemaFacet_t3930____Value_PropertyInfo = 
 {
-	&XmlSchemaFacet_t3692_il2cpp_TypeInfo/* parent */
+	&XmlSchemaFacet_t3930_il2cpp_TypeInfo/* parent */
 	, "Value"/* name */
 	, NULL/* get */
-	, &XmlSchemaFacet_set_Value_m11141_MethodInfo/* set */
+	, &XmlSchemaFacet_set_Value_m11560_MethodInfo/* set */
 	, 0/* attrs */
 	, 17/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlSchemaFacet_t3692_PropertyInfos[] =
+static const PropertyInfo* XmlSchemaFacet_t3930_PropertyInfos[] =
 {
-	&XmlSchemaFacet_t3692____Value_PropertyInfo,
+	&XmlSchemaFacet_t3930____Value_PropertyInfo,
 	NULL
 };
-static const Il2CppType* XmlSchemaFacet_t3692_il2cpp_TypeInfo__nestedTypes[1] =
+static const Il2CppType* XmlSchemaFacet_t3930_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&Facet_t3691_0_0_0,
+	&Facet_t3929_0_0_0,
 };
-static const Il2CppMethodReference XmlSchemaFacet_t3692_VTable[] =
+static const Il2CppMethodReference XmlSchemaFacet_t3930_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaFacet_t3692_VTableIsGenericMethod[] =
+static bool XmlSchemaFacet_t3930_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9166,36 +9166,36 @@ static bool XmlSchemaFacet_t3692_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaFacet_t3692_1_0_0;
-struct XmlSchemaFacet_t3692;
-const Il2CppTypeDefinitionMetadata XmlSchemaFacet_t3692_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaFacet_t3930_1_0_0;
+struct XmlSchemaFacet_t3930;
+const Il2CppTypeDefinitionMetadata XmlSchemaFacet_t3930_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, XmlSchemaFacet_t3692_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, XmlSchemaFacet_t3930_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaAnnotated_t3682_0_0_0/* parent */
-	, XmlSchemaFacet_t3692_VTable/* vtableMethods */
-	, XmlSchemaFacet_t3692_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaAnnotated_t3920_0_0_0/* parent */
+	, XmlSchemaFacet_t3930_VTable/* vtableMethods */
+	, XmlSchemaFacet_t3930_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 94/* fieldStart */
 
 };
-TypeInfo XmlSchemaFacet_t3692_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaFacet_t3930_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaFacet"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaFacet_t3692_MethodInfos/* methods */
-	, XmlSchemaFacet_t3692_PropertyInfos/* properties */
+	, XmlSchemaFacet_t3930_MethodInfos/* methods */
+	, XmlSchemaFacet_t3930_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlSchemaFacet_t3692_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaFacet_t3930_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaFacet_t3692_0_0_0/* byval_arg */
-	, &XmlSchemaFacet_t3692_1_0_0/* this_arg */
-	, &XmlSchemaFacet_t3692_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaFacet_t3930_0_0_0/* byval_arg */
+	, &XmlSchemaFacet_t3930_1_0_0/* this_arg */
+	, &XmlSchemaFacet_t3930_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9205,11 +9205,11 @@ TypeInfo XmlSchemaFacet_t3692_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaFacet_t3692)/* instance_size */
-	, sizeof (XmlSchemaFacet_t3692)/* actualSize */
+	, sizeof (XmlSchemaFacet_t3930)/* instance_size */
+	, sizeof (XmlSchemaFacet_t3930)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlSchemaFacet_t3692_StaticFields)/* static_fields_size */
+	, sizeof(XmlSchemaFacet_t3930_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048705/* flags */
@@ -9238,14 +9238,14 @@ TypeInfo XmlSchemaFacet_t3692_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaForm
 #include "System_Xml_System_Xml_Schema_XmlSchemaForm.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaForm
-extern TypeInfo XmlSchemaForm_t3693_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaForm_t3931_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaForm
 #include "System_Xml_System_Xml_Schema_XmlSchemaFormMethodDeclarations.h"
-static const MethodInfo* XmlSchemaForm_t3693_MethodInfos[] =
+static const MethodInfo* XmlSchemaForm_t3931_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaForm_t3693_VTable[] =
+static const Il2CppMethodReference XmlSchemaForm_t3931_VTable[] =
 {
 	&Enum_Equals_m130_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
@@ -9271,7 +9271,7 @@ static const Il2CppMethodReference XmlSchemaForm_t3693_VTable[] =
 	&Enum_CompareTo_m150_MethodInfo,
 	&Enum_GetTypeCode_m151_MethodInfo,
 };
-static bool XmlSchemaForm_t3693_VTableIsGenericMethod[] =
+static bool XmlSchemaForm_t3931_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9297,43 +9297,43 @@ static bool XmlSchemaForm_t3693_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlSchemaForm_t3693_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlSchemaForm_t3931_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t41_0_0_0, 4},
 	{ &IConvertible_t42_0_0_0, 5},
 	{ &IComparable_t43_0_0_0, 21},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaForm_t3693_0_0_0;
-extern const Il2CppType XmlSchemaForm_t3693_1_0_0;
-const Il2CppTypeDefinitionMetadata XmlSchemaForm_t3693_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaForm_t3931_0_0_0;
+extern const Il2CppType XmlSchemaForm_t3931_1_0_0;
+const Il2CppTypeDefinitionMetadata XmlSchemaForm_t3931_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlSchemaForm_t3693_InterfacesOffsets/* interfaceOffsets */
+	, XmlSchemaForm_t3931_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t44_0_0_0/* parent */
-	, XmlSchemaForm_t3693_VTable/* vtableMethods */
-	, XmlSchemaForm_t3693_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaForm_t3931_VTable/* vtableMethods */
+	, XmlSchemaForm_t3931_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 96/* fieldStart */
 
 };
-TypeInfo XmlSchemaForm_t3693_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaForm_t3931_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaForm"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaForm_t3693_MethodInfos/* methods */
+	, XmlSchemaForm_t3931_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t29_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaForm_t3693_0_0_0/* byval_arg */
-	, &XmlSchemaForm_t3693_1_0_0/* this_arg */
-	, &XmlSchemaForm_t3693_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaForm_t3931_0_0_0/* byval_arg */
+	, &XmlSchemaForm_t3931_1_0_0/* this_arg */
+	, &XmlSchemaForm_t3931_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9343,8 +9343,8 @@ TypeInfo XmlSchemaForm_t3693_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaForm_t3693)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (XmlSchemaForm_t3693)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (XmlSchemaForm_t3931)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (XmlSchemaForm_t3931)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -9376,24 +9376,24 @@ TypeInfo XmlSchemaForm_t3693_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaInfo
 #include "System_Xml_System_Xml_Schema_XmlSchemaInfo.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaInfo
-extern TypeInfo XmlSchemaInfo_t3695_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaInfo_t3933_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaInfo
 #include "System_Xml_System_Xml_Schema_XmlSchemaInfoMethodDeclarations.h"
-extern const Il2CppType IXmlSchemaInfo_t3842_0_0_0;
-static const ParameterInfo XmlSchemaInfo_t3695_XmlSchemaInfo__ctor_m11142_ParameterInfos[] = 
+extern const Il2CppType IXmlSchemaInfo_t4080_0_0_0;
+static const ParameterInfo XmlSchemaInfo_t3933_XmlSchemaInfo__ctor_m11561_ParameterInfos[] = 
 {
-	{"info", 0, 134217733, 0, &IXmlSchemaInfo_t3842_0_0_0},
+	{"info", 0, 134217733, 0, &IXmlSchemaInfo_t4080_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaInfo::.ctor(System.Xml.Schema.IXmlSchemaInfo)
-extern const MethodInfo XmlSchemaInfo__ctor_m11142_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo__ctor_m11561_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaInfo__ctor_m11142/* method */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaInfo__ctor_m11561/* method */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlSchemaInfo_t3695_XmlSchemaInfo__ctor_m11142_ParameterInfos/* parameters */
+	, XmlSchemaInfo_t3933_XmlSchemaInfo__ctor_m11561_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -9409,11 +9409,11 @@ extern const MethodInfo XmlSchemaInfo__ctor_m11142_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsDefault()
-extern const MethodInfo XmlSchemaInfo_get_IsDefault_m11143_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_IsDefault_m11562_MethodInfo = 
 {
 	"get_IsDefault"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_IsDefault_m11143/* method */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaInfo_get_IsDefault_m11562/* method */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -9432,11 +9432,11 @@ extern const MethodInfo XmlSchemaInfo_get_IsDefault_m11143_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Schema.XmlSchemaInfo::get_IsNil()
-extern const MethodInfo XmlSchemaInfo_get_IsNil_m11144_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_IsNil_m11563_MethodInfo = 
 {
 	"get_IsNil"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_IsNil_m11144/* method */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaInfo_get_IsNil_m11563/* method */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -9455,12 +9455,12 @@ extern const MethodInfo XmlSchemaInfo_get_IsNil_m11144_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaInfo::get_MemberType()
-extern const MethodInfo XmlSchemaInfo_get_MemberType_m11145_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_MemberType_m11564_MethodInfo = 
 {
 	"get_MemberType"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_MemberType_m11145/* method */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaSimpleType_t3694_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaInfo_get_MemberType_m11564/* method */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaSimpleType_t3932_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9478,12 +9478,12 @@ extern const MethodInfo XmlSchemaInfo_get_MemberType_m11145_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.XmlSchemaInfo::get_SchemaAttribute()
-extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m11146_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m11565_MethodInfo = 
 {
 	"get_SchemaAttribute"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_SchemaAttribute_m11146/* method */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaAttribute_t3683_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaInfo_get_SchemaAttribute_m11565/* method */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaAttribute_t3921_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9501,12 +9501,12 @@ extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m11146_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaInfo::get_SchemaElement()
-extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m11147_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m11566_MethodInfo = 
 {
 	"get_SchemaElement"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_SchemaElement_m11147/* method */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaElement_t3689_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaInfo_get_SchemaElement_m11566/* method */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaElement_t3927_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9524,12 +9524,12 @@ extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m11147_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaInfo::get_SchemaType()
-extern const MethodInfo XmlSchemaInfo_get_SchemaType_m11148_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaType_m11567_MethodInfo = 
 {
 	"get_SchemaType"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_SchemaType_m11148/* method */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaType_t3687_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaInfo_get_SchemaType_m11567/* method */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaType_t3925_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9545,15 +9545,15 @@ extern const MethodInfo XmlSchemaInfo_get_SchemaType_m11148_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlSchemaValidity_t3707 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlSchemaValidity_t3945 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaValidity System.Xml.Schema.XmlSchemaInfo::get_Validity()
-extern const MethodInfo XmlSchemaInfo_get_Validity_m11149_MethodInfo = 
+extern const MethodInfo XmlSchemaInfo_get_Validity_m11568_MethodInfo = 
 {
 	"get_Validity"/* name */
-	, (methodPointerType)&XmlSchemaInfo_get_Validity_m11149/* method */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaValidity_t3707_0_0_0/* return_type */
-	, RuntimeInvoker_XmlSchemaValidity_t3707/* invoker_method */
+	, (methodPointerType)&XmlSchemaInfo_get_Validity_m11568/* method */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaValidity_t3945_0_0_0/* return_type */
+	, RuntimeInvoker_XmlSchemaValidity_t3945/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
@@ -9568,121 +9568,121 @@ extern const MethodInfo XmlSchemaInfo_get_Validity_m11149_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaInfo_t3695_MethodInfos[] =
+static const MethodInfo* XmlSchemaInfo_t3933_MethodInfos[] =
 {
-	&XmlSchemaInfo__ctor_m11142_MethodInfo,
-	&XmlSchemaInfo_get_IsDefault_m11143_MethodInfo,
-	&XmlSchemaInfo_get_IsNil_m11144_MethodInfo,
-	&XmlSchemaInfo_get_MemberType_m11145_MethodInfo,
-	&XmlSchemaInfo_get_SchemaAttribute_m11146_MethodInfo,
-	&XmlSchemaInfo_get_SchemaElement_m11147_MethodInfo,
-	&XmlSchemaInfo_get_SchemaType_m11148_MethodInfo,
-	&XmlSchemaInfo_get_Validity_m11149_MethodInfo,
+	&XmlSchemaInfo__ctor_m11561_MethodInfo,
+	&XmlSchemaInfo_get_IsDefault_m11562_MethodInfo,
+	&XmlSchemaInfo_get_IsNil_m11563_MethodInfo,
+	&XmlSchemaInfo_get_MemberType_m11564_MethodInfo,
+	&XmlSchemaInfo_get_SchemaAttribute_m11565_MethodInfo,
+	&XmlSchemaInfo_get_SchemaElement_m11566_MethodInfo,
+	&XmlSchemaInfo_get_SchemaType_m11567_MethodInfo,
+	&XmlSchemaInfo_get_Validity_m11568_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaInfo_get_IsDefault_m11143_MethodInfo;
-static const PropertyInfo XmlSchemaInfo_t3695____IsDefault_PropertyInfo = 
+extern const MethodInfo XmlSchemaInfo_get_IsDefault_m11562_MethodInfo;
+static const PropertyInfo XmlSchemaInfo_t3933____IsDefault_PropertyInfo = 
 {
-	&XmlSchemaInfo_t3695_il2cpp_TypeInfo/* parent */
+	&XmlSchemaInfo_t3933_il2cpp_TypeInfo/* parent */
 	, "IsDefault"/* name */
-	, &XmlSchemaInfo_get_IsDefault_m11143_MethodInfo/* get */
+	, &XmlSchemaInfo_get_IsDefault_m11562_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 23/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_IsNil_m11144_MethodInfo;
-static const PropertyInfo XmlSchemaInfo_t3695____IsNil_PropertyInfo = 
+extern const MethodInfo XmlSchemaInfo_get_IsNil_m11563_MethodInfo;
+static const PropertyInfo XmlSchemaInfo_t3933____IsNil_PropertyInfo = 
 {
-	&XmlSchemaInfo_t3695_il2cpp_TypeInfo/* parent */
+	&XmlSchemaInfo_t3933_il2cpp_TypeInfo/* parent */
 	, "IsNil"/* name */
-	, &XmlSchemaInfo_get_IsNil_m11144_MethodInfo/* get */
+	, &XmlSchemaInfo_get_IsNil_m11563_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 24/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_MemberType_m11145_MethodInfo;
-static const PropertyInfo XmlSchemaInfo_t3695____MemberType_PropertyInfo = 
+extern const MethodInfo XmlSchemaInfo_get_MemberType_m11564_MethodInfo;
+static const PropertyInfo XmlSchemaInfo_t3933____MemberType_PropertyInfo = 
 {
-	&XmlSchemaInfo_t3695_il2cpp_TypeInfo/* parent */
+	&XmlSchemaInfo_t3933_il2cpp_TypeInfo/* parent */
 	, "MemberType"/* name */
-	, &XmlSchemaInfo_get_MemberType_m11145_MethodInfo/* get */
+	, &XmlSchemaInfo_get_MemberType_m11564_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 25/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m11146_MethodInfo;
-static const PropertyInfo XmlSchemaInfo_t3695____SchemaAttribute_PropertyInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaAttribute_m11565_MethodInfo;
+static const PropertyInfo XmlSchemaInfo_t3933____SchemaAttribute_PropertyInfo = 
 {
-	&XmlSchemaInfo_t3695_il2cpp_TypeInfo/* parent */
+	&XmlSchemaInfo_t3933_il2cpp_TypeInfo/* parent */
 	, "SchemaAttribute"/* name */
-	, &XmlSchemaInfo_get_SchemaAttribute_m11146_MethodInfo/* get */
+	, &XmlSchemaInfo_get_SchemaAttribute_m11565_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 26/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m11147_MethodInfo;
-static const PropertyInfo XmlSchemaInfo_t3695____SchemaElement_PropertyInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaElement_m11566_MethodInfo;
+static const PropertyInfo XmlSchemaInfo_t3933____SchemaElement_PropertyInfo = 
 {
-	&XmlSchemaInfo_t3695_il2cpp_TypeInfo/* parent */
+	&XmlSchemaInfo_t3933_il2cpp_TypeInfo/* parent */
 	, "SchemaElement"/* name */
-	, &XmlSchemaInfo_get_SchemaElement_m11147_MethodInfo/* get */
+	, &XmlSchemaInfo_get_SchemaElement_m11566_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 27/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_SchemaType_m11148_MethodInfo;
-static const PropertyInfo XmlSchemaInfo_t3695____SchemaType_PropertyInfo = 
+extern const MethodInfo XmlSchemaInfo_get_SchemaType_m11567_MethodInfo;
+static const PropertyInfo XmlSchemaInfo_t3933____SchemaType_PropertyInfo = 
 {
-	&XmlSchemaInfo_t3695_il2cpp_TypeInfo/* parent */
+	&XmlSchemaInfo_t3933_il2cpp_TypeInfo/* parent */
 	, "SchemaType"/* name */
-	, &XmlSchemaInfo_get_SchemaType_m11148_MethodInfo/* get */
+	, &XmlSchemaInfo_get_SchemaType_m11567_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 28/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaInfo_get_Validity_m11149_MethodInfo;
-static const PropertyInfo XmlSchemaInfo_t3695____Validity_PropertyInfo = 
+extern const MethodInfo XmlSchemaInfo_get_Validity_m11568_MethodInfo;
+static const PropertyInfo XmlSchemaInfo_t3933____Validity_PropertyInfo = 
 {
-	&XmlSchemaInfo_t3695_il2cpp_TypeInfo/* parent */
+	&XmlSchemaInfo_t3933_il2cpp_TypeInfo/* parent */
 	, "Validity"/* name */
-	, &XmlSchemaInfo_get_Validity_m11149_MethodInfo/* get */
+	, &XmlSchemaInfo_get_Validity_m11568_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 29/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlSchemaInfo_t3695_PropertyInfos[] =
+static const PropertyInfo* XmlSchemaInfo_t3933_PropertyInfos[] =
 {
-	&XmlSchemaInfo_t3695____IsDefault_PropertyInfo,
-	&XmlSchemaInfo_t3695____IsNil_PropertyInfo,
-	&XmlSchemaInfo_t3695____MemberType_PropertyInfo,
-	&XmlSchemaInfo_t3695____SchemaAttribute_PropertyInfo,
-	&XmlSchemaInfo_t3695____SchemaElement_PropertyInfo,
-	&XmlSchemaInfo_t3695____SchemaType_PropertyInfo,
-	&XmlSchemaInfo_t3695____Validity_PropertyInfo,
+	&XmlSchemaInfo_t3933____IsDefault_PropertyInfo,
+	&XmlSchemaInfo_t3933____IsNil_PropertyInfo,
+	&XmlSchemaInfo_t3933____MemberType_PropertyInfo,
+	&XmlSchemaInfo_t3933____SchemaAttribute_PropertyInfo,
+	&XmlSchemaInfo_t3933____SchemaElement_PropertyInfo,
+	&XmlSchemaInfo_t3933____SchemaType_PropertyInfo,
+	&XmlSchemaInfo_t3933____Validity_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaInfo_t3695_VTable[] =
+static const Il2CppMethodReference XmlSchemaInfo_t3933_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&XmlSchemaInfo_get_IsDefault_m11143_MethodInfo,
-	&XmlSchemaInfo_get_IsNil_m11144_MethodInfo,
-	&XmlSchemaInfo_get_MemberType_m11145_MethodInfo,
-	&XmlSchemaInfo_get_SchemaAttribute_m11146_MethodInfo,
-	&XmlSchemaInfo_get_SchemaElement_m11147_MethodInfo,
-	&XmlSchemaInfo_get_SchemaType_m11148_MethodInfo,
-	&XmlSchemaInfo_get_Validity_m11149_MethodInfo,
+	&XmlSchemaInfo_get_IsDefault_m11562_MethodInfo,
+	&XmlSchemaInfo_get_IsNil_m11563_MethodInfo,
+	&XmlSchemaInfo_get_MemberType_m11564_MethodInfo,
+	&XmlSchemaInfo_get_SchemaAttribute_m11565_MethodInfo,
+	&XmlSchemaInfo_get_SchemaElement_m11566_MethodInfo,
+	&XmlSchemaInfo_get_SchemaType_m11567_MethodInfo,
+	&XmlSchemaInfo_get_Validity_m11568_MethodInfo,
 };
-static bool XmlSchemaInfo_t3695_VTableIsGenericMethod[] =
+static bool XmlSchemaInfo_t3933_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9696,46 +9696,46 @@ static bool XmlSchemaInfo_t3695_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* XmlSchemaInfo_t3695_InterfacesTypeInfos[] = 
+static const Il2CppType* XmlSchemaInfo_t3933_InterfacesTypeInfos[] = 
 {
-	&IXmlSchemaInfo_t3842_0_0_0,
+	&IXmlSchemaInfo_t4080_0_0_0,
 };
-static Il2CppInterfaceOffsetPair XmlSchemaInfo_t3695_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlSchemaInfo_t3933_InterfacesOffsets[] = 
 {
-	{ &IXmlSchemaInfo_t3842_0_0_0, 4},
+	{ &IXmlSchemaInfo_t4080_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaInfo_t3695_0_0_0;
-extern const Il2CppType XmlSchemaInfo_t3695_1_0_0;
-struct XmlSchemaInfo_t3695;
-const Il2CppTypeDefinitionMetadata XmlSchemaInfo_t3695_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaInfo_t3933_0_0_0;
+extern const Il2CppType XmlSchemaInfo_t3933_1_0_0;
+struct XmlSchemaInfo_t3933;
+const Il2CppTypeDefinitionMetadata XmlSchemaInfo_t3933_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, XmlSchemaInfo_t3695_InterfacesTypeInfos/* implementedInterfaces */
-	, XmlSchemaInfo_t3695_InterfacesOffsets/* interfaceOffsets */
+	, XmlSchemaInfo_t3933_InterfacesTypeInfos/* implementedInterfaces */
+	, XmlSchemaInfo_t3933_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlSchemaInfo_t3695_VTable/* vtableMethods */
-	, XmlSchemaInfo_t3695_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaInfo_t3933_VTable/* vtableMethods */
+	, XmlSchemaInfo_t3933_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 100/* fieldStart */
 
 };
-TypeInfo XmlSchemaInfo_t3695_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaInfo_t3933_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaInfo"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaInfo_t3695_MethodInfos/* methods */
-	, XmlSchemaInfo_t3695_PropertyInfos/* properties */
+	, XmlSchemaInfo_t3933_MethodInfos/* methods */
+	, XmlSchemaInfo_t3933_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlSchemaInfo_t3695_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaInfo_t3933_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 22/* custom_attributes_cache */
-	, &XmlSchemaInfo_t3695_0_0_0/* byval_arg */
-	, &XmlSchemaInfo_t3695_1_0_0/* this_arg */
-	, &XmlSchemaInfo_t3695_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaInfo_t3933_0_0_0/* byval_arg */
+	, &XmlSchemaInfo_t3933_1_0_0/* this_arg */
+	, &XmlSchemaInfo_t3933_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9745,8 +9745,8 @@ TypeInfo XmlSchemaInfo_t3695_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaInfo_t3695)/* instance_size */
-	, sizeof (XmlSchemaInfo_t3695)/* actualSize */
+	, sizeof (XmlSchemaInfo_t3933)/* instance_size */
+	, sizeof (XmlSchemaInfo_t3933)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9778,16 +9778,16 @@ TypeInfo XmlSchemaInfo_t3695_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaObject
 #include "System_Xml_System_Xml_Schema_XmlSchemaObject.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaObject
-extern TypeInfo XmlSchemaObject_t3681_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaObject_t3919_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaObject
 #include "System_Xml_System_Xml_Schema_XmlSchemaObjectMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaObject::.ctor()
-extern const MethodInfo XmlSchemaObject__ctor_m11150_MethodInfo = 
+extern const MethodInfo XmlSchemaObject__ctor_m11569_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaObject__ctor_m11150/* method */
-	, &XmlSchemaObject_t3681_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaObject__ctor_m11569/* method */
+	, &XmlSchemaObject_t3919_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -9804,19 +9804,19 @@ extern const MethodInfo XmlSchemaObject__ctor_m11150_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaObject_t3681_MethodInfos[] =
+static const MethodInfo* XmlSchemaObject_t3919_MethodInfos[] =
 {
-	&XmlSchemaObject__ctor_m11150_MethodInfo,
+	&XmlSchemaObject__ctor_m11569_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaObject_t3681_VTable[] =
+static const Il2CppMethodReference XmlSchemaObject_t3919_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaObject_t3681_VTableIsGenericMethod[] =
+static bool XmlSchemaObject_t3919_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9824,36 +9824,36 @@ static bool XmlSchemaObject_t3681_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaObject_t3681_1_0_0;
-struct XmlSchemaObject_t3681;
-const Il2CppTypeDefinitionMetadata XmlSchemaObject_t3681_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaObject_t3919_1_0_0;
+struct XmlSchemaObject_t3919;
+const Il2CppTypeDefinitionMetadata XmlSchemaObject_t3919_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlSchemaObject_t3681_VTable/* vtableMethods */
-	, XmlSchemaObject_t3681_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaObject_t3919_VTable/* vtableMethods */
+	, XmlSchemaObject_t3919_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 107/* fieldStart */
 
 };
-TypeInfo XmlSchemaObject_t3681_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaObject_t3919_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaObject"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaObject_t3681_MethodInfos/* methods */
+	, XmlSchemaObject_t3919_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaObject_t3681_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaObject_t3919_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaObject_t3681_0_0_0/* byval_arg */
-	, &XmlSchemaObject_t3681_1_0_0/* this_arg */
-	, &XmlSchemaObject_t3681_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaObject_t3919_0_0_0/* byval_arg */
+	, &XmlSchemaObject_t3919_1_0_0/* this_arg */
+	, &XmlSchemaObject_t3919_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9863,8 +9863,8 @@ TypeInfo XmlSchemaObject_t3681_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaObject_t3681)/* instance_size */
-	, sizeof (XmlSchemaObject_t3681)/* actualSize */
+	, sizeof (XmlSchemaObject_t3919)/* instance_size */
+	, sizeof (XmlSchemaObject_t3919)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9896,21 +9896,21 @@ TypeInfo XmlSchemaObject_t3681_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaParticle
 #include "System_Xml_System_Xml_Schema_XmlSchemaParticle.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaParticle
-extern TypeInfo XmlSchemaParticle_t3690_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaParticle_t3928_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaParticle
 #include "System_Xml_System_Xml_Schema_XmlSchemaParticleMethodDeclarations.h"
-static const MethodInfo* XmlSchemaParticle_t3690_MethodInfos[] =
+static const MethodInfo* XmlSchemaParticle_t3928_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaParticle_t3690_VTable[] =
+static const Il2CppMethodReference XmlSchemaParticle_t3928_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaParticle_t3690_VTableIsGenericMethod[] =
+static bool XmlSchemaParticle_t3928_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9918,36 +9918,36 @@ static bool XmlSchemaParticle_t3690_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaParticle_t3690_1_0_0;
-struct XmlSchemaParticle_t3690;
-const Il2CppTypeDefinitionMetadata XmlSchemaParticle_t3690_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaParticle_t3928_1_0_0;
+struct XmlSchemaParticle_t3928;
+const Il2CppTypeDefinitionMetadata XmlSchemaParticle_t3928_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaAnnotated_t3682_0_0_0/* parent */
-	, XmlSchemaParticle_t3690_VTable/* vtableMethods */
-	, XmlSchemaParticle_t3690_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaAnnotated_t3920_0_0_0/* parent */
+	, XmlSchemaParticle_t3928_VTable/* vtableMethods */
+	, XmlSchemaParticle_t3928_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlSchemaParticle_t3690_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaParticle_t3928_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaParticle"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaParticle_t3690_MethodInfos/* methods */
+	, XmlSchemaParticle_t3928_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaParticle_t3690_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaParticle_t3928_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaParticle_t3690_0_0_0/* byval_arg */
-	, &XmlSchemaParticle_t3690_1_0_0/* this_arg */
-	, &XmlSchemaParticle_t3690_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaParticle_t3928_0_0_0/* byval_arg */
+	, &XmlSchemaParticle_t3928_1_0_0/* this_arg */
+	, &XmlSchemaParticle_t3928_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9957,8 +9957,8 @@ TypeInfo XmlSchemaParticle_t3690_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaParticle_t3690)/* instance_size */
-	, sizeof (XmlSchemaParticle_t3690)/* actualSize */
+	, sizeof (XmlSchemaParticle_t3928)/* instance_size */
+	, sizeof (XmlSchemaParticle_t3928)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9990,16 +9990,16 @@ TypeInfo XmlSchemaParticle_t3690_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaPatternFacet
 #include "System_Xml_System_Xml_Schema_XmlSchemaPatternFacet.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaPatternFacet
-extern TypeInfo XmlSchemaPatternFacet_t3698_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaPatternFacet_t3936_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaPatternFacet
 #include "System_Xml_System_Xml_Schema_XmlSchemaPatternFacetMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaPatternFacet::.ctor()
-extern const MethodInfo XmlSchemaPatternFacet__ctor_m11151_MethodInfo = 
+extern const MethodInfo XmlSchemaPatternFacet__ctor_m11570_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaPatternFacet__ctor_m11151/* method */
-	, &XmlSchemaPatternFacet_t3698_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaPatternFacet__ctor_m11570/* method */
+	, &XmlSchemaPatternFacet_t3936_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -10016,19 +10016,19 @@ extern const MethodInfo XmlSchemaPatternFacet__ctor_m11151_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaPatternFacet_t3698_MethodInfos[] =
+static const MethodInfo* XmlSchemaPatternFacet_t3936_MethodInfos[] =
 {
-	&XmlSchemaPatternFacet__ctor_m11151_MethodInfo,
+	&XmlSchemaPatternFacet__ctor_m11570_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaPatternFacet_t3698_VTable[] =
+static const Il2CppMethodReference XmlSchemaPatternFacet_t3936_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaPatternFacet_t3698_VTableIsGenericMethod[] =
+static bool XmlSchemaPatternFacet_t3936_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10036,37 +10036,37 @@ static bool XmlSchemaPatternFacet_t3698_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaPatternFacet_t3698_0_0_0;
-extern const Il2CppType XmlSchemaPatternFacet_t3698_1_0_0;
-struct XmlSchemaPatternFacet_t3698;
-const Il2CppTypeDefinitionMetadata XmlSchemaPatternFacet_t3698_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaPatternFacet_t3936_0_0_0;
+extern const Il2CppType XmlSchemaPatternFacet_t3936_1_0_0;
+struct XmlSchemaPatternFacet_t3936;
+const Il2CppTypeDefinitionMetadata XmlSchemaPatternFacet_t3936_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaFacet_t3692_0_0_0/* parent */
-	, XmlSchemaPatternFacet_t3698_VTable/* vtableMethods */
-	, XmlSchemaPatternFacet_t3698_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaFacet_t3930_0_0_0/* parent */
+	, XmlSchemaPatternFacet_t3936_VTable/* vtableMethods */
+	, XmlSchemaPatternFacet_t3936_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlSchemaPatternFacet_t3698_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaPatternFacet_t3936_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaPatternFacet"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaPatternFacet_t3698_MethodInfos/* methods */
+	, XmlSchemaPatternFacet_t3936_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaPatternFacet_t3698_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaPatternFacet_t3936_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaPatternFacet_t3698_0_0_0/* byval_arg */
-	, &XmlSchemaPatternFacet_t3698_1_0_0/* this_arg */
-	, &XmlSchemaPatternFacet_t3698_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaPatternFacet_t3936_0_0_0/* byval_arg */
+	, &XmlSchemaPatternFacet_t3936_1_0_0/* this_arg */
+	, &XmlSchemaPatternFacet_t3936_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10076,8 +10076,8 @@ TypeInfo XmlSchemaPatternFacet_t3698_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaPatternFacet_t3698)/* instance_size */
-	, sizeof (XmlSchemaPatternFacet_t3698)/* actualSize */
+	, sizeof (XmlSchemaPatternFacet_t3936)/* instance_size */
+	, sizeof (XmlSchemaPatternFacet_t3936)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -10109,16 +10109,16 @@ TypeInfo XmlSchemaPatternFacet_t3698_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaSet
 #include "System_Xml_System_Xml_Schema_XmlSchemaSet.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaSet
-extern TypeInfo XmlSchemaSet_t3701_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSet_t3939_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSet
 #include "System_Xml_System_Xml_Schema_XmlSchemaSetMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSet::.ctor()
-extern const MethodInfo XmlSchemaSet__ctor_m11152_MethodInfo = 
+extern const MethodInfo XmlSchemaSet__ctor_m11571_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaSet__ctor_m11152/* method */
-	, &XmlSchemaSet_t3701_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSet__ctor_m11571/* method */
+	, &XmlSchemaSet_t3939_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -10135,22 +10135,22 @@ extern const MethodInfo XmlSchemaSet__ctor_m11152_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNameTable_t3699_0_0_0;
-extern const Il2CppType XmlNameTable_t3699_0_0_0;
-static const ParameterInfo XmlSchemaSet_t3701_XmlSchemaSet__ctor_m11153_ParameterInfos[] = 
+extern const Il2CppType XmlNameTable_t3937_0_0_0;
+extern const Il2CppType XmlNameTable_t3937_0_0_0;
+static const ParameterInfo XmlSchemaSet_t3939_XmlSchemaSet__ctor_m11572_ParameterInfos[] = 
 {
-	{"nameTable", 0, 134217734, 0, &XmlNameTable_t3699_0_0_0},
+	{"nameTable", 0, 134217734, 0, &XmlNameTable_t3937_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSet::.ctor(System.Xml.XmlNameTable)
-extern const MethodInfo XmlSchemaSet__ctor_m11153_MethodInfo = 
+extern const MethodInfo XmlSchemaSet__ctor_m11572_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaSet__ctor_m11153/* method */
-	, &XmlSchemaSet_t3701_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSet__ctor_m11572/* method */
+	, &XmlSchemaSet_t3939_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlSchemaSet_t3701_XmlSchemaSet__ctor_m11153_ParameterInfos/* parameters */
+	, XmlSchemaSet_t3939_XmlSchemaSet__ctor_m11572_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10167,11 +10167,11 @@ extern const MethodInfo XmlSchemaSet__ctor_m11153_MethodInfo =
 extern const Il2CppType Int32_t29_0_0_0;
 extern void* RuntimeInvoker_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Xml.Schema.XmlSchemaSet::get_Count()
-extern const MethodInfo XmlSchemaSet_get_Count_m11154_MethodInfo = 
+extern const MethodInfo XmlSchemaSet_get_Count_m11573_MethodInfo = 
 {
 	"get_Count"/* name */
-	, (methodPointerType)&XmlSchemaSet_get_Count_m11154/* method */
-	, &XmlSchemaSet_t3701_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSet_get_Count_m11573/* method */
+	, &XmlSchemaSet_t3939_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t29/* invoker_method */
 	, NULL/* parameters */
@@ -10188,24 +10188,24 @@ extern const MethodInfo XmlSchemaSet_get_Count_m11154_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlSchemaU5BU5D_t3921_0_0_0;
-extern const Il2CppType XmlSchemaU5BU5D_t3921_0_0_0;
+extern const Il2CppType XmlSchemaU5BU5D_t4159_0_0_0;
+extern const Il2CppType XmlSchemaU5BU5D_t4159_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-static const ParameterInfo XmlSchemaSet_t3701_XmlSchemaSet_CopyTo_m11155_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaSet_t3939_XmlSchemaSet_CopyTo_m11574_ParameterInfos[] = 
 {
-	{"array", 0, 134217735, 0, &XmlSchemaU5BU5D_t3921_0_0_0},
+	{"array", 0, 134217735, 0, &XmlSchemaU5BU5D_t4159_0_0_0},
 	{"index", 1, 134217736, 0, &Int32_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSet::CopyTo(System.Xml.Schema.XmlSchema[],System.Int32)
-extern const MethodInfo XmlSchemaSet_CopyTo_m11155_MethodInfo = 
+extern const MethodInfo XmlSchemaSet_CopyTo_m11574_MethodInfo = 
 {
 	"CopyTo"/* name */
-	, (methodPointerType)&XmlSchemaSet_CopyTo_m11155/* method */
-	, &XmlSchemaSet_t3701_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSet_CopyTo_m11574/* method */
+	, &XmlSchemaSet_t3939_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Int32_t29/* invoker_method */
-	, XmlSchemaSet_t3701_XmlSchemaSet_CopyTo_m11155_ParameterInfos/* parameters */
+	, XmlSchemaSet_t3939_XmlSchemaSet_CopyTo_m11574_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10219,38 +10219,38 @@ extern const MethodInfo XmlSchemaSet_CopyTo_m11155_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaSet_t3701_MethodInfos[] =
+static const MethodInfo* XmlSchemaSet_t3939_MethodInfos[] =
 {
-	&XmlSchemaSet__ctor_m11152_MethodInfo,
-	&XmlSchemaSet__ctor_m11153_MethodInfo,
-	&XmlSchemaSet_get_Count_m11154_MethodInfo,
-	&XmlSchemaSet_CopyTo_m11155_MethodInfo,
+	&XmlSchemaSet__ctor_m11571_MethodInfo,
+	&XmlSchemaSet__ctor_m11572_MethodInfo,
+	&XmlSchemaSet_get_Count_m11573_MethodInfo,
+	&XmlSchemaSet_CopyTo_m11574_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaSet_get_Count_m11154_MethodInfo;
-static const PropertyInfo XmlSchemaSet_t3701____Count_PropertyInfo = 
+extern const MethodInfo XmlSchemaSet_get_Count_m11573_MethodInfo;
+static const PropertyInfo XmlSchemaSet_t3939____Count_PropertyInfo = 
 {
-	&XmlSchemaSet_t3701_il2cpp_TypeInfo/* parent */
+	&XmlSchemaSet_t3939_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &XmlSchemaSet_get_Count_m11154_MethodInfo/* get */
+	, &XmlSchemaSet_get_Count_m11573_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlSchemaSet_t3701_PropertyInfos[] =
+static const PropertyInfo* XmlSchemaSet_t3939_PropertyInfos[] =
 {
-	&XmlSchemaSet_t3701____Count_PropertyInfo,
+	&XmlSchemaSet_t3939____Count_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaSet_t3701_VTable[] =
+static const Il2CppMethodReference XmlSchemaSet_t3939_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaSet_t3701_VTableIsGenericMethod[] =
+static bool XmlSchemaSet_t3939_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10258,37 +10258,37 @@ static bool XmlSchemaSet_t3701_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaSet_t3701_0_0_0;
-extern const Il2CppType XmlSchemaSet_t3701_1_0_0;
-struct XmlSchemaSet_t3701;
-const Il2CppTypeDefinitionMetadata XmlSchemaSet_t3701_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaSet_t3939_0_0_0;
+extern const Il2CppType XmlSchemaSet_t3939_1_0_0;
+struct XmlSchemaSet_t3939;
+const Il2CppTypeDefinitionMetadata XmlSchemaSet_t3939_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlSchemaSet_t3701_VTable/* vtableMethods */
-	, XmlSchemaSet_t3701_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaSet_t3939_VTable/* vtableMethods */
+	, XmlSchemaSet_t3939_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 110/* fieldStart */
 
 };
-TypeInfo XmlSchemaSet_t3701_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaSet_t3939_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaSet"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaSet_t3701_MethodInfos/* methods */
-	, XmlSchemaSet_t3701_PropertyInfos/* properties */
+	, XmlSchemaSet_t3939_MethodInfos/* methods */
+	, XmlSchemaSet_t3939_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlSchemaSet_t3701_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaSet_t3939_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaSet_t3701_0_0_0/* byval_arg */
-	, &XmlSchemaSet_t3701_1_0_0/* this_arg */
-	, &XmlSchemaSet_t3701_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaSet_t3939_0_0_0/* byval_arg */
+	, &XmlSchemaSet_t3939_1_0_0/* this_arg */
+	, &XmlSchemaSet_t3939_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10298,8 +10298,8 @@ TypeInfo XmlSchemaSet_t3701_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaSet_t3701)/* instance_size */
-	, sizeof (XmlSchemaSet_t3701)/* actualSize */
+	, sizeof (XmlSchemaSet_t3939)/* instance_size */
+	, sizeof (XmlSchemaSet_t3939)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -10331,16 +10331,16 @@ TypeInfo XmlSchemaSet_t3701_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaSimpleType
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleType.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaSimpleType
-extern TypeInfo XmlSchemaSimpleType_t3694_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleType_t3932_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleType
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::.ctor()
-extern const MethodInfo XmlSchemaSimpleType__ctor_m11156_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType__ctor_m11575_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType__ctor_m11156/* method */
-	, &XmlSchemaSimpleType_t3694_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSimpleType__ctor_m11575/* method */
+	, &XmlSchemaSimpleType_t3932_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -10359,11 +10359,11 @@ extern const MethodInfo XmlSchemaSimpleType__ctor_m11156_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::.cctor()
-extern const MethodInfo XmlSchemaSimpleType__cctor_m11157_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType__cctor_m11576_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType__cctor_m11157/* method */
-	, &XmlSchemaSimpleType_t3694_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSimpleType__cctor_m11576/* method */
+	, &XmlSchemaSimpleType_t3932_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -10382,21 +10382,21 @@ extern const MethodInfo XmlSchemaSimpleType__cctor_m11157_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlSchemaSimpleType_t3694_XmlSchemaSimpleType_BuildSchemaType_m11158_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaSimpleType_t3932_XmlSchemaSimpleType_BuildSchemaType_m11577_ParameterInfos[] = 
 {
 	{"name", 0, 134217737, 0, &String_t_0_0_0},
 	{"baseName", 1, 134217738, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::BuildSchemaType(System.String,System.String)
-extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m11158_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m11577_MethodInfo = 
 {
 	"BuildSchemaType"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType_BuildSchemaType_m11158/* method */
-	, &XmlSchemaSimpleType_t3694_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaSimpleType_t3694_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaSimpleType_BuildSchemaType_m11577/* method */
+	, &XmlSchemaSimpleType_t3932_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaSimpleType_t3932_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlSchemaSimpleType_t3694_XmlSchemaSimpleType_BuildSchemaType_m11158_ParameterInfos/* parameters */
+	, XmlSchemaSimpleType_t3932_XmlSchemaSimpleType_BuildSchemaType_m11577_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -10414,7 +10414,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo XmlSchemaSimpleType_t3694_XmlSchemaSimpleType_BuildSchemaType_m11159_ParameterInfos[] = 
+static const ParameterInfo XmlSchemaSimpleType_t3932_XmlSchemaSimpleType_BuildSchemaType_m11578_ParameterInfos[] = 
 {
 	{"name", 0, 134217739, 0, &String_t_0_0_0},
 	{"baseName", 1, 134217740, 0, &String_t_0_0_0},
@@ -10423,14 +10423,14 @@ static const ParameterInfo XmlSchemaSimpleType_t3694_XmlSchemaSimpleType_BuildSc
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t36_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleType::BuildSchemaType(System.String,System.String,System.Boolean,System.Boolean)
-extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m11159_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m11578_MethodInfo = 
 {
 	"BuildSchemaType"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType_BuildSchemaType_m11159/* method */
-	, &XmlSchemaSimpleType_t3694_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaSimpleType_t3694_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaSimpleType_BuildSchemaType_m11578/* method */
+	, &XmlSchemaSimpleType_t3932_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaSimpleType_t3932_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t36_SByte_t36/* invoker_method */
-	, XmlSchemaSimpleType_t3694_XmlSchemaSimpleType_BuildSchemaType_m11159_ParameterInfos/* parameters */
+	, XmlSchemaSimpleType_t3932_XmlSchemaSimpleType_BuildSchemaType_m11578_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -10444,22 +10444,22 @@ extern const MethodInfo XmlSchemaSimpleType_BuildSchemaType_m11159_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlSchemaSimpleTypeContent_t3702_0_0_0;
-extern const Il2CppType XmlSchemaSimpleTypeContent_t3702_0_0_0;
-static const ParameterInfo XmlSchemaSimpleType_t3694_XmlSchemaSimpleType_set_Content_m11160_ParameterInfos[] = 
+extern const Il2CppType XmlSchemaSimpleTypeContent_t3940_0_0_0;
+extern const Il2CppType XmlSchemaSimpleTypeContent_t3940_0_0_0;
+static const ParameterInfo XmlSchemaSimpleType_t3932_XmlSchemaSimpleType_set_Content_m11579_ParameterInfos[] = 
 {
-	{"value", 0, 134217743, 0, &XmlSchemaSimpleTypeContent_t3702_0_0_0},
+	{"value", 0, 134217743, 0, &XmlSchemaSimpleTypeContent_t3940_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleType::set_Content(System.Xml.Schema.XmlSchemaSimpleTypeContent)
-extern const MethodInfo XmlSchemaSimpleType_set_Content_m11160_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleType_set_Content_m11579_MethodInfo = 
 {
 	"set_Content"/* name */
-	, (methodPointerType)&XmlSchemaSimpleType_set_Content_m11160/* method */
-	, &XmlSchemaSimpleType_t3694_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSimpleType_set_Content_m11579/* method */
+	, &XmlSchemaSimpleType_t3932_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlSchemaSimpleType_t3694_XmlSchemaSimpleType_set_Content_m11160_ParameterInfos/* parameters */
+	, XmlSchemaSimpleType_t3932_XmlSchemaSimpleType_set_Content_m11579_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10473,39 +10473,39 @@ extern const MethodInfo XmlSchemaSimpleType_set_Content_m11160_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaSimpleType_t3694_MethodInfos[] =
+static const MethodInfo* XmlSchemaSimpleType_t3932_MethodInfos[] =
 {
-	&XmlSchemaSimpleType__ctor_m11156_MethodInfo,
-	&XmlSchemaSimpleType__cctor_m11157_MethodInfo,
-	&XmlSchemaSimpleType_BuildSchemaType_m11158_MethodInfo,
-	&XmlSchemaSimpleType_BuildSchemaType_m11159_MethodInfo,
-	&XmlSchemaSimpleType_set_Content_m11160_MethodInfo,
+	&XmlSchemaSimpleType__ctor_m11575_MethodInfo,
+	&XmlSchemaSimpleType__cctor_m11576_MethodInfo,
+	&XmlSchemaSimpleType_BuildSchemaType_m11577_MethodInfo,
+	&XmlSchemaSimpleType_BuildSchemaType_m11578_MethodInfo,
+	&XmlSchemaSimpleType_set_Content_m11579_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaSimpleType_set_Content_m11160_MethodInfo;
-static const PropertyInfo XmlSchemaSimpleType_t3694____Content_PropertyInfo = 
+extern const MethodInfo XmlSchemaSimpleType_set_Content_m11579_MethodInfo;
+static const PropertyInfo XmlSchemaSimpleType_t3932____Content_PropertyInfo = 
 {
-	&XmlSchemaSimpleType_t3694_il2cpp_TypeInfo/* parent */
+	&XmlSchemaSimpleType_t3932_il2cpp_TypeInfo/* parent */
 	, "Content"/* name */
 	, NULL/* get */
-	, &XmlSchemaSimpleType_set_Content_m11160_MethodInfo/* set */
+	, &XmlSchemaSimpleType_set_Content_m11579_MethodInfo/* set */
 	, 0/* attrs */
 	, 30/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlSchemaSimpleType_t3694_PropertyInfos[] =
+static const PropertyInfo* XmlSchemaSimpleType_t3932_PropertyInfos[] =
 {
-	&XmlSchemaSimpleType_t3694____Content_PropertyInfo,
+	&XmlSchemaSimpleType_t3932____Content_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaSimpleType_t3694_VTable[] =
+static const Il2CppMethodReference XmlSchemaSimpleType_t3932_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaSimpleType_t3694_VTableIsGenericMethod[] =
+static bool XmlSchemaSimpleType_t3932_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10513,36 +10513,36 @@ static bool XmlSchemaSimpleType_t3694_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaSimpleType_t3694_1_0_0;
-struct XmlSchemaSimpleType_t3694;
-const Il2CppTypeDefinitionMetadata XmlSchemaSimpleType_t3694_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaSimpleType_t3932_1_0_0;
+struct XmlSchemaSimpleType_t3932;
+const Il2CppTypeDefinitionMetadata XmlSchemaSimpleType_t3932_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaType_t3687_0_0_0/* parent */
-	, XmlSchemaSimpleType_t3694_VTable/* vtableMethods */
-	, XmlSchemaSimpleType_t3694_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaType_t3925_0_0_0/* parent */
+	, XmlSchemaSimpleType_t3932_VTable/* vtableMethods */
+	, XmlSchemaSimpleType_t3932_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 115/* fieldStart */
 
 };
-TypeInfo XmlSchemaSimpleType_t3694_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaSimpleType_t3932_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaSimpleType"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaSimpleType_t3694_MethodInfos/* methods */
-	, XmlSchemaSimpleType_t3694_PropertyInfos/* properties */
+	, XmlSchemaSimpleType_t3932_MethodInfos/* methods */
+	, XmlSchemaSimpleType_t3932_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlSchemaSimpleType_t3694_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaSimpleType_t3932_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaSimpleType_t3694_0_0_0/* byval_arg */
-	, &XmlSchemaSimpleType_t3694_1_0_0/* this_arg */
-	, &XmlSchemaSimpleType_t3694_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaSimpleType_t3932_0_0_0/* byval_arg */
+	, &XmlSchemaSimpleType_t3932_1_0_0/* this_arg */
+	, &XmlSchemaSimpleType_t3932_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10552,11 +10552,11 @@ TypeInfo XmlSchemaSimpleType_t3694_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaSimpleType_t3694)/* instance_size */
-	, sizeof (XmlSchemaSimpleType_t3694)/* actualSize */
+	, sizeof (XmlSchemaSimpleType_t3932)/* instance_size */
+	, sizeof (XmlSchemaSimpleType_t3932)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlSchemaSimpleType_t3694_StaticFields)/* static_fields_size */
+	, sizeof(XmlSchemaSimpleType_t3932_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1/* flags */
@@ -10585,16 +10585,16 @@ TypeInfo XmlSchemaSimpleType_t3694_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeContent.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaSimpleTypeContent
-extern TypeInfo XmlSchemaSimpleTypeContent_t3702_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeContent_t3940_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeContentMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeContent::.ctor()
-extern const MethodInfo XmlSchemaSimpleTypeContent__ctor_m11161_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeContent__ctor_m11580_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeContent__ctor_m11161/* method */
-	, &XmlSchemaSimpleTypeContent_t3702_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSimpleTypeContent__ctor_m11580/* method */
+	, &XmlSchemaSimpleTypeContent_t3940_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -10611,19 +10611,19 @@ extern const MethodInfo XmlSchemaSimpleTypeContent__ctor_m11161_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaSimpleTypeContent_t3702_MethodInfos[] =
+static const MethodInfo* XmlSchemaSimpleTypeContent_t3940_MethodInfos[] =
 {
-	&XmlSchemaSimpleTypeContent__ctor_m11161_MethodInfo,
+	&XmlSchemaSimpleTypeContent__ctor_m11580_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaSimpleTypeContent_t3702_VTable[] =
+static const Il2CppMethodReference XmlSchemaSimpleTypeContent_t3940_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaSimpleTypeContent_t3702_VTableIsGenericMethod[] =
+static bool XmlSchemaSimpleTypeContent_t3940_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10631,36 +10631,36 @@ static bool XmlSchemaSimpleTypeContent_t3702_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaSimpleTypeContent_t3702_1_0_0;
-struct XmlSchemaSimpleTypeContent_t3702;
-const Il2CppTypeDefinitionMetadata XmlSchemaSimpleTypeContent_t3702_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaSimpleTypeContent_t3940_1_0_0;
+struct XmlSchemaSimpleTypeContent_t3940;
+const Il2CppTypeDefinitionMetadata XmlSchemaSimpleTypeContent_t3940_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaAnnotated_t3682_0_0_0/* parent */
-	, XmlSchemaSimpleTypeContent_t3702_VTable/* vtableMethods */
-	, XmlSchemaSimpleTypeContent_t3702_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaAnnotated_t3920_0_0_0/* parent */
+	, XmlSchemaSimpleTypeContent_t3940_VTable/* vtableMethods */
+	, XmlSchemaSimpleTypeContent_t3940_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlSchemaSimpleTypeContent_t3702_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaSimpleTypeContent_t3940_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaSimpleTypeContent"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaSimpleTypeContent_t3702_MethodInfos/* methods */
+	, XmlSchemaSimpleTypeContent_t3940_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaSimpleTypeContent_t3702_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaSimpleTypeContent_t3940_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaSimpleTypeContent_t3702_0_0_0/* byval_arg */
-	, &XmlSchemaSimpleTypeContent_t3702_1_0_0/* this_arg */
-	, &XmlSchemaSimpleTypeContent_t3702_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaSimpleTypeContent_t3940_0_0_0/* byval_arg */
+	, &XmlSchemaSimpleTypeContent_t3940_1_0_0/* this_arg */
+	, &XmlSchemaSimpleTypeContent_t3940_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10670,8 +10670,8 @@ TypeInfo XmlSchemaSimpleTypeContent_t3702_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaSimpleTypeContent_t3702)/* instance_size */
-	, sizeof (XmlSchemaSimpleTypeContent_t3702)/* actualSize */
+	, sizeof (XmlSchemaSimpleTypeContent_t3940)/* instance_size */
+	, sizeof (XmlSchemaSimpleTypeContent_t3940)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -10703,16 +10703,16 @@ TypeInfo XmlSchemaSimpleTypeContent_t3702_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaSimpleTypeList
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeList.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaSimpleTypeList
-extern TypeInfo XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeList_t3941_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleTypeList
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeListMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::.ctor()
-extern const MethodInfo XmlSchemaSimpleTypeList__ctor_m11162_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeList__ctor_m11581_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeList__ctor_m11162/* method */
-	, &XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSimpleTypeList__ctor_m11581/* method */
+	, &XmlSchemaSimpleTypeList_t3941_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -10729,21 +10729,21 @@ extern const MethodInfo XmlSchemaSimpleTypeList__ctor_m11162_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlQualifiedName_t3685_0_0_0;
-static const ParameterInfo XmlSchemaSimpleTypeList_t3703_XmlSchemaSimpleTypeList_set_ItemTypeName_m11163_ParameterInfos[] = 
+extern const Il2CppType XmlQualifiedName_t3923_0_0_0;
+static const ParameterInfo XmlSchemaSimpleTypeList_t3941_XmlSchemaSimpleTypeList_set_ItemTypeName_m11582_ParameterInfos[] = 
 {
-	{"value", 0, 134217744, 0, &XmlQualifiedName_t3685_0_0_0},
+	{"value", 0, 134217744, 0, &XmlQualifiedName_t3923_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_ItemTypeName(System.Xml.XmlQualifiedName)
-extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m11163_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m11582_MethodInfo = 
 {
 	"set_ItemTypeName"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeList_set_ItemTypeName_m11163/* method */
-	, &XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSimpleTypeList_set_ItemTypeName_m11582/* method */
+	, &XmlSchemaSimpleTypeList_t3941_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlSchemaSimpleTypeList_t3703_XmlSchemaSimpleTypeList_set_ItemTypeName_m11163_ParameterInfos/* parameters */
+	, XmlSchemaSimpleTypeList_t3941_XmlSchemaSimpleTypeList_set_ItemTypeName_m11582_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10757,21 +10757,21 @@ extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m11163_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlSchemaSimpleType_t3694_0_0_0;
-static const ParameterInfo XmlSchemaSimpleTypeList_t3703_XmlSchemaSimpleTypeList_set_ItemType_m11164_ParameterInfos[] = 
+extern const Il2CppType XmlSchemaSimpleType_t3932_0_0_0;
+static const ParameterInfo XmlSchemaSimpleTypeList_t3941_XmlSchemaSimpleTypeList_set_ItemType_m11583_ParameterInfos[] = 
 {
-	{"value", 0, 134217745, 0, &XmlSchemaSimpleType_t3694_0_0_0},
+	{"value", 0, 134217745, 0, &XmlSchemaSimpleType_t3932_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeList::set_ItemType(System.Xml.Schema.XmlSchemaSimpleType)
-extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m11164_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m11583_MethodInfo = 
 {
 	"set_ItemType"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeList_set_ItemType_m11164/* method */
-	, &XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSimpleTypeList_set_ItemType_m11583/* method */
+	, &XmlSchemaSimpleTypeList_t3941_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlSchemaSimpleTypeList_t3703_XmlSchemaSimpleTypeList_set_ItemType_m11164_ParameterInfos/* parameters */
+	, XmlSchemaSimpleTypeList_t3941_XmlSchemaSimpleTypeList_set_ItemType_m11583_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10785,49 +10785,49 @@ extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m11164_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaSimpleTypeList_t3703_MethodInfos[] =
+static const MethodInfo* XmlSchemaSimpleTypeList_t3941_MethodInfos[] =
 {
-	&XmlSchemaSimpleTypeList__ctor_m11162_MethodInfo,
-	&XmlSchemaSimpleTypeList_set_ItemTypeName_m11163_MethodInfo,
-	&XmlSchemaSimpleTypeList_set_ItemType_m11164_MethodInfo,
+	&XmlSchemaSimpleTypeList__ctor_m11581_MethodInfo,
+	&XmlSchemaSimpleTypeList_set_ItemTypeName_m11582_MethodInfo,
+	&XmlSchemaSimpleTypeList_set_ItemType_m11583_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m11163_MethodInfo;
-static const PropertyInfo XmlSchemaSimpleTypeList_t3703____ItemTypeName_PropertyInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemTypeName_m11582_MethodInfo;
+static const PropertyInfo XmlSchemaSimpleTypeList_t3941____ItemTypeName_PropertyInfo = 
 {
-	&XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo/* parent */
+	&XmlSchemaSimpleTypeList_t3941_il2cpp_TypeInfo/* parent */
 	, "ItemTypeName"/* name */
 	, NULL/* get */
-	, &XmlSchemaSimpleTypeList_set_ItemTypeName_m11163_MethodInfo/* set */
+	, &XmlSchemaSimpleTypeList_set_ItemTypeName_m11582_MethodInfo/* set */
 	, 0/* attrs */
 	, 31/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m11164_MethodInfo;
-static const PropertyInfo XmlSchemaSimpleTypeList_t3703____ItemType_PropertyInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeList_set_ItemType_m11583_MethodInfo;
+static const PropertyInfo XmlSchemaSimpleTypeList_t3941____ItemType_PropertyInfo = 
 {
-	&XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo/* parent */
+	&XmlSchemaSimpleTypeList_t3941_il2cpp_TypeInfo/* parent */
 	, "ItemType"/* name */
 	, NULL/* get */
-	, &XmlSchemaSimpleTypeList_set_ItemType_m11164_MethodInfo/* set */
+	, &XmlSchemaSimpleTypeList_set_ItemType_m11583_MethodInfo/* set */
 	, 0/* attrs */
 	, 32/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlSchemaSimpleTypeList_t3703_PropertyInfos[] =
+static const PropertyInfo* XmlSchemaSimpleTypeList_t3941_PropertyInfos[] =
 {
-	&XmlSchemaSimpleTypeList_t3703____ItemTypeName_PropertyInfo,
-	&XmlSchemaSimpleTypeList_t3703____ItemType_PropertyInfo,
+	&XmlSchemaSimpleTypeList_t3941____ItemTypeName_PropertyInfo,
+	&XmlSchemaSimpleTypeList_t3941____ItemType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaSimpleTypeList_t3703_VTable[] =
+static const Il2CppMethodReference XmlSchemaSimpleTypeList_t3941_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaSimpleTypeList_t3703_VTableIsGenericMethod[] =
+static bool XmlSchemaSimpleTypeList_t3941_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10835,37 +10835,37 @@ static bool XmlSchemaSimpleTypeList_t3703_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaSimpleTypeList_t3703_0_0_0;
-extern const Il2CppType XmlSchemaSimpleTypeList_t3703_1_0_0;
-struct XmlSchemaSimpleTypeList_t3703;
-const Il2CppTypeDefinitionMetadata XmlSchemaSimpleTypeList_t3703_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaSimpleTypeList_t3941_0_0_0;
+extern const Il2CppType XmlSchemaSimpleTypeList_t3941_1_0_0;
+struct XmlSchemaSimpleTypeList_t3941;
+const Il2CppTypeDefinitionMetadata XmlSchemaSimpleTypeList_t3941_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaSimpleTypeContent_t3702_0_0_0/* parent */
-	, XmlSchemaSimpleTypeList_t3703_VTable/* vtableMethods */
-	, XmlSchemaSimpleTypeList_t3703_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaSimpleTypeContent_t3940_0_0_0/* parent */
+	, XmlSchemaSimpleTypeList_t3941_VTable/* vtableMethods */
+	, XmlSchemaSimpleTypeList_t3941_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 168/* fieldStart */
 
 };
-TypeInfo XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaSimpleTypeList_t3941_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaSimpleTypeList"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaSimpleTypeList_t3703_MethodInfos/* methods */
-	, XmlSchemaSimpleTypeList_t3703_PropertyInfos/* properties */
+	, XmlSchemaSimpleTypeList_t3941_MethodInfos/* methods */
+	, XmlSchemaSimpleTypeList_t3941_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaSimpleTypeList_t3941_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaSimpleTypeList_t3703_0_0_0/* byval_arg */
-	, &XmlSchemaSimpleTypeList_t3703_1_0_0/* this_arg */
-	, &XmlSchemaSimpleTypeList_t3703_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaSimpleTypeList_t3941_0_0_0/* byval_arg */
+	, &XmlSchemaSimpleTypeList_t3941_1_0_0/* this_arg */
+	, &XmlSchemaSimpleTypeList_t3941_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10875,8 +10875,8 @@ TypeInfo XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaSimpleTypeList_t3703)/* instance_size */
-	, sizeof (XmlSchemaSimpleTypeList_t3703)/* actualSize */
+	, sizeof (XmlSchemaSimpleTypeList_t3941)/* instance_size */
+	, sizeof (XmlSchemaSimpleTypeList_t3941)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -10908,16 +10908,16 @@ TypeInfo XmlSchemaSimpleTypeList_t3703_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaSimpleTypeRestriction
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeRestriction.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaSimpleTypeRestriction
-extern TypeInfo XmlSchemaSimpleTypeRestriction_t3704_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeRestriction_t3942_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleTypeRestriction
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeRestrictionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaSimpleTypeRestriction::.cctor()
-extern const MethodInfo XmlSchemaSimpleTypeRestriction__cctor_m11165_MethodInfo = 
+extern const MethodInfo XmlSchemaSimpleTypeRestriction__cctor_m11584_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaSimpleTypeRestriction__cctor_m11165/* method */
-	, &XmlSchemaSimpleTypeRestriction_t3704_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaSimpleTypeRestriction__cctor_m11584/* method */
+	, &XmlSchemaSimpleTypeRestriction_t3942_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -10934,19 +10934,19 @@ extern const MethodInfo XmlSchemaSimpleTypeRestriction__cctor_m11165_MethodInfo 
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaSimpleTypeRestriction_t3704_MethodInfos[] =
+static const MethodInfo* XmlSchemaSimpleTypeRestriction_t3942_MethodInfos[] =
 {
-	&XmlSchemaSimpleTypeRestriction__cctor_m11165_MethodInfo,
+	&XmlSchemaSimpleTypeRestriction__cctor_m11584_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaSimpleTypeRestriction_t3704_VTable[] =
+static const Il2CppMethodReference XmlSchemaSimpleTypeRestriction_t3942_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaSimpleTypeRestriction_t3704_VTableIsGenericMethod[] =
+static bool XmlSchemaSimpleTypeRestriction_t3942_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10954,37 +10954,37 @@ static bool XmlSchemaSimpleTypeRestriction_t3704_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaSimpleTypeRestriction_t3704_0_0_0;
-extern const Il2CppType XmlSchemaSimpleTypeRestriction_t3704_1_0_0;
-struct XmlSchemaSimpleTypeRestriction_t3704;
-const Il2CppTypeDefinitionMetadata XmlSchemaSimpleTypeRestriction_t3704_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaSimpleTypeRestriction_t3942_0_0_0;
+extern const Il2CppType XmlSchemaSimpleTypeRestriction_t3942_1_0_0;
+struct XmlSchemaSimpleTypeRestriction_t3942;
+const Il2CppTypeDefinitionMetadata XmlSchemaSimpleTypeRestriction_t3942_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaSimpleTypeContent_t3702_0_0_0/* parent */
-	, XmlSchemaSimpleTypeRestriction_t3704_VTable/* vtableMethods */
-	, XmlSchemaSimpleTypeRestriction_t3704_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaSimpleTypeContent_t3940_0_0_0/* parent */
+	, XmlSchemaSimpleTypeRestriction_t3942_VTable/* vtableMethods */
+	, XmlSchemaSimpleTypeRestriction_t3942_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 170/* fieldStart */
 
 };
-TypeInfo XmlSchemaSimpleTypeRestriction_t3704_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaSimpleTypeRestriction_t3942_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaSimpleTypeRestriction"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaSimpleTypeRestriction_t3704_MethodInfos/* methods */
+	, XmlSchemaSimpleTypeRestriction_t3942_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaSimpleTypeRestriction_t3704_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaSimpleTypeRestriction_t3942_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaSimpleTypeRestriction_t3704_0_0_0/* byval_arg */
-	, &XmlSchemaSimpleTypeRestriction_t3704_1_0_0/* this_arg */
-	, &XmlSchemaSimpleTypeRestriction_t3704_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaSimpleTypeRestriction_t3942_0_0_0/* byval_arg */
+	, &XmlSchemaSimpleTypeRestriction_t3942_1_0_0/* this_arg */
+	, &XmlSchemaSimpleTypeRestriction_t3942_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10994,11 +10994,11 @@ TypeInfo XmlSchemaSimpleTypeRestriction_t3704_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaSimpleTypeRestriction_t3704)/* instance_size */
-	, sizeof (XmlSchemaSimpleTypeRestriction_t3704)/* actualSize */
+	, sizeof (XmlSchemaSimpleTypeRestriction_t3942)/* instance_size */
+	, sizeof (XmlSchemaSimpleTypeRestriction_t3942)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlSchemaSimpleTypeRestriction_t3704_StaticFields)/* static_fields_size */
+	, sizeof(XmlSchemaSimpleTypeRestriction_t3942_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -11027,21 +11027,21 @@ TypeInfo XmlSchemaSimpleTypeRestriction_t3704_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaSimpleTypeUnion
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeUnion.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaSimpleTypeUnion
-extern TypeInfo XmlSchemaSimpleTypeUnion_t3705_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeUnion_t3943_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaSimpleTypeUnion
 #include "System_Xml_System_Xml_Schema_XmlSchemaSimpleTypeUnionMethodDeclarations.h"
-static const MethodInfo* XmlSchemaSimpleTypeUnion_t3705_MethodInfos[] =
+static const MethodInfo* XmlSchemaSimpleTypeUnion_t3943_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaSimpleTypeUnion_t3705_VTable[] =
+static const Il2CppMethodReference XmlSchemaSimpleTypeUnion_t3943_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaSimpleTypeUnion_t3705_VTableIsGenericMethod[] =
+static bool XmlSchemaSimpleTypeUnion_t3943_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11049,37 +11049,37 @@ static bool XmlSchemaSimpleTypeUnion_t3705_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaSimpleTypeUnion_t3705_0_0_0;
-extern const Il2CppType XmlSchemaSimpleTypeUnion_t3705_1_0_0;
-struct XmlSchemaSimpleTypeUnion_t3705;
-const Il2CppTypeDefinitionMetadata XmlSchemaSimpleTypeUnion_t3705_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaSimpleTypeUnion_t3943_0_0_0;
+extern const Il2CppType XmlSchemaSimpleTypeUnion_t3943_1_0_0;
+struct XmlSchemaSimpleTypeUnion_t3943;
+const Il2CppTypeDefinitionMetadata XmlSchemaSimpleTypeUnion_t3943_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaSimpleTypeContent_t3702_0_0_0/* parent */
-	, XmlSchemaSimpleTypeUnion_t3705_VTable/* vtableMethods */
-	, XmlSchemaSimpleTypeUnion_t3705_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaSimpleTypeContent_t3940_0_0_0/* parent */
+	, XmlSchemaSimpleTypeUnion_t3943_VTable/* vtableMethods */
+	, XmlSchemaSimpleTypeUnion_t3943_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlSchemaSimpleTypeUnion_t3705_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaSimpleTypeUnion_t3943_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaSimpleTypeUnion"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaSimpleTypeUnion_t3705_MethodInfos/* methods */
+	, XmlSchemaSimpleTypeUnion_t3943_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaSimpleTypeUnion_t3705_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaSimpleTypeUnion_t3943_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaSimpleTypeUnion_t3705_0_0_0/* byval_arg */
-	, &XmlSchemaSimpleTypeUnion_t3705_1_0_0/* this_arg */
-	, &XmlSchemaSimpleTypeUnion_t3705_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaSimpleTypeUnion_t3943_0_0_0/* byval_arg */
+	, &XmlSchemaSimpleTypeUnion_t3943_1_0_0/* this_arg */
+	, &XmlSchemaSimpleTypeUnion_t3943_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11089,8 +11089,8 @@ TypeInfo XmlSchemaSimpleTypeUnion_t3705_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaSimpleTypeUnion_t3705)/* instance_size */
-	, sizeof (XmlSchemaSimpleTypeUnion_t3705)/* actualSize */
+	, sizeof (XmlSchemaSimpleTypeUnion_t3943)/* instance_size */
+	, sizeof (XmlSchemaSimpleTypeUnion_t3943)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -11122,16 +11122,16 @@ TypeInfo XmlSchemaSimpleTypeUnion_t3705_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaType
 #include "System_Xml_System_Xml_Schema_XmlSchemaType.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaType
-extern TypeInfo XmlSchemaType_t3687_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaType_t3925_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaType
 #include "System_Xml_System_Xml_Schema_XmlSchemaTypeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaType::.ctor()
-extern const MethodInfo XmlSchemaType__ctor_m11166_MethodInfo = 
+extern const MethodInfo XmlSchemaType__ctor_m11585_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlSchemaType__ctor_m11166/* method */
-	, &XmlSchemaType_t3687_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaType__ctor_m11585/* method */
+	, &XmlSchemaType_t3925_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -11150,12 +11150,12 @@ extern const MethodInfo XmlSchemaType__ctor_m11166_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaType::get_QualifiedName()
-extern const MethodInfo XmlSchemaType_get_QualifiedName_m11167_MethodInfo = 
+extern const MethodInfo XmlSchemaType_get_QualifiedName_m11586_MethodInfo = 
 {
 	"get_QualifiedName"/* name */
-	, (methodPointerType)&XmlSchemaType_get_QualifiedName_m11167/* method */
-	, &XmlSchemaType_t3687_il2cpp_TypeInfo/* declaring_type */
-	, &XmlQualifiedName_t3685_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaType_get_QualifiedName_m11586/* method */
+	, &XmlSchemaType_t3925_il2cpp_TypeInfo/* declaring_type */
+	, &XmlQualifiedName_t3923_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11171,21 +11171,21 @@ extern const MethodInfo XmlSchemaType_get_QualifiedName_m11167_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlQualifiedName_t3685_0_0_0;
-static const ParameterInfo XmlSchemaType_t3687_XmlSchemaType_GetBuiltInSimpleType_m11168_ParameterInfos[] = 
+extern const Il2CppType XmlQualifiedName_t3923_0_0_0;
+static const ParameterInfo XmlSchemaType_t3925_XmlSchemaType_GetBuiltInSimpleType_m11587_ParameterInfos[] = 
 {
-	{"qualifiedName", 0, 134217746, 0, &XmlQualifiedName_t3685_0_0_0},
+	{"qualifiedName", 0, 134217746, 0, &XmlQualifiedName_t3923_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaType::GetBuiltInSimpleType(System.Xml.XmlQualifiedName)
-extern const MethodInfo XmlSchemaType_GetBuiltInSimpleType_m11168_MethodInfo = 
+extern const MethodInfo XmlSchemaType_GetBuiltInSimpleType_m11587_MethodInfo = 
 {
 	"GetBuiltInSimpleType"/* name */
-	, (methodPointerType)&XmlSchemaType_GetBuiltInSimpleType_m11168/* method */
-	, &XmlSchemaType_t3687_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaSimpleType_t3694_0_0_0/* return_type */
+	, (methodPointerType)&XmlSchemaType_GetBuiltInSimpleType_m11587/* method */
+	, &XmlSchemaType_t3925_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaSimpleType_t3932_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlSchemaType_t3687_XmlSchemaType_GetBuiltInSimpleType_m11168_ParameterInfos/* parameters */
+	, XmlSchemaType_t3925_XmlSchemaType_GetBuiltInSimpleType_m11587_ParameterInfos/* parameters */
 	, 35/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11199,37 +11199,37 @@ extern const MethodInfo XmlSchemaType_GetBuiltInSimpleType_m11168_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaType_t3687_MethodInfos[] =
+static const MethodInfo* XmlSchemaType_t3925_MethodInfos[] =
 {
-	&XmlSchemaType__ctor_m11166_MethodInfo,
-	&XmlSchemaType_get_QualifiedName_m11167_MethodInfo,
-	&XmlSchemaType_GetBuiltInSimpleType_m11168_MethodInfo,
+	&XmlSchemaType__ctor_m11585_MethodInfo,
+	&XmlSchemaType_get_QualifiedName_m11586_MethodInfo,
+	&XmlSchemaType_GetBuiltInSimpleType_m11587_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlSchemaType_get_QualifiedName_m11167_MethodInfo;
-static const PropertyInfo XmlSchemaType_t3687____QualifiedName_PropertyInfo = 
+extern const MethodInfo XmlSchemaType_get_QualifiedName_m11586_MethodInfo;
+static const PropertyInfo XmlSchemaType_t3925____QualifiedName_PropertyInfo = 
 {
-	&XmlSchemaType_t3687_il2cpp_TypeInfo/* parent */
+	&XmlSchemaType_t3925_il2cpp_TypeInfo/* parent */
 	, "QualifiedName"/* name */
-	, &XmlSchemaType_get_QualifiedName_m11167_MethodInfo/* get */
+	, &XmlSchemaType_get_QualifiedName_m11586_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 36/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlSchemaType_t3687_PropertyInfos[] =
+static const PropertyInfo* XmlSchemaType_t3925_PropertyInfos[] =
 {
-	&XmlSchemaType_t3687____QualifiedName_PropertyInfo,
+	&XmlSchemaType_t3925____QualifiedName_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaType_t3687_VTable[] =
+static const Il2CppMethodReference XmlSchemaType_t3925_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaType_t3687_VTableIsGenericMethod[] =
+static bool XmlSchemaType_t3925_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11237,36 +11237,36 @@ static bool XmlSchemaType_t3687_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaType_t3687_1_0_0;
-struct XmlSchemaType_t3687;
-const Il2CppTypeDefinitionMetadata XmlSchemaType_t3687_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaType_t3925_1_0_0;
+struct XmlSchemaType_t3925;
+const Il2CppTypeDefinitionMetadata XmlSchemaType_t3925_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &XmlSchemaAnnotated_t3682_0_0_0/* parent */
-	, XmlSchemaType_t3687_VTable/* vtableMethods */
-	, XmlSchemaType_t3687_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &XmlSchemaAnnotated_t3920_0_0_0/* parent */
+	, XmlSchemaType_t3925_VTable/* vtableMethods */
+	, XmlSchemaType_t3925_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 172/* fieldStart */
 
 };
-TypeInfo XmlSchemaType_t3687_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaType_t3925_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaType"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaType_t3687_MethodInfos/* methods */
-	, XmlSchemaType_t3687_PropertyInfos/* properties */
+	, XmlSchemaType_t3925_MethodInfos/* methods */
+	, XmlSchemaType_t3925_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlSchemaType_t3687_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaType_t3925_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaType_t3687_0_0_0/* byval_arg */
-	, &XmlSchemaType_t3687_1_0_0/* this_arg */
-	, &XmlSchemaType_t3687_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaType_t3925_0_0_0/* byval_arg */
+	, &XmlSchemaType_t3925_1_0_0/* this_arg */
+	, &XmlSchemaType_t3925_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11276,11 +11276,11 @@ TypeInfo XmlSchemaType_t3687_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaType_t3687)/* instance_size */
-	, sizeof (XmlSchemaType_t3687)/* actualSize */
+	, sizeof (XmlSchemaType_t3925)/* instance_size */
+	, sizeof (XmlSchemaType_t3925)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlSchemaType_t3687_StaticFields)/* static_fields_size */
+	, sizeof(XmlSchemaType_t3925_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -11309,16 +11309,16 @@ TypeInfo XmlSchemaType_t3687_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaUtil
 #include "System_Xml_System_Xml_Schema_XmlSchemaUtil.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaUtil
-extern TypeInfo XmlSchemaUtil_t3706_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaUtil_t3944_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaUtil
 #include "System_Xml_System_Xml_Schema_XmlSchemaUtilMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Schema.XmlSchemaUtil::.cctor()
-extern const MethodInfo XmlSchemaUtil__cctor_m11169_MethodInfo = 
+extern const MethodInfo XmlSchemaUtil__cctor_m11588_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&XmlSchemaUtil__cctor_m11169/* method */
-	, &XmlSchemaUtil_t3706_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlSchemaUtil__cctor_m11588/* method */
+	, &XmlSchemaUtil_t3944_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -11335,19 +11335,19 @@ extern const MethodInfo XmlSchemaUtil__cctor_m11169_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlSchemaUtil_t3706_MethodInfos[] =
+static const MethodInfo* XmlSchemaUtil_t3944_MethodInfos[] =
 {
-	&XmlSchemaUtil__cctor_m11169_MethodInfo,
+	&XmlSchemaUtil__cctor_m11588_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaUtil_t3706_VTable[] =
+static const Il2CppMethodReference XmlSchemaUtil_t3944_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlSchemaUtil_t3706_VTableIsGenericMethod[] =
+static bool XmlSchemaUtil_t3944_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11355,37 +11355,37 @@ static bool XmlSchemaUtil_t3706_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaUtil_t3706_0_0_0;
-extern const Il2CppType XmlSchemaUtil_t3706_1_0_0;
-struct XmlSchemaUtil_t3706;
-const Il2CppTypeDefinitionMetadata XmlSchemaUtil_t3706_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaUtil_t3944_0_0_0;
+extern const Il2CppType XmlSchemaUtil_t3944_1_0_0;
+struct XmlSchemaUtil_t3944;
+const Il2CppTypeDefinitionMetadata XmlSchemaUtil_t3944_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlSchemaUtil_t3706_VTable/* vtableMethods */
-	, XmlSchemaUtil_t3706_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaUtil_t3944_VTable/* vtableMethods */
+	, XmlSchemaUtil_t3944_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 178/* fieldStart */
 
 };
-TypeInfo XmlSchemaUtil_t3706_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaUtil_t3944_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaUtil"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaUtil_t3706_MethodInfos/* methods */
+	, XmlSchemaUtil_t3944_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlSchemaUtil_t3706_il2cpp_TypeInfo/* element_class */
+	, &XmlSchemaUtil_t3944_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaUtil_t3706_0_0_0/* byval_arg */
-	, &XmlSchemaUtil_t3706_1_0_0/* this_arg */
-	, &XmlSchemaUtil_t3706_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaUtil_t3944_0_0_0/* byval_arg */
+	, &XmlSchemaUtil_t3944_1_0_0/* this_arg */
+	, &XmlSchemaUtil_t3944_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11395,11 +11395,11 @@ TypeInfo XmlSchemaUtil_t3706_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaUtil_t3706)/* instance_size */
-	, sizeof (XmlSchemaUtil_t3706)/* actualSize */
+	, sizeof (XmlSchemaUtil_t3944)/* instance_size */
+	, sizeof (XmlSchemaUtil_t3944)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(XmlSchemaUtil_t3706_StaticFields)/* static_fields_size */
+	, sizeof(XmlSchemaUtil_t3944_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 0/* flags */
@@ -11428,14 +11428,14 @@ TypeInfo XmlSchemaUtil_t3706_il2cpp_TypeInfo =
 // System.Xml.Schema.XmlSchemaValidity
 #include "System_Xml_System_Xml_Schema_XmlSchemaValidity.h"
 // Metadata Definition System.Xml.Schema.XmlSchemaValidity
-extern TypeInfo XmlSchemaValidity_t3707_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaValidity_t3945_il2cpp_TypeInfo;
 // System.Xml.Schema.XmlSchemaValidity
 #include "System_Xml_System_Xml_Schema_XmlSchemaValidityMethodDeclarations.h"
-static const MethodInfo* XmlSchemaValidity_t3707_MethodInfos[] =
+static const MethodInfo* XmlSchemaValidity_t3945_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference XmlSchemaValidity_t3707_VTable[] =
+static const Il2CppMethodReference XmlSchemaValidity_t3945_VTable[] =
 {
 	&Enum_Equals_m130_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
@@ -11461,7 +11461,7 @@ static const Il2CppMethodReference XmlSchemaValidity_t3707_VTable[] =
 	&Enum_CompareTo_m150_MethodInfo,
 	&Enum_GetTypeCode_m151_MethodInfo,
 };
-static bool XmlSchemaValidity_t3707_VTableIsGenericMethod[] =
+static bool XmlSchemaValidity_t3945_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11487,42 +11487,42 @@ static bool XmlSchemaValidity_t3707_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlSchemaValidity_t3707_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlSchemaValidity_t3945_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t41_0_0_0, 4},
 	{ &IConvertible_t42_0_0_0, 5},
 	{ &IComparable_t43_0_0_0, 21},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlSchemaValidity_t3707_1_0_0;
-const Il2CppTypeDefinitionMetadata XmlSchemaValidity_t3707_DefinitionMetadata = 
+extern const Il2CppType XmlSchemaValidity_t3945_1_0_0;
+const Il2CppTypeDefinitionMetadata XmlSchemaValidity_t3945_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlSchemaValidity_t3707_InterfacesOffsets/* interfaceOffsets */
+	, XmlSchemaValidity_t3945_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t44_0_0_0/* parent */
-	, XmlSchemaValidity_t3707_VTable/* vtableMethods */
-	, XmlSchemaValidity_t3707_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlSchemaValidity_t3945_VTable/* vtableMethods */
+	, XmlSchemaValidity_t3945_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 182/* fieldStart */
 
 };
-TypeInfo XmlSchemaValidity_t3707_il2cpp_TypeInfo = 
+TypeInfo XmlSchemaValidity_t3945_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlSchemaValidity"/* name */
 	, "System.Xml.Schema"/* namespaze */
-	, XmlSchemaValidity_t3707_MethodInfos/* methods */
+	, XmlSchemaValidity_t3945_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t29_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlSchemaValidity_t3707_0_0_0/* byval_arg */
-	, &XmlSchemaValidity_t3707_1_0_0/* this_arg */
-	, &XmlSchemaValidity_t3707_DefinitionMetadata/* definitionMetadata */
+	, &XmlSchemaValidity_t3945_0_0_0/* byval_arg */
+	, &XmlSchemaValidity_t3945_1_0_0/* this_arg */
+	, &XmlSchemaValidity_t3945_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11532,8 +11532,8 @@ TypeInfo XmlSchemaValidity_t3707_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlSchemaValidity_t3707)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (XmlSchemaValidity_t3707)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (XmlSchemaValidity_t3945)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (XmlSchemaValidity_t3945)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -11565,24 +11565,24 @@ TypeInfo XmlSchemaValidity_t3707_il2cpp_TypeInfo =
 // System.Xml.Serialization.CodeIdentifier
 #include "System_Xml_System_Xml_Serialization_CodeIdentifier.h"
 // Metadata Definition System.Xml.Serialization.CodeIdentifier
-extern TypeInfo CodeIdentifier_t3708_il2cpp_TypeInfo;
+extern TypeInfo CodeIdentifier_t3946_il2cpp_TypeInfo;
 // System.Xml.Serialization.CodeIdentifier
 #include "System_Xml_System_Xml_Serialization_CodeIdentifierMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo CodeIdentifier_t3708_CodeIdentifier_MakePascal_m11170_ParameterInfos[] = 
+static const ParameterInfo CodeIdentifier_t3946_CodeIdentifier_MakePascal_m11589_ParameterInfos[] = 
 {
 	{"identifier", 0, 134217747, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.CodeIdentifier::MakePascal(System.String)
-extern const MethodInfo CodeIdentifier_MakePascal_m11170_MethodInfo = 
+extern const MethodInfo CodeIdentifier_MakePascal_m11589_MethodInfo = 
 {
 	"MakePascal"/* name */
-	, (methodPointerType)&CodeIdentifier_MakePascal_m11170/* method */
-	, &CodeIdentifier_t3708_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CodeIdentifier_MakePascal_m11589/* method */
+	, &CodeIdentifier_t3946_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, CodeIdentifier_t3708_CodeIdentifier_MakePascal_m11170_ParameterInfos/* parameters */
+	, CodeIdentifier_t3946_CodeIdentifier_MakePascal_m11589_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11597,20 +11597,20 @@ extern const MethodInfo CodeIdentifier_MakePascal_m11170_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo CodeIdentifier_t3708_CodeIdentifier_MakeValid_m11171_ParameterInfos[] = 
+static const ParameterInfo CodeIdentifier_t3946_CodeIdentifier_MakeValid_m11590_ParameterInfos[] = 
 {
 	{"identifier", 0, 134217748, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.CodeIdentifier::MakeValid(System.String)
-extern const MethodInfo CodeIdentifier_MakeValid_m11171_MethodInfo = 
+extern const MethodInfo CodeIdentifier_MakeValid_m11590_MethodInfo = 
 {
 	"MakeValid"/* name */
-	, (methodPointerType)&CodeIdentifier_MakeValid_m11171/* method */
-	, &CodeIdentifier_t3708_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&CodeIdentifier_MakeValid_m11590/* method */
+	, &CodeIdentifier_t3946_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, CodeIdentifier_t3708_CodeIdentifier_MakeValid_m11171_ParameterInfos/* parameters */
+	, CodeIdentifier_t3946_CodeIdentifier_MakeValid_m11590_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11624,20 +11624,20 @@ extern const MethodInfo CodeIdentifier_MakeValid_m11171_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* CodeIdentifier_t3708_MethodInfos[] =
+static const MethodInfo* CodeIdentifier_t3946_MethodInfos[] =
 {
-	&CodeIdentifier_MakePascal_m11170_MethodInfo,
-	&CodeIdentifier_MakeValid_m11171_MethodInfo,
+	&CodeIdentifier_MakePascal_m11589_MethodInfo,
+	&CodeIdentifier_MakeValid_m11590_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference CodeIdentifier_t3708_VTable[] =
+static const Il2CppMethodReference CodeIdentifier_t3946_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool CodeIdentifier_t3708_VTableIsGenericMethod[] =
+static bool CodeIdentifier_t3946_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11645,37 +11645,37 @@ static bool CodeIdentifier_t3708_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType CodeIdentifier_t3708_0_0_0;
-extern const Il2CppType CodeIdentifier_t3708_1_0_0;
-struct CodeIdentifier_t3708;
-const Il2CppTypeDefinitionMetadata CodeIdentifier_t3708_DefinitionMetadata = 
+extern const Il2CppType CodeIdentifier_t3946_0_0_0;
+extern const Il2CppType CodeIdentifier_t3946_1_0_0;
+struct CodeIdentifier_t3946;
+const Il2CppTypeDefinitionMetadata CodeIdentifier_t3946_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, CodeIdentifier_t3708_VTable/* vtableMethods */
-	, CodeIdentifier_t3708_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, CodeIdentifier_t3946_VTable/* vtableMethods */
+	, CodeIdentifier_t3946_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo CodeIdentifier_t3708_il2cpp_TypeInfo = 
+TypeInfo CodeIdentifier_t3946_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "CodeIdentifier"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, CodeIdentifier_t3708_MethodInfos/* methods */
+	, CodeIdentifier_t3946_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &CodeIdentifier_t3708_il2cpp_TypeInfo/* element_class */
+	, &CodeIdentifier_t3946_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &CodeIdentifier_t3708_0_0_0/* byval_arg */
-	, &CodeIdentifier_t3708_1_0_0/* this_arg */
-	, &CodeIdentifier_t3708_DefinitionMetadata/* definitionMetadata */
+	, &CodeIdentifier_t3946_0_0_0/* byval_arg */
+	, &CodeIdentifier_t3946_1_0_0/* this_arg */
+	, &CodeIdentifier_t3946_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11685,8 +11685,8 @@ TypeInfo CodeIdentifier_t3708_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (CodeIdentifier_t3708)/* instance_size */
-	, sizeof (CodeIdentifier_t3708)/* actualSize */
+	, sizeof (CodeIdentifier_t3946)/* instance_size */
+	, sizeof (CodeIdentifier_t3946)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -11716,15 +11716,15 @@ TypeInfo CodeIdentifier_t3708_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Xml.Serialization.IXmlSerializable
-extern TypeInfo IXmlSerializable_t3923_il2cpp_TypeInfo;
+extern TypeInfo IXmlSerializable_t4161_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchema System.Xml.Serialization.IXmlSerializable::GetSchema()
-extern const MethodInfo IXmlSerializable_GetSchema_m12905_MethodInfo = 
+extern const MethodInfo IXmlSerializable_GetSchema_m13323_MethodInfo = 
 {
 	"GetSchema"/* name */
 	, NULL/* method */
-	, &IXmlSerializable_t3923_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchema_t3680_0_0_0/* return_type */
+	, &IXmlSerializable_t4161_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchema_t3918_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11740,22 +11740,22 @@ extern const MethodInfo IXmlSerializable_GetSchema_m12905_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3760_0_0_0;
-extern const Il2CppType XmlReader_t3760_0_0_0;
-static const ParameterInfo IXmlSerializable_t3923_IXmlSerializable_ReadXml_m12906_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3998_0_0_0;
+extern const Il2CppType XmlReader_t3998_0_0_0;
+static const ParameterInfo IXmlSerializable_t4161_IXmlSerializable_ReadXml_m13324_ParameterInfos[] = 
 {
-	{"reader", 0, 134217749, 0, &XmlReader_t3760_0_0_0},
+	{"reader", 0, 134217749, 0, &XmlReader_t3998_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader)
-extern const MethodInfo IXmlSerializable_ReadXml_m12906_MethodInfo = 
+extern const MethodInfo IXmlSerializable_ReadXml_m13324_MethodInfo = 
 {
 	"ReadXml"/* name */
 	, NULL/* method */
-	, &IXmlSerializable_t3923_il2cpp_TypeInfo/* declaring_type */
+	, &IXmlSerializable_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IXmlSerializable_t3923_IXmlSerializable_ReadXml_m12906_ParameterInfos/* parameters */
+	, IXmlSerializable_t4161_IXmlSerializable_ReadXml_m13324_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -11769,22 +11769,22 @@ extern const MethodInfo IXmlSerializable_ReadXml_m12906_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlWriter_t3770_0_0_0;
-extern const Il2CppType XmlWriter_t3770_0_0_0;
-static const ParameterInfo IXmlSerializable_t3923_IXmlSerializable_WriteXml_m12907_ParameterInfos[] = 
+extern const Il2CppType XmlWriter_t4008_0_0_0;
+extern const Il2CppType XmlWriter_t4008_0_0_0;
+static const ParameterInfo IXmlSerializable_t4161_IXmlSerializable_WriteXml_m13325_ParameterInfos[] = 
 {
-	{"writer", 0, 134217750, 0, &XmlWriter_t3770_0_0_0},
+	{"writer", 0, 134217750, 0, &XmlWriter_t4008_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter)
-extern const MethodInfo IXmlSerializable_WriteXml_m12907_MethodInfo = 
+extern const MethodInfo IXmlSerializable_WriteXml_m13325_MethodInfo = 
 {
 	"WriteXml"/* name */
 	, NULL/* method */
-	, &IXmlSerializable_t3923_il2cpp_TypeInfo/* declaring_type */
+	, &IXmlSerializable_t4161_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, IXmlSerializable_t3923_IXmlSerializable_WriteXml_m12907_ParameterInfos/* parameters */
+	, IXmlSerializable_t4161_IXmlSerializable_WriteXml_m13325_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -11798,18 +11798,18 @@ extern const MethodInfo IXmlSerializable_WriteXml_m12907_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IXmlSerializable_t3923_MethodInfos[] =
+static const MethodInfo* IXmlSerializable_t4161_MethodInfos[] =
 {
-	&IXmlSerializable_GetSchema_m12905_MethodInfo,
-	&IXmlSerializable_ReadXml_m12906_MethodInfo,
-	&IXmlSerializable_WriteXml_m12907_MethodInfo,
+	&IXmlSerializable_GetSchema_m13323_MethodInfo,
+	&IXmlSerializable_ReadXml_m13324_MethodInfo,
+	&IXmlSerializable_WriteXml_m13325_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType IXmlSerializable_t3923_0_0_0;
-extern const Il2CppType IXmlSerializable_t3923_1_0_0;
-struct IXmlSerializable_t3923;
-const Il2CppTypeDefinitionMetadata IXmlSerializable_t3923_DefinitionMetadata = 
+extern const Il2CppType IXmlSerializable_t4161_0_0_0;
+extern const Il2CppType IXmlSerializable_t4161_1_0_0;
+struct IXmlSerializable_t4161;
+const Il2CppTypeDefinitionMetadata IXmlSerializable_t4161_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -11822,21 +11822,21 @@ const Il2CppTypeDefinitionMetadata IXmlSerializable_t3923_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IXmlSerializable_t3923_il2cpp_TypeInfo = 
+TypeInfo IXmlSerializable_t4161_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IXmlSerializable"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, IXmlSerializable_t3923_MethodInfos/* methods */
+	, IXmlSerializable_t4161_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IXmlSerializable_t3923_il2cpp_TypeInfo/* element_class */
+	, &IXmlSerializable_t4161_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IXmlSerializable_t3923_0_0_0/* byval_arg */
-	, &IXmlSerializable_t3923_1_0_0/* this_arg */
-	, &IXmlSerializable_t3923_DefinitionMetadata/* definitionMetadata */
+	, &IXmlSerializable_t4161_0_0_0/* byval_arg */
+	, &IXmlSerializable_t4161_1_0_0/* this_arg */
+	, &IXmlSerializable_t4161_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11879,29 +11879,29 @@ TypeInfo IXmlSerializable_t3923_il2cpp_TypeInfo =
 // System.Xml.Serialization.KeyHelper
 #include "System_Xml_System_Xml_Serialization_KeyHelper.h"
 // Metadata Definition System.Xml.Serialization.KeyHelper
-extern TypeInfo KeyHelper_t3709_il2cpp_TypeInfo;
+extern TypeInfo KeyHelper_t3947_il2cpp_TypeInfo;
 // System.Xml.Serialization.KeyHelper
 #include "System_Xml_System_Xml_Serialization_KeyHelperMethodDeclarations.h"
-extern const Il2CppType StringBuilder_t640_0_0_0;
-extern const Il2CppType StringBuilder_t640_0_0_0;
+extern const Il2CppType StringBuilder_t696_0_0_0;
+extern const Il2CppType StringBuilder_t696_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo KeyHelper_t3709_KeyHelper_AddField_m11172_ParameterInfos[] = 
+static const ParameterInfo KeyHelper_t3947_KeyHelper_AddField_m11591_ParameterInfos[] = 
 {
-	{"sb", 0, 134217751, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217751, 0, &StringBuilder_t696_0_0_0},
 	{"n", 1, 134217752, 0, &Int32_t29_0_0_0},
 	{"val", 2, 134217753, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.KeyHelper::AddField(System.Text.StringBuilder,System.Int32,System.String)
-extern const MethodInfo KeyHelper_AddField_m11172_MethodInfo = 
+extern const MethodInfo KeyHelper_AddField_m11591_MethodInfo = 
 {
 	"AddField"/* name */
-	, (methodPointerType)&KeyHelper_AddField_m11172/* method */
-	, &KeyHelper_t3709_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&KeyHelper_AddField_m11591/* method */
+	, &KeyHelper_t3947_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Object_t/* invoker_method */
-	, KeyHelper_t3709_KeyHelper_AddField_m11172_ParameterInfos/* parameters */
+	, KeyHelper_t3947_KeyHelper_AddField_m11591_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11915,27 +11915,27 @@ extern const MethodInfo KeyHelper_AddField_m11172_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
+extern const Il2CppType StringBuilder_t696_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo KeyHelper_t3709_KeyHelper_AddField_m11173_ParameterInfos[] = 
+static const ParameterInfo KeyHelper_t3947_KeyHelper_AddField_m11592_ParameterInfos[] = 
 {
-	{"sb", 0, 134217754, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217754, 0, &StringBuilder_t696_0_0_0},
 	{"n", 1, 134217755, 0, &Int32_t29_0_0_0},
 	{"val", 2, 134217756, 0, &String_t_0_0_0},
 	{"def", 3, 134217757, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.KeyHelper::AddField(System.Text.StringBuilder,System.Int32,System.String,System.String)
-extern const MethodInfo KeyHelper_AddField_m11173_MethodInfo = 
+extern const MethodInfo KeyHelper_AddField_m11592_MethodInfo = 
 {
 	"AddField"/* name */
-	, (methodPointerType)&KeyHelper_AddField_m11173/* method */
-	, &KeyHelper_t3709_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&KeyHelper_AddField_m11592/* method */
+	, &KeyHelper_t3947_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Object_t_Object_t/* invoker_method */
-	, KeyHelper_t3709_KeyHelper_AddField_m11173_ParameterInfos/* parameters */
+	, KeyHelper_t3947_KeyHelper_AddField_m11592_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11949,25 +11949,25 @@ extern const MethodInfo KeyHelper_AddField_m11173_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
+extern const Il2CppType StringBuilder_t696_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo KeyHelper_t3709_KeyHelper_AddField_m11174_ParameterInfos[] = 
+static const ParameterInfo KeyHelper_t3947_KeyHelper_AddField_m11593_ParameterInfos[] = 
 {
-	{"sb", 0, 134217758, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217758, 0, &StringBuilder_t696_0_0_0},
 	{"n", 1, 134217759, 0, &Int32_t29_0_0_0},
 	{"val", 2, 134217760, 0, &Boolean_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.KeyHelper::AddField(System.Text.StringBuilder,System.Int32,System.Boolean)
-extern const MethodInfo KeyHelper_AddField_m11174_MethodInfo = 
+extern const MethodInfo KeyHelper_AddField_m11593_MethodInfo = 
 {
 	"AddField"/* name */
-	, (methodPointerType)&KeyHelper_AddField_m11174/* method */
-	, &KeyHelper_t3709_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&KeyHelper_AddField_m11593/* method */
+	, &KeyHelper_t3947_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_SByte_t36/* invoker_method */
-	, KeyHelper_t3709_KeyHelper_AddField_m11174_ParameterInfos/* parameters */
+	, KeyHelper_t3947_KeyHelper_AddField_m11593_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -11981,27 +11981,27 @@ extern const MethodInfo KeyHelper_AddField_m11174_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
+extern const Il2CppType StringBuilder_t696_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo KeyHelper_t3709_KeyHelper_AddField_m11175_ParameterInfos[] = 
+static const ParameterInfo KeyHelper_t3947_KeyHelper_AddField_m11594_ParameterInfos[] = 
 {
-	{"sb", 0, 134217761, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217761, 0, &StringBuilder_t696_0_0_0},
 	{"n", 1, 134217762, 0, &Int32_t29_0_0_0},
 	{"val", 2, 134217763, 0, &Boolean_t30_0_0_0},
 	{"def", 3, 134217764, 0, &Boolean_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_SByte_t36_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.KeyHelper::AddField(System.Text.StringBuilder,System.Int32,System.Boolean,System.Boolean)
-extern const MethodInfo KeyHelper_AddField_m11175_MethodInfo = 
+extern const MethodInfo KeyHelper_AddField_m11594_MethodInfo = 
 {
 	"AddField"/* name */
-	, (methodPointerType)&KeyHelper_AddField_m11175/* method */
-	, &KeyHelper_t3709_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&KeyHelper_AddField_m11594/* method */
+	, &KeyHelper_t3947_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_SByte_t36_SByte_t36/* invoker_method */
-	, KeyHelper_t3709_KeyHelper_AddField_m11175_ParameterInfos/* parameters */
+	, KeyHelper_t3947_KeyHelper_AddField_m11594_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -12015,27 +12015,27 @@ extern const MethodInfo KeyHelper_AddField_m11175_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
+extern const Il2CppType StringBuilder_t696_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-static const ParameterInfo KeyHelper_t3709_KeyHelper_AddField_m11176_ParameterInfos[] = 
+static const ParameterInfo KeyHelper_t3947_KeyHelper_AddField_m11595_ParameterInfos[] = 
 {
-	{"sb", 0, 134217765, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217765, 0, &StringBuilder_t696_0_0_0},
 	{"n", 1, 134217766, 0, &Int32_t29_0_0_0},
 	{"val", 2, 134217767, 0, &Int32_t29_0_0_0},
 	{"def", 3, 134217768, 0, &Int32_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Int32_t29_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.KeyHelper::AddField(System.Text.StringBuilder,System.Int32,System.Int32,System.Int32)
-extern const MethodInfo KeyHelper_AddField_m11176_MethodInfo = 
+extern const MethodInfo KeyHelper_AddField_m11595_MethodInfo = 
 {
 	"AddField"/* name */
-	, (methodPointerType)&KeyHelper_AddField_m11176/* method */
-	, &KeyHelper_t3709_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&KeyHelper_AddField_m11595/* method */
+	, &KeyHelper_t3947_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Int32_t29_Int32_t29/* invoker_method */
-	, KeyHelper_t3709_KeyHelper_AddField_m11176_ParameterInfos/* parameters */
+	, KeyHelper_t3947_KeyHelper_AddField_m11595_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -12049,26 +12049,26 @@ extern const MethodInfo KeyHelper_AddField_m11176_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
+extern const Il2CppType StringBuilder_t696_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo KeyHelper_t3709_KeyHelper_AddField_m11177_ParameterInfos[] = 
+static const ParameterInfo KeyHelper_t3947_KeyHelper_AddField_m11596_ParameterInfos[] = 
 {
-	{"sb", 0, 134217769, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217769, 0, &StringBuilder_t696_0_0_0},
 	{"n", 1, 134217770, 0, &Int32_t29_0_0_0},
 	{"val", 2, 134217771, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.KeyHelper::AddField(System.Text.StringBuilder,System.Int32,System.Type)
-extern const MethodInfo KeyHelper_AddField_m11177_MethodInfo = 
+extern const MethodInfo KeyHelper_AddField_m11596_MethodInfo = 
 {
 	"AddField"/* name */
-	, (methodPointerType)&KeyHelper_AddField_m11177/* method */
-	, &KeyHelper_t3709_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&KeyHelper_AddField_m11596/* method */
+	, &KeyHelper_t3947_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Object_t/* invoker_method */
-	, KeyHelper_t3709_KeyHelper_AddField_m11177_ParameterInfos/* parameters */
+	, KeyHelper_t3947_KeyHelper_AddField_m11596_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -12082,24 +12082,24 @@ extern const MethodInfo KeyHelper_AddField_m11177_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* KeyHelper_t3709_MethodInfos[] =
+static const MethodInfo* KeyHelper_t3947_MethodInfos[] =
 {
-	&KeyHelper_AddField_m11172_MethodInfo,
-	&KeyHelper_AddField_m11173_MethodInfo,
-	&KeyHelper_AddField_m11174_MethodInfo,
-	&KeyHelper_AddField_m11175_MethodInfo,
-	&KeyHelper_AddField_m11176_MethodInfo,
-	&KeyHelper_AddField_m11177_MethodInfo,
+	&KeyHelper_AddField_m11591_MethodInfo,
+	&KeyHelper_AddField_m11592_MethodInfo,
+	&KeyHelper_AddField_m11593_MethodInfo,
+	&KeyHelper_AddField_m11594_MethodInfo,
+	&KeyHelper_AddField_m11595_MethodInfo,
+	&KeyHelper_AddField_m11596_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference KeyHelper_t3709_VTable[] =
+static const Il2CppMethodReference KeyHelper_t3947_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool KeyHelper_t3709_VTableIsGenericMethod[] =
+static bool KeyHelper_t3947_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12107,37 +12107,37 @@ static bool KeyHelper_t3709_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType KeyHelper_t3709_0_0_0;
-extern const Il2CppType KeyHelper_t3709_1_0_0;
-struct KeyHelper_t3709;
-const Il2CppTypeDefinitionMetadata KeyHelper_t3709_DefinitionMetadata = 
+extern const Il2CppType KeyHelper_t3947_0_0_0;
+extern const Il2CppType KeyHelper_t3947_1_0_0;
+struct KeyHelper_t3947;
+const Il2CppTypeDefinitionMetadata KeyHelper_t3947_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, KeyHelper_t3709_VTable/* vtableMethods */
-	, KeyHelper_t3709_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, KeyHelper_t3947_VTable/* vtableMethods */
+	, KeyHelper_t3947_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo KeyHelper_t3709_il2cpp_TypeInfo = 
+TypeInfo KeyHelper_t3947_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "KeyHelper"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, KeyHelper_t3709_MethodInfos/* methods */
+	, KeyHelper_t3947_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &KeyHelper_t3709_il2cpp_TypeInfo/* element_class */
+	, &KeyHelper_t3947_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &KeyHelper_t3709_0_0_0/* byval_arg */
-	, &KeyHelper_t3709_1_0_0/* this_arg */
-	, &KeyHelper_t3709_DefinitionMetadata/* definitionMetadata */
+	, &KeyHelper_t3947_0_0_0/* byval_arg */
+	, &KeyHelper_t3947_1_0_0/* this_arg */
+	, &KeyHelper_t3947_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12147,8 +12147,8 @@ TypeInfo KeyHelper_t3709_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (KeyHelper_t3709)/* instance_size */
-	, sizeof (KeyHelper_t3709)/* actualSize */
+	, sizeof (KeyHelper_t3947)/* instance_size */
+	, sizeof (KeyHelper_t3947)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12180,16 +12180,16 @@ TypeInfo KeyHelper_t3709_il2cpp_TypeInfo =
 // System.Xml.Serialization.ReflectionHelper
 #include "System_Xml_System_Xml_Serialization_ReflectionHelper.h"
 // Metadata Definition System.Xml.Serialization.ReflectionHelper
-extern TypeInfo ReflectionHelper_t3712_il2cpp_TypeInfo;
+extern TypeInfo ReflectionHelper_t3950_il2cpp_TypeInfo;
 // System.Xml.Serialization.ReflectionHelper
 #include "System_Xml_System_Xml_Serialization_ReflectionHelperMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.ReflectionHelper::.ctor()
-extern const MethodInfo ReflectionHelper__ctor_m11178_MethodInfo = 
+extern const MethodInfo ReflectionHelper__ctor_m11597_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ReflectionHelper__ctor_m11178/* method */
-	, &ReflectionHelper_t3712_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReflectionHelper__ctor_m11597/* method */
+	, &ReflectionHelper_t3950_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -12208,11 +12208,11 @@ extern const MethodInfo ReflectionHelper__ctor_m11178_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.ReflectionHelper::.cctor()
-extern const MethodInfo ReflectionHelper__cctor_m11179_MethodInfo = 
+extern const MethodInfo ReflectionHelper__cctor_m11598_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ReflectionHelper__cctor_m11179/* method */
-	, &ReflectionHelper_t3712_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReflectionHelper__cctor_m11598/* method */
+	, &ReflectionHelper_t3950_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -12229,26 +12229,26 @@ extern const MethodInfo ReflectionHelper__cctor_m11179_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlTypeMapping_t3765_0_0_0;
-extern const Il2CppType XmlTypeMapping_t3765_0_0_0;
+extern const Il2CppType XmlTypeMapping_t4003_0_0_0;
+extern const Il2CppType XmlTypeMapping_t4003_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ReflectionHelper_t3712_ReflectionHelper_RegisterSchemaType_m11180_ParameterInfos[] = 
+static const ParameterInfo ReflectionHelper_t3950_ReflectionHelper_RegisterSchemaType_m11599_ParameterInfos[] = 
 {
-	{"map", 0, 134217772, 0, &XmlTypeMapping_t3765_0_0_0},
+	{"map", 0, 134217772, 0, &XmlTypeMapping_t4003_0_0_0},
 	{"xmlType", 1, 134217773, 0, &String_t_0_0_0},
 	{"ns", 2, 134217774, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.ReflectionHelper::RegisterSchemaType(System.Xml.Serialization.XmlTypeMapping,System.String,System.String)
-extern const MethodInfo ReflectionHelper_RegisterSchemaType_m11180_MethodInfo = 
+extern const MethodInfo ReflectionHelper_RegisterSchemaType_m11599_MethodInfo = 
 {
 	"RegisterSchemaType"/* name */
-	, (methodPointerType)&ReflectionHelper_RegisterSchemaType_m11180/* method */
-	, &ReflectionHelper_t3712_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReflectionHelper_RegisterSchemaType_m11599/* method */
+	, &ReflectionHelper_t3950_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t/* invoker_method */
-	, ReflectionHelper_t3712_ReflectionHelper_RegisterSchemaType_m11180_ParameterInfos/* parameters */
+	, ReflectionHelper_t3950_ReflectionHelper_RegisterSchemaType_m11599_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12264,21 +12264,21 @@ extern const MethodInfo ReflectionHelper_RegisterSchemaType_m11180_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ReflectionHelper_t3712_ReflectionHelper_GetRegisteredSchemaType_m11181_ParameterInfos[] = 
+static const ParameterInfo ReflectionHelper_t3950_ReflectionHelper_GetRegisteredSchemaType_m11600_ParameterInfos[] = 
 {
 	{"xmlType", 0, 134217775, 0, &String_t_0_0_0},
 	{"ns", 1, 134217776, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlTypeMapping System.Xml.Serialization.ReflectionHelper::GetRegisteredSchemaType(System.String,System.String)
-extern const MethodInfo ReflectionHelper_GetRegisteredSchemaType_m11181_MethodInfo = 
+extern const MethodInfo ReflectionHelper_GetRegisteredSchemaType_m11600_MethodInfo = 
 {
 	"GetRegisteredSchemaType"/* name */
-	, (methodPointerType)&ReflectionHelper_GetRegisteredSchemaType_m11181/* method */
-	, &ReflectionHelper_t3712_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTypeMapping_t3765_0_0_0/* return_type */
+	, (methodPointerType)&ReflectionHelper_GetRegisteredSchemaType_m11600/* method */
+	, &ReflectionHelper_t3950_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTypeMapping_t4003_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ReflectionHelper_t3712_ReflectionHelper_GetRegisteredSchemaType_m11181_ParameterInfos/* parameters */
+	, ReflectionHelper_t3950_ReflectionHelper_GetRegisteredSchemaType_m11600_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12292,25 +12292,25 @@ extern const MethodInfo ReflectionHelper_GetRegisteredSchemaType_m11181_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlTypeMapping_t3765_0_0_0;
+extern const Il2CppType XmlTypeMapping_t4003_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ReflectionHelper_t3712_ReflectionHelper_RegisterClrType_m11182_ParameterInfos[] = 
+static const ParameterInfo ReflectionHelper_t3950_ReflectionHelper_RegisterClrType_m11601_ParameterInfos[] = 
 {
-	{"map", 0, 134217777, 0, &XmlTypeMapping_t3765_0_0_0},
+	{"map", 0, 134217777, 0, &XmlTypeMapping_t4003_0_0_0},
 	{"type", 1, 134217778, 0, &Type_t_0_0_0},
 	{"ns", 2, 134217779, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.ReflectionHelper::RegisterClrType(System.Xml.Serialization.XmlTypeMapping,System.Type,System.String)
-extern const MethodInfo ReflectionHelper_RegisterClrType_m11182_MethodInfo = 
+extern const MethodInfo ReflectionHelper_RegisterClrType_m11601_MethodInfo = 
 {
 	"RegisterClrType"/* name */
-	, (methodPointerType)&ReflectionHelper_RegisterClrType_m11182/* method */
-	, &ReflectionHelper_t3712_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReflectionHelper_RegisterClrType_m11601/* method */
+	, &ReflectionHelper_t3950_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t/* invoker_method */
-	, ReflectionHelper_t3712_ReflectionHelper_RegisterClrType_m11182_ParameterInfos/* parameters */
+	, ReflectionHelper_t3950_ReflectionHelper_RegisterClrType_m11601_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12326,21 +12326,21 @@ extern const MethodInfo ReflectionHelper_RegisterClrType_m11182_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ReflectionHelper_t3712_ReflectionHelper_GetRegisteredClrType_m11183_ParameterInfos[] = 
+static const ParameterInfo ReflectionHelper_t3950_ReflectionHelper_GetRegisteredClrType_m11602_ParameterInfos[] = 
 {
 	{"type", 0, 134217780, 0, &Type_t_0_0_0},
 	{"ns", 1, 134217781, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlTypeMapping System.Xml.Serialization.ReflectionHelper::GetRegisteredClrType(System.Type,System.String)
-extern const MethodInfo ReflectionHelper_GetRegisteredClrType_m11183_MethodInfo = 
+extern const MethodInfo ReflectionHelper_GetRegisteredClrType_m11602_MethodInfo = 
 {
 	"GetRegisteredClrType"/* name */
-	, (methodPointerType)&ReflectionHelper_GetRegisteredClrType_m11183/* method */
-	, &ReflectionHelper_t3712_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTypeMapping_t3765_0_0_0/* return_type */
+	, (methodPointerType)&ReflectionHelper_GetRegisteredClrType_m11602/* method */
+	, &ReflectionHelper_t3950_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTypeMapping_t4003_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, ReflectionHelper_t3712_ReflectionHelper_GetRegisteredClrType_m11183_ParameterInfos/* parameters */
+	, ReflectionHelper_t3950_ReflectionHelper_GetRegisteredClrType_m11602_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -12356,21 +12356,21 @@ extern const MethodInfo ReflectionHelper_GetRegisteredClrType_m11183_MethodInfo 
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo ReflectionHelper_t3712_ReflectionHelper_CheckSerializableType_m11184_ParameterInfos[] = 
+static const ParameterInfo ReflectionHelper_t3950_ReflectionHelper_CheckSerializableType_m11603_ParameterInfos[] = 
 {
 	{"type", 0, 134217782, 0, &Type_t_0_0_0},
 	{"allowPrivateConstructors", 1, 134217783, 0, &Boolean_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.ReflectionHelper::CheckSerializableType(System.Type,System.Boolean)
-extern const MethodInfo ReflectionHelper_CheckSerializableType_m11184_MethodInfo = 
+extern const MethodInfo ReflectionHelper_CheckSerializableType_m11603_MethodInfo = 
 {
 	"CheckSerializableType"/* name */
-	, (methodPointerType)&ReflectionHelper_CheckSerializableType_m11184/* method */
-	, &ReflectionHelper_t3712_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ReflectionHelper_CheckSerializableType_m11603/* method */
+	, &ReflectionHelper_t3950_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_SByte_t36/* invoker_method */
-	, ReflectionHelper_t3712_ReflectionHelper_CheckSerializableType_m11184_ParameterInfos/* parameters */
+	, ReflectionHelper_t3950_ReflectionHelper_CheckSerializableType_m11603_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -12384,25 +12384,25 @@ extern const MethodInfo ReflectionHelper_CheckSerializableType_m11184_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ReflectionHelper_t3712_MethodInfos[] =
+static const MethodInfo* ReflectionHelper_t3950_MethodInfos[] =
 {
-	&ReflectionHelper__ctor_m11178_MethodInfo,
-	&ReflectionHelper__cctor_m11179_MethodInfo,
-	&ReflectionHelper_RegisterSchemaType_m11180_MethodInfo,
-	&ReflectionHelper_GetRegisteredSchemaType_m11181_MethodInfo,
-	&ReflectionHelper_RegisterClrType_m11182_MethodInfo,
-	&ReflectionHelper_GetRegisteredClrType_m11183_MethodInfo,
-	&ReflectionHelper_CheckSerializableType_m11184_MethodInfo,
+	&ReflectionHelper__ctor_m11597_MethodInfo,
+	&ReflectionHelper__cctor_m11598_MethodInfo,
+	&ReflectionHelper_RegisterSchemaType_m11599_MethodInfo,
+	&ReflectionHelper_GetRegisteredSchemaType_m11600_MethodInfo,
+	&ReflectionHelper_RegisterClrType_m11601_MethodInfo,
+	&ReflectionHelper_GetRegisteredClrType_m11602_MethodInfo,
+	&ReflectionHelper_CheckSerializableType_m11603_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ReflectionHelper_t3712_VTable[] =
+static const Il2CppMethodReference ReflectionHelper_t3950_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool ReflectionHelper_t3712_VTableIsGenericMethod[] =
+static bool ReflectionHelper_t3950_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12410,37 +12410,37 @@ static bool ReflectionHelper_t3712_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType ReflectionHelper_t3712_0_0_0;
-extern const Il2CppType ReflectionHelper_t3712_1_0_0;
-struct ReflectionHelper_t3712;
-const Il2CppTypeDefinitionMetadata ReflectionHelper_t3712_DefinitionMetadata = 
+extern const Il2CppType ReflectionHelper_t3950_0_0_0;
+extern const Il2CppType ReflectionHelper_t3950_1_0_0;
+struct ReflectionHelper_t3950;
+const Il2CppTypeDefinitionMetadata ReflectionHelper_t3950_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ReflectionHelper_t3712_VTable/* vtableMethods */
-	, ReflectionHelper_t3712_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ReflectionHelper_t3950_VTable/* vtableMethods */
+	, ReflectionHelper_t3950_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 186/* fieldStart */
 
 };
-TypeInfo ReflectionHelper_t3712_il2cpp_TypeInfo = 
+TypeInfo ReflectionHelper_t3950_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ReflectionHelper"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, ReflectionHelper_t3712_MethodInfos/* methods */
+	, ReflectionHelper_t3950_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ReflectionHelper_t3712_il2cpp_TypeInfo/* element_class */
+	, &ReflectionHelper_t3950_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ReflectionHelper_t3712_0_0_0/* byval_arg */
-	, &ReflectionHelper_t3712_1_0_0/* this_arg */
-	, &ReflectionHelper_t3712_DefinitionMetadata/* definitionMetadata */
+	, &ReflectionHelper_t3950_0_0_0/* byval_arg */
+	, &ReflectionHelper_t3950_1_0_0/* this_arg */
+	, &ReflectionHelper_t3950_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12450,11 +12450,11 @@ TypeInfo ReflectionHelper_t3712_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ReflectionHelper_t3712)/* instance_size */
-	, sizeof (ReflectionHelper_t3712)/* actualSize */
+	, sizeof (ReflectionHelper_t3950)/* instance_size */
+	, sizeof (ReflectionHelper_t3950)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ReflectionHelper_t3712_StaticFields)/* static_fields_size */
+	, sizeof(ReflectionHelper_t3950_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -12483,14 +12483,14 @@ TypeInfo ReflectionHelper_t3712_il2cpp_TypeInfo =
 // System.Xml.Serialization.SchemaTypes
 #include "System_Xml_System_Xml_Serialization_SchemaTypes.h"
 // Metadata Definition System.Xml.Serialization.SchemaTypes
-extern TypeInfo SchemaTypes_t3713_il2cpp_TypeInfo;
+extern TypeInfo SchemaTypes_t3951_il2cpp_TypeInfo;
 // System.Xml.Serialization.SchemaTypes
 #include "System_Xml_System_Xml_Serialization_SchemaTypesMethodDeclarations.h"
-static const MethodInfo* SchemaTypes_t3713_MethodInfos[] =
+static const MethodInfo* SchemaTypes_t3951_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference SchemaTypes_t3713_VTable[] =
+static const Il2CppMethodReference SchemaTypes_t3951_VTable[] =
 {
 	&Enum_Equals_m130_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
@@ -12516,7 +12516,7 @@ static const Il2CppMethodReference SchemaTypes_t3713_VTable[] =
 	&Enum_CompareTo_m150_MethodInfo,
 	&Enum_GetTypeCode_m151_MethodInfo,
 };
-static bool SchemaTypes_t3713_VTableIsGenericMethod[] =
+static bool SchemaTypes_t3951_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12542,43 +12542,43 @@ static bool SchemaTypes_t3713_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair SchemaTypes_t3713_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair SchemaTypes_t3951_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t41_0_0_0, 4},
 	{ &IConvertible_t42_0_0_0, 5},
 	{ &IComparable_t43_0_0_0, 21},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType SchemaTypes_t3713_0_0_0;
-extern const Il2CppType SchemaTypes_t3713_1_0_0;
-const Il2CppTypeDefinitionMetadata SchemaTypes_t3713_DefinitionMetadata = 
+extern const Il2CppType SchemaTypes_t3951_0_0_0;
+extern const Il2CppType SchemaTypes_t3951_1_0_0;
+const Il2CppTypeDefinitionMetadata SchemaTypes_t3951_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, SchemaTypes_t3713_InterfacesOffsets/* interfaceOffsets */
+	, SchemaTypes_t3951_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t44_0_0_0/* parent */
-	, SchemaTypes_t3713_VTable/* vtableMethods */
-	, SchemaTypes_t3713_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, SchemaTypes_t3951_VTable/* vtableMethods */
+	, SchemaTypes_t3951_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 189/* fieldStart */
 
 };
-TypeInfo SchemaTypes_t3713_il2cpp_TypeInfo = 
+TypeInfo SchemaTypes_t3951_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SchemaTypes"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, SchemaTypes_t3713_MethodInfos/* methods */
+	, SchemaTypes_t3951_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t29_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SchemaTypes_t3713_0_0_0/* byval_arg */
-	, &SchemaTypes_t3713_1_0_0/* this_arg */
-	, &SchemaTypes_t3713_DefinitionMetadata/* definitionMetadata */
+	, &SchemaTypes_t3951_0_0_0/* byval_arg */
+	, &SchemaTypes_t3951_1_0_0/* this_arg */
+	, &SchemaTypes_t3951_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12588,8 +12588,8 @@ TypeInfo SchemaTypes_t3713_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SchemaTypes_t3713)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (SchemaTypes_t3713)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (SchemaTypes_t3951)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (SchemaTypes_t3951)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -12621,27 +12621,27 @@ TypeInfo SchemaTypes_t3713_il2cpp_TypeInfo =
 // System.Xml.Serialization.SerializationSource
 #include "System_Xml_System_Xml_Serialization_SerializationSource.h"
 // Metadata Definition System.Xml.Serialization.SerializationSource
-extern TypeInfo SerializationSource_t3714_il2cpp_TypeInfo;
+extern TypeInfo SerializationSource_t3952_il2cpp_TypeInfo;
 // System.Xml.Serialization.SerializationSource
 #include "System_Xml_System_Xml_Serialization_SerializationSourceMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType TypeU5BU5D_t580_0_0_0;
-extern const Il2CppType TypeU5BU5D_t580_0_0_0;
-static const ParameterInfo SerializationSource_t3714_SerializationSource__ctor_m11185_ParameterInfos[] = 
+extern const Il2CppType TypeU5BU5D_t636_0_0_0;
+extern const Il2CppType TypeU5BU5D_t636_0_0_0;
+static const ParameterInfo SerializationSource_t3952_SerializationSource__ctor_m11604_ParameterInfos[] = 
 {
 	{"namspace", 0, 134217784, 0, &String_t_0_0_0},
-	{"includedTypes", 1, 134217785, 0, &TypeU5BU5D_t580_0_0_0},
+	{"includedTypes", 1, 134217785, 0, &TypeU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.SerializationSource::.ctor(System.String,System.Type[])
-extern const MethodInfo SerializationSource__ctor_m11185_MethodInfo = 
+extern const MethodInfo SerializationSource__ctor_m11604_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SerializationSource__ctor_m11185/* method */
-	, &SerializationSource_t3714_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SerializationSource__ctor_m11604/* method */
+	, &SerializationSource_t3952_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t/* invoker_method */
-	, SerializationSource_t3714_SerializationSource__ctor_m11185_ParameterInfos/* parameters */
+	, SerializationSource_t3952_SerializationSource__ctor_m11604_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -12655,22 +12655,22 @@ extern const MethodInfo SerializationSource__ctor_m11185_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationSource_t3714_0_0_0;
-extern const Il2CppType SerializationSource_t3714_0_0_0;
-static const ParameterInfo SerializationSource_t3714_SerializationSource_BaseEquals_m11186_ParameterInfos[] = 
+extern const Il2CppType SerializationSource_t3952_0_0_0;
+extern const Il2CppType SerializationSource_t3952_0_0_0;
+static const ParameterInfo SerializationSource_t3952_SerializationSource_BaseEquals_m11605_ParameterInfos[] = 
 {
-	{"other", 0, 134217786, 0, &SerializationSource_t3714_0_0_0},
+	{"other", 0, 134217786, 0, &SerializationSource_t3952_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.SerializationSource::BaseEquals(System.Xml.Serialization.SerializationSource)
-extern const MethodInfo SerializationSource_BaseEquals_m11186_MethodInfo = 
+extern const MethodInfo SerializationSource_BaseEquals_m11605_MethodInfo = 
 {
 	"BaseEquals"/* name */
-	, (methodPointerType)&SerializationSource_BaseEquals_m11186/* method */
-	, &SerializationSource_t3714_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SerializationSource_BaseEquals_m11605/* method */
+	, &SerializationSource_t3952_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, SerializationSource_t3714_SerializationSource_BaseEquals_m11186_ParameterInfos/* parameters */
+	, SerializationSource_t3952_SerializationSource_BaseEquals_m11605_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -12686,11 +12686,11 @@ extern const MethodInfo SerializationSource_BaseEquals_m11186_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.SerializationSource::get_CanBeGenerated()
-extern const MethodInfo SerializationSource_get_CanBeGenerated_m11187_MethodInfo = 
+extern const MethodInfo SerializationSource_get_CanBeGenerated_m11606_MethodInfo = 
 {
 	"get_CanBeGenerated"/* name */
-	, (methodPointerType)&SerializationSource_get_CanBeGenerated_m11187/* method */
-	, &SerializationSource_t3714_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SerializationSource_get_CanBeGenerated_m11606/* method */
+	, &SerializationSource_t3952_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -12708,20 +12708,20 @@ extern const MethodInfo SerializationSource_get_CanBeGenerated_m11187_MethodInfo
 
 };
 extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo SerializationSource_t3714_SerializationSource_set_CanBeGenerated_m11188_ParameterInfos[] = 
+static const ParameterInfo SerializationSource_t3952_SerializationSource_set_CanBeGenerated_m11607_ParameterInfos[] = 
 {
 	{"value", 0, 134217787, 0, &Boolean_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.SerializationSource::set_CanBeGenerated(System.Boolean)
-extern const MethodInfo SerializationSource_set_CanBeGenerated_m11188_MethodInfo = 
+extern const MethodInfo SerializationSource_set_CanBeGenerated_m11607_MethodInfo = 
 {
 	"set_CanBeGenerated"/* name */
-	, (methodPointerType)&SerializationSource_set_CanBeGenerated_m11188/* method */
-	, &SerializationSource_t3714_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&SerializationSource_set_CanBeGenerated_m11607/* method */
+	, &SerializationSource_t3952_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_SByte_t36/* invoker_method */
-	, SerializationSource_t3714_SerializationSource_set_CanBeGenerated_m11188_ParameterInfos/* parameters */
+	, SerializationSource_t3952_SerializationSource_set_CanBeGenerated_m11607_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -12735,41 +12735,41 @@ extern const MethodInfo SerializationSource_set_CanBeGenerated_m11188_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SerializationSource_t3714_MethodInfos[] =
+static const MethodInfo* SerializationSource_t3952_MethodInfos[] =
 {
-	&SerializationSource__ctor_m11185_MethodInfo,
-	&SerializationSource_BaseEquals_m11186_MethodInfo,
-	&SerializationSource_get_CanBeGenerated_m11187_MethodInfo,
-	&SerializationSource_set_CanBeGenerated_m11188_MethodInfo,
+	&SerializationSource__ctor_m11604_MethodInfo,
+	&SerializationSource_BaseEquals_m11605_MethodInfo,
+	&SerializationSource_get_CanBeGenerated_m11606_MethodInfo,
+	&SerializationSource_set_CanBeGenerated_m11607_MethodInfo,
 	NULL
 };
-extern const MethodInfo SerializationSource_get_CanBeGenerated_m11187_MethodInfo;
-extern const MethodInfo SerializationSource_set_CanBeGenerated_m11188_MethodInfo;
-static const PropertyInfo SerializationSource_t3714____CanBeGenerated_PropertyInfo = 
+extern const MethodInfo SerializationSource_get_CanBeGenerated_m11606_MethodInfo;
+extern const MethodInfo SerializationSource_set_CanBeGenerated_m11607_MethodInfo;
+static const PropertyInfo SerializationSource_t3952____CanBeGenerated_PropertyInfo = 
 {
-	&SerializationSource_t3714_il2cpp_TypeInfo/* parent */
+	&SerializationSource_t3952_il2cpp_TypeInfo/* parent */
 	, "CanBeGenerated"/* name */
-	, &SerializationSource_get_CanBeGenerated_m11187_MethodInfo/* get */
-	, &SerializationSource_set_CanBeGenerated_m11188_MethodInfo/* set */
+	, &SerializationSource_get_CanBeGenerated_m11606_MethodInfo/* get */
+	, &SerializationSource_set_CanBeGenerated_m11607_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* SerializationSource_t3714_PropertyInfos[] =
+static const PropertyInfo* SerializationSource_t3952_PropertyInfos[] =
 {
-	&SerializationSource_t3714____CanBeGenerated_PropertyInfo,
+	&SerializationSource_t3952____CanBeGenerated_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference SerializationSource_t3714_VTable[] =
+static const Il2CppMethodReference SerializationSource_t3952_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&SerializationSource_get_CanBeGenerated_m11187_MethodInfo,
-	&SerializationSource_set_CanBeGenerated_m11188_MethodInfo,
+	&SerializationSource_get_CanBeGenerated_m11606_MethodInfo,
+	&SerializationSource_set_CanBeGenerated_m11607_MethodInfo,
 };
-static bool SerializationSource_t3714_VTableIsGenericMethod[] =
+static bool SerializationSource_t3952_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12779,36 +12779,36 @@ static bool SerializationSource_t3714_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType SerializationSource_t3714_1_0_0;
-struct SerializationSource_t3714;
-const Il2CppTypeDefinitionMetadata SerializationSource_t3714_DefinitionMetadata = 
+extern const Il2CppType SerializationSource_t3952_1_0_0;
+struct SerializationSource_t3952;
+const Il2CppTypeDefinitionMetadata SerializationSource_t3952_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, SerializationSource_t3714_VTable/* vtableMethods */
-	, SerializationSource_t3714_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, SerializationSource_t3952_VTable/* vtableMethods */
+	, SerializationSource_t3952_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 198/* fieldStart */
 
 };
-TypeInfo SerializationSource_t3714_il2cpp_TypeInfo = 
+TypeInfo SerializationSource_t3952_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SerializationSource"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, SerializationSource_t3714_MethodInfos/* methods */
-	, SerializationSource_t3714_PropertyInfos/* properties */
+	, SerializationSource_t3952_MethodInfos/* methods */
+	, SerializationSource_t3952_PropertyInfos/* properties */
 	, NULL/* events */
-	, &SerializationSource_t3714_il2cpp_TypeInfo/* element_class */
+	, &SerializationSource_t3952_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SerializationSource_t3714_0_0_0/* byval_arg */
-	, &SerializationSource_t3714_1_0_0/* this_arg */
-	, &SerializationSource_t3714_DefinitionMetadata/* definitionMetadata */
+	, &SerializationSource_t3952_0_0_0/* byval_arg */
+	, &SerializationSource_t3952_1_0_0/* this_arg */
+	, &SerializationSource_t3952_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12818,8 +12818,8 @@ TypeInfo SerializationSource_t3714_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SerializationSource_t3714)/* instance_size */
-	, sizeof (SerializationSource_t3714)/* actualSize */
+	, sizeof (SerializationSource_t3952)/* instance_size */
+	, sizeof (SerializationSource_t3952)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12851,34 +12851,34 @@ TypeInfo SerializationSource_t3714_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlTypeSerializationSource
 #include "System_Xml_System_Xml_Serialization_XmlTypeSerializationSour.h"
 // Metadata Definition System.Xml.Serialization.XmlTypeSerializationSource
-extern TypeInfo XmlTypeSerializationSource_t3715_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeSerializationSource_t3953_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlTypeSerializationSource
 #include "System_Xml_System_Xml_Serialization_XmlTypeSerializationSourMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType XmlRootAttribute_t1458_0_0_0;
-extern const Il2CppType XmlRootAttribute_t1458_0_0_0;
-extern const Il2CppType XmlAttributeOverrides_t3727_0_0_0;
-extern const Il2CppType XmlAttributeOverrides_t3727_0_0_0;
+extern const Il2CppType XmlRootAttribute_t1715_0_0_0;
+extern const Il2CppType XmlRootAttribute_t1715_0_0_0;
+extern const Il2CppType XmlAttributeOverrides_t3965_0_0_0;
+extern const Il2CppType XmlAttributeOverrides_t3965_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType TypeU5BU5D_t580_0_0_0;
-static const ParameterInfo XmlTypeSerializationSource_t3715_XmlTypeSerializationSource__ctor_m11189_ParameterInfos[] = 
+extern const Il2CppType TypeU5BU5D_t636_0_0_0;
+static const ParameterInfo XmlTypeSerializationSource_t3953_XmlTypeSerializationSource__ctor_m11608_ParameterInfos[] = 
 {
 	{"type", 0, 134217788, 0, &Type_t_0_0_0},
-	{"root", 1, 134217789, 0, &XmlRootAttribute_t1458_0_0_0},
-	{"attributeOverrides", 2, 134217790, 0, &XmlAttributeOverrides_t3727_0_0_0},
+	{"root", 1, 134217789, 0, &XmlRootAttribute_t1715_0_0_0},
+	{"attributeOverrides", 2, 134217790, 0, &XmlAttributeOverrides_t3965_0_0_0},
 	{"namspace", 3, 134217791, 0, &String_t_0_0_0},
-	{"includedTypes", 4, 134217792, 0, &TypeU5BU5D_t580_0_0_0},
+	{"includedTypes", 4, 134217792, 0, &TypeU5BU5D_t636_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlTypeSerializationSource::.ctor(System.Type,System.Xml.Serialization.XmlRootAttribute,System.Xml.Serialization.XmlAttributeOverrides,System.String,System.Type[])
-extern const MethodInfo XmlTypeSerializationSource__ctor_m11189_MethodInfo = 
+extern const MethodInfo XmlTypeSerializationSource__ctor_m11608_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlTypeSerializationSource__ctor_m11189/* method */
-	, &XmlTypeSerializationSource_t3715_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlTypeSerializationSource__ctor_m11608/* method */
+	, &XmlTypeSerializationSource_t3953_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlTypeSerializationSource_t3715_XmlTypeSerializationSource__ctor_m11189_ParameterInfos/* parameters */
+	, XmlTypeSerializationSource_t3953_XmlTypeSerializationSource__ctor_m11608_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -12893,20 +12893,20 @@ extern const MethodInfo XmlTypeSerializationSource__ctor_m11189_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo XmlTypeSerializationSource_t3715_XmlTypeSerializationSource_Equals_m11190_ParameterInfos[] = 
+static const ParameterInfo XmlTypeSerializationSource_t3953_XmlTypeSerializationSource_Equals_m11609_ParameterInfos[] = 
 {
 	{"o", 0, 134217793, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.XmlTypeSerializationSource::Equals(System.Object)
-extern const MethodInfo XmlTypeSerializationSource_Equals_m11190_MethodInfo = 
+extern const MethodInfo XmlTypeSerializationSource_Equals_m11609_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&XmlTypeSerializationSource_Equals_m11190/* method */
-	, &XmlTypeSerializationSource_t3715_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlTypeSerializationSource_Equals_m11609/* method */
+	, &XmlTypeSerializationSource_t3953_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, XmlTypeSerializationSource_t3715_XmlTypeSerializationSource_Equals_m11190_ParameterInfos/* parameters */
+	, XmlTypeSerializationSource_t3953_XmlTypeSerializationSource_Equals_m11609_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -12922,11 +12922,11 @@ extern const MethodInfo XmlTypeSerializationSource_Equals_m11190_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Xml.Serialization.XmlTypeSerializationSource::GetHashCode()
-extern const MethodInfo XmlTypeSerializationSource_GetHashCode_m11191_MethodInfo = 
+extern const MethodInfo XmlTypeSerializationSource_GetHashCode_m11610_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&XmlTypeSerializationSource_GetHashCode_m11191/* method */
-	, &XmlTypeSerializationSource_t3715_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlTypeSerializationSource_GetHashCode_m11610/* method */
+	, &XmlTypeSerializationSource_t3953_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t29/* invoker_method */
 	, NULL/* parameters */
@@ -12943,25 +12943,25 @@ extern const MethodInfo XmlTypeSerializationSource_GetHashCode_m11191_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlTypeSerializationSource_t3715_MethodInfos[] =
+static const MethodInfo* XmlTypeSerializationSource_t3953_MethodInfos[] =
 {
-	&XmlTypeSerializationSource__ctor_m11189_MethodInfo,
-	&XmlTypeSerializationSource_Equals_m11190_MethodInfo,
-	&XmlTypeSerializationSource_GetHashCode_m11191_MethodInfo,
+	&XmlTypeSerializationSource__ctor_m11608_MethodInfo,
+	&XmlTypeSerializationSource_Equals_m11609_MethodInfo,
+	&XmlTypeSerializationSource_GetHashCode_m11610_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlTypeSerializationSource_Equals_m11190_MethodInfo;
-extern const MethodInfo XmlTypeSerializationSource_GetHashCode_m11191_MethodInfo;
-static const Il2CppMethodReference XmlTypeSerializationSource_t3715_VTable[] =
+extern const MethodInfo XmlTypeSerializationSource_Equals_m11609_MethodInfo;
+extern const MethodInfo XmlTypeSerializationSource_GetHashCode_m11610_MethodInfo;
+static const Il2CppMethodReference XmlTypeSerializationSource_t3953_VTable[] =
 {
-	&XmlTypeSerializationSource_Equals_m11190_MethodInfo,
+	&XmlTypeSerializationSource_Equals_m11609_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&XmlTypeSerializationSource_GetHashCode_m11191_MethodInfo,
+	&XmlTypeSerializationSource_GetHashCode_m11610_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&SerializationSource_get_CanBeGenerated_m11187_MethodInfo,
-	&SerializationSource_set_CanBeGenerated_m11188_MethodInfo,
+	&SerializationSource_get_CanBeGenerated_m11606_MethodInfo,
+	&SerializationSource_set_CanBeGenerated_m11607_MethodInfo,
 };
-static bool XmlTypeSerializationSource_t3715_VTableIsGenericMethod[] =
+static bool XmlTypeSerializationSource_t3953_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12971,37 +12971,37 @@ static bool XmlTypeSerializationSource_t3715_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlTypeSerializationSource_t3715_0_0_0;
-extern const Il2CppType XmlTypeSerializationSource_t3715_1_0_0;
-struct XmlTypeSerializationSource_t3715;
-const Il2CppTypeDefinitionMetadata XmlTypeSerializationSource_t3715_DefinitionMetadata = 
+extern const Il2CppType XmlTypeSerializationSource_t3953_0_0_0;
+extern const Il2CppType XmlTypeSerializationSource_t3953_1_0_0;
+struct XmlTypeSerializationSource_t3953;
+const Il2CppTypeDefinitionMetadata XmlTypeSerializationSource_t3953_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &SerializationSource_t3714_0_0_0/* parent */
-	, XmlTypeSerializationSource_t3715_VTable/* vtableMethods */
-	, XmlTypeSerializationSource_t3715_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &SerializationSource_t3952_0_0_0/* parent */
+	, XmlTypeSerializationSource_t3953_VTable/* vtableMethods */
+	, XmlTypeSerializationSource_t3953_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 201/* fieldStart */
 
 };
-TypeInfo XmlTypeSerializationSource_t3715_il2cpp_TypeInfo = 
+TypeInfo XmlTypeSerializationSource_t3953_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlTypeSerializationSource"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlTypeSerializationSource_t3715_MethodInfos/* methods */
+	, XmlTypeSerializationSource_t3953_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlTypeSerializationSource_t3715_il2cpp_TypeInfo/* element_class */
+	, &XmlTypeSerializationSource_t3953_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlTypeSerializationSource_t3715_0_0_0/* byval_arg */
-	, &XmlTypeSerializationSource_t3715_1_0_0/* this_arg */
-	, &XmlTypeSerializationSource_t3715_DefinitionMetadata/* definitionMetadata */
+	, &XmlTypeSerializationSource_t3953_0_0_0/* byval_arg */
+	, &XmlTypeSerializationSource_t3953_1_0_0/* this_arg */
+	, &XmlTypeSerializationSource_t3953_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13011,8 +13011,8 @@ TypeInfo XmlTypeSerializationSource_t3715_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlTypeSerializationSource_t3715)/* instance_size */
-	, sizeof (XmlTypeSerializationSource_t3715)/* actualSize */
+	, sizeof (XmlTypeSerializationSource_t3953)/* instance_size */
+	, sizeof (XmlTypeSerializationSource_t3953)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -13044,13 +13044,13 @@ TypeInfo XmlTypeSerializationSource_t3715_il2cpp_TypeInfo =
 // System.Xml.Serialization.TypeData
 #include "System_Xml_System_Xml_Serialization_TypeData.h"
 // Metadata Definition System.Xml.Serialization.TypeData
-extern TypeInfo TypeData_t3716_il2cpp_TypeInfo;
+extern TypeInfo TypeData_t3954_il2cpp_TypeInfo;
 // System.Xml.Serialization.TypeData
 #include "System_Xml_System_Xml_Serialization_TypeDataMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo TypeData_t3716_TypeData__ctor_m11192_ParameterInfos[] = 
+static const ParameterInfo TypeData_t3954_TypeData__ctor_m11611_ParameterInfos[] = 
 {
 	{"type", 0, 134217794, 0, &Type_t_0_0_0},
 	{"elementName", 1, 134217795, 0, &String_t_0_0_0},
@@ -13058,14 +13058,14 @@ static const ParameterInfo TypeData_t3716_TypeData__ctor_m11192_ParameterInfos[]
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.TypeData::.ctor(System.Type,System.String,System.Boolean)
-extern const MethodInfo TypeData__ctor_m11192_MethodInfo = 
+extern const MethodInfo TypeData__ctor_m11611_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TypeData__ctor_m11192/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData__ctor_m11611/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t_SByte_t36/* invoker_method */
-	, TypeData_t3716_TypeData__ctor_m11192_ParameterInfos/* parameters */
+	, TypeData_t3954_TypeData__ctor_m11611_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13082,27 +13082,27 @@ extern const MethodInfo TypeData__ctor_m11192_MethodInfo =
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
-extern const Il2CppType TypeData_t3716_0_0_0;
-extern const Il2CppType TypeData_t3716_0_0_0;
-extern const Il2CppType XmlSchemaPatternFacet_t3698_0_0_0;
-static const ParameterInfo TypeData_t3716_TypeData__ctor_m11193_ParameterInfos[] = 
+extern const Il2CppType TypeData_t3954_0_0_0;
+extern const Il2CppType TypeData_t3954_0_0_0;
+extern const Il2CppType XmlSchemaPatternFacet_t3936_0_0_0;
+static const ParameterInfo TypeData_t3954_TypeData__ctor_m11612_ParameterInfos[] = 
 {
 	{"type", 0, 134217797, 0, &Type_t_0_0_0},
 	{"elementName", 1, 134217798, 0, &String_t_0_0_0},
 	{"isPrimitive", 2, 134217799, 0, &Boolean_t30_0_0_0},
-	{"mappedType", 3, 134217800, 0, &TypeData_t3716_0_0_0},
-	{"facet", 4, 134217801, 0, &XmlSchemaPatternFacet_t3698_0_0_0},
+	{"mappedType", 3, 134217800, 0, &TypeData_t3954_0_0_0},
+	{"facet", 4, 134217801, 0, &XmlSchemaPatternFacet_t3936_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_SByte_t36_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.TypeData::.ctor(System.Type,System.String,System.Boolean,System.Xml.Serialization.TypeData,System.Xml.Schema.XmlSchemaPatternFacet)
-extern const MethodInfo TypeData__ctor_m11193_MethodInfo = 
+extern const MethodInfo TypeData__ctor_m11612_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TypeData__ctor_m11193/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData__ctor_m11612/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t_SByte_t36_Object_t_Object_t/* invoker_method */
-	, TypeData_t3716_TypeData__ctor_m11193_ParameterInfos/* parameters */
+	, TypeData_t3954_TypeData__ctor_m11612_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13118,11 +13118,11 @@ extern const MethodInfo TypeData__ctor_m11193_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.TypeData::.cctor()
-extern const MethodInfo TypeData__cctor_m11194_MethodInfo = 
+extern const MethodInfo TypeData__cctor_m11613_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&TypeData__cctor_m11194/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData__cctor_m11613/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -13141,11 +13141,11 @@ extern const MethodInfo TypeData__cctor_m11194_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.TypeData::get_TypeName()
-extern const MethodInfo TypeData_get_TypeName_m11195_MethodInfo = 
+extern const MethodInfo TypeData_get_TypeName_m11614_MethodInfo = 
 {
 	"get_TypeName"/* name */
-	, (methodPointerType)&TypeData_get_TypeName_m11195/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_TypeName_m11614/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13164,11 +13164,11 @@ extern const MethodInfo TypeData_get_TypeName_m11195_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.TypeData::get_XmlType()
-extern const MethodInfo TypeData_get_XmlType_m11196_MethodInfo = 
+extern const MethodInfo TypeData_get_XmlType_m11615_MethodInfo = 
 {
 	"get_XmlType"/* name */
-	, (methodPointerType)&TypeData_get_XmlType_m11196/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_XmlType_m11615/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13187,11 +13187,11 @@ extern const MethodInfo TypeData_get_XmlType_m11196_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Xml.Serialization.TypeData::get_Type()
-extern const MethodInfo TypeData_get_Type_m11197_MethodInfo = 
+extern const MethodInfo TypeData_get_Type_m11616_MethodInfo = 
 {
 	"get_Type"/* name */
-	, (methodPointerType)&TypeData_get_Type_m11197/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_Type_m11616/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13210,11 +13210,11 @@ extern const MethodInfo TypeData_get_Type_m11197_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.TypeData::get_FullTypeName()
-extern const MethodInfo TypeData_get_FullTypeName_m11198_MethodInfo = 
+extern const MethodInfo TypeData_get_FullTypeName_m11617_MethodInfo = 
 {
 	"get_FullTypeName"/* name */
-	, (methodPointerType)&TypeData_get_FullTypeName_m11198/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_FullTypeName_m11617/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13231,15 +13231,15 @@ extern const MethodInfo TypeData_get_FullTypeName_m11198_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_SchemaTypes_t3713 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_SchemaTypes_t3951 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.SchemaTypes System.Xml.Serialization.TypeData::get_SchemaType()
-extern const MethodInfo TypeData_get_SchemaType_m11199_MethodInfo = 
+extern const MethodInfo TypeData_get_SchemaType_m11618_MethodInfo = 
 {
 	"get_SchemaType"/* name */
-	, (methodPointerType)&TypeData_get_SchemaType_m11199/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
-	, &SchemaTypes_t3713_0_0_0/* return_type */
-	, RuntimeInvoker_SchemaTypes_t3713/* invoker_method */
+	, (methodPointerType)&TypeData_get_SchemaType_m11618/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
+	, &SchemaTypes_t3951_0_0_0/* return_type */
+	, RuntimeInvoker_SchemaTypes_t3951/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -13256,11 +13256,11 @@ extern const MethodInfo TypeData_get_SchemaType_m11199_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.TypeData::get_IsListType()
-extern const MethodInfo TypeData_get_IsListType_m11200_MethodInfo = 
+extern const MethodInfo TypeData_get_IsListType_m11619_MethodInfo = 
 {
 	"get_IsListType"/* name */
-	, (methodPointerType)&TypeData_get_IsListType_m11200/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_IsListType_m11619/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -13279,11 +13279,11 @@ extern const MethodInfo TypeData_get_IsListType_m11200_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.TypeData::get_IsComplexType()
-extern const MethodInfo TypeData_get_IsComplexType_m11201_MethodInfo = 
+extern const MethodInfo TypeData_get_IsComplexType_m11620_MethodInfo = 
 {
 	"get_IsComplexType"/* name */
-	, (methodPointerType)&TypeData_get_IsComplexType_m11201/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_IsComplexType_m11620/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -13302,11 +13302,11 @@ extern const MethodInfo TypeData_get_IsComplexType_m11201_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.TypeData::get_IsValueType()
-extern const MethodInfo TypeData_get_IsValueType_m11202_MethodInfo = 
+extern const MethodInfo TypeData_get_IsValueType_m11621_MethodInfo = 
 {
 	"get_IsValueType"/* name */
-	, (methodPointerType)&TypeData_get_IsValueType_m11202/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_IsValueType_m11621/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -13325,11 +13325,11 @@ extern const MethodInfo TypeData_get_IsValueType_m11202_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.TypeData::get_IsNullable()
-extern const MethodInfo TypeData_get_IsNullable_m11203_MethodInfo = 
+extern const MethodInfo TypeData_get_IsNullable_m11622_MethodInfo = 
 {
 	"get_IsNullable"/* name */
-	, (methodPointerType)&TypeData_get_IsNullable_m11203/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_IsNullable_m11622/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -13347,20 +13347,20 @@ extern const MethodInfo TypeData_get_IsNullable_m11203_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo TypeData_t3716_TypeData_set_IsNullable_m11204_ParameterInfos[] = 
+static const ParameterInfo TypeData_t3954_TypeData_set_IsNullable_m11623_ParameterInfos[] = 
 {
 	{"value", 0, 134217802, 0, &Boolean_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.TypeData::set_IsNullable(System.Boolean)
-extern const MethodInfo TypeData_set_IsNullable_m11204_MethodInfo = 
+extern const MethodInfo TypeData_set_IsNullable_m11623_MethodInfo = 
 {
 	"set_IsNullable"/* name */
-	, (methodPointerType)&TypeData_set_IsNullable_m11204/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_set_IsNullable_m11623/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_SByte_t36/* invoker_method */
-	, TypeData_t3716_TypeData_set_IsNullable_m11204_ParameterInfos/* parameters */
+	, TypeData_t3954_TypeData_set_IsNullable_m11623_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13376,12 +13376,12 @@ extern const MethodInfo TypeData_set_IsNullable_m11204_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.TypeData System.Xml.Serialization.TypeData::get_ListItemTypeData()
-extern const MethodInfo TypeData_get_ListItemTypeData_m11205_MethodInfo = 
+extern const MethodInfo TypeData_get_ListItemTypeData_m11624_MethodInfo = 
 {
 	"get_ListItemTypeData"/* name */
-	, (methodPointerType)&TypeData_get_ListItemTypeData_m11205/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
-	, &TypeData_t3716_0_0_0/* return_type */
+	, (methodPointerType)&TypeData_get_ListItemTypeData_m11624/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
+	, &TypeData_t3954_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -13399,11 +13399,11 @@ extern const MethodInfo TypeData_get_ListItemTypeData_m11205_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Xml.Serialization.TypeData::get_ListItemType()
-extern const MethodInfo TypeData_get_ListItemType_m11206_MethodInfo = 
+extern const MethodInfo TypeData_get_ListItemType_m11625_MethodInfo = 
 {
 	"get_ListItemType"/* name */
-	, (methodPointerType)&TypeData_get_ListItemType_m11206/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_ListItemType_m11625/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13422,11 +13422,11 @@ extern const MethodInfo TypeData_get_ListItemType_m11206_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.TypeData::get_IsXsdType()
-extern const MethodInfo TypeData_get_IsXsdType_m11207_MethodInfo = 
+extern const MethodInfo TypeData_get_IsXsdType_m11626_MethodInfo = 
 {
 	"get_IsXsdType"/* name */
-	, (methodPointerType)&TypeData_get_IsXsdType_m11207/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_IsXsdType_m11626/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -13445,11 +13445,11 @@ extern const MethodInfo TypeData_get_IsXsdType_m11207_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.TypeData::get_HasPublicConstructor()
-extern const MethodInfo TypeData_get_HasPublicConstructor_m11208_MethodInfo = 
+extern const MethodInfo TypeData_get_HasPublicConstructor_m11627_MethodInfo = 
 {
 	"get_HasPublicConstructor"/* name */
-	, (methodPointerType)&TypeData_get_HasPublicConstructor_m11208/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_get_HasPublicConstructor_m11627/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -13467,21 +13467,21 @@ extern const MethodInfo TypeData_get_HasPublicConstructor_m11208_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo TypeData_t3716_TypeData_GetIndexerProperty_m11209_ParameterInfos[] = 
+static const ParameterInfo TypeData_t3954_TypeData_GetIndexerProperty_m11628_ParameterInfos[] = 
 {
 	{"collectionType", 0, 134217803, 0, &Type_t_0_0_0},
 };
 extern const Il2CppType PropertyInfo_t_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Reflection.PropertyInfo System.Xml.Serialization.TypeData::GetIndexerProperty(System.Type)
-extern const MethodInfo TypeData_GetIndexerProperty_m11209_MethodInfo = 
+extern const MethodInfo TypeData_GetIndexerProperty_m11628_MethodInfo = 
 {
 	"GetIndexerProperty"/* name */
-	, (methodPointerType)&TypeData_GetIndexerProperty_m11209/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_GetIndexerProperty_m11628/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &PropertyInfo_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TypeData_t3716_TypeData_GetIndexerProperty_m11209_ParameterInfos/* parameters */
+	, TypeData_t3954_TypeData_GetIndexerProperty_m11628_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -13498,23 +13498,23 @@ extern const MethodInfo TypeData_GetIndexerProperty_m11209_MethodInfo =
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo TypeData_t3716_TypeData_CreateMissingAddMethodException_m11210_ParameterInfos[] = 
+static const ParameterInfo TypeData_t3954_TypeData_CreateMissingAddMethodException_m11629_ParameterInfos[] = 
 {
 	{"type", 0, 134217804, 0, &Type_t_0_0_0},
 	{"inheritFrom", 1, 134217805, 0, &String_t_0_0_0},
 	{"argumentType", 2, 134217806, 0, &Type_t_0_0_0},
 };
-extern const Il2CppType InvalidOperationException_t1409_0_0_0;
+extern const Il2CppType InvalidOperationException_t1668_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.InvalidOperationException System.Xml.Serialization.TypeData::CreateMissingAddMethodException(System.Type,System.String,System.Type)
-extern const MethodInfo TypeData_CreateMissingAddMethodException_m11210_MethodInfo = 
+extern const MethodInfo TypeData_CreateMissingAddMethodException_m11629_MethodInfo = 
 {
 	"CreateMissingAddMethodException"/* name */
-	, (methodPointerType)&TypeData_CreateMissingAddMethodException_m11210/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
-	, &InvalidOperationException_t1409_0_0_0/* return_type */
+	, (methodPointerType)&TypeData_CreateMissingAddMethodException_m11629/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
+	, &InvalidOperationException_t1668_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Object_t/* invoker_method */
-	, TypeData_t3716_TypeData_CreateMissingAddMethodException_m11210_ParameterInfos/* parameters */
+	, TypeData_t3954_TypeData_CreateMissingAddMethodException_m11629_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -13529,20 +13529,20 @@ extern const MethodInfo TypeData_CreateMissingAddMethodException_m11210_MethodIn
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo TypeData_t3716_TypeData_GetGenericListItemType_m11211_ParameterInfos[] = 
+static const ParameterInfo TypeData_t3954_TypeData_GetGenericListItemType_m11630_ParameterInfos[] = 
 {
 	{"type", 0, 134217807, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Xml.Serialization.TypeData::GetGenericListItemType(System.Type)
-extern const MethodInfo TypeData_GetGenericListItemType_m11211_MethodInfo = 
+extern const MethodInfo TypeData_GetGenericListItemType_m11630_MethodInfo = 
 {
 	"GetGenericListItemType"/* name */
-	, (methodPointerType)&TypeData_GetGenericListItemType_m11211/* method */
-	, &TypeData_t3716_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeData_GetGenericListItemType_m11630/* method */
+	, &TypeData_t3954_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TypeData_t3716_TypeData_GetGenericListItemType_m11211_ParameterInfos/* parameters */
+	, TypeData_t3954_TypeData_GetGenericListItemType_m11630_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -13556,199 +13556,199 @@ extern const MethodInfo TypeData_GetGenericListItemType_m11211_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* TypeData_t3716_MethodInfos[] =
+static const MethodInfo* TypeData_t3954_MethodInfos[] =
 {
-	&TypeData__ctor_m11192_MethodInfo,
-	&TypeData__ctor_m11193_MethodInfo,
-	&TypeData__cctor_m11194_MethodInfo,
-	&TypeData_get_TypeName_m11195_MethodInfo,
-	&TypeData_get_XmlType_m11196_MethodInfo,
-	&TypeData_get_Type_m11197_MethodInfo,
-	&TypeData_get_FullTypeName_m11198_MethodInfo,
-	&TypeData_get_SchemaType_m11199_MethodInfo,
-	&TypeData_get_IsListType_m11200_MethodInfo,
-	&TypeData_get_IsComplexType_m11201_MethodInfo,
-	&TypeData_get_IsValueType_m11202_MethodInfo,
-	&TypeData_get_IsNullable_m11203_MethodInfo,
-	&TypeData_set_IsNullable_m11204_MethodInfo,
-	&TypeData_get_ListItemTypeData_m11205_MethodInfo,
-	&TypeData_get_ListItemType_m11206_MethodInfo,
-	&TypeData_get_IsXsdType_m11207_MethodInfo,
-	&TypeData_get_HasPublicConstructor_m11208_MethodInfo,
-	&TypeData_GetIndexerProperty_m11209_MethodInfo,
-	&TypeData_CreateMissingAddMethodException_m11210_MethodInfo,
-	&TypeData_GetGenericListItemType_m11211_MethodInfo,
+	&TypeData__ctor_m11611_MethodInfo,
+	&TypeData__ctor_m11612_MethodInfo,
+	&TypeData__cctor_m11613_MethodInfo,
+	&TypeData_get_TypeName_m11614_MethodInfo,
+	&TypeData_get_XmlType_m11615_MethodInfo,
+	&TypeData_get_Type_m11616_MethodInfo,
+	&TypeData_get_FullTypeName_m11617_MethodInfo,
+	&TypeData_get_SchemaType_m11618_MethodInfo,
+	&TypeData_get_IsListType_m11619_MethodInfo,
+	&TypeData_get_IsComplexType_m11620_MethodInfo,
+	&TypeData_get_IsValueType_m11621_MethodInfo,
+	&TypeData_get_IsNullable_m11622_MethodInfo,
+	&TypeData_set_IsNullable_m11623_MethodInfo,
+	&TypeData_get_ListItemTypeData_m11624_MethodInfo,
+	&TypeData_get_ListItemType_m11625_MethodInfo,
+	&TypeData_get_IsXsdType_m11626_MethodInfo,
+	&TypeData_get_HasPublicConstructor_m11627_MethodInfo,
+	&TypeData_GetIndexerProperty_m11628_MethodInfo,
+	&TypeData_CreateMissingAddMethodException_m11629_MethodInfo,
+	&TypeData_GetGenericListItemType_m11630_MethodInfo,
 	NULL
 };
-extern const MethodInfo TypeData_get_TypeName_m11195_MethodInfo;
-static const PropertyInfo TypeData_t3716____TypeName_PropertyInfo = 
+extern const MethodInfo TypeData_get_TypeName_m11614_MethodInfo;
+static const PropertyInfo TypeData_t3954____TypeName_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "TypeName"/* name */
-	, &TypeData_get_TypeName_m11195_MethodInfo/* get */
+	, &TypeData_get_TypeName_m11614_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_XmlType_m11196_MethodInfo;
-static const PropertyInfo TypeData_t3716____XmlType_PropertyInfo = 
+extern const MethodInfo TypeData_get_XmlType_m11615_MethodInfo;
+static const PropertyInfo TypeData_t3954____XmlType_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "XmlType"/* name */
-	, &TypeData_get_XmlType_m11196_MethodInfo/* get */
+	, &TypeData_get_XmlType_m11615_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_Type_m11197_MethodInfo;
-static const PropertyInfo TypeData_t3716____Type_PropertyInfo = 
+extern const MethodInfo TypeData_get_Type_m11616_MethodInfo;
+static const PropertyInfo TypeData_t3954____Type_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "Type"/* name */
-	, &TypeData_get_Type_m11197_MethodInfo/* get */
+	, &TypeData_get_Type_m11616_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_FullTypeName_m11198_MethodInfo;
-static const PropertyInfo TypeData_t3716____FullTypeName_PropertyInfo = 
+extern const MethodInfo TypeData_get_FullTypeName_m11617_MethodInfo;
+static const PropertyInfo TypeData_t3954____FullTypeName_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "FullTypeName"/* name */
-	, &TypeData_get_FullTypeName_m11198_MethodInfo/* get */
+	, &TypeData_get_FullTypeName_m11617_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_SchemaType_m11199_MethodInfo;
-static const PropertyInfo TypeData_t3716____SchemaType_PropertyInfo = 
+extern const MethodInfo TypeData_get_SchemaType_m11618_MethodInfo;
+static const PropertyInfo TypeData_t3954____SchemaType_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "SchemaType"/* name */
-	, &TypeData_get_SchemaType_m11199_MethodInfo/* get */
+	, &TypeData_get_SchemaType_m11618_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_IsListType_m11200_MethodInfo;
-static const PropertyInfo TypeData_t3716____IsListType_PropertyInfo = 
+extern const MethodInfo TypeData_get_IsListType_m11619_MethodInfo;
+static const PropertyInfo TypeData_t3954____IsListType_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "IsListType"/* name */
-	, &TypeData_get_IsListType_m11200_MethodInfo/* get */
+	, &TypeData_get_IsListType_m11619_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_IsComplexType_m11201_MethodInfo;
-static const PropertyInfo TypeData_t3716____IsComplexType_PropertyInfo = 
+extern const MethodInfo TypeData_get_IsComplexType_m11620_MethodInfo;
+static const PropertyInfo TypeData_t3954____IsComplexType_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "IsComplexType"/* name */
-	, &TypeData_get_IsComplexType_m11201_MethodInfo/* get */
+	, &TypeData_get_IsComplexType_m11620_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_IsValueType_m11202_MethodInfo;
-static const PropertyInfo TypeData_t3716____IsValueType_PropertyInfo = 
+extern const MethodInfo TypeData_get_IsValueType_m11621_MethodInfo;
+static const PropertyInfo TypeData_t3954____IsValueType_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "IsValueType"/* name */
-	, &TypeData_get_IsValueType_m11202_MethodInfo/* get */
+	, &TypeData_get_IsValueType_m11621_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_IsNullable_m11203_MethodInfo;
-extern const MethodInfo TypeData_set_IsNullable_m11204_MethodInfo;
-static const PropertyInfo TypeData_t3716____IsNullable_PropertyInfo = 
+extern const MethodInfo TypeData_get_IsNullable_m11622_MethodInfo;
+extern const MethodInfo TypeData_set_IsNullable_m11623_MethodInfo;
+static const PropertyInfo TypeData_t3954____IsNullable_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "IsNullable"/* name */
-	, &TypeData_get_IsNullable_m11203_MethodInfo/* get */
-	, &TypeData_set_IsNullable_m11204_MethodInfo/* set */
+	, &TypeData_get_IsNullable_m11622_MethodInfo/* get */
+	, &TypeData_set_IsNullable_m11623_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_ListItemTypeData_m11205_MethodInfo;
-static const PropertyInfo TypeData_t3716____ListItemTypeData_PropertyInfo = 
+extern const MethodInfo TypeData_get_ListItemTypeData_m11624_MethodInfo;
+static const PropertyInfo TypeData_t3954____ListItemTypeData_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "ListItemTypeData"/* name */
-	, &TypeData_get_ListItemTypeData_m11205_MethodInfo/* get */
+	, &TypeData_get_ListItemTypeData_m11624_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_ListItemType_m11206_MethodInfo;
-static const PropertyInfo TypeData_t3716____ListItemType_PropertyInfo = 
+extern const MethodInfo TypeData_get_ListItemType_m11625_MethodInfo;
+static const PropertyInfo TypeData_t3954____ListItemType_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "ListItemType"/* name */
-	, &TypeData_get_ListItemType_m11206_MethodInfo/* get */
+	, &TypeData_get_ListItemType_m11625_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_IsXsdType_m11207_MethodInfo;
-static const PropertyInfo TypeData_t3716____IsXsdType_PropertyInfo = 
+extern const MethodInfo TypeData_get_IsXsdType_m11626_MethodInfo;
+static const PropertyInfo TypeData_t3954____IsXsdType_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "IsXsdType"/* name */
-	, &TypeData_get_IsXsdType_m11207_MethodInfo/* get */
+	, &TypeData_get_IsXsdType_m11626_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo TypeData_get_HasPublicConstructor_m11208_MethodInfo;
-static const PropertyInfo TypeData_t3716____HasPublicConstructor_PropertyInfo = 
+extern const MethodInfo TypeData_get_HasPublicConstructor_m11627_MethodInfo;
+static const PropertyInfo TypeData_t3954____HasPublicConstructor_PropertyInfo = 
 {
-	&TypeData_t3716_il2cpp_TypeInfo/* parent */
+	&TypeData_t3954_il2cpp_TypeInfo/* parent */
 	, "HasPublicConstructor"/* name */
-	, &TypeData_get_HasPublicConstructor_m11208_MethodInfo/* get */
+	, &TypeData_get_HasPublicConstructor_m11627_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* TypeData_t3716_PropertyInfos[] =
+static const PropertyInfo* TypeData_t3954_PropertyInfos[] =
 {
-	&TypeData_t3716____TypeName_PropertyInfo,
-	&TypeData_t3716____XmlType_PropertyInfo,
-	&TypeData_t3716____Type_PropertyInfo,
-	&TypeData_t3716____FullTypeName_PropertyInfo,
-	&TypeData_t3716____SchemaType_PropertyInfo,
-	&TypeData_t3716____IsListType_PropertyInfo,
-	&TypeData_t3716____IsComplexType_PropertyInfo,
-	&TypeData_t3716____IsValueType_PropertyInfo,
-	&TypeData_t3716____IsNullable_PropertyInfo,
-	&TypeData_t3716____ListItemTypeData_PropertyInfo,
-	&TypeData_t3716____ListItemType_PropertyInfo,
-	&TypeData_t3716____IsXsdType_PropertyInfo,
-	&TypeData_t3716____HasPublicConstructor_PropertyInfo,
+	&TypeData_t3954____TypeName_PropertyInfo,
+	&TypeData_t3954____XmlType_PropertyInfo,
+	&TypeData_t3954____Type_PropertyInfo,
+	&TypeData_t3954____FullTypeName_PropertyInfo,
+	&TypeData_t3954____SchemaType_PropertyInfo,
+	&TypeData_t3954____IsListType_PropertyInfo,
+	&TypeData_t3954____IsComplexType_PropertyInfo,
+	&TypeData_t3954____IsValueType_PropertyInfo,
+	&TypeData_t3954____IsNullable_PropertyInfo,
+	&TypeData_t3954____ListItemTypeData_PropertyInfo,
+	&TypeData_t3954____ListItemType_PropertyInfo,
+	&TypeData_t3954____IsXsdType_PropertyInfo,
+	&TypeData_t3954____HasPublicConstructor_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference TypeData_t3716_VTable[] =
+static const Il2CppMethodReference TypeData_t3954_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool TypeData_t3716_VTableIsGenericMethod[] =
+static bool TypeData_t3954_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13756,36 +13756,36 @@ static bool TypeData_t3716_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType TypeData_t3716_1_0_0;
-struct TypeData_t3716;
-const Il2CppTypeDefinitionMetadata TypeData_t3716_DefinitionMetadata = 
+extern const Il2CppType TypeData_t3954_1_0_0;
+struct TypeData_t3954;
+const Il2CppTypeDefinitionMetadata TypeData_t3954_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, TypeData_t3716_VTable/* vtableMethods */
-	, TypeData_t3716_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TypeData_t3954_VTable/* vtableMethods */
+	, TypeData_t3954_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 204/* fieldStart */
 
 };
-TypeInfo TypeData_t3716_il2cpp_TypeInfo = 
+TypeInfo TypeData_t3954_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TypeData"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, TypeData_t3716_MethodInfos/* methods */
-	, TypeData_t3716_PropertyInfos/* properties */
+	, TypeData_t3954_MethodInfos/* methods */
+	, TypeData_t3954_PropertyInfos/* properties */
 	, NULL/* events */
-	, &TypeData_t3716_il2cpp_TypeInfo/* element_class */
+	, &TypeData_t3954_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &TypeData_t3716_0_0_0/* byval_arg */
-	, &TypeData_t3716_1_0_0/* this_arg */
-	, &TypeData_t3716_DefinitionMetadata/* definitionMetadata */
+	, &TypeData_t3954_0_0_0/* byval_arg */
+	, &TypeData_t3954_1_0_0/* this_arg */
+	, &TypeData_t3954_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13795,11 +13795,11 @@ TypeInfo TypeData_t3716_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TypeData_t3716)/* instance_size */
-	, sizeof (TypeData_t3716)/* actualSize */
+	, sizeof (TypeData_t3954)/* instance_size */
+	, sizeof (TypeData_t3954)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(TypeData_t3716_StaticFields)/* static_fields_size */
+	, sizeof(TypeData_t3954_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -13828,26 +13828,26 @@ TypeInfo TypeData_t3716_il2cpp_TypeInfo =
 // System.Xml.Serialization.TypeMember
 #include "System_Xml_System_Xml_Serialization_TypeMember.h"
 // Metadata Definition System.Xml.Serialization.TypeMember
-extern TypeInfo TypeMember_t3717_il2cpp_TypeInfo;
+extern TypeInfo TypeMember_t3955_il2cpp_TypeInfo;
 // System.Xml.Serialization.TypeMember
 #include "System_Xml_System_Xml_Serialization_TypeMemberMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TypeMember_t3717_TypeMember__ctor_m11212_ParameterInfos[] = 
+static const ParameterInfo TypeMember_t3955_TypeMember__ctor_m11631_ParameterInfos[] = 
 {
 	{"type", 0, 134217808, 0, &Type_t_0_0_0},
 	{"member", 1, 134217809, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.TypeMember::.ctor(System.Type,System.String)
-extern const MethodInfo TypeMember__ctor_m11212_MethodInfo = 
+extern const MethodInfo TypeMember__ctor_m11631_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TypeMember__ctor_m11212/* method */
-	, &TypeMember_t3717_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeMember__ctor_m11631/* method */
+	, &TypeMember_t3955_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t/* invoker_method */
-	, TypeMember_t3717_TypeMember__ctor_m11212_ParameterInfos/* parameters */
+	, TypeMember_t3955_TypeMember__ctor_m11631_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -13863,11 +13863,11 @@ extern const MethodInfo TypeMember__ctor_m11212_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Xml.Serialization.TypeMember::GetHashCode()
-extern const MethodInfo TypeMember_GetHashCode_m11213_MethodInfo = 
+extern const MethodInfo TypeMember_GetHashCode_m11632_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&TypeMember_GetHashCode_m11213/* method */
-	, &TypeMember_t3717_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeMember_GetHashCode_m11632/* method */
+	, &TypeMember_t3955_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t29/* invoker_method */
 	, NULL/* parameters */
@@ -13885,20 +13885,20 @@ extern const MethodInfo TypeMember_GetHashCode_m11213_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo TypeMember_t3717_TypeMember_Equals_m11214_ParameterInfos[] = 
+static const ParameterInfo TypeMember_t3955_TypeMember_Equals_m11633_ParameterInfos[] = 
 {
 	{"obj", 0, 134217810, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.TypeMember::Equals(System.Object)
-extern const MethodInfo TypeMember_Equals_m11214_MethodInfo = 
+extern const MethodInfo TypeMember_Equals_m11633_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&TypeMember_Equals_m11214/* method */
-	, &TypeMember_t3717_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeMember_Equals_m11633/* method */
+	, &TypeMember_t3955_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t/* invoker_method */
-	, TypeMember_t3717_TypeMember_Equals_m11214_ParameterInfos/* parameters */
+	, TypeMember_t3955_TypeMember_Equals_m11633_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -13912,24 +13912,24 @@ extern const MethodInfo TypeMember_Equals_m11214_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TypeMember_t3717_0_0_0;
-extern const Il2CppType TypeMember_t3717_0_0_0;
-extern const Il2CppType TypeMember_t3717_0_0_0;
-static const ParameterInfo TypeMember_t3717_TypeMember_Equals_m11215_ParameterInfos[] = 
+extern const Il2CppType TypeMember_t3955_0_0_0;
+extern const Il2CppType TypeMember_t3955_0_0_0;
+extern const Il2CppType TypeMember_t3955_0_0_0;
+static const ParameterInfo TypeMember_t3955_TypeMember_Equals_m11634_ParameterInfos[] = 
 {
-	{"tm1", 0, 134217811, 0, &TypeMember_t3717_0_0_0},
-	{"tm2", 1, 134217812, 0, &TypeMember_t3717_0_0_0},
+	{"tm1", 0, 134217811, 0, &TypeMember_t3955_0_0_0},
+	{"tm2", 1, 134217812, 0, &TypeMember_t3955_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t30_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.TypeMember::Equals(System.Xml.Serialization.TypeMember,System.Xml.Serialization.TypeMember)
-extern const MethodInfo TypeMember_Equals_m11215_MethodInfo = 
+extern const MethodInfo TypeMember_Equals_m11634_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&TypeMember_Equals_m11215/* method */
-	, &TypeMember_t3717_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeMember_Equals_m11634/* method */
+	, &TypeMember_t3955_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30_Object_t_Object_t/* invoker_method */
-	, TypeMember_t3717_TypeMember_Equals_m11215_ParameterInfos/* parameters */
+	, TypeMember_t3955_TypeMember_Equals_m11634_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -13945,11 +13945,11 @@ extern const MethodInfo TypeMember_Equals_m11215_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.TypeMember::ToString()
-extern const MethodInfo TypeMember_ToString_m11216_MethodInfo = 
+extern const MethodInfo TypeMember_ToString_m11635_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&TypeMember_ToString_m11216/* method */
-	, &TypeMember_t3717_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeMember_ToString_m11635/* method */
+	, &TypeMember_t3955_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13966,26 +13966,26 @@ extern const MethodInfo TypeMember_ToString_m11216_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* TypeMember_t3717_MethodInfos[] =
+static const MethodInfo* TypeMember_t3955_MethodInfos[] =
 {
-	&TypeMember__ctor_m11212_MethodInfo,
-	&TypeMember_GetHashCode_m11213_MethodInfo,
-	&TypeMember_Equals_m11214_MethodInfo,
-	&TypeMember_Equals_m11215_MethodInfo,
-	&TypeMember_ToString_m11216_MethodInfo,
+	&TypeMember__ctor_m11631_MethodInfo,
+	&TypeMember_GetHashCode_m11632_MethodInfo,
+	&TypeMember_Equals_m11633_MethodInfo,
+	&TypeMember_Equals_m11634_MethodInfo,
+	&TypeMember_ToString_m11635_MethodInfo,
 	NULL
 };
-extern const MethodInfo TypeMember_Equals_m11214_MethodInfo;
-extern const MethodInfo TypeMember_GetHashCode_m11213_MethodInfo;
-extern const MethodInfo TypeMember_ToString_m11216_MethodInfo;
-static const Il2CppMethodReference TypeMember_t3717_VTable[] =
+extern const MethodInfo TypeMember_Equals_m11633_MethodInfo;
+extern const MethodInfo TypeMember_GetHashCode_m11632_MethodInfo;
+extern const MethodInfo TypeMember_ToString_m11635_MethodInfo;
+static const Il2CppMethodReference TypeMember_t3955_VTable[] =
 {
-	&TypeMember_Equals_m11214_MethodInfo,
+	&TypeMember_Equals_m11633_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&TypeMember_GetHashCode_m11213_MethodInfo,
-	&TypeMember_ToString_m11216_MethodInfo,
+	&TypeMember_GetHashCode_m11632_MethodInfo,
+	&TypeMember_ToString_m11635_MethodInfo,
 };
-static bool TypeMember_t3717_VTableIsGenericMethod[] =
+static bool TypeMember_t3955_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13993,36 +13993,36 @@ static bool TypeMember_t3717_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType TypeMember_t3717_1_0_0;
-struct TypeMember_t3717;
-const Il2CppTypeDefinitionMetadata TypeMember_t3717_DefinitionMetadata = 
+extern const Il2CppType TypeMember_t3955_1_0_0;
+struct TypeMember_t3955;
+const Il2CppTypeDefinitionMetadata TypeMember_t3955_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, TypeMember_t3717_VTable/* vtableMethods */
-	, TypeMember_t3717_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TypeMember_t3955_VTable/* vtableMethods */
+	, TypeMember_t3955_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 216/* fieldStart */
 
 };
-TypeInfo TypeMember_t3717_il2cpp_TypeInfo = 
+TypeInfo TypeMember_t3955_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TypeMember"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, TypeMember_t3717_MethodInfos/* methods */
+	, TypeMember_t3955_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &TypeMember_t3717_il2cpp_TypeInfo/* element_class */
+	, &TypeMember_t3955_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &TypeMember_t3717_0_0_0/* byval_arg */
-	, &TypeMember_t3717_1_0_0/* this_arg */
-	, &TypeMember_t3717_DefinitionMetadata/* definitionMetadata */
+	, &TypeMember_t3955_0_0_0/* byval_arg */
+	, &TypeMember_t3955_1_0_0/* this_arg */
+	, &TypeMember_t3955_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14032,8 +14032,8 @@ TypeInfo TypeMember_t3717_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TypeMember_t3717)/* instance_size */
-	, sizeof (TypeMember_t3717)/* actualSize */
+	, sizeof (TypeMember_t3955)/* instance_size */
+	, sizeof (TypeMember_t3955)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14065,16 +14065,16 @@ TypeInfo TypeMember_t3717_il2cpp_TypeInfo =
 // System.Xml.Serialization.TypeTranslator
 #include "System_Xml_System_Xml_Serialization_TypeTranslator.h"
 // Metadata Definition System.Xml.Serialization.TypeTranslator
-extern TypeInfo TypeTranslator_t3718_il2cpp_TypeInfo;
+extern TypeInfo TypeTranslator_t3956_il2cpp_TypeInfo;
 // System.Xml.Serialization.TypeTranslator
 #include "System_Xml_System_Xml_Serialization_TypeTranslatorMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.TypeTranslator::.cctor()
-extern const MethodInfo TypeTranslator__cctor_m11217_MethodInfo = 
+extern const MethodInfo TypeTranslator__cctor_m11636_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&TypeTranslator__cctor_m11217/* method */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeTranslator__cctor_m11636/* method */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -14092,20 +14092,20 @@ extern const MethodInfo TypeTranslator__cctor_m11217_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo TypeTranslator_t3718_TypeTranslator_GetTypeData_m11218_ParameterInfos[] = 
+static const ParameterInfo TypeTranslator_t3956_TypeTranslator_GetTypeData_m11637_ParameterInfos[] = 
 {
 	{"type", 0, 134217813, 0, &Type_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.TypeData System.Xml.Serialization.TypeTranslator::GetTypeData(System.Type)
-extern const MethodInfo TypeTranslator_GetTypeData_m11218_MethodInfo = 
+extern const MethodInfo TypeTranslator_GetTypeData_m11637_MethodInfo = 
 {
 	"GetTypeData"/* name */
-	, (methodPointerType)&TypeTranslator_GetTypeData_m11218/* method */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* declaring_type */
-	, &TypeData_t3716_0_0_0/* return_type */
+	, (methodPointerType)&TypeTranslator_GetTypeData_m11637/* method */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* declaring_type */
+	, &TypeData_t3954_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TypeTranslator_t3718_TypeTranslator_GetTypeData_m11218_ParameterInfos/* parameters */
+	, TypeTranslator_t3956_TypeTranslator_GetTypeData_m11637_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14121,21 +14121,21 @@ extern const MethodInfo TypeTranslator_GetTypeData_m11218_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TypeTranslator_t3718_TypeTranslator_GetTypeData_m11219_ParameterInfos[] = 
+static const ParameterInfo TypeTranslator_t3956_TypeTranslator_GetTypeData_m11638_ParameterInfos[] = 
 {
 	{"runtimeType", 0, 134217814, 0, &Type_t_0_0_0},
 	{"xmlDataType", 1, 134217815, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.TypeData System.Xml.Serialization.TypeTranslator::GetTypeData(System.Type,System.String)
-extern const MethodInfo TypeTranslator_GetTypeData_m11219_MethodInfo = 
+extern const MethodInfo TypeTranslator_GetTypeData_m11638_MethodInfo = 
 {
 	"GetTypeData"/* name */
-	, (methodPointerType)&TypeTranslator_GetTypeData_m11219/* method */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* declaring_type */
-	, &TypeData_t3716_0_0_0/* return_type */
+	, (methodPointerType)&TypeTranslator_GetTypeData_m11638/* method */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* declaring_type */
+	, &TypeData_t3954_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, TypeTranslator_t3718_TypeTranslator_GetTypeData_m11219_ParameterInfos/* parameters */
+	, TypeTranslator_t3956_TypeTranslator_GetTypeData_m11638_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14150,20 +14150,20 @@ extern const MethodInfo TypeTranslator_GetTypeData_m11219_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TypeTranslator_t3718_TypeTranslator_GetPrimitiveTypeData_m11220_ParameterInfos[] = 
+static const ParameterInfo TypeTranslator_t3956_TypeTranslator_GetPrimitiveTypeData_m11639_ParameterInfos[] = 
 {
 	{"typeName", 0, 134217816, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.TypeData System.Xml.Serialization.TypeTranslator::GetPrimitiveTypeData(System.String)
-extern const MethodInfo TypeTranslator_GetPrimitiveTypeData_m11220_MethodInfo = 
+extern const MethodInfo TypeTranslator_GetPrimitiveTypeData_m11639_MethodInfo = 
 {
 	"GetPrimitiveTypeData"/* name */
-	, (methodPointerType)&TypeTranslator_GetPrimitiveTypeData_m11220/* method */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* declaring_type */
-	, &TypeData_t3716_0_0_0/* return_type */
+	, (methodPointerType)&TypeTranslator_GetPrimitiveTypeData_m11639/* method */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* declaring_type */
+	, &TypeData_t3954_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TypeTranslator_t3718_TypeTranslator_GetPrimitiveTypeData_m11220_ParameterInfos/* parameters */
+	, TypeTranslator_t3956_TypeTranslator_GetPrimitiveTypeData_m11639_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14179,21 +14179,21 @@ extern const MethodInfo TypeTranslator_GetPrimitiveTypeData_m11220_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo TypeTranslator_t3718_TypeTranslator_GetPrimitiveTypeData_m11221_ParameterInfos[] = 
+static const ParameterInfo TypeTranslator_t3956_TypeTranslator_GetPrimitiveTypeData_m11640_ParameterInfos[] = 
 {
 	{"typeName", 0, 134217817, 0, &String_t_0_0_0},
 	{"nullable", 1, 134217818, 0, &Boolean_t30_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t36 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.TypeData System.Xml.Serialization.TypeTranslator::GetPrimitiveTypeData(System.String,System.Boolean)
-extern const MethodInfo TypeTranslator_GetPrimitiveTypeData_m11221_MethodInfo = 
+extern const MethodInfo TypeTranslator_GetPrimitiveTypeData_m11640_MethodInfo = 
 {
 	"GetPrimitiveTypeData"/* name */
-	, (methodPointerType)&TypeTranslator_GetPrimitiveTypeData_m11221/* method */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* declaring_type */
-	, &TypeData_t3716_0_0_0/* return_type */
+	, (methodPointerType)&TypeTranslator_GetPrimitiveTypeData_m11640/* method */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* declaring_type */
+	, &TypeData_t3954_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t36/* invoker_method */
-	, TypeTranslator_t3718_TypeTranslator_GetPrimitiveTypeData_m11221_ParameterInfos/* parameters */
+	, TypeTranslator_t3956_TypeTranslator_GetPrimitiveTypeData_m11640_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14208,20 +14208,20 @@ extern const MethodInfo TypeTranslator_GetPrimitiveTypeData_m11221_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TypeTranslator_t3718_TypeTranslator_FindPrimitiveTypeData_m11222_ParameterInfos[] = 
+static const ParameterInfo TypeTranslator_t3956_TypeTranslator_FindPrimitiveTypeData_m11641_ParameterInfos[] = 
 {
 	{"typeName", 0, 134217819, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.TypeData System.Xml.Serialization.TypeTranslator::FindPrimitiveTypeData(System.String)
-extern const MethodInfo TypeTranslator_FindPrimitiveTypeData_m11222_MethodInfo = 
+extern const MethodInfo TypeTranslator_FindPrimitiveTypeData_m11641_MethodInfo = 
 {
 	"FindPrimitiveTypeData"/* name */
-	, (methodPointerType)&TypeTranslator_FindPrimitiveTypeData_m11222/* method */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* declaring_type */
-	, &TypeData_t3716_0_0_0/* return_type */
+	, (methodPointerType)&TypeTranslator_FindPrimitiveTypeData_m11641/* method */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* declaring_type */
+	, &TypeData_t3954_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TypeTranslator_t3718_TypeTranslator_FindPrimitiveTypeData_m11222_ParameterInfos/* parameters */
+	, TypeTranslator_t3956_TypeTranslator_FindPrimitiveTypeData_m11641_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14236,20 +14236,20 @@ extern const MethodInfo TypeTranslator_FindPrimitiveTypeData_m11222_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TypeTranslator_t3718_TypeTranslator_GetArrayName_m11223_ParameterInfos[] = 
+static const ParameterInfo TypeTranslator_t3956_TypeTranslator_GetArrayName_m11642_ParameterInfos[] = 
 {
 	{"elemName", 0, 134217820, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.TypeTranslator::GetArrayName(System.String)
-extern const MethodInfo TypeTranslator_GetArrayName_m11223_MethodInfo = 
+extern const MethodInfo TypeTranslator_GetArrayName_m11642_MethodInfo = 
 {
 	"GetArrayName"/* name */
-	, (methodPointerType)&TypeTranslator_GetArrayName_m11223/* method */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeTranslator_GetArrayName_m11642/* method */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, TypeTranslator_t3718_TypeTranslator_GetArrayName_m11223_ParameterInfos/* parameters */
+	, TypeTranslator_t3956_TypeTranslator_GetArrayName_m11642_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14268,23 +14268,23 @@ extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_2;
-static const ParameterInfo TypeTranslator_t3718_TypeTranslator_ParseArrayType_m11224_ParameterInfos[] = 
+static const ParameterInfo TypeTranslator_t3956_TypeTranslator_ParseArrayType_m11643_ParameterInfos[] = 
 {
 	{"arrayType", 0, 134217821, 0, &String_t_0_0_0},
 	{"type", 1, 134217822, 0, &String_t_1_0_2},
 	{"ns", 2, 134217823, 0, &String_t_1_0_2},
 	{"dimensions", 3, 134217824, 0, &String_t_1_0_2},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_StringU26_t754_StringU26_t754_StringU26_t754 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_StringU26_t1034_StringU26_t1034_StringU26_t1034 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.TypeTranslator::ParseArrayType(System.String,System.String&,System.String&,System.String&)
-extern const MethodInfo TypeTranslator_ParseArrayType_m11224_MethodInfo = 
+extern const MethodInfo TypeTranslator_ParseArrayType_m11643_MethodInfo = 
 {
 	"ParseArrayType"/* name */
-	, (methodPointerType)&TypeTranslator_ParseArrayType_m11224/* method */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TypeTranslator_ParseArrayType_m11643/* method */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_StringU26_t754_StringU26_t754_StringU26_t754/* invoker_method */
-	, TypeTranslator_t3718_TypeTranslator_ParseArrayType_m11224_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t35_Object_t_StringU26_t1034_StringU26_t1034_StringU26_t1034/* invoker_method */
+	, TypeTranslator_t3956_TypeTranslator_ParseArrayType_m11643_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -14298,26 +14298,26 @@ extern const MethodInfo TypeTranslator_ParseArrayType_m11224_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* TypeTranslator_t3718_MethodInfos[] =
+static const MethodInfo* TypeTranslator_t3956_MethodInfos[] =
 {
-	&TypeTranslator__cctor_m11217_MethodInfo,
-	&TypeTranslator_GetTypeData_m11218_MethodInfo,
-	&TypeTranslator_GetTypeData_m11219_MethodInfo,
-	&TypeTranslator_GetPrimitiveTypeData_m11220_MethodInfo,
-	&TypeTranslator_GetPrimitiveTypeData_m11221_MethodInfo,
-	&TypeTranslator_FindPrimitiveTypeData_m11222_MethodInfo,
-	&TypeTranslator_GetArrayName_m11223_MethodInfo,
-	&TypeTranslator_ParseArrayType_m11224_MethodInfo,
+	&TypeTranslator__cctor_m11636_MethodInfo,
+	&TypeTranslator_GetTypeData_m11637_MethodInfo,
+	&TypeTranslator_GetTypeData_m11638_MethodInfo,
+	&TypeTranslator_GetPrimitiveTypeData_m11639_MethodInfo,
+	&TypeTranslator_GetPrimitiveTypeData_m11640_MethodInfo,
+	&TypeTranslator_FindPrimitiveTypeData_m11641_MethodInfo,
+	&TypeTranslator_GetArrayName_m11642_MethodInfo,
+	&TypeTranslator_ParseArrayType_m11643_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference TypeTranslator_t3718_VTable[] =
+static const Il2CppMethodReference TypeTranslator_t3956_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool TypeTranslator_t3718_VTableIsGenericMethod[] =
+static bool TypeTranslator_t3956_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14325,37 +14325,37 @@ static bool TypeTranslator_t3718_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType TypeTranslator_t3718_0_0_0;
-extern const Il2CppType TypeTranslator_t3718_1_0_0;
-struct TypeTranslator_t3718;
-const Il2CppTypeDefinitionMetadata TypeTranslator_t3718_DefinitionMetadata = 
+extern const Il2CppType TypeTranslator_t3956_0_0_0;
+extern const Il2CppType TypeTranslator_t3956_1_0_0;
+struct TypeTranslator_t3956;
+const Il2CppTypeDefinitionMetadata TypeTranslator_t3956_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, TypeTranslator_t3718_VTable/* vtableMethods */
-	, TypeTranslator_t3718_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TypeTranslator_t3956_VTable/* vtableMethods */
+	, TypeTranslator_t3956_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 218/* fieldStart */
 
 };
-TypeInfo TypeTranslator_t3718_il2cpp_TypeInfo = 
+TypeInfo TypeTranslator_t3956_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TypeTranslator"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, TypeTranslator_t3718_MethodInfos/* methods */
+	, TypeTranslator_t3956_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &TypeTranslator_t3718_il2cpp_TypeInfo/* element_class */
+	, &TypeTranslator_t3956_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &TypeTranslator_t3718_0_0_0/* byval_arg */
-	, &TypeTranslator_t3718_1_0_0/* this_arg */
-	, &TypeTranslator_t3718_DefinitionMetadata/* definitionMetadata */
+	, &TypeTranslator_t3956_0_0_0/* byval_arg */
+	, &TypeTranslator_t3956_1_0_0/* this_arg */
+	, &TypeTranslator_t3956_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14365,11 +14365,11 @@ TypeInfo TypeTranslator_t3718_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TypeTranslator_t3718)/* instance_size */
-	, sizeof (TypeTranslator_t3718)/* actualSize */
+	, sizeof (TypeTranslator_t3956)/* instance_size */
+	, sizeof (TypeTranslator_t3956)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(TypeTranslator_t3718_StaticFields)/* static_fields_size */
+	, sizeof(TypeTranslator_t3956_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 0/* flags */
@@ -14398,26 +14398,26 @@ TypeInfo TypeTranslator_t3718_il2cpp_TypeInfo =
 // System.Xml.Serialization.UnreferencedObjectEventArgs
 #include "System_Xml_System_Xml_Serialization_UnreferencedObjectEventA.h"
 // Metadata Definition System.Xml.Serialization.UnreferencedObjectEventArgs
-extern TypeInfo UnreferencedObjectEventArgs_t3719_il2cpp_TypeInfo;
+extern TypeInfo UnreferencedObjectEventArgs_t3957_il2cpp_TypeInfo;
 // System.Xml.Serialization.UnreferencedObjectEventArgs
 #include "System_Xml_System_Xml_Serialization_UnreferencedObjectEventAMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo UnreferencedObjectEventArgs_t3719_UnreferencedObjectEventArgs__ctor_m11225_ParameterInfos[] = 
+static const ParameterInfo UnreferencedObjectEventArgs_t3957_UnreferencedObjectEventArgs__ctor_m11644_ParameterInfos[] = 
 {
 	{"o", 0, 134217825, 0, &Object_t_0_0_0},
 	{"id", 1, 134217826, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.UnreferencedObjectEventArgs::.ctor(System.Object,System.String)
-extern const MethodInfo UnreferencedObjectEventArgs__ctor_m11225_MethodInfo = 
+extern const MethodInfo UnreferencedObjectEventArgs__ctor_m11644_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&UnreferencedObjectEventArgs__ctor_m11225/* method */
-	, &UnreferencedObjectEventArgs_t3719_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&UnreferencedObjectEventArgs__ctor_m11644/* method */
+	, &UnreferencedObjectEventArgs_t3957_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Object_t/* invoker_method */
-	, UnreferencedObjectEventArgs_t3719_UnreferencedObjectEventArgs__ctor_m11225_ParameterInfos/* parameters */
+	, UnreferencedObjectEventArgs_t3957_UnreferencedObjectEventArgs__ctor_m11644_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -14431,19 +14431,19 @@ extern const MethodInfo UnreferencedObjectEventArgs__ctor_m11225_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UnreferencedObjectEventArgs_t3719_MethodInfos[] =
+static const MethodInfo* UnreferencedObjectEventArgs_t3957_MethodInfos[] =
 {
-	&UnreferencedObjectEventArgs__ctor_m11225_MethodInfo,
+	&UnreferencedObjectEventArgs__ctor_m11644_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference UnreferencedObjectEventArgs_t3719_VTable[] =
+static const Il2CppMethodReference UnreferencedObjectEventArgs_t3957_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool UnreferencedObjectEventArgs_t3719_VTableIsGenericMethod[] =
+static bool UnreferencedObjectEventArgs_t3957_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14451,38 +14451,38 @@ static bool UnreferencedObjectEventArgs_t3719_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType UnreferencedObjectEventArgs_t3719_0_0_0;
-extern const Il2CppType UnreferencedObjectEventArgs_t3719_1_0_0;
-extern const Il2CppType EventArgs_t1202_0_0_0;
-struct UnreferencedObjectEventArgs_t3719;
-const Il2CppTypeDefinitionMetadata UnreferencedObjectEventArgs_t3719_DefinitionMetadata = 
+extern const Il2CppType UnreferencedObjectEventArgs_t3957_0_0_0;
+extern const Il2CppType UnreferencedObjectEventArgs_t3957_1_0_0;
+extern const Il2CppType EventArgs_t1461_0_0_0;
+struct UnreferencedObjectEventArgs_t3957;
+const Il2CppTypeDefinitionMetadata UnreferencedObjectEventArgs_t3957_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &EventArgs_t1202_0_0_0/* parent */
-	, UnreferencedObjectEventArgs_t3719_VTable/* vtableMethods */
-	, UnreferencedObjectEventArgs_t3719_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &EventArgs_t1461_0_0_0/* parent */
+	, UnreferencedObjectEventArgs_t3957_VTable/* vtableMethods */
+	, UnreferencedObjectEventArgs_t3957_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 222/* fieldStart */
 
 };
-TypeInfo UnreferencedObjectEventArgs_t3719_il2cpp_TypeInfo = 
+TypeInfo UnreferencedObjectEventArgs_t3957_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UnreferencedObjectEventArgs"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, UnreferencedObjectEventArgs_t3719_MethodInfos/* methods */
+	, UnreferencedObjectEventArgs_t3957_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UnreferencedObjectEventArgs_t3719_il2cpp_TypeInfo/* element_class */
+	, &UnreferencedObjectEventArgs_t3957_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &UnreferencedObjectEventArgs_t3719_0_0_0/* byval_arg */
-	, &UnreferencedObjectEventArgs_t3719_1_0_0/* this_arg */
-	, &UnreferencedObjectEventArgs_t3719_DefinitionMetadata/* definitionMetadata */
+	, &UnreferencedObjectEventArgs_t3957_0_0_0/* byval_arg */
+	, &UnreferencedObjectEventArgs_t3957_1_0_0/* this_arg */
+	, &UnreferencedObjectEventArgs_t3957_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14492,8 +14492,8 @@ TypeInfo UnreferencedObjectEventArgs_t3719_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (UnreferencedObjectEventArgs_t3719)/* instance_size */
-	, sizeof (UnreferencedObjectEventArgs_t3719)/* actualSize */
+	, sizeof (UnreferencedObjectEventArgs_t3957)/* instance_size */
+	, sizeof (UnreferencedObjectEventArgs_t3957)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14525,63 +14525,63 @@ TypeInfo UnreferencedObjectEventArgs_t3719_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlAnyAttributeAttribute
 #include "System_Xml_System_Xml_Serialization_XmlAnyAttributeAttribute.h"
 // Metadata Definition System.Xml.Serialization.XmlAnyAttributeAttribute
-extern TypeInfo XmlAnyAttributeAttribute_t3720_il2cpp_TypeInfo;
+extern TypeInfo XmlAnyAttributeAttribute_t3958_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAnyAttributeAttribute
 #include "System_Xml_System_Xml_Serialization_XmlAnyAttributeAttributeMethodDeclarations.h"
-static const MethodInfo* XmlAnyAttributeAttribute_t3720_MethodInfos[] =
+static const MethodInfo* XmlAnyAttributeAttribute_t3958_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference XmlAnyAttributeAttribute_t3720_VTable[] =
+static const Il2CppMethodReference XmlAnyAttributeAttribute_t3958_VTable[] =
 {
-	&Attribute_Equals_m3508_MethodInfo,
+	&Attribute_Equals_m3960_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Attribute_GetHashCode_m3509_MethodInfo,
+	&Attribute_GetHashCode_m3961_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlAnyAttributeAttribute_t3720_VTableIsGenericMethod[] =
+static bool XmlAnyAttributeAttribute_t3958_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlAnyAttributeAttribute_t3720_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlAnyAttributeAttribute_t3958_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t764_0_0_0, 4},
+	{ &_Attribute_t954_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAnyAttributeAttribute_t3720_0_0_0;
-extern const Il2CppType XmlAnyAttributeAttribute_t3720_1_0_0;
-struct XmlAnyAttributeAttribute_t3720;
-const Il2CppTypeDefinitionMetadata XmlAnyAttributeAttribute_t3720_DefinitionMetadata = 
+extern const Il2CppType XmlAnyAttributeAttribute_t3958_0_0_0;
+extern const Il2CppType XmlAnyAttributeAttribute_t3958_1_0_0;
+struct XmlAnyAttributeAttribute_t3958;
+const Il2CppTypeDefinitionMetadata XmlAnyAttributeAttribute_t3958_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlAnyAttributeAttribute_t3720_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t471_0_0_0/* parent */
-	, XmlAnyAttributeAttribute_t3720_VTable/* vtableMethods */
-	, XmlAnyAttributeAttribute_t3720_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlAnyAttributeAttribute_t3958_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t335_0_0_0/* parent */
+	, XmlAnyAttributeAttribute_t3958_VTable/* vtableMethods */
+	, XmlAnyAttributeAttribute_t3958_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlAnyAttributeAttribute_t3720_il2cpp_TypeInfo = 
+TypeInfo XmlAnyAttributeAttribute_t3958_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAnyAttributeAttribute"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlAnyAttributeAttribute_t3720_MethodInfos/* methods */
+	, XmlAnyAttributeAttribute_t3958_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &XmlAnyAttributeAttribute_t3720_il2cpp_TypeInfo/* element_class */
+	, &XmlAnyAttributeAttribute_t3958_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 37/* custom_attributes_cache */
-	, &XmlAnyAttributeAttribute_t3720_0_0_0/* byval_arg */
-	, &XmlAnyAttributeAttribute_t3720_1_0_0/* this_arg */
-	, &XmlAnyAttributeAttribute_t3720_DefinitionMetadata/* definitionMetadata */
+	, &XmlAnyAttributeAttribute_t3958_0_0_0/* byval_arg */
+	, &XmlAnyAttributeAttribute_t3958_1_0_0/* this_arg */
+	, &XmlAnyAttributeAttribute_t3958_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14591,8 +14591,8 @@ TypeInfo XmlAnyAttributeAttribute_t3720_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAnyAttributeAttribute_t3720)/* instance_size */
-	, sizeof (XmlAnyAttributeAttribute_t3720)/* actualSize */
+	, sizeof (XmlAnyAttributeAttribute_t3958)/* instance_size */
+	, sizeof (XmlAnyAttributeAttribute_t3958)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14624,16 +14624,16 @@ TypeInfo XmlAnyAttributeAttribute_t3720_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlAnyElementAttribute
 #include "System_Xml_System_Xml_Serialization_XmlAnyElementAttribute.h"
 // Metadata Definition System.Xml.Serialization.XmlAnyElementAttribute
-extern TypeInfo XmlAnyElementAttribute_t3721_il2cpp_TypeInfo;
+extern TypeInfo XmlAnyElementAttribute_t3959_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAnyElementAttribute
 #include "System_Xml_System_Xml_Serialization_XmlAnyElementAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlAnyElementAttribute::get_Name()
-extern const MethodInfo XmlAnyElementAttribute_get_Name_m11226_MethodInfo = 
+extern const MethodInfo XmlAnyElementAttribute_get_Name_m11645_MethodInfo = 
 {
 	"get_Name"/* name */
-	, (methodPointerType)&XmlAnyElementAttribute_get_Name_m11226/* method */
-	, &XmlAnyElementAttribute_t3721_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAnyElementAttribute_get_Name_m11645/* method */
+	, &XmlAnyElementAttribute_t3959_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14652,11 +14652,11 @@ extern const MethodInfo XmlAnyElementAttribute_get_Name_m11226_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlAnyElementAttribute::get_Namespace()
-extern const MethodInfo XmlAnyElementAttribute_get_Namespace_m11227_MethodInfo = 
+extern const MethodInfo XmlAnyElementAttribute_get_Namespace_m11646_MethodInfo = 
 {
 	"get_Namespace"/* name */
-	, (methodPointerType)&XmlAnyElementAttribute_get_Namespace_m11227/* method */
-	, &XmlAnyElementAttribute_t3721_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAnyElementAttribute_get_Namespace_m11646/* method */
+	, &XmlAnyElementAttribute_t3959_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14673,21 +14673,21 @@ extern const MethodInfo XmlAnyElementAttribute_get_Namespace_m11227_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlAnyElementAttribute_t3721_XmlAnyElementAttribute_AddKeyHash_m11228_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlAnyElementAttribute_t3959_XmlAnyElementAttribute_AddKeyHash_m11647_ParameterInfos[] = 
 {
-	{"sb", 0, 134217827, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217827, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAnyElementAttribute::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlAnyElementAttribute_AddKeyHash_m11228_MethodInfo = 
+extern const MethodInfo XmlAnyElementAttribute_AddKeyHash_m11647_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlAnyElementAttribute_AddKeyHash_m11228/* method */
-	, &XmlAnyElementAttribute_t3721_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAnyElementAttribute_AddKeyHash_m11647/* method */
+	, &XmlAnyElementAttribute_t3959_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAnyElementAttribute_t3721_XmlAnyElementAttribute_AddKeyHash_m11228_ParameterInfos/* parameters */
+	, XmlAnyElementAttribute_t3959_XmlAnyElementAttribute_AddKeyHash_m11647_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -14701,91 +14701,91 @@ extern const MethodInfo XmlAnyElementAttribute_AddKeyHash_m11228_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlAnyElementAttribute_t3721_MethodInfos[] =
+static const MethodInfo* XmlAnyElementAttribute_t3959_MethodInfos[] =
 {
-	&XmlAnyElementAttribute_get_Name_m11226_MethodInfo,
-	&XmlAnyElementAttribute_get_Namespace_m11227_MethodInfo,
-	&XmlAnyElementAttribute_AddKeyHash_m11228_MethodInfo,
+	&XmlAnyElementAttribute_get_Name_m11645_MethodInfo,
+	&XmlAnyElementAttribute_get_Namespace_m11646_MethodInfo,
+	&XmlAnyElementAttribute_AddKeyHash_m11647_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlAnyElementAttribute_get_Name_m11226_MethodInfo;
-static const PropertyInfo XmlAnyElementAttribute_t3721____Name_PropertyInfo = 
+extern const MethodInfo XmlAnyElementAttribute_get_Name_m11645_MethodInfo;
+static const PropertyInfo XmlAnyElementAttribute_t3959____Name_PropertyInfo = 
 {
-	&XmlAnyElementAttribute_t3721_il2cpp_TypeInfo/* parent */
+	&XmlAnyElementAttribute_t3959_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
-	, &XmlAnyElementAttribute_get_Name_m11226_MethodInfo/* get */
+	, &XmlAnyElementAttribute_get_Name_m11645_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAnyElementAttribute_get_Namespace_m11227_MethodInfo;
-static const PropertyInfo XmlAnyElementAttribute_t3721____Namespace_PropertyInfo = 
+extern const MethodInfo XmlAnyElementAttribute_get_Namespace_m11646_MethodInfo;
+static const PropertyInfo XmlAnyElementAttribute_t3959____Namespace_PropertyInfo = 
 {
-	&XmlAnyElementAttribute_t3721_il2cpp_TypeInfo/* parent */
+	&XmlAnyElementAttribute_t3959_il2cpp_TypeInfo/* parent */
 	, "Namespace"/* name */
-	, &XmlAnyElementAttribute_get_Namespace_m11227_MethodInfo/* get */
+	, &XmlAnyElementAttribute_get_Namespace_m11646_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlAnyElementAttribute_t3721_PropertyInfos[] =
+static const PropertyInfo* XmlAnyElementAttribute_t3959_PropertyInfos[] =
 {
-	&XmlAnyElementAttribute_t3721____Name_PropertyInfo,
-	&XmlAnyElementAttribute_t3721____Namespace_PropertyInfo,
+	&XmlAnyElementAttribute_t3959____Name_PropertyInfo,
+	&XmlAnyElementAttribute_t3959____Namespace_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlAnyElementAttribute_t3721_VTable[] =
+static const Il2CppMethodReference XmlAnyElementAttribute_t3959_VTable[] =
 {
-	&Attribute_Equals_m3508_MethodInfo,
+	&Attribute_Equals_m3960_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Attribute_GetHashCode_m3509_MethodInfo,
+	&Attribute_GetHashCode_m3961_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlAnyElementAttribute_t3721_VTableIsGenericMethod[] =
+static bool XmlAnyElementAttribute_t3959_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlAnyElementAttribute_t3721_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlAnyElementAttribute_t3959_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t764_0_0_0, 4},
+	{ &_Attribute_t954_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAnyElementAttribute_t3721_0_0_0;
-extern const Il2CppType XmlAnyElementAttribute_t3721_1_0_0;
-struct XmlAnyElementAttribute_t3721;
-const Il2CppTypeDefinitionMetadata XmlAnyElementAttribute_t3721_DefinitionMetadata = 
+extern const Il2CppType XmlAnyElementAttribute_t3959_0_0_0;
+extern const Il2CppType XmlAnyElementAttribute_t3959_1_0_0;
+struct XmlAnyElementAttribute_t3959;
+const Il2CppTypeDefinitionMetadata XmlAnyElementAttribute_t3959_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlAnyElementAttribute_t3721_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t471_0_0_0/* parent */
-	, XmlAnyElementAttribute_t3721_VTable/* vtableMethods */
-	, XmlAnyElementAttribute_t3721_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlAnyElementAttribute_t3959_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t335_0_0_0/* parent */
+	, XmlAnyElementAttribute_t3959_VTable/* vtableMethods */
+	, XmlAnyElementAttribute_t3959_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 224/* fieldStart */
 
 };
-TypeInfo XmlAnyElementAttribute_t3721_il2cpp_TypeInfo = 
+TypeInfo XmlAnyElementAttribute_t3959_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAnyElementAttribute"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlAnyElementAttribute_t3721_MethodInfos/* methods */
-	, XmlAnyElementAttribute_t3721_PropertyInfos/* properties */
+	, XmlAnyElementAttribute_t3959_MethodInfos/* methods */
+	, XmlAnyElementAttribute_t3959_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlAnyElementAttribute_t3721_il2cpp_TypeInfo/* element_class */
+	, &XmlAnyElementAttribute_t3959_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 38/* custom_attributes_cache */
-	, &XmlAnyElementAttribute_t3721_0_0_0/* byval_arg */
-	, &XmlAnyElementAttribute_t3721_1_0_0/* this_arg */
-	, &XmlAnyElementAttribute_t3721_DefinitionMetadata/* definitionMetadata */
+	, &XmlAnyElementAttribute_t3959_0_0_0/* byval_arg */
+	, &XmlAnyElementAttribute_t3959_1_0_0/* this_arg */
+	, &XmlAnyElementAttribute_t3959_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14795,8 +14795,8 @@ TypeInfo XmlAnyElementAttribute_t3721_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAnyElementAttribute_t3721)/* instance_size */
-	, sizeof (XmlAnyElementAttribute_t3721)/* actualSize */
+	, sizeof (XmlAnyElementAttribute_t3959)/* instance_size */
+	, sizeof (XmlAnyElementAttribute_t3959)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14828,16 +14828,16 @@ TypeInfo XmlAnyElementAttribute_t3721_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlAnyElementAttributes
 #include "System_Xml_System_Xml_Serialization_XmlAnyElementAttributes.h"
 // Metadata Definition System.Xml.Serialization.XmlAnyElementAttributes
-extern TypeInfo XmlAnyElementAttributes_t3722_il2cpp_TypeInfo;
+extern TypeInfo XmlAnyElementAttributes_t3960_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAnyElementAttributes
 #include "System_Xml_System_Xml_Serialization_XmlAnyElementAttributesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAnyElementAttributes::.ctor()
-extern const MethodInfo XmlAnyElementAttributes__ctor_m11229_MethodInfo = 
+extern const MethodInfo XmlAnyElementAttributes__ctor_m11648_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlAnyElementAttributes__ctor_m11229/* method */
-	, &XmlAnyElementAttributes_t3722_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAnyElementAttributes__ctor_m11648/* method */
+	, &XmlAnyElementAttributes_t3960_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -14855,20 +14855,20 @@ extern const MethodInfo XmlAnyElementAttributes__ctor_m11229_MethodInfo =
 
 };
 extern const Il2CppType Int32_t29_0_0_0;
-static const ParameterInfo XmlAnyElementAttributes_t3722_XmlAnyElementAttributes_get_Item_m11230_ParameterInfos[] = 
+static const ParameterInfo XmlAnyElementAttributes_t3960_XmlAnyElementAttributes_get_Item_m11649_ParameterInfos[] = 
 {
 	{"index", 0, 134217828, 0, &Int32_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlAnyElementAttribute System.Xml.Serialization.XmlAnyElementAttributes::get_Item(System.Int32)
-extern const MethodInfo XmlAnyElementAttributes_get_Item_m11230_MethodInfo = 
+extern const MethodInfo XmlAnyElementAttributes_get_Item_m11649_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&XmlAnyElementAttributes_get_Item_m11230/* method */
-	, &XmlAnyElementAttributes_t3722_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAnyElementAttribute_t3721_0_0_0/* return_type */
+	, (methodPointerType)&XmlAnyElementAttributes_get_Item_m11649/* method */
+	, &XmlAnyElementAttributes_t3960_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAnyElementAttribute_t3959_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t29/* invoker_method */
-	, XmlAnyElementAttributes_t3722_XmlAnyElementAttributes_get_Item_m11230_ParameterInfos/* parameters */
+	, XmlAnyElementAttributes_t3960_XmlAnyElementAttributes_get_Item_m11649_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14882,21 +14882,21 @@ extern const MethodInfo XmlAnyElementAttributes_get_Item_m11230_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlAnyElementAttribute_t3721_0_0_0;
-static const ParameterInfo XmlAnyElementAttributes_t3722_XmlAnyElementAttributes_Add_m11231_ParameterInfos[] = 
+extern const Il2CppType XmlAnyElementAttribute_t3959_0_0_0;
+static const ParameterInfo XmlAnyElementAttributes_t3960_XmlAnyElementAttributes_Add_m11650_ParameterInfos[] = 
 {
-	{"attribute", 0, 134217829, 0, &XmlAnyElementAttribute_t3721_0_0_0},
+	{"attribute", 0, 134217829, 0, &XmlAnyElementAttribute_t3959_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Xml.Serialization.XmlAnyElementAttributes::Add(System.Xml.Serialization.XmlAnyElementAttribute)
-extern const MethodInfo XmlAnyElementAttributes_Add_m11231_MethodInfo = 
+extern const MethodInfo XmlAnyElementAttributes_Add_m11650_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&XmlAnyElementAttributes_Add_m11231/* method */
-	, &XmlAnyElementAttributes_t3722_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAnyElementAttributes_Add_m11650/* method */
+	, &XmlAnyElementAttributes_t3960_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t29_Object_t/* invoker_method */
-	, XmlAnyElementAttributes_t3722_XmlAnyElementAttributes_Add_m11231_ParameterInfos/* parameters */
+	, XmlAnyElementAttributes_t3960_XmlAnyElementAttributes_Add_m11650_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -14910,21 +14910,21 @@ extern const MethodInfo XmlAnyElementAttributes_Add_m11231_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlAnyElementAttributes_t3722_XmlAnyElementAttributes_AddKeyHash_m11232_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlAnyElementAttributes_t3960_XmlAnyElementAttributes_AddKeyHash_m11651_ParameterInfos[] = 
 {
-	{"sb", 0, 134217830, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217830, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAnyElementAttributes::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlAnyElementAttributes_AddKeyHash_m11232_MethodInfo = 
+extern const MethodInfo XmlAnyElementAttributes_AddKeyHash_m11651_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlAnyElementAttributes_AddKeyHash_m11232/* method */
-	, &XmlAnyElementAttributes_t3722_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAnyElementAttributes_AddKeyHash_m11651/* method */
+	, &XmlAnyElementAttributes_t3960_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAnyElementAttributes_t3722_XmlAnyElementAttributes_AddKeyHash_m11232_ParameterInfos/* parameters */
+	, XmlAnyElementAttributes_t3960_XmlAnyElementAttributes_AddKeyHash_m11651_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -14938,88 +14938,88 @@ extern const MethodInfo XmlAnyElementAttributes_AddKeyHash_m11232_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlAnyElementAttributes_t3722_MethodInfos[] =
+static const MethodInfo* XmlAnyElementAttributes_t3960_MethodInfos[] =
 {
-	&XmlAnyElementAttributes__ctor_m11229_MethodInfo,
-	&XmlAnyElementAttributes_get_Item_m11230_MethodInfo,
-	&XmlAnyElementAttributes_Add_m11231_MethodInfo,
-	&XmlAnyElementAttributes_AddKeyHash_m11232_MethodInfo,
+	&XmlAnyElementAttributes__ctor_m11648_MethodInfo,
+	&XmlAnyElementAttributes_get_Item_m11649_MethodInfo,
+	&XmlAnyElementAttributes_Add_m11650_MethodInfo,
+	&XmlAnyElementAttributes_AddKeyHash_m11651_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlAnyElementAttributes_get_Item_m11230_MethodInfo;
-static const PropertyInfo XmlAnyElementAttributes_t3722____Item_PropertyInfo = 
+extern const MethodInfo XmlAnyElementAttributes_get_Item_m11649_MethodInfo;
+static const PropertyInfo XmlAnyElementAttributes_t3960____Item_PropertyInfo = 
 {
-	&XmlAnyElementAttributes_t3722_il2cpp_TypeInfo/* parent */
+	&XmlAnyElementAttributes_t3960_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &XmlAnyElementAttributes_get_Item_m11230_MethodInfo/* get */
+	, &XmlAnyElementAttributes_get_Item_m11649_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlAnyElementAttributes_t3722_PropertyInfos[] =
+static const PropertyInfo* XmlAnyElementAttributes_t3960_PropertyInfos[] =
 {
-	&XmlAnyElementAttributes_t3722____Item_PropertyInfo,
+	&XmlAnyElementAttributes_t3960____Item_PropertyInfo,
 	NULL
 };
-extern const MethodInfo CollectionBase_GetEnumerator_m12969_MethodInfo;
-extern const MethodInfo CollectionBase_get_Count_m12970_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_ICollection_get_IsSynchronized_m12971_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_ICollection_get_SyncRoot_m12972_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_ICollection_CopyTo_m12973_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_get_IsFixedSize_m12974_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_get_IsReadOnly_m12975_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_get_Item_m12976_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_set_Item_m12977_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_Add_m12978_MethodInfo;
-extern const MethodInfo CollectionBase_Clear_m12979_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_Contains_m12980_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_IndexOf_m12981_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_Insert_m12982_MethodInfo;
-extern const MethodInfo CollectionBase_System_Collections_IList_Remove_m12983_MethodInfo;
-extern const MethodInfo CollectionBase_RemoveAt_m12984_MethodInfo;
-extern const MethodInfo CollectionBase_OnClear_m12985_MethodInfo;
-extern const MethodInfo CollectionBase_OnClearComplete_m12986_MethodInfo;
-extern const MethodInfo CollectionBase_OnInsert_m12987_MethodInfo;
-extern const MethodInfo CollectionBase_OnInsertComplete_m12988_MethodInfo;
-extern const MethodInfo CollectionBase_OnRemove_m12989_MethodInfo;
-extern const MethodInfo CollectionBase_OnRemoveComplete_m12990_MethodInfo;
-extern const MethodInfo CollectionBase_OnSet_m12991_MethodInfo;
-extern const MethodInfo CollectionBase_OnSetComplete_m12992_MethodInfo;
-extern const MethodInfo CollectionBase_OnValidate_m12993_MethodInfo;
-static const Il2CppMethodReference XmlAnyElementAttributes_t3722_VTable[] =
+extern const MethodInfo CollectionBase_GetEnumerator_m13387_MethodInfo;
+extern const MethodInfo CollectionBase_get_Count_m13388_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_ICollection_get_IsSynchronized_m13389_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_ICollection_get_SyncRoot_m13390_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_ICollection_CopyTo_m13391_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_get_IsFixedSize_m13392_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_get_IsReadOnly_m13393_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_get_Item_m13394_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_set_Item_m13395_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_Add_m13396_MethodInfo;
+extern const MethodInfo CollectionBase_Clear_m13397_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_Contains_m13398_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_IndexOf_m13399_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_Insert_m13400_MethodInfo;
+extern const MethodInfo CollectionBase_System_Collections_IList_Remove_m13401_MethodInfo;
+extern const MethodInfo CollectionBase_RemoveAt_m13402_MethodInfo;
+extern const MethodInfo CollectionBase_OnClear_m13403_MethodInfo;
+extern const MethodInfo CollectionBase_OnClearComplete_m13404_MethodInfo;
+extern const MethodInfo CollectionBase_OnInsert_m13405_MethodInfo;
+extern const MethodInfo CollectionBase_OnInsertComplete_m13406_MethodInfo;
+extern const MethodInfo CollectionBase_OnRemove_m13407_MethodInfo;
+extern const MethodInfo CollectionBase_OnRemoveComplete_m13408_MethodInfo;
+extern const MethodInfo CollectionBase_OnSet_m13409_MethodInfo;
+extern const MethodInfo CollectionBase_OnSetComplete_m13410_MethodInfo;
+extern const MethodInfo CollectionBase_OnValidate_m13411_MethodInfo;
+static const Il2CppMethodReference XmlAnyElementAttributes_t3960_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&CollectionBase_GetEnumerator_m12969_MethodInfo,
-	&CollectionBase_get_Count_m12970_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_get_IsSynchronized_m12971_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_get_SyncRoot_m12972_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_CopyTo_m12973_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_IsFixedSize_m12974_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_IsReadOnly_m12975_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_Item_m12976_MethodInfo,
-	&CollectionBase_System_Collections_IList_set_Item_m12977_MethodInfo,
-	&CollectionBase_System_Collections_IList_Add_m12978_MethodInfo,
-	&CollectionBase_Clear_m12979_MethodInfo,
-	&CollectionBase_System_Collections_IList_Contains_m12980_MethodInfo,
-	&CollectionBase_System_Collections_IList_IndexOf_m12981_MethodInfo,
-	&CollectionBase_System_Collections_IList_Insert_m12982_MethodInfo,
-	&CollectionBase_System_Collections_IList_Remove_m12983_MethodInfo,
-	&CollectionBase_RemoveAt_m12984_MethodInfo,
-	&CollectionBase_OnClear_m12985_MethodInfo,
-	&CollectionBase_OnClearComplete_m12986_MethodInfo,
-	&CollectionBase_OnInsert_m12987_MethodInfo,
-	&CollectionBase_OnInsertComplete_m12988_MethodInfo,
-	&CollectionBase_OnRemove_m12989_MethodInfo,
-	&CollectionBase_OnRemoveComplete_m12990_MethodInfo,
-	&CollectionBase_OnSet_m12991_MethodInfo,
-	&CollectionBase_OnSetComplete_m12992_MethodInfo,
-	&CollectionBase_OnValidate_m12993_MethodInfo,
+	&CollectionBase_GetEnumerator_m13387_MethodInfo,
+	&CollectionBase_get_Count_m13388_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_get_IsSynchronized_m13389_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_get_SyncRoot_m13390_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_CopyTo_m13391_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_IsFixedSize_m13392_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_IsReadOnly_m13393_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_Item_m13394_MethodInfo,
+	&CollectionBase_System_Collections_IList_set_Item_m13395_MethodInfo,
+	&CollectionBase_System_Collections_IList_Add_m13396_MethodInfo,
+	&CollectionBase_Clear_m13397_MethodInfo,
+	&CollectionBase_System_Collections_IList_Contains_m13398_MethodInfo,
+	&CollectionBase_System_Collections_IList_IndexOf_m13399_MethodInfo,
+	&CollectionBase_System_Collections_IList_Insert_m13400_MethodInfo,
+	&CollectionBase_System_Collections_IList_Remove_m13401_MethodInfo,
+	&CollectionBase_RemoveAt_m13402_MethodInfo,
+	&CollectionBase_OnClear_m13403_MethodInfo,
+	&CollectionBase_OnClearComplete_m13404_MethodInfo,
+	&CollectionBase_OnInsert_m13405_MethodInfo,
+	&CollectionBase_OnInsertComplete_m13406_MethodInfo,
+	&CollectionBase_OnRemove_m13407_MethodInfo,
+	&CollectionBase_OnRemoveComplete_m13408_MethodInfo,
+	&CollectionBase_OnSet_m13409_MethodInfo,
+	&CollectionBase_OnSetComplete_m13410_MethodInfo,
+	&CollectionBase_OnValidate_m13411_MethodInfo,
 };
-static bool XmlAnyElementAttributes_t3722_VTableIsGenericMethod[] =
+static bool XmlAnyElementAttributes_t3960_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -15051,48 +15051,48 @@ static bool XmlAnyElementAttributes_t3722_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IEnumerable_t677_0_0_0;
-extern const Il2CppType ICollection_t680_0_0_0;
-extern const Il2CppType IList_t3927_0_0_0;
-static Il2CppInterfaceOffsetPair XmlAnyElementAttributes_t3722_InterfacesOffsets[] = 
+extern const Il2CppType IEnumerable_t746_0_0_0;
+extern const Il2CppType ICollection_t749_0_0_0;
+extern const Il2CppType IList_t4165_0_0_0;
+static Il2CppInterfaceOffsetPair XmlAnyElementAttributes_t3960_InterfacesOffsets[] = 
 {
-	{ &IEnumerable_t677_0_0_0, 4},
-	{ &ICollection_t680_0_0_0, 5},
-	{ &IList_t3927_0_0_0, 9},
+	{ &IEnumerable_t746_0_0_0, 4},
+	{ &ICollection_t749_0_0_0, 5},
+	{ &IList_t4165_0_0_0, 9},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAnyElementAttributes_t3722_0_0_0;
-extern const Il2CppType XmlAnyElementAttributes_t3722_1_0_0;
-extern const Il2CppType CollectionBase_t3723_0_0_0;
-struct XmlAnyElementAttributes_t3722;
-const Il2CppTypeDefinitionMetadata XmlAnyElementAttributes_t3722_DefinitionMetadata = 
+extern const Il2CppType XmlAnyElementAttributes_t3960_0_0_0;
+extern const Il2CppType XmlAnyElementAttributes_t3960_1_0_0;
+extern const Il2CppType CollectionBase_t3961_0_0_0;
+struct XmlAnyElementAttributes_t3960;
+const Il2CppTypeDefinitionMetadata XmlAnyElementAttributes_t3960_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlAnyElementAttributes_t3722_InterfacesOffsets/* interfaceOffsets */
-	, &CollectionBase_t3723_0_0_0/* parent */
-	, XmlAnyElementAttributes_t3722_VTable/* vtableMethods */
-	, XmlAnyElementAttributes_t3722_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlAnyElementAttributes_t3960_InterfacesOffsets/* interfaceOffsets */
+	, &CollectionBase_t3961_0_0_0/* parent */
+	, XmlAnyElementAttributes_t3960_VTable/* vtableMethods */
+	, XmlAnyElementAttributes_t3960_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlAnyElementAttributes_t3722_il2cpp_TypeInfo = 
+TypeInfo XmlAnyElementAttributes_t3960_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAnyElementAttributes"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlAnyElementAttributes_t3722_MethodInfos/* methods */
-	, XmlAnyElementAttributes_t3722_PropertyInfos/* properties */
+	, XmlAnyElementAttributes_t3960_MethodInfos/* methods */
+	, XmlAnyElementAttributes_t3960_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlAnyElementAttributes_t3722_il2cpp_TypeInfo/* element_class */
+	, &XmlAnyElementAttributes_t3960_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 39/* custom_attributes_cache */
-	, &XmlAnyElementAttributes_t3722_0_0_0/* byval_arg */
-	, &XmlAnyElementAttributes_t3722_1_0_0/* this_arg */
-	, &XmlAnyElementAttributes_t3722_DefinitionMetadata/* definitionMetadata */
+	, &XmlAnyElementAttributes_t3960_0_0_0/* byval_arg */
+	, &XmlAnyElementAttributes_t3960_1_0_0/* this_arg */
+	, &XmlAnyElementAttributes_t3960_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15102,8 +15102,8 @@ TypeInfo XmlAnyElementAttributes_t3722_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAnyElementAttributes_t3722)/* instance_size */
-	, sizeof (XmlAnyElementAttributes_t3722)/* actualSize */
+	, sizeof (XmlAnyElementAttributes_t3960)/* instance_size */
+	, sizeof (XmlAnyElementAttributes_t3960)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -15135,24 +15135,24 @@ TypeInfo XmlAnyElementAttributes_t3722_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlArrayAttribute
 #include "System_Xml_System_Xml_Serialization_XmlArrayAttribute.h"
 // Metadata Definition System.Xml.Serialization.XmlArrayAttribute
-extern TypeInfo XmlArrayAttribute_t1461_il2cpp_TypeInfo;
+extern TypeInfo XmlArrayAttribute_t1718_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlArrayAttribute
 #include "System_Xml_System_Xml_Serialization_XmlArrayAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlArrayAttribute_t1461_XmlArrayAttribute__ctor_m7461_ParameterInfos[] = 
+static const ParameterInfo XmlArrayAttribute_t1718_XmlArrayAttribute__ctor_m7909_ParameterInfos[] = 
 {
 	{"elementName", 0, 134217831, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlArrayAttribute::.ctor(System.String)
-extern const MethodInfo XmlArrayAttribute__ctor_m7461_MethodInfo = 
+extern const MethodInfo XmlArrayAttribute__ctor_m7909_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlArrayAttribute__ctor_m7461/* method */
-	, &XmlArrayAttribute_t1461_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayAttribute__ctor_m7909/* method */
+	, &XmlArrayAttribute_t1718_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlArrayAttribute_t1461_XmlArrayAttribute__ctor_m7461_ParameterInfos/* parameters */
+	, XmlArrayAttribute_t1718_XmlArrayAttribute__ctor_m7909_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15168,11 +15168,11 @@ extern const MethodInfo XmlArrayAttribute__ctor_m7461_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlArrayAttribute::get_ElementName()
-extern const MethodInfo XmlArrayAttribute_get_ElementName_m11233_MethodInfo = 
+extern const MethodInfo XmlArrayAttribute_get_ElementName_m11652_MethodInfo = 
 {
 	"get_ElementName"/* name */
-	, (methodPointerType)&XmlArrayAttribute_get_ElementName_m11233/* method */
-	, &XmlArrayAttribute_t1461_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayAttribute_get_ElementName_m11652/* method */
+	, &XmlArrayAttribute_t1718_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15189,15 +15189,15 @@ extern const MethodInfo XmlArrayAttribute_get_ElementName_m11233_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlSchemaForm_t3693 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlSchemaForm_t3931 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaForm System.Xml.Serialization.XmlArrayAttribute::get_Form()
-extern const MethodInfo XmlArrayAttribute_get_Form_m11234_MethodInfo = 
+extern const MethodInfo XmlArrayAttribute_get_Form_m11653_MethodInfo = 
 {
 	"get_Form"/* name */
-	, (methodPointerType)&XmlArrayAttribute_get_Form_m11234/* method */
-	, &XmlArrayAttribute_t1461_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaForm_t3693_0_0_0/* return_type */
-	, RuntimeInvoker_XmlSchemaForm_t3693/* invoker_method */
+	, (methodPointerType)&XmlArrayAttribute_get_Form_m11653/* method */
+	, &XmlArrayAttribute_t1718_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaForm_t3931_0_0_0/* return_type */
+	, RuntimeInvoker_XmlSchemaForm_t3931/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -15214,11 +15214,11 @@ extern const MethodInfo XmlArrayAttribute_get_Form_m11234_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.XmlArrayAttribute::get_IsNullable()
-extern const MethodInfo XmlArrayAttribute_get_IsNullable_m11235_MethodInfo = 
+extern const MethodInfo XmlArrayAttribute_get_IsNullable_m11654_MethodInfo = 
 {
 	"get_IsNullable"/* name */
-	, (methodPointerType)&XmlArrayAttribute_get_IsNullable_m11235/* method */
-	, &XmlArrayAttribute_t1461_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayAttribute_get_IsNullable_m11654/* method */
+	, &XmlArrayAttribute_t1718_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -15237,11 +15237,11 @@ extern const MethodInfo XmlArrayAttribute_get_IsNullable_m11235_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlArrayAttribute::get_Namespace()
-extern const MethodInfo XmlArrayAttribute_get_Namespace_m11236_MethodInfo = 
+extern const MethodInfo XmlArrayAttribute_get_Namespace_m11655_MethodInfo = 
 {
 	"get_Namespace"/* name */
-	, (methodPointerType)&XmlArrayAttribute_get_Namespace_m11236/* method */
-	, &XmlArrayAttribute_t1461_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayAttribute_get_Namespace_m11655/* method */
+	, &XmlArrayAttribute_t1718_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15258,21 +15258,21 @@ extern const MethodInfo XmlArrayAttribute_get_Namespace_m11236_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlArrayAttribute_t1461_XmlArrayAttribute_AddKeyHash_m11237_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlArrayAttribute_t1718_XmlArrayAttribute_AddKeyHash_m11656_ParameterInfos[] = 
 {
-	{"sb", 0, 134217832, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217832, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlArrayAttribute::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlArrayAttribute_AddKeyHash_m11237_MethodInfo = 
+extern const MethodInfo XmlArrayAttribute_AddKeyHash_m11656_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlArrayAttribute_AddKeyHash_m11237/* method */
-	, &XmlArrayAttribute_t1461_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayAttribute_AddKeyHash_m11656/* method */
+	, &XmlArrayAttribute_t1718_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlArrayAttribute_t1461_XmlArrayAttribute_AddKeyHash_m11237_ParameterInfos/* parameters */
+	, XmlArrayAttribute_t1718_XmlArrayAttribute_AddKeyHash_m11656_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -15286,118 +15286,118 @@ extern const MethodInfo XmlArrayAttribute_AddKeyHash_m11237_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlArrayAttribute_t1461_MethodInfos[] =
+static const MethodInfo* XmlArrayAttribute_t1718_MethodInfos[] =
 {
-	&XmlArrayAttribute__ctor_m7461_MethodInfo,
-	&XmlArrayAttribute_get_ElementName_m11233_MethodInfo,
-	&XmlArrayAttribute_get_Form_m11234_MethodInfo,
-	&XmlArrayAttribute_get_IsNullable_m11235_MethodInfo,
-	&XmlArrayAttribute_get_Namespace_m11236_MethodInfo,
-	&XmlArrayAttribute_AddKeyHash_m11237_MethodInfo,
+	&XmlArrayAttribute__ctor_m7909_MethodInfo,
+	&XmlArrayAttribute_get_ElementName_m11652_MethodInfo,
+	&XmlArrayAttribute_get_Form_m11653_MethodInfo,
+	&XmlArrayAttribute_get_IsNullable_m11654_MethodInfo,
+	&XmlArrayAttribute_get_Namespace_m11655_MethodInfo,
+	&XmlArrayAttribute_AddKeyHash_m11656_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlArrayAttribute_get_ElementName_m11233_MethodInfo;
-static const PropertyInfo XmlArrayAttribute_t1461____ElementName_PropertyInfo = 
+extern const MethodInfo XmlArrayAttribute_get_ElementName_m11652_MethodInfo;
+static const PropertyInfo XmlArrayAttribute_t1718____ElementName_PropertyInfo = 
 {
-	&XmlArrayAttribute_t1461_il2cpp_TypeInfo/* parent */
+	&XmlArrayAttribute_t1718_il2cpp_TypeInfo/* parent */
 	, "ElementName"/* name */
-	, &XmlArrayAttribute_get_ElementName_m11233_MethodInfo/* get */
+	, &XmlArrayAttribute_get_ElementName_m11652_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayAttribute_get_Form_m11234_MethodInfo;
-static const PropertyInfo XmlArrayAttribute_t1461____Form_PropertyInfo = 
+extern const MethodInfo XmlArrayAttribute_get_Form_m11653_MethodInfo;
+static const PropertyInfo XmlArrayAttribute_t1718____Form_PropertyInfo = 
 {
-	&XmlArrayAttribute_t1461_il2cpp_TypeInfo/* parent */
+	&XmlArrayAttribute_t1718_il2cpp_TypeInfo/* parent */
 	, "Form"/* name */
-	, &XmlArrayAttribute_get_Form_m11234_MethodInfo/* get */
+	, &XmlArrayAttribute_get_Form_m11653_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayAttribute_get_IsNullable_m11235_MethodInfo;
-static const PropertyInfo XmlArrayAttribute_t1461____IsNullable_PropertyInfo = 
+extern const MethodInfo XmlArrayAttribute_get_IsNullable_m11654_MethodInfo;
+static const PropertyInfo XmlArrayAttribute_t1718____IsNullable_PropertyInfo = 
 {
-	&XmlArrayAttribute_t1461_il2cpp_TypeInfo/* parent */
+	&XmlArrayAttribute_t1718_il2cpp_TypeInfo/* parent */
 	, "IsNullable"/* name */
-	, &XmlArrayAttribute_get_IsNullable_m11235_MethodInfo/* get */
+	, &XmlArrayAttribute_get_IsNullable_m11654_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayAttribute_get_Namespace_m11236_MethodInfo;
-static const PropertyInfo XmlArrayAttribute_t1461____Namespace_PropertyInfo = 
+extern const MethodInfo XmlArrayAttribute_get_Namespace_m11655_MethodInfo;
+static const PropertyInfo XmlArrayAttribute_t1718____Namespace_PropertyInfo = 
 {
-	&XmlArrayAttribute_t1461_il2cpp_TypeInfo/* parent */
+	&XmlArrayAttribute_t1718_il2cpp_TypeInfo/* parent */
 	, "Namespace"/* name */
-	, &XmlArrayAttribute_get_Namespace_m11236_MethodInfo/* get */
+	, &XmlArrayAttribute_get_Namespace_m11655_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlArrayAttribute_t1461_PropertyInfos[] =
+static const PropertyInfo* XmlArrayAttribute_t1718_PropertyInfos[] =
 {
-	&XmlArrayAttribute_t1461____ElementName_PropertyInfo,
-	&XmlArrayAttribute_t1461____Form_PropertyInfo,
-	&XmlArrayAttribute_t1461____IsNullable_PropertyInfo,
-	&XmlArrayAttribute_t1461____Namespace_PropertyInfo,
+	&XmlArrayAttribute_t1718____ElementName_PropertyInfo,
+	&XmlArrayAttribute_t1718____Form_PropertyInfo,
+	&XmlArrayAttribute_t1718____IsNullable_PropertyInfo,
+	&XmlArrayAttribute_t1718____Namespace_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlArrayAttribute_t1461_VTable[] =
+static const Il2CppMethodReference XmlArrayAttribute_t1718_VTable[] =
 {
-	&Attribute_Equals_m3508_MethodInfo,
+	&Attribute_Equals_m3960_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Attribute_GetHashCode_m3509_MethodInfo,
+	&Attribute_GetHashCode_m3961_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlArrayAttribute_t1461_VTableIsGenericMethod[] =
+static bool XmlArrayAttribute_t1718_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlArrayAttribute_t1461_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlArrayAttribute_t1718_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t764_0_0_0, 4},
+	{ &_Attribute_t954_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlArrayAttribute_t1461_0_0_0;
-extern const Il2CppType XmlArrayAttribute_t1461_1_0_0;
-struct XmlArrayAttribute_t1461;
-const Il2CppTypeDefinitionMetadata XmlArrayAttribute_t1461_DefinitionMetadata = 
+extern const Il2CppType XmlArrayAttribute_t1718_0_0_0;
+extern const Il2CppType XmlArrayAttribute_t1718_1_0_0;
+struct XmlArrayAttribute_t1718;
+const Il2CppTypeDefinitionMetadata XmlArrayAttribute_t1718_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlArrayAttribute_t1461_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t471_0_0_0/* parent */
-	, XmlArrayAttribute_t1461_VTable/* vtableMethods */
-	, XmlArrayAttribute_t1461_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlArrayAttribute_t1718_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t335_0_0_0/* parent */
+	, XmlArrayAttribute_t1718_VTable/* vtableMethods */
+	, XmlArrayAttribute_t1718_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 226/* fieldStart */
 
 };
-TypeInfo XmlArrayAttribute_t1461_il2cpp_TypeInfo = 
+TypeInfo XmlArrayAttribute_t1718_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlArrayAttribute"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlArrayAttribute_t1461_MethodInfos/* methods */
-	, XmlArrayAttribute_t1461_PropertyInfos/* properties */
+	, XmlArrayAttribute_t1718_MethodInfos/* methods */
+	, XmlArrayAttribute_t1718_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlArrayAttribute_t1461_il2cpp_TypeInfo/* element_class */
+	, &XmlArrayAttribute_t1718_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 40/* custom_attributes_cache */
-	, &XmlArrayAttribute_t1461_0_0_0/* byval_arg */
-	, &XmlArrayAttribute_t1461_1_0_0/* this_arg */
-	, &XmlArrayAttribute_t1461_DefinitionMetadata/* definitionMetadata */
+	, &XmlArrayAttribute_t1718_0_0_0/* byval_arg */
+	, &XmlArrayAttribute_t1718_1_0_0/* this_arg */
+	, &XmlArrayAttribute_t1718_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15407,8 +15407,8 @@ TypeInfo XmlArrayAttribute_t1461_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlArrayAttribute_t1461)/* instance_size */
-	, sizeof (XmlArrayAttribute_t1461)/* actualSize */
+	, sizeof (XmlArrayAttribute_t1718)/* instance_size */
+	, sizeof (XmlArrayAttribute_t1718)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -15440,24 +15440,24 @@ TypeInfo XmlArrayAttribute_t1461_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlArrayItemAttribute
 #include "System_Xml_System_Xml_Serialization_XmlArrayItemAttribute.h"
 // Metadata Definition System.Xml.Serialization.XmlArrayItemAttribute
-extern TypeInfo XmlArrayItemAttribute_t1460_il2cpp_TypeInfo;
+extern TypeInfo XmlArrayItemAttribute_t1717_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlArrayItemAttribute
 #include "System_Xml_System_Xml_Serialization_XmlArrayItemAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlArrayItemAttribute_t1460_XmlArrayItemAttribute__ctor_m7460_ParameterInfos[] = 
+static const ParameterInfo XmlArrayItemAttribute_t1717_XmlArrayItemAttribute__ctor_m7908_ParameterInfos[] = 
 {
 	{"elementName", 0, 134217833, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlArrayItemAttribute::.ctor(System.String)
-extern const MethodInfo XmlArrayItemAttribute__ctor_m7460_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute__ctor_m7908_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute__ctor_m7460/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttribute__ctor_m7908/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlArrayItemAttribute_t1460_XmlArrayItemAttribute__ctor_m7460_ParameterInfos/* parameters */
+	, XmlArrayItemAttribute_t1717_XmlArrayItemAttribute__ctor_m7908_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -15473,11 +15473,11 @@ extern const MethodInfo XmlArrayItemAttribute__ctor_m7460_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlArrayItemAttribute::get_DataType()
-extern const MethodInfo XmlArrayItemAttribute_get_DataType_m11238_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_DataType_m11657_MethodInfo = 
 {
 	"get_DataType"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute_get_DataType_m11238/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttribute_get_DataType_m11657/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15496,11 +15496,11 @@ extern const MethodInfo XmlArrayItemAttribute_get_DataType_m11238_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlArrayItemAttribute::get_ElementName()
-extern const MethodInfo XmlArrayItemAttribute_get_ElementName_m11239_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_ElementName_m11658_MethodInfo = 
 {
 	"get_ElementName"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute_get_ElementName_m11239/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttribute_get_ElementName_m11658/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15517,15 +15517,15 @@ extern const MethodInfo XmlArrayItemAttribute_get_ElementName_m11239_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlSchemaForm_t3693 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlSchemaForm_t3931 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaForm System.Xml.Serialization.XmlArrayItemAttribute::get_Form()
-extern const MethodInfo XmlArrayItemAttribute_get_Form_m11240_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_Form_m11659_MethodInfo = 
 {
 	"get_Form"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute_get_Form_m11240/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaForm_t3693_0_0_0/* return_type */
-	, RuntimeInvoker_XmlSchemaForm_t3693/* invoker_method */
+	, (methodPointerType)&XmlArrayItemAttribute_get_Form_m11659/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaForm_t3931_0_0_0/* return_type */
+	, RuntimeInvoker_XmlSchemaForm_t3931/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -15542,11 +15542,11 @@ extern const MethodInfo XmlArrayItemAttribute_get_Form_m11240_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlArrayItemAttribute::get_Namespace()
-extern const MethodInfo XmlArrayItemAttribute_get_Namespace_m11241_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_Namespace_m11660_MethodInfo = 
 {
 	"get_Namespace"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute_get_Namespace_m11241/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttribute_get_Namespace_m11660/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15565,11 +15565,11 @@ extern const MethodInfo XmlArrayItemAttribute_get_Namespace_m11241_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.XmlArrayItemAttribute::get_IsNullable()
-extern const MethodInfo XmlArrayItemAttribute_get_IsNullable_m11242_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_IsNullable_m11661_MethodInfo = 
 {
 	"get_IsNullable"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute_get_IsNullable_m11242/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttribute_get_IsNullable_m11661/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -15588,11 +15588,11 @@ extern const MethodInfo XmlArrayItemAttribute_get_IsNullable_m11242_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Type System.Xml.Serialization.XmlArrayItemAttribute::get_Type()
-extern const MethodInfo XmlArrayItemAttribute_get_Type_m11243_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_Type_m11662_MethodInfo = 
 {
 	"get_Type"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute_get_Type_m11243/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttribute_get_Type_m11662/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15611,11 +15611,11 @@ extern const MethodInfo XmlArrayItemAttribute_get_Type_m11243_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Xml.Serialization.XmlArrayItemAttribute::get_NestingLevel()
-extern const MethodInfo XmlArrayItemAttribute_get_NestingLevel_m11244_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_NestingLevel_m11663_MethodInfo = 
 {
 	"get_NestingLevel"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute_get_NestingLevel_m11244/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttribute_get_NestingLevel_m11663/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t29/* invoker_method */
 	, NULL/* parameters */
@@ -15632,21 +15632,21 @@ extern const MethodInfo XmlArrayItemAttribute_get_NestingLevel_m11244_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlArrayItemAttribute_t1460_XmlArrayItemAttribute_AddKeyHash_m11245_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlArrayItemAttribute_t1717_XmlArrayItemAttribute_AddKeyHash_m11664_ParameterInfos[] = 
 {
-	{"sb", 0, 134217834, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217834, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlArrayItemAttribute::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlArrayItemAttribute_AddKeyHash_m11245_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttribute_AddKeyHash_m11664_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlArrayItemAttribute_AddKeyHash_m11245/* method */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttribute_AddKeyHash_m11664/* method */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlArrayItemAttribute_t1460_XmlArrayItemAttribute_AddKeyHash_m11245_ParameterInfos/* parameters */
+	, XmlArrayItemAttribute_t1717_XmlArrayItemAttribute_AddKeyHash_m11664_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -15660,157 +15660,157 @@ extern const MethodInfo XmlArrayItemAttribute_AddKeyHash_m11245_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlArrayItemAttribute_t1460_MethodInfos[] =
+static const MethodInfo* XmlArrayItemAttribute_t1717_MethodInfos[] =
 {
-	&XmlArrayItemAttribute__ctor_m7460_MethodInfo,
-	&XmlArrayItemAttribute_get_DataType_m11238_MethodInfo,
-	&XmlArrayItemAttribute_get_ElementName_m11239_MethodInfo,
-	&XmlArrayItemAttribute_get_Form_m11240_MethodInfo,
-	&XmlArrayItemAttribute_get_Namespace_m11241_MethodInfo,
-	&XmlArrayItemAttribute_get_IsNullable_m11242_MethodInfo,
-	&XmlArrayItemAttribute_get_Type_m11243_MethodInfo,
-	&XmlArrayItemAttribute_get_NestingLevel_m11244_MethodInfo,
-	&XmlArrayItemAttribute_AddKeyHash_m11245_MethodInfo,
+	&XmlArrayItemAttribute__ctor_m7908_MethodInfo,
+	&XmlArrayItemAttribute_get_DataType_m11657_MethodInfo,
+	&XmlArrayItemAttribute_get_ElementName_m11658_MethodInfo,
+	&XmlArrayItemAttribute_get_Form_m11659_MethodInfo,
+	&XmlArrayItemAttribute_get_Namespace_m11660_MethodInfo,
+	&XmlArrayItemAttribute_get_IsNullable_m11661_MethodInfo,
+	&XmlArrayItemAttribute_get_Type_m11662_MethodInfo,
+	&XmlArrayItemAttribute_get_NestingLevel_m11663_MethodInfo,
+	&XmlArrayItemAttribute_AddKeyHash_m11664_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlArrayItemAttribute_get_DataType_m11238_MethodInfo;
-static const PropertyInfo XmlArrayItemAttribute_t1460____DataType_PropertyInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_DataType_m11657_MethodInfo;
+static const PropertyInfo XmlArrayItemAttribute_t1717____DataType_PropertyInfo = 
 {
-	&XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* parent */
+	&XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* parent */
 	, "DataType"/* name */
-	, &XmlArrayItemAttribute_get_DataType_m11238_MethodInfo/* get */
+	, &XmlArrayItemAttribute_get_DataType_m11657_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayItemAttribute_get_ElementName_m11239_MethodInfo;
-static const PropertyInfo XmlArrayItemAttribute_t1460____ElementName_PropertyInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_ElementName_m11658_MethodInfo;
+static const PropertyInfo XmlArrayItemAttribute_t1717____ElementName_PropertyInfo = 
 {
-	&XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* parent */
+	&XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* parent */
 	, "ElementName"/* name */
-	, &XmlArrayItemAttribute_get_ElementName_m11239_MethodInfo/* get */
+	, &XmlArrayItemAttribute_get_ElementName_m11658_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayItemAttribute_get_Form_m11240_MethodInfo;
-static const PropertyInfo XmlArrayItemAttribute_t1460____Form_PropertyInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_Form_m11659_MethodInfo;
+static const PropertyInfo XmlArrayItemAttribute_t1717____Form_PropertyInfo = 
 {
-	&XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* parent */
+	&XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* parent */
 	, "Form"/* name */
-	, &XmlArrayItemAttribute_get_Form_m11240_MethodInfo/* get */
+	, &XmlArrayItemAttribute_get_Form_m11659_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayItemAttribute_get_Namespace_m11241_MethodInfo;
-static const PropertyInfo XmlArrayItemAttribute_t1460____Namespace_PropertyInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_Namespace_m11660_MethodInfo;
+static const PropertyInfo XmlArrayItemAttribute_t1717____Namespace_PropertyInfo = 
 {
-	&XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* parent */
+	&XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* parent */
 	, "Namespace"/* name */
-	, &XmlArrayItemAttribute_get_Namespace_m11241_MethodInfo/* get */
+	, &XmlArrayItemAttribute_get_Namespace_m11660_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayItemAttribute_get_IsNullable_m11242_MethodInfo;
-static const PropertyInfo XmlArrayItemAttribute_t1460____IsNullable_PropertyInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_IsNullable_m11661_MethodInfo;
+static const PropertyInfo XmlArrayItemAttribute_t1717____IsNullable_PropertyInfo = 
 {
-	&XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* parent */
+	&XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* parent */
 	, "IsNullable"/* name */
-	, &XmlArrayItemAttribute_get_IsNullable_m11242_MethodInfo/* get */
+	, &XmlArrayItemAttribute_get_IsNullable_m11661_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayItemAttribute_get_Type_m11243_MethodInfo;
-static const PropertyInfo XmlArrayItemAttribute_t1460____Type_PropertyInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_Type_m11662_MethodInfo;
+static const PropertyInfo XmlArrayItemAttribute_t1717____Type_PropertyInfo = 
 {
-	&XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* parent */
+	&XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* parent */
 	, "Type"/* name */
-	, &XmlArrayItemAttribute_get_Type_m11243_MethodInfo/* get */
+	, &XmlArrayItemAttribute_get_Type_m11662_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlArrayItemAttribute_get_NestingLevel_m11244_MethodInfo;
-static const PropertyInfo XmlArrayItemAttribute_t1460____NestingLevel_PropertyInfo = 
+extern const MethodInfo XmlArrayItemAttribute_get_NestingLevel_m11663_MethodInfo;
+static const PropertyInfo XmlArrayItemAttribute_t1717____NestingLevel_PropertyInfo = 
 {
-	&XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* parent */
+	&XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* parent */
 	, "NestingLevel"/* name */
-	, &XmlArrayItemAttribute_get_NestingLevel_m11244_MethodInfo/* get */
+	, &XmlArrayItemAttribute_get_NestingLevel_m11663_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlArrayItemAttribute_t1460_PropertyInfos[] =
+static const PropertyInfo* XmlArrayItemAttribute_t1717_PropertyInfos[] =
 {
-	&XmlArrayItemAttribute_t1460____DataType_PropertyInfo,
-	&XmlArrayItemAttribute_t1460____ElementName_PropertyInfo,
-	&XmlArrayItemAttribute_t1460____Form_PropertyInfo,
-	&XmlArrayItemAttribute_t1460____Namespace_PropertyInfo,
-	&XmlArrayItemAttribute_t1460____IsNullable_PropertyInfo,
-	&XmlArrayItemAttribute_t1460____Type_PropertyInfo,
-	&XmlArrayItemAttribute_t1460____NestingLevel_PropertyInfo,
+	&XmlArrayItemAttribute_t1717____DataType_PropertyInfo,
+	&XmlArrayItemAttribute_t1717____ElementName_PropertyInfo,
+	&XmlArrayItemAttribute_t1717____Form_PropertyInfo,
+	&XmlArrayItemAttribute_t1717____Namespace_PropertyInfo,
+	&XmlArrayItemAttribute_t1717____IsNullable_PropertyInfo,
+	&XmlArrayItemAttribute_t1717____Type_PropertyInfo,
+	&XmlArrayItemAttribute_t1717____NestingLevel_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlArrayItemAttribute_t1460_VTable[] =
+static const Il2CppMethodReference XmlArrayItemAttribute_t1717_VTable[] =
 {
-	&Attribute_Equals_m3508_MethodInfo,
+	&Attribute_Equals_m3960_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Attribute_GetHashCode_m3509_MethodInfo,
+	&Attribute_GetHashCode_m3961_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlArrayItemAttribute_t1460_VTableIsGenericMethod[] =
+static bool XmlArrayItemAttribute_t1717_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlArrayItemAttribute_t1460_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlArrayItemAttribute_t1717_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t764_0_0_0, 4},
+	{ &_Attribute_t954_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlArrayItemAttribute_t1460_0_0_0;
-extern const Il2CppType XmlArrayItemAttribute_t1460_1_0_0;
-struct XmlArrayItemAttribute_t1460;
-const Il2CppTypeDefinitionMetadata XmlArrayItemAttribute_t1460_DefinitionMetadata = 
+extern const Il2CppType XmlArrayItemAttribute_t1717_0_0_0;
+extern const Il2CppType XmlArrayItemAttribute_t1717_1_0_0;
+struct XmlArrayItemAttribute_t1717;
+const Il2CppTypeDefinitionMetadata XmlArrayItemAttribute_t1717_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlArrayItemAttribute_t1460_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t471_0_0_0/* parent */
-	, XmlArrayItemAttribute_t1460_VTable/* vtableMethods */
-	, XmlArrayItemAttribute_t1460_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlArrayItemAttribute_t1717_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t335_0_0_0/* parent */
+	, XmlArrayItemAttribute_t1717_VTable/* vtableMethods */
+	, XmlArrayItemAttribute_t1717_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 231/* fieldStart */
 
 };
-TypeInfo XmlArrayItemAttribute_t1460_il2cpp_TypeInfo = 
+TypeInfo XmlArrayItemAttribute_t1717_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlArrayItemAttribute"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlArrayItemAttribute_t1460_MethodInfos/* methods */
-	, XmlArrayItemAttribute_t1460_PropertyInfos/* properties */
+	, XmlArrayItemAttribute_t1717_MethodInfos/* methods */
+	, XmlArrayItemAttribute_t1717_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlArrayItemAttribute_t1460_il2cpp_TypeInfo/* element_class */
+	, &XmlArrayItemAttribute_t1717_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 41/* custom_attributes_cache */
-	, &XmlArrayItemAttribute_t1460_0_0_0/* byval_arg */
-	, &XmlArrayItemAttribute_t1460_1_0_0/* this_arg */
-	, &XmlArrayItemAttribute_t1460_DefinitionMetadata/* definitionMetadata */
+	, &XmlArrayItemAttribute_t1717_0_0_0/* byval_arg */
+	, &XmlArrayItemAttribute_t1717_1_0_0/* this_arg */
+	, &XmlArrayItemAttribute_t1717_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15820,8 +15820,8 @@ TypeInfo XmlArrayItemAttribute_t1460_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlArrayItemAttribute_t1460)/* instance_size */
-	, sizeof (XmlArrayItemAttribute_t1460)/* actualSize */
+	, sizeof (XmlArrayItemAttribute_t1717)/* instance_size */
+	, sizeof (XmlArrayItemAttribute_t1717)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -15853,16 +15853,16 @@ TypeInfo XmlArrayItemAttribute_t1460_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlArrayItemAttributes
 #include "System_Xml_System_Xml_Serialization_XmlArrayItemAttributes.h"
 // Metadata Definition System.Xml.Serialization.XmlArrayItemAttributes
-extern TypeInfo XmlArrayItemAttributes_t3724_il2cpp_TypeInfo;
+extern TypeInfo XmlArrayItemAttributes_t3962_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlArrayItemAttributes
 #include "System_Xml_System_Xml_Serialization_XmlArrayItemAttributesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlArrayItemAttributes::.ctor()
-extern const MethodInfo XmlArrayItemAttributes__ctor_m11246_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttributes__ctor_m11665_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlArrayItemAttributes__ctor_m11246/* method */
-	, &XmlArrayItemAttributes_t3724_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttributes__ctor_m11665/* method */
+	, &XmlArrayItemAttributes_t3962_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -15880,20 +15880,20 @@ extern const MethodInfo XmlArrayItemAttributes__ctor_m11246_MethodInfo =
 
 };
 extern const Il2CppType Int32_t29_0_0_0;
-static const ParameterInfo XmlArrayItemAttributes_t3724_XmlArrayItemAttributes_get_Item_m11247_ParameterInfos[] = 
+static const ParameterInfo XmlArrayItemAttributes_t3962_XmlArrayItemAttributes_get_Item_m11666_ParameterInfos[] = 
 {
 	{"index", 0, 134217835, 0, &Int32_t29_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlArrayItemAttribute System.Xml.Serialization.XmlArrayItemAttributes::get_Item(System.Int32)
-extern const MethodInfo XmlArrayItemAttributes_get_Item_m11247_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttributes_get_Item_m11666_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&XmlArrayItemAttributes_get_Item_m11247/* method */
-	, &XmlArrayItemAttributes_t3724_il2cpp_TypeInfo/* declaring_type */
-	, &XmlArrayItemAttribute_t1460_0_0_0/* return_type */
+	, (methodPointerType)&XmlArrayItemAttributes_get_Item_m11666/* method */
+	, &XmlArrayItemAttributes_t3962_il2cpp_TypeInfo/* declaring_type */
+	, &XmlArrayItemAttribute_t1717_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t29/* invoker_method */
-	, XmlArrayItemAttributes_t3724_XmlArrayItemAttributes_get_Item_m11247_ParameterInfos/* parameters */
+	, XmlArrayItemAttributes_t3962_XmlArrayItemAttributes_get_Item_m11666_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -15907,21 +15907,21 @@ extern const MethodInfo XmlArrayItemAttributes_get_Item_m11247_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlArrayItemAttribute_t1460_0_0_0;
-static const ParameterInfo XmlArrayItemAttributes_t3724_XmlArrayItemAttributes_Add_m11248_ParameterInfos[] = 
+extern const Il2CppType XmlArrayItemAttribute_t1717_0_0_0;
+static const ParameterInfo XmlArrayItemAttributes_t3962_XmlArrayItemAttributes_Add_m11667_ParameterInfos[] = 
 {
-	{"attribute", 0, 134217836, 0, &XmlArrayItemAttribute_t1460_0_0_0},
+	{"attribute", 0, 134217836, 0, &XmlArrayItemAttribute_t1717_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Xml.Serialization.XmlArrayItemAttributes::Add(System.Xml.Serialization.XmlArrayItemAttribute)
-extern const MethodInfo XmlArrayItemAttributes_Add_m11248_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttributes_Add_m11667_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&XmlArrayItemAttributes_Add_m11248/* method */
-	, &XmlArrayItemAttributes_t3724_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttributes_Add_m11667/* method */
+	, &XmlArrayItemAttributes_t3962_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t29_Object_t/* invoker_method */
-	, XmlArrayItemAttributes_t3724_XmlArrayItemAttributes_Add_m11248_ParameterInfos/* parameters */
+	, XmlArrayItemAttributes_t3962_XmlArrayItemAttributes_Add_m11667_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -15935,21 +15935,21 @@ extern const MethodInfo XmlArrayItemAttributes_Add_m11248_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlArrayItemAttributes_t3724_XmlArrayItemAttributes_AddKeyHash_m11249_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlArrayItemAttributes_t3962_XmlArrayItemAttributes_AddKeyHash_m11668_ParameterInfos[] = 
 {
-	{"sb", 0, 134217837, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217837, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlArrayItemAttributes::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlArrayItemAttributes_AddKeyHash_m11249_MethodInfo = 
+extern const MethodInfo XmlArrayItemAttributes_AddKeyHash_m11668_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlArrayItemAttributes_AddKeyHash_m11249/* method */
-	, &XmlArrayItemAttributes_t3724_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlArrayItemAttributes_AddKeyHash_m11668/* method */
+	, &XmlArrayItemAttributes_t3962_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlArrayItemAttributes_t3724_XmlArrayItemAttributes_AddKeyHash_m11249_ParameterInfos/* parameters */
+	, XmlArrayItemAttributes_t3962_XmlArrayItemAttributes_AddKeyHash_m11668_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -15963,63 +15963,63 @@ extern const MethodInfo XmlArrayItemAttributes_AddKeyHash_m11249_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlArrayItemAttributes_t3724_MethodInfos[] =
+static const MethodInfo* XmlArrayItemAttributes_t3962_MethodInfos[] =
 {
-	&XmlArrayItemAttributes__ctor_m11246_MethodInfo,
-	&XmlArrayItemAttributes_get_Item_m11247_MethodInfo,
-	&XmlArrayItemAttributes_Add_m11248_MethodInfo,
-	&XmlArrayItemAttributes_AddKeyHash_m11249_MethodInfo,
+	&XmlArrayItemAttributes__ctor_m11665_MethodInfo,
+	&XmlArrayItemAttributes_get_Item_m11666_MethodInfo,
+	&XmlArrayItemAttributes_Add_m11667_MethodInfo,
+	&XmlArrayItemAttributes_AddKeyHash_m11668_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlArrayItemAttributes_get_Item_m11247_MethodInfo;
-static const PropertyInfo XmlArrayItemAttributes_t3724____Item_PropertyInfo = 
+extern const MethodInfo XmlArrayItemAttributes_get_Item_m11666_MethodInfo;
+static const PropertyInfo XmlArrayItemAttributes_t3962____Item_PropertyInfo = 
 {
-	&XmlArrayItemAttributes_t3724_il2cpp_TypeInfo/* parent */
+	&XmlArrayItemAttributes_t3962_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &XmlArrayItemAttributes_get_Item_m11247_MethodInfo/* get */
+	, &XmlArrayItemAttributes_get_Item_m11666_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlArrayItemAttributes_t3724_PropertyInfos[] =
+static const PropertyInfo* XmlArrayItemAttributes_t3962_PropertyInfos[] =
 {
-	&XmlArrayItemAttributes_t3724____Item_PropertyInfo,
+	&XmlArrayItemAttributes_t3962____Item_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlArrayItemAttributes_t3724_VTable[] =
+static const Il2CppMethodReference XmlArrayItemAttributes_t3962_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
-	&CollectionBase_GetEnumerator_m12969_MethodInfo,
-	&CollectionBase_get_Count_m12970_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_get_IsSynchronized_m12971_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_get_SyncRoot_m12972_MethodInfo,
-	&CollectionBase_System_Collections_ICollection_CopyTo_m12973_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_IsFixedSize_m12974_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_IsReadOnly_m12975_MethodInfo,
-	&CollectionBase_System_Collections_IList_get_Item_m12976_MethodInfo,
-	&CollectionBase_System_Collections_IList_set_Item_m12977_MethodInfo,
-	&CollectionBase_System_Collections_IList_Add_m12978_MethodInfo,
-	&CollectionBase_Clear_m12979_MethodInfo,
-	&CollectionBase_System_Collections_IList_Contains_m12980_MethodInfo,
-	&CollectionBase_System_Collections_IList_IndexOf_m12981_MethodInfo,
-	&CollectionBase_System_Collections_IList_Insert_m12982_MethodInfo,
-	&CollectionBase_System_Collections_IList_Remove_m12983_MethodInfo,
-	&CollectionBase_RemoveAt_m12984_MethodInfo,
-	&CollectionBase_OnClear_m12985_MethodInfo,
-	&CollectionBase_OnClearComplete_m12986_MethodInfo,
-	&CollectionBase_OnInsert_m12987_MethodInfo,
-	&CollectionBase_OnInsertComplete_m12988_MethodInfo,
-	&CollectionBase_OnRemove_m12989_MethodInfo,
-	&CollectionBase_OnRemoveComplete_m12990_MethodInfo,
-	&CollectionBase_OnSet_m12991_MethodInfo,
-	&CollectionBase_OnSetComplete_m12992_MethodInfo,
-	&CollectionBase_OnValidate_m12993_MethodInfo,
+	&CollectionBase_GetEnumerator_m13387_MethodInfo,
+	&CollectionBase_get_Count_m13388_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_get_IsSynchronized_m13389_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_get_SyncRoot_m13390_MethodInfo,
+	&CollectionBase_System_Collections_ICollection_CopyTo_m13391_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_IsFixedSize_m13392_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_IsReadOnly_m13393_MethodInfo,
+	&CollectionBase_System_Collections_IList_get_Item_m13394_MethodInfo,
+	&CollectionBase_System_Collections_IList_set_Item_m13395_MethodInfo,
+	&CollectionBase_System_Collections_IList_Add_m13396_MethodInfo,
+	&CollectionBase_Clear_m13397_MethodInfo,
+	&CollectionBase_System_Collections_IList_Contains_m13398_MethodInfo,
+	&CollectionBase_System_Collections_IList_IndexOf_m13399_MethodInfo,
+	&CollectionBase_System_Collections_IList_Insert_m13400_MethodInfo,
+	&CollectionBase_System_Collections_IList_Remove_m13401_MethodInfo,
+	&CollectionBase_RemoveAt_m13402_MethodInfo,
+	&CollectionBase_OnClear_m13403_MethodInfo,
+	&CollectionBase_OnClearComplete_m13404_MethodInfo,
+	&CollectionBase_OnInsert_m13405_MethodInfo,
+	&CollectionBase_OnInsertComplete_m13406_MethodInfo,
+	&CollectionBase_OnRemove_m13407_MethodInfo,
+	&CollectionBase_OnRemoveComplete_m13408_MethodInfo,
+	&CollectionBase_OnSet_m13409_MethodInfo,
+	&CollectionBase_OnSetComplete_m13410_MethodInfo,
+	&CollectionBase_OnValidate_m13411_MethodInfo,
 };
-static bool XmlArrayItemAttributes_t3724_VTableIsGenericMethod[] =
+static bool XmlArrayItemAttributes_t3962_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16051,44 +16051,44 @@ static bool XmlArrayItemAttributes_t3724_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlArrayItemAttributes_t3724_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlArrayItemAttributes_t3962_InterfacesOffsets[] = 
 {
-	{ &IEnumerable_t677_0_0_0, 4},
-	{ &ICollection_t680_0_0_0, 5},
-	{ &IList_t3927_0_0_0, 9},
+	{ &IEnumerable_t746_0_0_0, 4},
+	{ &ICollection_t749_0_0_0, 5},
+	{ &IList_t4165_0_0_0, 9},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlArrayItemAttributes_t3724_0_0_0;
-extern const Il2CppType XmlArrayItemAttributes_t3724_1_0_0;
-struct XmlArrayItemAttributes_t3724;
-const Il2CppTypeDefinitionMetadata XmlArrayItemAttributes_t3724_DefinitionMetadata = 
+extern const Il2CppType XmlArrayItemAttributes_t3962_0_0_0;
+extern const Il2CppType XmlArrayItemAttributes_t3962_1_0_0;
+struct XmlArrayItemAttributes_t3962;
+const Il2CppTypeDefinitionMetadata XmlArrayItemAttributes_t3962_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlArrayItemAttributes_t3724_InterfacesOffsets/* interfaceOffsets */
-	, &CollectionBase_t3723_0_0_0/* parent */
-	, XmlArrayItemAttributes_t3724_VTable/* vtableMethods */
-	, XmlArrayItemAttributes_t3724_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlArrayItemAttributes_t3962_InterfacesOffsets/* interfaceOffsets */
+	, &CollectionBase_t3961_0_0_0/* parent */
+	, XmlArrayItemAttributes_t3962_VTable/* vtableMethods */
+	, XmlArrayItemAttributes_t3962_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo XmlArrayItemAttributes_t3724_il2cpp_TypeInfo = 
+TypeInfo XmlArrayItemAttributes_t3962_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlArrayItemAttributes"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlArrayItemAttributes_t3724_MethodInfos/* methods */
-	, XmlArrayItemAttributes_t3724_PropertyInfos/* properties */
+	, XmlArrayItemAttributes_t3962_MethodInfos/* methods */
+	, XmlArrayItemAttributes_t3962_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlArrayItemAttributes_t3724_il2cpp_TypeInfo/* element_class */
+	, &XmlArrayItemAttributes_t3962_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 42/* custom_attributes_cache */
-	, &XmlArrayItemAttributes_t3724_0_0_0/* byval_arg */
-	, &XmlArrayItemAttributes_t3724_1_0_0/* this_arg */
-	, &XmlArrayItemAttributes_t3724_DefinitionMetadata/* definitionMetadata */
+	, &XmlArrayItemAttributes_t3962_0_0_0/* byval_arg */
+	, &XmlArrayItemAttributes_t3962_1_0_0/* this_arg */
+	, &XmlArrayItemAttributes_t3962_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16098,8 +16098,8 @@ TypeInfo XmlArrayItemAttributes_t3724_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlArrayItemAttributes_t3724)/* instance_size */
-	, sizeof (XmlArrayItemAttributes_t3724)/* actualSize */
+	, sizeof (XmlArrayItemAttributes_t3962)/* instance_size */
+	, sizeof (XmlArrayItemAttributes_t3962)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -16131,24 +16131,24 @@ TypeInfo XmlArrayItemAttributes_t3724_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlAttributeAttribute
 #include "System_Xml_System_Xml_Serialization_XmlAttributeAttribute.h"
 // Metadata Definition System.Xml.Serialization.XmlAttributeAttribute
-extern TypeInfo XmlAttributeAttribute_t1459_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeAttribute_t1716_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAttributeAttribute
 #include "System_Xml_System_Xml_Serialization_XmlAttributeAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlAttributeAttribute_t1459_XmlAttributeAttribute__ctor_m7459_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeAttribute_t1716_XmlAttributeAttribute__ctor_m7907_ParameterInfos[] = 
 {
 	{"attributeName", 0, 134217838, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::.ctor(System.String)
-extern const MethodInfo XmlAttributeAttribute__ctor_m7459_MethodInfo = 
+extern const MethodInfo XmlAttributeAttribute__ctor_m7907_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlAttributeAttribute__ctor_m7459/* method */
-	, &XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeAttribute__ctor_m7907/* method */
+	, &XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAttributeAttribute_t1459_XmlAttributeAttribute__ctor_m7459_ParameterInfos/* parameters */
+	, XmlAttributeAttribute_t1716_XmlAttributeAttribute__ctor_m7907_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -16164,11 +16164,11 @@ extern const MethodInfo XmlAttributeAttribute__ctor_m7459_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlAttributeAttribute::get_AttributeName()
-extern const MethodInfo XmlAttributeAttribute_get_AttributeName_m11250_MethodInfo = 
+extern const MethodInfo XmlAttributeAttribute_get_AttributeName_m11669_MethodInfo = 
 {
 	"get_AttributeName"/* name */
-	, (methodPointerType)&XmlAttributeAttribute_get_AttributeName_m11250/* method */
-	, &XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeAttribute_get_AttributeName_m11669/* method */
+	, &XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16187,11 +16187,11 @@ extern const MethodInfo XmlAttributeAttribute_get_AttributeName_m11250_MethodInf
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlAttributeAttribute::get_DataType()
-extern const MethodInfo XmlAttributeAttribute_get_DataType_m11251_MethodInfo = 
+extern const MethodInfo XmlAttributeAttribute_get_DataType_m11670_MethodInfo = 
 {
 	"get_DataType"/* name */
-	, (methodPointerType)&XmlAttributeAttribute_get_DataType_m11251/* method */
-	, &XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeAttribute_get_DataType_m11670/* method */
+	, &XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16209,20 +16209,20 @@ extern const MethodInfo XmlAttributeAttribute_get_DataType_m11251_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlAttributeAttribute_t1459_XmlAttributeAttribute_set_DataType_m11252_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeAttribute_t1716_XmlAttributeAttribute_set_DataType_m11671_ParameterInfos[] = 
 {
 	{"value", 0, 134217839, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::set_DataType(System.String)
-extern const MethodInfo XmlAttributeAttribute_set_DataType_m11252_MethodInfo = 
+extern const MethodInfo XmlAttributeAttribute_set_DataType_m11671_MethodInfo = 
 {
 	"set_DataType"/* name */
-	, (methodPointerType)&XmlAttributeAttribute_set_DataType_m11252/* method */
-	, &XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeAttribute_set_DataType_m11671/* method */
+	, &XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAttributeAttribute_t1459_XmlAttributeAttribute_set_DataType_m11252_ParameterInfos/* parameters */
+	, XmlAttributeAttribute_t1716_XmlAttributeAttribute_set_DataType_m11671_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16236,15 +16236,15 @@ extern const MethodInfo XmlAttributeAttribute_set_DataType_m11252_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_XmlSchemaForm_t3693 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_XmlSchemaForm_t3931 (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Schema.XmlSchemaForm System.Xml.Serialization.XmlAttributeAttribute::get_Form()
-extern const MethodInfo XmlAttributeAttribute_get_Form_m11253_MethodInfo = 
+extern const MethodInfo XmlAttributeAttribute_get_Form_m11672_MethodInfo = 
 {
 	"get_Form"/* name */
-	, (methodPointerType)&XmlAttributeAttribute_get_Form_m11253/* method */
-	, &XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* declaring_type */
-	, &XmlSchemaForm_t3693_0_0_0/* return_type */
-	, RuntimeInvoker_XmlSchemaForm_t3693/* invoker_method */
+	, (methodPointerType)&XmlAttributeAttribute_get_Form_m11672/* method */
+	, &XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* declaring_type */
+	, &XmlSchemaForm_t3931_0_0_0/* return_type */
+	, RuntimeInvoker_XmlSchemaForm_t3931/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -16261,11 +16261,11 @@ extern const MethodInfo XmlAttributeAttribute_get_Form_m11253_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlAttributeAttribute::get_Namespace()
-extern const MethodInfo XmlAttributeAttribute_get_Namespace_m11254_MethodInfo = 
+extern const MethodInfo XmlAttributeAttribute_get_Namespace_m11673_MethodInfo = 
 {
 	"get_Namespace"/* name */
-	, (methodPointerType)&XmlAttributeAttribute_get_Namespace_m11254/* method */
-	, &XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeAttribute_get_Namespace_m11673/* method */
+	, &XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16282,21 +16282,21 @@ extern const MethodInfo XmlAttributeAttribute_get_Namespace_m11254_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlAttributeAttribute_t1459_XmlAttributeAttribute_AddKeyHash_m11255_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlAttributeAttribute_t1716_XmlAttributeAttribute_AddKeyHash_m11674_ParameterInfos[] = 
 {
-	{"sb", 0, 134217840, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217840, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlAttributeAttribute_AddKeyHash_m11255_MethodInfo = 
+extern const MethodInfo XmlAttributeAttribute_AddKeyHash_m11674_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlAttributeAttribute_AddKeyHash_m11255/* method */
-	, &XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeAttribute_AddKeyHash_m11674/* method */
+	, &XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAttributeAttribute_t1459_XmlAttributeAttribute_AddKeyHash_m11255_ParameterInfos/* parameters */
+	, XmlAttributeAttribute_t1716_XmlAttributeAttribute_AddKeyHash_m11674_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -16310,120 +16310,120 @@ extern const MethodInfo XmlAttributeAttribute_AddKeyHash_m11255_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlAttributeAttribute_t1459_MethodInfos[] =
+static const MethodInfo* XmlAttributeAttribute_t1716_MethodInfos[] =
 {
-	&XmlAttributeAttribute__ctor_m7459_MethodInfo,
-	&XmlAttributeAttribute_get_AttributeName_m11250_MethodInfo,
-	&XmlAttributeAttribute_get_DataType_m11251_MethodInfo,
-	&XmlAttributeAttribute_set_DataType_m11252_MethodInfo,
-	&XmlAttributeAttribute_get_Form_m11253_MethodInfo,
-	&XmlAttributeAttribute_get_Namespace_m11254_MethodInfo,
-	&XmlAttributeAttribute_AddKeyHash_m11255_MethodInfo,
+	&XmlAttributeAttribute__ctor_m7907_MethodInfo,
+	&XmlAttributeAttribute_get_AttributeName_m11669_MethodInfo,
+	&XmlAttributeAttribute_get_DataType_m11670_MethodInfo,
+	&XmlAttributeAttribute_set_DataType_m11671_MethodInfo,
+	&XmlAttributeAttribute_get_Form_m11672_MethodInfo,
+	&XmlAttributeAttribute_get_Namespace_m11673_MethodInfo,
+	&XmlAttributeAttribute_AddKeyHash_m11674_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlAttributeAttribute_get_AttributeName_m11250_MethodInfo;
-static const PropertyInfo XmlAttributeAttribute_t1459____AttributeName_PropertyInfo = 
+extern const MethodInfo XmlAttributeAttribute_get_AttributeName_m11669_MethodInfo;
+static const PropertyInfo XmlAttributeAttribute_t1716____AttributeName_PropertyInfo = 
 {
-	&XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* parent */
+	&XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* parent */
 	, "AttributeName"/* name */
-	, &XmlAttributeAttribute_get_AttributeName_m11250_MethodInfo/* get */
+	, &XmlAttributeAttribute_get_AttributeName_m11669_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributeAttribute_get_DataType_m11251_MethodInfo;
-extern const MethodInfo XmlAttributeAttribute_set_DataType_m11252_MethodInfo;
-static const PropertyInfo XmlAttributeAttribute_t1459____DataType_PropertyInfo = 
+extern const MethodInfo XmlAttributeAttribute_get_DataType_m11670_MethodInfo;
+extern const MethodInfo XmlAttributeAttribute_set_DataType_m11671_MethodInfo;
+static const PropertyInfo XmlAttributeAttribute_t1716____DataType_PropertyInfo = 
 {
-	&XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* parent */
+	&XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* parent */
 	, "DataType"/* name */
-	, &XmlAttributeAttribute_get_DataType_m11251_MethodInfo/* get */
-	, &XmlAttributeAttribute_set_DataType_m11252_MethodInfo/* set */
+	, &XmlAttributeAttribute_get_DataType_m11670_MethodInfo/* get */
+	, &XmlAttributeAttribute_set_DataType_m11671_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributeAttribute_get_Form_m11253_MethodInfo;
-static const PropertyInfo XmlAttributeAttribute_t1459____Form_PropertyInfo = 
+extern const MethodInfo XmlAttributeAttribute_get_Form_m11672_MethodInfo;
+static const PropertyInfo XmlAttributeAttribute_t1716____Form_PropertyInfo = 
 {
-	&XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* parent */
+	&XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* parent */
 	, "Form"/* name */
-	, &XmlAttributeAttribute_get_Form_m11253_MethodInfo/* get */
+	, &XmlAttributeAttribute_get_Form_m11672_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributeAttribute_get_Namespace_m11254_MethodInfo;
-static const PropertyInfo XmlAttributeAttribute_t1459____Namespace_PropertyInfo = 
+extern const MethodInfo XmlAttributeAttribute_get_Namespace_m11673_MethodInfo;
+static const PropertyInfo XmlAttributeAttribute_t1716____Namespace_PropertyInfo = 
 {
-	&XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* parent */
+	&XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* parent */
 	, "Namespace"/* name */
-	, &XmlAttributeAttribute_get_Namespace_m11254_MethodInfo/* get */
+	, &XmlAttributeAttribute_get_Namespace_m11673_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlAttributeAttribute_t1459_PropertyInfos[] =
+static const PropertyInfo* XmlAttributeAttribute_t1716_PropertyInfos[] =
 {
-	&XmlAttributeAttribute_t1459____AttributeName_PropertyInfo,
-	&XmlAttributeAttribute_t1459____DataType_PropertyInfo,
-	&XmlAttributeAttribute_t1459____Form_PropertyInfo,
-	&XmlAttributeAttribute_t1459____Namespace_PropertyInfo,
+	&XmlAttributeAttribute_t1716____AttributeName_PropertyInfo,
+	&XmlAttributeAttribute_t1716____DataType_PropertyInfo,
+	&XmlAttributeAttribute_t1716____Form_PropertyInfo,
+	&XmlAttributeAttribute_t1716____Namespace_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlAttributeAttribute_t1459_VTable[] =
+static const Il2CppMethodReference XmlAttributeAttribute_t1716_VTable[] =
 {
-	&Attribute_Equals_m3508_MethodInfo,
+	&Attribute_Equals_m3960_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Attribute_GetHashCode_m3509_MethodInfo,
+	&Attribute_GetHashCode_m3961_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlAttributeAttribute_t1459_VTableIsGenericMethod[] =
+static bool XmlAttributeAttribute_t1716_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlAttributeAttribute_t1459_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlAttributeAttribute_t1716_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t764_0_0_0, 4},
+	{ &_Attribute_t954_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAttributeAttribute_t1459_0_0_0;
-extern const Il2CppType XmlAttributeAttribute_t1459_1_0_0;
-struct XmlAttributeAttribute_t1459;
-const Il2CppTypeDefinitionMetadata XmlAttributeAttribute_t1459_DefinitionMetadata = 
+extern const Il2CppType XmlAttributeAttribute_t1716_0_0_0;
+extern const Il2CppType XmlAttributeAttribute_t1716_1_0_0;
+struct XmlAttributeAttribute_t1716;
+const Il2CppTypeDefinitionMetadata XmlAttributeAttribute_t1716_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlAttributeAttribute_t1459_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t471_0_0_0/* parent */
-	, XmlAttributeAttribute_t1459_VTable/* vtableMethods */
-	, XmlAttributeAttribute_t1459_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlAttributeAttribute_t1716_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t335_0_0_0/* parent */
+	, XmlAttributeAttribute_t1716_VTable/* vtableMethods */
+	, XmlAttributeAttribute_t1716_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 238/* fieldStart */
 
 };
-TypeInfo XmlAttributeAttribute_t1459_il2cpp_TypeInfo = 
+TypeInfo XmlAttributeAttribute_t1716_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAttributeAttribute"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlAttributeAttribute_t1459_MethodInfos/* methods */
-	, XmlAttributeAttribute_t1459_PropertyInfos/* properties */
+	, XmlAttributeAttribute_t1716_MethodInfos/* methods */
+	, XmlAttributeAttribute_t1716_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlAttributeAttribute_t1459_il2cpp_TypeInfo/* element_class */
+	, &XmlAttributeAttribute_t1716_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 43/* custom_attributes_cache */
-	, &XmlAttributeAttribute_t1459_0_0_0/* byval_arg */
-	, &XmlAttributeAttribute_t1459_1_0_0/* this_arg */
-	, &XmlAttributeAttribute_t1459_DefinitionMetadata/* definitionMetadata */
+	, &XmlAttributeAttribute_t1716_0_0_0/* byval_arg */
+	, &XmlAttributeAttribute_t1716_1_0_0/* this_arg */
+	, &XmlAttributeAttribute_t1716_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16433,8 +16433,8 @@ TypeInfo XmlAttributeAttribute_t1459_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAttributeAttribute_t1459)/* instance_size */
-	, sizeof (XmlAttributeAttribute_t1459)/* actualSize */
+	, sizeof (XmlAttributeAttribute_t1716)/* instance_size */
+	, sizeof (XmlAttributeAttribute_t1716)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -16466,31 +16466,31 @@ TypeInfo XmlAttributeAttribute_t1459_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlAttributeEventArgs
 #include "System_Xml_System_Xml_Serialization_XmlAttributeEventArgs.h"
 // Metadata Definition System.Xml.Serialization.XmlAttributeEventArgs
-extern TypeInfo XmlAttributeEventArgs_t3726_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeEventArgs_t3964_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAttributeEventArgs
 #include "System_Xml_System_Xml_Serialization_XmlAttributeEventArgsMethodDeclarations.h"
-extern const Il2CppType XmlAttribute_t3725_0_0_0;
-extern const Il2CppType XmlAttribute_t3725_0_0_0;
+extern const Il2CppType XmlAttribute_t3963_0_0_0;
+extern const Il2CppType XmlAttribute_t3963_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo XmlAttributeEventArgs_t3726_XmlAttributeEventArgs__ctor_m11256_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeEventArgs_t3964_XmlAttributeEventArgs__ctor_m11675_ParameterInfos[] = 
 {
-	{"attr", 0, 134217841, 0, &XmlAttribute_t3725_0_0_0},
+	{"attr", 0, 134217841, 0, &XmlAttribute_t3963_0_0_0},
 	{"lineNum", 1, 134217842, 0, &Int32_t29_0_0_0},
 	{"linePos", 2, 134217843, 0, &Int32_t29_0_0_0},
 	{"source", 3, 134217844, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_Int32_t29_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributeEventArgs::.ctor(System.Xml.XmlAttribute,System.Int32,System.Int32,System.Object)
-extern const MethodInfo XmlAttributeEventArgs__ctor_m11256_MethodInfo = 
+extern const MethodInfo XmlAttributeEventArgs__ctor_m11675_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlAttributeEventArgs__ctor_m11256/* method */
-	, &XmlAttributeEventArgs_t3726_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeEventArgs__ctor_m11675/* method */
+	, &XmlAttributeEventArgs_t3964_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_Int32_t29_Object_t/* invoker_method */
-	, XmlAttributeEventArgs_t3726_XmlAttributeEventArgs__ctor_m11256_ParameterInfos/* parameters */
+	, XmlAttributeEventArgs_t3964_XmlAttributeEventArgs__ctor_m11675_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -16505,20 +16505,20 @@ extern const MethodInfo XmlAttributeEventArgs__ctor_m11256_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlAttributeEventArgs_t3726_XmlAttributeEventArgs_set_ExpectedAttributes_m11257_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeEventArgs_t3964_XmlAttributeEventArgs_set_ExpectedAttributes_m11676_ParameterInfos[] = 
 {
 	{"value", 0, 134217845, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributeEventArgs::set_ExpectedAttributes(System.String)
-extern const MethodInfo XmlAttributeEventArgs_set_ExpectedAttributes_m11257_MethodInfo = 
+extern const MethodInfo XmlAttributeEventArgs_set_ExpectedAttributes_m11676_MethodInfo = 
 {
 	"set_ExpectedAttributes"/* name */
-	, (methodPointerType)&XmlAttributeEventArgs_set_ExpectedAttributes_m11257/* method */
-	, &XmlAttributeEventArgs_t3726_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeEventArgs_set_ExpectedAttributes_m11676/* method */
+	, &XmlAttributeEventArgs_t3964_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAttributeEventArgs_t3726_XmlAttributeEventArgs_set_ExpectedAttributes_m11257_ParameterInfos/* parameters */
+	, XmlAttributeEventArgs_t3964_XmlAttributeEventArgs_set_ExpectedAttributes_m11676_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -16532,36 +16532,36 @@ extern const MethodInfo XmlAttributeEventArgs_set_ExpectedAttributes_m11257_Meth
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlAttributeEventArgs_t3726_MethodInfos[] =
+static const MethodInfo* XmlAttributeEventArgs_t3964_MethodInfos[] =
 {
-	&XmlAttributeEventArgs__ctor_m11256_MethodInfo,
-	&XmlAttributeEventArgs_set_ExpectedAttributes_m11257_MethodInfo,
+	&XmlAttributeEventArgs__ctor_m11675_MethodInfo,
+	&XmlAttributeEventArgs_set_ExpectedAttributes_m11676_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlAttributeEventArgs_set_ExpectedAttributes_m11257_MethodInfo;
-static const PropertyInfo XmlAttributeEventArgs_t3726____ExpectedAttributes_PropertyInfo = 
+extern const MethodInfo XmlAttributeEventArgs_set_ExpectedAttributes_m11676_MethodInfo;
+static const PropertyInfo XmlAttributeEventArgs_t3964____ExpectedAttributes_PropertyInfo = 
 {
-	&XmlAttributeEventArgs_t3726_il2cpp_TypeInfo/* parent */
+	&XmlAttributeEventArgs_t3964_il2cpp_TypeInfo/* parent */
 	, "ExpectedAttributes"/* name */
 	, NULL/* get */
-	, &XmlAttributeEventArgs_set_ExpectedAttributes_m11257_MethodInfo/* set */
+	, &XmlAttributeEventArgs_set_ExpectedAttributes_m11676_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlAttributeEventArgs_t3726_PropertyInfos[] =
+static const PropertyInfo* XmlAttributeEventArgs_t3964_PropertyInfos[] =
 {
-	&XmlAttributeEventArgs_t3726____ExpectedAttributes_PropertyInfo,
+	&XmlAttributeEventArgs_t3964____ExpectedAttributes_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlAttributeEventArgs_t3726_VTable[] =
+static const Il2CppMethodReference XmlAttributeEventArgs_t3964_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlAttributeEventArgs_t3726_VTableIsGenericMethod[] =
+static bool XmlAttributeEventArgs_t3964_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16569,37 +16569,37 @@ static bool XmlAttributeEventArgs_t3726_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAttributeEventArgs_t3726_0_0_0;
-extern const Il2CppType XmlAttributeEventArgs_t3726_1_0_0;
-struct XmlAttributeEventArgs_t3726;
-const Il2CppTypeDefinitionMetadata XmlAttributeEventArgs_t3726_DefinitionMetadata = 
+extern const Il2CppType XmlAttributeEventArgs_t3964_0_0_0;
+extern const Il2CppType XmlAttributeEventArgs_t3964_1_0_0;
+struct XmlAttributeEventArgs_t3964;
+const Il2CppTypeDefinitionMetadata XmlAttributeEventArgs_t3964_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &EventArgs_t1202_0_0_0/* parent */
-	, XmlAttributeEventArgs_t3726_VTable/* vtableMethods */
-	, XmlAttributeEventArgs_t3726_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &EventArgs_t1461_0_0_0/* parent */
+	, XmlAttributeEventArgs_t3964_VTable/* vtableMethods */
+	, XmlAttributeEventArgs_t3964_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 243/* fieldStart */
 
 };
-TypeInfo XmlAttributeEventArgs_t3726_il2cpp_TypeInfo = 
+TypeInfo XmlAttributeEventArgs_t3964_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAttributeEventArgs"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlAttributeEventArgs_t3726_MethodInfos/* methods */
-	, XmlAttributeEventArgs_t3726_PropertyInfos/* properties */
+	, XmlAttributeEventArgs_t3964_MethodInfos/* methods */
+	, XmlAttributeEventArgs_t3964_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlAttributeEventArgs_t3726_il2cpp_TypeInfo/* element_class */
+	, &XmlAttributeEventArgs_t3964_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlAttributeEventArgs_t3726_0_0_0/* byval_arg */
-	, &XmlAttributeEventArgs_t3726_1_0_0/* this_arg */
-	, &XmlAttributeEventArgs_t3726_DefinitionMetadata/* definitionMetadata */
+	, &XmlAttributeEventArgs_t3964_0_0_0/* byval_arg */
+	, &XmlAttributeEventArgs_t3964_1_0_0/* this_arg */
+	, &XmlAttributeEventArgs_t3964_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16609,8 +16609,8 @@ TypeInfo XmlAttributeEventArgs_t3726_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAttributeEventArgs_t3726)/* instance_size */
-	, sizeof (XmlAttributeEventArgs_t3726)/* actualSize */
+	, sizeof (XmlAttributeEventArgs_t3964)/* instance_size */
+	, sizeof (XmlAttributeEventArgs_t3964)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -16642,16 +16642,16 @@ TypeInfo XmlAttributeEventArgs_t3726_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlAttributeOverrides
 #include "System_Xml_System_Xml_Serialization_XmlAttributeOverrides.h"
 // Metadata Definition System.Xml.Serialization.XmlAttributeOverrides
-extern TypeInfo XmlAttributeOverrides_t3727_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeOverrides_t3965_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAttributeOverrides
 #include "System_Xml_System_Xml_Serialization_XmlAttributeOverridesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributeOverrides::.ctor()
-extern const MethodInfo XmlAttributeOverrides__ctor_m11258_MethodInfo = 
+extern const MethodInfo XmlAttributeOverrides__ctor_m11677_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlAttributeOverrides__ctor_m11258/* method */
-	, &XmlAttributeOverrides_t3727_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeOverrides__ctor_m11677/* method */
+	, &XmlAttributeOverrides_t3965_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16669,21 +16669,21 @@ extern const MethodInfo XmlAttributeOverrides__ctor_m11258_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo XmlAttributeOverrides_t3727_XmlAttributeOverrides_get_Item_m11259_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeOverrides_t3965_XmlAttributeOverrides_get_Item_m11678_ParameterInfos[] = 
 {
 	{"type", 0, 134217846, 0, &Type_t_0_0_0},
 };
-extern const Il2CppType XmlAttributes_t3733_0_0_0;
+extern const Il2CppType XmlAttributes_t3971_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlAttributes System.Xml.Serialization.XmlAttributeOverrides::get_Item(System.Type)
-extern const MethodInfo XmlAttributeOverrides_get_Item_m11259_MethodInfo = 
+extern const MethodInfo XmlAttributeOverrides_get_Item_m11678_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&XmlAttributeOverrides_get_Item_m11259/* method */
-	, &XmlAttributeOverrides_t3727_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttributes_t3733_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributeOverrides_get_Item_m11678/* method */
+	, &XmlAttributeOverrides_t3965_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributes_t3971_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, XmlAttributeOverrides_t3727_XmlAttributeOverrides_get_Item_m11259_ParameterInfos/* parameters */
+	, XmlAttributeOverrides_t3965_XmlAttributeOverrides_get_Item_m11678_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16699,21 +16699,21 @@ extern const MethodInfo XmlAttributeOverrides_get_Item_m11259_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlAttributeOverrides_t3727_XmlAttributeOverrides_get_Item_m11260_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeOverrides_t3965_XmlAttributeOverrides_get_Item_m11679_ParameterInfos[] = 
 {
 	{"type", 0, 134217847, 0, &Type_t_0_0_0},
 	{"member", 1, 134217848, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlAttributes System.Xml.Serialization.XmlAttributeOverrides::get_Item(System.Type,System.String)
-extern const MethodInfo XmlAttributeOverrides_get_Item_m11260_MethodInfo = 
+extern const MethodInfo XmlAttributeOverrides_get_Item_m11679_MethodInfo = 
 {
 	"get_Item"/* name */
-	, (methodPointerType)&XmlAttributeOverrides_get_Item_m11260/* method */
-	, &XmlAttributeOverrides_t3727_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttributes_t3733_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributeOverrides_get_Item_m11679/* method */
+	, &XmlAttributeOverrides_t3965_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributes_t3971_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlAttributeOverrides_t3727_XmlAttributeOverrides_get_Item_m11260_ParameterInfos/* parameters */
+	, XmlAttributeOverrides_t3965_XmlAttributeOverrides_get_Item_m11679_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16729,21 +16729,21 @@ extern const MethodInfo XmlAttributeOverrides_get_Item_m11260_MethodInfo =
 };
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo XmlAttributeOverrides_t3727_XmlAttributeOverrides_GetKey_m11261_ParameterInfos[] = 
+static const ParameterInfo XmlAttributeOverrides_t3965_XmlAttributeOverrides_GetKey_m11680_ParameterInfos[] = 
 {
 	{"type", 0, 134217849, 0, &Type_t_0_0_0},
 	{"member", 1, 134217850, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.TypeMember System.Xml.Serialization.XmlAttributeOverrides::GetKey(System.Type,System.String)
-extern const MethodInfo XmlAttributeOverrides_GetKey_m11261_MethodInfo = 
+extern const MethodInfo XmlAttributeOverrides_GetKey_m11680_MethodInfo = 
 {
 	"GetKey"/* name */
-	, (methodPointerType)&XmlAttributeOverrides_GetKey_m11261/* method */
-	, &XmlAttributeOverrides_t3727_il2cpp_TypeInfo/* declaring_type */
-	, &TypeMember_t3717_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributeOverrides_GetKey_m11680/* method */
+	, &XmlAttributeOverrides_t3965_il2cpp_TypeInfo/* declaring_type */
+	, &TypeMember_t3955_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, XmlAttributeOverrides_t3727_XmlAttributeOverrides_GetKey_m11261_ParameterInfos/* parameters */
+	, XmlAttributeOverrides_t3965_XmlAttributeOverrides_GetKey_m11680_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -16757,21 +16757,21 @@ extern const MethodInfo XmlAttributeOverrides_GetKey_m11261_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlAttributeOverrides_t3727_XmlAttributeOverrides_AddKeyHash_m11262_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlAttributeOverrides_t3965_XmlAttributeOverrides_AddKeyHash_m11681_ParameterInfos[] = 
 {
-	{"sb", 0, 134217851, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217851, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributeOverrides::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlAttributeOverrides_AddKeyHash_m11262_MethodInfo = 
+extern const MethodInfo XmlAttributeOverrides_AddKeyHash_m11681_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlAttributeOverrides_AddKeyHash_m11262/* method */
-	, &XmlAttributeOverrides_t3727_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributeOverrides_AddKeyHash_m11681/* method */
+	, &XmlAttributeOverrides_t3965_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAttributeOverrides_t3727_XmlAttributeOverrides_AddKeyHash_m11262_ParameterInfos/* parameters */
+	, XmlAttributeOverrides_t3965_XmlAttributeOverrides_AddKeyHash_m11681_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -16785,51 +16785,51 @@ extern const MethodInfo XmlAttributeOverrides_AddKeyHash_m11262_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlAttributeOverrides_t3727_MethodInfos[] =
+static const MethodInfo* XmlAttributeOverrides_t3965_MethodInfos[] =
 {
-	&XmlAttributeOverrides__ctor_m11258_MethodInfo,
-	&XmlAttributeOverrides_get_Item_m11259_MethodInfo,
-	&XmlAttributeOverrides_get_Item_m11260_MethodInfo,
-	&XmlAttributeOverrides_GetKey_m11261_MethodInfo,
-	&XmlAttributeOverrides_AddKeyHash_m11262_MethodInfo,
+	&XmlAttributeOverrides__ctor_m11677_MethodInfo,
+	&XmlAttributeOverrides_get_Item_m11678_MethodInfo,
+	&XmlAttributeOverrides_get_Item_m11679_MethodInfo,
+	&XmlAttributeOverrides_GetKey_m11680_MethodInfo,
+	&XmlAttributeOverrides_AddKeyHash_m11681_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlAttributeOverrides_get_Item_m11259_MethodInfo;
-static const PropertyInfo XmlAttributeOverrides_t3727____Item_Type_t_PropertyInfo = 
+extern const MethodInfo XmlAttributeOverrides_get_Item_m11678_MethodInfo;
+static const PropertyInfo XmlAttributeOverrides_t3965____Item_Type_t_PropertyInfo = 
 {
-	&XmlAttributeOverrides_t3727_il2cpp_TypeInfo/* parent */
+	&XmlAttributeOverrides_t3965_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &XmlAttributeOverrides_get_Item_m11259_MethodInfo/* get */
+	, &XmlAttributeOverrides_get_Item_m11678_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributeOverrides_get_Item_m11260_MethodInfo;
-static const PropertyInfo XmlAttributeOverrides_t3727____Item_Type_t_String_t_PropertyInfo = 
+extern const MethodInfo XmlAttributeOverrides_get_Item_m11679_MethodInfo;
+static const PropertyInfo XmlAttributeOverrides_t3965____Item_Type_t_String_t_PropertyInfo = 
 {
-	&XmlAttributeOverrides_t3727_il2cpp_TypeInfo/* parent */
+	&XmlAttributeOverrides_t3965_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &XmlAttributeOverrides_get_Item_m11260_MethodInfo/* get */
+	, &XmlAttributeOverrides_get_Item_m11679_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlAttributeOverrides_t3727_PropertyInfos[] =
+static const PropertyInfo* XmlAttributeOverrides_t3965_PropertyInfos[] =
 {
-	&XmlAttributeOverrides_t3727____Item_Type_t_PropertyInfo,
-	&XmlAttributeOverrides_t3727____Item_Type_t_String_t_PropertyInfo,
+	&XmlAttributeOverrides_t3965____Item_Type_t_PropertyInfo,
+	&XmlAttributeOverrides_t3965____Item_Type_t_String_t_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlAttributeOverrides_t3727_VTable[] =
+static const Il2CppMethodReference XmlAttributeOverrides_t3965_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlAttributeOverrides_t3727_VTableIsGenericMethod[] =
+static bool XmlAttributeOverrides_t3965_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16837,36 +16837,36 @@ static bool XmlAttributeOverrides_t3727_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAttributeOverrides_t3727_1_0_0;
-struct XmlAttributeOverrides_t3727;
-const Il2CppTypeDefinitionMetadata XmlAttributeOverrides_t3727_DefinitionMetadata = 
+extern const Il2CppType XmlAttributeOverrides_t3965_1_0_0;
+struct XmlAttributeOverrides_t3965;
+const Il2CppTypeDefinitionMetadata XmlAttributeOverrides_t3965_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlAttributeOverrides_t3727_VTable/* vtableMethods */
-	, XmlAttributeOverrides_t3727_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlAttributeOverrides_t3965_VTable/* vtableMethods */
+	, XmlAttributeOverrides_t3965_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 248/* fieldStart */
 
 };
-TypeInfo XmlAttributeOverrides_t3727_il2cpp_TypeInfo = 
+TypeInfo XmlAttributeOverrides_t3965_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAttributeOverrides"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlAttributeOverrides_t3727_MethodInfos/* methods */
-	, XmlAttributeOverrides_t3727_PropertyInfos/* properties */
+	, XmlAttributeOverrides_t3965_MethodInfos/* methods */
+	, XmlAttributeOverrides_t3965_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlAttributeOverrides_t3727_il2cpp_TypeInfo/* element_class */
+	, &XmlAttributeOverrides_t3965_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 44/* custom_attributes_cache */
-	, &XmlAttributeOverrides_t3727_0_0_0/* byval_arg */
-	, &XmlAttributeOverrides_t3727_1_0_0/* this_arg */
-	, &XmlAttributeOverrides_t3727_DefinitionMetadata/* definitionMetadata */
+	, &XmlAttributeOverrides_t3965_0_0_0/* byval_arg */
+	, &XmlAttributeOverrides_t3965_1_0_0/* this_arg */
+	, &XmlAttributeOverrides_t3965_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16876,8 +16876,8 @@ TypeInfo XmlAttributeOverrides_t3727_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAttributeOverrides_t3727)/* instance_size */
-	, sizeof (XmlAttributeOverrides_t3727)/* actualSize */
+	, sizeof (XmlAttributeOverrides_t3965)/* instance_size */
+	, sizeof (XmlAttributeOverrides_t3965)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -16909,16 +16909,16 @@ TypeInfo XmlAttributeOverrides_t3727_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlAttributes
 #include "System_Xml_System_Xml_Serialization_XmlAttributes.h"
 // Metadata Definition System.Xml.Serialization.XmlAttributes
-extern TypeInfo XmlAttributes_t3733_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributes_t3971_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlAttributes
 #include "System_Xml_System_Xml_Serialization_XmlAttributesMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributes::.ctor()
-extern const MethodInfo XmlAttributes__ctor_m11263_MethodInfo = 
+extern const MethodInfo XmlAttributes__ctor_m11682_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlAttributes__ctor_m11263/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributes__ctor_m11682/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -16935,22 +16935,22 @@ extern const MethodInfo XmlAttributes__ctor_m11263_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ICustomAttributeProvider_t3922_0_0_0;
-extern const Il2CppType ICustomAttributeProvider_t3922_0_0_0;
-static const ParameterInfo XmlAttributes_t3733_XmlAttributes__ctor_m11264_ParameterInfos[] = 
+extern const Il2CppType ICustomAttributeProvider_t4160_0_0_0;
+extern const Il2CppType ICustomAttributeProvider_t4160_0_0_0;
+static const ParameterInfo XmlAttributes_t3971_XmlAttributes__ctor_m11683_ParameterInfos[] = 
 {
-	{"provider", 0, 134217852, 0, &ICustomAttributeProvider_t3922_0_0_0},
+	{"provider", 0, 134217852, 0, &ICustomAttributeProvider_t4160_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributes::.ctor(System.Reflection.ICustomAttributeProvider)
-extern const MethodInfo XmlAttributes__ctor_m11264_MethodInfo = 
+extern const MethodInfo XmlAttributes__ctor_m11683_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&XmlAttributes__ctor_m11264/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributes__ctor_m11683/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAttributes_t3733_XmlAttributes__ctor_m11264_ParameterInfos/* parameters */
+	, XmlAttributes_t3971_XmlAttributes__ctor_m11683_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -16966,12 +16966,12 @@ extern const MethodInfo XmlAttributes__ctor_m11264_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlAnyAttributeAttribute System.Xml.Serialization.XmlAttributes::get_XmlAnyAttribute()
-extern const MethodInfo XmlAttributes_get_XmlAnyAttribute_m11265_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlAnyAttribute_m11684_MethodInfo = 
 {
 	"get_XmlAnyAttribute"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlAnyAttribute_m11265/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAnyAttributeAttribute_t3720_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlAnyAttribute_m11684/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAnyAttributeAttribute_t3958_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -16989,12 +16989,12 @@ extern const MethodInfo XmlAttributes_get_XmlAnyAttribute_m11265_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlAnyElementAttributes System.Xml.Serialization.XmlAttributes::get_XmlAnyElements()
-extern const MethodInfo XmlAttributes_get_XmlAnyElements_m11266_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlAnyElements_m11685_MethodInfo = 
 {
 	"get_XmlAnyElements"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlAnyElements_m11266/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAnyElementAttributes_t3722_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlAnyElements_m11685/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAnyElementAttributes_t3960_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17012,12 +17012,12 @@ extern const MethodInfo XmlAttributes_get_XmlAnyElements_m11266_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlArrayAttribute System.Xml.Serialization.XmlAttributes::get_XmlArray()
-extern const MethodInfo XmlAttributes_get_XmlArray_m11267_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlArray_m11686_MethodInfo = 
 {
 	"get_XmlArray"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlArray_m11267/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlArrayAttribute_t1461_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlArray_m11686/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlArrayAttribute_t1718_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17035,12 +17035,12 @@ extern const MethodInfo XmlAttributes_get_XmlArray_m11267_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlArrayItemAttributes System.Xml.Serialization.XmlAttributes::get_XmlArrayItems()
-extern const MethodInfo XmlAttributes_get_XmlArrayItems_m11268_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlArrayItems_m11687_MethodInfo = 
 {
 	"get_XmlArrayItems"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlArrayItems_m11268/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlArrayItemAttributes_t3724_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlArrayItems_m11687/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlArrayItemAttributes_t3962_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17058,12 +17058,12 @@ extern const MethodInfo XmlAttributes_get_XmlArrayItems_m11268_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlAttributeAttribute System.Xml.Serialization.XmlAttributes::get_XmlAttribute()
-extern const MethodInfo XmlAttributes_get_XmlAttribute_m11269_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlAttribute_m11688_MethodInfo = 
 {
 	"get_XmlAttribute"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlAttribute_m11269/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlAttributeAttribute_t1459_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlAttribute_m11688/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlAttributeAttribute_t1716_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17079,15 +17079,15 @@ extern const MethodInfo XmlAttributes_get_XmlAttribute_m11269_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlChoiceIdentifierAttribute_t3728_0_0_0;
+extern const Il2CppType XmlChoiceIdentifierAttribute_t3966_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlChoiceIdentifierAttribute System.Xml.Serialization.XmlAttributes::get_XmlChoiceIdentifier()
-extern const MethodInfo XmlAttributes_get_XmlChoiceIdentifier_m11270_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlChoiceIdentifier_m11689_MethodInfo = 
 {
 	"get_XmlChoiceIdentifier"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlChoiceIdentifier_m11270/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlChoiceIdentifierAttribute_t3728_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlChoiceIdentifier_m11689/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlChoiceIdentifierAttribute_t3966_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17105,11 +17105,11 @@ extern const MethodInfo XmlAttributes_get_XmlChoiceIdentifier_m11270_MethodInfo 
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Xml.Serialization.XmlAttributes::get_XmlDefaultValue()
-extern const MethodInfo XmlAttributes_get_XmlDefaultValue_m11271_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlDefaultValue_m11690_MethodInfo = 
 {
 	"get_XmlDefaultValue"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlDefaultValue_m11271/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributes_get_XmlDefaultValue_m11690/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17126,15 +17126,15 @@ extern const MethodInfo XmlAttributes_get_XmlDefaultValue_m11271_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlElementAttributes_t3729_0_0_0;
+extern const Il2CppType XmlElementAttributes_t3967_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlElementAttributes System.Xml.Serialization.XmlAttributes::get_XmlElements()
-extern const MethodInfo XmlAttributes_get_XmlElements_m11272_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlElements_m11691_MethodInfo = 
 {
 	"get_XmlElements"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlElements_m11272/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlElementAttributes_t3729_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlElements_m11691/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlElementAttributes_t3967_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17152,11 +17152,11 @@ extern const MethodInfo XmlAttributes_get_XmlElements_m11272_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.XmlAttributes::get_XmlIgnore()
-extern const MethodInfo XmlAttributes_get_XmlIgnore_m11273_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlIgnore_m11692_MethodInfo = 
 {
 	"get_XmlIgnore"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlIgnore_m11273/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributes_get_XmlIgnore_m11692/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -17175,11 +17175,11 @@ extern const MethodInfo XmlAttributes_get_XmlIgnore_m11273_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Xml.Serialization.XmlAttributes::get_Xmlns()
-extern const MethodInfo XmlAttributes_get_Xmlns_m11274_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_Xmlns_m11693_MethodInfo = 
 {
 	"get_Xmlns"/* name */
-	, (methodPointerType)&XmlAttributes_get_Xmlns_m11274/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributes_get_Xmlns_m11693/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t30_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t30/* invoker_method */
 	, NULL/* parameters */
@@ -17198,12 +17198,12 @@ extern const MethodInfo XmlAttributes_get_Xmlns_m11274_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlRootAttribute System.Xml.Serialization.XmlAttributes::get_XmlRoot()
-extern const MethodInfo XmlAttributes_get_XmlRoot_m11275_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlRoot_m11694_MethodInfo = 
 {
 	"get_XmlRoot"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlRoot_m11275/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlRootAttribute_t1458_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlRoot_m11694/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlRootAttribute_t1715_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17219,15 +17219,15 @@ extern const MethodInfo XmlAttributes_get_XmlRoot_m11275_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlTextAttribute_t3731_0_0_0;
+extern const Il2CppType XmlTextAttribute_t3969_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlTextAttribute System.Xml.Serialization.XmlAttributes::get_XmlText()
-extern const MethodInfo XmlAttributes_get_XmlText_m11276_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlText_m11695_MethodInfo = 
 {
 	"get_XmlText"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlText_m11276/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTextAttribute_t3731_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlText_m11695/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTextAttribute_t3969_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17243,15 +17243,15 @@ extern const MethodInfo XmlAttributes_get_XmlText_m11276_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlTypeAttribute_t3732_0_0_0;
+extern const Il2CppType XmlTypeAttribute_t3970_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.Serialization.XmlTypeAttribute System.Xml.Serialization.XmlAttributes::get_XmlType()
-extern const MethodInfo XmlAttributes_get_XmlType_m11277_MethodInfo = 
+extern const MethodInfo XmlAttributes_get_XmlType_m11696_MethodInfo = 
 {
 	"get_XmlType"/* name */
-	, (methodPointerType)&XmlAttributes_get_XmlType_m11277/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
-	, &XmlTypeAttribute_t3732_0_0_0/* return_type */
+	, (methodPointerType)&XmlAttributes_get_XmlType_m11696/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
+	, &XmlTypeAttribute_t3970_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17267,21 +17267,21 @@ extern const MethodInfo XmlAttributes_get_XmlType_m11277_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlAttributes_t3733_XmlAttributes_AddKeyHash_m11278_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlAttributes_t3971_XmlAttributes_AddKeyHash_m11697_ParameterInfos[] = 
 {
-	{"sb", 0, 134217853, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217853, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlAttributes::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlAttributes_AddKeyHash_m11278_MethodInfo = 
+extern const MethodInfo XmlAttributes_AddKeyHash_m11697_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlAttributes_AddKeyHash_m11278/* method */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlAttributes_AddKeyHash_m11697/* method */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlAttributes_t3733_XmlAttributes_AddKeyHash_m11278_ParameterInfos/* parameters */
+	, XmlAttributes_t3971_XmlAttributes_AddKeyHash_m11697_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -17295,194 +17295,194 @@ extern const MethodInfo XmlAttributes_AddKeyHash_m11278_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlAttributes_t3733_MethodInfos[] =
+static const MethodInfo* XmlAttributes_t3971_MethodInfos[] =
 {
-	&XmlAttributes__ctor_m11263_MethodInfo,
-	&XmlAttributes__ctor_m11264_MethodInfo,
-	&XmlAttributes_get_XmlAnyAttribute_m11265_MethodInfo,
-	&XmlAttributes_get_XmlAnyElements_m11266_MethodInfo,
-	&XmlAttributes_get_XmlArray_m11267_MethodInfo,
-	&XmlAttributes_get_XmlArrayItems_m11268_MethodInfo,
-	&XmlAttributes_get_XmlAttribute_m11269_MethodInfo,
-	&XmlAttributes_get_XmlChoiceIdentifier_m11270_MethodInfo,
-	&XmlAttributes_get_XmlDefaultValue_m11271_MethodInfo,
-	&XmlAttributes_get_XmlElements_m11272_MethodInfo,
-	&XmlAttributes_get_XmlIgnore_m11273_MethodInfo,
-	&XmlAttributes_get_Xmlns_m11274_MethodInfo,
-	&XmlAttributes_get_XmlRoot_m11275_MethodInfo,
-	&XmlAttributes_get_XmlText_m11276_MethodInfo,
-	&XmlAttributes_get_XmlType_m11277_MethodInfo,
-	&XmlAttributes_AddKeyHash_m11278_MethodInfo,
+	&XmlAttributes__ctor_m11682_MethodInfo,
+	&XmlAttributes__ctor_m11683_MethodInfo,
+	&XmlAttributes_get_XmlAnyAttribute_m11684_MethodInfo,
+	&XmlAttributes_get_XmlAnyElements_m11685_MethodInfo,
+	&XmlAttributes_get_XmlArray_m11686_MethodInfo,
+	&XmlAttributes_get_XmlArrayItems_m11687_MethodInfo,
+	&XmlAttributes_get_XmlAttribute_m11688_MethodInfo,
+	&XmlAttributes_get_XmlChoiceIdentifier_m11689_MethodInfo,
+	&XmlAttributes_get_XmlDefaultValue_m11690_MethodInfo,
+	&XmlAttributes_get_XmlElements_m11691_MethodInfo,
+	&XmlAttributes_get_XmlIgnore_m11692_MethodInfo,
+	&XmlAttributes_get_Xmlns_m11693_MethodInfo,
+	&XmlAttributes_get_XmlRoot_m11694_MethodInfo,
+	&XmlAttributes_get_XmlText_m11695_MethodInfo,
+	&XmlAttributes_get_XmlType_m11696_MethodInfo,
+	&XmlAttributes_AddKeyHash_m11697_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlAttributes_get_XmlAnyAttribute_m11265_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlAnyAttribute_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlAnyAttribute_m11684_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlAnyAttribute_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlAnyAttribute"/* name */
-	, &XmlAttributes_get_XmlAnyAttribute_m11265_MethodInfo/* get */
+	, &XmlAttributes_get_XmlAnyAttribute_m11684_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlAnyElements_m11266_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlAnyElements_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlAnyElements_m11685_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlAnyElements_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlAnyElements"/* name */
-	, &XmlAttributes_get_XmlAnyElements_m11266_MethodInfo/* get */
+	, &XmlAttributes_get_XmlAnyElements_m11685_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlArray_m11267_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlArray_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlArray_m11686_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlArray_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlArray"/* name */
-	, &XmlAttributes_get_XmlArray_m11267_MethodInfo/* get */
+	, &XmlAttributes_get_XmlArray_m11686_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlArrayItems_m11268_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlArrayItems_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlArrayItems_m11687_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlArrayItems_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlArrayItems"/* name */
-	, &XmlAttributes_get_XmlArrayItems_m11268_MethodInfo/* get */
+	, &XmlAttributes_get_XmlArrayItems_m11687_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlAttribute_m11269_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlAttribute_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlAttribute_m11688_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlAttribute_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlAttribute"/* name */
-	, &XmlAttributes_get_XmlAttribute_m11269_MethodInfo/* get */
+	, &XmlAttributes_get_XmlAttribute_m11688_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlChoiceIdentifier_m11270_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlChoiceIdentifier_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlChoiceIdentifier_m11689_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlChoiceIdentifier_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlChoiceIdentifier"/* name */
-	, &XmlAttributes_get_XmlChoiceIdentifier_m11270_MethodInfo/* get */
+	, &XmlAttributes_get_XmlChoiceIdentifier_m11689_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlDefaultValue_m11271_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlDefaultValue_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlDefaultValue_m11690_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlDefaultValue_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlDefaultValue"/* name */
-	, &XmlAttributes_get_XmlDefaultValue_m11271_MethodInfo/* get */
+	, &XmlAttributes_get_XmlDefaultValue_m11690_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlElements_m11272_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlElements_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlElements_m11691_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlElements_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlElements"/* name */
-	, &XmlAttributes_get_XmlElements_m11272_MethodInfo/* get */
+	, &XmlAttributes_get_XmlElements_m11691_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlIgnore_m11273_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlIgnore_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlIgnore_m11692_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlIgnore_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlIgnore"/* name */
-	, &XmlAttributes_get_XmlIgnore_m11273_MethodInfo/* get */
+	, &XmlAttributes_get_XmlIgnore_m11692_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_Xmlns_m11274_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____Xmlns_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_Xmlns_m11693_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____Xmlns_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "Xmlns"/* name */
-	, &XmlAttributes_get_Xmlns_m11274_MethodInfo/* get */
+	, &XmlAttributes_get_Xmlns_m11693_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlRoot_m11275_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlRoot_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlRoot_m11694_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlRoot_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlRoot"/* name */
-	, &XmlAttributes_get_XmlRoot_m11275_MethodInfo/* get */
+	, &XmlAttributes_get_XmlRoot_m11694_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlText_m11276_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlText_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlText_m11695_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlText_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlText"/* name */
-	, &XmlAttributes_get_XmlText_m11276_MethodInfo/* get */
+	, &XmlAttributes_get_XmlText_m11695_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo XmlAttributes_get_XmlType_m11277_MethodInfo;
-static const PropertyInfo XmlAttributes_t3733____XmlType_PropertyInfo = 
+extern const MethodInfo XmlAttributes_get_XmlType_m11696_MethodInfo;
+static const PropertyInfo XmlAttributes_t3971____XmlType_PropertyInfo = 
 {
-	&XmlAttributes_t3733_il2cpp_TypeInfo/* parent */
+	&XmlAttributes_t3971_il2cpp_TypeInfo/* parent */
 	, "XmlType"/* name */
-	, &XmlAttributes_get_XmlType_m11277_MethodInfo/* get */
+	, &XmlAttributes_get_XmlType_m11696_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlAttributes_t3733_PropertyInfos[] =
+static const PropertyInfo* XmlAttributes_t3971_PropertyInfos[] =
 {
-	&XmlAttributes_t3733____XmlAnyAttribute_PropertyInfo,
-	&XmlAttributes_t3733____XmlAnyElements_PropertyInfo,
-	&XmlAttributes_t3733____XmlArray_PropertyInfo,
-	&XmlAttributes_t3733____XmlArrayItems_PropertyInfo,
-	&XmlAttributes_t3733____XmlAttribute_PropertyInfo,
-	&XmlAttributes_t3733____XmlChoiceIdentifier_PropertyInfo,
-	&XmlAttributes_t3733____XmlDefaultValue_PropertyInfo,
-	&XmlAttributes_t3733____XmlElements_PropertyInfo,
-	&XmlAttributes_t3733____XmlIgnore_PropertyInfo,
-	&XmlAttributes_t3733____Xmlns_PropertyInfo,
-	&XmlAttributes_t3733____XmlRoot_PropertyInfo,
-	&XmlAttributes_t3733____XmlText_PropertyInfo,
-	&XmlAttributes_t3733____XmlType_PropertyInfo,
+	&XmlAttributes_t3971____XmlAnyAttribute_PropertyInfo,
+	&XmlAttributes_t3971____XmlAnyElements_PropertyInfo,
+	&XmlAttributes_t3971____XmlArray_PropertyInfo,
+	&XmlAttributes_t3971____XmlArrayItems_PropertyInfo,
+	&XmlAttributes_t3971____XmlAttribute_PropertyInfo,
+	&XmlAttributes_t3971____XmlChoiceIdentifier_PropertyInfo,
+	&XmlAttributes_t3971____XmlDefaultValue_PropertyInfo,
+	&XmlAttributes_t3971____XmlElements_PropertyInfo,
+	&XmlAttributes_t3971____XmlIgnore_PropertyInfo,
+	&XmlAttributes_t3971____Xmlns_PropertyInfo,
+	&XmlAttributes_t3971____XmlRoot_PropertyInfo,
+	&XmlAttributes_t3971____XmlText_PropertyInfo,
+	&XmlAttributes_t3971____XmlType_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlAttributes_t3733_VTable[] =
+static const Il2CppMethodReference XmlAttributes_t3971_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlAttributes_t3733_VTableIsGenericMethod[] =
+static bool XmlAttributes_t3971_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17490,36 +17490,36 @@ static bool XmlAttributes_t3733_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlAttributes_t3733_1_0_0;
-struct XmlAttributes_t3733;
-const Il2CppTypeDefinitionMetadata XmlAttributes_t3733_DefinitionMetadata = 
+extern const Il2CppType XmlAttributes_t3971_1_0_0;
+struct XmlAttributes_t3971;
+const Il2CppTypeDefinitionMetadata XmlAttributes_t3971_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, XmlAttributes_t3733_VTable/* vtableMethods */
-	, XmlAttributes_t3733_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlAttributes_t3971_VTable/* vtableMethods */
+	, XmlAttributes_t3971_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 249/* fieldStart */
 
 };
-TypeInfo XmlAttributes_t3733_il2cpp_TypeInfo = 
+TypeInfo XmlAttributes_t3971_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlAttributes"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlAttributes_t3733_MethodInfos/* methods */
-	, XmlAttributes_t3733_PropertyInfos/* properties */
+	, XmlAttributes_t3971_MethodInfos/* methods */
+	, XmlAttributes_t3971_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlAttributes_t3733_il2cpp_TypeInfo/* element_class */
+	, &XmlAttributes_t3971_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &XmlAttributes_t3733_0_0_0/* byval_arg */
-	, &XmlAttributes_t3733_1_0_0/* this_arg */
-	, &XmlAttributes_t3733_DefinitionMetadata/* definitionMetadata */
+	, &XmlAttributes_t3971_0_0_0/* byval_arg */
+	, &XmlAttributes_t3971_1_0_0/* this_arg */
+	, &XmlAttributes_t3971_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17529,8 +17529,8 @@ TypeInfo XmlAttributes_t3733_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlAttributes_t3733)/* instance_size */
-	, sizeof (XmlAttributes_t3733)/* actualSize */
+	, sizeof (XmlAttributes_t3971)/* instance_size */
+	, sizeof (XmlAttributes_t3971)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -17562,16 +17562,16 @@ TypeInfo XmlAttributes_t3733_il2cpp_TypeInfo =
 // System.Xml.Serialization.XmlChoiceIdentifierAttribute
 #include "System_Xml_System_Xml_Serialization_XmlChoiceIdentifierAttri.h"
 // Metadata Definition System.Xml.Serialization.XmlChoiceIdentifierAttribute
-extern TypeInfo XmlChoiceIdentifierAttribute_t3728_il2cpp_TypeInfo;
+extern TypeInfo XmlChoiceIdentifierAttribute_t3966_il2cpp_TypeInfo;
 // System.Xml.Serialization.XmlChoiceIdentifierAttribute
 #include "System_Xml_System_Xml_Serialization_XmlChoiceIdentifierAttriMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Xml.Serialization.XmlChoiceIdentifierAttribute::get_MemberName()
-extern const MethodInfo XmlChoiceIdentifierAttribute_get_MemberName_m11279_MethodInfo = 
+extern const MethodInfo XmlChoiceIdentifierAttribute_get_MemberName_m11698_MethodInfo = 
 {
 	"get_MemberName"/* name */
-	, (methodPointerType)&XmlChoiceIdentifierAttribute_get_MemberName_m11279/* method */
-	, &XmlChoiceIdentifierAttribute_t3728_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlChoiceIdentifierAttribute_get_MemberName_m11698/* method */
+	, &XmlChoiceIdentifierAttribute_t3966_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17588,21 +17588,21 @@ extern const MethodInfo XmlChoiceIdentifierAttribute_get_MemberName_m11279_Metho
 	, NULL/* dummy */
 
 };
-extern const Il2CppType StringBuilder_t640_0_0_0;
-static const ParameterInfo XmlChoiceIdentifierAttribute_t3728_XmlChoiceIdentifierAttribute_AddKeyHash_m11280_ParameterInfos[] = 
+extern const Il2CppType StringBuilder_t696_0_0_0;
+static const ParameterInfo XmlChoiceIdentifierAttribute_t3966_XmlChoiceIdentifierAttribute_AddKeyHash_m11699_ParameterInfos[] = 
 {
-	{"sb", 0, 134217854, 0, &StringBuilder_t640_0_0_0},
+	{"sb", 0, 134217854, 0, &StringBuilder_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Xml.Serialization.XmlChoiceIdentifierAttribute::AddKeyHash(System.Text.StringBuilder)
-extern const MethodInfo XmlChoiceIdentifierAttribute_AddKeyHash_m11280_MethodInfo = 
+extern const MethodInfo XmlChoiceIdentifierAttribute_AddKeyHash_m11699_MethodInfo = 
 {
 	"AddKeyHash"/* name */
-	, (methodPointerType)&XmlChoiceIdentifierAttribute_AddKeyHash_m11280/* method */
-	, &XmlChoiceIdentifierAttribute_t3728_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&XmlChoiceIdentifierAttribute_AddKeyHash_m11699/* method */
+	, &XmlChoiceIdentifierAttribute_t3966_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, XmlChoiceIdentifierAttribute_t3728_XmlChoiceIdentifierAttribute_AddKeyHash_m11280_ParameterInfos/* parameters */
+	, XmlChoiceIdentifierAttribute_t3966_XmlChoiceIdentifierAttribute_AddKeyHash_m11699_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -17616,77 +17616,77 @@ extern const MethodInfo XmlChoiceIdentifierAttribute_AddKeyHash_m11280_MethodInf
 	, NULL/* dummy */
 
 };
-static const MethodInfo* XmlChoiceIdentifierAttribute_t3728_MethodInfos[] =
+static const MethodInfo* XmlChoiceIdentifierAttribute_t3966_MethodInfos[] =
 {
-	&XmlChoiceIdentifierAttribute_get_MemberName_m11279_MethodInfo,
-	&XmlChoiceIdentifierAttribute_AddKeyHash_m11280_MethodInfo,
+	&XmlChoiceIdentifierAttribute_get_MemberName_m11698_MethodInfo,
+	&XmlChoiceIdentifierAttribute_AddKeyHash_m11699_MethodInfo,
 	NULL
 };
-extern const MethodInfo XmlChoiceIdentifierAttribute_get_MemberName_m11279_MethodInfo;
-static const PropertyInfo XmlChoiceIdentifierAttribute_t3728____MemberName_PropertyInfo = 
+extern const MethodInfo XmlChoiceIdentifierAttribute_get_MemberName_m11698_MethodInfo;
+static const PropertyInfo XmlChoiceIdentifierAttribute_t3966____MemberName_PropertyInfo = 
 {
-	&XmlChoiceIdentifierAttribute_t3728_il2cpp_TypeInfo/* parent */
+	&XmlChoiceIdentifierAttribute_t3966_il2cpp_TypeInfo/* parent */
 	, "MemberName"/* name */
-	, &XmlChoiceIdentifierAttribute_get_MemberName_m11279_MethodInfo/* get */
+	, &XmlChoiceIdentifierAttribute_get_MemberName_m11698_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* XmlChoiceIdentifierAttribute_t3728_PropertyInfos[] =
+static const PropertyInfo* XmlChoiceIdentifierAttribute_t3966_PropertyInfos[] =
 {
-	&XmlChoiceIdentifierAttribute_t3728____MemberName_PropertyInfo,
+	&XmlChoiceIdentifierAttribute_t3966____MemberName_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference XmlChoiceIdentifierAttribute_t3728_VTable[] =
+static const Il2CppMethodReference XmlChoiceIdentifierAttribute_t3966_VTable[] =
 {
-	&Attribute_Equals_m3508_MethodInfo,
+	&Attribute_Equals_m3960_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Attribute_GetHashCode_m3509_MethodInfo,
+	&Attribute_GetHashCode_m3961_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool XmlChoiceIdentifierAttribute_t3728_VTableIsGenericMethod[] =
+static bool XmlChoiceIdentifierAttribute_t3966_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair XmlChoiceIdentifierAttribute_t3728_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair XmlChoiceIdentifierAttribute_t3966_InterfacesOffsets[] = 
 {
-	{ &_Attribute_t764_0_0_0, 4},
+	{ &_Attribute_t954_0_0_0, 4},
 };
 extern Il2CppImage g_System_Xml_dll_Image;
-extern const Il2CppType XmlChoiceIdentifierAttribute_t3728_1_0_0;
-struct XmlChoiceIdentifierAttribute_t3728;
-const Il2CppTypeDefinitionMetadata XmlChoiceIdentifierAttribute_t3728_DefinitionMetadata = 
+extern const Il2CppType XmlChoiceIdentifierAttribute_t3966_1_0_0;
+struct XmlChoiceIdentifierAttribute_t3966;
+const Il2CppTypeDefinitionMetadata XmlChoiceIdentifierAttribute_t3966_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, XmlChoiceIdentifierAttribute_t3728_InterfacesOffsets/* interfaceOffsets */
-	, &Attribute_t471_0_0_0/* parent */
-	, XmlChoiceIdentifierAttribute_t3728_VTable/* vtableMethods */
-	, XmlChoiceIdentifierAttribute_t3728_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, XmlChoiceIdentifierAttribute_t3966_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t335_0_0_0/* parent */
+	, XmlChoiceIdentifierAttribute_t3966_VTable/* vtableMethods */
+	, XmlChoiceIdentifierAttribute_t3966_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 263/* fieldStart */
 
 };
-TypeInfo XmlChoiceIdentifierAttribute_t3728_il2cpp_TypeInfo = 
+TypeInfo XmlChoiceIdentifierAttribute_t3966_il2cpp_TypeInfo = 
 {
 	&g_System_Xml_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "XmlChoiceIdentifierAttribute"/* name */
 	, "System.Xml.Serialization"/* namespaze */
-	, XmlChoiceIdentifierAttribute_t3728_MethodInfos/* methods */
-	, XmlChoiceIdentifierAttribute_t3728_PropertyInfos/* properties */
+	, XmlChoiceIdentifierAttribute_t3966_MethodInfos/* methods */
+	, XmlChoiceIdentifierAttribute_t3966_PropertyInfos/* properties */
 	, NULL/* events */
-	, &XmlChoiceIdentifierAttribute_t3728_il2cpp_TypeInfo/* element_class */
+	, &XmlChoiceIdentifierAttribute_t3966_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 45/* custom_attributes_cache */
-	, &XmlChoiceIdentifierAttribute_t3728_0_0_0/* byval_arg */
-	, &XmlChoiceIdentifierAttribute_t3728_1_0_0/* this_arg */
-	, &XmlChoiceIdentifierAttribute_t3728_DefinitionMetadata/* definitionMetadata */
+	, &XmlChoiceIdentifierAttribute_t3966_0_0_0/* byval_arg */
+	, &XmlChoiceIdentifierAttribute_t3966_1_0_0/* this_arg */
+	, &XmlChoiceIdentifierAttribute_t3966_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17696,8 +17696,8 @@ TypeInfo XmlChoiceIdentifierAttribute_t3728_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (XmlChoiceIdentifierAttribute_t3728)/* instance_size */
-	, sizeof (XmlChoiceIdentifierAttribute_t3728)/* actualSize */
+	, sizeof (XmlChoiceIdentifierAttribute_t3966)/* instance_size */
+	, sizeof (XmlChoiceIdentifierAttribute_t3966)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */

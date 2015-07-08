@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct Predicate_1_t6868;
+// System.Predicate`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl>
+struct Predicate_1_t7079;
 // System.Object
 struct Object_t;
+// PixelCrushers.DialogueSystem.UnityGUI.GUIControl
+struct GUIControl_t1520;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_5.h"
 
-// System.Void System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::.ctor(System.Object,System.IntPtr)
-// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Predicate_1_gen_79MethodDeclarations.h"
-#define Predicate_1__ctor_m38078(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6868 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m37972_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::Invoke(T)
-#define Predicate_1_Invoke_m38079(__this, ___obj, method) (( bool (*) (Predicate_1_t6868 *, KeyValuePair_2_t1714 , const MethodInfo*))Predicate_1_Invoke_m37973_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m38080(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6868 *, KeyValuePair_2_t1714 , AsyncCallback_t449 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m37974_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m38081(__this, ___result, method) (( bool (*) (Predicate_1_t6868 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m37975_gshared)(__this, ___result, method)
+// System.Void System.Predicate`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl>::.ctor(System.Object,System.IntPtr)
+// System.Predicate`1<System.Object>
+#include "mscorlib_System_Predicate_1_gen_17MethodDeclarations.h"
+#define Predicate_1__ctor_m38207(__this, ___object, ___method, method) (( void (*) (Predicate_1_t7079 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m24416_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl>::Invoke(T)
+#define Predicate_1_Invoke_m38208(__this, ___obj, method) (( bool (*) (Predicate_1_t7079 *, GUIControl_t1520 *, const MethodInfo*))Predicate_1_Invoke_m24417_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m38209(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t7079 *, GUIControl_t1520 *, AsyncCallback_t477 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m24418_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m38210(__this, ___result, method) (( bool (*) (Predicate_1_t7079 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m24419_gshared)(__this, ___result, method)

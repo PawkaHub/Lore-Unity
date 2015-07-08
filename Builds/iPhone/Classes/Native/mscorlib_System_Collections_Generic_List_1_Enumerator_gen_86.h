@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Response>
-struct List_1_t1397;
-// PixelCrushers.DialogueSystem.Response
-struct Response_t235;
+// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
+struct List_1_t1191;
+// UnityEngine.UI.Toggle
+struct Toggle_t1190;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Response>
-struct  Enumerator_t6675 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>
+struct  Enumerator_t6875 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Response>::l
-	List_1_t1397 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Response>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::l
+	List_1_t1191 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Response>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Response>::current
-	Response_t235 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::current
+	Toggle_t1190 * ___current_3;
 };

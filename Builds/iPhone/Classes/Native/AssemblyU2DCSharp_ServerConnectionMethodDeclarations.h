@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ServerConnection
-struct ServerConnection_t395;
+struct ServerConnection_t423;
 

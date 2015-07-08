@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Byte[]
-struct ByteU5BU5D_t25;
+// PhotonPlayer[]
+struct PhotonPlayerU5BU5D_t447;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Byte>
-struct  List_1_t697  : public Object_t
+// System.Collections.Generic.List`1<PhotonPlayer>
+struct  List_1_t740  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Byte>::_items
-	ByteU5BU5D_t25* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Byte>::_size
+	// T[] System.Collections.Generic.List`1<PhotonPlayer>::_items
+	PhotonPlayerU5BU5D_t447* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<PhotonPlayer>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Byte>::_version
+	// System.Int32 System.Collections.Generic.List`1<PhotonPlayer>::_version
 	int32_t ____version_3;
 };
-struct List_1_t697_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Byte>::EmptyArray
-	ByteU5BU5D_t25* ___EmptyArray_4;
+struct List_1_t740_StaticFields{
+	// T[] System.Collections.Generic.List`1<PhotonPlayer>::EmptyArray
+	PhotonPlayerU5BU5D_t447* ___EmptyArray_4;
 };

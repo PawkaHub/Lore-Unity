@@ -13,5 +13,8 @@
 			<method name="OnClick"/>
 			<method name="OnClick"/>
 		</type>
+		<type fullname="PixelCrushers.DialogueSystem.SmartTextField">
+			<method name="AcceptTextInput"/>
+		</type>
 	</assembly>
 </linker>

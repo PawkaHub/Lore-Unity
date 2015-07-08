@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.ActOnDialogueEvent/Action
 #include "DialogueSystem_PixelCrushers_DialogueSystem_ActOnDialogueEve.h"
 // PixelCrushers.DialogueSystem.SendMessageOnDialogueEvent/SendMessageAction
-struct  SendMessageAction_t1288  : public Action_t1279
+struct  SendMessageAction_t1547  : public Action_t1538
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.SendMessageOnDialogueEvent/SendMessageAction::target
 	Transform_t54 * ___target_1;

@@ -5,7 +5,7 @@ struct GameObject_t49;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // InstantiateCube
-struct  InstantiateCube_t332  : public MonoBehaviour_t47
+struct  InstantiateCube_t360  : public MonoBehaviour_t47
 {
 	// UnityEngine.GameObject InstantiateCube::Prefab
 	GameObject_t49 * ___Prefab_2;

@@ -7,7 +7,7 @@ struct Transform_t54;
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // HighlightOwnedGameObj
-struct  HighlightOwnedGameObj_t501  : public MonoBehaviour_t329
+struct  HighlightOwnedGameObj_t528  : public MonoBehaviour_t357
 {
 	// UnityEngine.GameObject HighlightOwnedGameObj::PointerPrefab
 	GameObject_t49 * ___PointerPrefab_2;

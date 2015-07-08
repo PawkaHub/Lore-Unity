@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Assembly/ResolveEventHolder
-struct ResolveEventHolder_t5105;
+struct ResolveEventHolder_t5343;
 
 // System.Void System.Reflection.Assembly/ResolveEventHolder::.ctor()
-extern "C" void ResolveEventHolder__ctor_m20635 (ResolveEventHolder_t5105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResolveEventHolder__ctor_m21052 (ResolveEventHolder_t5343 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

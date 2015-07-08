@@ -17,9 +17,9 @@ struct AbstractUIAlertControls_t221;
 // System.String
 struct String_t;
 // PixelCrushers.DialogueSystem.Subtitle
-struct Subtitle_t570;
+struct Subtitle_t623;
 // PixelCrushers.DialogueSystem.Response[]
-struct ResponseU5BU5D_t571;
+struct ResponseU5BU5D_t624;
 
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::.ctor()
 extern "C" void UnityUIDialogueUI__ctor_m860 (UnityUIDialogueUI_t223 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -40,11 +40,11 @@ extern "C" void UnityUIDialogueUI_ShowAlert_m867 (UnityUIDialogueUI_t223 * __thi
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::OnContinue()
 extern "C" void UnityUIDialogueUI_OnContinue_m868 (UnityUIDialogueUI_t223 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::ShowSubtitle(PixelCrushers.DialogueSystem.Subtitle)
-extern "C" void UnityUIDialogueUI_ShowSubtitle_m869 (UnityUIDialogueUI_t223 * __this, Subtitle_t570 * ___subtitle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityUIDialogueUI_ShowSubtitle_m869 (UnityUIDialogueUI_t223 * __this, Subtitle_t623 * ___subtitle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::CheckSubtitleAutoFocus(PixelCrushers.DialogueSystem.Subtitle)
-extern "C" void UnityUIDialogueUI_CheckSubtitleAutoFocus_m870 (UnityUIDialogueUI_t223 * __this, Subtitle_t570 * ___subtitle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityUIDialogueUI_CheckSubtitleAutoFocus_m870 (UnityUIDialogueUI_t223 * __this, Subtitle_t623 * ___subtitle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::ShowResponses(PixelCrushers.DialogueSystem.Subtitle,PixelCrushers.DialogueSystem.Response[],System.Single)
-extern "C" void UnityUIDialogueUI_ShowResponses_m871 (UnityUIDialogueUI_t223 * __this, Subtitle_t570 * ___subtitle, ResponseU5BU5D_t571* ___responses, float ___timeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityUIDialogueUI_ShowResponses_m871 (UnityUIDialogueUI_t223 * __this, Subtitle_t623 * ___subtitle, ResponseU5BU5D_t624* ___responses, float ___timeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::CheckResponseMenuAutoFocus()
 extern "C" void UnityUIDialogueUI_CheckResponseMenuAutoFocus_m872 (UnityUIDialogueUI_t223 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::HideResponses()

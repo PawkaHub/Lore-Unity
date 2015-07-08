@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<Consolation.Console/Log>
-struct List_1_t540;
+// System.Collections.Generic.List`1<System.Reflection.MethodInfo>
+struct List_1_t761;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// Consolation.Console/Log
-#include "AssemblyU2DCSharp_Consolation_Console_Log.h"
-// System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>
-struct  Enumerator_t6380 
+// System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>
+struct  Enumerator_t6613 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::l
-	List_1_t540 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::l
+	List_1_t761 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::current
-	Log_t539  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::current
+	MethodInfo_t * ___current_3;
 };

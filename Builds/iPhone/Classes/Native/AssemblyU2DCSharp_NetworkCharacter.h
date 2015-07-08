@@ -7,7 +7,7 @@
 // UnityEngine.Quaternion
 #include "UnityEngine_UnityEngine_Quaternion.h"
 // NetworkCharacter
-struct  NetworkCharacter_t381  : public MonoBehaviour_t329
+struct  NetworkCharacter_t409  : public MonoBehaviour_t357
 {
 	// UnityEngine.Vector3 NetworkCharacter::correctPlayerPos
 	Vector3_t53  ___correctPlayerPos_2;

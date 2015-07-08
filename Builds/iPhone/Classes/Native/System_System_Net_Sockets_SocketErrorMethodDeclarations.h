@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.SocketError
-struct SocketError_t4009;
+struct SocketError_t4247;
 

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Object>
-struct List_1_t2;
-// System.Object
-struct Object_t;
+// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>
+struct List_1_t4882;
+// UnityEngine.Events.PersistentCall
+struct PersistentCall_t4881;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Object>
-struct  Enumerator_t5967 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>
+struct  Enumerator_t4945 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Object>::l
-	List_1_t2 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Object>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::l
+	List_1_t4882 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Object>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Object>::current
-	Object_t * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::current
+	PersistentCall_t4881 * ___current_3;
 };

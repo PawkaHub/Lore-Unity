@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Version
-struct Version_t1715;
+struct Version_t1963;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Resources.SatelliteContractVersionAttribute
-struct  SatelliteContractVersionAttribute_t3080  : public Attribute_t471
+struct  SatelliteContractVersionAttribute_t3318  : public Attribute_t335
 {
 	// System.Version System.Resources.SatelliteContractVersionAttribute::ver
-	Version_t1715 * ___ver_0;
+	Version_t1963 * ___ver_0;
 };

@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // PixelCrushers.DialogueSystem.SelectedResponseEventArgs
-struct SelectedResponseEventArgs_t1201;
+struct SelectedResponseEventArgs_t1460;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.EventHandler`1<PixelCrushers.DialogueSystem.SelectedResponseEventArgs>
-struct  EventHandler_1_t1194  : public MulticastDelegate_t451
+struct  EventHandler_1_t1453  : public MulticastDelegate_t479
 {
 };

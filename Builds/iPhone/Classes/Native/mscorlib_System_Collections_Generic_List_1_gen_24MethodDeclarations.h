@@ -4,158 +4,218 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>
-struct List_1_t485;
+// System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>
+struct List_1_t329;
 // System.Object
 struct Object_t;
-// PhotonAnimatorView/SynchronizedParameter
-struct SynchronizedParameter_t477;
-// System.Collections.Generic.IEnumerable`1<PhotonAnimatorView/SynchronizedParameter>
-struct IEnumerable_1_t9710;
-// PhotonAnimatorView/SynchronizedParameter[]
-struct SynchronizedParameterU5BU5D_t6229;
-// System.Collections.Generic.IEnumerator`1<PhotonAnimatorView/SynchronizedParameter>
-struct IEnumerator_1_t9711;
+// System.Collections.Generic.IEnumerable`1<UnityParseHelpers.Loom/DelayedQueueItem>
+struct IEnumerable_1_t719;
+// UnityParseHelpers.Loom/DelayedQueueItem[]
+struct DelayedQueueItemU5BU5D_t6465;
+// System.Collections.Generic.IEnumerator`1<UnityParseHelpers.Loom/DelayedQueueItem>
+struct IEnumerator_1_t6493;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t74;
-// System.Collections.Generic.ICollection`1<PhotonAnimatorView/SynchronizedParameter>
-struct ICollection_1_t9712;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<PhotonAnimatorView/SynchronizedParameter>
-struct ReadOnlyCollection_1_t6231;
-// System.Predicate`1<PhotonAnimatorView/SynchronizedParameter>
-struct Predicate_1_t715;
-// System.Collections.Generic.IComparer`1<PhotonAnimatorView/SynchronizedParameter>
-struct IComparer_1_t9713;
-// System.Comparison`1<PhotonAnimatorView/SynchronizedParameter>
-struct Comparison_1_t6233;
-// System.Collections.Generic.List`1/Enumerator<PhotonAnimatorView/SynchronizedParameter>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_64.h"
+// System.Collections.Generic.ICollection`1<UnityParseHelpers.Loom/DelayedQueueItem>
+struct ICollection_1_t9992;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityParseHelpers.Loom/DelayedQueueItem>
+struct ReadOnlyCollection_1_t6468;
+// System.Predicate`1<UnityParseHelpers.Loom/DelayedQueueItem>
+struct Predicate_1_t6472;
+// System.Collections.Generic.IComparer`1<UnityParseHelpers.Loom/DelayedQueueItem>
+struct IComparer_1_t9993;
+// System.Comparison`1<UnityParseHelpers.Loom/DelayedQueueItem>
+struct Comparison_1_t6475;
+// UnityParseHelpers.Loom/DelayedQueueItem
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_DelayedQueueItem.h"
+// System.Collections.Generic.List`1/Enumerator<UnityParseHelpers.Loom/DelayedQueueItem>
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_3.h"
 
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::.ctor()
-// System.Collections.Generic.List`1<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_genMethodDeclarations.h"
-#define List_1__ctor_m3329(__this, method) (( void (*) (List_1_t485 *, const MethodInfo*))List_1__ctor_m84_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m27816(__this, ___collection, method) (( void (*) (List_1_t485 *, Object_t*, const MethodInfo*))List_1__ctor_m3251_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::.ctor(System.Int32)
-#define List_1__ctor_m27817(__this, ___capacity, method) (( void (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1__ctor_m23875_gshared)(__this, ___capacity, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::.ctor(T[],System.Int32)
-#define List_1__ctor_m27818(__this, ___data, ___size, method) (( void (*) (List_1_t485 *, SynchronizedParameterU5BU5D_t6229*, int32_t, const MethodInfo*))List_1__ctor_m23876_gshared)(__this, ___data, ___size, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::.cctor()
-#define List_1__cctor_m27819(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m23877_gshared)(__this /* static, unused */, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m27820(__this, method) (( Object_t* (*) (List_1_t485 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m17814_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define List_1_System_Collections_ICollection_CopyTo_m27821(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t485 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m17797_gshared)(__this, ___array, ___arrayIndex, method)
-// System.Collections.IEnumerator System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IEnumerable.GetEnumerator()
-#define List_1_System_Collections_IEnumerable_GetEnumerator_m27822(__this, method) (( Object_t * (*) (List_1_t485 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m17793_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.Add(System.Object)
-#define List_1_System_Collections_IList_Add_m27823(__this, ___item, method) (( int32_t (*) (List_1_t485 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m17802_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.Contains(System.Object)
-#define List_1_System_Collections_IList_Contains_m27824(__this, ___item, method) (( bool (*) (List_1_t485 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m17804_gshared)(__this, ___item, method)
-// System.Int32 System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.IndexOf(System.Object)
-#define List_1_System_Collections_IList_IndexOf_m27825(__this, ___item, method) (( int32_t (*) (List_1_t485 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m17805_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define List_1_System_Collections_IList_Insert_m27826(__this, ___index, ___item, method) (( void (*) (List_1_t485 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m17806_gshared)(__this, ___index, ___item, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.Remove(System.Object)
-#define List_1_System_Collections_IList_Remove_m27827(__this, ___item, method) (( void (*) (List_1_t485 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m17807_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m27828(__this, method) (( bool (*) (List_1_t485 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m17809_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.ICollection.get_IsSynchronized()
-#define List_1_System_Collections_ICollection_get_IsSynchronized_m27829(__this, method) (( bool (*) (List_1_t485 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m17795_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.ICollection.get_SyncRoot()
-#define List_1_System_Collections_ICollection_get_SyncRoot_m27830(__this, method) (( Object_t * (*) (List_1_t485 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m17796_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.get_IsFixedSize()
-#define List_1_System_Collections_IList_get_IsFixedSize_m27831(__this, method) (( bool (*) (List_1_t485 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m17798_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.get_IsReadOnly()
-#define List_1_System_Collections_IList_get_IsReadOnly_m27832(__this, method) (( bool (*) (List_1_t485 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m17799_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.get_Item(System.Int32)
-#define List_1_System_Collections_IList_get_Item_m27833(__this, ___index, method) (( Object_t * (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m17800_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define List_1_System_Collections_IList_set_Item_m27834(__this, ___index, ___value, method) (( void (*) (List_1_t485 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m17801_gshared)(__this, ___index, ___value, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Add(T)
-#define List_1_Add_m27835(__this, ___item, method) (( void (*) (List_1_t485 *, SynchronizedParameter_t477 *, const MethodInfo*))List_1_Add_m17810_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::GrowIfNeeded(System.Int32)
-#define List_1_GrowIfNeeded_m27836(__this, ___newCount, method) (( void (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m23878_gshared)(__this, ___newCount, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::CheckRange(System.Int32,System.Int32)
-#define List_1_CheckRange_m27837(__this, ___idx, ___count, method) (( void (*) (List_1_t485 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m23879_gshared)(__this, ___idx, ___count, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-#define List_1_AddCollection_m27838(__this, ___collection, method) (( void (*) (List_1_t485 *, Object_t*, const MethodInfo*))List_1_AddCollection_m23880_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddEnumerable_m27839(__this, ___enumerable, method) (( void (*) (List_1_t485 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m23881_gshared)(__this, ___enumerable, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddRange_m27840(__this, ___collection, method) (( void (*) (List_1_t485 *, Object_t*, const MethodInfo*))List_1_AddRange_m87_gshared)(__this, ___collection, method)
-// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::AsReadOnly()
-#define List_1_AsReadOnly_m27841(__this, method) (( ReadOnlyCollection_1_t6231 * (*) (List_1_t485 *, const MethodInfo*))List_1_AsReadOnly_m23882_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Clear()
-#define List_1_Clear_m27842(__this, method) (( void (*) (List_1_t485 *, const MethodInfo*))List_1_Clear_m17803_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Contains(T)
-#define List_1_Contains_m27843(__this, ___item, method) (( bool (*) (List_1_t485 *, SynchronizedParameter_t477 *, const MethodInfo*))List_1_Contains_m17811_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m27844(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t485 *, SynchronizedParameterU5BU5D_t6229*, int32_t, const MethodInfo*))List_1_CopyTo_m17812_gshared)(__this, ___array, ___arrayIndex, method)
-// T System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Find(System.Predicate`1<T>)
-#define List_1_Find_m27845(__this, ___match, method) (( SynchronizedParameter_t477 * (*) (List_1_t485 *, Predicate_1_t715 *, const MethodInfo*))List_1_Find_m23883_gshared)(__this, ___match, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m27846(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t715 *, const MethodInfo*))List_1_CheckMatch_m23884_gshared)(__this /* static, unused */, ___match, method)
-// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::FindAll(System.Predicate`1<T>)
-#define List_1_FindAll_m27847(__this, ___match, method) (( List_1_t485 * (*) (List_1_t485 *, Predicate_1_t715 *, const MethodInfo*))List_1_FindAll_m23885_gshared)(__this, ___match, method)
-// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::FindAllStackBits(System.Predicate`1<T>)
-#define List_1_FindAllStackBits_m27848(__this, ___match, method) (( List_1_t485 * (*) (List_1_t485 *, Predicate_1_t715 *, const MethodInfo*))List_1_FindAllStackBits_m23886_gshared)(__this, ___match, method)
-// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::FindAllList(System.Predicate`1<T>)
-#define List_1_FindAllList_m27849(__this, ___match, method) (( List_1_t485 * (*) (List_1_t485 *, Predicate_1_t715 *, const MethodInfo*))List_1_FindAllList_m23887_gshared)(__this, ___match, method)
-// System.Int32 System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::FindIndex(System.Predicate`1<T>)
-#define List_1_FindIndex_m3335(__this, ___match, method) (( int32_t (*) (List_1_t485 *, Predicate_1_t715 *, const MethodInfo*))List_1_FindIndex_m23888_gshared)(__this, ___match, method)
-// System.Int32 System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m27850(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t485 *, int32_t, int32_t, Predicate_1_t715 *, const MethodInfo*))List_1_GetIndex_m23889_gshared)(__this, ___startIndex, ___count, ___match, method)
-// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::GetEnumerator()
-#define List_1_GetEnumerator_m27851(__this, method) (( Enumerator_t6232  (*) (List_1_t485 *, const MethodInfo*))List_1_GetEnumerator_m23890_gshared)(__this, method)
-// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::GetRange(System.Int32,System.Int32)
-#define List_1_GetRange_m27852(__this, ___index, ___count, method) (( List_1_t485 * (*) (List_1_t485 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m23891_gshared)(__this, ___index, ___count, method)
-// System.Int32 System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::IndexOf(T)
-#define List_1_IndexOf_m27853(__this, ___item, method) (( int32_t (*) (List_1_t485 *, SynchronizedParameter_t477 *, const MethodInfo*))List_1_IndexOf_m17815_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Shift(System.Int32,System.Int32)
-#define List_1_Shift_m27854(__this, ___start, ___delta, method) (( void (*) (List_1_t485 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m23892_gshared)(__this, ___start, ___delta, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::CheckIndex(System.Int32)
-#define List_1_CheckIndex_m27855(__this, ___index, method) (( void (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1_CheckIndex_m23893_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Insert(System.Int32,T)
-#define List_1_Insert_m27856(__this, ___index, ___item, method) (( void (*) (List_1_t485 *, int32_t, SynchronizedParameter_t477 *, const MethodInfo*))List_1_Insert_m17816_gshared)(__this, ___index, ___item, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_CheckCollection_m27857(__this, ___collection, method) (( void (*) (List_1_t485 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m23894_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertRange_m27858(__this, ___index, ___collection, method) (( void (*) (List_1_t485 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m23895_gshared)(__this, ___index, ___collection, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
-#define List_1_InsertCollection_m27859(__this, ___index, ___collection, method) (( void (*) (List_1_t485 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m23896_gshared)(__this, ___index, ___collection, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertEnumeration_m27860(__this, ___index, ___enumerable, method) (( void (*) (List_1_t485 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m23897_gshared)(__this, ___index, ___enumerable, method)
-// System.Boolean System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Remove(T)
-#define List_1_Remove_m27861(__this, ___item, method) (( bool (*) (List_1_t485 *, SynchronizedParameter_t477 *, const MethodInfo*))List_1_Remove_m17813_gshared)(__this, ___item, method)
-// System.Int32 System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m27862(__this, ___match, method) (( int32_t (*) (List_1_t485 *, Predicate_1_t715 *, const MethodInfo*))List_1_RemoveAll_m23898_gshared)(__this, ___match, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::RemoveAt(System.Int32)
-#define List_1_RemoveAt_m27863(__this, ___index, method) (( void (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1_RemoveAt_m17808_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::RemoveRange(System.Int32,System.Int32)
-#define List_1_RemoveRange_m27864(__this, ___index, ___count, method) (( void (*) (List_1_t485 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m23899_gshared)(__this, ___index, ___count, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Reverse()
-#define List_1_Reverse_m27865(__this, method) (( void (*) (List_1_t485 *, const MethodInfo*))List_1_Reverse_m23900_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Sort()
-#define List_1_Sort_m27866(__this, method) (( void (*) (List_1_t485 *, const MethodInfo*))List_1_Sort_m23901_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Sort(System.Collections.Generic.IComparer`1<T>)
-#define List_1_Sort_m27867(__this, ___comparer, method) (( void (*) (List_1_t485 *, Object_t*, const MethodInfo*))List_1_Sort_m23902_gshared)(__this, ___comparer, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m27868(__this, ___comparison, method) (( void (*) (List_1_t485 *, Comparison_1_t6233 *, const MethodInfo*))List_1_Sort_m23903_gshared)(__this, ___comparison, method)
-// T[] System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::ToArray()
-#define List_1_ToArray_m27869(__this, method) (( SynchronizedParameterU5BU5D_t6229* (*) (List_1_t485 *, const MethodInfo*))List_1_ToArray_m3250_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::TrimExcess()
-#define List_1_TrimExcess_m27870(__this, method) (( void (*) (List_1_t485 *, const MethodInfo*))List_1_TrimExcess_m23904_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::get_Capacity()
-#define List_1_get_Capacity_m27871(__this, method) (( int32_t (*) (List_1_t485 *, const MethodInfo*))List_1_get_Capacity_m23905_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::set_Capacity(System.Int32)
-#define List_1_set_Capacity_m27872(__this, ___value, method) (( void (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1_set_Capacity_m23906_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::get_Count()
-#define List_1_get_Count_m27873(__this, method) (( int32_t (*) (List_1_t485 *, const MethodInfo*))List_1_get_Count_m17794_gshared)(__this, method)
-// T System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::get_Item(System.Int32)
-#define List_1_get_Item_m27874(__this, ___index, method) (( SynchronizedParameter_t477 * (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1_get_Item_m17817_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<PhotonAnimatorView/SynchronizedParameter>::set_Item(System.Int32,T)
-#define List_1_set_Item_m27875(__this, ___index, ___value, method) (( void (*) (List_1_t485 *, int32_t, SynchronizedParameter_t477 *, const MethodInfo*))List_1_set_Item_m17818_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::.ctor()
+extern "C" void List_1__ctor_m3209_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1__ctor_m3209(__this, method) (( void (*) (List_1_t329 *, const MethodInfo*))List_1__ctor_m3209_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1__ctor_m28220_gshared (List_1_t329 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1__ctor_m28220(__this, ___collection, method) (( void (*) (List_1_t329 *, Object_t*, const MethodInfo*))List_1__ctor_m28220_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::.ctor(System.Int32)
+extern "C" void List_1__ctor_m28221_gshared (List_1_t329 * __this, int32_t ___capacity, const MethodInfo* method);
+#define List_1__ctor_m28221(__this, ___capacity, method) (( void (*) (List_1_t329 *, int32_t, const MethodInfo*))List_1__ctor_m28221_gshared)(__this, ___capacity, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::.ctor(T[],System.Int32)
+extern "C" void List_1__ctor_m28222_gshared (List_1_t329 * __this, DelayedQueueItemU5BU5D_t6465* ___data, int32_t ___size, const MethodInfo* method);
+#define List_1__ctor_m28222(__this, ___data, ___size, method) (( void (*) (List_1_t329 *, DelayedQueueItemU5BU5D_t6465*, int32_t, const MethodInfo*))List_1__ctor_m28222_gshared)(__this, ___data, ___size, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::.cctor()
+extern "C" void List_1__cctor_m28223_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define List_1__cctor_m28223(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m28223_gshared)(__this /* static, unused */, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+extern "C" Object_t* List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m28224_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m28224(__this, method) (( Object_t* (*) (List_1_t329 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m28224_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C" void List_1_System_Collections_ICollection_CopyTo_m28225_gshared (List_1_t329 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_CopyTo_m28225(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t329 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m28225_gshared)(__this, ___array, ___arrayIndex, method)
+// System.Collections.IEnumerator System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IEnumerable.GetEnumerator()
+extern "C" Object_t * List_1_System_Collections_IEnumerable_GetEnumerator_m28226_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m28226(__this, method) (( Object_t * (*) (List_1_t329 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m28226_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.Add(System.Object)
+extern "C" int32_t List_1_System_Collections_IList_Add_m28227_gshared (List_1_t329 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Add_m28227(__this, ___item, method) (( int32_t (*) (List_1_t329 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m28227_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.Contains(System.Object)
+extern "C" bool List_1_System_Collections_IList_Contains_m28228_gshared (List_1_t329 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Contains_m28228(__this, ___item, method) (( bool (*) (List_1_t329 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m28228_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.IndexOf(System.Object)
+extern "C" int32_t List_1_System_Collections_IList_IndexOf_m28229_gshared (List_1_t329 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_IndexOf_m28229(__this, ___item, method) (( int32_t (*) (List_1_t329 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m28229_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C" void List_1_System_Collections_IList_Insert_m28230_gshared (List_1_t329 * __this, int32_t ___index, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Insert_m28230(__this, ___index, ___item, method) (( void (*) (List_1_t329 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m28230_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.Remove(System.Object)
+extern "C" void List_1_System_Collections_IList_Remove_m28231_gshared (List_1_t329 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Remove_m28231(__this, ___item, method) (( void (*) (List_1_t329 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m28231_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C" bool List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m28232_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m28232(__this, method) (( bool (*) (List_1_t329 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m28232_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.ICollection.get_IsSynchronized()
+extern "C" bool List_1_System_Collections_ICollection_get_IsSynchronized_m28233_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_get_IsSynchronized_m28233(__this, method) (( bool (*) (List_1_t329 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m28233_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.ICollection.get_SyncRoot()
+extern "C" Object_t * List_1_System_Collections_ICollection_get_SyncRoot_m28234_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_get_SyncRoot_m28234(__this, method) (( Object_t * (*) (List_1_t329 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m28234_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.get_IsFixedSize()
+extern "C" bool List_1_System_Collections_IList_get_IsFixedSize_m28235_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_IsFixedSize_m28235(__this, method) (( bool (*) (List_1_t329 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m28235_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.get_IsReadOnly()
+extern "C" bool List_1_System_Collections_IList_get_IsReadOnly_m28236_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_IsReadOnly_m28236(__this, method) (( bool (*) (List_1_t329 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m28236_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.get_Item(System.Int32)
+extern "C" Object_t * List_1_System_Collections_IList_get_Item_m28237_gshared (List_1_t329 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_Item_m28237(__this, ___index, method) (( Object_t * (*) (List_1_t329 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m28237_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C" void List_1_System_Collections_IList_set_Item_m28238_gshared (List_1_t329 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define List_1_System_Collections_IList_set_Item_m28238(__this, ___index, ___value, method) (( void (*) (List_1_t329 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m28238_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Add(T)
+extern "C" void List_1_Add_m28239_gshared (List_1_t329 * __this, DelayedQueueItem_t323  ___item, const MethodInfo* method);
+#define List_1_Add_m28239(__this, ___item, method) (( void (*) (List_1_t329 *, DelayedQueueItem_t323 , const MethodInfo*))List_1_Add_m28239_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::GrowIfNeeded(System.Int32)
+extern "C" void List_1_GrowIfNeeded_m28240_gshared (List_1_t329 * __this, int32_t ___newCount, const MethodInfo* method);
+#define List_1_GrowIfNeeded_m28240(__this, ___newCount, method) (( void (*) (List_1_t329 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m28240_gshared)(__this, ___newCount, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::CheckRange(System.Int32,System.Int32)
+extern "C" void List_1_CheckRange_m28241_gshared (List_1_t329 * __this, int32_t ___idx, int32_t ___count, const MethodInfo* method);
+#define List_1_CheckRange_m28241(__this, ___idx, ___count, method) (( void (*) (List_1_t329 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m28241_gshared)(__this, ___idx, ___count, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::AddCollection(System.Collections.Generic.ICollection`1<T>)
+extern "C" void List_1_AddCollection_m28242_gshared (List_1_t329 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_AddCollection_m28242(__this, ___collection, method) (( void (*) (List_1_t329 *, Object_t*, const MethodInfo*))List_1_AddCollection_m28242_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_AddEnumerable_m28243_gshared (List_1_t329 * __this, Object_t* ___enumerable, const MethodInfo* method);
+#define List_1_AddEnumerable_m28243(__this, ___enumerable, method) (( void (*) (List_1_t329 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m28243_gshared)(__this, ___enumerable, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_AddRange_m3220_gshared (List_1_t329 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_AddRange_m3220(__this, ___collection, method) (( void (*) (List_1_t329 *, Object_t*, const MethodInfo*))List_1_AddRange_m3220_gshared)(__this, ___collection, method)
+// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::AsReadOnly()
+extern "C" ReadOnlyCollection_1_t6468 * List_1_AsReadOnly_m28244_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_AsReadOnly_m28244(__this, method) (( ReadOnlyCollection_1_t6468 * (*) (List_1_t329 *, const MethodInfo*))List_1_AsReadOnly_m28244_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Clear()
+extern "C" void List_1_Clear_m28245_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_Clear_m28245(__this, method) (( void (*) (List_1_t329 *, const MethodInfo*))List_1_Clear_m28245_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Contains(T)
+extern "C" bool List_1_Contains_m28246_gshared (List_1_t329 * __this, DelayedQueueItem_t323  ___item, const MethodInfo* method);
+#define List_1_Contains_m28246(__this, ___item, method) (( bool (*) (List_1_t329 *, DelayedQueueItem_t323 , const MethodInfo*))List_1_Contains_m28246_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::CopyTo(T[],System.Int32)
+extern "C" void List_1_CopyTo_m28247_gshared (List_1_t329 * __this, DelayedQueueItemU5BU5D_t6465* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define List_1_CopyTo_m28247(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t329 *, DelayedQueueItemU5BU5D_t6465*, int32_t, const MethodInfo*))List_1_CopyTo_m28247_gshared)(__this, ___array, ___arrayIndex, method)
+// T System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Find(System.Predicate`1<T>)
+extern "C" DelayedQueueItem_t323  List_1_Find_m28248_gshared (List_1_t329 * __this, Predicate_1_t6472 * ___match, const MethodInfo* method);
+#define List_1_Find_m28248(__this, ___match, method) (( DelayedQueueItem_t323  (*) (List_1_t329 *, Predicate_1_t6472 *, const MethodInfo*))List_1_Find_m28248_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::CheckMatch(System.Predicate`1<T>)
+extern "C" void List_1_CheckMatch_m28249_gshared (Object_t * __this /* static, unused */, Predicate_1_t6472 * ___match, const MethodInfo* method);
+#define List_1_CheckMatch_m28249(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6472 *, const MethodInfo*))List_1_CheckMatch_m28249_gshared)(__this /* static, unused */, ___match, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::FindAll(System.Predicate`1<T>)
+extern "C" List_1_t329 * List_1_FindAll_m28250_gshared (List_1_t329 * __this, Predicate_1_t6472 * ___match, const MethodInfo* method);
+#define List_1_FindAll_m28250(__this, ___match, method) (( List_1_t329 * (*) (List_1_t329 *, Predicate_1_t6472 *, const MethodInfo*))List_1_FindAll_m28250_gshared)(__this, ___match, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::FindAllStackBits(System.Predicate`1<T>)
+extern "C" List_1_t329 * List_1_FindAllStackBits_m28251_gshared (List_1_t329 * __this, Predicate_1_t6472 * ___match, const MethodInfo* method);
+#define List_1_FindAllStackBits_m28251(__this, ___match, method) (( List_1_t329 * (*) (List_1_t329 *, Predicate_1_t6472 *, const MethodInfo*))List_1_FindAllStackBits_m28251_gshared)(__this, ___match, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::FindAllList(System.Predicate`1<T>)
+extern "C" List_1_t329 * List_1_FindAllList_m28252_gshared (List_1_t329 * __this, Predicate_1_t6472 * ___match, const MethodInfo* method);
+#define List_1_FindAllList_m28252(__this, ___match, method) (( List_1_t329 * (*) (List_1_t329 *, Predicate_1_t6472 *, const MethodInfo*))List_1_FindAllList_m28252_gshared)(__this, ___match, method)
+// System.Int32 System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::FindIndex(System.Predicate`1<T>)
+extern "C" int32_t List_1_FindIndex_m28253_gshared (List_1_t329 * __this, Predicate_1_t6472 * ___match, const MethodInfo* method);
+#define List_1_FindIndex_m28253(__this, ___match, method) (( int32_t (*) (List_1_t329 *, Predicate_1_t6472 *, const MethodInfo*))List_1_FindIndex_m28253_gshared)(__this, ___match, method)
+// System.Int32 System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
+extern "C" int32_t List_1_GetIndex_m28254_gshared (List_1_t329 * __this, int32_t ___startIndex, int32_t ___count, Predicate_1_t6472 * ___match, const MethodInfo* method);
+#define List_1_GetIndex_m28254(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t329 *, int32_t, int32_t, Predicate_1_t6472 *, const MethodInfo*))List_1_GetIndex_m28254_gshared)(__this, ___startIndex, ___count, ___match, method)
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::GetEnumerator()
+extern "C" Enumerator_t721  List_1_GetEnumerator_m3221_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_GetEnumerator_m3221(__this, method) (( Enumerator_t721  (*) (List_1_t329 *, const MethodInfo*))List_1_GetEnumerator_m3221_gshared)(__this, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::GetRange(System.Int32,System.Int32)
+extern "C" List_1_t329 * List_1_GetRange_m28255_gshared (List_1_t329 * __this, int32_t ___index, int32_t ___count, const MethodInfo* method);
+#define List_1_GetRange_m28255(__this, ___index, ___count, method) (( List_1_t329 * (*) (List_1_t329 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m28255_gshared)(__this, ___index, ___count, method)
+// System.Int32 System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::IndexOf(T)
+extern "C" int32_t List_1_IndexOf_m28256_gshared (List_1_t329 * __this, DelayedQueueItem_t323  ___item, const MethodInfo* method);
+#define List_1_IndexOf_m28256(__this, ___item, method) (( int32_t (*) (List_1_t329 *, DelayedQueueItem_t323 , const MethodInfo*))List_1_IndexOf_m28256_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Shift(System.Int32,System.Int32)
+extern "C" void List_1_Shift_m28257_gshared (List_1_t329 * __this, int32_t ___start, int32_t ___delta, const MethodInfo* method);
+#define List_1_Shift_m28257(__this, ___start, ___delta, method) (( void (*) (List_1_t329 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m28257_gshared)(__this, ___start, ___delta, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::CheckIndex(System.Int32)
+extern "C" void List_1_CheckIndex_m28258_gshared (List_1_t329 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_CheckIndex_m28258(__this, ___index, method) (( void (*) (List_1_t329 *, int32_t, const MethodInfo*))List_1_CheckIndex_m28258_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Insert(System.Int32,T)
+extern "C" void List_1_Insert_m28259_gshared (List_1_t329 * __this, int32_t ___index, DelayedQueueItem_t323  ___item, const MethodInfo* method);
+#define List_1_Insert_m28259(__this, ___index, ___item, method) (( void (*) (List_1_t329 *, int32_t, DelayedQueueItem_t323 , const MethodInfo*))List_1_Insert_m28259_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_CheckCollection_m28260_gshared (List_1_t329 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_CheckCollection_m28260(__this, ___collection, method) (( void (*) (List_1_t329 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m28260_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_InsertRange_m28261_gshared (List_1_t329 * __this, int32_t ___index, Object_t* ___collection, const MethodInfo* method);
+#define List_1_InsertRange_m28261(__this, ___index, ___collection, method) (( void (*) (List_1_t329 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m28261_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
+extern "C" void List_1_InsertCollection_m28262_gshared (List_1_t329 * __this, int32_t ___index, Object_t* ___collection, const MethodInfo* method);
+#define List_1_InsertCollection_m28262(__this, ___index, ___collection, method) (( void (*) (List_1_t329 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m28262_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_InsertEnumeration_m28263_gshared (List_1_t329 * __this, int32_t ___index, Object_t* ___enumerable, const MethodInfo* method);
+#define List_1_InsertEnumeration_m28263(__this, ___index, ___enumerable, method) (( void (*) (List_1_t329 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m28263_gshared)(__this, ___index, ___enumerable, method)
+// System.Boolean System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Remove(T)
+extern "C" bool List_1_Remove_m28264_gshared (List_1_t329 * __this, DelayedQueueItem_t323  ___item, const MethodInfo* method);
+#define List_1_Remove_m28264(__this, ___item, method) (( bool (*) (List_1_t329 *, DelayedQueueItem_t323 , const MethodInfo*))List_1_Remove_m28264_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::RemoveAll(System.Predicate`1<T>)
+extern "C" int32_t List_1_RemoveAll_m28265_gshared (List_1_t329 * __this, Predicate_1_t6472 * ___match, const MethodInfo* method);
+#define List_1_RemoveAll_m28265(__this, ___match, method) (( int32_t (*) (List_1_t329 *, Predicate_1_t6472 *, const MethodInfo*))List_1_RemoveAll_m28265_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::RemoveAt(System.Int32)
+extern "C" void List_1_RemoveAt_m28266_gshared (List_1_t329 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_RemoveAt_m28266(__this, ___index, method) (( void (*) (List_1_t329 *, int32_t, const MethodInfo*))List_1_RemoveAt_m28266_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::RemoveRange(System.Int32,System.Int32)
+extern "C" void List_1_RemoveRange_m28267_gshared (List_1_t329 * __this, int32_t ___index, int32_t ___count, const MethodInfo* method);
+#define List_1_RemoveRange_m28267(__this, ___index, ___count, method) (( void (*) (List_1_t329 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m28267_gshared)(__this, ___index, ___count, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Reverse()
+extern "C" void List_1_Reverse_m28268_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_Reverse_m28268(__this, method) (( void (*) (List_1_t329 *, const MethodInfo*))List_1_Reverse_m28268_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Sort()
+extern "C" void List_1_Sort_m28269_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_Sort_m28269(__this, method) (( void (*) (List_1_t329 *, const MethodInfo*))List_1_Sort_m28269_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C" void List_1_Sort_m28270_gshared (List_1_t329 * __this, Object_t* ___comparer, const MethodInfo* method);
+#define List_1_Sort_m28270(__this, ___comparer, method) (( void (*) (List_1_t329 *, Object_t*, const MethodInfo*))List_1_Sort_m28270_gshared)(__this, ___comparer, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::Sort(System.Comparison`1<T>)
+extern "C" void List_1_Sort_m28271_gshared (List_1_t329 * __this, Comparison_1_t6475 * ___comparison, const MethodInfo* method);
+#define List_1_Sort_m28271(__this, ___comparison, method) (( void (*) (List_1_t329 *, Comparison_1_t6475 *, const MethodInfo*))List_1_Sort_m28271_gshared)(__this, ___comparison, method)
+// T[] System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::ToArray()
+extern "C" DelayedQueueItemU5BU5D_t6465* List_1_ToArray_m28272_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_ToArray_m28272(__this, method) (( DelayedQueueItemU5BU5D_t6465* (*) (List_1_t329 *, const MethodInfo*))List_1_ToArray_m28272_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::TrimExcess()
+extern "C" void List_1_TrimExcess_m28273_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_TrimExcess_m28273(__this, method) (( void (*) (List_1_t329 *, const MethodInfo*))List_1_TrimExcess_m28273_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::get_Capacity()
+extern "C" int32_t List_1_get_Capacity_m28274_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_get_Capacity_m28274(__this, method) (( int32_t (*) (List_1_t329 *, const MethodInfo*))List_1_get_Capacity_m28274_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::set_Capacity(System.Int32)
+extern "C" void List_1_set_Capacity_m28275_gshared (List_1_t329 * __this, int32_t ___value, const MethodInfo* method);
+#define List_1_set_Capacity_m28275(__this, ___value, method) (( void (*) (List_1_t329 *, int32_t, const MethodInfo*))List_1_set_Capacity_m28275_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::get_Count()
+extern "C" int32_t List_1_get_Count_m28276_gshared (List_1_t329 * __this, const MethodInfo* method);
+#define List_1_get_Count_m28276(__this, method) (( int32_t (*) (List_1_t329 *, const MethodInfo*))List_1_get_Count_m28276_gshared)(__this, method)
+// T System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::get_Item(System.Int32)
+extern "C" DelayedQueueItem_t323  List_1_get_Item_m28277_gshared (List_1_t329 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_get_Item_m28277(__this, ___index, method) (( DelayedQueueItem_t323  (*) (List_1_t329 *, int32_t, const MethodInfo*))List_1_get_Item_m28277_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<UnityParseHelpers.Loom/DelayedQueueItem>::set_Item(System.Int32,T)
+extern "C" void List_1_set_Item_m28278_gshared (List_1_t329 * __this, int32_t ___index, DelayedQueueItem_t323  ___value, const MethodInfo* method);
+#define List_1_set_Item_m28278(__this, ___index, ___value, method) (( void (*) (List_1_t329 *, int32_t, DelayedQueueItem_t323 , const MethodInfo*))List_1_set_Item_m28278_gshared)(__this, ___index, ___value, method)

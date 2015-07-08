@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.AlertLevel
-struct AlertLevel_t4354;
+struct AlertLevel_t4592;
 

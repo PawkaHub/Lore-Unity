@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PickupCharacterState
-struct PickupCharacterState_t358;
+struct PickupCharacterState_t386;
 

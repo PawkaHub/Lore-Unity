@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNamespaceManager/NsDecl
-struct NsDecl_t3867;
-struct NsDecl_t3867_marshaled;
+struct NsDecl_t4105;
+struct NsDecl_t4105_marshaled;
 
-void NsDecl_t3867_marshal(const NsDecl_t3867& unmarshaled, NsDecl_t3867_marshaled& marshaled);
-void NsDecl_t3867_marshal_back(const NsDecl_t3867_marshaled& marshaled, NsDecl_t3867& unmarshaled);
-void NsDecl_t3867_marshal_cleanup(NsDecl_t3867_marshaled& marshaled);
+void NsDecl_t4105_marshal(const NsDecl_t4105& unmarshaled, NsDecl_t4105_marshaled& marshaled);
+void NsDecl_t4105_marshal_back(const NsDecl_t4105_marshaled& marshaled, NsDecl_t4105& unmarshaled);
+void NsDecl_t4105_marshal_cleanup(NsDecl_t4105_marshaled& marshaled);

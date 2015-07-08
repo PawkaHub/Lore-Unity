@@ -3,9 +3,9 @@
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.Byte
@@ -15,6 +15,6 @@ struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PhotonNetwork/EventCallback
-struct  EventCallback_t450  : public MulticastDelegate_t451
+struct  EventCallback_t478  : public MulticastDelegate_t479
 {
 };

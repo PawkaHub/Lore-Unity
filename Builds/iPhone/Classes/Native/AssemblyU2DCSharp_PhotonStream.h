@@ -5,7 +5,7 @@ struct List_1_t2;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PhotonStream
-struct  PhotonStream_t439  : public Object_t
+struct  PhotonStream_t467  : public Object_t
 {
 	// System.Boolean PhotonStream::write
 	bool ___write_0;

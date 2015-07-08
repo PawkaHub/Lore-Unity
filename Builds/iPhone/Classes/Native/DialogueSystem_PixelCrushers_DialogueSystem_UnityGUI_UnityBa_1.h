@@ -7,7 +7,7 @@ struct String_t;
 // UnityEngine.GUIStyle
 struct GUIStyle_t303;
 // PixelCrushers.DialogueSystem.FormattedText
-struct FormattedText_t572;
+struct FormattedText_t625;
 // UnityEngine.Transform
 struct Transform_t54;
 // UnityEngine.MonoBehaviour
@@ -21,7 +21,7 @@ struct Transform_t54;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI
-struct  UnityBarkUIOnGUI_t1380  : public MonoBehaviour_t47
+struct  UnityBarkUIOnGUI_t1639  : public MonoBehaviour_t47
 {
 	// UnityEngine.Vector3 PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI::offset
 	Vector3_t53  ___offset_2;
@@ -34,7 +34,7 @@ struct  UnityBarkUIOnGUI_t1380  : public MonoBehaviour_t47
 	// UnityEngine.GUIStyle PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI::guiStyle
 	GUIStyle_t303 * ___guiStyle_6;
 	// PixelCrushers.DialogueSystem.FormattedText PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI::formattingToApply
-	FormattedText_t572 * ___formattingToApply_7;
+	FormattedText_t625 * ___formattingToApply_7;
 	// PixelCrushers.DialogueSystem.UnityGUI.TextStyle PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI::textStyle
 	int32_t ___textStyle_8;
 	// UnityEngine.Color PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI::textStyleColor

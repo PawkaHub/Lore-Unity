@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct List_1_t789;
-// UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t788;
+// System.Collections.Generic.List`1<Consolation.Console/Log>
+struct List_1_t564;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  Enumerator_t6440 
+// Consolation.Console/Log
+#include "AssemblyU2DCSharp_Consolation_Console_Log.h"
+// System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>
+struct  Enumerator_t6706 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::l
-	List_1_t789 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::l
+	List_1_t564 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>::current
-	Entry_t788 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<Consolation.Console/Log>::current
+	Log_t563  ___current_3;
 };

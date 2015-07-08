@@ -7,7 +7,7 @@ struct String_t;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // InRoomRoundTimer
-struct  InRoomRoundTimer_t503  : public MonoBehaviour_t47
+struct  InRoomRoundTimer_t530  : public MonoBehaviour_t47
 {
 	// System.Int32 InRoomRoundTimer::SecondsPerTurn
 	int32_t ___SecondsPerTurn_3;

@@ -1,21 +1,21 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.IChannelInfo
-struct IChannelInfo_t5218;
+struct IChannelInfo_t5456;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.IRemotingTypeInfo
-struct IRemotingTypeInfo_t5219;
+struct IRemotingTypeInfo_t5457;
 // System.Runtime.Remoting.IEnvoyInfo
-struct IEnvoyInfo_t5220;
+struct IEnvoyInfo_t5458;
 // System.Type
 struct Type_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t427;
+struct Dictionary_2_t455;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.ObjRef
-struct  ObjRef_t5216  : public Object_t
+struct  ObjRef_t5454  : public Object_t
 {
 	// System.Runtime.Remoting.IChannelInfo System.Runtime.Remoting.ObjRef::channel_info
 	Object_t * ___channel_info_0;
@@ -30,11 +30,11 @@ struct  ObjRef_t5216  : public Object_t
 	// System.Type System.Runtime.Remoting.ObjRef::_serverType
 	Type_t * ____serverType_5;
 };
-struct ObjRef_t5216_StaticFields{
+struct ObjRef_t5454_StaticFields{
 	// System.Int32 System.Runtime.Remoting.ObjRef::MarshalledObjectRef
 	int32_t ___MarshalledObjectRef_6;
 	// System.Int32 System.Runtime.Remoting.ObjRef::WellKnowObjectRef
 	int32_t ___WellKnowObjectRef_7;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.ObjRef::<>f__switch$map26
-	Dictionary_2_t427 * ___U3CU3Ef__switchU24map26_8;
+	Dictionary_2_t455 * ___U3CU3Ef__switchU24map26_8;
 };

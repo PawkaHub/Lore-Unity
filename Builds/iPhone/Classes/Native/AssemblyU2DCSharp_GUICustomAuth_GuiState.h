@@ -5,7 +5,7 @@
 // GUICustomAuth/GuiState
 #include "AssemblyU2DCSharp_GUICustomAuth_GuiState.h"
 // GUICustomAuth/GuiState
-struct  GuiState_t340 
+struct  GuiState_t368 
 {
 	// System.Int32 GUICustomAuth/GuiState::value__
 	int32_t ___value___1;

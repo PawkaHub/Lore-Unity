@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Debug
-struct  Debug_t4509  : public Object_t
+struct  Debug_t4747  : public Object_t
 {
 };

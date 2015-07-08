@@ -3,15 +3,15 @@
 // UnityEngine.Transform
 struct Transform_t54;
 // PickupController
-struct PickupController_t355;
+struct PickupController_t383;
 // UnityEngine.Camera
-struct Camera_t356;
+struct Camera_t384;
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // PickupCamera
-struct  PickupCamera_t357  : public MonoBehaviour_t329
+struct  PickupCamera_t385  : public MonoBehaviour_t357
 {
 	// UnityEngine.Transform PickupCamera::cameraTransform
 	Transform_t54 * ___cameraTransform_2;
@@ -46,9 +46,9 @@ struct  PickupCamera_t357  : public MonoBehaviour_t329
 	// System.Boolean PickupCamera::snap
 	bool ___snap_17;
 	// PickupController PickupCamera::controller
-	PickupController_t355 * ___controller_18;
+	PickupController_t383 * ___controller_18;
 	// System.Single PickupCamera::targetHeight
 	float ___targetHeight_19;
 	// UnityEngine.Camera PickupCamera::m_CameraTransformCamera
-	Camera_t356 * ___m_CameraTransformCamera_20;
+	Camera_t384 * ___m_CameraTransformCamera_20;
 };

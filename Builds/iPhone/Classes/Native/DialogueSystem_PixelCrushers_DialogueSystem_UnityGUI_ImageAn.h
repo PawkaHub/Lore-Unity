@@ -5,7 +5,7 @@
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // PixelCrushers.DialogueSystem.UnityGUI.ImageAnimation
-struct  ImageAnimation_t1353  : public Object_t
+struct  ImageAnimation_t1612  : public Object_t
 {
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.ImageAnimation::animate
 	bool ___animate_0;

@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.SocialPlatforms.IAchievementDescription[]
-struct IAchievementDescriptionU5BU5D_t4672;
+// System.Linq.Expressions.Expression
+struct Expression_t630;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Action`1<UnityEngine.SocialPlatforms.IAchievementDescription[]>
-struct  Action_1_t4446  : public MulticastDelegate_t451
+// System.Action`1<System.Linq.Expressions.Expression>
+struct  Action_1_t3309  : public MulticastDelegate_t479
 {
 };

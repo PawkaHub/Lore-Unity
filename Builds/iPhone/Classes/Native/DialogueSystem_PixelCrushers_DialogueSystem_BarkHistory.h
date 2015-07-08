@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.BarkOrder
 #include "DialogueSystem_PixelCrushers_DialogueSystem_BarkOrder.h"
 // PixelCrushers.DialogueSystem.BarkHistory
-struct  BarkHistory_t1099  : public Object_t
+struct  BarkHistory_t1358  : public Object_t
 {
 	// PixelCrushers.DialogueSystem.BarkOrder PixelCrushers.DialogueSystem.BarkHistory::order
 	int32_t ___order_0;

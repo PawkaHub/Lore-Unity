@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ServerSettings/HostingOption
-struct HostingOption_t473;
+struct HostingOption_t500;
 

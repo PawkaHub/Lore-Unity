@@ -7,7 +7,7 @@ struct Collider2D_t195;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.RaycastHit2D
-struct  RaycastHit2D_t596 
+struct  RaycastHit2D_t654 
 {
 	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Centroid
 	Vector2_t97  ___m_Centroid_0;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // JoinType
-struct JoinType_t399;
+struct JoinType_t427;
 

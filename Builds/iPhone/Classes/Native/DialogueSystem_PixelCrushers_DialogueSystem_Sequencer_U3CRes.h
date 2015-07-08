@@ -3,16 +3,16 @@
 // System.Object
 struct Object_t;
 // PixelCrushers.DialogueSystem.Sequencer
-struct Sequencer_t618;
+struct Sequencer_t675;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.Sequencer/<RestoreCamera>c__Iterator8
-struct  U3CRestoreCameraU3Ec__Iterator8_t1206  : public Object_t
+struct  U3CRestoreCameraU3Ec__Iterator8_t1465  : public Object_t
 {
 	// System.Int32 PixelCrushers.DialogueSystem.Sequencer/<RestoreCamera>c__Iterator8::$PC
 	int32_t ___U24PC_0;
 	// System.Object PixelCrushers.DialogueSystem.Sequencer/<RestoreCamera>c__Iterator8::$current
 	Object_t * ___U24current_1;
 	// PixelCrushers.DialogueSystem.Sequencer PixelCrushers.DialogueSystem.Sequencer/<RestoreCamera>c__Iterator8::<>f__this
-	Sequencer_t618 * ___U3CU3Ef__this_2;
+	Sequencer_t675 * ___U3CU3Ef__this_2;
 };

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>
-struct IList_1_t6422;
+// System.Collections.Generic.IList`1<System.Single>
+struct IList_1_t6693;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.Collection`1<UnityEngine.EventSystems.RaycastResult>
-struct  Collection_1_t6424  : public Object_t
+// System.Collections.ObjectModel.Collection`1<System.Single>
+struct  Collection_1_t6695  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1<UnityEngine.EventSystems.RaycastResult>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1<System.Single>::list
 	Object_t* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1<UnityEngine.EventSystems.RaycastResult>::syncRoot
+	// System.Object System.Collections.ObjectModel.Collection`1<System.Single>::syncRoot
 	Object_t * ___syncRoot_1;
 };

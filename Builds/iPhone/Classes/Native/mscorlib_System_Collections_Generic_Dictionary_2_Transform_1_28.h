@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Object[]
-struct ObjectU5BU5D_t21;
+// System.String
+struct String_t;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.Collections.DictionaryEntry
@@ -14,7 +14,7 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.Object[],System.Collections.DictionaryEntry>
-struct  Transform_1_t6330  : public MulticastDelegate_t451
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Int32,System.Collections.DictionaryEntry>
+struct  Transform_1_t6639  : public MulticastDelegate_t479
 {
 };

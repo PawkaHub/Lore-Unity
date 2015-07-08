@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<Language.Lua.LuaValue,Language.Lua.LuaValue,System.Collections.DictionaryEntry>
-struct Transform_1_t9253;
+struct Transform_1_t9535;
 // System.Object
 struct Object_t;
 // Language.Lua.LuaValue
-struct LuaValue_t1075;
+struct LuaValue_t1334;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Collections.DictionaryEntry
@@ -22,10 +22,10 @@ struct AsyncCallback_t449;
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<Language.Lua.LuaValue,Language.Lua.LuaValue,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Collections.DictionaryEntry>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_0MethodDeclarations.h"
-#define Transform_1__ctor_m67922(__this, ___object, ___method, method) (( void (*) (Transform_1_t9253 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m24276_gshared)(__this, ___object, ___method, method)
+#define Transform_1__ctor_m68837(__this, ___object, ___method, method) (( void (*) (Transform_1_t9535 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m24693_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<Language.Lua.LuaValue,Language.Lua.LuaValue,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m67923(__this, ___key, ___value, method) (( DictionaryEntry_t679  (*) (Transform_1_t9253 *, LuaValue_t1075 *, LuaValue_t1075 *, const MethodInfo*))Transform_1_Invoke_m24277_gshared)(__this, ___key, ___value, method)
+#define Transform_1_Invoke_m68838(__this, ___key, ___value, method) (( DictionaryEntry_t748  (*) (Transform_1_t9535 *, LuaValue_t1334 *, LuaValue_t1334 *, const MethodInfo*))Transform_1_Invoke_m24694_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<Language.Lua.LuaValue,Language.Lua.LuaValue,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m67924(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t9253 *, LuaValue_t1075 *, LuaValue_t1075 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m24278_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+#define Transform_1_BeginInvoke_m68839(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t9535 *, LuaValue_t1334 *, LuaValue_t1334 *, AsyncCallback_t477 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m24695_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<Language.Lua.LuaValue,Language.Lua.LuaValue,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m67925(__this, ___result, method) (( DictionaryEntry_t679  (*) (Transform_1_t9253 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m24279_gshared)(__this, ___result, method)
+#define Transform_1_EndInvoke_m68840(__this, ___result, method) (( DictionaryEntry_t748  (*) (Transform_1_t9535 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m24696_gshared)(__this, ___result, method)

@@ -5,7 +5,7 @@
 // PixelCrushers.DialogueSystem.EmTag
 #include "DialogueSystem_PixelCrushers_DialogueSystem_EmTag.h"
 // PixelCrushers.DialogueSystem.EmTag
-struct  EmTag_t1245 
+struct  EmTag_t1504 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.EmTag::value__
 	int32_t ___value___1;

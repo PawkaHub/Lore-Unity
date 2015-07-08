@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.GameProperties
-struct  GameProperties_t408  : public Object_t
+struct  GameProperties_t436  : public Object_t
 {
 };

@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // OnClickRightDestroy
-struct  OnClickRightDestroy_t336  : public MonoBehaviour_t47
+struct  OnClickRightDestroy_t364  : public MonoBehaviour_t47
 {
 };

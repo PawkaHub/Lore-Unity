@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t1555;
+struct IDictionary_2_t1810;
 // System.String
 struct String_t;
 // System.Threading.ReaderWriterLockSlim
-struct ReaderWriterLockSlim_t1609;
+struct ReaderWriterLockSlim_t1860;
 // System.Collections.Generic.Queue`1<System.Action>
-struct Queue_1_t1664;
+struct Queue_1_t1915;
 // System.Action
 struct Action_t250;
 // System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>,System.Threading.Tasks.Task`1<System.Object>>
-struct Func_2_t1665;
+struct Func_2_t1916;
 // System.Func`2<System.Reflection.MethodInfo,System.Boolean>
-struct Func_2_t1666;
+struct Func_2_t1917;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.PlatformHooks
-struct  PlatformHooks_t1667  : public Object_t
+struct  PlatformHooks_t1918  : public Object_t
 {
 };
-struct PlatformHooks_t1667_StaticFields{
+struct PlatformHooks_t1918_StaticFields{
 	// System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.PlatformHooks::settings
 	Object_t* ___settings_0;
 	// System.String Parse.PlatformHooks::settingsPath
@@ -30,9 +30,9 @@ struct PlatformHooks_t1667_StaticFields{
 	// System.Boolean Parse.PlatformHooks::isWebPlayer
 	bool ___isWebPlayer_3;
 	// System.Threading.ReaderWriterLockSlim Parse.PlatformHooks::dispatchQueueLock
-	ReaderWriterLockSlim_t1609 * ___dispatchQueueLock_4;
+	ReaderWriterLockSlim_t1860 * ___dispatchQueueLock_4;
 	// System.Collections.Generic.Queue`1<System.Action> Parse.PlatformHooks::dispatchQueue
-	Queue_1_t1664 * ___dispatchQueue_5;
+	Queue_1_t1915 * ___dispatchQueue_5;
 	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate10
 	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate10_6;
 	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate11
@@ -64,9 +64,9 @@ struct PlatformHooks_t1667_StaticFields{
 	// System.Action Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate1e
 	Action_t250 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1e_20;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>>,System.Threading.Tasks.Task`1<System.Object>> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate37
-	Func_2_t1665 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate37_21;
+	Func_2_t1916 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate37_21;
 	// System.Func`2<System.Reflection.MethodInfo,System.Boolean> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate48
-	Func_2_t1666 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate48_22;
+	Func_2_t1917 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate48_22;
 	// System.Func`2<System.Reflection.MethodInfo,System.Boolean> Parse.PlatformHooks::CS$<>9__CachedAnonymousMethodDelegate49
-	Func_2_t1666 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate49_23;
+	Func_2_t1917 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate49_23;
 };

@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>
-struct U3CU3Ef__AnonymousType0_2_t1713;
-// System.Reflection.ConstructorInfo
-struct ConstructorInfo_t1712;
+// System.String
+struct String_t;
+// Parse.ParseObject
+struct ParseObject_t596;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Func`2<System.Reflection.ConstructorInfo,<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>>
-struct  Func_2_t1537  : public MulticastDelegate_t451
+// System.Func`2<Parse.ParseObject,System.String>
+struct  Func_2_t1788  : public MulticastDelegate_t479
 {
 };

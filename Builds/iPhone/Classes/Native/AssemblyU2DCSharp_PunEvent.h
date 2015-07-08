@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // PunEvent
-struct  PunEvent_t438  : public Object_t
+struct  PunEvent_t466  : public Object_t
 {
 };

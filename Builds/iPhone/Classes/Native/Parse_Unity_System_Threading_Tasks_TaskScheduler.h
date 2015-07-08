@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.SynchronizationContext
-struct SynchronizationContext_t1699;
+struct SynchronizationContext_t1948;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Tasks.TaskScheduler
-struct  TaskScheduler_t1696  : public Object_t
+struct  TaskScheduler_t1945  : public Object_t
 {
 	// System.Threading.SynchronizationContext System.Threading.Tasks.TaskScheduler::context
-	SynchronizationContext_t1699 * ___context_1;
+	SynchronizationContext_t1948 * ___context_1;
 };
-struct TaskScheduler_t1696_StaticFields{
+struct TaskScheduler_t1945_StaticFields{
 	// System.Threading.SynchronizationContext System.Threading.Tasks.TaskScheduler::defaultContext
-	SynchronizationContext_t1699 * ___defaultContext_0;
+	SynchronizationContext_t1948 * ___defaultContext_0;
 };

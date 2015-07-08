@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.InputField/EditState
-struct EditState_t870;
+struct EditState_t1157;
 

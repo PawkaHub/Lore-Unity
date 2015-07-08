@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<UnityEngine.GradientColorKey>
-struct  InternalEnumerator_1_t6153 
+struct  InternalEnumerator_1_t6391 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityEngine.GradientColorKey>::array
 	Array_t * ___array_0;

@@ -9,7 +9,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.DialogueTriggerEvent
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTriggerE.h"
 // PixelCrushers.DialogueSystem.LuaTrigger
-struct  LuaTrigger_t1335  : public DialogueEventStarter_t1321
+struct  LuaTrigger_t1594  : public DialogueEventStarter_t1580
 {
 	// PixelCrushers.DialogueSystem.DialogueTriggerEvent PixelCrushers.DialogueSystem.LuaTrigger::trigger
 	int32_t ___trigger_3;

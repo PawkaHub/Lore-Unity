@@ -7,7 +7,7 @@ struct Animator_t214;
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
 #include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimatorFloat
-struct  SequencerCommandAnimatorFloat_t1217  : public SequencerCommand_t209
+struct  SequencerCommandAnimatorFloat_t1476  : public SequencerCommand_t209
 {
 	// System.Int32 PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimatorFloat::animatorParameterHash
 	int32_t ___animatorParameterHash_7;

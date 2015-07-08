@@ -3,28 +3,28 @@
 // System.Int32[]
 struct Int32U5BU5D_t119;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5982;
+struct LinkU5BU5D_t6220;
 // UnityEngine.GUILayoutUtility/LayoutCache[]
-struct LayoutCacheU5BU5D_t9327;
+struct LayoutCacheU5BU5D_t9609;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t6257;
+struct IEqualityComparer_1_t6585;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t3058;
+struct SerializationInfo_t3296;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache,System.Collections.DictionaryEntry>
-struct Transform_1_t9328;
+struct Transform_1_t9610;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct  Dictionary_2_t4474  : public Object_t
+struct  Dictionary_2_t4712  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::table
 	Int32U5BU5D_t119* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::linkSlots
-	LinkU5BU5D_t5982* ___linkSlots_5;
+	LinkU5BU5D_t6220* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::keySlots
 	Int32U5BU5D_t119* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::valueSlots
-	LayoutCacheU5BU5D_t9327* ___valueSlots_7;
+	LayoutCacheU5BU5D_t9609* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::emptySlot
@@ -36,11 +36,11 @@ struct  Dictionary_2_t4474  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::serialization_info
-	SerializationInfo_t3058 * ___serialization_info_13;
+	SerializationInfo_t3296 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t4474_StaticFields{
+struct Dictionary_2_t4712_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::<>f__am$cacheB
-	Transform_1_t9328 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t9610 * ___U3CU3Ef__amU24cacheB_15;
 };

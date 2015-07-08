@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PhotonTransformViewScaleModel/InterpolateOptions
-struct InterpolateOptions_t499;
+struct InterpolateOptions_t526;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // CustomAuthenticationType
-struct CustomAuthenticationType_t416;
+struct CustomAuthenticationType_t444;
 

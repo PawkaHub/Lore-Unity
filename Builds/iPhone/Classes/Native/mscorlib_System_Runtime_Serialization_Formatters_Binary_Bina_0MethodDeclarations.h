@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.BinaryElement
-struct BinaryElement_t5231;
+struct BinaryElement_t5469;
 

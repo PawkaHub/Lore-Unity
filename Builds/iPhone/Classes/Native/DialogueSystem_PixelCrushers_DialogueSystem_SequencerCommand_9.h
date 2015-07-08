@@ -9,7 +9,7 @@ struct Transform_t54;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandCamera
-struct  SequencerCommandCamera_t1226  : public SequencerCommand_t209
+struct  SequencerCommandCamera_t1485  : public SequencerCommand_t209
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandCamera::subject
 	Transform_t54 * ___subject_7;

@@ -7,7 +7,7 @@ struct PhotonPeer_t14;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // PhotonLagSimulationGui
-struct  PhotonLagSimulationGui_t447  : public MonoBehaviour_t47
+struct  PhotonLagSimulationGui_t475  : public MonoBehaviour_t47
 {
 	// UnityEngine.Rect PhotonLagSimulationGui::WindowRect
 	Rect_t201  ___WindowRect_2;

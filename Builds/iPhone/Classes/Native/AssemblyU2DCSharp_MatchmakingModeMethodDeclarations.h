@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // MatchmakingMode
-struct MatchmakingMode_t415;
+struct MatchmakingMode_t443;
 

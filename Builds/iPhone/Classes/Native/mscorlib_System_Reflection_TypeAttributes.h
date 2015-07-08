@@ -5,7 +5,7 @@
 // System.Reflection.TypeAttributes
 #include "mscorlib_System_Reflection_TypeAttributes.h"
 // System.Reflection.TypeAttributes
-struct  TypeAttributes_t5135 
+struct  TypeAttributes_t5373 
 {
 	// System.Int32 System.Reflection.TypeAttributes::value__
 	int32_t ___value___1;

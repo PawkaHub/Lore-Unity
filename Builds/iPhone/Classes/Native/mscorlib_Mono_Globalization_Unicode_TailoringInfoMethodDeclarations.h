@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.TailoringInfo
-struct TailoringInfo_t4944;
+struct TailoringInfo_t5182;
 
 // System.Void Mono.Globalization.Unicode.TailoringInfo::.ctor(System.Int32,System.Int32,System.Int32,System.Boolean)
-extern "C" void TailoringInfo__ctor_m19119 (TailoringInfo_t4944 * __this, int32_t ___lcid, int32_t ___tailoringIndex, int32_t ___tailoringCount, bool ___frenchSort, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TailoringInfo__ctor_m19536 (TailoringInfo_t5182 * __this, int32_t ___lcid, int32_t ___tailoringIndex, int32_t ___tailoringCount, bool ___frenchSort, const MethodInfo* method) IL2CPP_METHOD_ATTR;

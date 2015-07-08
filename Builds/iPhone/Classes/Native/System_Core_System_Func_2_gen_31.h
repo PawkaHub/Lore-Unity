@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.Internal.IParseFieldOperation
-struct IParseFieldOperation_t1707;
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t808;
+// System.Threading.Tasks.Task
+struct Task_t344;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_6.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>,Parse.Internal.IParseFieldOperation>
-struct  Func_2_t1616  : public MulticastDelegate_t451
+// System.Func`2<System.Threading.Tasks.Task,System.Threading.Tasks.Task`1<System.Object>>
+struct  Func_2_t2064  : public MulticastDelegate_t479
 {
 };

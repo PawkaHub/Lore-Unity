@@ -5,7 +5,7 @@ struct Transform_t54;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Transform/Enumerator
-struct  Enumerator_t4516  : public Object_t
+struct  Enumerator_t4754  : public Object_t
 {
 	// UnityEngine.Transform UnityEngine.Transform/Enumerator::outer
 	Transform_t54 * ___outer_0;

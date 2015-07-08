@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Camera
-struct Camera_t356;
+struct Camera_t384;
 // UnityEngine.GameObject
 struct GameObject_t49;
 // System.String
@@ -11,10 +11,10 @@ struct String_t;
 // PixelCrushers.DialogueSystem.EntrytagFormat
 #include "DialogueSystem_PixelCrushers_DialogueSystem_EntrytagFormat.h"
 // PixelCrushers.DialogueSystem.DisplaySettings/CameraSettings
-struct  CameraSettings_t1240  : public Object_t
+struct  CameraSettings_t1499  : public Object_t
 {
 	// UnityEngine.Camera PixelCrushers.DialogueSystem.DisplaySettings/CameraSettings::sequencerCamera
-	Camera_t356 * ___sequencerCamera_0;
+	Camera_t384 * ___sequencerCamera_0;
 	// UnityEngine.GameObject PixelCrushers.DialogueSystem.DisplaySettings/CameraSettings::alternateCameraObject
 	GameObject_t49 * ___alternateCameraObject_1;
 	// UnityEngine.GameObject PixelCrushers.DialogueSystem.DisplaySettings/CameraSettings::cameraAngles

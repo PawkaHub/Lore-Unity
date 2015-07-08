@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // ParticlePlayground.ParticleStateC[]
-struct ParticleStateCU5BU5D_t6161;
+struct ParticleStateCU5BU5D_t6399;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<ParticlePlayground.ParticleStateC>
 struct  List_1_t183  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<ParticlePlayground.ParticleStateC>::_items
-	ParticleStateCU5BU5D_t6161* ____items_1;
+	ParticleStateCU5BU5D_t6399* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<ParticlePlayground.ParticleStateC>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<ParticlePlayground.ParticleStateC>::_version
@@ -16,5 +16,5 @@ struct  List_1_t183  : public Object_t
 };
 struct List_1_t183_StaticFields{
 	// T[] System.Collections.Generic.List`1<ParticlePlayground.ParticleStateC>::EmptyArray
-	ParticleStateCU5BU5D_t6161* ___EmptyArray_4;
+	ParticleStateCU5BU5D_t6399* ___EmptyArray_4;
 };

@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_3.h"
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
-struct  ScrollRectEvent_t891  : public UnityEvent_1_t892
+struct  ScrollRectEvent_t1172  : public UnityEvent_1_t1173
 {
 };

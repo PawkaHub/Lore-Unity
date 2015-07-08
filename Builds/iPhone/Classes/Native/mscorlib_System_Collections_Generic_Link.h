@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.Link
-struct  Link_t5007 
+struct  Link_t5245 
 {
 	// System.Int32 System.Collections.Generic.Link::HashCode
 	int32_t ___HashCode_0;

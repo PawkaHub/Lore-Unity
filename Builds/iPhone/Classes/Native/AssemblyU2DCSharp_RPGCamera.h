@@ -7,7 +7,7 @@ struct Transform_t54;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // RPGCamera
-struct  RPGCamera_t361  : public MonoBehaviour_t47
+struct  RPGCamera_t389  : public MonoBehaviour_t47
 {
 	// UnityEngine.Transform RPGCamera::Target
 	Transform_t54 * ___Target_2;

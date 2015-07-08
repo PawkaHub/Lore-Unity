@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.UnityGUI.ValueScale
-struct ValueScale_t1377;
+struct ValueScale_t1636;
 

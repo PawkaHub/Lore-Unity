@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // OnSerializeRigidBody
-struct OnSerializeRigidBody_t460;
+struct OnSerializeRigidBody_t488;
 

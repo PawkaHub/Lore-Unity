@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.FileAttributes
-struct FileAttributes_t5061;
+struct FileAttributes_t5299;
 

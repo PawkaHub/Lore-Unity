@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.DateTime>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__49.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.DateTime>
-struct  Enumerator_t7892 
+struct  Enumerator_t8174 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.DateTime>::host_enumerator
-	Enumerator_t7889  ___host_enumerator_0;
+	Enumerator_t8171  ___host_enumerator_0;
 };

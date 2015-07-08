@@ -5,11 +5,11 @@ struct PropertyInfo_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Action`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct Action_1_t1652;
+struct Action_1_t1903;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.PlatformHooks/<>c__DisplayClass28
-struct  U3CU3Ec__DisplayClass28_t1654  : public Object_t
+struct  U3CU3Ec__DisplayClass28_t1905  : public Object_t
 {
 	// System.Reflection.PropertyInfo Parse.PlatformHooks/<>c__DisplayClass28::remoteNotificationCountProperty
 	PropertyInfo_t * ___remoteNotificationCountProperty_0;
@@ -20,5 +20,5 @@ struct  U3CU3Ec__DisplayClass28_t1654  : public Object_t
 	// System.Reflection.PropertyInfo Parse.PlatformHooks/<>c__DisplayClass28::userInfoProperty
 	PropertyInfo_t * ___userInfoProperty_3;
 	// System.Action`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>> Parse.PlatformHooks/<>c__DisplayClass28::action
-	Action_1_t1652 * ___action_4;
+	Action_1_t1903 * ___action_4;
 };

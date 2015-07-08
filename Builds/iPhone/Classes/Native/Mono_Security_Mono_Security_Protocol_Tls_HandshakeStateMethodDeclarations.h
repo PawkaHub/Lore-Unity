@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.HandshakeState
-struct HandshakeState_t4374;
+struct HandshakeState_t4612;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.DatabaseResetOptions
-struct DatabaseResetOptions_t1184;
+struct DatabaseResetOptions_t1443;
 

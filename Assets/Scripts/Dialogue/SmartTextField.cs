@@ -1,6 +1,7 @@
 ﻿#if !(UNITY_4_3 || UNITY_4_5)
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using UnityEngine.Events;
 using System.Collections;
 
@@ -25,7 +26,7 @@ namespace PixelCrushers.DialogueSystem {
 		/// <summary>
 		/// The text field.
 		/// </summary>
-		public InputField textField;
+		public MobileInputField textField;
 
 		/// <summary>
 		/// The accept key.
@@ -54,12 +55,6 @@ namespace PixelCrushers.DialogueSystem {
 
 		public string textFieldLabel;
 
-		//private TouchScreenKeyboard keyboard;
-
-		//private TouchScreenKeyboard keyboard;
-
-		//private TouchScreenKeyboard keyboard = TouchScreenKeyboard;
-
 		void Start() {
 			//Config keyboard
 			//Debug.Log ("SmartTextField started!");
@@ -80,7 +75,6 @@ namespace PixelCrushers.DialogueSystem {
 				textField.text = text;
 				textField.characterLimit = maxLength;
 				textField.keyboardType = TouchScreenKeyboardType.EmailAddress;
-				TouchScreenKeyboard.hideInput = true;
 			}
 			this.acceptedText = acceptedText;
 			Show();
@@ -91,17 +85,23 @@ namespace PixelCrushers.DialogueSystem {
 
 		public void Update() {
 			if (isAwaitingInput) {
-				//Debug.Log ("Update");
 				//Detect mobile support
-				if (Input.GetKeyDown(acceptKey)) {
-					AcceptTextInput();
-				} /*else if (keyboard != null) {
-					Debug.Log ("Mobile Keyboard support!");
-					if (keyboard.done) {
-						Debug.Log ("Mobile Done Pressed!");
-						AcceptTextInput();
+				/*if (textField != null) {
+					if (!textField.isFocused && IsVisible) {
+						Debug.Log ("Re-enable the field!");
+						textField.ActivateInputField();
 					}
 				}*/
+				if(textField.isFocused && Input.GetButtonDown("Submit")) {
+					Debug.Log ("Return hit!");
+				}
+				if (Input.GetKeyDown(KeyCode.Return)) {
+					Debug.Log ("Return key down~!");
+				}
+				if (Input.GetKeyDown(acceptKey)) {
+					Debug.Log ("Accept hit!");
+					AcceptTextInput();
+				}
 			}
 		}
 
@@ -118,20 +118,26 @@ namespace PixelCrushers.DialogueSystem {
 		/// Accepts the text input and calls the accept handler delegate.
 		/// </summary>
 		public void AcceptTextInput() {
+			//Prevent the keyboard from dismissing
+			//if(EventSystem.current.alreadySelecting == true) return;
 			isAwaitingInput = false;
-			if (acceptedText != null) {
-				//Debug.Log ("TextField");
-				//Debug.Log (textFieldLabel);
-				//Debug.Log (textField.text);
-				if (textField != null) {
-					//Set the lua text field variables
-					//Debug.Log ("Set the lua variable!");
-					acceptedText(textField.text);
+			Debug.Log ("AcceptTextInput fired!");
+			//if(Input.GetButtonDown("Submit")){
+				Debug.Log ("Submit fired!");
+				if (acceptedText != null) {
+					//Debug.Log ("TextField");
+					//Debug.Log (textFieldLabel);
+					//Debug.Log (textField.text);
+					if (textField != null) {
+						//Set the lua text field variables
+						//Debug.Log ("Set the lua variable!");
+						acceptedText(textField.text);
+					}
+					acceptedText = null;
 				}
-				acceptedText = null;
-			}
-			Hide();
-			onAccept.Invoke();
+				Hide();
+				onAccept.Invoke();
+			//}
 		}
 
 		private void Show() {
@@ -139,8 +145,6 @@ namespace PixelCrushers.DialogueSystem {
 			SetActive(true);
 			if (textField != null) {
 				textField.ActivateInputField();
-				//keyboard = TouchScreenKeyboard;
-				TouchScreenKeyboard.hideInput = true;
 				//Disable continue button while the text field is active
 				if (UnityEngine.EventSystems.EventSystem.current != null) {
 					UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(textField.gameObject, null);

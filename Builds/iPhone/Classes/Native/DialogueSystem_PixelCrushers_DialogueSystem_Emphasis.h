@@ -5,7 +5,7 @@
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // PixelCrushers.DialogueSystem.Emphasis
-struct  Emphasis_t636 
+struct  Emphasis_t692 
 {
 	// System.Int32 PixelCrushers.DialogueSystem.Emphasis::<startIndex>k__BackingField
 	int32_t ___U3CstartIndexU3Ek__BackingField_0;
@@ -21,7 +21,7 @@ struct  Emphasis_t636
 	bool ___U3CunderlineU3Ek__BackingField_5;
 };
 // Native definition for marshalling of: PixelCrushers.DialogueSystem.Emphasis
-struct Emphasis_t636_marshaled
+struct Emphasis_t692_marshaled
 {
 	int32_t ___U3CstartIndexU3Ek__BackingField_0;
 	int32_t ___U3ClengthU3Ek__BackingField_1;

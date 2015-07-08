@@ -3,7 +3,7 @@
 // System.Byte[]
 struct ByteU5BU5D_t25;
 // System.Security.Cryptography.KeySizes[]
-struct KeySizesU5BU5D_t4336;
+struct KeySizesU5BU5D_t4574;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.CipherMode
@@ -11,7 +11,7 @@ struct KeySizesU5BU5D_t4336;
 // System.Security.Cryptography.PaddingMode
 #include "mscorlib_System_Security_Cryptography_PaddingMode.h"
 // System.Security.Cryptography.SymmetricAlgorithm
-struct  SymmetricAlgorithm_t4337  : public Object_t
+struct  SymmetricAlgorithm_t4575  : public Object_t
 {
 	// System.Int32 System.Security.Cryptography.SymmetricAlgorithm::BlockSizeValue
 	int32_t ___BlockSizeValue_0;
@@ -22,9 +22,9 @@ struct  SymmetricAlgorithm_t4337  : public Object_t
 	// System.Byte[] System.Security.Cryptography.SymmetricAlgorithm::KeyValue
 	ByteU5BU5D_t25* ___KeyValue_3;
 	// System.Security.Cryptography.KeySizes[] System.Security.Cryptography.SymmetricAlgorithm::LegalBlockSizesValue
-	KeySizesU5BU5D_t4336* ___LegalBlockSizesValue_4;
+	KeySizesU5BU5D_t4574* ___LegalBlockSizesValue_4;
 	// System.Security.Cryptography.KeySizes[] System.Security.Cryptography.SymmetricAlgorithm::LegalKeySizesValue
-	KeySizesU5BU5D_t4336* ___LegalKeySizesValue_5;
+	KeySizesU5BU5D_t4574* ___LegalKeySizesValue_5;
 	// System.Int32 System.Security.Cryptography.SymmetricAlgorithm::FeedbackSizeValue
 	int32_t ___FeedbackSizeValue_6;
 	// System.Security.Cryptography.CipherMode System.Security.Cryptography.SymmetricAlgorithm::ModeValue

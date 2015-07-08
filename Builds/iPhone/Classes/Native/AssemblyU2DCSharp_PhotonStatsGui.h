@@ -5,7 +5,7 @@
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // PhotonStatsGui
-struct  PhotonStatsGui_t456  : public MonoBehaviour_t47
+struct  PhotonStatsGui_t484  : public MonoBehaviour_t47
 {
 	// System.Boolean PhotonStatsGui::statsWindowOn
 	bool ___statsWindowOn_2;

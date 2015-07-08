@@ -4,28 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>
-struct Enumerator_t1412;
+// System.Collections.Generic.List`1/Enumerator<PhotonPlayer>
+struct Enumerator_t741;
 // System.Object
 struct Object_t;
-// PixelCrushers.DialogueSystem.Field
-struct Field_t1147;
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>
-struct List_1_t1111;
+// PhotonPlayer
+struct PhotonPlayer_t460;
+// System.Collections.Generic.List`1<PhotonPlayer>
+struct List_1_t740;
 
-// System.Void System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::.ctor(System.Collections.Generic.List`1<T>)
+// System.Void System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_41MethodDeclarations.h"
-#define Enumerator__ctor_m33558(__this, ___l, method) (( void (*) (Enumerator_t1412 *, List_1_t1111 *, const MethodInfo*))Enumerator__ctor_m23913_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m33559(__this, method) (( void (*) (Enumerator_t1412 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m23914_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m33560(__this, method) (( Object_t * (*) (Enumerator_t1412 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m23915_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::Dispose()
-#define Enumerator_Dispose_m33561(__this, method) (( void (*) (Enumerator_t1412 *, const MethodInfo*))Enumerator_Dispose_m23916_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::VerifyState()
-#define Enumerator_VerifyState_m33562(__this, method) (( void (*) (Enumerator_t1412 *, const MethodInfo*))Enumerator_VerifyState_m23917_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::MoveNext()
-#define Enumerator_MoveNext_m7140(__this, method) (( bool (*) (Enumerator_t1412 *, const MethodInfo*))Enumerator_MoveNext_m23918_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.Field>::get_Current()
-#define Enumerator_get_Current_m7139(__this, method) (( Field_t1147 * (*) (Enumerator_t1412 *, const MethodInfo*))Enumerator_get_Current_m23919_gshared)(__this, method)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_44MethodDeclarations.h"
+#define Enumerator__ctor_m29561(__this, ___l, method) (( void (*) (Enumerator_t741 *, List_1_t740 *, const MethodInfo*))Enumerator__ctor_m24330_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::System.Collections.IEnumerator.Reset()
+#define Enumerator_System_Collections_IEnumerator_Reset_m29562(__this, method) (( void (*) (Enumerator_t741 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m24331_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::System.Collections.IEnumerator.get_Current()
+#define Enumerator_System_Collections_IEnumerator_get_Current_m29563(__this, method) (( Object_t * (*) (Enumerator_t741 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m24332_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::Dispose()
+#define Enumerator_Dispose_m29564(__this, method) (( void (*) (Enumerator_t741 *, const MethodInfo*))Enumerator_Dispose_m24333_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::VerifyState()
+#define Enumerator_VerifyState_m29565(__this, method) (( void (*) (Enumerator_t741 *, const MethodInfo*))Enumerator_VerifyState_m24334_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::MoveNext()
+#define Enumerator_MoveNext_m3370(__this, method) (( bool (*) (Enumerator_t741 *, const MethodInfo*))Enumerator_MoveNext_m24335_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<PhotonPlayer>::get_Current()
+#define Enumerator_get_Current_m3369(__this, method) (( PhotonPlayer_t460 * (*) (Enumerator_t741 *, const MethodInfo*))Enumerator_get_Current_m24336_gshared)(__this, method)

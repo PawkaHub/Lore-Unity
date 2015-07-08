@@ -3,6 +3,6 @@
 // System.Exception
 #include "mscorlib_System_Exception.h"
 // UnityEngine.PlayerPrefsException
-struct  PlayerPrefsException_t4519  : public Exception_t468
+struct  PlayerPrefsException_t4757  : public Exception_t496
 {
 };

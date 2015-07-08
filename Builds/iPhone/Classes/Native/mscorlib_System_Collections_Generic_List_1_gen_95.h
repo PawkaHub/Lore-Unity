@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>[]
-struct KeyValuePair_2U5BU5D_t9281;
+// Language.Lua.Field[]
+struct FieldU5BU5D_t9522;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
-struct  List_1_t3814  : public Object_t
+// System.Collections.Generic.List`1<Language.Lua.Field>
+struct  List_1_t3785  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_items
-	KeyValuePair_2U5BU5D_t9281* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_size
+	// T[] System.Collections.Generic.List`1<Language.Lua.Field>::_items
+	FieldU5BU5D_t9522* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<Language.Lua.Field>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::_version
+	// System.Int32 System.Collections.Generic.List`1<Language.Lua.Field>::_version
 	int32_t ____version_3;
 };
-struct List_1_t3814_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::EmptyArray
-	KeyValuePair_2U5BU5D_t9281* ___EmptyArray_4;
+struct List_1_t3785_StaticFields{
+	// T[] System.Collections.Generic.List`1<Language.Lua.Field>::EmptyArray
+	FieldU5BU5D_t9522* ___EmptyArray_4;
 };

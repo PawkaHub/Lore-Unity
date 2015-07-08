@@ -5,7 +5,7 @@
 // UnityEngine.WrapMode
 #include "UnityEngine_UnityEngine_WrapMode.h"
 // UnityEngine.WrapMode
-struct  WrapMode_t4536 
+struct  WrapMode_t4774 
 {
 	// System.Int32 UnityEngine.WrapMode::value__
 	int32_t ___value___1;

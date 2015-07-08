@@ -3,6 +3,6 @@
 // PixelCrushers.DialogueSystem.Asset
 #include "DialogueSystem_PixelCrushers_DialogueSystem_Asset.h"
 // PixelCrushers.DialogueSystem.Variable
-struct  Variable_t1152  : public Asset_t1110
+struct  Variable_t1411  : public Asset_t1369
 {
 };

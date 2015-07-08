@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<ParticlePlayground.PlaygroundTransformC>
-struct List_1_t118;
-// ParticlePlayground.PlaygroundTransformC
-struct PlaygroundTransformC_t112;
+// System.Collections.Generic.List`1<ParticlePlayground.ManipulatorObjectC>
+struct List_1_t80;
+// ParticlePlayground.ManipulatorObjectC
+struct ManipulatorObjectC_t115;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundTransformC>
-struct  Enumerator_t6105 
+// System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorObjectC>
+struct  Enumerator_t6322 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundTransformC>::l
-	List_1_t118 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundTransformC>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorObjectC>::l
+	List_1_t80 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorObjectC>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundTransformC>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorObjectC>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundTransformC>::current
-	PlaygroundTransformC_t112 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ManipulatorObjectC>::current
+	ManipulatorObjectC_t115 * ___current_3;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Math.Prime.ConfidenceFactor
-struct ConfidenceFactor_t4964;
+struct ConfidenceFactor_t5202;
 

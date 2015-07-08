@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.Int32,ExitGames.Client.Photon.Hashtable>
-struct Dictionary_2_t426;
+struct Dictionary_2_t454;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,ExitGames.Client.Photon.Hashtable>
-struct  KeyCollection_t6309  : public Object_t
+struct  KeyCollection_t6637  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,ExitGames.Client.Photon.Hashtable>::dictionary
-	Dictionary_2_t426 * ___dictionary_0;
+	Dictionary_2_t454 * ___dictionary_0;
 };

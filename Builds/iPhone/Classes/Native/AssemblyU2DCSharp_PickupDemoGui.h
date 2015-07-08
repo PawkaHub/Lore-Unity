@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PickupDemoGui
-struct  PickupDemoGui_t359  : public MonoBehaviour_t47
+struct  PickupDemoGui_t387  : public MonoBehaviour_t47
 {
 	// System.Boolean PickupDemoGui::ShowScores
 	bool ___ShowScores_2;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.Debug
-struct Debug_t3978;
+struct Debug_t4216;
 // System.String
 struct String_t;
 

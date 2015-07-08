@@ -5,7 +5,7 @@
 // System.Linq.Expressions.MemberBindingType
 #include "System_Core_System_Linq_Expressions_MemberBindingType.h"
 // System.Linq.Expressions.MemberBindingType
-struct  MemberBindingType_t3030 
+struct  MemberBindingType_t3267 
 {
 	// System.Int32 System.Linq.Expressions.MemberBindingType::value__
 	int32_t ___value___1;

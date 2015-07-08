@@ -14,10 +14,10 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t776_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t1065_il2cpp_TypeInfo;
 // <Module>
 #include "AssemblyU2DUnityScriptU2Dfirstpass_U3CModuleU3E.h"
-extern TypeInfo SmoothFollow_t777_il2cpp_TypeInfo;
+extern TypeInfo SmoothFollow_t1066_il2cpp_TypeInfo;
 // SmoothFollow
 #include "AssemblyU2DUnityScriptU2Dfirstpass_SmoothFollow.h"
 #include <map>
@@ -25,8 +25,8 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_AssemblyU2DUnityScriptU2Dfirstpass_Assembly_Types[3] = 
 {
-	&U3CModuleU3E_t776_il2cpp_TypeInfo,
-	&SmoothFollow_t777_il2cpp_TypeInfo,
+	&U3CModuleU3E_t1065_il2cpp_TypeInfo,
+	&SmoothFollow_t1066_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_AssemblyU2DUnityScriptU2Dfirstpass_Image;
@@ -52,11 +52,11 @@ static const char* s_StringTable[5] =
 #endif
 static const Il2CppFieldDefinition s_FieldTable[5] = 
 {
-	{ 0, 492, offsetof(SmoothFollow_t777, ___target_2), 0 } ,
-	{ 1, 477, offsetof(SmoothFollow_t777, ___distance_3), 0 } ,
-	{ 2, 477, offsetof(SmoothFollow_t777, ___height_4), 0 } ,
-	{ 3, 477, offsetof(SmoothFollow_t777, ___heightDamping_5), 0 } ,
-	{ 4, 477, offsetof(SmoothFollow_t777, ___rotationDamping_6), 0 } ,
+	{ 0, 557, offsetof(SmoothFollow_t1066, ___target_2), 0 } ,
+	{ 1, 542, offsetof(SmoothFollow_t1066, ___distance_3), 0 } ,
+	{ 2, 542, offsetof(SmoothFollow_t1066, ___height_4), 0 } ,
+	{ 3, 542, offsetof(SmoothFollow_t1066, ___heightDamping_5), 0 } ,
+	{ 4, 542, offsetof(SmoothFollow_t1066, ___rotationDamping_6), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

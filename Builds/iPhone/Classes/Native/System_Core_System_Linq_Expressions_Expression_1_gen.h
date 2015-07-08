@@ -3,6 +3,6 @@
 // System.Linq.Expressions.LambdaExpression
 #include "System_Core_System_Linq_Expressions_LambdaExpression.h"
 // System.Linq.Expressions.Expression`1<System.Action>
-struct  Expression_1_t610  : public LambdaExpression_t1400
+struct  Expression_1_t667  : public LambdaExpression_t1659
 {
 };

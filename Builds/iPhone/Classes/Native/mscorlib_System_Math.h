@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Math
-struct  Math_t5398  : public Object_t
+struct  Math_t5636  : public Object_t
 {
 };

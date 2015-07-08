@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.EntityHandling
-struct EntityHandling_t3830;
+struct EntityHandling_t4068;
 

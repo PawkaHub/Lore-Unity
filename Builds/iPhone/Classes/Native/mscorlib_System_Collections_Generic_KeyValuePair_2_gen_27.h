@@ -5,7 +5,7 @@
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.Color>
-struct  KeyValuePair_2_t6395 
+struct  KeyValuePair_2_t6721 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.Color>::key
 	int32_t ___key_0;

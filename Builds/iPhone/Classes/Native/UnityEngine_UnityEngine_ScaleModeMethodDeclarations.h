@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ScaleMode
-struct ScaleMode_t4467;
+struct ScaleMode_t4705;
 

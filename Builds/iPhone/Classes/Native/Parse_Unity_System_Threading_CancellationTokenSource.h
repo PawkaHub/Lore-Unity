@@ -7,7 +7,7 @@ struct Action_t250;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.CancellationTokenSource
-struct  CancellationTokenSource_t1670  : public Object_t
+struct  CancellationTokenSource_t1919  : public Object_t
 {
 	// System.Object System.Threading.CancellationTokenSource::mutex
 	Object_t * ___mutex_0;

@@ -3,15 +3,15 @@
 // UnityEngine.Transform
 struct Transform_t54;
 // ThirdPersonController
-struct ThirdPersonController_t371;
+struct ThirdPersonController_t399;
 // UnityEngine.Camera
-struct Camera_t356;
+struct Camera_t384;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // ThirdPersonCamera
-struct  ThirdPersonCamera_t372  : public MonoBehaviour_t47
+struct  ThirdPersonCamera_t400  : public MonoBehaviour_t47
 {
 	// UnityEngine.Transform ThirdPersonCamera::cameraTransform
 	Transform_t54 * ___cameraTransform_2;
@@ -46,9 +46,9 @@ struct  ThirdPersonCamera_t372  : public MonoBehaviour_t47
 	// System.Boolean ThirdPersonCamera::snap
 	bool ___snap_17;
 	// ThirdPersonController ThirdPersonCamera::controller
-	ThirdPersonController_t371 * ___controller_18;
+	ThirdPersonController_t399 * ___controller_18;
 	// System.Single ThirdPersonCamera::targetHeight
 	float ___targetHeight_19;
 	// UnityEngine.Camera ThirdPersonCamera::m_CameraTransformCamera
-	Camera_t356 * ___m_CameraTransformCamera_20;
+	Camera_t384 * ___m_CameraTransformCamera_20;
 };

@@ -5,7 +5,7 @@ struct Dictionary_2_t28;
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.OperationRequest
-struct  OperationRequest_t4873  : public Object_t
+struct  OperationRequest_t5111  : public Object_t
 {
 	// System.Byte ExitGames.Client.Photon.OperationRequest::OperationCode
 	uint8_t ___OperationCode_0;

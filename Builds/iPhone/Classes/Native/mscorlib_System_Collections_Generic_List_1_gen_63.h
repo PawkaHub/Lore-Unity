@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.ChatMapper.Actor[]
-struct ActorU5BU5D_t6631;
+// PixelCrushers.DialogueSystem.Variable[]
+struct VariableU5BU5D_t6947;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Actor>
-struct  List_1_t1154  : public Object_t
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Variable>
+struct  List_1_t1399  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Actor>::_items
-	ActorU5BU5D_t6631* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Actor>::_size
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Variable>::_items
+	VariableU5BU5D_t6947* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Variable>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Actor>::_version
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Variable>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1154_StaticFields{
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.ChatMapper.Actor>::EmptyArray
-	ActorU5BU5D_t6631* ___EmptyArray_4;
+struct List_1_t1399_StaticFields{
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Variable>::EmptyArray
+	VariableU5BU5D_t6947* ___EmptyArray_4;
 };

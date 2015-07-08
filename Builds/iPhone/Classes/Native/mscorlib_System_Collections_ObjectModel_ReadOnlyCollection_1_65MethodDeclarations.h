@@ -4,82 +4,82 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>
-struct ReadOnlyCollection_1_t6614;
-// PixelCrushers.DialogueSystem.Location
-struct Location_t1151;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>
+struct ReadOnlyCollection_1_t6927;
+// PixelCrushers.DialogueSystem.ChatMapper.DialogEntry
+struct DialogEntry_t1425;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.IList`1<PixelCrushers.DialogueSystem.Location>
-struct IList_1_t6613;
+// System.Collections.Generic.IList`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>
+struct IList_1_t6926;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t74;
-// PixelCrushers.DialogueSystem.Location[]
-struct LocationU5BU5D_t6612;
-// System.Collections.Generic.IEnumerator`1<PixelCrushers.DialogueSystem.Location>
-struct IEnumerator_1_t9957;
+// PixelCrushers.DialogueSystem.ChatMapper.DialogEntry[]
+struct DialogEntryU5BU5D_t6925;
+// System.Collections.Generic.IEnumerator`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>
+struct IEnumerator_1_t10241;
 
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::.ctor(System.Collections.Generic.IList`1<T>)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::.ctor(System.Collections.Generic.IList`1<T>)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
-#include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1MethodDeclarations.h"
-#define ReadOnlyCollection_1__ctor_m34340(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t6614 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m8522_gshared)(__this, ___list, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.Generic.ICollection<T>.Add(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m34341(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t6614 *, Location_t1151 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m23920_gshared)(__this, ___item, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.Generic.ICollection<T>.Clear()
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m34342(__this, method) (( void (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m23921_gshared)(__this, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m34343(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t6614 *, int32_t, Location_t1151 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m23922_gshared)(__this, ___index, ___item, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.Generic.ICollection<T>.Remove(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m34344(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t6614 *, Location_t1151 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m23923_gshared)(__this, ___item, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m34345(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6614 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m23924_gshared)(__this, ___index, method)
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m34346(__this, ___index, method) (( Location_t1151 * (*) (ReadOnlyCollection_1_t6614 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m23925_gshared)(__this, ___index, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m34347(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6614 *, int32_t, Location_t1151 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m23926_gshared)(__this, ___index, ___value, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m34348(__this, method) (( bool (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m23927_gshared)(__this, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m34349(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6614 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m23928_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IEnumerable.GetEnumerator()
-#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m34350(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m23929_gshared)(__this, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.Add(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Add_m34351(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6614 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m23930_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.Clear()
-#define ReadOnlyCollection_1_System_Collections_IList_Clear_m34352(__this, method) (( void (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m23931_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.Contains(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Contains_m34353(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6614 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m23932_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.IndexOf(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m34354(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6614 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m23933_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Insert_m34355(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6614 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m23934_gshared)(__this, ___index, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.Remove(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Remove_m34356(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t6614 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m23935_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.RemoveAt(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m34357(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6614 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m23936_gshared)(__this, ___index, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.ICollection.get_IsSynchronized()
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m34358(__this, method) (( bool (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m23937_gshared)(__this, method)
-// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.ICollection.get_SyncRoot()
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m34359(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m23938_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.get_IsFixedSize()
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m34360(__this, method) (( bool (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m23939_gshared)(__this, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.get_IsReadOnly()
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m34361(__this, method) (( bool (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m23940_gshared)(__this, method)
-// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m34362(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t6614 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m23941_gshared)(__this, ___index, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m34363(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6614 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m23942_gshared)(__this, ___index, ___value, method)
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::Contains(T)
-#define ReadOnlyCollection_1_Contains_m34364(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6614 *, Location_t1151 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m23943_gshared)(__this, ___value, method)
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::CopyTo(T[],System.Int32)
-#define ReadOnlyCollection_1_CopyTo_m34365(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6614 *, LocationU5BU5D_t6612*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m23944_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::GetEnumerator()
-#define ReadOnlyCollection_1_GetEnumerator_m34366(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m23945_gshared)(__this, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::IndexOf(T)
-#define ReadOnlyCollection_1_IndexOf_m34367(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6614 *, Location_t1151 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m23946_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::get_Count()
-#define ReadOnlyCollection_1_get_Count_m34368(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t6614 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m23947_gshared)(__this, method)
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.Location>::get_Item(System.Int32)
-#define ReadOnlyCollection_1_get_Item_m34369(__this, ___index, method) (( Location_t1151 * (*) (ReadOnlyCollection_1_t6614 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m23948_gshared)(__this, ___index, method)
+#include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1_0MethodDeclarations.h"
+#define ReadOnlyCollection_1__ctor_m35391(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t6927 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m8956_gshared)(__this, ___list, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.Generic.ICollection<T>.Add(T)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m35392(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t6927 *, DialogEntry_t1425 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m24337_gshared)(__this, ___item, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.Generic.ICollection<T>.Clear()
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m35393(__this, method) (( void (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m24338_gshared)(__this, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m35394(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t6927 *, int32_t, DialogEntry_t1425 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m24339_gshared)(__this, ___index, ___item, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.Generic.ICollection<T>.Remove(T)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m35395(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t6927 *, DialogEntry_t1425 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m24340_gshared)(__this, ___item, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m35396(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6927 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m24341_gshared)(__this, ___index, method)
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m35397(__this, ___index, method) (( DialogEntry_t1425 * (*) (ReadOnlyCollection_1_t6927 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m24342_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m35398(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6927 *, int32_t, DialogEntry_t1425 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m24343_gshared)(__this, ___index, ___value, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m35399(__this, method) (( bool (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m24344_gshared)(__this, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m35400(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6927 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m24345_gshared)(__this, ___array, ___index, method)
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IEnumerable.GetEnumerator()
+#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m35401(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m24346_gshared)(__this, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.Add(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Add_m35402(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6927 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m24347_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.Clear()
+#define ReadOnlyCollection_1_System_Collections_IList_Clear_m35403(__this, method) (( void (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m24348_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.Contains(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Contains_m35404(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6927 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m24349_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.IndexOf(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m35405(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6927 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m24350_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Insert_m35406(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6927 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m24351_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.Remove(System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_Remove_m35407(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t6927 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m24352_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.RemoveAt(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m35408(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t6927 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m24353_gshared)(__this, ___index, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.ICollection.get_IsSynchronized()
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m35409(__this, method) (( bool (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m24354_gshared)(__this, method)
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.ICollection.get_SyncRoot()
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m35410(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m24355_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.get_IsFixedSize()
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m35411(__this, method) (( bool (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m24356_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.get_IsReadOnly()
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m35412(__this, method) (( bool (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m24357_gshared)(__this, method)
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.get_Item(System.Int32)
+#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m35413(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t6927 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m24358_gshared)(__this, ___index, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m35414(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t6927 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m24359_gshared)(__this, ___index, ___value, method)
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::Contains(T)
+#define ReadOnlyCollection_1_Contains_m35415(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t6927 *, DialogEntry_t1425 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m24360_gshared)(__this, ___value, method)
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::CopyTo(T[],System.Int32)
+#define ReadOnlyCollection_1_CopyTo_m35416(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t6927 *, DialogEntryU5BU5D_t6925*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m24361_gshared)(__this, ___array, ___index, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::GetEnumerator()
+#define ReadOnlyCollection_1_GetEnumerator_m35417(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m24362_gshared)(__this, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::IndexOf(T)
+#define ReadOnlyCollection_1_IndexOf_m35418(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t6927 *, DialogEntry_t1425 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m24363_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::get_Count()
+#define ReadOnlyCollection_1_get_Count_m35419(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t6927 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m24364_gshared)(__this, method)
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.ChatMapper.DialogEntry>::get_Item(System.Int32)
+#define ReadOnlyCollection_1_get_Item_m35420(__this, ___index, method) (( DialogEntry_t1425 * (*) (ReadOnlyCollection_1_t6927 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m24365_gshared)(__this, ___index, method)

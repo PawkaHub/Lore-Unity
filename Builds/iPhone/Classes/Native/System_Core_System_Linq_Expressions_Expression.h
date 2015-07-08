@@ -7,7 +7,7 @@ struct Type_t;
 // System.Linq.Expressions.ExpressionType
 #include "System_Core_System_Linq_Expressions_ExpressionType.h"
 // System.Linq.Expressions.Expression
-struct  Expression_t609  : public Object_t
+struct  Expression_t630  : public Object_t
 {
 	// System.Linq.Expressions.ExpressionType System.Linq.Expressions.Expression::node_type
 	int32_t ___node_type_0;

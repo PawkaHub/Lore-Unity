@@ -13,7 +13,7 @@ struct Response_t235;
 // UnityEngine.Transform
 struct Transform_t54;
 // PixelCrushers.DialogueSystem.FormattedText
-struct FormattedText_t572;
+struct FormattedText_t625;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 
@@ -42,7 +42,7 @@ extern "C" void UnityUIResponseButton_set_target_m891 (UnityUIResponseButton_t23
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseButton::Reset()
 extern "C" void UnityUIResponseButton_Reset_m892 (UnityUIResponseButton_t236 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseButton::SetFormattedText(PixelCrushers.DialogueSystem.FormattedText)
-extern "C" void UnityUIResponseButton_SetFormattedText_m893 (UnityUIResponseButton_t236 * __this, FormattedText_t572 * ___formattedText, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityUIResponseButton_SetFormattedText_m893 (UnityUIResponseButton_t236 * __this, FormattedText_t625 * ___formattedText, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseButton::SetUnformattedText(System.String)
 extern "C" void UnityUIResponseButton_SetUnformattedText_m894 (UnityUIResponseButton_t236 * __this, String_t* ___unformattedText, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseButton::SetColor(UnityEngine.Color)

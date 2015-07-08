@@ -5,7 +5,7 @@
 // System.Xml.Schema.XmlSchemaForm
 #include "System_Xml_System_Xml_Schema_XmlSchemaForm.h"
 // System.Xml.Schema.XmlSchemaForm
-struct  XmlSchemaForm_t3693 
+struct  XmlSchemaForm_t3931 
 {
 	// System.Int32 System.Xml.Schema.XmlSchemaForm::value__
 	int32_t ___value___1;

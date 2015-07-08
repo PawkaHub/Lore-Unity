@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.DialogueTriggerEvent
-struct DialogueTriggerEvent_t1334;
+struct DialogueTriggerEvent_t1593;
 

@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // PixelCrushers.DialogueSystem.ChatMapper.Assets
-struct Assets_t1153;
+struct Assets_t1412;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject
-struct  ChatMapperProject_t568  : public Object_t
+struct  ChatMapperProject_t621  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::Title
 	String_t* ___Title_0;
@@ -44,5 +44,5 @@ struct  ChatMapperProject_t568  : public Object_t
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::UserScript
 	String_t* ___UserScript_16;
 	// PixelCrushers.DialogueSystem.ChatMapper.Assets PixelCrushers.DialogueSystem.ChatMapper.ChatMapperProject::Assets
-	Assets_t1153 * ___Assets_17;
+	Assets_t1412 * ___Assets_17;
 };

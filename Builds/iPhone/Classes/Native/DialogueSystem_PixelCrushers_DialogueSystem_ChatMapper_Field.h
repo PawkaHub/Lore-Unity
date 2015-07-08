@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.ChatMapper.Field
-struct  Field_t1169  : public Object_t
+struct  Field_t1428  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.ChatMapper.Field::Hint
 	String_t* ___Hint_0;

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t581;
+struct PointerEventData_t580;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.EventSystems.PointerEventData/FramePressState
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEventData_Fra.h"
 // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
-struct  MouseButtonEventData_t819  : public Object_t
+struct  MouseButtonEventData_t1109  : public Object_t
 {
 	// UnityEngine.EventSystems.PointerEventData/FramePressState UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::buttonState
 	int32_t ___buttonState_0;
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::buttonData
-	PointerEventData_t581 * ___buttonData_1;
+	PointerEventData_t580 * ___buttonData_1;
 };

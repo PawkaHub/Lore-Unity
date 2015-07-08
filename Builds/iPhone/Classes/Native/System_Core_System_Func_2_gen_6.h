@@ -1,16 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.IComparable
-struct IComparable_t43;
+// System.Threading.Tasks.Task
+struct Task_t344;
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t720;
+// System.IAsyncResult
+struct IAsyncResult_t476;
+// System.AsyncCallback
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
-// System.IAsyncResult
-struct IAsyncResult_t448;
-// System.AsyncCallback
-struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Func`2<System.Object,System.IComparable>
-struct  Func_2_t1514  : public MulticastDelegate_t451
+// System.Func`2<System.Threading.Tasks.Task`1<System.Boolean>,System.Threading.Tasks.Task>
+struct  Func_2_t2004  : public MulticastDelegate_t479
 {
 };

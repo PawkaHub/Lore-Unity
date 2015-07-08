@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.DisplaySettings/SubtitleSettings/ContinueButtonMode
-struct ContinueButtonMode_t1239;
+struct ContinueButtonMode_t1498;
 

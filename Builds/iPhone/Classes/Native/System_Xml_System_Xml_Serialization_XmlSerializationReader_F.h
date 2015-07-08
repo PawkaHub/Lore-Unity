@@ -5,16 +5,16 @@ struct Object_t;
 // System.String[]
 struct StringU5BU5D_t20;
 // System.Xml.Serialization.XmlSerializationFixupCallback
-struct XmlSerializationFixupCallback_t3756;
+struct XmlSerializationFixupCallback_t3994;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Serialization.XmlSerializationReader/Fixup
-struct  Fixup_t3757  : public Object_t
+struct  Fixup_t3995  : public Object_t
 {
 	// System.Object System.Xml.Serialization.XmlSerializationReader/Fixup::source
 	Object_t * ___source_0;
 	// System.String[] System.Xml.Serialization.XmlSerializationReader/Fixup::ids
 	StringU5BU5D_t20* ___ids_1;
 	// System.Xml.Serialization.XmlSerializationFixupCallback System.Xml.Serialization.XmlSerializationReader/Fixup::callback
-	XmlSerializationFixupCallback_t3756 * ___callback_2;
+	XmlSerializationFixupCallback_t3994 * ___callback_2;
 };

@@ -9,23 +9,23 @@
 #include "mscorlib_System_Runtime_CompilerServices_RuntimeCompatibilit.h"
 // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
 #include "mscorlib_System_Runtime_CompilerServices_RuntimeCompatibilitMethodDeclarations.h"
-extern TypeInfo* DebuggableAttribute_t778_il2cpp_TypeInfo_var;
+extern TypeInfo* DebuggableAttribute_t1067_il2cpp_TypeInfo_var;
 extern TypeInfo* RuntimeCompatibilityAttribute_t33_il2cpp_TypeInfo_var;
 void g_AssemblyU2DUnityScriptU2Dfirstpass_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DebuggableAttribute_t778_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1641);
+		DebuggableAttribute_t1067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2057);
 		RuntimeCompatibilityAttribute_t33_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(22);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 2;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		DebuggableAttribute_t778 * tmp;
-		tmp = (DebuggableAttribute_t778 *)il2cpp_codegen_object_new (DebuggableAttribute_t778_il2cpp_TypeInfo_var);
-		DebuggableAttribute__ctor_m3515(tmp, 257, NULL);
+		DebuggableAttribute_t1067 * tmp;
+		tmp = (DebuggableAttribute_t1067 *)il2cpp_codegen_object_new (DebuggableAttribute_t1067_il2cpp_TypeInfo_var);
+		DebuggableAttribute__ctor_m4089(tmp, 257, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
@@ -40,21 +40,21 @@ void g_AssemblyU2DUnityScriptU2Dfirstpass_Assembly_CustomAttributesCacheGenerato
 #include "UnityEngine_UnityEngine_AddComponentMenu.h"
 // UnityEngine.AddComponentMenu
 #include "UnityEngine_UnityEngine_AddComponentMenuMethodDeclarations.h"
-extern TypeInfo* AddComponentMenu_t738_il2cpp_TypeInfo_var;
-void SmoothFollow_t777_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+extern TypeInfo* AddComponentMenu_t817_il2cpp_TypeInfo_var;
+void SmoothFollow_t1066_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AddComponentMenu_t738_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(471);
+		AddComponentMenu_t817_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(533);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		AddComponentMenu_t738 * tmp;
-		tmp = (AddComponentMenu_t738 *)il2cpp_codegen_object_new (AddComponentMenu_t738_il2cpp_TypeInfo_var);
-		AddComponentMenu__ctor_m3445(tmp, il2cpp_codegen_string_new_wrapper("Camera-Control/Smooth Follow"), NULL);
+		AddComponentMenu_t817 * tmp;
+		tmp = (AddComponentMenu_t817 *)il2cpp_codegen_object_new (AddComponentMenu_t817_il2cpp_TypeInfo_var);
+		AddComponentMenu__ctor_m3783(tmp, il2cpp_codegen_string_new_wrapper("Camera-Control/Smooth Follow"), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -62,5 +62,5 @@ extern const CustomAttributesCacheGenerator g_AssemblyU2DUnityScriptU2Dfirstpass
 {
 	NULL,
 	g_AssemblyU2DUnityScriptU2Dfirstpass_Assembly_CustomAttributesCacheGenerator,
-	SmoothFollow_t777_CustomAttributesCacheGenerator,
+	SmoothFollow_t1066_CustomAttributesCacheGenerator,
 };

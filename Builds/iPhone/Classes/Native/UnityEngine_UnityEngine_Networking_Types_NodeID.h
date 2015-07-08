@@ -5,7 +5,7 @@
 // UnityEngine.Networking.Types.NodeID
 #include "UnityEngine_UnityEngine_Networking_Types_NodeID.h"
 // UnityEngine.Networking.Types.NodeID
-struct  NodeID_t4572 
+struct  NodeID_t4810 
 {
 	// System.UInt16 UnityEngine.Networking.Types.NodeID::value__
 	uint16_t ___value___1;

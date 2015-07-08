@@ -5,7 +5,7 @@
 // UnityEngine.CursorLockMode
 #include "UnityEngine_UnityEngine_CursorLockMode.h"
 // PixelCrushers.DialogueSystem.ShowCursorOnConversation
-struct  ShowCursorOnConversation_t1310  : public MonoBehaviour_t47
+struct  ShowCursorOnConversation_t1569  : public MonoBehaviour_t47
 {
 	// System.Boolean PixelCrushers.DialogueSystem.ShowCursorOnConversation::wasCursorVisible
 	bool ___wasCursorVisible_2;

@@ -5,7 +5,7 @@
 // OnClickLoadSomething/ResourceTypeOption
 #include "AssemblyU2DCSharp_OnClickLoadSomething_ResourceTypeOption.h"
 // OnClickLoadSomething/ResourceTypeOption
-struct  ResourceTypeOption_t511 
+struct  ResourceTypeOption_t538 
 {
 	// System.Byte OnClickLoadSomething/ResourceTypeOption::value__
 	uint8_t ___value___1;

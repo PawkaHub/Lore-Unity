@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>
-struct Dictionary_2_t523;
+struct Dictionary_2_t550;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>
-struct  ValueCollection_t6252  : public Object_t
+struct  ValueCollection_t6580  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::dictionary
-	Dictionary_2_t523 * ___dictionary_0;
+	Dictionary_2_t550 * ___dictionary_0;
 };

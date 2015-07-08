@@ -9,7 +9,7 @@ struct RectTransform_t259;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.UI.Mask
-struct  Mask_t937  : public UIBehaviour_t785
+struct  Mask_t1216  : public UIBehaviour_t1075
 {
 	// System.Boolean UnityEngine.UI.Mask::m_ShowMaskGraphic
 	bool ___m_ShowMaskGraphic_2;

@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdName
 #include "System_Xml_Mono_Xml_Schema_XsdName.h"
 // Mono.Xml.Schema.XsdIDRefs
-struct  XsdIDRefs_t3644  : public XsdName_t3640
+struct  XsdIDRefs_t3882  : public XsdName_t3878
 {
 };

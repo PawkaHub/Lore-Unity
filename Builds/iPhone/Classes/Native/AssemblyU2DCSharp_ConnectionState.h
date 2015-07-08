@@ -5,7 +5,7 @@
 // ConnectionState
 #include "AssemblyU2DCSharp_ConnectionState.h"
 // ConnectionState
-struct  ConnectionState_t396 
+struct  ConnectionState_t424 
 {
 	// System.Int32 ConnectionState::value__
 	int32_t ___value___1;

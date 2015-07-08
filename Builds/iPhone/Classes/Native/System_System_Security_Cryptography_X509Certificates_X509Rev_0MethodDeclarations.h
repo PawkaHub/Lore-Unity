@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509RevocationMode
-struct X509RevocationMode_t4125;
+struct X509RevocationMode_t4363;
 

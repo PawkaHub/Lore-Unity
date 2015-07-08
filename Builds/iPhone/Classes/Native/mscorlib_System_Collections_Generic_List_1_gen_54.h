@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.DialogueEntry[]
-struct DialogueEntryU5BU5D_t6590;
+// PixelCrushers.DialogueSystem.Field[]
+struct FieldU5BU5D_t6907;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.DialogueEntry>
-struct  List_1_t1116  : public Object_t
+// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>
+struct  List_1_t1370  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.DialogueEntry>::_items
-	DialogueEntryU5BU5D_t6590* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.DialogueEntry>::_size
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>::_items
+	FieldU5BU5D_t6907* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.DialogueEntry>::_version
+	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1116_StaticFields{
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.DialogueEntry>::EmptyArray
-	DialogueEntryU5BU5D_t6590* ___EmptyArray_4;
+struct List_1_t1370_StaticFields{
+	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>::EmptyArray
+	FieldU5BU5D_t6907* ___EmptyArray_4;
 };

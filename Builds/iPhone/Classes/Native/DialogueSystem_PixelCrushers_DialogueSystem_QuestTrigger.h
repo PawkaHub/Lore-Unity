@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.LocalizedTextTable
 struct LocalizedTextTable_t252;
 // PixelCrushers.DialogueSystem.QuestTrigger/SendMessageAction[]
-struct SendMessageActionU5BU5D_t1340;
+struct SendMessageActionU5BU5D_t1599;
 // PixelCrushers.DialogueSystem.DialogueDatabase
 struct DialogueDatabase_t202;
 // PixelCrushers.DialogueSystem.DialogueEventStarter
@@ -17,7 +17,7 @@ struct DialogueDatabase_t202;
 // PixelCrushers.DialogueSystem.QuestState
 #include "DialogueSystem_PixelCrushers_DialogueSystem_QuestState.h"
 // PixelCrushers.DialogueSystem.QuestTrigger
-struct  QuestTrigger_t1338  : public DialogueEventStarter_t1321
+struct  QuestTrigger_t1597  : public DialogueEventStarter_t1580
 {
 	// PixelCrushers.DialogueSystem.DialogueTriggerEvent PixelCrushers.DialogueSystem.QuestTrigger::trigger
 	int32_t ___trigger_3;
@@ -34,7 +34,7 @@ struct  QuestTrigger_t1338  : public DialogueEventStarter_t1321
 	// PixelCrushers.DialogueSystem.LocalizedTextTable PixelCrushers.DialogueSystem.QuestTrigger::localizedTextTable
 	LocalizedTextTable_t252 * ___localizedTextTable_9;
 	// PixelCrushers.DialogueSystem.QuestTrigger/SendMessageAction[] PixelCrushers.DialogueSystem.QuestTrigger::sendMessages
-	SendMessageActionU5BU5D_t1340* ___sendMessages_10;
+	SendMessageActionU5BU5D_t1599* ___sendMessages_10;
 	// System.Boolean PixelCrushers.DialogueSystem.QuestTrigger::useQuestNamePicker
 	bool ___useQuestNamePicker_11;
 	// PixelCrushers.DialogueSystem.DialogueDatabase PixelCrushers.DialogueSystem.QuestTrigger::selectedDatabase

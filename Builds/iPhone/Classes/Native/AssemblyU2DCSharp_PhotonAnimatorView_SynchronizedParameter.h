@@ -9,7 +9,7 @@ struct String_t;
 // PhotonAnimatorView/SynchronizeType
 #include "AssemblyU2DCSharp_PhotonAnimatorView_SynchronizeType.h"
 // PhotonAnimatorView/SynchronizedParameter
-struct  SynchronizedParameter_t477  : public Object_t
+struct  SynchronizedParameter_t504  : public Object_t
 {
 	// PhotonAnimatorView/ParameterType PhotonAnimatorView/SynchronizedParameter::Type
 	int32_t ___Type_0;

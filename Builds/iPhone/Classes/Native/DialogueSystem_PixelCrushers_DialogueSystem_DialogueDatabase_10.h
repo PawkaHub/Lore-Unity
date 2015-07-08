@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.DialogueDatabase/<GetConversation>c__AnonStorey2B
-struct  U3CGetConversationU3Ec__AnonStorey2B_t1129  : public Object_t
+struct  U3CGetConversationU3Ec__AnonStorey2B_t1388  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.DialogueDatabase/<GetConversation>c__AnonStorey2B::conversationTitle
 	String_t* ___conversationTitle_0;

@@ -7,7 +7,7 @@ struct String_t;
 // CloudRegionCode
 #include "AssemblyU2DCSharp_CloudRegionCode.h"
 // Region
-struct  Region_t443  : public Object_t
+struct  Region_t471  : public Object_t
 {
 	// CloudRegionCode Region::Code
 	int32_t ___Code_0;

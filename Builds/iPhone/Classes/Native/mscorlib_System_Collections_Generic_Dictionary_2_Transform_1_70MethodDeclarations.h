@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.Internal.ParseJSONCacheItem,System.Collections.DictionaryEntry>
-struct Transform_1_t7036;
+struct Transform_1_t7323;
 // System.Object
 struct Object_t;
 // Parse.Internal.ParseJSONCacheItem
-struct ParseJSONCacheItem_t1530;
+struct ParseJSONCacheItem_t1786;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Collections.DictionaryEntry
@@ -22,10 +22,10 @@ struct AsyncCallback_t449;
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.Internal.ParseJSONCacheItem,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Collections.DictionaryEntry>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_0MethodDeclarations.h"
-#define Transform_1__ctor_m40132(__this, ___object, ___method, method) (( void (*) (Transform_1_t7036 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m24276_gshared)(__this, ___object, ___method, method)
+#define Transform_1__ctor_m41120(__this, ___object, ___method, method) (( void (*) (Transform_1_t7323 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m24693_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.Internal.ParseJSONCacheItem,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m40133(__this, ___key, ___value, method) (( DictionaryEntry_t679  (*) (Transform_1_t7036 *, Object_t *, ParseJSONCacheItem_t1530 *, const MethodInfo*))Transform_1_Invoke_m24277_gshared)(__this, ___key, ___value, method)
+#define Transform_1_Invoke_m41121(__this, ___key, ___value, method) (( DictionaryEntry_t748  (*) (Transform_1_t7323 *, Object_t *, ParseJSONCacheItem_t1786 *, const MethodInfo*))Transform_1_Invoke_m24694_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.Internal.ParseJSONCacheItem,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m40134(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t7036 *, Object_t *, ParseJSONCacheItem_t1530 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m24278_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+#define Transform_1_BeginInvoke_m41122(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t7323 *, Object_t *, ParseJSONCacheItem_t1786 *, AsyncCallback_t477 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m24695_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.Internal.ParseJSONCacheItem,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m40135(__this, ___result, method) (( DictionaryEntry_t679  (*) (Transform_1_t7036 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m24279_gshared)(__this, ___result, method)
+#define Transform_1_EndInvoke_m41123(__this, ___result, method) (( DictionaryEntry_t748  (*) (Transform_1_t7323 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m24696_gshared)(__this, ___result, method)

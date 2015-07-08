@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UnityString
-struct  UnityString_t4507  : public Object_t
+struct  UnityString_t4745  : public Object_t
 {
 };

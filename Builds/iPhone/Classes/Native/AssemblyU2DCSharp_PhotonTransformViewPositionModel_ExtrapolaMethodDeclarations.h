@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PhotonTransformViewPositionModel/ExtrapolateOptions
-struct ExtrapolateOptions_t497;
+struct ExtrapolateOptions_t524;
 

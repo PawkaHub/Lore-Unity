@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.ContentType
-struct ContentType_t4368;
+struct ContentType_t4606;
 

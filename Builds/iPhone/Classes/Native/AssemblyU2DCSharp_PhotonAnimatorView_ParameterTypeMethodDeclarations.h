@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PhotonAnimatorView/ParameterType
-struct ParameterType_t475;
+struct ParameterType_t502;
 

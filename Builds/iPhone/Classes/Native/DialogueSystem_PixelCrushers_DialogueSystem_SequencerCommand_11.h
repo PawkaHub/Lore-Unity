@@ -3,9 +3,9 @@
 // System.String
 struct String_t;
 // UnityEngine.Texture
-struct Texture_t731;
+struct Texture_t802;
 // UnityEngine.GUITexture
-struct GUITexture_t1228;
+struct GUITexture_t1487;
 // UnityEngine.GameObject
 struct GameObject_t49;
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
@@ -13,7 +13,7 @@ struct GameObject_t49;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandFade
-struct  SequencerCommandFade_t1229  : public SequencerCommand_t209
+struct  SequencerCommandFade_t1488  : public SequencerCommand_t209
 {
 	// System.String PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandFade::direction
 	String_t* ___direction_7;
@@ -24,9 +24,9 @@ struct  SequencerCommandFade_t1229  : public SequencerCommand_t209
 	// System.Boolean PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandFade::fadeIn
 	bool ___fadeIn_10;
 	// UnityEngine.Texture PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandFade::texture
-	Texture_t731 * ___texture_11;
+	Texture_t802 * ___texture_11;
 	// UnityEngine.GUITexture PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandFade::faderGuiTexture
-	GUITexture_t1228 * ___faderGuiTexture_12;
+	GUITexture_t1487 * ___faderGuiTexture_12;
 	// UnityEngine.GameObject PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandFade::fader
 	GameObject_t49 * ___fader_13;
 	// System.Single PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandFade::startTime

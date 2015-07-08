@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.IEventSystemHandler
-struct IEventSystemHandler_t766;
+struct IEventSystemHandler_t1050;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct  Comparison_1_t6195  : public MulticastDelegate_t451
+struct  Comparison_1_t6433  : public MulticastDelegate_t479
 {
 };

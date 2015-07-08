@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.WeakReference
-struct WeakReference_t2556;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
+// PixelCrushers.DialogueSystem.Emphasis
+#include "DialogueSystem_PixelCrushers_DialogueSystem_Emphasis.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.WeakReference>
-struct  Predicate_1_t6839  : public MulticastDelegate_t451
+// System.Predicate`1<PixelCrushers.DialogueSystem.Emphasis>
+struct  Predicate_1_t7033  : public MulticastDelegate_t479
 {
 };

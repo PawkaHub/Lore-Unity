@@ -5,15 +5,15 @@ struct CharacterController_t321;
 // UnityEngine.Animator
 struct Animator_t214;
 // PhotonView
-struct PhotonView_t325;
+struct PhotonView_t353;
 // PhotonTransformView
-struct PhotonTransformView_t363;
+struct PhotonTransformView_t391;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // RPGMovement
-struct  RPGMovement_t364  : public MonoBehaviour_t47
+struct  RPGMovement_t392  : public MonoBehaviour_t47
 {
 	// System.Single RPGMovement::ForwardSpeed
 	float ___ForwardSpeed_2;
@@ -30,9 +30,9 @@ struct  RPGMovement_t364  : public MonoBehaviour_t47
 	// UnityEngine.Animator RPGMovement::m_Animator
 	Animator_t214 * ___m_Animator_8;
 	// PhotonView RPGMovement::m_PhotonView
-	PhotonView_t325 * ___m_PhotonView_9;
+	PhotonView_t353 * ___m_PhotonView_9;
 	// PhotonTransformView RPGMovement::m_TransformView
-	PhotonTransformView_t363 * ___m_TransformView_10;
+	PhotonTransformView_t391 * ___m_TransformView_10;
 	// System.Single RPGMovement::m_AnimatorSpeed
 	float ___m_AnimatorSpeed_11;
 	// UnityEngine.Vector3 RPGMovement::m_CurrentMovement

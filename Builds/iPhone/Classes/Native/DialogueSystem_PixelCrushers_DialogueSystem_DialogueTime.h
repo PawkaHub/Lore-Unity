@@ -5,10 +5,10 @@
 // PixelCrushers.DialogueSystem.DialogueTime/TimeMode
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueTime_Tim.h"
 // PixelCrushers.DialogueSystem.DialogueTime
-struct  DialogueTime_t625  : public Object_t
+struct  DialogueTime_t682  : public Object_t
 {
 };
-struct DialogueTime_t625_StaticFields{
+struct DialogueTime_t682_StaticFields{
 	// System.Boolean PixelCrushers.DialogueSystem.DialogueTime::m_isPaused
 	bool ___m_isPaused_0;
 	// System.Single PixelCrushers.DialogueSystem.DialogueTime::realtimeWhenPaused

@@ -5,7 +5,7 @@ struct DialogueDatabase_t202;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.DialogueDatabase/SyncInfo
-struct  SyncInfo_t1119  : public Object_t
+struct  SyncInfo_t1378  : public Object_t
 {
 	// System.Boolean PixelCrushers.DialogueSystem.DialogueDatabase/SyncInfo::syncActors
 	bool ___syncActors_0;

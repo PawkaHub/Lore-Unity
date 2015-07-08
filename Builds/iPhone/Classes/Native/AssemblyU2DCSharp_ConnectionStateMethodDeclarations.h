@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ConnectionState
-struct ConnectionState_t396;
+struct ConnectionState_t424;
 

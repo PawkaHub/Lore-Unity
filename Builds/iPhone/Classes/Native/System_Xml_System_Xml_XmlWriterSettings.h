@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.Encoding
-struct Encoding_t623;
+struct Encoding_t680;
 // System.String
 struct String_t;
 // System.Object
@@ -13,7 +13,7 @@ struct String_t;
 // System.Xml.XmlOutputMethod
 #include "System_Xml_System_Xml_XmlOutputMethod.h"
 // System.Xml.XmlWriterSettings
-struct  XmlWriterSettings_t3915  : public Object_t
+struct  XmlWriterSettings_t4153  : public Object_t
 {
 	// System.Boolean System.Xml.XmlWriterSettings::checkCharacters
 	bool ___checkCharacters_0;
@@ -22,7 +22,7 @@ struct  XmlWriterSettings_t3915  : public Object_t
 	// System.Xml.ConformanceLevel System.Xml.XmlWriterSettings::conformance
 	int32_t ___conformance_2;
 	// System.Text.Encoding System.Xml.XmlWriterSettings::encoding
-	Encoding_t623 * ___encoding_3;
+	Encoding_t680 * ___encoding_3;
 	// System.Boolean System.Xml.XmlWriterSettings::indent
 	bool ___indent_4;
 	// System.String System.Xml.XmlWriterSettings::indentChars

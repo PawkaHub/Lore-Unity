@@ -9,7 +9,7 @@ struct Collider_t194;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.ControllerColliderHit
-struct  ControllerColliderHit_t575  : public Object_t
+struct  ControllerColliderHit_t631  : public Object_t
 {
 	// UnityEngine.CharacterController UnityEngine.ControllerColliderHit::m_Controller
 	CharacterController_t321 * ___m_Controller_0;

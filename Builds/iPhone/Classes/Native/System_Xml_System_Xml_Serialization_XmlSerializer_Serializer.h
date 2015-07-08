@@ -5,11 +5,11 @@ struct Type_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Xml.Serialization.XmlSerializerImplementation
-struct XmlSerializerImplementation_t3775;
+struct XmlSerializerImplementation_t4013;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Serialization.XmlSerializer/SerializerData
-struct  SerializerData_t3776  : public Object_t
+struct  SerializerData_t4014  : public Object_t
 {
 	// System.Type System.Xml.Serialization.XmlSerializer/SerializerData::ReaderType
 	Type_t * ___ReaderType_0;
@@ -20,5 +20,5 @@ struct  SerializerData_t3776  : public Object_t
 	// System.Reflection.MethodInfo System.Xml.Serialization.XmlSerializer/SerializerData::WriterMethod
 	MethodInfo_t * ___WriterMethod_3;
 	// System.Xml.Serialization.XmlSerializerImplementation System.Xml.Serialization.XmlSerializer/SerializerData::Implementation
-	XmlSerializerImplementation_t3775 * ___Implementation_4;
+	XmlSerializerImplementation_t4013 * ___Implementation_4;
 };

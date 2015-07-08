@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // TeamExtensions
-struct  TeamExtensions_t525  : public Object_t
+struct  TeamExtensions_t552  : public Object_t
 {
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Byte[][]
-struct ByteU5BU5DU5BU5D_t4425;
+// System.Net.Cookie[]
+struct CookieU5BU5D_t9577;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Byte[]>
-struct  List_1_t4503  : public Object_t
+// System.Collections.Generic.List`1<System.Net.Cookie>
+struct  List_1_t4265  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Byte[]>::_items
-	ByteU5BU5DU5BU5D_t4425* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Byte[]>::_size
+	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::_items
+	CookieU5BU5D_t9577* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Byte[]>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_version
 	int32_t ____version_3;
 };
-struct List_1_t4503_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Byte[]>::EmptyArray
-	ByteU5BU5DU5BU5D_t4425* ___EmptyArray_4;
+struct List_1_t4265_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::EmptyArray
+	CookieU5BU5D_t9577* ___EmptyArray_4;
 };

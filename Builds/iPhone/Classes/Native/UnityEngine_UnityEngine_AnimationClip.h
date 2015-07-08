@@ -3,6 +3,6 @@
 // UnityEngine.Motion
 #include "UnityEngine_UnityEngine_Motion.h"
 // UnityEngine.AnimationClip
-struct  AnimationClip_t296  : public Motion_t4521
+struct  AnimationClip_t296  : public Motion_t4759
 {
 };

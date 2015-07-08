@@ -11,7 +11,7 @@ struct Texture2D_t90;
 // PixelCrushers.DialogueSystem.CharacterType
 #include "DialogueSystem_PixelCrushers_DialogueSystem_CharacterType.h"
 // PixelCrushers.DialogueSystem.CharacterInfo
-struct  CharacterInfo_t628  : public Object_t
+struct  CharacterInfo_t685  : public Object_t
 {
 	// System.Int32 PixelCrushers.DialogueSystem.CharacterInfo::id
 	int32_t ___id_0;

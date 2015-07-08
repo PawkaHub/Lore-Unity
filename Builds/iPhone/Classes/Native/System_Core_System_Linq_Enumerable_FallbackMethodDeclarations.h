@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Enumerable/Fallback
-struct Fallback_t3041;
+struct Fallback_t3278;
 

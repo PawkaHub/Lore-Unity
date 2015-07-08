@@ -5,7 +5,7 @@
 // ServerConnection
 #include "AssemblyU2DCSharp_ServerConnection.h"
 // ServerConnection
-struct  ServerConnection_t395 
+struct  ServerConnection_t423 
 {
 	// System.Int32 ServerConnection::value__
 	int32_t ___value___1;

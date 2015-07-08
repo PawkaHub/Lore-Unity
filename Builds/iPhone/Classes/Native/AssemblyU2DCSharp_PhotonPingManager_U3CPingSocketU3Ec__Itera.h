@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // Region
-struct Region_t443;
+struct Region_t471;
 // ExitGames.Client.Photon.PhotonPing
-struct PhotonPing_t466;
+struct PhotonPing_t494;
 // System.String
 struct String_t;
 // System.Diagnostics.Stopwatch
-struct Stopwatch_t467;
+struct Stopwatch_t495;
 // System.Exception
-struct Exception_t468;
+struct Exception_t496;
 // System.Object
 struct Object_t;
 // PhotonPingManager
-struct PhotonPingManager_t442;
+struct PhotonPingManager_t470;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PhotonPingManager/<PingSocket>c__Iterator14
-struct  U3CPingSocketU3Ec__Iterator14_t469  : public Object_t
+struct  U3CPingSocketU3Ec__Iterator14_t497  : public Object_t
 {
 	// Region PhotonPingManager/<PingSocket>c__Iterator14::region
-	Region_t443 * ___region_0;
+	Region_t471 * ___region_0;
 	// ExitGames.Client.Photon.PhotonPing PhotonPingManager/<PingSocket>c__Iterator14::<ping>__0
-	PhotonPing_t466 * ___U3CpingU3E__0_1;
+	PhotonPing_t494 * ___U3CpingU3E__0_1;
 	// System.Single PhotonPingManager/<PingSocket>c__Iterator14::<rttSum>__1
 	float ___U3CrttSumU3E__1_2;
 	// System.Int32 PhotonPingManager/<PingSocket>c__Iterator14::<replyCount>__2
@@ -36,9 +36,9 @@ struct  U3CPingSocketU3Ec__Iterator14_t469  : public Object_t
 	// System.Boolean PhotonPingManager/<PingSocket>c__Iterator14::<overtime>__6
 	bool ___U3CovertimeU3E__6_7;
 	// System.Diagnostics.Stopwatch PhotonPingManager/<PingSocket>c__Iterator14::<sw>__7
-	Stopwatch_t467 * ___U3CswU3E__7_8;
+	Stopwatch_t495 * ___U3CswU3E__7_8;
 	// System.Exception PhotonPingManager/<PingSocket>c__Iterator14::<e>__8
-	Exception_t468 * ___U3CeU3E__8_9;
+	Exception_t496 * ___U3CeU3E__8_9;
 	// System.Int32 PhotonPingManager/<PingSocket>c__Iterator14::<rtt>__9
 	int32_t ___U3CrttU3E__9_10;
 	// System.Int32 PhotonPingManager/<PingSocket>c__Iterator14::$PC
@@ -46,7 +46,7 @@ struct  U3CPingSocketU3Ec__Iterator14_t469  : public Object_t
 	// System.Object PhotonPingManager/<PingSocket>c__Iterator14::$current
 	Object_t * ___U24current_12;
 	// Region PhotonPingManager/<PingSocket>c__Iterator14::<$>region
-	Region_t443 * ___U3CU24U3Eregion_13;
+	Region_t471 * ___U3CU24U3Eregion_13;
 	// PhotonPingManager PhotonPingManager/<PingSocket>c__Iterator14::<>f__this
-	PhotonPingManager_t442 * ___U3CU3Ef__this_14;
+	PhotonPingManager_t470 * ___U3CU3Ef__this_14;
 };

@@ -5,7 +5,7 @@ struct ByteU5BU5D_t25;
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.NCommand
-struct  NCommand_t4856  : public Object_t
+struct  NCommand_t5094  : public Object_t
 {
 	// System.Byte ExitGames.Client.Photon.NCommand::commandFlags
 	uint8_t ___commandFlags_26;

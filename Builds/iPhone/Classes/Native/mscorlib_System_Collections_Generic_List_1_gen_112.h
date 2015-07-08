@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>[]
-struct Tuple_2U5BU5D_t6810;
+// ExitGames.Client.Photon.NCommand[]
+struct NCommandU5BU5D_t9791;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct  List_1_t6811  : public Object_t
+// System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>
+struct  List_1_t5102  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_items
-	Tuple_2U5BU5D_t6810* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_size
+	// T[] System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_items
+	NCommandU5BU5D_t9791* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_version
+	// System.Int32 System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6811_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::EmptyArray
-	Tuple_2U5BU5D_t6810* ___EmptyArray_4;
+struct List_1_t5102_StaticFields{
+	// T[] System.Collections.Generic.List`1<ExitGames.Client.Photon.NCommand>::EmptyArray
+	NCommandU5BU5D_t9791* ___EmptyArray_4;
 };

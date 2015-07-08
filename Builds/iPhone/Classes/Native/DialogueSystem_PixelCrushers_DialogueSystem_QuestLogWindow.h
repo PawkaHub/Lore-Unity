@@ -3,7 +3,7 @@
 // PixelCrushers.DialogueSystem.LocalizedTextTable
 struct LocalizedTextTable_t252;
 // PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo[]
-struct QuestInfoU5BU5D_t642;
+struct QuestInfoU5BU5D_t698;
 // System.String
 struct String_t;
 // UnityEngine.MonoBehaviour
@@ -34,7 +34,7 @@ struct  QuestLogWindow_t198  : public MonoBehaviour_t47
 	// System.Boolean PixelCrushers.DialogueSystem.QuestLogWindow::<IsOpen>k__BackingField
 	bool ___U3CIsOpenU3Ek__BackingField_10;
 	// PixelCrushers.DialogueSystem.QuestLogWindow/QuestInfo[] PixelCrushers.DialogueSystem.QuestLogWindow::<Quests>k__BackingField
-	QuestInfoU5BU5D_t642* ___U3CQuestsU3Ek__BackingField_11;
+	QuestInfoU5BU5D_t698* ___U3CQuestsU3Ek__BackingField_11;
 	// System.String PixelCrushers.DialogueSystem.QuestLogWindow::<SelectedQuest>k__BackingField
 	String_t* ___U3CSelectedQuestU3Ek__BackingField_12;
 	// System.String PixelCrushers.DialogueSystem.QuestLogWindow::<NoQuestsMessage>k__BackingField

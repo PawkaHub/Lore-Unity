@@ -1,48 +1,48 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlDocument
-struct XmlDocument_t3759;
+struct XmlDocument_t3997;
 // System.Xml.XmlReader
-struct XmlReader_t3760;
+struct XmlReader_t3998;
 // System.Collections.ArrayList
-struct ArrayList_t3697;
+struct ArrayList_t3935;
 // System.Collections.Hashtable
-struct Hashtable_t1658;
+struct Hashtable_t1909;
 // System.Xml.Serialization.XmlSerializer
-struct XmlSerializer_t619;
+struct XmlSerializer_t676;
 // System.String
 struct String_t;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3685;
+struct XmlQualifiedName_t3923;
 // System.Xml.Serialization.XmlSerializationGeneratedCode
 #include "System_Xml_System_Xml_Serialization_XmlSerializationGenerate.h"
 // System.Xml.Serialization.XmlSerializationReader
-struct  XmlSerializationReader_t3761  : public XmlSerializationGeneratedCode_t3751
+struct  XmlSerializationReader_t3999  : public XmlSerializationGeneratedCode_t3989
 {
 	// System.Xml.XmlDocument System.Xml.Serialization.XmlSerializationReader::document
-	XmlDocument_t3759 * ___document_0;
+	XmlDocument_t3997 * ___document_0;
 	// System.Xml.XmlReader System.Xml.Serialization.XmlSerializationReader::reader
-	XmlReader_t3760 * ___reader_1;
+	XmlReader_t3998 * ___reader_1;
 	// System.Collections.ArrayList System.Xml.Serialization.XmlSerializationReader::fixups
-	ArrayList_t3697 * ___fixups_2;
+	ArrayList_t3935 * ___fixups_2;
 	// System.Collections.Hashtable System.Xml.Serialization.XmlSerializationReader::collFixups
-	Hashtable_t1658 * ___collFixups_3;
+	Hashtable_t1909 * ___collFixups_3;
 	// System.Collections.ArrayList System.Xml.Serialization.XmlSerializationReader::collItemFixups
-	ArrayList_t3697 * ___collItemFixups_4;
+	ArrayList_t3935 * ___collItemFixups_4;
 	// System.Collections.Hashtable System.Xml.Serialization.XmlSerializationReader::typesCallbacks
-	Hashtable_t1658 * ___typesCallbacks_5;
+	Hashtable_t1909 * ___typesCallbacks_5;
 	// System.Collections.ArrayList System.Xml.Serialization.XmlSerializationReader::noIDTargets
-	ArrayList_t3697 * ___noIDTargets_6;
+	ArrayList_t3935 * ___noIDTargets_6;
 	// System.Collections.Hashtable System.Xml.Serialization.XmlSerializationReader::targets
-	Hashtable_t1658 * ___targets_7;
+	Hashtable_t1909 * ___targets_7;
 	// System.Collections.Hashtable System.Xml.Serialization.XmlSerializationReader::delayedListFixups
-	Hashtable_t1658 * ___delayedListFixups_8;
+	Hashtable_t1909 * ___delayedListFixups_8;
 	// System.Xml.Serialization.XmlSerializer System.Xml.Serialization.XmlSerializationReader::eventSource
-	XmlSerializer_t619 * ___eventSource_9;
+	XmlSerializer_t676 * ___eventSource_9;
 	// System.Int32 System.Xml.Serialization.XmlSerializationReader::delayedFixupId
 	int32_t ___delayedFixupId_10;
 	// System.Collections.Hashtable System.Xml.Serialization.XmlSerializationReader::referencedObjects
-	Hashtable_t1658 * ___referencedObjects_11;
+	Hashtable_t1909 * ___referencedObjects_11;
 	// System.Int32 System.Xml.Serialization.XmlSerializationReader::readCount
 	int32_t ___readCount_12;
 	// System.Int32 System.Xml.Serialization.XmlSerializationReader::whileIterationCount
@@ -68,5 +68,5 @@ struct  XmlSerializationReader_t3761  : public XmlSerializationGeneratedCode_t37
 	// System.String System.Xml.Serialization.XmlSerializationReader::arrayType
 	String_t* ___arrayType_23;
 	// System.Xml.XmlQualifiedName System.Xml.Serialization.XmlSerializationReader::arrayQName
-	XmlQualifiedName_t3685 * ___arrayQName_24;
+	XmlQualifiedName_t3923 * ___arrayQName_24;
 };

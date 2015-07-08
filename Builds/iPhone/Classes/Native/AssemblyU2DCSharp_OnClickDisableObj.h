@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // OnClickDisableObj
-struct  OnClickDisableObj_t334  : public MonoBehaviour_t47
+struct  OnClickDisableObj_t362  : public MonoBehaviour_t47
 {
 };

@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ThirdPersonNetwork
-struct ThirdPersonNetwork_t374;
+struct ThirdPersonNetwork_t402;
 // PhotonStream
-struct PhotonStream_t439;
+struct PhotonStream_t467;
 // PhotonMessageInfo
-struct PhotonMessageInfo_t435;
+struct PhotonMessageInfo_t463;
 
 // System.Void ThirdPersonNetwork::.ctor()
-extern "C" void ThirdPersonNetwork__ctor_m1450 (ThirdPersonNetwork_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThirdPersonNetwork__ctor_m1496 (ThirdPersonNetwork_t402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThirdPersonNetwork::Awake()
-extern "C" void ThirdPersonNetwork_Awake_m1451 (ThirdPersonNetwork_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThirdPersonNetwork_Awake_m1497 (ThirdPersonNetwork_t402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThirdPersonNetwork::OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
-extern "C" void ThirdPersonNetwork_OnPhotonSerializeView_m1452 (ThirdPersonNetwork_t374 * __this, PhotonStream_t439 * ___stream, PhotonMessageInfo_t435 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThirdPersonNetwork_OnPhotonSerializeView_m1498 (ThirdPersonNetwork_t402 * __this, PhotonStream_t467 * ___stream, PhotonMessageInfo_t463 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ThirdPersonNetwork::Update()
-extern "C" void ThirdPersonNetwork_Update_m1453 (ThirdPersonNetwork_t374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThirdPersonNetwork_Update_m1499 (ThirdPersonNetwork_t402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

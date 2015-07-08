@@ -1,18 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.HashSet`1<System.Int32>
-struct HashSet_1_t424;
+// System.Collections.Generic.HashSet`1<System.String>
+struct HashSet_1_t1873;
+// System.String
+struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.HashSet`1/Enumerator<System.Int32>
-struct  Enumerator_t6303 
+// System.Collections.Generic.HashSet`1/Enumerator<System.String>
+struct  Enumerator_t6512 
 {
-	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator<System.Int32>::hashset
-	HashSet_1_t424 * ___hashset_0;
-	// System.Int32 System.Collections.Generic.HashSet`1/Enumerator<System.Int32>::next
+	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator<System.String>::hashset
+	HashSet_1_t1873 * ___hashset_0;
+	// System.Int32 System.Collections.Generic.HashSet`1/Enumerator<System.String>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.HashSet`1/Enumerator<System.Int32>::stamp
+	// System.Int32 System.Collections.Generic.HashSet`1/Enumerator<System.String>::stamp
 	int32_t ___stamp_2;
-	// T System.Collections.Generic.HashSet`1/Enumerator<System.Int32>::current
-	int32_t ___current_3;
+	// T System.Collections.Generic.HashSet`1/Enumerator<System.String>::current
+	String_t* ___current_3;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType
-struct ClientCertificateType_t4391;
+struct ClientCertificateType_t4629;
 

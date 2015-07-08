@@ -3,6 +3,6 @@
 // UnityEngine.Collider
 #include "UnityEngine_UnityEngine_Collider.h"
 // UnityEngine.CapsuleCollider
-struct  CapsuleCollider_t1448  : public Collider_t194
+struct  CapsuleCollider_t1705  : public Collider_t194
 {
 };

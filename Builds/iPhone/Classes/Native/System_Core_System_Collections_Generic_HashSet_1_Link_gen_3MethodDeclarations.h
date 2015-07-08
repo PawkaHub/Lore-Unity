@@ -4,6 +4,6 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.HashSet`1/Link<UnityEngine.AssetBundle>
-struct Link_t6568;
+// System.Collections.Generic.HashSet`1/Link<UnityEngine.GameObject>
+struct Link_t6664;
 

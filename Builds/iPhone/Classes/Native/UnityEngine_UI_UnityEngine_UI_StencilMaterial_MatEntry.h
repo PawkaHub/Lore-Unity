@@ -5,7 +5,7 @@ struct Material_t48;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.StencilMaterial/MatEntry
-struct  MatEntry_t903  : public Object_t
+struct  MatEntry_t1183  : public Object_t
 {
 	// UnityEngine.Material UnityEngine.UI.StencilMaterial/MatEntry::baseMat
 	Material_t48 * ___baseMat_0;

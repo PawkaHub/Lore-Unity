@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField[]
-struct LocalizedTextFieldU5BU5D_t6558;
+// UnityEngine.UI.StencilMaterial/MatEntry[]
+struct MatEntryU5BU5D_t6862;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>
-struct  List_1_t1074  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
+struct  List_1_t1184  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::_items
-	LocalizedTextFieldU5BU5D_t6558* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_items
+	MatEntryU5BU5D_t6862* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1074_StaticFields{
-	// T[] System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::EmptyArray
-	LocalizedTextFieldU5BU5D_t6558* ___EmptyArray_4;
+struct List_1_t1184_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::EmptyArray
+	MatEntryU5BU5D_t6862* ___EmptyArray_4;
 };

@@ -3,7 +3,7 @@
 // UnityEngine.PropertyAttribute
 #include "UnityEngine_UnityEngine_PropertyAttribute.h"
 // UnityEngine.TextAreaAttribute
-struct  TextAreaAttribute_t1029  : public PropertyAttribute_t1247
+struct  TextAreaAttribute_t1290  : public PropertyAttribute_t1506
 {
 	// System.Int32 UnityEngine.TextAreaAttribute::minLines
 	int32_t ___minLines_0;

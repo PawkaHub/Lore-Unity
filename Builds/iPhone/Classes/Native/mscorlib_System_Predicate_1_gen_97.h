@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.ParseACL
-struct ParseACL_t1547;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
+// Parse.ParseGeoPoint
+#include "Parse_Unity_Parse_ParseGeoPoint.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<Parse.ParseACL>
-struct  Predicate_1_t7767  : public MulticastDelegate_t451
+// System.Predicate`1<Parse.ParseGeoPoint>
+struct  Predicate_1_t7947  : public MulticastDelegate_t479
 {
 };

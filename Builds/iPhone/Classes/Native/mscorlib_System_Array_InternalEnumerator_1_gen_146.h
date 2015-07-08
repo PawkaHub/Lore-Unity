@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>
-struct  InternalEnumerator_1_t9308 
+// System.Array/InternalEnumerator`1<Mono.Math.BigInteger>
+struct  InternalEnumerator_1_t9587 
 {
-	// System.Array System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::array
+	// System.Array System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::idx
 	int32_t ___idx_1;
 };

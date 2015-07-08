@@ -5,7 +5,7 @@
 // System.Xml.XmlOutputMethod
 #include "System_Xml_System_Xml_XmlOutputMethod.h"
 // System.Xml.XmlOutputMethod
-struct  XmlOutputMethod_t3881 
+struct  XmlOutputMethod_t4119 
 {
 	// System.Int32 System.Xml.XmlOutputMethod::value__
 	int32_t ___value___1;

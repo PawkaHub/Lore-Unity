@@ -5,7 +5,7 @@
 // DisconnectCause
 #include "AssemblyU2DCSharp_DisconnectCause.h"
 // DisconnectCause
-struct  DisconnectCause_t398 
+struct  DisconnectCause_t426 
 {
 	// System.Int32 DisconnectCause::value__
 	int32_t ___value___1;

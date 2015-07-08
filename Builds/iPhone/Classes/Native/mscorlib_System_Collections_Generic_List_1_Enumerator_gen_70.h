@@ -1,20 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct List_1_t783;
-// UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t730;
+// System.Collections.Generic.List`1<System.Byte>
+struct List_1_t766;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>
-struct  Enumerator_t6417 
+// System.Collections.Generic.List`1/Enumerator<System.Byte>
+struct  Enumerator_t6669 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::l
-	List_1_t783 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Byte>::l
+	List_1_t766 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Byte>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Byte>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.BaseInputModule>::current
-	BaseInputModule_t730 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Byte>::current
+	uint8_t ___current_3;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.ParticleSystem[]
-struct ParticleSystemU5BU5D_t4661;
+// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
+struct GcLeaderboardU5BU5D_t9598;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.ParticleSystem>
-struct  List_1_t4662  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
+struct  List_1_t4691  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.ParticleSystem>::_items
-	ParticleSystemU5BU5D_t4661* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.ParticleSystem>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_items
+	GcLeaderboardU5BU5D_t9598* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.ParticleSystem>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::_version
 	int32_t ____version_3;
 };
-struct List_1_t4662_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.ParticleSystem>::EmptyArray
-	ParticleSystemU5BU5D_t4661* ___EmptyArray_4;
+struct List_1_t4691_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::EmptyArray
+	GcLeaderboardU5BU5D_t9598* ___EmptyArray_4;
 };

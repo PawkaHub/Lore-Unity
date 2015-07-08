@@ -7,7 +7,7 @@ struct StringU5BU5D_t20;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // GUIFriendFinding
-struct  GUIFriendFinding_t342  : public MonoBehaviour_t47
+struct  GUIFriendFinding_t370  : public MonoBehaviour_t47
 {
 	// System.String[] GUIFriendFinding::friendListOfSomeCommunity
 	StringU5BU5D_t20* ___friendListOfSomeCommunity_2;

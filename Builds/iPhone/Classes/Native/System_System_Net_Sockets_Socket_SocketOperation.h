@@ -5,7 +5,7 @@
 // System.Net.Sockets.Socket/SocketOperation
 #include "System_System_Net_Sockets_Socket_SocketOperation.h"
 // System.Net.Sockets.Socket/SocketOperation
-struct  SocketOperation_t4002 
+struct  SocketOperation_t4240 
 {
 	// System.Int32 System.Net.Sockets.Socket/SocketOperation::value__
 	int32_t ___value___1;

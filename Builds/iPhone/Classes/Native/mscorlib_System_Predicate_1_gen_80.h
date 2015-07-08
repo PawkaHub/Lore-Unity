@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
+// PixelCrushers.DialogueSystem.UnityGUI.GUIControl
+struct GUIControl_t1520;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_5.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct  Predicate_1_t6868  : public MulticastDelegate_t451
+// System.Predicate`1<PixelCrushers.DialogueSystem.UnityGUI.GUIControl>
+struct  Predicate_1_t7079  : public MulticastDelegate_t479
 {
 };

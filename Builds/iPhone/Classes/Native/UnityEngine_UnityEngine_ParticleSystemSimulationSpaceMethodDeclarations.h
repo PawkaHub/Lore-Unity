@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ParticleSystemSimulationSpace
-struct ParticleSystemSimulationSpace_t4523;
+struct ParticleSystemSimulationSpace_t4761;
 

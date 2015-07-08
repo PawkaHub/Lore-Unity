@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // ExitGames.Client.Photon.GpType
-struct GpType_t4874;
+struct GpType_t5112;
 

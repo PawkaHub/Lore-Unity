@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.GameSaver/FunctionOnUse
 #include "DialogueSystem_PixelCrushers_DialogueSystem_GameSaver_Functi.h"
 // PixelCrushers.DialogueSystem.GameSaver
-struct  GameSaver_t1269  : public MonoBehaviour_t47
+struct  GameSaver_t1528  : public MonoBehaviour_t47
 {
 	// System.String PixelCrushers.DialogueSystem.GameSaver::playerPrefsKey
 	String_t* ___playerPrefsKey_2;

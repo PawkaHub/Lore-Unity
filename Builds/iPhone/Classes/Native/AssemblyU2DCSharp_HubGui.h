@@ -13,7 +13,7 @@ struct GUIStyle_t303;
 // HubGui/DemoBtn
 #include "AssemblyU2DCSharp_HubGui_DemoBtn.h"
 // HubGui
-struct  HubGui_t346  : public MonoBehaviour_t47
+struct  HubGui_t374  : public MonoBehaviour_t47
 {
 	// UnityEngine.GUISkin HubGui::Skin
 	GUISkin_t197 * ___Skin_2;
@@ -22,9 +22,9 @@ struct  HubGui_t346  : public MonoBehaviour_t47
 	// System.String HubGui::demoDescription
 	String_t* ___demoDescription_4;
 	// HubGui/DemoBtn HubGui::demoBtn
-	DemoBtn_t345  ___demoBtn_5;
+	DemoBtn_t373  ___demoBtn_5;
 	// HubGui/DemoBtn HubGui::webLink
-	DemoBtn_t345  ___webLink_6;
+	DemoBtn_t373  ___webLink_6;
 	// UnityEngine.GUIStyle HubGui::m_Headline
 	GUIStyle_t303 * ___m_Headline_7;
 };

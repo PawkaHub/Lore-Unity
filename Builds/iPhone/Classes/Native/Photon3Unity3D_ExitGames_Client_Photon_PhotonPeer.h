@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // ExitGames.Client.Photon.PeerBase
-struct PeerBase_t4852;
+struct PeerBase_t5090;
 // System.Object
 struct Object_t;
 // System.Object
@@ -10,7 +10,7 @@ struct Object_t;
 struct  PhotonPeer_t14  : public Object_t
 {
 	// ExitGames.Client.Photon.PeerBase ExitGames.Client.Photon.PhotonPeer::peerBase
-	PeerBase_t4852 * ___peerBase_1;
+	PeerBase_t5090 * ___peerBase_1;
 	// System.Object ExitGames.Client.Photon.PhotonPeer::SendOutgoingLockObject
 	Object_t * ___SendOutgoingLockObject_2;
 	// System.Object ExitGames.Client.Photon.PhotonPeer::DispatchLockObject

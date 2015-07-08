@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CollisionFlags
-struct CollisionFlags_t4527;
+struct CollisionFlags_t4765;
 

@@ -340,19 +340,19 @@ static bool U3CDisableAfterAnimationU3Ec__Iterator7_t218_VTableIsGenericMethod[]
 	false,
 };
 extern const Il2CppType IEnumerator_t74_0_0_0;
-extern const Il2CppType IDisposable_t588_0_0_0;
-extern const Il2CppType IEnumerator_1_t744_0_0_0;
+extern const Il2CppType IDisposable_t646_0_0_0;
+extern const Il2CppType IEnumerator_1_t838_0_0_0;
 static const Il2CppType* U3CDisableAfterAnimationU3Ec__Iterator7_t218_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CDisableAfterAnimationU3Ec__Iterator7_t218_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CDisableAfterAnimationU3Ec__Iterator7_t218_0_0_0;
@@ -552,14 +552,14 @@ extern const MethodInfo UnityUIAlertControls_DisableAfterAnimation_m840_MethodIn
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Single_t604_0_0_0;
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 static const ParameterInfo UnityUIAlertControls_t217_UnityUIAlertControls_SetMessage_m841_ParameterInfos[] = 
 {
 	{"message", 0, 134218501, 0, &String_t_0_0_0},
-	{"duration", 1, 134218502, 0, &Single_t604_0_0_0},
+	{"duration", 1, 134218502, 0, &Single_t662_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIAlertControls::SetMessage(System.String,System.Single)
 extern const MethodInfo UnityUIAlertControls_SetMessage_m841_MethodInfo = 
 {
@@ -567,7 +567,7 @@ extern const MethodInfo UnityUIAlertControls_SetMessage_m841_MethodInfo =
 	, (methodPointerType)&UnityUIAlertControls_SetMessage_m841/* method */
 	, &UnityUIAlertControls_t217_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t662/* invoker_method */
 	, UnityUIAlertControls_t217_UnityUIAlertControls_SetMessage_m841_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -759,11 +759,11 @@ extern const MethodInfo UnityUIBarkSubtitleDialogueUI__ctor_m843_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t570_0_0_0;
-extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t623_0_0_0;
+extern const Il2CppType Subtitle_t623_0_0_0;
 static const ParameterInfo UnityUIBarkSubtitleDialogueUI_t222_UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218503, 0, &Subtitle_t570_0_0_0},
+	{"subtitle", 0, 134218503, 0, &Subtitle_t623_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIBarkSubtitleDialogueUI::ShowSubtitle(PixelCrushers.DialogueSystem.Subtitle)
@@ -794,77 +794,77 @@ static const MethodInfo* UnityUIBarkSubtitleDialogueUI_t222_MethodInfos[] =
 	&UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_MethodInfo,
 	NULL
 };
-extern const MethodInfo Object_Equals_m3477_MethodInfo;
-extern const MethodInfo Object_GetHashCode_m3478_MethodInfo;
-extern const MethodInfo Object_ToString_m3479_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_add_SelectedResponseHandler_m3480_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_remove_SelectedResponseHandler_m3481_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_Open_m3482_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_Close_m3483_MethodInfo;
+extern const MethodInfo Object_Equals_m3889_MethodInfo;
+extern const MethodInfo Object_GetHashCode_m3890_MethodInfo;
+extern const MethodInfo Object_ToString_m3891_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_add_SelectedResponseHandler_m3892_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_remove_SelectedResponseHandler_m3893_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_Open_m3894_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_Close_m3895_MethodInfo;
 extern const MethodInfo UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_HideSubtitle_m3484_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_HideSubtitle_m3896_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_ShowResponses_m871_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_HideResponses_m873_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_ShowQTEIndicator_m3897_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_HideQTEIndicator_m3898_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_ShowAlert_m867_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_HideAlert_m3487_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_HideAlert_m3899_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_get_UIRoot_m861_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_get_Dialogue_m862_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_get_QTEs_m863_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_get_Alert_m864_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_Awake_m865_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_Start_m3488_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3489_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_Update_m3490_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_HideContinueButton_m3491_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_SetSubtitle_m3492_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_OnClick_m3493_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_Start_m3900_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3901_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_Update_m3902_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_HideContinueButton_m3903_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_SetSubtitle_m3904_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_OnClick_m3905_MethodInfo;
 extern const MethodInfo UnityUIDialogueUI_OnContinue_m868_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_SetPCPortrait_m3494_MethodInfo;
-extern const MethodInfo AbstractDialogueUI_SetActorPortraitTexture_m3495_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_SetPCPortrait_m3906_MethodInfo;
+extern const MethodInfo AbstractDialogueUI_SetActorPortraitTexture_m3907_MethodInfo;
 static const Il2CppMethodReference UnityUIBarkSubtitleDialogueUI_t222_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-	&AbstractDialogueUI_add_SelectedResponseHandler_m3480_MethodInfo,
-	&AbstractDialogueUI_remove_SelectedResponseHandler_m3481_MethodInfo,
-	&AbstractDialogueUI_Open_m3482_MethodInfo,
-	&AbstractDialogueUI_Close_m3483_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
+	&AbstractDialogueUI_add_SelectedResponseHandler_m3892_MethodInfo,
+	&AbstractDialogueUI_remove_SelectedResponseHandler_m3893_MethodInfo,
+	&AbstractDialogueUI_Open_m3894_MethodInfo,
+	&AbstractDialogueUI_Close_m3895_MethodInfo,
 	&UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_MethodInfo,
-	&AbstractDialogueUI_HideSubtitle_m3484_MethodInfo,
+	&AbstractDialogueUI_HideSubtitle_m3896_MethodInfo,
 	&UnityUIDialogueUI_ShowResponses_m871_MethodInfo,
 	&UnityUIDialogueUI_HideResponses_m873_MethodInfo,
-	&AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo,
-	&AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo,
+	&AbstractDialogueUI_ShowQTEIndicator_m3897_MethodInfo,
+	&AbstractDialogueUI_HideQTEIndicator_m3898_MethodInfo,
 	&UnityUIDialogueUI_ShowAlert_m867_MethodInfo,
-	&AbstractDialogueUI_HideAlert_m3487_MethodInfo,
+	&AbstractDialogueUI_HideAlert_m3899_MethodInfo,
 	&UnityUIDialogueUI_get_UIRoot_m861_MethodInfo,
 	&UnityUIDialogueUI_get_Dialogue_m862_MethodInfo,
 	&UnityUIDialogueUI_get_QTEs_m863_MethodInfo,
 	&UnityUIDialogueUI_get_Alert_m864_MethodInfo,
 	&UnityUIDialogueUI_Awake_m865_MethodInfo,
-	&AbstractDialogueUI_Start_m3488_MethodInfo,
-	&AbstractDialogueUI_Open_m3482_MethodInfo,
-	&AbstractDialogueUI_Close_m3483_MethodInfo,
-	&AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3489_MethodInfo,
+	&AbstractDialogueUI_Start_m3900_MethodInfo,
+	&AbstractDialogueUI_Open_m3894_MethodInfo,
+	&AbstractDialogueUI_Close_m3895_MethodInfo,
+	&AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3901_MethodInfo,
 	&UnityUIDialogueUI_ShowAlert_m867_MethodInfo,
-	&AbstractDialogueUI_HideAlert_m3487_MethodInfo,
-	&AbstractDialogueUI_Update_m3490_MethodInfo,
+	&AbstractDialogueUI_HideAlert_m3899_MethodInfo,
+	&AbstractDialogueUI_Update_m3902_MethodInfo,
 	&UnityUIBarkSubtitleDialogueUI_ShowSubtitle_m844_MethodInfo,
-	&AbstractDialogueUI_HideSubtitle_m3484_MethodInfo,
-	&AbstractDialogueUI_HideContinueButton_m3491_MethodInfo,
-	&AbstractDialogueUI_SetSubtitle_m3492_MethodInfo,
+	&AbstractDialogueUI_HideSubtitle_m3896_MethodInfo,
+	&AbstractDialogueUI_HideContinueButton_m3903_MethodInfo,
+	&AbstractDialogueUI_SetSubtitle_m3904_MethodInfo,
 	&UnityUIDialogueUI_ShowResponses_m871_MethodInfo,
 	&UnityUIDialogueUI_HideResponses_m873_MethodInfo,
-	&AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo,
-	&AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo,
-	&AbstractDialogueUI_OnClick_m3493_MethodInfo,
+	&AbstractDialogueUI_ShowQTEIndicator_m3897_MethodInfo,
+	&AbstractDialogueUI_HideQTEIndicator_m3898_MethodInfo,
+	&AbstractDialogueUI_OnClick_m3905_MethodInfo,
 	&UnityUIDialogueUI_OnContinue_m868_MethodInfo,
-	&AbstractDialogueUI_SetPCPortrait_m3494_MethodInfo,
-	&AbstractDialogueUI_SetActorPortraitTexture_m3495_MethodInfo,
+	&AbstractDialogueUI_SetPCPortrait_m3906_MethodInfo,
+	&AbstractDialogueUI_SetActorPortraitTexture_m3907_MethodInfo,
 };
 static bool UnityUIBarkSubtitleDialogueUI_t222_VTableIsGenericMethod[] =
 {
@@ -909,10 +909,10 @@ static bool UnityUIBarkSubtitleDialogueUI_t222_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IDialogueUI_t746_0_0_0;
+extern const Il2CppType IDialogueUI_t840_0_0_0;
 static Il2CppInterfaceOffsetPair UnityUIBarkSubtitleDialogueUI_t222_InterfacesOffsets[] = 
 {
-	{ &IDialogueUI_t746_0_0_0, 4},
+	{ &IDialogueUI_t840_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType UnityUIBarkSubtitleDialogueUI_t222_0_0_0;
@@ -1319,14 +1319,14 @@ static bool U3CDisableAfterAnimationU3Ec__Iterator8_t226_VTableIsGenericMethod[]
 static const Il2CppType* U3CDisableAfterAnimationU3Ec__Iterator8_t226_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CDisableAfterAnimationU3Ec__Iterator8_t226_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CDisableAfterAnimationU3Ec__Iterator8_t226_0_0_0;
@@ -1919,13 +1919,13 @@ extern const MethodInfo UnityUIDialogueUI_FindControls_m866_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 static const ParameterInfo UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowAlert_m867_ParameterInfos[] = 
 {
 	{"message", 0, 134218505, 0, &String_t_0_0_0},
-	{"duration", 1, 134218506, 0, &Single_t604_0_0_0},
+	{"duration", 1, 134218506, 0, &Single_t662_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::ShowAlert(System.String,System.Single)
 extern const MethodInfo UnityUIDialogueUI_ShowAlert_m867_MethodInfo = 
 {
@@ -1933,7 +1933,7 @@ extern const MethodInfo UnityUIDialogueUI_ShowAlert_m867_MethodInfo =
 	, (methodPointerType)&UnityUIDialogueUI_ShowAlert_m867/* method */
 	, &UnityUIDialogueUI_t223_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t604/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t662/* invoker_method */
 	, UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowAlert_m867_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -1971,10 +1971,10 @@ extern const MethodInfo UnityUIDialogueUI_OnContinue_m868_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t623_0_0_0;
 static const ParameterInfo UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowSubtitle_m869_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218507, 0, &Subtitle_t570_0_0_0},
+	{"subtitle", 0, 134218507, 0, &Subtitle_t623_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::ShowSubtitle(PixelCrushers.DialogueSystem.Subtitle)
@@ -1999,10 +1999,10 @@ extern const MethodInfo UnityUIDialogueUI_ShowSubtitle_m869_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t623_0_0_0;
 static const ParameterInfo UnityUIDialogueUI_t223_UnityUIDialogueUI_CheckSubtitleAutoFocus_m870_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218508, 0, &Subtitle_t570_0_0_0},
+	{"subtitle", 0, 134218508, 0, &Subtitle_t623_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::CheckSubtitleAutoFocus(PixelCrushers.DialogueSystem.Subtitle)
@@ -2027,17 +2027,17 @@ extern const MethodInfo UnityUIDialogueUI_CheckSubtitleAutoFocus_m870_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t570_0_0_0;
-extern const Il2CppType ResponseU5BU5D_t571_0_0_0;
-extern const Il2CppType ResponseU5BU5D_t571_0_0_0;
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Subtitle_t623_0_0_0;
+extern const Il2CppType ResponseU5BU5D_t624_0_0_0;
+extern const Il2CppType ResponseU5BU5D_t624_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 static const ParameterInfo UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowResponses_m871_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218509, 0, &Subtitle_t570_0_0_0},
-	{"responses", 1, 134218510, 0, &ResponseU5BU5D_t571_0_0_0},
-	{"timeout", 2, 134218511, 0, &Single_t604_0_0_0},
+	{"subtitle", 0, 134218509, 0, &Subtitle_t623_0_0_0},
+	{"responses", 1, 134218510, 0, &ResponseU5BU5D_t624_0_0_0},
+	{"timeout", 2, 134218511, 0, &Single_t662_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIDialogueUI::ShowResponses(PixelCrushers.DialogueSystem.Subtitle,PixelCrushers.DialogueSystem.Response[],System.Single)
 extern const MethodInfo UnityUIDialogueUI_ShowResponses_m871_MethodInfo = 
 {
@@ -2045,7 +2045,7 @@ extern const MethodInfo UnityUIDialogueUI_ShowResponses_m871_MethodInfo =
 	, (methodPointerType)&UnityUIDialogueUI_ShowResponses_m871/* method */
 	, &UnityUIDialogueUI_t223_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t604/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Single_t662/* invoker_method */
 	, UnityUIDialogueUI_t223_UnityUIDialogueUI_ShowResponses_m871_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -2175,46 +2175,46 @@ static const PropertyInfo* UnityUIDialogueUI_t223_PropertyInfos[] =
 extern const MethodInfo UnityUIDialogueUI_ShowSubtitle_m869_MethodInfo;
 static const Il2CppMethodReference UnityUIDialogueUI_t223_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-	&AbstractDialogueUI_add_SelectedResponseHandler_m3480_MethodInfo,
-	&AbstractDialogueUI_remove_SelectedResponseHandler_m3481_MethodInfo,
-	&AbstractDialogueUI_Open_m3482_MethodInfo,
-	&AbstractDialogueUI_Close_m3483_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
+	&AbstractDialogueUI_add_SelectedResponseHandler_m3892_MethodInfo,
+	&AbstractDialogueUI_remove_SelectedResponseHandler_m3893_MethodInfo,
+	&AbstractDialogueUI_Open_m3894_MethodInfo,
+	&AbstractDialogueUI_Close_m3895_MethodInfo,
 	&UnityUIDialogueUI_ShowSubtitle_m869_MethodInfo,
-	&AbstractDialogueUI_HideSubtitle_m3484_MethodInfo,
+	&AbstractDialogueUI_HideSubtitle_m3896_MethodInfo,
 	&UnityUIDialogueUI_ShowResponses_m871_MethodInfo,
 	&UnityUIDialogueUI_HideResponses_m873_MethodInfo,
-	&AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo,
-	&AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo,
+	&AbstractDialogueUI_ShowQTEIndicator_m3897_MethodInfo,
+	&AbstractDialogueUI_HideQTEIndicator_m3898_MethodInfo,
 	&UnityUIDialogueUI_ShowAlert_m867_MethodInfo,
-	&AbstractDialogueUI_HideAlert_m3487_MethodInfo,
+	&AbstractDialogueUI_HideAlert_m3899_MethodInfo,
 	&UnityUIDialogueUI_get_UIRoot_m861_MethodInfo,
 	&UnityUIDialogueUI_get_Dialogue_m862_MethodInfo,
 	&UnityUIDialogueUI_get_QTEs_m863_MethodInfo,
 	&UnityUIDialogueUI_get_Alert_m864_MethodInfo,
 	&UnityUIDialogueUI_Awake_m865_MethodInfo,
-	&AbstractDialogueUI_Start_m3488_MethodInfo,
-	&AbstractDialogueUI_Open_m3482_MethodInfo,
-	&AbstractDialogueUI_Close_m3483_MethodInfo,
-	&AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3489_MethodInfo,
+	&AbstractDialogueUI_Start_m3900_MethodInfo,
+	&AbstractDialogueUI_Open_m3894_MethodInfo,
+	&AbstractDialogueUI_Close_m3895_MethodInfo,
+	&AbstractDialogueUI_get_AreNonDialogueControlsVisible_m3901_MethodInfo,
 	&UnityUIDialogueUI_ShowAlert_m867_MethodInfo,
-	&AbstractDialogueUI_HideAlert_m3487_MethodInfo,
-	&AbstractDialogueUI_Update_m3490_MethodInfo,
+	&AbstractDialogueUI_HideAlert_m3899_MethodInfo,
+	&AbstractDialogueUI_Update_m3902_MethodInfo,
 	&UnityUIDialogueUI_ShowSubtitle_m869_MethodInfo,
-	&AbstractDialogueUI_HideSubtitle_m3484_MethodInfo,
-	&AbstractDialogueUI_HideContinueButton_m3491_MethodInfo,
-	&AbstractDialogueUI_SetSubtitle_m3492_MethodInfo,
+	&AbstractDialogueUI_HideSubtitle_m3896_MethodInfo,
+	&AbstractDialogueUI_HideContinueButton_m3903_MethodInfo,
+	&AbstractDialogueUI_SetSubtitle_m3904_MethodInfo,
 	&UnityUIDialogueUI_ShowResponses_m871_MethodInfo,
 	&UnityUIDialogueUI_HideResponses_m873_MethodInfo,
-	&AbstractDialogueUI_ShowQTEIndicator_m3485_MethodInfo,
-	&AbstractDialogueUI_HideQTEIndicator_m3486_MethodInfo,
-	&AbstractDialogueUI_OnClick_m3493_MethodInfo,
+	&AbstractDialogueUI_ShowQTEIndicator_m3897_MethodInfo,
+	&AbstractDialogueUI_HideQTEIndicator_m3898_MethodInfo,
+	&AbstractDialogueUI_OnClick_m3905_MethodInfo,
 	&UnityUIDialogueUI_OnContinue_m868_MethodInfo,
-	&AbstractDialogueUI_SetPCPortrait_m3494_MethodInfo,
-	&AbstractDialogueUI_SetActorPortraitTexture_m3495_MethodInfo,
+	&AbstractDialogueUI_SetPCPortrait_m3906_MethodInfo,
+	&AbstractDialogueUI_SetActorPortraitTexture_m3907_MethodInfo,
 };
 static bool UnityUIDialogueUI_t223_VTableIsGenericMethod[] =
 {
@@ -2261,7 +2261,7 @@ static bool UnityUIDialogueUI_t223_VTableIsGenericMethod[] =
 };
 static Il2CppInterfaceOffsetPair UnityUIDialogueUI_t223_InterfacesOffsets[] = 
 {
-	{ &IDialogueUI_t746_0_0_0, 4},
+	{ &IDialogueUI_t840_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType UnityUIDialogueUI_t223_1_0_0;
@@ -2965,11 +2965,11 @@ extern const MethodInfo UnityUIResponseButton_Reset_m892_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FormattedText_t572_0_0_0;
-extern const Il2CppType FormattedText_t572_0_0_0;
+extern const Il2CppType FormattedText_t625_0_0_0;
+extern const Il2CppType FormattedText_t625_0_0_0;
 static const ParameterInfo UnityUIResponseButton_t236_UnityUIResponseButton_SetFormattedText_m893_ParameterInfos[] = 
 {
-	{"formattedText", 0, 134218523, 0, &FormattedText_t572_0_0_0},
+	{"formattedText", 0, 134218523, 0, &FormattedText_t625_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseButton::SetFormattedText(PixelCrushers.DialogueSystem.FormattedText)
@@ -3166,10 +3166,10 @@ static const PropertyInfo* UnityUIResponseButton_t236_PropertyInfos[] =
 extern const MethodInfo UnityUIResponseButton_SetColor_m895_MethodInfo;
 static const Il2CppMethodReference UnityUIResponseButton_t236_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 	&UnityUIResponseButton_SetColor_m895_MethodInfo,
 };
 static bool UnityUIResponseButton_t236_VTableIsGenericMethod[] =
@@ -3416,11 +3416,11 @@ extern const MethodInfo UnityUIResponseMenuControls_ClearResponseButtons_m902_Me
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ResponseU5BU5D_t571_0_0_0;
+extern const Il2CppType ResponseU5BU5D_t624_0_0_0;
 extern const Il2CppType Transform_t54_0_0_0;
 static const ParameterInfo UnityUIResponseMenuControls_t228_UnityUIResponseMenuControls_SetResponseButtons_m903_ParameterInfos[] = 
 {
-	{"responses", 0, 134218531, 0, &ResponseU5BU5D_t571_0_0_0},
+	{"responses", 0, 134218531, 0, &ResponseU5BU5D_t624_0_0_0},
 	{"target", 1, 134218532, 0, &Transform_t54_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -3554,12 +3554,12 @@ extern const MethodInfo UnityUIResponseMenuControls_NotifyContentChanged_m907_Me
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 static const ParameterInfo UnityUIResponseMenuControls_t228_UnityUIResponseMenuControls_StartTimer_m908_ParameterInfos[] = 
 {
-	{"timeout", 0, 134218538, 0, &Single_t604_0_0_0},
+	{"timeout", 0, 134218538, 0, &Single_t662_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUIResponseMenuControls::StartTimer(System.Single)
 extern const MethodInfo UnityUIResponseMenuControls_StartTimer_m908_MethodInfo = 
 {
@@ -3567,7 +3567,7 @@ extern const MethodInfo UnityUIResponseMenuControls_StartTimer_m908_MethodInfo =
 	, (methodPointerType)&UnityUIResponseMenuControls_StartTimer_m908/* method */
 	, &UnityUIResponseMenuControls_t228_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t604/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t662/* invoker_method */
 	, UnityUIResponseMenuControls_t228_UnityUIResponseMenuControls_StartTimer_m908_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
@@ -4043,10 +4043,10 @@ extern const MethodInfo UnityUISubtitleControls_HideContinueButton_m917_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t623_0_0_0;
 static const ParameterInfo UnityUISubtitleControls_t227_UnityUISubtitleControls_SetSubtitle_m918_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218540, 0, &Subtitle_t570_0_0_0},
+	{"subtitle", 0, 134218540, 0, &Subtitle_t623_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUISubtitleControls::SetSubtitle(PixelCrushers.DialogueSystem.Subtitle)
@@ -4096,11 +4096,11 @@ extern const MethodInfo UnityUISubtitleControls_ClearSubtitle_m919_MethodInfo =
 };
 extern const Il2CppType Text_t212_0_0_0;
 extern const Il2CppType Text_t212_0_0_0;
-extern const Il2CppType FormattedText_t572_0_0_0;
+extern const Il2CppType FormattedText_t625_0_0_0;
 static const ParameterInfo UnityUISubtitleControls_t227_UnityUISubtitleControls_SetFormattedText_m920_ParameterInfos[] = 
 {
 	{"label", 0, 134218541, 0, &Text_t212_0_0_0},
-	{"formattedText", 1, 134218542, 0, &FormattedText_t572_0_0_0},
+	{"formattedText", 1, 134218542, 0, &FormattedText_t625_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUISubtitleControls::SetFormattedText(UnityEngine.UI.Text,PixelCrushers.DialogueSystem.FormattedText)
@@ -4556,10 +4556,10 @@ extern const MethodInfo UnityUITextFieldUI_StartTextInput_m925_MethodInfo;
 extern const MethodInfo UnityUITextFieldUI_CancelTextInput_m927_MethodInfo;
 static const Il2CppMethodReference UnityUITextFieldUI_t249_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 	&UnityUITextFieldUI_StartTextInput_m925_MethodInfo,
 	&UnityUITextFieldUI_CancelTextInput_m927_MethodInfo,
 };
@@ -4572,14 +4572,14 @@ static bool UnityUITextFieldUI_t249_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ITextFieldUI_t747_0_0_0;
+extern const Il2CppType ITextFieldUI_t605_0_0_0;
 static const Il2CppType* UnityUITextFieldUI_t249_InterfacesTypeInfos[] = 
 {
-	&ITextFieldUI_t747_0_0_0,
+	&ITextFieldUI_t605_0_0_0,
 };
 static Il2CppInterfaceOffsetPair UnityUITextFieldUI_t249_InterfacesOffsets[] = 
 {
-	{ &ITextFieldUI_t747_0_0_0, 4},
+	{ &ITextFieldUI_t605_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType UnityUITextFieldUI_t249_0_0_0;
@@ -4864,14 +4864,14 @@ static bool U3CCountdownU3Ec__Iterator9_t251_VTableIsGenericMethod[] =
 static const Il2CppType* U3CCountdownU3Ec__Iterator9_t251_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CCountdownU3Ec__Iterator9_t251_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CCountdownU3Ec__Iterator9_t251_0_0_0;
@@ -4974,15 +4974,15 @@ extern const MethodInfo UnityUITimer__ctor_m938_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 extern const Il2CppType Action_t250_0_0_0;
 extern const Il2CppType Action_t250_0_0_0;
 static const ParameterInfo UnityUITimer_t243_UnityUITimer_StartCountdown_m939_ParameterInfos[] = 
 {
-	{"duration", 0, 134218550, 0, &Single_t604_0_0_0},
+	{"duration", 0, 134218550, 0, &Single_t662_0_0_0},
 	{"timeoutHandler", 1, 134218551, 0, &Action_t250_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t662_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.UnityUITimer::StartCountdown(System.Single,System.Action)
 extern const MethodInfo UnityUITimer_StartCountdown_m939_MethodInfo = 
 {
@@ -4990,7 +4990,7 @@ extern const MethodInfo UnityUITimer_StartCountdown_m939_MethodInfo =
 	, (methodPointerType)&UnityUITimer_StartCountdown_m939/* method */
 	, &UnityUITimer_t243_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t604_Object_t/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t662_Object_t/* invoker_method */
 	, UnityUITimer_t243_UnityUITimer_StartCountdown_m939_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -5005,14 +5005,14 @@ extern const MethodInfo UnityUITimer_StartCountdown_m939_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 extern const Il2CppType Action_t250_0_0_0;
 static const ParameterInfo UnityUITimer_t243_UnityUITimer_Countdown_m940_ParameterInfos[] = 
 {
-	{"duration", 0, 134218552, 0, &Single_t604_0_0_0},
+	{"duration", 0, 134218552, 0, &Single_t662_0_0_0},
 	{"timeoutHandler", 1, 134218553, 0, &Action_t250_0_0_0},
 };
-extern void* RuntimeInvoker_Object_t_Single_t604_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Object_t_Single_t662_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.IEnumerator PixelCrushers.DialogueSystem.UnityUITimer::Countdown(System.Single,System.Action)
 extern const MethodInfo UnityUITimer_Countdown_m940_MethodInfo = 
 {
@@ -5020,7 +5020,7 @@ extern const MethodInfo UnityUITimer_Countdown_m940_MethodInfo =
 	, (methodPointerType)&UnityUITimer_Countdown_m940/* method */
 	, &UnityUITimer_t243_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t74_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t_Single_t604_Object_t/* invoker_method */
+	, RuntimeInvoker_Object_t_Single_t662_Object_t/* invoker_method */
 	, UnityUITimer_t243_UnityUITimer_Countdown_m940_ParameterInfos/* parameters */
 	, 462/* custom_attributes_cache */
 	, 129/* flags */
@@ -5072,10 +5072,10 @@ static const Il2CppType* UnityUITimer_t243_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference UnityUITimer_t243_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUITimer_t243_VTableIsGenericMethod[] =
 {
@@ -5286,10 +5286,10 @@ static const MethodInfo* LocalizeUIText_t253_MethodInfos[] =
 };
 static const Il2CppMethodReference LocalizeUIText_t253_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool LocalizeUIText_t253_VTableIsGenericMethod[] =
 {
@@ -5477,10 +5477,10 @@ static const MethodInfo* UnityUIColorText_t254_MethodInfos[] =
 };
 static const Il2CppMethodReference UnityUIColorText_t254_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUIColorText_t254_VTableIsGenericMethod[] =
 {
@@ -5644,10 +5644,10 @@ static const MethodInfo* UnityUIContinueButtonFastForward_t256_MethodInfos[] =
 };
 static const Il2CppMethodReference UnityUIContinueButtonFastForward_t256_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUIContinueButtonFastForward_t256_VTableIsGenericMethod[] =
 {
@@ -5939,14 +5939,14 @@ static bool U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_VTableIsGenericMe
 static const Il2CppType* U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CCheckScrollbarAfterUIUpdateU3Ec__IteratorA_t258_0_0_0;
@@ -6156,10 +6156,10 @@ static const Il2CppType* UnityUIScrollbarEnabler_t257_il2cpp_TypeInfo__nestedTyp
 };
 static const Il2CppMethodReference UnityUIScrollbarEnabler_t257_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUIScrollbarEnabler_t257_VTableIsGenericMethod[] =
 {
@@ -6450,14 +6450,14 @@ static bool U3CPlayU3Ec__IteratorB_t260_VTableIsGenericMethod[] =
 static const Il2CppType* U3CPlayU3Ec__IteratorB_t260_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CPlayU3Ec__IteratorB_t260_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CPlayU3Ec__IteratorB_t260_0_0_0;
@@ -6814,10 +6814,10 @@ static const Il2CppType* UnityUITypewriterEffect_t255_il2cpp_TypeInfo__nestedTyp
 };
 static const Il2CppMethodReference UnityUITypewriterEffect_t255_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUITypewriterEffect_t255_VTableIsGenericMethod[] =
 {
@@ -7108,14 +7108,14 @@ static bool U3CStartU3Ec__IteratorC_t264_VTableIsGenericMethod[] =
 static const Il2CppType* U3CStartU3Ec__IteratorC_t264_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CStartU3Ec__IteratorC_t264_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CStartU3Ec__IteratorC_t264_0_0_0;
@@ -7282,10 +7282,10 @@ static const Il2CppType* UpdateLocalizedUITexts_t263_il2cpp_TypeInfo__nestedType
 };
 static const Il2CppMethodReference UpdateLocalizedUITexts_t263_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UpdateLocalizedUITexts_t263_VTableIsGenericMethod[] =
 {
@@ -7697,14 +7697,14 @@ static bool U3COpenAfterAnimationU3Ec__IteratorD_t267_VTableIsGenericMethod[] =
 static const Il2CppType* U3COpenAfterAnimationU3Ec__IteratorD_t267_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3COpenAfterAnimationU3Ec__IteratorD_t267_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3COpenAfterAnimationU3Ec__IteratorD_t267_0_0_0;
@@ -7989,14 +7989,14 @@ static bool U3CCloseAfterAnimationU3Ec__IteratorE_t268_VTableIsGenericMethod[] =
 static const Il2CppType* U3CCloseAfterAnimationU3Ec__IteratorE_t268_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CCloseAfterAnimationU3Ec__IteratorE_t268_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CCloseAfterAnimationU3Ec__IteratorE_t268_0_0_0;
@@ -8069,19 +8069,19 @@ TypeInfo U3CCloseAfterAnimationU3Ec__IteratorE_t268_il2cpp_TypeInfo =
 	, 3/* interface_offsets_count */
 
 };
-// PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21
+// PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22
 #include "AssemblyU2DCSharp_PixelCrushers_DialogueSystem_UnityUIQuestL_2.h"
-// Metadata Definition PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21
-extern TypeInfo U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo;
-// PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21
+// Metadata Definition PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22
+extern TypeInfo U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo;
+// PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22
 #include "AssemblyU2DCSharp_PixelCrushers_DialogueSystem_UnityUIQuestL_2MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::.ctor()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21__ctor_m1003_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22::.ctor()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey22__ctor_m1003_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21__ctor_m1003/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey22__ctor_m1003/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8099,12 +8099,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21__ctor_m1003_MethodI
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__16()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__16_m1004_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22::<>m__16()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__16_m1004_MethodInfo = 
 {
 	"<>m__16"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__16_m1004/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__16_m1004/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8122,12 +8122,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__16_m1004_M
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__17()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__17_m1005_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22::<>m__17()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__17_m1005_MethodInfo = 
 {
 	"<>m__17"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__17_m1005/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__17_m1005/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8145,12 +8145,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__17_m1005_M
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__18()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__18_m1006_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22::<>m__18()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__18_m1006_MethodInfo = 
 {
 	"<>m__18"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__18_m1006/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__18_m1006/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8168,12 +8168,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__18_m1006_M
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__19()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__19_m1007_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22::<>m__19()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__19_m1007_MethodInfo = 
 {
 	"<>m__19"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__19_m1007/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__19_m1007/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8191,12 +8191,12 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__19_m1007_M
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey21::<>m__1A()
-extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__1A_m1008_MethodInfo = 
+// System.Void PixelCrushers.DialogueSystem.UnityUIQuestLogWindow/<AddQuestToTable>c__AnonStorey22::<>m__1A()
+extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__1A_m1008_MethodInfo = 
 {
 	"<>m__1A"/* name */
-	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__1A_m1008/* method */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__1A_m1008/* method */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -8213,24 +8213,24 @@ extern const MethodInfo U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__1A_m1008_M
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CAddQuestToTableU3Ec__AnonStorey21_t270_MethodInfos[] =
+static const MethodInfo* U3CAddQuestToTableU3Ec__AnonStorey22_t270_MethodInfos[] =
 {
-	&U3CAddQuestToTableU3Ec__AnonStorey21__ctor_m1003_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__16_m1004_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__17_m1005_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__18_m1006_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__19_m1007_MethodInfo,
-	&U3CAddQuestToTableU3Ec__AnonStorey21_U3CU3Em__1A_m1008_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey22__ctor_m1003_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__16_m1004_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__17_m1005_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__18_m1006_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__19_m1007_MethodInfo,
+	&U3CAddQuestToTableU3Ec__AnonStorey22_U3CU3Em__1A_m1008_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTable[] =
+static const Il2CppMethodReference U3CAddQuestToTableU3Ec__AnonStorey22_t270_VTable[] =
 {
 	&Object_Equals_m126_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
 	&Object_GetHashCode_m128_MethodInfo,
 	&Object_ToString_m129_MethodInfo,
 };
-static bool U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTableIsGenericMethod[] =
+static bool U3CAddQuestToTableU3Ec__AnonStorey22_t270_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8238,37 +8238,37 @@ static bool U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType U3CAddQuestToTableU3Ec__AnonStorey21_t270_0_0_0;
-extern const Il2CppType U3CAddQuestToTableU3Ec__AnonStorey21_t270_1_0_0;
-struct U3CAddQuestToTableU3Ec__AnonStorey21_t270;
-const Il2CppTypeDefinitionMetadata U3CAddQuestToTableU3Ec__AnonStorey21_t270_DefinitionMetadata = 
+extern const Il2CppType U3CAddQuestToTableU3Ec__AnonStorey22_t270_0_0_0;
+extern const Il2CppType U3CAddQuestToTableU3Ec__AnonStorey22_t270_1_0_0;
+struct U3CAddQuestToTableU3Ec__AnonStorey22_t270;
+const Il2CppTypeDefinitionMetadata U3CAddQuestToTableU3Ec__AnonStorey22_t270_DefinitionMetadata = 
 {
 	&UnityUIQuestLogWindow_t266_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTable/* vtableMethods */
-	, U3CAddQuestToTableU3Ec__AnonStorey21_t270_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CAddQuestToTableU3Ec__AnonStorey22_t270_VTable/* vtableMethods */
+	, U3CAddQuestToTableU3Ec__AnonStorey22_t270_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1219/* fieldStart */
 
 };
-TypeInfo U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo = 
+TypeInfo U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "<AddQuestToTable>c__AnonStorey21"/* name */
+	, "<AddQuestToTable>c__AnonStorey22"/* name */
 	, ""/* namespaze */
-	, U3CAddQuestToTableU3Ec__AnonStorey21_t270_MethodInfos/* methods */
+	, U3CAddQuestToTableU3Ec__AnonStorey22_t270_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo/* element_class */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 512/* custom_attributes_cache */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_0_0_0/* byval_arg */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_1_0_0/* this_arg */
-	, &U3CAddQuestToTableU3Ec__AnonStorey21_t270_DefinitionMetadata/* definitionMetadata */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_0_0_0/* byval_arg */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_1_0_0/* this_arg */
+	, &U3CAddQuestToTableU3Ec__AnonStorey22_t270_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8278,8 +8278,8 @@ TypeInfo U3CAddQuestToTableU3Ec__AnonStorey21_t270_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CAddQuestToTableU3Ec__AnonStorey21_t270)/* instance_size */
-	, sizeof (U3CAddQuestToTableU3Ec__AnonStorey21_t270)/* actualSize */
+	, sizeof (U3CAddQuestToTableU3Ec__AnonStorey22_t270)/* instance_size */
+	, sizeof (U3CAddQuestToTableU3Ec__AnonStorey22_t270)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9050,27 +9050,27 @@ static const Il2CppType* UnityUIQuestLogWindow_t266_il2cpp_TypeInfo__nestedTypes
 	&AnimationTransitions_t265_0_0_0,
 	&U3COpenAfterAnimationU3Ec__IteratorD_t267_0_0_0,
 	&U3CCloseAfterAnimationU3Ec__IteratorE_t268_0_0_0,
-	&U3CAddQuestToTableU3Ec__AnonStorey21_t270_0_0_0,
+	&U3CAddQuestToTableU3Ec__AnonStorey22_t270_0_0_0,
 };
 extern const MethodInfo UnityUIQuestLogWindow_OpenWindow_m1013_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_CloseWindow_m1014_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_OnQuestListUpdated_m1018_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_ConfirmAbandonQuest_m1028_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_Awake_m1010_MethodInfo;
-extern const MethodInfo QuestLogWindow_GetNoQuestsMessage_m3496_MethodInfo;
+extern const MethodInfo QuestLogWindow_GetNoQuestsMessage_m3908_MethodInfo;
 extern const MethodInfo UnityUIQuestLogWindow_Start_m1011_MethodInfo;
 static const Il2CppMethodReference UnityUIQuestLogWindow_t266_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 	&UnityUIQuestLogWindow_OpenWindow_m1013_MethodInfo,
 	&UnityUIQuestLogWindow_CloseWindow_m1014_MethodInfo,
 	&UnityUIQuestLogWindow_OnQuestListUpdated_m1018_MethodInfo,
 	&UnityUIQuestLogWindow_ConfirmAbandonQuest_m1028_MethodInfo,
 	&UnityUIQuestLogWindow_Awake_m1010_MethodInfo,
-	&QuestLogWindow_GetNoQuestsMessage_m3496_MethodInfo,
+	&QuestLogWindow_GetNoQuestsMessage_m3908_MethodInfo,
 	&UnityUIQuestLogWindow_Start_m1011_MethodInfo,
 };
 static bool UnityUIQuestLogWindow_t266_VTableIsGenericMethod[] =
@@ -9234,10 +9234,10 @@ static const PropertyInfo* UnityUIQuestTemplate_t271_PropertyInfos[] =
 };
 static const Il2CppMethodReference UnityUIQuestTemplate_t271_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUIQuestTemplate_t271_VTableIsGenericMethod[] =
 {
@@ -9353,10 +9353,10 @@ static const MethodInfo* UnityUIQuestTitle_t272_MethodInfos[] =
 };
 static const Il2CppMethodReference UnityUIQuestTitle_t272_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUIQuestTitle_t272_VTableIsGenericMethod[] =
 {
@@ -9512,10 +9512,10 @@ static const PropertyInfo* UnityUIQuestTrackTemplate_t273_PropertyInfos[] =
 };
 static const Il2CppMethodReference UnityUIQuestTrackTemplate_t273_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUIQuestTrackTemplate_t273_VTableIsGenericMethod[] =
 {
@@ -10003,13 +10003,13 @@ extern const MethodInfo UnityUIQuestTracker_GetQuestEntryDescription_m1050_Metho
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType QuestState_t748_0_0_0;
-extern const Il2CppType QuestState_t748_0_0_0;
+extern const Il2CppType QuestState_t841_0_0_0;
+extern const Il2CppType QuestState_t841_0_0_0;
 static const ParameterInfo UnityUIQuestTracker_t275_UnityUIQuestTracker_GetQuestEntryText_m1051_ParameterInfos[] = 
 {
 	{"quest", 0, 134218574, 0, &String_t_0_0_0},
 	{"entryNum", 1, 134218575, 0, &Int32_t29_0_0_0},
-	{"entryState", 2, 134218576, 0, &QuestState_t748_0_0_0},
+	{"entryState", 2, 134218576, 0, &QuestState_t841_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t29_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.UnityUIQuestTracker::GetQuestEntryText(System.String,System.Int32,PixelCrushers.DialogueSystem.QuestState)
@@ -10054,10 +10054,10 @@ static const Il2CppType* UnityUIQuestTracker_t275_il2cpp_TypeInfo__nestedTypes[1
 };
 static const Il2CppMethodReference UnityUIQuestTracker_t275_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUIQuestTracker_t275_VTableIsGenericMethod[] =
 {
@@ -10285,15 +10285,15 @@ extern const MethodInfo UnityUISelectorDisplay__ctor_m1053_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Single PixelCrushers.DialogueSystem.UnityUISelectorDisplay::get_CurrentDistance()
 extern const MethodInfo UnityUISelectorDisplay_get_CurrentDistance_m1054_MethodInfo = 
 {
 	"get_CurrentDistance"/* name */
 	, (methodPointerType)&UnityUISelectorDisplay_get_CurrentDistance_m1054/* method */
 	, &UnityUISelectorDisplay_t281_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t604_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t604/* invoker_method */
+	, &Single_t662_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t662/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2180/* flags */
@@ -10852,10 +10852,10 @@ static const Il2CppType* UnityUISelectorDisplay_t281_il2cpp_TypeInfo__nestedType
 };
 static const Il2CppMethodReference UnityUISelectorDisplay_t281_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UnityUISelectorDisplay_t281_VTableIsGenericMethod[] =
 {
@@ -11277,10 +11277,10 @@ static const Il2CppType* UsableUnityUI_t280_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference UsableUnityUI_t280_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UsableUnityUI_t280_VTableIsGenericMethod[] =
 {
@@ -11443,10 +11443,10 @@ static const MethodInfo* UIButtonKeyTrigger_t283_MethodInfos[] =
 };
 static const Il2CppMethodReference UIButtonKeyTrigger_t283_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool UIButtonKeyTrigger_t283_VTableIsGenericMethod[] =
 {
@@ -11532,13 +11532,13 @@ TypeInfo UIButtonKeyTrigger_t283_il2cpp_TypeInfo =
 extern TypeInfo UITools_t284_il2cpp_TypeInfo;
 // PixelCrushers.DialogueSystem.UITools
 #include "AssemblyU2DCSharp_PixelCrushers_DialogueSystem_UIToolsMethodDeclarations.h"
-extern const Il2CppType AnimatorStateInfo_t574_0_0_0;
-extern const Il2CppType AnimatorStateInfo_t574_0_0_0;
+extern const Il2CppType AnimatorStateInfo_t627_0_0_0;
+extern const Il2CppType AnimatorStateInfo_t627_0_0_0;
 static const ParameterInfo UITools_t284_UITools_GetAnimatorNameHash_m1087_ParameterInfos[] = 
 {
-	{"animatorStateInfo", 0, 134218587, 0, &AnimatorStateInfo_t574_0_0_0},
+	{"animatorStateInfo", 0, 134218587, 0, &AnimatorStateInfo_t627_0_0_0},
 };
-extern void* RuntimeInvoker_Int32_t29_AnimatorStateInfo_t574 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Int32_t29_AnimatorStateInfo_t627 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 PixelCrushers.DialogueSystem.UITools::GetAnimatorNameHash(UnityEngine.AnimatorStateInfo)
 extern const MethodInfo UITools_GetAnimatorNameHash_m1087_MethodInfo = 
 {
@@ -11546,7 +11546,7 @@ extern const MethodInfo UITools_GetAnimatorNameHash_m1087_MethodInfo =
 	, (methodPointerType)&UITools_GetAnimatorNameHash_m1087/* method */
 	, &UITools_t284_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t29_0_0_0/* return_type */
-	, RuntimeInvoker_Int32_t29_AnimatorStateInfo_t574/* invoker_method */
+	, RuntimeInvoker_Int32_t29_AnimatorStateInfo_t627/* invoker_method */
 	, UITools_t284_UITools_GetAnimatorNameHash_m1087_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -11566,7 +11566,7 @@ static const ParameterInfo UITools_t284_UITools_CreateSprite_m1088_ParameterInfo
 {
 	{"texture", 0, 134218588, 0, &Texture2D_t90_0_0_0},
 };
-extern const Il2CppType Sprite_t573_0_0_0;
+extern const Il2CppType Sprite_t626_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Sprite PixelCrushers.DialogueSystem.UITools::CreateSprite(UnityEngine.Texture2D)
 extern const MethodInfo UITools_CreateSprite_m1088_MethodInfo = 
@@ -11574,7 +11574,7 @@ extern const MethodInfo UITools_CreateSprite_m1088_MethodInfo =
 	"CreateSprite"/* name */
 	, (methodPointerType)&UITools_CreateSprite_m1088/* method */
 	, &UITools_t284_il2cpp_TypeInfo/* declaring_type */
-	, &Sprite_t573_0_0_0/* return_type */
+	, &Sprite_t626_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, UITools_t284_UITools_CreateSprite_m1088_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11590,10 +11590,10 @@ extern const MethodInfo UITools_CreateSprite_m1088_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType FormattedText_t572_0_0_0;
+extern const Il2CppType FormattedText_t625_0_0_0;
 static const ParameterInfo UITools_t284_UITools_GetUIFormattedText_m1089_ParameterInfos[] = 
 {
-	{"formattedText", 0, 134218589, 0, &FormattedText_t572_0_0_0},
+	{"formattedText", 0, 134218589, 0, &FormattedText_t625_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.UITools::GetUIFormattedText(PixelCrushers.DialogueSystem.FormattedText)
@@ -11794,10 +11794,10 @@ static const MethodInfo* AlwaysFaceCamera_t285_MethodInfos[] =
 };
 static const Il2CppMethodReference AlwaysFaceCamera_t285_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool AlwaysFaceCamera_t285_VTableIsGenericMethod[] =
 {
@@ -11934,10 +11934,10 @@ extern const MethodInfo ConversationLogger_OnConversationStart_m1094_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t623_0_0_0;
 static const ParameterInfo ConversationLogger_t286_ConversationLogger_OnConversationLine_m1095_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218591, 0, &Subtitle_t570_0_0_0},
+	{"subtitle", 0, 134218591, 0, &Subtitle_t623_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.ConversationLogger::OnConversationLine(PixelCrushers.DialogueSystem.Subtitle)
@@ -12018,10 +12018,10 @@ extern const MethodInfo ConversationLogger_GetActorName_m1097_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Subtitle_t570_0_0_0;
+extern const Il2CppType Subtitle_t623_0_0_0;
 static const ParameterInfo ConversationLogger_t286_ConversationLogger_GetActorColor_m1098_ParameterInfos[] = 
 {
-	{"subtitle", 0, 134218594, 0, &Subtitle_t570_0_0_0},
+	{"subtitle", 0, 134218594, 0, &Subtitle_t623_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.ConversationLogger::GetActorColor(PixelCrushers.DialogueSystem.Subtitle)
@@ -12058,10 +12058,10 @@ static const MethodInfo* ConversationLogger_t286_MethodInfos[] =
 };
 static const Il2CppMethodReference ConversationLogger_t286_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool ConversationLogger_t286_VTableIsGenericMethod[] =
 {
@@ -12170,12 +12170,12 @@ extern const MethodInfo DieOnTakeDamage__ctor_m1099_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 static const ParameterInfo DieOnTakeDamage_t287_DieOnTakeDamage_TakeDamage_m1100_ParameterInfos[] = 
 {
-	{"damage", 0, 134218595, 0, &Single_t604_0_0_0},
+	{"damage", 0, 134218595, 0, &Single_t662_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.DieOnTakeDamage::TakeDamage(System.Single)
 extern const MethodInfo DieOnTakeDamage_TakeDamage_m1100_MethodInfo = 
 {
@@ -12183,7 +12183,7 @@ extern const MethodInfo DieOnTakeDamage_TakeDamage_m1100_MethodInfo =
 	, (methodPointerType)&DieOnTakeDamage_TakeDamage_m1100/* method */
 	, &DieOnTakeDamage_t287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t604/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t662/* invoker_method */
 	, DieOnTakeDamage_t287_DieOnTakeDamage_TakeDamage_m1100_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -12198,12 +12198,12 @@ extern const MethodInfo DieOnTakeDamage_TakeDamage_m1100_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 static const ParameterInfo DieOnTakeDamage_t287_DieOnTakeDamage_Damage_m1101_ParameterInfos[] = 
 {
-	{"damage", 0, 134218596, 0, &Single_t604_0_0_0},
+	{"damage", 0, 134218596, 0, &Single_t662_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.DieOnTakeDamage::Damage(System.Single)
 extern const MethodInfo DieOnTakeDamage_Damage_m1101_MethodInfo = 
 {
@@ -12211,7 +12211,7 @@ extern const MethodInfo DieOnTakeDamage_Damage_m1101_MethodInfo =
 	, (methodPointerType)&DieOnTakeDamage_Damage_m1101/* method */
 	, &DieOnTakeDamage_t287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Single_t604/* invoker_method */
+	, RuntimeInvoker_Void_t35_Single_t662/* invoker_method */
 	, DieOnTakeDamage_t287_DieOnTakeDamage_Damage_m1101_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
@@ -12235,10 +12235,10 @@ static const MethodInfo* DieOnTakeDamage_t287_MethodInfos[] =
 };
 static const Il2CppMethodReference DieOnTakeDamage_t287_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool DieOnTakeDamage_t287_VTableIsGenericMethod[] =
 {
@@ -12530,14 +12530,14 @@ static bool U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_VTableIsGenericMethod[]
 static const Il2CppType* U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CAddDatabasesCoroutineU3Ec__IteratorF_t290_0_0_0;
@@ -12824,14 +12824,14 @@ static bool U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_VTableIsGenericMeth
 static const Il2CppType* U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CRemoveDatabasesCoroutineU3Ec__Iterator10_t291_0_0_0;
@@ -13116,14 +13116,14 @@ static bool U3CStartU3Ec__Iterator11_t292_VTableIsGenericMethod[] =
 static const Il2CppType* U3CStartU3Ec__Iterator11_t292_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CStartU3Ec__Iterator11_t292_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CStartU3Ec__Iterator11_t292_0_0_0;
@@ -13808,10 +13808,10 @@ static const Il2CppType* ExtraDatabases_t289_il2cpp_TypeInfo__nestedTypes[3] =
 };
 static const Il2CppMethodReference ExtraDatabases_t289_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool ExtraDatabases_t289_VTableIsGenericMethod[] =
 {
@@ -14069,10 +14069,10 @@ static const PropertyInfo* SmoothCameraWithBumper_t293_PropertyInfos[] =
 };
 static const Il2CppMethodReference SmoothCameraWithBumper_t293_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool SmoothCameraWithBumper_t293_VTableIsGenericMethod[] =
 {
@@ -14236,10 +14236,10 @@ static const MethodInfo* IncrementOnDestroy_t294_MethodInfos[] =
 };
 static const Il2CppMethodReference IncrementOnDestroy_t294_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool IncrementOnDestroy_t294_VTableIsGenericMethod[] =
 {
@@ -14546,10 +14546,10 @@ static const Il2CppType* NavigateOnMouseClick_t299_il2cpp_TypeInfo__nestedTypes[
 };
 static const Il2CppMethodReference NavigateOnMouseClick_t299_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool NavigateOnMouseClick_t299_VTableIsGenericMethod[] =
 {
@@ -14776,10 +14776,10 @@ static const PropertyInfo* PersistentDestructible_t300_PropertyInfos[] =
 };
 static const Il2CppMethodReference PersistentDestructible_t300_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool PersistentDestructible_t300_VTableIsGenericMethod[] =
 {
@@ -15572,10 +15572,10 @@ static const Il2CppType* ProximitySelector_t278_il2cpp_TypeInfo__nestedTypes[1] 
 extern const MethodInfo ProximitySelector_OnGUI_m1177_MethodInfo;
 static const Il2CppMethodReference ProximitySelector_t278_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 	&ProximitySelector_OnGUI_m1177_MethodInfo,
 };
 static bool ProximitySelector_t278_VTableIsGenericMethod[] =
@@ -16127,14 +16127,14 @@ static bool U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_VTableIsGenericMe
 static const Il2CppType* U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t74_0_0_0,
-	&IDisposable_t588_0_0_0,
-	&IEnumerator_1_t744_0_0_0,
+	&IDisposable_t646_0_0_0,
+	&IEnumerator_1_t838_0_0_0,
 };
 static Il2CppInterfaceOffsetPair U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t74_0_0_0, 4},
-	{ &IDisposable_t588_0_0_0, 7},
-	{ &IEnumerator_1_t744_0_0_0, 8},
+	{ &IDisposable_t646_0_0_0, 7},
+	{ &IEnumerator_1_t838_0_0_0, 8},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern const Il2CppType U3CUpdateTrackerAfterOneFrameU3Ec__Iterator12_t309_0_0_0;
@@ -16446,12 +16446,12 @@ extern const MethodInfo QuestTracker_AddQuestEntries_m1194_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType QuestState_t748_0_0_0;
+extern const Il2CppType QuestState_t841_0_0_0;
 static const ParameterInfo QuestTracker_t308_QuestTracker_GetQuestEntryText_m1195_ParameterInfos[] = 
 {
 	{"quest", 0, 134218628, 0, &String_t_0_0_0},
 	{"entryNum", 1, 134218629, 0, &Int32_t29_0_0_0},
-	{"entryState", 2, 134218630, 0, &QuestState_t748_0_0_0},
+	{"entryState", 2, 134218630, 0, &QuestState_t841_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t29_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.QuestTracker::GetQuestEntryText(System.String,System.Int32,PixelCrushers.DialogueSystem.QuestState)
@@ -16476,10 +16476,10 @@ extern const MethodInfo QuestTracker_GetQuestEntryText_m1195_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType QuestState_t748_0_0_0;
+extern const Il2CppType QuestState_t841_0_0_0;
 static const ParameterInfo QuestTracker_t308_QuestTracker_GetTitleStyleName_m1196_ParameterInfos[] = 
 {
-	{"state", 0, 134218631, 0, &QuestState_t748_0_0_0},
+	{"state", 0, 134218631, 0, &QuestState_t841_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.QuestTracker::GetTitleStyleName(PixelCrushers.DialogueSystem.QuestState)
@@ -16504,10 +16504,10 @@ extern const MethodInfo QuestTracker_GetTitleStyleName_m1196_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType QuestState_t748_0_0_0;
+extern const Il2CppType QuestState_t841_0_0_0;
 static const ParameterInfo QuestTracker_t308_QuestTracker_GetEntryStyleName_m1197_ParameterInfos[] = 
 {
-	{"entryState", 0, 134218632, 0, &QuestState_t748_0_0_0},
+	{"entryState", 0, 134218632, 0, &QuestState_t841_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t29 (const MethodInfo* method, void* obj, void** args);
 // System.String PixelCrushers.DialogueSystem.QuestTracker::GetEntryStyleName(PixelCrushers.DialogueSystem.QuestState)
@@ -16580,10 +16580,10 @@ static const Il2CppType* QuestTracker_t308_il2cpp_TypeInfo__nestedTypes[3] =
 };
 static const Il2CppMethodReference QuestTracker_t308_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool QuestTracker_t308_VTableIsGenericMethod[] =
 {
@@ -16843,10 +16843,10 @@ static const MethodInfo* RangeTrigger_t312_MethodInfos[] =
 };
 static const Il2CppMethodReference RangeTrigger_t312_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool RangeTrigger_t312_VTableIsGenericMethod[] =
 {
@@ -17699,15 +17699,15 @@ extern const MethodInfo Selector_get_CurrentUsable_m1214_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Single PixelCrushers.DialogueSystem.Selector::get_CurrentDistance()
 extern const MethodInfo Selector_get_CurrentDistance_m1215_MethodInfo = 
 {
 	"get_CurrentDistance"/* name */
 	, (methodPointerType)&Selector_get_CurrentDistance_m1215/* method */
 	, &Selector_t277_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t604_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t604/* invoker_method */
+	, &Single_t662_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t662/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -18074,10 +18074,10 @@ extern const MethodInfo Selector_OnGUI_m1223_MethodInfo;
 extern const MethodInfo Selector_OnDrawGizmos_m1225_MethodInfo;
 static const Il2CppMethodReference Selector_t277_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 	&Selector_OnGUI_m1223_MethodInfo,
 	&Selector_OnDrawGizmos_m1225_MethodInfo,
 };
@@ -18282,28 +18282,28 @@ extern const MethodInfo SelectorFollowTarget_OnGUI_m1230_MethodInfo =
 
 };
 extern const Il2CppType Usable_t279_0_0_0;
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 extern const Il2CppType Reticle_t313_0_0_0;
 extern const Il2CppType GUIStyle_t303_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Color_t121_0_0_0;
 extern const Il2CppType Color_t121_0_0_0;
-extern const Il2CppType TextStyle_t749_0_0_0;
-extern const Il2CppType TextStyle_t749_0_0_0;
+extern const Il2CppType TextStyle_t842_0_0_0;
+extern const Il2CppType TextStyle_t842_0_0_0;
 extern const Il2CppType Color_t121_0_0_0;
 static const ParameterInfo SelectorFollowTarget_t320_SelectorFollowTarget_DrawOnSelection_m1231_ParameterInfos[] = 
 {
 	{"usable", 0, 134218643, 0, &Usable_t279_0_0_0},
-	{"distance", 1, 134218644, 0, &Single_t604_0_0_0},
+	{"distance", 1, 134218644, 0, &Single_t662_0_0_0},
 	{"reticle", 2, 134218645, 0, &Reticle_t313_0_0_0},
 	{"guiStyle", 3, 134218646, 0, &GUIStyle_t303_0_0_0},
 	{"defaultUseMessage", 4, 134218647, 0, &String_t_0_0_0},
 	{"inRangeColor", 5, 134218648, 0, &Color_t121_0_0_0},
 	{"outOfRangeColor", 6, 134218649, 0, &Color_t121_0_0_0},
-	{"textStyle", 7, 134218650, 0, &TextStyle_t749_0_0_0},
+	{"textStyle", 7, 134218650, 0, &TextStyle_t842_0_0_0},
 	{"textStyleColor", 8, 134218651, 0, &Color_t121_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t35_Object_t_Single_t604_Object_t_Object_t_Object_t_Color_t121_Color_t121_Int32_t29_Color_t121 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t662_Object_t_Object_t_Object_t_Color_t121_Color_t121_Int32_t29_Color_t121 (const MethodInfo* method, void* obj, void** args);
 // System.Void PixelCrushers.DialogueSystem.SelectorFollowTarget::DrawOnSelection(PixelCrushers.DialogueSystem.Usable,System.Single,PixelCrushers.DialogueSystem.Selector/Reticle,UnityEngine.GUIStyle,System.String,UnityEngine.Color,UnityEngine.Color,PixelCrushers.DialogueSystem.UnityGUI.TextStyle,UnityEngine.Color)
 extern const MethodInfo SelectorFollowTarget_DrawOnSelection_m1231_MethodInfo = 
 {
@@ -18311,7 +18311,7 @@ extern const MethodInfo SelectorFollowTarget_DrawOnSelection_m1231_MethodInfo =
 	, (methodPointerType)&SelectorFollowTarget_DrawOnSelection_m1231/* method */
 	, &SelectorFollowTarget_t320_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Single_t604_Object_t_Object_t_Object_t_Color_t121_Color_t121_Int32_t29_Color_t121/* invoker_method */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t662_Object_t_Object_t_Object_t_Color_t121_Color_t121_Int32_t29_Color_t121/* invoker_method */
 	, SelectorFollowTarget_t320_SelectorFollowTarget_DrawOnSelection_m1231_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
@@ -18339,10 +18339,10 @@ static const MethodInfo* SelectorFollowTarget_t320_MethodInfos[] =
 extern const MethodInfo SelectorFollowTarget_OnGUI_m1230_MethodInfo;
 static const Il2CppMethodReference SelectorFollowTarget_t320_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 	&SelectorFollowTarget_OnGUI_m1230_MethodInfo,
 };
 static bool SelectorFollowTarget_t320_VTableIsGenericMethod[] =
@@ -18568,24 +18568,24 @@ extern const MethodInfo SimpleController_OnFired_m1237_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Single_t604_0_0_0;
-extern const Il2CppType Single_t604_0_0_0;
-extern const Il2CppType Single_t604_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
 static const ParameterInfo SimpleController_t322_SimpleController_ClampAngle_m1238_ParameterInfos[] = 
 {
-	{"angle", 0, 134218652, 0, &Single_t604_0_0_0},
-	{"min", 1, 134218653, 0, &Single_t604_0_0_0},
-	{"max", 2, 134218654, 0, &Single_t604_0_0_0},
+	{"angle", 0, 134218652, 0, &Single_t662_0_0_0},
+	{"min", 1, 134218653, 0, &Single_t662_0_0_0},
+	{"max", 2, 134218654, 0, &Single_t662_0_0_0},
 };
-extern void* RuntimeInvoker_Single_t604_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Single_t662_Single_t662_Single_t662_Single_t662 (const MethodInfo* method, void* obj, void** args);
 // System.Single PixelCrushers.DialogueSystem.SimpleController::ClampAngle(System.Single,System.Single,System.Single)
 extern const MethodInfo SimpleController_ClampAngle_m1238_MethodInfo = 
 {
 	"ClampAngle"/* name */
 	, (methodPointerType)&SimpleController_ClampAngle_m1238/* method */
 	, &SimpleController_t322_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t604_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t604_Single_t604_Single_t604_Single_t604/* invoker_method */
+	, &Single_t662_0_0_0/* return_type */
+	, RuntimeInvoker_Single_t662_Single_t662_Single_t662_Single_t662/* invoker_method */
 	, SimpleController_t322_SimpleController_ClampAngle_m1238_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
@@ -18613,10 +18613,10 @@ static const MethodInfo* SimpleController_t322_MethodInfos[] =
 };
 static const Il2CppMethodReference SimpleController_t322_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool SimpleController_t322_VTableIsGenericMethod[] =
 {
@@ -18780,10 +18780,10 @@ static const MethodInfo* Usable_t279_MethodInfos[] =
 };
 static const Il2CppMethodReference Usable_t279_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
 static bool Usable_t279_VTableIsGenericMethod[] =
 {
@@ -18862,19 +18862,504 @@ TypeInfo Usable_t279_il2cpp_TypeInfo =
 	, 0/* interface_offsets_count */
 
 };
-// Demo2DJumpAndRun
-#include "AssemblyU2DCSharp_Demo2DJumpAndRun.h"
-// Metadata Definition Demo2DJumpAndRun
-extern TypeInfo Demo2DJumpAndRun_t323_il2cpp_TypeInfo;
-// Demo2DJumpAndRun
-#include "AssemblyU2DCSharp_Demo2DJumpAndRunMethodDeclarations.h"
+// Metadata Definition UnityParseHelpers.ILoom
+extern TypeInfo ILoom_t818_il2cpp_TypeInfo;
+extern const Il2CppType Single_t662_0_0_0;
+static const ParameterInfo ILoom_t818_ILoom_Delay_m3784_ParameterInfos[] = 
+{
+	{"seconds", 0, 134218655, 0, &Single_t662_0_0_0},
+};
+extern const Il2CppType Task_t344_0_0_0;
+extern void* RuntimeInvoker_Object_t_Single_t662 (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task UnityParseHelpers.ILoom::Delay(System.Single)
+extern const MethodInfo ILoom_Delay_m3784_MethodInfo = 
+{
+	"Delay"/* name */
+	, NULL/* method */
+	, &ILoom_t818_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Single_t662/* invoker_method */
+	, ILoom_t818_ILoom_Delay_m3784_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 1478/* flags */
+	, 0/* iflags */
+	, 0/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1078/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType TimeSpan_t629_0_0_0;
+extern const Il2CppType TimeSpan_t629_0_0_0;
+static const ParameterInfo ILoom_t818_ILoom_Delay_m3785_ParameterInfos[] = 
+{
+	{"time", 0, 134218656, 0, &TimeSpan_t629_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_TimeSpan_t629 (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task UnityParseHelpers.ILoom::Delay(System.TimeSpan)
+extern const MethodInfo ILoom_Delay_m3785_MethodInfo = 
+{
+	"Delay"/* name */
+	, NULL/* method */
+	, &ILoom_t818_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_TimeSpan_t629/* invoker_method */
+	, ILoom_t818_ILoom_Delay_m3785_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 1478/* flags */
+	, 0/* iflags */
+	, 1/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1079/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void Demo2DJumpAndRun::.ctor()
-extern const MethodInfo Demo2DJumpAndRun__ctor_m1242_MethodInfo = 
+// System.Void UnityParseHelpers.ILoom::Clear()
+extern const MethodInfo ILoom_Clear_m3786_MethodInfo = 
+{
+	"Clear"/* name */
+	, NULL/* method */
+	, &ILoom_t818_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 1478/* flags */
+	, 0/* iflags */
+	, 2/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1080/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Action_t250_0_0_0;
+static const ParameterInfo ILoom_t818_ILoom_RunAsync_m3787_ParameterInfos[] = 
+{
+	{"a", 0, 134218657, 0, &Action_t250_0_0_0},
+};
+extern const Il2CppType Thread_t628_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Thread UnityParseHelpers.ILoom::RunAsync(System.Action)
+extern const MethodInfo ILoom_RunAsync_m3787_MethodInfo = 
+{
+	"RunAsync"/* name */
+	, NULL/* method */
+	, &ILoom_t818_il2cpp_TypeInfo/* declaring_type */
+	, &Thread_t628_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, ILoom_t818_ILoom_RunAsync_m3787_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 1478/* flags */
+	, 0/* iflags */
+	, 3/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1081/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Action_t250_0_0_0;
+static const ParameterInfo ILoom_t818_ILoom_QueueOnMainThread_m3788_ParameterInfos[] = 
+{
+	{"action", 0, 134218658, 0, &Action_t250_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.ILoom::QueueOnMainThread(System.Action)
+extern const MethodInfo ILoom_QueueOnMainThread_m3788_MethodInfo = 
+{
+	"QueueOnMainThread"/* name */
+	, NULL/* method */
+	, &ILoom_t818_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, ILoom_t818_ILoom_QueueOnMainThread_m3788_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 1478/* flags */
+	, 0/* iflags */
+	, 4/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1082/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Action_t250_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
+static const ParameterInfo ILoom_t818_ILoom_QueueOnMainThread_m3789_ParameterInfos[] = 
+{
+	{"action", 0, 134218659, 0, &Action_t250_0_0_0},
+	{"time", 1, 134218660, 0, &Single_t662_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t662 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.ILoom::QueueOnMainThread(System.Action,System.Single)
+extern const MethodInfo ILoom_QueueOnMainThread_m3789_MethodInfo = 
+{
+	"QueueOnMainThread"/* name */
+	, NULL/* method */
+	, &ILoom_t818_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t662/* invoker_method */
+	, ILoom_t818_ILoom_QueueOnMainThread_m3789_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 1478/* flags */
+	, 0/* iflags */
+	, 5/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1083/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Int32_t29 (const MethodInfo* method, void* obj, void** args);
+// System.Int32 UnityParseHelpers.ILoom::get_QueuedItemCount()
+extern const MethodInfo ILoom_get_QueuedItemCount_m3790_MethodInfo = 
+{
+	"get_QueuedItemCount"/* name */
+	, NULL/* method */
+	, &ILoom_t818_il2cpp_TypeInfo/* declaring_type */
+	, &Int32_t29_0_0_0/* return_type */
+	, RuntimeInvoker_Int32_t29/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 3526/* flags */
+	, 0/* iflags */
+	, 6/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1084/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* ILoom_t818_MethodInfos[] =
+{
+	&ILoom_Delay_m3784_MethodInfo,
+	&ILoom_Delay_m3785_MethodInfo,
+	&ILoom_Clear_m3786_MethodInfo,
+	&ILoom_RunAsync_m3787_MethodInfo,
+	&ILoom_QueueOnMainThread_m3788_MethodInfo,
+	&ILoom_QueueOnMainThread_m3789_MethodInfo,
+	&ILoom_get_QueuedItemCount_m3790_MethodInfo,
+	NULL
+};
+extern const MethodInfo ILoom_get_QueuedItemCount_m3790_MethodInfo;
+static const PropertyInfo ILoom_t818____QueuedItemCount_PropertyInfo = 
+{
+	&ILoom_t818_il2cpp_TypeInfo/* parent */
+	, "QueuedItemCount"/* name */
+	, &ILoom_get_QueuedItemCount_m3790_MethodInfo/* get */
+	, NULL/* set */
+	, 0/* attrs */
+	, 0/* custom_attributes_cache */
+
+};
+static const PropertyInfo* ILoom_t818_PropertyInfos[] =
+{
+	&ILoom_t818____QueuedItemCount_PropertyInfo,
+	NULL
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType ILoom_t818_0_0_0;
+extern const Il2CppType ILoom_t818_1_0_0;
+struct ILoom_t818;
+const Il2CppTypeDefinitionMetadata ILoom_t818_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, NULL/* parent */
+	, NULL/* vtableMethods */
+	, NULL/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo ILoom_t818_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "ILoom"/* name */
+	, "UnityParseHelpers"/* namespaze */
+	, ILoom_t818_MethodInfos/* methods */
+	, ILoom_t818_PropertyInfos/* properties */
+	, NULL/* events */
+	, &ILoom_t818_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &ILoom_t818_0_0_0/* byval_arg */
+	, &ILoom_t818_1_0_0/* this_arg */
+	, &ILoom_t818_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 161/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 7/* method_count */
+	, 1/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 0/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// UnityParseHelpers.Loom/DelayedQueueItem
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_DelayedQueueItem.h"
+// Metadata Definition UnityParseHelpers.Loom/DelayedQueueItem
+extern TypeInfo DelayedQueueItem_t323_il2cpp_TypeInfo;
+// UnityParseHelpers.Loom/DelayedQueueItem
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_DelayedQueueItemMethodDeclarations.h"
+static const MethodInfo* DelayedQueueItem_t323_MethodInfos[] =
+{
+	NULL
+};
+extern const MethodInfo ValueType_Equals_m3909_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m3910_MethodInfo;
+extern const MethodInfo ValueType_ToString_m3911_MethodInfo;
+static const Il2CppMethodReference DelayedQueueItem_t323_VTable[] =
+{
+	&ValueType_Equals_m3909_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&ValueType_GetHashCode_m3910_MethodInfo,
+	&ValueType_ToString_m3911_MethodInfo,
+};
+static bool DelayedQueueItem_t323_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType DelayedQueueItem_t323_0_0_0;
+extern const Il2CppType DelayedQueueItem_t323_1_0_0;
+extern const Il2CppType ValueType_t843_0_0_0;
+extern TypeInfo Loom_t331_il2cpp_TypeInfo;
+extern const Il2CppType Loom_t331_0_0_0;
+const Il2CppTypeDefinitionMetadata DelayedQueueItem_t323_DefinitionMetadata = 
+{
+	&Loom_t331_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t843_0_0_0/* parent */
+	, DelayedQueueItem_t323_VTable/* vtableMethods */
+	, DelayedQueueItem_t323_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1480/* fieldStart */
+
+};
+TypeInfo DelayedQueueItem_t323_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "DelayedQueueItem"/* name */
+	, ""/* namespaze */
+	, DelayedQueueItem_t323_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &DelayedQueueItem_t323_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &DelayedQueueItem_t323_0_0_0/* byval_arg */
+	, &DelayedQueueItem_t323_1_0_0/* this_arg */
+	, &DelayedQueueItem_t323_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (DelayedQueueItem_t323)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (DelayedQueueItem_t323)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048842/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// UnityParseHelpers.Loom/ConditionalQueueItem
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_ConditionalQueueIte.h"
+// Metadata Definition UnityParseHelpers.Loom/ConditionalQueueItem
+extern TypeInfo ConditionalQueueItem_t326_il2cpp_TypeInfo;
+// UnityParseHelpers.Loom/ConditionalQueueItem
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_ConditionalQueueIteMethodDeclarations.h"
+static const MethodInfo* ConditionalQueueItem_t326_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference ConditionalQueueItem_t326_VTable[] =
+{
+	&ValueType_Equals_m3909_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&ValueType_GetHashCode_m3910_MethodInfo,
+	&ValueType_ToString_m3911_MethodInfo,
+};
+static bool ConditionalQueueItem_t326_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType ConditionalQueueItem_t326_0_0_0;
+extern const Il2CppType ConditionalQueueItem_t326_1_0_0;
+const Il2CppTypeDefinitionMetadata ConditionalQueueItem_t326_DefinitionMetadata = 
+{
+	&Loom_t331_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t843_0_0_0/* parent */
+	, ConditionalQueueItem_t326_VTable/* vtableMethods */
+	, ConditionalQueueItem_t326_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1482/* fieldStart */
+
+};
+TypeInfo ConditionalQueueItem_t326_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "ConditionalQueueItem"/* name */
+	, ""/* namespaze */
+	, ConditionalQueueItem_t326_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &ConditionalQueueItem_t326_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &ConditionalQueueItem_t326_0_0_0/* byval_arg */
+	, &ConditionalQueueItem_t326_1_0_0/* this_arg */
+	, &ConditionalQueueItem_t326_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (ConditionalQueueItem_t326)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ConditionalQueueItem_t326)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048842/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// UnityParseHelpers.Loom/<Delay>c__AnonStorey23
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_U3CDelayU3Ec__AnonS.h"
+// Metadata Definition UnityParseHelpers.Loom/<Delay>c__AnonStorey23
+extern TypeInfo U3CDelayU3Ec__AnonStorey23_t327_il2cpp_TypeInfo;
+// UnityParseHelpers.Loom/<Delay>c__AnonStorey23
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_U3CDelayU3Ec__AnonSMethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom/<Delay>c__AnonStorey23::.ctor()
+extern const MethodInfo U3CDelayU3Ec__AnonStorey23__ctor_m1242_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Demo2DJumpAndRun__ctor_m1242/* method */
-	, &Demo2DJumpAndRun_t323_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDelayU3Ec__AnonStorey23__ctor_m1242/* method */
+	, &U3CDelayU3Ec__AnonStorey23_t327_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -18885,19 +19370,475 @@ extern const MethodInfo Demo2DJumpAndRun__ctor_m1242_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1078/* token */
+	, 1102/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void Demo2DJumpAndRun::OnJoinedRoom()
-extern const MethodInfo Demo2DJumpAndRun_OnJoinedRoom_m1243_MethodInfo = 
+// System.Void UnityParseHelpers.Loom/<Delay>c__AnonStorey23::<>m__1B()
+extern const MethodInfo U3CDelayU3Ec__AnonStorey23_U3CU3Em__1B_m1243_MethodInfo = 
 {
-	"OnJoinedRoom"/* name */
-	, (methodPointerType)&Demo2DJumpAndRun_OnJoinedRoom_m1243/* method */
-	, &Demo2DJumpAndRun_t323_il2cpp_TypeInfo/* declaring_type */
+	"<>m__1B"/* name */
+	, (methodPointerType)&U3CDelayU3Ec__AnonStorey23_U3CU3Em__1B_m1243/* method */
+	, &U3CDelayU3Ec__AnonStorey23_t327_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1103/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CDelayU3Ec__AnonStorey23_t327_MethodInfos[] =
+{
+	&U3CDelayU3Ec__AnonStorey23__ctor_m1242_MethodInfo,
+	&U3CDelayU3Ec__AnonStorey23_U3CU3Em__1B_m1243_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CDelayU3Ec__AnonStorey23_t327_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CDelayU3Ec__AnonStorey23_t327_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CDelayU3Ec__AnonStorey23_t327_0_0_0;
+extern const Il2CppType U3CDelayU3Ec__AnonStorey23_t327_1_0_0;
+struct U3CDelayU3Ec__AnonStorey23_t327;
+const Il2CppTypeDefinitionMetadata U3CDelayU3Ec__AnonStorey23_t327_DefinitionMetadata = 
+{
+	&Loom_t331_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CDelayU3Ec__AnonStorey23_t327_VTable/* vtableMethods */
+	, U3CDelayU3Ec__AnonStorey23_t327_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1484/* fieldStart */
+
+};
+TypeInfo U3CDelayU3Ec__AnonStorey23_t327_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Delay>c__AnonStorey23"/* name */
+	, ""/* namespaze */
+	, U3CDelayU3Ec__AnonStorey23_t327_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CDelayU3Ec__AnonStorey23_t327_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 575/* custom_attributes_cache */
+	, &U3CDelayU3Ec__AnonStorey23_t327_0_0_0/* byval_arg */
+	, &U3CDelayU3Ec__AnonStorey23_t327_1_0_0/* this_arg */
+	, &U3CDelayU3Ec__AnonStorey23_t327_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3CDelayU3Ec__AnonStorey23_t327)/* instance_size */
+	, sizeof (U3CDelayU3Ec__AnonStorey23_t327)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 1/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// UnityParseHelpers.Loom
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom.h"
+// Metadata Definition UnityParseHelpers.Loom
+// UnityParseHelpers.Loom
+#include "AssemblyU2DCSharp_UnityParseHelpers_LoomMethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::.ctor()
+extern const MethodInfo Loom__ctor_m1244_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&Loom__ctor_m1244/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1085/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
+// UnityParseHelpers.Loom UnityParseHelpers.Loom::get_Instance()
+extern const MethodInfo Loom_get_Instance_m1245_MethodInfo = 
+{
+	"get_Instance"/* name */
+	, (methodPointerType)&Loom_get_Instance_m1245/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Loom_t331_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 2198/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1086/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Int32_t29 (const MethodInfo* method, void* obj, void** args);
+// System.Int32 UnityParseHelpers.Loom::get_QueuedItemCount()
+extern const MethodInfo Loom_get_QueuedItemCount_m1246_MethodInfo = 
+{
+	"get_QueuedItemCount"/* name */
+	, (methodPointerType)&Loom_get_QueuedItemCount_m1246/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Int32_t29_0_0_0/* return_type */
+	, RuntimeInvoker_Int32_t29/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 2534/* flags */
+	, 0/* iflags */
+	, 10/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1087/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::Start()
+extern const MethodInfo Loom_Start_m1247_MethodInfo = 
+{
+	"Start"/* name */
+	, (methodPointerType)&Loom_Start_m1247/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 452/* flags */
+	, 0/* iflags */
+	, 11/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1088/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Single_t662_0_0_0;
+static const ParameterInfo Loom_t331_Loom_Delay_m1248_ParameterInfos[] = 
+{
+	{"seconds", 0, 134218661, 0, &Single_t662_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Single_t662 (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task UnityParseHelpers.Loom::Delay(System.Single)
+extern const MethodInfo Loom_Delay_m1248_MethodInfo = 
+{
+	"Delay"/* name */
+	, (methodPointerType)&Loom_Delay_m1248/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Single_t662/* invoker_method */
+	, Loom_t331_Loom_Delay_m1248_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 486/* flags */
+	, 0/* iflags */
+	, 4/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1089/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType TimeSpan_t629_0_0_0;
+static const ParameterInfo Loom_t331_Loom_Delay_m1249_ParameterInfos[] = 
+{
+	{"time", 0, 134218662, 0, &TimeSpan_t629_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_TimeSpan_t629 (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task UnityParseHelpers.Loom::Delay(System.TimeSpan)
+extern const MethodInfo Loom_Delay_m1249_MethodInfo = 
+{
+	"Delay"/* name */
+	, (methodPointerType)&Loom_Delay_m1249/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_TimeSpan_t629/* invoker_method */
+	, Loom_t331_Loom_Delay_m1249_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 486/* flags */
+	, 0/* iflags */
+	, 5/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1090/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Func_1_t325_0_0_0;
+extern const Il2CppType Func_1_t325_0_0_0;
+static const ParameterInfo Loom_t331_Loom_Until_m1250_ParameterInfos[] = 
+{
+	{"condition", 0, 134218663, 0, &Func_1_t325_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task UnityParseHelpers.Loom::Until(System.Func`1<System.Boolean>)
+extern const MethodInfo Loom_Until_m1250_MethodInfo = 
+{
+	"Until"/* name */
+	, (methodPointerType)&Loom_Until_m1250/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, Loom_t331_Loom_Until_m1250_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1091/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::Clear()
+extern const MethodInfo Loom_Clear_m1251_MethodInfo = 
+{
+	"Clear"/* name */
+	, (methodPointerType)&Loom_Clear_m1251/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 486/* flags */
+	, 0/* iflags */
+	, 6/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1092/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Action_t250_0_0_0;
+static const ParameterInfo Loom_t331_Loom_QueueOnMainThread_m1252_ParameterInfos[] = 
+{
+	{"action", 0, 134218664, 0, &Action_t250_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::QueueOnMainThread(System.Action)
+extern const MethodInfo Loom_QueueOnMainThread_m1252_MethodInfo = 
+{
+	"QueueOnMainThread"/* name */
+	, (methodPointerType)&Loom_QueueOnMainThread_m1252/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, Loom_t331_Loom_QueueOnMainThread_m1252_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 486/* flags */
+	, 0/* iflags */
+	, 8/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1093/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Action_t250_0_0_0;
+extern const Il2CppType Single_t662_0_0_0;
+static const ParameterInfo Loom_t331_Loom_QueueOnMainThread_m1253_ParameterInfos[] = 
+{
+	{"action", 0, 134218665, 0, &Action_t250_0_0_0},
+	{"time", 1, 134218666, 0, &Single_t662_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t_Single_t662 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::QueueOnMainThread(System.Action,System.Single)
+extern const MethodInfo Loom_QueueOnMainThread_m1253_MethodInfo = 
+{
+	"QueueOnMainThread"/* name */
+	, (methodPointerType)&Loom_QueueOnMainThread_m1253/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t_Single_t662/* invoker_method */
+	, Loom_t331_Loom_QueueOnMainThread_m1253_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 486/* flags */
+	, 0/* iflags */
+	, 9/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1094/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Action_t250_0_0_0;
+static const ParameterInfo Loom_t331_Loom_RunAsync_m1254_ParameterInfos[] = 
+{
+	{"a", 0, 134218667, 0, &Action_t250_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Thread UnityParseHelpers.Loom::RunAsync(System.Action)
+extern const MethodInfo Loom_RunAsync_m1254_MethodInfo = 
+{
+	"RunAsync"/* name */
+	, (methodPointerType)&Loom_RunAsync_m1254/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Thread_t628_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, Loom_t331_Loom_RunAsync_m1254_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 486/* flags */
+	, 0/* iflags */
+	, 7/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1095/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo Loom_t331_Loom_RunAction_m1255_ParameterInfos[] = 
+{
+	{"action", 0, 134218668, 0, &Object_t_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::RunAction(System.Object)
+extern const MethodInfo Loom_RunAction_m1255_MethodInfo = 
+{
+	"RunAction"/* name */
+	, (methodPointerType)&Loom_RunAction_m1255/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, Loom_t331_Loom_RunAction_m1255_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1096/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::Update()
+extern const MethodInfo Loom_Update_m1256_MethodInfo = 
+{
+	"Update"/* name */
+	, (methodPointerType)&Loom_Update_m1256/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 452/* flags */
+	, 0/* iflags */
+	, 12/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1097/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::HandleDelayed()
+extern const MethodInfo Loom_HandleDelayed_m1257_MethodInfo = 
+{
+	"HandleDelayed"/* name */
+	, (methodPointerType)&Loom_HandleDelayed_m1257/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -18908,64 +19849,220 @@ extern const MethodInfo Demo2DJumpAndRun_OnJoinedRoom_m1243_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1079/* token */
+	, 1098/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Demo2DJumpAndRun_t323_MethodInfos[] =
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::HandleActions()
+extern const MethodInfo Loom_HandleActions_m1258_MethodInfo = 
 {
-	&Demo2DJumpAndRun__ctor_m1242_MethodInfo,
-	&Demo2DJumpAndRun_OnJoinedRoom_m1243_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference Demo2DJumpAndRun_t323_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool Demo2DJumpAndRun_t323_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType Demo2DJumpAndRun_t323_0_0_0;
-extern const Il2CppType Demo2DJumpAndRun_t323_1_0_0;
-struct Demo2DJumpAndRun_t323;
-const Il2CppTypeDefinitionMetadata Demo2DJumpAndRun_t323_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, Demo2DJumpAndRun_t323_VTable/* vtableMethods */
-	, Demo2DJumpAndRun_t323_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, -1/* fieldStart */
+	"HandleActions"/* name */
+	, (methodPointerType)&Loom_HandleActions_m1258/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1099/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
 
 };
-TypeInfo Demo2DJumpAndRun_t323_il2cpp_TypeInfo = 
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.Loom::HandleConditional()
+extern const MethodInfo Loom_HandleConditional_m1259_MethodInfo = 
+{
+	"HandleConditional"/* name */
+	, (methodPointerType)&Loom_HandleConditional_m1259/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1100/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType DelayedQueueItem_t323_0_0_0;
+static const ParameterInfo Loom_t331_Loom_U3CHandleDelayedU3Em__1C_m1260_ParameterInfos[] = 
+{
+	{"d", 0, 134218669, 0, &DelayedQueueItem_t323_0_0_0},
+};
+extern void* RuntimeInvoker_Boolean_t30_DelayedQueueItem_t323 (const MethodInfo* method, void* obj, void** args);
+// System.Boolean UnityParseHelpers.Loom::<HandleDelayed>m__1C(UnityParseHelpers.Loom/DelayedQueueItem)
+extern const MethodInfo Loom_U3CHandleDelayedU3Em__1C_m1260_MethodInfo = 
+{
+	"<HandleDelayed>m__1C"/* name */
+	, (methodPointerType)&Loom_U3CHandleDelayedU3Em__1C_m1260/* method */
+	, &Loom_t331_il2cpp_TypeInfo/* declaring_type */
+	, &Boolean_t30_0_0_0/* return_type */
+	, RuntimeInvoker_Boolean_t30_DelayedQueueItem_t323/* invoker_method */
+	, Loom_t331_Loom_U3CHandleDelayedU3Em__1C_m1260_ParameterInfos/* parameters */
+	, 574/* custom_attributes_cache */
+	, 145/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1101/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* Loom_t331_MethodInfos[] =
+{
+	&Loom__ctor_m1244_MethodInfo,
+	&Loom_get_Instance_m1245_MethodInfo,
+	&Loom_get_QueuedItemCount_m1246_MethodInfo,
+	&Loom_Start_m1247_MethodInfo,
+	&Loom_Delay_m1248_MethodInfo,
+	&Loom_Delay_m1249_MethodInfo,
+	&Loom_Until_m1250_MethodInfo,
+	&Loom_Clear_m1251_MethodInfo,
+	&Loom_QueueOnMainThread_m1252_MethodInfo,
+	&Loom_QueueOnMainThread_m1253_MethodInfo,
+	&Loom_RunAsync_m1254_MethodInfo,
+	&Loom_RunAction_m1255_MethodInfo,
+	&Loom_Update_m1256_MethodInfo,
+	&Loom_HandleDelayed_m1257_MethodInfo,
+	&Loom_HandleActions_m1258_MethodInfo,
+	&Loom_HandleConditional_m1259_MethodInfo,
+	&Loom_U3CHandleDelayedU3Em__1C_m1260_MethodInfo,
+	NULL
+};
+extern const MethodInfo Loom_get_Instance_m1245_MethodInfo;
+static const PropertyInfo Loom_t331____Instance_PropertyInfo = 
+{
+	&Loom_t331_il2cpp_TypeInfo/* parent */
+	, "Instance"/* name */
+	, &Loom_get_Instance_m1245_MethodInfo/* get */
+	, NULL/* set */
+	, 0/* attrs */
+	, 0/* custom_attributes_cache */
+
+};
+extern const MethodInfo Loom_get_QueuedItemCount_m1246_MethodInfo;
+static const PropertyInfo Loom_t331____QueuedItemCount_PropertyInfo = 
+{
+	&Loom_t331_il2cpp_TypeInfo/* parent */
+	, "QueuedItemCount"/* name */
+	, &Loom_get_QueuedItemCount_m1246_MethodInfo/* get */
+	, NULL/* set */
+	, 0/* attrs */
+	, 0/* custom_attributes_cache */
+
+};
+static const PropertyInfo* Loom_t331_PropertyInfos[] =
+{
+	&Loom_t331____Instance_PropertyInfo,
+	&Loom_t331____QueuedItemCount_PropertyInfo,
+	NULL
+};
+static const Il2CppType* Loom_t331_il2cpp_TypeInfo__nestedTypes[3] =
+{
+	&DelayedQueueItem_t323_0_0_0,
+	&ConditionalQueueItem_t326_0_0_0,
+	&U3CDelayU3Ec__AnonStorey23_t327_0_0_0,
+};
+extern const MethodInfo Loom_Delay_m1248_MethodInfo;
+extern const MethodInfo Loom_Delay_m1249_MethodInfo;
+extern const MethodInfo Loom_Clear_m1251_MethodInfo;
+extern const MethodInfo Loom_RunAsync_m1254_MethodInfo;
+extern const MethodInfo Loom_QueueOnMainThread_m1252_MethodInfo;
+extern const MethodInfo Loom_QueueOnMainThread_m1253_MethodInfo;
+extern const MethodInfo Loom_Start_m1247_MethodInfo;
+extern const MethodInfo Loom_Update_m1256_MethodInfo;
+static const Il2CppMethodReference Loom_t331_VTable[] =
+{
+	&Object_Equals_m3889_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
+	&Loom_Delay_m1248_MethodInfo,
+	&Loom_Delay_m1249_MethodInfo,
+	&Loom_Clear_m1251_MethodInfo,
+	&Loom_RunAsync_m1254_MethodInfo,
+	&Loom_QueueOnMainThread_m1252_MethodInfo,
+	&Loom_QueueOnMainThread_m1253_MethodInfo,
+	&Loom_get_QueuedItemCount_m1246_MethodInfo,
+	&Loom_Start_m1247_MethodInfo,
+	&Loom_Update_m1256_MethodInfo,
+};
+static bool Loom_t331_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+};
+static const Il2CppType* Loom_t331_InterfacesTypeInfos[] = 
+{
+	&ILoom_t818_0_0_0,
+};
+static Il2CppInterfaceOffsetPair Loom_t331_InterfacesOffsets[] = 
+{
+	{ &ILoom_t818_0_0_0, 4},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType Loom_t331_1_0_0;
+struct Loom_t331;
+const Il2CppTypeDefinitionMetadata Loom_t331_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, Loom_t331_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, Loom_t331_InterfacesTypeInfos/* implementedInterfaces */
+	, Loom_t331_InterfacesOffsets/* interfaceOffsets */
+	, &MonoBehaviour_t47_0_0_0/* parent */
+	, Loom_t331_VTable/* vtableMethods */
+	, Loom_t331_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1485/* fieldStart */
+
+};
+TypeInfo Loom_t331_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "Demo2DJumpAndRun"/* name */
-	, ""/* namespaze */
-	, Demo2DJumpAndRun_t323_MethodInfos/* methods */
-	, NULL/* properties */
+	, "Loom"/* name */
+	, "UnityParseHelpers"/* namespaze */
+	, Loom_t331_MethodInfos/* methods */
+	, Loom_t331_PropertyInfos/* properties */
 	, NULL/* events */
-	, &Demo2DJumpAndRun_t323_il2cpp_TypeInfo/* element_class */
+	, &Loom_t331_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &Demo2DJumpAndRun_t323_0_0_0/* byval_arg */
-	, &Demo2DJumpAndRun_t323_1_0_0/* this_arg */
-	, &Demo2DJumpAndRun_t323_DefinitionMetadata/* definitionMetadata */
+	, &Loom_t331_0_0_0/* byval_arg */
+	, &Loom_t331_1_0_0/* this_arg */
+	, &Loom_t331_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18975,8 +20072,5989 @@ TypeInfo Demo2DJumpAndRun_t323_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Demo2DJumpAndRun_t323)/* instance_size */
-	, sizeof (Demo2DJumpAndRun_t323)/* actualSize */
+	, sizeof (Loom_t331)/* instance_size */
+	, sizeof (Loom_t331)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, sizeof(Loom_t331_StaticFields)/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048577/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 17/* method_count */
+	, 2/* property_count */
+	, 12/* field_count */
+	, 0/* event_count */
+	, 3/* nested_type_count */
+	, 13/* vtable_count */
+	, 1/* interfaces_count */
+	, 1/* interface_offsets_count */
+
+};
+// ParseExtensions
+#include "AssemblyU2DCSharp_ParseExtensions.h"
+// Metadata Definition ParseExtensions
+extern TypeInfo ParseExtensions_t333_il2cpp_TypeInfo;
+// ParseExtensions
+#include "AssemblyU2DCSharp_ParseExtensionsMethodDeclarations.h"
+extern const Il2CppType ParseExtensions_GetKey_m3791_gp_0_0_0_0;
+extern const Il2CppType ParseExtensions_GetKey_m3791_gp_0_0_0_0;
+extern const Il2CppType Expression_1_t845_0_0_0;
+extern const Il2CppType Expression_1_t845_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_GetKey_m3791_ParameterInfos[] = 
+{
+	{"obj", 0, 134218670, 0, &ParseExtensions_GetKey_m3791_gp_0_0_0_0},
+	{"expression", 1, 134218671, 0, &Expression_1_t845_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_GetKey_m3791_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_GetKey_m3791_gp_TSource_0_il2cpp_TypeInfo;
+extern const Il2CppType ParseObject_t596_0_0_0;
+static const Il2CppType* ParseExtensions_GetKey_m3791_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_GetKey_m3791_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_GetKey_m3791_Il2CppGenericContainer, ParseExtensions_GetKey_m3791_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_GetKey_m3791_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_GetKey_m3791_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_GetKey_m3791_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_GetKey_m3791_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_GetKey_m3791_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_GetKey_m3791_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_GetKey_m3791_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_GetKey_m3791_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_GetKey_m3791_MethodInfo, 2, 1, ParseExtensions_GetKey_m3791_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t844_TisTValue_t846_m3912_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_GetKey_m3791_RGCTXData[2] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t844_TisTValue_t846_m3912_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.String ParseExtensions::GetKey(TSource,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>)
+extern const MethodInfo ParseExtensions_GetKey_m3791_MethodInfo = 
+{
+	"GetKey"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &String_t_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_GetKey_m3791_ParameterInfos/* parameters */
+	, 577/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1104/* token */
+	, ParseExtensions_GetKey_m3791_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_GetKey_m3791_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseExtensions_AddToList_m3792_gp_0_0_0_0;
+extern const Il2CppType ParseExtensions_AddToList_m3792_gp_0_0_0_0;
+extern const Il2CppType Expression_1_t848_0_0_0;
+extern const Il2CppType Expression_1_t848_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_AddToList_m3792_ParameterInfos[] = 
+{
+	{"obj", 0, 134218672, 0, &ParseExtensions_AddToList_m3792_gp_0_0_0_0},
+	{"expression", 1, 134218673, 0, &Expression_1_t848_0_0_0},
+	{"value", 2, 134218674, 0, &Object_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_AddToList_m3792_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_AddToList_m3792_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_AddToList_m3792_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_AddToList_m3792_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_AddToList_m3792_Il2CppGenericContainer, ParseExtensions_AddToList_m3792_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_AddToList_m3792_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_AddToList_m3792_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_AddToList_m3792_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_AddToList_m3792_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_AddToList_m3792_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_AddToList_m3792_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_AddToList_m3792_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_AddToList_m3792_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_AddToList_m3792_MethodInfo, 2, 1, ParseExtensions_AddToList_m3792_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t847_TisTValue_t849_m3913_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_AddToList_m3792_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t847_TisTValue_t849_m3913_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseExtensions_AddToList_m3792_gp_0_0_0_0 }/* Class */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Void ParseExtensions::AddToList(TSource,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Object)
+extern const MethodInfo ParseExtensions_AddToList_m3792_MethodInfo = 
+{
+	"AddToList"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_AddToList_m3792_ParameterInfos/* parameters */
+	, 578/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1105/* token */
+	, ParseExtensions_AddToList_m3792_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_AddToList_m3792_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseExtensions_RemoveFromList_m3793_gp_0_0_0_0;
+extern const Il2CppType ParseExtensions_RemoveFromList_m3793_gp_0_0_0_0;
+extern const Il2CppType Expression_1_t851_0_0_0;
+extern const Il2CppType Expression_1_t851_0_0_0;
+extern const Il2CppType IEnumerable_1_t852_0_0_0;
+extern const Il2CppType IEnumerable_1_t852_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_RemoveFromList_m3793_ParameterInfos[] = 
+{
+	{"obj", 0, 134218675, 0, &ParseExtensions_RemoveFromList_m3793_gp_0_0_0_0},
+	{"expression", 1, 134218676, 0, &Expression_1_t851_0_0_0},
+	{"values", 2, 134218677, 0, &IEnumerable_1_t852_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_RemoveFromList_m3793_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_RemoveFromList_m3793_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_RemoveFromList_m3793_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_RemoveFromList_m3793_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_RemoveFromList_m3793_Il2CppGenericContainer, ParseExtensions_RemoveFromList_m3793_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_RemoveFromList_m3793_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_RemoveFromList_m3793_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_RemoveFromList_m3793_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+extern TypeInfo ParseExtensions_RemoveFromList_m3793_gp_TValues_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_RemoveFromList_m3793_gp_TValues_2_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_RemoveFromList_m3793_Il2CppGenericContainer, NULL, "TValues", 2, 0 };
+static const Il2CppGenericParameter* ParseExtensions_RemoveFromList_m3793_Il2CppGenericParametersArray[3] = 
+{
+	&ParseExtensions_RemoveFromList_m3793_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_RemoveFromList_m3793_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_RemoveFromList_m3793_gp_TValues_2_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_RemoveFromList_m3793_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_RemoveFromList_m3793_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_RemoveFromList_m3793_MethodInfo, 3, 1, ParseExtensions_RemoveFromList_m3793_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t850_TisTValue_t853_m3914_GenericMethod;
+extern const Il2CppGenericMethod ParseObject_RemoveAllFromList_TisTValues_t854_m3915_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_RemoveFromList_m3793_RGCTXData[4] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t850_TisTValue_t853_m3914_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ParseExtensions_RemoveFromList_m3793_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseObject_RemoveAllFromList_TisTValues_t854_m3915_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Void ParseExtensions::RemoveFromList(TSource,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Collections.Generic.IEnumerable`1<TValues>)
+extern const MethodInfo ParseExtensions_RemoveFromList_m3793_MethodInfo = 
+{
+	"RemoveFromList"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_RemoveFromList_m3793_ParameterInfos/* parameters */
+	, 579/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1106/* token */
+	, ParseExtensions_RemoveFromList_m3793_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_RemoveFromList_m3793_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t855_0_0_0;
+extern const Il2CppType ParseQuery_1_t855_0_0_0;
+extern const Il2CppType Expression_1_t856_0_0_0;
+extern const Il2CppType Expression_1_t856_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereEqualTo_m3794_ParameterInfos[] = 
+{
+	{"query", 0, 134218678, 0, &ParseQuery_1_t855_0_0_0},
+	{"expression", 1, 134218679, 0, &Expression_1_t856_0_0_0},
+	{"value", 2, 134218680, 0, &Object_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereEqualTo_m3794_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereEqualTo_m3794_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereEqualTo_m3794_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereEqualTo_m3794_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereEqualTo_m3794_Il2CppGenericContainer, ParseExtensions_WhereEqualTo_m3794_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereEqualTo_m3794_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereEqualTo_m3794_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereEqualTo_m3794_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereEqualTo_m3794_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereEqualTo_m3794_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereEqualTo_m3794_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereEqualTo_m3794_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereEqualTo_m3794_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereEqualTo_m3794_MethodInfo, 2, 1, ParseExtensions_WhereEqualTo_m3794_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t857_TisTValue_t858_m3916_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereEqualTo_m3917_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereEqualTo_m3794_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t857_TisTValue_t858_m3916_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereEqualTo_m3917_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereEqualTo(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Object)
+extern const MethodInfo ParseExtensions_WhereEqualTo_m3794_MethodInfo = 
+{
+	"WhereEqualTo"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t855_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereEqualTo_m3794_ParameterInfos/* parameters */
+	, 580/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1107/* token */
+	, ParseExtensions_WhereEqualTo_m3794_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereEqualTo_m3794_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t859_0_0_0;
+extern const Il2CppType ParseQuery_1_t859_0_0_0;
+extern const Il2CppType Expression_1_t860_0_0_0;
+extern const Il2CppType Expression_1_t860_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereNotEqualTo_m3795_ParameterInfos[] = 
+{
+	{"query", 0, 134218681, 0, &ParseQuery_1_t859_0_0_0},
+	{"expression", 1, 134218682, 0, &Expression_1_t860_0_0_0},
+	{"value", 2, 134218683, 0, &Object_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereNotEqualTo_m3795_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereNotEqualTo_m3795_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereNotEqualTo_m3795_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereNotEqualTo_m3795_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereNotEqualTo_m3795_Il2CppGenericContainer, ParseExtensions_WhereNotEqualTo_m3795_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereNotEqualTo_m3795_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereNotEqualTo_m3795_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereNotEqualTo_m3795_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereNotEqualTo_m3795_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereNotEqualTo_m3795_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereNotEqualTo_m3795_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereNotEqualTo_m3795_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereNotEqualTo_m3795_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereNotEqualTo_m3795_MethodInfo, 2, 1, ParseExtensions_WhereNotEqualTo_m3795_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t861_TisTValue_t862_m3918_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereNotEqualTo_m3919_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereNotEqualTo_m3795_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t861_TisTValue_t862_m3918_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereNotEqualTo_m3919_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereNotEqualTo(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Object)
+extern const MethodInfo ParseExtensions_WhereNotEqualTo_m3795_MethodInfo = 
+{
+	"WhereNotEqualTo"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t859_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereNotEqualTo_m3795_ParameterInfos/* parameters */
+	, 581/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1108/* token */
+	, ParseExtensions_WhereNotEqualTo_m3795_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereNotEqualTo_m3795_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t863_0_0_0;
+extern const Il2CppType ParseQuery_1_t863_0_0_0;
+extern const Il2CppType Expression_1_t864_0_0_0;
+extern const Il2CppType Expression_1_t864_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereGreaterThan_m3796_ParameterInfos[] = 
+{
+	{"query", 0, 134218684, 0, &ParseQuery_1_t863_0_0_0},
+	{"expression", 1, 134218685, 0, &Expression_1_t864_0_0_0},
+	{"value", 2, 134218686, 0, &Object_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereGreaterThan_m3796_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereGreaterThan_m3796_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereGreaterThan_m3796_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereGreaterThan_m3796_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereGreaterThan_m3796_Il2CppGenericContainer, ParseExtensions_WhereGreaterThan_m3796_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereGreaterThan_m3796_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereGreaterThan_m3796_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereGreaterThan_m3796_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereGreaterThan_m3796_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereGreaterThan_m3796_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereGreaterThan_m3796_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereGreaterThan_m3796_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereGreaterThan_m3796_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereGreaterThan_m3796_MethodInfo, 2, 1, ParseExtensions_WhereGreaterThan_m3796_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t865_TisTValue_t866_m3920_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereGreaterThan_m3921_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereGreaterThan_m3796_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t865_TisTValue_t866_m3920_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereGreaterThan_m3921_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereGreaterThan(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Object)
+extern const MethodInfo ParseExtensions_WhereGreaterThan_m3796_MethodInfo = 
+{
+	"WhereGreaterThan"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t863_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereGreaterThan_m3796_ParameterInfos/* parameters */
+	, 582/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1109/* token */
+	, ParseExtensions_WhereGreaterThan_m3796_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereGreaterThan_m3796_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t867_0_0_0;
+extern const Il2CppType ParseQuery_1_t867_0_0_0;
+extern const Il2CppType Expression_1_t868_0_0_0;
+extern const Il2CppType Expression_1_t868_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereLessThan_m3797_ParameterInfos[] = 
+{
+	{"query", 0, 134218687, 0, &ParseQuery_1_t867_0_0_0},
+	{"expression", 1, 134218688, 0, &Expression_1_t868_0_0_0},
+	{"value", 2, 134218689, 0, &Object_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereLessThan_m3797_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereLessThan_m3797_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereLessThan_m3797_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereLessThan_m3797_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereLessThan_m3797_Il2CppGenericContainer, ParseExtensions_WhereLessThan_m3797_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereLessThan_m3797_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereLessThan_m3797_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereLessThan_m3797_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereLessThan_m3797_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereLessThan_m3797_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereLessThan_m3797_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereLessThan_m3797_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereLessThan_m3797_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereLessThan_m3797_MethodInfo, 2, 1, ParseExtensions_WhereLessThan_m3797_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t869_TisTValue_t870_m3922_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereLessThan_m3923_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereLessThan_m3797_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t869_TisTValue_t870_m3922_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereLessThan_m3923_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereLessThan(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Object)
+extern const MethodInfo ParseExtensions_WhereLessThan_m3797_MethodInfo = 
+{
+	"WhereLessThan"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t867_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereLessThan_m3797_ParameterInfos/* parameters */
+	, 583/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1110/* token */
+	, ParseExtensions_WhereLessThan_m3797_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereLessThan_m3797_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t871_0_0_0;
+extern const Il2CppType ParseQuery_1_t871_0_0_0;
+extern const Il2CppType Expression_1_t872_0_0_0;
+extern const Il2CppType Expression_1_t872_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereLessThanOrEqualTo_m3798_ParameterInfos[] = 
+{
+	{"query", 0, 134218690, 0, &ParseQuery_1_t871_0_0_0},
+	{"expression", 1, 134218691, 0, &Expression_1_t872_0_0_0},
+	{"value", 2, 134218692, 0, &Object_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereLessThanOrEqualTo_m3798_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereLessThanOrEqualTo_m3798_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereLessThanOrEqualTo_m3798_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereLessThanOrEqualTo_m3798_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereLessThanOrEqualTo_m3798_Il2CppGenericContainer, ParseExtensions_WhereLessThanOrEqualTo_m3798_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereLessThanOrEqualTo_m3798_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereLessThanOrEqualTo_m3798_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereLessThanOrEqualTo_m3798_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereLessThanOrEqualTo_m3798_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereLessThanOrEqualTo_m3798_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereLessThanOrEqualTo_m3798_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereLessThanOrEqualTo_m3798_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereLessThanOrEqualTo_m3798_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereLessThanOrEqualTo_m3798_MethodInfo, 2, 1, ParseExtensions_WhereLessThanOrEqualTo_m3798_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t873_TisTValue_t874_m3924_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereLessThanOrEqualTo_m3925_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereLessThanOrEqualTo_m3798_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t873_TisTValue_t874_m3924_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereLessThanOrEqualTo_m3925_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereLessThanOrEqualTo(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Object)
+extern const MethodInfo ParseExtensions_WhereLessThanOrEqualTo_m3798_MethodInfo = 
+{
+	"WhereLessThanOrEqualTo"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t871_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereLessThanOrEqualTo_m3798_ParameterInfos/* parameters */
+	, 584/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1111/* token */
+	, ParseExtensions_WhereLessThanOrEqualTo_m3798_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereLessThanOrEqualTo_m3798_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t875_0_0_0;
+extern const Il2CppType ParseQuery_1_t875_0_0_0;
+extern const Il2CppType Expression_1_t876_0_0_0;
+extern const Il2CppType Expression_1_t876_0_0_0;
+extern const Il2CppType Object_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereGreaterThanOrEqualTo_m3799_ParameterInfos[] = 
+{
+	{"query", 0, 134218693, 0, &ParseQuery_1_t875_0_0_0},
+	{"expression", 1, 134218694, 0, &Expression_1_t876_0_0_0},
+	{"value", 2, 134218695, 0, &Object_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereGreaterThanOrEqualTo_m3799_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereGreaterThanOrEqualTo_m3799_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereGreaterThanOrEqualTo_m3799_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereGreaterThanOrEqualTo_m3799_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereGreaterThanOrEqualTo_m3799_Il2CppGenericContainer, ParseExtensions_WhereGreaterThanOrEqualTo_m3799_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereGreaterThanOrEqualTo_m3799_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereGreaterThanOrEqualTo_m3799_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereGreaterThanOrEqualTo_m3799_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereGreaterThanOrEqualTo_m3799_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereGreaterThanOrEqualTo_m3799_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereGreaterThanOrEqualTo_m3799_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereGreaterThanOrEqualTo_m3799_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereGreaterThanOrEqualTo_m3799_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereGreaterThanOrEqualTo_m3799_MethodInfo, 2, 1, ParseExtensions_WhereGreaterThanOrEqualTo_m3799_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t877_TisTValue_t878_m3926_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereGreaterThanOrEqualTo_m3927_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereGreaterThanOrEqualTo_m3799_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t877_TisTValue_t878_m3926_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereGreaterThanOrEqualTo_m3927_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereGreaterThanOrEqualTo(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Object)
+extern const MethodInfo ParseExtensions_WhereGreaterThanOrEqualTo_m3799_MethodInfo = 
+{
+	"WhereGreaterThanOrEqualTo"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t875_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereGreaterThanOrEqualTo_m3799_ParameterInfos/* parameters */
+	, 585/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1112/* token */
+	, ParseExtensions_WhereGreaterThanOrEqualTo_m3799_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereGreaterThanOrEqualTo_m3799_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t879_0_0_0;
+extern const Il2CppType ParseQuery_1_t879_0_0_0;
+extern const Il2CppType Expression_1_t880_0_0_0;
+extern const Il2CppType Expression_1_t880_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_Include_m3800_ParameterInfos[] = 
+{
+	{"query", 0, 134218696, 0, &ParseQuery_1_t879_0_0_0},
+	{"expression", 1, 134218697, 0, &Expression_1_t880_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_Include_m3800_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_Include_m3800_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_Include_m3800_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_Include_m3800_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_Include_m3800_Il2CppGenericContainer, ParseExtensions_Include_m3800_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_Include_m3800_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_Include_m3800_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_Include_m3800_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_Include_m3800_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_Include_m3800_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_Include_m3800_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_Include_m3800_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_Include_m3800_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_Include_m3800_MethodInfo, 2, 1, ParseExtensions_Include_m3800_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t881_TisTValue_t882_m3928_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_Include_m3929_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_Include_m3800_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t881_TisTValue_t882_m3928_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_Include_m3929_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::Include(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>)
+extern const MethodInfo ParseExtensions_Include_m3800_MethodInfo = 
+{
+	"Include"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t879_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_Include_m3800_ParameterInfos/* parameters */
+	, 586/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1113/* token */
+	, ParseExtensions_Include_m3800_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_Include_m3800_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t883_0_0_0;
+extern const Il2CppType ParseQuery_1_t883_0_0_0;
+extern const Il2CppType Expression_1_t884_0_0_0;
+extern const Il2CppType Expression_1_t884_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_OrderBy_m3801_ParameterInfos[] = 
+{
+	{"query", 0, 134218698, 0, &ParseQuery_1_t883_0_0_0},
+	{"expression", 1, 134218699, 0, &Expression_1_t884_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_OrderBy_m3801_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_OrderBy_m3801_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_OrderBy_m3801_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_OrderBy_m3801_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_OrderBy_m3801_Il2CppGenericContainer, ParseExtensions_OrderBy_m3801_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_OrderBy_m3801_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_OrderBy_m3801_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_OrderBy_m3801_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_OrderBy_m3801_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_OrderBy_m3801_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_OrderBy_m3801_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_OrderBy_m3801_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_OrderBy_m3801_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_OrderBy_m3801_MethodInfo, 2, 1, ParseExtensions_OrderBy_m3801_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t885_TisTValue_t886_m3930_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_OrderBy_m3931_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_OrderBy_m3801_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t885_TisTValue_t886_m3930_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_OrderBy_m3931_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::OrderBy(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>)
+extern const MethodInfo ParseExtensions_OrderBy_m3801_MethodInfo = 
+{
+	"OrderBy"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t883_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_OrderBy_m3801_ParameterInfos/* parameters */
+	, 587/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1114/* token */
+	, ParseExtensions_OrderBy_m3801_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_OrderBy_m3801_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t887_0_0_0;
+extern const Il2CppType ParseQuery_1_t887_0_0_0;
+extern const Il2CppType Expression_1_t888_0_0_0;
+extern const Il2CppType Expression_1_t888_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_OrderByDescending_m3802_ParameterInfos[] = 
+{
+	{"query", 0, 134218700, 0, &ParseQuery_1_t887_0_0_0},
+	{"expression", 1, 134218701, 0, &Expression_1_t888_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_OrderByDescending_m3802_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_OrderByDescending_m3802_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_OrderByDescending_m3802_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_OrderByDescending_m3802_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_OrderByDescending_m3802_Il2CppGenericContainer, ParseExtensions_OrderByDescending_m3802_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_OrderByDescending_m3802_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_OrderByDescending_m3802_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_OrderByDescending_m3802_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_OrderByDescending_m3802_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_OrderByDescending_m3802_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_OrderByDescending_m3802_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_OrderByDescending_m3802_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_OrderByDescending_m3802_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_OrderByDescending_m3802_MethodInfo, 2, 1, ParseExtensions_OrderByDescending_m3802_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t889_TisTValue_t890_m3932_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_OrderByDescending_m3933_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_OrderByDescending_m3802_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t889_TisTValue_t890_m3932_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_OrderByDescending_m3933_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::OrderByDescending(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>)
+extern const MethodInfo ParseExtensions_OrderByDescending_m3802_MethodInfo = 
+{
+	"OrderByDescending"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t887_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_OrderByDescending_m3802_ParameterInfos/* parameters */
+	, 588/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1115/* token */
+	, ParseExtensions_OrderByDescending_m3802_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_OrderByDescending_m3802_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t891_0_0_0;
+extern const Il2CppType ParseQuery_1_t891_0_0_0;
+extern const Il2CppType Expression_1_t892_0_0_0;
+extern const Il2CppType Expression_1_t892_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_ThenBy_m3803_ParameterInfos[] = 
+{
+	{"query", 0, 134218702, 0, &ParseQuery_1_t891_0_0_0},
+	{"expression", 1, 134218703, 0, &Expression_1_t892_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_ThenBy_m3803_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_ThenBy_m3803_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_ThenBy_m3803_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_ThenBy_m3803_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_ThenBy_m3803_Il2CppGenericContainer, ParseExtensions_ThenBy_m3803_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_ThenBy_m3803_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_ThenBy_m3803_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_ThenBy_m3803_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_ThenBy_m3803_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_ThenBy_m3803_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_ThenBy_m3803_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_ThenBy_m3803_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_ThenBy_m3803_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_ThenBy_m3803_MethodInfo, 2, 1, ParseExtensions_ThenBy_m3803_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t893_TisTValue_t894_m3934_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_ThenBy_m3935_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_ThenBy_m3803_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t893_TisTValue_t894_m3934_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_ThenBy_m3935_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::ThenBy(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>)
+extern const MethodInfo ParseExtensions_ThenBy_m3803_MethodInfo = 
+{
+	"ThenBy"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t891_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_ThenBy_m3803_ParameterInfos/* parameters */
+	, 589/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1116/* token */
+	, ParseExtensions_ThenBy_m3803_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_ThenBy_m3803_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t895_0_0_0;
+extern const Il2CppType ParseQuery_1_t895_0_0_0;
+extern const Il2CppType Expression_1_t896_0_0_0;
+extern const Il2CppType Expression_1_t896_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_ThenByDescending_m3804_ParameterInfos[] = 
+{
+	{"query", 0, 134218704, 0, &ParseQuery_1_t895_0_0_0},
+	{"expression", 1, 134218705, 0, &Expression_1_t896_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_ThenByDescending_m3804_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_ThenByDescending_m3804_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_ThenByDescending_m3804_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_ThenByDescending_m3804_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_ThenByDescending_m3804_Il2CppGenericContainer, ParseExtensions_ThenByDescending_m3804_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_ThenByDescending_m3804_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_ThenByDescending_m3804_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_ThenByDescending_m3804_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_ThenByDescending_m3804_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_ThenByDescending_m3804_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_ThenByDescending_m3804_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_ThenByDescending_m3804_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_ThenByDescending_m3804_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_ThenByDescending_m3804_MethodInfo, 2, 1, ParseExtensions_ThenByDescending_m3804_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t897_TisTValue_t898_m3936_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_ThenByDescending_m3937_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_ThenByDescending_m3804_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t897_TisTValue_t898_m3936_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_ThenByDescending_m3937_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::ThenByDescending(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>)
+extern const MethodInfo ParseExtensions_ThenByDescending_m3804_MethodInfo = 
+{
+	"ThenByDescending"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t895_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_ThenByDescending_m3804_ParameterInfos/* parameters */
+	, 590/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1117/* token */
+	, ParseExtensions_ThenByDescending_m3804_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_ThenByDescending_m3804_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t899_0_0_0;
+extern const Il2CppType ParseQuery_1_t899_0_0_0;
+extern const Il2CppType Expression_1_t900_0_0_0;
+extern const Il2CppType Expression_1_t900_0_0_0;
+extern const Il2CppType IEnumerable_1_t901_0_0_0;
+extern const Il2CppType IEnumerable_1_t901_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereContainedIn_m3805_ParameterInfos[] = 
+{
+	{"query", 0, 134218706, 0, &ParseQuery_1_t899_0_0_0},
+	{"expression", 1, 134218707, 0, &Expression_1_t900_0_0_0},
+	{"values", 2, 134218708, 0, &IEnumerable_1_t901_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereContainedIn_m3805_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereContainedIn_m3805_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereContainedIn_m3805_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereContainedIn_m3805_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereContainedIn_m3805_Il2CppGenericContainer, ParseExtensions_WhereContainedIn_m3805_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereContainedIn_m3805_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereContainedIn_m3805_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereContainedIn_m3805_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+extern TypeInfo ParseExtensions_WhereContainedIn_m3805_gp_TIn_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereContainedIn_m3805_gp_TIn_2_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereContainedIn_m3805_Il2CppGenericContainer, NULL, "TIn", 2, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereContainedIn_m3805_Il2CppGenericParametersArray[3] = 
+{
+	&ParseExtensions_WhereContainedIn_m3805_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereContainedIn_m3805_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereContainedIn_m3805_gp_TIn_2_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereContainedIn_m3805_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereContainedIn_m3805_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereContainedIn_m3805_MethodInfo, 3, 1, ParseExtensions_WhereContainedIn_m3805_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t902_TisTValue_t903_m3938_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereContainedIn_TisTIn_t904_m3939_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereContainedIn_m3805_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t902_TisTValue_t903_m3938_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereContainedIn_TisTIn_t904_m3939_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereContainedIn(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Collections.Generic.IEnumerable`1<TIn>)
+extern const MethodInfo ParseExtensions_WhereContainedIn_m3805_MethodInfo = 
+{
+	"WhereContainedIn"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t899_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereContainedIn_m3805_ParameterInfos/* parameters */
+	, 591/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1118/* token */
+	, ParseExtensions_WhereContainedIn_m3805_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereContainedIn_m3805_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t905_0_0_0;
+extern const Il2CppType ParseQuery_1_t905_0_0_0;
+extern const Il2CppType Expression_1_t906_0_0_0;
+extern const Il2CppType Expression_1_t906_0_0_0;
+extern const Il2CppType String_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereContains_m3806_ParameterInfos[] = 
+{
+	{"query", 0, 134218709, 0, &ParseQuery_1_t905_0_0_0},
+	{"expression", 1, 134218710, 0, &Expression_1_t906_0_0_0},
+	{"substring", 2, 134218711, 0, &String_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereContains_m3806_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereContains_m3806_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereContains_m3806_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereContains_m3806_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereContains_m3806_Il2CppGenericContainer, ParseExtensions_WhereContains_m3806_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereContains_m3806_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereContains_m3806_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereContains_m3806_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereContains_m3806_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereContains_m3806_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereContains_m3806_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereContains_m3806_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereContains_m3806_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereContains_m3806_MethodInfo, 2, 1, ParseExtensions_WhereContains_m3806_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t907_TisTValue_t908_m3940_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereContains_m3941_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereContains_m3806_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t907_TisTValue_t908_m3940_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereContains_m3941_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereContains(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.String)
+extern const MethodInfo ParseExtensions_WhereContains_m3806_MethodInfo = 
+{
+	"WhereContains"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t905_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereContains_m3806_ParameterInfos/* parameters */
+	, 592/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1119/* token */
+	, ParseExtensions_WhereContains_m3806_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereContains_m3806_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t909_0_0_0;
+extern const Il2CppType ParseQuery_1_t909_0_0_0;
+extern const Il2CppType Expression_1_t910_0_0_0;
+extern const Il2CppType Expression_1_t910_0_0_0;
+extern const Il2CppType IEnumerable_1_t911_0_0_0;
+extern const Il2CppType IEnumerable_1_t911_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereNotContainedIn_m3807_ParameterInfos[] = 
+{
+	{"query", 0, 134218712, 0, &ParseQuery_1_t909_0_0_0},
+	{"expression", 1, 134218713, 0, &Expression_1_t910_0_0_0},
+	{"values", 2, 134218714, 0, &IEnumerable_1_t911_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereNotContainedIn_m3807_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereNotContainedIn_m3807_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereNotContainedIn_m3807_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereNotContainedIn_m3807_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereNotContainedIn_m3807_Il2CppGenericContainer, ParseExtensions_WhereNotContainedIn_m3807_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereNotContainedIn_m3807_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereNotContainedIn_m3807_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereNotContainedIn_m3807_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+extern TypeInfo ParseExtensions_WhereNotContainedIn_m3807_gp_TIn_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereNotContainedIn_m3807_gp_TIn_2_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereNotContainedIn_m3807_Il2CppGenericContainer, NULL, "TIn", 2, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereNotContainedIn_m3807_Il2CppGenericParametersArray[3] = 
+{
+	&ParseExtensions_WhereNotContainedIn_m3807_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereNotContainedIn_m3807_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereNotContainedIn_m3807_gp_TIn_2_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereNotContainedIn_m3807_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereNotContainedIn_m3807_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereNotContainedIn_m3807_MethodInfo, 3, 1, ParseExtensions_WhereNotContainedIn_m3807_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t912_TisTValue_t913_m3942_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereNotContainedIn_TisTIn_t914_m3943_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereNotContainedIn_m3807_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t912_TisTValue_t913_m3942_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereNotContainedIn_TisTIn_t914_m3943_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereNotContainedIn(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Collections.Generic.IEnumerable`1<TIn>)
+extern const MethodInfo ParseExtensions_WhereNotContainedIn_m3807_MethodInfo = 
+{
+	"WhereNotContainedIn"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t909_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereNotContainedIn_m3807_ParameterInfos/* parameters */
+	, 593/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1120/* token */
+	, ParseExtensions_WhereNotContainedIn_m3807_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereNotContainedIn_m3807_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t915_0_0_0;
+extern const Il2CppType ParseQuery_1_t915_0_0_0;
+extern const Il2CppType Expression_1_t916_0_0_0;
+extern const Il2CppType Expression_1_t916_0_0_0;
+extern const Il2CppType IEnumerable_1_t917_0_0_0;
+extern const Il2CppType IEnumerable_1_t917_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereContainsAll_m3808_ParameterInfos[] = 
+{
+	{"query", 0, 134218715, 0, &ParseQuery_1_t915_0_0_0},
+	{"expression", 1, 134218716, 0, &Expression_1_t916_0_0_0},
+	{"values", 2, 134218717, 0, &IEnumerable_1_t917_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereContainsAll_m3808_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereContainsAll_m3808_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereContainsAll_m3808_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereContainsAll_m3808_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereContainsAll_m3808_Il2CppGenericContainer, ParseExtensions_WhereContainsAll_m3808_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereContainsAll_m3808_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereContainsAll_m3808_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereContainsAll_m3808_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+extern TypeInfo ParseExtensions_WhereContainsAll_m3808_gp_TIn_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereContainsAll_m3808_gp_TIn_2_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereContainsAll_m3808_Il2CppGenericContainer, NULL, "TIn", 2, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereContainsAll_m3808_Il2CppGenericParametersArray[3] = 
+{
+	&ParseExtensions_WhereContainsAll_m3808_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereContainsAll_m3808_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereContainsAll_m3808_gp_TIn_2_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereContainsAll_m3808_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereContainsAll_m3808_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereContainsAll_m3808_MethodInfo, 3, 1, ParseExtensions_WhereContainsAll_m3808_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t918_TisTValue_t919_m3944_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereContainsAll_TisTIn_t920_m3945_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereContainsAll_m3808_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t918_TisTValue_t919_m3944_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereContainsAll_TisTIn_t920_m3945_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereContainsAll(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.Collections.Generic.IEnumerable`1<TIn>)
+extern const MethodInfo ParseExtensions_WhereContainsAll_m3808_MethodInfo = 
+{
+	"WhereContainsAll"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t915_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereContainsAll_m3808_ParameterInfos/* parameters */
+	, 594/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1121/* token */
+	, ParseExtensions_WhereContainsAll_m3808_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereContainsAll_m3808_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t921_0_0_0;
+extern const Il2CppType ParseQuery_1_t921_0_0_0;
+extern const Il2CppType Expression_1_t922_0_0_0;
+extern const Il2CppType Expression_1_t922_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereDoesNotExist_m3809_ParameterInfos[] = 
+{
+	{"query", 0, 134218718, 0, &ParseQuery_1_t921_0_0_0},
+	{"expression", 1, 134218719, 0, &Expression_1_t922_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereDoesNotExist_m3809_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereDoesNotExist_m3809_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereDoesNotExist_m3809_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereDoesNotExist_m3809_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereDoesNotExist_m3809_Il2CppGenericContainer, ParseExtensions_WhereDoesNotExist_m3809_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereDoesNotExist_m3809_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereDoesNotExist_m3809_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereDoesNotExist_m3809_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereDoesNotExist_m3809_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereDoesNotExist_m3809_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereDoesNotExist_m3809_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereDoesNotExist_m3809_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereDoesNotExist_m3809_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereDoesNotExist_m3809_MethodInfo, 2, 1, ParseExtensions_WhereDoesNotExist_m3809_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t923_TisTValue_t924_m3946_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereDoesNotExist_m3947_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereDoesNotExist_m3809_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t923_TisTValue_t924_m3946_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereDoesNotExist_m3947_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereDoesNotExist(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>)
+extern const MethodInfo ParseExtensions_WhereDoesNotExist_m3809_MethodInfo = 
+{
+	"WhereDoesNotExist"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t921_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereDoesNotExist_m3809_ParameterInfos/* parameters */
+	, 595/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1122/* token */
+	, ParseExtensions_WhereDoesNotExist_m3809_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereDoesNotExist_m3809_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t925_0_0_0;
+extern const Il2CppType ParseQuery_1_t925_0_0_0;
+extern const Il2CppType Expression_1_t926_0_0_0;
+extern const Il2CppType Expression_1_t926_0_0_0;
+extern const Il2CppType String_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereEndsWith_m3810_ParameterInfos[] = 
+{
+	{"query", 0, 134218720, 0, &ParseQuery_1_t925_0_0_0},
+	{"expression", 1, 134218721, 0, &Expression_1_t926_0_0_0},
+	{"suffix", 2, 134218722, 0, &String_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereEndsWith_m3810_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereEndsWith_m3810_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereEndsWith_m3810_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereEndsWith_m3810_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereEndsWith_m3810_Il2CppGenericContainer, ParseExtensions_WhereEndsWith_m3810_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereEndsWith_m3810_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereEndsWith_m3810_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereEndsWith_m3810_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereEndsWith_m3810_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereEndsWith_m3810_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereEndsWith_m3810_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereEndsWith_m3810_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereEndsWith_m3810_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereEndsWith_m3810_MethodInfo, 2, 1, ParseExtensions_WhereEndsWith_m3810_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t927_TisTValue_t928_m3948_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereEndsWith_m3949_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereEndsWith_m3810_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t927_TisTValue_t928_m3948_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereEndsWith_m3949_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereEndsWith(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.String)
+extern const MethodInfo ParseExtensions_WhereEndsWith_m3810_MethodInfo = 
+{
+	"WhereEndsWith"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t925_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereEndsWith_m3810_ParameterInfos/* parameters */
+	, 596/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1123/* token */
+	, ParseExtensions_WhereEndsWith_m3810_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereEndsWith_m3810_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t929_0_0_0;
+extern const Il2CppType ParseQuery_1_t929_0_0_0;
+extern const Il2CppType Expression_1_t930_0_0_0;
+extern const Il2CppType Expression_1_t930_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereExists_m3811_ParameterInfos[] = 
+{
+	{"query", 0, 134218723, 0, &ParseQuery_1_t929_0_0_0},
+	{"expression", 1, 134218724, 0, &Expression_1_t930_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereExists_m3811_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereExists_m3811_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereExists_m3811_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereExists_m3811_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereExists_m3811_Il2CppGenericContainer, ParseExtensions_WhereExists_m3811_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereExists_m3811_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereExists_m3811_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereExists_m3811_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereExists_m3811_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereExists_m3811_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereExists_m3811_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereExists_m3811_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereExists_m3811_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereExists_m3811_MethodInfo, 2, 1, ParseExtensions_WhereExists_m3811_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t931_TisTValue_t932_m3950_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereExists_m3951_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereExists_m3811_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t931_TisTValue_t932_m3950_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereExists_m3951_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereExists(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>)
+extern const MethodInfo ParseExtensions_WhereExists_m3811_MethodInfo = 
+{
+	"WhereExists"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t929_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereExists_m3811_ParameterInfos/* parameters */
+	, 597/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1124/* token */
+	, ParseExtensions_WhereExists_m3811_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereExists_m3811_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t933_0_0_0;
+extern const Il2CppType ParseQuery_1_t933_0_0_0;
+extern const Il2CppType Expression_1_t934_0_0_0;
+extern const Il2CppType Expression_1_t934_0_0_0;
+extern const Il2CppType ParseGeoPoint_t935_0_0_0;
+extern const Il2CppType ParseGeoPoint_t935_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereNear_m3812_ParameterInfos[] = 
+{
+	{"query", 0, 134218725, 0, &ParseQuery_1_t933_0_0_0},
+	{"expression", 1, 134218726, 0, &Expression_1_t934_0_0_0},
+	{"point", 2, 134218727, 0, &ParseGeoPoint_t935_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereNear_m3812_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereNear_m3812_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereNear_m3812_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereNear_m3812_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereNear_m3812_Il2CppGenericContainer, ParseExtensions_WhereNear_m3812_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereNear_m3812_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereNear_m3812_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereNear_m3812_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereNear_m3812_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereNear_m3812_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereNear_m3812_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereNear_m3812_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereNear_m3812_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereNear_m3812_MethodInfo, 2, 1, ParseExtensions_WhereNear_m3812_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t936_TisTValue_t937_m3952_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereNear_m3953_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereNear_m3812_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t936_TisTValue_t937_m3952_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereNear_m3953_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereNear(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,Parse.ParseGeoPoint)
+extern const MethodInfo ParseExtensions_WhereNear_m3812_MethodInfo = 
+{
+	"WhereNear"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t933_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereNear_m3812_ParameterInfos/* parameters */
+	, 598/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1125/* token */
+	, ParseExtensions_WhereNear_m3812_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereNear_m3812_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t938_0_0_0;
+extern const Il2CppType ParseQuery_1_t938_0_0_0;
+extern const Il2CppType Expression_1_t939_0_0_0;
+extern const Il2CppType Expression_1_t939_0_0_0;
+extern const Il2CppType String_t_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereStartsWith_m3813_ParameterInfos[] = 
+{
+	{"query", 0, 134218728, 0, &ParseQuery_1_t938_0_0_0},
+	{"expression", 1, 134218729, 0, &Expression_1_t939_0_0_0},
+	{"substring", 2, 134218730, 0, &String_t_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereStartsWith_m3813_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereStartsWith_m3813_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereStartsWith_m3813_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereStartsWith_m3813_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereStartsWith_m3813_Il2CppGenericContainer, ParseExtensions_WhereStartsWith_m3813_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereStartsWith_m3813_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereStartsWith_m3813_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereStartsWith_m3813_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereStartsWith_m3813_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereStartsWith_m3813_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereStartsWith_m3813_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereStartsWith_m3813_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereStartsWith_m3813_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereStartsWith_m3813_MethodInfo, 2, 1, ParseExtensions_WhereStartsWith_m3813_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t940_TisTValue_t941_m3954_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereStartsWith_m3955_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereStartsWith_m3813_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t940_TisTValue_t941_m3954_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereStartsWith_m3955_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereStartsWith(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,System.String)
+extern const MethodInfo ParseExtensions_WhereStartsWith_m3813_MethodInfo = 
+{
+	"WhereStartsWith"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t938_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereStartsWith_m3813_ParameterInfos/* parameters */
+	, 599/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1126/* token */
+	, ParseExtensions_WhereStartsWith_m3813_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereStartsWith_m3813_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t942_0_0_0;
+extern const Il2CppType ParseQuery_1_t942_0_0_0;
+extern const Il2CppType Expression_1_t943_0_0_0;
+extern const Il2CppType Expression_1_t943_0_0_0;
+extern const Il2CppType ParseGeoPoint_t935_0_0_0;
+extern const Il2CppType ParseGeoDistance_t944_0_0_0;
+extern const Il2CppType ParseGeoDistance_t944_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereWithinDistance_m3814_ParameterInfos[] = 
+{
+	{"query", 0, 134218731, 0, &ParseQuery_1_t942_0_0_0},
+	{"expression", 1, 134218732, 0, &Expression_1_t943_0_0_0},
+	{"point", 2, 134218733, 0, &ParseGeoPoint_t935_0_0_0},
+	{"maxDistance", 3, 134218734, 0, &ParseGeoDistance_t944_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereWithinDistance_m3814_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereWithinDistance_m3814_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereWithinDistance_m3814_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereWithinDistance_m3814_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereWithinDistance_m3814_Il2CppGenericContainer, ParseExtensions_WhereWithinDistance_m3814_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereWithinDistance_m3814_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereWithinDistance_m3814_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereWithinDistance_m3814_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereWithinDistance_m3814_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereWithinDistance_m3814_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereWithinDistance_m3814_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereWithinDistance_m3814_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereWithinDistance_m3814_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereWithinDistance_m3814_MethodInfo, 2, 1, ParseExtensions_WhereWithinDistance_m3814_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t945_TisTValue_t946_m3956_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereWithinDistance_m3957_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereWithinDistance_m3814_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t945_TisTValue_t946_m3956_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereWithinDistance_m3957_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereWithinDistance(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,Parse.ParseGeoPoint,Parse.ParseGeoDistance)
+extern const MethodInfo ParseExtensions_WhereWithinDistance_m3814_MethodInfo = 
+{
+	"WhereWithinDistance"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t942_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereWithinDistance_m3814_ParameterInfos/* parameters */
+	, 600/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 4/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1127/* token */
+	, ParseExtensions_WhereWithinDistance_m3814_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereWithinDistance_m3814_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType ParseQuery_1_t947_0_0_0;
+extern const Il2CppType ParseQuery_1_t947_0_0_0;
+extern const Il2CppType Expression_1_t948_0_0_0;
+extern const Il2CppType Expression_1_t948_0_0_0;
+extern const Il2CppType ParseGeoPoint_t935_0_0_0;
+extern const Il2CppType ParseGeoPoint_t935_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_WhereWithinGeoBox_m3815_ParameterInfos[] = 
+{
+	{"query", 0, 134218735, 0, &ParseQuery_1_t947_0_0_0},
+	{"expression", 1, 134218736, 0, &Expression_1_t948_0_0_0},
+	{"southWest", 2, 134218737, 0, &ParseGeoPoint_t935_0_0_0},
+	{"northEast", 3, 134218738, 0, &ParseGeoPoint_t935_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_WhereWithinGeoBox_m3815_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_WhereWithinGeoBox_m3815_gp_TSource_0_il2cpp_TypeInfo;
+static const Il2CppType* ParseExtensions_WhereWithinGeoBox_m3815_gp_TSource_0_il2cpp_TypeInfo_constraints[] = { 
+&ParseObject_t596_0_0_0 /* Parse.ParseObject */, 
+ NULL };
+extern const Il2CppGenericParameter ParseExtensions_WhereWithinGeoBox_m3815_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereWithinGeoBox_m3815_Il2CppGenericContainer, ParseExtensions_WhereWithinGeoBox_m3815_gp_TSource_0_il2cpp_TypeInfo_constraints, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_WhereWithinGeoBox_m3815_gp_TValue_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_WhereWithinGeoBox_m3815_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_WhereWithinGeoBox_m3815_Il2CppGenericContainer, NULL, "TValue", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_WhereWithinGeoBox_m3815_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_WhereWithinGeoBox_m3815_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_WhereWithinGeoBox_m3815_gp_TValue_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_WhereWithinGeoBox_m3815_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_WhereWithinGeoBox_m3815_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_WhereWithinGeoBox_m3815_MethodInfo, 2, 1, ParseExtensions_WhereWithinGeoBox_m3815_Il2CppGenericParametersArray };
+extern const Il2CppGenericMethod ParseExtensions_GetKey_TisTSource_t949_TisTValue_t950_m3958_GenericMethod;
+extern const Il2CppGenericMethod ParseQuery_1_WhereWithinGeoBox_m3959_GenericMethod;
+static Il2CppRGCTXDefinition ParseExtensions_WhereWithinGeoBox_m3815_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseExtensions_GetKey_TisTSource_t949_TisTValue_t950_m3958_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ParseQuery_1_WhereWithinGeoBox_m3959_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// Parse.ParseQuery`1<TSource> ParseExtensions::WhereWithinGeoBox(Parse.ParseQuery`1<TSource>,System.Linq.Expressions.Expression`1<System.Func`2<TSource,TValue>>,Parse.ParseGeoPoint,Parse.ParseGeoPoint)
+extern const MethodInfo ParseExtensions_WhereWithinGeoBox_m3815_MethodInfo = 
+{
+	"WhereWithinGeoBox"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &ParseQuery_1_t947_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_WhereWithinGeoBox_m3815_ParameterInfos/* parameters */
+	, 601/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 4/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1128/* token */
+	, ParseExtensions_WhereWithinGeoBox_m3815_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_WhereWithinGeoBox_m3815_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Expression_1_t951_0_0_0;
+extern const Il2CppType Expression_1_t951_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_GetKey_m3816_ParameterInfos[] = 
+{
+	{"expression", 0, 134218739, 0, &Expression_1_t951_0_0_0},
+};
+extern const Il2CppGenericContainer ParseExtensions_GetKey_m3816_Il2CppGenericContainer;
+extern TypeInfo ParseExtensions_GetKey_m3816_gp_TSource_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_GetKey_m3816_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_GetKey_m3816_Il2CppGenericContainer, NULL, "TSource", 0, 0 };
+extern TypeInfo ParseExtensions_GetKey_m3816_gp_TProperty_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter ParseExtensions_GetKey_m3816_gp_TProperty_1_il2cpp_TypeInfo_GenericParamFull = { &ParseExtensions_GetKey_m3816_Il2CppGenericContainer, NULL, "TProperty", 1, 0 };
+static const Il2CppGenericParameter* ParseExtensions_GetKey_m3816_Il2CppGenericParametersArray[2] = 
+{
+	&ParseExtensions_GetKey_m3816_gp_TSource_0_il2cpp_TypeInfo_GenericParamFull,
+	&ParseExtensions_GetKey_m3816_gp_TProperty_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo ParseExtensions_GetKey_m3816_MethodInfo;
+extern const Il2CppGenericContainer ParseExtensions_GetKey_m3816_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&ParseExtensions_GetKey_m3816_MethodInfo, 2, 1, ParseExtensions_GetKey_m3816_Il2CppGenericParametersArray };
+// System.String ParseExtensions::GetKey(System.Linq.Expressions.Expression`1<System.Func`2<TSource,TProperty>>)
+extern const MethodInfo ParseExtensions_GetKey_m3816_MethodInfo = 
+{
+	"GetKey"/* name */
+	, NULL/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &String_t_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_GetKey_m3816_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1129/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &ParseExtensions_GetKey_m3816_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Expression_t630_0_0_0;
+extern const Il2CppType Expression_t630_0_0_0;
+extern const Il2CppType List_1_t1_0_0_0;
+extern const Il2CppType List_1_t1_0_0_0;
+static const ParameterInfo ParseExtensions_t333_ParseExtensions_GetPropertyChain_m1261_ParameterInfos[] = 
+{
+	{"expression", 0, 134218740, 0, &Expression_t630_0_0_0},
+	{"chain", 1, 134218741, 0, &List_1_t1_0_0_0},
+};
+extern const Il2CppType Type_t_0_0_0;
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Type ParseExtensions::GetPropertyChain(System.Linq.Expressions.Expression,System.Collections.Generic.List`1<System.String>)
+extern const MethodInfo ParseExtensions_GetPropertyChain_m1261_MethodInfo = 
+{
+	"GetPropertyChain"/* name */
+	, (methodPointerType)&ParseExtensions_GetPropertyChain_m1261/* method */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* declaring_type */
+	, &Type_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, ParseExtensions_t333_ParseExtensions_GetPropertyChain_m1261_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1130/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* ParseExtensions_t333_MethodInfos[] =
+{
+	&ParseExtensions_GetKey_m3791_MethodInfo,
+	&ParseExtensions_AddToList_m3792_MethodInfo,
+	&ParseExtensions_RemoveFromList_m3793_MethodInfo,
+	&ParseExtensions_WhereEqualTo_m3794_MethodInfo,
+	&ParseExtensions_WhereNotEqualTo_m3795_MethodInfo,
+	&ParseExtensions_WhereGreaterThan_m3796_MethodInfo,
+	&ParseExtensions_WhereLessThan_m3797_MethodInfo,
+	&ParseExtensions_WhereLessThanOrEqualTo_m3798_MethodInfo,
+	&ParseExtensions_WhereGreaterThanOrEqualTo_m3799_MethodInfo,
+	&ParseExtensions_Include_m3800_MethodInfo,
+	&ParseExtensions_OrderBy_m3801_MethodInfo,
+	&ParseExtensions_OrderByDescending_m3802_MethodInfo,
+	&ParseExtensions_ThenBy_m3803_MethodInfo,
+	&ParseExtensions_ThenByDescending_m3804_MethodInfo,
+	&ParseExtensions_WhereContainedIn_m3805_MethodInfo,
+	&ParseExtensions_WhereContains_m3806_MethodInfo,
+	&ParseExtensions_WhereNotContainedIn_m3807_MethodInfo,
+	&ParseExtensions_WhereContainsAll_m3808_MethodInfo,
+	&ParseExtensions_WhereDoesNotExist_m3809_MethodInfo,
+	&ParseExtensions_WhereEndsWith_m3810_MethodInfo,
+	&ParseExtensions_WhereExists_m3811_MethodInfo,
+	&ParseExtensions_WhereNear_m3812_MethodInfo,
+	&ParseExtensions_WhereStartsWith_m3813_MethodInfo,
+	&ParseExtensions_WhereWithinDistance_m3814_MethodInfo,
+	&ParseExtensions_WhereWithinGeoBox_m3815_MethodInfo,
+	&ParseExtensions_GetKey_m3816_MethodInfo,
+	&ParseExtensions_GetPropertyChain_m1261_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference ParseExtensions_t333_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool ParseExtensions_t333_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType ParseExtensions_t333_0_0_0;
+extern const Il2CppType ParseExtensions_t333_1_0_0;
+struct ParseExtensions_t333;
+const Il2CppTypeDefinitionMetadata ParseExtensions_t333_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, ParseExtensions_t333_VTable/* vtableMethods */
+	, ParseExtensions_t333_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo ParseExtensions_t333_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "ParseExtensions"/* name */
+	, ""/* namespaze */
+	, ParseExtensions_t333_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &ParseExtensions_t333_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 576/* custom_attributes_cache */
+	, &ParseExtensions_t333_0_0_0/* byval_arg */
+	, &ParseExtensions_t333_1_0_0/* this_arg */
+	, &ParseExtensions_t333_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (ParseExtensions_t333)/* instance_size */
+	, sizeof (ParseExtensions_t333)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048961/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 27/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// UnityParseHelpers.ParseFieldTypeAttribute
+#include "AssemblyU2DCSharp_UnityParseHelpers_ParseFieldTypeAttribute.h"
+// Metadata Definition UnityParseHelpers.ParseFieldTypeAttribute
+extern TypeInfo ParseFieldTypeAttribute_t334_il2cpp_TypeInfo;
+// UnityParseHelpers.ParseFieldTypeAttribute
+#include "AssemblyU2DCSharp_UnityParseHelpers_ParseFieldTypeAttributeMethodDeclarations.h"
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo ParseFieldTypeAttribute_t334_ParseFieldTypeAttribute__ctor_m1262_ParameterInfos[] = 
+{
+	{"type", 0, 134218742, 0, &Type_t_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.ParseFieldTypeAttribute::.ctor(System.Type)
+extern const MethodInfo ParseFieldTypeAttribute__ctor_m1262_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&ParseFieldTypeAttribute__ctor_m1262/* method */
+	, &ParseFieldTypeAttribute_t334_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, ParseFieldTypeAttribute_t334_ParseFieldTypeAttribute__ctor_m1262_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1131/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Type UnityParseHelpers.ParseFieldTypeAttribute::get_FieldType()
+extern const MethodInfo ParseFieldTypeAttribute_get_FieldType_m1263_MethodInfo = 
+{
+	"get_FieldType"/* name */
+	, (methodPointerType)&ParseFieldTypeAttribute_get_FieldType_m1263/* method */
+	, &ParseFieldTypeAttribute_t334_il2cpp_TypeInfo/* declaring_type */
+	, &Type_t_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t/* invoker_method */
+	, NULL/* parameters */
+	, 604/* custom_attributes_cache */
+	, 2182/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1132/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Type_t_0_0_0;
+static const ParameterInfo ParseFieldTypeAttribute_t334_ParseFieldTypeAttribute_set_FieldType_m1264_ParameterInfos[] = 
+{
+	{"value", 0, 134218743, 0, &Type_t_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void UnityParseHelpers.ParseFieldTypeAttribute::set_FieldType(System.Type)
+extern const MethodInfo ParseFieldTypeAttribute_set_FieldType_m1264_MethodInfo = 
+{
+	"set_FieldType"/* name */
+	, (methodPointerType)&ParseFieldTypeAttribute_set_FieldType_m1264/* method */
+	, &ParseFieldTypeAttribute_t334_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, ParseFieldTypeAttribute_t334_ParseFieldTypeAttribute_set_FieldType_m1264_ParameterInfos/* parameters */
+	, 605/* custom_attributes_cache */
+	, 2177/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1133/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* ParseFieldTypeAttribute_t334_MethodInfos[] =
+{
+	&ParseFieldTypeAttribute__ctor_m1262_MethodInfo,
+	&ParseFieldTypeAttribute_get_FieldType_m1263_MethodInfo,
+	&ParseFieldTypeAttribute_set_FieldType_m1264_MethodInfo,
+	NULL
+};
+extern const MethodInfo ParseFieldTypeAttribute_get_FieldType_m1263_MethodInfo;
+extern const MethodInfo ParseFieldTypeAttribute_set_FieldType_m1264_MethodInfo;
+static const PropertyInfo ParseFieldTypeAttribute_t334____FieldType_PropertyInfo = 
+{
+	&ParseFieldTypeAttribute_t334_il2cpp_TypeInfo/* parent */
+	, "FieldType"/* name */
+	, &ParseFieldTypeAttribute_get_FieldType_m1263_MethodInfo/* get */
+	, &ParseFieldTypeAttribute_set_FieldType_m1264_MethodInfo/* set */
+	, 0/* attrs */
+	, 0/* custom_attributes_cache */
+
+};
+static const PropertyInfo* ParseFieldTypeAttribute_t334_PropertyInfos[] =
+{
+	&ParseFieldTypeAttribute_t334____FieldType_PropertyInfo,
+	NULL
+};
+extern const MethodInfo Attribute_Equals_m3960_MethodInfo;
+extern const MethodInfo Attribute_GetHashCode_m3961_MethodInfo;
+static const Il2CppMethodReference ParseFieldTypeAttribute_t334_VTable[] =
+{
+	&Attribute_Equals_m3960_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Attribute_GetHashCode_m3961_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool ParseFieldTypeAttribute_t334_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppType _Attribute_t954_0_0_0;
+static Il2CppInterfaceOffsetPair ParseFieldTypeAttribute_t334_InterfacesOffsets[] = 
+{
+	{ &_Attribute_t954_0_0_0, 4},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType ParseFieldTypeAttribute_t334_0_0_0;
+extern const Il2CppType ParseFieldTypeAttribute_t334_1_0_0;
+extern const Il2CppType Attribute_t335_0_0_0;
+struct ParseFieldTypeAttribute_t334;
+const Il2CppTypeDefinitionMetadata ParseFieldTypeAttribute_t334_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, ParseFieldTypeAttribute_t334_InterfacesOffsets/* interfaceOffsets */
+	, &Attribute_t335_0_0_0/* parent */
+	, ParseFieldTypeAttribute_t334_VTable/* vtableMethods */
+	, ParseFieldTypeAttribute_t334_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1497/* fieldStart */
+
+};
+TypeInfo ParseFieldTypeAttribute_t334_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "ParseFieldTypeAttribute"/* name */
+	, "UnityParseHelpers"/* namespaze */
+	, ParseFieldTypeAttribute_t334_MethodInfos/* methods */
+	, ParseFieldTypeAttribute_t334_PropertyInfos/* properties */
+	, NULL/* events */
+	, &ParseFieldTypeAttribute_t334_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 602/* custom_attributes_cache */
+	, &ParseFieldTypeAttribute_t334_0_0_0/* byval_arg */
+	, &ParseFieldTypeAttribute_t334_1_0_0/* this_arg */
+	, &ParseFieldTypeAttribute_t334_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (ParseFieldTypeAttribute_t334)/* instance_size */
+	, sizeof (ParseFieldTypeAttribute_t334)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048577/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 3/* method_count */
+	, 1/* property_count */
+	, 1/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 1/* interface_offsets_count */
+
+};
+// TaskExtensions/<Then>c__AnonStorey24
+#include "AssemblyU2DCSharp_TaskExtensions_U3CThenU3Ec__AnonStorey24.h"
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey24
+extern TypeInfo U3CThenU3Ec__AnonStorey24_t338_il2cpp_TypeInfo;
+// TaskExtensions/<Then>c__AnonStorey24
+#include "AssemblyU2DCSharp_TaskExtensions_U3CThenU3Ec__AnonStorey24MethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Then>c__AnonStorey24::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey24__ctor_m1265_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&U3CThenU3Ec__AnonStorey24__ctor_m1265/* method */
+	, &U3CThenU3Ec__AnonStorey24_t338_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1149/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey24_t338_U3CThenU3Ec__AnonStorey24_U3CU3Em__1D_m1266_ParameterInfos[] = 
+{
+	{"previousTask", 0, 134218773, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Then>c__AnonStorey24::<>m__1D(System.Threading.Tasks.Task)
+extern const MethodInfo U3CThenU3Ec__AnonStorey24_U3CU3Em__1D_m1266_MethodInfo = 
+{
+	"<>m__1D"/* name */
+	, (methodPointerType)&U3CThenU3Ec__AnonStorey24_U3CU3Em__1D_m1266/* method */
+	, &U3CThenU3Ec__AnonStorey24_t338_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, U3CThenU3Ec__AnonStorey24_t338_U3CThenU3Ec__AnonStorey24_U3CU3Em__1D_m1266_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1150/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey24_t338_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey24__ctor_m1265_MethodInfo,
+	&U3CThenU3Ec__AnonStorey24_U3CU3Em__1D_m1266_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey24_t338_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey24_t338_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey24_t338_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey24_t338_1_0_0;
+extern TypeInfo TaskExtensions_t349_il2cpp_TypeInfo;
+extern const Il2CppType TaskExtensions_t349_0_0_0;
+struct U3CThenU3Ec__AnonStorey24_t338;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey24_t338_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey24_t338_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey24_t338_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1498/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey24_t338_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey24"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey24_t338_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey24_t338_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 622/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey24_t338_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey24_t338_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey24_t338_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3CThenU3Ec__AnonStorey24_t338)/* instance_size */
+	, sizeof (U3CThenU3Ec__AnonStorey24_t338)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// TaskExtensions/<Then>c__AnonStorey25
+#include "AssemblyU2DCSharp_TaskExtensions_U3CThenU3Ec__AnonStorey25.h"
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey25
+extern TypeInfo U3CThenU3Ec__AnonStorey25_t340_il2cpp_TypeInfo;
+// TaskExtensions/<Then>c__AnonStorey25
+#include "AssemblyU2DCSharp_TaskExtensions_U3CThenU3Ec__AnonStorey25MethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Then>c__AnonStorey25::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey25__ctor_m1267_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&U3CThenU3Ec__AnonStorey25__ctor_m1267/* method */
+	, &U3CThenU3Ec__AnonStorey25_t340_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1151/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey25_t340_U3CThenU3Ec__AnonStorey25_U3CU3Em__1E_m1268_ParameterInfos[] = 
+{
+	{"previousTask", 0, 134218774, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Then>c__AnonStorey25::<>m__1E(System.Threading.Tasks.Task)
+extern const MethodInfo U3CThenU3Ec__AnonStorey25_U3CU3Em__1E_m1268_MethodInfo = 
+{
+	"<>m__1E"/* name */
+	, (methodPointerType)&U3CThenU3Ec__AnonStorey25_U3CU3Em__1E_m1268/* method */
+	, &U3CThenU3Ec__AnonStorey25_t340_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, U3CThenU3Ec__AnonStorey25_t340_U3CThenU3Ec__AnonStorey25_U3CU3Em__1E_m1268_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1152/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey25_t340_U3CThenU3Ec__AnonStorey25_U3CU3Em__2C_m1269_ParameterInfos[] = 
+{
+	{"nextTask", 0, 134218775, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Then>c__AnonStorey25::<>m__2C(System.Threading.Tasks.Task)
+extern const MethodInfo U3CThenU3Ec__AnonStorey25_U3CU3Em__2C_m1269_MethodInfo = 
+{
+	"<>m__2C"/* name */
+	, (methodPointerType)&U3CThenU3Ec__AnonStorey25_U3CU3Em__2C_m1269/* method */
+	, &U3CThenU3Ec__AnonStorey25_t340_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, U3CThenU3Ec__AnonStorey25_t340_U3CThenU3Ec__AnonStorey25_U3CU3Em__2C_m1269_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1153/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey25_t340_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey25__ctor_m1267_MethodInfo,
+	&U3CThenU3Ec__AnonStorey25_U3CU3Em__1E_m1268_MethodInfo,
+	&U3CThenU3Ec__AnonStorey25_U3CU3Em__2C_m1269_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey25_t340_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey25_t340_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey25_t340_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey25_t340_1_0_0;
+struct U3CThenU3Ec__AnonStorey25_t340;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey25_t340_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey25_t340_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey25_t340_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1500/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey25_t340_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey25"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey25_t340_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey25_t340_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 623/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey25_t340_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey25_t340_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey25_t340_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3CThenU3Ec__AnonStorey25_t340)/* instance_size */
+	, sizeof (U3CThenU3Ec__AnonStorey25_t340)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 3/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey26`1
+extern TypeInfo U3CThenU3Ec__AnonStorey26_1_t820_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey26_1_t820_Il2CppGenericContainer;
+extern TypeInfo U3CThenU3Ec__AnonStorey26_1_t820_gp_TNextResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey26_1_t820_gp_TNextResult_0_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey26_1_t820_Il2CppGenericContainer, NULL, "TNextResult", 0, 0 };
+static const Il2CppGenericParameter* U3CThenU3Ec__AnonStorey26_1_t820_Il2CppGenericParametersArray[1] = 
+{
+	&U3CThenU3Ec__AnonStorey26_1_t820_gp_TNextResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey26_1_t820_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CThenU3Ec__AnonStorey26_1_t820_il2cpp_TypeInfo, 1, 0, U3CThenU3Ec__AnonStorey26_1_t820_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<Then>c__AnonStorey26`1::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey26_1__ctor_m3829_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey26_1_t820_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1154/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey26_1_t820_U3CThenU3Ec__AnonStorey26_1_U3CU3Em__1F_m3830_ParameterInfos[] = 
+{
+	{"previousTask", 0, 134218776, 0, &Task_t344_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey26`1::<>m__1F(System.Threading.Tasks.Task)
+extern const MethodInfo U3CThenU3Ec__AnonStorey26_1_U3CU3Em__1F_m3830_MethodInfo = 
+{
+	"<>m__1F"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey26_1_t820_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey26_1_t820_U3CThenU3Ec__AnonStorey26_1_U3CU3Em__1F_m3830_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1155/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey26_1_t820_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey26_1__ctor_m3829_MethodInfo,
+	&U3CThenU3Ec__AnonStorey26_1_U3CU3Em__1F_m3830_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey26_1_t820_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey26_1_t820_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m3962_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m3963_GenericMethod;
+extern const Il2CppGenericMethod Func_2_Invoke_m3964_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m3965_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m3966_GenericMethod;
+static Il2CppRGCTXDefinition U3CThenU3Ec__AnonStorey26_1_t820_RGCTXData[6] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m3962_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m3963_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m3964_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m3965_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m3966_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey26_1_t820_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey26_1_t820_1_0_0;
+struct U3CThenU3Ec__AnonStorey26_1_t820;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey26_1_t820_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey26_1_t820_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey26_1_t820_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CThenU3Ec__AnonStorey26_1_t820_RGCTXData/* rgctxDefinition */
+	, 1502/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey26_1_t820_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey26`1"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey26_1_t820_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey26_1_t820_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 624/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey26_1_t820_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey26_1_t820_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey26_1_t820_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CThenU3Ec__AnonStorey26_1_t820_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey27`1
+extern TypeInfo U3CThenU3Ec__AnonStorey27_1_t821_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey27_1_t821_Il2CppGenericContainer;
+extern TypeInfo U3CThenU3Ec__AnonStorey27_1_t821_gp_TNextResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey27_1_t821_gp_TNextResult_0_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey27_1_t821_Il2CppGenericContainer, NULL, "TNextResult", 0, 0 };
+static const Il2CppGenericParameter* U3CThenU3Ec__AnonStorey27_1_t821_Il2CppGenericParametersArray[1] = 
+{
+	&U3CThenU3Ec__AnonStorey27_1_t821_gp_TNextResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey27_1_t821_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CThenU3Ec__AnonStorey27_1_t821_il2cpp_TypeInfo, 1, 0, U3CThenU3Ec__AnonStorey27_1_t821_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<Then>c__AnonStorey27`1::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey27_1__ctor_m3831_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey27_1_t821_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1156/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey27_1_t821_U3CThenU3Ec__AnonStorey27_1_U3CU3Em__20_m3832_ParameterInfos[] = 
+{
+	{"previousTask", 0, 134218777, 0, &Task_t344_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey27`1::<>m__20(System.Threading.Tasks.Task)
+extern const MethodInfo U3CThenU3Ec__AnonStorey27_1_U3CU3Em__20_m3832_MethodInfo = 
+{
+	"<>m__20"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey27_1_t821_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey27_1_t821_U3CThenU3Ec__AnonStorey27_1_U3CU3Em__20_m3832_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1157/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t957_0_0_0;
+extern const Il2CppType Task_1_t957_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey27_1_t821_U3CThenU3Ec__AnonStorey27_1_U3CU3Em__2D_m3833_ParameterInfos[] = 
+{
+	{"nextTask", 0, 134218778, 0, &Task_1_t957_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey27`1::<>m__2D(System.Threading.Tasks.Task`1<TNextResult>)
+extern const MethodInfo U3CThenU3Ec__AnonStorey27_1_U3CU3Em__2D_m3833_MethodInfo = 
+{
+	"<>m__2D"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey27_1_t821_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey27_1_t821_U3CThenU3Ec__AnonStorey27_1_U3CU3Em__2D_m3833_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1158/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey27_1_t821_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey27_1__ctor_m3831_MethodInfo,
+	&U3CThenU3Ec__AnonStorey27_1_U3CU3Em__20_m3832_MethodInfo,
+	&U3CThenU3Ec__AnonStorey27_1_U3CU3Em__2D_m3833_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey27_1_t821_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey27_1_t821_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m3967_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m3968_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey27_1_U3CU3Em__2D_m3969_GenericMethod;
+extern const Il2CppType Action_1_t958_0_0_0;
+extern const Il2CppGenericMethod Action_1__ctor_m3970_GenericMethod;
+extern const Il2CppGenericMethod Func_2_Invoke_m3971_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m3972_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m3973_GenericMethod;
+extern const Il2CppGenericMethod Task_1_get_Result_m3974_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m3975_GenericMethod;
+static Il2CppRGCTXDefinition U3CThenU3Ec__AnonStorey27_1_t821_RGCTXData[11] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m3967_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m3968_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey27_1_U3CU3Em__2D_m3969_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t958_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m3970_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m3971_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m3972_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m3973_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m3974_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m3975_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey27_1_t821_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey27_1_t821_1_0_0;
+struct U3CThenU3Ec__AnonStorey27_1_t821;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey27_1_t821_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey27_1_t821_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey27_1_t821_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CThenU3Ec__AnonStorey27_1_t821_RGCTXData/* rgctxDefinition */
+	, 1504/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey27_1_t821_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey27`1"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey27_1_t821_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey27_1_t821_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 625/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey27_1_t821_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey27_1_t821_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey27_1_t821_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CThenU3Ec__AnonStorey27_1_t821_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 3/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey28`1
+extern TypeInfo U3CThenU3Ec__AnonStorey28_1_t822_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey28_1_t822_Il2CppGenericContainer;
+extern TypeInfo U3CThenU3Ec__AnonStorey28_1_t822_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey28_1_t822_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey28_1_t822_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+static const Il2CppGenericParameter* U3CThenU3Ec__AnonStorey28_1_t822_Il2CppGenericParametersArray[1] = 
+{
+	&U3CThenU3Ec__AnonStorey28_1_t822_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey28_1_t822_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CThenU3Ec__AnonStorey28_1_t822_il2cpp_TypeInfo, 1, 0, U3CThenU3Ec__AnonStorey28_1_t822_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<Then>c__AnonStorey28`1::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey28_1__ctor_m3834_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey28_1_t822_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1159/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t960_0_0_0;
+extern const Il2CppType Task_1_t960_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey28_1_t822_U3CThenU3Ec__AnonStorey28_1_U3CU3Em__21_m3835_ParameterInfos[] = 
+{
+	{"previousTask", 0, 134218779, 0, &Task_1_t960_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey28`1::<>m__21(System.Threading.Tasks.Task`1<TResult>)
+extern const MethodInfo U3CThenU3Ec__AnonStorey28_1_U3CU3Em__21_m3835_MethodInfo = 
+{
+	"<>m__21"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey28_1_t822_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey28_1_t822_U3CThenU3Ec__AnonStorey28_1_U3CU3Em__21_m3835_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1160/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey28_1_t822_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey28_1__ctor_m3834_MethodInfo,
+	&U3CThenU3Ec__AnonStorey28_1_U3CU3Em__21_m3835_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey28_1_t822_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey28_1_t822_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod Action_1_Invoke_m3976_GenericMethod;
+static Il2CppRGCTXDefinition U3CThenU3Ec__AnonStorey28_1_t822_RGCTXData[2] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1_Invoke_m3976_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey28_1_t822_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey28_1_t822_1_0_0;
+struct U3CThenU3Ec__AnonStorey28_1_t822;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey28_1_t822_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey28_1_t822_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey28_1_t822_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CThenU3Ec__AnonStorey28_1_t822_RGCTXData/* rgctxDefinition */
+	, 1506/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey28_1_t822_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey28`1"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey28_1_t822_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey28_1_t822_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 626/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey28_1_t822_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey28_1_t822_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey28_1_t822_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CThenU3Ec__AnonStorey28_1_t822_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey29`1
+extern TypeInfo U3CThenU3Ec__AnonStorey29_1_t823_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey29_1_t823_Il2CppGenericContainer;
+extern TypeInfo U3CThenU3Ec__AnonStorey29_1_t823_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey29_1_t823_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey29_1_t823_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+static const Il2CppGenericParameter* U3CThenU3Ec__AnonStorey29_1_t823_Il2CppGenericParametersArray[1] = 
+{
+	&U3CThenU3Ec__AnonStorey29_1_t823_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey29_1_t823_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CThenU3Ec__AnonStorey29_1_t823_il2cpp_TypeInfo, 1, 0, U3CThenU3Ec__AnonStorey29_1_t823_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<Then>c__AnonStorey29`1::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey29_1__ctor_m3836_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey29_1_t823_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1161/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t962_0_0_0;
+extern const Il2CppType Task_1_t962_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey29_1_t823_U3CThenU3Ec__AnonStorey29_1_U3CU3Em__22_m3837_ParameterInfos[] = 
+{
+	{"previousTask", 0, 134218780, 0, &Task_1_t962_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey29`1::<>m__22(System.Threading.Tasks.Task`1<TResult>)
+extern const MethodInfo U3CThenU3Ec__AnonStorey29_1_U3CU3Em__22_m3837_MethodInfo = 
+{
+	"<>m__22"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey29_1_t823_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey29_1_t823_U3CThenU3Ec__AnonStorey29_1_U3CU3Em__22_m3837_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1162/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey29_1_t823_U3CThenU3Ec__AnonStorey29_1_U3CU3Em__2E_m3838_ParameterInfos[] = 
+{
+	{"nextTask", 0, 134218781, 0, &Task_t344_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey29`1::<>m__2E(System.Threading.Tasks.Task)
+extern const MethodInfo U3CThenU3Ec__AnonStorey29_1_U3CU3Em__2E_m3838_MethodInfo = 
+{
+	"<>m__2E"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey29_1_t823_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey29_1_t823_U3CThenU3Ec__AnonStorey29_1_U3CU3Em__2E_m3838_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1163/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey29_1_t823_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey29_1__ctor_m3836_MethodInfo,
+	&U3CThenU3Ec__AnonStorey29_1_U3CU3Em__22_m3837_MethodInfo,
+	&U3CThenU3Ec__AnonStorey29_1_U3CU3Em__2E_m3838_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey29_1_t823_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey29_1_t823_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod Func_2_Invoke_m3977_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey29_1_U3CU3Em__2E_m3978_GenericMethod;
+static Il2CppRGCTXDefinition U3CThenU3Ec__AnonStorey29_1_t823_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m3977_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey29_1_U3CU3Em__2E_m3978_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey29_1_t823_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey29_1_t823_1_0_0;
+struct U3CThenU3Ec__AnonStorey29_1_t823;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey29_1_t823_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey29_1_t823_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey29_1_t823_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CThenU3Ec__AnonStorey29_1_t823_RGCTXData/* rgctxDefinition */
+	, 1508/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey29_1_t823_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey29`1"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey29_1_t823_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey29_1_t823_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 627/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey29_1_t823_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey29_1_t823_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey29_1_t823_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CThenU3Ec__AnonStorey29_1_t823_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 3/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey2A`2
+extern TypeInfo U3CThenU3Ec__AnonStorey2A_2_t824_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey2A_2_t824_Il2CppGenericContainer;
+extern TypeInfo U3CThenU3Ec__AnonStorey2A_2_t824_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey2A_2_t824_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey2A_2_t824_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+extern TypeInfo U3CThenU3Ec__AnonStorey2A_2_t824_gp_TNextResult_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey2A_2_t824_gp_TNextResult_1_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey2A_2_t824_Il2CppGenericContainer, NULL, "TNextResult", 1, 0 };
+static const Il2CppGenericParameter* U3CThenU3Ec__AnonStorey2A_2_t824_Il2CppGenericParametersArray[2] = 
+{
+	&U3CThenU3Ec__AnonStorey2A_2_t824_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+	&U3CThenU3Ec__AnonStorey2A_2_t824_gp_TNextResult_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey2A_2_t824_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CThenU3Ec__AnonStorey2A_2_t824_il2cpp_TypeInfo, 2, 0, U3CThenU3Ec__AnonStorey2A_2_t824_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<Then>c__AnonStorey2A`2::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey2A_2__ctor_m3839_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey2A_2_t824_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1164/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t965_0_0_0;
+extern const Il2CppType Task_1_t965_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey2A_2_t824_U3CThenU3Ec__AnonStorey2A_2_U3CU3Em__23_m3840_ParameterInfos[] = 
+{
+	{"previousTask", 0, 134218782, 0, &Task_1_t965_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey2A`2::<>m__23(System.Threading.Tasks.Task`1<TResult>)
+extern const MethodInfo U3CThenU3Ec__AnonStorey2A_2_U3CU3Em__23_m3840_MethodInfo = 
+{
+	"<>m__23"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey2A_2_t824_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey2A_2_t824_U3CThenU3Ec__AnonStorey2A_2_U3CU3Em__23_m3840_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1165/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey2A_2_t824_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey2A_2__ctor_m3839_MethodInfo,
+	&U3CThenU3Ec__AnonStorey2A_2_U3CU3Em__23_m3840_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey2A_2_t824_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey2A_2_t824_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m3979_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m3980_GenericMethod;
+extern const Il2CppGenericMethod Func_2_Invoke_m3981_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m3982_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m3983_GenericMethod;
+static Il2CppRGCTXDefinition U3CThenU3Ec__AnonStorey2A_2_t824_RGCTXData[6] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m3979_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m3980_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m3981_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m3982_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m3983_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey2A_2_t824_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey2A_2_t824_1_0_0;
+struct U3CThenU3Ec__AnonStorey2A_2_t824;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey2A_2_t824_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey2A_2_t824_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey2A_2_t824_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CThenU3Ec__AnonStorey2A_2_t824_RGCTXData/* rgctxDefinition */
+	, 1510/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey2A_2_t824_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey2A`2"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey2A_2_t824_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey2A_2_t824_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 628/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey2A_2_t824_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey2A_2_t824_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey2A_2_t824_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CThenU3Ec__AnonStorey2A_2_t824_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey2B`2
+extern TypeInfo U3CThenU3Ec__AnonStorey2B_2_t825_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey2B_2_t825_Il2CppGenericContainer;
+extern TypeInfo U3CThenU3Ec__AnonStorey2B_2_t825_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey2B_2_t825_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey2B_2_t825_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+extern TypeInfo U3CThenU3Ec__AnonStorey2B_2_t825_gp_TNextResult_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey2B_2_t825_gp_TNextResult_1_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey2B_2_t825_Il2CppGenericContainer, NULL, "TNextResult", 1, 0 };
+static const Il2CppGenericParameter* U3CThenU3Ec__AnonStorey2B_2_t825_Il2CppGenericParametersArray[2] = 
+{
+	&U3CThenU3Ec__AnonStorey2B_2_t825_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+	&U3CThenU3Ec__AnonStorey2B_2_t825_gp_TNextResult_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey2B_2_t825_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CThenU3Ec__AnonStorey2B_2_t825_il2cpp_TypeInfo, 2, 0, U3CThenU3Ec__AnonStorey2B_2_t825_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<Then>c__AnonStorey2B`2::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey2B_2__ctor_m3841_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey2B_2_t825_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1166/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t968_0_0_0;
+extern const Il2CppType Task_1_t968_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey2B_2_t825_U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__24_m3842_ParameterInfos[] = 
+{
+	{"previousTask", 0, 134218783, 0, &Task_1_t968_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey2B`2::<>m__24(System.Threading.Tasks.Task`1<TResult>)
+extern const MethodInfo U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__24_m3842_MethodInfo = 
+{
+	"<>m__24"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey2B_2_t825_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey2B_2_t825_U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__24_m3842_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1167/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t969_0_0_0;
+extern const Il2CppType Task_1_t969_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey2B_2_t825_U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__2F_m3843_ParameterInfos[] = 
+{
+	{"nextTask", 0, 134218784, 0, &Task_1_t969_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey2B`2::<>m__2F(System.Threading.Tasks.Task`1<TNextResult>)
+extern const MethodInfo U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__2F_m3843_MethodInfo = 
+{
+	"<>m__2F"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey2B_2_t825_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey2B_2_t825_U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__2F_m3843_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1168/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey2B_2_t825_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey2B_2__ctor_m3841_MethodInfo,
+	&U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__24_m3842_MethodInfo,
+	&U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__2F_m3843_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey2B_2_t825_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey2B_2_t825_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m3984_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetCanceled_m3985_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__2F_m3986_GenericMethod;
+extern const Il2CppType Action_1_t970_0_0_0;
+extern const Il2CppGenericMethod Action_1__ctor_m3987_GenericMethod;
+extern const Il2CppGenericMethod Func_2_Invoke_m3988_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m3989_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetException_m3990_GenericMethod;
+extern const Il2CppGenericMethod Task_1_get_Result_m3991_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_TrySetResult_m3992_GenericMethod;
+static Il2CppRGCTXDefinition U3CThenU3Ec__AnonStorey2B_2_t825_RGCTXData[11] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m3984_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetCanceled_m3985_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__2F_m3986_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t970_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m3987_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Func_2_Invoke_m3988_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m3989_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetException_m3990_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m3991_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_TrySetResult_m3992_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey2B_2_t825_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey2B_2_t825_1_0_0;
+struct U3CThenU3Ec__AnonStorey2B_2_t825;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey2B_2_t825_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey2B_2_t825_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey2B_2_t825_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CThenU3Ec__AnonStorey2B_2_t825_RGCTXData/* rgctxDefinition */
+	, 1512/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey2B_2_t825_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey2B`2"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey2B_2_t825_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey2B_2_t825_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 629/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey2B_2_t825_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey2B_2_t825_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey2B_2_t825_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CThenU3Ec__AnonStorey2B_2_t825_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 3/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// TaskExtensions/<Finally>c__AnonStorey2C
+#include "AssemblyU2DCSharp_TaskExtensions_U3CFinallyU3Ec__AnonStorey2.h"
+// Metadata Definition TaskExtensions/<Finally>c__AnonStorey2C
+extern TypeInfo U3CFinallyU3Ec__AnonStorey2C_t342_il2cpp_TypeInfo;
+// TaskExtensions/<Finally>c__AnonStorey2C
+#include "AssemblyU2DCSharp_TaskExtensions_U3CFinallyU3Ec__AnonStorey2MethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Finally>c__AnonStorey2C::.ctor()
+extern const MethodInfo U3CFinallyU3Ec__AnonStorey2C__ctor_m1270_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&U3CFinallyU3Ec__AnonStorey2C__ctor_m1270/* method */
+	, &U3CFinallyU3Ec__AnonStorey2C_t342_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1169/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CFinallyU3Ec__AnonStorey2C_t342_U3CFinallyU3Ec__AnonStorey2C_U3CU3Em__25_m1271_ParameterInfos[] = 
+{
+	{"t", 0, 134218785, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Finally>c__AnonStorey2C::<>m__25(System.Threading.Tasks.Task)
+extern const MethodInfo U3CFinallyU3Ec__AnonStorey2C_U3CU3Em__25_m1271_MethodInfo = 
+{
+	"<>m__25"/* name */
+	, (methodPointerType)&U3CFinallyU3Ec__AnonStorey2C_U3CU3Em__25_m1271/* method */
+	, &U3CFinallyU3Ec__AnonStorey2C_t342_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, U3CFinallyU3Ec__AnonStorey2C_t342_U3CFinallyU3Ec__AnonStorey2C_U3CU3Em__25_m1271_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1170/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CFinallyU3Ec__AnonStorey2C_t342_MethodInfos[] =
+{
+	&U3CFinallyU3Ec__AnonStorey2C__ctor_m1270_MethodInfo,
+	&U3CFinallyU3Ec__AnonStorey2C_U3CU3Em__25_m1271_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CFinallyU3Ec__AnonStorey2C_t342_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CFinallyU3Ec__AnonStorey2C_t342_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CFinallyU3Ec__AnonStorey2C_t342_0_0_0;
+extern const Il2CppType U3CFinallyU3Ec__AnonStorey2C_t342_1_0_0;
+struct U3CFinallyU3Ec__AnonStorey2C_t342;
+const Il2CppTypeDefinitionMetadata U3CFinallyU3Ec__AnonStorey2C_t342_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CFinallyU3Ec__AnonStorey2C_t342_VTable/* vtableMethods */
+	, U3CFinallyU3Ec__AnonStorey2C_t342_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1514/* fieldStart */
+
+};
+TypeInfo U3CFinallyU3Ec__AnonStorey2C_t342_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Finally>c__AnonStorey2C"/* name */
+	, ""/* namespaze */
+	, U3CFinallyU3Ec__AnonStorey2C_t342_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CFinallyU3Ec__AnonStorey2C_t342_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 630/* custom_attributes_cache */
+	, &U3CFinallyU3Ec__AnonStorey2C_t342_0_0_0/* byval_arg */
+	, &U3CFinallyU3Ec__AnonStorey2C_t342_1_0_0/* this_arg */
+	, &U3CFinallyU3Ec__AnonStorey2C_t342_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3CFinallyU3Ec__AnonStorey2C_t342)/* instance_size */
+	, sizeof (U3CFinallyU3Ec__AnonStorey2C_t342)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey2D`1
+extern TypeInfo U3CThenU3Ec__AnonStorey2D_1_t826_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey2D_1_t826_Il2CppGenericContainer;
+extern TypeInfo U3CThenU3Ec__AnonStorey2D_1_t826_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CThenU3Ec__AnonStorey2D_1_t826_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &U3CThenU3Ec__AnonStorey2D_1_t826_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+static const Il2CppGenericParameter* U3CThenU3Ec__AnonStorey2D_1_t826_Il2CppGenericParametersArray[1] = 
+{
+	&U3CThenU3Ec__AnonStorey2D_1_t826_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CThenU3Ec__AnonStorey2D_1_t826_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CThenU3Ec__AnonStorey2D_1_t826_il2cpp_TypeInfo, 1, 0, U3CThenU3Ec__AnonStorey2D_1_t826_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<Then>c__AnonStorey2D`1::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey2D_1__ctor_m3844_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey2D_1_t826_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1171/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t972_0_0_0;
+extern const Il2CppType Task_1_t972_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey2D_1_t826_U3CThenU3Ec__AnonStorey2D_1_U3CU3Em__26_m3845_ParameterInfos[] = 
+{
+	{"t", 0, 134218786, 0, &Task_1_t972_0_0_0},
+};
+// System.Void TaskExtensions/<Then>c__AnonStorey2D`1::<>m__26(System.Threading.Tasks.Task`1<TResult>)
+extern const MethodInfo U3CThenU3Ec__AnonStorey2D_1_U3CU3Em__26_m3845_MethodInfo = 
+{
+	"<>m__26"/* name */
+	, NULL/* method */
+	, &U3CThenU3Ec__AnonStorey2D_1_t826_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CThenU3Ec__AnonStorey2D_1_t826_U3CThenU3Ec__AnonStorey2D_1_U3CU3Em__26_m3845_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1172/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey2D_1_t826_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey2D_1__ctor_m3844_MethodInfo,
+	&U3CThenU3Ec__AnonStorey2D_1_U3CU3Em__26_m3845_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey2D_1_t826_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey2D_1_t826_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod Task_1_get_Result_m3993_GenericMethod;
+extern const Il2CppGenericMethod Action_1_Invoke_m3994_GenericMethod;
+static Il2CppRGCTXDefinition U3CThenU3Ec__AnonStorey2D_1_t826_RGCTXData[3] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m3993_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1_Invoke_m3994_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey2D_1_t826_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey2D_1_t826_1_0_0;
+struct U3CThenU3Ec__AnonStorey2D_1_t826;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey2D_1_t826_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey2D_1_t826_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey2D_1_t826_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CThenU3Ec__AnonStorey2D_1_t826_RGCTXData/* rgctxDefinition */
+	, 1516/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey2D_1_t826_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey2D`1"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey2D_1_t826_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey2D_1_t826_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 631/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey2D_1_t826_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey2D_1_t826_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey2D_1_t826_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CThenU3Ec__AnonStorey2D_1_t826_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// TaskExtensions/<Then>c__AnonStorey2E
+#include "AssemblyU2DCSharp_TaskExtensions_U3CThenU3Ec__AnonStorey2E.h"
+// Metadata Definition TaskExtensions/<Then>c__AnonStorey2E
+extern TypeInfo U3CThenU3Ec__AnonStorey2E_t343_il2cpp_TypeInfo;
+// TaskExtensions/<Then>c__AnonStorey2E
+#include "AssemblyU2DCSharp_TaskExtensions_U3CThenU3Ec__AnonStorey2EMethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Then>c__AnonStorey2E::.ctor()
+extern const MethodInfo U3CThenU3Ec__AnonStorey2E__ctor_m1272_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&U3CThenU3Ec__AnonStorey2E__ctor_m1272/* method */
+	, &U3CThenU3Ec__AnonStorey2E_t343_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1173/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CThenU3Ec__AnonStorey2E_t343_U3CThenU3Ec__AnonStorey2E_U3CU3Em__27_m1273_ParameterInfos[] = 
+{
+	{"t", 0, 134218787, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<Then>c__AnonStorey2E::<>m__27(System.Threading.Tasks.Task)
+extern const MethodInfo U3CThenU3Ec__AnonStorey2E_U3CU3Em__27_m1273_MethodInfo = 
+{
+	"<>m__27"/* name */
+	, (methodPointerType)&U3CThenU3Ec__AnonStorey2E_U3CU3Em__27_m1273/* method */
+	, &U3CThenU3Ec__AnonStorey2E_t343_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, U3CThenU3Ec__AnonStorey2E_t343_U3CThenU3Ec__AnonStorey2E_U3CU3Em__27_m1273_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1174/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CThenU3Ec__AnonStorey2E_t343_MethodInfos[] =
+{
+	&U3CThenU3Ec__AnonStorey2E__ctor_m1272_MethodInfo,
+	&U3CThenU3Ec__AnonStorey2E_U3CU3Em__27_m1273_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CThenU3Ec__AnonStorey2E_t343_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CThenU3Ec__AnonStorey2E_t343_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CThenU3Ec__AnonStorey2E_t343_0_0_0;
+extern const Il2CppType U3CThenU3Ec__AnonStorey2E_t343_1_0_0;
+struct U3CThenU3Ec__AnonStorey2E_t343;
+const Il2CppTypeDefinitionMetadata U3CThenU3Ec__AnonStorey2E_t343_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CThenU3Ec__AnonStorey2E_t343_VTable/* vtableMethods */
+	, U3CThenU3Ec__AnonStorey2E_t343_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1518/* fieldStart */
+
+};
+TypeInfo U3CThenU3Ec__AnonStorey2E_t343_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<Then>c__AnonStorey2E"/* name */
+	, ""/* namespaze */
+	, U3CThenU3Ec__AnonStorey2E_t343_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CThenU3Ec__AnonStorey2E_t343_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 632/* custom_attributes_cache */
+	, &U3CThenU3Ec__AnonStorey2E_t343_0_0_0/* byval_arg */
+	, &U3CThenU3Ec__AnonStorey2E_t343_1_0_0/* this_arg */
+	, &U3CThenU3Ec__AnonStorey2E_t343_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3CThenU3Ec__AnonStorey2E_t343)/* instance_size */
+	, sizeof (U3CThenU3Ec__AnonStorey2E_t343)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<OnMainThread>c__AnonStorey2F`1/<OnMainThread>c__AnonStorey30`1
+extern TypeInfo U3COnMainThreadU3Ec__AnonStorey30_1_t828_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3COnMainThreadU3Ec__AnonStorey30_1_t828_Il2CppGenericContainer;
+extern TypeInfo U3COnMainThreadU3Ec__AnonStorey30_1_t828_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3COnMainThreadU3Ec__AnonStorey30_1_t828_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &U3COnMainThreadU3Ec__AnonStorey30_1_t828_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* U3COnMainThreadU3Ec__AnonStorey30_1_t828_Il2CppGenericParametersArray[1] = 
+{
+	&U3COnMainThreadU3Ec__AnonStorey30_1_t828_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3COnMainThreadU3Ec__AnonStorey30_1_t828_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3COnMainThreadU3Ec__AnonStorey30_1_t828_il2cpp_TypeInfo, 1, 0, U3COnMainThreadU3Ec__AnonStorey30_1_t828_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<OnMainThread>c__AnonStorey2F`1/<OnMainThread>c__AnonStorey30`1::.ctor()
+extern const MethodInfo U3COnMainThreadU3Ec__AnonStorey30_1__ctor_m3848_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3COnMainThreadU3Ec__AnonStorey30_1_t828_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1177/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+// System.Void TaskExtensions/<OnMainThread>c__AnonStorey2F`1/<OnMainThread>c__AnonStorey30`1::<>m__30()
+extern const MethodInfo U3COnMainThreadU3Ec__AnonStorey30_1_U3CU3Em__30_m3849_MethodInfo = 
+{
+	"<>m__30"/* name */
+	, NULL/* method */
+	, &U3COnMainThreadU3Ec__AnonStorey30_1_t828_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1178/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3COnMainThreadU3Ec__AnonStorey30_1_t828_MethodInfos[] =
+{
+	&U3COnMainThreadU3Ec__AnonStorey30_1__ctor_m3848_MethodInfo,
+	&U3COnMainThreadU3Ec__AnonStorey30_1_U3CU3Em__30_m3849_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3COnMainThreadU3Ec__AnonStorey30_1_t828_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3COnMainThreadU3Ec__AnonStorey30_1_t828_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetException_m3995_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetCanceled_m3996_GenericMethod;
+extern const Il2CppGenericMethod Task_1_get_Result_m3997_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetResult_m3998_GenericMethod;
+static Il2CppRGCTXDefinition U3COnMainThreadU3Ec__AnonStorey30_1_t828_RGCTXData[5] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetException_m3995_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetCanceled_m3996_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m3997_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetResult_m3998_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey30_1_t828_0_0_0;
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey30_1_t828_1_0_0;
+extern TypeInfo U3COnMainThreadU3Ec__AnonStorey2F_1_t827_il2cpp_TypeInfo;
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey2F_1_t827_0_0_0;
+struct U3COnMainThreadU3Ec__AnonStorey30_1_t828;
+const Il2CppTypeDefinitionMetadata U3COnMainThreadU3Ec__AnonStorey30_1_t828_DefinitionMetadata = 
+{
+	&U3COnMainThreadU3Ec__AnonStorey2F_1_t827_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3COnMainThreadU3Ec__AnonStorey30_1_t828_VTable/* vtableMethods */
+	, U3COnMainThreadU3Ec__AnonStorey30_1_t828_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3COnMainThreadU3Ec__AnonStorey30_1_t828_RGCTXData/* rgctxDefinition */
+	, 1520/* fieldStart */
+
+};
+TypeInfo U3COnMainThreadU3Ec__AnonStorey30_1_t828_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<OnMainThread>c__AnonStorey30`1"/* name */
+	, ""/* namespaze */
+	, U3COnMainThreadU3Ec__AnonStorey30_1_t828_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3COnMainThreadU3Ec__AnonStorey30_1_t828_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U3COnMainThreadU3Ec__AnonStorey30_1_t828_0_0_0/* byval_arg */
+	, &U3COnMainThreadU3Ec__AnonStorey30_1_t828_1_0_0/* this_arg */
+	, &U3COnMainThreadU3Ec__AnonStorey30_1_t828_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3COnMainThreadU3Ec__AnonStorey30_1_t828_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<OnMainThread>c__AnonStorey2F`1
+extern const Il2CppGenericContainer U3COnMainThreadU3Ec__AnonStorey2F_1_t827_Il2CppGenericContainer;
+extern TypeInfo U3COnMainThreadU3Ec__AnonStorey2F_1_t827_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3COnMainThreadU3Ec__AnonStorey2F_1_t827_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &U3COnMainThreadU3Ec__AnonStorey2F_1_t827_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* U3COnMainThreadU3Ec__AnonStorey2F_1_t827_Il2CppGenericParametersArray[1] = 
+{
+	&U3COnMainThreadU3Ec__AnonStorey2F_1_t827_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3COnMainThreadU3Ec__AnonStorey2F_1_t827_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3COnMainThreadU3Ec__AnonStorey2F_1_t827_il2cpp_TypeInfo, 1, 0, U3COnMainThreadU3Ec__AnonStorey2F_1_t827_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<OnMainThread>c__AnonStorey2F`1::.ctor()
+extern const MethodInfo U3COnMainThreadU3Ec__AnonStorey2F_1__ctor_m3846_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3COnMainThreadU3Ec__AnonStorey2F_1_t827_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1175/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t975_0_0_0;
+extern const Il2CppType Task_1_t975_0_0_0;
+static const ParameterInfo U3COnMainThreadU3Ec__AnonStorey2F_1_t827_U3COnMainThreadU3Ec__AnonStorey2F_1_U3CU3Em__28_m3847_ParameterInfos[] = 
+{
+	{"t", 0, 134218788, 0, &Task_1_t975_0_0_0},
+};
+// System.Void TaskExtensions/<OnMainThread>c__AnonStorey2F`1::<>m__28(System.Threading.Tasks.Task`1<T>)
+extern const MethodInfo U3COnMainThreadU3Ec__AnonStorey2F_1_U3CU3Em__28_m3847_MethodInfo = 
+{
+	"<>m__28"/* name */
+	, NULL/* method */
+	, &U3COnMainThreadU3Ec__AnonStorey2F_1_t827_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3COnMainThreadU3Ec__AnonStorey2F_1_t827_U3COnMainThreadU3Ec__AnonStorey2F_1_U3CU3Em__28_m3847_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1176/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3COnMainThreadU3Ec__AnonStorey2F_1_t827_MethodInfos[] =
+{
+	&U3COnMainThreadU3Ec__AnonStorey2F_1__ctor_m3846_MethodInfo,
+	&U3COnMainThreadU3Ec__AnonStorey2F_1_U3CU3Em__28_m3847_MethodInfo,
+	NULL
+};
+static const Il2CppType* U3COnMainThreadU3Ec__AnonStorey2F_1_t827_il2cpp_TypeInfo__nestedTypes[1] =
+{
+	&U3COnMainThreadU3Ec__AnonStorey30_1_t828_0_0_0,
+};
+static const Il2CppMethodReference U3COnMainThreadU3Ec__AnonStorey2F_1_t827_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3COnMainThreadU3Ec__AnonStorey2F_1_t827_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey30_1_t976_0_0_0;
+extern const Il2CppGenericMethod U3COnMainThreadU3Ec__AnonStorey30_1__ctor_m3999_GenericMethod;
+extern const Il2CppGenericMethod U3COnMainThreadU3Ec__AnonStorey30_1_U3CU3Em__30_m4000_GenericMethod;
+static Il2CppRGCTXDefinition U3COnMainThreadU3Ec__AnonStorey2F_1_t827_RGCTXData[4] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3COnMainThreadU3Ec__AnonStorey30_1_t976_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3COnMainThreadU3Ec__AnonStorey30_1__ctor_m3999_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3COnMainThreadU3Ec__AnonStorey30_1_U3CU3Em__30_m4000_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey2F_1_t827_1_0_0;
+struct U3COnMainThreadU3Ec__AnonStorey2F_1_t827;
+const Il2CppTypeDefinitionMetadata U3COnMainThreadU3Ec__AnonStorey2F_1_t827_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, U3COnMainThreadU3Ec__AnonStorey2F_1_t827_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3COnMainThreadU3Ec__AnonStorey2F_1_t827_VTable/* vtableMethods */
+	, U3COnMainThreadU3Ec__AnonStorey2F_1_t827_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3COnMainThreadU3Ec__AnonStorey2F_1_t827_RGCTXData/* rgctxDefinition */
+	, 1522/* fieldStart */
+
+};
+TypeInfo U3COnMainThreadU3Ec__AnonStorey2F_1_t827_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<OnMainThread>c__AnonStorey2F`1"/* name */
+	, ""/* namespaze */
+	, U3COnMainThreadU3Ec__AnonStorey2F_1_t827_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3COnMainThreadU3Ec__AnonStorey2F_1_t827_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 633/* custom_attributes_cache */
+	, &U3COnMainThreadU3Ec__AnonStorey2F_1_t827_0_0_0/* byval_arg */
+	, &U3COnMainThreadU3Ec__AnonStorey2F_1_t827_1_0_0/* this_arg */
+	, &U3COnMainThreadU3Ec__AnonStorey2F_1_t827_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3COnMainThreadU3Ec__AnonStorey2F_1_t827_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 1/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// TaskExtensions/<OnMainThread>c__AnonStorey31/<OnMainThread>c__AnonStorey32
+#include "AssemblyU2DCSharp_TaskExtensions_U3COnMainThreadU3Ec__AnonSt.h"
+// Metadata Definition TaskExtensions/<OnMainThread>c__AnonStorey31/<OnMainThread>c__AnonStorey32
+extern TypeInfo U3COnMainThreadU3Ec__AnonStorey32_t346_il2cpp_TypeInfo;
+// TaskExtensions/<OnMainThread>c__AnonStorey31/<OnMainThread>c__AnonStorey32
+#include "AssemblyU2DCSharp_TaskExtensions_U3COnMainThreadU3Ec__AnonStMethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<OnMainThread>c__AnonStorey31/<OnMainThread>c__AnonStorey32::.ctor()
+extern const MethodInfo U3COnMainThreadU3Ec__AnonStorey32__ctor_m1274_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&U3COnMainThreadU3Ec__AnonStorey32__ctor_m1274/* method */
+	, &U3COnMainThreadU3Ec__AnonStorey32_t346_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1181/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<OnMainThread>c__AnonStorey31/<OnMainThread>c__AnonStorey32::<>m__31()
+extern const MethodInfo U3COnMainThreadU3Ec__AnonStorey32_U3CU3Em__31_m1275_MethodInfo = 
+{
+	"<>m__31"/* name */
+	, (methodPointerType)&U3COnMainThreadU3Ec__AnonStorey32_U3CU3Em__31_m1275/* method */
+	, &U3COnMainThreadU3Ec__AnonStorey32_t346_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1182/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3COnMainThreadU3Ec__AnonStorey32_t346_MethodInfos[] =
+{
+	&U3COnMainThreadU3Ec__AnonStorey32__ctor_m1274_MethodInfo,
+	&U3COnMainThreadU3Ec__AnonStorey32_U3CU3Em__31_m1275_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3COnMainThreadU3Ec__AnonStorey32_t346_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3COnMainThreadU3Ec__AnonStorey32_t346_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey32_t346_0_0_0;
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey32_t346_1_0_0;
+extern TypeInfo U3COnMainThreadU3Ec__AnonStorey31_t345_il2cpp_TypeInfo;
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey31_t345_0_0_0;
+struct U3COnMainThreadU3Ec__AnonStorey32_t346;
+const Il2CppTypeDefinitionMetadata U3COnMainThreadU3Ec__AnonStorey32_t346_DefinitionMetadata = 
+{
+	&U3COnMainThreadU3Ec__AnonStorey31_t345_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3COnMainThreadU3Ec__AnonStorey32_t346_VTable/* vtableMethods */
+	, U3COnMainThreadU3Ec__AnonStorey32_t346_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1524/* fieldStart */
+
+};
+TypeInfo U3COnMainThreadU3Ec__AnonStorey32_t346_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<OnMainThread>c__AnonStorey32"/* name */
+	, ""/* namespaze */
+	, U3COnMainThreadU3Ec__AnonStorey32_t346_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3COnMainThreadU3Ec__AnonStorey32_t346_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U3COnMainThreadU3Ec__AnonStorey32_t346_0_0_0/* byval_arg */
+	, &U3COnMainThreadU3Ec__AnonStorey32_t346_1_0_0/* this_arg */
+	, &U3COnMainThreadU3Ec__AnonStorey32_t346_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3COnMainThreadU3Ec__AnonStorey32_t346)/* instance_size */
+	, sizeof (U3COnMainThreadU3Ec__AnonStorey32_t346)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// TaskExtensions/<OnMainThread>c__AnonStorey31
+#include "AssemblyU2DCSharp_TaskExtensions_U3COnMainThreadU3Ec__AnonSt_0.h"
+// Metadata Definition TaskExtensions/<OnMainThread>c__AnonStorey31
+// TaskExtensions/<OnMainThread>c__AnonStorey31
+#include "AssemblyU2DCSharp_TaskExtensions_U3COnMainThreadU3Ec__AnonSt_0MethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<OnMainThread>c__AnonStorey31::.ctor()
+extern const MethodInfo U3COnMainThreadU3Ec__AnonStorey31__ctor_m1276_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&U3COnMainThreadU3Ec__AnonStorey31__ctor_m1276/* method */
+	, &U3COnMainThreadU3Ec__AnonStorey31_t345_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1179/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3COnMainThreadU3Ec__AnonStorey31_t345_U3COnMainThreadU3Ec__AnonStorey31_U3CU3Em__29_m1277_ParameterInfos[] = 
+{
+	{"t", 0, 134218789, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<OnMainThread>c__AnonStorey31::<>m__29(System.Threading.Tasks.Task)
+extern const MethodInfo U3COnMainThreadU3Ec__AnonStorey31_U3CU3Em__29_m1277_MethodInfo = 
+{
+	"<>m__29"/* name */
+	, (methodPointerType)&U3COnMainThreadU3Ec__AnonStorey31_U3CU3Em__29_m1277/* method */
+	, &U3COnMainThreadU3Ec__AnonStorey31_t345_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, U3COnMainThreadU3Ec__AnonStorey31_t345_U3COnMainThreadU3Ec__AnonStorey31_U3CU3Em__29_m1277_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1180/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3COnMainThreadU3Ec__AnonStorey31_t345_MethodInfos[] =
+{
+	&U3COnMainThreadU3Ec__AnonStorey31__ctor_m1276_MethodInfo,
+	&U3COnMainThreadU3Ec__AnonStorey31_U3CU3Em__29_m1277_MethodInfo,
+	NULL
+};
+static const Il2CppType* U3COnMainThreadU3Ec__AnonStorey31_t345_il2cpp_TypeInfo__nestedTypes[1] =
+{
+	&U3COnMainThreadU3Ec__AnonStorey32_t346_0_0_0,
+};
+static const Il2CppMethodReference U3COnMainThreadU3Ec__AnonStorey31_t345_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3COnMainThreadU3Ec__AnonStorey31_t345_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey31_t345_1_0_0;
+struct U3COnMainThreadU3Ec__AnonStorey31_t345;
+const Il2CppTypeDefinitionMetadata U3COnMainThreadU3Ec__AnonStorey31_t345_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, U3COnMainThreadU3Ec__AnonStorey31_t345_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3COnMainThreadU3Ec__AnonStorey31_t345_VTable/* vtableMethods */
+	, U3COnMainThreadU3Ec__AnonStorey31_t345_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1526/* fieldStart */
+
+};
+TypeInfo U3COnMainThreadU3Ec__AnonStorey31_t345_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<OnMainThread>c__AnonStorey31"/* name */
+	, ""/* namespaze */
+	, U3COnMainThreadU3Ec__AnonStorey31_t345_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3COnMainThreadU3Ec__AnonStorey31_t345_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 634/* custom_attributes_cache */
+	, &U3COnMainThreadU3Ec__AnonStorey31_t345_0_0_0/* byval_arg */
+	, &U3COnMainThreadU3Ec__AnonStorey31_t345_1_0_0/* this_arg */
+	, &U3COnMainThreadU3Ec__AnonStorey31_t345_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3COnMainThreadU3Ec__AnonStorey31_t345)/* instance_size */
+	, sizeof (U3COnMainThreadU3Ec__AnonStorey31_t345)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 1/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<DebugLog>c__AnonStorey33`1/<DebugLog>c__AnonStorey34`1
+extern TypeInfo U3CDebugLogU3Ec__AnonStorey34_1_t830_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer U3CDebugLogU3Ec__AnonStorey34_1_t830_Il2CppGenericContainer;
+extern TypeInfo U3CDebugLogU3Ec__AnonStorey34_1_t830_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CDebugLogU3Ec__AnonStorey34_1_t830_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &U3CDebugLogU3Ec__AnonStorey34_1_t830_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* U3CDebugLogU3Ec__AnonStorey34_1_t830_Il2CppGenericParametersArray[1] = 
+{
+	&U3CDebugLogU3Ec__AnonStorey34_1_t830_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CDebugLogU3Ec__AnonStorey34_1_t830_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CDebugLogU3Ec__AnonStorey34_1_t830_il2cpp_TypeInfo, 1, 0, U3CDebugLogU3Ec__AnonStorey34_1_t830_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<DebugLog>c__AnonStorey33`1/<DebugLog>c__AnonStorey34`1::.ctor()
+extern const MethodInfo U3CDebugLogU3Ec__AnonStorey34_1__ctor_m3852_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CDebugLogU3Ec__AnonStorey34_1_t830_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1185/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+// System.Void TaskExtensions/<DebugLog>c__AnonStorey33`1/<DebugLog>c__AnonStorey34`1::<>m__32()
+extern const MethodInfo U3CDebugLogU3Ec__AnonStorey34_1_U3CU3Em__32_m3853_MethodInfo = 
+{
+	"<>m__32"/* name */
+	, NULL/* method */
+	, &U3CDebugLogU3Ec__AnonStorey34_1_t830_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1186/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CDebugLogU3Ec__AnonStorey34_1_t830_MethodInfos[] =
+{
+	&U3CDebugLogU3Ec__AnonStorey34_1__ctor_m3852_MethodInfo,
+	&U3CDebugLogU3Ec__AnonStorey34_1_U3CU3Em__32_m3853_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CDebugLogU3Ec__AnonStorey34_1_t830_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CDebugLogU3Ec__AnonStorey34_1_t830_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetException_m4001_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetCanceled_m4002_GenericMethod;
+extern const Il2CppGenericMethod Task_1_get_Result_m4003_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_SetResult_m4004_GenericMethod;
+static Il2CppRGCTXDefinition U3CDebugLogU3Ec__AnonStorey34_1_t830_RGCTXData[5] = 
+{
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetException_m4001_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetCanceled_m4002_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_get_Result_m4003_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_SetResult_m4004_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey34_1_t830_0_0_0;
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey34_1_t830_1_0_0;
+extern TypeInfo U3CDebugLogU3Ec__AnonStorey33_1_t829_il2cpp_TypeInfo;
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey33_1_t829_0_0_0;
+struct U3CDebugLogU3Ec__AnonStorey34_1_t830;
+const Il2CppTypeDefinitionMetadata U3CDebugLogU3Ec__AnonStorey34_1_t830_DefinitionMetadata = 
+{
+	&U3CDebugLogU3Ec__AnonStorey33_1_t829_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CDebugLogU3Ec__AnonStorey34_1_t830_VTable/* vtableMethods */
+	, U3CDebugLogU3Ec__AnonStorey34_1_t830_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CDebugLogU3Ec__AnonStorey34_1_t830_RGCTXData/* rgctxDefinition */
+	, 1528/* fieldStart */
+
+};
+TypeInfo U3CDebugLogU3Ec__AnonStorey34_1_t830_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<DebugLog>c__AnonStorey34`1"/* name */
+	, ""/* namespaze */
+	, U3CDebugLogU3Ec__AnonStorey34_1_t830_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CDebugLogU3Ec__AnonStorey34_1_t830_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U3CDebugLogU3Ec__AnonStorey34_1_t830_0_0_0/* byval_arg */
+	, &U3CDebugLogU3Ec__AnonStorey34_1_t830_1_0_0/* this_arg */
+	, &U3CDebugLogU3Ec__AnonStorey34_1_t830_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CDebugLogU3Ec__AnonStorey34_1_t830_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Metadata Definition TaskExtensions/<DebugLog>c__AnonStorey33`1
+extern const Il2CppGenericContainer U3CDebugLogU3Ec__AnonStorey33_1_t829_Il2CppGenericContainer;
+extern TypeInfo U3CDebugLogU3Ec__AnonStorey33_1_t829_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter U3CDebugLogU3Ec__AnonStorey33_1_t829_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &U3CDebugLogU3Ec__AnonStorey33_1_t829_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* U3CDebugLogU3Ec__AnonStorey33_1_t829_Il2CppGenericParametersArray[1] = 
+{
+	&U3CDebugLogU3Ec__AnonStorey33_1_t829_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const Il2CppGenericContainer U3CDebugLogU3Ec__AnonStorey33_1_t829_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&U3CDebugLogU3Ec__AnonStorey33_1_t829_il2cpp_TypeInfo, 1, 0, U3CDebugLogU3Ec__AnonStorey33_1_t829_Il2CppGenericParametersArray };
+// System.Void TaskExtensions/<DebugLog>c__AnonStorey33`1::.ctor()
+extern const MethodInfo U3CDebugLogU3Ec__AnonStorey33_1__ctor_m3850_MethodInfo = 
+{
+	".ctor"/* name */
+	, NULL/* method */
+	, &U3CDebugLogU3Ec__AnonStorey33_1_t829_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1183/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t979_0_0_0;
+extern const Il2CppType Task_1_t979_0_0_0;
+static const ParameterInfo U3CDebugLogU3Ec__AnonStorey33_1_t829_U3CDebugLogU3Ec__AnonStorey33_1_U3CU3Em__2A_m3851_ParameterInfos[] = 
+{
+	{"t", 0, 134218790, 0, &Task_1_t979_0_0_0},
+};
+// System.Void TaskExtensions/<DebugLog>c__AnonStorey33`1::<>m__2A(System.Threading.Tasks.Task`1<T>)
+extern const MethodInfo U3CDebugLogU3Ec__AnonStorey33_1_U3CU3Em__2A_m3851_MethodInfo = 
+{
+	"<>m__2A"/* name */
+	, NULL/* method */
+	, &U3CDebugLogU3Ec__AnonStorey33_1_t829_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, U3CDebugLogU3Ec__AnonStorey33_1_t829_U3CDebugLogU3Ec__AnonStorey33_1_U3CU3Em__2A_m3851_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1184/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CDebugLogU3Ec__AnonStorey33_1_t829_MethodInfos[] =
+{
+	&U3CDebugLogU3Ec__AnonStorey33_1__ctor_m3850_MethodInfo,
+	&U3CDebugLogU3Ec__AnonStorey33_1_U3CU3Em__2A_m3851_MethodInfo,
+	NULL
+};
+static const Il2CppType* U3CDebugLogU3Ec__AnonStorey33_1_t829_il2cpp_TypeInfo__nestedTypes[1] =
+{
+	&U3CDebugLogU3Ec__AnonStorey34_1_t830_0_0_0,
+};
+static const Il2CppMethodReference U3CDebugLogU3Ec__AnonStorey33_1_t829_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CDebugLogU3Ec__AnonStorey33_1_t829_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey34_1_t980_0_0_0;
+extern const Il2CppGenericMethod U3CDebugLogU3Ec__AnonStorey34_1__ctor_m4005_GenericMethod;
+extern const Il2CppGenericMethod U3CDebugLogU3Ec__AnonStorey34_1_U3CU3Em__32_m4006_GenericMethod;
+static Il2CppRGCTXDefinition U3CDebugLogU3Ec__AnonStorey33_1_t829_RGCTXData[4] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CDebugLogU3Ec__AnonStorey34_1_t980_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CDebugLogU3Ec__AnonStorey34_1__ctor_m4005_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CDebugLogU3Ec__AnonStorey34_1_U3CU3Em__32_m4006_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey33_1_t829_1_0_0;
+struct U3CDebugLogU3Ec__AnonStorey33_1_t829;
+const Il2CppTypeDefinitionMetadata U3CDebugLogU3Ec__AnonStorey33_1_t829_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, U3CDebugLogU3Ec__AnonStorey33_1_t829_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CDebugLogU3Ec__AnonStorey33_1_t829_VTable/* vtableMethods */
+	, U3CDebugLogU3Ec__AnonStorey33_1_t829_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CDebugLogU3Ec__AnonStorey33_1_t829_RGCTXData/* rgctxDefinition */
+	, 1530/* fieldStart */
+
+};
+TypeInfo U3CDebugLogU3Ec__AnonStorey33_1_t829_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<DebugLog>c__AnonStorey33`1"/* name */
+	, ""/* namespaze */
+	, U3CDebugLogU3Ec__AnonStorey33_1_t829_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CDebugLogU3Ec__AnonStorey33_1_t829_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 635/* custom_attributes_cache */
+	, &U3CDebugLogU3Ec__AnonStorey33_1_t829_0_0_0/* byval_arg */
+	, &U3CDebugLogU3Ec__AnonStorey33_1_t829_1_0_0/* this_arg */
+	, &U3CDebugLogU3Ec__AnonStorey33_1_t829_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, &U3CDebugLogU3Ec__AnonStorey33_1_t829_Il2CppGenericContainer/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, 0/* instance_size */
+	, 0/* actualSize */
+	, 0/* element_size */
+	, 0/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, true/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 1/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// TaskExtensions/<DebugLog>c__AnonStorey35/<DebugLog>c__AnonStorey36
+#include "AssemblyU2DCSharp_TaskExtensions_U3CDebugLogU3Ec__AnonStorey.h"
+// Metadata Definition TaskExtensions/<DebugLog>c__AnonStorey35/<DebugLog>c__AnonStorey36
+extern TypeInfo U3CDebugLogU3Ec__AnonStorey36_t348_il2cpp_TypeInfo;
+// TaskExtensions/<DebugLog>c__AnonStorey35/<DebugLog>c__AnonStorey36
+#include "AssemblyU2DCSharp_TaskExtensions_U3CDebugLogU3Ec__AnonStoreyMethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<DebugLog>c__AnonStorey35/<DebugLog>c__AnonStorey36::.ctor()
+extern const MethodInfo U3CDebugLogU3Ec__AnonStorey36__ctor_m1278_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&U3CDebugLogU3Ec__AnonStorey36__ctor_m1278/* method */
+	, &U3CDebugLogU3Ec__AnonStorey36_t348_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1189/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<DebugLog>c__AnonStorey35/<DebugLog>c__AnonStorey36::<>m__33()
+extern const MethodInfo U3CDebugLogU3Ec__AnonStorey36_U3CU3Em__33_m1279_MethodInfo = 
+{
+	"<>m__33"/* name */
+	, (methodPointerType)&U3CDebugLogU3Ec__AnonStorey36_U3CU3Em__33_m1279/* method */
+	, &U3CDebugLogU3Ec__AnonStorey36_t348_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1190/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CDebugLogU3Ec__AnonStorey36_t348_MethodInfos[] =
+{
+	&U3CDebugLogU3Ec__AnonStorey36__ctor_m1278_MethodInfo,
+	&U3CDebugLogU3Ec__AnonStorey36_U3CU3Em__33_m1279_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference U3CDebugLogU3Ec__AnonStorey36_t348_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CDebugLogU3Ec__AnonStorey36_t348_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey36_t348_0_0_0;
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey36_t348_1_0_0;
+extern TypeInfo U3CDebugLogU3Ec__AnonStorey35_t347_il2cpp_TypeInfo;
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey35_t347_0_0_0;
+struct U3CDebugLogU3Ec__AnonStorey36_t348;
+const Il2CppTypeDefinitionMetadata U3CDebugLogU3Ec__AnonStorey36_t348_DefinitionMetadata = 
+{
+	&U3CDebugLogU3Ec__AnonStorey35_t347_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CDebugLogU3Ec__AnonStorey36_t348_VTable/* vtableMethods */
+	, U3CDebugLogU3Ec__AnonStorey36_t348_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1532/* fieldStart */
+
+};
+TypeInfo U3CDebugLogU3Ec__AnonStorey36_t348_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<DebugLog>c__AnonStorey36"/* name */
+	, ""/* namespaze */
+	, U3CDebugLogU3Ec__AnonStorey36_t348_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CDebugLogU3Ec__AnonStorey36_t348_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &U3CDebugLogU3Ec__AnonStorey36_t348_0_0_0/* byval_arg */
+	, &U3CDebugLogU3Ec__AnonStorey36_t348_1_0_0/* this_arg */
+	, &U3CDebugLogU3Ec__AnonStorey36_t348_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3CDebugLogU3Ec__AnonStorey36_t348)/* instance_size */
+	, sizeof (U3CDebugLogU3Ec__AnonStorey36_t348)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// TaskExtensions/<DebugLog>c__AnonStorey35
+#include "AssemblyU2DCSharp_TaskExtensions_U3CDebugLogU3Ec__AnonStorey_0.h"
+// Metadata Definition TaskExtensions/<DebugLog>c__AnonStorey35
+// TaskExtensions/<DebugLog>c__AnonStorey35
+#include "AssemblyU2DCSharp_TaskExtensions_U3CDebugLogU3Ec__AnonStorey_0MethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<DebugLog>c__AnonStorey35::.ctor()
+extern const MethodInfo U3CDebugLogU3Ec__AnonStorey35__ctor_m1280_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&U3CDebugLogU3Ec__AnonStorey35__ctor_m1280/* method */
+	, &U3CDebugLogU3Ec__AnonStorey35_t347_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1187/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo U3CDebugLogU3Ec__AnonStorey35_t347_U3CDebugLogU3Ec__AnonStorey35_U3CU3Em__2B_m1281_ParameterInfos[] = 
+{
+	{"t", 0, 134218791, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions/<DebugLog>c__AnonStorey35::<>m__2B(System.Threading.Tasks.Task)
+extern const MethodInfo U3CDebugLogU3Ec__AnonStorey35_U3CU3Em__2B_m1281_MethodInfo = 
+{
+	"<>m__2B"/* name */
+	, (methodPointerType)&U3CDebugLogU3Ec__AnonStorey35_U3CU3Em__2B_m1281/* method */
+	, &U3CDebugLogU3Ec__AnonStorey35_t347_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
+	, U3CDebugLogU3Ec__AnonStorey35_t347_U3CDebugLogU3Ec__AnonStorey35_U3CU3Em__2B_m1281_ParameterInfos/* parameters */
+	, 0/* custom_attributes_cache */
+	, 131/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1188/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* U3CDebugLogU3Ec__AnonStorey35_t347_MethodInfos[] =
+{
+	&U3CDebugLogU3Ec__AnonStorey35__ctor_m1280_MethodInfo,
+	&U3CDebugLogU3Ec__AnonStorey35_U3CU3Em__2B_m1281_MethodInfo,
+	NULL
+};
+static const Il2CppType* U3CDebugLogU3Ec__AnonStorey35_t347_il2cpp_TypeInfo__nestedTypes[1] =
+{
+	&U3CDebugLogU3Ec__AnonStorey36_t348_0_0_0,
+};
+static const Il2CppMethodReference U3CDebugLogU3Ec__AnonStorey35_t347_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool U3CDebugLogU3Ec__AnonStorey35_t347_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey35_t347_1_0_0;
+struct U3CDebugLogU3Ec__AnonStorey35_t347;
+const Il2CppTypeDefinitionMetadata U3CDebugLogU3Ec__AnonStorey35_t347_DefinitionMetadata = 
+{
+	&TaskExtensions_t349_0_0_0/* declaringType */
+	, U3CDebugLogU3Ec__AnonStorey35_t347_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, U3CDebugLogU3Ec__AnonStorey35_t347_VTable/* vtableMethods */
+	, U3CDebugLogU3Ec__AnonStorey35_t347_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, 1534/* fieldStart */
+
+};
+TypeInfo U3CDebugLogU3Ec__AnonStorey35_t347_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "<DebugLog>c__AnonStorey35"/* name */
+	, ""/* namespaze */
+	, U3CDebugLogU3Ec__AnonStorey35_t347_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &U3CDebugLogU3Ec__AnonStorey35_t347_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 636/* custom_attributes_cache */
+	, &U3CDebugLogU3Ec__AnonStorey35_t347_0_0_0/* byval_arg */
+	, &U3CDebugLogU3Ec__AnonStorey35_t347_1_0_0/* this_arg */
+	, &U3CDebugLogU3Ec__AnonStorey35_t347_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (U3CDebugLogU3Ec__AnonStorey35_t347)/* instance_size */
+	, sizeof (U3CDebugLogU3Ec__AnonStorey35_t347)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048835/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 2/* method_count */
+	, 0/* property_count */
+	, 2/* field_count */
+	, 0/* event_count */
+	, 1/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// TaskExtensions
+#include "AssemblyU2DCSharp_TaskExtensions.h"
+// Metadata Definition TaskExtensions
+// TaskExtensions
+#include "AssemblyU2DCSharp_TaskExtensionsMethodDeclarations.h"
+extern const Il2CppType Task_t344_0_0_0;
+extern const Il2CppType Action_1_t337_0_0_0;
+extern const Il2CppType Action_1_t337_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m1282_ParameterInfos[] = 
+{
+	{"task", 0, 134218744, 0, &Task_t344_0_0_0},
+	{"next", 1, 134218745, 0, &Action_1_t337_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task TaskExtensions::Then(System.Threading.Tasks.Task,System.Action`1<System.Threading.Tasks.Task>)
+extern const MethodInfo TaskExtensions_Then_m1282_MethodInfo = 
+{
+	"Then"/* name */
+	, (methodPointerType)&TaskExtensions_Then_m1282/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m1282_ParameterInfos/* parameters */
+	, 607/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1134/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+extern const Il2CppType Func_2_t339_0_0_0;
+extern const Il2CppType Func_2_t339_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m1283_ParameterInfos[] = 
+{
+	{"task", 0, 134218746, 0, &Task_t344_0_0_0},
+	{"next", 1, 134218747, 0, &Func_2_t339_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task TaskExtensions::Then(System.Threading.Tasks.Task,System.Func`2<System.Threading.Tasks.Task,System.Threading.Tasks.Task>)
+extern const MethodInfo TaskExtensions_Then_m1283_MethodInfo = 
+{
+	"Then"/* name */
+	, (methodPointerType)&TaskExtensions_Then_m1283/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m1283_ParameterInfos/* parameters */
+	, 608/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1135/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+extern const Il2CppType Func_2_t981_0_0_0;
+extern const Il2CppType Func_2_t981_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m3820_ParameterInfos[] = 
+{
+	{"task", 0, 134218748, 0, &Task_t344_0_0_0},
+	{"next", 1, 134218749, 0, &Func_2_t981_0_0_0},
+};
+extern const Il2CppType Task_1_t982_0_0_0;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3820_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_Then_m3820_gp_TNextResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3820_gp_TNextResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3820_Il2CppGenericContainer, NULL, "TNextResult", 0, 0 };
+static const Il2CppGenericParameter* TaskExtensions_Then_m3820_Il2CppGenericParametersArray[1] = 
+{
+	&TaskExtensions_Then_m3820_gp_TNextResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_Then_m3820_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3820_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Then_m3820_MethodInfo, 1, 1, TaskExtensions_Then_m3820_Il2CppGenericParametersArray };
+extern const Il2CppType U3CThenU3Ec__AnonStorey26_1_t984_0_0_0;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey26_1__ctor_m4007_GenericMethod;
+extern const Il2CppType TaskCompletionSource_1_t985_0_0_0;
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m4008_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey26_1_U3CU3Em__1F_m4009_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m4010_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_Then_m3820_RGCTXData[7] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CThenU3Ec__AnonStorey26_1_t984_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey26_1__ctor_m4007_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t985_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m4008_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey26_1_U3CU3Em__1F_m4009_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m4010_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<TNextResult> TaskExtensions::Then(System.Threading.Tasks.Task,System.Func`2<System.Threading.Tasks.Task,TNextResult>)
+extern const MethodInfo TaskExtensions_Then_m3820_MethodInfo = 
+{
+	"Then"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t982_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m3820_ParameterInfos/* parameters */
+	, 609/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1136/* token */
+	, TaskExtensions_Then_m3820_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_Then_m3820_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+extern const Il2CppType Func_2_t986_0_0_0;
+extern const Il2CppType Func_2_t986_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m3821_ParameterInfos[] = 
+{
+	{"task", 0, 134218750, 0, &Task_t344_0_0_0},
+	{"next", 1, 134218751, 0, &Func_2_t986_0_0_0},
+};
+extern const Il2CppType Task_1_t987_0_0_0;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3821_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_Then_m3821_gp_TNextResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3821_gp_TNextResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3821_Il2CppGenericContainer, NULL, "TNextResult", 0, 0 };
+static const Il2CppGenericParameter* TaskExtensions_Then_m3821_Il2CppGenericParametersArray[1] = 
+{
+	&TaskExtensions_Then_m3821_gp_TNextResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_Then_m3821_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3821_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Then_m3821_MethodInfo, 1, 1, TaskExtensions_Then_m3821_Il2CppGenericParametersArray };
+extern const Il2CppType U3CThenU3Ec__AnonStorey27_1_t989_0_0_0;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey27_1__ctor_m4011_GenericMethod;
+extern const Il2CppType TaskCompletionSource_1_t990_0_0_0;
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m4012_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey27_1_U3CU3Em__20_m4013_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m4014_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_Then_m3821_RGCTXData[7] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CThenU3Ec__AnonStorey27_1_t989_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey27_1__ctor_m4011_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t990_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m4012_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey27_1_U3CU3Em__20_m4013_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m4014_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<TNextResult> TaskExtensions::Then(System.Threading.Tasks.Task,System.Func`2<System.Threading.Tasks.Task,System.Threading.Tasks.Task`1<TNextResult>>)
+extern const MethodInfo TaskExtensions_Then_m3821_MethodInfo = 
+{
+	"Then"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t987_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m3821_ParameterInfos/* parameters */
+	, 610/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1137/* token */
+	, TaskExtensions_Then_m3821_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_Then_m3821_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_1_t991_0_0_0;
+extern const Il2CppType Task_1_t991_0_0_0;
+extern const Il2CppType Action_1_t992_0_0_0;
+extern const Il2CppType Action_1_t992_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m3822_ParameterInfos[] = 
+{
+	{"task", 0, 134218752, 0, &Task_1_t991_0_0_0},
+	{"next", 1, 134218753, 0, &Action_1_t992_0_0_0},
+};
+extern const Il2CppGenericContainer TaskExtensions_Then_m3822_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_Then_m3822_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3822_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3822_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+static const Il2CppGenericParameter* TaskExtensions_Then_m3822_Il2CppGenericParametersArray[1] = 
+{
+	&TaskExtensions_Then_m3822_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_Then_m3822_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3822_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Then_m3822_MethodInfo, 1, 1, TaskExtensions_Then_m3822_Il2CppGenericParametersArray };
+extern const Il2CppType U3CThenU3Ec__AnonStorey28_1_t994_0_0_0;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey28_1__ctor_m4015_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey28_1_U3CU3Em__21_m4016_GenericMethod;
+extern const Il2CppGenericMethod Action_1__ctor_m4017_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m4018_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_Then_m3822_RGCTXData[7] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CThenU3Ec__AnonStorey28_1_t994_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey28_1__ctor_m4015_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey28_1_U3CU3Em__21_m4016_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t992_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m4017_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m4018_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task TaskExtensions::Then(System.Threading.Tasks.Task`1<TResult>,System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
+extern const MethodInfo TaskExtensions_Then_m3822_MethodInfo = 
+{
+	"Then"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m3822_ParameterInfos/* parameters */
+	, 611/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1138/* token */
+	, TaskExtensions_Then_m3822_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_Then_m3822_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_1_t995_0_0_0;
+extern const Il2CppType Task_1_t995_0_0_0;
+extern const Il2CppType Func_2_t996_0_0_0;
+extern const Il2CppType Func_2_t996_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m3823_ParameterInfos[] = 
+{
+	{"task", 0, 134218754, 0, &Task_1_t995_0_0_0},
+	{"next", 1, 134218755, 0, &Func_2_t996_0_0_0},
+};
+extern const Il2CppGenericContainer TaskExtensions_Then_m3823_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_Then_m3823_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3823_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3823_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+static const Il2CppGenericParameter* TaskExtensions_Then_m3823_Il2CppGenericParametersArray[1] = 
+{
+	&TaskExtensions_Then_m3823_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_Then_m3823_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3823_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Then_m3823_MethodInfo, 1, 1, TaskExtensions_Then_m3823_Il2CppGenericParametersArray };
+extern const Il2CppType U3CThenU3Ec__AnonStorey29_1_t998_0_0_0;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey29_1__ctor_m4019_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey29_1_U3CU3Em__22_m4020_GenericMethod;
+extern const Il2CppType Action_1_t999_0_0_0;
+extern const Il2CppGenericMethod Action_1__ctor_m4021_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m4022_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_Then_m3823_RGCTXData[7] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CThenU3Ec__AnonStorey29_1_t998_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey29_1__ctor_m4019_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey29_1_U3CU3Em__22_m4020_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t999_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m4021_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m4022_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task TaskExtensions::Then(System.Threading.Tasks.Task`1<TResult>,System.Func`2<System.Threading.Tasks.Task`1<TResult>,System.Threading.Tasks.Task>)
+extern const MethodInfo TaskExtensions_Then_m3823_MethodInfo = 
+{
+	"Then"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m3823_ParameterInfos/* parameters */
+	, 612/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1139/* token */
+	, TaskExtensions_Then_m3823_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_Then_m3823_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_1_t1000_0_0_0;
+extern const Il2CppType Task_1_t1000_0_0_0;
+extern const Il2CppType Func_2_t1001_0_0_0;
+extern const Il2CppType Func_2_t1001_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m3824_ParameterInfos[] = 
+{
+	{"task", 0, 134218756, 0, &Task_1_t1000_0_0_0},
+	{"next", 1, 134218757, 0, &Func_2_t1001_0_0_0},
+};
+extern const Il2CppType Task_1_t1002_0_0_0;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3824_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_Then_m3824_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3824_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3824_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+extern TypeInfo TaskExtensions_Then_m3824_gp_TNextResult_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3824_gp_TNextResult_1_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3824_Il2CppGenericContainer, NULL, "TNextResult", 1, 0 };
+static const Il2CppGenericParameter* TaskExtensions_Then_m3824_Il2CppGenericParametersArray[2] = 
+{
+	&TaskExtensions_Then_m3824_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+	&TaskExtensions_Then_m3824_gp_TNextResult_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_Then_m3824_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3824_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Then_m3824_MethodInfo, 2, 1, TaskExtensions_Then_m3824_Il2CppGenericParametersArray };
+extern const Il2CppType U3CThenU3Ec__AnonStorey2A_2_t1005_0_0_0;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey2A_2__ctor_m4023_GenericMethod;
+extern const Il2CppType TaskCompletionSource_1_t1006_0_0_0;
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m4024_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey2A_2_U3CU3Em__23_m4025_GenericMethod;
+extern const Il2CppType Action_1_t1007_0_0_0;
+extern const Il2CppGenericMethod Action_1__ctor_m4026_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m4027_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m4028_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_Then_m3824_RGCTXData[10] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CThenU3Ec__AnonStorey2A_2_t1005_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey2A_2__ctor_m4023_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t1006_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m4024_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey2A_2_U3CU3Em__23_m4025_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t1007_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m4026_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m4027_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m4028_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<TNextResult> TaskExtensions::Then(System.Threading.Tasks.Task`1<TResult>,System.Func`2<System.Threading.Tasks.Task`1<TResult>,TNextResult>)
+extern const MethodInfo TaskExtensions_Then_m3824_MethodInfo = 
+{
+	"Then"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t1002_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m3824_ParameterInfos/* parameters */
+	, 613/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1140/* token */
+	, TaskExtensions_Then_m3824_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_Then_m3824_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_1_t1008_0_0_0;
+extern const Il2CppType Task_1_t1008_0_0_0;
+extern const Il2CppType Func_2_t1009_0_0_0;
+extern const Il2CppType Func_2_t1009_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m3825_ParameterInfos[] = 
+{
+	{"task", 0, 134218758, 0, &Task_1_t1008_0_0_0},
+	{"next", 1, 134218759, 0, &Func_2_t1009_0_0_0},
+};
+extern const Il2CppType Task_1_t1010_0_0_0;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3825_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_Then_m3825_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3825_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3825_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+extern TypeInfo TaskExtensions_Then_m3825_gp_TNextResult_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3825_gp_TNextResult_1_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3825_Il2CppGenericContainer, NULL, "TNextResult", 1, 0 };
+static const Il2CppGenericParameter* TaskExtensions_Then_m3825_Il2CppGenericParametersArray[2] = 
+{
+	&TaskExtensions_Then_m3825_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+	&TaskExtensions_Then_m3825_gp_TNextResult_1_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_Then_m3825_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3825_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Then_m3825_MethodInfo, 2, 1, TaskExtensions_Then_m3825_Il2CppGenericParametersArray };
+extern const Il2CppType U3CThenU3Ec__AnonStorey2B_2_t1013_0_0_0;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey2B_2__ctor_m4029_GenericMethod;
+extern const Il2CppType TaskCompletionSource_1_t1014_0_0_0;
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m4030_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__24_m4031_GenericMethod;
+extern const Il2CppType Action_1_t1015_0_0_0;
+extern const Il2CppGenericMethod Action_1__ctor_m4032_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m4033_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m4034_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_Then_m3825_RGCTXData[10] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CThenU3Ec__AnonStorey2B_2_t1013_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey2B_2__ctor_m4029_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t1014_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m4030_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey2B_2_U3CU3Em__24_m4031_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t1015_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m4032_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m4033_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m4034_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<TNextResult> TaskExtensions::Then(System.Threading.Tasks.Task`1<TResult>,System.Func`2<System.Threading.Tasks.Task`1<TResult>,System.Threading.Tasks.Task`1<TNextResult>>)
+extern const MethodInfo TaskExtensions_Then_m3825_MethodInfo = 
+{
+	"Then"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t1010_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m3825_ParameterInfos/* parameters */
+	, 614/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 2/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1141/* token */
+	, TaskExtensions_Then_m3825_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_Then_m3825_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+extern const Il2CppType Action_1_t341_0_0_0;
+extern const Il2CppType Action_1_t341_0_0_0;
+extern const Il2CppType Action_t250_0_0_4112;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Finally_m1284_ParameterInfos[] = 
+{
+	{"task", 0, 134218760, 0, &Task_t344_0_0_0},
+	{"exceptionHandler", 1, 134218761, 0, &Action_1_t341_0_0_0},
+	{"finalAction", 2, 134218762, 0, &Action_t250_0_0_4112},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions::Finally(System.Threading.Tasks.Task,System.Action`1<System.Exception>,System.Action)
+extern const MethodInfo TaskExtensions_Finally_m1284_MethodInfo = 
+{
+	"Finally"/* name */
+	, (methodPointerType)&TaskExtensions_Finally_m1284/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Finally_m1284_ParameterInfos/* parameters */
+	, 615/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1142/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t1016_0_0_0;
+extern const Il2CppType Task_1_t1016_0_0_0;
+extern const Il2CppType Action_1_t1017_0_0_0;
+extern const Il2CppType Action_1_t1017_0_0_0;
+extern const Il2CppType Action_1_t341_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m3826_ParameterInfos[] = 
+{
+	{"task", 0, 134218763, 0, &Task_1_t1016_0_0_0},
+	{"successHandler", 1, 134218764, 0, &Action_1_t1017_0_0_0},
+	{"exceptionHandler", 2, 134218765, 0, &Action_1_t341_0_0_0},
+};
+extern const Il2CppGenericContainer TaskExtensions_Then_m3826_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_Then_m3826_gp_TResult_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_Then_m3826_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_Then_m3826_Il2CppGenericContainer, NULL, "TResult", 0, 0 };
+static const Il2CppGenericParameter* TaskExtensions_Then_m3826_Il2CppGenericParametersArray[1] = 
+{
+	&TaskExtensions_Then_m3826_gp_TResult_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_Then_m3826_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_Then_m3826_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_Then_m3826_MethodInfo, 1, 1, TaskExtensions_Then_m3826_Il2CppGenericParametersArray };
+extern const Il2CppType U3CThenU3Ec__AnonStorey2D_1_t1019_0_0_0;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey2D_1__ctor_m4035_GenericMethod;
+extern const Il2CppGenericMethod U3CThenU3Ec__AnonStorey2D_1_U3CU3Em__26_m4036_GenericMethod;
+extern const Il2CppType Action_1_t1020_0_0_0;
+extern const Il2CppGenericMethod Action_1__ctor_m4037_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m4038_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_Then_m3826_RGCTXData[7] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CThenU3Ec__AnonStorey2D_1_t1019_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey2D_1__ctor_m4035_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CThenU3Ec__AnonStorey2D_1_U3CU3Em__26_m4036_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t1020_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m4037_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m4038_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Void TaskExtensions::Then(System.Threading.Tasks.Task`1<TResult>,System.Action`1<TResult>,System.Action`1<System.Exception>)
+extern const MethodInfo TaskExtensions_Then_m3826_MethodInfo = 
+{
+	"Then"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m3826_ParameterInfos/* parameters */
+	, 616/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1143/* token */
+	, TaskExtensions_Then_m3826_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_Then_m3826_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+extern const Il2CppType Action_t250_0_0_0;
+extern const Il2CppType Action_1_t341_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_Then_m1285_ParameterInfos[] = 
+{
+	{"task", 0, 134218766, 0, &Task_t344_0_0_0},
+	{"successHandler", 1, 134218767, 0, &Action_t250_0_0_0},
+	{"exceptionHandler", 2, 134218768, 0, &Action_1_t341_0_0_0},
+};
+extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Void TaskExtensions::Then(System.Threading.Tasks.Task,System.Action,System.Action`1<System.Exception>)
+extern const MethodInfo TaskExtensions_Then_m1285_MethodInfo = 
+{
+	"Then"/* name */
+	, (methodPointerType)&TaskExtensions_Then_m1285/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_Then_m1285_ParameterInfos/* parameters */
+	, 617/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 3/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1144/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t1021_0_0_0;
+extern const Il2CppType Task_1_t1021_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_OnMainThread_m3827_ParameterInfos[] = 
+{
+	{"task", 0, 134218769, 0, &Task_1_t1021_0_0_0},
+};
+extern const Il2CppGenericContainer TaskExtensions_OnMainThread_m3827_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_OnMainThread_m3827_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_OnMainThread_m3827_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_OnMainThread_m3827_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* TaskExtensions_OnMainThread_m3827_Il2CppGenericParametersArray[1] = 
+{
+	&TaskExtensions_OnMainThread_m3827_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_OnMainThread_m3827_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_OnMainThread_m3827_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_OnMainThread_m3827_MethodInfo, 1, 1, TaskExtensions_OnMainThread_m3827_Il2CppGenericParametersArray };
+extern const Il2CppType U3COnMainThreadU3Ec__AnonStorey2F_1_t1023_0_0_0;
+extern const Il2CppGenericMethod U3COnMainThreadU3Ec__AnonStorey2F_1__ctor_m4039_GenericMethod;
+extern const Il2CppType TaskCompletionSource_1_t1024_0_0_0;
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m4040_GenericMethod;
+extern const Il2CppGenericMethod U3COnMainThreadU3Ec__AnonStorey2F_1_U3CU3Em__28_m4041_GenericMethod;
+extern const Il2CppType Action_1_t1025_0_0_0;
+extern const Il2CppGenericMethod Action_1__ctor_m4042_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m4043_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m4044_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_OnMainThread_m3827_RGCTXData[10] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3COnMainThreadU3Ec__AnonStorey2F_1_t1023_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3COnMainThreadU3Ec__AnonStorey2F_1__ctor_m4039_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t1024_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m4040_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3COnMainThreadU3Ec__AnonStorey2F_1_U3CU3Em__28_m4041_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t1025_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m4042_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m4043_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m4044_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<T> TaskExtensions::OnMainThread(System.Threading.Tasks.Task`1<T>)
+extern const MethodInfo TaskExtensions_OnMainThread_m3827_MethodInfo = 
+{
+	"OnMainThread"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t1021_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_OnMainThread_m3827_ParameterInfos/* parameters */
+	, 618/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1145/* token */
+	, TaskExtensions_OnMainThread_m3827_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_OnMainThread_m3827_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_OnMainThread_m1286_ParameterInfos[] = 
+{
+	{"task", 0, 134218770, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task TaskExtensions::OnMainThread(System.Threading.Tasks.Task)
+extern const MethodInfo TaskExtensions_OnMainThread_m1286_MethodInfo = 
+{
+	"OnMainThread"/* name */
+	, (methodPointerType)&TaskExtensions_OnMainThread_m1286/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_OnMainThread_m1286_ParameterInfos/* parameters */
+	, 619/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1146/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern const Il2CppType Task_1_t1026_0_0_0;
+extern const Il2CppType Task_1_t1026_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_DebugLog_m3828_ParameterInfos[] = 
+{
+	{"task", 0, 134218771, 0, &Task_1_t1026_0_0_0},
+};
+extern const Il2CppGenericContainer TaskExtensions_DebugLog_m3828_Il2CppGenericContainer;
+extern TypeInfo TaskExtensions_DebugLog_m3828_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter TaskExtensions_DebugLog_m3828_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &TaskExtensions_DebugLog_m3828_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* TaskExtensions_DebugLog_m3828_Il2CppGenericParametersArray[1] = 
+{
+	&TaskExtensions_DebugLog_m3828_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+};
+extern const MethodInfo TaskExtensions_DebugLog_m3828_MethodInfo;
+extern const Il2CppGenericContainer TaskExtensions_DebugLog_m3828_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&TaskExtensions_DebugLog_m3828_MethodInfo, 1, 1, TaskExtensions_DebugLog_m3828_Il2CppGenericParametersArray };
+extern const Il2CppType U3CDebugLogU3Ec__AnonStorey33_1_t1028_0_0_0;
+extern const Il2CppGenericMethod U3CDebugLogU3Ec__AnonStorey33_1__ctor_m4045_GenericMethod;
+extern const Il2CppType TaskCompletionSource_1_t1029_0_0_0;
+extern const Il2CppGenericMethod TaskCompletionSource_1__ctor_m4046_GenericMethod;
+extern const Il2CppGenericMethod U3CDebugLogU3Ec__AnonStorey33_1_U3CU3Em__2A_m4047_GenericMethod;
+extern const Il2CppType Action_1_t1030_0_0_0;
+extern const Il2CppGenericMethod Action_1__ctor_m4048_GenericMethod;
+extern const Il2CppGenericMethod Task_1_ContinueWith_m4049_GenericMethod;
+extern const Il2CppGenericMethod TaskCompletionSource_1_get_Task_m4050_GenericMethod;
+static Il2CppRGCTXDefinition TaskExtensions_DebugLog_m3828_RGCTXData[10] = 
+{
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&U3CDebugLogU3Ec__AnonStorey33_1_t1028_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CDebugLogU3Ec__AnonStorey33_1__ctor_m4045_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&TaskCompletionSource_1_t1029_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1__ctor_m4046_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &U3CDebugLogU3Ec__AnonStorey33_1_U3CU3Em__2A_m4047_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Action_1_t1030_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Action_1__ctor_m4048_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Task_1_ContinueWith_m4049_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &TaskCompletionSource_1_get_Task_m4050_GenericMethod }/* Method */,
+	{IL2CPP_RGCTX_DATA_INVALID, NULL},
+};
+// System.Threading.Tasks.Task`1<T> TaskExtensions::DebugLog(System.Threading.Tasks.Task`1<T>)
+extern const MethodInfo TaskExtensions_DebugLog_m3828_MethodInfo = 
+{
+	"DebugLog"/* name */
+	, NULL/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_1_t1026_0_0_0/* return_type */
+	, NULL/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_DebugLog_m3828_ParameterInfos/* parameters */
+	, 620/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, true/* is_generic */
+	, false/* is_inflated */
+	, 1147/* token */
+	, TaskExtensions_DebugLog_m3828_RGCTXData/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, &TaskExtensions_DebugLog_m3828_Il2CppGenericContainer/* genericContainer */
+
+};
+extern const Il2CppType Task_t344_0_0_0;
+static const ParameterInfo TaskExtensions_t349_TaskExtensions_DebugLog_m1287_ParameterInfos[] = 
+{
+	{"task", 0, 134218772, 0, &Task_t344_0_0_0},
+};
+extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+// System.Threading.Tasks.Task TaskExtensions::DebugLog(System.Threading.Tasks.Task)
+extern const MethodInfo TaskExtensions_DebugLog_m1287_MethodInfo = 
+{
+	"DebugLog"/* name */
+	, (methodPointerType)&TaskExtensions_DebugLog_m1287/* method */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* declaring_type */
+	, &Task_t344_0_0_0/* return_type */
+	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
+	, TaskExtensions_t349_TaskExtensions_DebugLog_m1287_ParameterInfos/* parameters */
+	, 621/* custom_attributes_cache */
+	, 150/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1148/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* TaskExtensions_t349_MethodInfos[] =
+{
+	&TaskExtensions_Then_m1282_MethodInfo,
+	&TaskExtensions_Then_m1283_MethodInfo,
+	&TaskExtensions_Then_m3820_MethodInfo,
+	&TaskExtensions_Then_m3821_MethodInfo,
+	&TaskExtensions_Then_m3822_MethodInfo,
+	&TaskExtensions_Then_m3823_MethodInfo,
+	&TaskExtensions_Then_m3824_MethodInfo,
+	&TaskExtensions_Then_m3825_MethodInfo,
+	&TaskExtensions_Finally_m1284_MethodInfo,
+	&TaskExtensions_Then_m3826_MethodInfo,
+	&TaskExtensions_Then_m1285_MethodInfo,
+	&TaskExtensions_OnMainThread_m3827_MethodInfo,
+	&TaskExtensions_OnMainThread_m1286_MethodInfo,
+	&TaskExtensions_DebugLog_m3828_MethodInfo,
+	&TaskExtensions_DebugLog_m1287_MethodInfo,
+	NULL
+};
+static const Il2CppType* TaskExtensions_t349_il2cpp_TypeInfo__nestedTypes[15] =
+{
+	&U3CThenU3Ec__AnonStorey24_t338_0_0_0,
+	&U3CThenU3Ec__AnonStorey25_t340_0_0_0,
+	&U3CThenU3Ec__AnonStorey26_1_t820_0_0_0,
+	&U3CThenU3Ec__AnonStorey27_1_t821_0_0_0,
+	&U3CThenU3Ec__AnonStorey28_1_t822_0_0_0,
+	&U3CThenU3Ec__AnonStorey29_1_t823_0_0_0,
+	&U3CThenU3Ec__AnonStorey2A_2_t824_0_0_0,
+	&U3CThenU3Ec__AnonStorey2B_2_t825_0_0_0,
+	&U3CFinallyU3Ec__AnonStorey2C_t342_0_0_0,
+	&U3CThenU3Ec__AnonStorey2D_1_t826_0_0_0,
+	&U3CThenU3Ec__AnonStorey2E_t343_0_0_0,
+	&U3COnMainThreadU3Ec__AnonStorey2F_1_t827_0_0_0,
+	&U3COnMainThreadU3Ec__AnonStorey31_t345_0_0_0,
+	&U3CDebugLogU3Ec__AnonStorey33_1_t829_0_0_0,
+	&U3CDebugLogU3Ec__AnonStorey35_t347_0_0_0,
+};
+static const Il2CppMethodReference TaskExtensions_t349_VTable[] =
+{
+	&Object_Equals_m126_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m128_MethodInfo,
+	&Object_ToString_m129_MethodInfo,
+};
+static bool TaskExtensions_t349_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType TaskExtensions_t349_1_0_0;
+struct TaskExtensions_t349;
+const Il2CppTypeDefinitionMetadata TaskExtensions_t349_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, TaskExtensions_t349_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &Object_t_0_0_0/* parent */
+	, TaskExtensions_t349_VTable/* vtableMethods */
+	, TaskExtensions_t349_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo TaskExtensions_t349_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "TaskExtensions"/* name */
+	, ""/* namespaze */
+	, TaskExtensions_t349_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &TaskExtensions_t349_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 606/* custom_attributes_cache */
+	, &TaskExtensions_t349_0_0_0/* byval_arg */
+	, &TaskExtensions_t349_1_0_0/* this_arg */
+	, &TaskExtensions_t349_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (TaskExtensions_t349)/* instance_size */
+	, sizeof (TaskExtensions_t349)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048961/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 15/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 15/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// AsyncVoid
+#include "AssemblyU2DCSharp_AsyncVoid.h"
+// Metadata Definition AsyncVoid
+extern TypeInfo AsyncVoid_t350_il2cpp_TypeInfo;
+// AsyncVoid
+#include "AssemblyU2DCSharp_AsyncVoidMethodDeclarations.h"
+static const MethodInfo* AsyncVoid_t350_MethodInfos[] =
+{
+	NULL
+};
+static const Il2CppMethodReference AsyncVoid_t350_VTable[] =
+{
+	&ValueType_Equals_m3909_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&ValueType_GetHashCode_m3910_MethodInfo,
+	&ValueType_ToString_m3911_MethodInfo,
+};
+static bool AsyncVoid_t350_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType AsyncVoid_t350_0_0_0;
+extern const Il2CppType AsyncVoid_t350_1_0_0;
+const Il2CppTypeDefinitionMetadata AsyncVoid_t350_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &ValueType_t843_0_0_0/* parent */
+	, AsyncVoid_t350_VTable/* vtableMethods */
+	, AsyncVoid_t350_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo AsyncVoid_t350_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "AsyncVoid"/* name */
+	, ""/* namespaze */
+	, AsyncVoid_t350_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &AsyncVoid_t350_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &AsyncVoid_t350_0_0_0/* byval_arg */
+	, &AsyncVoid_t350_1_0_0/* this_arg */
+	, &AsyncVoid_t350_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (AsyncVoid_t350)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (AsyncVoid_t350)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(AsyncVoid_t350 )/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048841/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, true/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// Demo2DJumpAndRun
+#include "AssemblyU2DCSharp_Demo2DJumpAndRun.h"
+// Metadata Definition Demo2DJumpAndRun
+extern TypeInfo Demo2DJumpAndRun_t351_il2cpp_TypeInfo;
+// Demo2DJumpAndRun
+#include "AssemblyU2DCSharp_Demo2DJumpAndRunMethodDeclarations.h"
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void Demo2DJumpAndRun::.ctor()
+extern const MethodInfo Demo2DJumpAndRun__ctor_m1288_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&Demo2DJumpAndRun__ctor_m1288/* method */
+	, &Demo2DJumpAndRun_t351_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1191/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void Demo2DJumpAndRun::OnJoinedRoom()
+extern const MethodInfo Demo2DJumpAndRun_OnJoinedRoom_m1289_MethodInfo = 
+{
+	"OnJoinedRoom"/* name */
+	, (methodPointerType)&Demo2DJumpAndRun_OnJoinedRoom_m1289/* method */
+	, &Demo2DJumpAndRun_t351_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
+	, NULL/* parameters */
+	, 0/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 1192/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static const MethodInfo* Demo2DJumpAndRun_t351_MethodInfos[] =
+{
+	&Demo2DJumpAndRun__ctor_m1288_MethodInfo,
+	&Demo2DJumpAndRun_OnJoinedRoom_m1289_MethodInfo,
+	NULL
+};
+static const Il2CppMethodReference Demo2DJumpAndRun_t351_VTable[] =
+{
+	&Object_Equals_m3889_MethodInfo,
+	&Object_Finalize_m127_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
+};
+static bool Demo2DJumpAndRun_t351_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern const Il2CppType Demo2DJumpAndRun_t351_0_0_0;
+extern const Il2CppType Demo2DJumpAndRun_t351_1_0_0;
+struct Demo2DJumpAndRun_t351;
+const Il2CppTypeDefinitionMetadata Demo2DJumpAndRun_t351_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &MonoBehaviour_t47_0_0_0/* parent */
+	, Demo2DJumpAndRun_t351_VTable/* vtableMethods */
+	, Demo2DJumpAndRun_t351_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+	, -1/* fieldStart */
+
+};
+TypeInfo Demo2DJumpAndRun_t351_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "Demo2DJumpAndRun"/* name */
+	, ""/* namespaze */
+	, Demo2DJumpAndRun_t351_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* events */
+	, &Demo2DJumpAndRun_t351_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, 0/* custom_attributes_cache */
+	, &Demo2DJumpAndRun_t351_0_0_0/* byval_arg */
+	, &Demo2DJumpAndRun_t351_1_0_0/* this_arg */
+	, &Demo2DJumpAndRun_t351_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Demo2DJumpAndRun_t351)/* instance_size */
+	, sizeof (Demo2DJumpAndRun_t351)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -19008,16 +26086,16 @@ TypeInfo Demo2DJumpAndRun_t323_il2cpp_TypeInfo =
 // JumpAndRunMovement
 #include "AssemblyU2DCSharp_JumpAndRunMovement.h"
 // Metadata Definition JumpAndRunMovement
-extern TypeInfo JumpAndRunMovement_t326_il2cpp_TypeInfo;
+extern TypeInfo JumpAndRunMovement_t354_il2cpp_TypeInfo;
 // JumpAndRunMovement
 #include "AssemblyU2DCSharp_JumpAndRunMovementMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::.ctor()
-extern const MethodInfo JumpAndRunMovement__ctor_m1244_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement__ctor_m1290_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&JumpAndRunMovement__ctor_m1244/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement__ctor_m1290/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19028,7 +26106,7 @@ extern const MethodInfo JumpAndRunMovement__ctor_m1244_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1080/* token */
+	, 1193/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19036,11 +26114,11 @@ extern const MethodInfo JumpAndRunMovement__ctor_m1244_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::Awake()
-extern const MethodInfo JumpAndRunMovement_Awake_m1245_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_Awake_m1291_MethodInfo = 
 {
 	"Awake"/* name */
-	, (methodPointerType)&JumpAndRunMovement_Awake_m1245/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_Awake_m1291/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19051,7 +26129,7 @@ extern const MethodInfo JumpAndRunMovement_Awake_m1245_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1081/* token */
+	, 1194/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19059,11 +26137,11 @@ extern const MethodInfo JumpAndRunMovement_Awake_m1245_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::Update()
-extern const MethodInfo JumpAndRunMovement_Update_m1246_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_Update_m1292_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&JumpAndRunMovement_Update_m1246/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_Update_m1292/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19074,7 +26152,7 @@ extern const MethodInfo JumpAndRunMovement_Update_m1246_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1082/* token */
+	, 1195/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19082,11 +26160,11 @@ extern const MethodInfo JumpAndRunMovement_Update_m1246_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::FixedUpdate()
-extern const MethodInfo JumpAndRunMovement_FixedUpdate_m1247_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_FixedUpdate_m1293_MethodInfo = 
 {
 	"FixedUpdate"/* name */
-	, (methodPointerType)&JumpAndRunMovement_FixedUpdate_m1247/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_FixedUpdate_m1293/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19097,7 +26175,7 @@ extern const MethodInfo JumpAndRunMovement_FixedUpdate_m1247_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1083/* token */
+	, 1196/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19105,11 +26183,11 @@ extern const MethodInfo JumpAndRunMovement_FixedUpdate_m1247_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::UpdateFacingDirection()
-extern const MethodInfo JumpAndRunMovement_UpdateFacingDirection_m1248_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_UpdateFacingDirection_m1294_MethodInfo = 
 {
 	"UpdateFacingDirection"/* name */
-	, (methodPointerType)&JumpAndRunMovement_UpdateFacingDirection_m1248/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_UpdateFacingDirection_m1294/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19120,7 +26198,7 @@ extern const MethodInfo JumpAndRunMovement_UpdateFacingDirection_m1248_MethodInf
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1084/* token */
+	, 1197/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19128,11 +26206,11 @@ extern const MethodInfo JumpAndRunMovement_UpdateFacingDirection_m1248_MethodInf
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::UpdateJumping()
-extern const MethodInfo JumpAndRunMovement_UpdateJumping_m1249_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_UpdateJumping_m1295_MethodInfo = 
 {
 	"UpdateJumping"/* name */
-	, (methodPointerType)&JumpAndRunMovement_UpdateJumping_m1249/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_UpdateJumping_m1295/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19143,7 +26221,7 @@ extern const MethodInfo JumpAndRunMovement_UpdateJumping_m1249_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1085/* token */
+	, 1198/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19151,22 +26229,22 @@ extern const MethodInfo JumpAndRunMovement_UpdateJumping_m1249_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::DoJump()
-extern const MethodInfo JumpAndRunMovement_DoJump_m1250_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_DoJump_m1296_MethodInfo = 
 {
 	"DoJump"/* name */
-	, (methodPointerType)&JumpAndRunMovement_DoJump_m1250/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_DoJump_m1296/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
-	, 573/* custom_attributes_cache */
+	, 637/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1086/* token */
+	, 1199/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19174,11 +26252,11 @@ extern const MethodInfo JumpAndRunMovement_DoJump_m1250_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::UpdateMovement()
-extern const MethodInfo JumpAndRunMovement_UpdateMovement_m1251_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_UpdateMovement_m1297_MethodInfo = 
 {
 	"UpdateMovement"/* name */
-	, (methodPointerType)&JumpAndRunMovement_UpdateMovement_m1251/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_UpdateMovement_m1297/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19189,7 +26267,7 @@ extern const MethodInfo JumpAndRunMovement_UpdateMovement_m1251_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1087/* token */
+	, 1200/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19197,11 +26275,11 @@ extern const MethodInfo JumpAndRunMovement_UpdateMovement_m1251_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::UpdateIsRunning()
-extern const MethodInfo JumpAndRunMovement_UpdateIsRunning_m1252_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_UpdateIsRunning_m1298_MethodInfo = 
 {
 	"UpdateIsRunning"/* name */
-	, (methodPointerType)&JumpAndRunMovement_UpdateIsRunning_m1252/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_UpdateIsRunning_m1298/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19212,7 +26290,7 @@ extern const MethodInfo JumpAndRunMovement_UpdateIsRunning_m1252_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1088/* token */
+	, 1201/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19220,11 +26298,11 @@ extern const MethodInfo JumpAndRunMovement_UpdateIsRunning_m1252_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void JumpAndRunMovement::UpdateIsGrounded()
-extern const MethodInfo JumpAndRunMovement_UpdateIsGrounded_m1253_MethodInfo = 
+extern const MethodInfo JumpAndRunMovement_UpdateIsGrounded_m1299_MethodInfo = 
 {
 	"UpdateIsGrounded"/* name */
-	, (methodPointerType)&JumpAndRunMovement_UpdateIsGrounded_m1253/* method */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&JumpAndRunMovement_UpdateIsGrounded_m1299/* method */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19235,34 +26313,34 @@ extern const MethodInfo JumpAndRunMovement_UpdateIsGrounded_m1253_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1089/* token */
+	, 1202/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static const MethodInfo* JumpAndRunMovement_t326_MethodInfos[] =
+static const MethodInfo* JumpAndRunMovement_t354_MethodInfos[] =
 {
-	&JumpAndRunMovement__ctor_m1244_MethodInfo,
-	&JumpAndRunMovement_Awake_m1245_MethodInfo,
-	&JumpAndRunMovement_Update_m1246_MethodInfo,
-	&JumpAndRunMovement_FixedUpdate_m1247_MethodInfo,
-	&JumpAndRunMovement_UpdateFacingDirection_m1248_MethodInfo,
-	&JumpAndRunMovement_UpdateJumping_m1249_MethodInfo,
-	&JumpAndRunMovement_DoJump_m1250_MethodInfo,
-	&JumpAndRunMovement_UpdateMovement_m1251_MethodInfo,
-	&JumpAndRunMovement_UpdateIsRunning_m1252_MethodInfo,
-	&JumpAndRunMovement_UpdateIsGrounded_m1253_MethodInfo,
+	&JumpAndRunMovement__ctor_m1290_MethodInfo,
+	&JumpAndRunMovement_Awake_m1291_MethodInfo,
+	&JumpAndRunMovement_Update_m1292_MethodInfo,
+	&JumpAndRunMovement_FixedUpdate_m1293_MethodInfo,
+	&JumpAndRunMovement_UpdateFacingDirection_m1294_MethodInfo,
+	&JumpAndRunMovement_UpdateJumping_m1295_MethodInfo,
+	&JumpAndRunMovement_DoJump_m1296_MethodInfo,
+	&JumpAndRunMovement_UpdateMovement_m1297_MethodInfo,
+	&JumpAndRunMovement_UpdateIsRunning_m1298_MethodInfo,
+	&JumpAndRunMovement_UpdateIsGrounded_m1299_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference JumpAndRunMovement_t326_VTable[] =
+static const Il2CppMethodReference JumpAndRunMovement_t354_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
-static bool JumpAndRunMovement_t326_VTableIsGenericMethod[] =
+static bool JumpAndRunMovement_t354_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19270,37 +26348,37 @@ static bool JumpAndRunMovement_t326_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType JumpAndRunMovement_t326_0_0_0;
-extern const Il2CppType JumpAndRunMovement_t326_1_0_0;
-struct JumpAndRunMovement_t326;
-const Il2CppTypeDefinitionMetadata JumpAndRunMovement_t326_DefinitionMetadata = 
+extern const Il2CppType JumpAndRunMovement_t354_0_0_0;
+extern const Il2CppType JumpAndRunMovement_t354_1_0_0;
+struct JumpAndRunMovement_t354;
+const Il2CppTypeDefinitionMetadata JumpAndRunMovement_t354_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t47_0_0_0/* parent */
-	, JumpAndRunMovement_t326_VTable/* vtableMethods */
-	, JumpAndRunMovement_t326_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, JumpAndRunMovement_t354_VTable/* vtableMethods */
+	, JumpAndRunMovement_t354_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1480/* fieldStart */
+	, 1536/* fieldStart */
 
 };
-TypeInfo JumpAndRunMovement_t326_il2cpp_TypeInfo = 
+TypeInfo JumpAndRunMovement_t354_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "JumpAndRunMovement"/* name */
 	, ""/* namespaze */
-	, JumpAndRunMovement_t326_MethodInfos/* methods */
+	, JumpAndRunMovement_t354_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &JumpAndRunMovement_t326_il2cpp_TypeInfo/* element_class */
+	, &JumpAndRunMovement_t354_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &JumpAndRunMovement_t326_0_0_0/* byval_arg */
-	, &JumpAndRunMovement_t326_1_0_0/* this_arg */
-	, &JumpAndRunMovement_t326_DefinitionMetadata/* definitionMetadata */
+	, &JumpAndRunMovement_t354_0_0_0/* byval_arg */
+	, &JumpAndRunMovement_t354_1_0_0/* this_arg */
+	, &JumpAndRunMovement_t354_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19310,8 +26388,8 @@ TypeInfo JumpAndRunMovement_t326_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (JumpAndRunMovement_t326)/* instance_size */
-	, sizeof (JumpAndRunMovement_t326)/* actualSize */
+	, sizeof (JumpAndRunMovement_t354)/* instance_size */
+	, sizeof (JumpAndRunMovement_t354)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -19343,16 +26421,16 @@ TypeInfo JumpAndRunMovement_t326_il2cpp_TypeInfo =
 // DemoBoxesGui
 #include "AssemblyU2DCSharp_DemoBoxesGui.h"
 // Metadata Definition DemoBoxesGui
-extern TypeInfo DemoBoxesGui_t327_il2cpp_TypeInfo;
+extern TypeInfo DemoBoxesGui_t355_il2cpp_TypeInfo;
 // DemoBoxesGui
 #include "AssemblyU2DCSharp_DemoBoxesGuiMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void DemoBoxesGui::.ctor()
-extern const MethodInfo DemoBoxesGui__ctor_m1254_MethodInfo = 
+extern const MethodInfo DemoBoxesGui__ctor_m1300_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DemoBoxesGui__ctor_m1254/* method */
-	, &DemoBoxesGui_t327_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DemoBoxesGui__ctor_m1300/* method */
+	, &DemoBoxesGui_t355_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19363,7 +26441,7 @@ extern const MethodInfo DemoBoxesGui__ctor_m1254_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1090/* token */
+	, 1203/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -19371,11 +26449,11 @@ extern const MethodInfo DemoBoxesGui__ctor_m1254_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void DemoBoxesGui::OnGUI()
-extern const MethodInfo DemoBoxesGui_OnGUI_m1255_MethodInfo = 
+extern const MethodInfo DemoBoxesGui_OnGUI_m1301_MethodInfo = 
 {
 	"OnGUI"/* name */
-	, (methodPointerType)&DemoBoxesGui_OnGUI_m1255/* method */
-	, &DemoBoxesGui_t327_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DemoBoxesGui_OnGUI_m1301/* method */
+	, &DemoBoxesGui_t355_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
@@ -19386,26 +26464,26 @@ extern const MethodInfo DemoBoxesGui_OnGUI_m1255_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 1091/* token */
+	, 1204/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static const MethodInfo* DemoBoxesGui_t327_MethodInfos[] =
+static const MethodInfo* DemoBoxesGui_t355_MethodInfos[] =
 {
-	&DemoBoxesGui__ctor_m1254_MethodInfo,
-	&DemoBoxesGui_OnGUI_m1255_MethodInfo,
+	&DemoBoxesGui__ctor_m1300_MethodInfo,
+	&DemoBoxesGui_OnGUI_m1301_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference DemoBoxesGui_t327_VTable[] =
+static const Il2CppMethodReference DemoBoxesGui_t355_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
-static bool DemoBoxesGui_t327_VTableIsGenericMethod[] =
+static bool DemoBoxesGui_t355_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19413,37 +26491,37 @@ static bool DemoBoxesGui_t327_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType DemoBoxesGui_t327_0_0_0;
-extern const Il2CppType DemoBoxesGui_t327_1_0_0;
-struct DemoBoxesGui_t327;
-const Il2CppTypeDefinitionMetadata DemoBoxesGui_t327_DefinitionMetadata = 
+extern const Il2CppType DemoBoxesGui_t355_0_0_0;
+extern const Il2CppType DemoBoxesGui_t355_1_0_0;
+struct DemoBoxesGui_t355;
+const Il2CppTypeDefinitionMetadata DemoBoxesGui_t355_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t47_0_0_0/* parent */
-	, DemoBoxesGui_t327_VTable/* vtableMethods */
-	, DemoBoxesGui_t327_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, DemoBoxesGui_t355_VTable/* vtableMethods */
+	, DemoBoxesGui_t355_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
-	, 1486/* fieldStart */
+	, 1542/* fieldStart */
 
 };
-TypeInfo DemoBoxesGui_t327_il2cpp_TypeInfo = 
+TypeInfo DemoBoxesGui_t355_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DemoBoxesGui"/* name */
 	, ""/* namespaze */
-	, DemoBoxesGui_t327_MethodInfos/* methods */
+	, DemoBoxesGui_t355_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &DemoBoxesGui_t327_il2cpp_TypeInfo/* element_class */
+	, &DemoBoxesGui_t355_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DemoBoxesGui_t327_0_0_0/* byval_arg */
-	, &DemoBoxesGui_t327_1_0_0/* this_arg */
-	, &DemoBoxesGui_t327_DefinitionMetadata/* definitionMetadata */
+	, &DemoBoxesGui_t355_0_0_0/* byval_arg */
+	, &DemoBoxesGui_t355_1_0_0/* this_arg */
+	, &DemoBoxesGui_t355_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19453,8 +26531,8 @@ TypeInfo DemoBoxesGui_t327_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DemoBoxesGui_t327)/* instance_size */
-	, sizeof (DemoBoxesGui_t327)/* actualSize */
+	, sizeof (DemoBoxesGui_t355)/* instance_size */
+	, sizeof (DemoBoxesGui_t355)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -19486,5630 +26564,21 @@ TypeInfo DemoBoxesGui_t327_il2cpp_TypeInfo =
 // OnAwakePhysicsSettings
 #include "AssemblyU2DCSharp_OnAwakePhysicsSettings.h"
 // Metadata Definition OnAwakePhysicsSettings
-extern TypeInfo OnAwakePhysicsSettings_t328_il2cpp_TypeInfo;
+extern TypeInfo OnAwakePhysicsSettings_t356_il2cpp_TypeInfo;
 // OnAwakePhysicsSettings
 #include "AssemblyU2DCSharp_OnAwakePhysicsSettingsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
 // System.Void OnAwakePhysicsSettings::.ctor()
-extern const MethodInfo OnAwakePhysicsSettings__ctor_m1256_MethodInfo = 
+extern const MethodInfo OnAwakePhysicsSettings__ctor_m1302_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&OnAwakePhysicsSettings__ctor_m1256/* method */
-	, &OnAwakePhysicsSettings_t328_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&OnAwakePhysicsSettings__ctor_m1302/* method */
+	, &OnAwakePhysicsSettings_t356_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t35_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1092/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnAwakePhysicsSettings::Awake()
-extern const MethodInfo OnAwakePhysicsSettings_Awake_m1257_MethodInfo = 
-{
-	"Awake"/* name */
-	, (methodPointerType)&OnAwakePhysicsSettings_Awake_m1257/* method */
-	, &OnAwakePhysicsSettings_t328_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1093/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* OnAwakePhysicsSettings_t328_MethodInfos[] =
-{
-	&OnAwakePhysicsSettings__ctor_m1256_MethodInfo,
-	&OnAwakePhysicsSettings_Awake_m1257_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference OnAwakePhysicsSettings_t328_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool OnAwakePhysicsSettings_t328_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType OnAwakePhysicsSettings_t328_0_0_0;
-extern const Il2CppType OnAwakePhysicsSettings_t328_1_0_0;
-extern const Il2CppType MonoBehaviour_t329_0_0_0;
-struct OnAwakePhysicsSettings_t328;
-const Il2CppTypeDefinitionMetadata OnAwakePhysicsSettings_t328_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t329_0_0_0/* parent */
-	, OnAwakePhysicsSettings_t328_VTable/* vtableMethods */
-	, OnAwakePhysicsSettings_t328_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, -1/* fieldStart */
-
-};
-TypeInfo OnAwakePhysicsSettings_t328_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "OnAwakePhysicsSettings"/* name */
-	, ""/* namespaze */
-	, OnAwakePhysicsSettings_t328_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &OnAwakePhysicsSettings_t328_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 574/* custom_attributes_cache */
-	, &OnAwakePhysicsSettings_t328_0_0_0/* byval_arg */
-	, &OnAwakePhysicsSettings_t328_1_0_0/* this_arg */
-	, &OnAwakePhysicsSettings_t328_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OnAwakePhysicsSettings_t328)/* instance_size */
-	, sizeof (OnAwakePhysicsSettings_t328)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 0/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// ClickAndDrag
-#include "AssemblyU2DCSharp_ClickAndDrag.h"
-// Metadata Definition ClickAndDrag
-extern TypeInfo ClickAndDrag_t330_il2cpp_TypeInfo;
-// ClickAndDrag
-#include "AssemblyU2DCSharp_ClickAndDragMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ClickAndDrag::.ctor()
-extern const MethodInfo ClickAndDrag__ctor_m1258_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&ClickAndDrag__ctor_m1258/* method */
-	, &ClickAndDrag_t330_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1094/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ClickAndDrag::Update()
-extern const MethodInfo ClickAndDrag_Update_m1259_MethodInfo = 
-{
-	"Update"/* name */
-	, (methodPointerType)&ClickAndDrag_Update_m1259/* method */
-	, &ClickAndDrag_t330_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1095/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* ClickAndDrag_t330_MethodInfos[] =
-{
-	&ClickAndDrag__ctor_m1258_MethodInfo,
-	&ClickAndDrag_Update_m1259_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference ClickAndDrag_t330_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool ClickAndDrag_t330_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType ClickAndDrag_t330_0_0_0;
-extern const Il2CppType ClickAndDrag_t330_1_0_0;
-struct ClickAndDrag_t330;
-const Il2CppTypeDefinitionMetadata ClickAndDrag_t330_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t329_0_0_0/* parent */
-	, ClickAndDrag_t330_VTable/* vtableMethods */
-	, ClickAndDrag_t330_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1487/* fieldStart */
-
-};
-TypeInfo ClickAndDrag_t330_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "ClickAndDrag"/* name */
-	, ""/* namespaze */
-	, ClickAndDrag_t330_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &ClickAndDrag_t330_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &ClickAndDrag_t330_0_0_0/* byval_arg */
-	, &ClickAndDrag_t330_1_0_0/* this_arg */
-	, &ClickAndDrag_t330_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ClickAndDrag_t330)/* instance_size */
-	, sizeof (ClickAndDrag_t330)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 3/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// DemoOwnershipGui
-#include "AssemblyU2DCSharp_DemoOwnershipGui.h"
-// Metadata Definition DemoOwnershipGui
-extern TypeInfo DemoOwnershipGui_t331_il2cpp_TypeInfo;
-// DemoOwnershipGui
-#include "AssemblyU2DCSharp_DemoOwnershipGuiMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoOwnershipGui::.ctor()
-extern const MethodInfo DemoOwnershipGui__ctor_m1260_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&DemoOwnershipGui__ctor_m1260/* method */
-	, &DemoOwnershipGui_t331_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1096/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType ObjectU5BU5D_t21_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t21_0_0_0;
-static const ParameterInfo DemoOwnershipGui_t331_DemoOwnershipGui_OnOwnershipRequest_m1261_ParameterInfos[] = 
-{
-	{"viewAndPlayer", 0, 134218655, 0, &ObjectU5BU5D_t21_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoOwnershipGui::OnOwnershipRequest(System.Object[])
-extern const MethodInfo DemoOwnershipGui_OnOwnershipRequest_m1261_MethodInfo = 
-{
-	"OnOwnershipRequest"/* name */
-	, (methodPointerType)&DemoOwnershipGui_OnOwnershipRequest_m1261/* method */
-	, &DemoOwnershipGui_t331_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, DemoOwnershipGui_t331_DemoOwnershipGui_OnOwnershipRequest_m1261_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1097/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoOwnershipGui::OnGUI()
-extern const MethodInfo DemoOwnershipGui_OnGUI_m1262_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&DemoOwnershipGui_OnGUI_m1262/* method */
-	, &DemoOwnershipGui_t331_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1098/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* DemoOwnershipGui_t331_MethodInfos[] =
-{
-	&DemoOwnershipGui__ctor_m1260_MethodInfo,
-	&DemoOwnershipGui_OnOwnershipRequest_m1261_MethodInfo,
-	&DemoOwnershipGui_OnGUI_m1262_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference DemoOwnershipGui_t331_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool DemoOwnershipGui_t331_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType DemoOwnershipGui_t331_0_0_0;
-extern const Il2CppType DemoOwnershipGui_t331_1_0_0;
-struct DemoOwnershipGui_t331;
-const Il2CppTypeDefinitionMetadata DemoOwnershipGui_t331_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, DemoOwnershipGui_t331_VTable/* vtableMethods */
-	, DemoOwnershipGui_t331_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1490/* fieldStart */
-
-};
-TypeInfo DemoOwnershipGui_t331_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "DemoOwnershipGui"/* name */
-	, ""/* namespaze */
-	, DemoOwnershipGui_t331_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &DemoOwnershipGui_t331_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &DemoOwnershipGui_t331_0_0_0/* byval_arg */
-	, &DemoOwnershipGui_t331_1_0_0/* this_arg */
-	, &DemoOwnershipGui_t331_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DemoOwnershipGui_t331)/* instance_size */
-	, sizeof (DemoOwnershipGui_t331)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 3/* method_count */
-	, 0/* property_count */
-	, 2/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// InstantiateCube
-#include "AssemblyU2DCSharp_InstantiateCube.h"
-// Metadata Definition InstantiateCube
-extern TypeInfo InstantiateCube_t332_il2cpp_TypeInfo;
-// InstantiateCube
-#include "AssemblyU2DCSharp_InstantiateCubeMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void InstantiateCube::.ctor()
-extern const MethodInfo InstantiateCube__ctor_m1263_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&InstantiateCube__ctor_m1263/* method */
-	, &InstantiateCube_t332_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1099/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void InstantiateCube::OnClick()
-extern const MethodInfo InstantiateCube_OnClick_m1264_MethodInfo = 
-{
-	"OnClick"/* name */
-	, (methodPointerType)&InstantiateCube_OnClick_m1264/* method */
-	, &InstantiateCube_t332_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1100/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* InstantiateCube_t332_MethodInfos[] =
-{
-	&InstantiateCube__ctor_m1263_MethodInfo,
-	&InstantiateCube_OnClick_m1264_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference InstantiateCube_t332_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool InstantiateCube_t332_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType InstantiateCube_t332_0_0_0;
-extern const Il2CppType InstantiateCube_t332_1_0_0;
-struct InstantiateCube_t332;
-const Il2CppTypeDefinitionMetadata InstantiateCube_t332_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, InstantiateCube_t332_VTable/* vtableMethods */
-	, InstantiateCube_t332_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1492/* fieldStart */
-
-};
-TypeInfo InstantiateCube_t332_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "InstantiateCube"/* name */
-	, ""/* namespaze */
-	, InstantiateCube_t332_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &InstantiateCube_t332_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &InstantiateCube_t332_0_0_0/* byval_arg */
-	, &InstantiateCube_t332_1_0_0/* this_arg */
-	, &InstantiateCube_t332_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (InstantiateCube_t332)/* instance_size */
-	, sizeof (InstantiateCube_t332)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 3/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// MaterialPerOwner
-#include "AssemblyU2DCSharp_MaterialPerOwner.h"
-// Metadata Definition MaterialPerOwner
-extern TypeInfo MaterialPerOwner_t333_il2cpp_TypeInfo;
-// MaterialPerOwner
-#include "AssemblyU2DCSharp_MaterialPerOwnerMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MaterialPerOwner::.ctor()
-extern const MethodInfo MaterialPerOwner__ctor_m1265_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&MaterialPerOwner__ctor_m1265/* method */
-	, &MaterialPerOwner_t333_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1101/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MaterialPerOwner::Start()
-extern const MethodInfo MaterialPerOwner_Start_m1266_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&MaterialPerOwner_Start_m1266/* method */
-	, &MaterialPerOwner_t333_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1102/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MaterialPerOwner::Update()
-extern const MethodInfo MaterialPerOwner_Update_m1267_MethodInfo = 
-{
-	"Update"/* name */
-	, (methodPointerType)&MaterialPerOwner_Update_m1267/* method */
-	, &MaterialPerOwner_t333_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1103/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* MaterialPerOwner_t333_MethodInfos[] =
-{
-	&MaterialPerOwner__ctor_m1265_MethodInfo,
-	&MaterialPerOwner_Start_m1266_MethodInfo,
-	&MaterialPerOwner_Update_m1267_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference MaterialPerOwner_t333_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool MaterialPerOwner_t333_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType MaterialPerOwner_t333_0_0_0;
-extern const Il2CppType MaterialPerOwner_t333_1_0_0;
-struct MaterialPerOwner_t333;
-const Il2CppTypeDefinitionMetadata MaterialPerOwner_t333_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t329_0_0_0/* parent */
-	, MaterialPerOwner_t333_VTable/* vtableMethods */
-	, MaterialPerOwner_t333_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1495/* fieldStart */
-
-};
-TypeInfo MaterialPerOwner_t333_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "MaterialPerOwner"/* name */
-	, ""/* namespaze */
-	, MaterialPerOwner_t333_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &MaterialPerOwner_t333_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 575/* custom_attributes_cache */
-	, &MaterialPerOwner_t333_0_0_0/* byval_arg */
-	, &MaterialPerOwner_t333_1_0_0/* this_arg */
-	, &MaterialPerOwner_t333_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MaterialPerOwner_t333)/* instance_size */
-	, sizeof (MaterialPerOwner_t333)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 3/* method_count */
-	, 0/* property_count */
-	, 2/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// OnClickDisableObj
-#include "AssemblyU2DCSharp_OnClickDisableObj.h"
-// Metadata Definition OnClickDisableObj
-extern TypeInfo OnClickDisableObj_t334_il2cpp_TypeInfo;
-// OnClickDisableObj
-#include "AssemblyU2DCSharp_OnClickDisableObjMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickDisableObj::.ctor()
-extern const MethodInfo OnClickDisableObj__ctor_m1268_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&OnClickDisableObj__ctor_m1268/* method */
-	, &OnClickDisableObj_t334_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1104/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickDisableObj::OnClick()
-extern const MethodInfo OnClickDisableObj_OnClick_m1269_MethodInfo = 
-{
-	"OnClick"/* name */
-	, (methodPointerType)&OnClickDisableObj_OnClick_m1269/* method */
-	, &OnClickDisableObj_t334_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1105/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* OnClickDisableObj_t334_MethodInfos[] =
-{
-	&OnClickDisableObj__ctor_m1268_MethodInfo,
-	&OnClickDisableObj_OnClick_m1269_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference OnClickDisableObj_t334_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool OnClickDisableObj_t334_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType OnClickDisableObj_t334_0_0_0;
-extern const Il2CppType OnClickDisableObj_t334_1_0_0;
-struct OnClickDisableObj_t334;
-const Il2CppTypeDefinitionMetadata OnClickDisableObj_t334_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, OnClickDisableObj_t334_VTable/* vtableMethods */
-	, OnClickDisableObj_t334_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, -1/* fieldStart */
-
-};
-TypeInfo OnClickDisableObj_t334_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "OnClickDisableObj"/* name */
-	, ""/* namespaze */
-	, OnClickDisableObj_t334_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &OnClickDisableObj_t334_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &OnClickDisableObj_t334_0_0_0/* byval_arg */
-	, &OnClickDisableObj_t334_1_0_0/* this_arg */
-	, &OnClickDisableObj_t334_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OnClickDisableObj_t334)/* instance_size */
-	, sizeof (OnClickDisableObj_t334)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 0/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// OnClickRequestOwnership
-#include "AssemblyU2DCSharp_OnClickRequestOwnership.h"
-// Metadata Definition OnClickRequestOwnership
-extern TypeInfo OnClickRequestOwnership_t335_il2cpp_TypeInfo;
-// OnClickRequestOwnership
-#include "AssemblyU2DCSharp_OnClickRequestOwnershipMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickRequestOwnership::.ctor()
-extern const MethodInfo OnClickRequestOwnership__ctor_m1270_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&OnClickRequestOwnership__ctor_m1270/* method */
-	, &OnClickRequestOwnership_t335_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1106/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickRequestOwnership::OnClick()
-extern const MethodInfo OnClickRequestOwnership_OnClick_m1271_MethodInfo = 
-{
-	"OnClick"/* name */
-	, (methodPointerType)&OnClickRequestOwnership_OnClick_m1271/* method */
-	, &OnClickRequestOwnership_t335_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1107/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Vector3_t53_0_0_0;
-static const ParameterInfo OnClickRequestOwnership_t335_OnClickRequestOwnership_ColorRpc_m1272_ParameterInfos[] = 
-{
-	{"col", 0, 134218656, 0, &Vector3_t53_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickRequestOwnership::ColorRpc(UnityEngine.Vector3)
-extern const MethodInfo OnClickRequestOwnership_ColorRpc_m1272_MethodInfo = 
-{
-	"ColorRpc"/* name */
-	, (methodPointerType)&OnClickRequestOwnership_ColorRpc_m1272/* method */
-	, &OnClickRequestOwnership_t335_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Vector3_t53/* invoker_method */
-	, OnClickRequestOwnership_t335_OnClickRequestOwnership_ColorRpc_m1272_ParameterInfos/* parameters */
-	, 577/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1108/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* OnClickRequestOwnership_t335_MethodInfos[] =
-{
-	&OnClickRequestOwnership__ctor_m1270_MethodInfo,
-	&OnClickRequestOwnership_OnClick_m1271_MethodInfo,
-	&OnClickRequestOwnership_ColorRpc_m1272_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference OnClickRequestOwnership_t335_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool OnClickRequestOwnership_t335_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType OnClickRequestOwnership_t335_0_0_0;
-extern const Il2CppType OnClickRequestOwnership_t335_1_0_0;
-struct OnClickRequestOwnership_t335;
-const Il2CppTypeDefinitionMetadata OnClickRequestOwnership_t335_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t329_0_0_0/* parent */
-	, OnClickRequestOwnership_t335_VTable/* vtableMethods */
-	, OnClickRequestOwnership_t335_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, -1/* fieldStart */
-
-};
-TypeInfo OnClickRequestOwnership_t335_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "OnClickRequestOwnership"/* name */
-	, ""/* namespaze */
-	, OnClickRequestOwnership_t335_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &OnClickRequestOwnership_t335_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 576/* custom_attributes_cache */
-	, &OnClickRequestOwnership_t335_0_0_0/* byval_arg */
-	, &OnClickRequestOwnership_t335_1_0_0/* this_arg */
-	, &OnClickRequestOwnership_t335_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OnClickRequestOwnership_t335)/* instance_size */
-	, sizeof (OnClickRequestOwnership_t335)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 3/* method_count */
-	, 0/* property_count */
-	, 0/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// OnClickRightDestroy
-#include "AssemblyU2DCSharp_OnClickRightDestroy.h"
-// Metadata Definition OnClickRightDestroy
-extern TypeInfo OnClickRightDestroy_t336_il2cpp_TypeInfo;
-// OnClickRightDestroy
-#include "AssemblyU2DCSharp_OnClickRightDestroyMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickRightDestroy::.ctor()
-extern const MethodInfo OnClickRightDestroy__ctor_m1273_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&OnClickRightDestroy__ctor_m1273/* method */
-	, &OnClickRightDestroy_t336_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1109/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickRightDestroy::OnPressRight()
-extern const MethodInfo OnClickRightDestroy_OnPressRight_m1274_MethodInfo = 
-{
-	"OnPressRight"/* name */
-	, (methodPointerType)&OnClickRightDestroy_OnPressRight_m1274/* method */
-	, &OnClickRightDestroy_t336_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1110/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* OnClickRightDestroy_t336_MethodInfos[] =
-{
-	&OnClickRightDestroy__ctor_m1273_MethodInfo,
-	&OnClickRightDestroy_OnPressRight_m1274_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference OnClickRightDestroy_t336_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool OnClickRightDestroy_t336_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType OnClickRightDestroy_t336_0_0_0;
-extern const Il2CppType OnClickRightDestroy_t336_1_0_0;
-struct OnClickRightDestroy_t336;
-const Il2CppTypeDefinitionMetadata OnClickRightDestroy_t336_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, OnClickRightDestroy_t336_VTable/* vtableMethods */
-	, OnClickRightDestroy_t336_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, -1/* fieldStart */
-
-};
-TypeInfo OnClickRightDestroy_t336_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "OnClickRightDestroy"/* name */
-	, ""/* namespaze */
-	, OnClickRightDestroy_t336_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &OnClickRightDestroy_t336_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &OnClickRightDestroy_t336_0_0_0/* byval_arg */
-	, &OnClickRightDestroy_t336_1_0_0/* this_arg */
-	, &OnClickRightDestroy_t336_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OnClickRightDestroy_t336)/* instance_size */
-	, sizeof (OnClickRightDestroy_t336)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 0/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// OnJoinInstantiate
-#include "AssemblyU2DCSharp_OnJoinInstantiate.h"
-// Metadata Definition OnJoinInstantiate
-extern TypeInfo OnJoinInstantiate_t337_il2cpp_TypeInfo;
-// OnJoinInstantiate
-#include "AssemblyU2DCSharp_OnJoinInstantiateMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnJoinInstantiate::.ctor()
-extern const MethodInfo OnJoinInstantiate__ctor_m1275_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&OnJoinInstantiate__ctor_m1275/* method */
-	, &OnJoinInstantiate_t337_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1111/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnJoinInstantiate::OnJoinedRoom()
-extern const MethodInfo OnJoinInstantiate_OnJoinedRoom_m1276_MethodInfo = 
-{
-	"OnJoinedRoom"/* name */
-	, (methodPointerType)&OnJoinInstantiate_OnJoinedRoom_m1276/* method */
-	, &OnJoinInstantiate_t337_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1112/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* OnJoinInstantiate_t337_MethodInfos[] =
-{
-	&OnJoinInstantiate__ctor_m1275_MethodInfo,
-	&OnJoinInstantiate_OnJoinedRoom_m1276_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference OnJoinInstantiate_t337_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool OnJoinInstantiate_t337_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType OnJoinInstantiate_t337_0_0_0;
-extern const Il2CppType OnJoinInstantiate_t337_1_0_0;
-struct OnJoinInstantiate_t337;
-const Il2CppTypeDefinitionMetadata OnJoinInstantiate_t337_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, OnJoinInstantiate_t337_VTable/* vtableMethods */
-	, OnJoinInstantiate_t337_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1497/* fieldStart */
-
-};
-TypeInfo OnJoinInstantiate_t337_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "OnJoinInstantiate"/* name */
-	, ""/* namespaze */
-	, OnJoinInstantiate_t337_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &OnJoinInstantiate_t337_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &OnJoinInstantiate_t337_0_0_0/* byval_arg */
-	, &OnJoinInstantiate_t337_1_0_0/* this_arg */
-	, &OnJoinInstantiate_t337_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OnJoinInstantiate_t337)/* instance_size */
-	, sizeof (OnJoinInstantiate_t337)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 3/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// ChatGui
-#include "AssemblyU2DCSharp_ChatGui.h"
-// Metadata Definition ChatGui
-extern TypeInfo ChatGui_t338_il2cpp_TypeInfo;
-// ChatGui
-#include "AssemblyU2DCSharp_ChatGuiMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::.ctor()
-extern const MethodInfo ChatGui__ctor_m1277_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&ChatGui__ctor_m1277/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1113/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::.cctor()
-extern const MethodInfo ChatGui__cctor_m1278_MethodInfo = 
-{
-	".cctor"/* name */
-	, (methodPointerType)&ChatGui__cctor_m1278/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6161/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1114/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.String ChatGui::get_UserName()
-extern const MethodInfo ChatGui_get_UserName_m1279_MethodInfo = 
-{
-	"get_UserName"/* name */
-	, (methodPointerType)&ChatGui_get_UserName_m1279/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &String_t_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t/* invoker_method */
-	, NULL/* parameters */
-	, 579/* custom_attributes_cache */
-	, 2182/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1115/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ChatGui_t338_ChatGui_set_UserName_m1280_ParameterInfos[] = 
-{
-	{"value", 0, 134218657, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::set_UserName(System.String)
-extern const MethodInfo ChatGui_set_UserName_m1280_MethodInfo = 
-{
-	"set_UserName"/* name */
-	, (methodPointerType)&ChatGui_set_UserName_m1280/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, ChatGui_t338_ChatGui_set_UserName_m1280_ParameterInfos/* parameters */
-	, 580/* custom_attributes_cache */
-	, 2182/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1116/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::Start()
-extern const MethodInfo ChatGui_Start_m1281_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&ChatGui_Start_m1281/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1117/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnApplicationQuit()
-extern const MethodInfo ChatGui_OnApplicationQuit_m1282_MethodInfo = 
-{
-	"OnApplicationQuit"/* name */
-	, (methodPointerType)&ChatGui_OnApplicationQuit_m1282/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1118/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::Update()
-extern const MethodInfo ChatGui_Update_m1283_MethodInfo = 
-{
-	"Update"/* name */
-	, (methodPointerType)&ChatGui_Update_m1283/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1119/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnGUI()
-extern const MethodInfo ChatGui_OnGUI_m1284_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&ChatGui_OnGUI_m1284/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1120/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::GuiSendsMsg()
-extern const MethodInfo ChatGui_GuiSendsMsg_m1285_MethodInfo = 
-{
-	"GuiSendsMsg"/* name */
-	, (methodPointerType)&ChatGui_GuiSendsMsg_m1285/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1121/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::PostHelpToCurrentChannel()
-extern const MethodInfo ChatGui_PostHelpToCurrentChannel_m1286_MethodInfo = 
-{
-	"PostHelpToCurrentChannel"/* name */
-	, (methodPointerType)&ChatGui_PostHelpToCurrentChannel_m1286/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1122/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnConnected()
-extern const MethodInfo ChatGui_OnConnected_m1287_MethodInfo = 
-{
-	"OnConnected"/* name */
-	, (methodPointerType)&ChatGui_OnConnected_m1287/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 6/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1123/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType DebugLevel_t38_0_0_0;
-extern const Il2CppType DebugLevel_t38_0_0_0;
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ChatGui_t338_ChatGui_DebugReturn_m1288_ParameterInfos[] = 
-{
-	{"level", 0, 134218658, 0, &DebugLevel_t38_0_0_0},
-	{"message", 1, 134218659, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Byte_t26_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String)
-extern const MethodInfo ChatGui_DebugReturn_m1288_MethodInfo = 
-{
-	"DebugReturn"/* name */
-	, (methodPointerType)&ChatGui_DebugReturn_m1288/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Byte_t26_Object_t/* invoker_method */
-	, ChatGui_t338_ChatGui_DebugReturn_m1288_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 4/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1124/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnDisconnected()
-extern const MethodInfo ChatGui_OnDisconnected_m1289_MethodInfo = 
-{
-	"OnDisconnected"/* name */
-	, (methodPointerType)&ChatGui_OnDisconnected_m1289/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 5/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1125/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType ChatState_t18_0_0_0;
-extern const Il2CppType ChatState_t18_0_0_0;
-static const ParameterInfo ChatGui_t338_ChatGui_OnChatStateChange_m1290_ParameterInfos[] = 
-{
-	{"state", 0, 134218660, 0, &ChatState_t18_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Int32_t29 (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnChatStateChange(ExitGames.Client.Photon.Chat.ChatState)
-extern const MethodInfo ChatGui_OnChatStateChange_m1290_MethodInfo = 
-{
-	"OnChatStateChange"/* name */
-	, (methodPointerType)&ChatGui_OnChatStateChange_m1290/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Int32_t29/* invoker_method */
-	, ChatGui_t338_ChatGui_OnChatStateChange_m1290_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 7/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1126/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType StringU5BU5D_t20_0_0_0;
-extern const Il2CppType StringU5BU5D_t20_0_0_0;
-extern const Il2CppType BooleanU5BU5D_t31_0_0_0;
-extern const Il2CppType BooleanU5BU5D_t31_0_0_0;
-static const ParameterInfo ChatGui_t338_ChatGui_OnSubscribed_m1291_ParameterInfos[] = 
-{
-	{"channels", 0, 134218661, 0, &StringU5BU5D_t20_0_0_0},
-	{"results", 1, 134218662, 0, &BooleanU5BU5D_t31_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnSubscribed(System.String[],System.Boolean[])
-extern const MethodInfo ChatGui_OnSubscribed_m1291_MethodInfo = 
-{
-	"OnSubscribed"/* name */
-	, (methodPointerType)&ChatGui_OnSubscribed_m1291/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t/* invoker_method */
-	, ChatGui_t338_ChatGui_OnSubscribed_m1291_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 10/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1127/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType StringU5BU5D_t20_0_0_0;
-static const ParameterInfo ChatGui_t338_ChatGui_OnUnsubscribed_m1292_ParameterInfos[] = 
-{
-	{"channels", 0, 134218663, 0, &StringU5BU5D_t20_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnUnsubscribed(System.String[])
-extern const MethodInfo ChatGui_OnUnsubscribed_m1292_MethodInfo = 
-{
-	"OnUnsubscribed"/* name */
-	, (methodPointerType)&ChatGui_OnUnsubscribed_m1292/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, ChatGui_t338_ChatGui_OnUnsubscribed_m1292_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 11/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1128/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType StringU5BU5D_t20_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t21_0_0_0;
-static const ParameterInfo ChatGui_t338_ChatGui_OnGetMessages_m1293_ParameterInfos[] = 
-{
-	{"channelName", 0, 134218664, 0, &String_t_0_0_0},
-	{"senders", 1, 134218665, 0, &StringU5BU5D_t20_0_0_0},
-	{"messages", 2, 134218666, 0, &ObjectU5BU5D_t21_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnGetMessages(System.String,System.String[],System.Object[])
-extern const MethodInfo ChatGui_OnGetMessages_m1293_MethodInfo = 
-{
-	"OnGetMessages"/* name */
-	, (methodPointerType)&ChatGui_OnGetMessages_m1293/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t/* invoker_method */
-	, ChatGui_t338_ChatGui_OnGetMessages_m1293_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 8/* slot */
-	, 3/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1129/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ChatGui_t338_ChatGui_OnPrivateMessage_m1294_ParameterInfos[] = 
-{
-	{"sender", 0, 134218667, 0, &String_t_0_0_0},
-	{"message", 1, 134218668, 0, &Object_t_0_0_0},
-	{"channelName", 2, 134218669, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnPrivateMessage(System.String,System.Object,System.String)
-extern const MethodInfo ChatGui_OnPrivateMessage_m1294_MethodInfo = 
-{
-	"OnPrivateMessage"/* name */
-	, (methodPointerType)&ChatGui_OnPrivateMessage_m1294/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t_Object_t/* invoker_method */
-	, ChatGui_t338_ChatGui_OnPrivateMessage_m1294_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 9/* slot */
-	, 3/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1130/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Int32_t29_0_0_0;
-extern const Il2CppType Boolean_t30_0_0_0;
-extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ChatGui_t338_ChatGui_OnStatusUpdate_m1295_ParameterInfos[] = 
-{
-	{"user", 0, 134218670, 0, &String_t_0_0_0},
-	{"status", 1, 134218671, 0, &Int32_t29_0_0_0},
-	{"gotMessage", 2, 134218672, 0, &Boolean_t30_0_0_0},
-	{"message", 3, 134218673, 0, &Object_t_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t_Int32_t29_SByte_t36_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void ChatGui::OnStatusUpdate(System.String,System.Int32,System.Boolean,System.Object)
-extern const MethodInfo ChatGui_OnStatusUpdate_m1295_MethodInfo = 
-{
-	"OnStatusUpdate"/* name */
-	, (methodPointerType)&ChatGui_OnStatusUpdate_m1295/* method */
-	, &ChatGui_t338_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Int32_t29_SByte_t36_Object_t/* invoker_method */
-	, ChatGui_t338_ChatGui_OnStatusUpdate_m1295_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 12/* slot */
-	, 4/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1131/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* ChatGui_t338_MethodInfos[] =
-{
-	&ChatGui__ctor_m1277_MethodInfo,
-	&ChatGui__cctor_m1278_MethodInfo,
-	&ChatGui_get_UserName_m1279_MethodInfo,
-	&ChatGui_set_UserName_m1280_MethodInfo,
-	&ChatGui_Start_m1281_MethodInfo,
-	&ChatGui_OnApplicationQuit_m1282_MethodInfo,
-	&ChatGui_Update_m1283_MethodInfo,
-	&ChatGui_OnGUI_m1284_MethodInfo,
-	&ChatGui_GuiSendsMsg_m1285_MethodInfo,
-	&ChatGui_PostHelpToCurrentChannel_m1286_MethodInfo,
-	&ChatGui_OnConnected_m1287_MethodInfo,
-	&ChatGui_DebugReturn_m1288_MethodInfo,
-	&ChatGui_OnDisconnected_m1289_MethodInfo,
-	&ChatGui_OnChatStateChange_m1290_MethodInfo,
-	&ChatGui_OnSubscribed_m1291_MethodInfo,
-	&ChatGui_OnUnsubscribed_m1292_MethodInfo,
-	&ChatGui_OnGetMessages_m1293_MethodInfo,
-	&ChatGui_OnPrivateMessage_m1294_MethodInfo,
-	&ChatGui_OnStatusUpdate_m1295_MethodInfo,
-	NULL
-};
-extern const MethodInfo ChatGui_get_UserName_m1279_MethodInfo;
-extern const MethodInfo ChatGui_set_UserName_m1280_MethodInfo;
-static const PropertyInfo ChatGui_t338____UserName_PropertyInfo = 
-{
-	&ChatGui_t338_il2cpp_TypeInfo/* parent */
-	, "UserName"/* name */
-	, &ChatGui_get_UserName_m1279_MethodInfo/* get */
-	, &ChatGui_set_UserName_m1280_MethodInfo/* set */
-	, 0/* attrs */
-	, 0/* custom_attributes_cache */
-
-};
-static const PropertyInfo* ChatGui_t338_PropertyInfos[] =
-{
-	&ChatGui_t338____UserName_PropertyInfo,
-	NULL
-};
-extern const MethodInfo ChatGui_DebugReturn_m1288_MethodInfo;
-extern const MethodInfo ChatGui_OnDisconnected_m1289_MethodInfo;
-extern const MethodInfo ChatGui_OnConnected_m1287_MethodInfo;
-extern const MethodInfo ChatGui_OnChatStateChange_m1290_MethodInfo;
-extern const MethodInfo ChatGui_OnGetMessages_m1293_MethodInfo;
-extern const MethodInfo ChatGui_OnPrivateMessage_m1294_MethodInfo;
-extern const MethodInfo ChatGui_OnSubscribed_m1291_MethodInfo;
-extern const MethodInfo ChatGui_OnUnsubscribed_m1292_MethodInfo;
-extern const MethodInfo ChatGui_OnStatusUpdate_m1295_MethodInfo;
-static const Il2CppMethodReference ChatGui_t338_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-	&ChatGui_DebugReturn_m1288_MethodInfo,
-	&ChatGui_OnDisconnected_m1289_MethodInfo,
-	&ChatGui_OnConnected_m1287_MethodInfo,
-	&ChatGui_OnChatStateChange_m1290_MethodInfo,
-	&ChatGui_OnGetMessages_m1293_MethodInfo,
-	&ChatGui_OnPrivateMessage_m1294_MethodInfo,
-	&ChatGui_OnSubscribed_m1291_MethodInfo,
-	&ChatGui_OnUnsubscribed_m1292_MethodInfo,
-	&ChatGui_OnStatusUpdate_m1295_MethodInfo,
-};
-static bool ChatGui_t338_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-};
-extern const Il2CppType IChatClientListener_t5_0_0_0;
-static const Il2CppType* ChatGui_t338_InterfacesTypeInfos[] = 
-{
-	&IChatClientListener_t5_0_0_0,
-};
-static Il2CppInterfaceOffsetPair ChatGui_t338_InterfacesOffsets[] = 
-{
-	{ &IChatClientListener_t5_0_0_0, 4},
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType ChatGui_t338_0_0_0;
-extern const Il2CppType ChatGui_t338_1_0_0;
-struct ChatGui_t338;
-const Il2CppTypeDefinitionMetadata ChatGui_t338_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, ChatGui_t338_InterfacesTypeInfos/* implementedInterfaces */
-	, ChatGui_t338_InterfacesOffsets/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, ChatGui_t338_VTable/* vtableMethods */
-	, ChatGui_t338_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1500/* fieldStart */
-
-};
-TypeInfo ChatGui_t338_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "ChatGui"/* name */
-	, ""/* namespaze */
-	, ChatGui_t338_MethodInfos/* methods */
-	, ChatGui_t338_PropertyInfos/* properties */
-	, NULL/* events */
-	, &ChatGui_t338_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &ChatGui_t338_0_0_0/* byval_arg */
-	, &ChatGui_t338_1_0_0/* this_arg */
-	, &ChatGui_t338_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ChatGui_t338)/* instance_size */
-	, sizeof (ChatGui_t338)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, sizeof(ChatGui_t338_StaticFields)/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, true/* has_cctor */
-	, false/* is_blittable */
-	, 19/* method_count */
-	, 1/* property_count */
-	, 19/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 13/* vtable_count */
-	, 1/* interfaces_count */
-	, 1/* interface_offsets_count */
-
-};
-// NamePickGui
-#include "AssemblyU2DCSharp_NamePickGui.h"
-// Metadata Definition NamePickGui
-extern TypeInfo NamePickGui_t339_il2cpp_TypeInfo;
-// NamePickGui
-#include "AssemblyU2DCSharp_NamePickGuiMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void NamePickGui::.ctor()
-extern const MethodInfo NamePickGui__ctor_m1296_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&NamePickGui__ctor_m1296/* method */
-	, &NamePickGui_t339_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1132/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void NamePickGui::Awake()
-extern const MethodInfo NamePickGui_Awake_m1297_MethodInfo = 
-{
-	"Awake"/* name */
-	, (methodPointerType)&NamePickGui_Awake_m1297/* method */
-	, &NamePickGui_t339_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1133/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void NamePickGui::OnGUI()
-extern const MethodInfo NamePickGui_OnGUI_m1298_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&NamePickGui_OnGUI_m1298/* method */
-	, &NamePickGui_t339_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1134/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void NamePickGui::StartChat()
-extern const MethodInfo NamePickGui_StartChat_m1299_MethodInfo = 
-{
-	"StartChat"/* name */
-	, (methodPointerType)&NamePickGui_StartChat_m1299/* method */
-	, &NamePickGui_t339_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1135/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* NamePickGui_t339_MethodInfos[] =
-{
-	&NamePickGui__ctor_m1296_MethodInfo,
-	&NamePickGui_Awake_m1297_MethodInfo,
-	&NamePickGui_OnGUI_m1298_MethodInfo,
-	&NamePickGui_StartChat_m1299_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference NamePickGui_t339_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool NamePickGui_t339_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType NamePickGui_t339_0_0_0;
-extern const Il2CppType NamePickGui_t339_1_0_0;
-struct NamePickGui_t339;
-const Il2CppTypeDefinitionMetadata NamePickGui_t339_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, NamePickGui_t339_VTable/* vtableMethods */
-	, NamePickGui_t339_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1519/* fieldStart */
-
-};
-TypeInfo NamePickGui_t339_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "NamePickGui"/* name */
-	, ""/* namespaze */
-	, NamePickGui_t339_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &NamePickGui_t339_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 581/* custom_attributes_cache */
-	, &NamePickGui_t339_0_0_0/* byval_arg */
-	, &NamePickGui_t339_1_0_0/* this_arg */
-	, &NamePickGui_t339_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (NamePickGui_t339)/* instance_size */
-	, sizeof (NamePickGui_t339)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 4/* method_count */
-	, 0/* property_count */
-	, 6/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// GUICustomAuth/GuiState
-#include "AssemblyU2DCSharp_GUICustomAuth_GuiState.h"
-// Metadata Definition GUICustomAuth/GuiState
-extern TypeInfo GuiState_t340_il2cpp_TypeInfo;
-// GUICustomAuth/GuiState
-#include "AssemblyU2DCSharp_GUICustomAuth_GuiStateMethodDeclarations.h"
-static const MethodInfo* GuiState_t340_MethodInfos[] =
-{
-	NULL
-};
-static const Il2CppMethodReference GuiState_t340_VTable[] =
-{
-	&Enum_Equals_m130_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Enum_GetHashCode_m131_MethodInfo,
-	&Enum_ToString_m132_MethodInfo,
-	&Enum_ToString_m133_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m134_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m135_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m136_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m137_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m138_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m139_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m140_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m141_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m142_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m143_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m144_MethodInfo,
-	&Enum_ToString_m145_MethodInfo,
-	&Enum_System_IConvertible_ToType_m146_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m147_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m148_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m149_MethodInfo,
-	&Enum_CompareTo_m150_MethodInfo,
-	&Enum_GetTypeCode_m151_MethodInfo,
-};
-static bool GuiState_t340_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-};
-static Il2CppInterfaceOffsetPair GuiState_t340_InterfacesOffsets[] = 
-{
-	{ &IFormattable_t41_0_0_0, 4},
-	{ &IConvertible_t42_0_0_0, 5},
-	{ &IComparable_t43_0_0_0, 21},
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType GuiState_t340_0_0_0;
-extern const Il2CppType GuiState_t340_1_0_0;
-extern TypeInfo GUICustomAuth_t341_il2cpp_TypeInfo;
-extern const Il2CppType GUICustomAuth_t341_0_0_0;
-const Il2CppTypeDefinitionMetadata GuiState_t340_DefinitionMetadata = 
-{
-	&GUICustomAuth_t341_0_0_0/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, GuiState_t340_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t44_0_0_0/* parent */
-	, GuiState_t340_VTable/* vtableMethods */
-	, GuiState_t340_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1525/* fieldStart */
-
-};
-TypeInfo GuiState_t340_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "GuiState"/* name */
-	, ""/* namespaze */
-	, GuiState_t340_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &Int32_t29_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &GuiState_t340_0_0_0/* byval_arg */
-	, &GuiState_t340_1_0_0/* this_arg */
-	, &GuiState_t340_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (GuiState_t340)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (GuiState_t340)+ sizeof (Il2CppObject)/* actualSize */
-	, 0/* element_size */
-	, sizeof(int32_t)/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 259/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, true/* valuetype */
-	, false/* initialized */
-	, true/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 0/* method_count */
-	, 0/* property_count */
-	, 5/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 23/* vtable_count */
-	, 0/* interfaces_count */
-	, 3/* interface_offsets_count */
-
-};
-// GUICustomAuth
-#include "AssemblyU2DCSharp_GUICustomAuth.h"
-// Metadata Definition GUICustomAuth
-// GUICustomAuth
-#include "AssemblyU2DCSharp_GUICustomAuthMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::.ctor()
-extern const MethodInfo GUICustomAuth__ctor_m1300_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&GUICustomAuth__ctor_m1300/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1136/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::Start()
-extern const MethodInfo GUICustomAuth_Start_m1301_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&GUICustomAuth_Start_m1301/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1137/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::OnJoinedLobby()
-extern const MethodInfo GUICustomAuth_OnJoinedLobby_m1302_MethodInfo = 
-{
-	"OnJoinedLobby"/* name */
-	, (methodPointerType)&GUICustomAuth_OnJoinedLobby_m1302/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1138/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo GUICustomAuth_t341_GUICustomAuth_OnCustomAuthenticationFailed_m1303_ParameterInfos[] = 
-{
-	{"debugMessage", 0, 134218674, 0, &String_t_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::OnCustomAuthenticationFailed(System.String)
-extern const MethodInfo GUICustomAuth_OnCustomAuthenticationFailed_m1303_MethodInfo = 
-{
-	"OnCustomAuthenticationFailed"/* name */
-	, (methodPointerType)&GUICustomAuth_OnCustomAuthenticationFailed_m1303/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, GUICustomAuth_t341_GUICustomAuth_OnCustomAuthenticationFailed_m1303_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1139/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::SetStateAuthInput()
-extern const MethodInfo GUICustomAuth_SetStateAuthInput_m1304_MethodInfo = 
-{
-	"SetStateAuthInput"/* name */
-	, (methodPointerType)&GUICustomAuth_SetStateAuthInput_m1304/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1140/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::SetStateAuthHelp()
-extern const MethodInfo GUICustomAuth_SetStateAuthHelp_m1305_MethodInfo = 
-{
-	"SetStateAuthHelp"/* name */
-	, (methodPointerType)&GUICustomAuth_SetStateAuthHelp_m1305/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1141/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::SetStateAuthOrNot()
-extern const MethodInfo GUICustomAuth_SetStateAuthOrNot_m1306_MethodInfo = 
-{
-	"SetStateAuthOrNot"/* name */
-	, (methodPointerType)&GUICustomAuth_SetStateAuthOrNot_m1306/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1142/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::SetStateAuthFailed()
-extern const MethodInfo GUICustomAuth_SetStateAuthFailed_m1307_MethodInfo = 
-{
-	"SetStateAuthFailed"/* name */
-	, (methodPointerType)&GUICustomAuth_SetStateAuthFailed_m1307/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1143/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::ConnectWithNickname()
-extern const MethodInfo GUICustomAuth_ConnectWithNickname_m1308_MethodInfo = 
-{
-	"ConnectWithNickname"/* name */
-	, (methodPointerType)&GUICustomAuth_ConnectWithNickname_m1308/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1144/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUICustomAuth::OnGUI()
-extern const MethodInfo GUICustomAuth_OnGUI_m1309_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&GUICustomAuth_OnGUI_m1309/* method */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1145/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* GUICustomAuth_t341_MethodInfos[] =
-{
-	&GUICustomAuth__ctor_m1300_MethodInfo,
-	&GUICustomAuth_Start_m1301_MethodInfo,
-	&GUICustomAuth_OnJoinedLobby_m1302_MethodInfo,
-	&GUICustomAuth_OnCustomAuthenticationFailed_m1303_MethodInfo,
-	&GUICustomAuth_SetStateAuthInput_m1304_MethodInfo,
-	&GUICustomAuth_SetStateAuthHelp_m1305_MethodInfo,
-	&GUICustomAuth_SetStateAuthOrNot_m1306_MethodInfo,
-	&GUICustomAuth_SetStateAuthFailed_m1307_MethodInfo,
-	&GUICustomAuth_ConnectWithNickname_m1308_MethodInfo,
-	&GUICustomAuth_OnGUI_m1309_MethodInfo,
-	NULL
-};
-static const Il2CppType* GUICustomAuth_t341_il2cpp_TypeInfo__nestedTypes[1] =
-{
-	&GuiState_t340_0_0_0,
-};
-static const Il2CppMethodReference GUICustomAuth_t341_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool GUICustomAuth_t341_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType GUICustomAuth_t341_1_0_0;
-struct GUICustomAuth_t341;
-const Il2CppTypeDefinitionMetadata GUICustomAuth_t341_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, GUICustomAuth_t341_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, GUICustomAuth_t341_VTable/* vtableMethods */
-	, GUICustomAuth_t341_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1530/* fieldStart */
-
-};
-TypeInfo GUICustomAuth_t341_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "GUICustomAuth"/* name */
-	, ""/* namespaze */
-	, GUICustomAuth_t341_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &GUICustomAuth_t341_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &GUICustomAuth_t341_0_0_0/* byval_arg */
-	, &GUICustomAuth_t341_1_0_0/* this_arg */
-	, &GUICustomAuth_t341_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (GUICustomAuth_t341)/* instance_size */
-	, sizeof (GUICustomAuth_t341)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 10/* method_count */
-	, 0/* property_count */
-	, 6/* field_count */
-	, 0/* event_count */
-	, 1/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// GUIFriendFinding
-#include "AssemblyU2DCSharp_GUIFriendFinding.h"
-// Metadata Definition GUIFriendFinding
-extern TypeInfo GUIFriendFinding_t342_il2cpp_TypeInfo;
-// GUIFriendFinding
-#include "AssemblyU2DCSharp_GUIFriendFindingMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUIFriendFinding::.ctor()
-extern const MethodInfo GUIFriendFinding__ctor_m1310_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&GUIFriendFinding__ctor_m1310/* method */
-	, &GUIFriendFinding_t342_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1146/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUIFriendFinding::Start()
-extern const MethodInfo GUIFriendFinding_Start_m1311_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&GUIFriendFinding_Start_m1311/* method */
-	, &GUIFriendFinding_t342_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1147/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.String[] GUIFriendFinding::FetchFriendsFromCommunity()
-extern const MethodInfo GUIFriendFinding_FetchFriendsFromCommunity_m1312_MethodInfo = 
-{
-	"FetchFriendsFromCommunity"/* name */
-	, (methodPointerType)&GUIFriendFinding_FetchFriendsFromCommunity_m1312/* method */
-	, &GUIFriendFinding_t342_il2cpp_TypeInfo/* declaring_type */
-	, &StringU5BU5D_t20_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 150/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1148/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUIFriendFinding::OnUpdatedFriendList()
-extern const MethodInfo GUIFriendFinding_OnUpdatedFriendList_m1313_MethodInfo = 
-{
-	"OnUpdatedFriendList"/* name */
-	, (methodPointerType)&GUIFriendFinding_OnUpdatedFriendList_m1313/* method */
-	, &GUIFriendFinding_t342_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1149/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUIFriendFinding::OnGUI()
-extern const MethodInfo GUIFriendFinding_OnGUI_m1314_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&GUIFriendFinding_OnGUI_m1314/* method */
-	, &GUIFriendFinding_t342_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1150/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* GUIFriendFinding_t342_MethodInfos[] =
-{
-	&GUIFriendFinding__ctor_m1310_MethodInfo,
-	&GUIFriendFinding_Start_m1311_MethodInfo,
-	&GUIFriendFinding_FetchFriendsFromCommunity_m1312_MethodInfo,
-	&GUIFriendFinding_OnUpdatedFriendList_m1313_MethodInfo,
-	&GUIFriendFinding_OnGUI_m1314_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference GUIFriendFinding_t342_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool GUIFriendFinding_t342_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType GUIFriendFinding_t342_0_0_0;
-extern const Il2CppType GUIFriendFinding_t342_1_0_0;
-struct GUIFriendFinding_t342;
-const Il2CppTypeDefinitionMetadata GUIFriendFinding_t342_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, GUIFriendFinding_t342_VTable/* vtableMethods */
-	, GUIFriendFinding_t342_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1536/* fieldStart */
-
-};
-TypeInfo GUIFriendFinding_t342_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "GUIFriendFinding"/* name */
-	, ""/* namespaze */
-	, GUIFriendFinding_t342_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &GUIFriendFinding_t342_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &GUIFriendFinding_t342_0_0_0/* byval_arg */
-	, &GUIFriendFinding_t342_1_0_0/* this_arg */
-	, &GUIFriendFinding_t342_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (GUIFriendFinding_t342)/* instance_size */
-	, sizeof (GUIFriendFinding_t342)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 5/* method_count */
-	, 0/* property_count */
-	, 2/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// GUIFriendsInRoom
-#include "AssemblyU2DCSharp_GUIFriendsInRoom.h"
-// Metadata Definition GUIFriendsInRoom
-extern TypeInfo GUIFriendsInRoom_t343_il2cpp_TypeInfo;
-// GUIFriendsInRoom
-#include "AssemblyU2DCSharp_GUIFriendsInRoomMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUIFriendsInRoom::.ctor()
-extern const MethodInfo GUIFriendsInRoom__ctor_m1315_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&GUIFriendsInRoom__ctor_m1315/* method */
-	, &GUIFriendsInRoom_t343_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1151/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUIFriendsInRoom::Start()
-extern const MethodInfo GUIFriendsInRoom_Start_m1316_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&GUIFriendsInRoom_Start_m1316/* method */
-	, &GUIFriendsInRoom_t343_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1152/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void GUIFriendsInRoom::OnGUI()
-extern const MethodInfo GUIFriendsInRoom_OnGUI_m1317_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&GUIFriendsInRoom_OnGUI_m1317/* method */
-	, &GUIFriendsInRoom_t343_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1153/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* GUIFriendsInRoom_t343_MethodInfos[] =
-{
-	&GUIFriendsInRoom__ctor_m1315_MethodInfo,
-	&GUIFriendsInRoom_Start_m1316_MethodInfo,
-	&GUIFriendsInRoom_OnGUI_m1317_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference GUIFriendsInRoom_t343_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool GUIFriendsInRoom_t343_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType GUIFriendsInRoom_t343_0_0_0;
-extern const Il2CppType GUIFriendsInRoom_t343_1_0_0;
-struct GUIFriendsInRoom_t343;
-const Il2CppTypeDefinitionMetadata GUIFriendsInRoom_t343_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, GUIFriendsInRoom_t343_VTable/* vtableMethods */
-	, GUIFriendsInRoom_t343_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1538/* fieldStart */
-
-};
-TypeInfo GUIFriendsInRoom_t343_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "GUIFriendsInRoom"/* name */
-	, ""/* namespaze */
-	, GUIFriendsInRoom_t343_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &GUIFriendsInRoom_t343_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &GUIFriendsInRoom_t343_0_0_0/* byval_arg */
-	, &GUIFriendsInRoom_t343_1_0_0/* this_arg */
-	, &GUIFriendsInRoom_t343_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (GUIFriendsInRoom_t343)/* instance_size */
-	, sizeof (GUIFriendsInRoom_t343)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 3/* method_count */
-	, 0/* property_count */
-	, 1/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// OnClickCallMethod
-#include "AssemblyU2DCSharp_OnClickCallMethod.h"
-// Metadata Definition OnClickCallMethod
-extern TypeInfo OnClickCallMethod_t344_il2cpp_TypeInfo;
-// OnClickCallMethod
-#include "AssemblyU2DCSharp_OnClickCallMethodMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickCallMethod::.ctor()
-extern const MethodInfo OnClickCallMethod__ctor_m1318_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&OnClickCallMethod__ctor_m1318/* method */
-	, &OnClickCallMethod_t344_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1154/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnClickCallMethod::OnClick()
-extern const MethodInfo OnClickCallMethod_OnClick_m1319_MethodInfo = 
-{
-	"OnClick"/* name */
-	, (methodPointerType)&OnClickCallMethod_OnClick_m1319/* method */
-	, &OnClickCallMethod_t344_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1155/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* OnClickCallMethod_t344_MethodInfos[] =
-{
-	&OnClickCallMethod__ctor_m1318_MethodInfo,
-	&OnClickCallMethod_OnClick_m1319_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference OnClickCallMethod_t344_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool OnClickCallMethod_t344_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType OnClickCallMethod_t344_0_0_0;
-extern const Il2CppType OnClickCallMethod_t344_1_0_0;
-struct OnClickCallMethod_t344;
-const Il2CppTypeDefinitionMetadata OnClickCallMethod_t344_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t329_0_0_0/* parent */
-	, OnClickCallMethod_t344_VTable/* vtableMethods */
-	, OnClickCallMethod_t344_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1539/* fieldStart */
-
-};
-TypeInfo OnClickCallMethod_t344_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "OnClickCallMethod"/* name */
-	, ""/* namespaze */
-	, OnClickCallMethod_t344_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &OnClickCallMethod_t344_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 582/* custom_attributes_cache */
-	, &OnClickCallMethod_t344_0_0_0/* byval_arg */
-	, &OnClickCallMethod_t344_1_0_0/* this_arg */
-	, &OnClickCallMethod_t344_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OnClickCallMethod_t344)/* instance_size */
-	, sizeof (OnClickCallMethod_t344)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 2/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// HubGui/DemoBtn
-#include "AssemblyU2DCSharp_HubGui_DemoBtn.h"
-// Metadata Definition HubGui/DemoBtn
-extern TypeInfo DemoBtn_t345_il2cpp_TypeInfo;
-// HubGui/DemoBtn
-#include "AssemblyU2DCSharp_HubGui_DemoBtnMethodDeclarations.h"
-static const MethodInfo* DemoBtn_t345_MethodInfos[] =
-{
-	NULL
-};
-extern const MethodInfo ValueType_Equals_m3497_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m3498_MethodInfo;
-extern const MethodInfo ValueType_ToString_m3499_MethodInfo;
-static const Il2CppMethodReference DemoBtn_t345_VTable[] =
-{
-	&ValueType_Equals_m3497_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&ValueType_GetHashCode_m3498_MethodInfo,
-	&ValueType_ToString_m3499_MethodInfo,
-};
-static bool DemoBtn_t345_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType DemoBtn_t345_0_0_0;
-extern const Il2CppType DemoBtn_t345_1_0_0;
-extern const Il2CppType ValueType_t750_0_0_0;
-extern TypeInfo HubGui_t346_il2cpp_TypeInfo;
-extern const Il2CppType HubGui_t346_0_0_0;
-const Il2CppTypeDefinitionMetadata DemoBtn_t345_DefinitionMetadata = 
-{
-	&HubGui_t346_0_0_0/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &ValueType_t750_0_0_0/* parent */
-	, DemoBtn_t345_VTable/* vtableMethods */
-	, DemoBtn_t345_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1541/* fieldStart */
-
-};
-TypeInfo DemoBtn_t345_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "DemoBtn"/* name */
-	, ""/* namespaze */
-	, DemoBtn_t345_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &DemoBtn_t345_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &DemoBtn_t345_0_0_0/* byval_arg */
-	, &DemoBtn_t345_1_0_0/* this_arg */
-	, &DemoBtn_t345_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)DemoBtn_t345_marshal/* marshal_to_native_func */
-	, (methodPointerType)DemoBtn_t345_marshal_back/* marshal_from_native_func */
-	, (methodPointerType)DemoBtn_t345_marshal_cleanup/* marshal_cleanup_func */
-	, sizeof (DemoBtn_t345)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (DemoBtn_t345)+ sizeof (Il2CppObject)/* actualSize */
-	, 0/* element_size */
-	, sizeof(DemoBtn_t345_marshaled)/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048843/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, true/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 0/* method_count */
-	, 0/* property_count */
-	, 2/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// HubGui
-#include "AssemblyU2DCSharp_HubGui.h"
-// Metadata Definition HubGui
-// HubGui
-#include "AssemblyU2DCSharp_HubGuiMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void HubGui::.ctor()
-extern const MethodInfo HubGui__ctor_m1320_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&HubGui__ctor_m1320/* method */
-	, &HubGui_t346_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1156/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void HubGui::Start()
-extern const MethodInfo HubGui_Start_m1321_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&HubGui_Start_m1321/* method */
-	, &HubGui_t346_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1157/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void HubGui::OnGUI()
-extern const MethodInfo HubGui_OnGUI_m1322_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&HubGui_OnGUI_m1322/* method */
-	, &HubGui_t346_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1158/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* HubGui_t346_MethodInfos[] =
-{
-	&HubGui__ctor_m1320_MethodInfo,
-	&HubGui_Start_m1321_MethodInfo,
-	&HubGui_OnGUI_m1322_MethodInfo,
-	NULL
-};
-static const Il2CppType* HubGui_t346_il2cpp_TypeInfo__nestedTypes[1] =
-{
-	&DemoBtn_t345_0_0_0,
-};
-static const Il2CppMethodReference HubGui_t346_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool HubGui_t346_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType HubGui_t346_1_0_0;
-struct HubGui_t346;
-const Il2CppTypeDefinitionMetadata HubGui_t346_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, HubGui_t346_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, HubGui_t346_VTable/* vtableMethods */
-	, HubGui_t346_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1543/* fieldStart */
-
-};
-TypeInfo HubGui_t346_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "HubGui"/* name */
-	, ""/* namespaze */
-	, HubGui_t346_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &HubGui_t346_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &HubGui_t346_0_0_0/* byval_arg */
-	, &HubGui_t346_1_0_0/* this_arg */
-	, &HubGui_t346_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (HubGui_t346)/* instance_size */
-	, sizeof (HubGui_t346)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 3/* method_count */
-	, 0/* property_count */
-	, 6/* field_count */
-	, 0/* event_count */
-	, 1/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// MoveCam
-#include "AssemblyU2DCSharp_MoveCam.h"
-// Metadata Definition MoveCam
-extern TypeInfo MoveCam_t347_il2cpp_TypeInfo;
-// MoveCam
-#include "AssemblyU2DCSharp_MoveCamMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MoveCam::.ctor()
-extern const MethodInfo MoveCam__ctor_m1323_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&MoveCam__ctor_m1323/* method */
-	, &MoveCam_t347_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1159/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MoveCam::Start()
-extern const MethodInfo MoveCam_Start_m1324_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&MoveCam_Start_m1324/* method */
-	, &MoveCam_t347_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1160/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MoveCam::Update()
-extern const MethodInfo MoveCam_Update_m1325_MethodInfo = 
-{
-	"Update"/* name */
-	, (methodPointerType)&MoveCam_Update_m1325/* method */
-	, &MoveCam_t347_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1161/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* MoveCam_t347_MethodInfos[] =
-{
-	&MoveCam__ctor_m1323_MethodInfo,
-	&MoveCam_Start_m1324_MethodInfo,
-	&MoveCam_Update_m1325_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference MoveCam_t347_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool MoveCam_t347_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType MoveCam_t347_0_0_0;
-extern const Il2CppType MoveCam_t347_1_0_0;
-struct MoveCam_t347;
-const Il2CppTypeDefinitionMetadata MoveCam_t347_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, MoveCam_t347_VTable/* vtableMethods */
-	, MoveCam_t347_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1549/* fieldStart */
-
-};
-TypeInfo MoveCam_t347_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "MoveCam"/* name */
-	, ""/* namespaze */
-	, MoveCam_t347_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &MoveCam_t347_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 583/* custom_attributes_cache */
-	, &MoveCam_t347_0_0_0/* byval_arg */
-	, &MoveCam_t347_1_0_0/* this_arg */
-	, &MoveCam_t347_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MoveCam_t347)/* instance_size */
-	, sizeof (MoveCam_t347)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 3/* method_count */
-	, 0/* property_count */
-	, 4/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// ToHubButton
-#include "AssemblyU2DCSharp_ToHubButton.h"
-// Metadata Definition ToHubButton
-extern TypeInfo ToHubButton_t348_il2cpp_TypeInfo;
-// ToHubButton
-#include "AssemblyU2DCSharp_ToHubButtonMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ToHubButton::.ctor()
-extern const MethodInfo ToHubButton__ctor_m1326_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&ToHubButton__ctor_m1326/* method */
-	, &ToHubButton_t348_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1162/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType ToHubButton_t348_0_0_0;
-extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
-// ToHubButton ToHubButton::get_Instance()
-extern const MethodInfo ToHubButton_get_Instance_m1327_MethodInfo = 
-{
-	"get_Instance"/* name */
-	, (methodPointerType)&ToHubButton_get_Instance_m1327/* method */
-	, &ToHubButton_t348_il2cpp_TypeInfo/* declaring_type */
-	, &ToHubButton_t348_0_0_0/* return_type */
-	, RuntimeInvoker_Object_t/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 2198/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1163/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ToHubButton::Awake()
-extern const MethodInfo ToHubButton_Awake_m1328_MethodInfo = 
-{
-	"Awake"/* name */
-	, (methodPointerType)&ToHubButton_Awake_m1328/* method */
-	, &ToHubButton_t348_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1164/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ToHubButton::Start()
-extern const MethodInfo ToHubButton_Start_m1329_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&ToHubButton_Start_m1329/* method */
-	, &ToHubButton_t348_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1165/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void ToHubButton::OnGUI()
-extern const MethodInfo ToHubButton_OnGUI_m1330_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&ToHubButton_OnGUI_m1330/* method */
-	, &ToHubButton_t348_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1166/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* ToHubButton_t348_MethodInfos[] =
-{
-	&ToHubButton__ctor_m1326_MethodInfo,
-	&ToHubButton_get_Instance_m1327_MethodInfo,
-	&ToHubButton_Awake_m1328_MethodInfo,
-	&ToHubButton_Start_m1329_MethodInfo,
-	&ToHubButton_OnGUI_m1330_MethodInfo,
-	NULL
-};
-extern const MethodInfo ToHubButton_get_Instance_m1327_MethodInfo;
-static const PropertyInfo ToHubButton_t348____Instance_PropertyInfo = 
-{
-	&ToHubButton_t348_il2cpp_TypeInfo/* parent */
-	, "Instance"/* name */
-	, &ToHubButton_get_Instance_m1327_MethodInfo/* get */
-	, NULL/* set */
-	, 0/* attrs */
-	, 0/* custom_attributes_cache */
-
-};
-static const PropertyInfo* ToHubButton_t348_PropertyInfos[] =
-{
-	&ToHubButton_t348____Instance_PropertyInfo,
-	NULL
-};
-static const Il2CppMethodReference ToHubButton_t348_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool ToHubButton_t348_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType ToHubButton_t348_1_0_0;
-struct ToHubButton_t348;
-const Il2CppTypeDefinitionMetadata ToHubButton_t348_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, ToHubButton_t348_VTable/* vtableMethods */
-	, ToHubButton_t348_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1553/* fieldStart */
-
-};
-TypeInfo ToHubButton_t348_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "ToHubButton"/* name */
-	, ""/* namespaze */
-	, ToHubButton_t348_MethodInfos/* methods */
-	, ToHubButton_t348_PropertyInfos/* properties */
-	, NULL/* events */
-	, &ToHubButton_t348_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &ToHubButton_t348_0_0_0/* byval_arg */
-	, &ToHubButton_t348_1_0_0/* this_arg */
-	, &ToHubButton_t348_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ToHubButton_t348)/* instance_size */
-	, sizeof (ToHubButton_t348)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, sizeof(ToHubButton_t348_StaticFields)/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 5/* method_count */
-	, 1/* property_count */
-	, 3/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// DemoMecanimGUI
-#include "AssemblyU2DCSharp_DemoMecanimGUI.h"
-// Metadata Definition DemoMecanimGUI
-extern TypeInfo DemoMecanimGUI_t350_il2cpp_TypeInfo;
-// DemoMecanimGUI
-#include "AssemblyU2DCSharp_DemoMecanimGUIMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoMecanimGUI::.ctor()
-extern const MethodInfo DemoMecanimGUI__ctor_m1331_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&DemoMecanimGUI__ctor_m1331/* method */
-	, &DemoMecanimGUI_t350_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1167/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoMecanimGUI::Awake()
-extern const MethodInfo DemoMecanimGUI_Awake_m1332_MethodInfo = 
-{
-	"Awake"/* name */
-	, (methodPointerType)&DemoMecanimGUI_Awake_m1332/* method */
-	, &DemoMecanimGUI_t350_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1168/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoMecanimGUI::Update()
-extern const MethodInfo DemoMecanimGUI_Update_m1333_MethodInfo = 
-{
-	"Update"/* name */
-	, (methodPointerType)&DemoMecanimGUI_Update_m1333/* method */
-	, &DemoMecanimGUI_t350_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1169/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoMecanimGUI::FindRemoteAnimator()
-extern const MethodInfo DemoMecanimGUI_FindRemoteAnimator_m1334_MethodInfo = 
-{
-	"FindRemoteAnimator"/* name */
-	, (methodPointerType)&DemoMecanimGUI_FindRemoteAnimator_m1334/* method */
-	, &DemoMecanimGUI_t350_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1170/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoMecanimGUI::OnGUI()
-extern const MethodInfo DemoMecanimGUI_OnGUI_m1335_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&DemoMecanimGUI_OnGUI_m1335/* method */
-	, &DemoMecanimGUI_t350_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1171/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoMecanimGUI::OnJoinedRoom()
-extern const MethodInfo DemoMecanimGUI_OnJoinedRoom_m1336_MethodInfo = 
-{
-	"OnJoinedRoom"/* name */
-	, (methodPointerType)&DemoMecanimGUI_OnJoinedRoom_m1336/* method */
-	, &DemoMecanimGUI_t350_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 198/* flags */
-	, 0/* iflags */
-	, 42/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1172/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void DemoMecanimGUI::CreatePlayerObject()
-extern const MethodInfo DemoMecanimGUI_CreatePlayerObject_m1337_MethodInfo = 
-{
-	"CreatePlayerObject"/* name */
-	, (methodPointerType)&DemoMecanimGUI_CreatePlayerObject_m1337/* method */
-	, &DemoMecanimGUI_t350_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1173/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* DemoMecanimGUI_t350_MethodInfos[] =
-{
-	&DemoMecanimGUI__ctor_m1331_MethodInfo,
-	&DemoMecanimGUI_Awake_m1332_MethodInfo,
-	&DemoMecanimGUI_Update_m1333_MethodInfo,
-	&DemoMecanimGUI_FindRemoteAnimator_m1334_MethodInfo,
-	&DemoMecanimGUI_OnGUI_m1335_MethodInfo,
-	&DemoMecanimGUI_OnJoinedRoom_m1336_MethodInfo,
-	&DemoMecanimGUI_CreatePlayerObject_m1337_MethodInfo,
-	NULL
-};
-extern const MethodInfo PunBehaviour_OnConnectedToPhoton_m1722_MethodInfo;
-extern const MethodInfo PunBehaviour_OnLeftRoom_m1723_MethodInfo;
-extern const MethodInfo PunBehaviour_OnMasterClientSwitched_m1724_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonCreateRoomFailed_m1725_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonJoinRoomFailed_m1726_MethodInfo;
-extern const MethodInfo PunBehaviour_OnCreatedRoom_m1727_MethodInfo;
-extern const MethodInfo PunBehaviour_OnJoinedLobby_m1728_MethodInfo;
-extern const MethodInfo PunBehaviour_OnLeftLobby_m1729_MethodInfo;
-extern const MethodInfo PunBehaviour_OnFailedToConnectToPhoton_m1730_MethodInfo;
-extern const MethodInfo PunBehaviour_OnConnectionFail_m1732_MethodInfo;
-extern const MethodInfo PunBehaviour_OnDisconnectedFromPhoton_m1731_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonInstantiate_m1733_MethodInfo;
-extern const MethodInfo PunBehaviour_OnReceivedRoomListUpdate_m1734_MethodInfo;
-extern const MethodInfo DemoMecanimGUI_OnJoinedRoom_m1336_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonPlayerConnected_m1736_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonPlayerDisconnected_m1737_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonRandomJoinFailed_m1738_MethodInfo;
-extern const MethodInfo PunBehaviour_OnConnectedToMaster_m1739_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonMaxCccuReached_m1740_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonCustomRoomPropertiesChanged_m1741_MethodInfo;
-extern const MethodInfo PunBehaviour_OnPhotonPlayerPropertiesChanged_m1742_MethodInfo;
-extern const MethodInfo PunBehaviour_OnUpdatedFriendList_m1743_MethodInfo;
-extern const MethodInfo PunBehaviour_OnCustomAuthenticationFailed_m1744_MethodInfo;
-extern const MethodInfo PunBehaviour_OnWebRpcResponse_m1745_MethodInfo;
-extern const MethodInfo PunBehaviour_OnOwnershipRequest_m1746_MethodInfo;
-static const Il2CppMethodReference DemoMecanimGUI_t350_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-	&PunBehaviour_OnConnectedToPhoton_m1722_MethodInfo,
-	&PunBehaviour_OnLeftRoom_m1723_MethodInfo,
-	&PunBehaviour_OnMasterClientSwitched_m1724_MethodInfo,
-	&PunBehaviour_OnPhotonCreateRoomFailed_m1725_MethodInfo,
-	&PunBehaviour_OnPhotonJoinRoomFailed_m1726_MethodInfo,
-	&PunBehaviour_OnCreatedRoom_m1727_MethodInfo,
-	&PunBehaviour_OnJoinedLobby_m1728_MethodInfo,
-	&PunBehaviour_OnLeftLobby_m1729_MethodInfo,
-	&PunBehaviour_OnFailedToConnectToPhoton_m1730_MethodInfo,
-	&PunBehaviour_OnConnectionFail_m1732_MethodInfo,
-	&PunBehaviour_OnDisconnectedFromPhoton_m1731_MethodInfo,
-	&PunBehaviour_OnPhotonInstantiate_m1733_MethodInfo,
-	&PunBehaviour_OnReceivedRoomListUpdate_m1734_MethodInfo,
-	&DemoMecanimGUI_OnJoinedRoom_m1336_MethodInfo,
-	&PunBehaviour_OnPhotonPlayerConnected_m1736_MethodInfo,
-	&PunBehaviour_OnPhotonPlayerDisconnected_m1737_MethodInfo,
-	&PunBehaviour_OnPhotonRandomJoinFailed_m1738_MethodInfo,
-	&PunBehaviour_OnConnectedToMaster_m1739_MethodInfo,
-	&PunBehaviour_OnPhotonMaxCccuReached_m1740_MethodInfo,
-	&PunBehaviour_OnPhotonCustomRoomPropertiesChanged_m1741_MethodInfo,
-	&PunBehaviour_OnPhotonPlayerPropertiesChanged_m1742_MethodInfo,
-	&PunBehaviour_OnUpdatedFriendList_m1743_MethodInfo,
-	&PunBehaviour_OnCustomAuthenticationFailed_m1744_MethodInfo,
-	&PunBehaviour_OnWebRpcResponse_m1745_MethodInfo,
-	&PunBehaviour_OnOwnershipRequest_m1746_MethodInfo,
-	&PunBehaviour_OnConnectedToPhoton_m1722_MethodInfo,
-	&PunBehaviour_OnLeftRoom_m1723_MethodInfo,
-	&PunBehaviour_OnMasterClientSwitched_m1724_MethodInfo,
-	&PunBehaviour_OnPhotonCreateRoomFailed_m1725_MethodInfo,
-	&PunBehaviour_OnPhotonJoinRoomFailed_m1726_MethodInfo,
-	&PunBehaviour_OnCreatedRoom_m1727_MethodInfo,
-	&PunBehaviour_OnJoinedLobby_m1728_MethodInfo,
-	&PunBehaviour_OnLeftLobby_m1729_MethodInfo,
-	&PunBehaviour_OnFailedToConnectToPhoton_m1730_MethodInfo,
-	&PunBehaviour_OnDisconnectedFromPhoton_m1731_MethodInfo,
-	&PunBehaviour_OnConnectionFail_m1732_MethodInfo,
-	&PunBehaviour_OnPhotonInstantiate_m1733_MethodInfo,
-	&PunBehaviour_OnReceivedRoomListUpdate_m1734_MethodInfo,
-	&DemoMecanimGUI_OnJoinedRoom_m1336_MethodInfo,
-	&PunBehaviour_OnPhotonPlayerConnected_m1736_MethodInfo,
-	&PunBehaviour_OnPhotonPlayerDisconnected_m1737_MethodInfo,
-	&PunBehaviour_OnPhotonRandomJoinFailed_m1738_MethodInfo,
-	&PunBehaviour_OnConnectedToMaster_m1739_MethodInfo,
-	&PunBehaviour_OnPhotonMaxCccuReached_m1740_MethodInfo,
-	&PunBehaviour_OnPhotonCustomRoomPropertiesChanged_m1741_MethodInfo,
-	&PunBehaviour_OnPhotonPlayerPropertiesChanged_m1742_MethodInfo,
-	&PunBehaviour_OnUpdatedFriendList_m1743_MethodInfo,
-	&PunBehaviour_OnCustomAuthenticationFailed_m1744_MethodInfo,
-	&PunBehaviour_OnWebRpcResponse_m1745_MethodInfo,
-	&PunBehaviour_OnOwnershipRequest_m1746_MethodInfo,
-};
-static bool DemoMecanimGUI_t350_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-};
-extern const Il2CppType IPunCallbacks_t743_0_0_0;
-static Il2CppInterfaceOffsetPair DemoMecanimGUI_t350_InterfacesOffsets[] = 
-{
-	{ &IPunCallbacks_t743_0_0_0, 4},
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType DemoMecanimGUI_t350_0_0_0;
-extern const Il2CppType DemoMecanimGUI_t350_1_0_0;
-extern const Il2CppType PunBehaviour_t351_0_0_0;
-struct DemoMecanimGUI_t350;
-const Il2CppTypeDefinitionMetadata DemoMecanimGUI_t350_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, DemoMecanimGUI_t350_InterfacesOffsets/* interfaceOffsets */
-	, &PunBehaviour_t351_0_0_0/* parent */
-	, DemoMecanimGUI_t350_VTable/* vtableMethods */
-	, DemoMecanimGUI_t350_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1556/* fieldStart */
-
-};
-TypeInfo DemoMecanimGUI_t350_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "DemoMecanimGUI"/* name */
-	, ""/* namespaze */
-	, DemoMecanimGUI_t350_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &DemoMecanimGUI_t350_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &DemoMecanimGUI_t350_0_0_0/* byval_arg */
-	, &DemoMecanimGUI_t350_1_0_0/* this_arg */
-	, &DemoMecanimGUI_t350_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DemoMecanimGUI_t350)/* instance_size */
-	, sizeof (DemoMecanimGUI_t350)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 7/* method_count */
-	, 0/* property_count */
-	, 6/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 54/* vtable_count */
-	, 0/* interfaces_count */
-	, 1/* interface_offsets_count */
-
-};
-// MessageOverlay
-#include "AssemblyU2DCSharp_MessageOverlay.h"
-// Metadata Definition MessageOverlay
-extern TypeInfo MessageOverlay_t352_il2cpp_TypeInfo;
-// MessageOverlay
-#include "AssemblyU2DCSharp_MessageOverlayMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MessageOverlay::.ctor()
-extern const MethodInfo MessageOverlay__ctor_m1338_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&MessageOverlay__ctor_m1338/* method */
-	, &MessageOverlay_t352_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1174/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MessageOverlay::Start()
-extern const MethodInfo MessageOverlay_Start_m1339_MethodInfo = 
-{
-	"Start"/* name */
-	, (methodPointerType)&MessageOverlay_Start_m1339/* method */
-	, &MessageOverlay_t352_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1175/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MessageOverlay::OnJoinedRoom()
-extern const MethodInfo MessageOverlay_OnJoinedRoom_m1340_MethodInfo = 
-{
-	"OnJoinedRoom"/* name */
-	, (methodPointerType)&MessageOverlay_OnJoinedRoom_m1340/* method */
-	, &MessageOverlay_t352_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1176/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void MessageOverlay::OnLeftRoom()
-extern const MethodInfo MessageOverlay_OnLeftRoom_m1341_MethodInfo = 
-{
-	"OnLeftRoom"/* name */
-	, (methodPointerType)&MessageOverlay_OnLeftRoom_m1341/* method */
-	, &MessageOverlay_t352_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1177/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Boolean_t30_0_0_0;
-static const ParameterInfo MessageOverlay_t352_MessageOverlay_SetActive_m1342_ParameterInfos[] = 
-{
-	{"enable", 0, 134218675, 0, &Boolean_t30_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_SByte_t36 (const MethodInfo* method, void* obj, void** args);
-// System.Void MessageOverlay::SetActive(System.Boolean)
-extern const MethodInfo MessageOverlay_SetActive_m1342_MethodInfo = 
-{
-	"SetActive"/* name */
-	, (methodPointerType)&MessageOverlay_SetActive_m1342/* method */
-	, &MessageOverlay_t352_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_SByte_t36/* invoker_method */
-	, MessageOverlay_t352_MessageOverlay_SetActive_m1342_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1178/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* MessageOverlay_t352_MethodInfos[] =
-{
-	&MessageOverlay__ctor_m1338_MethodInfo,
-	&MessageOverlay_Start_m1339_MethodInfo,
-	&MessageOverlay_OnJoinedRoom_m1340_MethodInfo,
-	&MessageOverlay_OnLeftRoom_m1341_MethodInfo,
-	&MessageOverlay_SetActive_m1342_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference MessageOverlay_t352_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool MessageOverlay_t352_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType MessageOverlay_t352_0_0_0;
-extern const Il2CppType MessageOverlay_t352_1_0_0;
-struct MessageOverlay_t352;
-const Il2CppTypeDefinitionMetadata MessageOverlay_t352_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, MessageOverlay_t352_VTable/* vtableMethods */
-	, MessageOverlay_t352_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1562/* fieldStart */
-
-};
-TypeInfo MessageOverlay_t352_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "MessageOverlay"/* name */
-	, ""/* namespaze */
-	, MessageOverlay_t352_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &MessageOverlay_t352_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &MessageOverlay_t352_0_0_0/* byval_arg */
-	, &MessageOverlay_t352_1_0_0/* this_arg */
-	, &MessageOverlay_t352_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MessageOverlay_t352)/* instance_size */
-	, sizeof (MessageOverlay_t352)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 5/* method_count */
-	, 0/* property_count */
-	, 1/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// OnCollideSwitchTeam
-#include "AssemblyU2DCSharp_OnCollideSwitchTeam.h"
-// Metadata Definition OnCollideSwitchTeam
-extern TypeInfo OnCollideSwitchTeam_t353_il2cpp_TypeInfo;
-// OnCollideSwitchTeam
-#include "AssemblyU2DCSharp_OnCollideSwitchTeamMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnCollideSwitchTeam::.ctor()
-extern const MethodInfo OnCollideSwitchTeam__ctor_m1343_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&OnCollideSwitchTeam__ctor_m1343/* method */
-	, &OnCollideSwitchTeam_t353_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1179/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Collider_t194_0_0_0;
-static const ParameterInfo OnCollideSwitchTeam_t353_OnCollideSwitchTeam_OnTriggerEnter_m1344_ParameterInfos[] = 
-{
-	{"other", 0, 134218676, 0, &Collider_t194_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void OnCollideSwitchTeam::OnTriggerEnter(UnityEngine.Collider)
-extern const MethodInfo OnCollideSwitchTeam_OnTriggerEnter_m1344_MethodInfo = 
-{
-	"OnTriggerEnter"/* name */
-	, (methodPointerType)&OnCollideSwitchTeam_OnTriggerEnter_m1344/* method */
-	, &OnCollideSwitchTeam_t353_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, OnCollideSwitchTeam_t353_OnCollideSwitchTeam_OnTriggerEnter_m1344_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1180/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* OnCollideSwitchTeam_t353_MethodInfos[] =
-{
-	&OnCollideSwitchTeam__ctor_m1343_MethodInfo,
-	&OnCollideSwitchTeam_OnTriggerEnter_m1344_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference OnCollideSwitchTeam_t353_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool OnCollideSwitchTeam_t353_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType OnCollideSwitchTeam_t353_0_0_0;
-extern const Il2CppType OnCollideSwitchTeam_t353_1_0_0;
-struct OnCollideSwitchTeam_t353;
-const Il2CppTypeDefinitionMetadata OnCollideSwitchTeam_t353_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, OnCollideSwitchTeam_t353_VTable/* vtableMethods */
-	, OnCollideSwitchTeam_t353_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1563/* fieldStart */
-
-};
-TypeInfo OnCollideSwitchTeam_t353_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "OnCollideSwitchTeam"/* name */
-	, ""/* namespaze */
-	, OnCollideSwitchTeam_t353_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &OnCollideSwitchTeam_t353_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 584/* custom_attributes_cache */
-	, &OnCollideSwitchTeam_t353_0_0_0/* byval_arg */
-	, &OnCollideSwitchTeam_t353_1_0_0/* this_arg */
-	, &OnCollideSwitchTeam_t353_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OnCollideSwitchTeam_t353)/* instance_size */
-	, sizeof (OnCollideSwitchTeam_t353)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 1/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// OnPickedUpScript
-#include "AssemblyU2DCSharp_OnPickedUpScript.h"
-// Metadata Definition OnPickedUpScript
-extern TypeInfo OnPickedUpScript_t354_il2cpp_TypeInfo;
-// OnPickedUpScript
-#include "AssemblyU2DCSharp_OnPickedUpScriptMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void OnPickedUpScript::.ctor()
-extern const MethodInfo OnPickedUpScript__ctor_m1345_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&OnPickedUpScript__ctor_m1345/* method */
-	, &OnPickedUpScript_t354_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1181/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType PickupItem_t516_0_0_0;
-extern const Il2CppType PickupItem_t516_0_0_0;
-static const ParameterInfo OnPickedUpScript_t354_OnPickedUpScript_OnPickedUp_m1346_ParameterInfos[] = 
-{
-	{"item", 0, 134218677, 0, &PickupItem_t516_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void OnPickedUpScript::OnPickedUp(PickupItem)
-extern const MethodInfo OnPickedUpScript_OnPickedUp_m1346_MethodInfo = 
-{
-	"OnPickedUp"/* name */
-	, (methodPointerType)&OnPickedUpScript_OnPickedUp_m1346/* method */
-	, &OnPickedUpScript_t354_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, OnPickedUpScript_t354_OnPickedUpScript_OnPickedUp_m1346_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1182/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* OnPickedUpScript_t354_MethodInfos[] =
-{
-	&OnPickedUpScript__ctor_m1345_MethodInfo,
-	&OnPickedUpScript_OnPickedUp_m1346_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference OnPickedUpScript_t354_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool OnPickedUpScript_t354_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType OnPickedUpScript_t354_0_0_0;
-extern const Il2CppType OnPickedUpScript_t354_1_0_0;
-struct OnPickedUpScript_t354;
-const Il2CppTypeDefinitionMetadata OnPickedUpScript_t354_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, OnPickedUpScript_t354_VTable/* vtableMethods */
-	, OnPickedUpScript_t354_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, -1/* fieldStart */
-
-};
-TypeInfo OnPickedUpScript_t354_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "OnPickedUpScript"/* name */
-	, ""/* namespaze */
-	, OnPickedUpScript_t354_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &OnPickedUpScript_t354_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &OnPickedUpScript_t354_0_0_0/* byval_arg */
-	, &OnPickedUpScript_t354_1_0_0/* this_arg */
-	, &OnPickedUpScript_t354_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (OnPickedUpScript_t354)/* instance_size */
-	, sizeof (OnPickedUpScript_t354)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 0/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// PickupCamera
-#include "AssemblyU2DCSharp_PickupCamera.h"
-// Metadata Definition PickupCamera
-extern TypeInfo PickupCamera_t357_il2cpp_TypeInfo;
-// PickupCamera
-#include "AssemblyU2DCSharp_PickupCameraMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupCamera::.ctor()
-extern const MethodInfo PickupCamera__ctor_m1347_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&PickupCamera__ctor_m1347/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1183/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupCamera::OnEnable()
-extern const MethodInfo PickupCamera_OnEnable_m1348_MethodInfo = 
-{
-	"OnEnable"/* name */
-	, (methodPointerType)&PickupCamera_OnEnable_m1348/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1184/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupCamera::DebugDrawStuff()
-extern const MethodInfo PickupCamera_DebugDrawStuff_m1349_MethodInfo = 
-{
-	"DebugDrawStuff"/* name */
-	, (methodPointerType)&PickupCamera_DebugDrawStuff_m1349/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1185/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Single_t604_0_0_0;
-extern const Il2CppType Single_t604_0_0_0;
-static const ParameterInfo PickupCamera_t357_PickupCamera_AngleDistance_m1350_ParameterInfos[] = 
-{
-	{"a", 0, 134218678, 0, &Single_t604_0_0_0},
-	{"b", 1, 134218679, 0, &Single_t604_0_0_0},
-};
-extern void* RuntimeInvoker_Single_t604_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
-// System.Single PickupCamera::AngleDistance(System.Single,System.Single)
-extern const MethodInfo PickupCamera_AngleDistance_m1350_MethodInfo = 
-{
-	"AngleDistance"/* name */
-	, (methodPointerType)&PickupCamera_AngleDistance_m1350/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t604_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t604_Single_t604_Single_t604/* invoker_method */
-	, PickupCamera_t357_PickupCamera_AngleDistance_m1350_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1186/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Transform_t54_0_0_0;
-extern const Il2CppType Vector3_t53_0_0_0;
-static const ParameterInfo PickupCamera_t357_PickupCamera_Apply_m1351_ParameterInfos[] = 
-{
-	{"dummyTarget", 0, 134218680, 0, &Transform_t54_0_0_0},
-	{"dummyCenter", 1, 134218681, 0, &Vector3_t53_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupCamera::Apply(UnityEngine.Transform,UnityEngine.Vector3)
-extern const MethodInfo PickupCamera_Apply_m1351_MethodInfo = 
-{
-	"Apply"/* name */
-	, (methodPointerType)&PickupCamera_Apply_m1351/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Vector3_t53/* invoker_method */
-	, PickupCamera_t357_PickupCamera_Apply_m1351_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1187/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupCamera::LateUpdate()
-extern const MethodInfo PickupCamera_LateUpdate_m1352_MethodInfo = 
-{
-	"LateUpdate"/* name */
-	, (methodPointerType)&PickupCamera_LateUpdate_m1352/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1188/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Transform_t54_0_0_0;
-extern const Il2CppType Vector3_t53_0_0_0;
-static const ParameterInfo PickupCamera_t357_PickupCamera_Cut_m1353_ParameterInfos[] = 
-{
-	{"dummyTarget", 0, 134218682, 0, &Transform_t54_0_0_0},
-	{"dummyCenter", 1, 134218683, 0, &Vector3_t53_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupCamera::Cut(UnityEngine.Transform,UnityEngine.Vector3)
-extern const MethodInfo PickupCamera_Cut_m1353_MethodInfo = 
-{
-	"Cut"/* name */
-	, (methodPointerType)&PickupCamera_Cut_m1353/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Vector3_t53/* invoker_method */
-	, PickupCamera_t357_PickupCamera_Cut_m1353_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1189/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Vector3_t53_0_0_0;
-extern const Il2CppType Vector3_t53_0_0_0;
-static const ParameterInfo PickupCamera_t357_PickupCamera_SetUpRotation_m1354_ParameterInfos[] = 
-{
-	{"centerPos", 0, 134218684, 0, &Vector3_t53_0_0_0},
-	{"headPos", 1, 134218685, 0, &Vector3_t53_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Vector3_t53_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupCamera::SetUpRotation(UnityEngine.Vector3,UnityEngine.Vector3)
-extern const MethodInfo PickupCamera_SetUpRotation_m1354_MethodInfo = 
-{
-	"SetUpRotation"/* name */
-	, (methodPointerType)&PickupCamera_SetUpRotation_m1354/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Vector3_t53_Vector3_t53/* invoker_method */
-	, PickupCamera_t357_PickupCamera_SetUpRotation_m1354_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1190/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Vector3 PickupCamera::GetCenterOffset()
-extern const MethodInfo PickupCamera_GetCenterOffset_m1355_MethodInfo = 
-{
-	"GetCenterOffset"/* name */
-	, (methodPointerType)&PickupCamera_GetCenterOffset_m1355/* method */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* declaring_type */
-	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1191/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* PickupCamera_t357_MethodInfos[] =
-{
-	&PickupCamera__ctor_m1347_MethodInfo,
-	&PickupCamera_OnEnable_m1348_MethodInfo,
-	&PickupCamera_DebugDrawStuff_m1349_MethodInfo,
-	&PickupCamera_AngleDistance_m1350_MethodInfo,
-	&PickupCamera_Apply_m1351_MethodInfo,
-	&PickupCamera_LateUpdate_m1352_MethodInfo,
-	&PickupCamera_Cut_m1353_MethodInfo,
-	&PickupCamera_SetUpRotation_m1354_MethodInfo,
-	&PickupCamera_GetCenterOffset_m1355_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference PickupCamera_t357_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool PickupCamera_t357_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType PickupCamera_t357_0_0_0;
-extern const Il2CppType PickupCamera_t357_1_0_0;
-struct PickupCamera_t357;
-const Il2CppTypeDefinitionMetadata PickupCamera_t357_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t329_0_0_0/* parent */
-	, PickupCamera_t357_VTable/* vtableMethods */
-	, PickupCamera_t357_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1564/* fieldStart */
-
-};
-TypeInfo PickupCamera_t357_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "PickupCamera"/* name */
-	, ""/* namespaze */
-	, PickupCamera_t357_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &PickupCamera_t357_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &PickupCamera_t357_0_0_0/* byval_arg */
-	, &PickupCamera_t357_1_0_0/* this_arg */
-	, &PickupCamera_t357_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PickupCamera_t357)/* instance_size */
-	, sizeof (PickupCamera_t357)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 9/* method_count */
-	, 0/* property_count */
-	, 19/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// PickupCharacterState
-#include "AssemblyU2DCSharp_PickupCharacterState.h"
-// Metadata Definition PickupCharacterState
-extern TypeInfo PickupCharacterState_t358_il2cpp_TypeInfo;
-// PickupCharacterState
-#include "AssemblyU2DCSharp_PickupCharacterStateMethodDeclarations.h"
-static const MethodInfo* PickupCharacterState_t358_MethodInfos[] =
-{
-	NULL
-};
-static const Il2CppMethodReference PickupCharacterState_t358_VTable[] =
-{
-	&Enum_Equals_m130_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Enum_GetHashCode_m131_MethodInfo,
-	&Enum_ToString_m132_MethodInfo,
-	&Enum_ToString_m133_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m134_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m135_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m136_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m137_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m138_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m139_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m140_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m141_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m142_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m143_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m144_MethodInfo,
-	&Enum_ToString_m145_MethodInfo,
-	&Enum_System_IConvertible_ToType_m146_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m147_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m148_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m149_MethodInfo,
-	&Enum_CompareTo_m150_MethodInfo,
-	&Enum_GetTypeCode_m151_MethodInfo,
-};
-static bool PickupCharacterState_t358_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-	false,
-};
-static Il2CppInterfaceOffsetPair PickupCharacterState_t358_InterfacesOffsets[] = 
-{
-	{ &IFormattable_t41_0_0_0, 4},
-	{ &IConvertible_t42_0_0_0, 5},
-	{ &IComparable_t43_0_0_0, 21},
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType PickupCharacterState_t358_0_0_0;
-extern const Il2CppType PickupCharacterState_t358_1_0_0;
-const Il2CppTypeDefinitionMetadata PickupCharacterState_t358_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, PickupCharacterState_t358_InterfacesOffsets/* interfaceOffsets */
-	, &Enum_t44_0_0_0/* parent */
-	, PickupCharacterState_t358_VTable/* vtableMethods */
-	, PickupCharacterState_t358_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1583/* fieldStart */
-
-};
-TypeInfo PickupCharacterState_t358_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "PickupCharacterState"/* name */
-	, ""/* namespaze */
-	, PickupCharacterState_t358_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &Int32_t29_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &PickupCharacterState_t358_0_0_0/* byval_arg */
-	, &PickupCharacterState_t358_1_0_0/* this_arg */
-	, &PickupCharacterState_t358_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PickupCharacterState_t358)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (PickupCharacterState_t358)+ sizeof (Il2CppObject)/* actualSize */
-	, 0/* element_size */
-	, sizeof(int32_t)/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 257/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, true/* valuetype */
-	, false/* initialized */
-	, true/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 0/* method_count */
-	, 0/* property_count */
-	, 6/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 23/* vtable_count */
-	, 0/* interfaces_count */
-	, 3/* interface_offsets_count */
-
-};
-// PickupController
-#include "AssemblyU2DCSharp_PickupController.h"
-// Metadata Definition PickupController
-extern TypeInfo PickupController_t355_il2cpp_TypeInfo;
-// PickupController
-#include "AssemblyU2DCSharp_PickupControllerMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::.ctor()
-extern const MethodInfo PickupController__ctor_m1356_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&PickupController__ctor_m1356/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1192/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::Awake()
-extern const MethodInfo PickupController_Awake_m1357_MethodInfo = 
-{
-	"Awake"/* name */
-	, (methodPointerType)&PickupController_Awake_m1357/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1193/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::Update()
-extern const MethodInfo PickupController_Update_m1358_MethodInfo = 
-{
-	"Update"/* name */
-	, (methodPointerType)&PickupController_Update_m1358/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1194/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType PhotonStream_t439_0_0_0;
-extern const Il2CppType PhotonStream_t439_0_0_0;
-extern const Il2CppType PhotonMessageInfo_t435_0_0_0;
-extern const Il2CppType PhotonMessageInfo_t435_0_0_0;
-static const ParameterInfo PickupController_t355_PickupController_OnPhotonSerializeView_m1359_ParameterInfos[] = 
-{
-	{"stream", 0, 134218686, 0, &PhotonStream_t439_0_0_0},
-	{"info", 1, 134218687, 0, &PhotonMessageInfo_t435_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
-extern const MethodInfo PickupController_OnPhotonSerializeView_m1359_MethodInfo = 
-{
-	"OnPhotonSerializeView"/* name */
-	, (methodPointerType)&PickupController_OnPhotonSerializeView_m1359/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t_Object_t/* invoker_method */
-	, PickupController_t355_PickupController_OnPhotonSerializeView_m1359_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 486/* flags */
-	, 0/* iflags */
-	, 4/* slot */
-	, 2/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1195/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::UpdateSmoothedMovementDirection()
-extern const MethodInfo PickupController_UpdateSmoothedMovementDirection_m1360_MethodInfo = 
-{
-	"UpdateSmoothedMovementDirection"/* name */
-	, (methodPointerType)&PickupController_UpdateSmoothedMovementDirection_m1360/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1196/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::ApplyJumping()
-extern const MethodInfo PickupController_ApplyJumping_m1361_MethodInfo = 
-{
-	"ApplyJumping"/* name */
-	, (methodPointerType)&PickupController_ApplyJumping_m1361/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1197/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::ApplyGravity()
-extern const MethodInfo PickupController_ApplyGravity_m1362_MethodInfo = 
-{
-	"ApplyGravity"/* name */
-	, (methodPointerType)&PickupController_ApplyGravity_m1362/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1198/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Single_t604_0_0_0;
-static const ParameterInfo PickupController_t355_PickupController_CalculateJumpVerticalSpeed_m1363_ParameterInfos[] = 
-{
-	{"targetJumpHeight", 0, 134218688, 0, &Single_t604_0_0_0},
-};
-extern void* RuntimeInvoker_Single_t604_Single_t604 (const MethodInfo* method, void* obj, void** args);
-// System.Single PickupController::CalculateJumpVerticalSpeed(System.Single)
-extern const MethodInfo PickupController_CalculateJumpVerticalSpeed_m1363_MethodInfo = 
-{
-	"CalculateJumpVerticalSpeed"/* name */
-	, (methodPointerType)&PickupController_CalculateJumpVerticalSpeed_m1363/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t604_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t604_Single_t604/* invoker_method */
-	, PickupController_t355_PickupController_CalculateJumpVerticalSpeed_m1363_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1199/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::DidJump()
-extern const MethodInfo PickupController_DidJump_m1364_MethodInfo = 
-{
-	"DidJump"/* name */
-	, (methodPointerType)&PickupController_DidJump_m1364/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1200/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType ControllerColliderHit_t575_0_0_0;
-extern const Il2CppType ControllerColliderHit_t575_0_0_0;
-static const ParameterInfo PickupController_t355_PickupController_OnControllerColliderHit_m1365_ParameterInfos[] = 
-{
-	{"hit", 0, 134218689, 0, &ControllerColliderHit_t575_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::OnControllerColliderHit(UnityEngine.ControllerColliderHit)
-extern const MethodInfo PickupController_OnControllerColliderHit_m1365_MethodInfo = 
-{
-	"OnControllerColliderHit"/* name */
-	, (methodPointerType)&PickupController_OnControllerColliderHit_m1365/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, PickupController_t355_PickupController_OnControllerColliderHit_m1365_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 129/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1201/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
-// System.Single PickupController::GetSpeed()
-extern const MethodInfo PickupController_GetSpeed_m1366_MethodInfo = 
-{
-	"GetSpeed"/* name */
-	, (methodPointerType)&PickupController_GetSpeed_m1366/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t604_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t604/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1202/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PickupController::IsJumping()
-extern const MethodInfo PickupController_IsJumping_m1367_MethodInfo = 
-{
-	"IsJumping"/* name */
-	, (methodPointerType)&PickupController_IsJumping_m1367/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1203/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PickupController::IsGrounded()
-extern const MethodInfo PickupController_IsGrounded_m1368_MethodInfo = 
-{
-	"IsGrounded"/* name */
-	, (methodPointerType)&PickupController_IsGrounded_m1368/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1204/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Vector3_t53 (const MethodInfo* method, void* obj, void** args);
-// UnityEngine.Vector3 PickupController::GetDirection()
-extern const MethodInfo PickupController_GetDirection_m1369_MethodInfo = 
-{
-	"GetDirection"/* name */
-	, (methodPointerType)&PickupController_GetDirection_m1369/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Vector3_t53_0_0_0/* return_type */
-	, RuntimeInvoker_Vector3_t53/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 0/* parameters_count */
@@ -25121,15 +26590,15 @@ extern const MethodInfo PickupController_GetDirection_m1369_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PickupController::IsMovingBackwards()
-extern const MethodInfo PickupController_IsMovingBackwards_m1370_MethodInfo = 
+extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
+// System.Void OnAwakePhysicsSettings::Awake()
+extern const MethodInfo OnAwakePhysicsSettings_Awake_m1303_MethodInfo = 
 {
-	"IsMovingBackwards"/* name */
-	, (methodPointerType)&PickupController_IsMovingBackwards_m1370/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30/* invoker_method */
+	"Awake"/* name */
+	, (methodPointerType)&OnAwakePhysicsSettings_Awake_m1303/* method */
+	, &OnAwakePhysicsSettings_t356_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t35_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t35/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
@@ -25144,308 +26613,20 @@ extern const MethodInfo PickupController_IsMovingBackwards_m1370_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_Single_t604 (const MethodInfo* method, void* obj, void** args);
-// System.Single PickupController::GetLockCameraTimer()
-extern const MethodInfo PickupController_GetLockCameraTimer_m1371_MethodInfo = 
+static const MethodInfo* OnAwakePhysicsSettings_t356_MethodInfos[] =
 {
-	"GetLockCameraTimer"/* name */
-	, (methodPointerType)&PickupController_GetLockCameraTimer_m1371/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Single_t604_0_0_0/* return_type */
-	, RuntimeInvoker_Single_t604/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1207/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PickupController::IsMoving()
-extern const MethodInfo PickupController_IsMoving_m1372_MethodInfo = 
-{
-	"IsMoving"/* name */
-	, (methodPointerType)&PickupController_IsMoving_m1372/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1208/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PickupController::HasJumpReachedApex()
-extern const MethodInfo PickupController_HasJumpReachedApex_m1373_MethodInfo = 
-{
-	"HasJumpReachedApex"/* name */
-	, (methodPointerType)&PickupController_HasJumpReachedApex_m1373/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1209/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Boolean_t30 (const MethodInfo* method, void* obj, void** args);
-// System.Boolean PickupController::IsGroundedWithTimeout()
-extern const MethodInfo PickupController_IsGroundedWithTimeout_m1374_MethodInfo = 
-{
-	"IsGroundedWithTimeout"/* name */
-	, (methodPointerType)&PickupController_IsGroundedWithTimeout_m1374/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Boolean_t30_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t30/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1210/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupController::Reset()
-extern const MethodInfo PickupController_Reset_m1375_MethodInfo = 
-{
-	"Reset"/* name */
-	, (methodPointerType)&PickupController_Reset_m1375/* method */
-	, &PickupController_t355_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1211/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* PickupController_t355_MethodInfos[] =
-{
-	&PickupController__ctor_m1356_MethodInfo,
-	&PickupController_Awake_m1357_MethodInfo,
-	&PickupController_Update_m1358_MethodInfo,
-	&PickupController_OnPhotonSerializeView_m1359_MethodInfo,
-	&PickupController_UpdateSmoothedMovementDirection_m1360_MethodInfo,
-	&PickupController_ApplyJumping_m1361_MethodInfo,
-	&PickupController_ApplyGravity_m1362_MethodInfo,
-	&PickupController_CalculateJumpVerticalSpeed_m1363_MethodInfo,
-	&PickupController_DidJump_m1364_MethodInfo,
-	&PickupController_OnControllerColliderHit_m1365_MethodInfo,
-	&PickupController_GetSpeed_m1366_MethodInfo,
-	&PickupController_IsJumping_m1367_MethodInfo,
-	&PickupController_IsGrounded_m1368_MethodInfo,
-	&PickupController_GetDirection_m1369_MethodInfo,
-	&PickupController_IsMovingBackwards_m1370_MethodInfo,
-	&PickupController_GetLockCameraTimer_m1371_MethodInfo,
-	&PickupController_IsMoving_m1372_MethodInfo,
-	&PickupController_HasJumpReachedApex_m1373_MethodInfo,
-	&PickupController_IsGroundedWithTimeout_m1374_MethodInfo,
-	&PickupController_Reset_m1375_MethodInfo,
+	&OnAwakePhysicsSettings__ctor_m1302_MethodInfo,
+	&OnAwakePhysicsSettings_Awake_m1303_MethodInfo,
 	NULL
 };
-extern const MethodInfo PickupController_OnPhotonSerializeView_m1359_MethodInfo;
-static const Il2CppMethodReference PickupController_t355_VTable[] =
+static const Il2CppMethodReference OnAwakePhysicsSettings_t356_VTable[] =
 {
-	&Object_Equals_m3477_MethodInfo,
+	&Object_Equals_m3889_MethodInfo,
 	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-	&PickupController_OnPhotonSerializeView_m1359_MethodInfo,
+	&Object_GetHashCode_m3890_MethodInfo,
+	&Object_ToString_m3891_MethodInfo,
 };
-static bool PickupController_t355_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-	false,
-};
-extern const Il2CppType IPunObservable_t742_0_0_0;
-static const Il2CppType* PickupController_t355_InterfacesTypeInfos[] = 
-{
-	&IPunObservable_t742_0_0_0,
-};
-static Il2CppInterfaceOffsetPair PickupController_t355_InterfacesOffsets[] = 
-{
-	{ &IPunObservable_t742_0_0_0, 4},
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType PickupController_t355_0_0_0;
-extern const Il2CppType PickupController_t355_1_0_0;
-struct PickupController_t355;
-const Il2CppTypeDefinitionMetadata PickupController_t355_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, PickupController_t355_InterfacesTypeInfos/* implementedInterfaces */
-	, PickupController_t355_InterfacesOffsets/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, PickupController_t355_VTable/* vtableMethods */
-	, PickupController_t355_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1589/* fieldStart */
-
-};
-TypeInfo PickupController_t355_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "PickupController"/* name */
-	, ""/* namespaze */
-	, PickupController_t355_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &PickupController_t355_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 585/* custom_attributes_cache */
-	, &PickupController_t355_0_0_0/* byval_arg */
-	, &PickupController_t355_1_0_0/* this_arg */
-	, &PickupController_t355_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PickupController_t355)/* instance_size */
-	, sizeof (PickupController_t355)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 20/* method_count */
-	, 0/* property_count */
-	, 45/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 5/* vtable_count */
-	, 1/* interfaces_count */
-	, 1/* interface_offsets_count */
-
-};
-// PickupDemoGui
-#include "AssemblyU2DCSharp_PickupDemoGui.h"
-// Metadata Definition PickupDemoGui
-extern TypeInfo PickupDemoGui_t359_il2cpp_TypeInfo;
-// PickupDemoGui
-#include "AssemblyU2DCSharp_PickupDemoGuiMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupDemoGui::.ctor()
-extern const MethodInfo PickupDemoGui__ctor_m1376_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&PickupDemoGui__ctor_m1376/* method */
-	, &PickupDemoGui_t359_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1212/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupDemoGui::OnGUI()
-extern const MethodInfo PickupDemoGui_OnGUI_m1377_MethodInfo = 
-{
-	"OnGUI"/* name */
-	, (methodPointerType)&PickupDemoGui_OnGUI_m1377/* method */
-	, &PickupDemoGui_t359_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1213/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* PickupDemoGui_t359_MethodInfos[] =
-{
-	&PickupDemoGui__ctor_m1376_MethodInfo,
-	&PickupDemoGui_OnGUI_m1377_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference PickupDemoGui_t359_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool PickupDemoGui_t359_VTableIsGenericMethod[] =
+static bool OnAwakePhysicsSettings_t356_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -25453,185 +26634,38 @@ static bool PickupDemoGui_t359_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType PickupDemoGui_t359_0_0_0;
-extern const Il2CppType PickupDemoGui_t359_1_0_0;
-struct PickupDemoGui_t359;
-const Il2CppTypeDefinitionMetadata PickupDemoGui_t359_DefinitionMetadata = 
+extern const Il2CppType OnAwakePhysicsSettings_t356_0_0_0;
+extern const Il2CppType OnAwakePhysicsSettings_t356_1_0_0;
+extern const Il2CppType MonoBehaviour_t357_0_0_0;
+struct OnAwakePhysicsSettings_t356;
+const Il2CppTypeDefinitionMetadata OnAwakePhysicsSettings_t356_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, PickupDemoGui_t359_VTable/* vtableMethods */
-	, PickupDemoGui_t359_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
-	, NULL/* rgctxDefinition */
-	, 1634/* fieldStart */
-
-};
-TypeInfo PickupDemoGui_t359_il2cpp_TypeInfo = 
-{
-	&g_AssemblyU2DCSharp_dll_Image/* image */
-	, NULL/* gc_desc */
-	, "PickupDemoGui"/* name */
-	, ""/* namespaze */
-	, PickupDemoGui_t359_MethodInfos/* methods */
-	, NULL/* properties */
-	, NULL/* events */
-	, &PickupDemoGui_t359_il2cpp_TypeInfo/* element_class */
-	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &PickupDemoGui_t359_0_0_0/* byval_arg */
-	, &PickupDemoGui_t359_1_0_0/* this_arg */
-	, &PickupDemoGui_t359_DefinitionMetadata/* definitionMetadata */
-	, NULL/* runtimeMetadata */
-	, NULL/* generic_class */
-	, NULL/* generic_container */
-	, NULL/* static_fields */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
-	, (methodPointerType)NULL/* marshal_to_native_func */
-	, (methodPointerType)NULL/* marshal_from_native_func */
-	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PickupDemoGui_t359)/* instance_size */
-	, sizeof (PickupDemoGui_t359)/* actualSize */
-	, 0/* element_size */
-	, -1/* native_size */
-	, 0/* static_fields_size */
-	, 0/* thread_static_fields_size */
-	, -1/* thread_static_fields_offset */
-	, 1048577/* flags */
-	, 0/* rank */
-	, 0/* minimumAlignment */
-	, false/* valuetype */
-	, false/* initialized */
-	, false/* enumtype */
-	, false/* is_generic */
-	, false/* has_references */
-	, false/* init_pending */
-	, false/* size_inited */
-	, false/* has_finalize */
-	, false/* has_cctor */
-	, false/* is_blittable */
-	, 2/* method_count */
-	, 0/* property_count */
-	, 4/* field_count */
-	, 0/* event_count */
-	, 0/* nested_type_count */
-	, 4/* vtable_count */
-	, 0/* interfaces_count */
-	, 0/* interface_offsets_count */
-
-};
-// PickupTriggerForward
-#include "AssemblyU2DCSharp_PickupTriggerForward.h"
-// Metadata Definition PickupTriggerForward
-extern TypeInfo PickupTriggerForward_t360_il2cpp_TypeInfo;
-// PickupTriggerForward
-#include "AssemblyU2DCSharp_PickupTriggerForwardMethodDeclarations.h"
-extern void* RuntimeInvoker_Void_t35 (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupTriggerForward::.ctor()
-extern const MethodInfo PickupTriggerForward__ctor_m1378_MethodInfo = 
-{
-	".ctor"/* name */
-	, (methodPointerType)&PickupTriggerForward__ctor_m1378/* method */
-	, &PickupTriggerForward_t360_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35/* invoker_method */
-	, NULL/* parameters */
-	, 0/* custom_attributes_cache */
-	, 6278/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 0/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1214/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-extern const Il2CppType Collider_t194_0_0_0;
-static const ParameterInfo PickupTriggerForward_t360_PickupTriggerForward_OnTriggerEnter_m1379_ParameterInfos[] = 
-{
-	{"other", 0, 134218690, 0, &Collider_t194_0_0_0},
-};
-extern void* RuntimeInvoker_Void_t35_Object_t (const MethodInfo* method, void* obj, void** args);
-// System.Void PickupTriggerForward::OnTriggerEnter(UnityEngine.Collider)
-extern const MethodInfo PickupTriggerForward_OnTriggerEnter_m1379_MethodInfo = 
-{
-	"OnTriggerEnter"/* name */
-	, (methodPointerType)&PickupTriggerForward_OnTriggerEnter_m1379/* method */
-	, &PickupTriggerForward_t360_il2cpp_TypeInfo/* declaring_type */
-	, &Void_t35_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t35_Object_t/* invoker_method */
-	, PickupTriggerForward_t360_PickupTriggerForward_OnTriggerEnter_m1379_ParameterInfos/* parameters */
-	, 0/* custom_attributes_cache */
-	, 134/* flags */
-	, 0/* iflags */
-	, 255/* slot */
-	, 1/* parameters_count */
-	, false/* is_generic */
-	, false/* is_inflated */
-	, 1215/* token */
-	, NULL/* rgctx_data */
-	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, NULL/* dummy */
-
-};
-static const MethodInfo* PickupTriggerForward_t360_MethodInfos[] =
-{
-	&PickupTriggerForward__ctor_m1378_MethodInfo,
-	&PickupTriggerForward_OnTriggerEnter_m1379_MethodInfo,
-	NULL
-};
-static const Il2CppMethodReference PickupTriggerForward_t360_VTable[] =
-{
-	&Object_Equals_m3477_MethodInfo,
-	&Object_Finalize_m127_MethodInfo,
-	&Object_GetHashCode_m3478_MethodInfo,
-	&Object_ToString_m3479_MethodInfo,
-};
-static bool PickupTriggerForward_t360_VTableIsGenericMethod[] =
-{
-	false,
-	false,
-	false,
-	false,
-};
-extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern const Il2CppType PickupTriggerForward_t360_0_0_0;
-extern const Il2CppType PickupTriggerForward_t360_1_0_0;
-struct PickupTriggerForward_t360;
-const Il2CppTypeDefinitionMetadata PickupTriggerForward_t360_DefinitionMetadata = 
-{
-	NULL/* declaringType */
-	, NULL/* nestedTypes */
-	, NULL/* implementedInterfaces */
-	, NULL/* interfaceOffsets */
-	, &MonoBehaviour_t47_0_0_0/* parent */
-	, PickupTriggerForward_t360_VTable/* vtableMethods */
-	, PickupTriggerForward_t360_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &MonoBehaviour_t357_0_0_0/* parent */
+	, OnAwakePhysicsSettings_t356_VTable/* vtableMethods */
+	, OnAwakePhysicsSettings_t356_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo PickupTriggerForward_t360_il2cpp_TypeInfo = 
+TypeInfo OnAwakePhysicsSettings_t356_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "PickupTriggerForward"/* name */
+	, "OnAwakePhysicsSettings"/* name */
 	, ""/* namespaze */
-	, PickupTriggerForward_t360_MethodInfos/* methods */
+	, OnAwakePhysicsSettings_t356_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &PickupTriggerForward_t360_il2cpp_TypeInfo/* element_class */
+	, &OnAwakePhysicsSettings_t356_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, 0/* custom_attributes_cache */
-	, &PickupTriggerForward_t360_0_0_0/* byval_arg */
-	, &PickupTriggerForward_t360_1_0_0/* this_arg */
-	, &PickupTriggerForward_t360_DefinitionMetadata/* definitionMetadata */
+	, 638/* custom_attributes_cache */
+	, &OnAwakePhysicsSettings_t356_0_0_0/* byval_arg */
+	, &OnAwakePhysicsSettings_t356_1_0_0/* this_arg */
+	, &OnAwakePhysicsSettings_t356_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -25641,8 +26675,8 @@ TypeInfo PickupTriggerForward_t360_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PickupTriggerForward_t360)/* instance_size */
-	, sizeof (PickupTriggerForward_t360)/* actualSize */
+	, sizeof (OnAwakePhysicsSettings_t356)/* instance_size */
+	, sizeof (OnAwakePhysicsSettings_t356)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */

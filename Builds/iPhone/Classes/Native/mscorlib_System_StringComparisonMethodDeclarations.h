@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.StringComparison
-struct StringComparison_t5420;
+struct StringComparison_t5658;
 

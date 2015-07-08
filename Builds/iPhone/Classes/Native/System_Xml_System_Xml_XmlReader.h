@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.StringBuilder
-struct StringBuilder_t640;
+struct StringBuilder_t696;
 // System.Xml.XmlReaderBinarySupport
-struct XmlReaderBinarySupport_t3886;
+struct XmlReaderBinarySupport_t4124;
 // System.Xml.XmlReaderSettings
-struct XmlReaderSettings_t3887;
+struct XmlReaderSettings_t4125;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlReader
-struct  XmlReader_t3760  : public Object_t
+struct  XmlReader_t3998  : public Object_t
 {
 	// System.Text.StringBuilder System.Xml.XmlReader::readStringBuffer
-	StringBuilder_t640 * ___readStringBuffer_0;
+	StringBuilder_t696 * ___readStringBuffer_0;
 	// System.Xml.XmlReaderBinarySupport System.Xml.XmlReader::binary
-	XmlReaderBinarySupport_t3886 * ___binary_1;
+	XmlReaderBinarySupport_t4124 * ___binary_1;
 	// System.Xml.XmlReaderSettings System.Xml.XmlReader::settings
-	XmlReaderSettings_t3887 * ___settings_2;
+	XmlReaderSettings_t4125 * ___settings_2;
 };

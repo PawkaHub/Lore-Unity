@@ -3,7 +3,7 @@
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // PickupItemSimple
-struct  PickupItemSimple_t517  : public MonoBehaviour_t329
+struct  PickupItemSimple_t544  : public MonoBehaviour_t357
 {
 	// System.Single PickupItemSimple::SecondsBeforeRespawn
 	float ___SecondsBeforeRespawn_2;

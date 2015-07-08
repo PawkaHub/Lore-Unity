@@ -11,7 +11,7 @@ struct String_t;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // PixelCrushers.DialogueSystem.LuaConsole
-struct  LuaConsole_t1078  : public MonoBehaviour_t47
+struct  LuaConsole_t1337  : public MonoBehaviour_t47
 {
 	// System.Boolean PixelCrushers.DialogueSystem.LuaConsole::visible
 	bool ___visible_2;

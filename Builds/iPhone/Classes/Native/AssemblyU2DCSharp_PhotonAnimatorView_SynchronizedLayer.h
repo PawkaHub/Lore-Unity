@@ -5,7 +5,7 @@
 // PhotonAnimatorView/SynchronizeType
 #include "AssemblyU2DCSharp_PhotonAnimatorView_SynchronizeType.h"
 // PhotonAnimatorView/SynchronizedLayer
-struct  SynchronizedLayer_t478  : public Object_t
+struct  SynchronizedLayer_t505  : public Object_t
 {
 	// PhotonAnimatorView/SynchronizeType PhotonAnimatorView/SynchronizedLayer::SynchronizeType
 	int32_t ___SynchronizeType_0;

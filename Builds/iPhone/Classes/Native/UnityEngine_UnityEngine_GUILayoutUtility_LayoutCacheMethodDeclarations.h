@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUILayoutUtility/LayoutCache
-struct LayoutCache_t4473;
+struct LayoutCache_t4711;
 
 // System.Void UnityEngine.GUILayoutUtility/LayoutCache::.ctor()
-extern "C" void LayoutCache__ctor_m16341 (LayoutCache_t4473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LayoutCache__ctor_m16760 (LayoutCache_t4711 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

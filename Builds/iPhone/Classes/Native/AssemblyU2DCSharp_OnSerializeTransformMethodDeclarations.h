@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // OnSerializeTransform
-struct OnSerializeTransform_t459;
+struct OnSerializeTransform_t487;
 

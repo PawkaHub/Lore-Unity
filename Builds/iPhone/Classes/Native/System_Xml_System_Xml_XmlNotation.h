@@ -5,7 +5,7 @@ struct String_t;
 // System.Xml.XmlNode
 #include "System_Xml_System_Xml_XmlNode.h"
 // System.Xml.XmlNotation
-struct  XmlNotation_t3880  : public XmlNode_t3843
+struct  XmlNotation_t4118  : public XmlNode_t4081
 {
 	// System.String System.Xml.XmlNotation::localName
 	String_t* ___localName_5;

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // ExitGames.Client.Photon.NCommand[]
-struct NCommandU5BU5D_t9509;
+struct NCommandU5BU5D_t9791;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Queue`1<ExitGames.Client.Photon.NCommand>
-struct  Queue_1_t4847  : public Object_t
+struct  Queue_1_t5085  : public Object_t
 {
 	// T[] System.Collections.Generic.Queue`1<ExitGames.Client.Photon.NCommand>::_array
-	NCommandU5BU5D_t9509* ____array_0;
+	NCommandU5BU5D_t9791* ____array_0;
 	// System.Int32 System.Collections.Generic.Queue`1<ExitGames.Client.Photon.NCommand>::_head
 	int32_t ____head_1;
 	// System.Int32 System.Collections.Generic.Queue`1<ExitGames.Client.Photon.NCommand>::_tail

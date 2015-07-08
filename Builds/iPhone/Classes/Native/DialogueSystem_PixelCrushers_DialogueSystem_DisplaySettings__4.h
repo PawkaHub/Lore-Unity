@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.DisplaySettings/AlertSettings
-struct  AlertSettings_t1243  : public Object_t
+struct  AlertSettings_t1502  : public Object_t
 {
 	// System.Boolean PixelCrushers.DialogueSystem.DisplaySettings/AlertSettings::allowAlertsDuringConversations
 	bool ___allowAlertsDuringConversations_0;

@@ -9,7 +9,7 @@ struct List_1_t1;
 // PixelCrushers.DialogueSystem.FieldType
 #include "DialogueSystem_PixelCrushers_DialogueSystem_FieldType.h"
 // PixelCrushers.DialogueSystem.Field
-struct  Field_t1147  : public Object_t
+struct  Field_t1406  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.Field::title
 	String_t* ___title_0;
@@ -20,7 +20,7 @@ struct  Field_t1147  : public Object_t
 	// System.String PixelCrushers.DialogueSystem.Field::typeString
 	String_t* ___typeString_3;
 };
-struct Field_t1147_StaticFields{
+struct Field_t1406_StaticFields{
 	// System.Collections.Generic.List`1<System.String> PixelCrushers.DialogueSystem.Field::filenameFields
 	List_1_t1 * ___filenameFields_4;
 };

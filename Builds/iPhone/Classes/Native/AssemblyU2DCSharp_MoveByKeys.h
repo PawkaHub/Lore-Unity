@@ -3,11 +3,11 @@
 // UnityEngine.Rigidbody
 struct Rigidbody_t100;
 // UnityEngine.Rigidbody2D
-struct Rigidbody2D_t324;
+struct Rigidbody2D_t352;
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // MoveByKeys
-struct  MoveByKeys_t506  : public MonoBehaviour_t329
+struct  MoveByKeys_t533  : public MonoBehaviour_t357
 {
 	// System.Single MoveByKeys::Speed
 	float ___Speed_2;
@@ -22,5 +22,5 @@ struct  MoveByKeys_t506  : public MonoBehaviour_t329
 	// UnityEngine.Rigidbody MoveByKeys::body
 	Rigidbody_t100 * ___body_7;
 	// UnityEngine.Rigidbody2D MoveByKeys::body2d
-	Rigidbody2D_t324 * ___body2d_8;
+	Rigidbody2D_t352 * ___body2d_8;
 };

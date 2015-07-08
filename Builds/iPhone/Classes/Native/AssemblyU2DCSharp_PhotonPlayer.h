@@ -5,11 +5,11 @@ struct String_t;
 // System.Object
 struct Object_t;
 // ExitGames.Client.Photon.Hashtable
-struct Hashtable_t436;
+struct Hashtable_t464;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PhotonPlayer
-struct  PhotonPlayer_t432  : public Object_t
+struct  PhotonPlayer_t460  : public Object_t
 {
 	// System.Int32 PhotonPlayer::actorID
 	int32_t ___actorID_0;
@@ -20,5 +20,5 @@ struct  PhotonPlayer_t432  : public Object_t
 	// System.Object PhotonPlayer::TagObject
 	Object_t * ___TagObject_3;
 	// ExitGames.Client.Photon.Hashtable PhotonPlayer::<customProperties>k__BackingField
-	Hashtable_t436 * ___U3CcustomPropertiesU3Ek__BackingField_4;
+	Hashtable_t464 * ___U3CcustomPropertiesU3Ek__BackingField_4;
 };

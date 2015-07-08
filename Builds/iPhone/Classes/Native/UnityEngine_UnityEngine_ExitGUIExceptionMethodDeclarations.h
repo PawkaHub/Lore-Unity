@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ExitGUIException
-struct ExitGUIException_t4481;
+struct ExitGUIException_t4719;
 

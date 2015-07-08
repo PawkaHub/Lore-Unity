@@ -5,7 +5,7 @@
 // JoinType
 #include "AssemblyU2DCSharp_JoinType.h"
 // JoinType
-struct  JoinType_t399 
+struct  JoinType_t427 
 {
 	// System.Int32 JoinType::value__
 	int32_t ___value___1;

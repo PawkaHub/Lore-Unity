@@ -7,7 +7,7 @@ struct GUISkin_t197;
 // System.String
 struct String_t;
 // PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI
-struct UnityBarkUIOnGUI_t1380;
+struct UnityBarkUIOnGUI_t1639;
 // UnityEngine.Collider
 struct Collider_t194;
 // UnityEngine.MonoBehaviour
@@ -21,7 +21,7 @@ struct Collider_t194;
 // UnityEngine.LayerMask
 #include "UnityEngine_UnityEngine_LayerMask.h"
 // PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUI
-struct  UnityBarkUI_t1381  : public MonoBehaviour_t47
+struct  UnityBarkUI_t1640  : public MonoBehaviour_t47
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUI::textPosition
 	Transform_t54 * ___textPosition_2;
@@ -48,7 +48,7 @@ struct  UnityBarkUI_t1381  : public MonoBehaviour_t47
 	// UnityEngine.LayerMask PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUI::visibilityLayerMask
 	LayerMask_t87  ___visibilityLayerMask_13;
 	// PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUIOnGUI PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUI::unityBarkUIOnGUI
-	UnityBarkUIOnGUI_t1380 * ___unityBarkUIOnGUI_14;
+	UnityBarkUIOnGUI_t1639 * ___unityBarkUIOnGUI_14;
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUI::playerCameraTransform
 	Transform_t54 * ___playerCameraTransform_15;
 	// UnityEngine.Collider PixelCrushers.DialogueSystem.UnityGUI.UnityBarkUI::playerCameraCollider

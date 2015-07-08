@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Toggle
-struct Toggle_t910;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
+// UnityParseHelpers.Loom/DelayedQueueItem
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_DelayedQueueItem.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Func`2<UnityEngine.UI.Toggle,System.Boolean>
-struct  Func_2_t913  : public MulticastDelegate_t451
+// System.Func`2<UnityParseHelpers.Loom/DelayedQueueItem,System.Boolean>
+struct  Func_2_t332  : public MulticastDelegate_t479
 {
 };

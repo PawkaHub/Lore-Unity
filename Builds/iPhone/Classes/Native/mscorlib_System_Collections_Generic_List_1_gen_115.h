@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>[]
-struct KeyValuePair_2U5BU5D_t1743;
+// UnityEngine.UI.ICanvasElement[]
+struct ICanvasElementU5BU5D_t6800;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
-struct  List_1_t6865  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
+struct  List_1_t6798  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::_items
-	KeyValuePair_2U5BU5D_t1743* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::_items
+	ICanvasElementU5BU5D_t6800* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6865_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::EmptyArray
-	KeyValuePair_2U5BU5D_t1743* ___EmptyArray_4;
+struct List_1_t6798_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::EmptyArray
+	ICanvasElementU5BU5D_t6800* ___EmptyArray_4;
 };

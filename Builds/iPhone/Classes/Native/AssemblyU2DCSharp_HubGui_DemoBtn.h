@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // HubGui/DemoBtn
-struct  DemoBtn_t345 
+struct  DemoBtn_t373 
 {
 	// System.String HubGui/DemoBtn::Text
 	String_t* ___Text_0;
@@ -13,7 +13,7 @@ struct  DemoBtn_t345
 	String_t* ___Link_1;
 };
 // Native definition for marshalling of: HubGui/DemoBtn
-struct DemoBtn_t345_marshaled
+struct DemoBtn_t373_marshaled
 {
 	char* ___Text_0;
 	char* ___Link_1;

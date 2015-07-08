@@ -14,8 +14,8 @@ struct String_t;
 // System.Object ExitGames.Client.Photon.OperationResponse::get_Item(System.Byte)
 extern "C" Object_t * OperationResponse_get_Item_m104 (OperationResponse_t23 * __this, uint8_t ___parameterCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String ExitGames.Client.Photon.OperationResponse::ToString()
-extern "C" String_t* OperationResponse_ToString_m18050 (OperationResponse_t23 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* OperationResponse_ToString_m18468 (OperationResponse_t23 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String ExitGames.Client.Photon.OperationResponse::ToStringFull()
 extern "C" String_t* OperationResponse_ToStringFull_m102 (OperationResponse_t23 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.OperationResponse::.ctor()
-extern "C" void OperationResponse__ctor_m18051 (OperationResponse_t23 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperationResponse__ctor_m18469 (OperationResponse_t23 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

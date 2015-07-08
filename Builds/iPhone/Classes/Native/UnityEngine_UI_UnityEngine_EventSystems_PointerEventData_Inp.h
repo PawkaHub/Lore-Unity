@@ -5,7 +5,7 @@
 // UnityEngine.EventSystems.PointerEventData/InputButton
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEventData_Inp.h"
 // UnityEngine.EventSystems.PointerEventData/InputButton
-struct  InputButton_t816 
+struct  InputButton_t1106 
 {
 	// System.Int32 UnityEngine.EventSystems.PointerEventData/InputButton::value__
 	int32_t ___value___1;

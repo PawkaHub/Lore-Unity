@@ -7,7 +7,7 @@ struct Action_t250;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // PixelCrushers.DialogueSystem.UnityGUI.GUIScrollView
-struct  GUIScrollView_t1266  : public GUIControl_t1261
+struct  GUIScrollView_t1525  : public GUIControl_t1520
 {
 	// System.Boolean PixelCrushers.DialogueSystem.UnityGUI.GUIScrollView::showVerticalScrollbar
 	bool ___showVerticalScrollbar_19;

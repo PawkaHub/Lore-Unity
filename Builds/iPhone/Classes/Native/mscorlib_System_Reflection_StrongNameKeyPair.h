@@ -7,7 +7,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Reflection.StrongNameKeyPair
-struct  StrongNameKeyPair_t5108  : public Object_t
+struct  StrongNameKeyPair_t5346  : public Object_t
 {
 	// System.Byte[] System.Reflection.StrongNameKeyPair::_publicKey
 	ByteU5BU5D_t25* ____publicKey_0;

@@ -7,7 +7,7 @@ struct StringU5BU5D_t20;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.QueuedSequencerCommand
-struct  QueuedSequencerCommand_t1205  : public Object_t
+struct  QueuedSequencerCommand_t1464  : public Object_t
 {
 	// System.String PixelCrushers.DialogueSystem.SequencerCommands.QueuedSequencerCommand::command
 	String_t* ___command_0;

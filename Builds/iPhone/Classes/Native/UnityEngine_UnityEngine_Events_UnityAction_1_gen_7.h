@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t634;
+// System.String
+struct String_t;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// UnityEngine.Events.UnityAction`1<UnityEngine.EventSystems.BaseEventData>
-struct  UnityAction_1_t6444  : public MulticastDelegate_t451
+// UnityEngine.Events.UnityAction`1<System.String>
+struct  UnityAction_1_t6753  : public MulticastDelegate_t479
 {
 };

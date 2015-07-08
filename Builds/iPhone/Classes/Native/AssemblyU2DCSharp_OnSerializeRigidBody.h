@@ -5,7 +5,7 @@
 // OnSerializeRigidBody
 #include "AssemblyU2DCSharp_OnSerializeRigidBody.h"
 // OnSerializeRigidBody
-struct  OnSerializeRigidBody_t460 
+struct  OnSerializeRigidBody_t488 
 {
 	// System.Int32 OnSerializeRigidBody::value__
 	int32_t ___value___1;

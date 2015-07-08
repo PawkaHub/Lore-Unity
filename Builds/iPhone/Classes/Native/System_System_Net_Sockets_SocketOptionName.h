@@ -5,7 +5,7 @@
 // System.Net.Sockets.SocketOptionName
 #include "System_System_Net_Sockets_SocketOptionName.h"
 // System.Net.Sockets.SocketOptionName
-struct  SocketOptionName_t4013 
+struct  SocketOptionName_t4251 
 {
 	// System.Int32 System.Net.Sockets.SocketOptionName::value__
 	int32_t ___value___1;

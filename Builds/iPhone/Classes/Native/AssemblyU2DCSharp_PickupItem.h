@@ -3,11 +3,11 @@
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t47;
 // System.Collections.Generic.HashSet`1<PickupItem>
-struct HashSet_1_t515;
+struct HashSet_1_t542;
 // Photon.MonoBehaviour
 #include "AssemblyU2DCSharp_Photon_MonoBehaviour.h"
 // PickupItem
-struct  PickupItem_t516  : public MonoBehaviour_t329
+struct  PickupItem_t543  : public MonoBehaviour_t357
 {
 	// System.Single PickupItem::SecondsBeforeRespawn
 	float ___SecondsBeforeRespawn_2;
@@ -22,7 +22,7 @@ struct  PickupItem_t516  : public MonoBehaviour_t329
 	// System.Double PickupItem::TimeOfRespawn
 	double ___TimeOfRespawn_7;
 };
-struct PickupItem_t516_StaticFields{
+struct PickupItem_t543_StaticFields{
 	// System.Collections.Generic.HashSet`1<PickupItem> PickupItem::DisabledPickupItems
-	HashSet_1_t515 * ___DisabledPickupItems_8;
+	HashSet_1_t542 * ___DisabledPickupItems_8;
 };

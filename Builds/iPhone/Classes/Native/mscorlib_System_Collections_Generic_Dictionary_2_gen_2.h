@@ -3,30 +3,30 @@
 // System.Int32[]
 struct Int32U5BU5D_t119;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5982;
+struct LinkU5BU5D_t6220;
 // PunTeams/Team[]
-struct TeamU5BU5D_t6248;
+struct TeamU5BU5D_t6576;
 // System.Collections.Generic.List`1<PhotonPlayer>[]
-struct List_1U5BU5D_t6249;
+struct List_1U5BU5D_t6577;
 // System.Collections.Generic.IEqualityComparer`1<PunTeams/Team>
-struct IEqualityComparer_1_t6250;
+struct IEqualityComparer_1_t6578;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t3058;
+struct SerializationInfo_t3296;
 // System.Collections.Generic.Dictionary`2/Transform`1<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>,System.Collections.DictionaryEntry>
-struct Transform_1_t6251;
+struct Transform_1_t6579;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>
-struct  Dictionary_2_t523  : public Object_t
+struct  Dictionary_2_t550  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::table
 	Int32U5BU5D_t119* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::linkSlots
-	LinkU5BU5D_t5982* ___linkSlots_5;
+	LinkU5BU5D_t6220* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::keySlots
-	TeamU5BU5D_t6248* ___keySlots_6;
+	TeamU5BU5D_t6576* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::valueSlots
-	List_1U5BU5D_t6249* ___valueSlots_7;
+	List_1U5BU5D_t6577* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t523  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::serialization_info
-	SerializationInfo_t3058 * ___serialization_info_13;
+	SerializationInfo_t3296 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t523_StaticFields{
+struct Dictionary_2_t550_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<PunTeams/Team,System.Collections.Generic.List`1<PhotonPlayer>>::<>f__am$cacheB
-	Transform_1_t6251 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t6579 * ___U3CU3Ef__amU24cacheB_15;
 };

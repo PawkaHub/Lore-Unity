@@ -7,7 +7,7 @@
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.UI.Shadow
-struct  Shadow_t946  : public BaseVertexEffect_t944
+struct  Shadow_t1225  : public BaseVertexEffect_t1223
 {
 	// UnityEngine.Color UnityEngine.UI.Shadow::m_EffectColor
 	Color_t121  ___m_EffectColor_3;

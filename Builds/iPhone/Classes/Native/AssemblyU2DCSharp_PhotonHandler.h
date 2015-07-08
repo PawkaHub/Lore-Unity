@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // PhotonHandler
-struct PhotonHandler_t446;
+struct PhotonHandler_t474;
 // System.Type
 struct Type_t;
 // Photon.MonoBehaviour
@@ -11,7 +11,7 @@ struct Type_t;
 // CloudRegionCode
 #include "AssemblyU2DCSharp_CloudRegionCode.h"
 // PhotonHandler
-struct  PhotonHandler_t446  : public MonoBehaviour_t329
+struct  PhotonHandler_t474  : public MonoBehaviour_t357
 {
 	// System.Int32 PhotonHandler::updateInterval
 	int32_t ___updateInterval_4;
@@ -22,9 +22,9 @@ struct  PhotonHandler_t446  : public MonoBehaviour_t329
 	// System.Int32 PhotonHandler::nextSendTickCountOnSerialize
 	int32_t ___nextSendTickCountOnSerialize_7;
 };
-struct PhotonHandler_t446_StaticFields{
+struct PhotonHandler_t474_StaticFields{
 	// PhotonHandler PhotonHandler::SP
-	PhotonHandler_t446 * ___SP_3;
+	PhotonHandler_t474 * ___SP_3;
 	// System.Boolean PhotonHandler::sendThreadShouldRun
 	bool ___sendThreadShouldRun_8;
 	// System.Boolean PhotonHandler::AppQuits

@@ -7,7 +7,7 @@ struct Texture2D_t90;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription
-struct  AchievementDescription_t4617  : public Object_t
+struct  AchievementDescription_t4855  : public Object_t
 {
 	// System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::m_Title
 	String_t* ___m_Title_0;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PhotonAnimatorView/SynchronizeType
-struct SynchronizeType_t476;
+struct SynchronizeType_t503;
 

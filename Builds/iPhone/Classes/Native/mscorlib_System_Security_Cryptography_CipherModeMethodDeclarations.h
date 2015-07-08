@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.CipherMode
-struct CipherMode_t4432;
+struct CipherMode_t4670;
 

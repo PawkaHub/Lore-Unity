@@ -7,7 +7,7 @@
 // UnityEngine.Quaternion
 #include "UnityEngine_UnityEngine_Quaternion.h"
 // SmoothSyncMovement
-struct  SmoothSyncMovement_t532  : public MonoBehaviour_t329
+struct  SmoothSyncMovement_t559  : public MonoBehaviour_t357
 {
 	// System.Single SmoothSyncMovement::SmoothingDelay
 	float ___SmoothingDelay_2;

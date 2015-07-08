@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Component>
-struct List_1_t463;
-// UnityEngine.Component
-struct Component_t462;
+// System.Collections.Generic.List`1<ParticlePlayground.ParticleStateC>
+struct List_1_t183;
+// ParticlePlayground.ParticleStateC
+struct ParticleStateC_t94;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>
-struct  Enumerator_t6204 
+// System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ParticleStateC>
+struct  Enumerator_t6403 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::l
-	List_1_t463 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ParticleStateC>::l
+	List_1_t183 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ParticleStateC>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ParticleStateC>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>::current
-	Component_t462 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<ParticlePlayground.ParticleStateC>::current
+	ParticleStateC_t94 * ___current_3;
 };

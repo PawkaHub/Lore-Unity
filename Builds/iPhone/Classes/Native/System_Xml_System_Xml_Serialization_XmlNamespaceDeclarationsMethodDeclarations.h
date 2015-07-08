@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.XmlNamespaceDeclarationsAttribute
-struct XmlNamespaceDeclarationsAttribute_t3746;
+struct XmlNamespaceDeclarationsAttribute_t3984;
 

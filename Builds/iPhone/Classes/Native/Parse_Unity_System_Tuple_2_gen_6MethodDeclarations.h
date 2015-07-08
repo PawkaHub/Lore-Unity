@@ -4,29 +4,28 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Tuple`2<System.Object,System.Object>
-struct Tuple_2_t6799;
+// System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>
+struct Tuple_2_t2935;
+// System.Delegate
+struct Delegate_t651;
+// System.Threading.Tasks.TaskFactory
+struct TaskFactory_t1946;
 // System.Object
 struct Object_t;
 
-// T1 System.Tuple`2<System.Object,System.Object>::get_Item1()
-extern "C" Object_t * Tuple_2_get_Item1_m37232_gshared (Tuple_2_t6799 * __this, const MethodInfo* method);
-#define Tuple_2_get_Item1_m37232(__this, method) (( Object_t * (*) (Tuple_2_t6799 *, const MethodInfo*))Tuple_2_get_Item1_m37232_gshared)(__this, method)
-// System.Void System.Tuple`2<System.Object,System.Object>::set_Item1(T1)
-extern "C" void Tuple_2_set_Item1_m37234_gshared (Tuple_2_t6799 * __this, Object_t * ___value, const MethodInfo* method);
-#define Tuple_2_set_Item1_m37234(__this, ___value, method) (( void (*) (Tuple_2_t6799 *, Object_t *, const MethodInfo*))Tuple_2_set_Item1_m37234_gshared)(__this, ___value, method)
-// T2 System.Tuple`2<System.Object,System.Object>::get_Item2()
-extern "C" Object_t * Tuple_2_get_Item2_m37236_gshared (Tuple_2_t6799 * __this, const MethodInfo* method);
-#define Tuple_2_get_Item2_m37236(__this, method) (( Object_t * (*) (Tuple_2_t6799 *, const MethodInfo*))Tuple_2_get_Item2_m37236_gshared)(__this, method)
-// System.Void System.Tuple`2<System.Object,System.Object>::set_Item2(T2)
-extern "C" void Tuple_2_set_Item2_m37238_gshared (Tuple_2_t6799 * __this, Object_t * ___value, const MethodInfo* method);
-#define Tuple_2_set_Item2_m37238(__this, ___value, method) (( void (*) (Tuple_2_t6799 *, Object_t *, const MethodInfo*))Tuple_2_set_Item2_m37238_gshared)(__this, ___value, method)
-// System.Void System.Tuple`2<System.Object,System.Object>::.ctor(T1,T2)
-extern "C" void Tuple_2__ctor_m37240_gshared (Tuple_2_t6799 * __this, Object_t * ___item1, Object_t * ___item2, const MethodInfo* method);
-#define Tuple_2__ctor_m37240(__this, ___item1, ___item2, method) (( void (*) (Tuple_2_t6799 *, Object_t *, Object_t *, const MethodInfo*))Tuple_2__ctor_m37240_gshared)(__this, ___item1, ___item2, method)
-// System.Boolean System.Tuple`2<System.Object,System.Object>::Equals(System.Object)
-extern "C" bool Tuple_2_Equals_m37242_gshared (Tuple_2_t6799 * __this, Object_t * ___obj, const MethodInfo* method);
-#define Tuple_2_Equals_m37242(__this, ___obj, method) (( bool (*) (Tuple_2_t6799 *, Object_t *, const MethodInfo*))Tuple_2_Equals_m37242_gshared)(__this, ___obj, method)
-// System.Int32 System.Tuple`2<System.Object,System.Object>::GetHashCode()
-extern "C" int32_t Tuple_2_GetHashCode_m37244_gshared (Tuple_2_t6799 * __this, const MethodInfo* method);
-#define Tuple_2_GetHashCode_m37244(__this, method) (( int32_t (*) (Tuple_2_t6799 *, const MethodInfo*))Tuple_2_GetHashCode_m37244_gshared)(__this, method)
+// T1 System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::get_Item1()
+// System.Tuple`2<System.Object,System.Object>
+#include "Parse_Unity_System_Tuple_2_gen_7MethodDeclarations.h"
+#define Tuple_2_get_Item1_m38556(__this, method) (( Delegate_t651 * (*) (Tuple_2_t2935 *, const MethodInfo*))Tuple_2_get_Item1_m38557_gshared)(__this, method)
+// System.Void System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::set_Item1(T1)
+#define Tuple_2_set_Item1_m38558(__this, ___value, method) (( void (*) (Tuple_2_t2935 *, Delegate_t651 *, const MethodInfo*))Tuple_2_set_Item1_m38559_gshared)(__this, ___value, method)
+// T2 System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::get_Item2()
+#define Tuple_2_get_Item2_m38560(__this, method) (( TaskFactory_t1946 * (*) (Tuple_2_t2935 *, const MethodInfo*))Tuple_2_get_Item2_m38561_gshared)(__this, method)
+// System.Void System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::set_Item2(T2)
+#define Tuple_2_set_Item2_m38562(__this, ___value, method) (( void (*) (Tuple_2_t2935 *, TaskFactory_t1946 *, const MethodInfo*))Tuple_2_set_Item2_m38563_gshared)(__this, ___value, method)
+// System.Void System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::.ctor(T1,T2)
+#define Tuple_2__ctor_m38564(__this, ___item1, ___item2, method) (( void (*) (Tuple_2_t2935 *, Delegate_t651 *, TaskFactory_t1946 *, const MethodInfo*))Tuple_2__ctor_m38565_gshared)(__this, ___item1, ___item2, method)
+// System.Boolean System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::Equals(System.Object)
+#define Tuple_2_Equals_m38566(__this, ___obj, method) (( bool (*) (Tuple_2_t2935 *, Object_t *, const MethodInfo*))Tuple_2_Equals_m38567_gshared)(__this, ___obj, method)
+// System.Int32 System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::GetHashCode()
+#define Tuple_2_GetHashCode_m38568(__this, method) (( int32_t (*) (Tuple_2_t2935 *, const MethodInfo*))Tuple_2_GetHashCode_m38569_gshared)(__this, method)

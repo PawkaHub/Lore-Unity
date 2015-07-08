@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.BarkSubtitleSetting
-struct BarkSubtitleSetting_t1100;
+struct BarkSubtitleSetting_t1359;
 

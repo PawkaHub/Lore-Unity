@@ -9,21 +9,21 @@ struct PhotonPeer_t14;
 // ExitGames.Client.Photon.IPhotonPeerListener
 struct IPhotonPeerListener_t24;
 // ExitGames.Client.Photon.TrafficStats
-struct TrafficStats_t709;
+struct TrafficStats_t777;
 // ExitGames.Client.Photon.TrafficStatsGameLevel
-struct TrafficStatsGameLevel_t707;
+struct TrafficStatsGameLevel_t775;
 // System.String
 struct String_t;
 // ExitGames.Client.Photon.NetworkSimulationSet
-struct NetworkSimulationSet_t703;
+struct NetworkSimulationSet_t771;
 // System.Collections.Generic.Dictionary`2<System.Byte,System.Object>
 struct Dictionary_2_t28;
 // System.Type
 struct Type_t;
 // ExitGames.Client.Photon.SerializeStreamMethod
-struct SerializeStreamMethod_t674;
+struct SerializeStreamMethod_t743;
 // ExitGames.Client.Photon.DeserializeStreamMethod
-struct DeserializeStreamMethod_t675;
+struct DeserializeStreamMethod_t744;
 // ExitGames.Client.Photon.DebugLevel
 #include "Photon3Unity3D_ExitGames_Client_Photon_DebugLevel.h"
 // ExitGames.Client.Photon.PeerStateValue
@@ -38,55 +38,55 @@ extern "C" uint8_t PhotonPeer_get_DebugOut_m100 (PhotonPeer_t14 * __this, const 
 // ExitGames.Client.Photon.IPhotonPeerListener ExitGames.Client.Photon.PhotonPeer::get_Listener()
 extern "C" Object_t * PhotonPeer_get_Listener_m110 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_Listener(ExitGames.Client.Photon.IPhotonPeerListener)
-extern "C" void PhotonPeer_set_Listener_m3198 (PhotonPeer_t14 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer_set_Listener_m3427 (PhotonPeer_t14 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::get_TrafficStatsEnabled()
-extern "C" bool PhotonPeer_get_TrafficStatsEnabled_m3281 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PhotonPeer_get_TrafficStatsEnabled_m3510 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_TrafficStatsEnabled(System.Boolean)
-extern "C" void PhotonPeer_set_TrafficStatsEnabled_m3282 (PhotonPeer_t14 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer_set_TrafficStatsEnabled_m3511 (PhotonPeer_t14 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 ExitGames.Client.Photon.PhotonPeer::get_TrafficStatsElapsedMs()
-extern "C" int64_t PhotonPeer_get_TrafficStatsElapsedMs_m3295 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t PhotonPeer_get_TrafficStatsElapsedMs_m3524 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::TrafficStatsReset()
-extern "C" void PhotonPeer_TrafficStatsReset_m3289 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer_TrafficStatsReset_m3518 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::get_TrafficStatsIncoming()
-extern "C" TrafficStats_t709 * PhotonPeer_get_TrafficStatsIncoming_m3299 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TrafficStats_t777 * PhotonPeer_get_TrafficStatsIncoming_m3528 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::get_TrafficStatsOutgoing()
-extern "C" TrafficStats_t709 * PhotonPeer_get_TrafficStatsOutgoing_m3300 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TrafficStats_t777 * PhotonPeer_get_TrafficStatsOutgoing_m3529 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ExitGames.Client.Photon.TrafficStatsGameLevel ExitGames.Client.Photon.PhotonPeer::get_TrafficStatsGameLevel()
-extern "C" TrafficStatsGameLevel_t707 * PhotonPeer_get_TrafficStatsGameLevel_m3294 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TrafficStatsGameLevel_t775 * PhotonPeer_get_TrafficStatsGameLevel_m3523 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte ExitGames.Client.Photon.PhotonPeer::get_QuickResendAttempts()
-extern "C" uint8_t PhotonPeer_get_QuickResendAttempts_m3291 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t PhotonPeer_get_QuickResendAttempts_m3520 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_QuickResendAttempts(System.Byte)
-extern "C" void PhotonPeer_set_QuickResendAttempts_m3292 (PhotonPeer_t14 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer_set_QuickResendAttempts_m3521 (PhotonPeer_t14 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ExitGames.Client.Photon.PeerStateValue ExitGames.Client.Photon.PhotonPeer::get_PeerState()
 extern "C" uint8_t PhotonPeer_get_PeerState_m95 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ExitGames.Client.Photon.PhotonPeer::get_LimitOfUnreliableCommands()
-extern "C" int32_t PhotonPeer_get_LimitOfUnreliableCommands_m3280 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PhotonPeer_get_LimitOfUnreliableCommands_m3509 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_LimitOfUnreliableCommands(System.Int32)
-extern "C" void PhotonPeer_set_LimitOfUnreliableCommands_m3199 (PhotonPeer_t14 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer_set_LimitOfUnreliableCommands_m3428 (PhotonPeer_t14 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::get_CrcEnabled()
-extern "C" bool PhotonPeer_get_CrcEnabled_m3284 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PhotonPeer_get_CrcEnabled_m3513 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_CrcEnabled(System.Boolean)
-extern "C" void PhotonPeer_set_CrcEnabled_m3285 (PhotonPeer_t14 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer_set_CrcEnabled_m3514 (PhotonPeer_t14 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ExitGames.Client.Photon.PhotonPeer::get_PacketLossByCrc()
-extern "C" int32_t PhotonPeer_get_PacketLossByCrc_m3286 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PhotonPeer_get_PacketLossByCrc_m3515 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ExitGames.Client.Photon.PhotonPeer::get_ResentReliableCommands()
-extern "C" int32_t PhotonPeer_get_ResentReliableCommands_m3283 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PhotonPeer_get_ResentReliableCommands_m3512 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ExitGames.Client.Photon.PhotonPeer::get_SentCountAllowance()
-extern "C" int32_t PhotonPeer_get_SentCountAllowance_m3287 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PhotonPeer_get_SentCountAllowance_m3516 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_SentCountAllowance(System.Int32)
-extern "C" void PhotonPeer_set_SentCountAllowance_m3288 (PhotonPeer_t14 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer_set_SentCountAllowance_m3517 (PhotonPeer_t14 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_TimePingInterval(System.Int32)
 extern "C" void PhotonPeer_set_TimePingInterval_m93 (PhotonPeer_t14 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ExitGames.Client.Photon.PhotonPeer::get_ServerTimeInMilliSeconds()
-extern "C" int32_t PhotonPeer_get_ServerTimeInMilliSeconds_m3233 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PhotonPeer_get_ServerTimeInMilliSeconds_m3462 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ExitGames.Client.Photon.PhotonPeer::get_RoundTripTime()
-extern "C" int32_t PhotonPeer_get_RoundTripTime_m3261 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PhotonPeer_get_RoundTripTime_m3490 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ExitGames.Client.Photon.PhotonPeer::get_RoundTripTimeVariance()
-extern "C" int32_t PhotonPeer_get_RoundTripTimeVariance_m3262 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PhotonPeer_get_RoundTripTimeVariance_m3491 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 ExitGames.Client.Photon.PhotonPeer::get_TimestampOfLastSocketReceive()
-extern "C" int32_t PhotonPeer_get_TimestampOfLastSocketReceive_m18039 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PhotonPeer_get_TimestampOfLastSocketReceive_m18457 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String ExitGames.Client.Photon.PhotonPeer::get_ServerAddress()
-extern "C" String_t* PhotonPeer_get_ServerAddress_m3155 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* PhotonPeer_get_ServerAddress_m3384 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ExitGames.Client.Photon.ConnectionProtocol ExitGames.Client.Photon.PhotonPeer::get_UsedProtocol()
 extern "C" uint8_t PhotonPeer_get_UsedProtocol_m109 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::get_IsSimulationEnabled()
@@ -94,13 +94,13 @@ extern "C" bool PhotonPeer_get_IsSimulationEnabled_m152 (PhotonPeer_t14 * __this
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_IsSimulationEnabled(System.Boolean)
 extern "C" void PhotonPeer_set_IsSimulationEnabled_m153 (PhotonPeer_t14 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // ExitGames.Client.Photon.NetworkSimulationSet ExitGames.Client.Photon.PhotonPeer::get_NetworkSimulationSettings()
-extern "C" NetworkSimulationSet_t703 * PhotonPeer_get_NetworkSimulationSettings_m3264 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" NetworkSimulationSet_t771 * PhotonPeer_get_NetworkSimulationSettings_m3493 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::get_IsEncryptionAvailable()
 extern "C" bool PhotonPeer_get_IsEncryptionAvailable_m111 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::set_IsSendingOnlyAcks(System.Boolean)
-extern "C" void PhotonPeer_set_IsSendingOnlyAcks_m3279 (PhotonPeer_t14 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer_set_IsSendingOnlyAcks_m3508 (PhotonPeer_t14 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::.ctor(ExitGames.Client.Photon.ConnectionProtocol)
-extern "C" void PhotonPeer__ctor_m18040 (PhotonPeer_t14 * __this, uint8_t ___protocolType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PhotonPeer__ctor_m18458 (PhotonPeer_t14 * __this, uint8_t ___protocolType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ExitGames.Client.Photon.PhotonPeer::.ctor(ExitGames.Client.Photon.IPhotonPeerListener,ExitGames.Client.Photon.ConnectionProtocol)
 extern "C" void PhotonPeer__ctor_m107 (PhotonPeer_t14 * __this, Object_t * ___listener, uint8_t ___protocolType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::Connect(System.String,System.String)
@@ -122,7 +122,7 @@ extern "C" bool PhotonPeer_SendAcksOnly_m160 (PhotonPeer_t14 * __this, const Met
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::DispatchIncomingCommands()
 extern "C" bool PhotonPeer_DispatchIncomingCommands_m161 (PhotonPeer_t14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String ExitGames.Client.Photon.PhotonPeer::VitalStatsToString(System.Boolean)
-extern "C" String_t* PhotonPeer_VitalStatsToString_m3290 (PhotonPeer_t14 * __this, bool ___all, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* PhotonPeer_VitalStatsToString_m3519 (PhotonPeer_t14 * __this, bool ___all, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::OpCustom(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,System.Boolean)
 extern "C" bool PhotonPeer_OpCustom_m162 (PhotonPeer_t14 * __this, uint8_t ___customOpCode, Dictionary_2_t28 * ___customOpParameters, bool ___sendReliable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::OpCustom(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,System.Boolean,System.Byte)
@@ -130,4 +130,4 @@ extern "C" bool PhotonPeer_OpCustom_m163 (PhotonPeer_t14 * __this, uint8_t ___cu
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::OpCustom(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,System.Boolean,System.Byte,System.Boolean)
 extern "C" bool PhotonPeer_OpCustom_m164 (PhotonPeer_t14 * __this, uint8_t ___customOpCode, Dictionary_2_t28 * ___customOpParameters, bool ___sendReliable, uint8_t ___channelId, bool ___encrypt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean ExitGames.Client.Photon.PhotonPeer::RegisterType(System.Type,System.Byte,ExitGames.Client.Photon.SerializeStreamMethod,ExitGames.Client.Photon.DeserializeStreamMethod)
-extern "C" bool PhotonPeer_RegisterType_m3172 (Object_t * __this /* static, unused */, Type_t * ___customType, uint8_t ___code, SerializeStreamMethod_t674 * ___serializeMethod, DeserializeStreamMethod_t675 * ___constructor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PhotonPeer_RegisterType_m3401 (Object_t * __this /* static, unused */, Type_t * ___customType, uint8_t ___code, SerializeStreamMethod_t743 * ___serializeMethod, DeserializeStreamMethod_t744 * ___constructor, const MethodInfo* method) IL2CPP_METHOD_ATTR;

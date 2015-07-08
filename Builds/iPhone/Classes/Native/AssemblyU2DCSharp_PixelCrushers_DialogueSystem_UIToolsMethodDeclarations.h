@@ -7,19 +7,19 @@
 // PixelCrushers.DialogueSystem.UITools
 struct UITools_t284;
 // UnityEngine.Sprite
-struct Sprite_t573;
+struct Sprite_t626;
 // UnityEngine.Texture2D
 struct Texture2D_t90;
 // System.String
 struct String_t;
 // PixelCrushers.DialogueSystem.FormattedText
-struct FormattedText_t572;
+struct FormattedText_t625;
 // UnityEngine.AnimatorStateInfo
 #include "UnityEngine_UnityEngine_AnimatorStateInfo.h"
 
 // System.Int32 PixelCrushers.DialogueSystem.UITools::GetAnimatorNameHash(UnityEngine.AnimatorStateInfo)
-extern "C" int32_t UITools_GetAnimatorNameHash_m1087 (Object_t * __this /* static, unused */, AnimatorStateInfo_t574  ___animatorStateInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UITools_GetAnimatorNameHash_m1087 (Object_t * __this /* static, unused */, AnimatorStateInfo_t627  ___animatorStateInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite PixelCrushers.DialogueSystem.UITools::CreateSprite(UnityEngine.Texture2D)
-extern "C" Sprite_t573 * UITools_CreateSprite_m1088 (Object_t * __this /* static, unused */, Texture2D_t90 * ___texture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t626 * UITools_CreateSprite_m1088 (Object_t * __this /* static, unused */, Texture2D_t90 * ___texture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String PixelCrushers.DialogueSystem.UITools::GetUIFormattedText(PixelCrushers.DialogueSystem.FormattedText)
-extern "C" String_t* UITools_GetUIFormattedText_m1089 (Object_t * __this /* static, unused */, FormattedText_t572 * ___formattedText, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UITools_GetUIFormattedText_m1089 (Object_t * __this /* static, unused */, FormattedText_t625 * ___formattedText, const MethodInfo* method) IL2CPP_METHOD_ATTR;

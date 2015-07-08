@@ -9,16 +9,16 @@
 // System.TimeZoneInfo/TransitionTime
 #include "System_Core_System_TimeZoneInfo_TransitionTime.h"
 // System.TimeZoneInfo/AdjustmentRule
-struct  AdjustmentRule_t3049  : public Object_t
+struct  AdjustmentRule_t3287  : public Object_t
 {
 	// System.DateTime System.TimeZoneInfo/AdjustmentRule::dateEnd
-	DateTime_t1705  ___dateEnd_0;
+	DateTime_t1953  ___dateEnd_0;
 	// System.DateTime System.TimeZoneInfo/AdjustmentRule::dateStart
-	DateTime_t1705  ___dateStart_1;
+	DateTime_t1953  ___dateStart_1;
 	// System.TimeSpan System.TimeZoneInfo/AdjustmentRule::daylightDelta
-	TimeSpan_t1746  ___daylightDelta_2;
+	TimeSpan_t629  ___daylightDelta_2;
 	// System.TimeZoneInfo/TransitionTime System.TimeZoneInfo/AdjustmentRule::daylightTransitionEnd
-	TransitionTime_t3050  ___daylightTransitionEnd_3;
+	TransitionTime_t3288  ___daylightTransitionEnd_3;
 	// System.TimeZoneInfo/TransitionTime System.TimeZoneInfo/AdjustmentRule::daylightTransitionStart
-	TransitionTime_t3050  ___daylightTransitionStart_4;
+	TransitionTime_t3288  ___daylightTransitionStart_4;
 };

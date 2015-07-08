@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.TrafficStatsGameLevel
-struct  TrafficStatsGameLevel_t707  : public Object_t
+struct  TrafficStatsGameLevel_t775  : public Object_t
 {
 	// System.Int32 ExitGames.Client.Photon.TrafficStatsGameLevel::timeOfLastDispatchCall
 	int32_t ___timeOfLastDispatchCall_0;

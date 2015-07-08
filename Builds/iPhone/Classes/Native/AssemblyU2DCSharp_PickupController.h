@@ -13,7 +13,7 @@ struct Animation_t298;
 // UnityEngine.CollisionFlags
 #include "UnityEngine_UnityEngine_CollisionFlags.h"
 // PickupController
-struct  PickupController_t355  : public MonoBehaviour_t47
+struct  PickupController_t383  : public MonoBehaviour_t47
 {
 	// UnityEngine.AnimationClip PickupController::idleAnimation
 	AnimationClip_t296 * ___idleAnimation_2;

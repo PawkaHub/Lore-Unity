@@ -5,7 +5,7 @@
 // ExitGames.Client.Photon.EventCaching
 #include "AssemblyU2DCSharp_ExitGames_Client_Photon_EventCaching.h"
 // ExitGames.Client.Photon.EventCaching
-struct  EventCaching_t413 
+struct  EventCaching_t441 
 {
 	// System.Byte ExitGames.Client.Photon.EventCaching::value__
 	uint8_t ___value___1;

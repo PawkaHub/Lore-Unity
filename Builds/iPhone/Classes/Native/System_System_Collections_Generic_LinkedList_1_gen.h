@@ -5,13 +5,13 @@ struct String_t;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.LinkedListNode`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct LinkedListNode_1_t1843;
+struct LinkedListNode_1_t2082;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t3058;
+struct SerializationInfo_t3296;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.LinkedList`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct  LinkedList_1_t1610  : public Object_t
+struct  LinkedList_1_t1861  : public Object_t
 {
 	// System.UInt32 System.Collections.Generic.LinkedList`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::count
 	uint32_t ___count_2;
@@ -20,7 +20,7 @@ struct  LinkedList_1_t1610  : public Object_t
 	// System.Object System.Collections.Generic.LinkedList`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::syncRoot
 	Object_t * ___syncRoot_4;
 	// System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::first
-	LinkedListNode_1_t1843 * ___first_5;
+	LinkedListNode_1_t2082 * ___first_5;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.LinkedList`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::si
-	SerializationInfo_t3058 * ___si_6;
+	SerializationInfo_t3296 * ___si_6;
 };

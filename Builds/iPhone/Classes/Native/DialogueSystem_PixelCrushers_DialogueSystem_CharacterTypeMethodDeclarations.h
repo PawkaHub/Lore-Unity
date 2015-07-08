@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.CharacterType
-struct CharacterType_t1112;
+struct CharacterType_t1371;
 

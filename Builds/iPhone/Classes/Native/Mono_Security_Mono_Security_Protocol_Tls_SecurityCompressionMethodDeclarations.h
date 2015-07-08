@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.SecurityCompressionType
-struct SecurityCompressionType_t4383;
+struct SecurityCompressionType_t4621;
 

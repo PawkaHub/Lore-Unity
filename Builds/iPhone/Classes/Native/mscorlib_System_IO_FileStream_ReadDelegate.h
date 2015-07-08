@@ -3,9 +3,9 @@
 // System.Byte[]
 struct ByteU5BU5D_t25;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // System.Int32
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.IO.FileStream/ReadDelegate
-struct  ReadDelegate_t5065  : public MulticastDelegate_t451
+struct  ReadDelegate_t5303  : public MulticastDelegate_t479
 {
 };

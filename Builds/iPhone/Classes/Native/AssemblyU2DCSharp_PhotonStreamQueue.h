@@ -5,7 +5,7 @@ struct List_1_t2;
 // System.Object
 #include "mscorlib_System_Object.h"
 // PhotonStreamQueue
-struct  PhotonStreamQueue_t457  : public Object_t
+struct  PhotonStreamQueue_t485  : public Object_t
 {
 	// System.Int32 PhotonStreamQueue::m_SampleRate
 	int32_t ___m_SampleRate_0;

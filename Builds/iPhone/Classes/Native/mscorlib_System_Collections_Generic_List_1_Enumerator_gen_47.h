@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<ParticlePlayground.PlaygroundParticlesC>
-struct List_1_t79;
-// ParticlePlayground.PlaygroundParticlesC
-struct PlaygroundParticlesC_t126;
+// System.Collections.Generic.List`1<UnityEngine.Vector3>
+struct List_1_t63;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundParticlesC>
-struct  Enumerator_t6078 
+// UnityEngine.Vector3
+#include "UnityEngine_UnityEngine_Vector3.h"
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>
+struct  Enumerator_t6293 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundParticlesC>::l
-	List_1_t79 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundParticlesC>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::l
+	List_1_t63 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundParticlesC>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<ParticlePlayground.PlaygroundParticlesC>::current
-	PlaygroundParticlesC_t126 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::current
+	Vector3_t53  ___current_3;
 };

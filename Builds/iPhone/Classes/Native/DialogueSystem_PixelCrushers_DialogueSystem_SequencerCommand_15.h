@@ -7,7 +7,7 @@ struct String_t;
 // PixelCrushers.DialogueSystem.FieldType
 #include "DialogueSystem_PixelCrushers_DialogueSystem_FieldType.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandQTE
-struct  SequencerCommandQTE_t1233  : public SequencerCommand_t209
+struct  SequencerCommandQTE_t1492  : public SequencerCommand_t209
 {
 	// System.Int32 PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandQTE::index
 	int32_t ___index_6;

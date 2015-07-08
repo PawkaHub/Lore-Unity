@@ -7,7 +7,7 @@ struct ByteU5BU5D_t25;
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.PhotonPing
-struct  PhotonPing_t466  : public Object_t
+struct  PhotonPing_t494  : public Object_t
 {
 	// System.String ExitGames.Client.Photon.PhotonPing::DebugString
 	String_t* ___DebugString_0;

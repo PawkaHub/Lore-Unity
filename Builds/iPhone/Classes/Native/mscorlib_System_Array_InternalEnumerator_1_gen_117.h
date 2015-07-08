@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<Language.Lua.Associativity>
-struct  InternalEnumerator_1_t9233 
+// System.Array/InternalEnumerator`1<System.TimeZoneInfo/TimeType>
+struct  InternalEnumerator_1_t9455 
 {
-	// System.Array System.Array/InternalEnumerator`1<Language.Lua.Associativity>::array
+	// System.Array System.Array/InternalEnumerator`1<System.TimeZoneInfo/TimeType>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<Language.Lua.Associativity>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<System.TimeZoneInfo/TimeType>::idx
 	int32_t ___idx_1;
 };

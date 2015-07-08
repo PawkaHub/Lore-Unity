@@ -4,30 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Threading.Tasks.Task`1<Parse.ParseUser>
-struct Task_1_t1720;
-// Parse.ParseUser
-struct ParseUser_t722;
+// System.Threading.Tasks.Task`1<Parse.ParseConfig>
+struct Task_1_t1967;
+// Parse.ParseConfig
+struct ParseConfig_t1822;
 // System.Threading.Tasks.Task
-struct Task_t723;
-// System.Action`1<System.Threading.Tasks.Task`1<Parse.ParseUser>>
-struct Action_1_t7000;
+struct Task_t344;
+// System.Action`1<System.Threading.Tasks.Task`1<Parse.ParseConfig>>
+struct Action_1_t7233;
 // System.AggregateException
-struct AggregateException_t1669;
+struct AggregateException_t727;
 
-// System.Void System.Threading.Tasks.Task`1<Parse.ParseUser>::.ctor()
+// System.Void System.Threading.Tasks.Task`1<Parse.ParseConfig>::.ctor()
 // System.Threading.Tasks.Task`1<System.Object>
-#include "Parse_Unity_System_Threading_Tasks_Task_1_gen_2MethodDeclarations.h"
-#define Task_1__ctor_m39615(__this, method) (( void (*) (Task_1_t1720 *, const MethodInfo*))Task_1__ctor_m36937_gshared)(__this, method)
-// T System.Threading.Tasks.Task`1<Parse.ParseUser>::get_Result()
-#define Task_1_get_Result_m8841(__this, method) (( ParseUser_t722 * (*) (Task_1_t1720 *, const MethodInfo*))Task_1_get_Result_m36938_gshared)(__this, method)
-// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<Parse.ParseUser>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
-#define Task_1_ContinueWith_m39616(__this, ___continuation, method) (( Task_t723 * (*) (Task_1_t1720 *, Action_1_t7000 *, const MethodInfo*))Task_1_ContinueWith_m36940_gshared)(__this, ___continuation, method)
-// System.Void System.Threading.Tasks.Task`1<Parse.ParseUser>::RunContinuations()
-#define Task_1_RunContinuations_m39617(__this, method) (( void (*) (Task_1_t1720 *, const MethodInfo*))Task_1_RunContinuations_m36942_gshared)(__this, method)
-// System.Boolean System.Threading.Tasks.Task`1<Parse.ParseUser>::TrySetResult(T)
-#define Task_1_TrySetResult_m39618(__this, ___result, method) (( bool (*) (Task_1_t1720 *, ParseUser_t722 *, const MethodInfo*))Task_1_TrySetResult_m36944_gshared)(__this, ___result, method)
-// System.Boolean System.Threading.Tasks.Task`1<Parse.ParseUser>::TrySetCanceled()
-#define Task_1_TrySetCanceled_m39619(__this, method) (( bool (*) (Task_1_t1720 *, const MethodInfo*))Task_1_TrySetCanceled_m36946_gshared)(__this, method)
-// System.Boolean System.Threading.Tasks.Task`1<Parse.ParseUser>::TrySetException(System.AggregateException)
-#define Task_1_TrySetException_m39620(__this, ___exception, method) (( bool (*) (Task_1_t1720 *, AggregateException_t1669 *, const MethodInfo*))Task_1_TrySetException_m36948_gshared)(__this, ___exception, method)
+#include "Parse_Unity_System_Threading_Tasks_Task_1_gen_4MethodDeclarations.h"
+#define Task_1__ctor_m40063(__this, method) (( void (*) (Task_1_t1967 *, const MethodInfo*))Task_1__ctor_m28787_gshared)(__this, method)
+// T System.Threading.Tasks.Task`1<Parse.ParseConfig>::get_Result()
+#define Task_1_get_Result_m40064(__this, method) (( ParseConfig_t1822 * (*) (Task_1_t1967 *, const MethodInfo*))Task_1_get_Result_m28788_gshared)(__this, method)
+// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<Parse.ParseConfig>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
+#define Task_1_ContinueWith_m40065(__this, ___continuation, method) (( Task_t344 * (*) (Task_1_t1967 *, Action_1_t7233 *, const MethodInfo*))Task_1_ContinueWith_m28789_gshared)(__this, ___continuation, method)
+// System.Void System.Threading.Tasks.Task`1<Parse.ParseConfig>::RunContinuations()
+#define Task_1_RunContinuations_m40066(__this, method) (( void (*) (Task_1_t1967 *, const MethodInfo*))Task_1_RunContinuations_m28790_gshared)(__this, method)
+// System.Boolean System.Threading.Tasks.Task`1<Parse.ParseConfig>::TrySetResult(T)
+#define Task_1_TrySetResult_m40067(__this, ___result, method) (( bool (*) (Task_1_t1967 *, ParseConfig_t1822 *, const MethodInfo*))Task_1_TrySetResult_m28791_gshared)(__this, ___result, method)
+// System.Boolean System.Threading.Tasks.Task`1<Parse.ParseConfig>::TrySetCanceled()
+#define Task_1_TrySetCanceled_m40068(__this, method) (( bool (*) (Task_1_t1967 *, const MethodInfo*))Task_1_TrySetCanceled_m28792_gshared)(__this, method)
+// System.Boolean System.Threading.Tasks.Task`1<Parse.ParseConfig>::TrySetException(System.AggregateException)
+#define Task_1_TrySetException_m40069(__this, ___exception, method) (( bool (*) (Task_1_t1967 *, AggregateException_t727 *, const MethodInfo*))Task_1_TrySetException_m28793_gshared)(__this, ___exception, method)

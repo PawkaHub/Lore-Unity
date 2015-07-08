@@ -5,7 +5,7 @@ struct IEnumerator_t74;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.Evidence/EvidenceEnumerator
-struct  EvidenceEnumerator_t5309  : public Object_t
+struct  EvidenceEnumerator_t5547  : public Object_t
 {
 	// System.Collections.IEnumerator System.Security.Policy.Evidence/EvidenceEnumerator::currentEnum
 	Object_t * ___currentEnum_0;

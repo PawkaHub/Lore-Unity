@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PhotonTargets
-struct PhotonTargets_t391;
+struct PhotonTargets_t419;
 

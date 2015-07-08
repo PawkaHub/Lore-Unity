@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.Photon.TrafficStats
-struct  TrafficStats_t709  : public Object_t
+struct  TrafficStats_t777  : public Object_t
 {
 	// System.Int32 ExitGames.Client.Photon.TrafficStats::<PackageHeaderSize>k__BackingField
 	int32_t ___U3CPackageHeaderSizeU3Ek__BackingField_0;

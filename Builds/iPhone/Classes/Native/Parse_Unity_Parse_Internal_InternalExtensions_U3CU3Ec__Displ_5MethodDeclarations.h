@@ -4,16 +4,14 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// Parse.Internal.InternalExtensions/<>c__DisplayClass7`1<System.Object>
-struct U3CU3Ec__DisplayClass7_1_t6846;
-// System.Threading.Tasks.Task`1<System.Object>
-struct Task_1_t1723;
+// Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Int32,System.Byte>
+struct U3CU3Ec__DisplayClass1_2_t7105;
 // System.Threading.Tasks.Task
-struct Task_t723;
+struct Task_t344;
 
-// System.Void Parse.Internal.InternalExtensions/<>c__DisplayClass7`1<System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass7_1__ctor_m37774_gshared (U3CU3Ec__DisplayClass7_1_t6846 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1__ctor_m37774(__this, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t6846 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1__ctor_m37774_gshared)(__this, method)
-// System.Threading.Tasks.Task`1<TResult> Parse.Internal.InternalExtensions/<>c__DisplayClass7`1<System.Object>::<OnSuccess>b__6(System.Threading.Tasks.Task)
-extern "C" Task_1_t1723 * U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m37775_gshared (U3CU3Ec__DisplayClass7_1_t6846 * __this, Task_t723 * ___t, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m37775(__this, ___t, method) (( Task_1_t1723 * (*) (U3CU3Ec__DisplayClass7_1_t6846 *, Task_t723 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m37775_gshared)(__this, ___t, method)
+// System.Void Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Int32,System.Byte>::.ctor()
+extern "C" void U3CU3Ec__DisplayClass1_2__ctor_m38453_gshared (U3CU3Ec__DisplayClass1_2_t7105 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_2__ctor_m38453(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_2_t7105 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2__ctor_m38453_gshared)(__this, method)
+// TResult Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Int32,System.Byte>::<OnSuccess>b__0(System.Threading.Tasks.Task)
+extern "C" uint8_t U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m38454_gshared (U3CU3Ec__DisplayClass1_2_t7105 * __this, Task_t344 * ___t, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m38454(__this, ___t, method) (( uint8_t (*) (U3CU3Ec__DisplayClass1_2_t7105 *, Task_t344 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m38454_gshared)(__this, ___t, method)

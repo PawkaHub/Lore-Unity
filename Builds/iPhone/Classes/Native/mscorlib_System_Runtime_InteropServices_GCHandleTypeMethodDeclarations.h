@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.GCHandleType
-struct GCHandleType_t5153;
+struct GCHandleType_t5391;
 

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>
-struct List_1_t1074;
-// PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField
-struct LocalizedTextField_t1072;
+// System.Collections.Generic.List`1<UnityParseHelpers.Loom/ConditionalQueueItem>
+struct List_1_t330;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>
-struct  Enumerator_t1402 
+// UnityParseHelpers.Loom/ConditionalQueueItem
+#include "AssemblyU2DCSharp_UnityParseHelpers_Loom_ConditionalQueueIte.h"
+// System.Collections.Generic.List`1/Enumerator<UnityParseHelpers.Loom/ConditionalQueueItem>
+struct  Enumerator_t723 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::l
-	List_1_t1074 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityParseHelpers.Loom/ConditionalQueueItem>::l
+	List_1_t330 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityParseHelpers.Loom/ConditionalQueueItem>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityParseHelpers.Loom/ConditionalQueueItem>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::current
-	LocalizedTextField_t1072 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityParseHelpers.Loom/ConditionalQueueItem>::current
+	ConditionalQueueItem_t326  ___current_3;
 };

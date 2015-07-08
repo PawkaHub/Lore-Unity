@@ -7,7 +7,7 @@ struct GameObject_t49;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // OnJoinInstantiate
-struct  OnJoinInstantiate_t337  : public MonoBehaviour_t47
+struct  OnJoinInstantiate_t365  : public MonoBehaviour_t47
 {
 	// UnityEngine.Transform OnJoinInstantiate::ObjectToInstantiate
 	Transform_t54 * ___ObjectToInstantiate_2;

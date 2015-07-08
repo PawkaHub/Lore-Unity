@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PhotonLogLevel
-struct PhotonLogLevel_t390;
+struct PhotonLogLevel_t418;
 

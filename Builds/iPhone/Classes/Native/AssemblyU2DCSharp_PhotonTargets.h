@@ -5,7 +5,7 @@
 // PhotonTargets
 #include "AssemblyU2DCSharp_PhotonTargets.h"
 // PhotonTargets
-struct  PhotonTargets_t391 
+struct  PhotonTargets_t419 
 {
 	// System.Int32 PhotonTargets::value__
 	int32_t ___value___1;

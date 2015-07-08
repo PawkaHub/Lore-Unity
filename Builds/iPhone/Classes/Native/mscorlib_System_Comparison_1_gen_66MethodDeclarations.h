@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<PixelCrushers.DialogueSystem.ChatMapper.Link>
-struct Comparison_1_t6630;
+// System.Comparison`1<PixelCrushers.DialogueSystem.Item>
+struct Comparison_1_t6942;
 // System.Object
 struct Object_t;
-// PixelCrushers.DialogueSystem.ChatMapper.Link
-struct Link_t1167;
+// PixelCrushers.DialogueSystem.Item
+struct Item_t1408;
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Comparison`1<PixelCrushers.DialogueSystem.ChatMapper.Link>::.ctor(System.Object,System.IntPtr)
+// System.Void System.Comparison`1<PixelCrushers.DialogueSystem.Item>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_5MethodDeclarations.h"
-#define Comparison_1__ctor_m34687(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6630 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m24033_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<PixelCrushers.DialogueSystem.ChatMapper.Link>::Invoke(T,T)
-#define Comparison_1_Invoke_m34688(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6630 *, Link_t1167 *, Link_t1167 *, const MethodInfo*))Comparison_1_Invoke_m24034_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<PixelCrushers.DialogueSystem.ChatMapper.Link>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m34689(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6630 *, Link_t1167 *, Link_t1167 *, AsyncCallback_t449 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m24035_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<PixelCrushers.DialogueSystem.ChatMapper.Link>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m34690(__this, ___result, method) (( int32_t (*) (Comparison_1_t6630 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m24036_gshared)(__this, ___result, method)
+#define Comparison_1__ctor_m35727(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6942 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m24450_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<PixelCrushers.DialogueSystem.Item>::Invoke(T,T)
+#define Comparison_1_Invoke_m35728(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6942 *, Item_t1408 *, Item_t1408 *, const MethodInfo*))Comparison_1_Invoke_m24451_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<PixelCrushers.DialogueSystem.Item>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m35729(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6942 *, Item_t1408 *, Item_t1408 *, AsyncCallback_t477 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m24452_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<PixelCrushers.DialogueSystem.Item>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m35730(__this, ___result, method) (( int32_t (*) (Comparison_1_t6942 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m24453_gshared)(__this, ___result, method)

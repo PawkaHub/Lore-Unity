@@ -4,9 +4,9 @@
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
-// PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey25
-struct  U3CGetParameterSynchronizeTypeU3Ec__AnonStorey25_t482  : public Object_t
+// PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey3A
+struct  U3CGetParameterSynchronizeTypeU3Ec__AnonStorey3A_t509  : public Object_t
 {
-	// System.String PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey25::name
+	// System.String PhotonAnimatorView/<GetParameterSynchronizeType>c__AnonStorey3A::name
 	String_t* ___name_0;
 };

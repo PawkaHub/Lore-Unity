@@ -5,7 +5,7 @@
 // PhotonTransformViewScaleModel/InterpolateOptions
 #include "AssemblyU2DCSharp_PhotonTransformViewScaleModel_InterpolateO.h"
 // PhotonTransformViewScaleModel
-struct  PhotonTransformViewScaleModel_t491  : public Object_t
+struct  PhotonTransformViewScaleModel_t518  : public Object_t
 {
 	// System.Boolean PhotonTransformViewScaleModel::SynchronizeEnabled
 	bool ___SynchronizeEnabled_0;

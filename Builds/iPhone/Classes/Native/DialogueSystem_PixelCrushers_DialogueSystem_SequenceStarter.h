@@ -9,7 +9,7 @@ struct Condition_t203;
 // PixelCrushers.DialogueSystem.DialogueEventStarter
 #include "DialogueSystem_PixelCrushers_DialogueSystem_DialogueEventSta.h"
 // PixelCrushers.DialogueSystem.SequenceStarter
-struct  SequenceStarter_t1341  : public DialogueEventStarter_t1321
+struct  SequenceStarter_t1600  : public DialogueEventStarter_t1580
 {
 	// System.String PixelCrushers.DialogueSystem.SequenceStarter::sequence
 	String_t* ___sequence_3;

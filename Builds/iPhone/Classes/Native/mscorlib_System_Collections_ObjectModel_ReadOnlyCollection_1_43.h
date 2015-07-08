@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct IList_1_t6437;
+// System.Collections.Generic.IList`1<Consolation.Console/Log>
+struct IList_1_t6707;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  ReadOnlyCollection_1_t6438  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<Consolation.Console/Log>
+struct  ReadOnlyCollection_1_t6708  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.EventTrigger/Entry>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Consolation.Console/Log>::list
 	Object_t* ___list_0;
 };

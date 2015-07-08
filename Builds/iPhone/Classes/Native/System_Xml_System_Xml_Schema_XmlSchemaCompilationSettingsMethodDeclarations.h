@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaCompilationSettings
-struct XmlSchemaCompilationSettings_t3684;
+struct XmlSchemaCompilationSettings_t3922;
 
 // System.Void System.Xml.Schema.XmlSchemaCompilationSettings::.ctor()
-extern "C" void XmlSchemaCompilationSettings__ctor_m11133 (XmlSchemaCompilationSettings_t3684 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlSchemaCompilationSettings__ctor_m11552 (XmlSchemaCompilationSettings_t3922 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

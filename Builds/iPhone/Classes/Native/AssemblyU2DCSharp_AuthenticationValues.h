@@ -9,7 +9,7 @@ struct Object_t;
 // CustomAuthenticationType
 #include "AssemblyU2DCSharp_CustomAuthenticationType.h"
 // AuthenticationValues
-struct  AuthenticationValues_t417  : public Object_t
+struct  AuthenticationValues_t445  : public Object_t
 {
 	// CustomAuthenticationType AuthenticationValues::AuthType
 	uint8_t ___AuthType_0;

@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // Photon.MonoBehaviour
-struct  MonoBehaviour_t329  : public MonoBehaviour_t47
+struct  MonoBehaviour_t357  : public MonoBehaviour_t47
 {
 };

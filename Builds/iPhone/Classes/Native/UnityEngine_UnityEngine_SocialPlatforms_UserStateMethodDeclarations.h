@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.UserState
-struct UserState_t4626;
+struct UserState_t4864;
 

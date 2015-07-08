@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Language.Lua.Tuple
-struct Tuple_t3566;
+struct Tuple_t3804;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
-struct X509KeyStorageFlags_t4307;
+struct X509KeyStorageFlags_t4545;
 

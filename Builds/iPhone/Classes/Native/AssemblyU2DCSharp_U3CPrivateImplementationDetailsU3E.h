@@ -5,10 +5,10 @@
 // <PrivateImplementationDetails>/$ArrayType$1024
 #include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3E_U24Arra.h"
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t564  : public Object_t
+struct  U3CPrivateImplementationDetailsU3E_t617  : public Object_t
 {
 };
-struct U3CPrivateImplementationDetailsU3E_t564_StaticFields{
+struct U3CPrivateImplementationDetailsU3E_t617_StaticFields{
 	// <PrivateImplementationDetails>/$ArrayType$1024 <PrivateImplementationDetails>::$$field-0
-	U24ArrayTypeU241024_t563  ___U24U24fieldU2D0_0;
+	U24ArrayTypeU241024_t616  ___U24U24fieldU2D0_0;
 };

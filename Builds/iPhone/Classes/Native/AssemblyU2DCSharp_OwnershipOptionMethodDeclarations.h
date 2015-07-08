@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // OwnershipOption
-struct OwnershipOption_t461;
+struct OwnershipOption_t489;
 

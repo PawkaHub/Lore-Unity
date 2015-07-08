@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.AsymmetricSignatureDeformatter
-struct  AsymmetricSignatureDeformatter_t4380  : public Object_t
+struct  AsymmetricSignatureDeformatter_t4618  : public Object_t
 {
 };

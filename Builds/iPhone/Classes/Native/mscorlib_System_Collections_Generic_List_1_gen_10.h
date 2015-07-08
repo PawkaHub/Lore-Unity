@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // ParticlePlayground.PlaygroundTransformC[]
-struct PlaygroundTransformCU5BU5D_t6101;
+struct PlaygroundTransformCU5BU5D_t6339;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<ParticlePlayground.PlaygroundTransformC>
 struct  List_1_t118  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<ParticlePlayground.PlaygroundTransformC>::_items
-	PlaygroundTransformCU5BU5D_t6101* ____items_1;
+	PlaygroundTransformCU5BU5D_t6339* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<ParticlePlayground.PlaygroundTransformC>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<ParticlePlayground.PlaygroundTransformC>::_version
@@ -16,5 +16,5 @@ struct  List_1_t118  : public Object_t
 };
 struct List_1_t118_StaticFields{
 	// T[] System.Collections.Generic.List`1<ParticlePlayground.PlaygroundTransformC>::EmptyArray
-	PlaygroundTransformCU5BU5D_t6101* ___EmptyArray_4;
+	PlaygroundTransformCU5BU5D_t6339* ___EmptyArray_4;
 };

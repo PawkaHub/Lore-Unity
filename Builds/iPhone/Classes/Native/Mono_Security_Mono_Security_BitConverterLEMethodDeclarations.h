@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.BitConverterLE
-struct BitConverterLE_t4322;
+struct BitConverterLE_t4560;
 // System.Byte[]
 struct ByteU5BU5D_t25;
 
 // System.Byte[] Mono.Security.BitConverterLE::GetUIntBytes(System.Byte*)
-extern "C" ByteU5BU5D_t25* BitConverterLE_GetUIntBytes_m15327 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t25* BitConverterLE_GetUIntBytes_m15746 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int32)
-extern "C" ByteU5BU5D_t25* BitConverterLE_GetBytes_m15328 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t25* BitConverterLE_GetBytes_m15747 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

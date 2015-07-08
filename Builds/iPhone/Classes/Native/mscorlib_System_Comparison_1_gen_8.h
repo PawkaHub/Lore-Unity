@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IAsyncResult
-struct IAsyncResult_t448;
+struct IAsyncResult_t476;
 // System.AsyncCallback
-struct AsyncCallback_t449;
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
 // PlaygroundSplines.BezierControlPointMode
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<PlaygroundSplines.BezierControlPointMode>
-struct  Comparison_1_t6053  : public MulticastDelegate_t451
+struct  Comparison_1_t6291  : public MulticastDelegate_t479
 {
 };

@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.NetworkCredential
-struct  NetworkCredential_t4055  : public Object_t
+struct  NetworkCredential_t4293  : public Object_t
 {
 	// System.String System.Net.NetworkCredential::userName
 	String_t* ___userName_0;

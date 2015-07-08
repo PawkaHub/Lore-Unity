@@ -3,6 +3,6 @@
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
 // System.AssemblyLoadEventArgs
-struct  AssemblyLoadEventArgs_t5370  : public EventArgs_t1202
+struct  AssemblyLoadEventArgs_t5608  : public EventArgs_t1461
 {
 };

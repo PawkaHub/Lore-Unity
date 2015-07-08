@@ -7,7 +7,7 @@ struct Animation_t298;
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand
 #include "DialogueSystem_PixelCrushers_DialogueSystem_SequencerCommand.h"
 // PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimation
-struct  SequencerCommandAnimation_t1216  : public SequencerCommand_t209
+struct  SequencerCommandAnimation_t1475  : public SequencerCommand_t209
 {
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommandAnimation::subject
 	Transform_t54 * ___subject_6;

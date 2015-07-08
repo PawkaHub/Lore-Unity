@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.LoadHint
-struct LoadHint_t5139;
+struct LoadHint_t5377;
 

@@ -3,7 +3,7 @@
 // PixelCrushers.DialogueSystem.AbstractUIControls
 #include "DialogueSystem_PixelCrushers_DialogueSystem_AbstractUIContro.h"
 // PixelCrushers.DialogueSystem.AbstractUIAlertControls
-struct  AbstractUIAlertControls_t221  : public AbstractUIControls_t1253
+struct  AbstractUIAlertControls_t221  : public AbstractUIControls_t1512
 {
 	// System.Single PixelCrushers.DialogueSystem.AbstractUIAlertControls::alertDoneTime
 	float ___alertDoneTime_0;

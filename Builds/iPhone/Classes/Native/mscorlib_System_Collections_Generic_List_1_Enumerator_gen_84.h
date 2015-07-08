@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.LuaWatchItem>
-struct List_1_t1085;
-// PixelCrushers.DialogueSystem.LuaWatchItem
-struct LuaWatchItem_t582;
+// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
+struct List_1_t1177;
+// UnityEngine.CanvasGroup
+struct CanvasGroup_t211;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LuaWatchItem>
-struct  Enumerator_t6565 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>
+struct  Enumerator_t6860 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LuaWatchItem>::l
-	List_1_t1085 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LuaWatchItem>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::l
+	List_1_t1177 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LuaWatchItem>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<PixelCrushers.DialogueSystem.LuaWatchItem>::current
-	LuaWatchItem_t582 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::current
+	CanvasGroup_t211 * ___current_3;
 };

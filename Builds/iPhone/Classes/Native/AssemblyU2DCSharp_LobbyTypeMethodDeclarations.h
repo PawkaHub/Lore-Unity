@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // LobbyType
-struct LobbyType_t392;
+struct LobbyType_t420;
 

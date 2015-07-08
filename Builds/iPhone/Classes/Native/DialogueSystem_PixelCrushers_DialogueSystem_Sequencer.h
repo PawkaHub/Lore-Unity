@@ -3,21 +3,21 @@
 // System.String
 struct String_t;
 // UnityEngine.Camera
-struct Camera_t356;
+struct Camera_t384;
 // UnityEngine.Transform
 struct Transform_t54;
 // System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.SequencerCommands.QueuedSequencerCommand>
-struct List_1_t1212;
+struct List_1_t1471;
 // System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand>
-struct List_1_t1210;
+struct List_1_t1469;
 // UnityEngine.GameObject
 struct GameObject_t49;
 // System.Collections.Generic.Dictionary`2<System.String,System.Type>
-struct Dictionary_2_t1213;
+struct Dictionary_2_t1472;
 // System.Action
 struct Action_t250;
 // System.Predicate`1<PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand>
-struct Predicate_1_t1214;
+struct Predicate_1_t1473;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -25,14 +25,14 @@ struct Predicate_1_t1214;
 // UnityEngine.Quaternion
 #include "UnityEngine_UnityEngine_Quaternion.h"
 // PixelCrushers.DialogueSystem.Sequencer
-struct  Sequencer_t618  : public MonoBehaviour_t47
+struct  Sequencer_t675  : public MonoBehaviour_t47
 {
 	// System.Boolean PixelCrushers.DialogueSystem.Sequencer::disableInternalSequencerCommands
 	bool ___disableInternalSequencerCommands_4;
 	// System.Boolean PixelCrushers.DialogueSystem.Sequencer::hasCameraControl
 	bool ___hasCameraControl_5;
 	// UnityEngine.Camera PixelCrushers.DialogueSystem.Sequencer::originalCamera
-	Camera_t356 * ___originalCamera_6;
+	Camera_t384 * ___originalCamera_6;
 	// UnityEngine.Vector3 PixelCrushers.DialogueSystem.Sequencer::originalCameraPosition
 	Vector3_t53  ___originalCameraPosition_7;
 	// UnityEngine.Quaternion PixelCrushers.DialogueSystem.Sequencer::originalCameraRotation
@@ -44,17 +44,17 @@ struct  Sequencer_t618  : public MonoBehaviour_t47
 	// UnityEngine.Transform PixelCrushers.DialogueSystem.Sequencer::listener
 	Transform_t54 * ___listener_11;
 	// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.SequencerCommands.QueuedSequencerCommand> PixelCrushers.DialogueSystem.Sequencer::queuedCommands
-	List_1_t1212 * ___queuedCommands_12;
+	List_1_t1471 * ___queuedCommands_12;
 	// System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand> PixelCrushers.DialogueSystem.Sequencer::activeCommands
-	List_1_t1210 * ___activeCommands_13;
+	List_1_t1469 * ___activeCommands_13;
 	// System.Boolean PixelCrushers.DialogueSystem.Sequencer::informParticipants
 	bool ___informParticipants_14;
 	// System.Boolean PixelCrushers.DialogueSystem.Sequencer::closeWhenFinished
 	bool ___closeWhenFinished_15;
 	// UnityEngine.Camera PixelCrushers.DialogueSystem.Sequencer::sequencerCameraSource
-	Camera_t356 * ___sequencerCameraSource_16;
+	Camera_t384 * ___sequencerCameraSource_16;
 	// UnityEngine.Camera PixelCrushers.DialogueSystem.Sequencer::sequencerCamera
-	Camera_t356 * ___sequencerCamera_17;
+	Camera_t384 * ___sequencerCamera_17;
 	// UnityEngine.GameObject PixelCrushers.DialogueSystem.Sequencer::alternateSequencerCameraObject
 	GameObject_t49 * ___alternateSequencerCameraObject_18;
 	// UnityEngine.GameObject PixelCrushers.DialogueSystem.Sequencer::cameraAngles
@@ -68,9 +68,9 @@ struct  Sequencer_t618  : public MonoBehaviour_t47
 	// System.String PixelCrushers.DialogueSystem.Sequencer::<entrytag>k__BackingField
 	String_t* ___U3CentrytagU3Ek__BackingField_24;
 };
-struct Sequencer_t618_StaticFields{
+struct Sequencer_t675_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Type> PixelCrushers.DialogueSystem.Sequencer::cachedComponentTypes
-	Dictionary_2_t1213 * ___cachedComponentTypes_22;
+	Dictionary_2_t1472 * ___cachedComponentTypes_22;
 	// System.Predicate`1<PixelCrushers.DialogueSystem.SequencerCommands.SequencerCommand> PixelCrushers.DialogueSystem.Sequencer::<>f__am$cache15
-	Predicate_1_t1214 * ___U3CU3Ef__amU24cache15_25;
+	Predicate_1_t1473 * ___U3CU3Ef__amU24cache15_25;
 };

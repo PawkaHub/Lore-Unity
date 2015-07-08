@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PixelCrushers.DialogueSystem.DialogueTime/TimeMode
-struct TimeMode_t1249;
+struct TimeMode_t1508;
 

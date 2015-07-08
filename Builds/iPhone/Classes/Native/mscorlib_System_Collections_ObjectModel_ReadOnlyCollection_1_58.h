@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<UnityEngine.Texture2D>
-struct IList_1_t6580;
+// System.Collections.Generic.IList`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>
+struct IList_1_t6890;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Texture2D>
-struct  ReadOnlyCollection_1_t6581  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>
+struct  ReadOnlyCollection_1_t6891  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Texture2D>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<PixelCrushers.DialogueSystem.LocalizedTextTable/LocalizedTextField>::list
 	Object_t* ___list_0;
 };

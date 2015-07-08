@@ -1,16 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
+// System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>
+struct IDictionary_2_t1835;
+// Parse.ParseObject
+struct ParseObject_t596;
+// System.IAsyncResult
+struct IAsyncResult_t476;
+// System.AsyncCallback
+struct AsyncCallback_t477;
 // System.Object
 struct Object_t;
-// System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1717;
-// System.IAsyncResult
-struct IAsyncResult_t448;
-// System.AsyncCallback
-struct AsyncCallback_t449;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,System.Object>
-struct  Func_2_t1598  : public MulticastDelegate_t451
+// System.Func`2<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
+struct  Func_2_t1848  : public MulticastDelegate_t479
 {
 };

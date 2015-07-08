@@ -15,7 +15,7 @@ struct ChatClient_t8;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // ChatGui
-struct  ChatGui_t338  : public MonoBehaviour_t47
+struct  ChatGui_t366  : public MonoBehaviour_t47
 {
 	// System.String ChatGui::ChatAppId
 	String_t* ___ChatAppId_2;
@@ -52,7 +52,7 @@ struct  ChatGui_t338  : public MonoBehaviour_t47
 	// System.String ChatGui::<UserName>k__BackingField
 	String_t* ___U3CUserNameU3Ek__BackingField_20;
 };
-struct ChatGui_t338_StaticFields{
+struct ChatGui_t366_StaticFields{
 	// System.String ChatGui::WelcomeText
 	String_t* ___WelcomeText_18;
 	// System.String ChatGui::HelpText

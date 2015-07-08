@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // RaiseEventOptions
-struct RaiseEventOptions_t437;
+struct RaiseEventOptions_t465;
 // System.Int32[]
 struct Int32U5BU5D_t119;
 // System.Object
@@ -11,7 +11,7 @@ struct Int32U5BU5D_t119;
 // ExitGames.Client.Photon.ReceiverGroup
 #include "AssemblyU2DCSharp_ExitGames_Client_Photon_ReceiverGroup.h"
 // RaiseEventOptions
-struct  RaiseEventOptions_t437  : public Object_t
+struct  RaiseEventOptions_t465  : public Object_t
 {
 	// ExitGames.Client.Photon.EventCaching RaiseEventOptions::CachingOption
 	uint8_t ___CachingOption_1;
@@ -30,7 +30,7 @@ struct  RaiseEventOptions_t437  : public Object_t
 	// System.Boolean RaiseEventOptions::Encrypt
 	bool ___Encrypt_8;
 };
-struct RaiseEventOptions_t437_StaticFields{
+struct RaiseEventOptions_t465_StaticFields{
 	// RaiseEventOptions RaiseEventOptions::Default
-	RaiseEventOptions_t437 * ___Default_0;
+	RaiseEventOptions_t465 * ___Default_0;
 };

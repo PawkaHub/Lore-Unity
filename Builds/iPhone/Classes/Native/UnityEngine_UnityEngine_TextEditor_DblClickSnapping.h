@@ -5,7 +5,7 @@
 // UnityEngine.TextEditor/DblClickSnapping
 #include "UnityEngine_UnityEngine_TextEditor_DblClickSnapping.h"
 // UnityEngine.TextEditor/DblClickSnapping
-struct  DblClickSnapping_t4635 
+struct  DblClickSnapping_t4873 
 {
 	// System.Byte UnityEngine.TextEditor/DblClickSnapping::value__
 	uint8_t ___value___1;

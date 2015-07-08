@@ -11,7 +11,7 @@ struct GameObject_t49;
 // GUICustomAuth/GuiState
 #include "AssemblyU2DCSharp_GUICustomAuth_GuiState.h"
 // GUICustomAuth
-struct  GUICustomAuth_t341  : public MonoBehaviour_t47
+struct  GUICustomAuth_t369  : public MonoBehaviour_t47
 {
 	// UnityEngine.Rect GUICustomAuth::GuiRect
 	Rect_t201  ___GuiRect_2;

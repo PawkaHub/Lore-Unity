@@ -3,7 +3,7 @@
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t3058;
+struct SerializationInfo_t3296;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.IntPtr
@@ -11,7 +11,7 @@ struct SerializationInfo_t3058;
 // System.Security.Principal.WindowsAccountType
 #include "mscorlib_System_Security_Principal_WindowsAccountType.h"
 // System.Security.Principal.WindowsIdentity
-struct  WindowsIdentity_t5314  : public Object_t
+struct  WindowsIdentity_t5552  : public Object_t
 {
 	// System.IntPtr System.Security.Principal.WindowsIdentity::_token
 	IntPtr_t ____token_0;
@@ -24,9 +24,9 @@ struct  WindowsIdentity_t5314  : public Object_t
 	// System.String System.Security.Principal.WindowsIdentity::_name
 	String_t* ____name_4;
 	// System.Runtime.Serialization.SerializationInfo System.Security.Principal.WindowsIdentity::_info
-	SerializationInfo_t3058 * ____info_5;
+	SerializationInfo_t3296 * ____info_5;
 };
-struct WindowsIdentity_t5314_StaticFields{
+struct WindowsIdentity_t5552_StaticFields{
 	// System.IntPtr System.Security.Principal.WindowsIdentity::invalidWindows
 	IntPtr_t ___invalidWindows_6;
 };

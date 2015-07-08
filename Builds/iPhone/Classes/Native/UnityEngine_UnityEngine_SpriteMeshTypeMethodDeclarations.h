@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SpriteMeshType
-struct SpriteMeshType_t4501;
+struct SpriteMeshType_t4739;
 

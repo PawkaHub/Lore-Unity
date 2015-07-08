@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // ExitGames.Client.DemoParticle.TimeKeeper
-struct  TimeKeeper_t535  : public Object_t
+struct  TimeKeeper_t562  : public Object_t
 {
 	// System.Int32 ExitGames.Client.DemoParticle.TimeKeeper::lastExecutionTime
 	int32_t ___lastExecutionTime_0;
