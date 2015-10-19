@@ -136,7 +136,7 @@ extern "C" void Material_set_color_m3281 (Material_t48 * __this, Color_t121  ___
 {
 	{
 		Color_t121  L_0 = ___value;
-		Material_SetColor_m17128(__this, (String_t*) &_stringLiteral4186, L_0, /*hidden argument*/NULL);
+		Material_SetColor_m17128(__this, (String_t*) &_stringLiteral4191, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -144,7 +144,7 @@ extern "C" void Material_set_color_m3281 (Material_t48 * __this, Color_t121  ___
 extern "C" Texture_t802 * Material_get_mainTexture_m5452 (Material_t48 * __this, const MethodInfo* method)
 {
 	{
-		Texture_t802 * L_0 = Material_GetTexture_m17131(__this, (String_t*) &_stringLiteral4187, /*hidden argument*/NULL);
+		Texture_t802 * L_0 = Material_GetTexture_m17131(__this, (String_t*) &_stringLiteral4192, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -153,7 +153,7 @@ extern "C" void Material_set_mainTextureOffset_m2590 (Material_t48 * __this, Vec
 {
 	{
 		Vector2_t97  L_0 = ___value;
-		Material_SetTextureOffset_m17133(__this, (String_t*) &_stringLiteral4187, L_0, /*hidden argument*/NULL);
+		Material_SetTextureOffset_m17133(__this, (String_t*) &_stringLiteral4192, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -695,7 +695,7 @@ IL_0136:
 IL_013d:
 	{
 		IndexOutOfRangeException_t4178 * L_31 = (IndexOutOfRangeException_t4178 *)il2cpp_codegen_object_new (IndexOutOfRangeException_t4178_il2cpp_TypeInfo_var);
-		IndexOutOfRangeException__ctor_m13234(L_31, (String_t*) &_stringLiteral4188, /*hidden argument*/NULL);
+		IndexOutOfRangeException__ctor_m13234(L_31, (String_t*) &_stringLiteral4193, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_31);
 	}
 }
@@ -1023,7 +1023,7 @@ IL_01b8:
 IL_01c4:
 	{
 		IndexOutOfRangeException_t4178 * L_31 = (IndexOutOfRangeException_t4178 *)il2cpp_codegen_object_new (IndexOutOfRangeException_t4178_il2cpp_TypeInfo_var);
-		IndexOutOfRangeException__ctor_m13234(L_31, (String_t*) &_stringLiteral4188, /*hidden argument*/NULL);
+		IndexOutOfRangeException__ctor_m13234(L_31, (String_t*) &_stringLiteral4193, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_31);
 	}
 
@@ -2158,7 +2158,7 @@ extern "C" Dictionary_2_t1444 * WWW_get_responseHeaders_m17166 (WWW_t1483 * __th
 	}
 	{
 		UnityException_t1256 * L_1 = (UnityException_t1256 *)il2cpp_codegen_object_new (UnityException_t1256_il2cpp_TypeInfo_var);
-		UnityException__ctor_m17896(L_1, (String_t*) &_stringLiteral4189, /*hidden argument*/NULL);
+		UnityException__ctor_m17896(L_1, (String_t*) &_stringLiteral4194, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -2198,7 +2198,7 @@ extern "C" String_t* WWW_get_text_m9318 (WWW_t1483 * __this, const MethodInfo* m
 	}
 	{
 		UnityException_t1256 * L_1 = (UnityException_t1256 *)il2cpp_codegen_object_new (UnityException_t1256_il2cpp_TypeInfo_var);
-		UnityException__ctor_m17896(L_1, (String_t*) &_stringLiteral4190, /*hidden argument*/NULL);
+		UnityException__ctor_m17896(L_1, (String_t*) &_stringLiteral4195, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -2263,7 +2263,7 @@ extern "C" Encoding_t680 * WWW_GetTextEncoder_m17169 (WWW_t1483 * __this, const 
 		V_0 = (String_t*)NULL;
 		Dictionary_2_t1444 * L_0 = WWW_get_responseHeaders_m17166(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		bool L_1 = (bool)VirtFuncInvoker2< bool, String_t*, String_t** >::Invoke(21 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.String>::TryGetValue(!0,!1&) */, L_0, (String_t*) &_stringLiteral4191, (&V_0));
+		bool L_1 = (bool)VirtFuncInvoker2< bool, String_t*, String_t** >::Invoke(21 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.String>::TryGetValue(!0,!1&) */, L_0, (String_t*) &_stringLiteral4196, (&V_0));
 		if (!L_1)
 		{
 			goto IL_00b0;
@@ -2272,7 +2272,7 @@ extern "C" Encoding_t680 * WWW_GetTextEncoder_m17169 (WWW_t1483 * __this, const 
 	{
 		String_t* L_2 = V_0;
 		NullCheck(L_2);
-		int32_t L_3 = String_IndexOf_m15425(L_2, (String_t*) &_stringLiteral4192, 5, /*hidden argument*/NULL);
+		int32_t L_3 = String_IndexOf_m15425(L_2, (String_t*) &_stringLiteral4197, 5, /*hidden argument*/NULL);
 		V_1 = L_3;
 		int32_t L_4 = V_1;
 		if ((((int32_t)L_4) <= ((int32_t)(-1))))
@@ -2358,7 +2358,7 @@ CATCH_0095:
 	{ // begin catch(System.Exception)
 		String_t* L_25 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_26 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral4193, L_25, (String_t*) &_stringLiteral134, /*hidden argument*/NULL);
+		String_t* L_26 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral4198, L_25, (String_t*) &_stringLiteral134, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 		goto IL_00b0;
 	} // end catch (depth: 1)
@@ -2625,7 +2625,7 @@ extern "C" Dictionary_2_t1444 * WWW_ParseHTTPHeaderString_m17176 (Object_t * __t
 	}
 	{
 		ArgumentException_t725 * L_1 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral4194, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral4199, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -2670,7 +2670,7 @@ IL_0032:
 	{
 		String_t* L_10 = V_3;
 		NullCheck(L_10);
-		bool L_11 = String_StartsWith_m3455(L_10, (String_t*) &_stringLiteral4195, /*hidden argument*/NULL);
+		bool L_11 = String_StartsWith_m3455(L_10, (String_t*) &_stringLiteral4200, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_005d;
@@ -2680,7 +2680,7 @@ IL_0032:
 		Dictionary_2_t1444 * L_12 = V_0;
 		String_t* L_13 = V_3;
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_12, (String_t*) &_stringLiteral4196, L_13);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_12, (String_t*) &_stringLiteral4201, L_13);
 		goto IL_0020;
 	}
 
@@ -2893,7 +2893,7 @@ extern "C" void WWWForm_AddField_m17179 (WWWForm_t4742 * __this, String_t* ___fi
 		NullCheck(L_8);
 		String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(22 /* System.String System.Text.Encoding::get_WebName() */, L_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral4205, L_9, (String_t*) &_stringLiteral671, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral4210, L_9, (String_t*) &_stringLiteral671, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_7, L_10);
 		return;
@@ -2946,9 +2946,9 @@ extern "C" Dictionary_2_t1444 * WWWForm_get_headers_m17181 (WWWForm_t4742 * __th
 		NullCheck(L_3);
 		String_t* L_6 = (String_t*)VirtFuncInvoker3< String_t*, ByteU5BU5D_t25*, int32_t, int32_t >::Invoke(19 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_3, L_4, 0, (((int32_t)(((Array_t *)L_5)->max_length))));
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral4197, L_6, (String_t*) &_stringLiteral671, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral4202, L_6, (String_t*) &_stringLiteral671, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_2, (String_t*) &_stringLiteral1571, L_7);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_2, (String_t*) &_stringLiteral1576, L_7);
 		goto IL_0059;
 	}
 
@@ -2956,7 +2956,7 @@ IL_0049:
 	{
 		Dictionary_2_t1444 * L_8 = V_0;
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_8, (String_t*) &_stringLiteral1571, (String_t*) &_stringLiteral4198);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_8, (String_t*) &_stringLiteral1576, (String_t*) &_stringLiteral4203);
 	}
 
 IL_0059:
@@ -3024,19 +3024,19 @@ extern "C" ByteU5BU5D_t25* WWWForm_get_data_m17182 (WWWForm_t4742 * __this, cons
 	{
 		Encoding_t680 * L_1 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		ByteU5BU5D_t25* L_2 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, (String_t*) &_stringLiteral2429);
+		ByteU5BU5D_t25* L_2 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, (String_t*) &_stringLiteral2434);
 		V_0 = L_2;
 		Encoding_t680 * L_3 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		ByteU5BU5D_t25* L_4 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_3, (String_t*) &_stringLiteral2430);
+		ByteU5BU5D_t25* L_4 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_3, (String_t*) &_stringLiteral2435);
 		V_1 = L_4;
 		Encoding_t680 * L_5 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		ByteU5BU5D_t25* L_6 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_5, (String_t*) &_stringLiteral4199);
+		ByteU5BU5D_t25* L_6 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_5, (String_t*) &_stringLiteral4204);
 		V_2 = L_6;
 		Encoding_t680 * L_7 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		ByteU5BU5D_t25* L_8 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_7, (String_t*) &_stringLiteral4200);
+		ByteU5BU5D_t25* L_8 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_7, (String_t*) &_stringLiteral4205);
 		V_3 = L_8;
 		Encoding_t680 * L_9 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_9);
@@ -3044,7 +3044,7 @@ extern "C" ByteU5BU5D_t25* WWWForm_get_data_m17182 (WWWForm_t4742 * __this, cons
 		V_4 = L_10;
 		Encoding_t680 * L_11 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		ByteU5BU5D_t25* L_12 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_11, (String_t*) &_stringLiteral4201);
+		ByteU5BU5D_t25* L_12 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_11, (String_t*) &_stringLiteral4206);
 		V_5 = L_12;
 		MemoryStream_t632 * L_13 = (MemoryStream_t632 *)il2cpp_codegen_object_new (MemoryStream_t632_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m16515(L_13, ((int32_t)1024), /*hidden argument*/NULL);
@@ -3141,7 +3141,7 @@ IL_0132:
 		{
 			String_t* L_51 = V_10;
 			NullCheck(L_51);
-			int32_t L_52 = String_IndexOf_m7739(L_51, (String_t*) &_stringLiteral4202, /*hidden argument*/NULL);
+			int32_t L_52 = String_IndexOf_m7739(L_51, (String_t*) &_stringLiteral4207, /*hidden argument*/NULL);
 			if ((((int32_t)L_52) <= ((int32_t)(-1))))
 			{
 				goto IL_017d;
@@ -3153,8 +3153,8 @@ IL_0144:
 			StringU5BU5D_t20* L_53 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 5));
 			NullCheck(L_53);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_53, 0);
-			ArrayElementTypeCheck (L_53, (String_t*) &_stringLiteral4202);
-			*((String_t**)(String_t**)SZArrayLdElema(L_53, 0)) = (String_t*)(String_t*) &_stringLiteral4202;
+			ArrayElementTypeCheck (L_53, (String_t*) &_stringLiteral4207);
+			*((String_t**)(String_t**)SZArrayLdElema(L_53, 0)) = (String_t*)(String_t*) &_stringLiteral4207;
 			StringU5BU5D_t20* L_54 = L_53;
 			String_t* L_55 = V_9;
 			NullCheck(L_54);
@@ -3164,8 +3164,8 @@ IL_0144:
 			StringU5BU5D_t20* L_56 = L_54;
 			NullCheck(L_56);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_56, 2);
-			ArrayElementTypeCheck (L_56, (String_t*) &_stringLiteral4203);
-			*((String_t**)(String_t**)SZArrayLdElema(L_56, 2)) = (String_t*)(String_t*) &_stringLiteral4203;
+			ArrayElementTypeCheck (L_56, (String_t*) &_stringLiteral4208);
+			*((String_t**)(String_t**)SZArrayLdElema(L_56, 2)) = (String_t*)(String_t*) &_stringLiteral4208;
 			StringU5BU5D_t20* L_57 = L_56;
 			String_t* L_58 = V_10;
 			IL2CPP_RUNTIME_CLASS_INIT(Encoding_t680_il2cpp_TypeInfo_var);
@@ -3179,8 +3179,8 @@ IL_0144:
 			StringU5BU5D_t20* L_61 = L_57;
 			NullCheck(L_61);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_61, 4);
-			ArrayElementTypeCheck (L_61, (String_t*) &_stringLiteral4204);
-			*((String_t**)(String_t**)SZArrayLdElema(L_61, 4)) = (String_t*)(String_t*) &_stringLiteral4204;
+			ArrayElementTypeCheck (L_61, (String_t*) &_stringLiteral4209);
+			*((String_t**)(String_t**)SZArrayLdElema(L_61, 4)) = (String_t*)(String_t*) &_stringLiteral4209;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_62 = String_Concat_m3337(NULL /*static, unused*/, L_61, /*hidden argument*/NULL);
 			V_10 = L_62;
@@ -3238,7 +3238,7 @@ IL_01d9:
 		{
 			String_t* L_81 = V_12;
 			NullCheck(L_81);
-			int32_t L_82 = String_IndexOf_m7739(L_81, (String_t*) &_stringLiteral4202, /*hidden argument*/NULL);
+			int32_t L_82 = String_IndexOf_m7739(L_81, (String_t*) &_stringLiteral4207, /*hidden argument*/NULL);
 			if ((((int32_t)L_82) <= ((int32_t)(-1))))
 			{
 				goto IL_0224;
@@ -3250,8 +3250,8 @@ IL_01eb:
 			StringU5BU5D_t20* L_83 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 5));
 			NullCheck(L_83);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_83, 0);
-			ArrayElementTypeCheck (L_83, (String_t*) &_stringLiteral4202);
-			*((String_t**)(String_t**)SZArrayLdElema(L_83, 0)) = (String_t*)(String_t*) &_stringLiteral4202;
+			ArrayElementTypeCheck (L_83, (String_t*) &_stringLiteral4207);
+			*((String_t**)(String_t**)SZArrayLdElema(L_83, 0)) = (String_t*)(String_t*) &_stringLiteral4207;
 			StringU5BU5D_t20* L_84 = L_83;
 			String_t* L_85 = V_9;
 			NullCheck(L_84);
@@ -3261,8 +3261,8 @@ IL_01eb:
 			StringU5BU5D_t20* L_86 = L_84;
 			NullCheck(L_86);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_86, 2);
-			ArrayElementTypeCheck (L_86, (String_t*) &_stringLiteral4203);
-			*((String_t**)(String_t**)SZArrayLdElema(L_86, 2)) = (String_t*)(String_t*) &_stringLiteral4203;
+			ArrayElementTypeCheck (L_86, (String_t*) &_stringLiteral4208);
+			*((String_t**)(String_t**)SZArrayLdElema(L_86, 2)) = (String_t*)(String_t*) &_stringLiteral4208;
 			StringU5BU5D_t20* L_87 = L_86;
 			String_t* L_88 = V_12;
 			IL2CPP_RUNTIME_CLASS_INIT(Encoding_t680_il2cpp_TypeInfo_var);
@@ -3276,8 +3276,8 @@ IL_01eb:
 			StringU5BU5D_t20* L_91 = L_87;
 			NullCheck(L_91);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_91, 4);
-			ArrayElementTypeCheck (L_91, (String_t*) &_stringLiteral4204);
-			*((String_t**)(String_t**)SZArrayLdElema(L_91, 4)) = (String_t*)(String_t*) &_stringLiteral4204;
+			ArrayElementTypeCheck (L_91, (String_t*) &_stringLiteral4209);
+			*((String_t**)(String_t**)SZArrayLdElema(L_91, 4)) = (String_t*)(String_t*) &_stringLiteral4209;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_92 = String_Concat_m3337(NULL /*static, unused*/, L_91, /*hidden argument*/NULL);
 			V_12 = L_92;
@@ -3438,7 +3438,7 @@ IL_0311:
 		V_15 = L_141;
 		Encoding_t680 * L_142 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_142);
-		ByteU5BU5D_t25* L_143 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_142, (String_t*) &_stringLiteral2026);
+		ByteU5BU5D_t25* L_143 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_142, (String_t*) &_stringLiteral2031);
 		V_16 = L_143;
 		MemoryStream_t632 * L_144 = (MemoryStream_t632 *)il2cpp_codegen_object_new (MemoryStream_t632_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m16515(L_144, ((int32_t)1024), /*hidden argument*/NULL);
@@ -3602,23 +3602,23 @@ extern "C" void WWWTranscoder__cctor_m17183 (Object_t * __this /* static, unused
 	{
 		Encoding_t680 * L_0 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		ByteU5BU5D_t25* L_1 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, (String_t*) &_stringLiteral3724);
+		ByteU5BU5D_t25* L_1 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, (String_t*) &_stringLiteral3729);
 		((WWWTranscoder_t4743_StaticFields*)WWWTranscoder_t4743_il2cpp_TypeInfo_var->static_fields)->___ucHexChars_0 = L_1;
 		Encoding_t680 * L_2 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		ByteU5BU5D_t25* L_3 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_2, (String_t*) &_stringLiteral4206);
+		ByteU5BU5D_t25* L_3 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_2, (String_t*) &_stringLiteral4211);
 		((WWWTranscoder_t4743_StaticFields*)WWWTranscoder_t4743_il2cpp_TypeInfo_var->static_fields)->___lcHexChars_1 = L_3;
 		((WWWTranscoder_t4743_StaticFields*)WWWTranscoder_t4743_il2cpp_TypeInfo_var->static_fields)->___urlEscapeChar_2 = ((int32_t)37);
 		((WWWTranscoder_t4743_StaticFields*)WWWTranscoder_t4743_il2cpp_TypeInfo_var->static_fields)->___urlSpace_3 = ((int32_t)43);
 		Encoding_t680 * L_4 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		ByteU5BU5D_t25* L_5 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_4, (String_t*) &_stringLiteral4207);
+		ByteU5BU5D_t25* L_5 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_4, (String_t*) &_stringLiteral4212);
 		((WWWTranscoder_t4743_StaticFields*)WWWTranscoder_t4743_il2cpp_TypeInfo_var->static_fields)->___urlForbidden_4 = L_5;
 		((WWWTranscoder_t4743_StaticFields*)WWWTranscoder_t4743_il2cpp_TypeInfo_var->static_fields)->___qpEscapeChar_5 = ((int32_t)61);
 		((WWWTranscoder_t4743_StaticFields*)WWWTranscoder_t4743_il2cpp_TypeInfo_var->static_fields)->___qpSpace_6 = ((int32_t)95);
 		Encoding_t680 * L_6 = WWW_get_DefaultEncoding_m17168(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		ByteU5BU5D_t25* L_7 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_6, (String_t*) &_stringLiteral4208);
+		ByteU5BU5D_t25* L_7 = (ByteU5BU5D_t25*)VirtFuncInvoker1< ByteU5BU5D_t25*, String_t* >::Invoke(9 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_6, (String_t*) &_stringLiteral4213);
 		((WWWTranscoder_t4743_StaticFields*)WWWTranscoder_t4743_il2cpp_TypeInfo_var->static_fields)->___qpForbidden_7 = L_7;
 		return;
 	}
@@ -5347,7 +5347,7 @@ extern "C" void Debug_Log_m90 (Object_t * __this /* static, unused */, Object_t 
 
 IL_0012:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral4209;
+		G_B3_0 = (String_t*) &_stringLiteral4214;
 		G_B3_1 = G_B2_0;
 	}
 
@@ -5384,7 +5384,7 @@ extern "C" void Debug_Log_m2780 (Object_t * __this /* static, unused */, Object_
 
 IL_0012:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral4209;
+		G_B3_0 = (String_t*) &_stringLiteral4214;
 		G_B3_1 = G_B2_0;
 	}
 
@@ -5422,7 +5422,7 @@ extern "C" void Debug_LogError_m2987 (Object_t * __this /* static, unused */, Ob
 
 IL_0012:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral4209;
+		G_B3_0 = (String_t*) &_stringLiteral4214;
 		G_B3_1 = G_B2_0;
 	}
 
@@ -6919,7 +6919,7 @@ extern "C" Object_t642 * Object_Instantiate_m3116 (Object_t * __this /* static, 
 {
 	{
 		Object_t642 * L_0 = ___original;
-		Object_CheckNullArgument_m17289(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral4210, /*hidden argument*/NULL);
+		Object_CheckNullArgument_m17289(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral4215, /*hidden argument*/NULL);
 		Object_t642 * L_1 = ___original;
 		Vector3_t53  L_2 = ___position;
 		Quaternion_t69  L_3 = ___rotation;
@@ -6932,7 +6932,7 @@ extern "C" Object_t642 * Object_Instantiate_m7757 (Object_t * __this /* static, 
 {
 	{
 		Object_t642 * L_0 = ___original;
-		Object_CheckNullArgument_m17289(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral4210, /*hidden argument*/NULL);
+		Object_CheckNullArgument_m17289(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral4215, /*hidden argument*/NULL);
 		Object_t642 * L_1 = ___original;
 		Object_t642 * L_2 = Object_Internal_CloneSingle_m17281(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -7998,7 +7998,7 @@ extern "C" void Transform_set_parent_m2681 (Transform_t54 * __this, Transform_t5
 		}
 	}
 	{
-		Debug_LogWarning_m3028(NULL /*static, unused*/, (String_t*) &_stringLiteral4211, __this, /*hidden argument*/NULL);
+		Debug_LogWarning_m3028(NULL /*static, unused*/, (String_t*) &_stringLiteral4216, __this, /*hidden argument*/NULL);
 	}
 
 IL_0016:
@@ -8592,7 +8592,7 @@ extern "C" void PlayerPrefs_SetString_m2907 (Object_t * __this /* static, unused
 	}
 	{
 		PlayerPrefsException_t4757 * L_3 = (PlayerPrefsException_t4757 *)il2cpp_codegen_object_new (PlayerPrefsException_t4757_il2cpp_TypeInfo_var);
-		PlayerPrefsException__ctor_m17328(L_3, (String_t*) &_stringLiteral4212, /*hidden argument*/NULL);
+		PlayerPrefsException__ctor_m17328(L_3, (String_t*) &_stringLiteral4217, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -11253,7 +11253,7 @@ extern "C" AnimationState_t716 * AnimationEvent_get_animationState_m17420 (Anima
 		}
 	}
 	{
-		Debug_LogError_m2987(NULL /*static, unused*/, (String_t*) &_stringLiteral4213, /*hidden argument*/NULL);
+		Debug_LogError_m2987(NULL /*static, unused*/, (String_t*) &_stringLiteral4218, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -11273,7 +11273,7 @@ extern "C" AnimatorStateInfo_t627  AnimationEvent_get_animatorStateInfo_m17421 (
 		}
 	}
 	{
-		Debug_LogError_m2987(NULL /*static, unused*/, (String_t*) &_stringLiteral4214, /*hidden argument*/NULL);
+		Debug_LogError_m2987(NULL /*static, unused*/, (String_t*) &_stringLiteral4219, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -11293,7 +11293,7 @@ extern "C" AnimatorClipInfo_t4777  AnimationEvent_get_animatorClipInfo_m17422 (A
 		}
 	}
 	{
-		Debug_LogError_m2987(NULL /*static, unused*/, (String_t*) &_stringLiteral4215, /*hidden argument*/NULL);
+		Debug_LogError_m2987(NULL /*static, unused*/, (String_t*) &_stringLiteral4220, /*hidden argument*/NULL);
 	}
 
 IL_0015:

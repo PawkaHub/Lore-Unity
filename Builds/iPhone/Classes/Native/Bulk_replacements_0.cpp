@@ -78,7 +78,7 @@ extern "C" String_t* SecurityElement_ToString_m10936 (Object_t * __this /* stati
 	}
 	{
 		NotSupportedException_t650 * L_0 = (NotSupportedException_t650 *)il2cpp_codegen_object_new (NotSupportedException_t650_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m10939(L_0, (String_t*) &_stringLiteral2099, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m10939(L_0, (String_t*) &_stringLiteral2104, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -107,7 +107,7 @@ extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m10937 (Object_
 	}
 	{
 		NotSupportedException_t650 * L_0 = (NotSupportedException_t650 *)il2cpp_codegen_object_new (NotSupportedException_t650_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m10939(L_0, (String_t*) &_stringLiteral2100, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m10939(L_0, (String_t*) &_stringLiteral2105, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -123,7 +123,7 @@ extern "C" Object_t * RemotingServices_CreateClientProxy_m10938 (Object_t * __th
 	}
 	{
 		NotSupportedException_t650 * L_0 = (NotSupportedException_t650 *)il2cpp_codegen_object_new (NotSupportedException_t650_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m10939(L_0, (String_t*) &_stringLiteral2101, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m10939(L_0, (String_t*) &_stringLiteral2106, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }

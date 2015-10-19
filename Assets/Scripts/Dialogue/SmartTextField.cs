@@ -26,7 +26,7 @@ namespace PixelCrushers.DialogueSystem {
 		/// <summary>
 		/// The text field.
 		/// </summary>
-		public MobileInputField textField;
+		public InputField textField;
 
 		/// <summary>
 		/// The accept key.

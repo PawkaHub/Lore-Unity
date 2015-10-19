@@ -210,7 +210,7 @@ extern "C" void XmlStreamReader__cctor_m12625 (Object_t * __this /* static, unus
 	}
 	{
 		XmlException_t4099 * L_0 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
-		XmlException__ctor_m12612(L_0, (String_t*) &_stringLiteral2926, /*hidden argument*/NULL);
+		XmlException__ctor_m12612(L_0, (String_t*) &_stringLiteral2931, /*hidden argument*/NULL);
 		((XmlStreamReader_t4102_StaticFields*)XmlStreamReader_t4102_il2cpp_TypeInfo_var->static_fields)->___invalidDataException_13 = L_0;
 		return;
 	}
@@ -518,7 +518,7 @@ extern "C" int32_t NonBlockingStreamReader_Peek_m12634 (NonBlockingStreamReader_
 	}
 	{
 		ObjectDisposedException_t3310 * L_1 = (ObjectDisposedException_t3310 *)il2cpp_codegen_object_new (ObjectDisposedException_t3310_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2927, (String_t*) &_stringLiteral2928, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2932, (String_t*) &_stringLiteral2933, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -581,7 +581,7 @@ extern "C" int32_t NonBlockingStreamReader_Read_m12635 (NonBlockingStreamReader_
 	}
 	{
 		ObjectDisposedException_t3310 * L_1 = (ObjectDisposedException_t3310 *)il2cpp_codegen_object_new (ObjectDisposedException_t3310_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2927, (String_t*) &_stringLiteral2928, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2932, (String_t*) &_stringLiteral2933, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -647,7 +647,7 @@ extern "C" int32_t NonBlockingStreamReader_Read_m12636 (NonBlockingStreamReader_
 	}
 	{
 		ObjectDisposedException_t3310 * L_1 = (ObjectDisposedException_t3310 *)il2cpp_codegen_object_new (ObjectDisposedException_t3310_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2927, (String_t*) &_stringLiteral2928, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2932, (String_t*) &_stringLiteral2933, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -661,7 +661,7 @@ IL_001b:
 	}
 	{
 		ArgumentNullException_t731 * L_3 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral2929, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral2934, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -675,7 +675,7 @@ IL_002c:
 	}
 	{
 		ArgumentOutOfRangeException_t1703 * L_5 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m9088(L_5, (String_t*) &_stringLiteral2016, (String_t*) &_stringLiteral2930, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m9088(L_5, (String_t*) &_stringLiteral2021, (String_t*) &_stringLiteral2935, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -689,7 +689,7 @@ IL_0043:
 	}
 	{
 		ArgumentOutOfRangeException_t1703 * L_7 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m9088(L_7, (String_t*) &_stringLiteral1913, (String_t*) &_stringLiteral2930, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m9088(L_7, (String_t*) &_stringLiteral1918, (String_t*) &_stringLiteral2935, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -706,7 +706,7 @@ IL_005a:
 	}
 	{
 		ArgumentException_t725 * L_11 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_11, (String_t*) &_stringLiteral2931, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_11, (String_t*) &_stringLiteral2936, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_11);
 	}
 
@@ -907,7 +907,7 @@ extern "C" String_t* NonBlockingStreamReader_ReadLine_m12638 (NonBlockingStreamR
 	}
 	{
 		ObjectDisposedException_t3310 * L_1 = (ObjectDisposedException_t3310 *)il2cpp_codegen_object_new (ObjectDisposedException_t3310_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2927, (String_t*) &_stringLiteral2928, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2932, (String_t*) &_stringLiteral2933, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -1142,7 +1142,7 @@ extern "C" String_t* NonBlockingStreamReader_ReadToEnd_m12639 (NonBlockingStream
 	}
 	{
 		ObjectDisposedException_t3310 * L_1 = (ObjectDisposedException_t3310 *)il2cpp_codegen_object_new (ObjectDisposedException_t3310_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2927, (String_t*) &_stringLiteral2928, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m13284(L_1, (String_t*) &_stringLiteral2932, (String_t*) &_stringLiteral2933, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -1243,7 +1243,7 @@ extern "C" void XmlInputStream__cctor_m12641 (Object_t * __this /* static, unuse
 	}
 	{
 		XmlException_t4099 * L_0 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
-		XmlException__ctor_m12612(L_0, (String_t*) &_stringLiteral2932, /*hidden argument*/NULL);
+		XmlException__ctor_m12612(L_0, (String_t*) &_stringLiteral2937, /*hidden argument*/NULL);
 		((XmlInputStream_t4101_StaticFields*)XmlInputStream_t4101_il2cpp_TypeInfo_var->static_fields)->___encodingException_7 = L_0;
 		UTF8Encoding_t4181 * L_1 = (UTF8Encoding_t4181 *)il2cpp_codegen_object_new (UTF8Encoding_t4181_il2cpp_TypeInfo_var);
 		UTF8Encoding__ctor_m13289(L_1, 0, 1, /*hidden argument*/NULL);
@@ -1478,7 +1478,7 @@ IL_013a:
 		IL2CPP_RUNTIME_CLASS_INIT(XmlInputStream_t4101_il2cpp_TypeInfo_var);
 		String_t* L_30 = XmlInputStream_GetStringFromBytes_m12642(NULL /*static, unused*/, L_29, 1, 4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_31 = String_op_Equality_m2603(NULL /*static, unused*/, L_30, (String_t*) &_stringLiteral2933, /*hidden argument*/NULL);
+		bool L_31 = String_op_Equality_m2603(NULL /*static, unused*/, L_30, (String_t*) &_stringLiteral2938, /*hidden argument*/NULL);
 		if (!L_31)
 		{
 			goto IL_0272;
@@ -1553,7 +1553,7 @@ IL_01ad:
 		IL2CPP_RUNTIME_CLASS_INIT(XmlInputStream_t4101_il2cpp_TypeInfo_var);
 		String_t* L_45 = XmlInputStream_GetStringFromBytes_m12642(NULL /*static, unused*/, L_43, L_44, 7, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_46 = String_op_Equality_m2603(NULL /*static, unused*/, L_45, (String_t*) &_stringLiteral2934, /*hidden argument*/NULL);
+		bool L_46 = String_op_Equality_m2603(NULL /*static, unused*/, L_45, (String_t*) &_stringLiteral2939, /*hidden argument*/NULL);
 		if (!L_46)
 		{
 			goto IL_0272;
@@ -3179,7 +3179,7 @@ extern "C" XmlNode_t4081 * XmlNamedNodeMap_SetNamedItem_m12684 (XmlNamedNodeMap_
 IL_0021:
 	{
 		ArgumentException_t725 * L_5 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_5, (String_t*) &_stringLiteral2935, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_5, (String_t*) &_stringLiteral2940, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -3487,7 +3487,7 @@ extern "C" void XmlNamespaceManager__ctor_m12686 (XmlNamespaceManager_t4109 * __
 	}
 	{
 		ArgumentNullException_t731 * L_1 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral2509, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral2514, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -3497,10 +3497,10 @@ IL_0025:
 		__this->___nameTable_6 = L_2;
 		XmlNameTable_t3937 * L_3 = ___nameTable;
 		NullCheck(L_3);
-		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_3, (String_t*) &_stringLiteral2673);
+		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_3, (String_t*) &_stringLiteral2678);
 		XmlNameTable_t3937 * L_4 = ___nameTable;
 		NullCheck(L_4);
-		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_4, (String_t*) &_stringLiteral2796);
+		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_4, (String_t*) &_stringLiteral2801);
 		XmlNameTable_t3937 * L_5 = ___nameTable;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -3508,10 +3508,10 @@ IL_0025:
 		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_5, L_6);
 		XmlNameTable_t3937 * L_7 = ___nameTable;
 		NullCheck(L_7);
-		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_7, (String_t*) &_stringLiteral2688);
+		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_7, (String_t*) &_stringLiteral2693);
 		XmlNameTable_t3937 * L_8 = ___nameTable;
 		NullCheck(L_8);
-		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_8, (String_t*) &_stringLiteral2812);
+		VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_8, (String_t*) &_stringLiteral2817);
 		XmlNamespaceManager_InitData_m12687(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -3678,7 +3678,7 @@ extern "C" void XmlNamespaceManager_AddNamespace_m12693 (XmlNamespaceManager_t41
 	}
 	{
 		ArgumentNullException_t731 * L_1 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m13296(L_1, (String_t*) &_stringLiteral2936, (String_t*) &_stringLiteral2937, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m13296(L_1, (String_t*) &_stringLiteral2941, (String_t*) &_stringLiteral2942, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -3692,7 +3692,7 @@ IL_0016:
 	}
 	{
 		ArgumentNullException_t731 * L_3 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m13296(L_3, (String_t*) &_stringLiteral2938, (String_t*) &_stringLiteral2937, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m13296(L_3, (String_t*) &_stringLiteral2943, (String_t*) &_stringLiteral2942, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -3721,7 +3721,7 @@ IL_004e:
 	{
 		String_t* L_11 = ___prefix;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_12 = String_op_Equality_m2603(NULL /*static, unused*/, L_11, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
+		bool L_12 = String_op_Equality_m2603(NULL /*static, unused*/, L_11, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_006f;
@@ -3730,7 +3730,7 @@ IL_004e:
 	{
 		String_t* L_13 = ___uri;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_14 = String_op_Equality_m2603(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral2812, /*hidden argument*/NULL);
+		bool L_14 = String_op_Equality_m2603(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral2817, /*hidden argument*/NULL);
 		if (!L_14)
 		{
 			goto IL_006f;
@@ -3856,7 +3856,7 @@ extern "C" String_t* XmlNamespaceManager_IsValidDeclaration_m12694 (Object_t * _
 		V_0 = (String_t*)NULL;
 		String_t* L_0 = ___prefix;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_op_Equality_m2603(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
+		bool L_1 = String_op_Equality_m2603(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0038;
@@ -3865,7 +3865,7 @@ extern "C" String_t* XmlNamespaceManager_IsValidDeclaration_m12694 (Object_t * _
 	{
 		String_t* L_2 = ___uri;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_3 = String_op_Inequality_m3461(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral2812, /*hidden argument*/NULL);
+		bool L_3 = String_op_Inequality_m3461(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral2817, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0038;
@@ -3874,7 +3874,7 @@ extern "C" String_t* XmlNamespaceManager_IsValidDeclaration_m12694 (Object_t * _
 	{
 		String_t* L_4 = ___uri;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral2939, (String_t*) &_stringLiteral2812, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral2944, (String_t*) &_stringLiteral2817, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		goto IL_007f;
 	}
@@ -3890,14 +3890,14 @@ IL_0038:
 	{
 		String_t* L_7 = ___prefix;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_8 = String_op_Equality_m2603(NULL /*static, unused*/, L_7, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_8 = String_op_Equality_m2603(NULL /*static, unused*/, L_7, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_0059;
 		}
 	}
 	{
-		V_0 = (String_t*) &_stringLiteral2940;
+		V_0 = (String_t*) &_stringLiteral2945;
 		goto IL_007f;
 	}
 
@@ -3912,7 +3912,7 @@ IL_0059:
 	{
 		String_t* L_10 = ___uri;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_11 = String_op_Equality_m2603(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral2688, /*hidden argument*/NULL);
+		bool L_11 = String_op_Equality_m2603(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral2693, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_007f;
@@ -3920,7 +3920,7 @@ IL_0059:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2941, (String_t*) &_stringLiteral2688, /*hidden argument*/NULL);
+		String_t* L_12 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2946, (String_t*) &_stringLiteral2693, /*hidden argument*/NULL);
 		V_0 = L_12;
 	}
 
@@ -4042,10 +4042,10 @@ IL_006f:
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(24 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_19, L_20, L_21);
 		Hashtable_t1909 * L_22 = V_0;
 		NullCheck(L_22);
-		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(24 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_22, (String_t*) &_stringLiteral2796, (String_t*) &_stringLiteral2812);
+		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(24 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_22, (String_t*) &_stringLiteral2801, (String_t*) &_stringLiteral2817);
 		Hashtable_t1909 * L_23 = V_0;
 		NullCheck(L_23);
-		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(24 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_23, (String_t*) &_stringLiteral2673, (String_t*) &_stringLiteral2688);
+		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(24 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_23, (String_t*) &_stringLiteral2678, (String_t*) &_stringLiteral2693);
 		Hashtable_t1909 * L_24 = V_0;
 		NullCheck(L_24);
 		Object_t * L_25 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(21 /* System.Collections.ICollection System.Collections.Hashtable::get_Keys() */, L_24);
@@ -4096,10 +4096,10 @@ extern "C" String_t* XmlNamespaceManager_LookupNamespace_m12696 (XmlNamespaceMan
 		V_2 = L_3;
 		Dictionary_2_t455 * L_4 = V_2;
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral2673, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral2678, 0);
 		Dictionary_2_t455 * L_5 = V_2;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, (String_t*) &_stringLiteral2796, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, (String_t*) &_stringLiteral2801, 1);
 		Dictionary_2_t455 * L_6 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -4143,7 +4143,7 @@ IL_006c:
 	{
 		XmlNameTable_t3937 * L_13 = (__this->___nameTable_6);
 		NullCheck(L_13);
-		String_t* L_14 = (String_t*)VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Xml.XmlNameTable::Get(System.String) */, L_13, (String_t*) &_stringLiteral2688);
+		String_t* L_14 = (String_t*)VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Xml.XmlNameTable::Get(System.String) */, L_13, (String_t*) &_stringLiteral2693);
 		return L_14;
 	}
 
@@ -4151,7 +4151,7 @@ IL_007d:
 	{
 		XmlNameTable_t3937 * L_15 = (__this->___nameTable_6);
 		NullCheck(L_15);
-		String_t* L_16 = (String_t*)VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Xml.XmlNameTable::Get(System.String) */, L_15, (String_t*) &_stringLiteral2812);
+		String_t* L_16 = (String_t*)VirtFuncInvoker1< String_t*, String_t* >::Invoke(6 /* System.String System.Xml.XmlNameTable::Get(System.String) */, L_15, (String_t*) &_stringLiteral2817);
 		return L_16;
 	}
 
@@ -4327,28 +4327,28 @@ IL_0021:
 	{
 		String_t* L_6 = ___uri;
 		bool L_7 = ___atomizedName;
-		bool L_8 = XmlNamespaceManager_CompareString_m12698(__this, L_6, (String_t*) &_stringLiteral2812, L_7, /*hidden argument*/NULL);
+		bool L_8 = XmlNamespaceManager_CompareString_m12698(__this, L_6, (String_t*) &_stringLiteral2817, L_7, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_0039;
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral2796;
+		return (String_t*) &_stringLiteral2801;
 	}
 
 IL_0039:
 	{
 		String_t* L_9 = ___uri;
 		bool L_10 = ___atomizedName;
-		bool L_11 = XmlNamespaceManager_CompareString_m12698(__this, L_9, (String_t*) &_stringLiteral2688, L_10, /*hidden argument*/NULL);
+		bool L_11 = XmlNamespaceManager_CompareString_m12698(__this, L_9, (String_t*) &_stringLiteral2693, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_0051;
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral2673;
+		return (String_t*) &_stringLiteral2678;
 	}
 
 IL_0051:
@@ -4598,7 +4598,7 @@ extern "C" void XmlNamespaceManager_RemoveNamespace_m12705 (XmlNamespaceManager_
 	}
 	{
 		ArgumentNullException_t731 * L_1 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral2936, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral2941, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -4612,7 +4612,7 @@ IL_0011:
 	}
 	{
 		ArgumentNullException_t731 * L_3 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral2938, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral2943, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -5457,7 +5457,7 @@ extern "C" void XmlNode_set_Value_m12731 (XmlNode_t4081 * __this, String_t* ___v
 	}
 	{
 		InvalidOperationException_t1668 * L_0 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_0, (String_t*) &_stringLiteral2942, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_0, (String_t*) &_stringLiteral2947, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -5497,7 +5497,7 @@ IL_0012:
 		NullCheck(L_4);
 		String_t* L_5 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(15 /* System.String System.Xml.XmlAttribute::get_Name() */, L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_6 = String_op_Equality_m2603(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral2943, /*hidden argument*/NULL);
+		bool L_6 = String_op_Equality_m2603(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral2948, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_003b;
@@ -5602,7 +5602,7 @@ IL_0012:
 		NullCheck(L_4);
 		String_t* L_5 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(15 /* System.String System.Xml.XmlAttribute::get_Name() */, L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_6 = String_op_Equality_m2603(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral2944, /*hidden argument*/NULL);
+		bool L_6 = String_op_Equality_m2603(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral2949, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_009f;
@@ -5633,10 +5633,10 @@ IL_0012:
 		V_3 = L_11;
 		Dictionary_2_t455 * L_12 = V_3;
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, (String_t*) &_stringLiteral2945, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, (String_t*) &_stringLiteral2950, 0);
 		Dictionary_2_t455 * L_13 = V_3;
 		NullCheck(L_13);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral983, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral988, 1);
 		Dictionary_2_t455 * L_14 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlNode_t4081_il2cpp_TypeInfo_var);
 		((XmlNode_t4081_StaticFields*)XmlNode_t4081_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map44_4 = L_14;
@@ -6223,7 +6223,7 @@ IL_001e:
 		int32_t L_7 = L_6;
 		Object_t * L_8 = Box(XmlNodeType_t4117_il2cpp_TypeInfo_var, &L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2946, L_8, /*hidden argument*/NULL);
+		String_t* L_9 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2951, L_8, /*hidden argument*/NULL);
 		InvalidOperationException_t1668 * L_10 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_m8910(L_10, L_9, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
@@ -6290,7 +6290,7 @@ IL_00ab:
 		int32_t L_22 = L_21;
 		Object_t * L_23 = Box(XmlNodeType_t4117_il2cpp_TypeInfo_var, &L_22);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_24 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral2947, L_20, L_23, /*hidden argument*/NULL);
+		String_t* L_24 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral2952, L_20, L_23, /*hidden argument*/NULL);
 		InvalidOperationException_t1668 * L_25 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_m8910(L_25, L_24, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_25);
@@ -6360,7 +6360,7 @@ IL_0101:
 IL_0115:
 	{
 		InvalidOperationException_t1668 * L_31 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_31, (String_t*) &_stringLiteral2948, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_31, (String_t*) &_stringLiteral2953, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_31);
 	}
 
@@ -6379,7 +6379,7 @@ IL_0125:
 	}
 	{
 		InvalidOperationException_t1668 * L_33 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_33, (String_t*) &_stringLiteral2949, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_33, (String_t*) &_stringLiteral2954, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_33);
 	}
 
@@ -6396,7 +6396,7 @@ IL_013b:
 	}
 	{
 		ArgumentException_t725 * L_37 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_37, (String_t*) &_stringLiteral2950, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_37, (String_t*) &_stringLiteral2955, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_37);
 	}
 
@@ -6419,7 +6419,7 @@ IL_0152:
 	}
 	{
 		ArgumentException_t725 * L_41 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_41, (String_t*) &_stringLiteral2951, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_41, (String_t*) &_stringLiteral2956, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_41);
 	}
 
@@ -6459,7 +6459,7 @@ IL_016f:
 	}
 	{
 		XmlException_t4099 * L_49 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
-		XmlException__ctor_m12612(L_49, (String_t*) &_stringLiteral2952, /*hidden argument*/NULL);
+		XmlException__ctor_m12612(L_49, (String_t*) &_stringLiteral2957, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_49);
 	}
 
@@ -6483,7 +6483,7 @@ IL_01a3:
 IL_01b6:
 	{
 		ArgumentException_t725 * L_53 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_53, (String_t*) &_stringLiteral2953, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_53, (String_t*) &_stringLiteral2958, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_53);
 	}
 
@@ -6598,7 +6598,7 @@ extern "C" void XmlNode_CheckNodeRemoval_m12744 (XmlNode_t4081 * __this, const M
 		int32_t L_5 = L_4;
 		Object_t * L_6 = Box(XmlNodeType_t4117_il2cpp_TypeInfo_var, &L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2954, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2959, L_6, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_8 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3235(L_8, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
@@ -6617,7 +6617,7 @@ IL_004d:
 		int32_t L_11 = L_10;
 		Object_t * L_12 = Box(XmlNodeType_t4117_il2cpp_TypeInfo_var, &L_11);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2955, L_12, /*hidden argument*/NULL);
+		String_t* L_13 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2960, L_12, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_14 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3235(L_14, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
@@ -6697,7 +6697,7 @@ IL_002a:
 	}
 	{
 		ArgumentException_t725 * L_6 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_6, (String_t*) &_stringLiteral2956, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_6, (String_t*) &_stringLiteral2961, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -7031,7 +7031,7 @@ IL_0082:
 		NullCheck(L_13);
 		String_t* L_14 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(21 /* System.String System.Xml.XmlAttribute::get_Prefix() */, L_13);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_15 = String_op_Equality_m2603(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_15 = String_op_Equality_m2603(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_15)
 		{
 			goto IL_00dd;
@@ -7077,7 +7077,7 @@ IL_00dd:
 		NullCheck(L_28);
 		String_t* L_29 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(15 /* System.String System.Xml.XmlAttribute::get_Name() */, L_28);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_30 = String_op_Equality_m2603(NULL /*static, unused*/, L_29, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_30 = String_op_Equality_m2603(NULL /*static, unused*/, L_29, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_30)
 		{
 			goto IL_0121;
@@ -7707,7 +7707,7 @@ extern "C" XmlNode_t4081 * XmlNotation_CloneNode_m12765 (XmlNotation_t4118 * __t
 	}
 	{
 		InvalidOperationException_t1668 * L_0 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_0, (String_t*) &_stringLiteral2957, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_0, (String_t*) &_stringLiteral2962, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -8472,7 +8472,7 @@ extern "C" void XmlParserContext_PopScope_m12789 (XmlParserContext_t4121 * __thi
 	}
 	{
 		XmlException_t4099 * L_1 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
-		XmlException__ctor_m12612(L_1, (String_t*) &_stringLiteral2958, /*hidden argument*/NULL);
+		XmlException__ctor_m12612(L_1, (String_t*) &_stringLiteral2963, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -9093,7 +9093,7 @@ extern "C" void XmlProcessingInstruction_set_Value_m12816 (XmlProcessingInstruct
 	}
 	{
 		ArgumentException_t725 * L_1 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral2959, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral2964, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -9979,7 +9979,7 @@ extern "C" String_t* XmlReader_ReadElementString_m12848 (XmlReader_t3998 * __thi
 		NullCheck(L_3);
 		String_t* L_4 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2960, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2965, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		String_t* L_6 = V_0;
 		XmlException_t4099 * L_7 = XmlReader_XmlError_m12854(__this, L_6, /*hidden argument*/NULL);
@@ -10014,7 +10014,7 @@ IL_002f:
 		NullCheck(L_14);
 		String_t* L_15 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_14);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2960, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2965, L_15, /*hidden argument*/NULL);
 		V_2 = L_16;
 		String_t* L_17 = V_2;
 		XmlException_t4099 * L_18 = XmlReader_XmlError_m12854(__this, L_17, /*hidden argument*/NULL);
@@ -10055,7 +10055,7 @@ extern "C" void XmlReader_ReadEndElement_m12849 (XmlReader_t3998 * __this, const
 		NullCheck(L_3);
 		String_t* L_4 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2960, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2965, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		String_t* L_6 = V_0;
 		XmlException_t4099 * L_7 = XmlReader_XmlError_m12854(__this, L_6, /*hidden argument*/NULL);
@@ -10181,7 +10181,7 @@ extern "C" void XmlReader_ReadStartElement_m12851 (XmlReader_t3998 * __this, con
 		NullCheck(L_3);
 		String_t* L_4 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2960, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2965, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		String_t* L_6 = V_0;
 		XmlException_t4099 * L_7 = XmlReader_XmlError_m12854(__this, L_6, /*hidden argument*/NULL);
@@ -10825,7 +10825,7 @@ extern "C" Uri_t32 * XmlResolver_ResolveUri_m12863 (XmlResolver_t3938 * __this, 
 	}
 	{
 		ArgumentNullException_t731 * L_3 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral2961, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral2966, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -10833,7 +10833,7 @@ IL_001d:
 	{
 		String_t* L_4 = ___relativeUri;
 		NullCheck(L_4);
-		bool L_5 = String_StartsWith_m3455(L_4, (String_t*) &_stringLiteral2962, /*hidden argument*/NULL);
+		bool L_5 = String_StartsWith_m3455(L_4, (String_t*) &_stringLiteral2967, /*hidden argument*/NULL);
 		if (L_5)
 		{
 			goto IL_005d;
@@ -10842,7 +10842,7 @@ IL_001d:
 	{
 		String_t* L_6 = ___relativeUri;
 		NullCheck(L_6);
-		bool L_7 = String_StartsWith_m3455(L_6, (String_t*) &_stringLiteral2963, /*hidden argument*/NULL);
+		bool L_7 = String_StartsWith_m3455(L_6, (String_t*) &_stringLiteral2968, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_005d;
@@ -10851,7 +10851,7 @@ IL_001d:
 	{
 		String_t* L_8 = ___relativeUri;
 		NullCheck(L_8);
-		bool L_9 = String_StartsWith_m3455(L_8, (String_t*) &_stringLiteral2964, /*hidden argument*/NULL);
+		bool L_9 = String_StartsWith_m3455(L_8, (String_t*) &_stringLiteral2969, /*hidden argument*/NULL);
 		if (L_9)
 		{
 			goto IL_005d;
@@ -10860,7 +10860,7 @@ IL_001d:
 	{
 		String_t* L_10 = ___relativeUri;
 		NullCheck(L_10);
-		bool L_11 = String_StartsWith_m3455(L_10, (String_t*) &_stringLiteral2965, /*hidden argument*/NULL);
+		bool L_11 = String_StartsWith_m3455(L_10, (String_t*) &_stringLiteral2970, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_0064;
@@ -10914,15 +10914,15 @@ extern "C" String_t* XmlResolver_EscapeRelativeUriBody_m12864 (XmlResolver_t3938
 	{
 		String_t* L_0 = ___src;
 		NullCheck(L_0);
-		String_t* L_1 = String_Replace_m3757(L_0, (String_t*) &_stringLiteral2030, (String_t*) &_stringLiteral2966, /*hidden argument*/NULL);
+		String_t* L_1 = String_Replace_m3757(L_0, (String_t*) &_stringLiteral2035, (String_t*) &_stringLiteral2971, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		String_t* L_2 = String_Replace_m3757(L_1, (String_t*) &_stringLiteral2027, (String_t*) &_stringLiteral2967, /*hidden argument*/NULL);
+		String_t* L_2 = String_Replace_m3757(L_1, (String_t*) &_stringLiteral2032, (String_t*) &_stringLiteral2972, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		String_t* L_3 = String_Replace_m3757(L_2, (String_t*) &_stringLiteral2114, (String_t*) &_stringLiteral2968, /*hidden argument*/NULL);
+		String_t* L_3 = String_Replace_m3757(L_2, (String_t*) &_stringLiteral2119, (String_t*) &_stringLiteral2973, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		String_t* L_4 = String_Replace_m3757(L_3, (String_t*) &_stringLiteral2032, (String_t*) &_stringLiteral2969, /*hidden argument*/NULL);
+		String_t* L_4 = String_Replace_m3757(L_3, (String_t*) &_stringLiteral2037, (String_t*) &_stringLiteral2974, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		String_t* L_5 = String_Replace_m3757(L_4, (String_t*) &_stringLiteral671, (String_t*) &_stringLiteral2970, /*hidden argument*/NULL);
+		String_t* L_5 = String_Replace_m3757(L_4, (String_t*) &_stringLiteral671, (String_t*) &_stringLiteral2975, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
@@ -10954,14 +10954,14 @@ extern "C" void XmlSignificantWhitespace__ctor_m12865 (XmlSignificantWhitespace_
 extern "C" String_t* XmlSignificantWhitespace_get_LocalName_m12866 (XmlSignificantWhitespace_t4128 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2910;
+		return (String_t*) &_stringLiteral2915;
 	}
 }
 // System.String System.Xml.XmlSignificantWhitespace::get_Name()
 extern "C" String_t* XmlSignificantWhitespace_get_Name_m12867 (XmlSignificantWhitespace_t4128 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2910;
+		return (String_t*) &_stringLiteral2915;
 	}
 }
 // System.Xml.XmlNodeType System.Xml.XmlSignificantWhitespace::get_NodeType()
@@ -11002,7 +11002,7 @@ extern "C" void XmlSignificantWhitespace_set_Value_m12870 (XmlSignificantWhitesp
 	}
 	{
 		ArgumentException_t725 * L_2 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_2, (String_t*) &_stringLiteral2889, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_2, (String_t*) &_stringLiteral2894, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -11092,14 +11092,14 @@ extern "C" void XmlText__ctor_m12875 (XmlText_t4130 * __this, String_t* ___strDa
 extern "C" String_t* XmlText_get_LocalName_m12876 (XmlText_t4130 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2904;
+		return (String_t*) &_stringLiteral2909;
 	}
 }
 // System.String System.Xml.XmlText::get_Name()
 extern "C" String_t* XmlText_get_Name_m12877 (XmlText_t4130 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2904;
+		return (String_t*) &_stringLiteral2909;
 	}
 }
 // System.Xml.XmlNodeType System.Xml.XmlText::get_NodeType()
@@ -11434,7 +11434,7 @@ IL_0012:
 		NullCheck(L_10);
 		String_t* L_11 = (L_10->___Name_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral24, L_11, (String_t*) &_stringLiteral2914, /*hidden argument*/NULL);
+		String_t* L_12 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral24, L_11, (String_t*) &_stringLiteral2919, /*hidden argument*/NULL);
 		__this->___valueCache_15 = L_12;
 		goto IL_006e;
 	}
@@ -11571,7 +11571,7 @@ extern "C" void XmlAttributeTokenInfo_FillXmlns_m12893 (XmlAttributeTokenInfo_t4
 	}
 	{
 		String_t* L_0 = (((XmlTokenInfo_t4132 *)__this)->___Prefix_4);
-		bool L_1 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_1 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0036;
@@ -11591,7 +11591,7 @@ extern "C" void XmlAttributeTokenInfo_FillXmlns_m12893 (XmlAttributeTokenInfo_t4
 IL_0036:
 	{
 		String_t* L_6 = (((XmlTokenInfo_t4132 *)__this)->___Name_2);
-		bool L_7 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_7 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0066;
@@ -11625,7 +11625,7 @@ extern "C" void XmlAttributeTokenInfo_FillNamespace_m12894 (XmlAttributeTokenInf
 	}
 	{
 		String_t* L_0 = (((XmlTokenInfo_t4132 *)__this)->___Prefix_4);
-		bool L_1 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_1 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_002a;
@@ -11633,7 +11633,7 @@ extern "C" void XmlAttributeTokenInfo_FillNamespace_m12894 (XmlAttributeTokenInf
 	}
 	{
 		String_t* L_2 = (((XmlTokenInfo_t4132 *)__this)->___Name_2);
-		bool L_3 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_3 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_003a;
@@ -11642,7 +11642,7 @@ extern "C" void XmlAttributeTokenInfo_FillNamespace_m12894 (XmlAttributeTokenInf
 
 IL_002a:
 	{
-		((XmlTokenInfo_t4132 *)__this)->___NamespaceURI_5 = (String_t*) &_stringLiteral2688;
+		((XmlTokenInfo_t4132 *)__this)->___NamespaceURI_5 = (String_t*) &_stringLiteral2693;
 		goto IL_0072;
 	}
 
@@ -12727,7 +12727,7 @@ extern "C" void XmlTextReader_MoveToAttribute_m12942 (XmlTextReader_t4131 * __th
 	}
 	{
 		ArgumentOutOfRangeException_t1703 * L_2 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m10469(L_2, (String_t*) &_stringLiteral2971, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m10469(L_2, (String_t*) &_stringLiteral2976, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -13048,7 +13048,7 @@ IL_0141:
 		}
 	}
 	{
-		XmlException_t4099 * L_24 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2972, /*hidden argument*/NULL);
+		XmlException_t4099 * L_24 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2977, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 	}
 
@@ -13161,7 +13161,7 @@ extern "C" int32_t XmlTextReader_ReadChars_m12949 (XmlTextReader_t4131 * __this,
 	}
 	{
 		ArgumentOutOfRangeException_t1703 * L_1 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m10469(L_1, (String_t*) &_stringLiteral2973, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m10469(L_1, (String_t*) &_stringLiteral2978, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -13175,7 +13175,7 @@ IL_0012:
 	}
 	{
 		ArgumentOutOfRangeException_t1703 * L_3 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m10469(L_3, (String_t*) &_stringLiteral2974, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m10469(L_3, (String_t*) &_stringLiteral2979, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -13192,7 +13192,7 @@ IL_0024:
 	}
 	{
 		ArgumentOutOfRangeException_t1703 * L_7 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m10469(L_7, (String_t*) &_stringLiteral2975, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m10469(L_7, (String_t*) &_stringLiteral2980, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -13252,7 +13252,7 @@ extern "C" void XmlTextReader_ResolveEntity_m12950 (XmlTextReader_t4131 * __this
 	}
 	{
 		InvalidOperationException_t1668 * L_0 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_0, (String_t*) &_stringLiteral2976, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_0, (String_t*) &_stringLiteral2981, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -13608,7 +13608,7 @@ IL_00f3:
 		NullCheck(L_33);
 		String_t* L_34 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.TextReader::ReadToEnd() */, L_33);
 		NullCheck(L_34);
-		String_t* L_35 = String_Replace_m3757(L_34, (String_t*) &_stringLiteral671, (String_t*) &_stringLiteral2977, /*hidden argument*/NULL);
+		String_t* L_35 = String_Replace_m3757(L_34, (String_t*) &_stringLiteral671, (String_t*) &_stringLiteral2982, /*hidden argument*/NULL);
 		StringReader_t677 * L_36 = (StringReader_t677 *)il2cpp_codegen_object_new (StringReader_t677_il2cpp_TypeInfo_var);
 		StringReader__ctor_m2929(L_36, L_35, /*hidden argument*/NULL);
 		__this->___reader_28 = L_36;
@@ -13633,7 +13633,7 @@ IL_0130:
 		int32_t L_38 = L_37;
 		Object_t * L_39 = Box(XmlNodeType_t4117_il2cpp_TypeInfo_var, &L_38);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_40 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2978, L_39, /*hidden argument*/NULL);
+		String_t* L_40 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2983, L_39, /*hidden argument*/NULL);
 		XmlException_t4099 * L_41 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
 		XmlException__ctor_m12612(L_41, L_40, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_41);
@@ -14268,7 +14268,7 @@ IL_003f:
 		int32_t L_11 = L_10;
 		Object_t * L_12 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_11);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral2979, L_12, /*hidden argument*/NULL);
+		String_t* L_13 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral2984, L_12, /*hidden argument*/NULL);
 		XmlException_t4099 * L_14 = XmlTextReader_NotWFError_m12954(__this, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
@@ -14486,7 +14486,7 @@ IL_0027:
 
 IL_004f:
 	{
-		XmlException_t4099 * L_10 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2980, /*hidden argument*/NULL);
+		XmlException_t4099 * L_10 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2985, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
@@ -14508,7 +14508,7 @@ IL_005b:
 		}
 	}
 	{
-		XmlException_t4099 * L_14 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2981, /*hidden argument*/NULL);
+		XmlException_t4099 * L_14 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2986, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -14585,7 +14585,7 @@ extern "C" void XmlTextReader_ReadStartTag_m12970 (XmlTextReader_t4131 * __this,
 		}
 	}
 	{
-		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2982, /*hidden argument*/NULL);
+		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2987, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -14608,7 +14608,7 @@ IL_0019:
 		}
 	}
 	{
-		XmlException_t4099 * L_7 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2983, /*hidden argument*/NULL);
+		XmlException_t4099 * L_7 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2988, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -14708,7 +14708,7 @@ IL_00fe:
 		NullCheck((*(XmlAttributeTokenInfo_t4133 **)(XmlAttributeTokenInfo_t4133 **)SZArrayLdElema(L_24, L_26)));
 		String_t* L_27 = (((XmlTokenInfo_t4132 *)(*(XmlAttributeTokenInfo_t4133 **)(XmlAttributeTokenInfo_t4133 **)SZArrayLdElema(L_24, L_26)))->___Prefix_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_28 = String_op_Equality_m2603(NULL /*static, unused*/, L_27, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_28 = String_op_Equality_m2603(NULL /*static, unused*/, L_27, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_28)
 		{
 			goto IL_0144;
@@ -14731,7 +14731,7 @@ IL_00fe:
 		}
 	}
 	{
-		XmlException_t4099 * L_35 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2984, /*hidden argument*/NULL);
+		XmlException_t4099 * L_35 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2989, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_35);
 	}
 
@@ -14831,7 +14831,7 @@ IL_016a:
 
 IL_01dc:
 	{
-		XmlException_t4099 * L_67 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2985, /*hidden argument*/NULL);
+		XmlException_t4099 * L_67 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2990, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_67);
 	}
 
@@ -14950,7 +14950,7 @@ IL_02a6:
 	{
 		String_t* L_94 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(19 /* System.String Mono.Xml2.XmlTextReader::get_Prefix() */, __this);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_95 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2986, L_94, /*hidden argument*/NULL);
+		String_t* L_95 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2991, L_94, /*hidden argument*/NULL);
 		XmlException_t4099 * L_96 = XmlTextReader_NotWFError_m12954(__this, L_95, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_96);
 	}
@@ -14978,7 +14978,7 @@ IL_02ee:
 		{
 			String_t* L_99 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(19 /* System.String Mono.Xml2.XmlTextReader::get_Prefix() */, __this);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_100 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2986, L_99, /*hidden argument*/NULL);
+			String_t* L_100 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2991, L_99, /*hidden argument*/NULL);
 			XmlException_t4099 * L_101 = XmlTextReader_NotWFError_m12954(__this, L_100, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_101);
 		}
@@ -15036,7 +15036,7 @@ IL_032d:
 		int32_t L_107 = L_106;
 		NullCheck((*(XmlAttributeTokenInfo_t4133 **)(XmlAttributeTokenInfo_t4133 **)SZArrayLdElema(L_105, L_107)));
 		String_t* L_108 = (((XmlTokenInfo_t4132 *)(*(XmlAttributeTokenInfo_t4133 **)(XmlAttributeTokenInfo_t4133 **)SZArrayLdElema(L_105, L_107)))->___Prefix_4);
-		bool L_109 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_108, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
+		bool L_109 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_108, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
 		if (L_109)
 		{
 			goto IL_034f;
@@ -15085,13 +15085,13 @@ IL_034f:
 		V_16 = L_121;
 		Dictionary_2_t455 * L_122 = V_16;
 		NullCheck(L_122);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_122, (String_t*) &_stringLiteral2533, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_122, (String_t*) &_stringLiteral2538, 0);
 		Dictionary_2_t455 * L_123 = V_16;
 		NullCheck(L_123);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_123, (String_t*) &_stringLiteral2909, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_123, (String_t*) &_stringLiteral2914, 1);
 		Dictionary_2_t455 * L_124 = V_16;
 		NullCheck(L_124);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_124, (String_t*) &_stringLiteral2907, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_124, (String_t*) &_stringLiteral2912, 2);
 		Dictionary_2_t455 * L_125 = V_16;
 		((XmlTextReader_t4131_StaticFields*)XmlTextReader_t4131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map52_56 = L_125;
 	}
@@ -15246,10 +15246,10 @@ IL_047b:
 		V_16 = L_153;
 		Dictionary_2_t455 * L_154 = V_16;
 		NullCheck(L_154);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_154, (String_t*) &_stringLiteral2945, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_154, (String_t*) &_stringLiteral2950, 0);
 		Dictionary_2_t455 * L_155 = V_16;
 		NullCheck(L_155);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_155, (String_t*) &_stringLiteral983, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_155, (String_t*) &_stringLiteral988, 1);
 		Dictionary_2_t455 * L_156 = V_16;
 		((XmlTextReader_t4131_StaticFields*)XmlTextReader_t4131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map51_55 = L_156;
 	}
@@ -15303,7 +15303,7 @@ IL_0502:
 	{
 		String_t* L_164 = V_12;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_165 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2987, L_164, /*hidden argument*/NULL);
+		String_t* L_165 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2992, L_164, /*hidden argument*/NULL);
 		XmlException_t4099 * L_166 = XmlTextReader_NotWFError_m12954(__this, L_165, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_166);
 	}
@@ -15409,7 +15409,7 @@ extern "C" void XmlTextReader_ReadEndTag_m12972 (XmlTextReader_t4131 * __this, c
 		}
 	}
 	{
-		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2988, /*hidden argument*/NULL);
+		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2993, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -15426,7 +15426,7 @@ IL_0018:
 		}
 	}
 	{
-		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2989, /*hidden argument*/NULL);
+		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2994, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -15766,7 +15766,7 @@ extern "C" void XmlTextReader_ReadText_m12978 (XmlTextReader_t4131 * __this, boo
 		}
 	}
 	{
-		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2990, /*hidden argument*/NULL);
+		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2995, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -15870,7 +15870,7 @@ IL_009b:
 		}
 	}
 	{
-		XmlException_t4099 * L_14 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2795, /*hidden argument*/NULL);
+		XmlException_t4099 * L_14 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2800, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -15925,7 +15925,7 @@ IL_00e9:
 		}
 	}
 	{
-		XmlException_t4099 * L_23 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2991, /*hidden argument*/NULL);
+		XmlException_t4099 * L_23 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2996, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
 	}
 
@@ -16188,7 +16188,7 @@ IL_0083:
 		ArrayElementTypeCheck (L_19, L_22);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 1)) = (Object_t *)L_22;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_23 = String_Format_m13194(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral2992, L_19, /*hidden argument*/NULL);
+		String_t* L_23 = String_Format_m13194(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral2997, L_19, /*hidden argument*/NULL);
 		XmlException_t4099 * L_24 = XmlTextReader_NotWFError_m12954(__this, L_23, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 	}
@@ -16266,7 +16266,7 @@ IL_00f8:
 		ArrayElementTypeCheck (L_38, L_41);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_38, 1)) = (Object_t *)L_41;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_42 = String_Format_m13194(NULL /*static, unused*/, L_33, (String_t*) &_stringLiteral2993, L_38, /*hidden argument*/NULL);
+		String_t* L_42 = String_Format_m13194(NULL /*static, unused*/, L_33, (String_t*) &_stringLiteral2998, L_38, /*hidden argument*/NULL);
 		XmlException_t4099 * L_43 = XmlTextReader_NotWFError_m12954(__this, L_42, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_43);
 	}
@@ -16318,8 +16318,8 @@ IL_013d:
 		ObjectU5BU5D_t21* L_51 = ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, 4));
 		NullCheck(L_51);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_51, 0);
-		ArrayElementTypeCheck (L_51, (String_t*) &_stringLiteral2994);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_51, 0)) = (Object_t *)(String_t*) &_stringLiteral2994;
+		ArrayElementTypeCheck (L_51, (String_t*) &_stringLiteral2999);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_51, 0)) = (Object_t *)(String_t*) &_stringLiteral2999;
 		ObjectU5BU5D_t21* L_52 = L_51;
 		bool L_53 = (__this->___normalization_47);
 		bool L_54 = L_53;
@@ -16331,8 +16331,8 @@ IL_013d:
 		ObjectU5BU5D_t21* L_56 = L_52;
 		NullCheck(L_56);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_56, 2);
-		ArrayElementTypeCheck (L_56, (String_t*) &_stringLiteral2995);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_56, 2)) = (Object_t *)(String_t*) &_stringLiteral2995;
+		ArrayElementTypeCheck (L_56, (String_t*) &_stringLiteral3000);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_56, 2)) = (Object_t *)(String_t*) &_stringLiteral3000;
 		ObjectU5BU5D_t21* L_57 = L_56;
 		bool L_58 = (__this->___checkCharacters_48);
 		bool L_59 = L_58;
@@ -16469,7 +16469,7 @@ IL_0012:
 		}
 	}
 	{
-		XmlException_t4099 * L_2 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2996, /*hidden argument*/NULL);
+		XmlException_t4099 * L_2 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3001, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -16867,7 +16867,7 @@ IL_0013:
 		}
 	}
 	{
-		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2997, /*hidden argument*/NULL);
+		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3002, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -17001,7 +17001,7 @@ IL_0119:
 
 IL_0138:
 	{
-		XmlException_t4099 * L_33 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2998, /*hidden argument*/NULL);
+		XmlException_t4099 * L_33 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3003, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_33);
 	}
 
@@ -17014,7 +17014,7 @@ IL_0144:
 		}
 	}
 	{
-		XmlException_t4099 * L_35 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2999, /*hidden argument*/NULL);
+		XmlException_t4099 * L_35 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3004, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_35);
 	}
 
@@ -17282,7 +17282,7 @@ IL_02cd:
 		}
 	}
 	{
-		XmlException_t4099 * L_75 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3000, /*hidden argument*/NULL);
+		XmlException_t4099 * L_75 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3005, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_75);
 	}
 
@@ -17433,7 +17433,7 @@ IL_0051:
 	{
 		String_t* L_10 = ___entName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3001, L_10, /*hidden argument*/NULL);
+		String_t* L_11 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3006, L_10, /*hidden argument*/NULL);
 		XmlException_t4099 * L_12 = XmlTextReader_NotWFError_m12954(__this, L_11, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
@@ -17454,7 +17454,7 @@ IL_0064:
 		}
 	}
 	{
-		XmlException_t4099 * L_15 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3002, /*hidden argument*/NULL);
+		XmlException_t4099 * L_15 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3007, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_15);
 	}
 
@@ -17476,7 +17476,7 @@ IL_007b:
 		}
 	}
 	{
-		XmlException_t4099 * L_19 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3003, /*hidden argument*/NULL);
+		XmlException_t4099 * L_19 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3008, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -17493,7 +17493,7 @@ IL_009d:
 		}
 	}
 	{
-		XmlException_t4099 * L_23 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3004, /*hidden argument*/NULL);
+		XmlException_t4099 * L_23 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3009, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
 	}
 
@@ -17523,7 +17523,7 @@ extern "C" void XmlTextReader_ReadProcessingInstruction_m12988 (XmlTextReader_t4
 		V_0 = L_0;
 		String_t* L_1 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_2 = String_op_Inequality_m3461(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
+		bool L_2 = String_op_Inequality_m3461(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_003d;
@@ -17536,14 +17536,14 @@ extern "C" void XmlTextReader_ReadProcessingInstruction_m12988 (XmlTextReader_t4
 		NullCheck(L_3);
 		String_t* L_5 = String_ToLower_m13300(L_3, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_6 = String_op_Equality_m2603(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
+		bool L_6 = String_op_Equality_m2603(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_003d;
 		}
 	}
 	{
-		XmlException_t4099 * L_7 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2797, /*hidden argument*/NULL);
+		XmlException_t4099 * L_7 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2802, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -17563,7 +17563,7 @@ IL_003d:
 		}
 	}
 	{
-		XmlException_t4099 * L_10 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2798, /*hidden argument*/NULL);
+		XmlException_t4099 * L_10 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2803, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
@@ -17613,7 +17613,7 @@ IL_0095:
 		}
 	}
 	{
-		XmlException_t4099 * L_17 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3000, /*hidden argument*/NULL);
+		XmlException_t4099 * L_17 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3005, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_17);
 	}
 
@@ -17637,7 +17637,7 @@ IL_00be:
 IL_00cc:
 	{
 		String_t* L_21 = V_0;
-		bool L_22 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_21, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
+		bool L_22 = Object_ReferenceEquals_m11423(NULL /*static, unused*/, L_21, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
 		if (!L_22)
 		{
 			goto IL_00e7;
@@ -17712,7 +17712,7 @@ extern "C" void XmlTextReader_VerifyXmlDeclaration_m12989 (XmlTextReader_t4131 *
 		}
 	}
 	{
-		XmlException_t4099 * L_2 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3005, /*hidden argument*/NULL);
+		XmlException_t4099 * L_2 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3010, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -17729,7 +17729,7 @@ IL_0022:
 		XmlTextReader_ParseAttributeFromString_m12991(__this, L_4, (&V_1), (&V_4), (&V_5), /*hidden argument*/NULL);
 		String_t* L_5 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_6 = String_op_Inequality_m3461(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral1664, /*hidden argument*/NULL);
+		bool L_6 = String_op_Inequality_m3461(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral1669, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_006c;
@@ -17747,7 +17747,7 @@ IL_0022:
 
 IL_006c:
 	{
-		XmlException_t4099 * L_9 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3006, /*hidden argument*/NULL);
+		XmlException_t4099 * L_9 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3011, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 
@@ -17782,7 +17782,7 @@ IL_00a6:
 	{
 		String_t* L_17 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_18 = String_op_Equality_m2603(NULL /*static, unused*/, L_17, (String_t*) &_stringLiteral2802, /*hidden argument*/NULL);
+		bool L_18 = String_op_Equality_m2603(NULL /*static, unused*/, L_17, (String_t*) &_stringLiteral2807, /*hidden argument*/NULL);
 		if (!L_18)
 		{
 			goto IL_0140;
@@ -17798,7 +17798,7 @@ IL_00a6:
 		}
 	}
 	{
-		XmlException_t4099 * L_21 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3007, /*hidden argument*/NULL);
+		XmlException_t4099 * L_21 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3012, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
@@ -17862,7 +17862,7 @@ IL_0140:
 	{
 		String_t* L_36 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_37 = String_op_Equality_m2603(NULL /*static, unused*/, L_36, (String_t*) &_stringLiteral2881, /*hidden argument*/NULL);
+		bool L_37 = String_op_Equality_m2603(NULL /*static, unused*/, L_36, (String_t*) &_stringLiteral2886, /*hidden argument*/NULL);
 		if (!L_37)
 		{
 			goto IL_01a3;
@@ -17871,10 +17871,10 @@ IL_0140:
 	{
 		String_t* L_38 = V_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_39 = String_op_Equality_m2603(NULL /*static, unused*/, L_38, (String_t*) &_stringLiteral2511, /*hidden argument*/NULL);
+		bool L_39 = String_op_Equality_m2603(NULL /*static, unused*/, L_38, (String_t*) &_stringLiteral2516, /*hidden argument*/NULL);
 		__this->___isStandalone_24 = L_39;
 		String_t* L_40 = V_5;
-		bool L_41 = String_op_Inequality_m3461(NULL /*static, unused*/, L_40, (String_t*) &_stringLiteral2511, /*hidden argument*/NULL);
+		bool L_41 = String_op_Inequality_m3461(NULL /*static, unused*/, L_40, (String_t*) &_stringLiteral2516, /*hidden argument*/NULL);
 		if (!L_41)
 		{
 			goto IL_0191;
@@ -17883,14 +17883,14 @@ IL_0140:
 	{
 		String_t* L_42 = V_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_43 = String_op_Inequality_m3461(NULL /*static, unused*/, L_42, (String_t*) &_stringLiteral1075, /*hidden argument*/NULL);
+		bool L_43 = String_op_Inequality_m3461(NULL /*static, unused*/, L_42, (String_t*) &_stringLiteral1080, /*hidden argument*/NULL);
 		if (!L_43)
 		{
 			goto IL_0191;
 		}
 	}
 	{
-		XmlException_t4099 * L_44 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3008, /*hidden argument*/NULL);
+		XmlException_t4099 * L_44 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3013, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_44);
 	}
 
@@ -17916,7 +17916,7 @@ IL_01a3:
 	{
 		String_t* L_49 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_50 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3009, L_49, /*hidden argument*/NULL);
+		String_t* L_50 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3014, L_49, /*hidden argument*/NULL);
 		XmlException_t4099 * L_51 = XmlTextReader_NotWFError_m12954(__this, L_50, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_51);
 	}
@@ -17933,13 +17933,13 @@ IL_01c2:
 		}
 	}
 	{
-		XmlException_t4099 * L_55 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3010, /*hidden argument*/NULL);
+		XmlException_t4099 * L_55 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3015, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_55);
 	}
 
 IL_01da:
 	{
-		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral1664, (String_t*) &_stringLiteral210, /*hidden argument*/NULL);
+		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral1669, (String_t*) &_stringLiteral210, /*hidden argument*/NULL);
 		String_t* L_56 = V_2;
 		if (!L_56)
 		{
@@ -17948,7 +17948,7 @@ IL_01da:
 	}
 	{
 		String_t* L_57 = V_2;
-		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral2802, L_57, /*hidden argument*/NULL);
+		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral2807, L_57, /*hidden argument*/NULL);
 	}
 
 IL_01fc:
@@ -17961,7 +17961,7 @@ IL_01fc:
 	}
 	{
 		String_t* L_59 = V_3;
-		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral2881, L_59, /*hidden argument*/NULL);
+		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral2886, L_59, /*hidden argument*/NULL);
 	}
 
 IL_020e:
@@ -17974,7 +17974,7 @@ IL_020e:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_62 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		String_t* L_63 = V_0;
-		XmlTextReader_SetProperties_m12960(__this, ((int32_t)17), (String_t*) &_stringLiteral2796, L_62, (String_t*) &_stringLiteral2796, 0, L_63, 0, /*hidden argument*/NULL);
+		XmlTextReader_SetProperties_m12960(__this, ((int32_t)17), (String_t*) &_stringLiteral2801, L_62, (String_t*) &_stringLiteral2801, 0, L_63, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -18190,7 +18190,7 @@ IL_00aa:
 	{
 		String_t** L_40 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_41 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3011, (*((String_t**)L_40)), /*hidden argument*/NULL);
+		String_t* L_41 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3016, (*((String_t**)L_40)), /*hidden argument*/NULL);
 		XmlException_t4099 * L_42 = XmlTextReader_NotWFError_m12954(__this, L_41, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_42);
 	}
@@ -18268,7 +18268,7 @@ IL_00ed:
 
 IL_0118:
 	{
-		XmlException_t4099 * L_63 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3012, /*hidden argument*/NULL);
+		XmlException_t4099 * L_63 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3017, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_63);
 	}
 
@@ -18415,7 +18415,7 @@ IL_005a:
 		String_t* L_5 = (String_t*)il2cpp_codegen_object_new (String_t_il2cpp_TypeInfo_var);
 		L_5 = String_CreateString_m11383(L_5, L_4, 2, 4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_6 = String_op_Inequality_m3461(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral3013, /*hidden argument*/NULL);
+		bool L_6 = String_op_Inequality_m3461(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral3018, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_00b0;
@@ -18430,14 +18430,14 @@ IL_005a:
 		NullCheck(L_8);
 		String_t* L_10 = String_ToLower_m13300(L_8, L_9, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_11 = String_op_Equality_m2603(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral3013, /*hidden argument*/NULL);
+		bool L_11 = String_op_Equality_m2603(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral3018, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_00a8;
 		}
 	}
 	{
-		XmlException_t4099 * L_12 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3014, /*hidden argument*/NULL);
+		XmlException_t4099 * L_12 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3019, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -18457,7 +18457,7 @@ IL_00b0:
 		}
 	}
 	{
-		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral1664, /*hidden argument*/NULL);
+		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral1669, /*hidden argument*/NULL);
 		XmlTextReader_ExpectAfterWhitespace_m13009(__this, ((int32_t)61), /*hidden argument*/NULL);
 		XmlTextReader_SkipWhitespace_m13010(__this, /*hidden argument*/NULL);
 		int32_t L_14 = XmlTextReader_ReadChar_m12965(__this, /*hidden argument*/NULL);
@@ -18497,7 +18497,7 @@ IL_010d:
 		}
 	}
 	{
-		XmlException_t4099 * L_19 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2800, /*hidden argument*/NULL);
+		XmlException_t4099 * L_19 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2805, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -18510,7 +18510,7 @@ IL_0125:
 		}
 	}
 	{
-		XmlException_t4099 * L_21 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
+		XmlException_t4099 * L_21 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2806, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
@@ -18542,7 +18542,7 @@ IL_0138:
 		}
 	}
 	{
-		XmlException_t4099 * L_30 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
+		XmlException_t4099 * L_30 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2806, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_30);
 	}
 
@@ -18563,7 +18563,7 @@ IL_016e:
 
 IL_018d:
 	{
-		XmlException_t4099 * L_33 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2800, /*hidden argument*/NULL);
+		XmlException_t4099 * L_33 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2805, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_33);
 	}
 
@@ -18576,7 +18576,7 @@ IL_0199:
 		}
 	}
 	{
-		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2802, /*hidden argument*/NULL);
+		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2807, /*hidden argument*/NULL);
 		XmlTextReader_ExpectAfterWhitespace_m13009(__this, ((int32_t)61), /*hidden argument*/NULL);
 		XmlTextReader_SkipWhitespace_m13010(__this, /*hidden argument*/NULL);
 		int32_t L_35 = XmlTextReader_ReadChar_m12965(__this, /*hidden argument*/NULL);
@@ -18614,7 +18614,7 @@ IL_01e6:
 		}
 	}
 	{
-		XmlException_t4099 * L_40 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2803, /*hidden argument*/NULL);
+		XmlException_t4099 * L_40 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2808, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_40);
 	}
 
@@ -18635,7 +18635,7 @@ IL_01fe:
 
 IL_021d:
 	{
-		XmlException_t4099 * L_43 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2803, /*hidden argument*/NULL);
+		XmlException_t4099 * L_43 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2808, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_43);
 	}
 
@@ -18653,13 +18653,13 @@ IL_022e:
 		}
 	}
 	{
-		XmlException_t4099 * L_45 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2804, /*hidden argument*/NULL);
+		XmlException_t4099 * L_45 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2809, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_45);
 	}
 
 IL_0245:
 	{
-		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2805, /*hidden argument*/NULL);
+		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2810, /*hidden argument*/NULL);
 		int32_t L_46 = (__this->___peekCharsIndex_30);
 		__this->___curNodePeekIndex_32 = L_46;
 		return;
@@ -18701,7 +18701,7 @@ extern "C" void XmlTextReader_ReadDeclaration_m12993 (XmlTextReader_t4131 * __th
 
 IL_0026:
 	{
-		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2429, /*hidden argument*/NULL);
+		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2434, /*hidden argument*/NULL);
 		XmlTextReader_ReadComment_m12994(__this, /*hidden argument*/NULL);
 		goto IL_007b;
 	}
@@ -18709,21 +18709,21 @@ IL_0026:
 IL_003c:
 	{
 		XmlTextReader_ReadChar_m12965(__this, /*hidden argument*/NULL);
-		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral3015, /*hidden argument*/NULL);
+		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral3020, /*hidden argument*/NULL);
 		XmlTextReader_ReadCDATA_m12995(__this, /*hidden argument*/NULL);
 		goto IL_007b;
 	}
 
 IL_0059:
 	{
-		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral3016, /*hidden argument*/NULL);
+		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral3021, /*hidden argument*/NULL);
 		XmlTextReader_ReadDoctypeDecl_m12996(__this, /*hidden argument*/NULL);
 		goto IL_007b;
 	}
 
 IL_006f:
 	{
-		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3017, /*hidden argument*/NULL);
+		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3022, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -18789,7 +18789,7 @@ IL_0025:
 		}
 	}
 	{
-		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2794, /*hidden argument*/NULL);
+		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2799, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -18810,7 +18810,7 @@ IL_006f:
 		}
 	}
 	{
-		XmlException_t4099 * L_8 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2795, /*hidden argument*/NULL);
+		XmlException_t4099 * L_8 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2800, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -18863,7 +18863,7 @@ extern "C" void XmlTextReader_ReadCDATA_m12995 (XmlTextReader_t4131 * __this, co
 		}
 	}
 	{
-		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3018, /*hidden argument*/NULL);
+		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3023, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -18975,7 +18975,7 @@ IL_00a3:
 		}
 	}
 	{
-		XmlException_t4099 * L_15 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3000, /*hidden argument*/NULL);
+		XmlException_t4099 * L_15 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3005, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_15);
 	}
 
@@ -19045,7 +19045,7 @@ extern "C" void XmlTextReader_ReadDoctypeDecl_m12996 (XmlTextReader_t4131 * __th
 		}
 	}
 	{
-		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3019, /*hidden argument*/NULL);
+		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3024, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -19079,7 +19079,7 @@ IL_0017:
 
 IL_003e:
 	{
-		XmlException_t4099 * L_6 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3020, /*hidden argument*/NULL);
+		XmlException_t4099 * L_6 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3025, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -19137,7 +19137,7 @@ IL_00a6:
 		}
 	}
 	{
-		XmlException_t4099 * L_13 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2783, /*hidden argument*/NULL);
+		XmlException_t4099 * L_13 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2788, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 
@@ -19199,7 +19199,7 @@ IL_0118:
 	}
 	{
 		String_t* L_33 = V_1;
-		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral2787, L_33, /*hidden argument*/NULL);
+		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral2792, L_33, /*hidden argument*/NULL);
 	}
 
 IL_0166:
@@ -19212,7 +19212,7 @@ IL_0166:
 	}
 	{
 		String_t* L_35 = V_2;
-		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral2784, L_35, /*hidden argument*/NULL);
+		XmlTextReader_AddAttributeWithValue_m12983(__this, (String_t*) &_stringLiteral2789, L_35, /*hidden argument*/NULL);
 	}
 
 IL_0178:
@@ -19495,7 +19495,7 @@ IL_00ac:
 
 IL_00b1:
 	{
-		XmlException_t4099 * L_12 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3021, /*hidden argument*/NULL);
+		XmlException_t4099 * L_12 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3026, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -19506,7 +19506,7 @@ IL_00bd:
 
 IL_00c2:
 	{
-		XmlException_t4099 * L_13 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3021, /*hidden argument*/NULL);
+		XmlException_t4099 * L_13 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3026, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 
@@ -19627,7 +19627,7 @@ IL_0156:
 
 IL_0179:
 	{
-		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2741, /*hidden argument*/NULL);
+		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2746, /*hidden argument*/NULL);
 		DtdInputStateStack_t4136 * L_28 = (__this->___stateStack_54);
 		NullCheck(L_28);
 		DtdInputStateStack_Push_m12899(L_28, 2, /*hidden argument*/NULL);
@@ -19636,7 +19636,7 @@ IL_0179:
 
 IL_0195:
 	{
-		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2738, /*hidden argument*/NULL);
+		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2743, /*hidden argument*/NULL);
 		DtdInputStateStack_t4136 * L_29 = (__this->___stateStack_54);
 		NullCheck(L_29);
 		DtdInputStateStack_Push_m12899(L_29, 4, /*hidden argument*/NULL);
@@ -19645,7 +19645,7 @@ IL_0195:
 
 IL_01b1:
 	{
-		XmlException_t4099 * L_30 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3022, /*hidden argument*/NULL);
+		XmlException_t4099 * L_30 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3027, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_30);
 	}
 
@@ -19656,7 +19656,7 @@ IL_01bd:
 
 IL_01c2:
 	{
-		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2743, /*hidden argument*/NULL);
+		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2748, /*hidden argument*/NULL);
 		DtdInputStateStack_t4136 * L_31 = (__this->___stateStack_54);
 		NullCheck(L_31);
 		DtdInputStateStack_Push_m12899(L_31, 3, /*hidden argument*/NULL);
@@ -19665,7 +19665,7 @@ IL_01c2:
 
 IL_01de:
 	{
-		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2744, /*hidden argument*/NULL);
+		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2749, /*hidden argument*/NULL);
 		DtdInputStateStack_t4136 * L_32 = (__this->___stateStack_54);
 		NullCheck(L_32);
 		DtdInputStateStack_Push_m12899(L_32, 5, /*hidden argument*/NULL);
@@ -19674,7 +19674,7 @@ IL_01de:
 
 IL_01fa:
 	{
-		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral1888, /*hidden argument*/NULL);
+		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral1893, /*hidden argument*/NULL);
 		DtdInputStateStack_t4136 * L_33 = (__this->___stateStack_54);
 		NullCheck(L_33);
 		DtdInputStateStack_Push_m12899(L_33, 7, /*hidden argument*/NULL);
@@ -19692,7 +19692,7 @@ IL_021b:
 		uint16_t L_35 = (((uint16_t)L_34));
 		Object_t * L_36 = Box(Char_t770_il2cpp_TypeInfo_var, &L_35);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_37 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3023, L_36, /*hidden argument*/NULL);
+		String_t* L_37 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3028, L_36, /*hidden argument*/NULL);
 		XmlException_t4099 * L_38 = XmlTextReader_NotWFError_m12954(__this, L_37, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_38);
 	}
@@ -19856,7 +19856,7 @@ IL_031b:
 
 IL_0320:
 	{
-		XmlException_t4099 * L_52 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3024, /*hidden argument*/NULL);
+		XmlException_t4099 * L_52 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3029, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_52);
 	}
 
@@ -19908,7 +19908,7 @@ IL_035b:
 	}
 	{
 		XmlTextReader_ReadValueChar_m13000(__this, /*hidden argument*/NULL);
-		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2027, /*hidden argument*/NULL);
+		XmlTextReader_ExpectAndAppend_m13001(__this, (String_t*) &_stringLiteral2032, /*hidden argument*/NULL);
 		DtdInputStateStack_t4136 * L_58 = (__this->___stateStack_54);
 		NullCheck(L_58);
 		DtdInputStateStack_Pop_m12898(L_58, /*hidden argument*/NULL);
@@ -19956,7 +19956,7 @@ IL_0397:
 		}
 	}
 	{
-		XmlException_t4099 * L_64 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3025, /*hidden argument*/NULL);
+		XmlException_t4099 * L_64 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3030, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_64);
 	}
 
@@ -19990,7 +19990,7 @@ extern "C" String_t* XmlTextReader_ReadSystemLiteral_m13003 (XmlTextReader_t4131
 		}
 	}
 	{
-		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2784, /*hidden argument*/NULL);
+		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2789, /*hidden argument*/NULL);
 		bool L_1 = XmlTextReader_SkipWhitespace_m13010(__this, /*hidden argument*/NULL);
 		if (L_1)
 		{
@@ -19998,7 +19998,7 @@ extern "C" String_t* XmlTextReader_ReadSystemLiteral_m13003 (XmlTextReader_t4131
 		}
 	}
 	{
-		XmlException_t4099 * L_2 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2785, /*hidden argument*/NULL);
+		XmlException_t4099 * L_2 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2790, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -20032,7 +20032,7 @@ IL_0048:
 		}
 	}
 	{
-		XmlException_t4099 * L_6 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2786, /*hidden argument*/NULL);
+		XmlException_t4099 * L_6 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2791, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -20081,7 +20081,7 @@ extern "C" String_t* XmlTextReader_ReadPubidLiteral_m13004 (XmlTextReader_t4131 
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2787, /*hidden argument*/NULL);
+		XmlTextReader_Expect_m13008(__this, (String_t*) &_stringLiteral2792, /*hidden argument*/NULL);
 		bool L_0 = XmlTextReader_SkipWhitespace_m13010(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
@@ -20089,7 +20089,7 @@ extern "C" String_t* XmlTextReader_ReadPubidLiteral_m13004 (XmlTextReader_t4131 
 		}
 	}
 	{
-		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2788, /*hidden argument*/NULL);
+		XmlException_t4099 * L_1 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2793, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -20113,7 +20113,7 @@ IL_0036:
 		}
 	}
 	{
-		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2786, /*hidden argument*/NULL);
+		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral2791, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -20140,7 +20140,7 @@ IL_0050:
 		uint16_t L_11 = (((uint16_t)L_10));
 		Object_t * L_12 = Box(Char_t770_il2cpp_TypeInfo_var, &L_11);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2789, L_12, /*hidden argument*/NULL);
+		String_t* L_13 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2794, L_12, /*hidden argument*/NULL);
 		XmlException_t4099 * L_14 = XmlTextReader_NotWFError_m12954(__this, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
@@ -20247,7 +20247,7 @@ extern "C" String_t* XmlTextReader_ReadName_m13006 (XmlTextReader_t4131 * __this
 		ArrayElementTypeCheck (L_11, L_14);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 1)) = (Object_t *)L_14;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Format_m13194(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral2791, L_11, /*hidden argument*/NULL);
+		String_t* L_15 = String_Format_m13194(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral2796, L_11, /*hidden argument*/NULL);
 		XmlException_t4099 * L_16 = XmlTextReader_NotWFError_m12954(__this, L_15, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_16);
 	}
@@ -20438,7 +20438,7 @@ extern "C" void XmlTextReader_Expect_m13007 (XmlTextReader_t4131 * __this, int32
 		G_B2_0 = 2;
 		G_B2_1 = L_12;
 		G_B2_2 = L_12;
-		G_B2_3 = (String_t*) &_stringLiteral2792;
+		G_B2_3 = (String_t*) &_stringLiteral2797;
 		G_B2_4 = L_3;
 		G_B2_5 = __this;
 		if ((((int32_t)L_13) >= ((int32_t)0)))
@@ -20446,14 +20446,14 @@ extern "C" void XmlTextReader_Expect_m13007 (XmlTextReader_t4131 * __this, int32
 			G_B3_0 = 2;
 			G_B3_1 = L_12;
 			G_B3_2 = L_12;
-			G_B3_3 = (String_t*) &_stringLiteral2792;
+			G_B3_3 = (String_t*) &_stringLiteral2797;
 			G_B3_4 = L_3;
 			G_B3_5 = __this;
 			goto IL_0045;
 		}
 	}
 	{
-		G_B4_0 = ((Object_t *)((String_t*) &_stringLiteral3026));
+		G_B4_0 = ((Object_t *)((String_t*) &_stringLiteral3031));
 		G_B4_1 = G_B2_0;
 		G_B4_2 = G_B2_1;
 		G_B4_3 = G_B2_2;
@@ -20545,7 +20545,7 @@ IL_0007:
 		ArrayElementTypeCheck (L_5, L_6);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)L_6;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m13194(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral3027, L_5, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m13194(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral3032, L_5, /*hidden argument*/NULL);
 		XmlException_t4099 * L_8 = XmlTextReader_NotWFError_m12954(__this, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
@@ -20660,7 +20660,7 @@ IL_001f:
 		G_B5_0 = 1;
 		G_B5_1 = L_11;
 		G_B5_2 = L_11;
-		G_B5_3 = (String_t*) &_stringLiteral3028;
+		G_B5_3 = (String_t*) &_stringLiteral3033;
 		G_B5_4 = L_6;
 		G_B5_5 = __this;
 		if ((((int32_t)L_12) >= ((int32_t)0)))
@@ -20668,14 +20668,14 @@ IL_001f:
 			G_B6_0 = 1;
 			G_B6_1 = L_11;
 			G_B6_2 = L_11;
-			G_B6_3 = (String_t*) &_stringLiteral3028;
+			G_B6_3 = (String_t*) &_stringLiteral3033;
 			G_B6_4 = L_6;
 			G_B6_5 = __this;
 			goto IL_0053;
 		}
 	}
 	{
-		G_B7_0 = ((Object_t *)((String_t*) &_stringLiteral3026));
+		G_B7_0 = ((Object_t *)((String_t*) &_stringLiteral3031));
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
 		G_B7_3 = G_B5_2;
@@ -21065,7 +21065,7 @@ IL_0009:
 
 IL_0026:
 	{
-		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3029, /*hidden argument*/NULL);
+		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3034, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -21270,7 +21270,7 @@ IL_0013:
 
 IL_0030:
 	{
-		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3029, /*hidden argument*/NULL);
+		XmlException_t4099 * L_5 = XmlTextReader_NotWFError_m12954(__this, (String_t*) &_stringLiteral3034, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -22669,7 +22669,7 @@ IL_001b:
 	}
 	{
 		InvalidOperationException_t1668 * L_4 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral3030, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral3035, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -22711,7 +22711,7 @@ IL_006b:
 		NullCheck(L_15);
 		String_t* L_16 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(15 /* System.String Mono.Xml2.XmlTextReader::get_Name() */, L_15);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3031, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3036, L_16, /*hidden argument*/NULL);
 		XmlException_t4099 * L_18 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
 		XmlException__ctor_m12613(L_18, __this, L_14, L_17, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_18);
@@ -22746,7 +22746,7 @@ IL_00ae:
 	{
 		String_t* L_24 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(15 /* System.String System.Xml.XmlTextReader::get_Name() */, __this);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3032, L_24, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3037, L_24, /*hidden argument*/NULL);
 		XmlException_t4099 * L_26 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
 		XmlException__ctor_m12612(L_26, L_25, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_26);
@@ -23022,7 +23022,7 @@ extern "C" void XmlTextWriter__ctor_m13074 (XmlTextWriter_t4148 * __this, TextWr
 	}
 	{
 		ArgumentNullException_t731 * L_3 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral3033, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral3038, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -23092,7 +23092,7 @@ extern "C" void XmlTextWriter_Initialize_m13076 (XmlTextWriter_t4148 * __this, T
 	}
 	{
 		ArgumentNullException_t731 * L_1 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral3033, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral3038, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -23282,7 +23282,7 @@ extern "C" String_t* XmlTextWriter_LookupPrefix_m13081 (XmlTextWriter_t4148 * __
 
 IL_0016:
 	{
-		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3034, /*hidden argument*/NULL);
+		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3039, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -23419,7 +23419,7 @@ extern "C" void XmlTextWriter_WriteStartDocumentCore_m13085 (XmlTextWriter_t4148
 		}
 	}
 	{
-		Exception_t496 * L_1 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3035, /*hidden argument*/NULL);
+		Exception_t496 * L_1 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3040, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -23452,7 +23452,7 @@ IL_0037:
 
 IL_0038:
 	{
-		Exception_t496 * L_4 = XmlTextWriter_InvalidOperation_m13118(__this, (String_t*) &_stringLiteral3036, /*hidden argument*/NULL);
+		Exception_t496 * L_4 = XmlTextWriter_InvalidOperation_m13118(__this, (String_t*) &_stringLiteral3041, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -23461,7 +23461,7 @@ IL_0044:
 		__this->___state_18 = 1;
 		TextWriter_t3796 * L_5 = (__this->___writer_6);
 		NullCheck(L_5);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_5, (String_t*) &_stringLiteral3037);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_5, (String_t*) &_stringLiteral3042);
 		TextWriter_t3796 * L_6 = (__this->___writer_6);
 		uint16_t L_7 = (__this->___quote_char_32);
 		NullCheck(L_6);
@@ -23482,7 +23482,7 @@ IL_0044:
 	{
 		TextWriter_t3796 * L_12 = (__this->___writer_6);
 		NullCheck(L_12);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, (String_t*) &_stringLiteral3038);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, (String_t*) &_stringLiteral3043);
 		TextWriter_t3796 * L_13 = (__this->___writer_6);
 		uint16_t L_14 = (__this->___quote_char_32);
 		NullCheck(L_13);
@@ -23512,7 +23512,7 @@ IL_00e5:
 	{
 		TextWriter_t3796 * L_22 = (__this->___writer_6);
 		NullCheck(L_22);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_22, (String_t*) &_stringLiteral3039);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_22, (String_t*) &_stringLiteral3044);
 		TextWriter_t3796 * L_23 = (__this->___writer_6);
 		uint16_t L_24 = (__this->___quote_char_32);
 		NullCheck(L_23);
@@ -23527,14 +23527,14 @@ IL_00e5:
 		}
 	}
 	{
-		G_B12_0 = (String_t*) &_stringLiteral2511;
+		G_B12_0 = (String_t*) &_stringLiteral2516;
 		G_B12_1 = G_B10_0;
 		goto IL_0127;
 	}
 
 IL_0122:
 	{
-		G_B12_0 = (String_t*) &_stringLiteral1075;
+		G_B12_0 = (String_t*) &_stringLiteral1080;
 		G_B12_1 = G_B11_0;
 	}
 
@@ -23552,7 +23552,7 @@ IL_013d:
 	{
 		TextWriter_t3796 * L_29 = (__this->___writer_6);
 		NullCheck(L_29);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_29, (String_t*) &_stringLiteral2805);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_29, (String_t*) &_stringLiteral2810);
 		__this->___xmldecl_state_14 = 1;
 		return;
 	}
@@ -23575,7 +23575,7 @@ extern "C" void XmlTextWriter_WriteDocType_m13086 (XmlTextWriter_t4148 * __this,
 		}
 	}
 	{
-		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1523, /*hidden argument*/NULL);
+		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1528, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -23590,7 +23590,7 @@ IL_0012:
 		}
 	}
 	{
-		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1523, /*hidden argument*/NULL);
+		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1528, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -23603,7 +23603,7 @@ IL_0029:
 		}
 	}
 	{
-		Exception_t496 * L_6 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3040, /*hidden argument*/NULL);
+		Exception_t496 * L_6 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3045, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -23625,7 +23625,7 @@ IL_005a:
 		XmlTextWriter_WriteIndent_m13105(__this, /*hidden argument*/NULL);
 		TextWriter_t3796 * L_8 = (__this->___writer_6);
 		NullCheck(L_8);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_8, (String_t*) &_stringLiteral3041);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_8, (String_t*) &_stringLiteral3046);
 		TextWriter_t3796 * L_9 = (__this->___writer_6);
 		String_t* L_10 = ___name;
 		NullCheck(L_9);
@@ -23639,7 +23639,7 @@ IL_005a:
 	{
 		TextWriter_t3796 * L_12 = (__this->___writer_6);
 		NullCheck(L_12);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, (String_t*) &_stringLiteral3042);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, (String_t*) &_stringLiteral3047);
 		TextWriter_t3796 * L_13 = (__this->___writer_6);
 		uint16_t L_14 = (__this->___quote_char_32);
 		NullCheck(L_13);
@@ -23692,7 +23692,7 @@ IL_0106:
 	{
 		TextWriter_t3796 * L_28 = (__this->___writer_6);
 		NullCheck(L_28);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_28, (String_t*) &_stringLiteral3043);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_28, (String_t*) &_stringLiteral3048);
 		TextWriter_t3796 * L_29 = (__this->___writer_6);
 		uint16_t L_30 = (__this->___quote_char_32);
 		NullCheck(L_29);
@@ -23718,7 +23718,7 @@ IL_014a:
 	{
 		TextWriter_t3796 * L_36 = (__this->___writer_6);
 		NullCheck(L_36);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_36, (String_t*) &_stringLiteral1011);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_36, (String_t*) &_stringLiteral1016);
 		TextWriter_t3796 * L_37 = (__this->___writer_6);
 		String_t* L_38 = ___subset;
 		NullCheck(L_37);
@@ -23774,7 +23774,7 @@ extern "C" void XmlTextWriter_WriteStartElement_m13087 (XmlTextWriter_t4148 * __
 
 IL_0018:
 	{
-		Exception_t496 * L_2 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3044, /*hidden argument*/NULL);
+		Exception_t496 * L_2 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3049, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -23820,7 +23820,7 @@ IL_003d:
 		}
 	}
 	{
-		Exception_t496 * L_10 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3045, /*hidden argument*/NULL);
+		Exception_t496 * L_10 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3050, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
@@ -23842,7 +23842,7 @@ IL_0066:
 		}
 	}
 	{
-		Exception_t496 * L_14 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3046, /*hidden argument*/NULL);
+		Exception_t496 * L_14 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3051, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -23887,7 +23887,7 @@ IL_0089:
 
 IL_00bb:
 	{
-		Exception_t496 * L_24 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3047, /*hidden argument*/NULL);
+		Exception_t496 * L_24 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3052, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 	}
 
@@ -23918,7 +23918,7 @@ IL_00c7:
 	{
 		String_t* L_29 = ___namespaceUri;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_30 = String_op_Inequality_m3461(NULL /*static, unused*/, L_29, (String_t*) &_stringLiteral2812, /*hidden argument*/NULL);
+		bool L_30 = String_op_Inequality_m3461(NULL /*static, unused*/, L_29, (String_t*) &_stringLiteral2817, /*hidden argument*/NULL);
 		if (!L_30)
 		{
 			goto IL_0153;
@@ -23986,7 +23986,7 @@ IL_012c:
 IL_0148:
 	{
 		ArgumentException_t725 * L_43 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_43, (String_t*) &_stringLiteral3048, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_43, (String_t*) &_stringLiteral3053, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_43);
 	}
 
@@ -24102,7 +24102,7 @@ IL_01e7:
 		XmlTextWriter_WriteIndent_m13105(__this, /*hidden argument*/NULL);
 		TextWriter_t3796 * L_62 = (__this->___writer_6);
 		NullCheck(L_62);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_62, (String_t*) &_stringLiteral2030);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_62, (String_t*) &_stringLiteral2035);
 		String_t* L_63 = ___prefix;
 		NullCheck(L_63);
 		int32_t L_64 = String_get_Length_m3041(L_63, /*hidden argument*/NULL);
@@ -24460,7 +24460,7 @@ IL_0103:
 	{
 		TextWriter_t3796 * L_34 = (__this->___writer_6);
 		NullCheck(L_34);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_34, (String_t*) &_stringLiteral3049);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_34, (String_t*) &_stringLiteral3054);
 		TextWriter_t3796 * L_35 = (__this->___writer_6);
 		String_t* L_36 = V_5;
 		NullCheck(L_35);
@@ -24472,7 +24472,7 @@ IL_0132:
 	{
 		TextWriter_t3796 * L_37 = (__this->___writer_6);
 		NullCheck(L_37);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_37, (String_t*) &_stringLiteral3050);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_37, (String_t*) &_stringLiteral3055);
 	}
 
 IL_0142:
@@ -24554,7 +24554,7 @@ extern "C" void XmlTextWriter_WriteEndElementCore_m13092 (XmlTextWriter_t4148 * 
 
 IL_0018:
 	{
-		Exception_t496 * L_2 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3051, /*hidden argument*/NULL);
+		Exception_t496 * L_2 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3056, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -24567,7 +24567,7 @@ IL_0024:
 		}
 	}
 	{
-		Exception_t496 * L_4 = XmlTextWriter_InvalidOperation_m13118(__this, (String_t*) &_stringLiteral3052, /*hidden argument*/NULL);
+		Exception_t496 * L_4 = XmlTextWriter_InvalidOperation_m13118(__this, (String_t*) &_stringLiteral3057, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -24601,7 +24601,7 @@ IL_0071:
 	{
 		TextWriter_t3796 * L_9 = (__this->___writer_6);
 		NullCheck(L_9);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_9, (String_t*) &_stringLiteral3053);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_9, (String_t*) &_stringLiteral3058);
 	}
 
 IL_0081:
@@ -24655,7 +24655,7 @@ IL_00c4:
 	{
 		TextWriter_t3796 * L_19 = (__this->___writer_6);
 		NullCheck(L_19);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_19, (String_t*) &_stringLiteral3054);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_19, (String_t*) &_stringLiteral3059);
 		XmlNodeInfo_t4142 * L_20 = V_0;
 		NullCheck(L_20);
 		String_t* L_21 = (L_20->___Prefix_0);
@@ -24755,7 +24755,7 @@ IL_0012:
 		}
 	}
 	{
-		Exception_t496 * L_3 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3055, /*hidden argument*/NULL);
+		Exception_t496 * L_3 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3060, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -24778,7 +24778,7 @@ IL_0042:
 		V_0 = 0;
 		String_t* L_6 = ___namespaceUri;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_7 = String_op_Equality_m2603(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral2688, /*hidden argument*/NULL);
+		bool L_7 = String_op_Equality_m2603(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral2693, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_007d;
@@ -24797,14 +24797,14 @@ IL_0042:
 	{
 		String_t* L_10 = ___localName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_11 = String_op_Inequality_m3461(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_11 = String_op_Inequality_m3461(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_0078;
 		}
 	}
 	{
-		___prefix = (String_t*) &_stringLiteral2673;
+		___prefix = (String_t*) &_stringLiteral2678;
 	}
 
 IL_0078:
@@ -24816,7 +24816,7 @@ IL_007d:
 	{
 		String_t* L_12 = ___prefix;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_13 = String_op_Equality_m2603(NULL /*static, unused*/, L_12, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_13 = String_op_Equality_m2603(NULL /*static, unused*/, L_12, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (L_13)
 		{
 			goto IL_00ab;
@@ -24825,7 +24825,7 @@ IL_007d:
 	{
 		String_t* L_14 = ___localName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_15 = String_op_Equality_m2603(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_15 = String_op_Equality_m2603(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		if (!L_15)
 		{
 			goto IL_00a8;
@@ -24871,14 +24871,14 @@ IL_00ad:
 	{
 		String_t* L_19 = ___prefix;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_20 = String_op_Equality_m2603(NULL /*static, unused*/, L_19, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
+		bool L_20 = String_op_Equality_m2603(NULL /*static, unused*/, L_19, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
 		if (!L_20)
 		{
 			goto IL_00d4;
 		}
 	}
 	{
-		___namespaceUri = (String_t*) &_stringLiteral2812;
+		___namespaceUri = (String_t*) &_stringLiteral2817;
 		goto IL_00f3;
 	}
 
@@ -24898,7 +24898,7 @@ IL_00d4:
 		}
 	}
 	{
-		___namespaceUri = (String_t*) &_stringLiteral2688;
+		___namespaceUri = (String_t*) &_stringLiteral2693;
 		goto IL_00f3;
 	}
 
@@ -24920,7 +24920,7 @@ IL_00f3:
 	{
 		String_t* L_25 = ___namespaceUri;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_26 = String_op_Inequality_m3461(NULL /*static, unused*/, L_25, (String_t*) &_stringLiteral2688, /*hidden argument*/NULL);
+		bool L_26 = String_op_Inequality_m3461(NULL /*static, unused*/, L_25, (String_t*) &_stringLiteral2693, /*hidden argument*/NULL);
 		if (!L_26)
 		{
 			goto IL_011f;
@@ -24928,7 +24928,7 @@ IL_00f3:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_27 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3056, (String_t*) &_stringLiteral2688, /*hidden argument*/NULL);
+		String_t* L_27 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3061, (String_t*) &_stringLiteral2693, /*hidden argument*/NULL);
 		Exception_t496 * L_28 = XmlTextWriter_ArgumentError_m13117(__this, L_27, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_28);
 	}
@@ -24976,7 +24976,7 @@ IL_011f:
 
 IL_0156:
 	{
-		Exception_t496 * L_39 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3047, /*hidden argument*/NULL);
+		Exception_t496 * L_39 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3052, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_39);
 	}
 
@@ -25074,7 +25074,7 @@ IL_01d2:
 	{
 		String_t* L_61 = ___prefix;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_62 = String_op_Equality_m2603(NULL /*static, unused*/, L_61, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
+		bool L_62 = String_op_Equality_m2603(NULL /*static, unused*/, L_61, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
 		if (!L_62)
 		{
 			goto IL_028b;
@@ -25127,7 +25127,7 @@ IL_0263:
 		__this->___is_preserved_xmlns_9 = 1;
 		String_t* L_70 = ___localName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_71 = String_op_Equality_m2603(NULL /*static, unused*/, L_70, (String_t*) &_stringLiteral2673, /*hidden argument*/NULL);
+		bool L_71 = String_op_Equality_m2603(NULL /*static, unused*/, L_70, (String_t*) &_stringLiteral2678, /*hidden argument*/NULL);
 		G_B51_0 = __this;
 		if (!L_71)
 		{
@@ -25390,7 +25390,7 @@ IL_002f:
 		ArrayElementTypeCheck (L_11, L_14);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 1)) = (Object_t *)L_14;
 		IL2CPP_RUNTIME_CLASS_INIT(StringUtil_t4144_il2cpp_TypeInfo_var);
-		String_t* L_15 = StringUtil_Format_m13073(NULL /*static, unused*/, (String_t*) &_stringLiteral3057, L_11, /*hidden argument*/NULL);
+		String_t* L_15 = StringUtil_Format_m13073(NULL /*static, unused*/, (String_t*) &_stringLiteral3062, L_11, /*hidden argument*/NULL);
 		V_0 = L_15;
 		Stack_t4066 * L_16 = (__this->___new_local_namespaces_23);
 		String_t* L_17 = V_0;
@@ -25484,7 +25484,7 @@ extern "C" void XmlTextWriter_WriteEndAttribute_m13096 (XmlTextWriter_t4148 * __
 		}
 	}
 	{
-		Exception_t496 * L_1 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3058, /*hidden argument*/NULL);
+		Exception_t496 * L_1 = XmlTextWriter_StateError_m13119(__this, (String_t*) &_stringLiteral3063, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -25529,7 +25529,7 @@ IL_0018:
 		}
 	}
 	{
-		Exception_t496 * L_12 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3059, /*hidden argument*/NULL);
+		Exception_t496 * L_12 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3064, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -25615,7 +25615,7 @@ IL_00b2:
 	{
 		String_t* L_36 = (__this->___preserved_name_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_37 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3060, L_36, /*hidden argument*/NULL);
+		String_t* L_37 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral3065, L_36, /*hidden argument*/NULL);
 		XmlException_t4099 * L_38 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
 		XmlException__ctor_m12612(L_38, L_37, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_38);
@@ -25706,10 +25706,10 @@ IL_0191:
 		V_3 = L_60;
 		Dictionary_2_t455 * L_61 = V_3;
 		NullCheck(L_61);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral2909, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral2914, 0);
 		Dictionary_2_t455 * L_62 = V_3;
 		NullCheck(L_62);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_62, (String_t*) &_stringLiteral2907, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_62, (String_t*) &_stringLiteral2912, 1);
 		Dictionary_2_t455 * L_63 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlTextWriter_t4148_il2cpp_TypeInfo_var);
 		((XmlTextWriter_t4148_StaticFields*)XmlTextWriter_t4148_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map54_35 = L_63;
@@ -25793,10 +25793,10 @@ IL_0219:
 		V_3 = L_77;
 		Dictionary_2_t455 * L_78 = V_3;
 		NullCheck(L_78);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_78, (String_t*) &_stringLiteral983, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_78, (String_t*) &_stringLiteral988, 0);
 		Dictionary_2_t455 * L_79 = V_3;
 		NullCheck(L_79);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_79, (String_t*) &_stringLiteral2945, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_79, (String_t*) &_stringLiteral2950, 1);
 		Dictionary_2_t455 * L_80 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlTextWriter_t4148_il2cpp_TypeInfo_var);
 		((XmlTextWriter_t4148_StaticFields*)XmlTextWriter_t4148_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map53_34 = L_80;
@@ -25880,7 +25880,7 @@ IL_02c0:
 
 IL_02c5:
 	{
-		Exception_t496 * L_94 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3061, /*hidden argument*/NULL);
+		Exception_t496 * L_94 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3066, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_94);
 	}
 
@@ -25925,7 +25925,7 @@ extern "C" void XmlTextWriter_WriteComment_m13097 (XmlTextWriter_t4148 * __this,
 		}
 	}
 	{
-		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3062, /*hidden argument*/NULL);
+		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3067, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -25952,7 +25952,7 @@ IL_0012:
 		}
 	}
 	{
-		Exception_t496 * L_8 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3063, /*hidden argument*/NULL);
+		Exception_t496 * L_8 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3068, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -25960,14 +25960,14 @@ IL_003f:
 	{
 		String_t* L_9 = ___text;
 		IL2CPP_RUNTIME_CLASS_INIT(StringUtil_t4144_il2cpp_TypeInfo_var);
-		int32_t L_10 = StringUtil_IndexOf_m13072(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral2429, /*hidden argument*/NULL);
+		int32_t L_10 = StringUtil_IndexOf_m13072(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral2434, /*hidden argument*/NULL);
 		if ((((int32_t)L_10) <= ((int32_t)0)))
 		{
 			goto IL_005c;
 		}
 	}
 	{
-		Exception_t496 * L_11 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3064, /*hidden argument*/NULL);
+		Exception_t496 * L_11 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3069, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_11);
 	}
 
@@ -25995,17 +25995,17 @@ IL_0074:
 IL_007a:
 	{
 		XmlTextWriter_WriteIndent_m13105(__this, /*hidden argument*/NULL);
-		XmlTextWriter_ShiftStateTopLevel_m13110(__this, (String_t*) &_stringLiteral3065, 0, 0, 0, /*hidden argument*/NULL);
+		XmlTextWriter_ShiftStateTopLevel_m13110(__this, (String_t*) &_stringLiteral3070, 0, 0, 0, /*hidden argument*/NULL);
 		TextWriter_t3796 * L_14 = (__this->___writer_6);
 		NullCheck(L_14);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_14, (String_t*) &_stringLiteral3066);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_14, (String_t*) &_stringLiteral3071);
 		TextWriter_t3796 * L_15 = (__this->___writer_6);
 		String_t* L_16 = ___text;
 		NullCheck(L_15);
 		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_15, L_16);
 		TextWriter_t3796 * L_17 = (__this->___writer_6);
 		NullCheck(L_17);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_17, (String_t*) &_stringLiteral3067);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_17, (String_t*) &_stringLiteral3072);
 		return;
 	}
 }
@@ -26031,7 +26031,7 @@ extern "C" void XmlTextWriter_WriteProcessingInstruction_m13098 (XmlTextWriter_t
 		}
 	}
 	{
-		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1523, /*hidden argument*/NULL);
+		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1528, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -26044,7 +26044,7 @@ IL_0012:
 		}
 	}
 	{
-		Exception_t496 * L_3 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3062, /*hidden argument*/NULL);
+		Exception_t496 * L_3 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3067, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -26060,7 +26060,7 @@ IL_0024:
 		}
 	}
 	{
-		Exception_t496 * L_6 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3068, /*hidden argument*/NULL);
+		Exception_t496 * L_6 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3073, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -26068,14 +26068,14 @@ IL_0041:
 	{
 		String_t* L_7 = ___text;
 		IL2CPP_RUNTIME_CLASS_INIT(StringUtil_t4144_il2cpp_TypeInfo_var);
-		int32_t L_8 = StringUtil_IndexOf_m13072(NULL /*static, unused*/, L_7, (String_t*) &_stringLiteral2805, /*hidden argument*/NULL);
+		int32_t L_8 = StringUtil_IndexOf_m13072(NULL /*static, unused*/, L_7, (String_t*) &_stringLiteral2810, /*hidden argument*/NULL);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
 		{
 			goto IL_005e;
 		}
 	}
 	{
-		Exception_t496 * L_9 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3069, /*hidden argument*/NULL);
+		Exception_t496 * L_9 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3074, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 
@@ -26083,11 +26083,11 @@ IL_005e:
 	{
 		String_t* L_10 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_11 = String_op_Equality_m2603(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral2796, /*hidden argument*/NULL);
-		XmlTextWriter_ShiftStateTopLevel_m13110(__this, (String_t*) &_stringLiteral3070, 0, L_11, 0, /*hidden argument*/NULL);
+		bool L_11 = String_op_Equality_m2603(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral2801, /*hidden argument*/NULL);
+		XmlTextWriter_ShiftStateTopLevel_m13110(__this, (String_t*) &_stringLiteral3075, 0, L_11, 0, /*hidden argument*/NULL);
 		TextWriter_t3796 * L_12 = (__this->___writer_6);
 		NullCheck(L_12);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, (String_t*) &_stringLiteral2666);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, (String_t*) &_stringLiteral2671);
 		TextWriter_t3796 * L_13 = (__this->___writer_6);
 		String_t* L_14 = ___name;
 		NullCheck(L_13);
@@ -26101,7 +26101,7 @@ IL_005e:
 		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_16, L_17);
 		TextWriter_t3796 * L_18 = (__this->___writer_6);
 		NullCheck(L_18);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_18, (String_t*) &_stringLiteral2805);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_18, (String_t*) &_stringLiteral2810);
 		int32_t L_19 = (__this->___state_18);
 		if (L_19)
 		{
@@ -26135,7 +26135,7 @@ extern "C" void XmlTextWriter_WriteWhitespace_m13099 (XmlTextWriter_t4148 * __th
 		}
 	}
 	{
-		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3062, /*hidden argument*/NULL);
+		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3067, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -26161,13 +26161,13 @@ IL_0012:
 
 IL_0029:
 	{
-		Exception_t496 * L_6 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3071, /*hidden argument*/NULL);
+		Exception_t496 * L_6 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3076, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
 IL_0035:
 	{
-		XmlTextWriter_ShiftStateTopLevel_m13110(__this, (String_t*) &_stringLiteral3072, 1, 0, 1, /*hidden argument*/NULL);
+		XmlTextWriter_ShiftStateTopLevel_m13110(__this, (String_t*) &_stringLiteral3077, 1, 0, 1, /*hidden argument*/NULL);
 		TextWriter_t3796 * L_7 = (__this->___writer_6);
 		String_t* L_8 = ___text;
 		NullCheck(L_7);
@@ -26202,17 +26202,17 @@ extern "C" void XmlTextWriter_WriteCData_m13100 (XmlTextWriter_t4148 * __this, S
 
 IL_000d:
 	{
-		XmlTextWriter_ShiftStateContent_m13112(__this, (String_t*) &_stringLiteral3073, 0, /*hidden argument*/NULL);
+		XmlTextWriter_ShiftStateContent_m13112(__this, (String_t*) &_stringLiteral3078, 0, /*hidden argument*/NULL);
 		String_t* L_2 = ___text;
 		IL2CPP_RUNTIME_CLASS_INIT(StringUtil_t4144_il2cpp_TypeInfo_var);
-		int32_t L_3 = StringUtil_IndexOf_m13072(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral3074, /*hidden argument*/NULL);
+		int32_t L_3 = StringUtil_IndexOf_m13072(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral3079, /*hidden argument*/NULL);
 		if ((((int32_t)L_3) < ((int32_t)0)))
 		{
 			goto IL_0036;
 		}
 	}
 	{
-		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3075, /*hidden argument*/NULL);
+		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3080, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -26220,12 +26220,12 @@ IL_0036:
 	{
 		TextWriter_t3796 * L_5 = (__this->___writer_6);
 		NullCheck(L_5);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_5, (String_t*) &_stringLiteral3076);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_5, (String_t*) &_stringLiteral3081);
 		String_t* L_6 = ___text;
 		XmlTextWriter_WriteCheckedString_m13114(__this, L_6, /*hidden argument*/NULL);
 		TextWriter_t3796 * L_7 = (__this->___writer_6);
 		NullCheck(L_7);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_7, (String_t*) &_stringLiteral3074);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_7, (String_t*) &_stringLiteral3079);
 		return;
 	}
 }
@@ -26263,7 +26263,7 @@ IL_001c:
 
 IL_001d:
 	{
-		XmlTextWriter_ShiftStateContent_m13112(__this, (String_t*) &_stringLiteral1039, 1, /*hidden argument*/NULL);
+		XmlTextWriter_ShiftStateContent_m13112(__this, (String_t*) &_stringLiteral1044, 1, /*hidden argument*/NULL);
 		String_t* L_4 = ___text;
 		int32_t L_5 = (__this->___state_18);
 		XmlTextWriter_WriteEscapedString_m13113(__this, L_4, ((((int32_t)L_5) == ((int32_t)3))? 1 : 0), /*hidden argument*/NULL);
@@ -26286,7 +26286,7 @@ extern "C" void XmlTextWriter_WriteRaw_m13102 (XmlTextWriter_t4148 * __this, Str
 
 IL_0007:
 	{
-		XmlTextWriter_ShiftStateTopLevel_m13110(__this, (String_t*) &_stringLiteral3077, 1, 1, 1, /*hidden argument*/NULL);
+		XmlTextWriter_ShiftStateTopLevel_m13110(__this, (String_t*) &_stringLiteral3082, 1, 1, 1, /*hidden argument*/NULL);
 		TextWriter_t3796 * L_1 = (__this->___writer_6);
 		String_t* L_2 = ___raw;
 		NullCheck(L_1);
@@ -26312,7 +26312,7 @@ extern "C" void XmlTextWriter_WriteEntityRef_m13103 (XmlTextWriter_t4148 * __thi
 		}
 	}
 	{
-		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1523, /*hidden argument*/NULL);
+		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1528, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -26327,13 +26327,13 @@ IL_0012:
 		}
 	}
 	{
-		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3078, /*hidden argument*/NULL);
+		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3083, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
 IL_0029:
 	{
-		XmlTextWriter_ShiftStateContent_m13112(__this, (String_t*) &_stringLiteral3079, 1, /*hidden argument*/NULL);
+		XmlTextWriter_ShiftStateContent_m13112(__this, (String_t*) &_stringLiteral3084, 1, /*hidden argument*/NULL);
 		TextWriter_t3796 * L_5 = (__this->___writer_6);
 		NullCheck(L_5);
 		VirtActionInvoker1< uint16_t >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.Char) */, L_5, ((int32_t)38));
@@ -26365,7 +26365,7 @@ extern "C" void XmlTextWriter_WriteName_m13104 (XmlTextWriter_t4148 * __this, St
 		}
 	}
 	{
-		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1523, /*hidden argument*/NULL);
+		Exception_t496 * L_1 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral1528, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -26380,7 +26380,7 @@ IL_0012:
 		}
 	}
 	{
-		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3080, /*hidden argument*/NULL);
+		Exception_t496 * L_4 = XmlTextWriter_ArgumentError_m13117(__this, (String_t*) &_stringLiteral3085, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -27025,7 +27025,7 @@ IL_000b:
 		int32_t L_10 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_7, L_9));
 		Object_t * L_11 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_10);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral3081, L_6, L_11, /*hidden argument*/NULL);
+		String_t* L_12 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral3086, L_6, L_11, /*hidden argument*/NULL);
 		Exception_t496 * L_13 = XmlTextWriter_ArgumentError_m13117(__this, L_12, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
@@ -27053,7 +27053,7 @@ IL_004c:
 	{
 		TextWriter_t3796 * L_21 = (__this->___writer_6);
 		NullCheck(L_21);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_21, (String_t*) &_stringLiteral3082);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_21, (String_t*) &_stringLiteral3087);
 		TextWriter_t3796 * L_22 = (__this->___writer_6);
 		CharU5BU5D_t583* L_23 = ___text;
 		int32_t L_24 = ___idx;
@@ -27063,7 +27063,7 @@ IL_004c:
 		V_2 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_23, L_25));
 		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t2012_il2cpp_TypeInfo_var);
 		CultureInfo_t2012 * L_26 = CultureInfo_get_InvariantCulture_m8934(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_27 = Int32_ToString_m13306((&V_2), (String_t*) &_stringLiteral964, L_26, /*hidden argument*/NULL);
+		String_t* L_27 = Int32_ToString_m13306((&V_2), (String_t*) &_stringLiteral969, L_26, /*hidden argument*/NULL);
 		NullCheck(L_22);
 		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_22, L_27);
 		TextWriter_t3796 * L_28 = (__this->___writer_6);
@@ -27302,7 +27302,7 @@ IL_00cb:
 	{
 		TextWriter_t3796 * L_22 = (__this->___writer_6);
 		NullCheck(L_22);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_22, (String_t*) &_stringLiteral3083);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_22, (String_t*) &_stringLiteral3088);
 		goto IL_0134;
 	}
 
@@ -27310,7 +27310,7 @@ IL_00e0:
 	{
 		TextWriter_t3796 * L_23 = (__this->___writer_6);
 		NullCheck(L_23);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_23, (String_t*) &_stringLiteral3084);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_23, (String_t*) &_stringLiteral3089);
 		goto IL_0134;
 	}
 
@@ -27318,7 +27318,7 @@ IL_00f5:
 	{
 		TextWriter_t3796 * L_24 = (__this->___writer_6);
 		NullCheck(L_24);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_24, (String_t*) &_stringLiteral3085);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_24, (String_t*) &_stringLiteral3090);
 		goto IL_0134;
 	}
 
@@ -27326,7 +27326,7 @@ IL_010a:
 	{
 		TextWriter_t3796 * L_25 = (__this->___writer_6);
 		NullCheck(L_25);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_25, (String_t*) &_stringLiteral3086);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_25, (String_t*) &_stringLiteral3091);
 		goto IL_0134;
 	}
 
@@ -27334,7 +27334,7 @@ IL_011f:
 	{
 		TextWriter_t3796 * L_26 = (__this->___writer_6);
 		NullCheck(L_26);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_26, (String_t*) &_stringLiteral3087);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::Write(System.String) */, L_26, (String_t*) &_stringLiteral3092);
 		goto IL_0134;
 	}
 
@@ -27442,14 +27442,14 @@ IL_0186:
 		}
 	}
 	{
-		G_B31_0 = (String_t*) &_stringLiteral3088;
+		G_B31_0 = (String_t*) &_stringLiteral3093;
 		G_B31_1 = G_B29_0;
 		goto IL_01ac;
 	}
 
 IL_01a7:
 	{
-		G_B31_0 = (String_t*) &_stringLiteral3089;
+		G_B31_0 = (String_t*) &_stringLiteral3094;
 		G_B31_1 = G_B30_0;
 	}
 
@@ -27497,14 +27497,14 @@ IL_01d2:
 		}
 	}
 	{
-		G_B38_0 = (String_t*) &_stringLiteral3088;
+		G_B38_0 = (String_t*) &_stringLiteral3093;
 		G_B38_1 = G_B36_0;
 		goto IL_01f1;
 	}
 
 IL_01ec:
 	{
-		G_B38_0 = (String_t*) &_stringLiteral3089;
+		G_B38_0 = (String_t*) &_stringLiteral3094;
 		G_B38_1 = G_B37_0;
 	}
 
@@ -27638,7 +27638,7 @@ extern "C" Exception_t496 * XmlTextWriter_StateError_m13119 (XmlTextWriter_t4148
 		int32_t L_2 = L_1;
 		Object_t * L_3 = Box(WriteState_t4077_il2cpp_TypeInfo_var, &L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral3090, L_0, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral3095, L_0, L_3, /*hidden argument*/NULL);
 		Exception_t496 * L_5 = XmlTextWriter_InvalidOperation_m13118(__this, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
@@ -27737,7 +27737,7 @@ IL_0012:
 	}
 	{
 		XmlException_t4099 * L_4 = (XmlException_t4099 *)il2cpp_codegen_object_new (XmlException_t4099_il2cpp_TypeInfo_var);
-		XmlException__ctor_m12612(L_4, (String_t*) &_stringLiteral3091, /*hidden argument*/NULL);
+		XmlException__ctor_m12612(L_4, (String_t*) &_stringLiteral3096, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -27753,7 +27753,7 @@ IL_002d:
 	}
 	{
 		ArgumentException_t725 * L_7 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m9205(L_7, (String_t*) &_stringLiteral3092, (String_t*) &_stringLiteral3093, /*hidden argument*/NULL);
+		ArgumentException__ctor_m9205(L_7, (String_t*) &_stringLiteral3097, (String_t*) &_stringLiteral3098, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -27763,7 +27763,7 @@ IL_0048:
 		NullCheck(L_8);
 		String_t* L_9 = Uri_get_Scheme_m13308(L_8, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_10 = String_op_Equality_m2603(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral2151, /*hidden argument*/NULL);
+		bool L_10 = String_op_Equality_m2603(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral2156, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_0097;
@@ -27783,7 +27783,7 @@ IL_0048:
 	}
 	{
 		ArgumentException_t725 * L_15 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m9205(L_15, (String_t*) &_stringLiteral3092, (String_t*) &_stringLiteral3093, /*hidden argument*/NULL);
+		ArgumentException__ctor_m9205(L_15, (String_t*) &_stringLiteral3097, (String_t*) &_stringLiteral3098, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_15);
 	}
 
@@ -27843,17 +27843,17 @@ extern "C" String_t* XmlUrlResolver_UnescapeRelativeUriBody_m13123 (XmlUrlResolv
 	{
 		String_t* L_0 = ___src;
 		NullCheck(L_0);
-		String_t* L_1 = String_Replace_m3757(L_0, (String_t*) &_stringLiteral2966, (String_t*) &_stringLiteral2030, /*hidden argument*/NULL);
+		String_t* L_1 = String_Replace_m3757(L_0, (String_t*) &_stringLiteral2971, (String_t*) &_stringLiteral2035, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		String_t* L_2 = String_Replace_m3757(L_1, (String_t*) &_stringLiteral2967, (String_t*) &_stringLiteral2027, /*hidden argument*/NULL);
+		String_t* L_2 = String_Replace_m3757(L_1, (String_t*) &_stringLiteral2972, (String_t*) &_stringLiteral2032, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		String_t* L_3 = String_Replace_m3757(L_2, (String_t*) &_stringLiteral2968, (String_t*) &_stringLiteral2114, /*hidden argument*/NULL);
+		String_t* L_3 = String_Replace_m3757(L_2, (String_t*) &_stringLiteral2973, (String_t*) &_stringLiteral2119, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		String_t* L_4 = String_Replace_m3757(L_3, (String_t*) &_stringLiteral2970, (String_t*) &_stringLiteral671, /*hidden argument*/NULL);
+		String_t* L_4 = String_Replace_m3757(L_3, (String_t*) &_stringLiteral2975, (String_t*) &_stringLiteral671, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		String_t* L_5 = String_Replace_m3757(L_4, (String_t*) &_stringLiteral887, (String_t*) &_stringLiteral68, /*hidden argument*/NULL);
+		String_t* L_5 = String_Replace_m3757(L_4, (String_t*) &_stringLiteral892, (String_t*) &_stringLiteral68, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		String_t* L_6 = String_Replace_m3757(L_5, (String_t*) &_stringLiteral2969, (String_t*) &_stringLiteral2032, /*hidden argument*/NULL);
+		String_t* L_6 = String_Replace_m3757(L_5, (String_t*) &_stringLiteral2974, (String_t*) &_stringLiteral2037, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
@@ -27881,14 +27881,14 @@ extern "C" void XmlWhitespace__ctor_m13124 (XmlWhitespace_t4152 * __this, String
 extern "C" String_t* XmlWhitespace_get_LocalName_m13125 (XmlWhitespace_t4152 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2908;
+		return (String_t*) &_stringLiteral2913;
 	}
 }
 // System.String System.Xml.XmlWhitespace::get_Name()
 extern "C" String_t* XmlWhitespace_get_Name_m13126 (XmlWhitespace_t4152 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2908;
+		return (String_t*) &_stringLiteral2913;
 	}
 }
 // System.Xml.XmlNodeType System.Xml.XmlWhitespace::get_NodeType()
@@ -27929,7 +27929,7 @@ extern "C" void XmlWhitespace_set_Value_m13129 (XmlWhitespace_t4152 * __this, St
 	}
 	{
 		ArgumentException_t725 * L_2 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_2, (String_t*) &_stringLiteral2889, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_2, (String_t*) &_stringLiteral2894, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -28655,10 +28655,10 @@ IL_0188:
 		String_t* L_54 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(15 /* System.String System.Xml.XmlReader::get_Name() */, L_53);
 		XmlReader_t3998 * L_55 = ___reader;
 		NullCheck(L_55);
-		String_t* L_56 = (String_t*)VirtFuncInvoker1< String_t*, String_t* >::Invoke(13 /* System.String System.Xml.XmlReader::get_Item(System.String) */, L_55, (String_t*) &_stringLiteral2787);
+		String_t* L_56 = (String_t*)VirtFuncInvoker1< String_t*, String_t* >::Invoke(13 /* System.String System.Xml.XmlReader::get_Item(System.String) */, L_55, (String_t*) &_stringLiteral2792);
 		XmlReader_t3998 * L_57 = ___reader;
 		NullCheck(L_57);
-		String_t* L_58 = (String_t*)VirtFuncInvoker1< String_t*, String_t* >::Invoke(13 /* System.String System.Xml.XmlReader::get_Item(System.String) */, L_57, (String_t*) &_stringLiteral2784);
+		String_t* L_58 = (String_t*)VirtFuncInvoker1< String_t*, String_t* >::Invoke(13 /* System.String System.Xml.XmlReader::get_Item(System.String) */, L_57, (String_t*) &_stringLiteral2789);
 		XmlReader_t3998 * L_59 = ___reader;
 		NullCheck(L_59);
 		String_t* L_60 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(23 /* System.String System.Xml.XmlReader::get_Value() */, L_59);
@@ -28701,8 +28701,8 @@ IL_01e0:
 		ObjectU5BU5D_t21* L_63 = ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, 4));
 		NullCheck(L_63);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_63, 0);
-		ArrayElementTypeCheck (L_63, (String_t*) &_stringLiteral3094);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_63, 0)) = (Object_t *)(String_t*) &_stringLiteral3094;
+		ArrayElementTypeCheck (L_63, (String_t*) &_stringLiteral3099);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_63, 0)) = (Object_t *)(String_t*) &_stringLiteral3099;
 		ObjectU5BU5D_t21* L_64 = L_63;
 		XmlReader_t3998 * L_65 = ___reader;
 		NullCheck(L_65);
@@ -28714,8 +28714,8 @@ IL_01e0:
 		ObjectU5BU5D_t21* L_67 = L_64;
 		NullCheck(L_67);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_67, 2);
-		ArrayElementTypeCheck (L_67, (String_t*) &_stringLiteral3095);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_67, 2)) = (Object_t *)(String_t*) &_stringLiteral3095;
+		ArrayElementTypeCheck (L_67, (String_t*) &_stringLiteral3100);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_67, 2)) = (Object_t *)(String_t*) &_stringLiteral3100;
 		ObjectU5BU5D_t21* L_68 = L_67;
 		XmlReader_t3998 * L_69 = ___reader;
 		NullCheck(L_69);

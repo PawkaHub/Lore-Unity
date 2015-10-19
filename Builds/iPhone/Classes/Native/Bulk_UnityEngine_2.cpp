@@ -468,7 +468,7 @@ IL_0025:
 
 IL_003d:
 	{
-		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral4216, /*hidden argument*/NULL);
+		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral4221, /*hidden argument*/NULL);
 		(&___settings)->___fontSize_2 = 0;
 		(&___settings)->___fontStyle_6 = 0;
 	}
@@ -482,7 +482,7 @@ IL_0057:
 		}
 	}
 	{
-		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral4217, /*hidden argument*/NULL);
+		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral4222, /*hidden argument*/NULL);
 		(&___settings)->___resizeTextForBestFit_8 = 0;
 	}
 
@@ -1199,7 +1199,7 @@ extern "C" void CanvasRenderer_SetVertices_m5334 (CanvasRenderer_t587 * __this, 
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		ArrayElementTypeCheck (L_2, L_4);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)L_4;
-		String_t* L_5 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4218, L_2, /*hidden argument*/NULL);
+		String_t* L_5 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4223, L_2, /*hidden argument*/NULL);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_5, __this, /*hidden argument*/NULL);
 		List_1_t588 * L_6 = ___vertices;
 		NullCheck(L_6);
@@ -1249,7 +1249,7 @@ extern "C" void CanvasRenderer_SetVertices_m3659 (CanvasRenderer_t587 * __this, 
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		ArrayElementTypeCheck (L_1, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)L_3;
-		String_t* L_4 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4218, L_1, /*hidden argument*/NULL);
+		String_t* L_4 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4223, L_1, /*hidden argument*/NULL);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_4, __this, /*hidden argument*/NULL);
 		___size = 0;
 	}
@@ -1921,7 +1921,7 @@ extern "C" String_t* Request_ToString_m17541 (Request_t4790 * __this, const Meth
 		uint64_t L_4 = L_3;
 		Object_t * L_5 = Box(SourceID_t4808_il2cpp_TypeInfo_var, &L_4);
 		NullCheck(L_5);
-		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_6);
@@ -1931,7 +1931,7 @@ extern "C" String_t* Request_ToString_m17541 (Request_t4790 * __this, const Meth
 		uint64_t L_9 = L_8;
 		Object_t * L_10 = Box(AppID_t4807_il2cpp_TypeInfo_var, &L_9);
 		NullCheck(L_10);
-		String_t* L_11 = Enum_ToString_m18014(L_10, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_11 = Enum_ToString_m18014(L_10, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 2);
 		ArrayElementTypeCheck (L_7, L_11);
@@ -1944,7 +1944,7 @@ extern "C" String_t* Request_ToString_m17541 (Request_t4790 * __this, const Meth
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 3);
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 3)) = (Object_t *)L_15;
-		String_t* L_16 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4219, L_12, /*hidden argument*/NULL);
+		String_t* L_16 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4224, L_12, /*hidden argument*/NULL);
 		return L_16;
 	}
 }
@@ -2008,7 +2008,7 @@ IL_0015:
 	{
 		String_t* L_4 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Concat_m105(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral4220, /*hidden argument*/NULL);
+		String_t* L_5 = String_Concat_m105(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral4225, /*hidden argument*/NULL);
 		FormatException_t4176 * L_6 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_6, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
@@ -2051,7 +2051,7 @@ IL_0015:
 	{
 		String_t* L_5 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Concat_m105(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4220, /*hidden argument*/NULL);
+		String_t* L_6 = String_Concat_m105(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4225, /*hidden argument*/NULL);
 		FormatException_t4176 * L_7 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_7, L_6, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
@@ -2094,7 +2094,7 @@ IL_0015:
 	{
 		String_t* L_5 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Concat_m105(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4220, /*hidden argument*/NULL);
+		String_t* L_6 = String_Concat_m105(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4225, /*hidden argument*/NULL);
 		FormatException_t4176 * L_7 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_7, L_6, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
@@ -2137,7 +2137,7 @@ IL_0015:
 	{
 		String_t* L_5 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Concat_m105(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4220, /*hidden argument*/NULL);
+		String_t* L_6 = String_Concat_m105(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4225, /*hidden argument*/NULL);
 		FormatException_t4176 * L_7 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_7, L_6, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
@@ -2180,7 +2180,7 @@ IL_0015:
 	{
 		String_t* L_5 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Concat_m105(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4220, /*hidden argument*/NULL);
+		String_t* L_6 = String_Concat_m105(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4225, /*hidden argument*/NULL);
 		FormatException_t4176 * L_7 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_7, L_6, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
@@ -2271,7 +2271,7 @@ extern "C" String_t* Response_ToString_m17553 (Response_t4792 * __this, const Me
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 2);
 		ArrayElementTypeCheck (L_6, L_7);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 2)) = (Object_t *)L_7;
-		String_t* L_8 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4221, L_6, /*hidden argument*/NULL);
+		String_t* L_8 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4226, L_6, /*hidden argument*/NULL);
 		return L_8;
 	}
 }
@@ -2302,11 +2302,11 @@ extern "C" void Response_Parse_m17554 (Response_t4792 * __this, Object_t * ___ob
 	{
 		Object_t * L_2 = ___obj;
 		Object_t* L_3 = V_0;
-		bool L_4 = ResponseBase_ParseJSONBool_m17547(__this, (String_t*) &_stringLiteral1358, L_2, L_3, /*hidden argument*/NULL);
+		bool L_4 = ResponseBase_ParseJSONBool_m17547(__this, (String_t*) &_stringLiteral1363, L_2, L_3, /*hidden argument*/NULL);
 		Response_set_success_m17550(__this, L_4, /*hidden argument*/NULL);
 		Object_t * L_5 = ___obj;
 		Object_t* L_6 = V_0;
-		String_t* L_7 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4222, L_5, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4227, L_5, L_6, /*hidden argument*/NULL);
 		Response_set_extendedInfo_m17552(__this, L_7, /*hidden argument*/NULL);
 		bool L_8 = Response_get_success_m17549(__this, /*hidden argument*/NULL);
 		if (L_8)
@@ -2317,7 +2317,7 @@ extern "C" void Response_Parse_m17554 (Response_t4792 * __this, Object_t * ___ob
 	{
 		String_t* L_9 = Response_get_extendedInfo_m17551(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4223, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4228, L_9, /*hidden argument*/NULL);
 		FormatException_t4176 * L_11 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_11, L_10, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_11);
@@ -2527,18 +2527,18 @@ extern "C" String_t* CreateMatchRequest_ToString_m17566 (CreateMatchRequest_t479
 		G_B1_0 = 4;
 		G_B1_1 = L_12;
 		G_B1_2 = L_12;
-		G_B1_3 = (String_t*) &_stringLiteral4224;
+		G_B1_3 = (String_t*) &_stringLiteral4229;
 		if (!L_15)
 		{
 			G_B2_0 = 4;
 			G_B2_1 = L_12;
 			G_B2_2 = L_12;
-			G_B2_3 = (String_t*) &_stringLiteral4224;
+			G_B2_3 = (String_t*) &_stringLiteral4229;
 			goto IL_005a;
 		}
 	}
 	{
-		G_B3_0 = (String_t*) &_stringLiteral2871;
+		G_B3_0 = (String_t*) &_stringLiteral2876;
 		G_B3_1 = G_B1_0;
 		G_B3_2 = G_B1_1;
 		G_B3_3 = G_B1_2;
@@ -2548,7 +2548,7 @@ extern "C" String_t* CreateMatchRequest_ToString_m17566 (CreateMatchRequest_t479
 
 IL_005a:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral2870;
+		G_B3_0 = (String_t*) &_stringLiteral2875;
 		G_B3_1 = G_B2_0;
 		G_B3_2 = G_B2_1;
 		G_B3_3 = G_B2_2;
@@ -2777,7 +2777,7 @@ extern "C" String_t* CreateMatchResponse_ToString_m17580 (CreateMatchResponse_t4
 		uint64_t L_10 = L_9;
 		Object_t * L_11 = Box(NetworkID_t4809_il2cpp_TypeInfo_var, &L_10);
 		NullCheck(L_11);
-		String_t* L_12 = Enum_ToString_m18014(L_11, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_12 = Enum_ToString_m18014(L_11, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 3);
 		ArrayElementTypeCheck (L_8, L_12);
@@ -2787,7 +2787,7 @@ extern "C" String_t* CreateMatchResponse_ToString_m17580 (CreateMatchResponse_t4
 		uint16_t L_15 = L_14;
 		Object_t * L_16 = Box(NodeID_t4810_il2cpp_TypeInfo_var, &L_15);
 		NullCheck(L_16);
-		String_t* L_17 = Enum_ToString_m18014(L_16, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_17 = Enum_ToString_m18014(L_16, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 4);
 		ArrayElementTypeCheck (L_13, L_17);
@@ -2800,7 +2800,7 @@ extern "C" String_t* CreateMatchResponse_ToString_m17580 (CreateMatchResponse_t4
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, 5);
 		ArrayElementTypeCheck (L_18, L_21);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 5)) = (Object_t *)L_21;
-		String_t* L_22 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4225, L_18, /*hidden argument*/NULL);
+		String_t* L_22 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4230, L_18, /*hidden argument*/NULL);
 		return L_22;
 	}
 }
@@ -2833,27 +2833,27 @@ extern "C" void CreateMatchResponse_Parse_m17581 (CreateMatchResponse_t4796 * __
 	{
 		Object_t * L_3 = ___obj;
 		Object_t* L_4 = V_0;
-		String_t* L_5 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral3264, L_3, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral3269, L_3, L_4, /*hidden argument*/NULL);
 		CreateMatchResponse_set_address_m17569(__this, L_5, /*hidden argument*/NULL);
 		Object_t * L_6 = ___obj;
 		Object_t* L_7 = V_0;
-		int32_t L_8 = ResponseBase_ParseJSONInt32_m17544(__this, (String_t*) &_stringLiteral4226, L_6, L_7, /*hidden argument*/NULL);
+		int32_t L_8 = ResponseBase_ParseJSONInt32_m17544(__this, (String_t*) &_stringLiteral4231, L_6, L_7, /*hidden argument*/NULL);
 		CreateMatchResponse_set_port_m17571(__this, L_8, /*hidden argument*/NULL);
 		Object_t * L_9 = ___obj;
 		Object_t* L_10 = V_0;
-		uint64_t L_11 = ResponseBase_ParseJSONUInt64_m17546(__this, (String_t*) &_stringLiteral4227, L_9, L_10, /*hidden argument*/NULL);
+		uint64_t L_11 = ResponseBase_ParseJSONUInt64_m17546(__this, (String_t*) &_stringLiteral4232, L_9, L_10, /*hidden argument*/NULL);
 		CreateMatchResponse_set_networkId_m17573(__this, L_11, /*hidden argument*/NULL);
 		Object_t * L_12 = ___obj;
 		Object_t* L_13 = V_0;
-		String_t* L_14 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4228, L_12, L_13, /*hidden argument*/NULL);
+		String_t* L_14 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4233, L_12, L_13, /*hidden argument*/NULL);
 		CreateMatchResponse_set_accessTokenString_m17575(__this, L_14, /*hidden argument*/NULL);
 		Object_t * L_15 = ___obj;
 		Object_t* L_16 = V_0;
-		uint16_t L_17 = ResponseBase_ParseJSONUInt16_m17545(__this, (String_t*) &_stringLiteral4229, L_15, L_16, /*hidden argument*/NULL);
+		uint16_t L_17 = ResponseBase_ParseJSONUInt16_m17545(__this, (String_t*) &_stringLiteral4234, L_15, L_16, /*hidden argument*/NULL);
 		CreateMatchResponse_set_nodeId_m17577(__this, L_17, /*hidden argument*/NULL);
 		Object_t * L_18 = ___obj;
 		Object_t* L_19 = V_0;
-		bool L_20 = ResponseBase_ParseJSONBool_m17547(__this, (String_t*) &_stringLiteral4230, L_18, L_19, /*hidden argument*/NULL);
+		bool L_20 = ResponseBase_ParseJSONBool_m17547(__this, (String_t*) &_stringLiteral4235, L_18, L_19, /*hidden argument*/NULL);
 		CreateMatchResponse_set_usingRelay_m17579(__this, L_20, /*hidden argument*/NULL);
 		goto IL_00a1;
 	}
@@ -2864,7 +2864,7 @@ IL_008b:
 		NullCheck(L_21);
 		String_t* L_22 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_21);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_23 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4231, L_22, /*hidden argument*/NULL);
+		String_t* L_23 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4236, L_22, /*hidden argument*/NULL);
 		FormatException_t4176 * L_24 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_24, L_23, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
@@ -2966,7 +2966,7 @@ extern "C" String_t* JoinMatchRequest_ToString_m17587 (JoinMatchRequest_t4797 * 
 		uint64_t L_4 = L_3;
 		Object_t * L_5 = Box(NetworkID_t4809_il2cpp_TypeInfo_var, &L_4);
 		NullCheck(L_5);
-		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_6);
@@ -2979,18 +2979,18 @@ extern "C" String_t* JoinMatchRequest_ToString_m17587 (JoinMatchRequest_t4797 * 
 		G_B1_0 = 2;
 		G_B1_1 = L_7;
 		G_B1_2 = L_7;
-		G_B1_3 = (String_t*) &_stringLiteral4232;
+		G_B1_3 = (String_t*) &_stringLiteral4237;
 		if (!L_10)
 		{
 			G_B2_0 = 2;
 			G_B2_1 = L_7;
 			G_B2_2 = L_7;
-			G_B2_3 = (String_t*) &_stringLiteral4232;
+			G_B2_3 = (String_t*) &_stringLiteral4237;
 			goto IL_004d;
 		}
 	}
 	{
-		G_B3_0 = (String_t*) &_stringLiteral2871;
+		G_B3_0 = (String_t*) &_stringLiteral2876;
 		G_B3_1 = G_B1_0;
 		G_B3_2 = G_B1_1;
 		G_B3_3 = G_B1_2;
@@ -3000,7 +3000,7 @@ extern "C" String_t* JoinMatchRequest_ToString_m17587 (JoinMatchRequest_t4797 * 
 
 IL_004d:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral2870;
+		G_B3_0 = (String_t*) &_stringLiteral2875;
 		G_B3_1 = G_B2_0;
 		G_B3_2 = G_B2_1;
 		G_B3_3 = G_B2_2;
@@ -3181,7 +3181,7 @@ extern "C" String_t* JoinMatchResponse_ToString_m17601 (JoinMatchResponse_t4798 
 		uint64_t L_10 = L_9;
 		Object_t * L_11 = Box(NetworkID_t4809_il2cpp_TypeInfo_var, &L_10);
 		NullCheck(L_11);
-		String_t* L_12 = Enum_ToString_m18014(L_11, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_12 = Enum_ToString_m18014(L_11, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 3);
 		ArrayElementTypeCheck (L_8, L_12);
@@ -3191,7 +3191,7 @@ extern "C" String_t* JoinMatchResponse_ToString_m17601 (JoinMatchResponse_t4798 
 		uint16_t L_15 = L_14;
 		Object_t * L_16 = Box(NodeID_t4810_il2cpp_TypeInfo_var, &L_15);
 		NullCheck(L_16);
-		String_t* L_17 = Enum_ToString_m18014(L_16, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_17 = Enum_ToString_m18014(L_16, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 4);
 		ArrayElementTypeCheck (L_13, L_17);
@@ -3204,7 +3204,7 @@ extern "C" String_t* JoinMatchResponse_ToString_m17601 (JoinMatchResponse_t4798 
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, 5);
 		ArrayElementTypeCheck (L_18, L_21);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 5)) = (Object_t *)L_21;
-		String_t* L_22 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4225, L_18, /*hidden argument*/NULL);
+		String_t* L_22 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4230, L_18, /*hidden argument*/NULL);
 		return L_22;
 	}
 }
@@ -3237,27 +3237,27 @@ extern "C" void JoinMatchResponse_Parse_m17602 (JoinMatchResponse_t4798 * __this
 	{
 		Object_t * L_3 = ___obj;
 		Object_t* L_4 = V_0;
-		String_t* L_5 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral3264, L_3, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral3269, L_3, L_4, /*hidden argument*/NULL);
 		JoinMatchResponse_set_address_m17590(__this, L_5, /*hidden argument*/NULL);
 		Object_t * L_6 = ___obj;
 		Object_t* L_7 = V_0;
-		int32_t L_8 = ResponseBase_ParseJSONInt32_m17544(__this, (String_t*) &_stringLiteral4226, L_6, L_7, /*hidden argument*/NULL);
+		int32_t L_8 = ResponseBase_ParseJSONInt32_m17544(__this, (String_t*) &_stringLiteral4231, L_6, L_7, /*hidden argument*/NULL);
 		JoinMatchResponse_set_port_m17592(__this, L_8, /*hidden argument*/NULL);
 		Object_t * L_9 = ___obj;
 		Object_t* L_10 = V_0;
-		uint64_t L_11 = ResponseBase_ParseJSONUInt64_m17546(__this, (String_t*) &_stringLiteral4227, L_9, L_10, /*hidden argument*/NULL);
+		uint64_t L_11 = ResponseBase_ParseJSONUInt64_m17546(__this, (String_t*) &_stringLiteral4232, L_9, L_10, /*hidden argument*/NULL);
 		JoinMatchResponse_set_networkId_m17594(__this, L_11, /*hidden argument*/NULL);
 		Object_t * L_12 = ___obj;
 		Object_t* L_13 = V_0;
-		String_t* L_14 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4228, L_12, L_13, /*hidden argument*/NULL);
+		String_t* L_14 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4233, L_12, L_13, /*hidden argument*/NULL);
 		JoinMatchResponse_set_accessTokenString_m17596(__this, L_14, /*hidden argument*/NULL);
 		Object_t * L_15 = ___obj;
 		Object_t* L_16 = V_0;
-		uint16_t L_17 = ResponseBase_ParseJSONUInt16_m17545(__this, (String_t*) &_stringLiteral4229, L_15, L_16, /*hidden argument*/NULL);
+		uint16_t L_17 = ResponseBase_ParseJSONUInt16_m17545(__this, (String_t*) &_stringLiteral4234, L_15, L_16, /*hidden argument*/NULL);
 		JoinMatchResponse_set_nodeId_m17598(__this, L_17, /*hidden argument*/NULL);
 		Object_t * L_18 = ___obj;
 		Object_t* L_19 = V_0;
-		bool L_20 = ResponseBase_ParseJSONBool_m17547(__this, (String_t*) &_stringLiteral4230, L_18, L_19, /*hidden argument*/NULL);
+		bool L_20 = ResponseBase_ParseJSONBool_m17547(__this, (String_t*) &_stringLiteral4235, L_18, L_19, /*hidden argument*/NULL);
 		JoinMatchResponse_set_usingRelay_m17600(__this, L_20, /*hidden argument*/NULL);
 		goto IL_00a1;
 	}
@@ -3268,7 +3268,7 @@ IL_008b:
 		NullCheck(L_21);
 		String_t* L_22 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_21);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_23 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4231, L_22, /*hidden argument*/NULL);
+		String_t* L_23 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4236, L_22, /*hidden argument*/NULL);
 		FormatException_t4176 * L_24 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_24, L_23, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
@@ -3338,12 +3338,12 @@ extern "C" String_t* DestroyMatchRequest_ToString_m17606 (DestroyMatchRequest_t4
 		uint64_t L_4 = L_3;
 		Object_t * L_5 = Box(NetworkID_t4809_il2cpp_TypeInfo_var, &L_4);
 		NullCheck(L_5);
-		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_6);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)L_6;
-		String_t* L_7 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4233, L_2, /*hidden argument*/NULL);
+		String_t* L_7 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4238, L_2, /*hidden argument*/NULL);
 		return L_7;
 	}
 }
@@ -3425,7 +3425,7 @@ extern "C" String_t* DropConnectionRequest_ToString_m17612 (DropConnectionReques
 		uint64_t L_4 = L_3;
 		Object_t * L_5 = Box(NetworkID_t4809_il2cpp_TypeInfo_var, &L_4);
 		NullCheck(L_5);
-		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_6);
@@ -3435,12 +3435,12 @@ extern "C" String_t* DropConnectionRequest_ToString_m17612 (DropConnectionReques
 		uint16_t L_9 = L_8;
 		Object_t * L_10 = Box(NodeID_t4810_il2cpp_TypeInfo_var, &L_9);
 		NullCheck(L_10);
-		String_t* L_11 = Enum_ToString_m18014(L_10, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_11 = Enum_ToString_m18014(L_10, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 2);
 		ArrayElementTypeCheck (L_7, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 2)) = (Object_t *)L_11;
-		String_t* L_12 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4234, L_7, /*hidden argument*/NULL);
+		String_t* L_12 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4239, L_7, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -3601,13 +3601,13 @@ extern "C" String_t* ListMatchRequest_ToString_m17622 (ListMatchRequest_t4801 * 
 		G_B1_0 = 4;
 		G_B1_1 = L_12;
 		G_B1_2 = L_12;
-		G_B1_3 = (String_t*) &_stringLiteral4235;
+		G_B1_3 = (String_t*) &_stringLiteral4240;
 		if (L_13)
 		{
 			G_B2_0 = 4;
 			G_B2_1 = L_12;
 			G_B2_2 = L_12;
-			G_B2_3 = (String_t*) &_stringLiteral4235;
+			G_B2_3 = (String_t*) &_stringLiteral4240;
 			goto IL_004c;
 		}
 	}
@@ -3796,7 +3796,7 @@ extern "C" String_t* MatchDirectConnectInfo_ToString_m17630 (MatchDirectConnectI
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 3);
 		ArrayElementTypeCheck (L_8, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 3)) = (Object_t *)L_9;
-		String_t* L_10 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4236, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4241, L_8, /*hidden argument*/NULL);
 		return L_10;
 	}
 }
@@ -3827,15 +3827,15 @@ extern "C" void MatchDirectConnectInfo_Parse_m17631 (MatchDirectConnectInfo_t480
 	{
 		Object_t * L_2 = ___obj;
 		Object_t* L_3 = V_0;
-		uint16_t L_4 = ResponseBase_ParseJSONUInt16_m17545(__this, (String_t*) &_stringLiteral4229, L_2, L_3, /*hidden argument*/NULL);
+		uint16_t L_4 = ResponseBase_ParseJSONUInt16_m17545(__this, (String_t*) &_stringLiteral4234, L_2, L_3, /*hidden argument*/NULL);
 		MatchDirectConnectInfo_set_nodeId_m17625(__this, L_4, /*hidden argument*/NULL);
 		Object_t * L_5 = ___obj;
 		Object_t* L_6 = V_0;
-		String_t* L_7 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4237, L_5, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4242, L_5, L_6, /*hidden argument*/NULL);
 		MatchDirectConnectInfo_set_publicAddress_m17627(__this, L_7, /*hidden argument*/NULL);
 		Object_t * L_8 = ___obj;
 		Object_t* L_9 = V_0;
-		String_t* L_10 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4238, L_8, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral4243, L_8, L_9, /*hidden argument*/NULL);
 		MatchDirectConnectInfo_set_privateAddress_m17629(__this, L_10, /*hidden argument*/NULL);
 		goto IL_0061;
 	}
@@ -3846,7 +3846,7 @@ IL_004b:
 		NullCheck(L_11);
 		String_t* L_12 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_11);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4231, L_12, /*hidden argument*/NULL);
+		String_t* L_13 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4236, L_12, /*hidden argument*/NULL);
 		FormatException_t4176 * L_14 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_14, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
@@ -4063,7 +4063,7 @@ extern "C" String_t* MatchDesc_ToString_m17648 (MatchDesc_t4804 * __this, const 
 		uint64_t L_4 = L_3;
 		Object_t * L_5 = Box(NetworkID_t4809_il2cpp_TypeInfo_var, &L_4);
 		NullCheck(L_5);
-		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		String_t* L_6 = Enum_ToString_m18014(L_5, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_6);
@@ -4111,13 +4111,13 @@ extern "C" String_t* MatchDesc_ToString_m17648 (MatchDesc_t4804 * __this, const 
 		G_B1_0 = 7;
 		G_B1_1 = L_25;
 		G_B1_2 = L_25;
-		G_B1_3 = (String_t*) &_stringLiteral4239;
+		G_B1_3 = (String_t*) &_stringLiteral4244;
 		if (L_26)
 		{
 			G_B2_0 = 7;
 			G_B2_1 = L_25;
 			G_B2_2 = L_25;
-			G_B2_3 = (String_t*) &_stringLiteral4239;
+			G_B2_3 = (String_t*) &_stringLiteral4244;
 			goto IL_0081;
 		}
 	}
@@ -4193,27 +4193,27 @@ extern "C" void MatchDesc_Parse_m17649 (MatchDesc_t4804 * __this, Object_t * ___
 	{
 		Object_t * L_2 = ___obj;
 		Object_t* L_3 = V_0;
-		uint64_t L_4 = ResponseBase_ParseJSONUInt64_m17546(__this, (String_t*) &_stringLiteral4227, L_2, L_3, /*hidden argument*/NULL);
+		uint64_t L_4 = ResponseBase_ParseJSONUInt64_m17546(__this, (String_t*) &_stringLiteral4232, L_2, L_3, /*hidden argument*/NULL);
 		MatchDesc_set_networkId_m17634(__this, L_4, /*hidden argument*/NULL);
 		Object_t * L_5 = ___obj;
 		Object_t* L_6 = V_0;
-		String_t* L_7 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral1523, L_5, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = ResponseBase_ParseJSONString_m17543(__this, (String_t*) &_stringLiteral1528, L_5, L_6, /*hidden argument*/NULL);
 		MatchDesc_set_name_m17636(__this, L_7, /*hidden argument*/NULL);
 		Object_t * L_8 = ___obj;
 		Object_t* L_9 = V_0;
-		int32_t L_10 = ResponseBase_ParseJSONInt32_m17544(__this, (String_t*) &_stringLiteral4240, L_8, L_9, /*hidden argument*/NULL);
+		int32_t L_10 = ResponseBase_ParseJSONInt32_m17544(__this, (String_t*) &_stringLiteral4245, L_8, L_9, /*hidden argument*/NULL);
 		MatchDesc_set_maxSize_m17639(__this, L_10, /*hidden argument*/NULL);
 		Object_t * L_11 = ___obj;
 		Object_t* L_12 = V_0;
-		int32_t L_13 = ResponseBase_ParseJSONInt32_m17544(__this, (String_t*) &_stringLiteral4241, L_11, L_12, /*hidden argument*/NULL);
+		int32_t L_13 = ResponseBase_ParseJSONInt32_m17544(__this, (String_t*) &_stringLiteral4246, L_11, L_12, /*hidden argument*/NULL);
 		MatchDesc_set_currentSize_m17641(__this, L_13, /*hidden argument*/NULL);
 		Object_t * L_14 = ___obj;
 		Object_t* L_15 = V_0;
-		bool L_16 = ResponseBase_ParseJSONBool_m17547(__this, (String_t*) &_stringLiteral4242, L_14, L_15, /*hidden argument*/NULL);
+		bool L_16 = ResponseBase_ParseJSONBool_m17547(__this, (String_t*) &_stringLiteral4247, L_14, L_15, /*hidden argument*/NULL);
 		MatchDesc_set_isPrivate_m17643(__this, L_16, /*hidden argument*/NULL);
 		Object_t * L_17 = ___obj;
 		Object_t* L_18 = V_0;
-		List_1_t4803 * L_19 = ResponseBase_ParseJSONList_TisMatchDirectConnectInfo_t4802_m18019(__this, (String_t*) &_stringLiteral4243, L_17, L_18, /*hidden argument*/ResponseBase_ParseJSONList_TisMatchDirectConnectInfo_t4802_m18019_MethodInfo_var);
+		List_1_t4803 * L_19 = ResponseBase_ParseJSONList_TisMatchDirectConnectInfo_t4802_m18019(__this, (String_t*) &_stringLiteral4248, L_17, L_18, /*hidden argument*/ResponseBase_ParseJSONList_TisMatchDirectConnectInfo_t4802_m18019_MethodInfo_var);
 		MatchDesc_set_directConnectInfos_m17647(__this, L_19, /*hidden argument*/NULL);
 		goto IL_009a;
 	}
@@ -4224,7 +4224,7 @@ IL_0084:
 		NullCheck(L_20);
 		String_t* L_21 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_20);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4231, L_21, /*hidden argument*/NULL);
+		String_t* L_22 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4236, L_21, /*hidden argument*/NULL);
 		FormatException_t4176 * L_23 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_23, L_22, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
@@ -4311,7 +4311,7 @@ extern "C" String_t* ListMatchResponse_ToString_m17653 (ListMatchResponse_t4806 
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_6);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)L_6;
-		String_t* L_7 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4244, L_2, /*hidden argument*/NULL);
+		String_t* L_7 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4249, L_2, /*hidden argument*/NULL);
 		return L_7;
 	}
 }
@@ -4346,7 +4346,7 @@ extern "C" void ListMatchResponse_Parse_m17654 (ListMatchResponse_t4806 * __this
 	{
 		Object_t * L_3 = ___obj;
 		Object_t* L_4 = V_0;
-		List_1_t4805 * L_5 = ResponseBase_ParseJSONList_TisMatchDesc_t4804_m18021(__this, (String_t*) &_stringLiteral4245, L_3, L_4, /*hidden argument*/ResponseBase_ParseJSONList_TisMatchDesc_t4804_m18021_MethodInfo_var);
+		List_1_t4805 * L_5 = ResponseBase_ParseJSONList_TisMatchDesc_t4804_m18021(__this, (String_t*) &_stringLiteral4250, L_3, L_4, /*hidden argument*/ResponseBase_ParseJSONList_TisMatchDesc_t4804_m18021_MethodInfo_var);
 		ListMatchResponse_set_matches_m17652(__this, L_5, /*hidden argument*/NULL);
 		goto IL_0042;
 	}
@@ -4357,7 +4357,7 @@ IL_002c:
 		NullCheck(L_6);
 		String_t* L_7 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_6);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4231, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4236, L_7, /*hidden argument*/NULL);
 		FormatException_t4176 * L_9 = (FormatException_t4176 *)il2cpp_codegen_object_new (FormatException_t4176_il2cpp_TypeInfo_var);
 		FormatException__ctor_m13236(L_9, L_8, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
@@ -4689,10 +4689,10 @@ extern "C" void NetworkMatch__ctor_m17662 (NetworkMatch_t4814 * __this, const Me
 	uint64_t V_1 = 0;
 	{
 		Uri_t32 * L_0 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m9048(L_0, (String_t*) &_stringLiteral4246, /*hidden argument*/NULL);
+		Uri__ctor_m9048(L_0, (String_t*) &_stringLiteral4251, /*hidden argument*/NULL);
 		__this->___m_BaseUri_3 = L_0;
 		MonoBehaviour__ctor_m2585(__this, /*hidden argument*/NULL);
-		String_t* L_1 = PlayerPrefs_GetString_m2909(NULL /*static, unused*/, (String_t*) &_stringLiteral4247, /*hidden argument*/NULL);
+		String_t* L_1 = PlayerPrefs_GetString_m2909(NULL /*static, unused*/, (String_t*) &_stringLiteral4252, /*hidden argument*/NULL);
 		V_0 = L_1;
 		String_t* L_2 = V_0;
 		bool L_3 = UInt64_TryParse_m18028(NULL /*static, unused*/, L_2, (&V_1), /*hidden argument*/NULL);
@@ -4702,7 +4702,7 @@ extern "C" void NetworkMatch__ctor_m17662 (NetworkMatch_t4814 * __this, const Me
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral4248, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral4253, /*hidden argument*/NULL);
 		goto IL_0044;
 	}
 
@@ -4820,11 +4820,11 @@ extern "C" Coroutine_t589 * NetworkMatch_CreateMatch_m17667 (NetworkMatch_t4814 
 	{
 		Uri_t32 * L_0 = NetworkMatch_get_baseUri_m17663(__this, /*hidden argument*/NULL);
 		Uri_t32 * L_1 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4249, /*hidden argument*/NULL);
+		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4254, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Uri_t32 * L_2 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4250, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4255, L_2, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_4 = (WWWForm_t4742 *)il2cpp_codegen_object_new (WWWForm_t4742_il2cpp_TypeInfo_var);
 		WWWForm__ctor_m17177(L_4, /*hidden argument*/NULL);
@@ -4837,7 +4837,7 @@ extern "C" Coroutine_t589 * NetworkMatch_CreateMatch_m17667 (NetworkMatch_t4814 
 		NullCheck(L_8);
 		String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_8);
 		NullCheck(L_5);
-		WWWForm_AddField_m17178(L_5, (String_t*) &_stringLiteral4251, L_9, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_5, (String_t*) &_stringLiteral4256, L_9, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_10 = V_1;
 		uint64_t L_11 = Utility_GetAppID_m17660(NULL /*static, unused*/, /*hidden argument*/NULL);
 		uint64_t L_12 = L_11;
@@ -4845,19 +4845,19 @@ extern "C" Coroutine_t589 * NetworkMatch_CreateMatch_m17667 (NetworkMatch_t4814 
 		NullCheck(L_13);
 		String_t* L_14 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_13);
 		NullCheck(L_10);
-		WWWForm_AddField_m17178(L_10, (String_t*) &_stringLiteral4252, L_14, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_10, (String_t*) &_stringLiteral4257, L_14, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_15 = V_1;
 		NullCheck(L_15);
-		WWWForm_AddField_m17180(L_15, (String_t*) &_stringLiteral4228, 0, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_15, (String_t*) &_stringLiteral4233, 0, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_16 = V_1;
 		NullCheck(L_16);
-		WWWForm_AddField_m17180(L_16, (String_t*) &_stringLiteral4253, 0, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_16, (String_t*) &_stringLiteral4258, 0, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_17 = V_1;
 		CreateMatchRequest_t4795 * L_18 = ___req;
 		NullCheck(L_18);
 		String_t* L_19 = CreateMatchRequest_get_name_m17557(L_18, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		WWWForm_AddField_m17178(L_17, (String_t*) &_stringLiteral1523, L_19, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_17, (String_t*) &_stringLiteral1528, L_19, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_20 = V_1;
 		CreateMatchRequest_t4795 * L_21 = ___req;
 		NullCheck(L_21);
@@ -4865,7 +4865,7 @@ extern "C" Coroutine_t589 * NetworkMatch_CreateMatch_m17667 (NetworkMatch_t4814 
 		V_3 = L_22;
 		String_t* L_23 = UInt32_ToString_m18029((&V_3), /*hidden argument*/NULL);
 		NullCheck(L_20);
-		WWWForm_AddField_m17178(L_20, (String_t*) &_stringLiteral3176, L_23, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_20, (String_t*) &_stringLiteral3181, L_23, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_24 = V_1;
 		CreateMatchRequest_t4795 * L_25 = ___req;
 		NullCheck(L_25);
@@ -4873,18 +4873,18 @@ extern "C" Coroutine_t589 * NetworkMatch_CreateMatch_m17667 (NetworkMatch_t4814 
 		V_4 = L_26;
 		String_t* L_27 = Boolean_ToString_m7651((&V_4), /*hidden argument*/NULL);
 		NullCheck(L_24);
-		WWWForm_AddField_m17178(L_24, (String_t*) &_stringLiteral4254, L_27, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_24, (String_t*) &_stringLiteral4259, L_27, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_28 = V_1;
 		CreateMatchRequest_t4795 * L_29 = ___req;
 		NullCheck(L_29);
 		String_t* L_30 = CreateMatchRequest_get_password_m17563(L_29, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		WWWForm_AddField_m17178(L_28, (String_t*) &_stringLiteral1947, L_30, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_28, (String_t*) &_stringLiteral1952, L_30, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_31 = V_1;
 		NullCheck(L_31);
 		Dictionary_2_t1444 * L_32 = WWWForm_get_headers_m17181(L_31, /*hidden argument*/NULL);
 		NullCheck(L_32);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_32, (String_t*) &_stringLiteral4255, (String_t*) &_stringLiteral1570);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_32, (String_t*) &_stringLiteral4260, (String_t*) &_stringLiteral1575);
 		Uri_t32 * L_33 = V_0;
 		NullCheck(L_33);
 		String_t* L_34 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_33);
@@ -4960,11 +4960,11 @@ extern "C" Coroutine_t589 * NetworkMatch_JoinMatch_m17669 (NetworkMatch_t4814 * 
 	{
 		Uri_t32 * L_0 = NetworkMatch_get_baseUri_m17663(__this, /*hidden argument*/NULL);
 		Uri_t32 * L_1 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4256, /*hidden argument*/NULL);
+		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4261, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Uri_t32 * L_2 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4257, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4262, L_2, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_4 = (WWWForm_t4742 *)il2cpp_codegen_object_new (WWWForm_t4742_il2cpp_TypeInfo_var);
 		WWWForm__ctor_m17177(L_4, /*hidden argument*/NULL);
@@ -4977,7 +4977,7 @@ extern "C" Coroutine_t589 * NetworkMatch_JoinMatch_m17669 (NetworkMatch_t4814 * 
 		NullCheck(L_8);
 		String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_8);
 		NullCheck(L_5);
-		WWWForm_AddField_m17178(L_5, (String_t*) &_stringLiteral4251, L_9, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_5, (String_t*) &_stringLiteral4256, L_9, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_10 = V_1;
 		uint64_t L_11 = Utility_GetAppID_m17660(NULL /*static, unused*/, /*hidden argument*/NULL);
 		uint64_t L_12 = L_11;
@@ -4985,13 +4985,13 @@ extern "C" Coroutine_t589 * NetworkMatch_JoinMatch_m17669 (NetworkMatch_t4814 * 
 		NullCheck(L_13);
 		String_t* L_14 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_13);
 		NullCheck(L_10);
-		WWWForm_AddField_m17178(L_10, (String_t*) &_stringLiteral4252, L_14, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_10, (String_t*) &_stringLiteral4257, L_14, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_15 = V_1;
 		NullCheck(L_15);
-		WWWForm_AddField_m17180(L_15, (String_t*) &_stringLiteral4228, 0, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_15, (String_t*) &_stringLiteral4233, 0, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_16 = V_1;
 		NullCheck(L_16);
-		WWWForm_AddField_m17180(L_16, (String_t*) &_stringLiteral4253, 0, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_16, (String_t*) &_stringLiteral4258, 0, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_17 = V_1;
 		JoinMatchRequest_t4797 * L_18 = ___req;
 		NullCheck(L_18);
@@ -5001,18 +5001,18 @@ extern "C" Coroutine_t589 * NetworkMatch_JoinMatch_m17669 (NetworkMatch_t4814 * 
 		NullCheck(L_21);
 		String_t* L_22 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_21);
 		NullCheck(L_17);
-		WWWForm_AddField_m17178(L_17, (String_t*) &_stringLiteral4227, L_22, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_17, (String_t*) &_stringLiteral4232, L_22, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_23 = V_1;
 		JoinMatchRequest_t4797 * L_24 = ___req;
 		NullCheck(L_24);
 		String_t* L_25 = JoinMatchRequest_get_password_m17585(L_24, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		WWWForm_AddField_m17178(L_23, (String_t*) &_stringLiteral1947, L_25, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_23, (String_t*) &_stringLiteral1952, L_25, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_26 = V_1;
 		NullCheck(L_26);
 		Dictionary_2_t1444 * L_27 = WWWForm_get_headers_m17181(L_26, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_27, (String_t*) &_stringLiteral4255, (String_t*) &_stringLiteral1570);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_27, (String_t*) &_stringLiteral4260, (String_t*) &_stringLiteral1575);
 		Uri_t32 * L_28 = V_0;
 		NullCheck(L_28);
 		String_t* L_29 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_28);
@@ -5084,13 +5084,13 @@ extern "C" Coroutine_t589 * NetworkMatch_DestroyMatch_m17671 (NetworkMatch_t4814
 	{
 		Uri_t32 * L_0 = NetworkMatch_get_baseUri_m17663(__this, /*hidden argument*/NULL);
 		Uri_t32 * L_1 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4258, /*hidden argument*/NULL);
+		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4263, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Uri_t32 * L_2 = V_0;
 		NullCheck(L_2);
 		String_t* L_3 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4259, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4264, L_3, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_5 = (WWWForm_t4742 *)il2cpp_codegen_object_new (WWWForm_t4742_il2cpp_TypeInfo_var);
 		WWWForm__ctor_m17177(L_5, /*hidden argument*/NULL);
@@ -5103,7 +5103,7 @@ extern "C" Coroutine_t589 * NetworkMatch_DestroyMatch_m17671 (NetworkMatch_t4814
 		NullCheck(L_9);
 		String_t* L_10 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_9);
 		NullCheck(L_6);
-		WWWForm_AddField_m17178(L_6, (String_t*) &_stringLiteral4251, L_10, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_6, (String_t*) &_stringLiteral4256, L_10, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_11 = V_1;
 		uint64_t L_12 = Utility_GetAppID_m17660(NULL /*static, unused*/, /*hidden argument*/NULL);
 		uint64_t L_13 = L_12;
@@ -5111,7 +5111,7 @@ extern "C" Coroutine_t589 * NetworkMatch_DestroyMatch_m17671 (NetworkMatch_t4814
 		NullCheck(L_14);
 		String_t* L_15 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_14);
 		NullCheck(L_11);
-		WWWForm_AddField_m17178(L_11, (String_t*) &_stringLiteral4252, L_15, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_11, (String_t*) &_stringLiteral4257, L_15, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_16 = V_1;
 		DestroyMatchRequest_t4799 * L_17 = ___req;
 		NullCheck(L_17);
@@ -5120,10 +5120,10 @@ extern "C" Coroutine_t589 * NetworkMatch_DestroyMatch_m17671 (NetworkMatch_t4814
 		NullCheck(L_19);
 		String_t* L_20 = NetworkAccessToken_GetByteString_m17656(L_19, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		WWWForm_AddField_m17178(L_16, (String_t*) &_stringLiteral4228, L_20, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_16, (String_t*) &_stringLiteral4233, L_20, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_21 = V_1;
 		NullCheck(L_21);
-		WWWForm_AddField_m17180(L_21, (String_t*) &_stringLiteral4253, 0, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_21, (String_t*) &_stringLiteral4258, 0, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_22 = V_1;
 		DestroyMatchRequest_t4799 * L_23 = ___req;
 		NullCheck(L_23);
@@ -5133,12 +5133,12 @@ extern "C" Coroutine_t589 * NetworkMatch_DestroyMatch_m17671 (NetworkMatch_t4814
 		NullCheck(L_26);
 		String_t* L_27 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_26);
 		NullCheck(L_22);
-		WWWForm_AddField_m17178(L_22, (String_t*) &_stringLiteral4227, L_27, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_22, (String_t*) &_stringLiteral4232, L_27, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_28 = V_1;
 		NullCheck(L_28);
 		Dictionary_2_t1444 * L_29 = WWWForm_get_headers_m17181(L_28, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_29, (String_t*) &_stringLiteral4255, (String_t*) &_stringLiteral1570);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_29, (String_t*) &_stringLiteral4260, (String_t*) &_stringLiteral1575);
 		Uri_t32 * L_30 = V_0;
 		NullCheck(L_30);
 		String_t* L_31 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_30);
@@ -5216,11 +5216,11 @@ extern "C" Coroutine_t589 * NetworkMatch_DropConnection_m17673 (NetworkMatch_t48
 	{
 		Uri_t32 * L_0 = NetworkMatch_get_baseUri_m17663(__this, /*hidden argument*/NULL);
 		Uri_t32 * L_1 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4260, /*hidden argument*/NULL);
+		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4265, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Uri_t32 * L_2 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4261, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4266, L_2, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_4 = (WWWForm_t4742 *)il2cpp_codegen_object_new (WWWForm_t4742_il2cpp_TypeInfo_var);
 		WWWForm__ctor_m17177(L_4, /*hidden argument*/NULL);
@@ -5233,7 +5233,7 @@ extern "C" Coroutine_t589 * NetworkMatch_DropConnection_m17673 (NetworkMatch_t48
 		NullCheck(L_8);
 		String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_8);
 		NullCheck(L_5);
-		WWWForm_AddField_m17178(L_5, (String_t*) &_stringLiteral4251, L_9, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_5, (String_t*) &_stringLiteral4256, L_9, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_10 = V_1;
 		uint64_t L_11 = Utility_GetAppID_m17660(NULL /*static, unused*/, /*hidden argument*/NULL);
 		uint64_t L_12 = L_11;
@@ -5241,7 +5241,7 @@ extern "C" Coroutine_t589 * NetworkMatch_DropConnection_m17673 (NetworkMatch_t48
 		NullCheck(L_13);
 		String_t* L_14 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_13);
 		NullCheck(L_10);
-		WWWForm_AddField_m17178(L_10, (String_t*) &_stringLiteral4252, L_14, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_10, (String_t*) &_stringLiteral4257, L_14, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_15 = V_1;
 		DropConnectionRequest_t4800 * L_16 = ___req;
 		NullCheck(L_16);
@@ -5250,10 +5250,10 @@ extern "C" Coroutine_t589 * NetworkMatch_DropConnection_m17673 (NetworkMatch_t48
 		NullCheck(L_18);
 		String_t* L_19 = NetworkAccessToken_GetByteString_m17656(L_18, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		WWWForm_AddField_m17178(L_15, (String_t*) &_stringLiteral4228, L_19, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_15, (String_t*) &_stringLiteral4233, L_19, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_20 = V_1;
 		NullCheck(L_20);
-		WWWForm_AddField_m17180(L_20, (String_t*) &_stringLiteral4253, 0, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_20, (String_t*) &_stringLiteral4258, 0, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_21 = V_1;
 		DropConnectionRequest_t4800 * L_22 = ___req;
 		NullCheck(L_22);
@@ -5263,7 +5263,7 @@ extern "C" Coroutine_t589 * NetworkMatch_DropConnection_m17673 (NetworkMatch_t48
 		NullCheck(L_25);
 		String_t* L_26 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_25);
 		NullCheck(L_21);
-		WWWForm_AddField_m17178(L_21, (String_t*) &_stringLiteral4227, L_26, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_21, (String_t*) &_stringLiteral4232, L_26, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_27 = V_1;
 		DropConnectionRequest_t4800 * L_28 = ___req;
 		NullCheck(L_28);
@@ -5273,12 +5273,12 @@ extern "C" Coroutine_t589 * NetworkMatch_DropConnection_m17673 (NetworkMatch_t48
 		NullCheck(L_31);
 		String_t* L_32 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_31);
 		NullCheck(L_27);
-		WWWForm_AddField_m17178(L_27, (String_t*) &_stringLiteral4229, L_32, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_27, (String_t*) &_stringLiteral4234, L_32, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_33 = V_1;
 		NullCheck(L_33);
 		Dictionary_2_t1444 * L_34 = WWWForm_get_headers_m17181(L_33, /*hidden argument*/NULL);
 		NullCheck(L_34);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_34, (String_t*) &_stringLiteral4255, (String_t*) &_stringLiteral1570);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_34, (String_t*) &_stringLiteral4260, (String_t*) &_stringLiteral1575);
 		Uri_t32 * L_35 = V_0;
 		NullCheck(L_35);
 		String_t* L_36 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_35);
@@ -5356,11 +5356,11 @@ extern "C" Coroutine_t589 * NetworkMatch_ListMatches_m17675 (NetworkMatch_t4814 
 	{
 		Uri_t32 * L_0 = NetworkMatch_get_baseUri_m17663(__this, /*hidden argument*/NULL);
 		Uri_t32 * L_1 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4262, /*hidden argument*/NULL);
+		Uri__ctor_m8893(L_1, L_0, (String_t*) &_stringLiteral4267, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Uri_t32 * L_2 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4263, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4268, L_2, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_4 = (WWWForm_t4742 *)il2cpp_codegen_object_new (WWWForm_t4742_il2cpp_TypeInfo_var);
 		WWWForm__ctor_m17177(L_4, /*hidden argument*/NULL);
@@ -5373,7 +5373,7 @@ extern "C" Coroutine_t589 * NetworkMatch_ListMatches_m17675 (NetworkMatch_t4814 
 		NullCheck(L_8);
 		String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_8);
 		NullCheck(L_5);
-		WWWForm_AddField_m17178(L_5, (String_t*) &_stringLiteral4251, L_9, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_5, (String_t*) &_stringLiteral4256, L_9, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_10 = V_1;
 		uint64_t L_11 = Utility_GetAppID_m17660(NULL /*static, unused*/, /*hidden argument*/NULL);
 		uint64_t L_12 = L_11;
@@ -5381,36 +5381,36 @@ extern "C" Coroutine_t589 * NetworkMatch_ListMatches_m17675 (NetworkMatch_t4814 
 		NullCheck(L_13);
 		String_t* L_14 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_13);
 		NullCheck(L_10);
-		WWWForm_AddField_m17178(L_10, (String_t*) &_stringLiteral4252, L_14, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_10, (String_t*) &_stringLiteral4257, L_14, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_15 = V_1;
 		NullCheck(L_15);
-		WWWForm_AddField_m17180(L_15, (String_t*) &_stringLiteral4228, 0, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_15, (String_t*) &_stringLiteral4233, 0, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_16 = V_1;
 		NullCheck(L_16);
-		WWWForm_AddField_m17180(L_16, (String_t*) &_stringLiteral4253, 0, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_16, (String_t*) &_stringLiteral4258, 0, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_17 = V_1;
 		ListMatchRequest_t4801 * L_18 = ___req;
 		NullCheck(L_18);
 		int32_t L_19 = ListMatchRequest_get_pageSize_m17614(L_18, /*hidden argument*/NULL);
 		NullCheck(L_17);
-		WWWForm_AddField_m17180(L_17, (String_t*) &_stringLiteral4264, L_19, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_17, (String_t*) &_stringLiteral4269, L_19, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_20 = V_1;
 		ListMatchRequest_t4801 * L_21 = ___req;
 		NullCheck(L_21);
 		int32_t L_22 = ListMatchRequest_get_pageNum_m17616(L_21, /*hidden argument*/NULL);
 		NullCheck(L_20);
-		WWWForm_AddField_m17180(L_20, (String_t*) &_stringLiteral4265, L_22, /*hidden argument*/NULL);
+		WWWForm_AddField_m17180(L_20, (String_t*) &_stringLiteral4270, L_22, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_23 = V_1;
 		ListMatchRequest_t4801 * L_24 = ___req;
 		NullCheck(L_24);
 		String_t* L_25 = ListMatchRequest_get_nameFilter_m17618(L_24, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		WWWForm_AddField_m17178(L_23, (String_t*) &_stringLiteral4266, L_25, /*hidden argument*/NULL);
+		WWWForm_AddField_m17178(L_23, (String_t*) &_stringLiteral4271, L_25, /*hidden argument*/NULL);
 		WWWForm_t4742 * L_26 = V_1;
 		NullCheck(L_26);
 		Dictionary_2_t1444 * L_27 = WWWForm_get_headers_m17181(L_26, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_27, (String_t*) &_stringLiteral4255, (String_t*) &_stringLiteral1570);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_27, (String_t*) &_stringLiteral4260, (String_t*) &_stringLiteral1575);
 		Uri_t32 * L_28 = V_0;
 		NullCheck(L_28);
 		String_t* L_29 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_28);
@@ -5770,7 +5770,7 @@ extern "C" void JsonObject_CopyTo_m17691 (JsonObject_t4816 * __this, KeyValuePai
 	}
 	{
 		ArgumentNullException_t731 * L_1 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral2015, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral2020, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -6810,7 +6810,7 @@ IL_0169:
 		String_t* L_65 = (String_t*)il2cpp_codegen_object_new (String_t_il2cpp_TypeInfo_var);
 		L_65 = String_CreateString_m11383(L_65, L_63, (*((int32_t*)L_64)), 2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_66 = String_op_Equality_m2603(NULL /*static, unused*/, L_65, (String_t*) &_stringLiteral1479, /*hidden argument*/NULL);
+		bool L_66 = String_op_Equality_m2603(NULL /*static, unused*/, L_65, (String_t*) &_stringLiteral1484, /*hidden argument*/NULL);
 		if (!L_66)
 		{
 			goto IL_0205;
@@ -6961,7 +6961,7 @@ extern "C" String_t* SimpleJson_ConvertFromUtf32_m17704 (Object_t * __this /* st
 IL_0012:
 	{
 		ArgumentOutOfRangeException_t1703 * L_2 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m9088(L_2, (String_t*) &_stringLiteral4271, (String_t*) &_stringLiteral4272, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m9088(L_2, (String_t*) &_stringLiteral4276, (String_t*) &_stringLiteral4277, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -6982,7 +6982,7 @@ IL_0022:
 	}
 	{
 		ArgumentOutOfRangeException_t1703 * L_5 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m9088(L_5, (String_t*) &_stringLiteral4271, (String_t*) &_stringLiteral4273, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m9088(L_5, (String_t*) &_stringLiteral4276, (String_t*) &_stringLiteral4278, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -7070,7 +7070,7 @@ extern "C" Object_t * SimpleJson_ParseNumber_m17705 (Object_t * __this /* static
 	{
 		String_t* L_13 = V_3;
 		NullCheck(L_13);
-		int32_t L_14 = String_IndexOf_m15425(L_13, (String_t*) &_stringLiteral4274, 5, /*hidden argument*/NULL);
+		int32_t L_14 = String_IndexOf_m15425(L_13, (String_t*) &_stringLiteral4279, 5, /*hidden argument*/NULL);
 		if ((((int32_t)L_14) == ((int32_t)(-1))))
 		{
 			goto IL_006e;
@@ -7140,8 +7140,8 @@ IL_0007:
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, L_2);
 		int32_t L_3 = L_2;
-		NullCheck((String_t*) &_stringLiteral4275);
-		int32_t L_4 = String_IndexOf_m3553((String_t*) &_stringLiteral4275, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_1, L_3)), /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral4280);
+		int32_t L_4 = String_IndexOf_m3553((String_t*) &_stringLiteral4280, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_1, L_3)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_4) == ((uint32_t)(-1)))))
 		{
 			goto IL_001f;
@@ -7188,8 +7188,8 @@ IL_0005:
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, (*((int32_t*)L_1)));
 		int32_t L_2 = (*((int32_t*)L_1));
-		NullCheck((String_t*) &_stringLiteral4276);
-		int32_t L_3 = String_IndexOf_m3553((String_t*) &_stringLiteral4276, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_0, L_2)), /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral4281);
+		int32_t L_3 = String_IndexOf_m3553((String_t*) &_stringLiteral4281, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_0, L_2)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)(-1)))))
 		{
 			goto IL_001e;
@@ -7800,14 +7800,14 @@ IL_009e:
 		}
 	}
 	{
-		G_B14_0 = (String_t*) &_stringLiteral1330;
+		G_B14_0 = (String_t*) &_stringLiteral1335;
 		G_B14_1 = G_B12_0;
 		goto IL_00c4;
 	}
 
 IL_00bf:
 	{
-		G_B14_0 = (String_t*) &_stringLiteral1126;
+		G_B14_0 = (String_t*) &_stringLiteral1131;
 		G_B14_1 = G_B13_0;
 	}
 
@@ -7882,7 +7882,7 @@ extern "C" bool SimpleJson_SerializeObject_m17711 (Object_t * __this /* static, 
 	{
 		StringBuilder_t696 * L_0 = ___builder;
 		NullCheck(L_0);
-		StringBuilder_Append_m3049(L_0, (String_t*) &_stringLiteral1408, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_0, (String_t*) &_stringLiteral1413, /*hidden argument*/NULL);
 		Object_t * L_1 = ___keys;
 		NullCheck(L_1);
 		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t746_il2cpp_TypeInfo_var, L_1);
@@ -7914,7 +7914,7 @@ IL_0021:
 	{
 		StringBuilder_t696 * L_10 = ___builder;
 		NullCheck(L_10);
-		StringBuilder_Append_m3049(L_10, (String_t*) &_stringLiteral1293, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_10, (String_t*) &_stringLiteral1298, /*hidden argument*/NULL);
 	}
 
 IL_0042:
@@ -7996,7 +7996,7 @@ IL_00a3:
 	{
 		StringBuilder_t696 * L_28 = ___builder;
 		NullCheck(L_28);
-		StringBuilder_Append_m3049(L_28, (String_t*) &_stringLiteral2046, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_28, (String_t*) &_stringLiteral2051, /*hidden argument*/NULL);
 		return 1;
 	}
 }
@@ -8028,7 +8028,7 @@ extern "C" bool SimpleJson_SerializeArray_m17712 (Object_t * __this /* static, u
 	{
 		StringBuilder_t696 * L_0 = ___builder;
 		NullCheck(L_0);
-		StringBuilder_Append_m3049(L_0, (String_t*) &_stringLiteral1011, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_0, (String_t*) &_stringLiteral1016, /*hidden argument*/NULL);
 		V_0 = 1;
 		Object_t * L_1 = ___anArray;
 		NullCheck(L_1);
@@ -8060,7 +8060,7 @@ IL_0027:
 		{
 			StringBuilder_t696 * L_6 = ___builder;
 			NullCheck(L_6);
-			StringBuilder_Append_m3049(L_6, (String_t*) &_stringLiteral1293, /*hidden argument*/NULL);
+			StringBuilder_Append_m3049(L_6, (String_t*) &_stringLiteral1298, /*hidden argument*/NULL);
 		}
 
 IL_0033:
@@ -8189,7 +8189,7 @@ IL_001a:
 	{
 		StringBuilder_t696 * L_7 = ___builder;
 		NullCheck(L_7);
-		StringBuilder_Append_m3049(L_7, (String_t*) &_stringLiteral1149, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_7, (String_t*) &_stringLiteral1154, /*hidden argument*/NULL);
 		goto IL_00d4;
 	}
 
@@ -8204,7 +8204,7 @@ IL_0037:
 	{
 		StringBuilder_t696 * L_9 = ___builder;
 		NullCheck(L_9);
-		StringBuilder_Append_m3049(L_9, (String_t*) &_stringLiteral1474, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_9, (String_t*) &_stringLiteral1479, /*hidden argument*/NULL);
 		goto IL_00d4;
 	}
 
@@ -8219,7 +8219,7 @@ IL_0050:
 	{
 		StringBuilder_t696 * L_11 = ___builder;
 		NullCheck(L_11);
-		StringBuilder_Append_m3049(L_11, (String_t*) &_stringLiteral1475, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_11, (String_t*) &_stringLiteral1480, /*hidden argument*/NULL);
 		goto IL_00d4;
 	}
 
@@ -8234,7 +8234,7 @@ IL_0068:
 	{
 		StringBuilder_t696 * L_13 = ___builder;
 		NullCheck(L_13);
-		StringBuilder_Append_m3049(L_13, (String_t*) &_stringLiteral1476, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_13, (String_t*) &_stringLiteral1481, /*hidden argument*/NULL);
 		goto IL_00d4;
 	}
 
@@ -8249,7 +8249,7 @@ IL_0081:
 	{
 		StringBuilder_t696 * L_15 = ___builder;
 		NullCheck(L_15);
-		StringBuilder_Append_m3049(L_15, (String_t*) &_stringLiteral1150, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_15, (String_t*) &_stringLiteral1155, /*hidden argument*/NULL);
 		goto IL_00d4;
 	}
 
@@ -8264,7 +8264,7 @@ IL_009a:
 	{
 		StringBuilder_t696 * L_17 = ___builder;
 		NullCheck(L_17);
-		StringBuilder_Append_m3049(L_17, (String_t*) &_stringLiteral1477, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_17, (String_t*) &_stringLiteral1482, /*hidden argument*/NULL);
 		goto IL_00d4;
 	}
 
@@ -8279,7 +8279,7 @@ IL_00b3:
 	{
 		StringBuilder_t696 * L_19 = ___builder;
 		NullCheck(L_19);
-		StringBuilder_Append_m3049(L_19, (String_t*) &_stringLiteral1478, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_19, (String_t*) &_stringLiteral1483, /*hidden argument*/NULL);
 		goto IL_00d4;
 	}
 
@@ -8474,7 +8474,7 @@ IL_00fe:
 		double L_33 = Convert_ToDouble_m18035(NULL /*static, unused*/, L_31, L_32, /*hidden argument*/NULL);
 		V_6 = L_33;
 		CultureInfo_t2012 * L_34 = CultureInfo_get_InvariantCulture_m8934(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_35 = Double_ToString_m13262((&V_6), (String_t*) &_stringLiteral2166, L_34, /*hidden argument*/NULL);
+		String_t* L_35 = Double_ToString_m13262((&V_6), (String_t*) &_stringLiteral2171, L_34, /*hidden argument*/NULL);
 		NullCheck(L_30);
 		StringBuilder_Append_m3049(L_30, L_35, /*hidden argument*/NULL);
 	}
@@ -8899,18 +8899,18 @@ extern "C" void PocoJsonSerializerStrategy__cctor_m17719 (Object_t * __this /* s
 		StringU5BU5D_t20* L_2 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 3));
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral4277);
-		*((String_t**)(String_t**)SZArrayLdElema(L_2, 0)) = (String_t*)(String_t*) &_stringLiteral4277;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral4282);
+		*((String_t**)(String_t**)SZArrayLdElema(L_2, 0)) = (String_t*)(String_t*) &_stringLiteral4282;
 		StringU5BU5D_t20* L_3 = L_2;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 1);
-		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral4278);
-		*((String_t**)(String_t**)SZArrayLdElema(L_3, 1)) = (String_t*)(String_t*) &_stringLiteral4278;
+		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral4283);
+		*((String_t**)(String_t**)SZArrayLdElema(L_3, 1)) = (String_t*)(String_t*) &_stringLiteral4283;
 		StringU5BU5D_t20* L_4 = L_3;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 2);
-		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral4279);
-		*((String_t**)(String_t**)SZArrayLdElema(L_4, 2)) = (String_t*)(String_t*) &_stringLiteral4279;
+		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral4284);
+		*((String_t**)(String_t**)SZArrayLdElema(L_4, 2)) = (String_t*)(String_t*) &_stringLiteral4284;
 		((PocoJsonSerializerStrategy_t4818_StaticFields*)PocoJsonSerializerStrategy_t4818_il2cpp_TypeInfo_var->static_fields)->___Iso8601Format_5 = L_4;
 		return;
 	}
@@ -9724,7 +9724,7 @@ IL_006c:
 		Object_t ** L_17 = ___output;
 		Object_t * L_18 = ___input;
 		V_6 = ((*(Guid_t1979 *)((Guid_t1979 *)UnBox (L_18, Guid_t1979_il2cpp_TypeInfo_var))));
-		String_t* L_19 = Guid_ToString_m18047((&V_6), (String_t*) &_stringLiteral2866, /*hidden argument*/NULL);
+		String_t* L_19 = Guid_ToString_m18047((&V_6), (String_t*) &_stringLiteral2871, /*hidden argument*/NULL);
 		*((Object_t **)(L_17)) = (Object_t *)L_19;
 		goto IL_00ca;
 	}
@@ -9825,7 +9825,7 @@ extern "C" bool PocoJsonSerializerStrategy_TrySerializeUnknownTypes_m17727 (Poco
 	}
 	{
 		ArgumentNullException_t731 * L_1 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral2163, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral2168, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -11739,7 +11739,7 @@ extern "C" void GcUserProfileData_AddToArray_m17780 (GcUserProfileData_t4841 * _
 
 IL_0020:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral4280, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral4285, /*hidden argument*/NULL);
 	}
 
 IL_002a:
@@ -12138,7 +12138,7 @@ extern "C" String_t* Resolution_ToString_m17790 (Resolution_t4845 * __this, cons
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 2);
 		ArrayElementTypeCheck (L_8, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 2)) = (Object_t *)L_11;
-		String_t* L_12 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4281, L_8, /*hidden argument*/NULL);
+		String_t* L_12 = UnityString_Format_m17192(NULL /*static, unused*/, (String_t*) &_stringLiteral4286, L_8, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -12354,8 +12354,8 @@ extern "C" void UserProfile__ctor_m17798 (UserProfile_t4853 * __this, const Meth
 	}
 	{
 		Object__ctor_m85(__this, /*hidden argument*/NULL);
-		__this->___m_UserName_0 = (String_t*) &_stringLiteral4282;
-		__this->___m_ID_1 = (String_t*) &_stringLiteral1125;
+		__this->___m_UserName_0 = (String_t*) &_stringLiteral4287;
+		__this->___m_ID_1 = (String_t*) &_stringLiteral1130;
 		__this->___m_IsFriend_2 = 0;
 		__this->___m_State_3 = 3;
 		Texture2D_t90 * L_0 = (Texture2D_t90 *)il2cpp_codegen_object_new (Texture2D_t90_il2cpp_TypeInfo_var);
@@ -12408,8 +12408,8 @@ extern "C" String_t* UserProfile_ToString_m17800 (UserProfile_t4853 * __this, co
 		ObjectU5BU5D_t21* L_2 = L_0;
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_3 = L_2;
 		String_t* L_4 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String UnityEngine.SocialPlatforms.Impl.UserProfile::get_userName() */, __this);
 		NullCheck(L_3);
@@ -12419,8 +12419,8 @@ extern "C" String_t* UserProfile_ToString_m17800 (UserProfile_t4853 * __this, co
 		ObjectU5BU5D_t21* L_5 = L_3;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 3);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 3)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 3)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_6 = L_5;
 		bool L_7 = (bool)VirtFuncInvoker0< bool >::Invoke(6 /* System.Boolean UnityEngine.SocialPlatforms.Impl.UserProfile::get_isFriend() */, __this);
 		bool L_8 = L_7;
@@ -12432,8 +12432,8 @@ extern "C" String_t* UserProfile_ToString_m17800 (UserProfile_t4853 * __this, co
 		ObjectU5BU5D_t21* L_10 = L_6;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 5);
-		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 5)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 5)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_11 = L_10;
 		int32_t L_12 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(7 /* UnityEngine.SocialPlatforms.UserState UnityEngine.SocialPlatforms.Impl.UserProfile::get_state() */, __this);
 		int32_t L_13 = L_12;
@@ -12558,7 +12558,7 @@ extern "C" void Achievement__ctor_m17809 (Achievement_t4854 * __this, String_t* 
 extern "C" void Achievement__ctor_m17810 (Achievement_t4854 * __this, const MethodInfo* method)
 {
 	{
-		Achievement__ctor_m17809(__this, (String_t*) &_stringLiteral1661, (0.0), /*hidden argument*/NULL);
+		Achievement__ctor_m17809(__this, (String_t*) &_stringLiteral1666, (0.0), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12590,8 +12590,8 @@ extern "C" String_t* Achievement_ToString_m17811 (Achievement_t4854 * __this, co
 		ObjectU5BU5D_t21* L_2 = L_0;
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_3 = L_2;
 		double L_4 = (double)VirtFuncInvoker0< double >::Invoke(6 /* System.Double UnityEngine.SocialPlatforms.Impl.Achievement::get_percentCompleted() */, __this);
 		double L_5 = L_4;
@@ -12603,8 +12603,8 @@ extern "C" String_t* Achievement_ToString_m17811 (Achievement_t4854 * __this, co
 		ObjectU5BU5D_t21* L_7 = L_3;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 3);
-		ArrayElementTypeCheck (L_7, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 3)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_7, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 3)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_8 = L_7;
 		bool L_9 = (bool)VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.SocialPlatforms.Impl.Achievement::get_completed() */, __this);
 		bool L_10 = L_9;
@@ -12616,8 +12616,8 @@ extern "C" String_t* Achievement_ToString_m17811 (Achievement_t4854 * __this, co
 		ObjectU5BU5D_t21* L_12 = L_8;
 		NullCheck(L_12);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 5);
-		ArrayElementTypeCheck (L_12, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 5)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_12, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 5)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_13 = L_12;
 		bool L_14 = (bool)VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.SocialPlatforms.Impl.Achievement::get_hidden() */, __this);
 		bool L_15 = L_14;
@@ -12629,8 +12629,8 @@ extern "C" String_t* Achievement_ToString_m17811 (Achievement_t4854 * __this, co
 		ObjectU5BU5D_t21* L_17 = L_13;
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, 7);
-		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 7)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 7)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_18 = L_17;
 		DateTime_t1953  L_19 = (DateTime_t1953 )VirtFuncInvoker0< DateTime_t1953  >::Invoke(10 /* System.DateTime UnityEngine.SocialPlatforms.Impl.Achievement::get_lastReportedDate() */, __this);
 		DateTime_t1953  L_20 = L_19;
@@ -12756,8 +12756,8 @@ extern "C" String_t* AchievementDescription_ToString_m17820 (AchievementDescript
 		ObjectU5BU5D_t21* L_2 = L_0;
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_3 = L_2;
 		String_t* L_4 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_title() */, __this);
 		NullCheck(L_3);
@@ -12767,8 +12767,8 @@ extern "C" String_t* AchievementDescription_ToString_m17820 (AchievementDescript
 		ObjectU5BU5D_t21* L_5 = L_3;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 3);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 3)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 3)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_6 = L_5;
 		String_t* L_7 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_achievedDescription() */, __this);
 		NullCheck(L_6);
@@ -12778,8 +12778,8 @@ extern "C" String_t* AchievementDescription_ToString_m17820 (AchievementDescript
 		ObjectU5BU5D_t21* L_8 = L_6;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 5);
-		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 5)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 5)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_9 = L_8;
 		String_t* L_10 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_unachievedDescription() */, __this);
 		NullCheck(L_9);
@@ -12789,8 +12789,8 @@ extern "C" String_t* AchievementDescription_ToString_m17820 (AchievementDescript
 		ObjectU5BU5D_t21* L_11 = L_9;
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 7);
-		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 7)) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 7)) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_12 = L_11;
 		int32_t L_13 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_points() */, __this);
 		int32_t L_14 = L_13;
@@ -12802,8 +12802,8 @@ extern "C" String_t* AchievementDescription_ToString_m17820 (AchievementDescript
 		ObjectU5BU5D_t21* L_16 = L_12;
 		NullCheck(L_16);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, ((int32_t)9));
-		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral4283);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, ((int32_t)9))) = (Object_t *)(String_t*) &_stringLiteral4283;
+		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral4288);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, ((int32_t)9))) = (Object_t *)(String_t*) &_stringLiteral4288;
 		ObjectU5BU5D_t21* L_17 = L_16;
 		bool L_18 = (bool)VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.SocialPlatforms.Impl.AchievementDescription::get_hidden() */, __this);
 		bool L_19 = L_18;
@@ -12908,7 +12908,7 @@ extern "C" void Score__ctor_m17829 (Score_t4856 * __this, String_t* ___leaderboa
 		DateTime_t1953  L_2 = DateTime_get_Now_m8898(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
-		Score__ctor_m17830(__this, L_0, L_1, (String_t*) &_stringLiteral1125, L_2, L_3, (-1), /*hidden argument*/NULL);
+		Score__ctor_m17830(__this, L_0, L_1, (String_t*) &_stringLiteral1130, L_2, L_3, (-1), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12954,8 +12954,8 @@ extern "C" String_t* Score_ToString_m17831 (Score_t4856 * __this, const MethodIn
 		ObjectU5BU5D_t21* L_0 = ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, ((int32_t)10)));
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
-		ArrayElementTypeCheck (L_0, (String_t*) &_stringLiteral4284);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)(String_t*) &_stringLiteral4284;
+		ArrayElementTypeCheck (L_0, (String_t*) &_stringLiteral4289);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)(String_t*) &_stringLiteral4289;
 		ObjectU5BU5D_t21* L_1 = L_0;
 		int32_t L_2 = (__this->___m_Rank_3);
 		int32_t L_3 = L_2;
@@ -12967,8 +12967,8 @@ extern "C" String_t* Score_ToString_m17831 (Score_t4856 * __this, const MethodIn
 		ObjectU5BU5D_t21* L_5 = L_1;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 2);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4285);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 2)) = (Object_t *)(String_t*) &_stringLiteral4285;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4290);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 2)) = (Object_t *)(String_t*) &_stringLiteral4290;
 		ObjectU5BU5D_t21* L_6 = L_5;
 		int64_t L_7 = (int64_t)VirtFuncInvoker0< int64_t >::Invoke(6 /* System.Int64 UnityEngine.SocialPlatforms.Impl.Score::get_value() */, __this);
 		int64_t L_8 = L_7;
@@ -12980,8 +12980,8 @@ extern "C" String_t* Score_ToString_m17831 (Score_t4856 * __this, const MethodIn
 		ObjectU5BU5D_t21* L_10 = L_6;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 4);
-		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral4286);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 4)) = (Object_t *)(String_t*) &_stringLiteral4286;
+		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral4291);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 4)) = (Object_t *)(String_t*) &_stringLiteral4291;
 		ObjectU5BU5D_t21* L_11 = L_10;
 		String_t* L_12 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String UnityEngine.SocialPlatforms.Impl.Score::get_leaderboardID() */, __this);
 		NullCheck(L_11);
@@ -12991,8 +12991,8 @@ extern "C" String_t* Score_ToString_m17831 (Score_t4856 * __this, const MethodIn
 		ObjectU5BU5D_t21* L_13 = L_11;
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 6);
-		ArrayElementTypeCheck (L_13, (String_t*) &_stringLiteral4287);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 6)) = (Object_t *)(String_t*) &_stringLiteral4287;
+		ArrayElementTypeCheck (L_13, (String_t*) &_stringLiteral4292);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 6)) = (Object_t *)(String_t*) &_stringLiteral4292;
 		ObjectU5BU5D_t21* L_14 = L_13;
 		String_t* L_15 = (__this->___m_UserID_2);
 		NullCheck(L_14);
@@ -13002,8 +13002,8 @@ extern "C" String_t* Score_ToString_m17831 (Score_t4856 * __this, const MethodIn
 		ObjectU5BU5D_t21* L_16 = L_14;
 		NullCheck(L_16);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 8);
-		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral4288);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 8)) = (Object_t *)(String_t*) &_stringLiteral4288;
+		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral4293);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 8)) = (Object_t *)(String_t*) &_stringLiteral4293;
 		ObjectU5BU5D_t21* L_17 = L_16;
 		DateTime_t1953  L_18 = (__this->___m_Date_0);
 		DateTime_t1953  L_19 = L_18;
@@ -13085,7 +13085,7 @@ extern "C" void Leaderboard__ctor_m17836 (Leaderboard_t4693 * __this, const Meth
 	}
 	{
 		Object__ctor_m85(__this, /*hidden argument*/NULL);
-		VirtActionInvoker1< String_t* >::Invoke(8 /* System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_id(System.String) */, __this, (String_t*) &_stringLiteral4289);
+		VirtActionInvoker1< String_t* >::Invoke(8 /* System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_id(System.String) */, __this, (String_t*) &_stringLiteral4294);
 		Range_t4859  L_0 = {0};
 		Range__ctor_m17857(&L_0, 1, ((int32_t)10), /*hidden argument*/NULL);
 		VirtActionInvoker1< Range_t4859  >::Invoke(10 /* System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_range(UnityEngine.SocialPlatforms.Range) */, __this, L_0);
@@ -13093,11 +13093,11 @@ extern "C" void Leaderboard__ctor_m17836 (Leaderboard_t4693 * __this, const Meth
 		VirtActionInvoker1< int32_t >::Invoke(11 /* System.Void UnityEngine.SocialPlatforms.Impl.Leaderboard::set_timeScope(UnityEngine.SocialPlatforms.TimeScope) */, __this, 2);
 		__this->___m_Loading_0 = 0;
 		Score_t4856 * L_1 = (Score_t4856 *)il2cpp_codegen_object_new (Score_t4856_il2cpp_TypeInfo_var);
-		Score__ctor_m17829(L_1, (String_t*) &_stringLiteral4289, (((int64_t)0)), /*hidden argument*/NULL);
+		Score__ctor_m17829(L_1, (String_t*) &_stringLiteral4294, (((int64_t)0)), /*hidden argument*/NULL);
 		__this->___m_LocalUserScore_1 = L_1;
 		__this->___m_MaxRange_2 = 0;
 		__this->___m_Scores_3 = (IScoreU5BU5D_t4858*)((ScoreU5BU5D_t4913*)SZArrayNew(ScoreU5BU5D_t4913_il2cpp_TypeInfo_var, 0));
-		__this->___m_Title_4 = (String_t*) &_stringLiteral4289;
+		__this->___m_Title_4 = (String_t*) &_stringLiteral4294;
 		__this->___m_UserIDs_5 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 0));
 		return;
 	}
@@ -13130,8 +13130,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_0 = ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, ((int32_t)20)));
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
-		ArrayElementTypeCheck (L_0, (String_t*) &_stringLiteral4290);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)(String_t*) &_stringLiteral4290;
+		ArrayElementTypeCheck (L_0, (String_t*) &_stringLiteral4295);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)(String_t*) &_stringLiteral4295;
 		ObjectU5BU5D_t21* L_1 = L_0;
 		String_t* L_2 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String UnityEngine.SocialPlatforms.Impl.Leaderboard::get_id() */, __this);
 		NullCheck(L_1);
@@ -13141,8 +13141,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_3 = L_1;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 2);
-		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral4291);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 2)) = (Object_t *)(String_t*) &_stringLiteral4291;
+		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral4296);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 2)) = (Object_t *)(String_t*) &_stringLiteral4296;
 		ObjectU5BU5D_t21* L_4 = L_3;
 		String_t* L_5 = (__this->___m_Title_4);
 		NullCheck(L_4);
@@ -13152,8 +13152,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_6 = L_4;
 		NullCheck(L_6);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 4);
-		ArrayElementTypeCheck (L_6, (String_t*) &_stringLiteral4292);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 4)) = (Object_t *)(String_t*) &_stringLiteral4292;
+		ArrayElementTypeCheck (L_6, (String_t*) &_stringLiteral4297);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 4)) = (Object_t *)(String_t*) &_stringLiteral4297;
 		ObjectU5BU5D_t21* L_7 = L_6;
 		bool L_8 = (__this->___m_Loading_0);
 		bool L_9 = L_8;
@@ -13165,8 +13165,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_11 = L_7;
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 6);
-		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral4293);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 6)) = (Object_t *)(String_t*) &_stringLiteral4293;
+		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral4298);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 6)) = (Object_t *)(String_t*) &_stringLiteral4298;
 		ObjectU5BU5D_t21* L_12 = L_11;
 		Range_t4859  L_13 = (Range_t4859 )VirtFuncInvoker0< Range_t4859  >::Invoke(6 /* UnityEngine.SocialPlatforms.Range UnityEngine.SocialPlatforms.Impl.Leaderboard::get_range() */, __this);
 		V_0 = L_13;
@@ -13180,8 +13180,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_17 = L_12;
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, 8);
-		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral1293);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 8)) = (Object_t *)(String_t*) &_stringLiteral1293;
+		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral1298);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 8)) = (Object_t *)(String_t*) &_stringLiteral1298;
 		ObjectU5BU5D_t21* L_18 = L_17;
 		Range_t4859  L_19 = (Range_t4859 )VirtFuncInvoker0< Range_t4859  >::Invoke(6 /* UnityEngine.SocialPlatforms.Range UnityEngine.SocialPlatforms.Impl.Leaderboard::get_range() */, __this);
 		V_1 = L_19;
@@ -13195,8 +13195,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_23 = L_18;
 		NullCheck(L_23);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, ((int32_t)10));
-		ArrayElementTypeCheck (L_23, (String_t*) &_stringLiteral4294);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_23, ((int32_t)10))) = (Object_t *)(String_t*) &_stringLiteral4294;
+		ArrayElementTypeCheck (L_23, (String_t*) &_stringLiteral4299);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_23, ((int32_t)10))) = (Object_t *)(String_t*) &_stringLiteral4299;
 		ObjectU5BU5D_t21* L_24 = L_23;
 		uint32_t L_25 = (__this->___m_MaxRange_2);
 		uint32_t L_26 = L_25;
@@ -13208,8 +13208,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_28 = L_24;
 		NullCheck(L_28);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_28, ((int32_t)12));
-		ArrayElementTypeCheck (L_28, (String_t*) &_stringLiteral4295);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_28, ((int32_t)12))) = (Object_t *)(String_t*) &_stringLiteral4295;
+		ArrayElementTypeCheck (L_28, (String_t*) &_stringLiteral4300);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_28, ((int32_t)12))) = (Object_t *)(String_t*) &_stringLiteral4300;
 		ObjectU5BU5D_t21* L_29 = L_28;
 		IScoreU5BU5D_t4858* L_30 = (__this->___m_Scores_3);
 		NullCheck(L_30);
@@ -13222,8 +13222,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_33 = L_29;
 		NullCheck(L_33);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_33, ((int32_t)14));
-		ArrayElementTypeCheck (L_33, (String_t*) &_stringLiteral4296);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_33, ((int32_t)14))) = (Object_t *)(String_t*) &_stringLiteral4296;
+		ArrayElementTypeCheck (L_33, (String_t*) &_stringLiteral4301);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_33, ((int32_t)14))) = (Object_t *)(String_t*) &_stringLiteral4301;
 		ObjectU5BU5D_t21* L_34 = L_33;
 		int32_t L_35 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* UnityEngine.SocialPlatforms.UserScope UnityEngine.SocialPlatforms.Impl.Leaderboard::get_userScope() */, __this);
 		int32_t L_36 = L_35;
@@ -13235,8 +13235,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_38 = L_34;
 		NullCheck(L_38);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_38, ((int32_t)16));
-		ArrayElementTypeCheck (L_38, (String_t*) &_stringLiteral4297);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_38, ((int32_t)16))) = (Object_t *)(String_t*) &_stringLiteral4297;
+		ArrayElementTypeCheck (L_38, (String_t*) &_stringLiteral4302);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_38, ((int32_t)16))) = (Object_t *)(String_t*) &_stringLiteral4302;
 		ObjectU5BU5D_t21* L_39 = L_38;
 		int32_t L_40 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(7 /* UnityEngine.SocialPlatforms.TimeScope UnityEngine.SocialPlatforms.Impl.Leaderboard::get_timeScope() */, __this);
 		int32_t L_41 = L_40;
@@ -13248,8 +13248,8 @@ extern "C" String_t* Leaderboard_ToString_m17837 (Leaderboard_t4693 * __this, co
 		ObjectU5BU5D_t21* L_43 = L_39;
 		NullCheck(L_43);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_43, ((int32_t)18));
-		ArrayElementTypeCheck (L_43, (String_t*) &_stringLiteral4298);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_43, ((int32_t)18))) = (Object_t *)(String_t*) &_stringLiteral4298;
+		ArrayElementTypeCheck (L_43, (String_t*) &_stringLiteral4303);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_43, ((int32_t)18))) = (Object_t *)(String_t*) &_stringLiteral4303;
 		ObjectU5BU5D_t21* L_44 = L_43;
 		StringU5BU5D_t20* L_45 = (__this->___m_UserIDs_5);
 		NullCheck(L_45);
@@ -14102,7 +14102,7 @@ extern "C" void SendMouseEvents_SendEvents_m17856 (Object_t * __this /* static, 
 		int32_t L_9 = ___i;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, L_9);
-		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_8, L_9)), (String_t*) &_stringLiteral4299, /*hidden argument*/NULL);
+		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_8, L_9)), (String_t*) &_stringLiteral4304, /*hidden argument*/NULL);
 	}
 
 IL_0045:
@@ -14149,7 +14149,7 @@ IL_004a:
 		int32_t L_19 = ___i;
 		NullCheck(L_18);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, L_19);
-		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_18, L_19)), (String_t*) &_stringLiteral4300, /*hidden argument*/NULL);
+		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_18, L_19)), (String_t*) &_stringLiteral4305, /*hidden argument*/NULL);
 	}
 
 IL_009a:
@@ -14159,7 +14159,7 @@ IL_009a:
 		int32_t L_21 = ___i;
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, L_21);
-		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_20, L_21)), (String_t*) &_stringLiteral4301, /*hidden argument*/NULL);
+		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_20, L_21)), (String_t*) &_stringLiteral4306, /*hidden argument*/NULL);
 		HitInfoU5BU5D_t4861* L_22 = ((SendMouseEvents_t4863_StaticFields*)SendMouseEvents_t4863_il2cpp_TypeInfo_var->static_fields)->___m_MouseDownHit_4;
 		int32_t L_23 = ___i;
 		NullCheck(L_22);
@@ -14193,7 +14193,7 @@ IL_00cd:
 		int32_t L_29 = ___i;
 		NullCheck(L_28);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_28, L_29);
-		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_28, L_29)), (String_t*) &_stringLiteral4302, /*hidden argument*/NULL);
+		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_28, L_29)), (String_t*) &_stringLiteral4307, /*hidden argument*/NULL);
 	}
 
 IL_00fc:
@@ -14219,7 +14219,7 @@ IL_00fc:
 		}
 	}
 	{
-		HitInfo_SendMessage_m17851((&___hit), (String_t*) &_stringLiteral4303, /*hidden argument*/NULL);
+		HitInfo_SendMessage_m17851((&___hit), (String_t*) &_stringLiteral4308, /*hidden argument*/NULL);
 	}
 
 IL_012e:
@@ -14246,7 +14246,7 @@ IL_0133:
 		int32_t L_40 = ___i;
 		NullCheck(L_39);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_39, L_40);
-		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_39, L_40)), (String_t*) &_stringLiteral4304, /*hidden argument*/NULL);
+		HitInfo_SendMessage_m17851(((HitInfo_t4860 *)(HitInfo_t4860 *)SZArrayLdElema(L_39, L_40)), (String_t*) &_stringLiteral4309, /*hidden argument*/NULL);
 	}
 
 IL_0162:
@@ -14259,8 +14259,8 @@ IL_0162:
 		}
 	}
 	{
-		HitInfo_SendMessage_m17851((&___hit), (String_t*) &_stringLiteral4305, /*hidden argument*/NULL);
-		HitInfo_SendMessage_m17851((&___hit), (String_t*) &_stringLiteral4303, /*hidden argument*/NULL);
+		HitInfo_SendMessage_m17851((&___hit), (String_t*) &_stringLiteral4310, /*hidden argument*/NULL);
+		HitInfo_SendMessage_m17851((&___hit), (String_t*) &_stringLiteral4308, /*hidden argument*/NULL);
 	}
 
 IL_0185:
@@ -15940,7 +15940,7 @@ extern "C" bool StackTraceUtility_IsSystemStacktraceType_m17890 (Object_t * __th
 		V_0 = ((String_t*)Castclass(L_0, String_t_il2cpp_TypeInfo_var));
 		String_t* L_1 = V_0;
 		NullCheck(L_1);
-		bool L_2 = String_StartsWith_m3455(L_1, (String_t*) &_stringLiteral4306, /*hidden argument*/NULL);
+		bool L_2 = String_StartsWith_m3455(L_1, (String_t*) &_stringLiteral4311, /*hidden argument*/NULL);
 		if (L_2)
 		{
 			goto IL_0064;
@@ -15949,7 +15949,7 @@ extern "C" bool StackTraceUtility_IsSystemStacktraceType_m17890 (Object_t * __th
 	{
 		String_t* L_3 = V_0;
 		NullCheck(L_3);
-		bool L_4 = String_StartsWith_m3455(L_3, (String_t*) &_stringLiteral4307, /*hidden argument*/NULL);
+		bool L_4 = String_StartsWith_m3455(L_3, (String_t*) &_stringLiteral4312, /*hidden argument*/NULL);
 		if (L_4)
 		{
 			goto IL_0064;
@@ -15958,7 +15958,7 @@ extern "C" bool StackTraceUtility_IsSystemStacktraceType_m17890 (Object_t * __th
 	{
 		String_t* L_5 = V_0;
 		NullCheck(L_5);
-		bool L_6 = String_StartsWith_m3455(L_5, (String_t*) &_stringLiteral4308, /*hidden argument*/NULL);
+		bool L_6 = String_StartsWith_m3455(L_5, (String_t*) &_stringLiteral4313, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0064;
@@ -15967,7 +15967,7 @@ extern "C" bool StackTraceUtility_IsSystemStacktraceType_m17890 (Object_t * __th
 	{
 		String_t* L_7 = V_0;
 		NullCheck(L_7);
-		bool L_8 = String_StartsWith_m3455(L_7, (String_t*) &_stringLiteral4309, /*hidden argument*/NULL);
+		bool L_8 = String_StartsWith_m3455(L_7, (String_t*) &_stringLiteral4314, /*hidden argument*/NULL);
 		if (L_8)
 		{
 			goto IL_0064;
@@ -15976,7 +15976,7 @@ extern "C" bool StackTraceUtility_IsSystemStacktraceType_m17890 (Object_t * __th
 	{
 		String_t* L_9 = V_0;
 		NullCheck(L_9);
-		bool L_10 = String_StartsWith_m3455(L_9, (String_t*) &_stringLiteral4310, /*hidden argument*/NULL);
+		bool L_10 = String_StartsWith_m3455(L_9, (String_t*) &_stringLiteral4315, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_0064;
@@ -15985,7 +15985,7 @@ extern "C" bool StackTraceUtility_IsSystemStacktraceType_m17890 (Object_t * __th
 	{
 		String_t* L_11 = V_0;
 		NullCheck(L_11);
-		bool L_12 = String_StartsWith_m3455(L_11, (String_t*) &_stringLiteral4311, /*hidden argument*/NULL);
+		bool L_12 = String_StartsWith_m3455(L_11, (String_t*) &_stringLiteral4316, /*hidden argument*/NULL);
 		G_B7_0 = ((int32_t)(L_12));
 		goto IL_0065;
 	}
@@ -16065,7 +16065,7 @@ extern "C" void StackTraceUtility_ExtractStringFromExceptionInternal_m17892 (Obj
 	}
 	{
 		ArgumentException_t725 * L_1 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral4312, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral4317, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -16081,7 +16081,7 @@ IL_0011:
 	}
 	{
 		ArgumentException_t725 * L_4 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_4, (String_t*) &_stringLiteral4313, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_4, (String_t*) &_stringLiteral4318, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -16219,7 +16219,7 @@ IL_00d8:
 		String_t* L_42 = V_3;
 		String_t* L_43 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_44 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4314, L_42, (String_t*) &_stringLiteral148, L_43, /*hidden argument*/NULL);
+		String_t* L_44 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4319, L_42, (String_t*) &_stringLiteral148, L_43, /*hidden argument*/NULL);
 		V_2 = L_44;
 	}
 
@@ -16390,7 +16390,7 @@ IL_0075:
 	{
 		String_t* L_24 = V_4;
 		NullCheck(L_24);
-		bool L_25 = String_StartsWith_m3455(L_24, (String_t*) &_stringLiteral4315, /*hidden argument*/NULL);
+		bool L_25 = String_StartsWith_m3455(L_24, (String_t*) &_stringLiteral4320, /*hidden argument*/NULL);
 		if (!L_25)
 		{
 			goto IL_008b;
@@ -16411,7 +16411,7 @@ IL_008b:
 	{
 		String_t* L_27 = V_4;
 		NullCheck(L_27);
-		bool L_28 = String_StartsWith_m3455(L_27, (String_t*) &_stringLiteral4316, /*hidden argument*/NULL);
+		bool L_28 = String_StartsWith_m3455(L_27, (String_t*) &_stringLiteral4321, /*hidden argument*/NULL);
 		if (!L_28)
 		{
 			goto IL_00a7;
@@ -16468,7 +16468,7 @@ IL_00d8:
 	{
 		String_t* L_38 = V_4;
 		NullCheck(L_38);
-		int32_t L_39 = String_IndexOf_m7739(L_38, (String_t*) &_stringLiteral4317, /*hidden argument*/NULL);
+		int32_t L_39 = String_IndexOf_m7739(L_38, (String_t*) &_stringLiteral4322, /*hidden argument*/NULL);
 		V_5 = L_39;
 		int32_t L_40 = V_5;
 		if ((((int32_t)L_40) == ((int32_t)(-1))))
@@ -16488,7 +16488,7 @@ IL_00fa:
 	{
 		String_t* L_44 = V_4;
 		NullCheck(L_44);
-		int32_t L_45 = String_IndexOf_m7739(L_44, (String_t*) &_stringLiteral4318, /*hidden argument*/NULL);
+		int32_t L_45 = String_IndexOf_m7739(L_44, (String_t*) &_stringLiteral4323, /*hidden argument*/NULL);
 		if ((((int32_t)L_45) == ((int32_t)(-1))))
 		{
 			goto IL_0111;
@@ -16502,7 +16502,7 @@ IL_0111:
 	{
 		String_t* L_46 = V_4;
 		NullCheck(L_46);
-		int32_t L_47 = String_IndexOf_m7739(L_46, (String_t*) &_stringLiteral4319, /*hidden argument*/NULL);
+		int32_t L_47 = String_IndexOf_m7739(L_46, (String_t*) &_stringLiteral4324, /*hidden argument*/NULL);
 		if ((((int32_t)L_47) == ((int32_t)(-1))))
 		{
 			goto IL_0128;
@@ -16516,7 +16516,7 @@ IL_0128:
 	{
 		String_t* L_48 = V_4;
 		NullCheck(L_48);
-		int32_t L_49 = String_IndexOf_m7739(L_48, (String_t*) &_stringLiteral4320, /*hidden argument*/NULL);
+		int32_t L_49 = String_IndexOf_m7739(L_48, (String_t*) &_stringLiteral4325, /*hidden argument*/NULL);
 		if ((((int32_t)L_49) == ((int32_t)(-1))))
 		{
 			goto IL_013f;
@@ -16537,7 +16537,7 @@ IL_013f:
 	{
 		String_t* L_51 = V_4;
 		NullCheck(L_51);
-		bool L_52 = String_StartsWith_m3455(L_51, (String_t*) &_stringLiteral1011, /*hidden argument*/NULL);
+		bool L_52 = String_StartsWith_m3455(L_51, (String_t*) &_stringLiteral1016, /*hidden argument*/NULL);
 		if (!L_52)
 		{
 			goto IL_016c;
@@ -16560,7 +16560,7 @@ IL_016c:
 	{
 		String_t* L_55 = V_4;
 		NullCheck(L_55);
-		bool L_56 = String_StartsWith_m3455(L_55, (String_t*) &_stringLiteral4321, /*hidden argument*/NULL);
+		bool L_56 = String_StartsWith_m3455(L_55, (String_t*) &_stringLiteral4326, /*hidden argument*/NULL);
 		if (!L_56)
 		{
 			goto IL_0188;
@@ -16577,7 +16577,7 @@ IL_0188:
 	{
 		String_t* L_59 = V_4;
 		NullCheck(L_59);
-		int32_t L_60 = String_IndexOf_m7739(L_59, (String_t*) &_stringLiteral4322, /*hidden argument*/NULL);
+		int32_t L_60 = String_IndexOf_m7739(L_59, (String_t*) &_stringLiteral4327, /*hidden argument*/NULL);
 		V_6 = L_60;
 		V_7 = (-1);
 		int32_t L_61 = V_6;
@@ -16626,7 +16626,7 @@ IL_01d4:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_74 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		NullCheck(L_73);
-		String_t* L_75 = String_Replace_m3757(L_73, (String_t*) &_stringLiteral4323, L_74, /*hidden argument*/NULL);
+		String_t* L_75 = String_Replace_m3757(L_73, (String_t*) &_stringLiteral4328, L_74, /*hidden argument*/NULL);
 		V_4 = L_75;
 		String_t* L_76 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(StackTraceUtility_t4869_il2cpp_TypeInfo_var);
@@ -16641,7 +16641,7 @@ IL_01d4:
 		V_4 = L_81;
 		String_t* L_82 = V_4;
 		NullCheck(L_82);
-		int32_t L_83 = String_LastIndexOf_m13196(L_82, (String_t*) &_stringLiteral4324, /*hidden argument*/NULL);
+		int32_t L_83 = String_LastIndexOf_m13196(L_82, (String_t*) &_stringLiteral4329, /*hidden argument*/NULL);
 		V_8 = L_83;
 		int32_t L_84 = V_8;
 		if ((((int32_t)L_84) == ((int32_t)(-1))))
@@ -16658,7 +16658,7 @@ IL_01d4:
 		String_t* L_88 = V_4;
 		int32_t L_89 = V_8;
 		NullCheck(L_88);
-		String_t* L_90 = String_Insert_m3692(L_88, L_89, (String_t*) &_stringLiteral4325, /*hidden argument*/NULL);
+		String_t* L_90 = String_Insert_m3692(L_88, L_89, (String_t*) &_stringLiteral4330, /*hidden argument*/NULL);
 		V_4 = L_90;
 		String_t* L_91 = V_4;
 		String_t* L_92 = V_4;
@@ -16824,7 +16824,7 @@ IL_0071:
 		StringBuilder_Append_m3049(L_22, L_24, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_25 = V_0;
 		NullCheck(L_25);
-		StringBuilder_Append_m3049(L_25, (String_t*) &_stringLiteral2021, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_25, (String_t*) &_stringLiteral2026, /*hidden argument*/NULL);
 		V_6 = 0;
 		MethodBase_t670 * L_26 = V_3;
 		NullCheck(L_26);
@@ -16901,7 +16901,7 @@ IL_00ee:
 		NullCheck(L_43);
 		String_t* L_44 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_43);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_45 = String_op_Equality_m2603(NULL /*static, unused*/, L_44, (String_t*) &_stringLiteral4326, /*hidden argument*/NULL);
+		bool L_45 = String_op_Equality_m2603(NULL /*static, unused*/, L_44, (String_t*) &_stringLiteral4331, /*hidden argument*/NULL);
 		if (!L_45)
 		{
 			goto IL_0140;
@@ -16912,7 +16912,7 @@ IL_00ee:
 		NullCheck(L_46);
 		String_t* L_47 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(37 /* System.String System.Type::get_Namespace() */, L_46);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_48 = String_op_Equality_m2603(NULL /*static, unused*/, L_47, (String_t*) &_stringLiteral4327, /*hidden argument*/NULL);
+		bool L_48 = String_op_Equality_m2603(NULL /*static, unused*/, L_47, (String_t*) &_stringLiteral4332, /*hidden argument*/NULL);
 		if (L_48)
 		{
 			goto IL_01b9;
@@ -16923,7 +16923,7 @@ IL_0140:
 	{
 		StringBuilder_t696 * L_49 = V_0;
 		NullCheck(L_49);
-		StringBuilder_Append_m3049(L_49, (String_t*) &_stringLiteral4325, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_49, (String_t*) &_stringLiteral4330, /*hidden argument*/NULL);
 		String_t* L_50 = V_9;
 		IL2CPP_RUNTIME_CLASS_INIT(StackTraceUtility_t4869_il2cpp_TypeInfo_var);
 		String_t* L_51 = ((StackTraceUtility_t4869_StaticFields*)StackTraceUtility_t4869_il2cpp_TypeInfo_var->static_fields)->___projectFolder_0;
@@ -17022,7 +17022,7 @@ IL_01c9:
 extern "C" void UnityException__ctor_m17895 (UnityException_t1256 * __this, const MethodInfo* method)
 {
 	{
-		Exception__ctor_m3464(__this, (String_t*) &_stringLiteral4328, /*hidden argument*/NULL);
+		Exception__ctor_m3464(__this, (String_t*) &_stringLiteral4333, /*hidden argument*/NULL);
 		Exception_set_HResult_m18060(__this, ((int32_t)-2147467261), /*hidden argument*/NULL);
 		return;
 	}
@@ -17848,7 +17848,7 @@ extern "C" String_t* TextEditor_ReplaceNewlinesWithSpaces_m17918 (Object_t * __t
 	{
 		String_t* L_0 = ___value;
 		NullCheck(L_0);
-		String_t* L_1 = String_Replace_m3757(L_0, (String_t*) &_stringLiteral2430, (String_t*) &_stringLiteral68, /*hidden argument*/NULL);
+		String_t* L_1 = String_Replace_m3757(L_0, (String_t*) &_stringLiteral2435, (String_t*) &_stringLiteral68, /*hidden argument*/NULL);
 		___value = L_1;
 		String_t* L_2 = ___value;
 		NullCheck(L_2);
@@ -18560,15 +18560,15 @@ IL_0011:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_3 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		IL2CPP_RUNTIME_CLASS_INIT(Regex_t789_il2cpp_TypeInfo_var);
-		String_t* L_4 = Regex_Replace_m14839(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral4329, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = Regex_Replace_m14839(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral4334, L_3, /*hidden argument*/NULL);
 		__this->___m_ObjectArgumentAssemblyTypeName_1 = L_4;
 		String_t* L_5 = (__this->___m_ObjectArgumentAssemblyTypeName_1);
 		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
-		String_t* L_7 = Regex_Replace_m14839(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4330, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = Regex_Replace_m14839(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral4335, L_6, /*hidden argument*/NULL);
 		__this->___m_ObjectArgumentAssemblyTypeName_1 = L_7;
 		String_t* L_8 = (__this->___m_ObjectArgumentAssemblyTypeName_1);
 		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
-		String_t* L_10 = Regex_Replace_m14839(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral4331, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = Regex_Replace_m14839(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral4336, L_9, /*hidden argument*/NULL);
 		__this->___m_ObjectArgumentAssemblyTypeName_1 = L_10;
 		return;
 	}
@@ -18627,7 +18627,7 @@ extern "C" void BaseInvokableCall__ctor_m17937 (BaseInvokableCall_t4878 * __this
 	}
 	{
 		ArgumentNullException_t731 * L_1 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral4332, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral4337, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -18641,7 +18641,7 @@ IL_0017:
 	}
 	{
 		ArgumentNullException_t731 * L_3 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral2242, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_3, (String_t*) &_stringLiteral2247, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 

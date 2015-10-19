@@ -277,7 +277,7 @@ IL_003c:
 			Object_t * L_10 = V_1;
 			Object_t * L_11 = Hashtable_get_Item_m3443(__this, L_10, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_12 = String_Concat_m3091(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral2026, L_11, /*hidden argument*/NULL);
+			String_t* L_12 = String_Concat_m3091(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral2031, L_11, /*hidden argument*/NULL);
 			NullCheck(L_8);
 			VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_8, L_12);
 			goto IL_00bf;
@@ -290,8 +290,8 @@ IL_0059:
 			ObjectU5BU5D_t21* L_14 = V_5;
 			NullCheck(L_14);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_14, 0);
-			ArrayElementTypeCheck (L_14, (String_t*) &_stringLiteral2021);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_14, 0)) = (Object_t *)(String_t*) &_stringLiteral2021;
+			ArrayElementTypeCheck (L_14, (String_t*) &_stringLiteral2026);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_14, 0)) = (Object_t *)(String_t*) &_stringLiteral2026;
 			ObjectU5BU5D_t21* L_15 = V_5;
 			Object_t * L_16 = V_1;
 			NullCheck(L_16);
@@ -314,8 +314,8 @@ IL_0059:
 			ObjectU5BU5D_t21* L_21 = V_5;
 			NullCheck(L_21);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_21, 4);
-			ArrayElementTypeCheck (L_21, (String_t*) &_stringLiteral4335);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_21, 4)) = (Object_t *)(String_t*) &_stringLiteral4335;
+			ArrayElementTypeCheck (L_21, (String_t*) &_stringLiteral4340);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_21, 4)) = (Object_t *)(String_t*) &_stringLiteral4340;
 			ObjectU5BU5D_t21* L_22 = V_5;
 			Object_t * L_23 = V_1;
 			Object_t * L_24 = Hashtable_get_Item_m3443(__this, L_23, /*hidden argument*/NULL);
@@ -695,7 +695,7 @@ IL_008d:
 	}
 	{
 		ArithmeticException_t4654 * L_15 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_15, (String_t*) &_stringLiteral4336, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_15, (String_t*) &_stringLiteral4341, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_15);
 	}
 
@@ -747,7 +747,7 @@ IL_00d0:
 	}
 	{
 		ArithmeticException_t4654 * L_23 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_23, (String_t*) &_stringLiteral4337, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_23, (String_t*) &_stringLiteral4342, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
 	}
 
@@ -882,7 +882,7 @@ IL_0036:
 	}
 	{
 		ArithmeticException_t4654 * L_7 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_7, (String_t*) &_stringLiteral4338, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_7, (String_t*) &_stringLiteral4343, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -1097,7 +1097,7 @@ extern "C" void BigInteger__ctor_m18296 (BigInteger_t5082 * __this, UInt32U5BU5D
 	}
 	{
 		ArithmeticException_t4654 * L_3 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_3, (String_t*) &_stringLiteral4338, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_3, (String_t*) &_stringLiteral4343, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -2109,7 +2109,7 @@ IL_0121:
 CATCH_0124:
 	{ // begin catch(System.Exception)
 		ArithmeticException_t4654 * L_58 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_58, (String_t*) &_stringLiteral4339, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_58, (String_t*) &_stringLiteral4344, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_58);
 	} // end catch (depth: 1)
 
@@ -2345,7 +2345,7 @@ IL_0236:
 IL_0238:
 	{
 		ArithmeticException_t4654 * L_109 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_109, (String_t*) &_stringLiteral4339, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_109, (String_t*) &_stringLiteral4344, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_109);
 	}
 
@@ -2991,7 +2991,7 @@ IL_009a:
 	}
 	{
 		ArithmeticException_t4654 * L_40 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_40, (String_t*) &_stringLiteral4340, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_40, (String_t*) &_stringLiteral4345, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_40);
 	}
 
@@ -5172,14 +5172,14 @@ IL_0010:
 	}
 	{
 		ArgumentException_t725 * L_3 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_3, (String_t*) &_stringLiteral4341, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_3, (String_t*) &_stringLiteral4346, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
 IL_0022:
 	{
-		V_0 = (String_t*) &_stringLiteral4342;
-		V_1 = (String_t*) &_stringLiteral1501;
+		V_0 = (String_t*) &_stringLiteral4347;
+		V_1 = (String_t*) &_stringLiteral1506;
 		V_2 = __this;
 		V_3 = 0;
 		BigInteger_t5082 * L_4 = V_2;
@@ -5271,7 +5271,7 @@ IL_0090:
 		}
 	}
 	{
-		V_1 = (String_t*) &_stringLiteral1125;
+		V_1 = (String_t*) &_stringLiteral1130;
 		goto IL_014a;
 	}
 
@@ -5409,7 +5409,7 @@ IL_0129:
 	{
 		String_t* L_55 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_56 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1888, L_55, /*hidden argument*/NULL);
+		String_t* L_56 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1893, L_55, /*hidden argument*/NULL);
 		V_1 = L_56;
 	}
 
@@ -5473,7 +5473,7 @@ extern "C" BigInteger_t5082 * BigInteger_ModPow_m18318 (BigInteger_t5082 * __thi
 	}
 	{
 		ArithmeticException_t4654 * L_4 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_4, (String_t*) &_stringLiteral4343, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_4, (String_t*) &_stringLiteral4348, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -6423,7 +6423,7 @@ IL_0018:
 	}
 	{
 		ArithmeticException_t4654 * L_7 = (ArithmeticException_t4654 *)il2cpp_codegen_object_new (ArithmeticException_t4654_il2cpp_TypeInfo_var);
-		ArithmeticException__ctor_m16469(L_7, (String_t*) &_stringLiteral4344, /*hidden argument*/NULL);
+		ArithmeticException__ctor_m16469(L_7, (String_t*) &_stringLiteral4349, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -8255,7 +8255,7 @@ extern "C" void PeerBase_DeriveSharedKey_m18368 (PeerBase_t5090 * __this, Operat
 		NullCheck(L_3);
 		String_t* L_4 = OperationResponse_ToStringFull_m102(L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4345, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4350, L_4, /*hidden argument*/NULL);
 		PeerBase_EnqueueDebugReturn_m18370(__this, 1, L_5, /*hidden argument*/NULL);
 		PeerBase_EnqueueStatusCallback_m18371(__this, ((int32_t)1049), /*hidden argument*/NULL);
 		goto IL_00a1;
@@ -8301,7 +8301,7 @@ IL_0055:
 		NullCheck(L_12);
 		String_t* L_13 = OperationResponse_ToStringFull_m102(L_12, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4346, L_13, /*hidden argument*/NULL);
+		String_t* L_14 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4351, L_13, /*hidden argument*/NULL);
 		PeerBase_EnqueueDebugReturn_m18370(__this, 1, L_14, /*hidden argument*/NULL);
 		PeerBase_EnqueueStatusCallback_m18371(__this, ((int32_t)1049), /*hidden argument*/NULL);
 		goto IL_00a1;
@@ -8782,7 +8782,7 @@ extern "C" bool PeerBase_DeserializeMessageAndCallback_m18373 (PeerBase_t5090 * 
 		int32_t L_6 = (((int32_t)(((Array_t *)L_5)->max_length)));
 		Object_t * L_7 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_6);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4347, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4352, L_7, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_4, 1, L_8);
 	}
@@ -8845,7 +8845,7 @@ IL_0060:
 		uint8_t L_19 = (*(uint8_t*)(uint8_t*)SZArrayLdElema(L_17, L_18));
 		Object_t * L_20 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_19);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4348, L_20, /*hidden argument*/NULL);
+		String_t* L_21 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4353, L_20, /*hidden argument*/NULL);
 		NullCheck(L_16);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_16, 5, L_21);
 	}
@@ -9207,7 +9207,7 @@ IL_02e4:
 		NullCheck(L_99);
 		String_t* L_100 = OperationResponse_ToStringFull_m102(L_99, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_101 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4349, L_100, /*hidden argument*/NULL);
+		String_t* L_101 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4354, L_100, /*hidden argument*/NULL);
 		PeerBase_EnqueueDebugReturn_m18370(__this, 1, L_101, /*hidden argument*/NULL);
 	}
 
@@ -9222,7 +9222,7 @@ IL_0300:
 		NullCheck(L_102);
 		String_t* L_103 = OperationResponse_ToStringFull_m102(L_102, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_104 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4350, L_103, /*hidden argument*/NULL);
+		String_t* L_104 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4355, L_103, /*hidden argument*/NULL);
 		PeerBase_EnqueueDebugReturn_m18370(__this, 1, L_104, /*hidden argument*/NULL);
 	}
 
@@ -9259,7 +9259,7 @@ IL_0349:
 		uint8_t L_113 = L_112;
 		Object_t * L_114 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_113);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_115 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4351, L_114, /*hidden argument*/NULL);
+		String_t* L_115 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4356, L_114, /*hidden argument*/NULL);
 		PeerBase_EnqueueDebugReturn_m18370(__this, 1, L_115, /*hidden argument*/NULL);
 		goto IL_0363;
 	}
@@ -10902,7 +10902,7 @@ extern "C" bool EnetPeer_Connect_m18388 (EnetPeer_t5097 * __this, String_t* ___i
 		uint8_t L_4 = L_3;
 		Object_t * L_5 = Box(ConnectionStateValue_t5088_il2cpp_TypeInfo_var, &L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4352, L_5, /*hidden argument*/NULL);
+		String_t* L_6 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4357, L_5, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_2, 2, L_6);
 		V_1 = 0;
@@ -10922,7 +10922,7 @@ IL_0038:
 	{
 		Object_t * L_9 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_9, 5, (String_t*) &_stringLiteral4353);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_9, 5, (String_t*) &_stringLiteral4358);
 	}
 
 IL_0059:
@@ -10939,7 +10939,7 @@ IL_0059:
 		}
 	}
 	{
-		___appID = (String_t*) &_stringLiteral4354;
+		___appID = (String_t*) &_stringLiteral4359;
 	}
 
 IL_007c:
@@ -11019,7 +11019,7 @@ IL_00a6:
 	{
 		Object_t * L_28 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_28, 1, (String_t*) &_stringLiteral4355);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_28, 1, (String_t*) &_stringLiteral4360);
 		V_1 = 0;
 		goto IL_015c;
 	}
@@ -11467,7 +11467,7 @@ extern "C" void EnetPeer_FetchServerTimestamp_m18391 (EnetPeer_t5097 * __this, c
 		uint8_t L_5 = L_4;
 		Object_t * L_6 = Box(ConnectionStateValue_t5088_il2cpp_TypeInfo_var, &L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4356, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4361, L_6, /*hidden argument*/NULL);
 		PeerBase_EnqueueDebugReturn_m18370(__this, 3, L_7, /*hidden argument*/NULL);
 	}
 
@@ -12130,7 +12130,7 @@ IL_02da:
 IL_031b:
 			{
 				Exception_t496 * L_125 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
-				Exception__ctor_m3464(L_125, (String_t*) &_stringLiteral4357, /*hidden argument*/NULL);
+				Exception__ctor_m3464(L_125, (String_t*) &_stringLiteral4362, /*hidden argument*/NULL);
 				il2cpp_codegen_raise_exception(L_125);
 			}
 
@@ -12177,7 +12177,7 @@ IL_0354:
 				int32_t L_138 = L_137;
 				Object_t * L_139 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_138);
 				IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-				String_t* L_140 = String_Concat_m3091(NULL /*static, unused*/, (String_t*) &_stringLiteral4358, L_139, (String_t*) &_stringLiteral4359, /*hidden argument*/NULL);
+				String_t* L_140 = String_Concat_m3091(NULL /*static, unused*/, (String_t*) &_stringLiteral4363, L_139, (String_t*) &_stringLiteral4364, /*hidden argument*/NULL);
 				NullCheck(L_135);
 				InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_135, 5, L_140);
 			}
@@ -13144,8 +13144,8 @@ IL_0197:
 					ObjectU5BU5D_t21* L_49 = V_10;
 					NullCheck(L_49);
 					IL2CPP_ARRAY_BOUNDS_CHECK(L_49, 0);
-					ArrayElementTypeCheck (L_49, (String_t*) &_stringLiteral4360);
-					*((Object_t **)(Object_t **)SZArrayLdElema(L_49, 0)) = (Object_t *)(String_t*) &_stringLiteral4360;
+					ArrayElementTypeCheck (L_49, (String_t*) &_stringLiteral4365);
+					*((Object_t **)(Object_t **)SZArrayLdElema(L_49, 0)) = (Object_t *)(String_t*) &_stringLiteral4365;
 					ObjectU5BU5D_t21* L_50 = V_10;
 					NCommand_t5094 * L_51 = V_2;
 					NullCheck(L_50);
@@ -13168,8 +13168,8 @@ IL_0197:
 					ObjectU5BU5D_t21* L_57 = V_10;
 					NullCheck(L_57);
 					IL2CPP_ARRAY_BOUNDS_CHECK(L_57, 4);
-					ArrayElementTypeCheck (L_57, (String_t*) &_stringLiteral4361);
-					*((Object_t **)(Object_t **)SZArrayLdElema(L_57, 4)) = (Object_t *)(String_t*) &_stringLiteral4361;
+					ArrayElementTypeCheck (L_57, (String_t*) &_stringLiteral4366);
+					*((Object_t **)(Object_t **)SZArrayLdElema(L_57, 4)) = (Object_t *)(String_t*) &_stringLiteral4366;
 					ObjectU5BU5D_t21* L_58 = V_10;
 					int32_t L_59 = (__this->___challenge_73);
 					IL2CPP_RUNTIME_CLASS_INIT(Convert_t2000_il2cpp_TypeInfo_var);
@@ -13337,7 +13337,7 @@ IL_028a:
 				*((Object_t **)(Object_t **)SZArrayLdElema(L_101, 6)) = (Object_t *)L_105;
 				ObjectU5BU5D_t21* L_106 = V_10;
 				IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-				String_t* L_107 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4362, L_106, /*hidden argument*/NULL);
+				String_t* L_107 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4367, L_106, /*hidden argument*/NULL);
 				NullCheck(L_76);
 				InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_76, 3, L_107);
 			}
@@ -13900,8 +13900,8 @@ extern "C" bool EnetPeer_EnqueueOperation_m18396 (EnetPeer_t5097 * __this, Dicti
 		ObjectU5BU5D_t21* L_5 = V_3;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 0);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4363);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)(String_t*) &_stringLiteral4363;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4368);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)(String_t*) &_stringLiteral4368;
 		ObjectU5BU5D_t21* L_6 = V_3;
 		uint8_t L_7 = ___opCode;
 		uint8_t L_8 = L_7;
@@ -13913,8 +13913,8 @@ extern "C" bool EnetPeer_EnqueueOperation_m18396 (EnetPeer_t5097 * __this, Dicti
 		ObjectU5BU5D_t21* L_10 = V_3;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 2);
-		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral4364);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 2)) = (Object_t *)(String_t*) &_stringLiteral4364;
+		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral4369);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 2)) = (Object_t *)(String_t*) &_stringLiteral4369;
 		ObjectU5BU5D_t21* L_11 = V_3;
 		uint8_t L_12 = (((PeerBase_t5090 *)__this)->___peerConnectionState_21);
 		uint8_t L_13 = L_12;
@@ -13965,8 +13965,8 @@ IL_0077:
 		ObjectU5BU5D_t21* L_24 = V_3;
 		NullCheck(L_24);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_24, 0);
-		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral4365);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 0)) = (Object_t *)(String_t*) &_stringLiteral4365;
+		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral4370);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 0)) = (Object_t *)(String_t*) &_stringLiteral4370;
 		ObjectU5BU5D_t21* L_25 = V_3;
 		uint8_t L_26 = ___channelId;
 		uint8_t L_27 = L_26;
@@ -13978,8 +13978,8 @@ IL_0077:
 		ObjectU5BU5D_t21* L_29 = V_3;
 		NullCheck(L_29);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_29, 2);
-		ArrayElementTypeCheck (L_29, (String_t*) &_stringLiteral4366);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 2)) = (Object_t *)(String_t*) &_stringLiteral4366;
+		ArrayElementTypeCheck (L_29, (String_t*) &_stringLiteral4371);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 2)) = (Object_t *)(String_t*) &_stringLiteral4371;
 		ObjectU5BU5D_t21* L_30 = V_3;
 		uint8_t L_31 = (((PeerBase_t5090 *)__this)->___ChannelCount_40);
 		uint8_t L_32 = L_31;
@@ -14618,8 +14618,8 @@ IL_0026:
 		ObjectU5BU5D_t21* L_13 = V_3;
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 0);
-		ArrayElementTypeCheck (L_13, (String_t*) &_stringLiteral4367);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 0)) = (Object_t *)(String_t*) &_stringLiteral4367;
+		ArrayElementTypeCheck (L_13, (String_t*) &_stringLiteral4372);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 0)) = (Object_t *)(String_t*) &_stringLiteral4372;
 		ObjectU5BU5D_t21* L_14 = V_3;
 		uint8_t L_15 = (__this->___udpCommandCount_70);
 		uint8_t L_16 = L_15;
@@ -14631,8 +14631,8 @@ IL_0026:
 		ObjectU5BU5D_t21* L_18 = V_3;
 		NullCheck(L_18);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, 2);
-		ArrayElementTypeCheck (L_18, (String_t*) &_stringLiteral4368);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 2)) = (Object_t *)(String_t*) &_stringLiteral4368;
+		ArrayElementTypeCheck (L_18, (String_t*) &_stringLiteral4373);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 2)) = (Object_t *)(String_t*) &_stringLiteral4373;
 		ObjectU5BU5D_t21* L_19 = V_3;
 		Queue_1_t5085 * L_20 = ___commandList;
 		NullCheck(L_20);
@@ -15689,7 +15689,7 @@ IL_00c0:
 			uint32_t L_33 = L_32;
 			Object_t * L_34 = Box(UInt32_t2022_il2cpp_TypeInfo_var, &L_33);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_35 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral4369, L_31, L_34, /*hidden argument*/NULL);
+			String_t* L_35 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral4374, L_31, L_34, /*hidden argument*/NULL);
 			PeerBase_EnqueueDebugReturn_m18370(__this, 3, L_35, /*hidden argument*/NULL);
 		}
 
@@ -15770,8 +15770,8 @@ IL_0148:
 			ObjectU5BU5D_t21* L_50 = V_13;
 			NullCheck(L_50);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_50, 0);
-			ArrayElementTypeCheck (L_50, (String_t*) &_stringLiteral4370);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_50, 0)) = (Object_t *)(String_t*) &_stringLiteral4370;
+			ArrayElementTypeCheck (L_50, (String_t*) &_stringLiteral4375);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_50, 0)) = (Object_t *)(String_t*) &_stringLiteral4375;
 			ObjectU5BU5D_t21* L_51 = V_13;
 			uint8_t L_52 = V_3;
 			uint8_t L_53 = L_52;
@@ -15783,8 +15783,8 @@ IL_0148:
 			ObjectU5BU5D_t21* L_55 = V_13;
 			NullCheck(L_55);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_55, 2);
-			ArrayElementTypeCheck (L_55, (String_t*) &_stringLiteral4371);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_55, 2)) = (Object_t *)(String_t*) &_stringLiteral4371;
+			ArrayElementTypeCheck (L_55, (String_t*) &_stringLiteral4376);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_55, 2)) = (Object_t *)(String_t*) &_stringLiteral4376;
 			ObjectU5BU5D_t21* L_56 = V_13;
 			int32_t L_57 = (((PeerBase_t5090 *)__this)->___commandBufferSize_35);
 			int32_t L_58 = L_57;
@@ -15848,8 +15848,8 @@ IL_01b8:
 			ObjectU5BU5D_t21* L_68 = V_13;
 			NullCheck(L_68);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_68, 0);
-			ArrayElementTypeCheck (L_68, (String_t*) &_stringLiteral4372);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_68, 0)) = (Object_t *)(String_t*) &_stringLiteral4372;
+			ArrayElementTypeCheck (L_68, (String_t*) &_stringLiteral4377);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_68, 0)) = (Object_t *)(String_t*) &_stringLiteral4377;
 			ObjectU5BU5D_t21* L_69 = V_13;
 			int32_t L_70 = V_4;
 			int32_t L_71 = L_70;
@@ -15861,8 +15861,8 @@ IL_01b8:
 			ObjectU5BU5D_t21* L_73 = V_13;
 			NullCheck(L_73);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_73, 2);
-			ArrayElementTypeCheck (L_73, (String_t*) &_stringLiteral2033);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_73, 2)) = (Object_t *)(String_t*) &_stringLiteral2033;
+			ArrayElementTypeCheck (L_73, (String_t*) &_stringLiteral2038);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_73, 2)) = (Object_t *)(String_t*) &_stringLiteral2038;
 			ObjectU5BU5D_t21* L_74 = V_13;
 			int32_t L_75 = (__this->___challenge_73);
 			int32_t L_76 = L_75;
@@ -15874,8 +15874,8 @@ IL_01b8:
 			ObjectU5BU5D_t21* L_78 = V_13;
 			NullCheck(L_78);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_78, 4);
-			ArrayElementTypeCheck (L_78, (String_t*) &_stringLiteral4373);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_78, 4)) = (Object_t *)(String_t*) &_stringLiteral4373;
+			ArrayElementTypeCheck (L_78, (String_t*) &_stringLiteral4378);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_78, 4)) = (Object_t *)(String_t*) &_stringLiteral4378;
 			ObjectU5BU5D_t21* L_79 = V_13;
 			uint8_t L_80 = V_3;
 			uint8_t L_81 = L_80;
@@ -16077,7 +16077,7 @@ IL_0343:
 		{
 			Exception_t496 * L_127 = V_11;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_128 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral4374, L_127, /*hidden argument*/NULL);
+			String_t* L_128 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral4379, L_127, /*hidden argument*/NULL);
 			PeerBase_EnqueueDebugReturn_m18370(__this, 1, L_128, /*hidden argument*/NULL);
 		}
 
@@ -16281,8 +16281,8 @@ IL_00c3:
 		ObjectU5BU5D_t21* L_22 = V_10;
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, 0);
-		ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral4375);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 0)) = (Object_t *)(String_t*) &_stringLiteral4375;
+		ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral4380);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 0)) = (Object_t *)(String_t*) &_stringLiteral4380;
 		ObjectU5BU5D_t21* L_23 = V_10;
 		String_t* L_24 = PeerBase_get_ServerAddress_m18354(__this, /*hidden argument*/NULL);
 		NullCheck(L_23);
@@ -16292,8 +16292,8 @@ IL_00c3:
 		ObjectU5BU5D_t21* L_25 = V_10;
 		NullCheck(L_25);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_25, 2);
-		ArrayElementTypeCheck (L_25, (String_t*) &_stringLiteral4376);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_25, 2)) = (Object_t *)(String_t*) &_stringLiteral4376;
+		ArrayElementTypeCheck (L_25, (String_t*) &_stringLiteral4381);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_25, 2)) = (Object_t *)(String_t*) &_stringLiteral4381;
 		ObjectU5BU5D_t21* L_26 = V_10;
 		int16_t L_27 = (((PeerBase_t5090 *)__this)->___peerID_20);
 		uint16_t L_28 = (((uint16_t)L_27));
@@ -16305,8 +16305,8 @@ IL_00c3:
 		ObjectU5BU5D_t21* L_30 = V_10;
 		NullCheck(L_30);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_30, 4);
-		ArrayElementTypeCheck (L_30, (String_t*) &_stringLiteral4377);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_30, 4)) = (Object_t *)(String_t*) &_stringLiteral4377;
+		ArrayElementTypeCheck (L_30, (String_t*) &_stringLiteral4382);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_30, 4)) = (Object_t *)(String_t*) &_stringLiteral4382;
 		ObjectU5BU5D_t21* L_31 = V_10;
 		int32_t L_32 = (((PeerBase_t5090 *)__this)->___roundTripTime_24);
 		int32_t L_33 = L_32;
@@ -16331,8 +16331,8 @@ IL_00c3:
 		ObjectU5BU5D_t21* L_40 = V_10;
 		NullCheck(L_40);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_40, 8);
-		ArrayElementTypeCheck (L_40, (String_t*) &_stringLiteral4378);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_40, 8)) = (Object_t *)(String_t*) &_stringLiteral4378;
+		ArrayElementTypeCheck (L_40, (String_t*) &_stringLiteral4383);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_40, 8)) = (Object_t *)(String_t*) &_stringLiteral4383;
 		ObjectU5BU5D_t21* L_41 = V_10;
 		NCommand_t5094 * L_42 = ___command;
 		NullCheck(L_42);
@@ -16494,7 +16494,7 @@ IL_028c:
 		}
 	}
 	{
-		PeerBase_EnqueueDebugReturn_m18370(__this, 3, (String_t*) &_stringLiteral4379, /*hidden argument*/NULL);
+		PeerBase_EnqueueDebugReturn_m18370(__this, 3, (String_t*) &_stringLiteral4384, /*hidden argument*/NULL);
 	}
 
 IL_02b2:
@@ -16729,7 +16729,7 @@ IL_03f3:
 		Object_t * L_134 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		NCommand_t5094 * L_135 = ___command;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_136 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4380, L_135, /*hidden argument*/NULL);
+		String_t* L_136 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4385, L_135, /*hidden argument*/NULL);
 		NullCheck(L_134);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_134, 1, L_136);
 	}
@@ -17031,7 +17031,7 @@ extern "C" bool EnetPeer_QueueIncomingCommand_m18407 (EnetPeer_t5097 * __this, N
 		uint8_t L_10 = L_9;
 		Object_t * L_11 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_10);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4381, L_11, /*hidden argument*/NULL);
+		String_t* L_12 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4386, L_11, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_7, 1, L_12);
 	}
@@ -17058,8 +17058,8 @@ IL_0059:
 		ObjectU5BU5D_t21* L_16 = V_3;
 		NullCheck(L_16);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 0);
-		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral4382);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 0)) = (Object_t *)(String_t*) &_stringLiteral4382;
+		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral4387);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 0)) = (Object_t *)(String_t*) &_stringLiteral4387;
 		ObjectU5BU5D_t21* L_17 = V_3;
 		NCommand_t5094 * L_18 = ___command;
 		NullCheck(L_17);
@@ -17069,8 +17069,8 @@ IL_0059:
 		ObjectU5BU5D_t21* L_19 = V_3;
 		NullCheck(L_19);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, 2);
-		ArrayElementTypeCheck (L_19, (String_t*) &_stringLiteral4383);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 2)) = (Object_t *)(String_t*) &_stringLiteral4383;
+		ArrayElementTypeCheck (L_19, (String_t*) &_stringLiteral4388);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 2)) = (Object_t *)(String_t*) &_stringLiteral4388;
 		ObjectU5BU5D_t21* L_20 = V_3;
 		EnetChannel_t5086 * L_21 = V_0;
 		NullCheck(L_21);
@@ -17144,8 +17144,8 @@ IL_00ba:
 		ObjectU5BU5D_t21* L_44 = V_3;
 		NullCheck(L_44);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_44, 0);
-		ArrayElementTypeCheck (L_44, (String_t*) &_stringLiteral4384);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_44, 0)) = (Object_t *)(String_t*) &_stringLiteral4384;
+		ArrayElementTypeCheck (L_44, (String_t*) &_stringLiteral4389);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_44, 0)) = (Object_t *)(String_t*) &_stringLiteral4389;
 		ObjectU5BU5D_t21* L_45 = V_3;
 		NCommand_t5094 * L_46 = ___command;
 		NullCheck(L_45);
@@ -17155,8 +17155,8 @@ IL_00ba:
 		ObjectU5BU5D_t21* L_47 = V_3;
 		NullCheck(L_47);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_47, 2);
-		ArrayElementTypeCheck (L_47, (String_t*) &_stringLiteral4385);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_47, 2)) = (Object_t *)(String_t*) &_stringLiteral4385;
+		ArrayElementTypeCheck (L_47, (String_t*) &_stringLiteral4390);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_47, 2)) = (Object_t *)(String_t*) &_stringLiteral4390;
 		ObjectU5BU5D_t21* L_48 = V_3;
 		EnetChannel_t5086 * L_49 = V_0;
 		NullCheck(L_49);
@@ -17210,8 +17210,8 @@ IL_0133:
 		ObjectU5BU5D_t21* L_63 = V_3;
 		NullCheck(L_63);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_63, 0);
-		ArrayElementTypeCheck (L_63, (String_t*) &_stringLiteral4386);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_63, 0)) = (Object_t *)(String_t*) &_stringLiteral4386;
+		ArrayElementTypeCheck (L_63, (String_t*) &_stringLiteral4391);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_63, 0)) = (Object_t *)(String_t*) &_stringLiteral4391;
 		ObjectU5BU5D_t21* L_64 = V_3;
 		EnetChannel_t5086 * L_65 = V_0;
 		NCommand_t5094 * L_66 = ___command;
@@ -17237,8 +17237,8 @@ IL_0133:
 		ObjectU5BU5D_t21* L_72 = V_3;
 		NullCheck(L_72);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_72, 4);
-		ArrayElementTypeCheck (L_72, (String_t*) &_stringLiteral4387);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_72, 4)) = (Object_t *)(String_t*) &_stringLiteral4387;
+		ArrayElementTypeCheck (L_72, (String_t*) &_stringLiteral4392);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_72, 4)) = (Object_t *)(String_t*) &_stringLiteral4392;
 		ObjectU5BU5D_t21* L_73 = V_3;
 		EnetChannel_t5086 * L_74 = V_0;
 		NullCheck(L_74);
@@ -17359,7 +17359,7 @@ IL_0210:
 	{
 		Object_t * L_105 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		NullCheck(L_105);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_105, 3, (String_t*) &_stringLiteral4388);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_105, 3, (String_t*) &_stringLiteral4393);
 	}
 
 IL_025b:
@@ -17395,7 +17395,7 @@ IL_0262:
 	{
 		Object_t * L_113 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		NullCheck(L_113);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_113, 3, (String_t*) &_stringLiteral4389);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_113, 3, (String_t*) &_stringLiteral4394);
 	}
 
 IL_0296:
@@ -17434,8 +17434,8 @@ IL_029d:
 		ObjectU5BU5D_t21* L_122 = V_3;
 		NullCheck(L_122);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_122, 0);
-		ArrayElementTypeCheck (L_122, (String_t*) &_stringLiteral4390);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_122, 0)) = (Object_t *)(String_t*) &_stringLiteral4390;
+		ArrayElementTypeCheck (L_122, (String_t*) &_stringLiteral4395);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_122, 0)) = (Object_t *)(String_t*) &_stringLiteral4395;
 		ObjectU5BU5D_t21* L_123 = V_3;
 		EnetChannel_t5086 * L_124 = V_0;
 		NullCheck(L_124);
@@ -17800,7 +17800,7 @@ IL_00f5:
 			uint8_t L_40 = L_39;
 			Object_t * L_41 = Box(ConnectionStateValue_t5088_il2cpp_TypeInfo_var, &L_40);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_42 = String_Format_m89(NULL /*static, unused*/, (String_t*) &_stringLiteral4391, L_35, L_38, L_41, /*hidden argument*/NULL);
+			String_t* L_42 = String_Format_m89(NULL /*static, unused*/, (String_t*) &_stringLiteral4396, L_35, L_38, L_41, /*hidden argument*/NULL);
 			PeerBase_EnqueueDebugReturn_m18370(__this, 5, L_42, /*hidden argument*/NULL);
 		}
 
@@ -18174,7 +18174,7 @@ extern "C" void IPhotonSocket__ctor_m18426 (IPhotonSocket_t5093 * __this, PeerBa
 	}
 	{
 		Exception_t496 * L_2 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
-		Exception__ctor_m3464(L_2, (String_t*) &_stringLiteral4392, /*hidden argument*/NULL);
+		Exception__ctor_m3464(L_2, (String_t*) &_stringLiteral4397, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -18232,7 +18232,7 @@ extern "C" bool IPhotonSocket_Connect_m18427 (IPhotonSocket_t5093 * __this, cons
 		int32_t L_8 = L_7;
 		Object_t * L_9 = Box(PhotonSocketState_t5104_il2cpp_TypeInfo_var, &L_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4393, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4398, L_9, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_6, 1, L_10);
 	}
@@ -18311,7 +18311,7 @@ IL_0079:
 		NullCheck(L_25);
 		String_t* L_26 = PeerBase_get_ServerAddress_m18354(L_25, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_27 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4394, L_26, /*hidden argument*/NULL);
+		String_t* L_27 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4399, L_26, /*hidden argument*/NULL);
 		NullCheck(L_24);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_24, 1, L_27);
 	}
@@ -19570,7 +19570,7 @@ extern "C" String_t* NCommand_ToString_m18440 (NCommand_t5094 * __this, const Me
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_14, 3)) = (Object_t *)L_17;
 		ObjectU5BU5D_t21* L_18 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4395, L_18, /*hidden argument*/NULL);
+		String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4400, L_18, /*hidden argument*/NULL);
 		V_0 = L_19;
 		goto IL_00d6;
 	}
@@ -19636,7 +19636,7 @@ IL_005f:
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_44, 6)) = (Object_t *)L_47;
 		ObjectU5BU5D_t21* L_48 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_49 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4396, L_48, /*hidden argument*/NULL);
+		String_t* L_49 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4401, L_48, /*hidden argument*/NULL);
 		V_0 = L_49;
 		goto IL_00d6;
 	}
@@ -20046,7 +20046,7 @@ IL_0131:
 			int32_t L_44 = L_43;
 			Object_t * L_45 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_44);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_46 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4397, L_45, /*hidden argument*/NULL);
+			String_t* L_46 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4402, L_45, /*hidden argument*/NULL);
 			NullCheck(L_42);
 			Thread_set_Name_m18703(L_42, L_46, /*hidden argument*/NULL);
 			Thread_t628 * L_47 = (__this->___netSimThread_8);
@@ -20375,7 +20375,7 @@ extern "C" String_t* NetworkSimulationSet_ToString_m18453 (NetworkSimulationSet_
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 6)) = (Object_t *)L_27;
 		ObjectU5BU5D_t21* L_28 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_29 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4398, L_28, /*hidden argument*/NULL);
+		String_t* L_29 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4403, L_28, /*hidden argument*/NULL);
 		V_0 = L_29;
 		goto IL_0078;
 	}
@@ -20875,7 +20875,7 @@ extern "C" void PhotonPeer_set_CrcEnabled_m3514 (PhotonPeer_t14 * __this, bool _
 	}
 	{
 		Exception_t496 * L_3 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
-		Exception__ctor_m3464(L_3, (String_t*) &_stringLiteral4399, /*hidden argument*/NULL);
+		Exception__ctor_m3464(L_3, (String_t*) &_stringLiteral4404, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -21442,7 +21442,7 @@ extern "C" void PhotonPeer__ctor_m107 (PhotonPeer_t14 * __this, Object_t * ___li
 	}
 	{
 		Exception_t496 * L_3 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
-		Exception__ctor_m3464(L_3, (String_t*) &_stringLiteral4400, /*hidden argument*/NULL);
+		Exception__ctor_m3464(L_3, (String_t*) &_stringLiteral4405, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -22009,7 +22009,7 @@ extern "C" String_t* PhotonPeer_VitalStatsToString_m3519 (PhotonPeer_t14 * __thi
 		}
 	}
 	{
-		V_0 = (String_t*) &_stringLiteral4401;
+		V_0 = (String_t*) &_stringLiteral4406;
 		goto IL_0112;
 	}
 
@@ -22069,7 +22069,7 @@ IL_001d:
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_20, 4)) = (Object_t *)L_23;
 		ObjectU5BU5D_t21* L_24 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4402, L_24, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4407, L_24, /*hidden argument*/NULL);
 		V_0 = L_25;
 		goto IL_0112;
 	}
@@ -22137,7 +22137,7 @@ IL_008e:
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_48, 6)) = (Object_t *)L_51;
 		ObjectU5BU5D_t21* L_52 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_53 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4403, L_52, /*hidden argument*/NULL);
+		String_t* L_53 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4408, L_52, /*hidden argument*/NULL);
 		V_0 = L_53;
 		goto IL_0112;
 	}
@@ -22271,7 +22271,7 @@ IL_000e:
 	}
 	{
 		ArgumentException_t725 * L_3 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_3, (String_t*) &_stringLiteral4404, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_3, (String_t*) &_stringLiteral4409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -22439,7 +22439,7 @@ extern "C" void PhotonPing__ctor_m18463 (PhotonPing_t494 * __this, const MethodI
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		__this->___DebugString_0 = (String_t*) &_stringLiteral1501;
+		__this->___DebugString_0 = (String_t*) &_stringLiteral1506;
 		__this->___PingLength_3 = ((int32_t)13);
 		ByteU5BU5D_t25* L_0 = ((ByteU5BU5D_t25*)SZArrayNew(ByteU5BU5D_t25_il2cpp_TypeInfo_var, ((int32_t)13)));
 		RuntimeHelpers_InitializeArray_m2892(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7BFD8D965DU2D3FBBU2D4B9BU2DBB9CU2D5E659CC66C0EU7D_t5133____U24U24method0x6000159U2D1_4_FieldInfo_var), /*hidden argument*/NULL);
@@ -22664,7 +22664,7 @@ IL_0077:
 	{
 		String_t* L_17 = (((PhotonPing_t494 *)__this)->___DebugString_0);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_18 = String_Concat_m105(NULL /*static, unused*/, L_17, (String_t*) &_stringLiteral4405, /*hidden argument*/NULL);
+		String_t* L_18 = String_Concat_m105(NULL /*static, unused*/, L_17, (String_t*) &_stringLiteral4410, /*hidden argument*/NULL);
 		((PhotonPing_t494 *)__this)->___DebugString_0 = L_18;
 	}
 
@@ -22846,7 +22846,7 @@ extern "C" String_t* OperationResponse_ToString_m18468 (OperationResponse_t23 * 
 		int16_t L_4 = L_3;
 		Object_t * L_5 = Box(Int16_t27_il2cpp_TypeInfo_var, &L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral4406, L_2, L_5, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral4411, L_2, L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
 		goto IL_0024;
 	}
@@ -22911,7 +22911,7 @@ extern "C" String_t* OperationResponse_ToStringFull_m102 (OperationResponse_t23 
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 3)) = (Object_t *)L_12;
 		ObjectU5BU5D_t21* L_13 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4407, L_13, /*hidden argument*/NULL);
+		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4412, L_13, /*hidden argument*/NULL);
 		V_0 = L_14;
 		goto IL_0049;
 	}
@@ -22976,7 +22976,7 @@ extern "C" String_t* EventData_ToString_m18470 (EventData_t22 * __this, const Me
 		uint8_t* L_0 = &(__this->___Code_0);
 		String_t* L_1 = Byte_ToString_m16502(L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral4408, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral4413, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		goto IL_0019;
 	}
@@ -23579,8 +23579,8 @@ IL_0076:
 		ObjectU5BU5D_t21* L_49 = V_7;
 		NullCheck(L_49);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_49, 0);
-		ArrayElementTypeCheck (L_49, (String_t*) &_stringLiteral4409);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_49, 0)) = (Object_t *)(String_t*) &_stringLiteral4409;
+		ArrayElementTypeCheck (L_49, (String_t*) &_stringLiteral4414);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_49, 0)) = (Object_t *)(String_t*) &_stringLiteral4414;
 		ObjectU5BU5D_t21* L_50 = V_7;
 		int64_t L_51 = V_4;
 		int64_t L_52 = L_51;
@@ -23592,8 +23592,8 @@ IL_0076:
 		ObjectU5BU5D_t21* L_54 = V_7;
 		NullCheck(L_54);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_54, 2);
-		ArrayElementTypeCheck (L_54, (String_t*) &_stringLiteral4410);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_54, 2)) = (Object_t *)(String_t*) &_stringLiteral4410;
+		ArrayElementTypeCheck (L_54, (String_t*) &_stringLiteral4415);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_54, 2)) = (Object_t *)(String_t*) &_stringLiteral4415;
 		ObjectU5BU5D_t21* L_55 = V_7;
 		MemoryStream_t632 * L_56 = ___dout;
 		NullCheck(L_56);
@@ -23607,8 +23607,8 @@ IL_0076:
 		ObjectU5BU5D_t21* L_60 = V_7;
 		NullCheck(L_60);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_60, 4);
-		ArrayElementTypeCheck (L_60, (String_t*) &_stringLiteral4411);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_60, 4)) = (Object_t *)(String_t*) &_stringLiteral4411;
+		ArrayElementTypeCheck (L_60, (String_t*) &_stringLiteral4416);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_60, 4)) = (Object_t *)(String_t*) &_stringLiteral4416;
 		ObjectU5BU5D_t21* L_61 = V_7;
 		int16_t L_62 = V_3;
 		int16_t L_63 = L_62;
@@ -24133,12 +24133,12 @@ IL_01c5:
 		uint8_t L_27 = L_26;
 		Object_t * L_28 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_27);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_29 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4412, L_28, /*hidden argument*/NULL);
+		String_t* L_29 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4417, L_28, /*hidden argument*/NULL);
 		Debug_WriteLine_m106(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
 		uint8_t L_30 = ___typeCode;
 		uint8_t L_31 = L_30;
 		Object_t * L_32 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_31);
-		String_t* L_33 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4413, L_32, /*hidden argument*/NULL);
+		String_t* L_33 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4418, L_32, /*hidden argument*/NULL);
 		Exception_t496 * L_34 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_34, L_33, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_34);
@@ -25439,7 +25439,7 @@ IL_020b:
 		NullCheck(L_73);
 		Type_t * L_74 = Object_GetType_m3130(L_73, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_75 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4414, L_74, /*hidden argument*/NULL);
+		String_t* L_75 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4419, L_74, /*hidden argument*/NULL);
 		Exception_t496 * L_76 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_76, L_75, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_76);
@@ -26498,7 +26498,7 @@ IL_0014:
 		int32_t L_9 = (((int32_t)(((Array_t *)L_8)->max_length)));
 		Object_t * L_10 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_9);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4415, L_10, /*hidden argument*/NULL);
+		String_t* L_11 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4420, L_10, /*hidden argument*/NULL);
 		NotSupportedException_t650 * L_12 = (NotSupportedException_t650 *)il2cpp_codegen_object_new (NotSupportedException_t650_il2cpp_TypeInfo_var);
 		NotSupportedException__ctor_m10939(L_12, L_11, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
@@ -26593,7 +26593,7 @@ IL_0016:
 		int32_t L_8 = L_7;
 		Object_t * L_9 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4416, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4421, L_9, /*hidden argument*/NULL);
 		NotSupportedException_t650 * L_11 = (NotSupportedException_t650 *)il2cpp_codegen_object_new (NotSupportedException_t650_il2cpp_TypeInfo_var);
 		NotSupportedException__ctor_m10939(L_11, L_10, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_11);
@@ -26844,8 +26844,8 @@ IL_0193:
 		ObjectU5BU5D_t21* L_97 = V_14;
 		NullCheck(L_97);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_97, 0);
-		ArrayElementTypeCheck (L_97, (String_t*) &_stringLiteral4409);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_97, 0)) = (Object_t *)(String_t*) &_stringLiteral4409;
+		ArrayElementTypeCheck (L_97, (String_t*) &_stringLiteral4414);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_97, 0)) = (Object_t *)(String_t*) &_stringLiteral4414;
 		ObjectU5BU5D_t21* L_98 = V_14;
 		int64_t L_99 = V_12;
 		int64_t L_100 = L_99;
@@ -26857,8 +26857,8 @@ IL_0193:
 		ObjectU5BU5D_t21* L_102 = V_14;
 		NullCheck(L_102);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_102, 2);
-		ArrayElementTypeCheck (L_102, (String_t*) &_stringLiteral4410);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_102, 2)) = (Object_t *)(String_t*) &_stringLiteral4410;
+		ArrayElementTypeCheck (L_102, (String_t*) &_stringLiteral4415);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_102, 2)) = (Object_t *)(String_t*) &_stringLiteral4415;
 		ObjectU5BU5D_t21* L_103 = V_14;
 		MemoryStream_t632 * L_104 = ___dout;
 		NullCheck(L_104);
@@ -26872,8 +26872,8 @@ IL_0193:
 		ObjectU5BU5D_t21* L_108 = V_14;
 		NullCheck(L_108);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_108, 4);
-		ArrayElementTypeCheck (L_108, (String_t*) &_stringLiteral4411);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_108, 4)) = (Object_t *)(String_t*) &_stringLiteral4411;
+		ArrayElementTypeCheck (L_108, (String_t*) &_stringLiteral4416);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_108, 4)) = (Object_t *)(String_t*) &_stringLiteral4416;
 		ObjectU5BU5D_t21* L_109 = V_14;
 		int16_t L_110 = V_11;
 		int16_t L_111 = L_110;
@@ -26921,7 +26921,7 @@ IL_026d:
 	{
 		Type_t * L_121 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_122 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4417, L_121, /*hidden argument*/NULL);
+		String_t* L_122 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4422, L_121, /*hidden argument*/NULL);
 		NotSupportedException_t650 * L_123 = (NotSupportedException_t650 *)il2cpp_codegen_object_new (NotSupportedException_t650_il2cpp_TypeInfo_var);
 		NotSupportedException__ctor_m10939(L_123, L_122, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_123);
@@ -27472,7 +27472,7 @@ IL_005c:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, 0);
 		int32_t L_21 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4418, (*(Type_t **)(Type_t **)SZArrayLdElema(L_20, L_21)), /*hidden argument*/NULL);
+		String_t* L_22 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4423, (*(Type_t **)(Type_t **)SZArrayLdElema(L_20, L_21)), /*hidden argument*/NULL);
 		Exception_t496 * L_23 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_23, L_22, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
@@ -27526,7 +27526,7 @@ IL_0093:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_34, 0);
 		int32_t L_35 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_36 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4419, (*(Type_t **)(Type_t **)SZArrayLdElema(L_34, L_35)), /*hidden argument*/NULL);
+		String_t* L_36 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4424, (*(Type_t **)(Type_t **)SZArrayLdElema(L_34, L_35)), /*hidden argument*/NULL);
 		Exception_t496 * L_37 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_37, L_36, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_37);
@@ -28075,12 +28075,12 @@ IL_0196:
 		uint8_t L_62 = L_61;
 		Object_t * L_63 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_62);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_64 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4412, L_63, /*hidden argument*/NULL);
+		String_t* L_64 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4417, L_63, /*hidden argument*/NULL);
 		Debug_WriteLine_m106(NULL /*static, unused*/, L_64, /*hidden argument*/NULL);
 		uint8_t L_65 = ___type;
 		uint8_t L_66 = L_65;
 		Object_t * L_67 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_66);
-		String_t* L_68 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4413, L_67, /*hidden argument*/NULL);
+		String_t* L_68 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4418, L_67, /*hidden argument*/NULL);
 		Exception_t496 * L_69 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_69, L_68, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_69);
@@ -28954,7 +28954,7 @@ extern "C" String_t* Protocol_DeserializeString_m18530 (Object_t * __this /* sta
 		}
 	}
 	{
-		V_2 = (String_t*) &_stringLiteral1501;
+		V_2 = (String_t*) &_stringLiteral1506;
 		goto IL_0040;
 	}
 
@@ -29256,7 +29256,7 @@ IL_0184:
 		uint8_t L_77 = L_76;
 		Object_t * L_78 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_77);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_79 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4420, L_78, /*hidden argument*/NULL);
+		String_t* L_79 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4425, L_78, /*hidden argument*/NULL);
 		Exception_t496 * L_80 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_80, L_79, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_80);
@@ -30285,7 +30285,7 @@ extern "C" void SocketTcp__ctor_m18541 (SocketTcp_t5119 * __this, PeerBase_t5090
 	{
 		Object_t * L_4 = IPhotonSocket_get_Listener_m18415(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_4, 5, (String_t*) &_stringLiteral4421);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_4, 5, (String_t*) &_stringLiteral4426);
 	}
 
 IL_0036:
@@ -30368,7 +30368,7 @@ CATCH_0039:
 		V_0 = ((Exception_t496 *)__exception_local);
 		Exception_t496 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4422, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4427, L_6, /*hidden argument*/NULL);
 		IPhotonSocket_EnqueueDebugReturn_m18430(__this, 3, L_7, /*hidden argument*/NULL);
 		goto IL_0051;
 	} // end catch (depth: 1)
@@ -30429,7 +30429,7 @@ IL_0012:
 		V_1 = L_5;
 		Thread_t628 * L_6 = V_1;
 		NullCheck(L_6);
-		Thread_set_Name_m18703(L_6, (String_t*) &_stringLiteral4423, /*hidden argument*/NULL);
+		Thread_set_Name_m18703(L_6, (String_t*) &_stringLiteral4428, /*hidden argument*/NULL);
 		Thread_t628 * L_7 = V_1;
 		NullCheck(L_7);
 		Thread_set_IsBackground_m18702(L_7, 1, /*hidden argument*/NULL);
@@ -30478,7 +30478,7 @@ extern "C" bool SocketTcp_Disconnect_m18544 (SocketTcp_t5119 * __this, const Met
 		}
 	}
 	{
-		IPhotonSocket_EnqueueDebugReturn_m18430(__this, 3, (String_t*) &_stringLiteral4424, /*hidden argument*/NULL);
+		IPhotonSocket_EnqueueDebugReturn_m18430(__this, 3, (String_t*) &_stringLiteral4429, /*hidden argument*/NULL);
 	}
 
 IL_001e:
@@ -30528,7 +30528,7 @@ CATCH_0053:
 			V_0 = ((Exception_t496 *)__exception_local);
 			Exception_t496 * L_7 = V_0;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_8 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4425, L_7, /*hidden argument*/NULL);
+			String_t* L_8 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4430, L_7, /*hidden argument*/NULL);
 			IPhotonSocket_EnqueueDebugReturn_m18430(__this, 3, L_8, /*hidden argument*/NULL);
 			goto IL_006b;
 		} // end catch (depth: 2)
@@ -30647,7 +30647,7 @@ IL_0036:
 			NullCheck(L_7);
 			String_t* L_8 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_9 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4426, L_8, /*hidden argument*/NULL);
+			String_t* L_9 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4431, L_8, /*hidden argument*/NULL);
 			IPhotonSocket_EnqueueDebugReturn_m18430(__this, 1, L_9, /*hidden argument*/NULL);
 		}
 
@@ -30760,7 +30760,7 @@ IL_005c:
 			NullCheck(L_11);
 			String_t* L_12 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_11);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_13 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4427, L_10, (String_t*) &_stringLiteral4428, L_12, /*hidden argument*/NULL);
+			String_t* L_13 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4432, L_10, (String_t*) &_stringLiteral4433, L_12, /*hidden argument*/NULL);
 			NullCheck(L_9);
 			InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_9, 1, L_13);
 		}
@@ -30793,7 +30793,7 @@ IL_00a6:
 			NullCheck(L_18);
 			String_t* L_19 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_18);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_20 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4427, L_17, (String_t*) &_stringLiteral4428, L_19, /*hidden argument*/NULL);
+			String_t* L_20 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4432, L_17, (String_t*) &_stringLiteral4433, L_19, /*hidden argument*/NULL);
 			NullCheck(L_16);
 			InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_16, 1, L_20);
 		}
@@ -30815,7 +30815,7 @@ IL_00de:
 		V_3 = L_23;
 		Thread_t628 * L_24 = V_3;
 		NullCheck(L_24);
-		Thread_set_Name_m18703(L_24, (String_t*) &_stringLiteral4429, /*hidden argument*/NULL);
+		Thread_set_Name_m18703(L_24, (String_t*) &_stringLiteral4434, /*hidden argument*/NULL);
 		Thread_t628 * L_25 = V_3;
 		NullCheck(L_25);
 		Thread_set_IsBackground_m18702(L_25, 1, /*hidden argument*/NULL);
@@ -31066,7 +31066,7 @@ IL_0114:
 			int32_t L_45 = L_44;
 			Object_t * L_46 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_45);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_47 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4430, L_46, /*hidden argument*/NULL);
+			String_t* L_47 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4435, L_46, /*hidden argument*/NULL);
 			IPhotonSocket_EnqueueDebugReturn_m18430(__this, 5, L_47, /*hidden argument*/NULL);
 		}
 
@@ -31182,13 +31182,13 @@ IL_01cf:
 			int64_t L_84 = (int64_t)VirtFuncInvoker0< int64_t >::Invoke(8 /* System.Int64 System.IO.Stream::get_Length() */, L_83);
 			int32_t L_85 = V_4;
 			G_B25_0 = L_82;
-			G_B25_1 = (String_t*) &_stringLiteral4431;
+			G_B25_1 = (String_t*) &_stringLiteral4436;
 			G_B25_2 = 5;
 			G_B25_3 = __this;
 			if ((((int64_t)L_84) == ((int64_t)(((int64_t)((int32_t)((int32_t)L_85+(int32_t)2)))))))
 			{
 				G_B26_0 = L_82;
-				G_B26_1 = (String_t*) &_stringLiteral4431;
+				G_B26_1 = (String_t*) &_stringLiteral4436;
 				G_B26_2 = 5;
 				G_B26_3 = __this;
 				goto IL_01f6;
@@ -31197,7 +31197,7 @@ IL_01cf:
 
 IL_01ef:
 		{
-			G_B27_0 = (String_t*) &_stringLiteral4432;
+			G_B27_0 = (String_t*) &_stringLiteral4437;
 			G_B27_1 = G_B25_0;
 			G_B27_2 = G_B25_1;
 			G_B27_3 = G_B25_2;
@@ -31207,7 +31207,7 @@ IL_01ef:
 
 IL_01f6:
 		{
-			G_B27_0 = (String_t*) &_stringLiteral4433;
+			G_B27_0 = (String_t*) &_stringLiteral4438;
 			G_B27_1 = G_B26_0;
 			G_B27_2 = G_B26_1;
 			G_B27_3 = G_B26_2;
@@ -31289,7 +31289,7 @@ IL_023e:
 			int32_t L_94 = L_93;
 			Object_t * L_95 = Box(SocketError_t4247_il2cpp_TypeInfo_var, &L_94);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_96 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4434, L_95, /*hidden argument*/NULL);
+			String_t* L_96 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4439, L_95, /*hidden argument*/NULL);
 			IPhotonSocket_EnqueueDebugReturn_m18430(__this, 1, L_96, /*hidden argument*/NULL);
 		}
 
@@ -31399,7 +31399,7 @@ IL_02d9:
 			NullCheck(L_107);
 			String_t* L_108 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_107);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_109 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4435, L_108, /*hidden argument*/NULL);
+			String_t* L_109 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral4440, L_108, /*hidden argument*/NULL);
 			IPhotonSocket_EnqueueDebugReturn_m18430(__this, 1, L_109, /*hidden argument*/NULL);
 		}
 
@@ -31469,7 +31469,7 @@ extern "C" void SocketUdp__ctor_m18548 (SocketUdp_t5120 * __this, PeerBase_t5090
 	{
 		Object_t * L_4 = IPhotonSocket_get_Listener_m18415(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_4, 5, (String_t*) &_stringLiteral4436);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_4, 5, (String_t*) &_stringLiteral4441);
 	}
 
 IL_0036:
@@ -31552,7 +31552,7 @@ CATCH_0039:
 		V_0 = ((Exception_t496 *)__exception_local);
 		Exception_t496 * L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4422, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4427, L_6, /*hidden argument*/NULL);
 		IPhotonSocket_EnqueueDebugReturn_m18430(__this, 3, L_7, /*hidden argument*/NULL);
 		goto IL_0051;
 	} // end catch (depth: 1)
@@ -31632,7 +31632,7 @@ IL_0023:
 			V_1 = L_7;
 			Thread_t628 * L_8 = V_1;
 			NullCheck(L_8);
-			Thread_set_Name_m18703(L_8, (String_t*) &_stringLiteral4423, /*hidden argument*/NULL);
+			Thread_set_Name_m18703(L_8, (String_t*) &_stringLiteral4428, /*hidden argument*/NULL);
 			Thread_t628 * L_9 = V_1;
 			NullCheck(L_9);
 			Thread_set_IsBackground_m18702(L_9, 1, /*hidden argument*/NULL);
@@ -31699,7 +31699,7 @@ extern "C" bool SocketUdp_Disconnect_m18551 (SocketUdp_t5120 * __this, const Met
 		}
 	}
 	{
-		IPhotonSocket_EnqueueDebugReturn_m18430(__this, 3, (String_t*) &_stringLiteral4437, /*hidden argument*/NULL);
+		IPhotonSocket_EnqueueDebugReturn_m18430(__this, 3, (String_t*) &_stringLiteral4442, /*hidden argument*/NULL);
 	}
 
 IL_001e:
@@ -31749,7 +31749,7 @@ CATCH_0053:
 			V_0 = ((Exception_t496 *)__exception_local);
 			Exception_t496 * L_7 = V_0;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_8 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4425, L_7, /*hidden argument*/NULL);
+			String_t* L_8 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4430, L_7, /*hidden argument*/NULL);
 			IPhotonSocket_EnqueueDebugReturn_m18430(__this, 3, L_8, /*hidden argument*/NULL);
 			goto IL_006b;
 		} // end catch (depth: 2)
@@ -32022,7 +32022,7 @@ IL_006d:
 			NullCheck(L_13);
 			String_t* L_14 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_13);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_15 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4427, L_12, (String_t*) &_stringLiteral4428, L_14, /*hidden argument*/NULL);
+			String_t* L_15 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4432, L_12, (String_t*) &_stringLiteral4433, L_14, /*hidden argument*/NULL);
 			NullCheck(L_11);
 			InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_11, 1, L_15);
 		}
@@ -32055,7 +32055,7 @@ IL_00b7:
 			NullCheck(L_20);
 			String_t* L_21 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_20);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_22 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4427, L_19, (String_t*) &_stringLiteral4428, L_21, /*hidden argument*/NULL);
+			String_t* L_22 = String_Concat_m3030(NULL /*static, unused*/, (String_t*) &_stringLiteral4432, L_19, (String_t*) &_stringLiteral4433, L_21, /*hidden argument*/NULL);
 			NullCheck(L_18);
 			InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_18, 1, L_22);
 		}
@@ -32077,7 +32077,7 @@ IL_00ef:
 		V_3 = L_25;
 		Thread_t628 * L_26 = V_3;
 		NullCheck(L_26);
-		Thread_set_Name_m18703(L_26, (String_t*) &_stringLiteral4429, /*hidden argument*/NULL);
+		Thread_set_Name_m18703(L_26, (String_t*) &_stringLiteral4434, /*hidden argument*/NULL);
 		Thread_t628 * L_27 = V_3;
 		NullCheck(L_27);
 		Thread_set_IsBackground_m18702(L_27, 1, /*hidden argument*/NULL);
@@ -32202,8 +32202,8 @@ IL_0059:
 			ObjectU5BU5D_t21* L_11 = V_4;
 			NullCheck(L_11);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 0);
-			ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral4438);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 0)) = (Object_t *)(String_t*) &_stringLiteral4438;
+			ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral4443);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 0)) = (Object_t *)(String_t*) &_stringLiteral4443;
 			ObjectU5BU5D_t21* L_12 = V_4;
 			int32_t L_13 = IPhotonSocket_get_State_m18418(__this, /*hidden argument*/NULL);
 			int32_t L_14 = L_13;
@@ -32215,8 +32215,8 @@ IL_0059:
 			ObjectU5BU5D_t21* L_16 = V_4;
 			NullCheck(L_16);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 2);
-			ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral4439);
-			*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 2)) = (Object_t *)(String_t*) &_stringLiteral4439;
+			ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral4444);
+			*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 2)) = (Object_t *)(String_t*) &_stringLiteral4444;
 			ObjectU5BU5D_t21* L_17 = V_4;
 			Exception_t496 * L_18 = V_2;
 			NullCheck(L_17);
@@ -32969,7 +32969,7 @@ IL_001b:
 		V_0 = L_2;
 		StringBuilder_t696 * L_3 = V_0;
 		NullCheck(L_3);
-		StringBuilder_Append_m3049(L_3, (String_t*) &_stringLiteral1408, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_3, (String_t*) &_stringLiteral1413, /*hidden argument*/NULL);
 		Object_t * L_4 = ___dictionary;
 		NullCheck(L_4);
 		Object_t * L_5 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(2 /* System.Collections.ICollection System.Collections.IDictionary::get_Keys() */, IDictionary_t634_il2cpp_TypeInfo_var, L_4);
@@ -33116,8 +33116,8 @@ IL_00fe:
 			NullCheck(L_38);
 			Object_t * L_40 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t634_il2cpp_TypeInfo_var, L_38, L_39);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_41 = String_Join_m3315(NULL /*static, unused*/, (String_t*) &_stringLiteral1293, ((StringU5BU5D_t20*)Castclass(L_40, StringU5BU5D_t20_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
-			String_t* L_42 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral4440, L_41, /*hidden argument*/NULL);
+			String_t* L_41 = String_Join_m3315(NULL /*static, unused*/, (String_t*) &_stringLiteral1298, ((StringU5BU5D_t20*)Castclass(L_40, StringU5BU5D_t20_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+			String_t* L_42 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral4445, L_41, /*hidden argument*/NULL);
 			V_2 = L_42;
 		}
 
@@ -33168,7 +33168,7 @@ IL_012b:
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_55, 3)) = (Object_t *)L_56;
 			ObjectU5BU5D_t21* L_57 = V_7;
 			NullCheck(L_45);
-			StringBuilder_AppendFormat_m7702(L_45, (String_t*) &_stringLiteral4441, L_57, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m7702(L_45, (String_t*) &_stringLiteral4446, L_57, /*hidden argument*/NULL);
 			goto IL_0178;
 		}
 
@@ -33178,7 +33178,7 @@ IL_0168:
 			Object_t * L_59 = V_3;
 			String_t* L_60 = V_2;
 			NullCheck(L_58);
-			StringBuilder_AppendFormat_m3603(L_58, (String_t*) &_stringLiteral1572, L_59, L_60, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m3603(L_58, (String_t*) &_stringLiteral1577, L_59, L_60, /*hidden argument*/NULL);
 		}
 
 IL_0178:
@@ -33245,7 +33245,7 @@ IL_01a8:
 	{
 		StringBuilder_t696 * L_68 = V_0;
 		NullCheck(L_68);
-		StringBuilder_Append_m3049(L_68, (String_t*) &_stringLiteral2046, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_68, (String_t*) &_stringLiteral2051, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_69 = V_0;
 		NullCheck(L_69);
 		String_t* L_70 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_69);
@@ -33477,7 +33477,7 @@ extern "C" bool TPeer_Connect_m18574 (TPeer_t5124 * __this, String_t* ___serverA
 	{
 		Object_t * L_2 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_2, 2, (String_t*) &_stringLiteral4442);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_2, 2, (String_t*) &_stringLiteral4447);
 		V_1 = 0;
 		goto IL_016f;
 	}
@@ -33495,7 +33495,7 @@ IL_0028:
 	{
 		Object_t * L_5 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_5, 5, (String_t*) &_stringLiteral4353);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_5, 5, (String_t*) &_stringLiteral4358);
 	}
 
 IL_0049:
@@ -33515,7 +33515,7 @@ IL_0049:
 		}
 	}
 	{
-		___appID = (String_t*) &_stringLiteral4354;
+		___appID = (String_t*) &_stringLiteral4359;
 	}
 
 IL_0077:
@@ -33622,7 +33622,7 @@ IL_00eb:
 		Object_t * L_30 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		Type_t * L_31 = (((PeerBase_t5090 *)__this)->___SocketImplementation_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_32 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4443, L_31, /*hidden argument*/NULL);
+		String_t* L_32 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4448, L_31, /*hidden argument*/NULL);
 		NullCheck(L_30);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_30, 1, L_32);
 		V_1 = 0;
@@ -33746,7 +33746,7 @@ IL_0020:
 	{
 		Object_t * L_5 = PeerBase_get_Listener_m18356(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_5, 5, (String_t*) &_stringLiteral4444);
+		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_5, 5, (String_t*) &_stringLiteral4449);
 	}
 
 IL_0041:
@@ -33877,7 +33877,7 @@ extern "C" void TPeer_FetchServerTimestamp_m18577 (TPeer_t5124 * __this, const M
 		uint8_t L_6 = L_5;
 		Object_t * L_7 = Box(ConnectionStateValue_t5088_il2cpp_TypeInfo_var, &L_6);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4356, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4361, L_7, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_t24_il2cpp_TypeInfo_var, L_4, 3, L_8);
 	}
@@ -34532,8 +34532,8 @@ extern "C" bool TPeer_EnqueueOperation_m18582 (TPeer_t5124 * __this, Dictionary_
 		ObjectU5BU5D_t21* L_5 = V_3;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 0);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4363);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)(String_t*) &_stringLiteral4363;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral4368);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)(String_t*) &_stringLiteral4368;
 		ObjectU5BU5D_t21* L_6 = V_3;
 		uint8_t L_7 = ___opCode;
 		uint8_t L_8 = L_7;
@@ -34545,8 +34545,8 @@ extern "C" bool TPeer_EnqueueOperation_m18582 (TPeer_t5124 * __this, Dictionary_
 		ObjectU5BU5D_t21* L_10 = V_3;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 2);
-		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral4445);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 2)) = (Object_t *)(String_t*) &_stringLiteral4445;
+		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral4450);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 2)) = (Object_t *)(String_t*) &_stringLiteral4450;
 		ObjectU5BU5D_t21* L_11 = V_3;
 		uint8_t L_12 = (((PeerBase_t5090 *)__this)->___peerConnectionState_21);
 		uint8_t L_13 = L_12;
@@ -34597,8 +34597,8 @@ IL_0077:
 		ObjectU5BU5D_t21* L_24 = V_3;
 		NullCheck(L_24);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_24, 0);
-		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral4365);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 0)) = (Object_t *)(String_t*) &_stringLiteral4365;
+		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral4370);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 0)) = (Object_t *)(String_t*) &_stringLiteral4370;
 		ObjectU5BU5D_t21* L_25 = V_3;
 		uint8_t L_26 = ___channelId;
 		uint8_t L_27 = L_26;
@@ -34610,8 +34610,8 @@ IL_0077:
 		ObjectU5BU5D_t21* L_29 = V_3;
 		NullCheck(L_29);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_29, 2);
-		ArrayElementTypeCheck (L_29, (String_t*) &_stringLiteral4366);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 2)) = (Object_t *)(String_t*) &_stringLiteral4366;
+		ArrayElementTypeCheck (L_29, (String_t*) &_stringLiteral4371);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 2)) = (Object_t *)(String_t*) &_stringLiteral4371;
 		ObjectU5BU5D_t21* L_30 = V_3;
 		uint8_t L_31 = (((PeerBase_t5090 *)__this)->___ChannelCount_40);
 		uint8_t L_32 = L_31;
@@ -35403,7 +35403,7 @@ extern "C" void TPeer_ReceiveIncomingCommands_m18587 (TPeer_t5124 * __this, Byte
 		}
 	}
 	{
-		PeerBase_EnqueueDebugReturn_m18370(__this, 1, (String_t*) &_stringLiteral4446, /*hidden argument*/NULL);
+		PeerBase_EnqueueDebugReturn_m18370(__this, 1, (String_t*) &_stringLiteral4451, /*hidden argument*/NULL);
 	}
 
 IL_0029:
@@ -35579,7 +35579,7 @@ IL_0124:
 		uint8_t L_39 = (*(uint8_t*)(uint8_t*)SZArrayLdElema(L_37, L_38));
 		Object_t * L_40 = Box(Byte_t26_il2cpp_TypeInfo_var, &L_39);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_41 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4447, L_40, /*hidden argument*/NULL);
+		String_t* L_41 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral4452, L_40, /*hidden argument*/NULL);
 		PeerBase_EnqueueDebugReturn_m18370(__this, 1, L_41, /*hidden argument*/NULL);
 	}
 
@@ -36387,7 +36387,7 @@ extern "C" String_t* TrafficStatsGameLevel_ToString_m18620 (TrafficStatsGameLeve
 		int32_t L_7 = L_6;
 		Object_t * L_8 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Format_m89(NULL /*static, unused*/, (String_t*) &_stringLiteral4448, L_2, L_5, L_8, /*hidden argument*/NULL);
+		String_t* L_9 = String_Format_m89(NULL /*static, unused*/, (String_t*) &_stringLiteral4453, L_2, L_5, L_8, /*hidden argument*/NULL);
 		V_0 = L_9;
 		goto IL_002f;
 	}
@@ -36484,7 +36484,7 @@ extern "C" String_t* TrafficStatsGameLevel_ToStringVitalStats_m18621 (TrafficSta
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_28, 7)) = (Object_t *)L_31;
 		ObjectU5BU5D_t21* L_32 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4449, L_32, /*hidden argument*/NULL);
+		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4454, L_32, /*hidden argument*/NULL);
 		V_0 = L_33;
 		goto IL_0086;
 	}
@@ -36949,7 +36949,7 @@ extern "C" String_t* TrafficStats_ToString_m18654 (TrafficStats_t777 * __this, c
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 3)) = (Object_t *)L_15;
 		ObjectU5BU5D_t21* L_16 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4450, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral4455, L_16, /*hidden argument*/NULL);
 		V_0 = L_17;
 		goto IL_004e;
 	}

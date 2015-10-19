@@ -426,8 +426,10 @@ namespace UnityEngine.UI
 		protected override void OnDisable()
 		{
 			// the coroutine will be terminated, so this will ensure it restarts when we are next activated
+			Debug.Log ("OnDisable");
+
 			m_BlinkCoroutine = null;
-			
+
 			DeactivateInputField();
 			if (m_TextComponent != null)
 			{
@@ -640,6 +642,7 @@ namespace UnityEngine.UI
 			
 			if (m_Keyboard.done)
 			{
+				Debug.Log ("Keyboard.done");
 				if (m_Keyboard.wasCanceled)
 					m_WasCanceled = true;
 				
@@ -1009,6 +1012,7 @@ namespace UnityEngine.UI
 		
 		public virtual void OnUpdateSelected(BaseEventData eventData)
 		{
+			Debug.Log ("OnUpdateSelected");
 			if (!isFocused)
 				return;
 			
@@ -1329,6 +1333,7 @@ namespace UnityEngine.UI
 		
 		protected void SendOnSubmit()
 		{
+			Debug.Log ("SendOnSubmit");
 			if (onEndEdit != null)
 				onEndEdit.Invoke(m_Text);
 		}
@@ -2017,12 +2022,14 @@ namespace UnityEngine.UI
 		
 		public override void OnDeselect(BaseEventData eventData)
 		{
+			//Debug.Log ("OnDeselect");
 			//DeactivateInputField();
 			base.OnDeselect(eventData);
 		}
 		
 		public virtual void OnSubmit(BaseEventData eventData)
 		{
+			Debug.Log ("OnSubmit");
 			if (!IsActive() || !IsInteractable())
 				return;
 			

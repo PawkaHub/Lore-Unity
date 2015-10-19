@@ -428,7 +428,7 @@ extern "C" void EventSystem_SetSelectedGameObject_m2973 (EventSystem_t690 * __th
 	{
 		GameObject_t49 * L_1 = ___selected;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m3091(NULL /*static, unused*/, (String_t*) &_stringLiteral906, L_1, (String_t*) &_stringLiteral907, /*hidden argument*/NULL);
+		String_t* L_2 = String_Concat_m3091(NULL /*static, unused*/, (String_t*) &_stringLiteral911, L_1, (String_t*) &_stringLiteral912, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
@@ -1230,7 +1230,7 @@ extern "C" String_t* EventSystem_ToString_m4115 (EventSystem_t690 * __this, cons
 		StringBuilder_t696 * L_1 = V_0;
 		GameObject_t49 * L_2 = EventSystem_get_currentSelectedGameObject_m3060(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral908, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral913, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		StringBuilder_AppendLine_m5223(L_1, L_3, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_4 = V_0;
@@ -1260,7 +1260,7 @@ extern "C" String_t* EventSystem_ToString_m4115 (EventSystem_t690 * __this, cons
 
 IL_004d:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral909;
+		G_B3_0 = (String_t*) &_stringLiteral914;
 		G_B3_1 = G_B2_0;
 	}
 
@@ -2943,8 +2943,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_2 = ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, ((int32_t)24)));
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral914);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)(String_t*) &_stringLiteral914;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral919);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)(String_t*) &_stringLiteral919;
 		ObjectU5BU5D_t21* L_3 = L_2;
 		GameObject_t49 * L_4 = RaycastResult_get_gameObject_m4179(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
@@ -2954,8 +2954,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_5 = L_3;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 2);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral915);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 2)) = (Object_t *)(String_t*) &_stringLiteral915;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral920);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 2)) = (Object_t *)(String_t*) &_stringLiteral920;
 		ObjectU5BU5D_t21* L_6 = L_5;
 		BaseRaycaster_t1103 * L_7 = (__this->___module_1);
 		NullCheck(L_6);
@@ -2965,8 +2965,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_8 = L_6;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 4);
-		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral916);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 4)) = (Object_t *)(String_t*) &_stringLiteral916;
+		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral921);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 4)) = (Object_t *)(String_t*) &_stringLiteral921;
 		ObjectU5BU5D_t21* L_9 = L_8;
 		BaseRaycaster_t1103 * L_10 = (__this->___module_1);
 		NullCheck(L_10);
@@ -2978,8 +2978,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_12 = L_9;
 		NullCheck(L_12);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 6);
-		ArrayElementTypeCheck (L_12, (String_t*) &_stringLiteral917);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 6)) = (Object_t *)(String_t*) &_stringLiteral917;
+		ArrayElementTypeCheck (L_12, (String_t*) &_stringLiteral922);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 6)) = (Object_t *)(String_t*) &_stringLiteral922;
 		ObjectU5BU5D_t21* L_13 = L_12;
 		float L_14 = (__this->___distance_2);
 		float L_15 = L_14;
@@ -2991,8 +2991,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_17 = L_13;
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, 8);
-		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral918);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 8)) = (Object_t *)(String_t*) &_stringLiteral918;
+		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral923);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 8)) = (Object_t *)(String_t*) &_stringLiteral923;
 		ObjectU5BU5D_t21* L_18 = L_17;
 		float L_19 = (__this->___index_3);
 		float L_20 = L_19;
@@ -3004,8 +3004,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_22 = L_18;
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, ((int32_t)10));
-		ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral919);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, ((int32_t)10))) = (Object_t *)(String_t*) &_stringLiteral919;
+		ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral924);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, ((int32_t)10))) = (Object_t *)(String_t*) &_stringLiteral924;
 		ObjectU5BU5D_t21* L_23 = L_22;
 		int32_t L_24 = (__this->___depth_4);
 		int32_t L_25 = L_24;
@@ -3017,8 +3017,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_27 = L_23;
 		NullCheck(L_27);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_27, ((int32_t)12));
-		ArrayElementTypeCheck (L_27, (String_t*) &_stringLiteral920);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, ((int32_t)12))) = (Object_t *)(String_t*) &_stringLiteral920;
+		ArrayElementTypeCheck (L_27, (String_t*) &_stringLiteral925);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, ((int32_t)12))) = (Object_t *)(String_t*) &_stringLiteral925;
 		ObjectU5BU5D_t21* L_28 = L_27;
 		Vector3_t53  L_29 = (__this->___worldNormal_8);
 		Vector3_t53  L_30 = L_29;
@@ -3030,8 +3030,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_32 = L_28;
 		NullCheck(L_32);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_32, ((int32_t)14));
-		ArrayElementTypeCheck (L_32, (String_t*) &_stringLiteral921);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, ((int32_t)14))) = (Object_t *)(String_t*) &_stringLiteral921;
+		ArrayElementTypeCheck (L_32, (String_t*) &_stringLiteral926);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, ((int32_t)14))) = (Object_t *)(String_t*) &_stringLiteral926;
 		ObjectU5BU5D_t21* L_33 = L_32;
 		Vector3_t53  L_34 = (__this->___worldPosition_7);
 		Vector3_t53  L_35 = L_34;
@@ -3043,8 +3043,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_37 = L_33;
 		NullCheck(L_37);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_37, ((int32_t)16));
-		ArrayElementTypeCheck (L_37, (String_t*) &_stringLiteral922);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, ((int32_t)16))) = (Object_t *)(String_t*) &_stringLiteral922;
+		ArrayElementTypeCheck (L_37, (String_t*) &_stringLiteral927);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, ((int32_t)16))) = (Object_t *)(String_t*) &_stringLiteral927;
 		ObjectU5BU5D_t21* L_38 = L_37;
 		BaseRaycaster_t1103 * L_39 = (__this->___module_1);
 		NullCheck(L_39);
@@ -3058,8 +3058,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_43 = L_38;
 		NullCheck(L_43);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_43, ((int32_t)18));
-		ArrayElementTypeCheck (L_43, (String_t*) &_stringLiteral923);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_43, ((int32_t)18))) = (Object_t *)(String_t*) &_stringLiteral923;
+		ArrayElementTypeCheck (L_43, (String_t*) &_stringLiteral928);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_43, ((int32_t)18))) = (Object_t *)(String_t*) &_stringLiteral928;
 		ObjectU5BU5D_t21* L_44 = L_43;
 		BaseRaycaster_t1103 * L_45 = (__this->___module_1);
 		NullCheck(L_45);
@@ -3073,8 +3073,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_49 = L_44;
 		NullCheck(L_49);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_49, ((int32_t)20));
-		ArrayElementTypeCheck (L_49, (String_t*) &_stringLiteral924);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_49, ((int32_t)20))) = (Object_t *)(String_t*) &_stringLiteral924;
+		ArrayElementTypeCheck (L_49, (String_t*) &_stringLiteral929);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_49, ((int32_t)20))) = (Object_t *)(String_t*) &_stringLiteral929;
 		ObjectU5BU5D_t21* L_50 = L_49;
 		int32_t L_51 = (__this->___sortingLayer_5);
 		int32_t L_52 = L_51;
@@ -3086,8 +3086,8 @@ IL_0011:
 		ObjectU5BU5D_t21* L_54 = L_50;
 		NullCheck(L_54);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_54, ((int32_t)22));
-		ArrayElementTypeCheck (L_54, (String_t*) &_stringLiteral925);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_54, ((int32_t)22))) = (Object_t *)(String_t*) &_stringLiteral925;
+		ArrayElementTypeCheck (L_54, (String_t*) &_stringLiteral930);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_54, ((int32_t)22))) = (Object_t *)(String_t*) &_stringLiteral930;
 		ObjectU5BU5D_t21* L_55 = L_54;
 		int32_t L_56 = (__this->___sortingOrder_6);
 		int32_t L_57 = L_56;
@@ -3912,53 +3912,53 @@ extern "C" String_t* PointerEventData_ToString_m4242 (PointerEventData_t580 * __
 		Vector2_t97  L_3 = L_2;
 		Object_t * L_4 = Box(Vector2_t97_il2cpp_TypeInfo_var, &L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral926, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral931, L_4, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		StringBuilder_AppendLine_m5223(L_1, L_5, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_6 = V_0;
 		Vector2_t97  L_7 = PointerEventData_get_delta_m4218(__this, /*hidden argument*/NULL);
 		Vector2_t97  L_8 = L_7;
 		Object_t * L_9 = Box(Vector2_t97_il2cpp_TypeInfo_var, &L_8);
-		String_t* L_10 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral927, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral932, L_9, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		StringBuilder_AppendLine_m5223(L_6, L_10, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_11 = V_0;
 		bool L_12 = PointerEventData_get_eligibleForClick_m4213(__this, /*hidden argument*/NULL);
 		bool L_13 = L_12;
 		Object_t * L_14 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_13);
-		String_t* L_15 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral928, L_14, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral933, L_14, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		StringBuilder_AppendLine_m5223(L_11, L_15, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_16 = V_0;
 		GameObject_t49 * L_17 = PointerEventData_get_pointerEnter_m4201(__this, /*hidden argument*/NULL);
-		String_t* L_18 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral929, L_17, /*hidden argument*/NULL);
+		String_t* L_18 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral934, L_17, /*hidden argument*/NULL);
 		NullCheck(L_16);
 		StringBuilder_AppendLine_m5223(L_16, L_18, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_19 = V_0;
 		GameObject_t49 * L_20 = PointerEventData_get_pointerPress_m4240(__this, /*hidden argument*/NULL);
-		String_t* L_21 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral930, L_20, /*hidden argument*/NULL);
+		String_t* L_21 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral935, L_20, /*hidden argument*/NULL);
 		NullCheck(L_19);
 		StringBuilder_AppendLine_m5223(L_19, L_21, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_22 = V_0;
 		GameObject_t49 * L_23 = PointerEventData_get_lastPress_m4203(__this, /*hidden argument*/NULL);
-		String_t* L_24 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral931, L_23, /*hidden argument*/NULL);
+		String_t* L_24 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral936, L_23, /*hidden argument*/NULL);
 		NullCheck(L_22);
 		StringBuilder_AppendLine_m5223(L_22, L_24, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_25 = V_0;
 		GameObject_t49 * L_26 = PointerEventData_get_pointerDrag_m4207(__this, /*hidden argument*/NULL);
-		String_t* L_27 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral932, L_26, /*hidden argument*/NULL);
+		String_t* L_27 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral937, L_26, /*hidden argument*/NULL);
 		NullCheck(L_25);
 		StringBuilder_AppendLine_m5223(L_25, L_27, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_28 = V_0;
 		bool L_29 = PointerEventData_get_useDragThreshold_m4232(__this, /*hidden argument*/NULL);
 		bool L_30 = L_29;
 		Object_t * L_31 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_30);
-		String_t* L_32 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral933, L_31, /*hidden argument*/NULL);
+		String_t* L_32 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral938, L_31, /*hidden argument*/NULL);
 		NullCheck(L_28);
 		StringBuilder_AppendLine_m5223(L_28, L_32, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_33 = V_0;
 		NullCheck(L_33);
-		StringBuilder_AppendLine_m5223(L_33, (String_t*) &_stringLiteral934, /*hidden argument*/NULL);
+		StringBuilder_AppendLine_m5223(L_33, (String_t*) &_stringLiteral939, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_34 = V_0;
 		RaycastResult_t1104  L_35 = PointerEventData_get_pointerCurrentRaycast_m4209(__this, /*hidden argument*/NULL);
 		V_1 = L_35;
@@ -6000,7 +6000,7 @@ extern "C" String_t* PointerInputModule_ToString_m4286 (PointerInputModule_t1114
 	{
 		Type_t * L_0 = Object_GetType_m3130(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral935, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral940, L_0, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_2 = (StringBuilder_t696 *)il2cpp_codegen_object_new (StringBuilder_t696_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m5270(L_2, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -6043,7 +6043,7 @@ IL_0047:
 			int32_t L_10 = L_9;
 			Object_t * L_11 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_10);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_12 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral936, L_11, /*hidden argument*/NULL);
+			String_t* L_12 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral941, L_11, /*hidden argument*/NULL);
 			NullCheck(L_8);
 			StringBuilder_AppendLine_m5223(L_8, L_12, /*hidden argument*/NULL);
 			StringBuilder_t696 * L_13 = V_0;
@@ -6258,8 +6258,8 @@ extern "C" void StandaloneInputModule__ctor_m4288 (StandaloneInputModule_t1116 *
 	{
 		__this->___m_HorizontalAxis_17 = (String_t*) &_stringLiteral175;
 		__this->___m_VerticalAxis_18 = (String_t*) &_stringLiteral174;
-		__this->___m_SubmitButton_19 = (String_t*) &_stringLiteral893;
-		__this->___m_CancelButton_20 = (String_t*) &_stringLiteral937;
+		__this->___m_SubmitButton_19 = (String_t*) &_stringLiteral898;
+		__this->___m_CancelButton_20 = (String_t*) &_stringLiteral942;
 		__this->___m_InputActionsPerSecond_21 = (10.0f);
 		__this->___m_RepeatDelay_22 = (0.5f);
 		PointerInputModule__ctor_m4273(__this, /*hidden argument*/NULL);
@@ -8274,14 +8274,14 @@ extern "C" String_t* TouchInputModule_ToString_m4328 (TouchInputModule_t1117 * _
 		}
 	}
 	{
-		G_B3_0 = (String_t*) &_stringLiteral938;
+		G_B3_0 = (String_t*) &_stringLiteral943;
 		G_B3_1 = G_B1_0;
 		goto IL_0021;
 	}
 
 IL_001c:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral939;
+		G_B3_0 = (String_t*) &_stringLiteral944;
 		G_B3_1 = G_B2_0;
 	}
 
@@ -9356,9 +9356,9 @@ extern "C" bool ColorTween_ValidTarget_m4360 (ColorTween_t1124 * __this, const M
 extern "C" void AnimationTriggers__ctor_m4361 (AnimationTriggers_t1125 * __this, const MethodInfo* method)
 {
 	{
-		__this->___m_NormalTrigger_4 = (String_t*) &_stringLiteral941;
-		__this->___m_HighlightedTrigger_5 = (String_t*) &_stringLiteral942;
-		__this->___m_PressedTrigger_6 = (String_t*) &_stringLiteral943;
+		__this->___m_NormalTrigger_4 = (String_t*) &_stringLiteral946;
+		__this->___m_HighlightedTrigger_5 = (String_t*) &_stringLiteral947;
+		__this->___m_PressedTrigger_6 = (String_t*) &_stringLiteral948;
 		__this->___m_DisabledTrigger_7 = (String_t*) &_stringLiteral311;
 		Object__ctor_m85(__this, /*hidden argument*/NULL);
 		return;
@@ -10393,7 +10393,7 @@ extern "C" void CanvasUpdateRegistry_InternalRegisterCanvasElementForGraphicRebu
 	{
 		Object_t * L_1 = ___element;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral944, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral949, L_1, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
@@ -10452,7 +10452,7 @@ extern "C" void CanvasUpdateRegistry_InternalUnRegisterCanvasElementForLayoutReb
 	{
 		Object_t * L_1 = ___element;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral945, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral950, L_1, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
@@ -10491,7 +10491,7 @@ extern "C" void CanvasUpdateRegistry_InternalUnRegisterCanvasElementForGraphicRe
 	{
 		Object_t * L_1 = ___element;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral945, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral950, L_1, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
@@ -18427,7 +18427,7 @@ CATCH_0148:
 			NullCheck(L_50);
 			String_t* L_51 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_50);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_52 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral946, L_51, (String_t*) &_stringLiteral947, /*hidden argument*/NULL);
+			String_t* L_52 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral951, L_51, (String_t*) &_stringLiteral952, /*hidden argument*/NULL);
 			Debug_LogError_m5386(NULL /*static, unused*/, L_52, __this, /*hidden argument*/NULL);
 			V_11 = 1;
 			goto IL_0173;
@@ -24752,7 +24752,7 @@ IL_000c:
 		NullCheck(L_5);
 		String_t* L_6 = Object_get_name_m2656(L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral841, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
 		GameObject_t49 * L_8 = (GameObject_t49 *)il2cpp_codegen_object_new (GameObject_t49_il2cpp_TypeInfo_var);
 		GameObject__ctor_m2680(L_8, L_7, /*hidden argument*/NULL);
 		V_0 = L_8;
@@ -26499,8 +26499,8 @@ IL_023c:
 IL_0254:
 	{
 		uint16_t L_90 = ___ch;
-		NullCheck((String_t*) &_stringLiteral842);
-		int32_t L_91 = String_IndexOf_m3553((String_t*) &_stringLiteral842, L_90, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral846);
+		int32_t L_91 = String_IndexOf_m3553((String_t*) &_stringLiteral846, L_90, /*hidden argument*/NULL);
 		if ((((int32_t)L_91) == ((int32_t)(-1))))
 		{
 			goto IL_0267;
@@ -36554,7 +36554,7 @@ IL_0015:
 	{
 		Material_t48 * L_3 = ___baseMat;
 		NullCheck(L_3);
-		bool L_4 = Material_HasProperty_m5448(L_3, (String_t*) &_stringLiteral948, /*hidden argument*/NULL);
+		bool L_4 = Material_HasProperty_m5448(L_3, (String_t*) &_stringLiteral953, /*hidden argument*/NULL);
 		if (L_4)
 		{
 			goto IL_0042;
@@ -36565,7 +36565,7 @@ IL_0015:
 		NullCheck(L_5);
 		String_t* L_6 = Object_get_name_m2656(L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral949, L_6, (String_t*) &_stringLiteral950, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral954, L_6, (String_t*) &_stringLiteral955, /*hidden argument*/NULL);
 		Material_t48 * L_8 = ___baseMat;
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
 		return (Material_t48 *)NULL;
@@ -36659,8 +36659,8 @@ IL_008b:
 		ObjectU5BU5D_t21* L_37 = ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, 5));
 		NullCheck(L_37);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_37, 0);
-		ArrayElementTypeCheck (L_37, (String_t*) &_stringLiteral951);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 0)) = (Object_t *)(String_t*) &_stringLiteral951;
+		ArrayElementTypeCheck (L_37, (String_t*) &_stringLiteral956);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 0)) = (Object_t *)(String_t*) &_stringLiteral956;
 		ObjectU5BU5D_t21* L_38 = L_37;
 		int32_t L_39 = ___stencilID;
 		int32_t L_40 = L_39;
@@ -36702,7 +36702,7 @@ IL_008b:
 		L_50->___stencilID_3 = L_51;
 		Material_t48 * L_52 = ___baseMat;
 		NullCheck(L_52);
-		bool L_53 = Material_HasProperty_m5448(L_52, (String_t*) &_stringLiteral952, /*hidden argument*/NULL);
+		bool L_53 = Material_HasProperty_m5448(L_52, (String_t*) &_stringLiteral957, /*hidden argument*/NULL);
 		if (!L_53)
 		{
 			goto IL_0130;
@@ -36713,7 +36713,7 @@ IL_008b:
 		NullCheck(L_54);
 		Material_t48 * L_55 = (L_54->___customMat_1);
 		NullCheck(L_55);
-		Material_SetInt_m5449(L_55, (String_t*) &_stringLiteral952, 3, /*hidden argument*/NULL);
+		Material_SetInt_m5449(L_55, (String_t*) &_stringLiteral957, 3, /*hidden argument*/NULL);
 	}
 
 IL_0130:
@@ -36723,7 +36723,7 @@ IL_0130:
 		Material_t48 * L_57 = (L_56->___customMat_1);
 		int32_t L_58 = ___stencilID;
 		NullCheck(L_57);
-		Material_SetInt_m5449(L_57, (String_t*) &_stringLiteral948, L_58, /*hidden argument*/NULL);
+		Material_SetInt_m5449(L_57, (String_t*) &_stringLiteral953, L_58, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(StencilMaterial_t1185_il2cpp_TypeInfo_var);
 		List_1_t1184 * L_59 = ((StencilMaterial_t1185_StaticFields*)StencilMaterial_t1185_il2cpp_TypeInfo_var->static_fields)->___m_List_0;
 		MatEntry_t1183 * L_60 = V_2;
@@ -38979,7 +38979,7 @@ IL_001d:
 		ArrayElementTypeCheck (L_7, __this);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 1)) = (Object_t *)__this;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral953, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral958, L_7, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_9 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3235(L_9, L_8, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);

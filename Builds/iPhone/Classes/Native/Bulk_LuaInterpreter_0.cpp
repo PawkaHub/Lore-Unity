@@ -129,7 +129,7 @@ extern "C" LuaValue_t1334 * LuaInterpreter_RunFile_m10942 (Object_t * __this /* 
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral2102, /*hidden argument*/NULL);
+		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral2107, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(LuaNil_t1664_il2cpp_TypeInfo_var);
 		LuaNil_t1664 * L_0 = ((LuaNil_t1664_StaticFields*)LuaNil_t1664_il2cpp_TypeInfo_var->static_fields)->___Nil_0;
 		return L_0;
@@ -146,7 +146,7 @@ extern "C" LuaValue_t1334 * LuaInterpreter_RunFile_m10943 (Object_t * __this /* 
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral2102, /*hidden argument*/NULL);
+		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral2107, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(LuaNil_t1664_il2cpp_TypeInfo_var);
 		LuaNil_t1664 * L_0 = ((LuaNil_t1664_StaticFields*)LuaNil_t1664_il2cpp_TypeInfo_var->static_fields)->___Nil_0;
 		return L_0;
@@ -241,7 +241,7 @@ IL_001b:
 		NullCheck(L_6);
 		String_t* L_7 = Parser_GetEorrorMessages_m11325(L_6, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral2103, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral2108, L_7, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_9 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3235(L_9, L_8, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
@@ -285,7 +285,7 @@ extern "C" LuaTable_t1336 * LuaInterpreter_CreateGlobalEnviroment_m7537 (Object_
 		LuaTable_t1336 * L_8 = V_0;
 		LuaTable_t1336 * L_9 = V_0;
 		NullCheck(L_8);
-		LuaTable_SetNameValue_m7540(L_8, (String_t*) &_stringLiteral2104, L_9, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_8, (String_t*) &_stringLiteral2109, L_9, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_10 = V_0;
 		return L_10;
 	}
@@ -575,7 +575,7 @@ IL_00a7:
 IL_00f8:
 	{
 		NullReferenceException_t1698 * L_49 = (NullReferenceException_t1698 *)il2cpp_codegen_object_new (NullReferenceException_t1698_il2cpp_TypeInfo_var);
-		NullReferenceException__ctor_m7719(L_49, (String_t*) &_stringLiteral2105, /*hidden argument*/NULL);
+		NullReferenceException__ctor_m7719(L_49, (String_t*) &_stringLiteral2110, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_49);
 	}
 
@@ -718,7 +718,7 @@ IL_0028:
 		NullCheck(L_11);
 		LuaTable_t1336 * L_12 = LuaTable_get_MetaTable_m11206(L_11, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		LuaValue_t1334 * L_13 = LuaTable_GetValue_m7553(L_12, (String_t*) &_stringLiteral2106, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_13 = LuaTable_GetValue_m7553(L_12, (String_t*) &_stringLiteral2111, /*hidden argument*/NULL);
 		V_0 = L_13;
 	}
 
@@ -770,7 +770,7 @@ IL_005d:
 		NullCheck(L_23);
 		LuaTable_t1336 * L_24 = LuaUserdata_get_MetaTable_m11231(L_23, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		LuaValue_t1334 * L_25 = LuaTable_GetValue_m7553(L_24, (String_t*) &_stringLiteral2106, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_25 = LuaTable_GetValue_m7553(L_24, (String_t*) &_stringLiteral2111, /*hidden argument*/NULL);
 		V_0 = L_25;
 	}
 
@@ -786,7 +786,7 @@ IL_0086:
 	}
 	{
 		Exception_t496 * L_28 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
-		Exception__ctor_m3464(L_28, (String_t*) &_stringLiteral2107, /*hidden argument*/NULL);
+		Exception__ctor_m3464(L_28, (String_t*) &_stringLiteral2112, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_28);
 	}
 
@@ -1697,7 +1697,7 @@ IL_0019:
 		NullCheck(L_12);
 		String_t* L_14 = (String_t*)VirtFuncInvoker1< String_t*, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<System.String>::get_Item(System.Int32) */, L_12, L_13);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral2108, L_14, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral2113, L_14, /*hidden argument*/NULL);
 		Exception_t496 * L_16 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_16, L_15, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_16);
@@ -1777,7 +1777,7 @@ IL_00bb:
 		NullCheck(L_41);
 		String_t* L_43 = (String_t*)VirtFuncInvoker1< String_t*, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<System.String>::get_Item(System.Int32) */, L_41, L_42);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_44 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral2109, L_43, /*hidden argument*/NULL);
+		String_t* L_44 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral2114, L_43, /*hidden argument*/NULL);
 		Exception_t496 * L_45 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_45, L_44, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_45);
@@ -1809,7 +1809,7 @@ IL_0107:
 		NullCheck(L_52);
 		List_1_t1 * L_53 = (L_52->___NameList_0);
 		NullCheck(L_53);
-		VirtActionInvoker2< int32_t, String_t* >::Invoke(29 /* System.Void System.Collections.Generic.List`1<System.String>::Insert(System.Int32,!0) */, L_53, 0, (String_t*) &_stringLiteral2110);
+		VirtActionInvoker2< int32_t, String_t* >::Invoke(29 /* System.Void System.Collections.Generic.List`1<System.String>::Insert(System.Int32,!0) */, L_53, 0, (String_t*) &_stringLiteral2115);
 		LuaTable_t1336 * L_54 = V_0;
 		FunctionName_t3751 * L_55 = (__this->___Name_0);
 		NullCheck(L_55);
@@ -2702,7 +2702,7 @@ IL_009d:
 		LuaMultiValue_t3809 * L_39 = (LuaMultiValue_t3809 *)il2cpp_codegen_object_new (LuaMultiValue_t3809_il2cpp_TypeInfo_var);
 		LuaMultiValue__ctor_m11168(L_39, L_38, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		LuaTable_SetNameValue_m7540(L_37, (String_t*) &_stringLiteral2111, L_39, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_37, (String_t*) &_stringLiteral2116, L_39, /*hidden argument*/NULL);
 	}
 
 IL_00ba:
@@ -2728,7 +2728,7 @@ IL_00bf:
 		LuaMultiValue_t3809 * L_45 = (LuaMultiValue_t3809 *)il2cpp_codegen_object_new (LuaMultiValue_t3809_il2cpp_TypeInfo_var);
 		LuaMultiValue__ctor_m11168(L_45, L_44, /*hidden argument*/NULL);
 		NullCheck(L_43);
-		LuaTable_SetNameValue_m7540(L_43, (String_t*) &_stringLiteral2111, L_45, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_43, (String_t*) &_stringLiteral2116, L_45, /*hidden argument*/NULL);
 	}
 
 IL_00e5:
@@ -2941,7 +2941,7 @@ IL_0079:
 IL_00a2:
 	{
 		Exception_t496 * L_32 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
-		Exception__ctor_m3464(L_32, (String_t*) &_stringLiteral2112, /*hidden argument*/NULL);
+		Exception__ctor_m3464(L_32, (String_t*) &_stringLiteral2117, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_32);
 	}
 }
@@ -3196,7 +3196,7 @@ IL_0093:
 IL_00bf:
 	{
 		Exception_t496 * L_41 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
-		Exception__ctor_m3464(L_41, (String_t*) &_stringLiteral2113, /*hidden argument*/NULL);
+		Exception__ctor_m3464(L_41, (String_t*) &_stringLiteral2118, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_41);
 	}
 }
@@ -3550,13 +3550,13 @@ extern "C" LuaValue_t1334 * Operation_PrefixUnaryOperation_m11007 (Operation_t37
 		V_7 = L_6;
 		Dictionary_2_t455 * L_7 = V_7;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, (String_t*) &_stringLiteral1888, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, (String_t*) &_stringLiteral1893, 0);
 		Dictionary_2_t455 * L_8 = V_7;
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, (String_t*) &_stringLiteral2114, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, (String_t*) &_stringLiteral2119, 1);
 		Dictionary_2_t455 * L_9 = V_7;
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, (String_t*) &_stringLiteral2115, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, (String_t*) &_stringLiteral2120, 2);
 		Dictionary_2_t455 * L_10 = V_7;
 		((Operation_t3776_StaticFields*)Operation_t3776_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map0_3 = L_10;
 	}
@@ -3613,7 +3613,7 @@ IL_007d:
 IL_0097:
 	{
 		LuaValue_t1334 * L_20 = V_0;
-		LuaFunction_t3806 * L_21 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2116, L_20, (LuaValue_t1334 *)NULL, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_21 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2121, L_20, (LuaValue_t1334 *)NULL, /*hidden argument*/NULL);
 		V_2 = L_21;
 		LuaFunction_t3806 * L_22 = V_2;
 		if (!L_22)
@@ -3799,49 +3799,49 @@ extern "C" LuaValue_t1334 * Operation_InfixBinaryOperation_m11008 (Operation_t37
 		V_18 = L_9;
 		Dictionary_2_t455 * L_10 = V_18;
 		NullCheck(L_10);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral886, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral891, 0);
 		Dictionary_2_t455 * L_11 = V_18;
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral1888, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral1893, 1);
 		Dictionary_2_t455 * L_12 = V_18;
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, (String_t*) &_stringLiteral1514, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, (String_t*) &_stringLiteral1519, 2);
 		Dictionary_2_t455 * L_13 = V_18;
 		NullCheck(L_13);
 		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral388, 3);
 		Dictionary_2_t455 * L_14 = V_18;
 		NullCheck(L_14);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_14, (String_t*) &_stringLiteral2032, 4);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_14, (String_t*) &_stringLiteral2037, 4);
 		Dictionary_2_t455 * L_15 = V_18;
 		NullCheck(L_15);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_15, (String_t*) &_stringLiteral1907, 5);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_15, (String_t*) &_stringLiteral1912, 5);
 		Dictionary_2_t455 * L_16 = V_18;
 		NullCheck(L_16);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_16, (String_t*) &_stringLiteral2117, 6);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_16, (String_t*) &_stringLiteral2122, 6);
 		Dictionary_2_t455 * L_17 = V_18;
 		NullCheck(L_17);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_17, (String_t*) &_stringLiteral2118, 7);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_17, (String_t*) &_stringLiteral2123, 7);
 		Dictionary_2_t455 * L_18 = V_18;
 		NullCheck(L_18);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_18, (String_t*) &_stringLiteral2030, 8);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_18, (String_t*) &_stringLiteral2035, 8);
 		Dictionary_2_t455 * L_19 = V_18;
 		NullCheck(L_19);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_19, (String_t*) &_stringLiteral2027, ((int32_t)9));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_19, (String_t*) &_stringLiteral2032, ((int32_t)9));
 		Dictionary_2_t455 * L_20 = V_18;
 		NullCheck(L_20);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_20, (String_t*) &_stringLiteral2031, ((int32_t)10));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_20, (String_t*) &_stringLiteral2036, ((int32_t)10));
 		Dictionary_2_t455 * L_21 = V_18;
 		NullCheck(L_21);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_21, (String_t*) &_stringLiteral2028, ((int32_t)11));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_21, (String_t*) &_stringLiteral2033, ((int32_t)11));
 		Dictionary_2_t455 * L_22 = V_18;
 		NullCheck(L_22);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_22, (String_t*) &_stringLiteral2119, ((int32_t)12));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_22, (String_t*) &_stringLiteral2124, ((int32_t)12));
 		Dictionary_2_t455 * L_23 = V_18;
 		NullCheck(L_23);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_23, (String_t*) &_stringLiteral2120, ((int32_t)13));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_23, (String_t*) &_stringLiteral2125, ((int32_t)13));
 		Dictionary_2_t455 * L_24 = V_18;
 		NullCheck(L_24);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_24, (String_t*) &_stringLiteral2121, ((int32_t)14));
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_24, (String_t*) &_stringLiteral2126, ((int32_t)14));
 		Dictionary_2_t455 * L_25 = V_18;
 		((Operation_t3776_StaticFields*)Operation_t3776_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map1_4 = L_25;
 	}
@@ -3959,7 +3959,7 @@ IL_0187:
 	{
 		LuaValue_t1334 * L_39 = V_0;
 		LuaValue_t1334 * L_40 = V_1;
-		LuaFunction_t3806 * L_41 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2122, L_39, L_40, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_41 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2127, L_39, L_40, /*hidden argument*/NULL);
 		V_4 = L_41;
 		LuaFunction_t3806 * L_42 = V_4;
 		if (!L_42)
@@ -4026,7 +4026,7 @@ IL_01e4:
 	{
 		LuaValue_t1334 * L_58 = V_0;
 		LuaValue_t1334 * L_59 = V_1;
-		LuaFunction_t3806 * L_60 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2123, L_58, L_59, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_60 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2128, L_58, L_59, /*hidden argument*/NULL);
 		V_5 = L_60;
 		LuaFunction_t3806 * L_61 = V_5;
 		if (!L_61)
@@ -4093,7 +4093,7 @@ IL_0241:
 	{
 		LuaValue_t1334 * L_77 = V_0;
 		LuaValue_t1334 * L_78 = V_1;
-		LuaFunction_t3806 * L_79 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2124, L_77, L_78, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_79 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2129, L_77, L_78, /*hidden argument*/NULL);
 		V_6 = L_79;
 		LuaFunction_t3806 * L_80 = V_6;
 		if (!L_80)
@@ -4160,7 +4160,7 @@ IL_029e:
 	{
 		LuaValue_t1334 * L_96 = V_0;
 		LuaValue_t1334 * L_97 = V_1;
-		LuaFunction_t3806 * L_98 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2125, L_96, L_97, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_98 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2130, L_96, L_97, /*hidden argument*/NULL);
 		V_7 = L_98;
 		LuaFunction_t3806 * L_99 = V_7;
 		if (!L_99)
@@ -4227,7 +4227,7 @@ IL_02fb:
 	{
 		LuaValue_t1334 * L_115 = V_0;
 		LuaValue_t1334 * L_116 = V_1;
-		LuaFunction_t3806 * L_117 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2126, L_115, L_116, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_117 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2131, L_115, L_116, /*hidden argument*/NULL);
 		V_8 = L_117;
 		LuaFunction_t3806 * L_118 = V_8;
 		if (!L_118)
@@ -4295,7 +4295,7 @@ IL_035c:
 	{
 		LuaValue_t1334 * L_135 = V_0;
 		LuaValue_t1334 * L_136 = V_1;
-		LuaFunction_t3806 * L_137 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2127, L_135, L_136, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_137 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2132, L_135, L_136, /*hidden argument*/NULL);
 		V_9 = L_137;
 		LuaFunction_t3806 * L_138 = V_9;
 		if (!L_138)
@@ -4390,7 +4390,7 @@ IL_03dd:
 	{
 		LuaValue_t1334 * L_160 = V_0;
 		LuaValue_t1334 * L_161 = V_1;
-		LuaFunction_t3806 * L_162 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2128, L_160, L_161, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_162 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2133, L_160, L_161, /*hidden argument*/NULL);
 		V_11 = L_162;
 		LuaFunction_t3806 * L_163 = V_11;
 		if (!L_163)
@@ -4463,7 +4463,7 @@ IL_0441:
 	{
 		LuaValue_t1334 * L_177 = V_0;
 		LuaValue_t1334 * L_178 = V_1;
-		LuaFunction_t3806 * L_179 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2129, L_177, L_178, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_179 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2134, L_177, L_178, /*hidden argument*/NULL);
 		V_12 = L_179;
 		LuaFunction_t3806 * L_180 = V_12;
 		if (!L_180)
@@ -4536,7 +4536,7 @@ IL_04a8:
 	{
 		LuaValue_t1334 * L_194 = V_0;
 		LuaValue_t1334 * L_195 = V_1;
-		LuaFunction_t3806 * L_196 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2130, L_194, L_195, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_196 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2135, L_194, L_195, /*hidden argument*/NULL);
 		V_13 = L_196;
 		LuaFunction_t3806 * L_197 = V_13;
 		if (!L_197)
@@ -4609,7 +4609,7 @@ IL_050f:
 	{
 		LuaValue_t1334 * L_211 = V_0;
 		LuaValue_t1334 * L_212 = V_1;
-		LuaFunction_t3806 * L_213 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2131, L_211, L_212, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_213 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2136, L_211, L_212, /*hidden argument*/NULL);
 		V_14 = L_213;
 		LuaFunction_t3806 * L_214 = V_14;
 		if (!L_214)
@@ -4688,7 +4688,7 @@ IL_0578:
 	{
 		LuaValue_t1334 * L_229 = V_0;
 		LuaValue_t1334 * L_230 = V_1;
-		LuaFunction_t3806 * L_231 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2132, L_229, L_230, /*hidden argument*/NULL);
+		LuaFunction_t3806 * L_231 = Operation_GetMetaFunction_m11010(NULL /*static, unused*/, (String_t*) &_stringLiteral2137, L_229, L_230, /*hidden argument*/NULL);
 		V_15 = L_231;
 		LuaFunction_t3806 * L_232 = V_15;
 		if (!L_232)
@@ -5285,81 +5285,81 @@ extern "C" void OperTable__cctor_m11019 (Object_t * __this /* static, unused */,
 		StringU5BU5D_t20* L_3 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 0);
-		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral2121);
-		*((String_t**)(String_t**)SZArrayLdElema(L_3, 0)) = (String_t*)(String_t*) &_stringLiteral2121;
+		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral2126);
+		*((String_t**)(String_t**)SZArrayLdElema(L_3, 0)) = (String_t*)(String_t*) &_stringLiteral2126;
 		NullCheck(L_2);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_2, L_3);
 		List_1_t3833 * L_4 = V_0;
 		StringU5BU5D_t20* L_5 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 0);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral2120);
-		*((String_t**)(String_t**)SZArrayLdElema(L_5, 0)) = (String_t*)(String_t*) &_stringLiteral2120;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral2125);
+		*((String_t**)(String_t**)SZArrayLdElema(L_5, 0)) = (String_t*)(String_t*) &_stringLiteral2125;
 		NullCheck(L_4);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_4, L_5);
 		List_1_t3833 * L_6 = V_0;
 		StringU5BU5D_t20* L_7 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 2));
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 0);
-		ArrayElementTypeCheck (L_7, (String_t*) &_stringLiteral2117);
-		*((String_t**)(String_t**)SZArrayLdElema(L_7, 0)) = (String_t*)(String_t*) &_stringLiteral2117;
+		ArrayElementTypeCheck (L_7, (String_t*) &_stringLiteral2122);
+		*((String_t**)(String_t**)SZArrayLdElema(L_7, 0)) = (String_t*)(String_t*) &_stringLiteral2122;
 		StringU5BU5D_t20* L_8 = L_7;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 1);
-		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral2118);
-		*((String_t**)(String_t**)SZArrayLdElema(L_8, 1)) = (String_t*)(String_t*) &_stringLiteral2118;
+		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral2123);
+		*((String_t**)(String_t**)SZArrayLdElema(L_8, 1)) = (String_t*)(String_t*) &_stringLiteral2123;
 		NullCheck(L_6);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_6, L_8);
 		List_1_t3833 * L_9 = V_0;
 		StringU5BU5D_t20* L_10 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 4));
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 0);
-		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral2027);
-		*((String_t**)(String_t**)SZArrayLdElema(L_10, 0)) = (String_t*)(String_t*) &_stringLiteral2027;
+		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral2032);
+		*((String_t**)(String_t**)SZArrayLdElema(L_10, 0)) = (String_t*)(String_t*) &_stringLiteral2032;
 		StringU5BU5D_t20* L_11 = L_10;
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 1);
-		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral2028);
-		*((String_t**)(String_t**)SZArrayLdElema(L_11, 1)) = (String_t*)(String_t*) &_stringLiteral2028;
+		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral2033);
+		*((String_t**)(String_t**)SZArrayLdElema(L_11, 1)) = (String_t*)(String_t*) &_stringLiteral2033;
 		StringU5BU5D_t20* L_12 = L_11;
 		NullCheck(L_12);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 2);
-		ArrayElementTypeCheck (L_12, (String_t*) &_stringLiteral2030);
-		*((String_t**)(String_t**)SZArrayLdElema(L_12, 2)) = (String_t*)(String_t*) &_stringLiteral2030;
+		ArrayElementTypeCheck (L_12, (String_t*) &_stringLiteral2035);
+		*((String_t**)(String_t**)SZArrayLdElema(L_12, 2)) = (String_t*)(String_t*) &_stringLiteral2035;
 		StringU5BU5D_t20* L_13 = L_12;
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 3);
-		ArrayElementTypeCheck (L_13, (String_t*) &_stringLiteral2031);
-		*((String_t**)(String_t**)SZArrayLdElema(L_13, 3)) = (String_t*)(String_t*) &_stringLiteral2031;
+		ArrayElementTypeCheck (L_13, (String_t*) &_stringLiteral2036);
+		*((String_t**)(String_t**)SZArrayLdElema(L_13, 3)) = (String_t*)(String_t*) &_stringLiteral2036;
 		NullCheck(L_9);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_9, L_13);
 		List_1_t3833 * L_14 = V_0;
 		StringU5BU5D_t20* L_15 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_15);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, 0);
-		ArrayElementTypeCheck (L_15, (String_t*) &_stringLiteral2119);
-		*((String_t**)(String_t**)SZArrayLdElema(L_15, 0)) = (String_t*)(String_t*) &_stringLiteral2119;
+		ArrayElementTypeCheck (L_15, (String_t*) &_stringLiteral2124);
+		*((String_t**)(String_t**)SZArrayLdElema(L_15, 0)) = (String_t*)(String_t*) &_stringLiteral2124;
 		NullCheck(L_14);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_14, L_15);
 		List_1_t3833 * L_16 = V_0;
 		StringU5BU5D_t20* L_17 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 2));
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, 0);
-		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral886);
-		*((String_t**)(String_t**)SZArrayLdElema(L_17, 0)) = (String_t*)(String_t*) &_stringLiteral886;
+		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral891);
+		*((String_t**)(String_t**)SZArrayLdElema(L_17, 0)) = (String_t*)(String_t*) &_stringLiteral891;
 		StringU5BU5D_t20* L_18 = L_17;
 		NullCheck(L_18);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, 1);
-		ArrayElementTypeCheck (L_18, (String_t*) &_stringLiteral1888);
-		*((String_t**)(String_t**)SZArrayLdElema(L_18, 1)) = (String_t*)(String_t*) &_stringLiteral1888;
+		ArrayElementTypeCheck (L_18, (String_t*) &_stringLiteral1893);
+		*((String_t**)(String_t**)SZArrayLdElema(L_18, 1)) = (String_t*)(String_t*) &_stringLiteral1893;
 		NullCheck(L_16);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_16, L_18);
 		List_1_t3833 * L_19 = V_0;
 		StringU5BU5D_t20* L_20 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 3));
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, 0);
-		ArrayElementTypeCheck (L_20, (String_t*) &_stringLiteral1514);
-		*((String_t**)(String_t**)SZArrayLdElema(L_20, 0)) = (String_t*)(String_t*) &_stringLiteral1514;
+		ArrayElementTypeCheck (L_20, (String_t*) &_stringLiteral1519);
+		*((String_t**)(String_t**)SZArrayLdElema(L_20, 0)) = (String_t*)(String_t*) &_stringLiteral1519;
 		StringU5BU5D_t20* L_21 = L_20;
 		NullCheck(L_21);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_21, 1);
@@ -5368,29 +5368,29 @@ extern "C" void OperTable__cctor_m11019 (Object_t * __this /* static, unused */,
 		StringU5BU5D_t20* L_22 = L_21;
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, 2);
-		ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral2032);
-		*((String_t**)(String_t**)SZArrayLdElema(L_22, 2)) = (String_t*)(String_t*) &_stringLiteral2032;
+		ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral2037);
+		*((String_t**)(String_t**)SZArrayLdElema(L_22, 2)) = (String_t*)(String_t*) &_stringLiteral2037;
 		NullCheck(L_19);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_19, L_22);
 		List_1_t3833 * L_23 = V_0;
 		StringU5BU5D_t20* L_24 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 2));
 		NullCheck(L_24);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_24, 0);
-		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral2114);
-		*((String_t**)(String_t**)SZArrayLdElema(L_24, 0)) = (String_t*)(String_t*) &_stringLiteral2114;
+		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral2119);
+		*((String_t**)(String_t**)SZArrayLdElema(L_24, 0)) = (String_t*)(String_t*) &_stringLiteral2119;
 		StringU5BU5D_t20* L_25 = L_24;
 		NullCheck(L_25);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_25, 1);
-		ArrayElementTypeCheck (L_25, (String_t*) &_stringLiteral2115);
-		*((String_t**)(String_t**)SZArrayLdElema(L_25, 1)) = (String_t*)(String_t*) &_stringLiteral2115;
+		ArrayElementTypeCheck (L_25, (String_t*) &_stringLiteral2120);
+		*((String_t**)(String_t**)SZArrayLdElema(L_25, 1)) = (String_t*)(String_t*) &_stringLiteral2120;
 		NullCheck(L_23);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_23, L_25);
 		List_1_t3833 * L_26 = V_0;
 		StringU5BU5D_t20* L_27 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_27);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_27, 0);
-		ArrayElementTypeCheck (L_27, (String_t*) &_stringLiteral1907);
-		*((String_t**)(String_t**)SZArrayLdElema(L_27, 0)) = (String_t*)(String_t*) &_stringLiteral1907;
+		ArrayElementTypeCheck (L_27, (String_t*) &_stringLiteral1912);
+		*((String_t**)(String_t**)SZArrayLdElema(L_27, 0)) = (String_t*)(String_t*) &_stringLiteral1912;
 		NullCheck(L_26);
 		VirtActionInvoker1< StringU5BU5D_t20* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String[]>::Add(!0) */, L_26, L_27);
 		V_1 = 0;
@@ -6236,49 +6236,49 @@ extern "C" void BaseLib_RegisterFunctions_m11039 (Object_t * __this /* static, u
 		LuaFunc_t3790 * L_2 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_2, NULL, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2133, L_2, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2138, L_2, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_3 = ___module;
 		IntPtr_t L_4 = { (void*)BaseLib_type_m11041_MethodInfo_var };
 		LuaFunc_t3790 * L_5 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_5, NULL, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2001, L_5, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2006, L_5, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_6 = ___module;
 		IntPtr_t L_7 = { (void*)BaseLib_getmetatable_m11045_MethodInfo_var };
 		LuaFunc_t3790 * L_8 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_8, NULL, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral2134, L_8, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral2139, L_8, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_9 = ___module;
 		IntPtr_t L_10 = { (void*)BaseLib_setmetatable_m11044_MethodInfo_var };
 		LuaFunc_t3790 * L_11 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_11, NULL, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2135, L_11, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2140, L_11, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_12 = ___module;
 		IntPtr_t L_13 = { (void*)BaseLib_tostring_m11042_MethodInfo_var };
 		LuaFunc_t3790 * L_14 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_14, NULL, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2136, L_14, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2141, L_14, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_15 = ___module;
 		IntPtr_t L_16 = { (void*)BaseLib_tonumber_m11043_MethodInfo_var };
 		LuaFunc_t3790 * L_17 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_17, NULL, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2137, L_17, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2142, L_17, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_18 = ___module;
 		IntPtr_t L_19 = { (void*)BaseLib_ipairs_m11048_MethodInfo_var };
 		LuaFunc_t3790 * L_20 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_20, NULL, L_19, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2138, L_20, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2143, L_20, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_21 = ___module;
 		IntPtr_t L_22 = { (void*)BaseLib_pairs_m11049_MethodInfo_var };
 		LuaFunc_t3790 * L_23 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_23, NULL, L_22, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		LuaTable_Register_m11224(L_21, (String_t*) &_stringLiteral2139, L_23, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_21, (String_t*) &_stringLiteral2144, L_23, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_24 = ___module;
 		IntPtr_t L_25 = { (void*)BaseLib_next_m11050_MethodInfo_var };
 		LuaFunc_t3790 * L_26 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
@@ -6290,55 +6290,55 @@ extern "C" void BaseLib_RegisterFunctions_m11039 (Object_t * __this /* static, u
 		LuaFunc_t3790 * L_29 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_29, NULL, L_28, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		LuaTable_Register_m11224(L_27, (String_t*) &_stringLiteral2140, L_29, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_27, (String_t*) &_stringLiteral2145, L_29, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_30 = ___module;
 		IntPtr_t L_31 = { (void*)BaseLib_error_m11052_MethodInfo_var };
 		LuaFunc_t3790 * L_32 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_32, NULL, L_31, /*hidden argument*/NULL);
 		NullCheck(L_30);
-		LuaTable_Register_m11224(L_30, (String_t*) &_stringLiteral1466, L_32, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_30, (String_t*) &_stringLiteral1471, L_32, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_33 = ___module;
 		IntPtr_t L_34 = { (void*)BaseLib_rawget_m11046_MethodInfo_var };
 		LuaFunc_t3790 * L_35 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_35, NULL, L_34, /*hidden argument*/NULL);
 		NullCheck(L_33);
-		LuaTable_Register_m11224(L_33, (String_t*) &_stringLiteral2141, L_35, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_33, (String_t*) &_stringLiteral2146, L_35, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_36 = ___module;
 		IntPtr_t L_37 = { (void*)BaseLib_rawset_m11047_MethodInfo_var };
 		LuaFunc_t3790 * L_38 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_38, NULL, L_37, /*hidden argument*/NULL);
 		NullCheck(L_36);
-		LuaTable_Register_m11224(L_36, (String_t*) &_stringLiteral2142, L_38, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_36, (String_t*) &_stringLiteral2147, L_38, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_39 = ___module;
 		IntPtr_t L_40 = { (void*)BaseLib_select_m11053_MethodInfo_var };
 		LuaFunc_t3790 * L_41 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_41, NULL, L_40, /*hidden argument*/NULL);
 		NullCheck(L_39);
-		LuaTable_Register_m11224(L_39, (String_t*) &_stringLiteral2143, L_41, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_39, (String_t*) &_stringLiteral2148, L_41, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_42 = ___module;
 		IntPtr_t L_43 = { (void*)BaseLib_dofile_m11054_MethodInfo_var };
 		LuaFunc_t3790 * L_44 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_44, NULL, L_43, /*hidden argument*/NULL);
 		NullCheck(L_42);
-		LuaTable_Register_m11224(L_42, (String_t*) &_stringLiteral2144, L_44, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_42, (String_t*) &_stringLiteral2149, L_44, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_45 = ___module;
 		IntPtr_t L_46 = { (void*)BaseLib_loadstring_m11055_MethodInfo_var };
 		LuaFunc_t3790 * L_47 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_47, NULL, L_46, /*hidden argument*/NULL);
 		NullCheck(L_45);
-		LuaTable_Register_m11224(L_45, (String_t*) &_stringLiteral2145, L_47, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_45, (String_t*) &_stringLiteral2150, L_47, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_48 = ___module;
 		IntPtr_t L_49 = { (void*)BaseLib_unpack_m11056_MethodInfo_var };
 		LuaFunc_t3790 * L_50 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_50, NULL, L_49, /*hidden argument*/NULL);
 		NullCheck(L_48);
-		LuaTable_Register_m11224(L_48, (String_t*) &_stringLiteral2146, L_50, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_48, (String_t*) &_stringLiteral2151, L_50, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_51 = ___module;
 		IntPtr_t L_52 = { (void*)BaseLib_pcall_m11057_MethodInfo_var };
 		LuaFunc_t3790 * L_53 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_53, NULL, L_52, /*hidden argument*/NULL);
 		NullCheck(L_51);
-		LuaTable_Register_m11224(L_51, (String_t*) &_stringLiteral2147, L_53, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_51, (String_t*) &_stringLiteral2152, L_53, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -6420,7 +6420,7 @@ extern "C" LuaValue_t1334 * BaseLib_type_m11041 (Object_t * __this /* static, un
 IL_0017:
 	{
 		Exception_t496 * L_5 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
-		Exception__ctor_m3464(L_5, (String_t*) &_stringLiteral2148, /*hidden argument*/NULL);
+		Exception__ctor_m3464(L_5, (String_t*) &_stringLiteral2153, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 }
@@ -7012,7 +7012,7 @@ IL_0017:
 IL_002a:
 	{
 		LuaError_t3805 * L_7 = (LuaError_t3805 *)il2cpp_codegen_object_new (LuaError_t3805_il2cpp_TypeInfo_var);
-		LuaError__ctor_m11153(L_7, (String_t*) &_stringLiteral2149, /*hidden argument*/NULL);
+		LuaError__ctor_m11153(L_7, (String_t*) &_stringLiteral2154, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 }
@@ -7053,7 +7053,7 @@ extern "C" LuaValue_t1334 * BaseLib_error_m11052 (Object_t * __this /* static, u
 IL_001b:
 	{
 		LuaError_t3805 * L_6 = (LuaError_t3805 *)il2cpp_codegen_object_new (LuaError_t3805_il2cpp_TypeInfo_var);
-		LuaError__ctor_m11153(L_6, (String_t*) &_stringLiteral2150, /*hidden argument*/NULL);
+		LuaError__ctor_m11153(L_6, (String_t*) &_stringLiteral2155, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 }
@@ -7153,7 +7153,7 @@ IL_0045:
 		NullCheck(L_20);
 		String_t* L_21 = LuaString_get_Text_m11189(L_20, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_22 = String_op_Equality_m2603(NULL /*static, unused*/, L_21, (String_t*) &_stringLiteral2114, /*hidden argument*/NULL);
+		bool L_22 = String_op_Equality_m2603(NULL /*static, unused*/, L_21, (String_t*) &_stringLiteral2119, /*hidden argument*/NULL);
 		if (!L_22)
 		{
 			goto IL_0071;
@@ -7790,7 +7790,7 @@ extern "C" void FileLib_RegisterModule_m11061 (Object_t * __this /* static, unus
 		LuaTable_t1336 * L_2 = ___enviroment;
 		LuaTable_t1336 * L_3 = V_0;
 		NullCheck(L_2);
-		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2151, L_3, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2156, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -7822,37 +7822,37 @@ extern "C" void FileLib_RegisterFunctions_m11062 (Object_t * __this /* static, u
 		LuaFunc_t3790 * L_2 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_2, NULL, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2152, L_2, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2157, L_2, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_3 = ___module;
 		IntPtr_t L_4 = { (void*)FileLib_read_m11064_MethodInfo_var };
 		LuaFunc_t3790 * L_5 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_5, NULL, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral1515, L_5, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral1520, L_5, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_6 = ___module;
 		IntPtr_t L_7 = { (void*)FileLib_write_m11068_MethodInfo_var };
 		LuaFunc_t3790 * L_8 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_8, NULL, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral1516, L_8, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral1521, L_8, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_9 = ___module;
 		IntPtr_t L_10 = { (void*)FileLib_lines_m11065_MethodInfo_var };
 		LuaFunc_t3790 * L_11 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_11, NULL, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2153, L_11, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2158, L_11, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_12 = ___module;
 		IntPtr_t L_13 = { (void*)FileLib_flush_m11069_MethodInfo_var };
 		LuaFunc_t3790 * L_14 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_14, NULL, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2154, L_14, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2159, L_14, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_15 = ___module;
 		IntPtr_t L_16 = { (void*)FileLib_seek_m11066_MethodInfo_var };
 		LuaFunc_t3790 * L_17 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_17, NULL, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2155, L_17, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2160, L_17, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8086,7 +8086,7 @@ IL_009f:
 		}
 	}
 	{
-		G_B15_0 = (String_t*) &_stringLiteral2156;
+		G_B15_0 = (String_t*) &_stringLiteral2161;
 		goto IL_00b9;
 	}
 
@@ -8122,13 +8122,13 @@ IL_00b9:
 		V_10 = L_33;
 		Dictionary_2_t455 * L_34 = V_10;
 		NullCheck(L_34);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_34, (String_t*) &_stringLiteral2156, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_34, (String_t*) &_stringLiteral2161, 0);
 		Dictionary_2_t455 * L_35 = V_10;
 		NullCheck(L_35);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_35, (String_t*) &_stringLiteral2157, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_35, (String_t*) &_stringLiteral2162, 1);
 		Dictionary_2_t455 * L_36 = V_10;
 		NullCheck(L_36);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_36, (String_t*) &_stringLiteral2158, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_36, (String_t*) &_stringLiteral2163, 2);
 		Dictionary_2_t455 * L_37 = V_10;
 		((FileLib_t3794_StaticFields*)FileLib_t3794_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map2_0 = L_37;
 	}
@@ -8444,7 +8444,7 @@ IL_005f:
 		}
 	}
 	{
-		G_B11_0 = (String_t*) &_stringLiteral2159;
+		G_B11_0 = (String_t*) &_stringLiteral2164;
 		goto IL_0079;
 	}
 
@@ -8595,13 +8595,13 @@ extern "C" int32_t FileLib_GetSeekOrigin_m11067 (Object_t * __this /* static, un
 		V_1 = L_3;
 		Dictionary_2_t455 * L_4 = V_1;
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral2160, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral2165, 0);
 		Dictionary_2_t455 * L_5 = V_1;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, (String_t*) &_stringLiteral2161, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, (String_t*) &_stringLiteral2166, 1);
 		Dictionary_2_t455 * L_6 = V_1;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral2159, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral2164, 2);
 		Dictionary_2_t455 * L_7 = V_1;
 		((FileLib_t3794_StaticFields*)FileLib_t3794_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map3_1 = L_7;
 	}
@@ -8778,7 +8778,7 @@ extern "C" void IOLib_RegisterModule_m11071 (Object_t * __this /* static, unused
 		LuaTable_t1336 * L_2 = ___enviroment;
 		LuaTable_t1336 * L_3 = V_0;
 		NullCheck(L_2);
-		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2162, L_3, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2167, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8812,13 +8812,13 @@ extern "C" void IOLib_RegisterFunctions_m11072 (Object_t * __this /* static, unu
 		LuaFunc_t3790 * L_2 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_2, NULL, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2163, L_2, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2168, L_2, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_3 = ___module;
 		IntPtr_t L_4 = { (void*)IOLib_output_m11074_MethodInfo_var };
 		LuaFunc_t3790 * L_5 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_5, NULL, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2164, L_5, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2169, L_5, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_6 = ___module;
 		IntPtr_t L_7 = { (void*)IOLib_open_m11075_MethodInfo_var };
 		LuaFunc_t3790 * L_8 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
@@ -8830,25 +8830,25 @@ extern "C" void IOLib_RegisterFunctions_m11072 (Object_t * __this /* static, unu
 		LuaFunc_t3790 * L_11 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_11, NULL, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral1515, L_11, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral1520, L_11, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_12 = ___module;
 		IntPtr_t L_13 = { (void*)IOLib_write_m11077_MethodInfo_var };
 		LuaFunc_t3790 * L_14 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_14, NULL, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral1516, L_14, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral1521, L_14, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_15 = ___module;
 		IntPtr_t L_16 = { (void*)IOLib_flush_m11078_MethodInfo_var };
 		LuaFunc_t3790 * L_17 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_17, NULL, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2154, L_17, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2159, L_17, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_18 = ___module;
 		IntPtr_t L_19 = { (void*)IOLib_tmpfile_m11079_MethodInfo_var };
 		LuaFunc_t3790 * L_20 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_20, NULL, L_19, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2165, L_20, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2170, L_20, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9101,7 +9101,7 @@ IL_0017:
 		}
 	}
 	{
-		G_B6_0 = (String_t*) &_stringLiteral2166;
+		G_B6_0 = (String_t*) &_stringLiteral2171;
 		goto IL_002e;
 	}
 
@@ -9138,22 +9138,22 @@ IL_002e:
 		V_3 = L_9;
 		Dictionary_2_t455 * L_10 = V_3;
 		NullCheck(L_10);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral2166, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral2171, 0);
 		Dictionary_2_t455 * L_11 = V_3;
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral2167, 0);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral2172, 0);
 		Dictionary_2_t455 * L_12 = V_3;
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, (String_t*) &_stringLiteral2168, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, (String_t*) &_stringLiteral2173, 1);
 		Dictionary_2_t455 * L_13 = V_3;
 		NullCheck(L_13);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral2169, 1);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral2174, 1);
 		Dictionary_2_t455 * L_14 = V_3;
 		NullCheck(L_14);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_14, (String_t*) &_stringLiteral2170, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_14, (String_t*) &_stringLiteral2175, 2);
 		Dictionary_2_t455 * L_15 = V_3;
 		NullCheck(L_15);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_15, (String_t*) &_stringLiteral2171, 2);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_15, (String_t*) &_stringLiteral2176, 2);
 		Dictionary_2_t455 * L_16 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(IOLib_t3797_il2cpp_TypeInfo_var);
 		((IOLib_t3797_StaticFields*)IOLib_t3797_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map4_2 = L_16;
@@ -9209,7 +9209,7 @@ IL_00c6:
 	{
 		String_t* L_21 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral2172, L_21, /*hidden argument*/NULL);
+		String_t* L_22 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral2177, L_21, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_23 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3235(L_23, L_22, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
@@ -9430,7 +9430,7 @@ extern "C" void MathLib_RegisterModule_m11081 (Object_t * __this /* static, unus
 		LuaTable_t1336 * L_2 = ___enviroment;
 		LuaTable_t1336 * L_3 = V_0;
 		NullCheck(L_2);
-		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2173, L_3, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2178, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9503,150 +9503,150 @@ extern "C" void MathLib_RegisterFunctions_m11082 (Object_t * __this /* static, u
 		LuaNumber_t1657 * L_1 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_1, (1.7976931348623157E+308), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaTable_SetNameValue_m7540(L_0, (String_t*) &_stringLiteral2174, L_1, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_0, (String_t*) &_stringLiteral2179, L_1, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_2 = ___module;
 		LuaNumber_t1657 * L_3 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_3, (3.1415926535897931), /*hidden argument*/NULL);
 		NullCheck(L_2);
-		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2175, L_3, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2180, L_3, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_4 = ___module;
 		IntPtr_t L_5 = { (void*)MathLib_abs_m11083_MethodInfo_var };
 		LuaFunc_t3790 * L_6 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_6, NULL, L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		LuaTable_Register_m11224(L_4, (String_t*) &_stringLiteral2176, L_6, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_4, (String_t*) &_stringLiteral2181, L_6, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_7 = ___module;
 		IntPtr_t L_8 = { (void*)MathLib_acos_m11084_MethodInfo_var };
 		LuaFunc_t3790 * L_9 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_9, NULL, L_8, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		LuaTable_Register_m11224(L_7, (String_t*) &_stringLiteral2177, L_9, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_7, (String_t*) &_stringLiteral2182, L_9, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_10 = ___module;
 		IntPtr_t L_11 = { (void*)MathLib_asin_m11085_MethodInfo_var };
 		LuaFunc_t3790 * L_12 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_12, NULL, L_11, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		LuaTable_Register_m11224(L_10, (String_t*) &_stringLiteral2178, L_12, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_10, (String_t*) &_stringLiteral2183, L_12, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_13 = ___module;
 		IntPtr_t L_14 = { (void*)MathLib_atan_m11086_MethodInfo_var };
 		LuaFunc_t3790 * L_15 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_15, NULL, L_14, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		LuaTable_Register_m11224(L_13, (String_t*) &_stringLiteral2179, L_15, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_13, (String_t*) &_stringLiteral2184, L_15, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_16 = ___module;
 		IntPtr_t L_17 = { (void*)MathLib_atan2_m11087_MethodInfo_var };
 		LuaFunc_t3790 * L_18 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_18, NULL, L_17, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		LuaTable_Register_m11224(L_16, (String_t*) &_stringLiteral2180, L_18, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_16, (String_t*) &_stringLiteral2185, L_18, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_19 = ___module;
 		IntPtr_t L_20 = { (void*)MathLib_ceil_m11088_MethodInfo_var };
 		LuaFunc_t3790 * L_21 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_21, NULL, L_20, /*hidden argument*/NULL);
 		NullCheck(L_19);
-		LuaTable_Register_m11224(L_19, (String_t*) &_stringLiteral2181, L_21, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_19, (String_t*) &_stringLiteral2186, L_21, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_22 = ___module;
 		IntPtr_t L_23 = { (void*)MathLib_cos_m11089_MethodInfo_var };
 		LuaFunc_t3790 * L_24 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_24, NULL, L_23, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		LuaTable_Register_m11224(L_22, (String_t*) &_stringLiteral2182, L_24, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_22, (String_t*) &_stringLiteral2187, L_24, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_25 = ___module;
 		IntPtr_t L_26 = { (void*)MathLib_cosh_m11090_MethodInfo_var };
 		LuaFunc_t3790 * L_27 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_27, NULL, L_26, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		LuaTable_Register_m11224(L_25, (String_t*) &_stringLiteral2183, L_27, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_25, (String_t*) &_stringLiteral2188, L_27, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_28 = ___module;
 		IntPtr_t L_29 = { (void*)MathLib_deg_m11091_MethodInfo_var };
 		LuaFunc_t3790 * L_30 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_30, NULL, L_29, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		LuaTable_Register_m11224(L_28, (String_t*) &_stringLiteral2184, L_30, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_28, (String_t*) &_stringLiteral2189, L_30, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_31 = ___module;
 		IntPtr_t L_32 = { (void*)MathLib_exp_m11092_MethodInfo_var };
 		LuaFunc_t3790 * L_33 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_33, NULL, L_32, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		LuaTable_Register_m11224(L_31, (String_t*) &_stringLiteral1489, L_33, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_31, (String_t*) &_stringLiteral1494, L_33, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_34 = ___module;
 		IntPtr_t L_35 = { (void*)MathLib_floor_m11093_MethodInfo_var };
 		LuaFunc_t3790 * L_36 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_36, NULL, L_35, /*hidden argument*/NULL);
 		NullCheck(L_34);
-		LuaTable_Register_m11224(L_34, (String_t*) &_stringLiteral2185, L_36, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_34, (String_t*) &_stringLiteral2190, L_36, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_37 = ___module;
 		IntPtr_t L_38 = { (void*)MathLib_fmod_m11094_MethodInfo_var };
 		LuaFunc_t3790 * L_39 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_39, NULL, L_38, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		LuaTable_Register_m11224(L_37, (String_t*) &_stringLiteral2186, L_39, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_37, (String_t*) &_stringLiteral2191, L_39, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_40 = ___module;
 		IntPtr_t L_41 = { (void*)MathLib_log_m11095_MethodInfo_var };
 		LuaFunc_t3790 * L_42 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_42, NULL, L_41, /*hidden argument*/NULL);
 		NullCheck(L_40);
-		LuaTable_Register_m11224(L_40, (String_t*) &_stringLiteral2187, L_42, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_40, (String_t*) &_stringLiteral2192, L_42, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_43 = ___module;
 		IntPtr_t L_44 = { (void*)MathLib_log10_m11096_MethodInfo_var };
 		LuaFunc_t3790 * L_45 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_45, NULL, L_44, /*hidden argument*/NULL);
 		NullCheck(L_43);
-		LuaTable_Register_m11224(L_43, (String_t*) &_stringLiteral2188, L_45, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_43, (String_t*) &_stringLiteral2193, L_45, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_46 = ___module;
 		IntPtr_t L_47 = { (void*)MathLib_max_m11097_MethodInfo_var };
 		LuaFunc_t3790 * L_48 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_48, NULL, L_47, /*hidden argument*/NULL);
 		NullCheck(L_46);
-		LuaTable_Register_m11224(L_46, (String_t*) &_stringLiteral2189, L_48, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_46, (String_t*) &_stringLiteral2194, L_48, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_49 = ___module;
 		IntPtr_t L_50 = { (void*)MathLib_min_m11098_MethodInfo_var };
 		LuaFunc_t3790 * L_51 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_51, NULL, L_50, /*hidden argument*/NULL);
 		NullCheck(L_49);
-		LuaTable_Register_m11224(L_49, (String_t*) &_stringLiteral2190, L_51, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_49, (String_t*) &_stringLiteral2195, L_51, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_52 = ___module;
 		IntPtr_t L_53 = { (void*)MathLib_modf_m11099_MethodInfo_var };
 		LuaFunc_t3790 * L_54 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_54, NULL, L_53, /*hidden argument*/NULL);
 		NullCheck(L_52);
-		LuaTable_Register_m11224(L_52, (String_t*) &_stringLiteral2191, L_54, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_52, (String_t*) &_stringLiteral2196, L_54, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_55 = ___module;
 		IntPtr_t L_56 = { (void*)MathLib_pow_m11100_MethodInfo_var };
 		LuaFunc_t3790 * L_57 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_57, NULL, L_56, /*hidden argument*/NULL);
 		NullCheck(L_55);
-		LuaTable_Register_m11224(L_55, (String_t*) &_stringLiteral2192, L_57, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_55, (String_t*) &_stringLiteral2197, L_57, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_58 = ___module;
 		IntPtr_t L_59 = { (void*)MathLib_rad_m11101_MethodInfo_var };
 		LuaFunc_t3790 * L_60 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_60, NULL, L_59, /*hidden argument*/NULL);
 		NullCheck(L_58);
-		LuaTable_Register_m11224(L_58, (String_t*) &_stringLiteral2193, L_60, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_58, (String_t*) &_stringLiteral2198, L_60, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_61 = ___module;
 		IntPtr_t L_62 = { (void*)MathLib_random_m11102_MethodInfo_var };
 		LuaFunc_t3790 * L_63 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_63, NULL, L_62, /*hidden argument*/NULL);
 		NullCheck(L_61);
-		LuaTable_Register_m11224(L_61, (String_t*) &_stringLiteral2194, L_63, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_61, (String_t*) &_stringLiteral2199, L_63, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_64 = ___module;
 		IntPtr_t L_65 = { (void*)MathLib_randomseed_m11103_MethodInfo_var };
 		LuaFunc_t3790 * L_66 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_66, NULL, L_65, /*hidden argument*/NULL);
 		NullCheck(L_64);
-		LuaTable_Register_m11224(L_64, (String_t*) &_stringLiteral2195, L_66, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_64, (String_t*) &_stringLiteral2200, L_66, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_67 = ___module;
 		IntPtr_t L_68 = { (void*)MathLib_sin_m11104_MethodInfo_var };
 		LuaFunc_t3790 * L_69 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_69, NULL, L_68, /*hidden argument*/NULL);
 		NullCheck(L_67);
-		LuaTable_Register_m11224(L_67, (String_t*) &_stringLiteral2196, L_69, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_67, (String_t*) &_stringLiteral2201, L_69, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_70 = ___module;
 		IntPtr_t L_71 = { (void*)MathLib_sinh_m11105_MethodInfo_var };
 		LuaFunc_t3790 * L_72 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_72, NULL, L_71, /*hidden argument*/NULL);
 		NullCheck(L_70);
-		LuaTable_Register_m11224(L_70, (String_t*) &_stringLiteral2197, L_72, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_70, (String_t*) &_stringLiteral2202, L_72, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_73 = ___module;
 		IntPtr_t L_74 = { (void*)MathLib_sqrt_m11106_MethodInfo_var };
 		LuaFunc_t3790 * L_75 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
@@ -9658,13 +9658,13 @@ extern "C" void MathLib_RegisterFunctions_m11082 (Object_t * __this /* static, u
 		LuaFunc_t3790 * L_78 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_78, NULL, L_77, /*hidden argument*/NULL);
 		NullCheck(L_76);
-		LuaTable_Register_m11224(L_76, (String_t*) &_stringLiteral2198, L_78, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_76, (String_t*) &_stringLiteral2203, L_78, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_79 = ___module;
 		IntPtr_t L_80 = { (void*)MathLib_tanh_m11108_MethodInfo_var };
 		LuaFunc_t3790 * L_81 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_81, NULL, L_80, /*hidden argument*/NULL);
 		NullCheck(L_79);
-		LuaTable_Register_m11224(L_79, (String_t*) &_stringLiteral2199, L_81, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_79, (String_t*) &_stringLiteral2204, L_81, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10575,14 +10575,14 @@ IL_001a:
 		ArrayElementTypeCheck (L_5, L_8);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)L_8;
 		LuaError_t3805 * L_9 = (LuaError_t3805 *)il2cpp_codegen_object_new (LuaError_t3805_il2cpp_TypeInfo_var);
-		LuaError__ctor_m11155(L_9, (String_t*) &_stringLiteral2200, L_5, /*hidden argument*/NULL);
+		LuaError__ctor_m11155(L_9, (String_t*) &_stringLiteral2205, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 
 IL_0036:
 	{
 		LuaError_t3805 * L_10 = (LuaError_t3805 *)il2cpp_codegen_object_new (LuaError_t3805_il2cpp_TypeInfo_var);
-		LuaError__ctor_m11153(L_10, (String_t*) &_stringLiteral2201, /*hidden argument*/NULL);
+		LuaError__ctor_m11153(L_10, (String_t*) &_stringLiteral2206, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 }
@@ -10637,7 +10637,7 @@ extern "C" Tuple_2_t3829 * MathLib_CheckArgs2_m11110 (Object_t * __this /* stati
 		ArrayElementTypeCheck (L_4, L_7);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 0)) = (Object_t *)L_7;
 		LuaError_t3805 * L_8 = (LuaError_t3805 *)il2cpp_codegen_object_new (LuaError_t3805_il2cpp_TypeInfo_var);
-		LuaError__ctor_m11155(L_8, (String_t*) &_stringLiteral2200, L_4, /*hidden argument*/NULL);
+		LuaError__ctor_m11155(L_8, (String_t*) &_stringLiteral2205, L_4, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -10667,7 +10667,7 @@ IL_0034:
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 0)) = (Object_t *)L_15;
 		LuaError_t3805 * L_16 = (LuaError_t3805 *)il2cpp_codegen_object_new (LuaError_t3805_il2cpp_TypeInfo_var);
-		LuaError__ctor_m11155(L_16, (String_t*) &_stringLiteral2202, L_12, /*hidden argument*/NULL);
+		LuaError__ctor_m11155(L_16, (String_t*) &_stringLiteral2207, L_12, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_16);
 	}
 
@@ -10686,7 +10686,7 @@ IL_005f:
 IL_0071:
 	{
 		LuaError_t3805 * L_22 = (LuaError_t3805 *)il2cpp_codegen_object_new (LuaError_t3805_il2cpp_TypeInfo_var);
-		LuaError__ctor_m11153(L_22, (String_t*) &_stringLiteral2201, /*hidden argument*/NULL);
+		LuaError__ctor_m11153(L_22, (String_t*) &_stringLiteral2206, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 }
@@ -10764,7 +10764,7 @@ extern "C" void OSLib_RegisterModule_m11113 (Object_t * __this /* static, unused
 		LuaTable_t1336 * L_2 = ___enviroment;
 		LuaTable_t1336 * L_3 = V_0;
 		NullCheck(L_2);
-		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2203, L_3, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2208, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10802,55 +10802,55 @@ extern "C" void OSLib_RegisterFunctions_m11114 (Object_t * __this /* static, unu
 		LuaFunc_t3790 * L_2 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_2, NULL, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2204, L_2, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2209, L_2, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_3 = ___module;
 		IntPtr_t L_4 = { (void*)OSLib_date_m11116_MethodInfo_var };
 		LuaFunc_t3790 * L_5 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_5, NULL, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2205, L_5, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2210, L_5, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_6 = ___module;
 		IntPtr_t L_7 = { (void*)OSLib_time_m11117_MethodInfo_var };
 		LuaFunc_t3790 * L_8 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_8, NULL, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral2206, L_8, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral2211, L_8, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_9 = ___module;
 		IntPtr_t L_10 = { (void*)OSLib_execute_m11118_MethodInfo_var };
 		LuaFunc_t3790 * L_11 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_11, NULL, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2207, L_11, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2212, L_11, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_12 = ___module;
 		IntPtr_t L_13 = { (void*)OSLib_exit_m11119_MethodInfo_var };
 		LuaFunc_t3790 * L_14 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_14, NULL, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2208, L_14, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2213, L_14, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_15 = ___module;
 		IntPtr_t L_16 = { (void*)OSLib_getenv_m11120_MethodInfo_var };
 		LuaFunc_t3790 * L_17 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_17, NULL, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2209, L_17, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2214, L_17, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_18 = ___module;
 		IntPtr_t L_19 = { (void*)OSLib_remove_m11121_MethodInfo_var };
 		LuaFunc_t3790 * L_20 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_20, NULL, L_19, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2210, L_20, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2215, L_20, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_21 = ___module;
 		IntPtr_t L_22 = { (void*)OSLib_rename_m11122_MethodInfo_var };
 		LuaFunc_t3790 * L_23 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_23, NULL, L_22, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		LuaTable_Register_m11224(L_21, (String_t*) &_stringLiteral2211, L_23, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_21, (String_t*) &_stringLiteral2216, L_23, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_24 = ___module;
 		IntPtr_t L_25 = { (void*)OSLib_tmpname_m11123_MethodInfo_var };
 		LuaFunc_t3790 * L_26 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_26, NULL, L_25, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		LuaTable_Register_m11224(L_24, (String_t*) &_stringLiteral2212, L_26, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_24, (String_t*) &_stringLiteral2217, L_26, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10916,7 +10916,7 @@ extern "C" LuaValue_t1334 * OSLib_date_m11116 (Object_t * __this /* static, unus
 		NullCheck(L_3);
 		String_t* L_4 = LuaString_get_Text_m11189(L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_5 = String_op_Equality_m2603(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral2213, /*hidden argument*/NULL);
+		bool L_5 = String_op_Equality_m2603(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral2218, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_010c;
@@ -10934,55 +10934,55 @@ extern "C" LuaValue_t1334 * OSLib_date_m11116 (Object_t * __this /* static, unus
 		LuaNumber_t1657 * L_10 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_10, (((double)L_9)), /*hidden argument*/NULL);
 		NullCheck(L_8);
-		LuaTable_SetNameValue_m7540(L_8, (String_t*) &_stringLiteral2214, L_10, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_8, (String_t*) &_stringLiteral2219, L_10, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_11 = V_1;
 		int32_t L_12 = DateTime_get_Month_m10495((&V_2), /*hidden argument*/NULL);
 		LuaNumber_t1657 * L_13 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_13, (((double)L_12)), /*hidden argument*/NULL);
 		NullCheck(L_11);
-		LuaTable_SetNameValue_m7540(L_11, (String_t*) &_stringLiteral2215, L_13, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_11, (String_t*) &_stringLiteral2220, L_13, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_14 = V_1;
 		int32_t L_15 = DateTime_get_Day_m10496((&V_2), /*hidden argument*/NULL);
 		LuaNumber_t1657 * L_16 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_16, (((double)L_15)), /*hidden argument*/NULL);
 		NullCheck(L_14);
-		LuaTable_SetNameValue_m7540(L_14, (String_t*) &_stringLiteral2216, L_16, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_14, (String_t*) &_stringLiteral2221, L_16, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_17 = V_1;
 		int32_t L_18 = DateTime_get_Hour_m11399((&V_2), /*hidden argument*/NULL);
 		LuaNumber_t1657 * L_19 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_19, (((double)L_18)), /*hidden argument*/NULL);
 		NullCheck(L_17);
-		LuaTable_SetNameValue_m7540(L_17, (String_t*) &_stringLiteral2217, L_19, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_17, (String_t*) &_stringLiteral2222, L_19, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_20 = V_1;
 		int32_t L_21 = DateTime_get_Minute_m11400((&V_2), /*hidden argument*/NULL);
 		LuaNumber_t1657 * L_22 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_22, (((double)L_21)), /*hidden argument*/NULL);
 		NullCheck(L_20);
-		LuaTable_SetNameValue_m7540(L_20, (String_t*) &_stringLiteral2190, L_22, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_20, (String_t*) &_stringLiteral2195, L_22, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_23 = V_1;
 		int32_t L_24 = DateTime_get_Second_m11401((&V_2), /*hidden argument*/NULL);
 		LuaNumber_t1657 * L_25 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_25, (((double)L_24)), /*hidden argument*/NULL);
 		NullCheck(L_23);
-		LuaTable_SetNameValue_m7540(L_23, (String_t*) &_stringLiteral2218, L_25, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_23, (String_t*) &_stringLiteral2223, L_25, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_26 = V_1;
 		int32_t L_27 = DateTime_get_DayOfWeek_m11402((&V_2), /*hidden argument*/NULL);
 		LuaNumber_t1657 * L_28 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_28, (((double)L_27)), /*hidden argument*/NULL);
 		NullCheck(L_26);
-		LuaTable_SetNameValue_m7540(L_26, (String_t*) &_stringLiteral2219, L_28, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_26, (String_t*) &_stringLiteral2224, L_28, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_29 = V_1;
 		int32_t L_30 = DateTime_get_DayOfYear_m11403((&V_2), /*hidden argument*/NULL);
 		LuaNumber_t1657 * L_31 = (LuaNumber_t1657 *)il2cpp_codegen_object_new (LuaNumber_t1657_il2cpp_TypeInfo_var);
 		LuaNumber__ctor_m11182(L_31, (((double)L_30)), /*hidden argument*/NULL);
 		NullCheck(L_29);
-		LuaTable_SetNameValue_m7540(L_29, (String_t*) &_stringLiteral2220, L_31, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_29, (String_t*) &_stringLiteral2225, L_31, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_32 = V_1;
 		bool L_33 = DateTime_IsDaylightSavingTime_m11404((&V_2), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(LuaBoolean_t1662_il2cpp_TypeInfo_var);
 		LuaBoolean_t1662 * L_34 = LuaBoolean_From_m11152(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 		NullCheck(L_32);
-		LuaTable_SetNameValue_m7540(L_32, (String_t*) &_stringLiteral2221, L_34, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_32, (String_t*) &_stringLiteral2226, L_34, /*hidden argument*/NULL);
 		goto IL_0125;
 	}
 
@@ -11198,7 +11198,7 @@ extern "C" void StringLib_RegisterModule_m11124 (Object_t * __this /* static, un
 		LuaTable_t1336 * L_2 = ___enviroment;
 		LuaTable_t1336 * L_3 = V_0;
 		NullCheck(L_2);
-		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2222, L_3, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2227, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11236,55 +11236,55 @@ extern "C" void StringLib_RegisterFunctions_m11125 (Object_t * __this /* static,
 		LuaFunc_t3790 * L_2 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_2, NULL, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2223, L_2, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2228, L_2, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_3 = ___module;
 		IntPtr_t L_4 = { (void*)StringLib_char_m11127_MethodInfo_var };
 		LuaFunc_t3790 * L_5 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_5, NULL, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2224, L_5, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2229, L_5, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_6 = ___module;
 		IntPtr_t L_7 = { (void*)StringLib_format_m11128_MethodInfo_var };
 		LuaFunc_t3790 * L_8 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_8, NULL, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral2225, L_8, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral2230, L_8, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_9 = ___module;
 		IntPtr_t L_10 = { (void*)StringLib_len_m11132_MethodInfo_var };
 		LuaFunc_t3790 * L_11 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_11, NULL, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2226, L_11, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2231, L_11, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_12 = ___module;
 		IntPtr_t L_13 = { (void*)StringLib_sub_m11129_MethodInfo_var };
 		LuaFunc_t3790 * L_14 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_14, NULL, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2227, L_14, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2232, L_14, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_15 = ___module;
 		IntPtr_t L_16 = { (void*)StringLib_lower_m11133_MethodInfo_var };
 		LuaFunc_t3790 * L_17 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_17, NULL, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2228, L_17, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2233, L_17, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_18 = ___module;
 		IntPtr_t L_19 = { (void*)StringLib_upper_m11134_MethodInfo_var };
 		LuaFunc_t3790 * L_20 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_20, NULL, L_19, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2229, L_20, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2234, L_20, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_21 = ___module;
 		IntPtr_t L_22 = { (void*)StringLib_rep_m11130_MethodInfo_var };
 		LuaFunc_t3790 * L_23 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_23, NULL, L_22, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		LuaTable_Register_m11224(L_21, (String_t*) &_stringLiteral2230, L_23, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_21, (String_t*) &_stringLiteral2235, L_23, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_24 = ___module;
 		IntPtr_t L_25 = { (void*)StringLib_reverse_m11131_MethodInfo_var };
 		LuaFunc_t3790 * L_26 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_26, NULL, L_25, /*hidden argument*/NULL);
 		NullCheck(L_24);
-		LuaTable_Register_m11224(L_24, (String_t*) &_stringLiteral2231, L_26, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_24, (String_t*) &_stringLiteral2236, L_26, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11946,7 +11946,7 @@ extern "C" void TableLib_RegisterModule_m11135 (Object_t * __this /* static, unu
 		LuaTable_t1336 * L_2 = ___enviroment;
 		LuaTable_t1336 * L_3 = V_0;
 		NullCheck(L_2);
-		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2232, L_3, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_2, (String_t*) &_stringLiteral2237, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -11980,49 +11980,49 @@ extern "C" void TableLib_RegisterFunctions_m11136 (Object_t * __this /* static, 
 		LuaFunc_t3790 * L_2 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_2, NULL, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2233, L_2, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_0, (String_t*) &_stringLiteral2238, L_2, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_3 = ___module;
 		IntPtr_t L_4 = { (void*)TableLib_insert_m11138_MethodInfo_var };
 		LuaFunc_t3790 * L_5 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_5, NULL, L_4, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2234, L_5, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_3, (String_t*) &_stringLiteral2239, L_5, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_6 = ___module;
 		IntPtr_t L_7 = { (void*)TableLib_remove_m11139_MethodInfo_var };
 		LuaFunc_t3790 * L_8 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_8, NULL, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral2210, L_8, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_6, (String_t*) &_stringLiteral2215, L_8, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_9 = ___module;
 		IntPtr_t L_10 = { (void*)TableLib_removeitem_m11140_MethodInfo_var };
 		LuaFunc_t3790 * L_11 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_11, NULL, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2235, L_11, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_9, (String_t*) &_stringLiteral2240, L_11, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_12 = ___module;
 		IntPtr_t L_13 = { (void*)TableLib_maxn_m11141_MethodInfo_var };
 		LuaFunc_t3790 * L_14 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_14, NULL, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2236, L_14, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_12, (String_t*) &_stringLiteral2241, L_14, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_15 = ___module;
 		IntPtr_t L_16 = { (void*)TableLib_getn_m11143_MethodInfo_var };
 		LuaFunc_t3790 * L_17 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_17, NULL, L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2237, L_17, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_15, (String_t*) &_stringLiteral2242, L_17, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_18 = ___module;
 		IntPtr_t L_19 = { (void*)TableLib_getn_m11143_MethodInfo_var };
 		LuaFunc_t3790 * L_20 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_20, NULL, L_19, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2238, L_20, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_18, (String_t*) &_stringLiteral2243, L_20, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_21 = ___module;
 		IntPtr_t L_22 = { (void*)TableLib_sort_m11142_MethodInfo_var };
 		LuaFunc_t3790 * L_23 = (LuaFunc_t3790 *)il2cpp_codegen_object_new (LuaFunc_t3790_il2cpp_TypeInfo_var);
 		LuaFunc__ctor_m11343(L_23, NULL, L_22, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		LuaTable_Register_m11224(L_21, (String_t*) &_stringLiteral2239, L_23, /*hidden argument*/NULL);
+		LuaTable_Register_m11224(L_21, (String_t*) &_stringLiteral2244, L_23, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12757,7 +12757,7 @@ IL_005c:
 			NullCheck(L_14);
 			String_t* L_15 = LuaString_get_Text_m11189(L_14, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			bool L_16 = String_Equals_m3001(NULL /*static, unused*/, L_15, (String_t*) &_stringLiteral2240, /*hidden argument*/NULL);
+			bool L_16 = String_Equals_m3001(NULL /*static, unused*/, L_15, (String_t*) &_stringLiteral2245, /*hidden argument*/NULL);
 			if (!L_16)
 			{
 				goto IL_0091;
@@ -13426,7 +13426,7 @@ extern "C" Object_t * LuaBoolean_get_Value_m11148 (LuaBoolean_t1662 * __this, co
 extern "C" String_t* LuaBoolean_GetTypeCode_m11149 (LuaBoolean_t1662 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2241;
+		return (String_t*) &_stringLiteral2246;
 	}
 }
 // System.Boolean Language.Lua.LuaBoolean::GetBooleanValue()
@@ -13569,7 +13569,7 @@ extern "C" Object_t * LuaFunction_get_Value_m11159 (LuaFunction_t3806 * __this, 
 extern "C" String_t* LuaFunction_GetTypeCode_m11160 (LuaFunction_t3806 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2242;
+		return (String_t*) &_stringLiteral2247;
 	}
 }
 // Language.Lua.LuaValue Language.Lua.LuaFunction::Invoke(Language.Lua.LuaValue[])
@@ -14155,7 +14155,7 @@ extern "C" Object_t * LuaNil_get_Value_m11178 (LuaNil_t1664 * __this, const Meth
 extern "C" String_t* LuaNil_GetTypeCode_m11179 (LuaNil_t1664 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral1363;
+		return (String_t*) &_stringLiteral1368;
 	}
 }
 // System.Boolean Language.Lua.LuaNil::GetBooleanValue()
@@ -14169,7 +14169,7 @@ extern "C" bool LuaNil_GetBooleanValue_m11180 (LuaNil_t1664 * __this, const Meth
 extern "C" String_t* LuaNil_ToString_m11181 (LuaNil_t1664 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral1363;
+		return (String_t*) &_stringLiteral1368;
 	}
 }
 #ifndef _MSC_VER
@@ -14226,7 +14226,7 @@ extern "C" Object_t * LuaNumber_get_Value_m11184 (LuaNumber_t1657 * __this, cons
 extern "C" String_t* LuaNumber_GetTypeCode_m11185 (LuaNumber_t1657 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2243;
+		return (String_t*) &_stringLiteral2248;
 	}
 }
 // System.String Language.Lua.LuaNumber::ToString()
@@ -14306,7 +14306,7 @@ extern "C" Object_t * LuaString_get_Value_m11191 (LuaString_t3810 * __this, cons
 extern "C" String_t* LuaString_GetTypeCode_m11192 (LuaString_t3810 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2222;
+		return (String_t*) &_stringLiteral2227;
 	}
 }
 // System.String Language.Lua.LuaString::ToString()
@@ -14838,11 +14838,11 @@ extern "C" void LuaTable__ctor_m11205 (LuaTable_t1336 * __this, LuaTable_t1336 *
 		LuaTable_t1336 * L_1 = LuaTable_get_MetaTable_m11206(__this, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_2 = ___parent;
 		NullCheck(L_1);
-		LuaTable_SetNameValue_m7540(L_1, (String_t*) &_stringLiteral2244, L_2, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_1, (String_t*) &_stringLiteral2249, L_2, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_3 = LuaTable_get_MetaTable_m11206(__this, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_4 = ___parent;
 		NullCheck(L_3);
-		LuaTable_SetNameValue_m7540(L_3, (String_t*) &_stringLiteral2106, L_4, /*hidden argument*/NULL);
+		LuaTable_SetNameValue_m7540(L_3, (String_t*) &_stringLiteral2111, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -14874,7 +14874,7 @@ extern "C" Object_t * LuaTable_get_Value_m11208 (LuaTable_t1336 * __this, const 
 extern "C" String_t* LuaTable_GetTypeCode_m11209 (LuaTable_t1336 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2232;
+		return (String_t*) &_stringLiteral2237;
 	}
 }
 // System.Int32 Language.Lua.LuaTable::get_Length()
@@ -14948,7 +14948,7 @@ extern "C" String_t* LuaTable_ToString_m11210 (LuaTable_t1336 * __this, const Me
 	{
 		LuaTable_t1336 * L_1 = LuaTable_get_MetaTable_m11206(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		LuaValue_t1334 * L_2 = LuaTable_GetValue_m7553(L_1, (String_t*) &_stringLiteral2245, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_2 = LuaTable_GetValue_m7553(L_1, (String_t*) &_stringLiteral2250, /*hidden argument*/NULL);
 		V_0 = ((LuaFunction_t3806 *)IsInst(L_2, LuaFunction_t3806_il2cpp_TypeInfo_var));
 		LuaFunction_t3806 * L_3 = V_0;
 		if (!L_3)
@@ -14976,7 +14976,7 @@ IL_003d:
 		int32_t L_9 = L_8;
 		Object_t * L_10 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_9);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral2246, L_10, /*hidden argument*/NULL);
+		String_t* L_11 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral2251, L_10, /*hidden argument*/NULL);
 		return L_11;
 	}
 }
@@ -15189,7 +15189,7 @@ extern "C" void LuaTable_InsertValue_m11213 (LuaTable_t1336 * __this, int32_t __
 IL_0029:
 	{
 		ArgumentOutOfRangeException_t1703 * L_6 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m10469(L_6, (String_t*) &_stringLiteral2016, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m10469(L_6, (String_t*) &_stringLiteral2021, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -15935,7 +15935,7 @@ extern "C" LuaValue_t1334 * LuaTable_GetValueFromMetaTable_m11222 (LuaTable_t133
 	{
 		LuaTable_t1336 * L_0 = LuaTable_get_MetaTable_m11206(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaValue_t1334 * L_1 = LuaTable_GetValue_m7553(L_0, (String_t*) &_stringLiteral2244, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_1 = LuaTable_GetValue_m7553(L_0, (String_t*) &_stringLiteral2249, /*hidden argument*/NULL);
 		V_0 = L_1;
 		LuaValue_t1334 * L_2 = V_0;
 		V_1 = ((LuaTable_t1336 *)IsInst(L_2, LuaTable_t1336_il2cpp_TypeInfo_var));
@@ -16009,7 +16009,7 @@ extern "C" LuaValue_t1334 * LuaTable_GetValueFromMetaTable_m11223 (LuaTable_t133
 	{
 		LuaTable_t1336 * L_0 = LuaTable_get_MetaTable_m11206(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaValue_t1334 * L_1 = LuaTable_GetValue_m7553(L_0, (String_t*) &_stringLiteral2244, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_1 = LuaTable_GetValue_m7553(L_0, (String_t*) &_stringLiteral2249, /*hidden argument*/NULL);
 		V_0 = L_1;
 		LuaValue_t1334 * L_2 = V_0;
 		V_1 = ((LuaTable_t1336 *)IsInst(L_2, LuaTable_t1336_il2cpp_TypeInfo_var));
@@ -16348,14 +16348,14 @@ extern "C" void LuaUserdata_set_MetaTable_m11232 (LuaUserdata_t3792 * __this, Lu
 extern "C" String_t* LuaUserdata_GetTypeCode_m11233 (LuaUserdata_t3792 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2247;
+		return (String_t*) &_stringLiteral2252;
 	}
 }
 // System.String Language.Lua.LuaUserdata::ToString()
 extern "C" String_t* LuaUserdata_ToString_m11234 (LuaUserdata_t3792 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral2247;
+		return (String_t*) &_stringLiteral2252;
 	}
 }
 #ifndef _MSC_VER
@@ -16588,7 +16588,7 @@ IL_0015:
 		NullCheck(L_9);
 		LuaTable_t1336 * L_10 = LuaUserdata_get_MetaTable_m11231(L_9, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		LuaValue_t1334 * L_11 = LuaTable_GetValue_m7553(L_10, (String_t*) &_stringLiteral2244, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_11 = LuaTable_GetValue_m7553(L_10, (String_t*) &_stringLiteral2249, /*hidden argument*/NULL);
 		V_2 = L_11;
 		LuaValue_t1334 * L_12 = V_2;
 		if (!L_12)
@@ -16638,7 +16638,7 @@ IL_006e:
 		NullCheck(L_24);
 		Object_t * L_25 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(5 /* System.Object Language.Lua.LuaValue::get_Value() */, L_24);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_26 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2248, L_25, /*hidden argument*/NULL);
+		String_t* L_26 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral2253, L_25, /*hidden argument*/NULL);
 		Exception_t496 * L_27 = (Exception_t496 *)il2cpp_codegen_object_new (Exception_t496_il2cpp_TypeInfo_var);
 		Exception__ctor_m3464(L_27, L_26, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_27);
@@ -16753,7 +16753,7 @@ extern "C" Chunk_t3745 * Parser_ParseChunk_m11242 (Parser_t3738 * __this, Object
 	{
 		bool* L_6 = ___success;
 		*((int8_t*)(L_6)) = (int8_t)0;
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2249, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2254, /*hidden argument*/NULL);
 	}
 
 IL_002f:
@@ -16793,7 +16793,7 @@ extern "C" Chunk_t3745 * Parser_ParseChunk_m11243 (Parser_t3738 * __this, bool* 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2250, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2255, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -16836,21 +16836,21 @@ IL_004f:
 
 IL_005c:
 	{
-		bool L_17 = Parser_PeekTerminalString_m11322(__this, (String_t*) &_stringLiteral2161, /*hidden argument*/NULL);
+		bool L_17 = Parser_PeekTerminalString_m11322(__this, (String_t*) &_stringLiteral2166, /*hidden argument*/NULL);
 		if (L_17)
 		{
 			goto IL_008c;
 		}
 	}
 	{
-		bool L_18 = Parser_PeekTerminalString_m11322(__this, (String_t*) &_stringLiteral2251, /*hidden argument*/NULL);
+		bool L_18 = Parser_PeekTerminalString_m11322(__this, (String_t*) &_stringLiteral2256, /*hidden argument*/NULL);
 		if (L_18)
 		{
 			goto IL_008c;
 		}
 	}
 	{
-		bool L_19 = Parser_PeekTerminalString_m11322(__this, (String_t*) &_stringLiteral2252, /*hidden argument*/NULL);
+		bool L_19 = Parser_PeekTerminalString_m11322(__this, (String_t*) &_stringLiteral2257, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_008e;
@@ -16984,7 +16984,7 @@ extern "C" Statement_t3742 * Parser_ParseStatement_m11244 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2253, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2258, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -17410,7 +17410,7 @@ extern "C" Assignment_t3741 * Parser_ParseAssignment_m11245 (Parser_t3738 * __th
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2254, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2259, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -17493,7 +17493,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2255, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2260, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 		Dictionary_2_t3820 * L_35 = (__this->___ParsingResults_4);
@@ -17525,7 +17525,7 @@ IL_00e9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2256, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2261, /*hidden argument*/NULL);
 		int32_t L_47 = V_4;
 		__this->___position_0 = L_47;
 	}
@@ -17590,7 +17590,7 @@ extern "C" Function_t3753 * Parser_ParseFunction_m11246 (Parser_t3738 * __this, 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2257, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2262, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -17634,7 +17634,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2242, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2247, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -17668,7 +17668,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2258, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2263, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -17698,7 +17698,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2259, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2264, /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		__this->___position_0 = L_43;
 		Dictionary_2_t3820 * L_44 = (__this->___ParsingResults_4);
@@ -17730,7 +17730,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2260, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2265, /*hidden argument*/NULL);
 		int32_t L_56 = V_4;
 		__this->___position_0 = L_56;
 	}
@@ -17795,7 +17795,7 @@ extern "C" LocalVar_t3757 * Parser_ParseLocalVar_m11247 (Parser_t3738 * __this, 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2261, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2266, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -17835,7 +17835,7 @@ IL_004f:
 		int32_t L_16 = (__this->___position_0);
 		V_3 = L_16;
 		bool* L_17 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2262, L_17, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2267, L_17, /*hidden argument*/NULL);
 		bool* L_18 = ___success;
 		if ((*((int8_t*)L_18)))
 		{
@@ -17869,7 +17869,7 @@ IL_0093:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2263, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2268, /*hidden argument*/NULL);
 		int32_t L_29 = V_3;
 		__this->___position_0 = L_29;
 		Dictionary_2_t3820 * L_30 = (__this->___ParsingResults_4);
@@ -17899,7 +17899,7 @@ IL_00d0:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2264, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2269, /*hidden argument*/NULL);
 		int32_t L_41 = V_3;
 		__this->___position_0 = L_41;
 		Dictionary_2_t3820 * L_42 = (__this->___ParsingResults_4);
@@ -17953,7 +17953,7 @@ IL_0138:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2265, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2270, /*hidden argument*/NULL);
 		int32_t L_58 = V_4;
 		__this->___position_0 = L_58;
 	}
@@ -18013,7 +18013,7 @@ extern "C" LocalFunc_t3756 * Parser_ParseLocalFunc_m11248 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2266, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2271, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -18057,7 +18057,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2262, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2267, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -18091,7 +18091,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2267, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2272, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -18110,7 +18110,7 @@ IL_00a1:
 IL_00df:
 	{
 		bool* L_39 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2242, L_39, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2247, L_39, /*hidden argument*/NULL);
 		bool* L_40 = ___success;
 		if ((*((int8_t*)L_40)))
 		{
@@ -18118,7 +18118,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2268, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2273, /*hidden argument*/NULL);
 		int32_t L_41 = V_4;
 		__this->___position_0 = L_41;
 		Dictionary_2_t3820 * L_42 = (__this->___ParsingResults_4);
@@ -18145,7 +18145,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2267, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2272, /*hidden argument*/NULL);
 		int32_t L_51 = V_4;
 		__this->___position_0 = L_51;
 		Dictionary_2_t3820 * L_52 = (__this->___ParsingResults_4);
@@ -18175,7 +18175,7 @@ IL_0161:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2269, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2274, /*hidden argument*/NULL);
 		int32_t L_63 = V_4;
 		__this->___position_0 = L_63;
 		Dictionary_2_t3820 * L_64 = (__this->___ParsingResults_4);
@@ -18207,7 +18207,7 @@ IL_01a5:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2270, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2275, /*hidden argument*/NULL);
 		int32_t L_76 = V_4;
 		__this->___position_0 = L_76;
 	}
@@ -18271,7 +18271,7 @@ extern "C" ExprStmt_t3748 * Parser_ParseExprStmt_m11249 (Parser_t3738 * __this, 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2271, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2276, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -18331,7 +18331,7 @@ IL_004f:
 
 IL_0081:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2272, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2277, /*hidden argument*/NULL);
 	}
 
 IL_008d:
@@ -18380,7 +18380,7 @@ extern "C" ReturnStmt_t3759 * Parser_ParseReturnStmt_m11250 (Parser_t3738 * __th
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2273, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2278, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -18420,7 +18420,7 @@ IL_004f:
 		int32_t L_16 = (__this->___position_0);
 		V_3 = L_16;
 		bool* L_17 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1449, L_17, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1454, L_17, /*hidden argument*/NULL);
 		bool* L_18 = ___success;
 		if ((*((int8_t*)L_18)))
 		{
@@ -18454,7 +18454,7 @@ IL_0093:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2274, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2279, /*hidden argument*/NULL);
 		int32_t L_29 = V_3;
 		__this->___position_0 = L_29;
 		Dictionary_2_t3820 * L_30 = (__this->___ParsingResults_4);
@@ -18524,7 +18524,7 @@ extern "C" BreakStmt_t3743 * Parser_ParseBreakStmt_m11251 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2275, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2280, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -18568,7 +18568,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2276, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2281, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -18653,7 +18653,7 @@ extern "C" DoStmt_t3746 * Parser_ParseDoStmt_m11252 (Parser_t3738 * __this, bool
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2277, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2282, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -18697,7 +18697,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2278, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2283, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -18731,7 +18731,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2279, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2284, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -18761,7 +18761,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2280, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2285, /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		__this->___position_0 = L_43;
 		Dictionary_2_t3820 * L_44 = (__this->___ParsingResults_4);
@@ -18780,7 +18780,7 @@ IL_00df:
 IL_0123:
 	{
 		bool* L_51 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2161, L_51, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2166, L_51, /*hidden argument*/NULL);
 		bool* L_52 = ___success;
 		if ((*((int8_t*)L_52)))
 		{
@@ -18788,7 +18788,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2281, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2286, /*hidden argument*/NULL);
 		int32_t L_53 = V_4;
 		__this->___position_0 = L_53;
 		Dictionary_2_t3820 * L_54 = (__this->___ParsingResults_4);
@@ -18815,7 +18815,7 @@ IL_0167:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2279, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2284, /*hidden argument*/NULL);
 		int32_t L_63 = V_4;
 		__this->___position_0 = L_63;
 	}
@@ -18882,7 +18882,7 @@ extern "C" IfStmt_t3755 * Parser_ParseIfStmt_m11253 (Parser_t3738 * __this, bool
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2282, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2287, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -18926,7 +18926,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2283, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2288, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -18960,7 +18960,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2284, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2289, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -18990,7 +18990,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2285, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2290, /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		__this->___position_0 = L_43;
 		Dictionary_2_t3820 * L_44 = (__this->___ParsingResults_4);
@@ -19009,7 +19009,7 @@ IL_00df:
 IL_0123:
 	{
 		bool* L_51 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2286, L_51, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2291, L_51, /*hidden argument*/NULL);
 		bool* L_52 = ___success;
 		if ((*((int8_t*)L_52)))
 		{
@@ -19017,7 +19017,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2287, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2292, /*hidden argument*/NULL);
 		int32_t L_53 = V_4;
 		__this->___position_0 = L_53;
 		Dictionary_2_t3820 * L_54 = (__this->___ParsingResults_4);
@@ -19044,7 +19044,7 @@ IL_0167:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2284, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2289, /*hidden argument*/NULL);
 		int32_t L_63 = V_4;
 		__this->___position_0 = L_63;
 		Dictionary_2_t3820 * L_64 = (__this->___ParsingResults_4);
@@ -19074,7 +19074,7 @@ IL_01a5:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2288, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2293, /*hidden argument*/NULL);
 		int32_t L_75 = V_4;
 		__this->___position_0 = L_75;
 		Dictionary_2_t3820 * L_76 = (__this->___ParsingResults_4);
@@ -19132,7 +19132,7 @@ IL_0218:
 		int32_t L_90 = (__this->___position_0);
 		V_6 = L_90;
 		bool* L_91 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2251, L_91, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2256, L_91, /*hidden argument*/NULL);
 		bool* L_92 = ___success;
 		if ((*((int8_t*)L_92)))
 		{
@@ -19154,7 +19154,7 @@ IL_0239:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2284, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2289, /*hidden argument*/NULL);
 		int32_t L_95 = V_6;
 		__this->___position_0 = L_95;
 		goto IL_0292;
@@ -19174,7 +19174,7 @@ IL_0260:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2289, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2294, /*hidden argument*/NULL);
 		int32_t L_100 = V_6;
 		__this->___position_0 = L_100;
 	}
@@ -19190,7 +19190,7 @@ IL_0292:
 		bool* L_101 = ___success;
 		*((int8_t*)(L_101)) = (int8_t)1;
 		bool* L_102 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2161, L_102, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2166, L_102, /*hidden argument*/NULL);
 		bool* L_103 = ___success;
 		if ((*((int8_t*)L_103)))
 		{
@@ -19198,7 +19198,7 @@ IL_0292:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2290, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2295, /*hidden argument*/NULL);
 		int32_t L_104 = V_4;
 		__this->___position_0 = L_104;
 		Dictionary_2_t3820 * L_105 = (__this->___ParsingResults_4);
@@ -19225,7 +19225,7 @@ IL_02d9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2284, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2289, /*hidden argument*/NULL);
 		int32_t L_114 = V_4;
 		__this->___position_0 = L_114;
 	}
@@ -19290,7 +19290,7 @@ extern "C" ElseifBlock_t3822 * Parser_ParseElseifBlock_m11254 (Parser_t3738 * __
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2291, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2296, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -19334,7 +19334,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2252, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2257, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -19368,7 +19368,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2292, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2297, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -19398,7 +19398,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2293, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2298, /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		__this->___position_0 = L_43;
 		Dictionary_2_t3820 * L_44 = (__this->___ParsingResults_4);
@@ -19417,7 +19417,7 @@ IL_00df:
 IL_0123:
 	{
 		bool* L_51 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2286, L_51, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2291, L_51, /*hidden argument*/NULL);
 		bool* L_52 = ___success;
 		if ((*((int8_t*)L_52)))
 		{
@@ -19425,7 +19425,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2294, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2299, /*hidden argument*/NULL);
 		int32_t L_53 = V_4;
 		__this->___position_0 = L_53;
 		Dictionary_2_t3820 * L_54 = (__this->___ParsingResults_4);
@@ -19452,7 +19452,7 @@ IL_0167:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2292, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2297, /*hidden argument*/NULL);
 		int32_t L_63 = V_4;
 		__this->___position_0 = L_63;
 		Dictionary_2_t3820 * L_64 = (__this->___ParsingResults_4);
@@ -19482,7 +19482,7 @@ IL_01a5:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2295, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2300, /*hidden argument*/NULL);
 		int32_t L_75 = V_4;
 		__this->___position_0 = L_75;
 	}
@@ -19548,7 +19548,7 @@ extern "C" ForStmt_t3750 * Parser_ParseForStmt_m11255 (Parser_t3738 * __this, bo
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2296, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2301, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -19592,7 +19592,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2297, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2302, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -19626,7 +19626,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2298, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2303, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -19656,7 +19656,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2299, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2304, /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		__this->___position_0 = L_43;
 		Dictionary_2_t3820 * L_44 = (__this->___ParsingResults_4);
@@ -19685,7 +19685,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2300, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2305, /*hidden argument*/NULL);
 		int32_t L_54 = V_4;
 		__this->___position_0 = L_54;
 		Dictionary_2_t3820 * L_55 = (__this->___ParsingResults_4);
@@ -19717,7 +19717,7 @@ IL_016b:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2301, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2306, /*hidden argument*/NULL);
 		int32_t L_67 = V_4;
 		__this->___position_0 = L_67;
 		Dictionary_2_t3820 * L_68 = (__this->___ParsingResults_4);
@@ -19744,7 +19744,7 @@ IL_01b6:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2302, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2307, /*hidden argument*/NULL);
 		int32_t L_77 = V_4;
 		__this->___position_0 = L_77;
 		Dictionary_2_t3820 * L_78 = (__this->___ParsingResults_4);
@@ -19776,7 +19776,7 @@ IL_01f7:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2303, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2308, /*hidden argument*/NULL);
 		int32_t L_90 = V_4;
 		__this->___position_0 = L_90;
 		Dictionary_2_t3820 * L_91 = (__this->___ParsingResults_4);
@@ -19824,7 +19824,7 @@ IL_0260:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2304, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2309, /*hidden argument*/NULL);
 		int32_t L_106 = V_5;
 		__this->___position_0 = L_106;
 	}
@@ -19840,7 +19840,7 @@ IL_0299:
 		bool* L_107 = ___success;
 		*((int8_t*)(L_107)) = (int8_t)1;
 		bool* L_108 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2278, L_108, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2283, L_108, /*hidden argument*/NULL);
 		bool* L_109 = ___success;
 		if ((*((int8_t*)L_109)))
 		{
@@ -19848,7 +19848,7 @@ IL_0299:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2305, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2310, /*hidden argument*/NULL);
 		int32_t L_110 = V_4;
 		__this->___position_0 = L_110;
 		Dictionary_2_t3820 * L_111 = (__this->___ParsingResults_4);
@@ -19875,7 +19875,7 @@ IL_02e0:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2298, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2303, /*hidden argument*/NULL);
 		int32_t L_120 = V_4;
 		__this->___position_0 = L_120;
 		Dictionary_2_t3820 * L_121 = (__this->___ParsingResults_4);
@@ -19905,7 +19905,7 @@ IL_031e:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2306, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2311, /*hidden argument*/NULL);
 		int32_t L_132 = V_4;
 		__this->___position_0 = L_132;
 		Dictionary_2_t3820 * L_133 = (__this->___ParsingResults_4);
@@ -19924,7 +19924,7 @@ IL_031e:
 IL_0362:
 	{
 		bool* L_140 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2161, L_140, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2166, L_140, /*hidden argument*/NULL);
 		bool* L_141 = ___success;
 		if ((*((int8_t*)L_141)))
 		{
@@ -19932,7 +19932,7 @@ IL_0362:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2307, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2312, /*hidden argument*/NULL);
 		int32_t L_142 = V_4;
 		__this->___position_0 = L_142;
 		Dictionary_2_t3820 * L_143 = (__this->___ParsingResults_4);
@@ -19959,7 +19959,7 @@ IL_03a6:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2298, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2303, /*hidden argument*/NULL);
 		int32_t L_152 = V_4;
 		__this->___position_0 = L_152;
 	}
@@ -20024,7 +20024,7 @@ extern "C" ForInStmt_t3749 * Parser_ParseForInStmt_m11256 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2308, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2313, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -20068,7 +20068,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2297, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2302, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -20102,7 +20102,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2309, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2314, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -20132,7 +20132,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2310, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2315, /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		__this->___position_0 = L_43;
 		Dictionary_2_t3820 * L_44 = (__this->___ParsingResults_4);
@@ -20159,7 +20159,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2309, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2314, /*hidden argument*/NULL);
 		int32_t L_53 = V_4;
 		__this->___position_0 = L_53;
 		Dictionary_2_t3820 * L_54 = (__this->___ParsingResults_4);
@@ -20178,7 +20178,7 @@ IL_0123:
 IL_0161:
 	{
 		bool* L_61 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1323, L_61, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1328, L_61, /*hidden argument*/NULL);
 		bool* L_62 = ___success;
 		if ((*((int8_t*)L_62)))
 		{
@@ -20186,7 +20186,7 @@ IL_0161:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2311, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2316, /*hidden argument*/NULL);
 		int32_t L_63 = V_4;
 		__this->___position_0 = L_63;
 		Dictionary_2_t3820 * L_64 = (__this->___ParsingResults_4);
@@ -20213,7 +20213,7 @@ IL_01a5:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2309, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2314, /*hidden argument*/NULL);
 		int32_t L_73 = V_4;
 		__this->___position_0 = L_73;
 		Dictionary_2_t3820 * L_74 = (__this->___ParsingResults_4);
@@ -20243,7 +20243,7 @@ IL_01e3:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2312, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2317, /*hidden argument*/NULL);
 		int32_t L_85 = V_4;
 		__this->___position_0 = L_85;
 		Dictionary_2_t3820 * L_86 = (__this->___ParsingResults_4);
@@ -20262,7 +20262,7 @@ IL_01e3:
 IL_0227:
 	{
 		bool* L_93 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2278, L_93, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2283, L_93, /*hidden argument*/NULL);
 		bool* L_94 = ___success;
 		if ((*((int8_t*)L_94)))
 		{
@@ -20270,7 +20270,7 @@ IL_0227:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2313, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2318, /*hidden argument*/NULL);
 		int32_t L_95 = V_4;
 		__this->___position_0 = L_95;
 		Dictionary_2_t3820 * L_96 = (__this->___ParsingResults_4);
@@ -20297,7 +20297,7 @@ IL_026b:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2309, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2314, /*hidden argument*/NULL);
 		int32_t L_105 = V_4;
 		__this->___position_0 = L_105;
 		Dictionary_2_t3820 * L_106 = (__this->___ParsingResults_4);
@@ -20327,7 +20327,7 @@ IL_02a9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2314, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2319, /*hidden argument*/NULL);
 		int32_t L_117 = V_4;
 		__this->___position_0 = L_117;
 		Dictionary_2_t3820 * L_118 = (__this->___ParsingResults_4);
@@ -20346,7 +20346,7 @@ IL_02a9:
 IL_02ed:
 	{
 		bool* L_125 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2161, L_125, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2166, L_125, /*hidden argument*/NULL);
 		bool* L_126 = ___success;
 		if ((*((int8_t*)L_126)))
 		{
@@ -20354,7 +20354,7 @@ IL_02ed:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2315, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2320, /*hidden argument*/NULL);
 		int32_t L_127 = V_4;
 		__this->___position_0 = L_127;
 		Dictionary_2_t3820 * L_128 = (__this->___ParsingResults_4);
@@ -20381,7 +20381,7 @@ IL_0331:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2309, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2314, /*hidden argument*/NULL);
 		int32_t L_137 = V_4;
 		__this->___position_0 = L_137;
 	}
@@ -20446,7 +20446,7 @@ extern "C" WhileStmt_t3760 * Parser_ParseWhileStmt_m11257 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2316, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2321, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -20490,7 +20490,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2317, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2322, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -20524,7 +20524,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2318, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2323, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -20554,7 +20554,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2319, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2324, /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		__this->___position_0 = L_43;
 		Dictionary_2_t3820 * L_44 = (__this->___ParsingResults_4);
@@ -20573,7 +20573,7 @@ IL_00df:
 IL_0123:
 	{
 		bool* L_51 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2278, L_51, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2283, L_51, /*hidden argument*/NULL);
 		bool* L_52 = ___success;
 		if ((*((int8_t*)L_52)))
 		{
@@ -20581,7 +20581,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2320, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2325, /*hidden argument*/NULL);
 		int32_t L_53 = V_4;
 		__this->___position_0 = L_53;
 		Dictionary_2_t3820 * L_54 = (__this->___ParsingResults_4);
@@ -20608,7 +20608,7 @@ IL_0167:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2318, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2323, /*hidden argument*/NULL);
 		int32_t L_63 = V_4;
 		__this->___position_0 = L_63;
 		Dictionary_2_t3820 * L_64 = (__this->___ParsingResults_4);
@@ -20638,7 +20638,7 @@ IL_01a5:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2321, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2326, /*hidden argument*/NULL);
 		int32_t L_75 = V_4;
 		__this->___position_0 = L_75;
 		Dictionary_2_t3820 * L_76 = (__this->___ParsingResults_4);
@@ -20657,7 +20657,7 @@ IL_01a5:
 IL_01e9:
 	{
 		bool* L_83 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2161, L_83, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2166, L_83, /*hidden argument*/NULL);
 		bool* L_84 = ___success;
 		if ((*((int8_t*)L_84)))
 		{
@@ -20665,7 +20665,7 @@ IL_01e9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2322, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2327, /*hidden argument*/NULL);
 		int32_t L_85 = V_4;
 		__this->___position_0 = L_85;
 		Dictionary_2_t3820 * L_86 = (__this->___ParsingResults_4);
@@ -20692,7 +20692,7 @@ IL_022d:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2318, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2323, /*hidden argument*/NULL);
 		int32_t L_95 = V_4;
 		__this->___position_0 = L_95;
 	}
@@ -20757,7 +20757,7 @@ extern "C" RepeatStmt_t3758 * Parser_ParseRepeatStmt_m11258 (Parser_t3738 * __th
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2323, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2328, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -20801,7 +20801,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2324, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2329, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -20835,7 +20835,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2325, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2330, /*hidden argument*/NULL);
 		int32_t L_31 = V_4;
 		__this->___position_0 = L_31;
 		Dictionary_2_t3820 * L_32 = (__this->___ParsingResults_4);
@@ -20865,7 +20865,7 @@ IL_00df:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2326, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2331, /*hidden argument*/NULL);
 		int32_t L_43 = V_4;
 		__this->___position_0 = L_43;
 		Dictionary_2_t3820 * L_44 = (__this->___ParsingResults_4);
@@ -20884,7 +20884,7 @@ IL_00df:
 IL_0123:
 	{
 		bool* L_51 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2327, L_51, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2332, L_51, /*hidden argument*/NULL);
 		bool* L_52 = ___success;
 		if ((*((int8_t*)L_52)))
 		{
@@ -20892,7 +20892,7 @@ IL_0123:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2328, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2333, /*hidden argument*/NULL);
 		int32_t L_53 = V_4;
 		__this->___position_0 = L_53;
 		Dictionary_2_t3820 * L_54 = (__this->___ParsingResults_4);
@@ -20919,7 +20919,7 @@ IL_0167:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2325, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2330, /*hidden argument*/NULL);
 		int32_t L_63 = V_4;
 		__this->___position_0 = L_63;
 		Dictionary_2_t3820 * L_64 = (__this->___ParsingResults_4);
@@ -20949,7 +20949,7 @@ IL_01a5:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2329, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2334, /*hidden argument*/NULL);
 		int32_t L_75 = V_4;
 		__this->___position_0 = L_75;
 	}
@@ -21017,7 +21017,7 @@ extern "C" List_1_t3739 * Parser_ParseVarList_m11259 (Parser_t3738 * __this, boo
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2330, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2335, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -21105,7 +21105,7 @@ IL_009c:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2331, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2336, /*hidden argument*/NULL);
 		int32_t L_34 = V_5;
 		__this->___position_0 = L_34;
 		goto IL_0117;
@@ -21134,7 +21134,7 @@ IL_00d5:
 
 IL_00f9:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2332, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2337, /*hidden argument*/NULL);
 		int32_t L_41 = V_5;
 		__this->___position_0 = L_41;
 	}
@@ -21214,7 +21214,7 @@ extern "C" List_1_t3740 * Parser_ParseExprList_m11260 (Parser_t3738 * __this, bo
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2333, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2338, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -21302,7 +21302,7 @@ IL_009c:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2334, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2339, /*hidden argument*/NULL);
 		int32_t L_34 = V_5;
 		__this->___position_0 = L_34;
 		goto IL_0117;
@@ -21331,7 +21331,7 @@ IL_00d5:
 
 IL_00f9:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2335, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2340, /*hidden argument*/NULL);
 		int32_t L_41 = V_5;
 		__this->___position_0 = L_41;
 	}
@@ -21407,7 +21407,7 @@ extern "C" Expr_t3747 * Parser_ParseExpr_m11261 (Parser_t3738 * __this, bool* __
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2336, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2341, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -21526,7 +21526,7 @@ extern "C" Term_t3763 * Parser_ParseTerm_m11262 (Parser_t3738 * __this, bool* __
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2337, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2342, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -21816,7 +21816,7 @@ extern "C" NilLiteral_t3774 * Parser_ParseNilLiteral_m11263 (Parser_t3738 * __th
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2338, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2343, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -21858,7 +21858,7 @@ IL_004f:
 		NilLiteral__ctor_m11000(L_17, /*hidden argument*/NULL);
 		V_3 = L_17;
 		bool* L_18 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1363, L_18, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1368, L_18, /*hidden argument*/NULL);
 		bool* L_19 = ___success;
 		if (!(*((int8_t*)L_19)))
 		{
@@ -21873,7 +21873,7 @@ IL_004f:
 
 IL_0081:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2339, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2344, /*hidden argument*/NULL);
 	}
 
 IL_008d:
@@ -21926,7 +21926,7 @@ extern "C" BoolLiteral_t3764 * Parser_ParseBoolLiteral_m11264 (Parser_t3738 * __
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2340, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2345, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -21981,7 +21981,7 @@ IL_0079:
 	{
 		BoolLiteral_t3764 * L_22 = V_3;
 		bool* L_23 = ___success;
-		String_t* L_24 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1330, L_23, /*hidden argument*/NULL);
+		String_t* L_24 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1335, L_23, /*hidden argument*/NULL);
 		NullCheck(L_22);
 		L_22->___Text_0 = L_24;
 		bool* L_25 = ___success;
@@ -22000,7 +22000,7 @@ IL_009e:
 	{
 		BoolLiteral_t3764 * L_27 = V_3;
 		bool* L_28 = ___success;
-		String_t* L_29 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1126, L_28, /*hidden argument*/NULL);
+		String_t* L_29 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1131, L_28, /*hidden argument*/NULL);
 		NullCheck(L_27);
 		L_27->___Text_0 = L_29;
 		bool* L_30 = ___success;
@@ -22041,7 +22041,7 @@ IL_00cd:
 
 IL_00ec:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2341, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2346, /*hidden argument*/NULL);
 	}
 
 IL_00f8:
@@ -22090,7 +22090,7 @@ extern "C" NumberLiteral_t3775 * Parser_ParseNumberLiteral_m11265 (Parser_t3738 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2342, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2347, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -22226,7 +22226,7 @@ extern "C" StringLiteral_t3784 * Parser_ParseStringLiteral_m11266 (Parser_t3738 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2343, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2348, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -22301,7 +22301,7 @@ IL_007f:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2344, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2349, /*hidden argument*/NULL);
 		int32_t L_26 = V_4;
 		__this->___position_0 = L_26;
 	}
@@ -22368,7 +22368,7 @@ IL_0103:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2345, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2350, /*hidden argument*/NULL);
 		int32_t L_44 = V_5;
 		__this->___position_0 = L_44;
 	}
@@ -22469,7 +22469,7 @@ extern "C" VariableArg_t3787 * Parser_ParseVariableArg_m11267 (Parser_t3738 * __
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2346, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2351, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -22512,7 +22512,7 @@ IL_004f:
 		V_3 = L_17;
 		VariableArg_t3787 * L_18 = V_3;
 		bool* L_19 = ___success;
-		String_t* L_20 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2111, L_19, /*hidden argument*/NULL);
+		String_t* L_20 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2116, L_19, /*hidden argument*/NULL);
 		NullCheck(L_18);
 		L_18->___Name_0 = L_20;
 		bool* L_21 = ___success;
@@ -22529,7 +22529,7 @@ IL_004f:
 
 IL_0086:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2347, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2352, /*hidden argument*/NULL);
 	}
 
 IL_0092:
@@ -22579,7 +22579,7 @@ extern "C" FunctionValue_t3769 * Parser_ParseFunctionValue_m11268 (Parser_t3738 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2348, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2353, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -22623,7 +22623,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2242, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2247, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -22662,7 +22662,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2349, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2354, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 	}
@@ -22727,7 +22727,7 @@ extern "C" FunctionBody_t3752 * Parser_ParseFunctionBody_m11269 (Parser_t3738 * 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2350, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2355, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -22838,7 +22838,7 @@ IL_00cf:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2351, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2356, /*hidden argument*/NULL);
 		int32_t L_38 = V_4;
 		__this->___position_0 = L_38;
 		Dictionary_2_t3820 * L_39 = (__this->___ParsingResults_4);
@@ -22868,7 +22868,7 @@ IL_0113:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2352, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2357, /*hidden argument*/NULL);
 		int32_t L_50 = V_4;
 		__this->___position_0 = L_50;
 		Dictionary_2_t3820 * L_51 = (__this->___ParsingResults_4);
@@ -22887,7 +22887,7 @@ IL_0113:
 IL_0157:
 	{
 		bool* L_58 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2161, L_58, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2166, L_58, /*hidden argument*/NULL);
 		bool* L_59 = ___success;
 		if ((*((int8_t*)L_59)))
 		{
@@ -22895,7 +22895,7 @@ IL_0157:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2353, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2358, /*hidden argument*/NULL);
 		int32_t L_60 = V_4;
 		__this->___position_0 = L_60;
 		Dictionary_2_t3820 * L_61 = (__this->___ParsingResults_4);
@@ -22972,7 +22972,7 @@ extern "C" Access_t3761 * Parser_ParseAccess_m11270 (Parser_t3738 * __this, bool
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2354, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2359, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -23154,7 +23154,7 @@ extern "C" BaseExpr_t3762 * Parser_ParseBaseExpr_m11271 (Parser_t3738 * __this, 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2355, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2360, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -23283,7 +23283,7 @@ extern "C" KeyAccess_t3771 * Parser_ParseKeyAccess_m11272 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2356, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2361, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -23366,7 +23366,7 @@ IL_009e:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2357, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2362, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 		Dictionary_2_t3820 * L_35 = (__this->___ParsingResults_4);
@@ -23393,7 +23393,7 @@ IL_00e9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2358, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2363, /*hidden argument*/NULL);
 		int32_t L_44 = V_4;
 		__this->___position_0 = L_44;
 	}
@@ -23458,7 +23458,7 @@ extern "C" NameAccess_t3773 * Parser_ParseNameAccess_m11273 (Parser_t3738 * __th
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2359, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2364, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -23541,7 +23541,7 @@ IL_009e:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2360, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2365, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 	}
@@ -23606,7 +23606,7 @@ extern "C" MethodCall_t3772 * Parser_ParseMethodCall_m11274 (Parser_t3738 * __th
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2361, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2366, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -23689,7 +23689,7 @@ IL_009e:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2362, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2367, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 		Dictionary_2_t3820 * L_35 = (__this->___ParsingResults_4);
@@ -23721,7 +23721,7 @@ IL_00e9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2363, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2368, /*hidden argument*/NULL);
 		int32_t L_47 = V_4;
 		__this->___position_0 = L_47;
 	}
@@ -23785,7 +23785,7 @@ extern "C" FunctionCall_t3768 * Parser_ParseFunctionCall_m11275 (Parser_t3738 * 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2364, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2369, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -23845,7 +23845,7 @@ IL_004f:
 
 IL_0081:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2365, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2370, /*hidden argument*/NULL);
 	}
 
 IL_008d:
@@ -23903,7 +23903,7 @@ extern "C" Var_t3827 * Parser_ParseVar_m11276 (Parser_t3738 * __this, bool* ___s
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2366, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2371, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -24012,7 +24012,7 @@ IL_00b9:
 
 IL_00ea:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2367, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2372, /*hidden argument*/NULL);
 		int32_t L_43 = V_5;
 		__this->___position_0 = L_43;
 	}
@@ -24064,7 +24064,7 @@ IL_011b:
 
 IL_014c:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2368, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2373, /*hidden argument*/NULL);
 		int32_t L_54 = V_7;
 		__this->___position_0 = L_54;
 	}
@@ -24166,7 +24166,7 @@ extern "C" PrimaryExpr_t3783 * Parser_ParsePrimaryExpr_m11277 (Parser_t3738 * __
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2369, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2374, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -24259,7 +24259,7 @@ IL_0093:
 
 IL_00c4:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2370, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2375, /*hidden argument*/NULL);
 		int32_t L_37 = V_4;
 		__this->___position_0 = L_37;
 	}
@@ -24335,7 +24335,7 @@ extern "C" VarName_t3788 * Parser_ParseVarName_m11278 (Parser_t3738 * __this, bo
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2371, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2376, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -24395,7 +24395,7 @@ IL_004f:
 
 IL_0081:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2372, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2377, /*hidden argument*/NULL);
 	}
 
 IL_008d:
@@ -24445,7 +24445,7 @@ extern "C" FunctionName_t3751 * Parser_ParseFunctionName_m11279 (Parser_t3738 * 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2373, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2378, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -24526,7 +24526,7 @@ IL_0093:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2374, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2379, /*hidden argument*/NULL);
 		int32_t L_33 = V_4;
 		__this->___position_0 = L_33;
 		goto IL_0105;
@@ -24548,7 +24548,7 @@ IL_00cc:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2375, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2380, /*hidden argument*/NULL);
 		int32_t L_39 = V_4;
 		__this->___position_0 = L_39;
 	}
@@ -24608,7 +24608,7 @@ extern "C" GroupExpr_t3770 * Parser_ParseGroupExpr_m11280 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2376, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2381, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -24691,7 +24691,7 @@ IL_009e:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2377, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2382, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 		Dictionary_2_t3820 * L_35 = (__this->___ParsingResults_4);
@@ -24718,7 +24718,7 @@ IL_00e9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2378, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2383, /*hidden argument*/NULL);
 		int32_t L_44 = V_4;
 		__this->___position_0 = L_44;
 	}
@@ -24783,7 +24783,7 @@ extern "C" TableConstructor_t3786 * Parser_ParseTableConstructor_m11281 (Parser_
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2379, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2384, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -24870,7 +24870,7 @@ IL_009e:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2380, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2385, /*hidden argument*/NULL);
 		int32_t L_36 = V_4;
 		__this->___position_0 = L_36;
 	}
@@ -24938,7 +24938,7 @@ extern "C" List_1_t3785 * Parser_ParseFieldList_m11282 (Parser_t3738 * __this, b
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2381, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2386, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -25050,7 +25050,7 @@ IL_00b7:
 
 IL_00db:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2382, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2387, /*hidden argument*/NULL);
 		int32_t L_39 = V_5;
 		__this->___position_0 = L_39;
 	}
@@ -25154,7 +25154,7 @@ extern "C" Field_t3823 * Parser_ParseField_m11283 (Parser_t3738 * __this, bool* 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2383, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2388, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -25310,7 +25310,7 @@ extern "C" KeyValue_t3825 * Parser_ParseKeyValue_m11284 (Parser_t3738 * __this, 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2384, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2389, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -25393,7 +25393,7 @@ IL_009e:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2385, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2390, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 		Dictionary_2_t3820 * L_35 = (__this->___ParsingResults_4);
@@ -25420,7 +25420,7 @@ IL_00e9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2386, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2391, /*hidden argument*/NULL);
 		int32_t L_44 = V_4;
 		__this->___position_0 = L_44;
 		Dictionary_2_t3820 * L_45 = (__this->___ParsingResults_4);
@@ -25449,7 +25449,7 @@ IL_012a:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2387, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2392, /*hidden argument*/NULL);
 		int32_t L_55 = V_4;
 		__this->___position_0 = L_55;
 		Dictionary_2_t3820 * L_56 = (__this->___ParsingResults_4);
@@ -25481,7 +25481,7 @@ IL_0172:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2388, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2393, /*hidden argument*/NULL);
 		int32_t L_68 = V_4;
 		__this->___position_0 = L_68;
 	}
@@ -25546,7 +25546,7 @@ extern "C" NameValue_t3826 * Parser_ParseNameValue_m11285 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2389, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2394, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -25629,7 +25629,7 @@ IL_00a1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2390, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2395, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 		Dictionary_2_t3820 * L_35 = (__this->___ParsingResults_4);
@@ -25661,7 +25661,7 @@ IL_00e9:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2391, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2396, /*hidden argument*/NULL);
 		int32_t L_47 = V_4;
 		__this->___position_0 = L_47;
 	}
@@ -25725,7 +25725,7 @@ extern "C" ItemValue_t3824 * Parser_ParseItemValue_m11286 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2392, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2397, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -25785,7 +25785,7 @@ IL_004f:
 
 IL_0081:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2393, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2398, /*hidden argument*/NULL);
 	}
 
 IL_008d:
@@ -25839,7 +25839,7 @@ extern "C" OperatorExpr_t3778 * Parser_ParseOperatorExpr_m11287 (Parser_t3738 * 
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2394, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2399, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -25935,7 +25935,7 @@ IL_008f:
 
 IL_00af:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2395, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2400, /*hidden argument*/NULL);
 		int32_t L_29 = V_3;
 		__this->___position_0 = L_29;
 		Dictionary_2_t3820 * L_30 = (__this->___ParsingResults_4);
@@ -26006,7 +26006,7 @@ IL_010f:
 
 IL_0133:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2396, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2401, /*hidden argument*/NULL);
 		int32_t L_50 = V_6;
 		__this->___position_0 = L_50;
 		goto IL_015d;
@@ -26085,7 +26085,7 @@ extern "C" Args_t3767 * Parser_ParseArgs_m11288 (Parser_t3738 * __this, bool* __
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2397, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2402, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -26251,7 +26251,7 @@ extern "C" List_1_t3740 * Parser_ParseArgList_m11289 (Parser_t3738 * __this, boo
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2398, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2403, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -26360,7 +26360,7 @@ IL_00ca:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2399, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2404, /*hidden argument*/NULL);
 		int32_t L_37 = V_4;
 		__this->___position_0 = L_37;
 	}
@@ -26425,7 +26425,7 @@ extern "C" ParamList_t3766 * Parser_ParseParamList_m11290 (Parser_t3738 * __this
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2400, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2405, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -26506,7 +26506,7 @@ IL_0098:
 		bool* L_25 = ___success;
 		Parser_ParseSpOpt_m11308(__this, L_25, /*hidden argument*/NULL);
 		bool* L_26 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2111, L_26, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2116, L_26, /*hidden argument*/NULL);
 		bool* L_27 = ___success;
 		if ((*((int8_t*)L_27)))
 		{
@@ -26514,7 +26514,7 @@ IL_0098:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2401, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2406, /*hidden argument*/NULL);
 		int32_t L_28 = V_4;
 		__this->___position_0 = L_28;
 	}
@@ -26565,7 +26565,7 @@ IL_0110:
 	{
 		ParamList_t3766 * L_41 = V_3;
 		bool* L_42 = ___success;
-		String_t* L_43 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2111, L_42, /*hidden argument*/NULL);
+		String_t* L_43 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2116, L_42, /*hidden argument*/NULL);
 		NullCheck(L_41);
 		L_41->___IsVarArg_2 = L_43;
 		bool* L_44 = ___success;
@@ -26631,7 +26631,7 @@ extern "C" List_1_t1 * Parser_ParseFullName_m11291 (Parser_t3738 * __this, bool*
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2402, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2407, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -26719,7 +26719,7 @@ IL_009c:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2403, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2408, /*hidden argument*/NULL);
 		int32_t L_34 = V_5;
 		__this->___position_0 = L_34;
 		goto IL_0117;
@@ -26748,7 +26748,7 @@ IL_00d5:
 
 IL_00f9:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2404, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2409, /*hidden argument*/NULL);
 		int32_t L_41 = V_5;
 		__this->___position_0 = L_41;
 	}
@@ -26828,7 +26828,7 @@ extern "C" List_1_t1 * Parser_ParseNameList_m11292 (Parser_t3738 * __this, bool*
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2405, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2410, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -26916,7 +26916,7 @@ IL_009c:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2406, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2411, /*hidden argument*/NULL);
 		int32_t L_34 = V_5;
 		__this->___position_0 = L_34;
 		goto IL_0117;
@@ -26945,7 +26945,7 @@ IL_00d5:
 
 IL_00f9:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2407, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2412, /*hidden argument*/NULL);
 		int32_t L_41 = V_5;
 		__this->___position_0 = L_41;
 	}
@@ -27030,7 +27030,7 @@ extern "C" String_t* Parser_ParseName_m11293 (Parser_t3738 * __this, bool* ___su
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral1012, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral1017, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -27153,7 +27153,7 @@ IL_00d9:
 
 IL_00f7:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2408, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2413, /*hidden argument*/NULL);
 		int32_t L_42 = V_4;
 		__this->___position_0 = L_42;
 		Dictionary_2_t3820 * L_43 = (__this->___ParsingResults_4);
@@ -27317,7 +27317,7 @@ extern "C" String_t* Parser_ParseFloatNumber_m11294 (Parser_t3738 * __this, bool
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2409, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2414, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -27436,7 +27436,7 @@ IL_00c3:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2410, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2415, /*hidden argument*/NULL);
 		int32_t L_34 = V_4;
 		__this->___position_0 = L_34;
 		Dictionary_2_t3820 * L_35 = (__this->___ParsingResults_4);
@@ -27540,7 +27540,7 @@ IL_016d:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2410, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2415, /*hidden argument*/NULL);
 		int32_t L_59 = V_7;
 		__this->___position_0 = L_59;
 	}
@@ -27693,7 +27693,7 @@ IL_0261:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2410, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2415, /*hidden argument*/NULL);
 		int32_t L_90 = V_8;
 		__this->___position_0 = L_90;
 	}
@@ -27761,7 +27761,7 @@ extern "C" String_t* Parser_ParseHexicalNumber_m11295 (Parser_t3738 * __this, bo
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2411, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2416, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -27805,7 +27805,7 @@ IL_004f:
 		int32_t L_18 = (__this->___position_0);
 		V_4 = L_18;
 		bool* L_19 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2412, L_19, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2417, L_19, /*hidden argument*/NULL);
 		bool* L_20 = ___success;
 		if ((*((int8_t*)L_20)))
 		{
@@ -27890,7 +27890,7 @@ IL_00e7:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2413, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2418, /*hidden argument*/NULL);
 		int32_t L_40 = V_4;
 		__this->___position_0 = L_40;
 	}
@@ -27965,7 +27965,7 @@ extern "C" String_t* Parser_ParseSingleQuotedText_m11296 (Parser_t3738 * __this,
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2414, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2419, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -28023,7 +28023,7 @@ IL_0061:
 IL_0079:
 	{
 		bool* L_22 = ___success;
-		uint16_t L_23 = Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2415, 1, L_22, /*hidden argument*/NULL);
+		uint16_t L_23 = Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2420, 1, L_22, /*hidden argument*/NULL);
 		V_4 = L_23;
 		bool* L_24 = ___success;
 		if (!(*((int8_t*)L_24)))
@@ -28148,7 +28148,7 @@ extern "C" String_t* Parser_ParseDoubleQuotedText_m11297 (Parser_t3738 * __this,
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2416, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2421, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -28206,7 +28206,7 @@ IL_0061:
 IL_0079:
 	{
 		bool* L_22 = ___success;
-		uint16_t L_23 = Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2417, 1, L_22, /*hidden argument*/NULL);
+		uint16_t L_23 = Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2422, 1, L_22, /*hidden argument*/NULL);
 		V_4 = L_23;
 		bool* L_24 = ___success;
 		if (!(*((int8_t*)L_24)))
@@ -28337,7 +28337,7 @@ extern "C" String_t* Parser_ParseLongString_m11298 (Parser_t3738 * __this, bool*
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2418, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2423, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -28459,7 +28459,7 @@ IL_00ba:
 
 IL_00dd:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2419, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2424, /*hidden argument*/NULL);
 		int32_t L_35 = V_5;
 		__this->___position_0 = L_35;
 	}
@@ -28591,7 +28591,7 @@ extern "C" void Parser_ParseKeyword_m11299 (Parser_t3738 * __this, bool* ___succ
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Language.Lua.Tuple`2<System.Int32,System.String>>::get_Count() */, L_0);
 		V_0 = L_1;
 		bool* L_2 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2120, L_2, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2125, L_2, /*hidden argument*/NULL);
 		bool* L_3 = ___success;
 		if (!(*((int8_t*)L_3)))
 		{
@@ -28607,7 +28607,7 @@ extern "C" void Parser_ParseKeyword_m11299 (Parser_t3738 * __this, bool* ___succ
 IL_0028:
 	{
 		bool* L_5 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2276, L_5, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2281, L_5, /*hidden argument*/NULL);
 		bool* L_6 = ___success;
 		if (!(*((int8_t*)L_6)))
 		{
@@ -28623,7 +28623,7 @@ IL_0028:
 IL_0044:
 	{
 		bool* L_8 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2278, L_8, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2283, L_8, /*hidden argument*/NULL);
 		bool* L_9 = ___success;
 		if (!(*((int8_t*)L_9)))
 		{
@@ -28639,7 +28639,7 @@ IL_0044:
 IL_0060:
 	{
 		bool* L_11 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2252, L_11, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2257, L_11, /*hidden argument*/NULL);
 		bool* L_12 = ___success;
 		if (!(*((int8_t*)L_12)))
 		{
@@ -28655,7 +28655,7 @@ IL_0060:
 IL_007c:
 	{
 		bool* L_14 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2251, L_14, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2256, L_14, /*hidden argument*/NULL);
 		bool* L_15 = ___success;
 		if (!(*((int8_t*)L_15)))
 		{
@@ -28671,7 +28671,7 @@ IL_007c:
 IL_0098:
 	{
 		bool* L_17 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2161, L_17, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2166, L_17, /*hidden argument*/NULL);
 		bool* L_18 = ___success;
 		if (!(*((int8_t*)L_18)))
 		{
@@ -28687,7 +28687,7 @@ IL_0098:
 IL_00b4:
 	{
 		bool* L_20 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1126, L_20, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1131, L_20, /*hidden argument*/NULL);
 		bool* L_21 = ___success;
 		if (!(*((int8_t*)L_21)))
 		{
@@ -28703,7 +28703,7 @@ IL_00b4:
 IL_00d0:
 	{
 		bool* L_23 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2297, L_23, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2302, L_23, /*hidden argument*/NULL);
 		bool* L_24 = ___success;
 		if (!(*((int8_t*)L_24)))
 		{
@@ -28719,7 +28719,7 @@ IL_00d0:
 IL_00ec:
 	{
 		bool* L_26 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2242, L_26, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2247, L_26, /*hidden argument*/NULL);
 		bool* L_27 = ___success;
 		if (!(*((int8_t*)L_27)))
 		{
@@ -28735,7 +28735,7 @@ IL_00ec:
 IL_0108:
 	{
 		bool* L_29 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2283, L_29, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2288, L_29, /*hidden argument*/NULL);
 		bool* L_30 = ___success;
 		if (!(*((int8_t*)L_30)))
 		{
@@ -28751,7 +28751,7 @@ IL_0108:
 IL_0124:
 	{
 		bool* L_32 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1323, L_32, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1328, L_32, /*hidden argument*/NULL);
 		bool* L_33 = ___success;
 		if (!(*((int8_t*)L_33)))
 		{
@@ -28767,7 +28767,7 @@ IL_0124:
 IL_0140:
 	{
 		bool* L_35 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2262, L_35, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2267, L_35, /*hidden argument*/NULL);
 		bool* L_36 = ___success;
 		if (!(*((int8_t*)L_36)))
 		{
@@ -28783,7 +28783,7 @@ IL_0140:
 IL_015c:
 	{
 		bool* L_38 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1363, L_38, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1368, L_38, /*hidden argument*/NULL);
 		bool* L_39 = ___success;
 		if (!(*((int8_t*)L_39)))
 		{
@@ -28799,7 +28799,7 @@ IL_015c:
 IL_0178:
 	{
 		bool* L_41 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2115, L_41, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2120, L_41, /*hidden argument*/NULL);
 		bool* L_42 = ___success;
 		if (!(*((int8_t*)L_42)))
 		{
@@ -28815,7 +28815,7 @@ IL_0178:
 IL_0194:
 	{
 		bool* L_44 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2121, L_44, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2126, L_44, /*hidden argument*/NULL);
 		bool* L_45 = ___success;
 		if (!(*((int8_t*)L_45)))
 		{
@@ -28831,7 +28831,7 @@ IL_0194:
 IL_01b0:
 	{
 		bool* L_47 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2324, L_47, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2329, L_47, /*hidden argument*/NULL);
 		bool* L_48 = ___success;
 		if (!(*((int8_t*)L_48)))
 		{
@@ -28847,7 +28847,7 @@ IL_01b0:
 IL_01cc:
 	{
 		bool* L_50 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1449, L_50, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1454, L_50, /*hidden argument*/NULL);
 		bool* L_51 = ___success;
 		if (!(*((int8_t*)L_51)))
 		{
@@ -28863,7 +28863,7 @@ IL_01cc:
 IL_01e8:
 	{
 		bool* L_53 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2286, L_53, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2291, L_53, /*hidden argument*/NULL);
 		bool* L_54 = ___success;
 		if (!(*((int8_t*)L_54)))
 		{
@@ -28879,7 +28879,7 @@ IL_01e8:
 IL_0204:
 	{
 		bool* L_56 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1330, L_56, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1335, L_56, /*hidden argument*/NULL);
 		bool* L_57 = ___success;
 		if (!(*((int8_t*)L_57)))
 		{
@@ -28895,7 +28895,7 @@ IL_0204:
 IL_0220:
 	{
 		bool* L_59 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2327, L_59, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2332, L_59, /*hidden argument*/NULL);
 		bool* L_60 = ___success;
 		if (!(*((int8_t*)L_60)))
 		{
@@ -28911,7 +28911,7 @@ IL_0220:
 IL_023c:
 	{
 		bool* L_62 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2317, L_62, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2322, L_62, /*hidden argument*/NULL);
 		bool* L_63 = ___success;
 		if (!(*((int8_t*)L_63)))
 		{
@@ -28956,7 +28956,7 @@ extern "C" uint16_t Parser_ParseDigit_m11300 (Parser_t3738 * __this, bool* ___su
 
 IL_002b:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2420, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2425, /*hidden argument*/NULL);
 	}
 
 IL_0037:
@@ -28976,7 +28976,7 @@ extern "C" uint16_t Parser_ParseHexDigit_m11301 (Parser_t3738 * __this, bool* __
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Language.Lua.Tuple`2<System.Int32,System.String>>::get_Count() */, L_0);
 		V_0 = L_1;
 		bool* L_2 = ___success;
-		uint16_t L_3 = Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2421, 0, L_2, /*hidden argument*/NULL);
+		uint16_t L_3 = Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2426, 0, L_2, /*hidden argument*/NULL);
 		V_1 = L_3;
 		bool* L_4 = ___success;
 		if (!(*((int8_t*)L_4)))
@@ -28992,7 +28992,7 @@ extern "C" uint16_t Parser_ParseHexDigit_m11301 (Parser_t3738 * __this, bool* __
 
 IL_002d:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2422, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2427, /*hidden argument*/NULL);
 	}
 
 IL_0039:
@@ -29105,7 +29105,7 @@ extern "C" String_t* Parser_ParseUnaryOperator_m11303 (Parser_t3738 * __this, bo
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2423, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2428, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -29217,7 +29217,7 @@ IL_00a9:
 IL_00f1:
 	{
 		bool* L_48 = ___success;
-		String_t* L_49 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2115, L_48, /*hidden argument*/NULL);
+		String_t* L_49 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2120, L_48, /*hidden argument*/NULL);
 		V_5 = L_49;
 		bool* L_50 = ___success;
 		if (!(*((int8_t*)L_50)))
@@ -29292,7 +29292,7 @@ extern "C" String_t* Parser_ParseBinaryOperator_m11304 (Parser_t3738 * __this, b
 	{
 		int32_t L_0 = (__this->___position_0);
 		Tuple_2_t3841 * L_1 = (Tuple_2_t3841 *)il2cpp_codegen_object_new (Tuple_2_t3841_il2cpp_TypeInfo_var);
-		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2424, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
+		Tuple_2__ctor_m11427(L_1, L_0, (String_t*) &_stringLiteral2429, /*hidden argument*/Tuple_2__ctor_m11427_MethodInfo_var);
 		V_0 = L_1;
 		Dictionary_2_t3820 * L_2 = (__this->___ParsingResults_4);
 		Tuple_2_t3841 * L_3 = V_0;
@@ -29544,7 +29544,7 @@ IL_01c9:
 IL_0211:
 	{
 		bool* L_108 = ___success;
-		String_t* L_109 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2119, L_108, /*hidden argument*/NULL);
+		String_t* L_109 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2124, L_108, /*hidden argument*/NULL);
 		V_5 = L_109;
 		bool* L_110 = ___success;
 		if (!(*((int8_t*)L_110)))
@@ -29579,7 +29579,7 @@ IL_0211:
 IL_025c:
 	{
 		bool* L_123 = ___success;
-		String_t* L_124 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2117, L_123, /*hidden argument*/NULL);
+		String_t* L_124 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2122, L_123, /*hidden argument*/NULL);
 		V_5 = L_124;
 		bool* L_125 = ___success;
 		if (!(*((int8_t*)L_125)))
@@ -29614,7 +29614,7 @@ IL_025c:
 IL_02a7:
 	{
 		bool* L_138 = ___success;
-		String_t* L_139 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2118, L_138, /*hidden argument*/NULL);
+		String_t* L_139 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2123, L_138, /*hidden argument*/NULL);
 		V_5 = L_139;
 		bool* L_140 = ___success;
 		if (!(*((int8_t*)L_140)))
@@ -29649,7 +29649,7 @@ IL_02a7:
 IL_02f2:
 	{
 		bool* L_153 = ___success;
-		String_t* L_154 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2031, L_153, /*hidden argument*/NULL);
+		String_t* L_154 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2036, L_153, /*hidden argument*/NULL);
 		V_5 = L_154;
 		bool* L_155 = ___success;
 		if (!(*((int8_t*)L_155)))
@@ -29684,7 +29684,7 @@ IL_02f2:
 IL_033d:
 	{
 		bool* L_168 = ___success;
-		String_t* L_169 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2028, L_168, /*hidden argument*/NULL);
+		String_t* L_169 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2033, L_168, /*hidden argument*/NULL);
 		V_5 = L_169;
 		bool* L_170 = ___success;
 		if (!(*((int8_t*)L_170)))
@@ -29789,7 +29789,7 @@ IL_03d0:
 IL_0418:
 	{
 		bool* L_213 = ___success;
-		String_t* L_214 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2120, L_213, /*hidden argument*/NULL);
+		String_t* L_214 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2125, L_213, /*hidden argument*/NULL);
 		V_5 = L_214;
 		bool* L_215 = ___success;
 		if (!(*((int8_t*)L_215)))
@@ -29824,7 +29824,7 @@ IL_0418:
 IL_0463:
 	{
 		bool* L_228 = ___success;
-		String_t* L_229 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2121, L_228, /*hidden argument*/NULL);
+		String_t* L_229 = Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2126, L_228, /*hidden argument*/NULL);
 		V_5 = L_229;
 		bool* L_230 = ___success;
 		if (!(*((int8_t*)L_230)))
@@ -29874,7 +29874,7 @@ extern "C" void Parser_ParseWordSep_m11305 (Parser_t3738 * __this, bool* ___succ
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Language.Lua.Tuple`2<System.Int32,System.String>>::get_Count() */, L_0);
 		V_0 = L_1;
 		bool* L_2 = ___success;
-		Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2425, 0, L_2, /*hidden argument*/NULL);
+		Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2430, 0, L_2, /*hidden argument*/NULL);
 		bool* L_3 = ___success;
 		if (!(*((int8_t*)L_3)))
 		{
@@ -29889,7 +29889,7 @@ extern "C" void Parser_ParseWordSep_m11305 (Parser_t3738 * __this, bool* ___succ
 
 IL_002d:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2426, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2431, /*hidden argument*/NULL);
 	}
 
 IL_0039:
@@ -29979,7 +29979,7 @@ IL_000e:
 IL_0026:
 	{
 		bool* L_6 = ___success;
-		Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2427, 0, L_6, /*hidden argument*/NULL);
+		Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2432, 0, L_6, /*hidden argument*/NULL);
 		bool* L_7 = ___success;
 		if (!(*((int8_t*)L_7)))
 		{
@@ -30079,7 +30079,7 @@ IL_00a5:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2428, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2433, /*hidden argument*/NULL);
 		int32_t L_24 = V_2;
 		__this->___position_0 = L_24;
 	}
@@ -30144,7 +30144,7 @@ IL_000c:
 IL_0024:
 	{
 		bool* L_6 = ___success;
-		Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2427, 0, L_6, /*hidden argument*/NULL);
+		Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2432, 0, L_6, /*hidden argument*/NULL);
 		bool* L_7 = ___success;
 		if (!(*((int8_t*)L_7)))
 		{
@@ -30230,7 +30230,7 @@ extern "C" void Parser_ParseComment_m11309 (Parser_t3738 * __this, bool* ___succ
 		int32_t L_2 = (__this->___position_0);
 		V_1 = L_2;
 		bool* L_3 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2429, L_3, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2434, L_3, /*hidden argument*/NULL);
 		bool* L_4 = ___success;
 		if ((*((int8_t*)L_4)))
 		{
@@ -30280,7 +30280,7 @@ IL_0062:
 IL_0069:
 	{
 		bool* L_14 = ___success;
-		Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2430, 1, L_14, /*hidden argument*/NULL);
+		Parser_MatchTerminalSet_m11320(__this, (String_t*) &_stringLiteral2435, 1, L_14, /*hidden argument*/NULL);
 		bool* L_15 = ___success;
 		if ((*((int8_t*)L_15)))
 		{
@@ -30361,7 +30361,7 @@ IL_00e1:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2431, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2436, /*hidden argument*/NULL);
 		int32_t L_30 = V_2;
 		__this->___position_0 = L_30;
 	}
@@ -30405,7 +30405,7 @@ IL_012e:
 		}
 	}
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2432, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2437, /*hidden argument*/NULL);
 		int32_t L_36 = V_1;
 		__this->___position_0 = L_36;
 	}
@@ -30438,7 +30438,7 @@ extern "C" void Parser_ParseEol_m11310 (Parser_t3738 * __this, bool* ___success,
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<Language.Lua.Tuple`2<System.Int32,System.String>>::get_Count() */, L_0);
 		V_0 = L_1;
 		bool* L_2 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2430, L_2, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2435, L_2, /*hidden argument*/NULL);
 		bool* L_3 = ___success;
 		if (!(*((int8_t*)L_3)))
 		{
@@ -30524,7 +30524,7 @@ extern "C" void Parser_ParseEof_m11311 (Parser_t3738 * __this, bool* ___success,
 
 IL_0035:
 	{
-		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2433, /*hidden argument*/NULL);
+		Parser_Error_m11323(__this, (String_t*) &_stringLiteral2438, /*hidden argument*/NULL);
 	}
 
 IL_0041:
@@ -30539,7 +30539,7 @@ extern "C" uint16_t Parser_ParseEscapeChar_m11312 (Parser_t3738 * __this, bool* 
 	{
 		V_0 = 0;
 		bool* L_0 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1474, L_0, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1479, L_0, /*hidden argument*/NULL);
 		bool* L_1 = ___success;
 		if (!(*((int8_t*)L_1)))
 		{
@@ -30553,7 +30553,7 @@ extern "C" uint16_t Parser_ParseEscapeChar_m11312 (Parser_t3738 * __this, bool* 
 IL_0019:
 	{
 		bool* L_2 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2434, L_2, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2439, L_2, /*hidden argument*/NULL);
 		bool* L_3 = ___success;
 		if (!(*((int8_t*)L_3)))
 		{
@@ -30567,7 +30567,7 @@ IL_0019:
 IL_0030:
 	{
 		bool* L_4 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1149, L_4, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1154, L_4, /*hidden argument*/NULL);
 		bool* L_5 = ___success;
 		if (!(*((int8_t*)L_5)))
 		{
@@ -30581,7 +30581,7 @@ IL_0030:
 IL_0047:
 	{
 		bool* L_6 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1477, L_6, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1482, L_6, /*hidden argument*/NULL);
 		bool* L_7 = ___success;
 		if (!(*((int8_t*)L_7)))
 		{
@@ -30595,7 +30595,7 @@ IL_0047:
 IL_005e:
 	{
 		bool* L_8 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1150, L_8, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1155, L_8, /*hidden argument*/NULL);
 		bool* L_9 = ___success;
 		if (!(*((int8_t*)L_9)))
 		{
@@ -30609,7 +30609,7 @@ IL_005e:
 IL_0075:
 	{
 		bool* L_10 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1478, L_10, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1483, L_10, /*hidden argument*/NULL);
 		bool* L_11 = ___success;
 		if (!(*((int8_t*)L_11)))
 		{
@@ -30623,7 +30623,7 @@ IL_0075:
 IL_008c:
 	{
 		bool* L_12 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2435, L_12, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2440, L_12, /*hidden argument*/NULL);
 		bool* L_13 = ___success;
 		if (!(*((int8_t*)L_13)))
 		{
@@ -30637,7 +30637,7 @@ IL_008c:
 IL_00a3:
 	{
 		bool* L_14 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2436, L_14, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2441, L_14, /*hidden argument*/NULL);
 		bool* L_15 = ___success;
 		if (!(*((int8_t*)L_15)))
 		{
@@ -30651,7 +30651,7 @@ IL_00a3:
 IL_00b9:
 	{
 		bool* L_16 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1475, L_16, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1480, L_16, /*hidden argument*/NULL);
 		bool* L_17 = ___success;
 		if (!(*((int8_t*)L_17)))
 		{
@@ -30665,7 +30665,7 @@ IL_00b9:
 IL_00cf:
 	{
 		bool* L_18 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1476, L_18, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral1481, L_18, /*hidden argument*/NULL);
 		bool* L_19 = ___success;
 		if (!(*((int8_t*)L_19)))
 		{
@@ -30679,7 +30679,7 @@ IL_00cf:
 IL_00e6:
 	{
 		bool* L_20 = ___success;
-		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2437, L_20, /*hidden argument*/NULL);
+		Parser_MatchTerminalString_m11321(__this, (String_t*) &_stringLiteral2442, L_20, /*hidden argument*/NULL);
 		bool* L_21 = ___success;
 		if (!(*((int8_t*)L_21)))
 		{
@@ -31518,7 +31518,7 @@ IL_0038:
 		ArrayElementTypeCheck (L_18, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 3)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral2438, L_18, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral2443, L_18, /*hidden argument*/NULL);
 		return L_20;
 	}
 }

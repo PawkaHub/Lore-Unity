@@ -182,12 +182,12 @@ extern "C" void Subtitle_CheckVariableInputPrompt_m6422 (Subtitle_t623 * __this,
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_5 = String_IsNullOrEmpty_m96(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		G_B3_0 = L_3;
-		G_B3_1 = (String_t*) &_stringLiteral1178;
+		G_B3_1 = (String_t*) &_stringLiteral1183;
 		G_B3_2 = __this;
 		if (!L_5)
 		{
 			G_B4_0 = L_3;
-			G_B4_1 = (String_t*) &_stringLiteral1178;
+			G_B4_1 = (String_t*) &_stringLiteral1183;
 			G_B4_2 = __this;
 			goto IL_0041;
 		}
@@ -204,7 +204,7 @@ extern "C" void Subtitle_CheckVariableInputPrompt_m6422 (Subtitle_t623 * __this,
 
 IL_0041:
 	{
-		G_B5_0 = (String_t*) &_stringLiteral1179;
+		G_B5_0 = (String_t*) &_stringLiteral1184;
 		G_B5_1 = G_B4_0;
 		G_B5_2 = G_B4_1;
 		G_B5_3 = G_B4_2;
@@ -1020,7 +1020,7 @@ extern "C" void ConversationView_StartSubtitle_m6454 (ConversationView_t1366 * _
 		ArrayElementTypeCheck (L_8, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 2)) = (Object_t *)L_11;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1180, L_8, /*hidden argument*/NULL);
+		String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1185, L_8, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 	}
 
@@ -1729,7 +1729,7 @@ extern "C" void ConversationView_OnCancelSubtitle_m6462 (ConversationView_t1366 
 {
 	{
 		Subtitle_t623 * L_0 = (__this->___lastNPCSubtitle_5);
-		Component_BroadcastMessage_m7573(__this, (String_t*) &_stringLiteral1181, L_0, 1, /*hidden argument*/NULL);
+		Component_BroadcastMessage_m7573(__this, (String_t*) &_stringLiteral1186, L_0, 1, /*hidden argument*/NULL);
 		__this->___waitForContinue_11 = 0;
 		ConversationView_FinishSubtitle_m6463(__this, /*hidden argument*/NULL);
 		return;
@@ -2007,7 +2007,7 @@ extern "C" void ConversationView_OnCancelResponseMenu_m6468 (ConversationView_t1
 		Sequencer_t675 * L_0 = (__this->___sequencer_3);
 		NullCheck(L_0);
 		Transform_t54 * L_1 = Sequencer_get_Speaker_m6510(L_0, /*hidden argument*/NULL);
-		Component_BroadcastMessage_m7573(__this, (String_t*) &_stringLiteral1182, L_1, 1, /*hidden argument*/NULL);
+		Component_BroadcastMessage_m7573(__this, (String_t*) &_stringLiteral1187, L_1, 1, /*hidden argument*/NULL);
 		SelectedResponseEventArgs_t1460 * L_2 = (SelectedResponseEventArgs_t1460 *)il2cpp_codegen_object_new (SelectedResponseEventArgs_t1460_il2cpp_TypeInfo_var);
 		SelectedResponseEventArgs__ctor_m6479(L_2, (Response_t235 *)NULL, /*hidden argument*/NULL);
 		ConversationView_SelectResponse_m6470(__this, L_2, /*hidden argument*/NULL);
@@ -2128,7 +2128,7 @@ IL_0027:
 		ArrayElementTypeCheck (L_14, L_17);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_14, 0)) = (Object_t *)L_17;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_18 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1183, L_14, /*hidden argument*/NULL);
+		String_t* L_18 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1188, L_14, /*hidden argument*/NULL);
 		return L_18;
 	}
 
@@ -2141,7 +2141,7 @@ IL_006d:
 		String_t* L_21 = (L_20->___defaultSequence_3);
 		String_t* L_22 = Single_ToString_m7650((&V_0), /*hidden argument*/NULL);
 		NullCheck(L_21);
-		String_t* L_23 = String_Replace_m3757(L_21, (String_t*) &_stringLiteral1184, L_22, /*hidden argument*/NULL);
+		String_t* L_23 = String_Replace_m3757(L_21, (String_t*) &_stringLiteral1189, L_22, /*hidden argument*/NULL);
 		return L_23;
 	}
 }
@@ -2244,7 +2244,7 @@ IL_001c:
 		NullCheck(L_5);
 		String_t* L_6 = (L_5->___sequence_3);
 		NullCheck(L_6);
-		bool L_7 = String_Contains_m2713(L_6, (String_t*) &_stringLiteral1184, /*hidden argument*/NULL);
+		bool L_7 = String_Contains_m2713(L_6, (String_t*) &_stringLiteral1189, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_0038;
@@ -2271,7 +2271,7 @@ IL_0038:
 		String_t* L_15 = (L_14->___sequence_3);
 		String_t* L_16 = Single_ToString_m7650((&V_0), /*hidden argument*/NULL);
 		NullCheck(L_15);
-		String_t* L_17 = String_Replace_m3757(L_15, (String_t*) &_stringLiteral1184, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Replace_m3757(L_15, (String_t*) &_stringLiteral1189, L_16, /*hidden argument*/NULL);
 		return L_17;
 	}
 }
@@ -2358,7 +2358,7 @@ IL_004a:
 		Transform_t54 * L_19 = (L_18->___transform_3);
 		Subtitle_t623 * L_20 = ___subtitle;
 		NullCheck(L_19);
-		Component_BroadcastMessage_m7573(L_19, (String_t*) &_stringLiteral1185, L_20, 1, /*hidden argument*/NULL);
+		Component_BroadcastMessage_m7573(L_19, (String_t*) &_stringLiteral1190, L_20, 1, /*hidden argument*/NULL);
 	}
 
 IL_0068:
@@ -2384,7 +2384,7 @@ IL_0068:
 		Transform_t54 * L_25 = (L_24->___transform_3);
 		Subtitle_t623 * L_26 = ___subtitle;
 		NullCheck(L_25);
-		Component_BroadcastMessage_m7573(L_25, (String_t*) &_stringLiteral1185, L_26, 1, /*hidden argument*/NULL);
+		Component_BroadcastMessage_m7573(L_25, (String_t*) &_stringLiteral1190, L_26, 1, /*hidden argument*/NULL);
 	}
 
 IL_008b:
@@ -2393,7 +2393,7 @@ IL_008b:
 		DialogueSystemController_t688 * L_27 = DialogueManager_get_Instance_m2967(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Subtitle_t623 * L_28 = ___subtitle;
 		NullCheck(L_27);
-		Component_BroadcastMessage_m7573(L_27, (String_t*) &_stringLiteral1185, L_28, 1, /*hidden argument*/NULL);
+		Component_BroadcastMessage_m7573(L_27, (String_t*) &_stringLiteral1190, L_28, 1, /*hidden argument*/NULL);
 	}
 
 IL_009c:
@@ -2423,7 +2423,7 @@ extern "C" void ConversationView_NotifyOnResponseMenu_m6475 (ConversationView_t1
 		DialogueSystemController_t688 * L_1 = DialogueManager_get_Instance_m2967(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ResponseU5BU5D_t624* L_2 = ___responses;
 		NullCheck(L_1);
-		Component_BroadcastMessage_m7573(L_1, (String_t*) &_stringLiteral1186, (Object_t *)(Object_t *)L_2, 1, /*hidden argument*/NULL);
+		Component_BroadcastMessage_m7573(L_1, (String_t*) &_stringLiteral1191, (Object_t *)(Object_t *)L_2, 1, /*hidden argument*/NULL);
 	}
 
 IL_0017:
@@ -3372,7 +3372,7 @@ extern "C" void Sequencer_Message_m2925 (Object_t * __this /* static, unused */,
 		DialogueSystemController_t688 * L_0 = DialogueManager_get_Instance_m2967(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_1 = ___message;
 		NullCheck(L_0);
-		Component_SendMessage_m2993(L_0, (String_t*) &_stringLiteral1187, L_1, 1, /*hidden argument*/NULL);
+		Component_SendMessage_m2993(L_0, (String_t*) &_stringLiteral1192, L_1, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3425,7 +3425,7 @@ extern "C" void Sequencer_GetCameraAngles_m6518 (Sequencer_t675 * __this, const 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_t665_il2cpp_TypeInfo_var);
-		Object_t642 * L_2 = DialogueManager_LoadAsset_m5803(NULL /*static, unused*/, (String_t*) &_stringLiteral1188, /*hidden argument*/NULL);
+		Object_t642 * L_2 = DialogueManager_LoadAsset_m5803(NULL /*static, unused*/, (String_t*) &_stringLiteral1193, /*hidden argument*/NULL);
 		__this->___cameraAngles_19 = ((GameObject_t49 *)IsInst(L_2, GameObject_t49_il2cpp_TypeInfo_var));
 	}
 
@@ -3589,7 +3589,7 @@ IL_00f7:
 		ArrayElementTypeCheck (L_37, L_38);
 		*((Type_t **)(Type_t **)SZArrayLdElema(L_37, 2)) = (Type_t *)L_38;
 		GameObject_t49 * L_39 = (GameObject_t49 *)il2cpp_codegen_object_new (GameObject_t49_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2709(L_39, (String_t*) &_stringLiteral1189, L_37, /*hidden argument*/NULL);
+		GameObject__ctor_m2709(L_39, (String_t*) &_stringLiteral1194, L_37, /*hidden argument*/NULL);
 		V_2 = L_39;
 		GameObject_t49 * L_40 = V_2;
 		NullCheck(L_40);
@@ -3618,7 +3618,7 @@ IL_0153:
 	{
 		Camera_t384 * L_46 = (__this->___sequencerCamera_17);
 		NullCheck(L_46);
-		Component_set_tag_m7734(L_46, (String_t*) &_stringLiteral1190, /*hidden argument*/NULL);
+		Component_set_tag_m7734(L_46, (String_t*) &_stringLiteral1195, /*hidden argument*/NULL);
 		__this->___isUsingMainCamera_20 = 1;
 	}
 
@@ -4004,7 +4004,7 @@ IL_001d:
 		}
 	}
 	{
-		Sequencer_InformParticipants_m6531(__this, (String_t*) &_stringLiteral1191, /*hidden argument*/NULL);
+		Sequencer_InformParticipants_m6531(__this, (String_t*) &_stringLiteral1196, /*hidden argument*/NULL);
 	}
 
 IL_0033:
@@ -4144,7 +4144,7 @@ IL_0013:
 	{
 		String_t* L_4 = ___sequence;
 		NullCheck(L_4);
-		bool L_5 = String_Contains_m2713(L_4, (String_t*) &_stringLiteral1192, /*hidden argument*/NULL);
+		bool L_5 = String_Contains_m2713(L_4, (String_t*) &_stringLiteral1197, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0046;
@@ -4154,7 +4154,7 @@ IL_0013:
 		String_t* L_6 = ___sequence;
 		String_t* L_7 = Sequencer_get_entrytag_m6514(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		String_t* L_8 = String_Replace_m3757(L_6, (String_t*) &_stringLiteral1192, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = String_Replace_m3757(L_6, (String_t*) &_stringLiteral1197, L_7, /*hidden argument*/NULL);
 		___sequence = L_8;
 	}
 
@@ -4162,7 +4162,7 @@ IL_0046:
 	{
 		String_t* L_9 = ___sequence;
 		IL2CPP_RUNTIME_CLASS_INIT(Regex_t789_il2cpp_TypeInfo_var);
-		StringU5BU5D_t20* L_10 = Regex_Split_m7738(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral1193, /*hidden argument*/NULL);
+		StringU5BU5D_t20* L_10 = Regex_Split_m7738(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral1198, /*hidden argument*/NULL);
 		V_0 = L_10;
 		StringU5BU5D_t20* L_11 = V_0;
 		V_2 = L_11;
@@ -4181,7 +4181,7 @@ IL_005b:
 		V_4 = (String_t*)NULL;
 		String_t* L_15 = V_1;
 		NullCheck(L_15);
-		bool L_16 = String_Contains_m2713(L_15, (String_t*) &_stringLiteral1194, /*hidden argument*/NULL);
+		bool L_16 = String_Contains_m2713(L_15, (String_t*) &_stringLiteral1199, /*hidden argument*/NULL);
 		if (!L_16)
 		{
 			goto IL_00b4;
@@ -4191,18 +4191,18 @@ IL_005b:
 		String_t* L_17 = V_1;
 		String_t* L_18 = V_1;
 		NullCheck(L_18);
-		int32_t L_19 = String_IndexOf_m7739(L_18, (String_t*) &_stringLiteral1194, /*hidden argument*/NULL);
+		int32_t L_19 = String_IndexOf_m7739(L_18, (String_t*) &_stringLiteral1199, /*hidden argument*/NULL);
 		NullCheck(L_17);
 		String_t* L_20 = String_Substring_m3694(L_17, L_19, /*hidden argument*/NULL);
 		V_5 = L_20;
 		String_t* L_21 = V_5;
-		NullCheck((String_t*) &_stringLiteral1194);
-		int32_t L_22 = String_get_Length_m3041((String_t*) &_stringLiteral1194, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral1199);
+		int32_t L_22 = String_get_Length_m3041((String_t*) &_stringLiteral1199, /*hidden argument*/NULL);
 		String_t* L_23 = V_5;
 		NullCheck(L_23);
 		int32_t L_24 = String_get_Length_m3041(L_23, /*hidden argument*/NULL);
-		NullCheck((String_t*) &_stringLiteral1194);
-		int32_t L_25 = String_get_Length_m3041((String_t*) &_stringLiteral1194, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral1199);
+		int32_t L_25 = String_get_Length_m3041((String_t*) &_stringLiteral1199, /*hidden argument*/NULL);
 		NullCheck(L_21);
 		String_t* L_26 = String_Substring_m3044(L_21, L_22, ((int32_t)((int32_t)L_24-(int32_t)((int32_t)((int32_t)L_25+(int32_t)1)))), /*hidden argument*/NULL);
 		V_4 = L_26;
@@ -4215,7 +4215,7 @@ IL_00b4:
 	{
 		String_t* L_28 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Regex_t789_il2cpp_TypeInfo_var);
-		StringU5BU5D_t20* L_29 = Regex_Split_m7738(NULL /*static, unused*/, L_28, (String_t*) &_stringLiteral1195, /*hidden argument*/NULL);
+		StringU5BU5D_t20* L_29 = Regex_Split_m7738(NULL /*static, unused*/, L_28, (String_t*) &_stringLiteral1200, /*hidden argument*/NULL);
 		V_6 = L_29;
 		StringU5BU5D_t20* L_30 = V_6;
 		NullCheck(L_30);
@@ -4262,7 +4262,7 @@ IL_00e1:
 		ArrayElementTypeCheck (L_37, L_38);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 1)) = (Object_t *)L_38;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1196, L_37, /*hidden argument*/NULL);
+		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1201, L_37, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 	}
 
@@ -4278,7 +4278,7 @@ IL_0111:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_40, 0);
 		int32_t L_41 = 0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_42 = String_Compare_m7536(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_40, L_41)), (String_t*) &_stringLiteral1197, 5, /*hidden argument*/NULL);
+		int32_t L_42 = String_Compare_m7536(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_40, L_41)), (String_t*) &_stringLiteral1202, 5, /*hidden argument*/NULL);
 		V_8 = ((((int32_t)L_42) == ((int32_t)0))? 1 : 0);
 		StringU5BU5D_t20* L_43 = V_7;
 		StringU5BU5D_t20* L_44 = V_7;
@@ -4302,7 +4302,7 @@ IL_0111:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_48, 1);
 		int32_t L_49 = 1;
 		IL2CPP_RUNTIME_CLASS_INIT(Regex_t789_il2cpp_TypeInfo_var);
-		StringU5BU5D_t20* L_50 = Regex_Split_m7738(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_48, L_49)), (String_t*) &_stringLiteral1198, /*hidden argument*/NULL);
+		StringU5BU5D_t20* L_50 = Regex_Split_m7738(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_48, L_49)), (String_t*) &_stringLiteral1203, /*hidden argument*/NULL);
 		G_B16_0 = L_50;
 		goto IL_0153;
 	}
@@ -4332,7 +4332,7 @@ IL_0153:
 		NullCheck((*(String_t**)(String_t**)SZArrayLdElema(L_52, L_53)));
 		String_t* L_54 = String_Trim_m2889((*(String_t**)(String_t**)SZArrayLdElema(L_52, L_53)), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_55 = String_Equals_m7740(NULL /*static, unused*/, L_54, (String_t*) &_stringLiteral1199, 5, /*hidden argument*/NULL);
+		bool L_55 = String_Equals_m7740(NULL /*static, unused*/, L_54, (String_t*) &_stringLiteral1204, 5, /*hidden argument*/NULL);
 		if (!L_55)
 		{
 			goto IL_01ee;
@@ -4400,7 +4400,7 @@ IL_01b9:
 		ArrayElementTypeCheck (L_64, L_65);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_64, 1)) = (Object_t *)L_65;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_66 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1200, L_64, /*hidden argument*/NULL);
+		String_t* L_66 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1205, L_64, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_66, /*hidden argument*/NULL);
 	}
 
@@ -4469,7 +4469,7 @@ extern "C" void Sequencer_PlaySequence_m6533 (Sequencer_t675 * __this, String_t*
 		}
 	}
 	{
-		Sequencer_InformParticipants_m6531(__this, (String_t*) &_stringLiteral1201, /*hidden argument*/NULL);
+		Sequencer_InformParticipants_m6531(__this, (String_t*) &_stringLiteral1206, /*hidden argument*/NULL);
 	}
 
 IL_001f:
@@ -4609,18 +4609,18 @@ extern "C" void Sequencer_PlayCommand_m6535 (Sequencer_t675 * __this, String_t* 
 		G_B5_0 = 1;
 		G_B5_1 = L_7;
 		G_B5_2 = L_7;
-		G_B5_3 = (String_t*) &_stringLiteral1202;
+		G_B5_3 = (String_t*) &_stringLiteral1207;
 		if (!L_8)
 		{
 			G_B6_0 = 1;
 			G_B6_1 = L_7;
 			G_B6_2 = L_7;
-			G_B6_3 = (String_t*) &_stringLiteral1202;
+			G_B6_3 = (String_t*) &_stringLiteral1207;
 			goto IL_004e;
 		}
 	}
 	{
-		G_B7_0 = (String_t*) &_stringLiteral1203;
+		G_B7_0 = (String_t*) &_stringLiteral1208;
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
 		G_B7_3 = G_B5_2;
@@ -4693,18 +4693,18 @@ IL_007f:
 		G_B10_0 = 1;
 		G_B10_1 = L_23;
 		G_B10_2 = L_23;
-		G_B10_3 = (String_t*) &_stringLiteral1204;
+		G_B10_3 = (String_t*) &_stringLiteral1209;
 		if (!L_24)
 		{
 			G_B11_0 = 1;
 			G_B11_1 = L_23;
 			G_B11_2 = L_23;
-			G_B11_3 = (String_t*) &_stringLiteral1204;
+			G_B11_3 = (String_t*) &_stringLiteral1209;
 			goto IL_00b0;
 		}
 	}
 	{
-		G_B12_0 = (String_t*) &_stringLiteral1203;
+		G_B12_0 = (String_t*) &_stringLiteral1208;
 		G_B12_1 = G_B10_0;
 		G_B12_2 = G_B10_1;
 		G_B12_3 = G_B10_2;
@@ -4775,18 +4775,18 @@ IL_00dd:
 		G_B15_0 = 1;
 		G_B15_1 = L_37;
 		G_B15_2 = L_37;
-		G_B15_3 = (String_t*) &_stringLiteral1205;
+		G_B15_3 = (String_t*) &_stringLiteral1210;
 		if (!L_38)
 		{
 			G_B16_0 = 1;
 			G_B16_1 = L_37;
 			G_B16_2 = L_37;
-			G_B16_3 = (String_t*) &_stringLiteral1205;
+			G_B16_3 = (String_t*) &_stringLiteral1210;
 			goto IL_010e;
 		}
 	}
 	{
-		G_B17_0 = (String_t*) &_stringLiteral1203;
+		G_B17_0 = (String_t*) &_stringLiteral1208;
 		G_B17_1 = G_B15_0;
 		G_B17_2 = G_B15_1;
 		G_B17_3 = G_B15_2;
@@ -4848,18 +4848,18 @@ IL_013b:
 		G_B19_0 = 1;
 		G_B19_1 = L_49;
 		G_B19_2 = L_49;
-		G_B19_3 = (String_t*) &_stringLiteral1206;
+		G_B19_3 = (String_t*) &_stringLiteral1211;
 		if (!L_50)
 		{
 			G_B20_0 = 1;
 			G_B20_1 = L_49;
 			G_B20_2 = L_49;
-			G_B20_3 = (String_t*) &_stringLiteral1206;
+			G_B20_3 = (String_t*) &_stringLiteral1211;
 			goto IL_0160;
 		}
 	}
 	{
-		G_B21_0 = (String_t*) &_stringLiteral1203;
+		G_B21_0 = (String_t*) &_stringLiteral1208;
 		G_B21_1 = G_B19_0;
 		G_B21_2 = G_B19_1;
 		G_B21_3 = G_B19_2;
@@ -5030,7 +5030,7 @@ extern "C" void Sequencer_ActivateCommand_m6537 (Sequencer_t675 * __this, String
 		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1207, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1212, L_3, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 	}
 
@@ -5140,7 +5140,7 @@ IL_00b7:
 		ArrayElementTypeCheck (L_28, L_29);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_28, 1)) = (Object_t *)L_29;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1208, L_28, /*hidden argument*/NULL);
+		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1213, L_28, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 	}
 
@@ -5183,7 +5183,7 @@ extern "C" Type_t * Sequencer_FindSequencerCommandType_m6538 (Sequencer_t675 * _
 IL_001c:
 	{
 		String_t* L_6 = ___commandName;
-		Type_t * L_7 = Sequencer_FindSequencerCommandType_m6539(__this, L_6, (String_t*) &_stringLiteral1209, /*hidden argument*/NULL);
+		Type_t * L_7 = Sequencer_FindSequencerCommandType_m6539(__this, L_6, (String_t*) &_stringLiteral1214, /*hidden argument*/NULL);
 		V_0 = L_7;
 		Type_t * L_8 = V_0;
 		if (L_8)
@@ -5193,7 +5193,7 @@ IL_001c:
 	}
 	{
 		String_t* L_9 = ___commandName;
-		Type_t * L_10 = Sequencer_FindSequencerCommandType_m6539(__this, L_9, (String_t*) &_stringLiteral1210, /*hidden argument*/NULL);
+		Type_t * L_10 = Sequencer_FindSequencerCommandType_m6539(__this, L_9, (String_t*) &_stringLiteral1215, /*hidden argument*/NULL);
 		V_0 = L_10;
 	}
 
@@ -5234,7 +5234,7 @@ extern "C" Type_t * Sequencer_FindSequencerCommandType_m6539 (Sequencer_t675 * _
 	{
 		String_t* L_0 = ___commandName;
 		String_t* L_1 = ___assemblyName;
-		Type_t * L_2 = Sequencer_FindSequencerCommandType_m6540(__this, (String_t*) &_stringLiteral1211, L_0, L_1, /*hidden argument*/NULL);
+		Type_t * L_2 = Sequencer_FindSequencerCommandType_m6540(__this, (String_t*) &_stringLiteral1216, L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		Type_t * L_3 = V_0;
 		if (!L_3)
@@ -5251,7 +5251,7 @@ IL_0016:
 	{
 		String_t* L_5 = ___commandName;
 		String_t* L_6 = ___assemblyName;
-		Type_t * L_7 = Sequencer_FindSequencerCommandType_m6540(__this, (String_t*) &_stringLiteral1212, L_5, L_6, /*hidden argument*/NULL);
+		Type_t * L_7 = Sequencer_FindSequencerCommandType_m6540(__this, (String_t*) &_stringLiteral1217, L_5, L_6, /*hidden argument*/NULL);
 		V_0 = L_7;
 		Type_t * L_8 = V_0;
 		if (!L_8)
@@ -5311,7 +5311,7 @@ extern "C" Type_t * Sequencer_FindSequencerCommandType_m6540 (Sequencer_t675 * _
 		ArrayElementTypeCheck (L_4, L_5);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 2)) = (Object_t *)L_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1213, L_4, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1218, L_4, /*hidden argument*/NULL);
 		V_0 = L_6;
 		String_t* L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
@@ -6256,7 +6256,7 @@ IL_0014:
 	{
 		String_t* L_2 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_3 = String_Equals_m3001(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1214, /*hidden argument*/NULL);
+		bool L_3 = String_Equals_m3001(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1219, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_002f;
@@ -6281,7 +6281,7 @@ IL_0031:
 	{
 		String_t* L_6 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1215, /*hidden argument*/NULL);
+		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1220, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_004a;
@@ -6298,7 +6298,7 @@ IL_004a:
 	{
 		String_t* L_11 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_12 = String_Equals_m3001(NULL /*static, unused*/, L_11, (String_t*) &_stringLiteral1216, /*hidden argument*/NULL);
+		bool L_12 = String_Equals_m3001(NULL /*static, unused*/, L_11, (String_t*) &_stringLiteral1221, /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_0064;
@@ -6316,7 +6316,7 @@ IL_0064:
 	{
 		String_t* L_17 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_18 = String_Equals_m3001(NULL /*static, unused*/, L_17, (String_t*) &_stringLiteral1217, /*hidden argument*/NULL);
+		bool L_18 = String_Equals_m3001(NULL /*static, unused*/, L_17, (String_t*) &_stringLiteral1222, /*hidden argument*/NULL);
 		if (!L_18)
 		{
 			goto IL_007d;
@@ -6333,7 +6333,7 @@ IL_007d:
 	{
 		String_t* L_22 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_23 = String_Equals_m3001(NULL /*static, unused*/, L_22, (String_t*) &_stringLiteral1218, /*hidden argument*/NULL);
+		bool L_23 = String_Equals_m3001(NULL /*static, unused*/, L_22, (String_t*) &_stringLiteral1223, /*hidden argument*/NULL);
 		if (!L_23)
 		{
 			goto IL_0096;
@@ -6350,7 +6350,7 @@ IL_0096:
 	{
 		String_t* L_27 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_28 = String_Equals_m3001(NULL /*static, unused*/, L_27, (String_t*) &_stringLiteral1219, /*hidden argument*/NULL);
+		bool L_28 = String_Equals_m3001(NULL /*static, unused*/, L_27, (String_t*) &_stringLiteral1224, /*hidden argument*/NULL);
 		if (!L_28)
 		{
 			goto IL_00af;
@@ -6367,7 +6367,7 @@ IL_00af:
 	{
 		String_t* L_32 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_33 = String_Equals_m3001(NULL /*static, unused*/, L_32, (String_t*) &_stringLiteral1220, /*hidden argument*/NULL);
+		bool L_33 = String_Equals_m3001(NULL /*static, unused*/, L_32, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
 		if (!L_33)
 		{
 			goto IL_00c8;
@@ -6384,7 +6384,7 @@ IL_00c8:
 	{
 		String_t* L_37 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_38 = String_Equals_m3001(NULL /*static, unused*/, L_37, (String_t*) &_stringLiteral1221, /*hidden argument*/NULL);
+		bool L_38 = String_Equals_m3001(NULL /*static, unused*/, L_37, (String_t*) &_stringLiteral1226, /*hidden argument*/NULL);
 		if (!L_38)
 		{
 			goto IL_00e1;
@@ -6401,7 +6401,7 @@ IL_00e1:
 	{
 		String_t* L_42 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_43 = String_Equals_m3001(NULL /*static, unused*/, L_42, (String_t*) &_stringLiteral1222, /*hidden argument*/NULL);
+		bool L_43 = String_Equals_m3001(NULL /*static, unused*/, L_42, (String_t*) &_stringLiteral1227, /*hidden argument*/NULL);
 		if (!L_43)
 		{
 			goto IL_00fa;
@@ -6418,7 +6418,7 @@ IL_00fa:
 	{
 		String_t* L_47 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_48 = String_Equals_m3001(NULL /*static, unused*/, L_47, (String_t*) &_stringLiteral1223, /*hidden argument*/NULL);
+		bool L_48 = String_Equals_m3001(NULL /*static, unused*/, L_47, (String_t*) &_stringLiteral1228, /*hidden argument*/NULL);
 		if (!L_48)
 		{
 			goto IL_0113;
@@ -6435,7 +6435,7 @@ IL_0113:
 	{
 		String_t* L_52 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_53 = String_Equals_m3001(NULL /*static, unused*/, L_52, (String_t*) &_stringLiteral1224, /*hidden argument*/NULL);
+		bool L_53 = String_Equals_m3001(NULL /*static, unused*/, L_52, (String_t*) &_stringLiteral1229, /*hidden argument*/NULL);
 		if (!L_53)
 		{
 			goto IL_012c;
@@ -6452,7 +6452,7 @@ IL_012c:
 	{
 		String_t* L_57 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_58 = String_Equals_m3001(NULL /*static, unused*/, L_57, (String_t*) &_stringLiteral1225, /*hidden argument*/NULL);
+		bool L_58 = String_Equals_m3001(NULL /*static, unused*/, L_57, (String_t*) &_stringLiteral1230, /*hidden argument*/NULL);
 		if (!L_58)
 		{
 			goto IL_0145;
@@ -6469,7 +6469,7 @@ IL_0145:
 	{
 		String_t* L_62 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_63 = String_Equals_m3001(NULL /*static, unused*/, L_62, (String_t*) &_stringLiteral1226, /*hidden argument*/NULL);
+		bool L_63 = String_Equals_m3001(NULL /*static, unused*/, L_62, (String_t*) &_stringLiteral1231, /*hidden argument*/NULL);
 		if (!L_63)
 		{
 			goto IL_015e;
@@ -6486,7 +6486,7 @@ IL_015e:
 	{
 		String_t* L_67 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_68 = String_Equals_m3001(NULL /*static, unused*/, L_67, (String_t*) &_stringLiteral1227, /*hidden argument*/NULL);
+		bool L_68 = String_Equals_m3001(NULL /*static, unused*/, L_67, (String_t*) &_stringLiteral1232, /*hidden argument*/NULL);
 		if (!L_68)
 		{
 			goto IL_0177;
@@ -6503,7 +6503,7 @@ IL_0177:
 	{
 		String_t* L_72 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_73 = String_Equals_m3001(NULL /*static, unused*/, L_72, (String_t*) &_stringLiteral1228, /*hidden argument*/NULL);
+		bool L_73 = String_Equals_m3001(NULL /*static, unused*/, L_72, (String_t*) &_stringLiteral1233, /*hidden argument*/NULL);
 		if (!L_73)
 		{
 			goto IL_0190;
@@ -6520,7 +6520,7 @@ IL_0190:
 	{
 		String_t* L_77 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_78 = String_Equals_m3001(NULL /*static, unused*/, L_77, (String_t*) &_stringLiteral1229, /*hidden argument*/NULL);
+		bool L_78 = String_Equals_m3001(NULL /*static, unused*/, L_77, (String_t*) &_stringLiteral1234, /*hidden argument*/NULL);
 		if (!L_78)
 		{
 			goto IL_01a9;
@@ -6537,7 +6537,7 @@ IL_01a9:
 	{
 		String_t* L_82 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_83 = String_Equals_m3001(NULL /*static, unused*/, L_82, (String_t*) &_stringLiteral1230, /*hidden argument*/NULL);
+		bool L_83 = String_Equals_m3001(NULL /*static, unused*/, L_82, (String_t*) &_stringLiteral1235, /*hidden argument*/NULL);
 		if (!L_83)
 		{
 			goto IL_01c2;
@@ -6554,7 +6554,7 @@ IL_01c2:
 	{
 		String_t* L_87 = ___commandName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_88 = String_Equals_m3001(NULL /*static, unused*/, L_87, (String_t*) &_stringLiteral1231, /*hidden argument*/NULL);
+		bool L_88 = String_Equals_m3001(NULL /*static, unused*/, L_87, (String_t*) &_stringLiteral1236, /*hidden argument*/NULL);
 		if (!L_88)
 		{
 			goto IL_01db;
@@ -6612,7 +6612,7 @@ extern "C" bool Sequencer_TryHandleCameraInternally_m6550 (Sequencer_t675 * __th
 	}
 	{
 		StringU5BU5D_t20* L_3 = ___args;
-		String_t* L_4 = SequencerTools_GetParameter_m6572(NULL /*static, unused*/, L_3, 0, (String_t*) &_stringLiteral983, /*hidden argument*/NULL);
+		String_t* L_4 = SequencerTools_GetParameter_m6572(NULL /*static, unused*/, L_3, 0, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
 		V_1 = L_4;
 		StringU5BU5D_t20* L_5 = ___args;
 		String_t* L_6 = SequencerTools_GetParameter_m6572(NULL /*static, unused*/, L_5, 1, (String_t*)NULL, /*hidden argument*/NULL);
@@ -6622,7 +6622,7 @@ extern "C" bool Sequencer_TryHandleCameraInternally_m6550 (Sequencer_t675 * __th
 		V_2 = L_9;
 		String_t* L_10 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_11 = String_Equals_m3001(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral983, /*hidden argument*/NULL);
+		bool L_11 = String_Equals_m3001(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
 		V_3 = L_11;
 		bool L_12 = V_3;
 		if (!L_12)
@@ -6640,7 +6640,7 @@ IL_0059:
 	{
 		String_t* L_15 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_16 = String_Equals_m3001(NULL /*static, unused*/, L_15, (String_t*) &_stringLiteral1232, /*hidden argument*/NULL);
+		bool L_16 = String_Equals_m3001(NULL /*static, unused*/, L_15, (String_t*) &_stringLiteral1237, /*hidden argument*/NULL);
 		V_4 = L_16;
 		bool L_17 = V_4;
 		if (!L_17)
@@ -6749,7 +6749,7 @@ IL_00d8:
 		ArrayElementTypeCheck (L_41, L_44);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_41, 3)) = (Object_t *)L_44;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_45 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1233, L_41, /*hidden argument*/NULL);
+		String_t* L_45 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1238, L_41, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
 	}
 
@@ -6783,7 +6783,7 @@ IL_0115:
 		ArrayElementTypeCheck (L_50, L_51);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_50, 1)) = (Object_t *)L_51;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_52 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1234, L_50, /*hidden argument*/NULL);
+		String_t* L_52 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1239, L_50, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
 	}
 
@@ -6818,7 +6818,7 @@ IL_014d:
 		ArrayElementTypeCheck (L_57, L_59);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_57, 1)) = (Object_t *)L_59;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_60 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1235, L_57, /*hidden argument*/NULL);
+		String_t* L_60 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1240, L_57, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_60, /*hidden argument*/NULL);
 	}
 
@@ -7028,7 +7028,7 @@ IL_0054:
 		ArrayElementTypeCheck (L_18, L_20);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 2)) = (Object_t *)L_20;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1236, L_18, /*hidden argument*/NULL);
+		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1241, L_18, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 	}
 
@@ -7056,7 +7056,7 @@ IL_0089:
 		ArrayElementTypeCheck (L_25, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_25, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_26 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1237, L_25, /*hidden argument*/NULL);
+		String_t* L_26 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1242, L_25, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 	}
 
@@ -7097,7 +7097,7 @@ IL_00c1:
 		ArrayElementTypeCheck (L_31, L_33);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_31, 1)) = (Object_t *)L_33;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_34 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1238, L_31, /*hidden argument*/NULL);
+		String_t* L_34 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1243, L_31, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
 	}
 
@@ -7131,7 +7131,7 @@ IL_0102:
 		ArrayElementTypeCheck (L_38, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_38, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1239, L_38, /*hidden argument*/NULL);
+		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1244, L_38, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 	}
 
@@ -7233,7 +7233,7 @@ extern "C" bool Sequencer_HandleAnimatorControllerInternally_m6552 (Sequencer_t6
 		ArrayElementTypeCheck (L_11, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 2)) = (Object_t *)L_13;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1240, L_11, /*hidden argument*/NULL);
+		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1245, L_11, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 	}
 
@@ -7289,7 +7289,7 @@ IL_0076:
 		ArrayElementTypeCheck (L_21, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_21, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1241, L_21, /*hidden argument*/NULL);
+		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1246, L_21, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 	}
 
@@ -7328,7 +7328,7 @@ IL_00ae:
 		ArrayElementTypeCheck (L_27, L_28);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, 1)) = (Object_t *)L_28;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_29 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1242, L_27, /*hidden argument*/NULL);
+		String_t* L_29 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1247, L_27, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
 	}
 
@@ -7373,7 +7373,7 @@ IL_00ea:
 		ArrayElementTypeCheck (L_36, L_38);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_36, 1)) = (Object_t *)L_38;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1243, L_36, /*hidden argument*/NULL);
+		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1248, L_36, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 	}
 
@@ -7483,7 +7483,7 @@ extern "C" bool Sequencer_TryHandleAnimatorLayerInternally_m6553 (Sequencer_t675
 		ArrayElementTypeCheck (L_22, L_24);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 3)) = (Object_t *)L_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1244, L_22, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1249, L_22, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 	}
 
@@ -7511,7 +7511,7 @@ IL_008b:
 		ArrayElementTypeCheck (L_29, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1245, L_29, /*hidden argument*/NULL);
+		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1250, L_29, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 	}
 
@@ -7556,7 +7556,7 @@ IL_00c3:
 		ArrayElementTypeCheck (L_37, L_39);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 1)) = (Object_t *)L_39;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1246, L_37, /*hidden argument*/NULL);
+		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1251, L_37, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 	}
 
@@ -7657,7 +7657,7 @@ extern "C" bool Sequencer_HandleAnimatorBoolInternally_m6554 (Sequencer_t675 * _
 		ArrayElementTypeCheck (L_17, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 3)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1247, L_17, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1252, L_17, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 	}
 
@@ -7685,7 +7685,7 @@ IL_006a:
 		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1248, L_24, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1253, L_24, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 	}
 
@@ -7719,7 +7719,7 @@ IL_00a2:
 		ArrayElementTypeCheck (L_29, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1249, L_29, /*hidden argument*/NULL);
+		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1254, L_29, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 	}
 
@@ -7764,7 +7764,7 @@ IL_00d9:
 		ArrayElementTypeCheck (L_37, L_39);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 1)) = (Object_t *)L_39;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1250, L_37, /*hidden argument*/NULL);
+		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1255, L_37, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 	}
 
@@ -7860,7 +7860,7 @@ extern "C" bool Sequencer_HandleAnimatorIntInternally_m6555 (Sequencer_t675 * __
 		ArrayElementTypeCheck (L_17, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 3)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1251, L_17, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1256, L_17, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 	}
 
@@ -7888,7 +7888,7 @@ IL_006a:
 		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1252, L_24, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1257, L_24, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 	}
 
@@ -7922,7 +7922,7 @@ IL_00a2:
 		ArrayElementTypeCheck (L_29, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1253, L_29, /*hidden argument*/NULL);
+		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1258, L_29, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 	}
 
@@ -7967,7 +7967,7 @@ IL_00d9:
 		ArrayElementTypeCheck (L_37, L_39);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 1)) = (Object_t *)L_39;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1250, L_37, /*hidden argument*/NULL);
+		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1255, L_37, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 	}
 
@@ -8074,7 +8074,7 @@ extern "C" bool Sequencer_TryHandleAnimatorFloatInternally_m6556 (Sequencer_t675
 		ArrayElementTypeCheck (L_20, L_22);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_20, 3)) = (Object_t *)L_22;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_23 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1254, L_20, /*hidden argument*/NULL);
+		String_t* L_23 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1259, L_20, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
 	}
 
@@ -8102,7 +8102,7 @@ IL_0086:
 		ArrayElementTypeCheck (L_27, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1255, L_27, /*hidden argument*/NULL);
+		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1260, L_27, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 	}
 
@@ -8136,7 +8136,7 @@ IL_00be:
 		ArrayElementTypeCheck (L_32, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1256, L_32, /*hidden argument*/NULL);
+		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1261, L_32, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 	}
 
@@ -8181,7 +8181,7 @@ IL_00f5:
 		ArrayElementTypeCheck (L_40, L_42);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_40, 1)) = (Object_t *)L_42;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_43 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1250, L_40, /*hidden argument*/NULL);
+		String_t* L_43 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1255, L_40, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
 	}
 
@@ -8308,13 +8308,13 @@ IL_003c:
 		G_B6_0 = 2;
 		G_B6_1 = L_17;
 		G_B6_2 = L_17;
-		G_B6_3 = (String_t*) &_stringLiteral1257;
+		G_B6_3 = (String_t*) &_stringLiteral1262;
 		if (!L_19)
 		{
 			G_B7_0 = 2;
 			G_B7_1 = L_17;
 			G_B7_2 = L_17;
-			G_B7_3 = (String_t*) &_stringLiteral1257;
+			G_B7_3 = (String_t*) &_stringLiteral1262;
 			goto IL_0083;
 		}
 	}
@@ -8385,7 +8385,7 @@ IL_009b:
 		ArrayElementTypeCheck (L_29, L_30);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 2)) = (Object_t *)L_30;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_31 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1258, L_29, /*hidden argument*/NULL);
+		String_t* L_31 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1263, L_29, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 	}
 
@@ -8497,7 +8497,7 @@ extern "C" bool Sequencer_HandleAnimatorPlayInternally_m6558 (Sequencer_t675 * _
 		ArrayElementTypeCheck (L_22, L_25);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 4)) = (Object_t *)L_25;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_26 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1259, L_22, /*hidden argument*/NULL);
+		String_t* L_26 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1264, L_22, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 	}
 
@@ -8525,7 +8525,7 @@ IL_0080:
 		ArrayElementTypeCheck (L_30, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_30, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_31 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1260, L_30, /*hidden argument*/NULL);
+		String_t* L_31 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1265, L_30, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 	}
 
@@ -8559,7 +8559,7 @@ IL_00b8:
 		ArrayElementTypeCheck (L_35, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_35, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_36 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1261, L_35, /*hidden argument*/NULL);
+		String_t* L_36 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1266, L_35, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
 	}
 
@@ -8604,7 +8604,7 @@ IL_00ef:
 		ArrayElementTypeCheck (L_43, L_45);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_43, 1)) = (Object_t *)L_45;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_46 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1250, L_43, /*hidden argument*/NULL);
+		String_t* L_46 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1255, L_43, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_46, /*hidden argument*/NULL);
 	}
 
@@ -8714,7 +8714,7 @@ extern "C" bool Sequencer_HandleAudioInternally_m6559 (Sequencer_t675 * __this, 
 		ArrayElementTypeCheck (L_12, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 2)) = (Object_t *)L_13;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1262, L_12, /*hidden argument*/NULL);
+		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1267, L_12, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 	}
 
@@ -8751,7 +8751,7 @@ IL_005f:
 		ArrayElementTypeCheck (L_19, L_20);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 2)) = (Object_t *)L_20;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1263, L_19, /*hidden argument*/NULL);
+		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1268, L_19, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 	}
 
@@ -8783,7 +8783,7 @@ IL_008e:
 		ArrayElementTypeCheck (L_27, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1264, L_27, /*hidden argument*/NULL);
+		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1269, L_27, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 	}
 
@@ -8830,7 +8830,7 @@ IL_00cd:
 		ArrayElementTypeCheck (L_37, L_39);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 1)) = (Object_t *)L_39;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1265, L_37, /*hidden argument*/NULL);
+		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1270, L_37, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 	}
 
@@ -8949,7 +8949,7 @@ extern "C" bool Sequencer_TryHandleMoveToInternally_m6560 (Sequencer_t675 * __th
 		ArrayElementTypeCheck (L_19, L_22);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 3)) = (Object_t *)L_22;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_23 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1266, L_19, /*hidden argument*/NULL);
+		String_t* L_23 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1271, L_19, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
 	}
 
@@ -8977,7 +8977,7 @@ IL_0086:
 		ArrayElementTypeCheck (L_27, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1267, L_27, /*hidden argument*/NULL);
+		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1272, L_27, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 	}
 
@@ -9005,7 +9005,7 @@ IL_00b9:
 		ArrayElementTypeCheck (L_32, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1268, L_32, /*hidden argument*/NULL);
+		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1273, L_32, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 	}
 
@@ -9078,7 +9078,7 @@ extern "C" bool Sequencer_TryHandleLookAtInternally_m6561 (Sequencer_t675 * __th
 		StringU5BU5D_t20* L_2 = ___args;
 		String_t* L_3 = SequencerTools_GetParameter_m6572(NULL /*static, unused*/, L_2, 3, (String_t*)NULL, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_4 = String_Compare_m7536(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral1269, 5, /*hidden argument*/NULL);
+		int32_t L_4 = String_Compare_m7536(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral1274, 5, /*hidden argument*/NULL);
 		V_1 = ((((int32_t)((((int32_t)L_4) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		float L_5 = V_0;
 		if ((!(((float)L_5) < ((float)(0.001f)))))
@@ -9146,7 +9146,7 @@ IL_004e:
 		ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1270, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1275, L_16, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 	}
 
@@ -9219,7 +9219,7 @@ IL_00cc:
 		ArrayElementTypeCheck (L_42, L_45);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_42, 3)) = (Object_t *)L_45;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_46 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1271, L_42, /*hidden argument*/NULL);
+		String_t* L_46 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1276, L_42, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_46, /*hidden argument*/NULL);
 	}
 
@@ -9247,7 +9247,7 @@ IL_013a:
 		ArrayElementTypeCheck (L_50, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_50, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_51 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1272, L_50, /*hidden argument*/NULL);
+		String_t* L_51 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1277, L_50, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_51, /*hidden argument*/NULL);
 	}
 
@@ -9275,7 +9275,7 @@ IL_016d:
 		ArrayElementTypeCheck (L_55, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_55, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_56 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1273, L_55, /*hidden argument*/NULL);
+		String_t* L_56 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1278, L_55, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
 	}
 
@@ -9426,7 +9426,7 @@ extern "C" bool Sequencer_HandleSendMessageInternally_m6563 (Sequencer_t675 * __
 		ArrayElementTypeCheck (L_15, L_16);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 3)) = (Object_t *)L_16;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1274, L_15, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1279, L_15, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 	}
 
@@ -9454,7 +9454,7 @@ IL_0060:
 		ArrayElementTypeCheck (L_21, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_21, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1275, L_21, /*hidden argument*/NULL);
+		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1280, L_21, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 	}
 
@@ -9483,7 +9483,7 @@ IL_0093:
 		ArrayElementTypeCheck (L_26, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_26, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1276, L_26, /*hidden argument*/NULL);
+		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1281, L_26, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
 	}
 
@@ -9569,7 +9569,7 @@ extern "C" bool Sequencer_HandleSetActiveInternally_m6564 (Sequencer_t675 * __th
 		ArrayElementTypeCheck (L_9, L_10);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_9, 2)) = (Object_t *)L_10;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1277, L_9, /*hidden argument*/NULL);
+		String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1282, L_9, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 	}
 
@@ -9597,7 +9597,7 @@ IL_0046:
 		ArrayElementTypeCheck (L_15, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1278, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1283, L_15, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 	}
 
@@ -9642,7 +9642,7 @@ IL_00a0:
 		ArrayElementTypeCheck (L_24, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1279, L_24, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1284, L_24, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 	}
 
@@ -9667,7 +9667,7 @@ IL_00cc:
 		NullCheck(L_28);
 		String_t* L_29 = String_ToLower_m3453(L_28, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_30 = String_Equals_m3001(NULL /*static, unused*/, L_29, (String_t*) &_stringLiteral1126, /*hidden argument*/NULL);
+		bool L_30 = String_Equals_m3001(NULL /*static, unused*/, L_29, (String_t*) &_stringLiteral1131, /*hidden argument*/NULL);
 		if (!L_30)
 		{
 			goto IL_00f5;
@@ -9684,7 +9684,7 @@ IL_00f5:
 		NullCheck(L_31);
 		String_t* L_32 = String_ToLower_m3453(L_31, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_33 = String_Equals_m3001(NULL /*static, unused*/, L_32, (String_t*) &_stringLiteral1280, /*hidden argument*/NULL);
+		bool L_33 = String_Equals_m3001(NULL /*static, unused*/, L_32, (String_t*) &_stringLiteral1285, /*hidden argument*/NULL);
 		if (!L_33)
 		{
 			goto IL_0114;
@@ -9776,7 +9776,7 @@ extern "C" bool Sequencer_HandleSetEnabledInternally_m6565 (Sequencer_t675 * __t
 		ArrayElementTypeCheck (L_15, L_16);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 3)) = (Object_t *)L_16;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1281, L_15, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1286, L_15, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 	}
 
@@ -9804,7 +9804,7 @@ IL_0060:
 		ArrayElementTypeCheck (L_21, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_21, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1282, L_21, /*hidden argument*/NULL);
+		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1287, L_21, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 	}
 
@@ -9856,7 +9856,7 @@ IL_0098:
 		ArrayElementTypeCheck (L_32, L_34);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, 2)) = (Object_t *)L_34;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_35 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1283, L_32, /*hidden argument*/NULL);
+		String_t* L_35 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1288, L_32, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
 	}
 
@@ -9881,7 +9881,7 @@ IL_00e5:
 		NullCheck(L_38);
 		String_t* L_39 = String_ToLower_m3453(L_38, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_40 = String_Equals_m3001(NULL /*static, unused*/, L_39, (String_t*) &_stringLiteral1126, /*hidden argument*/NULL);
+		bool L_40 = String_Equals_m3001(NULL /*static, unused*/, L_39, (String_t*) &_stringLiteral1131, /*hidden argument*/NULL);
 		if (!L_40)
 		{
 			goto IL_0110;
@@ -9898,7 +9898,7 @@ IL_0110:
 		NullCheck(L_41);
 		String_t* L_42 = String_ToLower_m3453(L_41, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_43 = String_Equals_m3001(NULL /*static, unused*/, L_42, (String_t*) &_stringLiteral1280, /*hidden argument*/NULL);
+		bool L_43 = String_Equals_m3001(NULL /*static, unused*/, L_42, (String_t*) &_stringLiteral1285, /*hidden argument*/NULL);
 		if (!L_43)
 		{
 			goto IL_0128;
@@ -9984,7 +9984,7 @@ extern "C" bool Sequencer_HandleSetPortraitInternally_m6566 (Sequencer_t675 * __
 		ArrayElementTypeCheck (L_8, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 2)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1284, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1289, L_8, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 	}
 
@@ -9998,7 +9998,7 @@ IL_0041:
 		V_2 = L_13;
 		String_t* L_14 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_15 = String_Equals_m3001(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral983, /*hidden argument*/NULL);
+		bool L_15 = String_Equals_m3001(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
 		V_3 = L_15;
 		String_t* L_16 = V_1;
 		if (!L_16)
@@ -10009,7 +10009,7 @@ IL_0041:
 	{
 		String_t* L_17 = V_1;
 		NullCheck(L_17);
-		bool L_18 = String_StartsWith_m3455(L_17, (String_t*) &_stringLiteral985, /*hidden argument*/NULL);
+		bool L_18 = String_StartsWith_m3455(L_17, (String_t*) &_stringLiteral990, /*hidden argument*/NULL);
 		G_B5_0 = ((int32_t)(L_18));
 		goto IL_006d;
 	}
@@ -10044,8 +10044,8 @@ IL_0080:
 	}
 	{
 		String_t* L_21 = V_1;
-		NullCheck((String_t*) &_stringLiteral985);
-		int32_t L_22 = String_get_Length_m3041((String_t*) &_stringLiteral985, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral990);
+		int32_t L_22 = String_get_Length_m3041((String_t*) &_stringLiteral990, /*hidden argument*/NULL);
 		NullCheck(L_21);
 		String_t* L_23 = String_Substring_m3694(L_21, L_22, /*hidden argument*/NULL);
 		V_6 = L_23;
@@ -10089,7 +10089,7 @@ IL_00ca:
 		ArrayElementTypeCheck (L_32, L_33);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, 1)) = (Object_t *)L_33;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_34 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1285, L_32, /*hidden argument*/NULL);
+		String_t* L_34 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1290, L_32, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
 	}
 
@@ -10140,7 +10140,7 @@ IL_0108:
 		ArrayElementTypeCheck (L_43, L_44);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_43, 1)) = (Object_t *)L_44;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_45 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1286, L_43, /*hidden argument*/NULL);
+		String_t* L_45 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1291, L_43, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
 	}
 
@@ -10173,7 +10173,7 @@ IL_0139:
 		ArrayElementTypeCheck (L_50, L_51);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_50, 1)) = (Object_t *)L_51;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_52 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1287, L_50, /*hidden argument*/NULL);
+		String_t* L_52 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1292, L_50, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
 	}
 
@@ -10197,7 +10197,7 @@ IL_016d:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_56 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_55, (String_t*) &_stringLiteral984, L_56, /*hidden argument*/NULL);
+		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_55, (String_t*) &_stringLiteral989, L_56, /*hidden argument*/NULL);
 		goto IL_01a7;
 	}
 
@@ -10214,7 +10214,7 @@ IL_018e:
 		String_t* L_59 = V_0;
 		String_t* L_60 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_59, (String_t*) &_stringLiteral984, L_60, /*hidden argument*/NULL);
+		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_59, (String_t*) &_stringLiteral989, L_60, /*hidden argument*/NULL);
 	}
 
 IL_01a7:
@@ -10343,7 +10343,7 @@ IL_0034:
 		ArrayElementTypeCheck (L_10, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 1)) = (Object_t *)L_13;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1288, L_10, /*hidden argument*/NULL);
+		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1293, L_10, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 		goto IL_008d;
 	}
@@ -10356,7 +10356,7 @@ IL_0070:
 		ArrayElementTypeCheck (L_15, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1289, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1294, L_15, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 	}
 
@@ -10365,7 +10365,7 @@ IL_008d:
 	{ // begin try (depth: 1)
 		{
 			IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-			Result_t641  L_17 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
+			Result_t641  L_17 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral993, /*hidden argument*/NULL);
 			V_3 = L_17;
 			String_t* L_18 = Result_get_AsString_m3093((&V_3), /*hidden argument*/NULL);
 			V_2 = L_18;
@@ -10381,7 +10381,7 @@ IL_008d:
 IL_00ab:
 		{
 			IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-			Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral989, /*hidden argument*/NULL);
+			Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral994, /*hidden argument*/NULL);
 			bool L_21 = V_0;
 			if (!L_21)
 			{
@@ -10542,7 +10542,7 @@ IL_0015:
 	{
 		String_t* L_5 = ___specifier;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_6 = String_Compare_m7536(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral1290, 5, /*hidden argument*/NULL);
+		int32_t L_6 = String_Compare_m7536(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral1295, 5, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0028;
@@ -10557,7 +10557,7 @@ IL_0028:
 	{
 		String_t* L_8 = ___specifier;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_9 = String_Compare_m7536(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1291, 5, /*hidden argument*/NULL);
+		int32_t L_9 = String_Compare_m7536(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1296, 5, /*hidden argument*/NULL);
 		if (L_9)
 		{
 			goto IL_003b;
@@ -10763,7 +10763,7 @@ IL_0018:
 
 IL_0030:
 	{
-		G_B6_0 = (String_t*) &_stringLiteral1177;
+		G_B6_0 = (String_t*) &_stringLiteral1182;
 	}
 
 IL_0035:
@@ -10948,7 +10948,7 @@ extern "C" bool SequencerTools_IsAudioMuted_m6577 (Object_t * __this /* static, 
 	Result_t641  V_0 = {0};
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_0 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral1292, /*hidden argument*/NULL);
+		Result_t641  L_0 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral1297, /*hidden argument*/NULL);
 		V_0 = L_0;
 		bool L_1 = Result_get_AsBool_m3140((&V_0), /*hidden argument*/NULL);
 		return L_1;
@@ -11189,7 +11189,7 @@ extern "C" String_t* SequencerCommand_GetParameters_m6591 (SequencerCommand_t209
 	{
 		StringU5BU5D_t20* L_0 = SequencerCommand_get_Parameters_m6582(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Join_m3315(NULL /*static, unused*/, (String_t*) &_stringLiteral1293, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = String_Join_m3315(NULL /*static, unused*/, (String_t*) &_stringLiteral1298, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -11333,13 +11333,13 @@ IL_0068:
 		G_B7_0 = 2;
 		G_B7_1 = L_14;
 		G_B7_2 = L_14;
-		G_B7_3 = (String_t*) &_stringLiteral1294;
+		G_B7_3 = (String_t*) &_stringLiteral1299;
 		if (!L_16)
 		{
 			G_B8_0 = 2;
 			G_B8_1 = L_14;
 			G_B8_2 = L_14;
-			G_B8_3 = (String_t*) &_stringLiteral1294;
+			G_B8_3 = (String_t*) &_stringLiteral1299;
 			goto IL_00ac;
 		}
 	}
@@ -11420,7 +11420,7 @@ IL_00c4:
 		ArrayElementTypeCheck (L_27, L_29);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, 2)) = (Object_t *)L_29;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1295, L_27, /*hidden argument*/NULL);
+		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1300, L_27, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 	}
 
@@ -11459,7 +11459,7 @@ IL_010d:
 		ArrayElementTypeCheck (L_35, L_37);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_35, 2)) = (Object_t *)L_37;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_38 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1296, L_35, /*hidden argument*/NULL);
+		String_t* L_38 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1301, L_35, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
 	}
 
@@ -11683,7 +11683,7 @@ extern "C" void SequencerCommandAnimatorFloat_Start_m6598 (SequencerCommandAnima
 		ArrayElementTypeCheck (L_16, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 4)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1297, L_16, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1302, L_16, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 	}
 
@@ -11717,7 +11717,7 @@ IL_0097:
 		ArrayElementTypeCheck (L_25, L_26);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_25, 1)) = (Object_t *)L_26;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1298, L_25, /*hidden argument*/NULL);
+		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1303, L_25, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
 	}
 
@@ -11763,7 +11763,7 @@ IL_00e5:
 		ArrayElementTypeCheck (L_34, L_36);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_34, 1)) = (Object_t *)L_36;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_37 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1299, L_34, /*hidden argument*/NULL);
+		String_t* L_37 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1304, L_34, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
 	}
 
@@ -11990,7 +11990,7 @@ extern "C" void SequencerCommandAnimatorLayer_Start_m6602 (SequencerCommandAnima
 		ArrayElementTypeCheck (L_16, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 4)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1300, L_16, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1305, L_16, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 	}
 
@@ -12024,7 +12024,7 @@ IL_009a:
 		ArrayElementTypeCheck (L_25, L_26);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_25, 1)) = (Object_t *)L_26;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1301, L_25, /*hidden argument*/NULL);
+		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1306, L_25, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
 	}
 
@@ -12070,7 +12070,7 @@ IL_00e8:
 		ArrayElementTypeCheck (L_34, L_36);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_34, 1)) = (Object_t *)L_36;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_37 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1302, L_34, /*hidden argument*/NULL);
+		String_t* L_37 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1307, L_34, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
 	}
 
@@ -12123,7 +12123,7 @@ IL_016c:
 		ArrayElementTypeCheck (L_44, L_47);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_44, 1)) = (Object_t *)L_47;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_48 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1303, L_44, /*hidden argument*/NULL);
+		String_t* L_48 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1308, L_44, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
 	}
 
@@ -12583,13 +12583,13 @@ IL_0040:
 		G_B6_0 = 2;
 		G_B6_1 = L_14;
 		G_B6_2 = L_14;
-		G_B6_3 = (String_t*) &_stringLiteral1304;
+		G_B6_3 = (String_t*) &_stringLiteral1309;
 		if (!L_16)
 		{
 			G_B7_0 = 2;
 			G_B7_1 = L_14;
 			G_B7_2 = L_14;
-			G_B7_3 = (String_t*) &_stringLiteral1304;
+			G_B7_3 = (String_t*) &_stringLiteral1309;
 			goto IL_0089;
 		}
 	}
@@ -12684,7 +12684,7 @@ IL_00b9:
 		ArrayElementTypeCheck (L_35, L_38);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_35, 3)) = (Object_t *)L_38;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1305, L_35, /*hidden argument*/NULL);
+		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1310, L_35, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 	}
 
@@ -12900,7 +12900,7 @@ extern "C" void SequencerCommandAudioWait_Start_m6616 (SequencerCommandAudioWait
 		ArrayElementTypeCheck (L_4, L_5);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 1)) = (Object_t *)L_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1306, L_4, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1311, L_4, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 	}
 
@@ -12939,7 +12939,7 @@ IL_0049:
 		ArrayElementTypeCheck (L_13, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1307, L_13, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1312, L_13, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 	}
 
@@ -13070,7 +13070,7 @@ IL_0033:
 			ArrayElementTypeCheck (L_8, L_9);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 1)) = (Object_t *)L_9;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1308, L_8, /*hidden argument*/NULL);
+			String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1313, L_8, /*hidden argument*/NULL);
 			Debug_LogWarning_m2940(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		}
 
@@ -13112,7 +13112,7 @@ IL_006e:
 			ArrayElementTypeCheck (L_14, L_15);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_14, 1)) = (Object_t *)L_15;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1309, L_14, /*hidden argument*/NULL);
+			String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1314, L_14, /*hidden argument*/NULL);
 			Debug_Log_m90(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		}
 
@@ -13145,7 +13145,7 @@ IL_009e:
 			ArrayElementTypeCheck (L_19, L_20);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 1)) = (Object_t *)L_20;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1310, L_19, /*hidden argument*/NULL);
+			String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1315, L_19, /*hidden argument*/NULL);
 			Debug_Log_m90(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 		}
 
@@ -13437,7 +13437,7 @@ extern "C" void SequencerCommandAudioWWW_Start_m6623 (SequencerCommandAudioWWW_t
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		ArrayElementTypeCheck (L_2, L_4);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)L_4;
-		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1311, L_2, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1316, L_2, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 	}
 
@@ -13566,7 +13566,7 @@ IL_00e2:
 		ArrayElementTypeCheck (L_32, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1312, L_32, /*hidden argument*/NULL);
+		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1317, L_32, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 	}
 
@@ -13611,7 +13611,7 @@ IL_0124:
 		ArrayElementTypeCheck (L_40, L_42);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_40, 1)) = (Object_t *)L_42;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_43 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1313, L_40, /*hidden argument*/NULL);
+		String_t* L_43 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1318, L_40, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
 	}
 
@@ -13669,7 +13669,7 @@ IL_0191:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_51, 1);
 		ArrayElementTypeCheck (L_51, L_53);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_51, 1)) = (Object_t *)L_53;
-		String_t* L_54 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1314, L_51, /*hidden argument*/NULL);
+		String_t* L_54 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1319, L_51, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_54, /*hidden argument*/NULL);
 	}
 
@@ -13770,7 +13770,7 @@ extern "C" void SequencerCommandAudioWWW_LoadNextAudio_m6625 (SequencerCommandAu
 	{
 		String_t* L_6 = V_0;
 		NullCheck(L_6);
-		bool L_7 = String_EndsWith_m7786(L_6, (String_t*) &_stringLiteral1315, 5, /*hidden argument*/NULL);
+		bool L_7 = String_EndsWith_m7786(L_6, (String_t*) &_stringLiteral1320, 5, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_00b7;
@@ -13797,7 +13797,7 @@ extern "C" void SequencerCommandAudioWWW_LoadNextAudio_m6625 (SequencerCommandAu
 		ArrayElementTypeCheck (L_10, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 1)) = (Object_t *)L_11;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1316, L_10, /*hidden argument*/NULL);
+		String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1321, L_10, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 	}
 
@@ -13840,7 +13840,7 @@ IL_0087:
 		ArrayElementTypeCheck (L_18, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 1)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1317, L_18, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1322, L_18, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 	}
 
@@ -13871,7 +13871,7 @@ IL_00b7:
 		ArrayElementTypeCheck (L_23, L_24);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_23, 1)) = (Object_t *)L_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1318, L_23, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1323, L_23, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 	}
 
@@ -14066,7 +14066,7 @@ extern "C" void SequencerCommandCamera_Start_m6630 (SequencerCommandCamera_t1485
 	SequencerCommandCamera_t1485 * G_B6_0 = {0};
 	SequencerCommandCamera_t1485 * G_B5_0 = {0};
 	{
-		String_t* L_0 = SequencerCommand_GetParameter_m2937(__this, 0, (String_t*) &_stringLiteral1177, /*hidden argument*/NULL);
+		String_t* L_0 = SequencerCommand_GetParameter_m2937(__this, 0, (String_t*) &_stringLiteral1182, /*hidden argument*/NULL);
 		V_0 = L_0;
 		Transform_t54 * L_1 = SequencerCommand_GetSubject_m3758(__this, 1, (Transform_t54 *)NULL, /*hidden argument*/NULL);
 		__this->___subject_7 = L_1;
@@ -14074,7 +14074,7 @@ extern "C" void SequencerCommandCamera_Start_m6630 (SequencerCommandCamera_t1485
 		__this->___duration_13 = L_2;
 		String_t* L_3 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_4 = String_Equals_m3001(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral983, /*hidden argument*/NULL);
+		bool L_4 = String_Equals_m3001(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
 		V_1 = L_4;
 		bool L_5 = V_1;
 		if (!L_5)
@@ -14092,7 +14092,7 @@ IL_004b:
 	{
 		String_t* L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_9 = String_Equals_m3001(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1232, /*hidden argument*/NULL);
+		bool L_9 = String_Equals_m3001(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1237, /*hidden argument*/NULL);
 		V_2 = L_9;
 		bool L_10 = V_2;
 		G_B3_0 = __this;
@@ -14213,7 +14213,7 @@ IL_00e2:
 		ArrayElementTypeCheck (L_36, L_39);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_36, 3)) = (Object_t *)L_39;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1233, L_36, /*hidden argument*/NULL);
+		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1238, L_36, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 	}
 
@@ -14247,7 +14247,7 @@ IL_0129:
 		ArrayElementTypeCheck (L_45, L_46);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_45, 1)) = (Object_t *)L_46;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_47 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1234, L_45, /*hidden argument*/NULL);
+		String_t* L_47 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1239, L_45, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
 	}
 
@@ -14281,7 +14281,7 @@ IL_0165:
 		ArrayElementTypeCheck (L_52, L_53);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_52, 1)) = (Object_t *)L_53;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_54 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1235, L_52, /*hidden argument*/NULL);
+		String_t* L_54 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1240, L_52, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_54, /*hidden argument*/NULL);
 	}
 
@@ -14581,7 +14581,7 @@ extern "C" void SequencerCommandDelay_Start_m6634 (SequencerCommandDelay_t1486 *
 		ArrayElementTypeCheck (L_5, L_8);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 1)) = (Object_t *)L_8;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1319, L_5, /*hidden argument*/NULL);
+		String_t* L_9 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1324, L_5, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 	}
 
@@ -14687,7 +14687,7 @@ extern "C" void SequencerCommandFade_Start_m6637 (SequencerCommandFade_t1488 * _
 		__this->___direction_7 = L_0;
 		float L_1 = SequencerCommand_GetParameterAsFloat_m6589(__this, 1, (0.0f), /*hidden argument*/NULL);
 		__this->___duration_8 = L_1;
-		String_t* L_2 = SequencerCommand_GetParameter_m2937(__this, 2, (String_t*) &_stringLiteral1320, /*hidden argument*/NULL);
+		String_t* L_2 = SequencerCommand_GetParameter_m2937(__this, 2, (String_t*) &_stringLiteral1325, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Tools_t687_il2cpp_TypeInfo_var);
 		Color_t121  L_3 = Tools_WebColor_m6711(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		__this->___color_9 = L_3;
@@ -14727,7 +14727,7 @@ extern "C" void SequencerCommandFade_Start_m6637 (SequencerCommandFade_t1488 * _
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 3)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1321, L_12, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1326, L_12, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 	}
 
@@ -14751,7 +14751,7 @@ IL_0083:
 		NullCheck(L_21);
 		Texture2D_Apply_m7793(L_21, /*hidden argument*/NULL);
 		GameObject_t49 * L_22 = (GameObject_t49 *)il2cpp_codegen_object_new (GameObject_t49_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2680(L_22, (String_t*) &_stringLiteral1322, /*hidden argument*/NULL);
+		GameObject__ctor_m2680(L_22, (String_t*) &_stringLiteral1327, /*hidden argument*/NULL);
 		__this->___fader_13 = L_22;
 		GameObject_t49 * L_23 = (__this->___fader_13);
 		NullCheck(L_23);
@@ -14784,7 +14784,7 @@ IL_0083:
 		__this->___endTime_15 = ((float)((float)L_35+(float)L_36));
 		String_t* L_37 = (__this->___direction_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_38 = String_Equals_m7740(NULL /*static, unused*/, L_37, (String_t*) &_stringLiteral1323, 5, /*hidden argument*/NULL);
+		bool L_38 = String_Equals_m7740(NULL /*static, unused*/, L_37, (String_t*) &_stringLiteral1328, 5, /*hidden argument*/NULL);
 		__this->___fadeIn_10 = L_38;
 		bool L_39 = (__this->___fadeIn_10);
 		if (!L_39)
@@ -15017,7 +15017,7 @@ extern "C" void SequencerCommandLiveCamera_Start_m6641 (SequencerCommandLiveCame
 	SequencerCommandLiveCamera_t1489 * G_B6_0 = {0};
 	SequencerCommandLiveCamera_t1489 * G_B5_0 = {0};
 	{
-		String_t* L_0 = SequencerCommand_GetParameter_m2937(__this, 0, (String_t*) &_stringLiteral1177, /*hidden argument*/NULL);
+		String_t* L_0 = SequencerCommand_GetParameter_m2937(__this, 0, (String_t*) &_stringLiteral1182, /*hidden argument*/NULL);
 		V_0 = L_0;
 		Transform_t54 * L_1 = SequencerCommand_GetSubject_m3758(__this, 1, (Transform_t54 *)NULL, /*hidden argument*/NULL);
 		__this->___subject_7 = L_1;
@@ -15025,7 +15025,7 @@ extern "C" void SequencerCommandLiveCamera_Start_m6641 (SequencerCommandLiveCame
 		__this->___duration_13 = L_2;
 		String_t* L_3 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_4 = String_Equals_m3001(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral983, /*hidden argument*/NULL);
+		bool L_4 = String_Equals_m3001(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
 		V_1 = L_4;
 		bool L_5 = V_1;
 		if (!L_5)
@@ -15043,7 +15043,7 @@ IL_004b:
 	{
 		String_t* L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_9 = String_Equals_m3001(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1232, /*hidden argument*/NULL);
+		bool L_9 = String_Equals_m3001(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1237, /*hidden argument*/NULL);
 		__this->___isOriginal_18 = L_9;
 		bool L_10 = (__this->___isOriginal_18);
 		G_B3_0 = __this;
@@ -15164,7 +15164,7 @@ IL_00ec:
 		ArrayElementTypeCheck (L_36, L_39);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_36, 3)) = (Object_t *)L_39;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1233, L_36, /*hidden argument*/NULL);
+		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1238, L_36, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_40, /*hidden argument*/NULL);
 	}
 
@@ -15198,7 +15198,7 @@ IL_0133:
 		ArrayElementTypeCheck (L_45, L_46);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_45, 1)) = (Object_t *)L_46;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_47 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1234, L_45, /*hidden argument*/NULL);
+		String_t* L_47 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1239, L_45, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
 	}
 
@@ -15232,7 +15232,7 @@ IL_016f:
 		ArrayElementTypeCheck (L_52, L_53);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_52, 1)) = (Object_t *)L_53;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_54 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1235, L_52, /*hidden argument*/NULL);
+		String_t* L_54 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1240, L_52, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_54, /*hidden argument*/NULL);
 	}
 
@@ -15615,7 +15615,7 @@ extern "C" void SequencerCommandLookAt_Start_m6645 (SequencerCommandLookAt_t1490
 		__this->___duration_9 = L_4;
 		String_t* L_5 = SequencerCommand_GetParameter_m2937(__this, 3, (String_t*)NULL, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_6 = String_Compare_m7536(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral1269, 5, /*hidden argument*/NULL);
+		int32_t L_6 = String_Compare_m7536(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral1274, 5, /*hidden argument*/NULL);
 		V_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_7 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -15651,7 +15651,7 @@ extern "C" void SequencerCommandLookAt_Start_m6645 (SequencerCommandLookAt_t1490
 		ArrayElementTypeCheck (L_13, L_16);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 3)) = (Object_t *)L_16;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1271, L_13, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1276, L_13, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 	}
 
@@ -15685,7 +15685,7 @@ IL_0099:
 		ArrayElementTypeCheck (L_22, L_23);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 1)) = (Object_t *)L_23;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_24 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1324, L_22, /*hidden argument*/NULL);
+		String_t* L_24 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1329, L_22, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 	}
 
@@ -15719,7 +15719,7 @@ IL_00dc:
 		ArrayElementTypeCheck (L_29, L_30);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 1)) = (Object_t *)L_30;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_31 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1325, L_29, /*hidden argument*/NULL);
+		String_t* L_31 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1330, L_29, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 	}
 
@@ -15996,7 +15996,7 @@ extern "C" void SequencerCommandMoveTo_Start_m6649 (SequencerCommandMoveTo_t1491
 		ArrayElementTypeCheck (L_9, L_12);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_9, 3)) = (Object_t *)L_12;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1266, L_9, /*hidden argument*/NULL);
+		String_t* L_13 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1271, L_9, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 	}
 
@@ -16030,7 +16030,7 @@ IL_0075:
 		ArrayElementTypeCheck (L_18, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 1)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1326, L_18, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1331, L_18, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 	}
 
@@ -16064,7 +16064,7 @@ IL_00b8:
 		ArrayElementTypeCheck (L_25, L_26);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_25, 1)) = (Object_t *)L_26;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1327, L_25, /*hidden argument*/NULL);
+		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1332, L_25, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
 	}
 
@@ -16399,7 +16399,7 @@ IL_0057:
 		ArrayElementTypeCheck (L_30, L_31);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_30, 4)) = (Object_t *)L_31;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_32 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1328, L_30, /*hidden argument*/NULL);
+		String_t* L_32 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1333, L_30, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
 	}
 
@@ -16412,7 +16412,7 @@ IL_00ee:
 		ArrayElementTypeCheck (L_33, L_34);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_33, 0)) = (Object_t *)L_34;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_35 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1329, L_33, /*hidden argument*/NULL);
+		String_t* L_35 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1334, L_33, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_36 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
@@ -16434,7 +16434,7 @@ extern "C" int32_t SequencerCommandQTE_GetVariableType_m6654 (SequencerCommandQT
 	{
 		String_t* L_0 = (__this->___variableQTEValue_10);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_1 = String_Compare_m7536(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1330, 5, /*hidden argument*/NULL);
+		int32_t L_1 = String_Compare_m7536(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1335, 5, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_002c;
@@ -16443,7 +16443,7 @@ extern "C" int32_t SequencerCommandQTE_GetVariableType_m6654 (SequencerCommandQT
 	{
 		String_t* L_2 = (__this->___variableQTEValue_10);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		int32_t L_3 = String_Compare_m7536(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1126, 5, /*hidden argument*/NULL);
+		int32_t L_3 = String_Compare_m7536(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1131, 5, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_002e;
@@ -16532,7 +16532,7 @@ extern "C" void SequencerCommandQTE_Update_m6655 (SequencerCommandQTE_t1492 * __
 		ArrayElementTypeCheck (L_6, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 1)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1117, L_6, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1122, L_6, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_11 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
@@ -16540,7 +16540,7 @@ extern "C" void SequencerCommandQTE_Update_m6655 (SequencerCommandQTE_t1492 * __
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_t665_il2cpp_TypeInfo_var);
 		DialogueSystemController_t688 * L_12 = DialogueManager_get_Instance_m2967(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		Component_SendMessage_m3356(L_12, (String_t*) &_stringLiteral1331, 1, /*hidden argument*/NULL);
+		Component_SendMessage_m3356(L_12, (String_t*) &_stringLiteral1336, 1, /*hidden argument*/NULL);
 		SequencerCommand_Stop_m2946(__this, /*hidden argument*/NULL);
 		goto IL_0089;
 	}
@@ -16683,7 +16683,7 @@ IL_0021:
 		ArrayElementTypeCheck (L_9, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_9, 1)) = (Object_t *)L_11;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1332, L_9, /*hidden argument*/NULL);
+		String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1337, L_9, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 	}
 
@@ -16718,7 +16718,7 @@ IL_006f:
 		ArrayElementTypeCheck (L_17, L_18);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 1)) = (Object_t *)L_18;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1333, L_17, /*hidden argument*/NULL);
+		String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1338, L_17, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 	}
 
@@ -16862,7 +16862,7 @@ IL_0060:
 		V_3 = L_17;
 		String_t* L_18 = SequencerCommand_GetParameter_m2937(__this, 4, (String_t*)NULL, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_19 = String_Equals_m3001(NULL /*static, unused*/, L_18, (String_t*) &_stringLiteral888, /*hidden argument*/NULL);
+		bool L_19 = String_Equals_m3001(NULL /*static, unused*/, L_18, (String_t*) &_stringLiteral893, /*hidden argument*/NULL);
 		V_4 = L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_20 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -16906,7 +16906,7 @@ IL_0060:
 		ArrayElementTypeCheck (L_29, L_32);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 4)) = (Object_t *)L_32;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral889, L_29, /*hidden argument*/NULL);
+		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral894, L_29, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 	}
 
@@ -16921,7 +16921,7 @@ IL_00da:
 	{
 		String_t* L_35 = V_2;
 		NullCheck(L_35);
-		bool L_36 = String_StartsWith_m3455(L_35, (String_t*) &_stringLiteral890, /*hidden argument*/NULL);
+		bool L_36 = String_StartsWith_m3455(L_35, (String_t*) &_stringLiteral895, /*hidden argument*/NULL);
 		if (!L_36)
 		{
 			goto IL_010b;
@@ -17000,7 +17000,7 @@ IL_0152:
 		ArrayElementTypeCheck (L_54, L_55);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_54, 1)) = (Object_t *)L_55;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_56 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral891, L_54, /*hidden argument*/NULL);
+		String_t* L_56 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral896, L_54, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
 	}
 
@@ -17053,7 +17053,7 @@ extern "C" void SequencerCommandTextInput_OnAcceptedText_m6661 (SequencerCommand
 		ArrayElementTypeCheck (L_3, L_5);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1)) = (Object_t *)L_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral892, L_3, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral897, L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 		Lua_Run_m3764(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 	}
@@ -17301,13 +17301,13 @@ IL_0095:
 		G_B10_0 = 4;
 		G_B10_1 = L_24;
 		G_B10_2 = L_24;
-		G_B10_3 = (String_t*) &_stringLiteral1334;
+		G_B10_3 = (String_t*) &_stringLiteral1339;
 		if (!L_26)
 		{
 			G_B11_0 = 4;
 			G_B11_1 = L_24;
 			G_B11_2 = L_24;
-			G_B11_3 = (String_t*) &_stringLiteral1334;
+			G_B11_3 = (String_t*) &_stringLiteral1339;
 			goto IL_00e6;
 		}
 	}
@@ -17399,7 +17399,7 @@ IL_00fe:
 		ArrayElementTypeCheck (L_41, L_43);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_41, 4)) = (Object_t *)L_43;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_44 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1335, L_41, /*hidden argument*/NULL);
+		String_t* L_44 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1340, L_41, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
 	}
 
@@ -17459,7 +17459,7 @@ IL_0155:
 		ArrayElementTypeCheck (L_55, L_57);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_55, 4)) = (Object_t *)L_57;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_58 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1336, L_55, /*hidden argument*/NULL);
+		String_t* L_58 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1341, L_55, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_58, /*hidden argument*/NULL);
 	}
 
@@ -17510,7 +17510,7 @@ IL_01ab:
 		ArrayElementTypeCheck (L_67, L_69);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_67, 4)) = (Object_t *)L_69;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_70 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1337, L_67, /*hidden argument*/NULL);
+		String_t* L_70 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1342, L_67, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
 	}
 
@@ -17549,7 +17549,7 @@ IL_01f1:
 		ArrayElementTypeCheck (L_77, L_79);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_77, 1)) = (Object_t *)L_79;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_80 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1338, L_77, /*hidden argument*/NULL);
+		String_t* L_80 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1343, L_77, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_80, /*hidden argument*/NULL);
 	}
 
@@ -17607,7 +17607,7 @@ IL_024d:
 		ArrayElementTypeCheck (L_90, L_92);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_90, 4)) = (Object_t *)L_92;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_93 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1339, L_90, /*hidden argument*/NULL);
+		String_t* L_93 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1344, L_90, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_93, /*hidden argument*/NULL);
 	}
 
@@ -17924,7 +17924,7 @@ extern "C" void SequencerCommandWaitForMessage_Start_m6670 (SequencerCommandWait
 		ArrayElementTypeCheck (L_3, L_4);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1)) = (Object_t *)L_4;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1340, L_3, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1345, L_3, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 	}
 
@@ -17978,7 +17978,7 @@ extern "C" void SequencerCommandWaitForMessage_OnSequencerMessage_m6671 (Sequenc
 		ArrayElementTypeCheck (L_5, L_6);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 1)) = (Object_t *)L_6;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1341, L_5, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1346, L_5, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 	}
 
@@ -18078,7 +18078,7 @@ extern "C" void SequencerCommandZoom2D_Start_m6673 (SequencerCommandZoom2D_t1497
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 3)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1342, L_12, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1347, L_12, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 	}
 
@@ -18112,7 +18112,7 @@ IL_0083:
 		ArrayElementTypeCheck (L_21, L_22);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_21, 1)) = (Object_t *)L_22;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_23 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1235, L_21, /*hidden argument*/NULL);
+		String_t* L_23 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1240, L_21, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
 	}
 
@@ -18364,7 +18364,7 @@ extern "C" void SubtitleSettings__ctor_m6677 (SubtitleSettings_t684 * __this, co
 extern "C" void CameraSettings__ctor_m6678 (CameraSettings_t1499 * __this, const MethodInfo* method)
 {
 	{
-		__this->___defaultSequence_3 = (String_t*) &_stringLiteral1343;
+		__this->___defaultSequence_3 = (String_t*) &_stringLiteral1348;
 		Object__ctor_m85(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -19153,7 +19153,7 @@ extern "C" MethodInfo_t * SymbolExtensions_GetMethodInfo_m6695 (Object_t * __thi
 	}
 	{
 		ArgumentException_t725 * L_3 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_3, (String_t*) &_stringLiteral1344, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_3, (String_t*) &_stringLiteral1349, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -20066,7 +20066,7 @@ extern "C" String_t* Tools_ToWebColor_m3115 (Object_t * __this /* static, unused
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 3)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1345, L_12, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1350, L_12, /*hidden argument*/NULL);
 		return L_16;
 	}
 }
@@ -20802,7 +20802,7 @@ IL_0118:
 		ArrayElementTypeCheck (L_55, L_58);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_55, 2)) = (Object_t *)L_58;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_59 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1346, L_55, /*hidden argument*/NULL);
+		String_t* L_59 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1351, L_55, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_59, /*hidden argument*/NULL);
 	}
 
@@ -20853,7 +20853,7 @@ IL_0157:
 		ArrayElementTypeCheck (L_69, L_72);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_69, 3)) = (Object_t *)L_72;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_73 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1347, L_69, /*hidden argument*/NULL);
+		String_t* L_73 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1352, L_69, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
 	}
 
@@ -21552,7 +21552,7 @@ IL_0000:
 
 IL_000b:
 		{
-			Debug_LogError_m5386(NULL /*static, unused*/, (String_t*) &_stringLiteral1348, __this, /*hidden argument*/NULL);
+			Debug_LogError_m5386(NULL /*static, unused*/, (String_t*) &_stringLiteral1353, __this, /*hidden argument*/NULL);
 			goto IL_0090;
 		}
 
@@ -21569,7 +21569,7 @@ IL_001b:
 
 IL_002b:
 		{
-			Debug_LogError_m5386(NULL /*static, unused*/, (String_t*) &_stringLiteral1349, __this, /*hidden argument*/NULL);
+			Debug_LogError_m5386(NULL /*static, unused*/, (String_t*) &_stringLiteral1354, __this, /*hidden argument*/NULL);
 			goto IL_0090;
 		}
 
@@ -21585,7 +21585,7 @@ IL_003b:
 
 IL_004c:
 		{
-			Debug_LogError_m5386(NULL /*static, unused*/, (String_t*) &_stringLiteral1350, __this, /*hidden argument*/NULL);
+			Debug_LogError_m5386(NULL /*static, unused*/, (String_t*) &_stringLiteral1355, __this, /*hidden argument*/NULL);
 			goto IL_0090;
 		}
 
@@ -21636,7 +21636,7 @@ CATCH_0095:
 		NullCheck(L_14);
 		String_t* L_15 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_14);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1351, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1356, L_15, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		goto IL_00b0;
 	} // end catch (depth: 1)
@@ -21748,7 +21748,7 @@ IL_0016:
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_t665_il2cpp_TypeInfo_var);
 		DialogueSystemController_t688 * L_3 = DialogueManager_get_Instance_m2967(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Component_SendMessage_m3356(L_3, (String_t*) &_stringLiteral1331, 1, /*hidden argument*/NULL);
+		Component_SendMessage_m3356(L_3, (String_t*) &_stringLiteral1336, 1, /*hidden argument*/NULL);
 	}
 
 IL_0031:
@@ -22213,7 +22213,7 @@ extern "C" void NWNTools_RegisterNWScriptFunction_m6735 (Object_t * __this /* st
 		Object_t * L_0 = ___target;
 		MethodInfo_t * L_1 = ___function;
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1352, L_0, L_1, /*hidden argument*/NULL);
+		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1357, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -22285,7 +22285,7 @@ extern "C" void QuestWatchItem__ctor_m6736 (QuestWatchItem_t1515 * __this, Strin
 		ArrayElementTypeCheck (L_2, L_4);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)L_4;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1377, L_2, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1382, L_2, /*hidden argument*/NULL);
 		__this->___luaExpression_3 = L_5;
 		QuestChangedDelegate_t1514 * L_6 = ___questChangedHandler;
 		__this->___questChangedHandler_4 = L_6;
@@ -22346,7 +22346,7 @@ extern "C" void QuestWatchItem__ctor_m6737 (QuestWatchItem_t1515 * __this, Strin
 		ArrayElementTypeCheck (L_6, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 1)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1378, L_6, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1383, L_6, /*hidden argument*/NULL);
 		__this->___luaExpression_3 = L_10;
 		QuestChangedDelegate_t1514 * L_11 = ___questChangedHandler;
 		__this->___questChangedHandler_4 = L_11;
@@ -22798,7 +22798,7 @@ extern "C" void QuestLog_AddQuest_m6751 (Object_t * __this /* static, unused */,
 		ArrayElementTypeCheck (L_17, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 5)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1353, L_17, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1358, L_17, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_21 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
@@ -22871,7 +22871,7 @@ extern "C" void QuestLog_AddQuest_m6752 (Object_t * __this /* static, unused */,
 		ArrayElementTypeCheck (L_11, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 3)) = (Object_t *)L_13;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1354, L_11, /*hidden argument*/NULL);
+		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1359, L_11, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_15 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
@@ -22938,7 +22938,7 @@ extern "C" void QuestLog_DeleteQuest_m6754 (Object_t * __this /* static, unused 
 		ArrayElementTypeCheck (L_2, L_4);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)L_4;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1355, L_2, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1360, L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_6 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
@@ -22966,7 +22966,7 @@ extern "C" int32_t QuestLog_GetQuestState_m3165 (Object_t * __this /* static, un
 	{
 		String_t* L_0 = ___title;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1356, /*hidden argument*/NULL);
+		Result_t641  L_1 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1361, /*hidden argument*/NULL);
 		V_0 = L_1;
 		String_t* L_2 = Result_get_AsString_m3093((&V_0), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(QuestLog_t703_il2cpp_TypeInfo_var);
@@ -22992,7 +22992,7 @@ extern "C" void QuestLog_SetQuestState_m6755 (Object_t * __this /* static, unuse
 		IL2CPP_RUNTIME_CLASS_INIT(QuestLog_t703_il2cpp_TypeInfo_var);
 		String_t* L_2 = QuestLog_StateToString_m6769(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetQuestField_m6339(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1356, L_2, /*hidden argument*/NULL);
+		DialogueLua_SetQuestField_m6339(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1361, L_2, /*hidden argument*/NULL);
 		QuestLog_SendUpdateTracker_m6756(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
@@ -23255,7 +23255,7 @@ extern "C" int32_t QuestLog_StringToState_m6768 (Object_t * __this /* static, un
 	{
 		String_t* L_0 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_Equals_m3001(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1357, /*hidden argument*/NULL);
+		bool L_1 = String_Equals_m3001(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1362, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -23269,7 +23269,7 @@ IL_0012:
 	{
 		String_t* L_2 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_3 = String_Equals_m3001(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1358, /*hidden argument*/NULL);
+		bool L_3 = String_Equals_m3001(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1363, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0032;
@@ -23278,7 +23278,7 @@ IL_0012:
 	{
 		String_t* L_4 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_5 = String_Equals_m3001(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1359, /*hidden argument*/NULL);
+		bool L_5 = String_Equals_m3001(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1364, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0034;
@@ -23294,7 +23294,7 @@ IL_0034:
 	{
 		String_t* L_6 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1360, /*hidden argument*/NULL);
+		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1365, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0046;
@@ -23308,7 +23308,7 @@ IL_0046:
 	{
 		String_t* L_8 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_9 = String_Equals_m3001(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1361, /*hidden argument*/NULL);
+		bool L_9 = String_Equals_m3001(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1366, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_0059;
@@ -23379,32 +23379,32 @@ IL_002a:
 
 IL_0037:
 	{
-		return (String_t*) &_stringLiteral1362;
+		return (String_t*) &_stringLiteral1367;
 	}
 
 IL_003d:
 	{
-		return (String_t*) &_stringLiteral1357;
+		return (String_t*) &_stringLiteral1362;
 	}
 
 IL_0043:
 	{
-		return (String_t*) &_stringLiteral1358;
+		return (String_t*) &_stringLiteral1363;
 	}
 
 IL_0049:
 	{
-		return (String_t*) &_stringLiteral1360;
+		return (String_t*) &_stringLiteral1365;
 	}
 
 IL_004f:
 	{
-		return (String_t*) &_stringLiteral1361;
+		return (String_t*) &_stringLiteral1366;
 	}
 
 IL_0055:
 	{
-		return (String_t*) &_stringLiteral1362;
+		return (String_t*) &_stringLiteral1367;
 	}
 }
 // System.String PixelCrushers.DialogueSystem.QuestLog::GetQuestTitle(System.String)
@@ -23421,7 +23421,7 @@ extern "C" String_t* QuestLog_GetQuestTitle_m3087 (Object_t * __this /* static, 
 	{
 		String_t* L_0 = ___title;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = DialogueLua_GetLocalizedQuestField_m6349(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1012, /*hidden argument*/NULL);
+		Result_t641  L_1 = DialogueLua_GetLocalizedQuestField_m6349(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
 		V_0 = L_1;
 		String_t* L_2 = Result_get_AsString_m3093((&V_0), /*hidden argument*/NULL);
 		return L_2;
@@ -23554,7 +23554,7 @@ extern "C" String_t* QuestLog_GetQuestDescription_m6770 (Object_t * __this /* st
 		V_1 = L_5;
 		String_t* L_6 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1363, /*hidden argument*/NULL);
+		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1368, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_0032;
@@ -23613,17 +23613,17 @@ extern "C" String_t* QuestLog_GetDefaultDescriptionFieldForState_m6771 (Object_t
 
 IL_0015:
 	{
-		return (String_t*) &_stringLiteral1364;
+		return (String_t*) &_stringLiteral1369;
 	}
 
 IL_001b:
 	{
-		return (String_t*) &_stringLiteral1365;
+		return (String_t*) &_stringLiteral1370;
 	}
 
 IL_0021:
 	{
-		return (String_t*) &_stringLiteral1014;
+		return (String_t*) &_stringLiteral1019;
 	}
 }
 // System.Void PixelCrushers.DialogueSystem.QuestLog::SetQuestDescription(System.String,PixelCrushers.DialogueSystem.QuestState,System.String)
@@ -23663,7 +23663,7 @@ extern "C" String_t* QuestLog_GetQuestAbandonSequence_m6773 (Object_t * __this /
 	{
 		String_t* L_0 = ___title;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = DialogueLua_GetLocalizedQuestField_m6349(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1366, /*hidden argument*/NULL);
+		Result_t641  L_1 = DialogueLua_GetLocalizedQuestField_m6349(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1371, /*hidden argument*/NULL);
 		V_0 = L_1;
 		String_t* L_2 = Result_get_AsString_m3093((&V_0), /*hidden argument*/NULL);
 		return L_2;
@@ -23683,7 +23683,7 @@ extern "C" void QuestLog_SetQuestAbandonSequence_m6774 (Object_t * __this /* sta
 		String_t* L_0 = ___title;
 		String_t* L_1 = ___sequence;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetLocalizedQuestField_m6350(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1366, L_1, /*hidden argument*/NULL);
+		DialogueLua_SetLocalizedQuestField_m6350(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1371, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -23701,7 +23701,7 @@ extern "C" int32_t QuestLog_GetQuestEntryCount_m3089 (Object_t * __this /* stati
 	{
 		String_t* L_0 = ___questTitle;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1367, /*hidden argument*/NULL);
+		Result_t641  L_1 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1372, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = Result_get_AsInt_m3125((&V_0), /*hidden argument*/NULL);
 		return L_2;
@@ -23736,7 +23736,7 @@ extern "C" void QuestLog_AddQuestEntry_m6775 (Object_t * __this /* static, unuse
 		int32_t L_5 = L_4;
 		Object_t * L_6 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetQuestField_m6339(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral1367, L_6, /*hidden argument*/NULL);
+		DialogueLua_SetQuestField_m6339(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral1372, L_6, /*hidden argument*/NULL);
 		int32_t L_7 = V_0;
 		String_t* L_8 = QuestLog_GetEntryFieldName_m6778(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		V_1 = L_8;
@@ -23750,7 +23750,7 @@ extern "C" void QuestLog_AddQuestEntry_m6775 (Object_t * __this /* static, unuse
 		V_2 = L_14;
 		String_t* L_15 = ___questTitle;
 		String_t* L_16 = V_2;
-		DialogueLua_SetQuestField_m6339(NULL /*static, unused*/, L_15, L_16, (String_t*) &_stringLiteral1362, /*hidden argument*/NULL);
+		DialogueLua_SetQuestField_m6339(NULL /*static, unused*/, L_15, L_16, (String_t*) &_stringLiteral1367, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -23887,7 +23887,7 @@ extern "C" String_t* QuestLog_GetEntryFieldName_m6778 (Object_t * __this /* stat
 		ArrayElementTypeCheck (L_0, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)L_3;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1368, L_0, /*hidden argument*/NULL);
+		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1373, L_0, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
@@ -23915,7 +23915,7 @@ extern "C" String_t* QuestLog_GetEntryStateFieldName_m6779 (Object_t * __this /*
 		ArrayElementTypeCheck (L_0, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)L_3;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1369, L_0, /*hidden argument*/NULL);
+		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1374, L_0, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
@@ -23933,7 +23933,7 @@ extern "C" bool QuestLog_IsQuestTrackingAvailable_m6780 (Object_t * __this /* st
 	{
 		String_t* L_0 = ___questTitle;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1370, /*hidden argument*/NULL);
+		Result_t641  L_1 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1375, /*hidden argument*/NULL);
 		V_0 = L_1;
 		bool L_2 = Result_get_AsBool_m3140((&V_0), /*hidden argument*/NULL);
 		return L_2;
@@ -23965,7 +23965,7 @@ extern "C" bool QuestLog_IsQuestTrackingEnabled_m3086 (Object_t * __this /* stat
 	{
 		String_t* L_2 = ___questTitle;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_3 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1371, /*hidden argument*/NULL);
+		Result_t641  L_3 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1376, /*hidden argument*/NULL);
 		V_0 = L_3;
 		bool L_4 = Result_get_AsBool_m3140((&V_0), /*hidden argument*/NULL);
 		G_B3_0 = ((int32_t)(L_4));
@@ -24000,7 +24000,7 @@ extern "C" void QuestLog_SetQuestTracking_m6781 (Object_t * __this /* static, un
 		bool L_2 = L_1;
 		Object_t * L_3 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetQuestField_m6339(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1371, L_3, /*hidden argument*/NULL);
+		DialogueLua_SetQuestField_m6339(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1376, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -24018,7 +24018,7 @@ extern "C" bool QuestLog_IsQuestAbandonable_m6782 (Object_t * __this /* static, 
 	{
 		String_t* L_0 = ___questTitle;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1372, /*hidden argument*/NULL);
+		Result_t641  L_1 = DialogueLua_GetQuestField_m3092(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1377, /*hidden argument*/NULL);
 		V_0 = L_1;
 		bool L_2 = Result_get_AsBool_m3140((&V_0), /*hidden argument*/NULL);
 		return L_2;
@@ -24109,7 +24109,7 @@ extern "C" StringU5BU5D_t20* QuestLog_GetAllQuests_m6783 (Object_t * __this /* s
 		List_1__ctor_m83(L_0, /*hidden argument*/List_1__ctor_m83_MethodInfo_var);
 		V_0 = L_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1373, /*hidden argument*/NULL);
+		Result_t641  L_1 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1378, /*hidden argument*/NULL);
 		V_9 = L_1;
 		LuaTableWrapper_t1335 * L_2 = Result_get_AsTable_m5686((&V_9), /*hidden argument*/NULL);
 		V_1 = L_2;
@@ -24136,7 +24136,7 @@ extern "C" StringU5BU5D_t20* QuestLog_GetAllQuests_m6783 (Object_t * __this /* s
 		ArrayElementTypeCheck (L_6, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1374, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1379, L_6, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 	}
 
@@ -24197,7 +24197,7 @@ IL_0085:
 			{
 				LuaTableWrapper_t1335 * L_17 = V_4;
 				NullCheck(L_17);
-				Object_t * L_18 = LuaTableWrapper_get_Item_m5732(L_17, (String_t*) &_stringLiteral1012, /*hidden argument*/NULL);
+				Object_t * L_18 = LuaTableWrapper_get_Item_m5732(L_17, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
 				V_7 = L_18;
 				Object_t * L_19 = V_7;
 				if (!L_19)
@@ -24228,7 +24228,7 @@ IL_00ab:
 				V_6 = 0;
 				LuaTableWrapper_t1335 * L_23 = V_4;
 				NullCheck(L_23);
-				Object_t * L_24 = LuaTableWrapper_get_Item_m5732(L_23, (String_t*) &_stringLiteral1375, /*hidden argument*/NULL);
+				Object_t * L_24 = LuaTableWrapper_get_Item_m5732(L_23, (String_t*) &_stringLiteral1380, /*hidden argument*/NULL);
 				V_8 = L_24;
 				Object_t * L_25 = V_8;
 				if (!L_25)
@@ -24323,7 +24323,7 @@ IL_011f:
 			ArrayElementTypeCheck (L_37, (String_t*) &_stringLiteral104);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_38 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1376, L_37, /*hidden argument*/NULL);
+			String_t* L_38 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1381, L_37, /*hidden argument*/NULL);
 			Debug_LogWarning_m2940(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
 		}
 
@@ -25651,14 +25651,14 @@ extern "C" String_t* QuestLogWindow_GetNoQuestsMessage_m3908 (QuestLogWindow_t19
 		}
 	}
 	{
-		String_t* L_1 = QuestLogWindow_GetLocalizedText_m6813(__this, (String_t*) &_stringLiteral1379, /*hidden argument*/NULL);
+		String_t* L_1 = QuestLogWindow_GetLocalizedText_m6813(__this, (String_t*) &_stringLiteral1384, /*hidden argument*/NULL);
 		G_B3_0 = L_1;
 		goto IL_0022;
 	}
 
 IL_0017:
 	{
-		String_t* L_2 = QuestLogWindow_GetLocalizedText_m6813(__this, (String_t*) &_stringLiteral1380, /*hidden argument*/NULL);
+		String_t* L_2 = QuestLogWindow_GetLocalizedText_m6813(__this, (String_t*) &_stringLiteral1385, /*hidden argument*/NULL);
 		G_B3_0 = L_2;
 	}
 
@@ -25874,7 +25874,7 @@ extern "C" void QuestLogWindow_OnConfirmAbandonQuest_m6817 (QuestLogWindow_t198 
 		DialogueSystemController_t688 * L_3 = DialogueManager_get_Instance_m2967(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_4 = QuestLogWindow_get_SelectedQuest_m3079(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Component_BroadcastMessage_m7573(L_3, (String_t*) &_stringLiteral1381, L_4, 1, /*hidden argument*/NULL);
+		Component_BroadcastMessage_m7573(L_3, (String_t*) &_stringLiteral1386, L_4, 1, /*hidden argument*/NULL);
 		String_t* L_5 = QuestLogWindow_get_SelectedQuest_m3079(__this, /*hidden argument*/NULL);
 		String_t* L_6 = QuestLog_GetQuestAbandonSequence_m6773(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
@@ -25951,14 +25951,14 @@ IL_0011:
 		}
 	}
 	{
-		G_B5_0 = (String_t*) &_stringLiteral1382;
+		G_B5_0 = (String_t*) &_stringLiteral1387;
 		G_B5_1 = G_B3_0;
 		goto IL_0052;
 	}
 
 IL_004d:
 	{
-		G_B5_0 = (String_t*) &_stringLiteral1381;
+		G_B5_0 = (String_t*) &_stringLiteral1386;
 		G_B5_1 = G_B4_0;
 	}
 
@@ -26999,7 +26999,7 @@ IL_0016:
 		GUIStyle_set_wordWrap_m3287(L_9, 0, /*hidden argument*/NULL);
 		GUIStyle_t303 * L_10 = (__this->___questButtonStyle_34);
 		GUIContent_t566 * L_11 = (GUIContent_t566 *)il2cpp_codegen_object_new (GUIContent_t566_il2cpp_TypeInfo_var);
-		GUIContent__ctor_m3154(L_11, (String_t*) &_stringLiteral1383, /*hidden argument*/NULL);
+		GUIContent__ctor_m3154(L_11, (String_t*) &_stringLiteral1388, /*hidden argument*/NULL);
 		GUIScrollView_t1525 * L_12 = (__this->___scrollView_15);
 		NullCheck(L_12);
 		float L_13 = GUIScrollView_get_contentWidth_m7278(L_12, /*hidden argument*/NULL);
@@ -27424,7 +27424,7 @@ IL_0024:
 		GUIStyle_t303 * L_11 = (__this->___questButtonStyle_34);
 		NullCheck(L_11);
 		GUIStyle_set_wordWrap_m3287(L_11, 0, /*hidden argument*/NULL);
-		String_t* L_12 = QuestLogWindow_GetLocalizedText_m6813(__this, (String_t*) &_stringLiteral1371, /*hidden argument*/NULL);
+		String_t* L_12 = QuestLogWindow_GetLocalizedText_m6813(__this, (String_t*) &_stringLiteral1376, /*hidden argument*/NULL);
 		V_1 = L_12;
 		GUIStyle_t303 * L_13 = (__this->___questButtonStyle_34);
 		String_t* L_14 = V_1;
@@ -27437,7 +27437,7 @@ IL_0024:
 		V_3 = L_17;
 		float L_18 = ((&V_2)->___x_1);
 		V_4 = L_18;
-		String_t* L_19 = QuestLogWindow_GetLocalizedText_m6813(__this, (String_t*) &_stringLiteral1383, /*hidden argument*/NULL);
+		String_t* L_19 = QuestLogWindow_GetLocalizedText_m6813(__this, (String_t*) &_stringLiteral1388, /*hidden argument*/NULL);
 		V_5 = L_19;
 		GUIStyle_t303 * L_20 = (__this->___questButtonStyle_34);
 		String_t* L_21 = V_5;
@@ -27550,7 +27550,7 @@ IL_0149:
 		float L_59 = V_0;
 		GUIStyle_t303 * L_60 = (__this->___questButtonStyle_34);
 		GUIContent_t566 * L_61 = (GUIContent_t566 *)il2cpp_codegen_object_new (GUIContent_t566_il2cpp_TypeInfo_var);
-		GUIContent__ctor_m3154(L_61, (String_t*) &_stringLiteral1383, /*hidden argument*/NULL);
+		GUIContent__ctor_m3154(L_61, (String_t*) &_stringLiteral1388, /*hidden argument*/NULL);
 		GUIScrollView_t1525 * L_62 = (__this->___scrollView_15);
 		NullCheck(L_62);
 		float L_63 = GUIScrollView_get_contentWidth_m7278(L_62, /*hidden argument*/NULL);
@@ -27616,7 +27616,7 @@ extern "C" void GameSaver__ctor_m6846 (GameSaver_t1528 * __this, const MethodInf
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		__this->___playerPrefsKey_2 = (String_t*) &_stringLiteral1384;
+		__this->___playerPrefsKey_2 = (String_t*) &_stringLiteral1389;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___startingLevel_8 = L_0;
@@ -27754,7 +27754,7 @@ extern "C" void GameSaver_SaveGame_m6849 (GameSaver_t1528 * __this, int32_t ___s
 		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1385, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1390, L_3, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 	}
 
@@ -27787,7 +27787,7 @@ IL_0038:
 		ArrayElementTypeCheck (L_7, L_10);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 1)) = (Object_t *)L_10;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1386, L_7, /*hidden argument*/NULL);
+		String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1391, L_7, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 	}
 
@@ -27861,7 +27861,7 @@ extern "C" void GameSaver_LoadGame_m6851 (GameSaver_t1528 * __this, int32_t ___s
 		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1387, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1392, L_3, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 	}
 
@@ -27905,7 +27905,7 @@ IL_0038:
 		ArrayElementTypeCheck (L_12, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 1)) = (Object_t *)L_13;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1388, L_12, /*hidden argument*/NULL);
+		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1393, L_12, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 	}
 
@@ -27938,7 +27938,7 @@ IL_0082:
 		ArrayElementTypeCheck (L_17, L_20);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 1)) = (Object_t *)L_20;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1389, L_17, /*hidden argument*/NULL);
+		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1394, L_17, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 	}
 
@@ -28239,7 +28239,7 @@ IL_0055:
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 		Lua_Run_m5693(NULL /*static, unused*/, L_6, 1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_7 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral1390, /*hidden argument*/NULL);
+		Result_t641  L_7 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral1395, /*hidden argument*/NULL);
 		V_1 = L_7;
 		String_t* L_8 = Result_get_AsString_m3093((&V_1), /*hidden argument*/NULL);
 		__this->___U3ClevelNameU3E__0_0 = L_8;
@@ -28777,7 +28777,7 @@ extern "C" void LevelManager_OnRecordPersistentData_m6879 (LevelManager_t663 * _
 	{
 		String_t* L_0 = Application_get_loadedLevelName_m2602(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral1390, L_0, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral1395, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -28975,14 +28975,14 @@ extern "C" void PersistentDataManager_Record_m2943 (Object_t * __this /* static,
 		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1391, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1396, L_1, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 	}
 
 IL_0027:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Tools_t687_il2cpp_TypeInfo_var);
-		Tools_SendMessageToEveryone_m6709(NULL /*static, unused*/, (String_t*) &_stringLiteral1392, /*hidden argument*/NULL);
+		Tools_SendMessageToEveryone_m6709(NULL /*static, unused*/, (String_t*) &_stringLiteral1397, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -29017,14 +29017,14 @@ extern "C" void PersistentDataManager_Apply_m2945 (Object_t * __this /* static, 
 		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1393, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1398, L_1, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 	}
 
 IL_0027:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Tools_t687_il2cpp_TypeInfo_var);
-		Tools_SendMessageToEveryone_m6709(NULL /*static, unused*/, (String_t*) &_stringLiteral1394, /*hidden argument*/NULL);
+		Tools_SendMessageToEveryone_m6709(NULL /*static, unused*/, (String_t*) &_stringLiteral1399, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -29059,7 +29059,7 @@ extern "C" void PersistentDataManager_LevelWillBeUnloaded_m2944 (Object_t * __th
 		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1395, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1400, L_1, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 	}
 
@@ -29105,7 +29105,7 @@ extern "C" void PersistentDataManager_ApplySaveData_m2911 (Object_t * __this /* 
 		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1396, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1401, L_1, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 	}
 
@@ -29128,7 +29128,7 @@ IL_0027:
 		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1397, L_5, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1402, L_5, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 	}
 
@@ -29225,7 +29225,7 @@ IL_0054:
 		ArrayElementTypeCheck (L_15, L_16);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 1)) = (Object_t *)L_16;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1398, L_15, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1403, L_15, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 	}
 
@@ -29283,7 +29283,7 @@ IL_0000:
 	{ // begin try (depth: 1)
 		{
 			IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-			Result_t641  L_0 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1399, /*hidden argument*/NULL);
+			Result_t641  L_0 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1404, /*hidden argument*/NULL);
 			V_5 = L_0;
 			LuaTableWrapper_t1335 * L_1 = Result_get_AsTable_m5686((&V_5), /*hidden argument*/NULL);
 			V_0 = L_1;
@@ -29312,7 +29312,7 @@ IL_0024:
 			ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral104);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1400, L_4, /*hidden argument*/NULL);
+			String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1405, L_4, /*hidden argument*/NULL);
 			Debug_LogError_m2987(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		}
 
@@ -29369,7 +29369,7 @@ IL_0057:
 				ArrayElementTypeCheck (L_19, L_21);
 				*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 1)) = (Object_t *)L_21;
 				NullCheck(L_15);
-				StringBuilder_AppendFormat_m7702(L_15, (String_t*) &_stringLiteral1401, L_19, /*hidden argument*/NULL);
+				StringBuilder_AppendFormat_m7702(L_15, (String_t*) &_stringLiteral1406, L_19, /*hidden argument*/NULL);
 			}
 
 IL_008f:
@@ -29453,7 +29453,7 @@ CATCH_00af:
 		ArrayElementTypeCheck (L_27, L_29);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, 1)) = (Object_t *)L_29;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1402, L_27, /*hidden argument*/NULL);
+		String_t* L_30 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1407, L_27, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 		goto IL_00dd;
 	} // end catch (depth: 1)
@@ -29530,7 +29530,7 @@ IL_0000:
 	{ // begin try (depth: 1)
 		{
 			IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-			Result_t641  L_0 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1373, /*hidden argument*/NULL);
+			Result_t641  L_0 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1378, /*hidden argument*/NULL);
 			V_8 = L_0;
 			LuaTableWrapper_t1335 * L_1 = Result_get_AsTable_m5686((&V_8), /*hidden argument*/NULL);
 			V_0 = L_1;
@@ -29559,7 +29559,7 @@ IL_0024:
 			ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral104);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1403, L_4, /*hidden argument*/NULL);
+			String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1408, L_4, /*hidden argument*/NULL);
 			Debug_LogError_m2987(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		}
 
@@ -29682,7 +29682,7 @@ IL_00d1:
 					V_6 = L_33;
 					String_t* L_34 = V_6;
 					NullCheck(L_34);
-					bool L_35 = String_EndsWith_m7837(L_34, (String_t*) &_stringLiteral1356, /*hidden argument*/NULL);
+					bool L_35 = String_EndsWith_m7837(L_34, (String_t*) &_stringLiteral1361, /*hidden argument*/NULL);
 					if (!L_35)
 					{
 						goto IL_012a;
@@ -29718,7 +29718,7 @@ IL_00f4:
 					ArrayElementTypeCheck (L_43, L_46);
 					*((Object_t **)(Object_t **)SZArrayLdElema(L_43, 2)) = (Object_t *)L_46;
 					NullCheck(L_36);
-					StringBuilder_AppendFormat_m7702(L_36, (String_t*) &_stringLiteral1404, L_43, /*hidden argument*/NULL);
+					StringBuilder_AppendFormat_m7702(L_36, (String_t*) &_stringLiteral1409, L_43, /*hidden argument*/NULL);
 					goto IL_0171;
 				}
 
@@ -29726,7 +29726,7 @@ IL_012a:
 				{
 					String_t* L_47 = V_6;
 					IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-					bool L_48 = String_Equals_m3001(NULL /*static, unused*/, L_47, (String_t*) &_stringLiteral1371, /*hidden argument*/NULL);
+					bool L_48 = String_Equals_m3001(NULL /*static, unused*/, L_47, (String_t*) &_stringLiteral1376, /*hidden argument*/NULL);
 					if (!L_48)
 					{
 						goto IL_0171;
@@ -29760,7 +29760,7 @@ IL_013b:
 					ArrayElementTypeCheck (L_54, L_59);
 					*((Object_t **)(Object_t **)SZArrayLdElema(L_54, 1)) = (Object_t *)L_59;
 					NullCheck(L_49);
-					StringBuilder_AppendFormat_m7702(L_49, (String_t*) &_stringLiteral1405, L_54, /*hidden argument*/NULL);
+					StringBuilder_AppendFormat_m7702(L_49, (String_t*) &_stringLiteral1410, L_54, /*hidden argument*/NULL);
 				}
 
 IL_0171:
@@ -29833,7 +29833,7 @@ IL_0194:
 				ArrayElementTypeCheck (L_65, L_68);
 				*((Object_t **)(Object_t **)SZArrayLdElema(L_65, 0)) = (Object_t *)L_68;
 				NullCheck(L_64);
-				StringBuilder_AppendFormat_m7702(L_64, (String_t*) &_stringLiteral1406, L_65, /*hidden argument*/NULL);
+				StringBuilder_AppendFormat_m7702(L_64, (String_t*) &_stringLiteral1411, L_65, /*hidden argument*/NULL);
 				StringBuilder_t696 * L_69 = ___sb;
 				LuaTableWrapper_t1335 * L_70 = V_2;
 				IL2CPP_RUNTIME_CLASS_INIT(PersistentDataManager_t666_il2cpp_TypeInfo_var);
@@ -29921,7 +29921,7 @@ CATCH_01dc:
 		ArrayElementTypeCheck (L_76, L_78);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_76, 1)) = (Object_t *)L_78;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_79 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1407, L_76, /*hidden argument*/NULL);
+		String_t* L_79 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1412, L_76, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_79, /*hidden argument*/NULL);
 		goto IL_020a;
 	} // end catch (depth: 1)
@@ -29965,7 +29965,7 @@ extern "C" void PersistentDataManager_AppendFields_m6889 (Object_t * __this /* s
 	{
 		StringBuilder_t696 * L_0 = ___sb;
 		NullCheck(L_0);
-		StringBuilder_Append_m3049(L_0, (String_t*) &_stringLiteral1408, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_0, (String_t*) &_stringLiteral1413, /*hidden argument*/NULL);
 	}
 
 IL_000c:
@@ -30027,7 +30027,7 @@ IL_0023:
 				ArrayElementTypeCheck (L_15, L_17);
 				*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 1)) = (Object_t *)L_17;
 				NullCheck(L_11);
-				StringBuilder_AppendFormat_m7702(L_11, (String_t*) &_stringLiteral1409, L_15, /*hidden argument*/NULL);
+				StringBuilder_AppendFormat_m7702(L_11, (String_t*) &_stringLiteral1414, L_15, /*hidden argument*/NULL);
 			}
 
 IL_005b:
@@ -30096,7 +30096,7 @@ FINALLY_007b:
 	{ // begin finally (depth: 1)
 		StringBuilder_t696 * L_22 = ___sb;
 		NullCheck(L_22);
-		StringBuilder_Append_m3049(L_22, (String_t*) &_stringLiteral1410, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_22, (String_t*) &_stringLiteral1415, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(123)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(123)
@@ -30139,7 +30139,7 @@ extern "C" String_t* PersistentDataManager_GetFieldValueString_m6890 (Object_t *
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1363;
+		return (String_t*) &_stringLiteral1368;
 	}
 
 IL_000c:
@@ -30162,7 +30162,7 @@ IL_000c:
 		NullCheck(L_6);
 		String_t* L_7 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_6);
 		NullCheck(L_7);
-		String_t* L_8 = String_Replace_m3757(L_7, (String_t*) &_stringLiteral148, (String_t*) &_stringLiteral1150, /*hidden argument*/NULL);
+		String_t* L_8 = String_Replace_m3757(L_7, (String_t*) &_stringLiteral148, (String_t*) &_stringLiteral1155, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
 		String_t* L_9 = DialogueLua_DoubleQuotesToSingle_m3763(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		NullCheck(L_5);
@@ -30170,7 +30170,7 @@ IL_000c:
 		ArrayElementTypeCheck (L_5, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 0)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1127, L_5, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1132, L_5, /*hidden argument*/NULL);
 		return L_10;
 	}
 
@@ -30260,7 +30260,7 @@ IL_0000:
 	{ // begin try (depth: 1)
 		{
 			IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-			Result_t641  L_0 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1411, /*hidden argument*/NULL);
+			Result_t641  L_0 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1416, /*hidden argument*/NULL);
 			V_5 = L_0;
 			LuaTableWrapper_t1335 * L_1 = Result_get_AsTable_m5686((&V_5), /*hidden argument*/NULL);
 			V_0 = L_1;
@@ -30289,7 +30289,7 @@ IL_0024:
 			ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral104);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1412, L_4, /*hidden argument*/NULL);
+			String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1417, L_4, /*hidden argument*/NULL);
 			Debug_LogError_m2987(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		}
 
@@ -30345,7 +30345,7 @@ IL_0057:
 				ArrayElementTypeCheck (L_19, L_21);
 				*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 1)) = (Object_t *)L_21;
 				NullCheck(L_15);
-				StringBuilder_AppendFormat_m7702(L_15, (String_t*) &_stringLiteral1413, L_19, /*hidden argument*/NULL);
+				StringBuilder_AppendFormat_m7702(L_15, (String_t*) &_stringLiteral1418, L_19, /*hidden argument*/NULL);
 			}
 
 IL_0095:
@@ -30367,7 +30367,7 @@ FINALLY_00a1:
 			{ // begin finally (depth: 3)
 				StringBuilder_t696 * L_24 = ___sb;
 				NullCheck(L_24);
-				StringBuilder_Append_m3049(L_24, (String_t*) &_stringLiteral1410, /*hidden argument*/NULL);
+				StringBuilder_Append_m3049(L_24, (String_t*) &_stringLiteral1415, /*hidden argument*/NULL);
 				IL2CPP_END_FINALLY(161)
 			} // end finally (depth: 3)
 			IL2CPP_CLEANUP(161)
@@ -30457,7 +30457,7 @@ CATCH_00ce:
 		ArrayElementTypeCheck (L_30, L_32);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_30, 1)) = (Object_t *)L_32;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1414, L_30, /*hidden argument*/NULL);
+		String_t* L_33 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1419, L_30, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 		goto IL_00fc;
 	} // end catch (depth: 1)
@@ -30557,7 +30557,7 @@ IL_0018:
 			ArrayElementTypeCheck (L_14, L_16);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_14, 1)) = (Object_t *)L_16;
 			NullCheck(L_10);
-			StringBuilder_AppendFormat_m7702(L_10, (String_t*) &_stringLiteral1409, L_14, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m7702(L_10, (String_t*) &_stringLiteral1414, L_14, /*hidden argument*/NULL);
 		}
 
 IL_0050:
@@ -30799,7 +30799,7 @@ IL_0007:
 			int32_t L_4 = L_3;
 			Object_t * L_5 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_4);
 			NullCheck(L_1);
-			StringBuilder_AppendFormat_m3602(L_1, (String_t*) &_stringLiteral1120, L_5, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m3602(L_1, (String_t*) &_stringLiteral1125, L_5, /*hidden argument*/NULL);
 			Conversation_t1377 * L_6 = ___conversation;
 			NullCheck(L_6);
 			List_1_t1375 * L_7 = (L_6->___dialogueEntries_3);
@@ -30822,8 +30822,8 @@ IL_002f:
 				ObjectU5BU5D_t21* L_10 = ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, 5));
 				NullCheck(L_10);
 				IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 0);
-				ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral1415);
-				*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 0)) = (Object_t *)(String_t*) &_stringLiteral1415;
+				ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral1420);
+				*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 0)) = (Object_t *)(String_t*) &_stringLiteral1420;
 				ObjectU5BU5D_t21* L_11 = L_10;
 				Conversation_t1377 * L_12 = ___conversation;
 				NullCheck(L_12);
@@ -30837,8 +30837,8 @@ IL_002f:
 				ObjectU5BU5D_t21* L_16 = L_11;
 				NullCheck(L_16);
 				IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 2);
-				ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral1416);
-				*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 2)) = (Object_t *)(String_t*) &_stringLiteral1416;
+				ArrayElementTypeCheck (L_16, (String_t*) &_stringLiteral1421);
+				*((Object_t **)(Object_t **)SZArrayLdElema(L_16, 2)) = (Object_t *)(String_t*) &_stringLiteral1421;
 				ObjectU5BU5D_t21* L_17 = L_16;
 				DialogueEntry_t1361 * L_18 = V_0;
 				NullCheck(L_18);
@@ -30852,8 +30852,8 @@ IL_002f:
 				ObjectU5BU5D_t21* L_22 = L_17;
 				NullCheck(L_22);
 				IL2CPP_ARRAY_BOUNDS_CHECK(L_22, 4);
-				ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral1417);
-				*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 4)) = (Object_t *)(String_t*) &_stringLiteral1417;
+				ArrayElementTypeCheck (L_22, (String_t*) &_stringLiteral1422);
+				*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 4)) = (Object_t *)(String_t*) &_stringLiteral1422;
 				IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 				String_t* L_23 = String_Concat_m2662(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 				String_t* L_24 = String_Format_m113(NULL /*static, unused*/, L_23, ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, 0)), /*hidden argument*/NULL);
@@ -30880,7 +30880,7 @@ IL_002f:
 				ArrayElementTypeCheck (L_33, L_34);
 				*((Object_t **)(Object_t **)SZArrayLdElema(L_33, 1)) = (Object_t *)L_34;
 				NullCheck(L_27);
-				StringBuilder_AppendFormat_m7702(L_27, (String_t*) &_stringLiteral1418, L_33, /*hidden argument*/NULL);
+				StringBuilder_AppendFormat_m7702(L_27, (String_t*) &_stringLiteral1423, L_33, /*hidden argument*/NULL);
 			}
 
 IL_00b6:
@@ -30922,7 +30922,7 @@ IL_00d3:
 		{
 			StringBuilder_t696 * L_39 = ___sb;
 			NullCheck(L_39);
-			StringBuilder_Append_m3049(L_39, (String_t*) &_stringLiteral1410, /*hidden argument*/NULL);
+			StringBuilder_Append_m3049(L_39, (String_t*) &_stringLiteral1415, /*hidden argument*/NULL);
 			goto IL_0110;
 		}
 	} // end try (depth: 1)
@@ -30951,7 +30951,7 @@ CATCH_00e4:
 		ArrayElementTypeCheck (L_41, L_43);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_41, 1)) = (Object_t *)L_43;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_44 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1419, L_41, /*hidden argument*/NULL);
+		String_t* L_44 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1424, L_41, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
 		goto IL_0110;
 	} // end catch (depth: 1)
@@ -31024,7 +31024,7 @@ CATCH_001d:
 		ArrayElementTypeCheck (L_5, L_7);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 1)) = (Object_t *)L_7;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1420, L_5, /*hidden argument*/NULL);
+		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1425, L_5, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		goto IL_0049;
 	} // end catch (depth: 1)
@@ -31166,7 +31166,7 @@ extern "C" void PersistentPositionData_OnRecordPersistentData_m6901 (PersistentP
 		String_t* L_2 = PersistentPositionData_get_actorName_m6899(__this, /*hidden argument*/NULL);
 		String_t* L_3 = Application_get_loadedLevelName_m2602(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1421, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1426, L_3, /*hidden argument*/NULL);
 		String_t* L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
 		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_2, L_4, L_5, /*hidden argument*/NULL);
@@ -31178,7 +31178,7 @@ IL_0032:
 		String_t* L_6 = PersistentPositionData_get_actorName_m6899(__this, /*hidden argument*/NULL);
 		String_t* L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1422, L_7, /*hidden argument*/NULL);
+		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1427, L_7, /*hidden argument*/NULL);
 	}
 
 IL_0043:
@@ -31222,7 +31222,7 @@ extern "C" void PersistentPositionData_OnApplyPersistentData_m6902 (PersistentPo
 		String_t* L_3 = PersistentPositionData_get_actorName_m6899(__this, /*hidden argument*/NULL);
 		String_t* L_4 = Application_get_loadedLevelName_m2602(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1421, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1426, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
 		Result_t641  L_6 = DialogueLua_GetActorField_m6335(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
 		V_1 = L_6;
@@ -31239,7 +31239,7 @@ IL_0044:
 	{
 		String_t* L_8 = PersistentPositionData_get_actorName_m6899(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_9 = DialogueLua_GetActorField_m6335(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1422, /*hidden argument*/NULL);
+		Result_t641  L_9 = DialogueLua_GetActorField_m6335(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1427, /*hidden argument*/NULL);
 		V_2 = L_9;
 		String_t* L_10 = Result_get_AsString_m3093((&V_2), /*hidden argument*/NULL);
 		V_0 = L_10;
@@ -31300,7 +31300,7 @@ extern "C" String_t* PersistentPositionData_GetPositionString_m6903 (PersistentP
 	{
 		String_t* L_1 = Application_get_loadedLevelName_m2602(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1293, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1298, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
 		String_t* L_3 = DialogueLua_DoubleQuotesToSingle_m3763(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		G_B3_0 = L_3;
@@ -31408,7 +31408,7 @@ IL_0029:
 		ArrayElementTypeCheck (L_47, L_48);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_47, 7)) = (Object_t *)L_48;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_49 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1423, L_47, /*hidden argument*/NULL);
+		String_t* L_49 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1428, L_47, /*hidden argument*/NULL);
 		return L_49;
 	}
 }
@@ -31441,7 +31441,7 @@ extern "C" void PersistentPositionData_ApplyPositionString_m6904 (PersistentPosi
 	{
 		String_t* L_2 = ___s;
 		NullCheck(L_2);
-		bool L_3 = (bool)VirtFuncInvoker1< bool, String_t* >::Invoke(23 /* System.Boolean System.String::Equals(System.String) */, L_2, (String_t*) &_stringLiteral1363);
+		bool L_3 = (bool)VirtFuncInvoker1< bool, String_t* >::Invoke(23 /* System.Boolean System.String::Equals(System.String) */, L_2, (String_t*) &_stringLiteral1368);
 		if (!L_3)
 		{
 			goto IL_001c;
@@ -32959,7 +32959,7 @@ IL_0040:
 		ArrayElementTypeCheck (L_19, L_20);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 3)) = (Object_t *)L_20;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1424, L_19, /*hidden argument*/NULL);
+		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1429, L_19, /*hidden argument*/NULL);
 		Debug_Log_m2780(NULL /*static, unused*/, L_21, __this, /*hidden argument*/NULL);
 	}
 
@@ -33217,7 +33217,7 @@ extern "C" void SetActiveOnDialogueEvent_DoAction_m6946 (SetActiveOnDialogueEven
 		ArrayElementTypeCheck (L_18, L_21);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 2)) = (Object_t *)L_21;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1425, L_18, /*hidden argument*/NULL);
+		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1430, L_18, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 	}
 

@@ -888,7 +888,7 @@ IL_0011:
 	{
 		String_t* L_2 = ___luaCondition;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral960, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral965, L_2, /*hidden argument*/NULL);
 		bool L_4 = ___debug;
 		bool L_5 = ___allowExceptions;
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
@@ -1007,7 +1007,7 @@ IL_0018:
 			ArrayElementTypeCheck (L_4, L_5);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 1)) = (Object_t *)L_5;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral961, L_4, /*hidden argument*/NULL);
+			String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral966, L_4, /*hidden argument*/NULL);
 			Debug_Log_m90(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		}
 
@@ -1060,7 +1060,7 @@ CATCH_0055:
 			ArrayElementTypeCheck (L_13, L_15);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 2)) = (Object_t *)L_15;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral962, L_13, /*hidden argument*/NULL);
+			String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral967, L_13, /*hidden argument*/NULL);
 			Debug_LogError_m2987(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 			bool L_17 = ___allowExceptions;
 			if (!L_17)
@@ -1334,7 +1334,7 @@ IL_004c:
 		WindowFunction_t644 * L_8 = (WindowFunction_t644 *)il2cpp_codegen_object_new (WindowFunction_t644_il2cpp_TypeInfo_var);
 		WindowFunction__ctor_m2598(L_8, __this, L_7, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t645_il2cpp_TypeInfo_var);
-		Rect_t201  L_9 = GUI_Window_m2599(NULL /*static, unused*/, 0, L_6, L_8, (String_t*) &_stringLiteral963, /*hidden argument*/NULL);
+		Rect_t201  L_9 = GUI_Window_m2599(NULL /*static, unused*/, 0, L_6, L_8, (String_t*) &_stringLiteral968, /*hidden argument*/NULL);
 		__this->___windowRect_9 = L_9;
 		return;
 	}
@@ -1435,7 +1435,7 @@ IL_0050:
 	{
 		Rect_t201  L_4 = (__this->___closeButtonRect_10);
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t645_il2cpp_TypeInfo_var);
-		bool L_5 = GUI_Button_m2901(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral964, /*hidden argument*/NULL);
+		bool L_5 = GUI_Button_m2901(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_007a;
@@ -1451,8 +1451,8 @@ IL_0072:
 IL_007a:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t645_il2cpp_TypeInfo_var);
-		GUI_SetNextControlName_m3293(NULL /*static, unused*/, (String_t*) &_stringLiteral965, /*hidden argument*/NULL);
-		GUI_FocusControl_m3292(NULL /*static, unused*/, (String_t*) &_stringLiteral965, /*hidden argument*/NULL);
+		GUI_SetNextControlName_m3293(NULL /*static, unused*/, (String_t*) &_stringLiteral970, /*hidden argument*/NULL);
+		GUI_FocusControl_m3292(NULL /*static, unused*/, (String_t*) &_stringLiteral970, /*hidden argument*/NULL);
 		String_t* L_6 = (__this->___input_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral148, /*hidden argument*/NULL);
@@ -1628,7 +1628,7 @@ IL_0011:
 		Result_t641  L_5 = V_0;
 		String_t* L_6 = LuaConsole_GetLuaResultString_m5708(__this, L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral966, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral971, L_6, /*hidden argument*/NULL);
 		__this->___output_8 = L_7;
 		goto IL_005a;
 	} // end try (depth: 1)
@@ -1647,7 +1647,7 @@ CATCH_003e:
 		NullCheck(L_8);
 		String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_8);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral967, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral972, L_9, /*hidden argument*/NULL);
 		__this->___output_8 = L_10;
 		goto IL_005a;
 	} // end catch (depth: 1)
@@ -1697,7 +1697,7 @@ extern "C" String_t* LuaConsole_GetLuaResultString_m5708 (LuaConsole_t1337 * __t
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral968;
+		return (String_t*) &_stringLiteral973;
 	}
 
 IL_0012:
@@ -1779,7 +1779,7 @@ IL_0014:
 		V_1 = L_3;
 		StringBuilder_t696 * L_4 = V_1;
 		NullCheck(L_4);
-		StringBuilder_Append_m3049(L_4, (String_t*) &_stringLiteral969, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_4, (String_t*) &_stringLiteral974, /*hidden argument*/NULL);
 		LuaTableWrapper_t1335 * L_5 = V_0;
 		NullCheck(L_5);
 		Object_t* L_6 = LuaTableWrapper_get_Keys_m5730(L_5, /*hidden argument*/NULL);
@@ -1824,7 +1824,7 @@ IL_003f:
 			ArrayElementTypeCheck (L_14, L_19);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_14, 1)) = (Object_t *)L_19;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral970, L_14, /*hidden argument*/NULL);
+			String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral975, L_14, /*hidden argument*/NULL);
 			NullCheck(L_10);
 			StringBuilder_Append_m3049(L_10, L_20, /*hidden argument*/NULL);
 		}
@@ -3124,7 +3124,7 @@ extern "C" Object_t * LuaTableWrapper_get_Item_m5732 (LuaTableWrapper_t1335 * __
 		ArrayElementTypeCheck (L_3, L_4);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1)) = (Object_t *)L_4;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral971, L_3, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral976, L_3, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 	}
 
@@ -3261,7 +3261,7 @@ extern "C" Object_t * LuaTableWrapper_get_Item_m5733 (LuaTableWrapper_t1335 * __
 		ArrayElementTypeCheck (L_3, L_6);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1)) = (Object_t *)L_6;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral971, L_3, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral976, L_3, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 	}
 
@@ -3385,7 +3385,7 @@ extern "C" void LuaWatchItem__ctor_m5734 (LuaWatchItem_t640 * __this, String_t* 
 		Object__ctor_m85(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___luaExpression;
 		NullCheck(L_0);
-		bool L_1 = String_StartsWith_m3455(L_0, (String_t*) &_stringLiteral960, /*hidden argument*/NULL);
+		bool L_1 = String_StartsWith_m3455(L_0, (String_t*) &_stringLiteral965, /*hidden argument*/NULL);
 		G_B1_0 = __this;
 		if (!L_1)
 		{
@@ -3404,7 +3404,7 @@ IL_001d:
 	{
 		String_t* L_3 = ___luaExpression;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral960, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral965, L_3, /*hidden argument*/NULL);
 		G_B3_0 = L_4;
 		G_B3_1 = G_B2_0;
 	}
@@ -5297,7 +5297,7 @@ extern "C" DialogueSystemController_t688 * DialogueManager_FindOrCreateInstance_
 IL_004e:
 	{
 		GameObject_t49 * L_7 = (GameObject_t49 *)il2cpp_codegen_object_new (GameObject_t49_il2cpp_TypeInfo_var);
-		GameObject__ctor_m2680(L_7, (String_t*) &_stringLiteral972, /*hidden argument*/NULL);
+		GameObject__ctor_m2680(L_7, (String_t*) &_stringLiteral977, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		DialogueSystemController_t688 * L_8 = GameObject_AddComponent_TisDialogueSystemController_t688_m7565(L_7, /*hidden argument*/GameObject_AddComponent_TisDialogueSystemController_t688_m7565_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_t665_il2cpp_TypeInfo_var);
@@ -6596,7 +6596,7 @@ extern "C" void DialogueSystemController_InitializeDatabase_m5853 (DialogueSyste
 		ArrayElementTypeCheck (L_6, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral973, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral978, L_6, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 	}
 
@@ -6711,7 +6711,7 @@ extern "C" void DialogueSystemController_PreloadMasterDatabase_m5857 (DialogueSy
 		ArrayElementTypeCheck (L_3, L_5);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1)) = (Object_t *)L_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral974, L_3, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral979, L_3, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 	}
 
@@ -6752,7 +6752,7 @@ extern "C" void DialogueSystemController_PreloadDialogueUI_m5858 (DialogueSystem
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral975, (String_t*) &_stringLiteral104, /*hidden argument*/NULL);
+		String_t* L_3 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral980, (String_t*) &_stringLiteral104, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 	}
 
@@ -6872,7 +6872,7 @@ IL_0012:
 		{
 			IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 			DialogueDebug_set_Level_m6690(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
-			DialogueSystemController_PlaySequence_m5889(__this, (String_t*) &_stringLiteral976, /*hidden argument*/NULL);
+			DialogueSystemController_PlaySequence_m5889(__this, (String_t*) &_stringLiteral981, /*hidden argument*/NULL);
 			DatabaseManager_t1351 * L_1 = (__this->___databaseManager_10);
 			NullCheck(L_1);
 			DialogueDatabase_t202 * L_2 = DatabaseManager_get_MasterDatabase_m6291(L_1, /*hidden argument*/NULL);
@@ -7079,7 +7079,7 @@ extern "C" void DialogueSystemController_StartConversation_m5863 (DialogueSystem
 		ArrayElementTypeCheck (L_8, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 3)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral977, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral982, L_8, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 	}
 
@@ -7123,7 +7123,7 @@ IL_0049:
 		ArrayElementTypeCheck (L_18, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral978, L_18, /*hidden argument*/NULL);
+		String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral983, L_18, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 	}
 
@@ -7233,7 +7233,7 @@ IL_0167:
 		GameObject_t49 * L_63 = Component_get_gameObject_m2624(__this, /*hidden argument*/NULL);
 		Transform_t54 * L_64 = V_2;
 		NullCheck(L_63);
-		GameObject_BroadcastMessage_m3146(L_63, (String_t*) &_stringLiteral979, L_64, 1, /*hidden argument*/NULL);
+		GameObject_BroadcastMessage_m3146(L_63, (String_t*) &_stringLiteral984, L_64, 1, /*hidden argument*/NULL);
 	}
 
 IL_018b:
@@ -7263,7 +7263,7 @@ IL_0190:
 		ArrayElementTypeCheck (L_67, L_68);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_67, 1)) = (Object_t *)L_68;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_69 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral980, L_67, /*hidden argument*/NULL);
+		String_t* L_69 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral985, L_67, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_69, /*hidden argument*/NULL);
 	}
 
@@ -7294,7 +7294,7 @@ IL_01c0:
 		ArrayElementTypeCheck (L_72, L_73);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_72, 1)) = (Object_t *)L_73;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_74 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral981, L_72, /*hidden argument*/NULL);
+		String_t* L_74 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral986, L_72, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_74, /*hidden argument*/NULL);
 	}
 
@@ -7439,7 +7439,7 @@ extern "C" void DialogueSystemController_SetPortrait_m5869 (DialogueSystemContro
 		ArrayElementTypeCheck (L_8, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 2)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral982, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral987, L_8, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 	}
 
@@ -7462,7 +7462,7 @@ IL_0043:
 	{
 		String_t* L_13 = ___portraitName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_14 = String_Equals_m3001(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral983, /*hidden argument*/NULL);
+		bool L_14 = String_Equals_m3001(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
 		if (!L_14)
 		{
 			goto IL_007c;
@@ -7475,7 +7475,7 @@ IL_0060:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_16 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_15, (String_t*) &_stringLiteral984, L_16, /*hidden argument*/NULL);
+		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_15, (String_t*) &_stringLiteral989, L_16, /*hidden argument*/NULL);
 		Actor_t1368 * L_17 = V_0;
 		NullCheck(L_17);
 		Texture2D_t90 * L_18 = (L_17->___portrait_2);
@@ -7488,10 +7488,10 @@ IL_007c:
 		String_t* L_19 = ___actorName;
 		String_t* L_20 = ___portraitName;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_19, (String_t*) &_stringLiteral984, L_20, /*hidden argument*/NULL);
+		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_19, (String_t*) &_stringLiteral989, L_20, /*hidden argument*/NULL);
 		String_t* L_21 = ___portraitName;
 		NullCheck(L_21);
-		bool L_22 = String_StartsWith_m3455(L_21, (String_t*) &_stringLiteral985, /*hidden argument*/NULL);
+		bool L_22 = String_StartsWith_m3455(L_21, (String_t*) &_stringLiteral990, /*hidden argument*/NULL);
 		if (!L_22)
 		{
 			goto IL_00b9;
@@ -7500,8 +7500,8 @@ IL_007c:
 	{
 		Actor_t1368 * L_23 = V_0;
 		String_t* L_24 = ___portraitName;
-		NullCheck((String_t*) &_stringLiteral985);
-		int32_t L_25 = String_get_Length_m3041((String_t*) &_stringLiteral985, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral990);
+		int32_t L_25 = String_get_Length_m3041((String_t*) &_stringLiteral990, /*hidden argument*/NULL);
 		NullCheck(L_24);
 		String_t* L_26 = String_Substring_m3694(L_24, L_25, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Tools_t687_il2cpp_TypeInfo_var);
@@ -7556,7 +7556,7 @@ IL_00c5:
 		ArrayElementTypeCheck (L_37, L_38);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 2)) = (Object_t *)L_38;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral986, L_37, /*hidden argument*/NULL);
+		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral991, L_37, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 	}
 
@@ -7862,7 +7862,7 @@ IL_0051:
 		GameObject_t49 * L_11 = Component_get_gameObject_m2624(__this, /*hidden argument*/NULL);
 		Transform_t54 * L_12 = V_0;
 		NullCheck(L_11);
-		GameObject_BroadcastMessage_m3146(L_11, (String_t*) &_stringLiteral987, L_12, 1, /*hidden argument*/NULL);
+		GameObject_BroadcastMessage_m3146(L_11, (String_t*) &_stringLiteral992, L_12, 1, /*hidden argument*/NULL);
 		__this->___conversationController_15 = (ConversationController_t1352 *)NULL;
 	}
 
@@ -8149,7 +8149,7 @@ extern "C" void DialogueSystemController_CheckAlerts_m5883 (DialogueSystemContro
 IL_0020:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Result_t641  L_4 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral988, /*hidden argument*/NULL);
+		Result_t641  L_4 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral993, /*hidden argument*/NULL);
 		V_1 = L_4;
 		String_t* L_5 = Result_get_AsString_m3093((&V_1), /*hidden argument*/NULL);
 		V_0 = L_5;
@@ -8163,7 +8163,7 @@ IL_0020:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral989, /*hidden argument*/NULL);
+		Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral994, /*hidden argument*/NULL);
 		String_t* L_8 = V_0;
 		DialogueSystemController_ShowAlert_m5882(__this, L_8, /*hidden argument*/NULL);
 	}
@@ -8350,7 +8350,7 @@ extern "C" void DialogueSystemController_Pause_m5891 (DialogueSystemController_t
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueTime_t682_il2cpp_TypeInfo_var);
 		DialogueTime_set_IsPaused_m6694(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
-		DialogueSystemController_BroadcastDialogueSystemMessage_m5893(__this, (String_t*) &_stringLiteral990, /*hidden argument*/NULL);
+		DialogueSystemController_BroadcastDialogueSystemMessage_m5893(__this, (String_t*) &_stringLiteral995, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8367,7 +8367,7 @@ extern "C" void DialogueSystemController_Unpause_m5892 (DialogueSystemController
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueTime_t682_il2cpp_TypeInfo_var);
 		DialogueTime_set_IsPaused_m6694(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
-		DialogueSystemController_BroadcastDialogueSystemMessage_m5893(__this, (String_t*) &_stringLiteral991, /*hidden argument*/NULL);
+		DialogueSystemController_BroadcastDialogueSystemMessage_m5893(__this, (String_t*) &_stringLiteral996, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8642,7 +8642,7 @@ IL_0063:
 		ArrayElementTypeCheck (L_17, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 1)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral992, L_17, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral997, L_17, /*hidden argument*/NULL);
 		DisplaySettings_t683 * L_21 = (__this->___displaySettings_4);
 		NullCheck(L_21);
 		GameObject_t49 * L_22 = (L_21->___dialogueUI_0);
@@ -8689,17 +8689,17 @@ extern "C" Object_t * DialogueSystemController_LoadDefaultDialogueUI_m5899 (Dial
 		ObjectU5BU5D_t21* L_2 = L_1;
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral994);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)(String_t*) &_stringLiteral994;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral999);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1)) = (Object_t *)(String_t*) &_stringLiteral999;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral993, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral998, L_2, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 	}
 
 IL_002f:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_t665_il2cpp_TypeInfo_var);
-		Object_t642 * L_4 = DialogueManager_LoadAsset_m5803(NULL /*static, unused*/, (String_t*) &_stringLiteral994, /*hidden argument*/NULL);
+		Object_t642 * L_4 = DialogueManager_LoadAsset_m5803(NULL /*static, unused*/, (String_t*) &_stringLiteral999, /*hidden argument*/NULL);
 		Object_t * L_5 = DialogueSystemController_LoadDialogueUIPrefab_m5900(__this, ((GameObject_t49 *)IsInst(L_4, GameObject_t49_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		return L_5;
 	}
@@ -8780,7 +8780,7 @@ extern "C" Object_t * DialogueSystemController_LoadDialogueUIPrefab_m5900 (Dialo
 		ArrayElementTypeCheck (L_13, L_14);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1)) = (Object_t *)L_14;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral995, L_13, /*hidden argument*/NULL);
+		String_t* L_15 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1000, L_13, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 	}
 
@@ -9130,7 +9130,7 @@ IL_004f:
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 1)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral996, L_12, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1001, L_12, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		goto IL_007a;
 	}
@@ -9222,7 +9222,7 @@ IL_004f:
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 1)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral996, L_12, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1001, L_12, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		goto IL_007a;
 	}
@@ -9308,7 +9308,7 @@ IL_0049:
 		ArrayElementTypeCheck (L_6, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 1)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral996, L_6, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1001, L_6, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		goto IL_0074;
 	}
@@ -9410,7 +9410,7 @@ IL_0049:
 		ArrayElementTypeCheck (L_6, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 1)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral996, L_6, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1001, L_6, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		goto IL_0074;
 	}
@@ -9650,7 +9650,7 @@ IL_0023:
 		ArrayElementTypeCheck (L_8, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 2)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral997, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1002, L_8, /*hidden argument*/NULL);
 		Transform_t54 * L_11 = (__this->___speaker_1);
 		Debug_Log_m2780(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
 	}
@@ -9697,7 +9697,7 @@ IL_0072:
 		ArrayElementTypeCheck (L_20, L_21);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_20, 3)) = (Object_t *)L_21;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral998, L_20, /*hidden argument*/NULL);
+		String_t* L_22 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1003, L_20, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 	}
 
@@ -9772,7 +9772,7 @@ IL_00eb:
 		ArrayElementTypeCheck (L_37, L_38);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_37, 3)) = (Object_t *)L_38;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral999, L_37, /*hidden argument*/NULL);
+		String_t* L_39 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1004, L_37, /*hidden argument*/NULL);
 		Transform_t54 * L_40 = (__this->___speaker_1);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_39, L_40, /*hidden argument*/NULL);
 	}
@@ -9902,7 +9902,7 @@ IL_01a4:
 		ArrayElementTypeCheck (L_64, L_65);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_64, 3)) = (Object_t *)L_65;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_66 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1000, L_64, /*hidden argument*/NULL);
+		String_t* L_66 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1005, L_64, /*hidden argument*/NULL);
 		Transform_t54 * L_67 = (__this->___speaker_1);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_66, L_67, /*hidden argument*/NULL);
 	}
@@ -9957,7 +9957,7 @@ IL_0235:
 		ArrayElementTypeCheck (L_77, L_78);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_77, 3)) = (Object_t *)L_78;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_79 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1001, L_77, /*hidden argument*/NULL);
+		String_t* L_79 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1006, L_77, /*hidden argument*/NULL);
 		Transform_t54 * L_80 = (__this->___speaker_1);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_79, L_80, /*hidden argument*/NULL);
 	}
@@ -9999,7 +9999,7 @@ IL_02c2:
 			Transform_t54 * L_85 = (__this->___speaker_1);
 			Transform_t54 * L_86 = (__this->___listener_2);
 			IL2CPP_RUNTIME_CLASS_INIT(BarkController_t1365_il2cpp_TypeInfo_var);
-			BarkController_InformParticipants_m5943(NULL /*static, unused*/, (String_t*) &_stringLiteral1002, L_85, L_86, /*hidden argument*/NULL);
+			BarkController_InformParticipants_m5943(NULL /*static, unused*/, (String_t*) &_stringLiteral1007, L_85, L_86, /*hidden argument*/NULL);
 			ConversationState_t1355 * L_87 = (__this->___U3CfirstStateU3E__3_9);
 			NullCheck(L_87);
 			bool L_88 = ConversationState_get_HasNPCResponse_m6406(L_87, /*hidden argument*/NULL);
@@ -10113,7 +10113,7 @@ IL_035c:
 			ArrayElementTypeCheck (L_109, L_110);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_109, 3)) = (Object_t *)L_110;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_111 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1003, L_109, /*hidden argument*/NULL);
+			String_t* L_111 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1008, L_109, /*hidden argument*/NULL);
 			Transform_t54 * L_112 = (__this->___speaker_1);
 			Debug_LogWarning_m3028(NULL /*static, unused*/, L_111, L_112, /*hidden argument*/NULL);
 		}
@@ -10177,7 +10177,7 @@ IL_03d3:
 			ArrayElementTypeCheck (L_124, L_125);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_124, 3)) = (Object_t *)L_125;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_126 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1004, L_124, /*hidden argument*/NULL);
+			String_t* L_126 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1009, L_124, /*hidden argument*/NULL);
 			Transform_t54 * L_127 = (__this->___speaker_1);
 			Debug_LogWarning_m3028(NULL /*static, unused*/, L_126, L_127, /*hidden argument*/NULL);
 		}
@@ -10266,7 +10266,7 @@ IL_047c:
 			ArrayElementTypeCheck (L_147, L_151);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_147, 3)) = (Object_t *)L_151;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_152 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1005, L_147, /*hidden argument*/NULL);
+			String_t* L_152 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1010, L_147, /*hidden argument*/NULL);
 			Transform_t54 * L_153 = (__this->___speaker_1);
 			Debug_Log_m2780(NULL /*static, unused*/, L_152, L_153, /*hidden argument*/NULL);
 		}
@@ -10333,7 +10333,7 @@ IL_04f3:
 			ArrayElementTypeCheck (L_163, L_167);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_163, 3)) = (Object_t *)L_167;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_168 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1006, L_163, /*hidden argument*/NULL);
+			String_t* L_168 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1011, L_163, /*hidden argument*/NULL);
 			Transform_t54 * L_169 = (__this->___speaker_1);
 			Debug_LogWarning_m3028(NULL /*static, unused*/, L_168, L_169, /*hidden argument*/NULL);
 		}
@@ -10542,7 +10542,7 @@ IL_06a1:
 			Transform_t54 * L_212 = (__this->___speaker_1);
 			Transform_t54 * L_213 = (__this->___listener_2);
 			IL2CPP_RUNTIME_CLASS_INIT(BarkController_t1365_il2cpp_TypeInfo_var);
-			BarkController_InformParticipants_m5943(NULL /*static, unused*/, (String_t*) &_stringLiteral1007, L_212, L_213, /*hidden argument*/NULL);
+			BarkController_InformParticipants_m5943(NULL /*static, unused*/, (String_t*) &_stringLiteral1012, L_212, L_213, /*hidden argument*/NULL);
 			IL2CPP_END_FINALLY(1693)
 		}
 	} // end finally (depth: 1)
@@ -10621,7 +10621,7 @@ FINALLY_0026:
 		Transform_t54 * L_2 = (__this->___speaker_1);
 		Transform_t54 * L_3 = (__this->___listener_2);
 		IL2CPP_RUNTIME_CLASS_INIT(BarkController_t1365_il2cpp_TypeInfo_var);
-		BarkController_InformParticipants_m5943(NULL /*static, unused*/, (String_t*) &_stringLiteral1007, L_2, L_3, /*hidden argument*/NULL);
+		BarkController_InformParticipants_m5943(NULL /*static, unused*/, (String_t*) &_stringLiteral1012, L_2, L_3, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(38)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(38)
@@ -10795,7 +10795,7 @@ IL_0041:
 		ArrayElementTypeCheck (L_12, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 3)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral999, L_12, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1004, L_12, /*hidden argument*/NULL);
 		Transform_t54 * L_17 = (__this->___speaker_2);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_16, L_17, /*hidden argument*/NULL);
 	}
@@ -10856,7 +10856,7 @@ IL_00be:
 		ArrayElementTypeCheck (L_27, L_30);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_27, 3)) = (Object_t *)L_30;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_31 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1006, L_27, /*hidden argument*/NULL);
+		String_t* L_31 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1011, L_27, /*hidden argument*/NULL);
 		Transform_t54 * L_32 = (__this->___speaker_2);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_31, L_32, /*hidden argument*/NULL);
 	}
@@ -11216,7 +11216,7 @@ IL_007e:
 		ArrayElementTypeCheck (L_23, L_26);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_23, 3)) = (Object_t *)L_26;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral999, L_23, /*hidden argument*/NULL);
+		String_t* L_27 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1004, L_23, /*hidden argument*/NULL);
 		Transform_t54 * L_28 = (__this->___U3CspeakerU3E__0_1);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_27, L_28, /*hidden argument*/NULL);
 	}
@@ -11277,7 +11277,7 @@ IL_0120:
 		ArrayElementTypeCheck (L_38, L_41);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_38, 3)) = (Object_t *)L_41;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_42 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1006, L_38, /*hidden argument*/NULL);
+		String_t* L_42 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1011, L_38, /*hidden argument*/NULL);
 		Transform_t54 * L_43 = (__this->___U3CspeakerU3E__0_1);
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_42, L_43, /*hidden argument*/NULL);
 	}
@@ -11757,7 +11757,7 @@ extern "C" void ConversationController__ctor_m5944 (ConversationController_t1352
 		__this->___endConversationHandler_4 = L_3;
 		ConversationModel_t1360 * L_4 = ___model;
 		NullCheck(L_4);
-		ConversationModel_InformParticipants_m6269(L_4, (String_t*) &_stringLiteral979, /*hidden argument*/NULL);
+		ConversationModel_InformParticipants_m6269(L_4, (String_t*) &_stringLiteral984, /*hidden argument*/NULL);
 		ConversationView_t1366 * L_5 = ___view;
 		IntPtr_t L_6 = { (void*)ConversationController_OnFinishedSubtitle_m5955_MethodInfo_var };
 		EventHandler_t1458 * L_7 = (EventHandler_t1458 *)il2cpp_codegen_object_new (EventHandler_t1458_il2cpp_TypeInfo_var);
@@ -11938,7 +11938,7 @@ extern "C" void ConversationController_Close_m5953 (ConversationController_t1352
 		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1008, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1013, L_2, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 	}
 
@@ -11961,7 +11961,7 @@ IL_0039:
 		ConversationView_Close_m6449(L_10, /*hidden argument*/NULL);
 		ConversationModel_t1360 * L_11 = (__this->___model_0);
 		NullCheck(L_11);
-		ConversationModel_InformParticipants_m6269(L_11, (String_t*) &_stringLiteral987, /*hidden argument*/NULL);
+		ConversationModel_InformParticipants_m6269(L_11, (String_t*) &_stringLiteral992, /*hidden argument*/NULL);
 		Action_t250 * L_12 = (__this->___endConversationHandler_4);
 		if (!L_12)
 		{
@@ -12408,7 +12408,7 @@ extern "C" void Actor__ctor_m5962 (Actor_t1368 * __this, Actor_t1419 * ___chatMa
 extern "C" bool Actor_get_IsPlayer_m5963 (Actor_t1368 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = Asset_LookupBool_m5983(__this, (String_t*) &_stringLiteral1009, /*hidden argument*/NULL);
+		bool L_0 = Asset_LookupBool_m5983(__this, (String_t*) &_stringLiteral1014, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -12426,7 +12426,7 @@ extern "C" void Actor_set_IsPlayer_m5964 (Actor_t1368 * __this, bool ___value, c
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		bool L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6168(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1009, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6168(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1014, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12546,7 +12546,7 @@ extern "C" String_t* Actor_LookupTextureName_m5969 (Actor_t1368 * __this, const 
 	{
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_t1406 * L_1 = Field_Lookup_m6158(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1010, /*hidden argument*/NULL);
+		Field_t1406 * L_1 = Field_Lookup_m6158(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1015, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Field_t1406 * L_2 = V_0;
 		if (!L_2)
@@ -12631,9 +12631,9 @@ extern "C" void Actor_SetTextureName_m5970 (Actor_t1368 * __this, String_t* ___v
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral1011, L_1, (String_t*) &_stringLiteral565, /*hidden argument*/NULL);
+		String_t* L_2 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral1016, L_1, (String_t*) &_stringLiteral565, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1010, L_2, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1015, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12700,7 +12700,7 @@ extern "C" String_t* Asset_get_Name_m5974 (Asset_t1369 * __this, const MethodInf
 	{
 		List_1_t1370 * L_0 = (__this->___fields_1);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1012, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -12718,7 +12718,7 @@ extern "C" void Asset_set_Name_m5975 (Asset_t1369 * __this, String_t* ___value, 
 		List_1_t1370 * L_0 = (__this->___fields_1);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1012, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1017, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12735,7 +12735,7 @@ extern "C" String_t* Asset_get_LocalizedName_m5976 (Asset_t1369 * __this, const 
 	{
 		List_1_t1370 * L_0 = (__this->___fields_1);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupLocalizedValue_m6160(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1012, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupLocalizedValue_m6160(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -13126,7 +13126,7 @@ extern "C" void Conversation__ctor_m5992 (Conversation_t1377 * __this, Conversat
 extern "C" String_t* Conversation_get_Title_m5993 (Conversation_t1377 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = Asset_LookupValue_m5979(__this, (String_t*) &_stringLiteral1013, /*hidden argument*/NULL);
+		String_t* L_0 = Asset_LookupValue_m5979(__this, (String_t*) &_stringLiteral1018, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -13144,7 +13144,7 @@ extern "C" void Conversation_set_Title_m5994 (Conversation_t1377 * __this, Strin
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1013, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1018, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13152,7 +13152,7 @@ extern "C" void Conversation_set_Title_m5994 (Conversation_t1377 * __this, Strin
 extern "C" String_t* Conversation_get_Description_m5995 (Conversation_t1377 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = Asset_LookupValue_m5979(__this, (String_t*) &_stringLiteral1014, /*hidden argument*/NULL);
+		String_t* L_0 = Asset_LookupValue_m5979(__this, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -13170,7 +13170,7 @@ extern "C" void Conversation_set_Description_m5996 (Conversation_t1377 * __this,
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1014, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1019, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13178,7 +13178,7 @@ extern "C" void Conversation_set_Description_m5996 (Conversation_t1377 * __this,
 extern "C" int32_t Conversation_get_ActorID_m5997 (Conversation_t1377 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Asset_LookupInt_m5981(__this, (String_t*) &_stringLiteral1015, /*hidden argument*/NULL);
+		int32_t L_0 = Asset_LookupInt_m5981(__this, (String_t*) &_stringLiteral1020, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -13196,7 +13196,7 @@ extern "C" void Conversation_set_ActorID_m5998 (Conversation_t1377 * __this, int
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		String_t* L_1 = Int32_ToString_m2707((&___value), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6164(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1015, L_1, 5, /*hidden argument*/NULL);
+		Field_SetValue_m6164(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1020, L_1, 5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13204,7 +13204,7 @@ extern "C" void Conversation_set_ActorID_m5998 (Conversation_t1377 * __this, int
 extern "C" int32_t Conversation_get_ConversantID_m5999 (Conversation_t1377 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Asset_LookupInt_m5981(__this, (String_t*) &_stringLiteral1016, /*hidden argument*/NULL);
+		int32_t L_0 = Asset_LookupInt_m5981(__this, (String_t*) &_stringLiteral1021, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -13222,7 +13222,7 @@ extern "C" void Conversation_set_ConversantID_m6000 (Conversation_t1377 * __this
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		String_t* L_1 = Int32_ToString_m2707((&___value), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6164(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1016, L_1, 5, /*hidden argument*/NULL);
+		Field_SetValue_m6164(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1021, L_1, 5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -13535,7 +13535,7 @@ IL_001e:
 	{
 		String_t* L_9 = V_2;
 		NullCheck(L_9);
-		bool L_10 = String_Contains_m2713(L_9, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
+		bool L_10 = String_Contains_m2713(L_9, (String_t*) &_stringLiteral1022, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_0053;
@@ -13781,14 +13781,14 @@ IL_00a6:
 		G_B9_0 = 0;
 		G_B9_1 = L_36;
 		G_B9_2 = L_36;
-		G_B9_3 = (String_t*) &_stringLiteral1018;
+		G_B9_3 = (String_t*) &_stringLiteral1023;
 		G_B9_4 = L_35;
 		if ((((int32_t)(((int32_t)(((Array_t *)L_37)->max_length)))) <= ((int32_t)0)))
 		{
 			G_B10_0 = 0;
 			G_B10_1 = L_36;
 			G_B10_2 = L_36;
-			G_B10_3 = (String_t*) &_stringLiteral1018;
+			G_B10_3 = (String_t*) &_stringLiteral1023;
 			G_B10_4 = L_35;
 			goto IL_00de;
 		}
@@ -13886,14 +13886,14 @@ IL_0121:
 		G_B16_0 = 0;
 		G_B16_1 = L_56;
 		G_B16_2 = L_56;
-		G_B16_3 = (String_t*) &_stringLiteral1018;
+		G_B16_3 = (String_t*) &_stringLiteral1023;
 		G_B16_4 = L_55;
 		if ((((int32_t)L_57) >= ((int32_t)(((int32_t)(((Array_t *)L_58)->max_length))))))
 		{
 			G_B17_0 = 0;
 			G_B17_1 = L_56;
 			G_B17_2 = L_56;
-			G_B17_3 = (String_t*) &_stringLiteral1018;
+			G_B17_3 = (String_t*) &_stringLiteral1023;
 			G_B17_4 = L_55;
 			goto IL_014a;
 		}
@@ -14015,7 +14015,7 @@ IL_01c9:
 			NullCheck(L_87);
 			String_t* L_88 = (L_87->___title_0);
 			NullCheck(L_88);
-			bool L_89 = String_StartsWith_m3455(L_88, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+			bool L_89 = String_StartsWith_m3455(L_88, (String_t*) &_stringLiteral1024, /*hidden argument*/NULL);
 			if (L_89)
 			{
 				goto IL_01f5;
@@ -14052,7 +14052,7 @@ IL_0206:
 			NullCheck(L_95);
 			String_t* L_96 = (L_95->___value_1);
 			NullCheck(L_96);
-			bool L_97 = String_Contains_m2713(L_96, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
+			bool L_97 = String_Contains_m2713(L_96, (String_t*) &_stringLiteral1022, /*hidden argument*/NULL);
 			G_B29_0 = ((int32_t)(L_97));
 			goto IL_021a;
 		}
@@ -14241,7 +14241,7 @@ extern "C" DialogueEntry_t1361 * Conversation_AddNewDialogueEntry_m6008 (Convers
 		NullCheck(L_22);
 		String_t* L_23 = (L_22->___falseConditionAction_9);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_24 = String_Equals_m3001(NULL /*static, unused*/, L_23, (String_t*) &_stringLiteral1020, /*hidden argument*/NULL);
+		bool L_24 = String_Equals_m3001(NULL /*static, unused*/, L_23, (String_t*) &_stringLiteral1025, /*hidden argument*/NULL);
 		G_B1_0 = L_21;
 		if (!L_24)
 		{
@@ -14325,7 +14325,7 @@ IL_00cb:
 			NullCheck(L_41);
 			String_t* L_42 = (L_41->___title_0);
 			NullCheck(L_42);
-			bool L_43 = String_StartsWith_m3455(L_42, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+			bool L_43 = String_StartsWith_m3455(L_42, (String_t*) &_stringLiteral1024, /*hidden argument*/NULL);
 			if (L_43)
 			{
 				goto IL_00f3;
@@ -14362,7 +14362,7 @@ IL_0103:
 			NullCheck(L_49);
 			String_t* L_50 = (L_49->___value_1);
 			NullCheck(L_50);
-			bool L_51 = String_Contains_m2713(L_50, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
+			bool L_51 = String_Contains_m2713(L_50, (String_t*) &_stringLiteral1022, /*hidden argument*/NULL);
 			G_B12_0 = ((int32_t)(L_51));
 			goto IL_0116;
 		}
@@ -14752,7 +14752,7 @@ extern "C" bool Conversation_U3CGetFirstDialogueEntryU3Em__4_m6012 (Object_t * _
 		NullCheck(L_0);
 		String_t* L_1 = DialogueEntry_get_Title_m6098(L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_2 = String_Equals_m3001(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral1021, /*hidden argument*/NULL);
+		bool L_2 = String_Equals_m3001(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral1026, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -16976,7 +16976,7 @@ extern "C" void DialogueDatabase_AddGlobalUserScript_m6072 (DialogueDatabase_t20
 		ArrayElementTypeCheck (L_7, L_9);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 1)) = (Object_t *)L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1022, L_7, /*hidden argument*/NULL);
+		String_t* L_10 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1027, L_7, /*hidden argument*/NULL);
 		__this->___globalUserScript_7 = L_10;
 	}
 
@@ -18030,7 +18030,7 @@ IL_009e:
 		ArrayElementTypeCheck (L_32, L_35);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, 1)) = (Object_t *)L_35;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_36 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1023, L_32, /*hidden argument*/NULL);
+		String_t* L_36 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1028, L_32, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
 		return 0;
 	}
@@ -18177,14 +18177,14 @@ extern "C" String_t* DialogueDatabase_GetEntrytag_m6084 (DialogueDatabase_t202 *
 
 IL_000c:
 	{
-		return (String_t*) &_stringLiteral1024;
+		return (String_t*) &_stringLiteral1029;
 	}
 
 IL_0012:
 	{
 		V_0 = (Actor_t1368 *)NULL;
 		Regex_t789 * L_2 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_2, (String_t*) &_stringLiteral1025, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_2, (String_t*) &_stringLiteral1030, /*hidden argument*/NULL);
 		V_1 = L_2;
 		int32_t L_3 = ___entrytagFormat;
 		V_3 = L_3;
@@ -18220,7 +18220,7 @@ IL_0038:
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1024;
+		return (String_t*) &_stringLiteral1029;
 	}
 
 IL_0051:
@@ -18230,7 +18230,7 @@ IL_0051:
 		NullCheck(L_10);
 		String_t* L_11 = Asset_get_Name_m5974(L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		String_t* L_12 = Regex_Replace_m7636(L_9, L_11, (String_t*) &_stringLiteral1027, /*hidden argument*/NULL);
+		String_t* L_12 = Regex_Replace_m7636(L_9, L_11, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
 		Conversation_t1377 * L_13 = ___conversation;
 		NullCheck(L_13);
 		int32_t L_14 = (((Asset_t1369 *)L_13)->___id_0);
@@ -18242,7 +18242,7 @@ IL_0051:
 		int32_t L_19 = L_18;
 		Object_t * L_20 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_19);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Format_m89(NULL /*static, unused*/, (String_t*) &_stringLiteral1026, L_12, L_16, L_20, /*hidden argument*/NULL);
+		String_t* L_21 = String_Format_m89(NULL /*static, unused*/, (String_t*) &_stringLiteral1031, L_12, L_16, L_20, /*hidden argument*/NULL);
 		return L_21;
 	}
 
@@ -18253,7 +18253,7 @@ IL_0083:
 		NullCheck(L_23);
 		String_t* L_24 = Conversation_get_Title_m5993(L_23, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		String_t* L_25 = Regex_Replace_m7636(L_22, L_24, (String_t*) &_stringLiteral1027, /*hidden argument*/NULL);
+		String_t* L_25 = Regex_Replace_m7636(L_22, L_24, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
 		DialogueEntry_t1361 * L_26 = ___entry;
 		NullCheck(L_26);
 		int32_t L_27 = (L_26->___id_2);
@@ -18278,7 +18278,7 @@ IL_00aa:
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1024;
+		return (String_t*) &_stringLiteral1029;
 	}
 
 IL_00c3:
@@ -18291,23 +18291,23 @@ IL_00c3:
 		int32_t L_38 = (L_37->___id_2);
 		V_2 = ((int32_t)((int32_t)((int32_t)((int32_t)L_36*(int32_t)((int32_t)500)))+(int32_t)L_38));
 		Regex_t789 * L_39 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_39, (String_t*) &_stringLiteral1029, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_39, (String_t*) &_stringLiteral1034, /*hidden argument*/NULL);
 		Actor_t1368 * L_40 = V_0;
 		NullCheck(L_40);
 		String_t* L_41 = Asset_get_Name_m5974(L_40, /*hidden argument*/NULL);
 		NullCheck(L_39);
-		String_t* L_42 = Regex_Replace_m7636(L_39, L_41, (String_t*) &_stringLiteral1027, /*hidden argument*/NULL);
+		String_t* L_42 = Regex_Replace_m7636(L_39, L_41, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
 		int32_t L_43 = V_2;
 		int32_t L_44 = L_43;
 		Object_t * L_45 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_44);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_46 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1028, L_42, L_45, /*hidden argument*/NULL);
+		String_t* L_46 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1033, L_42, L_45, /*hidden argument*/NULL);
 		return L_46;
 	}
 
 IL_0102:
 	{
-		return (String_t*) &_stringLiteral1024;
+		return (String_t*) &_stringLiteral1029;
 	}
 }
 // System.String PixelCrushers.DialogueSystem.DialogueDatabase::GetEntrytag(System.Int32,System.Int32,PixelCrushers.DialogueSystem.EntrytagFormat)
@@ -18541,7 +18541,7 @@ extern "C" void DialogueEntry__ctor_m6092 (DialogueEntry_t1361 * __this, DialogE
 		}
 	}
 	{
-		DialogueEntry_set_Sequence_m6117(__this, (String_t*) &_stringLiteral976, /*hidden argument*/NULL);
+		DialogueEntry_set_Sequence_m6117(__this, (String_t*) &_stringLiteral981, /*hidden argument*/NULL);
 	}
 
 IL_0088:
@@ -18729,7 +18729,7 @@ extern "C" int32_t DialogueEntry_get_ActorID_m6094 (DialogueEntry_t1361 * __this
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		int32_t L_1 = Field_LookupInt_m6161(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1015, /*hidden argument*/NULL);
+		int32_t L_1 = Field_LookupInt_m6161(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1020, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -18747,7 +18747,7 @@ extern "C" void DialogueEntry_set_ActorID_m6095 (DialogueEntry_t1361 * __this, i
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = Int32_ToString_m2707((&___value), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6164(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1015, L_1, 5, /*hidden argument*/NULL);
+		Field_SetValue_m6164(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1020, L_1, 5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -18764,7 +18764,7 @@ extern "C" int32_t DialogueEntry_get_ConversantID_m6096 (DialogueEntry_t1361 * _
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		int32_t L_1 = Field_LookupInt_m6161(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1016, /*hidden argument*/NULL);
+		int32_t L_1 = Field_LookupInt_m6161(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1021, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -18782,7 +18782,7 @@ extern "C" void DialogueEntry_set_ConversantID_m6097 (DialogueEntry_t1361 * __th
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = Int32_ToString_m2707((&___value), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6164(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1016, L_1, 5, /*hidden argument*/NULL);
+		Field_SetValue_m6164(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1021, L_1, 5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -18799,7 +18799,7 @@ extern "C" String_t* DialogueEntry_get_Title_m6098 (DialogueEntry_t1361 * __this
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupLocalizedValue_m6160(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1013, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupLocalizedValue_m6160(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1018, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -18817,7 +18817,7 @@ extern "C" void DialogueEntry_set_Title_m6099 (DialogueEntry_t1361 * __this, Str
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1013, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1018, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -18878,7 +18878,7 @@ extern "C" Field_t1406 * DialogueEntry_GetCurrentMenuTextField_m6102 (DialogueEn
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1030, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1035, /*hidden argument*/NULL);
 		Field_t1406 * L_2 = Field_AssignedField_m6170(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		Field_t1406 * L_3 = L_2;
 		G_B1_0 = L_3;
@@ -18891,7 +18891,7 @@ extern "C" Field_t1406 * DialogueEntry_GetCurrentMenuTextField_m6102 (DialogueEn
 	{
 		List_1_t1370 * L_4 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_t1406 * L_5 = Field_Lookup_m6158(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1030, /*hidden argument*/NULL);
+		Field_t1406 * L_5 = Field_Lookup_m6158(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1035, /*hidden argument*/NULL);
 		G_B2_0 = L_5;
 	}
 
@@ -18913,7 +18913,7 @@ extern "C" String_t* DialogueEntry_get_DefaultMenuText_m6103 (DialogueEntry_t136
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1030, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1035, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -18931,7 +18931,7 @@ extern "C" void DialogueEntry_set_DefaultMenuText_m6104 (DialogueEntry_t1361 * _
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1030, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1035, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -18948,7 +18948,7 @@ extern "C" String_t* DialogueEntry_get_LocalizedMenuText_m6105 (DialogueEntry_t1
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1030, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1035, /*hidden argument*/NULL);
 		String_t* L_2 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
@@ -18966,7 +18966,7 @@ extern "C" void DialogueEntry_set_LocalizedMenuText_m6106 (DialogueEntry_t1361 *
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1030, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1035, /*hidden argument*/NULL);
 		String_t* L_2 = ___value;
 		Field_SetValue_m6165(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return;
@@ -19042,7 +19042,7 @@ extern "C" Field_t1406 * DialogueEntry_GetCurrentDialogueTextField_m6109 (Dialog
 	{
 		List_1_t1370 * L_4 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_t1406 * L_5 = Field_Lookup_m6158(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1031, /*hidden argument*/NULL);
+		Field_t1406 * L_5 = Field_Lookup_m6158(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1036, /*hidden argument*/NULL);
 		G_B2_0 = L_5;
 	}
 
@@ -19064,7 +19064,7 @@ extern "C" String_t* DialogueEntry_get_DefaultDialogueText_m6110 (DialogueEntry_
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1031, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1036, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19082,7 +19082,7 @@ extern "C" void DialogueEntry_set_DefaultDialogueText_m6111 (DialogueEntry_t1361
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1031, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1036, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19238,7 +19238,7 @@ extern "C" Field_t1406 * DialogueEntry_GetCurrentSequenceField_m6118 (DialogueEn
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1024, /*hidden argument*/NULL);
 		Field_t1406 * L_2 = Field_AssignedField_m6170(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		Field_t1406 * L_3 = L_2;
 		G_B1_0 = L_3;
@@ -19251,7 +19251,7 @@ extern "C" Field_t1406 * DialogueEntry_GetCurrentSequenceField_m6118 (DialogueEn
 	{
 		List_1_t1370 * L_4 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_t1406 * L_5 = Field_Lookup_m6158(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+		Field_t1406 * L_5 = Field_Lookup_m6158(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1024, /*hidden argument*/NULL);
 		G_B2_0 = L_5;
 	}
 
@@ -19291,7 +19291,7 @@ extern "C" void DialogueEntry_SetCurrentSequenceField_m6119 (DialogueEntry_t1361
 		List_1_t1370 * L_3 = (__this->___fields_3);
 		String_t* L_4 = ___value;
 		Field_t1406 * L_5 = (Field_t1406 *)il2cpp_codegen_object_new (Field_t1406_il2cpp_TypeInfo_var);
-		Field__ctor_m6150(L_5, (String_t*) &_stringLiteral1019, L_4, 0, /*hidden argument*/NULL);
+		Field__ctor_m6150(L_5, (String_t*) &_stringLiteral1024, L_4, 0, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		VirtActionInvoker1< Field_t1406 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>::Add(!0) */, L_3, L_5);
 		goto IL_0040;
@@ -19330,7 +19330,7 @@ extern "C" String_t* DialogueEntry_get_DefaultSequence_m6120 (DialogueEntry_t136
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1024, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19339,7 +19339,7 @@ extern "C" void DialogueEntry_set_DefaultSequence_m6121 (DialogueEntry_t1361 * _
 {
 	{
 		String_t* L_0 = ___value;
-		DialogueEntry_SetSequenceField_m6124(__this, (String_t*) &_stringLiteral1019, L_0, /*hidden argument*/NULL);
+		DialogueEntry_SetSequenceField_m6124(__this, (String_t*) &_stringLiteral1024, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19356,7 +19356,7 @@ extern "C" String_t* DialogueEntry_get_LocalizedSequence_m6122 (DialogueEntry_t1
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1024, /*hidden argument*/NULL);
 		String_t* L_2 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
@@ -19373,7 +19373,7 @@ extern "C" void DialogueEntry_set_LocalizedSequence_m6123 (DialogueEntry_t1361 *
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_0 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+		String_t* L_0 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1024, /*hidden argument*/NULL);
 		String_t* L_1 = ___value;
 		DialogueEntry_SetSequenceField_m6124(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
@@ -19439,7 +19439,7 @@ extern "C" bool DialogueEntry_HasResponseMenuSequence_m6125 (DialogueEntry_t1361
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		bool L_1 = Field_FieldExists_m6157(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
+		bool L_1 = Field_FieldExists_m6157(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1037, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19484,7 +19484,7 @@ extern "C" Field_t1406 * DialogueEntry_GetCurrentResponseMenuSequenceField_m6128
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1037, /*hidden argument*/NULL);
 		Field_t1406 * L_2 = Field_AssignedField_m6170(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		Field_t1406 * L_3 = L_2;
 		G_B1_0 = L_3;
@@ -19497,7 +19497,7 @@ extern "C" Field_t1406 * DialogueEntry_GetCurrentResponseMenuSequenceField_m6128
 	{
 		List_1_t1370 * L_4 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_t1406 * L_5 = Field_Lookup_m6158(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
+		Field_t1406 * L_5 = Field_Lookup_m6158(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1037, /*hidden argument*/NULL);
 		G_B2_0 = L_5;
 	}
 
@@ -19537,7 +19537,7 @@ extern "C" void DialogueEntry_SetCurrentResponseMenuSequenceField_m6129 (Dialogu
 		List_1_t1370 * L_3 = (__this->___fields_3);
 		String_t* L_4 = ___value;
 		Field_t1406 * L_5 = (Field_t1406 *)il2cpp_codegen_object_new (Field_t1406_il2cpp_TypeInfo_var);
-		Field__ctor_m6150(L_5, (String_t*) &_stringLiteral1032, L_4, 0, /*hidden argument*/NULL);
+		Field__ctor_m6150(L_5, (String_t*) &_stringLiteral1037, L_4, 0, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		VirtActionInvoker1< Field_t1406 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>::Add(!0) */, L_3, L_5);
 		goto IL_0040;
@@ -19576,7 +19576,7 @@ extern "C" String_t* DialogueEntry_get_DefaultResponseMenuSequence_m6130 (Dialog
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1037, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19585,7 +19585,7 @@ extern "C" void DialogueEntry_set_DefaultResponseMenuSequence_m6131 (DialogueEnt
 {
 	{
 		String_t* L_0 = ___value;
-		DialogueEntry_SetSequenceField_m6124(__this, (String_t*) &_stringLiteral1032, L_0, /*hidden argument*/NULL);
+		DialogueEntry_SetSequenceField_m6124(__this, (String_t*) &_stringLiteral1037, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19602,7 +19602,7 @@ extern "C" String_t* DialogueEntry_get_LocalizedResponseMenuSequence_m6132 (Dial
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1037, /*hidden argument*/NULL);
 		String_t* L_2 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
@@ -19619,7 +19619,7 @@ extern "C" void DialogueEntry_set_LocalizedResponseMenuSequence_m6133 (DialogueE
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_0 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1032, /*hidden argument*/NULL);
+		String_t* L_0 = Field_LocalizedTitle_m6172(NULL /*static, unused*/, (String_t*) &_stringLiteral1037, /*hidden argument*/NULL);
 		String_t* L_1 = ___value;
 		DialogueEntry_SetSequenceField_m6124(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
@@ -19638,7 +19638,7 @@ extern "C" String_t* DialogueEntry_get_VideoFile_m6134 (DialogueEntry_t1361 * __
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1033, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1038, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19656,7 +19656,7 @@ extern "C" void DialogueEntry_set_VideoFile_m6135 (DialogueEntry_t1361 * __this,
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1033, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1038, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19673,7 +19673,7 @@ extern "C" String_t* DialogueEntry_get_AudioFiles_m6136 (DialogueEntry_t1361 * _
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1034, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1039, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19691,7 +19691,7 @@ extern "C" void DialogueEntry_set_AudioFiles_m6137 (DialogueEntry_t1361 * __this
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1034, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1039, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19708,7 +19708,7 @@ extern "C" String_t* DialogueEntry_get_AnimationFiles_m6138 (DialogueEntry_t1361
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1035, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1040, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19726,7 +19726,7 @@ extern "C" void DialogueEntry_set_AnimationFiles_m6139 (DialogueEntry_t1361 * __
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1035, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1040, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19743,7 +19743,7 @@ extern "C" String_t* DialogueEntry_get_LipsyncFiles_m6140 (DialogueEntry_t1361 *
 	{
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1036, /*hidden argument*/NULL);
+		String_t* L_1 = Field_LookupValue_m6159(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1041, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -19761,7 +19761,7 @@ extern "C" void DialogueEntry_set_LipsyncFiles_m6141 (DialogueEntry_t1361 * __th
 		List_1_t1370 * L_0 = (__this->___fields_3);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1036, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1041, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20328,22 +20328,22 @@ extern "C" void Field__cctor_m6152 (Object_t * __this /* static, unused */, cons
 		V_0 = L_0;
 		List_1_t1 * L_1 = V_0;
 		NullCheck(L_1);
-		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_1, (String_t*) &_stringLiteral1010);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_1, (String_t*) &_stringLiteral1015);
 		List_1_t1 * L_2 = V_0;
 		NullCheck(L_2);
-		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_2, (String_t*) &_stringLiteral1037);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_2, (String_t*) &_stringLiteral1042);
 		List_1_t1 * L_3 = V_0;
 		NullCheck(L_3);
-		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_3, (String_t*) &_stringLiteral1038);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_3, (String_t*) &_stringLiteral1043);
 		List_1_t1 * L_4 = V_0;
 		NullCheck(L_4);
-		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_4, (String_t*) &_stringLiteral1034);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_4, (String_t*) &_stringLiteral1039);
 		List_1_t1 * L_5 = V_0;
 		NullCheck(L_5);
-		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_5, (String_t*) &_stringLiteral1036);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_5, (String_t*) &_stringLiteral1041);
 		List_1_t1 * L_6 = V_0;
 		NullCheck(L_6);
-		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_6, (String_t*) &_stringLiteral1035);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_6, (String_t*) &_stringLiteral1040);
 		List_1_t1 * L_7 = V_0;
 		((Field_t1406_StaticFields*)Field_t1406_il2cpp_TypeInfo_var->static_fields)->___filenameFields_4 = L_7;
 		return;
@@ -20453,7 +20453,7 @@ extern "C" int32_t Field_StringToFieldType_m6154 (Object_t * __this /* static, u
 	{
 		String_t* L_0 = ___chatMapperType;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_Equals_m3001(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1039, /*hidden argument*/NULL);
+		bool L_1 = String_Equals_m3001(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1044, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -20467,7 +20467,7 @@ IL_0012:
 	{
 		String_t* L_2 = ___chatMapperType;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_3 = String_Equals_m3001(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1040, /*hidden argument*/NULL);
+		bool L_3 = String_Equals_m3001(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1045, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0024;
@@ -20481,7 +20481,7 @@ IL_0024:
 	{
 		String_t* L_4 = ___chatMapperType;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_5 = String_Equals_m3001(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1041, /*hidden argument*/NULL);
+		bool L_5 = String_Equals_m3001(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1046, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0036;
@@ -20495,7 +20495,7 @@ IL_0036:
 	{
 		String_t* L_6 = ___chatMapperType;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1042, /*hidden argument*/NULL);
+		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1047, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0048;
@@ -20509,7 +20509,7 @@ IL_0048:
 	{
 		String_t* L_8 = ___chatMapperType;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_9 = String_Equals_m3001(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1043, /*hidden argument*/NULL);
+		bool L_9 = String_Equals_m3001(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1048, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_005a;
@@ -20523,7 +20523,7 @@ IL_005a:
 	{
 		String_t* L_10 = ___chatMapperType;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_11 = String_Equals_m3001(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral1015, /*hidden argument*/NULL);
+		bool L_11 = String_Equals_m3001(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral1020, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_006c;
@@ -20537,7 +20537,7 @@ IL_006c:
 	{
 		String_t* L_12 = ___chatMapperType;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_13 = String_Equals_m3001(NULL /*static, unused*/, L_12, (String_t*) &_stringLiteral1044, /*hidden argument*/NULL);
+		bool L_13 = String_Equals_m3001(NULL /*static, unused*/, L_12, (String_t*) &_stringLiteral1049, /*hidden argument*/NULL);
 		if (!L_13)
 		{
 			goto IL_007e;
@@ -20551,7 +20551,7 @@ IL_007e:
 	{
 		String_t* L_14 = ___chatMapperType;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_15 = String_Equals_m3001(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral1045, /*hidden argument*/NULL);
+		bool L_15 = String_Equals_m3001(NULL /*static, unused*/, L_14, (String_t*) &_stringLiteral1050, /*hidden argument*/NULL);
 		if (!L_15)
 		{
 			goto IL_0090;
@@ -20583,7 +20583,7 @@ IL_0090:
 		ArrayElementTypeCheck (L_18, L_19);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 1)) = (Object_t *)L_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1046, L_18, /*hidden argument*/NULL);
+		String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1051, L_18, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 	}
 
@@ -20977,7 +20977,7 @@ IL_0036:
 		String_t* L_13 = ___title;
 		String_t* L_14 = Localization_get_Language_m3027(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Concat_m103(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral1027, L_14, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m103(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral1032, L_14, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
 		String_t* L_16 = Field_LookupValue_m6159(NULL /*static, unused*/, L_12, L_15, /*hidden argument*/NULL);
 		V_0 = L_16;
@@ -21337,7 +21337,7 @@ IL_0010:
 		ArrayElementTypeCheck (L_4, L_5);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 1)) = (Object_t *)L_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1047, L_4, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1052, L_4, /*hidden argument*/NULL);
 		G_B3_0 = L_6;
 	}
 
@@ -21393,7 +21393,7 @@ extern "C" void Item__ctor_m6175 (Item_t1408 * __this, Item_t1420 * ___chatMappe
 extern "C" bool Item_get_IsItem_m6176 (Item_t1408 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = Asset_LookupBool_m5983(__this, (String_t*) &_stringLiteral1048, /*hidden argument*/NULL);
+		bool L_0 = Asset_LookupBool_m5983(__this, (String_t*) &_stringLiteral1053, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -21411,7 +21411,7 @@ extern "C" void Item_set_IsItem_m6177 (Item_t1408 * __this, bool ___value, const
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		bool L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6168(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1048, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6168(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1053, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -21864,202 +21864,202 @@ extern "C" String_t* Localization_GetLanguage_m6184 (Object_t * __this /* static
 
 IL_00ad:
 	{
-		return (String_t*) &_stringLiteral1049;
+		return (String_t*) &_stringLiteral1054;
 	}
 
 IL_00b3:
 	{
-		return (String_t*) &_stringLiteral1050;
+		return (String_t*) &_stringLiteral1055;
 	}
 
 IL_00b9:
 	{
-		return (String_t*) &_stringLiteral1051;
+		return (String_t*) &_stringLiteral1056;
 	}
 
 IL_00bf:
 	{
-		return (String_t*) &_stringLiteral1052;
+		return (String_t*) &_stringLiteral1057;
 	}
 
 IL_00c5:
 	{
-		return (String_t*) &_stringLiteral1053;
+		return (String_t*) &_stringLiteral1058;
 	}
 
 IL_00cb:
 	{
-		return (String_t*) &_stringLiteral1054;
+		return (String_t*) &_stringLiteral1059;
 	}
 
 IL_00d1:
 	{
-		return (String_t*) &_stringLiteral1055;
+		return (String_t*) &_stringLiteral1060;
 	}
 
 IL_00d7:
 	{
-		return (String_t*) &_stringLiteral1056;
+		return (String_t*) &_stringLiteral1061;
 	}
 
 IL_00dd:
 	{
-		return (String_t*) &_stringLiteral1057;
+		return (String_t*) &_stringLiteral1062;
 	}
 
 IL_00e3:
 	{
-		return (String_t*) &_stringLiteral1058;
+		return (String_t*) &_stringLiteral1063;
 	}
 
 IL_00e9:
 	{
-		return (String_t*) &_stringLiteral1059;
+		return (String_t*) &_stringLiteral1064;
 	}
 
 IL_00ef:
 	{
-		return (String_t*) &_stringLiteral1060;
+		return (String_t*) &_stringLiteral1065;
 	}
 
 IL_00f5:
 	{
-		return (String_t*) &_stringLiteral1061;
+		return (String_t*) &_stringLiteral1066;
 	}
 
 IL_00fb:
 	{
-		return (String_t*) &_stringLiteral1062;
+		return (String_t*) &_stringLiteral1067;
 	}
 
 IL_0101:
 	{
-		return (String_t*) &_stringLiteral1063;
+		return (String_t*) &_stringLiteral1068;
 	}
 
 IL_0107:
 	{
-		return (String_t*) &_stringLiteral1064;
+		return (String_t*) &_stringLiteral1069;
 	}
 
 IL_010d:
 	{
-		return (String_t*) &_stringLiteral1065;
+		return (String_t*) &_stringLiteral1070;
 	}
 
 IL_0113:
 	{
-		return (String_t*) &_stringLiteral1066;
+		return (String_t*) &_stringLiteral1071;
 	}
 
 IL_0119:
 	{
-		return (String_t*) &_stringLiteral1067;
+		return (String_t*) &_stringLiteral1072;
 	}
 
 IL_011f:
 	{
-		return (String_t*) &_stringLiteral1068;
+		return (String_t*) &_stringLiteral1073;
 	}
 
 IL_0125:
 	{
-		return (String_t*) &_stringLiteral1069;
+		return (String_t*) &_stringLiteral1074;
 	}
 
 IL_012b:
 	{
-		return (String_t*) &_stringLiteral1070;
+		return (String_t*) &_stringLiteral1075;
 	}
 
 IL_0131:
 	{
-		return (String_t*) &_stringLiteral1071;
+		return (String_t*) &_stringLiteral1076;
 	}
 
 IL_0137:
 	{
-		return (String_t*) &_stringLiteral1072;
+		return (String_t*) &_stringLiteral1077;
 	}
 
 IL_013d:
 	{
-		return (String_t*) &_stringLiteral1073;
+		return (String_t*) &_stringLiteral1078;
 	}
 
 IL_0143:
 	{
-		return (String_t*) &_stringLiteral1074;
+		return (String_t*) &_stringLiteral1079;
 	}
 
 IL_0149:
 	{
-		return (String_t*) &_stringLiteral1075;
+		return (String_t*) &_stringLiteral1080;
 	}
 
 IL_014f:
 	{
-		return (String_t*) &_stringLiteral1076;
+		return (String_t*) &_stringLiteral1081;
 	}
 
 IL_0155:
 	{
-		return (String_t*) &_stringLiteral1077;
+		return (String_t*) &_stringLiteral1082;
 	}
 
 IL_015b:
 	{
-		return (String_t*) &_stringLiteral1078;
+		return (String_t*) &_stringLiteral1083;
 	}
 
 IL_0161:
 	{
-		return (String_t*) &_stringLiteral1079;
+		return (String_t*) &_stringLiteral1084;
 	}
 
 IL_0167:
 	{
-		return (String_t*) &_stringLiteral1080;
+		return (String_t*) &_stringLiteral1085;
 	}
 
 IL_016d:
 	{
-		return (String_t*) &_stringLiteral1081;
+		return (String_t*) &_stringLiteral1086;
 	}
 
 IL_0173:
 	{
-		return (String_t*) &_stringLiteral1082;
+		return (String_t*) &_stringLiteral1087;
 	}
 
 IL_0179:
 	{
-		return (String_t*) &_stringLiteral1083;
+		return (String_t*) &_stringLiteral1088;
 	}
 
 IL_017f:
 	{
-		return (String_t*) &_stringLiteral1084;
+		return (String_t*) &_stringLiteral1089;
 	}
 
 IL_0185:
 	{
-		return (String_t*) &_stringLiteral1085;
+		return (String_t*) &_stringLiteral1090;
 	}
 
 IL_018b:
 	{
-		return (String_t*) &_stringLiteral1086;
+		return (String_t*) &_stringLiteral1091;
 	}
 
 IL_0191:
 	{
-		return (String_t*) &_stringLiteral1087;
+		return (String_t*) &_stringLiteral1092;
 	}
 
 IL_0197:
 	{
-		return (String_t*) &_stringLiteral1088;
+		return (String_t*) &_stringLiteral1093;
 	}
 
 IL_019d:
@@ -22166,7 +22166,7 @@ extern "C" void Variable__ctor_m6191 (Variable_t1411 * __this, UserVariable_t142
 extern "C" String_t* Variable_get_InitialValue_m6192 (Variable_t1411 * __this, const MethodInfo* method)
 {
 	{
-		String_t* L_0 = Asset_LookupValue_m5979(__this, (String_t*) &_stringLiteral1089, /*hidden argument*/NULL);
+		String_t* L_0 = Asset_LookupValue_m5979(__this, (String_t*) &_stringLiteral1094, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -22184,7 +22184,7 @@ extern "C" void Variable_set_InitialValue_m6193 (Variable_t1411 * __this, String
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		String_t* L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1089, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6165(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1094, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -22192,7 +22192,7 @@ extern "C" void Variable_set_InitialValue_m6193 (Variable_t1411 * __this, String
 extern "C" float Variable_get_InitialFloatValue_m6194 (Variable_t1411 * __this, const MethodInfo* method)
 {
 	{
-		float L_0 = Asset_LookupFloat_m5982(__this, (String_t*) &_stringLiteral1089, /*hidden argument*/NULL);
+		float L_0 = Asset_LookupFloat_m5982(__this, (String_t*) &_stringLiteral1094, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -22210,7 +22210,7 @@ extern "C" void Variable_set_InitialFloatValue_m6195 (Variable_t1411 * __this, f
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		float L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6166(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1089, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6166(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1094, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -22218,7 +22218,7 @@ extern "C" void Variable_set_InitialFloatValue_m6195 (Variable_t1411 * __this, f
 extern "C" bool Variable_get_InitialBoolValue_m6196 (Variable_t1411 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = Asset_LookupBool_m5983(__this, (String_t*) &_stringLiteral1089, /*hidden argument*/NULL);
+		bool L_0 = Asset_LookupBool_m5983(__this, (String_t*) &_stringLiteral1094, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -22236,7 +22236,7 @@ extern "C" void Variable_set_InitialBoolValue_m6197 (Variable_t1411 * __this, bo
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		bool L_1 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_SetValue_m6168(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1089, L_1, /*hidden argument*/NULL);
+		Field_SetValue_m6168(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1094, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -22284,7 +22284,7 @@ extern "C" void Variable_Assign_m6200 (Variable_t1411 * __this, UserVariable_t14
 		Asset_Assign_m5977(__this, 0, L_2, /*hidden argument*/NULL);
 		List_1_t1370 * L_3 = (((Asset_t1369 *)__this)->___fields_1);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_t1406 * L_4 = Field_Lookup_m6158(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral1089, /*hidden argument*/NULL);
+		Field_t1406 * L_4 = Field_Lookup_m6158(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral1094, /*hidden argument*/NULL);
 		V_0 = L_4;
 		Field_t1406 * L_5 = V_0;
 		if (!L_5)
@@ -22351,7 +22351,7 @@ extern "C" int32_t Variable_LookupInitialValueType_m6201 (Variable_t1411 * __thi
 	{
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_t1406 * L_1 = Field_Lookup_m6158(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1089, /*hidden argument*/NULL);
+		Field_t1406 * L_1 = Field_Lookup_m6158(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1094, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Field_t1406 * L_2 = V_0;
 		if (L_2)
@@ -22391,7 +22391,7 @@ extern "C" void Variable_SetInitialValueType_m6202 (Variable_t1411 * __this, int
 	{
 		List_1_t1370 * L_0 = (((Asset_t1369 *)__this)->___fields_1);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		Field_t1406 * L_1 = Field_Lookup_m6158(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1089, /*hidden argument*/NULL);
+		Field_t1406 * L_1 = Field_Lookup_m6158(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1094, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Field_t1406 * L_2 = V_0;
 		if (!L_2)
@@ -22840,7 +22840,7 @@ extern "C" DialogueDatabase_t202 * ChatMapperToDialogueDatabase_ConvertToDialogu
 		ArrayElementTypeCheck (L_5, L_7);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 1)) = (Object_t *)L_7;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1090, L_5, /*hidden argument*/NULL);
+		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1095, L_5, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 	}
 
@@ -22951,7 +22951,7 @@ IL_0047:
 		ArrayElementTypeCheck (L_50, L_55);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_50, 6)) = (Object_t *)L_55;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_56 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1091, L_50, /*hidden argument*/NULL);
+		String_t* L_56 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1096, L_50, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
 	}
 
@@ -23840,7 +23840,7 @@ extern "C" void ChatMapperToDialogueDatabase_SetConversationStartCutsceneToNone_
 		ArrayElementTypeCheck (L_5, L_7);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_5, 1)) = (Object_t *)L_7;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1092, L_5, /*hidden argument*/NULL);
+		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1097, L_5, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 	}
 
@@ -23866,7 +23866,7 @@ IL_0042:
 		NullCheck(L_12);
 		List_1_t1370 * L_13 = (L_12->___fields_3);
 		IL2CPP_RUNTIME_CLASS_INIT(Field_t1406_il2cpp_TypeInfo_var);
-		bool L_14 = Field_FieldExists_m6157(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral1019, /*hidden argument*/NULL);
+		bool L_14 = Field_FieldExists_m6157(NULL /*static, unused*/, L_13, (String_t*) &_stringLiteral1024, /*hidden argument*/NULL);
 		if (!L_14)
 		{
 			goto IL_0077;
@@ -23875,7 +23875,7 @@ IL_0042:
 	{
 		DialogueEntry_t1361 * L_15 = V_0;
 		NullCheck(L_15);
-		DialogueEntry_set_Sequence_m6117(L_15, (String_t*) &_stringLiteral976, /*hidden argument*/NULL);
+		DialogueEntry_set_Sequence_m6117(L_15, (String_t*) &_stringLiteral981, /*hidden argument*/NULL);
 		goto IL_0092;
 	}
 
@@ -23885,7 +23885,7 @@ IL_0077:
 		NullCheck(L_16);
 		List_1_t1370 * L_17 = (L_16->___fields_3);
 		Field_t1406 * L_18 = (Field_t1406 *)il2cpp_codegen_object_new (Field_t1406_il2cpp_TypeInfo_var);
-		Field__ctor_m6150(L_18, (String_t*) &_stringLiteral1019, (String_t*) &_stringLiteral976, 0, /*hidden argument*/NULL);
+		Field__ctor_m6150(L_18, (String_t*) &_stringLiteral1024, (String_t*) &_stringLiteral981, 0, /*hidden argument*/NULL);
 		NullCheck(L_17);
 		VirtActionInvoker1< Field_t1406 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<PixelCrushers.DialogueSystem.Field>::Add(!0) */, L_17, L_18);
 	}
@@ -23952,7 +23952,7 @@ extern "C" int32_t ConditionPriorityTools_StringToConditionPriority_m6223 (Objec
 	{
 		String_t* L_0 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_Equals_m3001(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1093, /*hidden argument*/NULL);
+		bool L_1 = String_Equals_m3001(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1098, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -23966,7 +23966,7 @@ IL_0012:
 	{
 		String_t* L_2 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_3 = String_Equals_m3001(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1094, /*hidden argument*/NULL);
+		bool L_3 = String_Equals_m3001(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1099, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0024;
@@ -23980,7 +23980,7 @@ IL_0024:
 	{
 		String_t* L_4 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_5 = String_Equals_m3001(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1095, /*hidden argument*/NULL);
+		bool L_5 = String_Equals_m3001(NULL /*static, unused*/, L_4, (String_t*) &_stringLiteral1100, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0036;
@@ -23994,7 +23994,7 @@ IL_0036:
 	{
 		String_t* L_6 = ___s;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1096, /*hidden argument*/NULL);
+		bool L_7 = String_Equals_m3001(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1101, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0048;
@@ -24330,7 +24330,7 @@ IL_005a:
 		ArrayElementTypeCheck (L_24, L_27);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 1)) = (Object_t *)L_27;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1097, L_24, /*hidden argument*/NULL);
+		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1102, L_24, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 		goto IL_0085;
 	}
@@ -24478,7 +24478,7 @@ IL_0085:
 		ArrayElementTypeCheck (L_31, L_33);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_31, 1)) = (Object_t *)L_33;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_34 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1022, L_31, /*hidden argument*/NULL);
+		String_t* L_34 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1027, L_31, /*hidden argument*/NULL);
 		NullCheck(L_27);
 		L_27->___globalUserScript_7 = L_34;
 	}
@@ -25911,7 +25911,7 @@ IL_0013:
 			NullCheck(L_8);
 			String_t* L_9 = Asset_get_Name_m5974(L_8, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			bool L_10 = String_Equals_m3001(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral1098, /*hidden argument*/NULL);
+			bool L_10 = String_Equals_m3001(NULL /*static, unused*/, L_9, (String_t*) &_stringLiteral1103, /*hidden argument*/NULL);
 			if (!L_10)
 			{
 				goto IL_0044;
@@ -25994,7 +25994,7 @@ IL_007e:
 			NullCheck(L_24);
 			String_t* L_25 = Asset_get_Name_m5974(L_24, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			bool L_26 = String_Equals_m3001(NULL /*static, unused*/, L_25, (String_t*) &_stringLiteral1098, /*hidden argument*/NULL);
+			bool L_26 = String_Equals_m3001(NULL /*static, unused*/, L_25, (String_t*) &_stringLiteral1103, /*hidden argument*/NULL);
 			if (!L_26)
 			{
 				goto IL_00b2;
@@ -27677,7 +27677,7 @@ extern "C" bool LinkTools_IsPassthroughOnFalse_m6258 (Object_t * __this /* stati
 		NullCheck(L_0);
 		String_t* L_1 = (L_0->___falseConditionAction_9);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_2 = String_Equals_m3001(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral1020, /*hidden argument*/NULL);
+		bool L_2 = String_Equals_m3001(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral1025, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -27826,7 +27826,7 @@ IL_008b:
 		ArrayElementTypeCheck (L_23, L_24);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_23, 1)) = (Object_t *)L_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1099, L_23, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1104, L_23, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 	}
 
@@ -28041,7 +28041,7 @@ extern "C" void ConversationModel_FixFirstStateSequence_m6267 (ConversationModel
 		NullCheck(L_12);
 		Subtitle_t623 * L_13 = (L_12->___subtitle_0);
 		NullCheck(L_13);
-		L_13->___sequence_3 = (String_t*) &_stringLiteral976;
+		L_13->___sequence_3 = (String_t*) &_stringLiteral981;
 	}
 
 IL_0069:
@@ -28511,7 +28511,7 @@ extern "C" void ConversationModel_SetDialogTable_m6273 (ConversationModel_t1360 
 		ArrayElementTypeCheck (L_3, L_6);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 0)) = (Object_t *)L_6;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1100, L_3, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1105, L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 		Lua_Run_m3764(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 	}
@@ -28580,7 +28580,7 @@ extern "C" void ConversationModel_CheckSequenceField_m6274 (ConversationModel_t1
 		ArrayElementTypeCheck (L_8, L_10);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 1)) = (Object_t *)L_10;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1101, L_8, /*hidden argument*/NULL);
+		String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1106, L_8, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 	}
 
@@ -28932,7 +28932,7 @@ IL_00b2:
 			ArrayElementTypeCheck (L_49, L_51);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_49, 4)) = (Object_t *)L_51;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_52 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1102, L_49, /*hidden argument*/NULL);
+			String_t* L_52 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1107, L_49, /*hidden argument*/NULL);
 			Debug_Log_m90(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
 		}
 
@@ -29061,7 +29061,7 @@ IL_0183:
 			ArrayElementTypeCheck (L_91, L_94);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_91, 4)) = (Object_t *)L_94;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_95 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1103, L_91, /*hidden argument*/NULL);
+			String_t* L_95 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1108, L_91, /*hidden argument*/NULL);
 			Debug_Log_m90(NULL /*static, unused*/, L_95, /*hidden argument*/NULL);
 		}
 
@@ -29129,14 +29129,14 @@ IL_0222:
 			ArrayElementTypeCheck (L_113, L_117);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_113, 1)) = (Object_t *)L_117;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_118 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1104, L_113, /*hidden argument*/NULL);
+			String_t* L_118 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1109, L_113, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 			Result_t641  L_119 = Lua_Run_m3764(NULL /*static, unused*/, L_118, /*hidden argument*/NULL);
 			V_12 = L_119;
 			String_t* L_120 = Result_get_AsString_m3093((&V_12), /*hidden argument*/NULL);
 			V_8 = L_120;
 			String_t* L_121 = V_8;
-			bool L_122 = String_Equals_m3001(NULL /*static, unused*/, L_121, (String_t*) &_stringLiteral1105, /*hidden argument*/NULL);
+			bool L_122 = String_Equals_m3001(NULL /*static, unused*/, L_121, (String_t*) &_stringLiteral1110, /*hidden argument*/NULL);
 			V_9 = L_122;
 			bool L_123 = V_9;
 			if (!L_123)
@@ -29152,7 +29152,7 @@ IL_0273:
 			Object_t * L_126 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_125);
 			String_t* L_127 = V_7;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_128 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1106, L_126, L_127, /*hidden argument*/NULL);
+			String_t* L_128 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1111, L_126, L_127, /*hidden argument*/NULL);
 			V_7 = L_128;
 		}
 
@@ -29270,7 +29270,7 @@ IL_02d7:
 			ArrayElementTypeCheck (L_162, L_164);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_162, 5)) = (Object_t *)L_164;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_165 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1107, L_162, /*hidden argument*/NULL);
+			String_t* L_165 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1112, L_162, /*hidden argument*/NULL);
 			Debug_Log_m90(NULL /*static, unused*/, L_165, /*hidden argument*/NULL);
 		}
 
@@ -29364,7 +29364,7 @@ IL_037a:
 			ArrayElementTypeCheck (L_198, L_200);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_198, 5)) = (Object_t *)L_200;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_201 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1108, L_198, /*hidden argument*/NULL);
+			String_t* L_201 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1113, L_198, /*hidden argument*/NULL);
 			Debug_Log_m90(NULL /*static, unused*/, L_201, /*hidden argument*/NULL);
 		}
 
@@ -29773,7 +29773,7 @@ extern "C" Texture2D_t90 * ConversationModel_GetPortraitByActorName_m6284 (Conve
 		DialogueDebug_set_Level_m6690(NULL /*static, unused*/, 2, /*hidden argument*/NULL);
 		String_t* L_1 = ___actorName;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_2 = DialogueLua_GetActorField_m6335(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral984, /*hidden argument*/NULL);
+		Result_t641  L_2 = DialogueLua_GetActorField_m6335(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral989, /*hidden argument*/NULL);
 		V_3 = L_2;
 		String_t* L_3 = Result_get_AsString_m3093((&V_3), /*hidden argument*/NULL);
 		V_1 = L_3;
@@ -29795,7 +29795,7 @@ IL_0033:
 	{
 		String_t* L_7 = V_1;
 		NullCheck(L_7);
-		bool L_8 = String_StartsWith_m3455(L_7, (String_t*) &_stringLiteral985, /*hidden argument*/NULL);
+		bool L_8 = String_StartsWith_m3455(L_7, (String_t*) &_stringLiteral990, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_0074;
@@ -29821,8 +29821,8 @@ IL_0058:
 	{
 		Actor_t1368 * L_13 = V_2;
 		String_t* L_14 = V_1;
-		NullCheck((String_t*) &_stringLiteral985);
-		int32_t L_15 = String_get_Length_m3041((String_t*) &_stringLiteral985, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral990);
+		int32_t L_15 = String_get_Length_m3041((String_t*) &_stringLiteral990, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		String_t* L_16 = String_Substring_m3694(L_14, L_15, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Tools_t687_il2cpp_TypeInfo_var);
@@ -30639,7 +30639,7 @@ extern "C" void DialogueLua_InitializeChatMapperVariables_m6300 (Object_t * __th
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_0 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Lua_Run_m5693(NULL /*static, unused*/, (String_t*) &_stringLiteral1109, L_0, /*hidden argument*/NULL);
+		Lua_Run_m5693(NULL /*static, unused*/, (String_t*) &_stringLiteral1114, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -30679,17 +30679,17 @@ extern "C" void DialogueLua_AddChatMapperVariables_m6301 (Object_t * __this /* s
 		List_1_t1396 * L_3 = (L_2->___actors_9);
 		List_1_t1393 * L_4 = ___loadedDatabases;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_AddToTable_TisActor_t1368_m7690(NULL /*static, unused*/, (String_t*) &_stringLiteral1015, L_3, L_4, /*hidden argument*/DialogueLua_AddToTable_TisActor_t1368_m7690_MethodInfo_var);
+		DialogueLua_AddToTable_TisActor_t1368_m7690(NULL /*static, unused*/, (String_t*) &_stringLiteral1020, L_3, L_4, /*hidden argument*/DialogueLua_AddToTable_TisActor_t1368_m7690_MethodInfo_var);
 		DialogueDatabase_t202 * L_5 = ___database;
 		NullCheck(L_5);
 		List_1_t1397 * L_6 = (L_5->___items_10);
 		List_1_t1393 * L_7 = ___loadedDatabases;
-		DialogueLua_AddToTable_TisItem_t1408_m7692(NULL /*static, unused*/, (String_t*) &_stringLiteral1044, L_6, L_7, /*hidden argument*/DialogueLua_AddToTable_TisItem_t1408_m7692_MethodInfo_var);
+		DialogueLua_AddToTable_TisItem_t1408_m7692(NULL /*static, unused*/, (String_t*) &_stringLiteral1049, L_6, L_7, /*hidden argument*/DialogueLua_AddToTable_TisItem_t1408_m7692_MethodInfo_var);
 		DialogueDatabase_t202 * L_8 = ___database;
 		NullCheck(L_8);
 		List_1_t1398 * L_9 = (L_8->___locations_11);
 		List_1_t1393 * L_10 = ___loadedDatabases;
-		DialogueLua_AddToTable_TisLocation_t1410_m7693(NULL /*static, unused*/, (String_t*) &_stringLiteral1045, L_9, L_10, /*hidden argument*/DialogueLua_AddToTable_TisLocation_t1410_m7693_MethodInfo_var);
+		DialogueLua_AddToTable_TisLocation_t1410_m7693(NULL /*static, unused*/, (String_t*) &_stringLiteral1050, L_9, L_10, /*hidden argument*/DialogueLua_AddToTable_TisLocation_t1410_m7693_MethodInfo_var);
 		DialogueDatabase_t202 * L_11 = ___database;
 		NullCheck(L_11);
 		List_1_t1399 * L_12 = (L_11->___variables_12);
@@ -30759,27 +30759,27 @@ extern "C" void DialogueLua_RemoveChatMapperVariables_m6302 (Object_t * __this /
 		List_1_t1396 * L_3 = (L_2->___actors_9);
 		List_1_t1393 * L_4 = ___loadedDatabases;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_RemoveFromTable_TisActor_t1368_m7694(NULL /*static, unused*/, (String_t*) &_stringLiteral1015, L_3, L_4, /*hidden argument*/DialogueLua_RemoveFromTable_TisActor_t1368_m7694_MethodInfo_var);
+		DialogueLua_RemoveFromTable_TisActor_t1368_m7694(NULL /*static, unused*/, (String_t*) &_stringLiteral1020, L_3, L_4, /*hidden argument*/DialogueLua_RemoveFromTable_TisActor_t1368_m7694_MethodInfo_var);
 		DialogueDatabase_t202 * L_5 = ___database;
 		NullCheck(L_5);
 		List_1_t1397 * L_6 = (L_5->___items_10);
 		List_1_t1393 * L_7 = ___loadedDatabases;
-		DialogueLua_RemoveFromTable_TisItem_t1408_m7696(NULL /*static, unused*/, (String_t*) &_stringLiteral1044, L_6, L_7, /*hidden argument*/DialogueLua_RemoveFromTable_TisItem_t1408_m7696_MethodInfo_var);
+		DialogueLua_RemoveFromTable_TisItem_t1408_m7696(NULL /*static, unused*/, (String_t*) &_stringLiteral1049, L_6, L_7, /*hidden argument*/DialogueLua_RemoveFromTable_TisItem_t1408_m7696_MethodInfo_var);
 		DialogueDatabase_t202 * L_8 = ___database;
 		NullCheck(L_8);
 		List_1_t1398 * L_9 = (L_8->___locations_11);
 		List_1_t1393 * L_10 = ___loadedDatabases;
-		DialogueLua_RemoveFromTable_TisLocation_t1410_m7697(NULL /*static, unused*/, (String_t*) &_stringLiteral1045, L_9, L_10, /*hidden argument*/DialogueLua_RemoveFromTable_TisLocation_t1410_m7697_MethodInfo_var);
+		DialogueLua_RemoveFromTable_TisLocation_t1410_m7697(NULL /*static, unused*/, (String_t*) &_stringLiteral1050, L_9, L_10, /*hidden argument*/DialogueLua_RemoveFromTable_TisLocation_t1410_m7697_MethodInfo_var);
 		DialogueDatabase_t202 * L_11 = ___database;
 		NullCheck(L_11);
 		List_1_t1399 * L_12 = (L_11->___variables_12);
 		List_1_t1393 * L_13 = ___loadedDatabases;
-		DialogueLua_RemoveFromTable_TisVariable_t1411_m7698(NULL /*static, unused*/, (String_t*) &_stringLiteral1110, L_12, L_13, /*hidden argument*/DialogueLua_RemoveFromTable_TisVariable_t1411_m7698_MethodInfo_var);
+		DialogueLua_RemoveFromTable_TisVariable_t1411_m7698(NULL /*static, unused*/, (String_t*) &_stringLiteral1115, L_12, L_13, /*hidden argument*/DialogueLua_RemoveFromTable_TisVariable_t1411_m7698_MethodInfo_var);
 		DialogueDatabase_t202 * L_14 = ___database;
 		NullCheck(L_14);
 		List_1_t1400 * L_15 = (L_14->___conversations_13);
 		List_1_t1393 * L_16 = ___loadedDatabases;
-		DialogueLua_RemoveFromTable_TisConversation_t1377_m7699(NULL /*static, unused*/, (String_t*) &_stringLiteral1111, L_15, L_16, /*hidden argument*/DialogueLua_RemoveFromTable_TisConversation_t1377_m7699_MethodInfo_var);
+		DialogueLua_RemoveFromTable_TisConversation_t1377_m7699(NULL /*static, unused*/, (String_t*) &_stringLiteral1116, L_15, L_16, /*hidden argument*/DialogueLua_RemoveFromTable_TisConversation_t1377_m7699_MethodInfo_var);
 	}
 
 IL_0061:
@@ -30822,7 +30822,7 @@ extern "C" void DialogueLua_SetParticipants_m6303 (Object_t * __this /* static, 
 		ArrayElementTypeCheck (L_3, L_5);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1)) = (Object_t *)L_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1112, L_3, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1117, L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_7 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
@@ -30843,7 +30843,7 @@ extern "C" void DialogueLua_MarkDialogueEntryDisplayed_m6304 (Object_t * __this 
 	{
 		DialogueEntry_t1361 * L_0 = ___dialogueEntry;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_MarkDialogueEntry_m6306(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1105, /*hidden argument*/NULL);
+		DialogueLua_MarkDialogueEntry_m6306(NULL /*static, unused*/, L_0, (String_t*) &_stringLiteral1110, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -30918,14 +30918,14 @@ IL_0010:
 			ArrayElementTypeCheck (L_7, L_11);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 1)) = (Object_t *)L_11;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1104, L_7, /*hidden argument*/NULL);
+			String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1109, L_7, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 			Result_t641  L_13 = Lua_Run_m3764(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 			V_1 = L_13;
 			String_t* L_14 = Result_get_AsString_m3093((&V_1), /*hidden argument*/NULL);
 			V_0 = L_14;
 			String_t* L_15 = V_0;
-			bool L_16 = String_Equals_m3001(NULL /*static, unused*/, L_15, (String_t*) &_stringLiteral1105, /*hidden argument*/NULL);
+			bool L_16 = String_Equals_m3001(NULL /*static, unused*/, L_15, (String_t*) &_stringLiteral1110, /*hidden argument*/NULL);
 			if (L_16)
 			{
 				goto IL_0065;
@@ -30936,7 +30936,7 @@ IL_005a:
 		{
 			DialogueEntry_t1361 * L_17 = ___dialogueEntry;
 			IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-			DialogueLua_MarkDialogueEntry_m6306(NULL /*static, unused*/, L_17, (String_t*) &_stringLiteral1113, /*hidden argument*/NULL);
+			DialogueLua_MarkDialogueEntry_m6306(NULL /*static, unused*/, L_17, (String_t*) &_stringLiteral1118, /*hidden argument*/NULL);
 		}
 
 IL_0065:
@@ -30971,7 +30971,7 @@ IL_0075:
 			ArrayElementTypeCheck (L_19, (String_t*) &_stringLiteral104);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1114, L_19, /*hidden argument*/NULL);
+			String_t* L_20 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1119, L_19, /*hidden argument*/NULL);
 			Debug_LogError_m2987(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 		}
 
@@ -31064,7 +31064,7 @@ IL_0012:
 		ArrayElementTypeCheck (L_12, L_13);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 2)) = (Object_t *)L_13;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1115, L_12, /*hidden argument*/NULL);
+		String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1120, L_12, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 		Lua_Run_m5692(NULL /*static, unused*/, L_14, 0, 1, /*hidden argument*/NULL);
 		goto IL_0057;
@@ -31106,7 +31106,7 @@ IL_0057:
 		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_18 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1114, L_17, /*hidden argument*/NULL);
+		String_t* L_18 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1119, L_17, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 	}
 
@@ -31203,7 +31203,7 @@ IL_0020:
 			ArrayElementTypeCheck (L_10, L_15);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_10, 1)) = (Object_t *)L_15;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1117, L_10, /*hidden argument*/NULL);
+			String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1122, L_10, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 			bool L_17 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
@@ -31346,12 +31346,12 @@ IL_0020:
 			ArrayElementTypeCheck (L_6, L_10);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 0)) = (Object_t *)L_10;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1118, L_6, /*hidden argument*/NULL);
+			String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1123, L_6, /*hidden argument*/NULL);
 			Conversation_t1377 * L_12 = V_0;
 			NullCheck(L_12);
 			List_1_t1370 * L_13 = (((Asset_t1369 *)L_12)->___fields_1);
 			IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-			DialogueLua_SetFields_m6309(NULL /*static, unused*/, L_11, L_13, (String_t*) &_stringLiteral1119, /*hidden argument*/NULL);
+			DialogueLua_SetFields_m6309(NULL /*static, unused*/, L_11, L_13, (String_t*) &_stringLiteral1124, /*hidden argument*/NULL);
 		}
 
 IL_004e:
@@ -31436,7 +31436,7 @@ IL_0082:
 			ArrayElementTypeCheck (L_24, L_28);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_24, 0)) = (Object_t *)L_28;
 			NullCheck(L_23);
-			StringBuilder_AppendFormat_m7702(L_23, (String_t*) &_stringLiteral1120, L_24, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m7702(L_23, (String_t*) &_stringLiteral1125, L_24, /*hidden argument*/NULL);
 			Conversation_t1377 * L_29 = V_2;
 			NullCheck(L_29);
 			List_1_t1375 * L_30 = (L_29->___dialogueEntries_3);
@@ -31468,7 +31468,7 @@ IL_00c4:
 				ArrayElementTypeCheck (L_34, L_38);
 				*((Object_t **)(Object_t **)SZArrayLdElema(L_34, 0)) = (Object_t *)L_38;
 				NullCheck(L_33);
-				StringBuilder_AppendFormat_m7702(L_33, (String_t*) &_stringLiteral1121, L_34, /*hidden argument*/NULL);
+				StringBuilder_AppendFormat_m7702(L_33, (String_t*) &_stringLiteral1126, L_34, /*hidden argument*/NULL);
 			}
 
 IL_00ef:
@@ -31565,7 +31565,7 @@ IL_0148:
 			ArrayElementTypeCheck (L_48, (String_t*) &_stringLiteral104);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_48, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_49 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1122, L_48, /*hidden argument*/NULL);
+			String_t* L_49 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1127, L_48, /*hidden argument*/NULL);
 			Debug_LogError_m2987(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
 		}
 
@@ -31656,7 +31656,7 @@ extern "C" void DialogueLua_SetFields_m6309 (Object_t * __this /* static, unused
 		ArrayElementTypeCheck (L_0, L_1);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)L_1;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1123, L_0, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1128, L_0, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_3 = (StringBuilder_t696 *)il2cpp_codegen_object_new (StringBuilder_t696_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m7703(L_3, L_2, ((int32_t)1024), /*hidden argument*/NULL);
 		V_0 = L_3;
@@ -31709,7 +31709,7 @@ IL_0043:
 			ArrayElementTypeCheck (L_15, L_17);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 1)) = (Object_t *)L_17;
 			NullCheck(L_10);
-			StringBuilder_AppendFormat_m7702(L_10, (String_t*) &_stringLiteral1124, L_15, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m7702(L_10, (String_t*) &_stringLiteral1129, L_15, /*hidden argument*/NULL);
 		}
 
 IL_006c:
@@ -31866,7 +31866,7 @@ IL_002b:
 		}
 	}
 	{
-		G_B5_0 = (String_t*) &_stringLiteral1125;
+		G_B5_0 = (String_t*) &_stringLiteral1130;
 		goto IL_0041;
 	}
 
@@ -31892,7 +31892,7 @@ IL_0042:
 		}
 	}
 	{
-		G_B9_0 = (String_t*) &_stringLiteral1126;
+		G_B9_0 = (String_t*) &_stringLiteral1131;
 		goto IL_005d;
 	}
 
@@ -31920,7 +31920,7 @@ IL_005e:
 		ArrayElementTypeCheck (L_9, L_11);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_9, 0)) = (Object_t *)L_11;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1127, L_9, /*hidden argument*/NULL);
+		String_t* L_12 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1132, L_9, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -31959,7 +31959,7 @@ extern "C" void DialogueLua_RegisterDialogueSystemFunctions_m6312 (Object_t * __
 		Expression_1_t667 * L_5 = Expression_Lambda_TisAction_t250_m2918(NULL /*static, unused*/, L_4, ((ParameterExpressionU5BU5D_t668*)SZArrayNew(ParameterExpressionU5BU5D_t668_il2cpp_TypeInfo_var, 0)), /*hidden argument*/Expression_Lambda_TisAction_t250_m2918_MethodInfo_var);
 		MethodInfo_t * L_6 = SymbolExtensions_GetMethodInfo_m2923(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1130, NULL, L_6, /*hidden argument*/NULL);
+		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1135, NULL, L_6, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -32072,7 +32072,7 @@ extern "C" void DialogueLua_RegisterChatMapperFunctions_m6314 (Object_t * __this
 		Expression_1_t667 * L_8 = Expression_Lambda_TisAction_t250_m2918(NULL /*static, unused*/, L_7, ((ParameterExpressionU5BU5D_t668*)SZArrayNew(ParameterExpressionU5BU5D_t668_il2cpp_TypeInfo_var, 0)), /*hidden argument*/Expression_Lambda_TisAction_t250_m2918_MethodInfo_var);
 		MethodInfo_t * L_9 = SymbolExtensions_GetMethodInfo_m2923(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1131, NULL, L_9, /*hidden argument*/NULL);
+		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1136, NULL, L_9, /*hidden argument*/NULL);
 		MethodBase_t670 * L_10 = MethodBase_GetMethodFromHandle_m2920(NULL /*static, unused*/, LoadMethodToken(DialogueLua_SetStatus_m6320_MethodInfo_var), /*hidden argument*/NULL);
 		ExpressionU5BU5D_t671* L_11 = ((ExpressionU5BU5D_t671*)SZArrayNew(ExpressionU5BU5D_t671_il2cpp_TypeInfo_var, 3));
 		Type_t * L_12 = Type_GetTypeFromHandle_m2606(NULL /*static, unused*/, LoadTypeToken(LuaTable_t1336_0_0_0_var), /*hidden argument*/NULL);
@@ -32098,7 +32098,7 @@ extern "C" void DialogueLua_RegisterChatMapperFunctions_m6314 (Object_t * __this
 		MethodCallExpression_t673 * L_20 = Expression_Call_m2922(NULL /*static, unused*/, (Expression_t630 *)NULL, ((MethodInfo_t *)Castclass(L_10, MethodInfo_t_il2cpp_TypeInfo_var)), L_17, /*hidden argument*/NULL);
 		Expression_1_t667 * L_21 = Expression_Lambda_TisAction_t250_m2918(NULL /*static, unused*/, L_20, ((ParameterExpressionU5BU5D_t668*)SZArrayNew(ParameterExpressionU5BU5D_t668_il2cpp_TypeInfo_var, 0)), /*hidden argument*/Expression_Lambda_TisAction_t250_m2918_MethodInfo_var);
 		MethodInfo_t * L_22 = SymbolExtensions_GetMethodInfo_m2923(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
-		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1132, NULL, L_22, /*hidden argument*/NULL);
+		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1137, NULL, L_22, /*hidden argument*/NULL);
 		MethodBase_t670 * L_23 = MethodBase_GetMethodFromHandle_m2920(NULL /*static, unused*/, LoadMethodToken(DialogueLua_GetRelationship_m6321_MethodInfo_var), /*hidden argument*/NULL);
 		ExpressionU5BU5D_t671* L_24 = ((ExpressionU5BU5D_t671*)SZArrayNew(ExpressionU5BU5D_t671_il2cpp_TypeInfo_var, 3));
 		Type_t * L_25 = Type_GetTypeFromHandle_m2606(NULL /*static, unused*/, LoadTypeToken(LuaTable_t1336_0_0_0_var), /*hidden argument*/NULL);
@@ -32124,7 +32124,7 @@ extern "C" void DialogueLua_RegisterChatMapperFunctions_m6314 (Object_t * __this
 		MethodCallExpression_t673 * L_33 = Expression_Call_m2922(NULL /*static, unused*/, (Expression_t630 *)NULL, ((MethodInfo_t *)Castclass(L_23, MethodInfo_t_il2cpp_TypeInfo_var)), L_30, /*hidden argument*/NULL);
 		Expression_1_t667 * L_34 = Expression_Lambda_TisAction_t250_m2918(NULL /*static, unused*/, L_33, ((ParameterExpressionU5BU5D_t668*)SZArrayNew(ParameterExpressionU5BU5D_t668_il2cpp_TypeInfo_var, 0)), /*hidden argument*/Expression_Lambda_TisAction_t250_m2918_MethodInfo_var);
 		MethodInfo_t * L_35 = SymbolExtensions_GetMethodInfo_m2923(NULL /*static, unused*/, L_34, /*hidden argument*/NULL);
-		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1133, NULL, L_35, /*hidden argument*/NULL);
+		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1138, NULL, L_35, /*hidden argument*/NULL);
 		MethodBase_t670 * L_36 = MethodBase_GetMethodFromHandle_m2920(NULL /*static, unused*/, LoadMethodToken(DialogueLua_SetRelationship_m6322_MethodInfo_var), /*hidden argument*/NULL);
 		ExpressionU5BU5D_t671* L_37 = ((ExpressionU5BU5D_t671*)SZArrayNew(ExpressionU5BU5D_t671_il2cpp_TypeInfo_var, 4));
 		Type_t * L_38 = Type_GetTypeFromHandle_m2606(NULL /*static, unused*/, LoadTypeToken(LuaTable_t1336_0_0_0_var), /*hidden argument*/NULL);
@@ -32159,7 +32159,7 @@ extern "C" void DialogueLua_RegisterChatMapperFunctions_m6314 (Object_t * __this
 		MethodCallExpression_t673 * L_51 = Expression_Call_m2922(NULL /*static, unused*/, (Expression_t630 *)NULL, ((MethodInfo_t *)Castclass(L_36, MethodInfo_t_il2cpp_TypeInfo_var)), L_46, /*hidden argument*/NULL);
 		Expression_1_t667 * L_52 = Expression_Lambda_TisAction_t250_m2918(NULL /*static, unused*/, L_51, ((ParameterExpressionU5BU5D_t668*)SZArrayNew(ParameterExpressionU5BU5D_t668_il2cpp_TypeInfo_var, 0)), /*hidden argument*/Expression_Lambda_TisAction_t250_m2918_MethodInfo_var);
 		MethodInfo_t * L_53 = SymbolExtensions_GetMethodInfo_m2923(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
-		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1134, NULL, L_53, /*hidden argument*/NULL);
+		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1139, NULL, L_53, /*hidden argument*/NULL);
 		MethodBase_t670 * L_54 = MethodBase_GetMethodFromHandle_m2920(NULL /*static, unused*/, LoadMethodToken(DialogueLua_IncRelationship_m6323_MethodInfo_var), /*hidden argument*/NULL);
 		ExpressionU5BU5D_t671* L_55 = ((ExpressionU5BU5D_t671*)SZArrayNew(ExpressionU5BU5D_t671_il2cpp_TypeInfo_var, 4));
 		Type_t * L_56 = Type_GetTypeFromHandle_m2606(NULL /*static, unused*/, LoadTypeToken(LuaTable_t1336_0_0_0_var), /*hidden argument*/NULL);
@@ -32194,7 +32194,7 @@ extern "C" void DialogueLua_RegisterChatMapperFunctions_m6314 (Object_t * __this
 		MethodCallExpression_t673 * L_69 = Expression_Call_m2922(NULL /*static, unused*/, (Expression_t630 *)NULL, ((MethodInfo_t *)Castclass(L_54, MethodInfo_t_il2cpp_TypeInfo_var)), L_64, /*hidden argument*/NULL);
 		Expression_1_t667 * L_70 = Expression_Lambda_TisAction_t250_m2918(NULL /*static, unused*/, L_69, ((ParameterExpressionU5BU5D_t668*)SZArrayNew(ParameterExpressionU5BU5D_t668_il2cpp_TypeInfo_var, 0)), /*hidden argument*/Expression_Lambda_TisAction_t250_m2918_MethodInfo_var);
 		MethodInfo_t * L_71 = SymbolExtensions_GetMethodInfo_m2923(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
-		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1135, NULL, L_71, /*hidden argument*/NULL);
+		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1140, NULL, L_71, /*hidden argument*/NULL);
 		MethodBase_t670 * L_72 = MethodBase_GetMethodFromHandle_m2920(NULL /*static, unused*/, LoadMethodToken(DialogueLua_DecRelationship_m6324_MethodInfo_var), /*hidden argument*/NULL);
 		ExpressionU5BU5D_t671* L_73 = ((ExpressionU5BU5D_t671*)SZArrayNew(ExpressionU5BU5D_t671_il2cpp_TypeInfo_var, 4));
 		Type_t * L_74 = Type_GetTypeFromHandle_m2606(NULL /*static, unused*/, LoadTypeToken(LuaTable_t1336_0_0_0_var), /*hidden argument*/NULL);
@@ -32229,7 +32229,7 @@ extern "C" void DialogueLua_RegisterChatMapperFunctions_m6314 (Object_t * __this
 		MethodCallExpression_t673 * L_87 = Expression_Call_m2922(NULL /*static, unused*/, (Expression_t630 *)NULL, ((MethodInfo_t *)Castclass(L_72, MethodInfo_t_il2cpp_TypeInfo_var)), L_82, /*hidden argument*/NULL);
 		Expression_1_t667 * L_88 = Expression_Lambda_TisAction_t250_m2918(NULL /*static, unused*/, L_87, ((ParameterExpressionU5BU5D_t668*)SZArrayNew(ParameterExpressionU5BU5D_t668_il2cpp_TypeInfo_var, 0)), /*hidden argument*/Expression_Lambda_TisAction_t250_m2918_MethodInfo_var);
 		MethodInfo_t * L_89 = SymbolExtensions_GetMethodInfo_m2923(NULL /*static, unused*/, L_88, /*hidden argument*/NULL);
-		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1136, NULL, L_89, /*hidden argument*/NULL);
+		Lua_RegisterFunction_m2924(NULL /*static, unused*/, (String_t*) &_stringLiteral1141, NULL, L_89, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -32276,19 +32276,19 @@ IL_000c:
 		}
 	}
 	{
-		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral1137, /*hidden argument*/NULL);
+		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral1142, /*hidden argument*/NULL);
 	}
 
 IL_0020:
 	{
-		return (String_t*) &_stringLiteral1138;
+		return (String_t*) &_stringLiteral1143;
 	}
 
 IL_0026:
 	{
 		LuaTable_t1336 * L_3 = ___asset1;
 		NullCheck(L_3);
-		LuaValue_t1334 * L_4 = LuaTable_GetValue_m7553(L_3, (String_t*) &_stringLiteral1012, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_4 = LuaTable_GetValue_m7553(L_3, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		String_t* L_5 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
@@ -32296,7 +32296,7 @@ IL_0026:
 		V_0 = L_6;
 		LuaTable_t1336 * L_7 = ___asset2;
 		NullCheck(L_7);
-		LuaValue_t1334 * L_8 = LuaTable_GetValue_m7553(L_7, (String_t*) &_stringLiteral1012, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_8 = LuaTable_GetValue_m7553(L_7, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		String_t* L_9 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_8);
 		String_t* L_10 = DialogueLua_StringToTableIndex_m6330(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
@@ -32361,19 +32361,19 @@ IL_0012:
 		}
 	}
 	{
-		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral1139, /*hidden argument*/NULL);
+		Debug_LogWarning_m2940(NULL /*static, unused*/, (String_t*) &_stringLiteral1144, /*hidden argument*/NULL);
 	}
 
 IL_0026:
 	{
-		return (String_t*) &_stringLiteral1138;
+		return (String_t*) &_stringLiteral1143;
 	}
 
 IL_002c:
 	{
 		LuaTable_t1336 * L_4 = ___actor1;
 		NullCheck(L_4);
-		LuaValue_t1334 * L_5 = LuaTable_GetValue_m7553(L_4, (String_t*) &_stringLiteral1012, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_5 = LuaTable_GetValue_m7553(L_4, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		String_t* L_6 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
@@ -32381,7 +32381,7 @@ IL_002c:
 		V_0 = L_7;
 		LuaTable_t1336 * L_8 = ___actor2;
 		NullCheck(L_8);
-		LuaValue_t1334 * L_9 = LuaTable_GetValue_m7553(L_8, (String_t*) &_stringLiteral1012, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_9 = LuaTable_GetValue_m7553(L_8, (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		String_t* L_10 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_9);
 		String_t* L_11 = DialogueLua_StringToTableIndex_m6330(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
@@ -32410,7 +32410,7 @@ IL_002c:
 		ArrayElementTypeCheck (L_19, L_20);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_19, 2)) = (Object_t *)L_20;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1140, L_19, /*hidden argument*/NULL);
+		String_t* L_21 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1145, L_19, /*hidden argument*/NULL);
 		return L_21;
 	}
 }
@@ -32435,7 +32435,7 @@ extern "C" String_t* DialogueLua_SanitizeForStatusTable_m6317 (Object_t * __this
 		NullCheck(L_0);
 		StringU5BU5D_t20* L_2 = String_Split_m3309(L_0, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Join_m3315(NULL /*static, unused*/, (String_t*) &_stringLiteral1027, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Join_m3315(NULL /*static, unused*/, (String_t*) &_stringLiteral1032, L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
@@ -32818,7 +32818,7 @@ extern "C" String_t* DialogueLua_GetStatusTableAsLua_m6325 (Object_t * __this /*
 		V_0 = L_0;
 		StringBuilder_t696 * L_1 = V_0;
 		NullCheck(L_1);
-		StringBuilder_Append_m3049(L_1, (String_t*) &_stringLiteral1141, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_1, (String_t*) &_stringLiteral1146, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
 		Dictionary_2_t1444 * L_2 = ((DialogueLua_t704_StaticFields*)DialogueLua_t704_il2cpp_TypeInfo_var->static_fields)->___statusTable_1;
 		NullCheck(L_2);
@@ -32853,7 +32853,7 @@ IL_002c:
 			ArrayElementTypeCheck (L_8, L_10);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 1)) = (Object_t *)L_10;
 			NullCheck(L_5);
-			StringBuilder_AppendFormat_m7702(L_5, (String_t*) &_stringLiteral1142, L_8, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m7702(L_5, (String_t*) &_stringLiteral1147, L_8, /*hidden argument*/NULL);
 		}
 
 IL_005f:
@@ -32895,7 +32895,7 @@ IL_007c:
 	{
 		StringBuilder_t696 * L_15 = V_0;
 		NullCheck(L_15);
-		StringBuilder_Append_m3049(L_15, (String_t*) &_stringLiteral1143, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_15, (String_t*) &_stringLiteral1148, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_16 = V_0;
 		NullCheck(L_16);
 		String_t* L_17 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Text.StringBuilder::ToString() */, L_16);
@@ -32947,7 +32947,7 @@ extern "C" String_t* DialogueLua_GetRelationshipTableAsLua_m6326 (Object_t * __t
 		V_0 = L_0;
 		StringBuilder_t696 * L_1 = V_0;
 		NullCheck(L_1);
-		StringBuilder_Append_m3049(L_1, (String_t*) &_stringLiteral1144, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_1, (String_t*) &_stringLiteral1149, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
 		Dictionary_2_t1445 * L_2 = ((DialogueLua_t704_StaticFields*)DialogueLua_t704_il2cpp_TypeInfo_var->static_fields)->___relationshipTable_2;
 		NullCheck(L_2);
@@ -32982,7 +32982,7 @@ IL_002c:
 			ArrayElementTypeCheck (L_8, L_11);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_8, 1)) = (Object_t *)L_11;
 			NullCheck(L_5);
-			StringBuilder_AppendFormat_m7702(L_5, (String_t*) &_stringLiteral1145, L_8, /*hidden argument*/NULL);
+			StringBuilder_AppendFormat_m7702(L_5, (String_t*) &_stringLiteral1150, L_8, /*hidden argument*/NULL);
 		}
 
 IL_005f:
@@ -33024,7 +33024,7 @@ IL_007c:
 	{
 		StringBuilder_t696 * L_16 = V_0;
 		NullCheck(L_16);
-		StringBuilder_Append_m3049(L_16, (String_t*) &_stringLiteral1143, /*hidden argument*/NULL);
+		StringBuilder_Append_m3049(L_16, (String_t*) &_stringLiteral1148, /*hidden argument*/NULL);
 		StringBuilder_t696 * L_17 = V_0;
 		NullCheck(L_17);
 		String_t* L_18 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Text.StringBuilder::ToString() */, L_17);
@@ -33065,7 +33065,7 @@ extern "C" void DialogueLua_RefreshStatusTableFromLua_m6327 (Object_t * __this /
 		NullCheck(L_0);
 		VirtActionInvoker0::Invoke(13 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Clear() */, L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1146, /*hidden argument*/NULL);
+		Result_t641  L_1 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1151, /*hidden argument*/NULL);
 		V_9 = L_1;
 		String_t* L_2 = Result_get_AsString_m3093((&V_9), /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -33199,7 +33199,7 @@ extern "C" void DialogueLua_RefreshRelationshipTableFromLua_m6328 (Object_t * __
 		NullCheck(L_0);
 		VirtActionInvoker0::Invoke(13 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Single>::Clear() */, L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
-		Result_t641  L_1 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1147, /*hidden argument*/NULL);
+		Result_t641  L_1 = Lua_Run_m3764(NULL /*static, unused*/, (String_t*) &_stringLiteral1152, /*hidden argument*/NULL);
 		V_9 = L_1;
 		String_t* L_2 = Result_get_AsString_m3093((&V_9), /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -33271,7 +33271,7 @@ IL_0047:
 		ArrayElementTypeCheck (L_21, (*(String_t**)(String_t**)SZArrayLdElema(L_22, L_23)));
 		*((String_t**)(String_t**)SZArrayLdElema(L_21, 2)) = (String_t*)(*(String_t**)(String_t**)SZArrayLdElema(L_22, L_23));
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_24 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1148, (ObjectU5BU5D_t21*)(ObjectU5BU5D_t21*)L_21, /*hidden argument*/NULL);
+		String_t* L_24 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1153, (ObjectU5BU5D_t21*)(ObjectU5BU5D_t21*)L_21, /*hidden argument*/NULL);
 		V_7 = L_24;
 		StringU5BU5D_t20* L_25 = V_6;
 		NullCheck(L_25);
@@ -33339,13 +33339,13 @@ IL_0015:
 	{
 		String_t* L_3 = ___s;
 		NullCheck(L_3);
-		String_t* L_4 = String_Replace_m3757(L_3, (String_t*) &_stringLiteral671, (String_t*) &_stringLiteral1149, /*hidden argument*/NULL);
+		String_t* L_4 = String_Replace_m3757(L_3, (String_t*) &_stringLiteral671, (String_t*) &_stringLiteral1154, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		String_t* L_5 = String_Replace_m3757(L_4, (String_t*) &_stringLiteral148, (String_t*) &_stringLiteral1150, /*hidden argument*/NULL);
+		String_t* L_5 = String_Replace_m3757(L_4, (String_t*) &_stringLiteral148, (String_t*) &_stringLiteral1155, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		NullCheck(L_5);
-		String_t* L_7 = String_Replace_m3757(L_5, (String_t*) &_stringLiteral1151, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Replace_m3757(L_5, (String_t*) &_stringLiteral1156, L_6, /*hidden argument*/NULL);
 		G_B3_0 = L_7;
 	}
 
@@ -33483,7 +33483,7 @@ IL_001c:
 		String_t* L_5 = ___s;
 		String_t* L_6 = Localization_get_Language_m3027(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m103(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral1027, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m103(NULL /*static, unused*/, L_5, (String_t*) &_stringLiteral1032, L_6, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
 		String_t* L_8 = DialogueLua_StringToTableIndex_m6330(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		return L_8;
@@ -33684,7 +33684,7 @@ extern "C" void DialogueLua_SetTableField_m6334 (Object_t * __this /* static, un
 	{
 		String_t* L_4 = ___table;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1152, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1157, L_4, /*hidden argument*/NULL);
 		NullReferenceException_t1698 * L_6 = (NullReferenceException_t1698 *)il2cpp_codegen_object_new (NullReferenceException_t1698_il2cpp_TypeInfo_var);
 		NullReferenceException__ctor_m7719(L_6, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
@@ -33711,7 +33711,7 @@ IL_002e:
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
 		String_t* L_14 = DialogueLua_StringToTableIndex_m6330(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1153, L_12, L_14, /*hidden argument*/NULL);
+		String_t* L_15 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1158, L_12, L_14, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 		Lua_Run_m3764(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_16 = V_0;
@@ -33729,7 +33729,7 @@ IL_002e:
 	{
 		String_t* L_21 = ___element;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1154, L_21, /*hidden argument*/NULL);
+		String_t* L_22 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1159, L_21, /*hidden argument*/NULL);
 		NullReferenceException_t1698 * L_23 = (NullReferenceException_t1698 *)il2cpp_codegen_object_new (NullReferenceException_t1698_il2cpp_TypeInfo_var);
 		NullReferenceException__ctor_m7719(L_23, L_22, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_23);
@@ -33762,7 +33762,7 @@ extern "C" Result_t641  DialogueLua_GetActorField_m6335 (Object_t * __this /* st
 		String_t* L_0 = ___actor;
 		String_t* L_1 = ___field;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_2 = DialogueLua_GetTableField_m6333(NULL /*static, unused*/, (String_t*) &_stringLiteral1015, L_0, L_1, /*hidden argument*/NULL);
+		Result_t641  L_2 = DialogueLua_GetTableField_m6333(NULL /*static, unused*/, (String_t*) &_stringLiteral1020, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -33781,7 +33781,7 @@ extern "C" void DialogueLua_SetActorField_m6336 (Object_t * __this /* static, un
 		String_t* L_1 = ___field;
 		Object_t * L_2 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetTableField_m6334(NULL /*static, unused*/, (String_t*) &_stringLiteral1015, L_0, L_1, L_2, /*hidden argument*/NULL);
+		DialogueLua_SetTableField_m6334(NULL /*static, unused*/, (String_t*) &_stringLiteral1020, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -33799,7 +33799,7 @@ extern "C" Result_t641  DialogueLua_GetItemField_m6337 (Object_t * __this /* sta
 		String_t* L_0 = ___item;
 		String_t* L_1 = ___field;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_2 = DialogueLua_GetTableField_m6333(NULL /*static, unused*/, (String_t*) &_stringLiteral1044, L_0, L_1, /*hidden argument*/NULL);
+		Result_t641  L_2 = DialogueLua_GetTableField_m6333(NULL /*static, unused*/, (String_t*) &_stringLiteral1049, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -33818,7 +33818,7 @@ extern "C" void DialogueLua_SetItemField_m6338 (Object_t * __this /* static, unu
 		String_t* L_1 = ___field;
 		Object_t * L_2 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetTableField_m6334(NULL /*static, unused*/, (String_t*) &_stringLiteral1044, L_0, L_1, L_2, /*hidden argument*/NULL);
+		DialogueLua_SetTableField_m6334(NULL /*static, unused*/, (String_t*) &_stringLiteral1049, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -33836,7 +33836,7 @@ extern "C" Result_t641  DialogueLua_GetQuestField_m3092 (Object_t * __this /* st
 		String_t* L_0 = ___quest;
 		String_t* L_1 = ___field;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_2 = DialogueLua_GetTableField_m6333(NULL /*static, unused*/, (String_t*) &_stringLiteral1044, L_0, L_1, /*hidden argument*/NULL);
+		Result_t641  L_2 = DialogueLua_GetTableField_m6333(NULL /*static, unused*/, (String_t*) &_stringLiteral1049, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -33855,7 +33855,7 @@ extern "C" void DialogueLua_SetQuestField_m6339 (Object_t * __this /* static, un
 		String_t* L_1 = ___field;
 		Object_t * L_2 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetTableField_m6334(NULL /*static, unused*/, (String_t*) &_stringLiteral1044, L_0, L_1, L_2, /*hidden argument*/NULL);
+		DialogueLua_SetTableField_m6334(NULL /*static, unused*/, (String_t*) &_stringLiteral1049, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -33873,7 +33873,7 @@ extern "C" Result_t641  DialogueLua_GetLocationField_m6340 (Object_t * __this /*
 		String_t* L_0 = ___location;
 		String_t* L_1 = ___field;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_2 = DialogueLua_GetTableField_m6333(NULL /*static, unused*/, (String_t*) &_stringLiteral1045, L_0, L_1, /*hidden argument*/NULL);
+		Result_t641  L_2 = DialogueLua_GetTableField_m6333(NULL /*static, unused*/, (String_t*) &_stringLiteral1050, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -33892,7 +33892,7 @@ extern "C" void DialogueLua_SetLocationField_m6341 (Object_t * __this /* static,
 		String_t* L_1 = ___field;
 		Object_t * L_2 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetTableField_m6334(NULL /*static, unused*/, (String_t*) &_stringLiteral1045, L_0, L_1, L_2, /*hidden argument*/NULL);
+		DialogueLua_SetTableField_m6334(NULL /*static, unused*/, (String_t*) &_stringLiteral1050, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -33909,7 +33909,7 @@ extern "C" bool DialogueLua_DoesVariableExist_m6342 (Object_t * __this /* static
 	{
 		String_t* L_0 = ___variable;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		bool L_1 = DialogueLua_DoesTableElementExist_m6332(NULL /*static, unused*/, (String_t*) &_stringLiteral1110, L_0, /*hidden argument*/NULL);
+		bool L_1 = DialogueLua_DoesTableElementExist_m6332(NULL /*static, unused*/, (String_t*) &_stringLiteral1115, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -33933,7 +33933,7 @@ extern "C" Result_t641  DialogueLua_GetVariable_m3124 (Object_t * __this /* stat
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 		LuaTable_t1336 * L_0 = Lua_get_Environment_m5691(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaValue_t1334 * L_1 = LuaTable_GetValue_m7553(L_0, (String_t*) &_stringLiteral1110, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_1 = LuaTable_GetValue_m7553(L_0, (String_t*) &_stringLiteral1115, /*hidden argument*/NULL);
 		V_0 = ((LuaTable_t1336 *)IsInst(L_1, LuaTable_t1336_il2cpp_TypeInfo_var));
 		LuaTable_t1336 * L_2 = V_0;
 		if (!L_2)
@@ -33986,7 +33986,7 @@ extern "C" void DialogueLua_SetVariable_m3126 (Object_t * __this /* static, unus
 		Lua_set_WasInvoked_m5690(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		LuaTable_t1336 * L_0 = Lua_get_Environment_m5691(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		LuaValue_t1334 * L_1 = LuaTable_GetValue_m7553(L_0, (String_t*) &_stringLiteral1110, /*hidden argument*/NULL);
+		LuaValue_t1334 * L_1 = LuaTable_GetValue_m7553(L_0, (String_t*) &_stringLiteral1115, /*hidden argument*/NULL);
 		V_0 = ((LuaTable_t1336 *)IsInst(L_1, LuaTable_t1336_il2cpp_TypeInfo_var));
 		LuaTable_t1336 * L_2 = V_0;
 		if (L_2)
@@ -34993,7 +34993,7 @@ IL_000d:
 		V_4 = 0;
 		String_t* L_4 = V_0;
 		NullCheck(L_4);
-		bool L_5 = String_Contains_m2713(L_4, (String_t*) &_stringLiteral1155, /*hidden argument*/NULL);
+		bool L_5 = String_Contains_m2713(L_4, (String_t*) &_stringLiteral1160, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_006a;
@@ -35001,20 +35001,20 @@ IL_000d:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FormattedText_t625_il2cpp_TypeInfo_var);
-		int32_t L_6 = FormattedText_ExtractPicTag_m6395(NULL /*static, unused*/, (String_t*) &_stringLiteral1156, (&V_0), /*hidden argument*/NULL);
+		int32_t L_6 = FormattedText_ExtractPicTag_m6395(NULL /*static, unused*/, (String_t*) &_stringLiteral1161, (&V_0), /*hidden argument*/NULL);
 		V_2 = L_6;
-		int32_t L_7 = FormattedText_ExtractPicTag_m6395(NULL /*static, unused*/, (String_t*) &_stringLiteral1157, (&V_0), /*hidden argument*/NULL);
+		int32_t L_7 = FormattedText_ExtractPicTag_m6395(NULL /*static, unused*/, (String_t*) &_stringLiteral1162, (&V_0), /*hidden argument*/NULL);
 		V_3 = L_7;
-		int32_t L_8 = FormattedText_ExtractPicTag_m6395(NULL /*static, unused*/, (String_t*) &_stringLiteral1158, (&V_0), /*hidden argument*/NULL);
+		int32_t L_8 = FormattedText_ExtractPicTag_m6395(NULL /*static, unused*/, (String_t*) &_stringLiteral1163, (&V_0), /*hidden argument*/NULL);
 		V_4 = L_8;
 	}
 
 IL_006a:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(FormattedText_t625_il2cpp_TypeInfo_var);
-		bool L_9 = FormattedText_ExtractTag_m6393(NULL /*static, unused*/, (String_t*) &_stringLiteral1159, (&V_0), /*hidden argument*/NULL);
+		bool L_9 = FormattedText_ExtractTag_m6393(NULL /*static, unused*/, (String_t*) &_stringLiteral1164, (&V_0), /*hidden argument*/NULL);
 		V_5 = L_9;
-		bool L_10 = FormattedText_ExtractTag_m6393(NULL /*static, unused*/, (String_t*) &_stringLiteral1160, (&V_0), /*hidden argument*/NULL);
+		bool L_10 = FormattedText_ExtractTag_m6393(NULL /*static, unused*/, (String_t*) &_stringLiteral1165, (&V_0), /*hidden argument*/NULL);
 		V_6 = L_10;
 		int32_t L_11 = FormattedText_ExtractPositionTag_m6394(NULL /*static, unused*/, (&V_0), /*hidden argument*/NULL);
 		V_7 = L_11;
@@ -35070,7 +35070,7 @@ extern "C" void FormattedText_ReplacePipes_m6389 (Object_t * __this /* static, u
 	{
 		String_t** L_0 = ___text;
 		NullCheck((*((String_t**)L_0)));
-		bool L_1 = String_Contains_m2713((*((String_t**)L_0)), (String_t*) &_stringLiteral1017, /*hidden argument*/NULL);
+		bool L_1 = String_Contains_m2713((*((String_t**)L_0)), (String_t*) &_stringLiteral1022, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0024;
@@ -35080,7 +35080,7 @@ extern "C" void FormattedText_ReplacePipes_m6389 (Object_t * __this /* static, u
 		String_t** L_2 = ___text;
 		String_t** L_3 = ___text;
 		NullCheck((*((String_t**)L_3)));
-		String_t* L_4 = String_Replace_m3757((*((String_t**)L_3)), (String_t*) &_stringLiteral1017, (String_t*) &_stringLiteral148, /*hidden argument*/NULL);
+		String_t* L_4 = String_Replace_m3757((*((String_t**)L_3)), (String_t*) &_stringLiteral1022, (String_t*) &_stringLiteral148, /*hidden argument*/NULL);
 		*((Object_t **)(L_2)) = (Object_t *)L_4;
 	}
 
@@ -35123,7 +35123,7 @@ extern "C" void FormattedText_ReplaceLuaTags_m6390 (Object_t * __this /* static,
 	{
 		String_t** L_0 = ___text;
 		NullCheck((*((String_t**)L_0)));
-		bool L_1 = String_Contains_m2713((*((String_t**)L_0)), (String_t*) &_stringLiteral1161, /*hidden argument*/NULL);
+		bool L_1 = String_Contains_m2713((*((String_t**)L_0)), (String_t*) &_stringLiteral1166, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_00aa;
@@ -35131,7 +35131,7 @@ extern "C" void FormattedText_ReplaceLuaTags_m6390 (Object_t * __this /* static,
 	}
 	{
 		Regex_t789 * L_2 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_2, (String_t*) &_stringLiteral1162, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_2, (String_t*) &_stringLiteral1167, /*hidden argument*/NULL);
 		V_2 = L_2;
 		String_t** L_3 = ___text;
 		NullCheck((*((String_t**)L_3)));
@@ -35148,7 +35148,7 @@ IL_002e:
 		String_t** L_6 = ___text;
 		int32_t L_7 = V_3;
 		NullCheck((*((String_t**)L_6)));
-		int32_t L_8 = String_LastIndexOf_m7723((*((String_t**)L_6)), (String_t*) &_stringLiteral1161, L_7, 5, /*hidden argument*/NULL);
+		int32_t L_8 = String_LastIndexOf_m7723((*((String_t**)L_6)), (String_t*) &_stringLiteral1166, L_7, 5, /*hidden argument*/NULL);
 		V_5 = L_8;
 		int32_t L_9 = V_5;
 		V_3 = ((int32_t)((int32_t)L_9-(int32_t)1));
@@ -35262,7 +35262,7 @@ extern "C" void FormattedText_ReplaceVarTags_m6391 (Object_t * __this /* static,
 	{
 		String_t** L_0 = ___text;
 		NullCheck((*((String_t**)L_0)));
-		bool L_1 = String_Contains_m2713((*((String_t**)L_0)), (String_t*) &_stringLiteral1163, /*hidden argument*/NULL);
+		bool L_1 = String_Contains_m2713((*((String_t**)L_0)), (String_t*) &_stringLiteral1168, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_00aa;
@@ -35270,7 +35270,7 @@ extern "C" void FormattedText_ReplaceVarTags_m6391 (Object_t * __this /* static,
 	}
 	{
 		Regex_t789 * L_2 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_2, (String_t*) &_stringLiteral1164, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_2, (String_t*) &_stringLiteral1169, /*hidden argument*/NULL);
 		V_2 = L_2;
 		String_t** L_3 = ___text;
 		NullCheck((*((String_t**)L_3)));
@@ -35287,7 +35287,7 @@ IL_002e:
 		String_t** L_6 = ___text;
 		int32_t L_7 = V_3;
 		NullCheck((*((String_t**)L_6)));
-		int32_t L_8 = String_LastIndexOf_m7723((*((String_t**)L_6)), (String_t*) &_stringLiteral1163, L_7, 5, /*hidden argument*/NULL);
+		int32_t L_8 = String_LastIndexOf_m7723((*((String_t**)L_6)), (String_t*) &_stringLiteral1168, L_7, 5, /*hidden argument*/NULL);
 		V_5 = L_8;
 		int32_t L_9 = V_5;
 		V_3 = ((int32_t)((int32_t)L_9-(int32_t)1));
@@ -35406,7 +35406,7 @@ extern "C" String_t* FormattedText_ExtractVariableInputPrompt_m6392 (Object_t * 
 		L_1->___varName_0 = L_2;
 		String_t** L_3 = ___text;
 		NullCheck((*((String_t**)L_3)));
-		bool L_4 = String_Contains_m2713((*((String_t**)L_3)), (String_t*) &_stringLiteral1165, /*hidden argument*/NULL);
+		bool L_4 = String_Contains_m2713((*((String_t**)L_3)), (String_t*) &_stringLiteral1170, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_00ad;
@@ -35414,7 +35414,7 @@ extern "C" String_t* FormattedText_ExtractVariableInputPrompt_m6392 (Object_t * 
 	}
 	{
 		Regex_t789 * L_5 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_5, (String_t*) &_stringLiteral1166, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_5, (String_t*) &_stringLiteral1171, /*hidden argument*/NULL);
 		V_2 = L_5;
 		String_t** L_6 = ___text;
 		NullCheck((*((String_t**)L_6)));
@@ -35431,7 +35431,7 @@ IL_0041:
 		String_t** L_9 = ___text;
 		int32_t L_10 = V_3;
 		NullCheck((*((String_t**)L_9)));
-		int32_t L_11 = String_LastIndexOf_m7723((*((String_t**)L_9)), (String_t*) &_stringLiteral1165, L_10, 5, /*hidden argument*/NULL);
+		int32_t L_11 = String_LastIndexOf_m7723((*((String_t**)L_9)), (String_t*) &_stringLiteral1170, L_10, 5, /*hidden argument*/NULL);
 		V_5 = L_11;
 		int32_t L_12 = V_5;
 		V_3 = ((int32_t)((int32_t)L_12-(int32_t)1));
@@ -35560,7 +35560,7 @@ extern "C" int32_t FormattedText_ExtractPositionTag_m6394 (Object_t * __this /* 
 		L_1->___position_0 = (-1);
 		String_t** L_2 = ___text;
 		NullCheck((*((String_t**)L_2)));
-		bool L_3 = String_Contains_m2713((*((String_t**)L_2)), (String_t*) &_stringLiteral1167, /*hidden argument*/NULL);
+		bool L_3 = String_Contains_m2713((*((String_t**)L_2)), (String_t*) &_stringLiteral1172, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_003f;
@@ -35568,7 +35568,7 @@ extern "C" int32_t FormattedText_ExtractPositionTag_m6394 (Object_t * __this /* 
 	}
 	{
 		Regex_t789 * L_4 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_4, (String_t*) &_stringLiteral1168, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_4, (String_t*) &_stringLiteral1173, /*hidden argument*/NULL);
 		V_0 = L_4;
 		String_t** L_5 = ___text;
 		Regex_t789 * L_6 = V_0;
@@ -35674,7 +35674,7 @@ extern "C" EmphasisU5BU5D_t691* FormattedText_ExtractEmphasisTags_m6396 (Object_
 		L_3->___emphases_1 = L_4;
 		String_t** L_5 = ___text;
 		NullCheck((*((String_t**)L_5)));
-		bool L_6 = String_Contains_m2713((*((String_t**)L_5)), (String_t*) &_stringLiteral1169, /*hidden argument*/NULL);
+		bool L_6 = String_Contains_m2713((*((String_t**)L_5)), (String_t*) &_stringLiteral1174, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_004a;
@@ -35682,7 +35682,7 @@ extern "C" EmphasisU5BU5D_t691* FormattedText_ExtractEmphasisTags_m6396 (Object_
 	}
 	{
 		Regex_t789 * L_7 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_7, (String_t*) &_stringLiteral1170, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_7, (String_t*) &_stringLiteral1175, /*hidden argument*/NULL);
 		V_0 = L_7;
 		String_t** L_8 = ___text;
 		Regex_t789 * L_9 = V_0;
@@ -35784,7 +35784,7 @@ extern "C" EmphasisU5BU5D_t691* FormattedText_ReplaceEmphasisTagsWithRichText_m6
 	{
 		String_t** L_0 = ___text;
 		NullCheck((*((String_t**)L_0)));
-		bool L_1 = String_Contains_m2713((*((String_t**)L_0)), (String_t*) &_stringLiteral1169, /*hidden argument*/NULL);
+		bool L_1 = String_Contains_m2713((*((String_t**)L_0)), (String_t*) &_stringLiteral1174, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_012a;
@@ -35806,7 +35806,7 @@ IL_0018:
 		ArrayElementTypeCheck (L_2, L_5);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0)) = (Object_t *)L_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1171, L_2, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1176, L_2, /*hidden argument*/NULL);
 		V_1 = L_6;
 		ObjectU5BU5D_t21* L_7 = ((ObjectU5BU5D_t21*)SZArrayNew(ObjectU5BU5D_t21_il2cpp_TypeInfo_var, 1));
 		int32_t L_8 = V_0;
@@ -35816,7 +35816,7 @@ IL_0018:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 0);
 		ArrayElementTypeCheck (L_7, L_10);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 0)) = (Object_t *)L_10;
-		String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1172, L_7, /*hidden argument*/NULL);
+		String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1177, L_7, /*hidden argument*/NULL);
 		V_2 = L_11;
 		String_t** L_12 = ___text;
 		String_t* L_13 = V_1;
@@ -35839,13 +35839,13 @@ IL_0018:
 		G_B4_0 = 0;
 		G_B4_1 = L_15;
 		G_B4_2 = L_15;
-		G_B4_3 = (String_t*) &_stringLiteral1173;
+		G_B4_3 = (String_t*) &_stringLiteral1178;
 		if (!L_19)
 		{
 			G_B5_0 = 0;
 			G_B5_1 = L_15;
 			G_B5_2 = L_15;
-			G_B5_3 = (String_t*) &_stringLiteral1173;
+			G_B5_3 = (String_t*) &_stringLiteral1178;
 			goto IL_0081;
 		}
 	}
@@ -35950,13 +35950,13 @@ IL_00a5:
 		G_B10_0 = 0;
 		G_B10_1 = L_34;
 		G_B10_2 = L_34;
-		G_B10_3 = (String_t*) &_stringLiteral1174;
+		G_B10_3 = (String_t*) &_stringLiteral1179;
 		if (!L_38)
 		{
 			G_B11_0 = 0;
 			G_B11_1 = L_34;
 			G_B11_2 = L_34;
-			G_B11_3 = (String_t*) &_stringLiteral1174;
+			G_B11_3 = (String_t*) &_stringLiteral1179;
 			goto IL_00e0;
 		}
 	}
@@ -36162,7 +36162,7 @@ extern "C" String_t* FormattedText_U3CReplaceLuaTagsU3Em__28_m6399 (Object_t * _
 		V_0 = L_6;
 		String_t* L_7 = V_0;
 		NullCheck(L_7);
-		bool L_8 = String_StartsWith_m3455(L_7, (String_t*) &_stringLiteral960, /*hidden argument*/NULL);
+		bool L_8 = String_StartsWith_m3455(L_7, (String_t*) &_stringLiteral965, /*hidden argument*/NULL);
 		if (L_8)
 		{
 			goto IL_003b;
@@ -36171,7 +36171,7 @@ extern "C" String_t* FormattedText_U3CReplaceLuaTagsU3Em__28_m6399 (Object_t * _
 	{
 		String_t* L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral960, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral965, L_9, /*hidden argument*/NULL);
 		V_0 = L_10;
 	}
 
@@ -36228,7 +36228,7 @@ IL_0064:
 			ArrayElementTypeCheck (L_17, L_18);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 1)) = (Object_t *)L_18;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1175, L_17, /*hidden argument*/NULL);
+			String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1180, L_17, /*hidden argument*/NULL);
 			Debug_LogWarning_m2940(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 		}
 
@@ -36346,7 +36346,7 @@ IL_0043:
 			ArrayElementTypeCheck (L_12, L_13);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_12, 1)) = (Object_t *)L_13;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1176, L_12, /*hidden argument*/NULL);
+			String_t* L_14 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1181, L_12, /*hidden argument*/NULL);
 			Debug_LogWarning_m2940(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 		}
 
@@ -36818,7 +36818,7 @@ extern "C" void ConversationState_set_IsGroup_m6413 (ConversationState_t1355 * _
 extern "C" void DefaultCameraAngle__ctor_m6414 (DefaultCameraAngle_t1452 * __this, const MethodInfo* method)
 {
 	{
-		__this->___cameraAngle_2 = (String_t*) &_stringLiteral1177;
+		__this->___cameraAngle_2 = (String_t*) &_stringLiteral1182;
 		MonoBehaviour__ctor_m2585(__this, /*hidden argument*/NULL);
 		return;
 	}

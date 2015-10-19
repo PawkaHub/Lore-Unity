@@ -856,7 +856,7 @@ IL_0004:
 		{
 			Object_t* L_0 = (__this->___result_0);
 			NullCheck(L_0);
-			bool L_1 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.String>::ContainsKey(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral1466);
+			bool L_1 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.String>::ContainsKey(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral1471);
 			if (!L_1)
 			{
 				goto IL_005d;
@@ -870,10 +870,10 @@ IL_0016:
 			TaskCompletionSource_1_t1759 * L_3 = (L_2->___pendingTask_4);
 			Object_t* L_4 = (__this->___result_0);
 			NullCheck(L_4);
-			String_t* L_5 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1467);
+			String_t* L_5 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1472);
 			Object_t* L_6 = (__this->___result_0);
 			NullCheck(L_6);
-			String_t* L_7 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1466);
+			String_t* L_7 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1471);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_8 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral110, L_5, L_7, /*hidden argument*/NULL);
 			ParseException_t804 * L_9 = (ParseException_t804 *)il2cpp_codegen_object_new (ParseException_t804_il2cpp_TypeInfo_var);
@@ -891,19 +891,19 @@ IL_005d:
 			Dictionary_2_t468 * L_11 = V_0;
 			Object_t* L_12 = (__this->___result_0);
 			NullCheck(L_12);
-			String_t* L_13 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_12, (String_t*) &_stringLiteral1452);
+			String_t* L_13 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_12, (String_t*) &_stringLiteral1457);
 			NullCheck(L_11);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_11, (String_t*) &_stringLiteral1452, L_13);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_11, (String_t*) &_stringLiteral1457, L_13);
 			Dictionary_2_t468 * L_14 = V_0;
 			NullCheck(L_14);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_14, (String_t*) &_stringLiteral1468, (String_t*) &_stringLiteral1069);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_14, (String_t*) &_stringLiteral1473, (String_t*) &_stringLiteral1074);
 			IL2CPP_RUNTIME_CLASS_INIT(FacebookAuthenticationProvider_t1757_il2cpp_TypeInfo_var);
 			Uri_t32 * L_15 = ((FacebookAuthenticationProvider_t1757_StaticFields*)FacebookAuthenticationProvider_t1757_il2cpp_TypeInfo_var->static_fields)->___MeUrl_3;
 			Dictionary_2_t468 * L_16 = V_0;
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			String_t* L_17 = ParseClient_BuildQueryString_m8284(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_18 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1461, L_17, /*hidden argument*/NULL);
+			String_t* L_18 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1466, L_17, /*hidden argument*/NULL);
 			Uri_t32 * L_19 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
 			Uri__ctor_m8893(L_19, L_15, L_18, /*hidden argument*/NULL);
 			Initobj (CancellationToken_t1753_il2cpp_TypeInfo_var, (&V_4));
@@ -1059,15 +1059,15 @@ extern "C" void U3CU3Ec__DisplayClass5_U3CHandleNavigationU3Eb__3_m7999 (U3CU3Ec
 		FacebookAuthenticationProvider_t1757 * L_6 = (__this->___U3CU3E4__this_1);
 		Object_t* L_7 = V_0;
 		NullCheck(L_7);
-		Object_t * L_8 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral1069);
+		Object_t * L_8 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral1074);
 		Object_t* L_9 = (__this->___result_0);
 		NullCheck(L_9);
-		String_t* L_10 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_9, (String_t*) &_stringLiteral1452);
+		String_t* L_10 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_9, (String_t*) &_stringLiteral1457);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t1953_il2cpp_TypeInfo_var);
 		DateTime_t1953  L_11 = DateTime_get_Now_m8898(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Object_t* L_12 = (__this->___result_0);
 		NullCheck(L_12);
-		String_t* L_13 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_12, (String_t*) &_stringLiteral1469);
+		String_t* L_13 = (String_t*)InterfaceFuncInvoker1< String_t*, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.String>::get_Item(!0) */, IDictionary_2_t1756_il2cpp_TypeInfo_var, L_12, (String_t*) &_stringLiteral1474);
 		int32_t L_14 = Int32_Parse_m3308(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t629_il2cpp_TypeInfo_var);
 		TimeSpan_t629  L_15 = TimeSpan_FromSeconds_m3212(NULL /*static, unused*/, (((double)L_14)), /*hidden argument*/NULL);
@@ -1479,17 +1479,17 @@ extern "C" Object_t* FacebookAuthenticationProvider_GetAuthData_m8016 (FacebookA
 		Dictionary_2_t468 * L_1 = V_0;
 		String_t* L_2 = ___facebookId;
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1069, L_2);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1074, L_2);
 		Dictionary_2_t468 * L_3 = V_0;
 		String_t* L_4 = ___accessToken;
 		NullCheck(L_3);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_3, (String_t*) &_stringLiteral1452, L_4);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_3, (String_t*) &_stringLiteral1457, L_4);
 		Dictionary_2_t468 * L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		String_t* L_6 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___dateFormatString_2;
 		String_t* L_7 = DateTime_ToString_m8909((&___expiration), L_6, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_5, (String_t*) &_stringLiteral1453, L_7);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_5, (String_t*) &_stringLiteral1458, L_7);
 		Dictionary_2_t468 * L_8 = V_0;
 		return L_8;
 	}
@@ -1624,7 +1624,7 @@ extern "C" Task_1_t1952 * FacebookAuthenticationProvider_AuthenticateAsync_m8018
 	}
 	{
 		InvalidOperationException_t1668 * L_2 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_2, (String_t*) &_stringLiteral1454, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_2, (String_t*) &_stringLiteral1459, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -1676,12 +1676,12 @@ IL_002d:
 		Uri_t32 * L_17 = FacebookAuthenticationProvider_get_ResponseUrlOverride_m8005(__this, /*hidden argument*/NULL);
 		Uri_t32 * L_18 = L_17;
 		G_B6_0 = L_18;
-		G_B6_1 = (String_t*) &_stringLiteral1455;
+		G_B6_1 = (String_t*) &_stringLiteral1460;
 		G_B6_2 = L_16;
 		if (L_18)
 		{
 			G_B7_0 = L_18;
-			G_B7_1 = (String_t*) &_stringLiteral1455;
+			G_B7_1 = (String_t*) &_stringLiteral1460;
 			G_B7_2 = L_16;
 			goto IL_0087;
 		}
@@ -1702,14 +1702,14 @@ IL_0087:
 		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, G_B7_2, G_B7_1, L_20);
 		Dictionary_2_t468 * L_21 = V_2;
 		NullCheck(L_21);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_21, (String_t*) &_stringLiteral1456, (String_t*) &_stringLiteral255);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_21, (String_t*) &_stringLiteral1461, (String_t*) &_stringLiteral255);
 		Dictionary_2_t468 * L_22 = V_2;
 		NullCheck(L_22);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_22, (String_t*) &_stringLiteral1457, (String_t*) &_stringLiteral1458);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_22, (String_t*) &_stringLiteral1462, (String_t*) &_stringLiteral1463);
 		Dictionary_2_t468 * L_23 = V_2;
 		String_t* L_24 = FacebookAuthenticationProvider_get_AppId_m8009(__this, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_23, (String_t*) &_stringLiteral1459, L_24);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_23, (String_t*) &_stringLiteral1464, L_24);
 		Dictionary_2_t468 * L_25 = V_2;
 		V_1 = L_25;
 		Object_t* L_26 = FacebookAuthenticationProvider_get_Permissions_m8007(__this, /*hidden argument*/NULL);
@@ -1723,9 +1723,9 @@ IL_0087:
 		Object_t* L_28 = FacebookAuthenticationProvider_get_Permissions_m8007(__this, /*hidden argument*/NULL);
 		StringU5BU5D_t20* L_29 = Enumerable_ToArray_TisString_t_m8904(NULL /*static, unused*/, L_28, /*hidden argument*/Enumerable_ToArray_TisString_t_m8904_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_30 = String_Join_m3315(NULL /*static, unused*/, (String_t*) &_stringLiteral1293, L_29, /*hidden argument*/NULL);
+		String_t* L_30 = String_Join_m3315(NULL /*static, unused*/, (String_t*) &_stringLiteral1298, L_29, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_27, (String_t*) &_stringLiteral1460, L_30);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_27, (String_t*) &_stringLiteral1465, L_30);
 	}
 
 IL_00ec:
@@ -1755,7 +1755,7 @@ IL_00fc:
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		String_t* L_36 = ParseClient_BuildQueryString_m8284(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_37 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1461, L_36, /*hidden argument*/NULL);
+		String_t* L_37 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1466, L_36, /*hidden argument*/NULL);
 		Uri_t32 * L_38 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
 		Uri__ctor_m8893(L_38, G_B11_0, L_37, /*hidden argument*/NULL);
 		NullCheck(G_B11_1);
@@ -1808,7 +1808,7 @@ IL_000b:
 	{
 		Object_t* L_1 = ___authData;
 		NullCheck(L_1);
-		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_1, (String_t*) &_stringLiteral1452);
+		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_1, (String_t*) &_stringLiteral1457);
 		FacebookAuthenticationProvider_set_AccessToken_m8012(__this, ((String_t*)IsInst(L_2, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 	}
 
@@ -1821,7 +1821,7 @@ IL_0021:
 extern "C" String_t* FacebookAuthenticationProvider_get_AuthType_m8021 (FacebookAuthenticationProvider_t1757 * __this, const MethodInfo* method)
 {
 	{
-		return (String_t*) &_stringLiteral1451;
+		return (String_t*) &_stringLiteral1456;
 	}
 }
 // System.Void Parse.Internal.FacebookAuthenticationProvider::.cctor()
@@ -1838,16 +1838,16 @@ extern "C" void FacebookAuthenticationProvider__cctor_m8022 (Object_t * __this /
 	}
 	{
 		Uri_t32 * L_0 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8913(L_0, (String_t*) &_stringLiteral1462, 1, /*hidden argument*/NULL);
+		Uri__ctor_m8913(L_0, (String_t*) &_stringLiteral1467, 1, /*hidden argument*/NULL);
 		((FacebookAuthenticationProvider_t1757_StaticFields*)FacebookAuthenticationProvider_t1757_il2cpp_TypeInfo_var->static_fields)->___LoginDialogUrl_0 = L_0;
 		Uri_t32 * L_1 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8913(L_1, (String_t*) &_stringLiteral1463, 1, /*hidden argument*/NULL);
+		Uri__ctor_m8913(L_1, (String_t*) &_stringLiteral1468, 1, /*hidden argument*/NULL);
 		((FacebookAuthenticationProvider_t1757_StaticFields*)FacebookAuthenticationProvider_t1757_il2cpp_TypeInfo_var->static_fields)->___TokenExtensionUrl_1 = L_1;
 		Uri_t32 * L_2 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8913(L_2, (String_t*) &_stringLiteral1464, 1, /*hidden argument*/NULL);
+		Uri__ctor_m8913(L_2, (String_t*) &_stringLiteral1469, 1, /*hidden argument*/NULL);
 		((FacebookAuthenticationProvider_t1757_StaticFields*)FacebookAuthenticationProvider_t1757_il2cpp_TypeInfo_var->static_fields)->___ResponseUrl_2 = L_2;
 		Uri_t32 * L_3 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8913(L_3, (String_t*) &_stringLiteral1465, 1, /*hidden argument*/NULL);
+		Uri__ctor_m8913(L_3, (String_t*) &_stringLiteral1470, 1, /*hidden argument*/NULL);
 		((FacebookAuthenticationProvider_t1757_StaticFields*)FacebookAuthenticationProvider_t1757_il2cpp_TypeInfo_var->static_fields)->___MeUrl_3 = L_3;
 		return;
 	}
@@ -2740,7 +2740,7 @@ IL_0014:
 		NullCheck(L_3);
 		GroupCollection_t2010 * L_4 = (GroupCollection_t2010 *)VirtFuncInvoker0< GroupCollection_t2010 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_3);
 		NullCheck(L_4);
-		Group_t2008 * L_5 = GroupCollection_get_Item_m8927(L_4, (String_t*) &_stringLiteral1485, /*hidden argument*/NULL);
+		Group_t2008 * L_5 = GroupCollection_get_Item_m8927(L_4, (String_t*) &_stringLiteral1490, /*hidden argument*/NULL);
 		V_2 = L_5;
 		Group_t2008 * L_6 = V_2;
 		NullCheck(L_6);
@@ -2752,7 +2752,7 @@ IL_0014:
 		NullCheck(L_9);
 		GroupCollection_t2010 * L_10 = (GroupCollection_t2010 *)VirtFuncInvoker0< GroupCollection_t2010 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_9);
 		NullCheck(L_10);
-		Group_t2008 * L_11 = GroupCollection_get_Item_m8927(L_10, (String_t*) &_stringLiteral1486, /*hidden argument*/NULL);
+		Group_t2008 * L_11 = GroupCollection_get_Item_m8927(L_10, (String_t*) &_stringLiteral1491, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		CaptureCollection_t2011 * L_12 = Group_get_Captures_m8928(L_11, /*hidden argument*/NULL);
 		NullCheck(L_12);
@@ -2998,7 +2998,7 @@ IL_017f:
 			NullCheck(L_62);
 			String_t* L_63 = Capture_get_Value_m7721(L_62, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_64 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1487, L_63, /*hidden argument*/NULL);
+			String_t* L_64 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1492, L_63, /*hidden argument*/NULL);
 			ArgumentException_t725 * L_65 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 			ArgumentException__ctor_m3235(L_65, L_64, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_65);
@@ -3104,7 +3104,7 @@ IL_0014:
 		NullCheck(L_3);
 		GroupCollection_t2010 * L_4 = (GroupCollection_t2010 *)VirtFuncInvoker0< GroupCollection_t2010 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_3);
 		NullCheck(L_4);
-		Group_t2008 * L_5 = GroupCollection_get_Item_m8927(L_4, (String_t*) &_stringLiteral1488, /*hidden argument*/NULL);
+		Group_t2008 * L_5 = GroupCollection_get_Item_m8927(L_4, (String_t*) &_stringLiteral1493, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		int32_t L_6 = Capture_get_Length_m8930(L_5, /*hidden argument*/NULL);
 		if ((((int32_t)L_6) > ((int32_t)0)))
@@ -3117,7 +3117,7 @@ IL_0014:
 		NullCheck(L_7);
 		GroupCollection_t2010 * L_8 = (GroupCollection_t2010 *)VirtFuncInvoker0< GroupCollection_t2010 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_7);
 		NullCheck(L_8);
-		Group_t2008 * L_9 = GroupCollection_get_Item_m8927(L_8, (String_t*) &_stringLiteral1489, /*hidden argument*/NULL);
+		Group_t2008 * L_9 = GroupCollection_get_Item_m8927(L_8, (String_t*) &_stringLiteral1494, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		int32_t L_10 = Capture_get_Length_m8930(L_9, /*hidden argument*/NULL);
 		if ((((int32_t)L_10) <= ((int32_t)0)))
@@ -3622,7 +3622,7 @@ IL_0023:
 IL_0033:
 	{
 		ArgumentException_t725 * L_13 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_13, (String_t*) &_stringLiteral1470, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_13, (String_t*) &_stringLiteral1475, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 }
@@ -3687,13 +3687,13 @@ IL_0009:
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1471;
+		return (String_t*) &_stringLiteral1476;
 	}
 
 IL_0017:
 	{
 		StringBuilder_t696 * L_4 = (StringBuilder_t696 *)il2cpp_codegen_object_new (StringBuilder_t696_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m5270(L_4, (String_t*) &_stringLiteral1408, /*hidden argument*/NULL);
+		StringBuilder__ctor_m5270(L_4, (String_t*) &_stringLiteral1413, /*hidden argument*/NULL);
 		V_0 = L_4;
 		Object_t* L_5 = ___dict;
 		NullCheck(L_5);
@@ -3730,7 +3730,7 @@ IL_002b:
 			StringBuilder_Append_m3049(L_13, L_15, /*hidden argument*/NULL);
 			StringBuilder_t696 * L_16 = V_0;
 			NullCheck(L_16);
-			StringBuilder_Append_m3049(L_16, (String_t*) &_stringLiteral1293, /*hidden argument*/NULL);
+			StringBuilder_Append_m3049(L_16, (String_t*) &_stringLiteral1298, /*hidden argument*/NULL);
 		}
 
 IL_0070:
@@ -3854,13 +3854,13 @@ IL_0009:
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1472;
+		return (String_t*) &_stringLiteral1477;
 	}
 
 IL_0017:
 	{
 		StringBuilder_t696 * L_4 = (StringBuilder_t696 *)il2cpp_codegen_object_new (StringBuilder_t696_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m5270(L_4, (String_t*) &_stringLiteral1011, /*hidden argument*/NULL);
+		StringBuilder__ctor_m5270(L_4, (String_t*) &_stringLiteral1016, /*hidden argument*/NULL);
 		V_0 = L_4;
 		Object_t* L_5 = ___list;
 		NullCheck(L_5);
@@ -3889,7 +3889,7 @@ IL_002b:
 			StringBuilder_Append_m3049(L_9, L_11, /*hidden argument*/NULL);
 			StringBuilder_t696 * L_12 = V_0;
 			NullCheck(L_12);
-			StringBuilder_Append_m3049(L_12, (String_t*) &_stringLiteral1293, /*hidden argument*/NULL);
+			StringBuilder_Append_m3049(L_12, (String_t*) &_stringLiteral1298, /*hidden argument*/NULL);
 		}
 
 IL_004b:
@@ -4099,12 +4099,12 @@ IL_006f:
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1330;
+		return (String_t*) &_stringLiteral1335;
 	}
 
 IL_0085:
 	{
-		return (String_t*) &_stringLiteral1126;
+		return (String_t*) &_stringLiteral1131;
 	}
 
 IL_008b:
@@ -4123,7 +4123,7 @@ IL_008b:
 		NullCheck(L_25);
 		Type_t * L_26 = Object_GetType_m3130(L_25, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_27 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral1473, L_26, /*hidden argument*/NULL);
+		String_t* L_27 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral1478, L_26, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_28 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3235(L_28, L_27, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_28);
@@ -4207,37 +4207,37 @@ extern "C" String_t* Json_U3CEncodeU3Eb__0_m8055 (Object_t * __this /* static, u
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1474;
+		return (String_t*) &_stringLiteral1479;
 	}
 
 IL_003d:
 	{
-		return (String_t*) &_stringLiteral1149;
+		return (String_t*) &_stringLiteral1154;
 	}
 
 IL_0043:
 	{
-		return (String_t*) &_stringLiteral1475;
+		return (String_t*) &_stringLiteral1480;
 	}
 
 IL_0049:
 	{
-		return (String_t*) &_stringLiteral1476;
+		return (String_t*) &_stringLiteral1481;
 	}
 
 IL_004f:
 	{
-		return (String_t*) &_stringLiteral1150;
+		return (String_t*) &_stringLiteral1155;
 	}
 
 IL_0055:
 	{
-		return (String_t*) &_stringLiteral1477;
+		return (String_t*) &_stringLiteral1482;
 	}
 
 IL_005b:
 	{
-		return (String_t*) &_stringLiteral1478;
+		return (String_t*) &_stringLiteral1483;
 	}
 
 IL_0061:
@@ -4248,9 +4248,9 @@ IL_0061:
 		NullCheck(L_7);
 		uint16_t L_8 = String_get_Chars_m3046(L_7, 0, /*hidden argument*/NULL);
 		V_1 = L_8;
-		String_t* L_9 = UInt16_ToString_m8944((&V_1), (String_t*) &_stringLiteral1480, /*hidden argument*/NULL);
+		String_t* L_9 = UInt16_ToString_m8944((&V_1), (String_t*) &_stringLiteral1485, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1479, L_9, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1484, L_9, /*hidden argument*/NULL);
 		return L_10;
 	}
 }
@@ -4269,35 +4269,35 @@ extern "C" void Json__cctor_m8056 (Object_t * __this /* static, unused */, const
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___startOfString_0 = (String_t*) &_stringLiteral1481;
+		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___startOfString_0 = (String_t*) &_stringLiteral1486;
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___startObject_1 = ((int32_t)123);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___endObject_2 = ((int32_t)125);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___startArray_3 = ((int32_t)91);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___endArray_4 = ((int32_t)93);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___valueSeparator_5 = ((int32_t)44);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___nameSeparator_6 = ((int32_t)58);
-		NullCheck((String_t*) &_stringLiteral1126);
-		CharU5BU5D_t583* L_0 = String_ToCharArray_m8923((String_t*) &_stringLiteral1126, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral1131);
+		CharU5BU5D_t583* L_0 = String_ToCharArray_m8923((String_t*) &_stringLiteral1131, /*hidden argument*/NULL);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___falseValue_7 = L_0;
-		NullCheck((String_t*) &_stringLiteral1330);
-		CharU5BU5D_t583* L_1 = String_ToCharArray_m8923((String_t*) &_stringLiteral1330, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral1335);
+		CharU5BU5D_t583* L_1 = String_ToCharArray_m8923((String_t*) &_stringLiteral1335, /*hidden argument*/NULL);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___trueValue_8 = L_1;
 		NullCheck((String_t*) &_stringLiteral530);
 		CharU5BU5D_t583* L_2 = String_ToCharArray_m8923((String_t*) &_stringLiteral530, /*hidden argument*/NULL);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___nullValue_9 = L_2;
 		String_t* L_3 = ((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___startOfString_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral1482, /*hidden argument*/NULL);
+		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, L_3, (String_t*) &_stringLiteral1487, /*hidden argument*/NULL);
 		Regex_t789 * L_5 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
 		Regex__ctor_m7635(L_5, L_4, /*hidden argument*/NULL);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___numberValue_10 = L_5;
 		String_t* L_6 = ((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___startOfString_0;
-		String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1483, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral1488, /*hidden argument*/NULL);
 		Regex_t789 * L_8 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
 		Regex__ctor_m8945(L_8, L_7, 2, /*hidden argument*/NULL);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___stringValue_11 = L_8;
 		Regex_t789 * L_9 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_9, (String_t*) &_stringLiteral1484, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_9, (String_t*) &_stringLiteral1489, /*hidden argument*/NULL);
 		((Json_t1768_StaticFields*)Json_t1768_il2cpp_TypeInfo_var->static_fields)->___escapePattern_12 = L_9;
 		return;
 	}
@@ -4859,13 +4859,13 @@ extern "C" Object_t * ParseAddOperation_Encode_m8065 (ParseAddOperation_t1774 * 
 		V_0 = L_0;
 		Dictionary_2_t468 * L_1 = V_0;
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1490, (String_t*) &_stringLiteral1491);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1495, (String_t*) &_stringLiteral1496);
 		Dictionary_2_t468 * L_2 = V_0;
 		ReadOnlyCollection_1_t1773 * L_3 = (__this->___objects_0);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		Object_t * L_4 = ParseClient_MaybeEncodeJSONObject_m8276(NULL /*static, unused*/, L_3, 1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1492, L_4);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1497, L_4);
 		Dictionary_2_t468 * L_5 = V_0;
 		return L_5;
 	}
@@ -4973,7 +4973,7 @@ IL_0055:
 IL_0079:
 	{
 		InvalidOperationException_t1668 * L_21 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_21, (String_t*) &_stringLiteral1493, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_21, (String_t*) &_stringLiteral1498, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 }
@@ -5173,13 +5173,13 @@ extern "C" Object_t * ParseAddUniqueOperation_Encode_m8073 (ParseAddUniqueOperat
 		V_0 = L_0;
 		Dictionary_2_t468 * L_1 = V_0;
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1490, (String_t*) &_stringLiteral1494);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1495, (String_t*) &_stringLiteral1499);
 		Dictionary_2_t468 * L_2 = V_0;
 		ReadOnlyCollection_1_t1773 * L_3 = (__this->___objects_0);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		Object_t * L_4 = ParseClient_MaybeEncodeJSONObject_m8276(NULL /*static, unused*/, L_3, 1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1492, L_4);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1497, L_4);
 		Dictionary_2_t468 * L_5 = V_0;
 		return L_5;
 	}
@@ -5288,7 +5288,7 @@ IL_004f:
 IL_0077:
 	{
 		InvalidOperationException_t1668 * L_20 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_20, (String_t*) &_stringLiteral1493, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_20, (String_t*) &_stringLiteral1498, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_20);
 	}
 }
@@ -5613,7 +5613,7 @@ extern "C" Object_t * ParseDeleteOperation_Encode_m8079 (ParseDeleteOperation_t1
 		V_0 = L_0;
 		Dictionary_2_t468 * L_1 = V_0;
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1490, (String_t*) &_stringLiteral1495);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1495, (String_t*) &_stringLiteral1500);
 		Dictionary_2_t468 * L_2 = V_0;
 		return L_2;
 	}
@@ -8402,11 +8402,11 @@ extern "C" Object_t * ParseIncrementOperation_Encode_m8092 (ParseIncrementOperat
 		V_0 = L_0;
 		Dictionary_2_t468 * L_1 = V_0;
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1490, (String_t*) &_stringLiteral1496);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1495, (String_t*) &_stringLiteral1501);
 		Dictionary_2_t468 * L_2 = V_0;
 		Object_t * L_3 = (__this->___amount_1);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1497, L_3);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1502, L_3);
 		Dictionary_2_t468 * L_4 = V_0;
 		return L_4;
 	}
@@ -8468,8 +8468,8 @@ IL_0028:
 		ObjectU5BU5D_t21* L_11 = V_1;
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 0);
-		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral1498);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 0)) = (Object_t *)(String_t*) &_stringLiteral1498;
+		ArrayElementTypeCheck (L_11, (String_t*) &_stringLiteral1503);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 0)) = (Object_t *)(String_t*) &_stringLiteral1503;
 		ObjectU5BU5D_t21* L_12 = V_1;
 		Object_t * L_13 = ___obj1;
 		NullCheck(L_13);
@@ -8481,8 +8481,8 @@ IL_0028:
 		ObjectU5BU5D_t21* L_15 = V_1;
 		NullCheck(L_15);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, 2);
-		ArrayElementTypeCheck (L_15, (String_t*) &_stringLiteral1499);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 2)) = (Object_t *)(String_t*) &_stringLiteral1499;
+		ArrayElementTypeCheck (L_15, (String_t*) &_stringLiteral1504);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 2)) = (Object_t *)(String_t*) &_stringLiteral1504;
 		ObjectU5BU5D_t21* L_16 = V_1;
 		Object_t * L_17 = ___obj2;
 		NullCheck(L_17);
@@ -8568,7 +8568,7 @@ IL_0019:
 	}
 	{
 		InvalidOperationException_t1668 * L_8 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_8, (String_t*) &_stringLiteral1500, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_8, (String_t*) &_stringLiteral1505, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -8612,7 +8612,7 @@ IL_0054:
 IL_007c:
 	{
 		InvalidOperationException_t1668 * L_22 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_22, (String_t*) &_stringLiteral1493, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_22, (String_t*) &_stringLiteral1498, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 }
@@ -8645,7 +8645,7 @@ extern "C" Object_t * ParseIncrementOperation_Apply_m8095 (ParseIncrementOperati
 	}
 	{
 		InvalidOperationException_t1668 * L_1 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_1, (String_t*) &_stringLiteral1500, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_1, (String_t*) &_stringLiteral1505, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -10024,7 +10024,7 @@ IL_0006:
 
 CATCH_001a:
 	{ // begin catch(System.Object)
-		__this->___comparisonString_0 = (String_t*) &_stringLiteral1501;
+		__this->___comparisonString_0 = (String_t*) &_stringLiteral1506;
 		goto IL_0028;
 	} // end catch (depth: 1)
 
@@ -10383,11 +10383,11 @@ extern "C" Object_t * ParseRelationOperation_Encode_m8165 (ParseRelationOperatio
 		V_5 = L_12;
 		Dictionary_2_t468 * L_13 = V_5;
 		NullCheck(L_13);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral1490, (String_t*) &_stringLiteral1502);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral1495, (String_t*) &_stringLiteral1507);
 		Dictionary_2_t468 * L_14 = V_5;
 		List_1_t2 * L_15 = V_0;
 		NullCheck(L_14);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_14, (String_t*) &_stringLiteral1492, L_15);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_14, (String_t*) &_stringLiteral1497, L_15);
 		Dictionary_2_t468 * L_16 = V_5;
 		G_B3_0 = L_16;
 		goto IL_006c;
@@ -10415,11 +10415,11 @@ IL_006c:
 		V_6 = L_19;
 		Dictionary_2_t468 * L_20 = V_6;
 		NullCheck(L_20);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_20, (String_t*) &_stringLiteral1490, (String_t*) &_stringLiteral1503);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_20, (String_t*) &_stringLiteral1495, (String_t*) &_stringLiteral1508);
 		Dictionary_2_t468 * L_21 = V_6;
 		List_1_t2 * L_22 = V_1;
 		NullCheck(L_21);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_21, (String_t*) &_stringLiteral1492, L_22);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_21, (String_t*) &_stringLiteral1497, L_22);
 		Dictionary_2_t468 * L_23 = V_6;
 		G_B6_0 = L_23;
 		goto IL_009f;
@@ -10452,7 +10452,7 @@ IL_009f:
 		V_4 = L_26;
 		Dictionary_2_t468 * L_27 = V_4;
 		NullCheck(L_27);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_27, (String_t*) &_stringLiteral1490, (String_t*) &_stringLiteral1504);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_27, (String_t*) &_stringLiteral1495, (String_t*) &_stringLiteral1509);
 		Dictionary_2_t468 * L_28 = V_4;
 		V_7 = ((Dictionary_2U5BU5D_t2028*)SZArrayNew(Dictionary_2U5BU5D_t2028_il2cpp_TypeInfo_var, 2));
 		Dictionary_2U5BU5D_t2028* L_29 = V_7;
@@ -10469,7 +10469,7 @@ IL_009f:
 		*((Dictionary_2_t468 **)(Dictionary_2_t468 **)SZArrayLdElema(L_31, 1)) = (Dictionary_2_t468 *)L_32;
 		Dictionary_2U5BU5D_t2028* L_33 = V_7;
 		NullCheck(L_28);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_28, (String_t*) &_stringLiteral1505, (Object_t *)(Object_t *)L_33);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_28, (String_t*) &_stringLiteral1510, (Object_t *)(Object_t *)L_33);
 		Dictionary_2_t468 * L_34 = V_4;
 		return L_34;
 	}
@@ -10541,7 +10541,7 @@ IL_0005:
 	}
 	{
 		InvalidOperationException_t1668 * L_2 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_2, (String_t*) &_stringLiteral1506, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_2, (String_t*) &_stringLiteral1511, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -10573,7 +10573,7 @@ IL_0018:
 		String_t* L_10 = ParseRelationOperation_get_TargetClassName_m8168(L_9, /*hidden argument*/NULL);
 		String_t* L_11 = ParseRelationOperation_get_TargetClassName_m8168(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1507, L_10, L_11, /*hidden argument*/NULL);
+		String_t* L_12 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1512, L_10, L_11, /*hidden argument*/NULL);
 		InvalidOperationException_t1668 * L_13 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_m8910(L_13, L_12, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
@@ -10610,7 +10610,7 @@ IL_0054:
 IL_00a6:
 	{
 		InvalidOperationException_t1668 * L_32 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_32, (String_t*) &_stringLiteral1493, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_32, (String_t*) &_stringLiteral1498, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_32);
 	}
 }
@@ -10709,8 +10709,8 @@ IL_002d:
 		StringU5BU5D_t20* L_17 = V_2;
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, 0);
-		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral1508);
-		*((String_t**)(String_t**)SZArrayLdElema(L_17, 0)) = (String_t*)(String_t*) &_stringLiteral1508;
+		ArrayElementTypeCheck (L_17, (String_t*) &_stringLiteral1513);
+		*((String_t**)(String_t**)SZArrayLdElema(L_17, 0)) = (String_t*)(String_t*) &_stringLiteral1513;
 		StringU5BU5D_t20* L_18 = V_2;
 		String_t* L_19 = V_1;
 		NullCheck(L_18);
@@ -10720,8 +10720,8 @@ IL_002d:
 		StringU5BU5D_t20* L_20 = V_2;
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, 2);
-		ArrayElementTypeCheck (L_20, (String_t*) &_stringLiteral1509);
-		*((String_t**)(String_t**)SZArrayLdElema(L_20, 2)) = (String_t*)(String_t*) &_stringLiteral1509;
+		ArrayElementTypeCheck (L_20, (String_t*) &_stringLiteral1514);
+		*((String_t**)(String_t**)SZArrayLdElema(L_20, 2)) = (String_t*)(String_t*) &_stringLiteral1514;
 		StringU5BU5D_t20* L_21 = V_2;
 		String_t* L_22 = (__this->___targetClassName_2);
 		NullCheck(L_21);
@@ -10731,8 +10731,8 @@ IL_002d:
 		StringU5BU5D_t20* L_23 = V_2;
 		NullCheck(L_23);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, 4);
-		ArrayElementTypeCheck (L_23, (String_t*) &_stringLiteral1510);
-		*((String_t**)(String_t**)SZArrayLdElema(L_23, 4)) = (String_t*)(String_t*) &_stringLiteral1510;
+		ArrayElementTypeCheck (L_23, (String_t*) &_stringLiteral1515);
+		*((String_t**)(String_t**)SZArrayLdElema(L_23, 4)) = (String_t*)(String_t*) &_stringLiteral1515;
 		StringU5BU5D_t20* L_24 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_25 = String_Concat_m3337(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
@@ -10754,7 +10754,7 @@ IL_008c:
 IL_009a:
 	{
 		InvalidOperationException_t1668 * L_30 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_30, (String_t*) &_stringLiteral1493, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_30, (String_t*) &_stringLiteral1498, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_30);
 	}
 }
@@ -10840,7 +10840,7 @@ IL_0009:
 IL_0018:
 		{
 			ArgumentException_t725 * L_6 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-			ArgumentException__ctor_m3235(L_6, (String_t*) &_stringLiteral1511, /*hidden argument*/NULL);
+			ArgumentException__ctor_m3235(L_6, (String_t*) &_stringLiteral1516, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_6);
 		}
 
@@ -10865,7 +10865,7 @@ IL_0036:
 			NullCheck(L_12);
 			String_t* L_13 = ParseObject_get_ClassName_m8488(L_12, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_14 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1512, L_11, L_13, /*hidden argument*/NULL);
+			String_t* L_14 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1517, L_11, L_13, /*hidden argument*/NULL);
 			ArgumentException_t725 * L_15 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 			ArgumentException__ctor_m3235(L_15, L_14, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_15);
@@ -11077,13 +11077,13 @@ extern "C" Object_t * ParseRemoveOperation_Encode_m8175 (ParseRemoveOperation_t1
 		V_0 = L_0;
 		Dictionary_2_t468 * L_1 = V_0;
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1490, (String_t*) &_stringLiteral1513);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1495, (String_t*) &_stringLiteral1518);
 		Dictionary_2_t468 * L_2 = V_0;
 		ReadOnlyCollection_1_t1773 * L_3 = (__this->___objects_0);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		Object_t * L_4 = ParseClient_MaybeEncodeJSONObject_m8276(NULL /*static, unused*/, L_3, 1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1492, L_4);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1497, L_4);
 		Dictionary_2_t468 * L_5 = V_0;
 		return L_5;
 	}
@@ -11187,7 +11187,7 @@ IL_003e:
 IL_0064:
 	{
 		InvalidOperationException_t1668 * L_18 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_18, (String_t*) &_stringLiteral1493, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_18, (String_t*) &_stringLiteral1498, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_18);
 	}
 }
@@ -12409,7 +12409,7 @@ IL_003a:
 			bool L_12 = 1;
 			Object_t * L_13 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_12);
 			NullCheck(L_11);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_11, (String_t*) &_stringLiteral1515, L_13);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_11, (String_t*) &_stringLiteral1520, L_13);
 		}
 
 IL_004b:
@@ -12430,7 +12430,7 @@ IL_0059:
 			bool L_18 = 1;
 			Object_t * L_19 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_18);
 			NullCheck(L_17);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_17, (String_t*) &_stringLiteral1516, L_19);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_17, (String_t*) &_stringLiteral1521, L_19);
 		}
 
 IL_006a:
@@ -12523,7 +12523,7 @@ extern "C" void ParseACL_SetAccess_m8209 (ParseACL_t1803 * __this, int32_t ___ki
 	}
 	{
 		ArgumentException_t725 * L_1 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral1517, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral1522, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -12563,7 +12563,7 @@ IL_002b:
 IL_0034:
 	{
 		NotImplementedException_t774 * L_6 = (NotImplementedException_t774 *)il2cpp_codegen_object_new (NotImplementedException_t774_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m3522(L_6, (String_t*) &_stringLiteral1518, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m3522(L_6, (String_t*) &_stringLiteral1523, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -12616,7 +12616,7 @@ extern "C" bool ParseACL_GetAccess_m8210 (ParseACL_t1803 * __this, int32_t ___ki
 	}
 	{
 		ArgumentException_t725 * L_1 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral1519, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_1, (String_t*) &_stringLiteral1524, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -12659,7 +12659,7 @@ IL_002d:
 IL_003a:
 	{
 		NotImplementedException_t774 * L_10 = (NotImplementedException_t774 *)il2cpp_codegen_object_new (NotImplementedException_t774_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m3522(L_10, (String_t*) &_stringLiteral1518, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m3522(L_10, (String_t*) &_stringLiteral1523, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 }
@@ -12667,7 +12667,7 @@ IL_003a:
 extern "C" bool ParseACL_get_PublicReadAccess_m8211 (ParseACL_t1803 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = ParseACL_GetAccess_m8210(__this, 0, (String_t*) &_stringLiteral1514, /*hidden argument*/NULL);
+		bool L_0 = ParseACL_GetAccess_m8210(__this, 0, (String_t*) &_stringLiteral1519, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -12676,7 +12676,7 @@ extern "C" void ParseACL_set_PublicReadAccess_m8212 (ParseACL_t1803 * __this, bo
 {
 	{
 		bool L_0 = ___value;
-		ParseACL_SetAccess_m8209(__this, 0, (String_t*) &_stringLiteral1514, L_0, /*hidden argument*/NULL);
+		ParseACL_SetAccess_m8209(__this, 0, (String_t*) &_stringLiteral1519, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12684,7 +12684,7 @@ extern "C" void ParseACL_set_PublicReadAccess_m8212 (ParseACL_t1803 * __this, bo
 extern "C" bool ParseACL_get_PublicWriteAccess_m8213 (ParseACL_t1803 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = ParseACL_GetAccess_m8210(__this, 1, (String_t*) &_stringLiteral1514, /*hidden argument*/NULL);
+		bool L_0 = ParseACL_GetAccess_m8210(__this, 1, (String_t*) &_stringLiteral1519, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -12693,7 +12693,7 @@ extern "C" void ParseACL_set_PublicWriteAccess_m8214 (ParseACL_t1803 * __this, b
 {
 	{
 		bool L_0 = ___value;
-		ParseACL_SetAccess_m8209(__this, 1, (String_t*) &_stringLiteral1514, L_0, /*hidden argument*/NULL);
+		ParseACL_SetAccess_m8209(__this, 1, (String_t*) &_stringLiteral1519, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -12794,7 +12794,7 @@ extern "C" void ParseACL_SetRoleReadAccess_m8223 (ParseACL_t1803 * __this, Strin
 	{
 		String_t* L_0 = ___roleName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1520, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, L_0, /*hidden argument*/NULL);
 		bool L_2 = ___allowed;
 		ParseACL_SetAccess_m8209(__this, 0, L_1, L_2, /*hidden argument*/NULL);
 		return;
@@ -12825,7 +12825,7 @@ extern "C" bool ParseACL_GetRoleReadAccess_m8225 (ParseACL_t1803 * __this, Strin
 	{
 		String_t* L_0 = ___roleName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1520, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, L_0, /*hidden argument*/NULL);
 		bool L_2 = ParseACL_GetAccess_m8210(__this, 0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
@@ -12854,7 +12854,7 @@ extern "C" void ParseACL_SetRoleWriteAccess_m8227 (ParseACL_t1803 * __this, Stri
 	{
 		String_t* L_0 = ___roleName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1520, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, L_0, /*hidden argument*/NULL);
 		bool L_2 = ___allowed;
 		ParseACL_SetAccess_m8209(__this, 1, L_1, L_2, /*hidden argument*/NULL);
 		return;
@@ -12885,7 +12885,7 @@ extern "C" bool ParseACL_GetRoleWriteAccess_m8229 (ParseACL_t1803 * __this, Stri
 	{
 		String_t* L_0 = ___roleName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1520, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, L_0, /*hidden argument*/NULL);
 		bool L_2 = ParseACL_GetAccess_m8210(__this, 1, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
@@ -12916,7 +12916,7 @@ extern "C" bool ParseACL_U3C_ctorU3Eb__0_m8231 (Object_t * __this /* static, unu
 	{
 		Object_t * L_0 = KeyValuePair_2_get_Value_m8941((&___pair), /*hidden argument*/KeyValuePair_2_get_Value_m8941_MethodInfo_var);
 		NullCheck(((Object_t*)Castclass(L_0, IDictionary_2_t1810_il2cpp_TypeInfo_var)));
-		bool L_1 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, ((Object_t*)Castclass(L_0, IDictionary_2_t1810_il2cpp_TypeInfo_var)), (String_t*) &_stringLiteral1515);
+		bool L_1 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, ((Object_t*)Castclass(L_0, IDictionary_2_t1810_il2cpp_TypeInfo_var)), (String_t*) &_stringLiteral1520);
 		return L_1;
 	}
 }
@@ -12950,7 +12950,7 @@ extern "C" bool ParseACL_U3C_ctorU3Eb__2_m8233 (Object_t * __this /* static, unu
 	{
 		Object_t * L_0 = KeyValuePair_2_get_Value_m8941((&___pair), /*hidden argument*/KeyValuePair_2_get_Value_m8941_MethodInfo_var);
 		NullCheck(((Object_t*)Castclass(L_0, IDictionary_2_t1810_il2cpp_TypeInfo_var)));
-		bool L_1 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, ((Object_t*)Castclass(L_0, IDictionary_2_t1810_il2cpp_TypeInfo_var)), (String_t*) &_stringLiteral1516);
+		bool L_1 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, ((Object_t*)Castclass(L_0, IDictionary_2_t1810_il2cpp_TypeInfo_var)), (String_t*) &_stringLiteral1521);
 		return L_1;
 	}
 }
@@ -13051,7 +13051,7 @@ extern "C" Task_t344 * ParseAnalytics_TrackEventAsync_m8237 (Object_t * __this /
 IL_0010:
 	{
 		ArgumentException_t725 * L_4 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_4, (String_t*) &_stringLiteral1521, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_4, (String_t*) &_stringLiteral1526, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -13066,11 +13066,11 @@ IL_001b:
 		DateTime_t1953  L_8 = L_7;
 		Object_t * L_9 = Box(DateTime_t1953_il2cpp_TypeInfo_var, &L_8);
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral1522, L_9);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral1527, L_9);
 		Dictionary_2_t468 * L_10 = V_1;
 		String_t* L_11 = ___name;
 		NullCheck(L_10);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral1523, L_11);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral1528, L_11);
 		Dictionary_2_t468 * L_12 = V_1;
 		V_0 = L_12;
 		Object_t* L_13 = ___dimensions;
@@ -13083,14 +13083,14 @@ IL_001b:
 		Object_t* L_14 = V_0;
 		Object_t* L_15 = ___dimensions;
 		NullCheck(L_14);
-		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral1524, L_15);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral1529, L_15);
 	}
 
 IL_0053:
 	{
 		String_t* L_16 = ___name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1526, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1531, L_16, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseUser_t803_il2cpp_TypeInfo_var);
 		String_t* L_18 = ParseUser_get_CurrentSessionToken_m8671(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Object_t* L_19 = V_0;
@@ -13098,7 +13098,7 @@ IL_0053:
 		Object_t * L_20 = ParseClient_MaybeEncodeJSONObject_m8276(NULL /*static, unused*/, L_19, 1, /*hidden argument*/NULL);
 		Initobj (CancellationToken_t1753_il2cpp_TypeInfo_var, (&V_2));
 		CancellationToken_t1753  L_21 = V_2;
-		Task_1_t1965 * L_22 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, L_17, L_18, ((Object_t*)IsInst(L_20, IDictionary_2_t1810_il2cpp_TypeInfo_var)), L_21, /*hidden argument*/NULL);
+		Task_1_t1965 * L_22 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, L_17, L_18, ((Object_t*)IsInst(L_20, IDictionary_2_t1810_il2cpp_TypeInfo_var)), L_21, /*hidden argument*/NULL);
 		return L_22;
 	}
 }
@@ -13137,7 +13137,7 @@ extern "C" Task_t344 * ParseAnalytics_TrackAppOpenedWithPushHashAsync_m8238 (Obj
 		DateTime_t1953  L_3 = L_2;
 		Object_t * L_4 = Box(DateTime_t1953_il2cpp_TypeInfo_var, &L_3);
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1522, L_4);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1527, L_4);
 		Dictionary_2_t468 * L_5 = V_1;
 		V_0 = L_5;
 		String_t* L_6 = ___pushHash;
@@ -13150,7 +13150,7 @@ extern "C" Task_t344 * ParseAnalytics_TrackAppOpenedWithPushHashAsync_m8238 (Obj
 		Object_t* L_7 = V_0;
 		String_t* L_8 = ___pushHash;
 		NullCheck(L_7);
-		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral1527, L_8);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral1532, L_8);
 	}
 
 IL_002c:
@@ -13162,7 +13162,7 @@ IL_002c:
 		Object_t * L_11 = ParseClient_MaybeEncodeJSONObject_m8276(NULL /*static, unused*/, L_10, 1, /*hidden argument*/NULL);
 		Initobj (CancellationToken_t1753_il2cpp_TypeInfo_var, (&V_2));
 		CancellationToken_t1753  L_12 = V_2;
-		Task_1_t1965 * L_13 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, (String_t*) &_stringLiteral1528, L_9, ((Object_t*)IsInst(L_11, IDictionary_2_t1810_il2cpp_TypeInfo_var)), L_12, /*hidden argument*/NULL);
+		Task_1_t1965 * L_13 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, (String_t*) &_stringLiteral1533, L_9, ((Object_t*)IsInst(L_11, IDictionary_2_t1810_il2cpp_TypeInfo_var)), L_12, /*hidden argument*/NULL);
 		return L_13;
 	}
 }
@@ -13314,7 +13314,7 @@ IL_0016:
 		{
 			String_t* L_5 = V_1;
 			NullCheck(L_5);
-			bool L_6 = String_StartsWith_m3455(L_5, (String_t*) &_stringLiteral1011, /*hidden argument*/NULL);
+			bool L_6 = String_StartsWith_m3455(L_5, (String_t*) &_stringLiteral1016, /*hidden argument*/NULL);
 			if (!L_6)
 			{
 				goto IL_0043;
@@ -13333,7 +13333,7 @@ IL_0023:
 			Dictionary_2_t468 * L_10 = V_4;
 			Object_t * L_11 = V_3;
 			NullCheck(L_10);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral913, L_11);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_10, (String_t*) &_stringLiteral918, L_11);
 			Dictionary_2_t468 * L_12 = V_4;
 			V_2 = L_12;
 			goto IL_004a;
@@ -13365,7 +13365,7 @@ CATCH_004c:
 		V_5 = ((Exception_t496 *)__exception_local);
 		Exception_t496 * L_15 = V_5;
 		ParseException_t804 * L_16 = (ParseException_t804 *)il2cpp_codegen_object_new (ParseException_t804_il2cpp_TypeInfo_var);
-		ParseException__ctor_m8314(L_16, (-1), (String_t*) &_stringLiteral1573, L_15, /*hidden argument*/NULL);
+		ParseException__ctor_m8314(L_16, (-1), (String_t*) &_stringLiteral1578, L_15, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_16);
 	} // end catch (depth: 1)
 
@@ -13393,7 +13393,7 @@ IL_0076:
 	{
 		Object_t* L_21 = V_2;
 		NullCheck(L_21);
-		bool L_22 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_21, (String_t*) &_stringLiteral1574);
+		bool L_22 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_21, (String_t*) &_stringLiteral1579);
 		if (L_22)
 		{
 			goto IL_0087;
@@ -13408,7 +13408,7 @@ IL_0087:
 	{
 		Object_t* L_23 = V_2;
 		NullCheck(L_23);
-		Object_t * L_24 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral1574);
+		Object_t * L_24 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral1579);
 		G_B12_0 = ((*(int64_t*)((int64_t*)UnBox (L_24, Int64_t776_il2cpp_TypeInfo_var))));
 	}
 
@@ -13429,7 +13429,7 @@ IL_00a6:
 	{
 		Object_t* L_26 = V_2;
 		NullCheck(L_26);
-		bool L_27 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral1466);
+		bool L_27 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral1471);
 		if (L_27)
 		{
 			goto IL_00b6;
@@ -13445,7 +13445,7 @@ IL_00b6:
 	{
 		Object_t* L_29 = V_2;
 		NullCheck(L_29);
-		Object_t * L_30 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_29, (String_t*) &_stringLiteral1466);
+		Object_t * L_30 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_29, (String_t*) &_stringLiteral1471);
 		G_B17_0 = ((String_t*)IsInst(L_30, String_t_il2cpp_TypeInfo_var));
 	}
 
@@ -13576,7 +13576,7 @@ CATCH_0017:
 		V_2 = ((Exception_t496 *)__exception_local);
 		Exception_t496 * L_5 = V_2;
 		ParseException_t804 * L_6 = (ParseException_t804 *)il2cpp_codegen_object_new (ParseException_t804_il2cpp_TypeInfo_var);
-		ParseException__ctor_m8314(L_6, (-1), (String_t*) &_stringLiteral1573, L_5, /*hidden argument*/NULL);
+		ParseException__ctor_m8314(L_6, (-1), (String_t*) &_stringLiteral1578, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	} // end catch (depth: 1)
 
@@ -13595,7 +13595,7 @@ IL_0025:
 	{
 		Object_t* L_10 = V_1;
 		NullCheck(L_10);
-		bool L_11 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_10, (String_t*) &_stringLiteral1574);
+		bool L_11 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_10, (String_t*) &_stringLiteral1579);
 		if (L_11)
 		{
 			goto IL_0048;
@@ -13610,7 +13610,7 @@ IL_0048:
 	{
 		Object_t* L_12 = V_1;
 		NullCheck(L_12);
-		Object_t * L_13 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_12, (String_t*) &_stringLiteral1574);
+		Object_t * L_13 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_12, (String_t*) &_stringLiteral1579);
 		G_B7_0 = ((*(int64_t*)((int64_t*)UnBox (L_13, Int64_t776_il2cpp_TypeInfo_var))));
 	}
 
@@ -13619,7 +13619,7 @@ IL_0058:
 		V_3 = (((int32_t)G_B7_0));
 		Object_t* L_14 = V_1;
 		NullCheck(L_14);
-		Object_t * L_15 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral1466);
+		Object_t * L_15 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral1471);
 		V_4 = ((String_t*)IsInst(L_15, String_t_il2cpp_TypeInfo_var));
 		int32_t L_16 = V_3;
 		String_t* L_17 = V_4;
@@ -14683,45 +14683,45 @@ extern "C" void ParseClient__cctor_m8267 (Object_t * __this /* static, unused */
 		Object_t * L_0 = (Object_t *)il2cpp_codegen_object_new (Object_t_il2cpp_TypeInfo_var);
 		Object__ctor_m85(L_0, /*hidden argument*/NULL);
 		((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___mutex_0 = L_0;
-		((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___dateFormatString_2 = (String_t*) &_stringLiteral1530;
+		((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___dateFormatString_2 = (String_t*) &_stringLiteral1535;
 		V_1 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 6));
 		StringU5BU5D_t20* L_1 = V_1;
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
-		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral1531);
-		*((String_t**)(String_t**)SZArrayLdElema(L_1, 0)) = (String_t*)(String_t*) &_stringLiteral1531;
+		ArrayElementTypeCheck (L_1, (String_t*) &_stringLiteral1536);
+		*((String_t**)(String_t**)SZArrayLdElema(L_1, 0)) = (String_t*)(String_t*) &_stringLiteral1536;
 		StringU5BU5D_t20* L_2 = V_1;
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral1532);
-		*((String_t**)(String_t**)SZArrayLdElema(L_2, 1)) = (String_t*)(String_t*) &_stringLiteral1532;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral1537);
+		*((String_t**)(String_t**)SZArrayLdElema(L_2, 1)) = (String_t*)(String_t*) &_stringLiteral1537;
 		StringU5BU5D_t20* L_3 = V_1;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 2);
-		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral1533);
-		*((String_t**)(String_t**)SZArrayLdElema(L_3, 2)) = (String_t*)(String_t*) &_stringLiteral1533;
+		ArrayElementTypeCheck (L_3, (String_t*) &_stringLiteral1538);
+		*((String_t**)(String_t**)SZArrayLdElema(L_3, 2)) = (String_t*)(String_t*) &_stringLiteral1538;
 		StringU5BU5D_t20* L_4 = V_1;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 3);
-		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral1534);
-		*((String_t**)(String_t**)SZArrayLdElema(L_4, 3)) = (String_t*)(String_t*) &_stringLiteral1534;
+		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral1539);
+		*((String_t**)(String_t**)SZArrayLdElema(L_4, 3)) = (String_t*)(String_t*) &_stringLiteral1539;
 		StringU5BU5D_t20* L_5 = V_1;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 4);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral1535);
-		*((String_t**)(String_t**)SZArrayLdElema(L_5, 4)) = (String_t*)(String_t*) &_stringLiteral1535;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral1540);
+		*((String_t**)(String_t**)SZArrayLdElema(L_5, 4)) = (String_t*)(String_t*) &_stringLiteral1540;
 		StringU5BU5D_t20* L_6 = V_1;
 		NullCheck(L_6);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 5);
-		ArrayElementTypeCheck (L_6, (String_t*) &_stringLiteral1536);
-		*((String_t**)(String_t**)SZArrayLdElema(L_6, 5)) = (String_t*)(String_t*) &_stringLiteral1536;
+		ArrayElementTypeCheck (L_6, (String_t*) &_stringLiteral1541);
+		*((String_t**)(String_t**)SZArrayLdElema(L_6, 5)) = (String_t*)(String_t*) &_stringLiteral1541;
 		StringU5BU5D_t20* L_7 = V_1;
 		((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___assemblyNames_3 = L_7;
-		((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___revocableSessionTokenTrueValue_5 = (String_t*) &_stringLiteral1537;
+		((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___revocableSessionTokenTrueValue_5 = (String_t*) &_stringLiteral1542;
 		Dictionary_2_t1813 * L_8 = (Dictionary_2_t1813 *)il2cpp_codegen_object_new (Dictionary_2_t1813_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m9044(L_8, /*hidden argument*/Dictionary_2__ctor_m9044_MethodInfo_var);
 		((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___interfaceLookupCache_7 = L_8;
-		Type_t * L_9 = ParseClient_GetParseType_m8268(NULL /*static, unused*/, (String_t*) &_stringLiteral1538, /*hidden argument*/NULL);
+		Type_t * L_9 = ParseClient_GetParseType_m8268(NULL /*static, unused*/, (String_t*) &_stringLiteral1543, /*hidden argument*/NULL);
 		V_0 = L_9;
 		Type_t * L_10 = V_0;
 		if (L_10)
@@ -14731,7 +14731,7 @@ extern "C" void ParseClient__cctor_m8267 (Object_t * __this /* static, unused */
 	}
 	{
 		InvalidOperationException_t1668 * L_11 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_11, (String_t*) &_stringLiteral1539, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_11, (String_t*) &_stringLiteral1544, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_11);
 	}
 
@@ -14745,7 +14745,7 @@ IL_007e:
 		String_t* L_15 = (String_t*)InterfaceFuncInvoker0< String_t* >::Invoke(5 /* System.String Parse.Internal.IPlatformHooks::get_SDKName() */, IPlatformHooks_t1812_il2cpp_TypeInfo_var, L_14);
 		Version_t1963 * L_16 = ParseClient_get_Version_m8269(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Concat_m3091(NULL /*static, unused*/, (String_t*) &_stringLiteral1540, L_15, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Concat_m3091(NULL /*static, unused*/, (String_t*) &_stringLiteral1545, L_15, L_16, /*hidden argument*/NULL);
 		((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___versionString_1 = L_17;
 		return;
 	}
@@ -14788,7 +14788,7 @@ IL_000b:
 		String_t* L_4 = ___name;
 		String_t* L_5 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1541, L_4, L_5, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1546, L_4, L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_7 = Type_GetType_m9045(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		V_1 = L_7;
@@ -14926,7 +14926,7 @@ IL_000c:
 IL_0014:
 		{
 			Uri_t32 * L_4 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-			Uri__ctor_m9048(L_4, (String_t*) &_stringLiteral1542, /*hidden argument*/NULL);
+			Uri__ctor_m9048(L_4, (String_t*) &_stringLiteral1547, /*hidden argument*/NULL);
 			G_B3_0 = L_4;
 		}
 
@@ -15056,7 +15056,7 @@ IL_0020:
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			Object_t* L_4 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 			NullCheck(L_4);
-			InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1529, (&V_0));
+			InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1534, (&V_0));
 		}
 
 IL_0032:
@@ -15163,11 +15163,11 @@ IL_000c:
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			Object_t* L_2 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 			bool L_3 = Nullable_1_get_HasValue_m9049((&___value), /*hidden argument*/Nullable_1_get_HasValue_m9049_MethodInfo_var);
-			G_B2_0 = (String_t*) &_stringLiteral1529;
+			G_B2_0 = (String_t*) &_stringLiteral1534;
 			G_B2_1 = L_2;
 			if (L_3)
 			{
-				G_B3_0 = (String_t*) &_stringLiteral1529;
+				G_B3_0 = (String_t*) &_stringLiteral1534;
 				G_B3_1 = L_2;
 				goto IL_0022;
 			}
@@ -15324,7 +15324,7 @@ IL_0005:
 	{
 		Object_t* L_3 = V_0;
 		NullCheck(L_3);
-		bool L_4 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral1490);
+		bool L_4 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral1495);
 		if (!L_4)
 		{
 			goto IL_0026;
@@ -15340,7 +15340,7 @@ IL_0026:
 	{
 		Object_t* L_7 = V_0;
 		NullCheck(L_7);
-		InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral1543, (&V_1));
+		InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral1548, (&V_1));
 		Object_t * L_8 = V_1;
 		V_2 = ((String_t*)IsInst(L_8, String_t_il2cpp_TypeInfo_var));
 		String_t* L_9 = V_2;
@@ -15441,7 +15441,7 @@ IL_0089:
 	{
 		String_t* L_24 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_25 = String_op_Equality_m2603(NULL /*static, unused*/, L_24, (String_t*) &_stringLiteral1544, /*hidden argument*/NULL);
+		bool L_25 = String_op_Equality_m2603(NULL /*static, unused*/, L_24, (String_t*) &_stringLiteral1549, /*hidden argument*/NULL);
 		if (!L_25)
 		{
 			goto IL_00b1;
@@ -15450,7 +15450,7 @@ IL_0089:
 	{
 		Object_t* L_26 = V_0;
 		NullCheck(L_26);
-		Object_t * L_27 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral1545);
+		Object_t * L_27 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral1550);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		DateTime_t1953  L_28 = ParseClient_ParseDate_m8274(NULL /*static, unused*/, ((String_t*)IsInst(L_27, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		DateTime_t1953  L_29 = L_28;
@@ -15462,7 +15462,7 @@ IL_00b1:
 	{
 		String_t* L_31 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_32 = String_op_Equality_m2603(NULL /*static, unused*/, L_31, (String_t*) &_stringLiteral1546, /*hidden argument*/NULL);
+		bool L_32 = String_op_Equality_m2603(NULL /*static, unused*/, L_31, (String_t*) &_stringLiteral1551, /*hidden argument*/NULL);
 		if (!L_32)
 		{
 			goto IL_00d4;
@@ -15471,7 +15471,7 @@ IL_00b1:
 	{
 		Object_t* L_33 = V_0;
 		NullCheck(L_33);
-		Object_t * L_34 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_33, (String_t*) &_stringLiteral1547);
+		Object_t * L_34 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_33, (String_t*) &_stringLiteral1552);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2000_il2cpp_TypeInfo_var);
 		ByteU5BU5D_t25* L_35 = Convert_FromBase64String_m9053(NULL /*static, unused*/, ((String_t*)IsInst(L_34, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		return (Object_t *)L_35;
@@ -15481,7 +15481,7 @@ IL_00d4:
 	{
 		String_t* L_36 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_37 = String_op_Equality_m2603(NULL /*static, unused*/, L_36, (String_t*) &_stringLiteral1548, /*hidden argument*/NULL);
+		bool L_37 = String_op_Equality_m2603(NULL /*static, unused*/, L_36, (String_t*) &_stringLiteral1553, /*hidden argument*/NULL);
 		if (!L_37)
 		{
 			goto IL_0107;
@@ -15490,10 +15490,10 @@ IL_00d4:
 	{
 		Object_t* L_38 = V_0;
 		NullCheck(L_38);
-		Object_t * L_39 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_38, (String_t*) &_stringLiteral1549);
+		Object_t * L_39 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_38, (String_t*) &_stringLiteral1554);
 		Object_t* L_40 = V_0;
 		NullCheck(L_40);
-		Object_t * L_41 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_40, (String_t*) &_stringLiteral1550);
+		Object_t * L_41 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_40, (String_t*) &_stringLiteral1555);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseObject_t596_il2cpp_TypeInfo_var);
 		ParseObject_t596 * L_42 = ParseObject_CreateWithoutData_m8412(NULL /*static, unused*/, ((String_t*)IsInst(L_39, String_t_il2cpp_TypeInfo_var)), ((String_t*)IsInst(L_41, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		return L_42;
@@ -15503,7 +15503,7 @@ IL_0107:
 	{
 		String_t* L_43 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_44 = String_op_Equality_m2603(NULL /*static, unused*/, L_43, (String_t*) &_stringLiteral1551, /*hidden argument*/NULL);
+		bool L_44 = String_op_Equality_m2603(NULL /*static, unused*/, L_43, (String_t*) &_stringLiteral1556, /*hidden argument*/NULL);
 		if (!L_44)
 		{
 			goto IL_0140;
@@ -15512,10 +15512,10 @@ IL_0107:
 	{
 		Object_t* L_45 = V_0;
 		NullCheck(L_45);
-		Object_t * L_46 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_45, (String_t*) &_stringLiteral1523);
+		Object_t * L_46 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_45, (String_t*) &_stringLiteral1528);
 		Object_t* L_47 = V_0;
 		NullCheck(L_47);
-		Object_t * L_48 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_47, (String_t*) &_stringLiteral1552);
+		Object_t * L_48 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_47, (String_t*) &_stringLiteral1557);
 		Uri_t32 * L_49 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
 		Uri__ctor_m9048(L_49, ((String_t*)IsInst(L_48, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		ParseFile_t1827 * L_50 = (ParseFile_t1827 *)il2cpp_codegen_object_new (ParseFile_t1827_il2cpp_TypeInfo_var);
@@ -15527,7 +15527,7 @@ IL_0140:
 	{
 		String_t* L_51 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_52 = String_op_Equality_m2603(NULL /*static, unused*/, L_51, (String_t*) &_stringLiteral1553, /*hidden argument*/NULL);
+		bool L_52 = String_op_Equality_m2603(NULL /*static, unused*/, L_51, (String_t*) &_stringLiteral1558, /*hidden argument*/NULL);
 		if (!L_52)
 		{
 			goto IL_0182;
@@ -15536,12 +15536,12 @@ IL_0140:
 	{
 		Object_t* L_53 = V_0;
 		NullCheck(L_53);
-		Object_t * L_54 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_53, (String_t*) &_stringLiteral1554);
+		Object_t * L_54 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_53, (String_t*) &_stringLiteral1559);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		Object_t * L_55 = ParseClient_ConvertTo_TisDouble_t769_m9038(NULL /*static, unused*/, L_54, /*hidden argument*/ParseClient_ConvertTo_TisDouble_t769_m9038_MethodInfo_var);
 		Object_t* L_56 = V_0;
 		NullCheck(L_56);
-		Object_t * L_57 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_56, (String_t*) &_stringLiteral1555);
+		Object_t * L_57 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_56, (String_t*) &_stringLiteral1560);
 		Object_t * L_58 = ParseClient_ConvertTo_TisDouble_t769_m9038(NULL /*static, unused*/, L_57, /*hidden argument*/ParseClient_ConvertTo_TisDouble_t769_m9038_MethodInfo_var);
 		ParseGeoPoint_t935  L_59 = {0};
 		ParseGeoPoint__ctor_m8357(&L_59, ((*(double*)((double*)UnBox (L_55, Double_t769_il2cpp_TypeInfo_var)))), ((*(double*)((double*)UnBox (L_58, Double_t769_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
@@ -15554,7 +15554,7 @@ IL_0182:
 	{
 		String_t* L_62 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_63 = String_op_Equality_m2603(NULL /*static, unused*/, L_62, (String_t*) &_stringLiteral1556, /*hidden argument*/NULL);
+		bool L_63 = String_op_Equality_m2603(NULL /*static, unused*/, L_62, (String_t*) &_stringLiteral1561, /*hidden argument*/NULL);
 		if (!L_63)
 		{
 			goto IL_01b2;
@@ -15563,7 +15563,7 @@ IL_0182:
 	{
 		Object_t* L_64 = V_0;
 		NullCheck(L_64);
-		Object_t * L_65 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_64, (String_t*) &_stringLiteral1549);
+		Object_t * L_65 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_64, (String_t*) &_stringLiteral1554);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseObject_t596_il2cpp_TypeInfo_var);
 		ParseObject_t596 * L_66 = ParseObject_CreateWithoutData_m8412(NULL /*static, unused*/, ((String_t*)IsInst(L_65, String_t_il2cpp_TypeInfo_var)), (String_t*)NULL, /*hidden argument*/NULL);
 		V_5 = L_66;
@@ -15579,7 +15579,7 @@ IL_01b2:
 	{
 		String_t* L_70 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_71 = String_op_Equality_m2603(NULL /*static, unused*/, L_70, (String_t*) &_stringLiteral1557, /*hidden argument*/NULL);
+		bool L_71 = String_op_Equality_m2603(NULL /*static, unused*/, L_70, (String_t*) &_stringLiteral1562, /*hidden argument*/NULL);
 		if (!L_71)
 		{
 			goto IL_01d7;
@@ -15588,7 +15588,7 @@ IL_01b2:
 	{
 		Object_t* L_72 = V_0;
 		NullCheck(L_72);
-		Object_t * L_73 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_72, (String_t*) &_stringLiteral1549);
+		Object_t * L_73 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_72, (String_t*) &_stringLiteral1554);
 		ParseRelationBase_t1881 * L_74 = ParseRelationBase_CreateRelation_m8604(NULL /*static, unused*/, (ParseObject_t596 *)NULL, (String_t*)NULL, ((String_t*)IsInst(L_73, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		return L_74;
 	}
@@ -15974,10 +15974,10 @@ extern "C" Object_t* ParseClient_EncodeJSONObject_m8277 (Object_t * __this /* st
 		String_t* L_4 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___dateFormatString_2;
 		String_t* L_5 = DateTime_ToString_m8909((&V_11), L_4, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1545, L_5);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1550, L_5);
 		Dictionary_2_t468 * L_6 = V_0;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral1543, (String_t*) &_stringLiteral1544);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral1548, (String_t*) &_stringLiteral1549);
 		Dictionary_2_t468 * L_7 = V_0;
 		return L_7;
 	}
@@ -15998,13 +15998,13 @@ IL_003f:
 		V_2 = L_10;
 		Dictionary_2_t468 * L_11 = V_2;
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral1543, (String_t*) &_stringLiteral1546);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral1548, (String_t*) &_stringLiteral1551);
 		Dictionary_2_t468 * L_12 = V_2;
 		ByteU5BU5D_t25* L_13 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2000_il2cpp_TypeInfo_var);
 		String_t* L_14 = Convert_ToBase64String_m9056(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_12, (String_t*) &_stringLiteral1547, L_14);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_12, (String_t*) &_stringLiteral1552, L_14);
 		Dictionary_2_t468 * L_15 = V_2;
 		return L_15;
 	}
@@ -16028,7 +16028,7 @@ IL_0072:
 	}
 	{
 		ArgumentException_t725 * L_19 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_19, (String_t*) &_stringLiteral1558, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_19, (String_t*) &_stringLiteral1563, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -16044,7 +16044,7 @@ IL_008a:
 	}
 	{
 		ArgumentException_t725 * L_22 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_22, (String_t*) &_stringLiteral1559, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_22, (String_t*) &_stringLiteral1564, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 
@@ -16055,19 +16055,19 @@ IL_009d:
 		V_4 = L_23;
 		Dictionary_2_t468 * L_24 = V_4;
 		NullCheck(L_24);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_24, (String_t*) &_stringLiteral1543, (String_t*) &_stringLiteral1548);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_24, (String_t*) &_stringLiteral1548, (String_t*) &_stringLiteral1553);
 		Dictionary_2_t468 * L_25 = V_4;
 		ParseObject_t596 * L_26 = V_3;
 		NullCheck(L_26);
 		String_t* L_27 = ParseObject_get_ClassName_m8488(L_26, /*hidden argument*/NULL);
 		NullCheck(L_25);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_25, (String_t*) &_stringLiteral1549, L_27);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_25, (String_t*) &_stringLiteral1554, L_27);
 		Dictionary_2_t468 * L_28 = V_4;
 		ParseObject_t596 * L_29 = V_3;
 		NullCheck(L_29);
 		String_t* L_30 = ParseObject_get_ObjectId_m8485(L_29, /*hidden argument*/NULL);
 		NullCheck(L_28);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_28, (String_t*) &_stringLiteral1550, L_30);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_28, (String_t*) &_stringLiteral1555, L_30);
 		Dictionary_2_t468 * L_31 = V_4;
 		return L_31;
 	}
@@ -16343,7 +16343,7 @@ IL_002b:
 IL_003a:
 		{
 			ArgumentException_t725 * L_13 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-			ArgumentException__ctor_m3235(L_13, (String_t*) &_stringLiteral1560, /*hidden argument*/NULL);
+			ArgumentException__ctor_m3235(L_13, (String_t*) &_stringLiteral1565, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_13);
 		}
 
@@ -16441,13 +16441,13 @@ extern "C" Task_1_t1951 * ParseClient_RequestAsync_m8279 (Object_t * __this /* s
 		}
 	}
 	{
-		___method = (String_t*) &_stringLiteral1561;
+		___method = (String_t*) &_stringLiteral1566;
 		goto IL_0016;
 	}
 
 IL_000f:
 	{
-		___method = (String_t*) &_stringLiteral1525;
+		___method = (String_t*) &_stringLiteral1530;
 	}
 
 IL_0016:
@@ -16551,7 +16551,7 @@ extern "C" Task_1_t1965 * ParseClient_RequestAsync_m8281 (Object_t * __this /* s
 	}
 	{
 		InvalidOperationException_t1668 * L_4 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1562, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1567, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -16564,13 +16564,13 @@ IL_0022:
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		String_t* L_7 = ParseClient_get_ApplicationId_m8263(NULL /*static, unused*/, /*hidden argument*/NULL);
 		KeyValuePair_2_t1694  L_8 = {0};
-		KeyValuePair_2__ctor_m9058(&L_8, (String_t*) &_stringLiteral1563, L_7, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_8, (String_t*) &_stringLiteral1568, L_7, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_6);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_6, L_8);
 		List_1_t2046 * L_9 = V_3;
 		String_t* L_10 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___versionString_1;
 		KeyValuePair_2_t1694  L_11 = {0};
-		KeyValuePair_2__ctor_m9058(&L_11, (String_t*) &_stringLiteral1564, L_10, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_11, (String_t*) &_stringLiteral1569, L_10, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_9);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_9, L_11);
 		List_1_t2046 * L_12 = V_3;
@@ -16579,7 +16579,7 @@ IL_0022:
 		NullCheck(Box(Nullable_1_t1818_il2cpp_TypeInfo_var, (&V_5)));
 		String_t* L_14 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, Box(Nullable_1_t1818_il2cpp_TypeInfo_var, (&V_5)));
 		KeyValuePair_2_t1694  L_15 = {0};
-		KeyValuePair_2__ctor_m9058(&L_15, (String_t*) &_stringLiteral1565, L_14, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_15, (String_t*) &_stringLiteral1570, L_14, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_12);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_12, L_15);
 		List_1_t2046 * L_16 = V_3;
@@ -16594,7 +16594,7 @@ IL_0022:
 		List_1_t2046 * L_18 = V_0;
 		String_t* L_19 = ___sessionToken;
 		KeyValuePair_2_t1694  L_20 = {0};
-		KeyValuePair_2__ctor_m9058(&L_20, (String_t*) &_stringLiteral1566, L_19, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_20, (String_t*) &_stringLiteral1571, L_19, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_18);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_18, L_20);
 	}
@@ -16613,7 +16613,7 @@ IL_008c:
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		String_t* L_23 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___revocableSessionTokenTrueValue_5;
 		KeyValuePair_2_t1694  L_24 = {0};
-		KeyValuePair_2__ctor_m9058(&L_24, (String_t*) &_stringLiteral1567, L_23, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_24, (String_t*) &_stringLiteral1572, L_23, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_22);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_22, L_24);
 	}
@@ -16632,7 +16632,7 @@ IL_00a8:
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		String_t* L_27 = ParseClient_get_MasterKey_m8261(NULL /*static, unused*/, /*hidden argument*/NULL);
 		KeyValuePair_2_t1694  L_28 = {0};
-		KeyValuePair_2__ctor_m9058(&L_28, (String_t*) &_stringLiteral1568, L_27, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_28, (String_t*) &_stringLiteral1573, L_27, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_26);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_26, L_28);
 		goto IL_00db;
@@ -16644,7 +16644,7 @@ IL_00c6:
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		String_t* L_30 = ParseClient_get_WindowsKey_m8265(NULL /*static, unused*/, /*hidden argument*/NULL);
 		KeyValuePair_2_t1694  L_31 = {0};
-		KeyValuePair_2__ctor_m9058(&L_31, (String_t*) &_stringLiteral1569, L_30, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_31, (String_t*) &_stringLiteral1574, L_30, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_29);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_29, L_31);
 	}
@@ -16670,7 +16670,7 @@ IL_00db:
 		MemoryStream_t632 * L_37 = (MemoryStream_t632 *)il2cpp_codegen_object_new (MemoryStream_t632_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m9060(L_37, L_36, /*hidden argument*/NULL);
 		V_1 = L_37;
-		V_2 = (String_t*) &_stringLiteral1570;
+		V_2 = (String_t*) &_stringLiteral1575;
 	}
 
 IL_00fe:
@@ -16748,19 +16748,19 @@ extern "C" Task_1_t1965 * ParseClient_UploadAsync_m8282 (Object_t * __this /* st
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		String_t* L_5 = ParseClient_get_ApplicationId_m8263(NULL /*static, unused*/, /*hidden argument*/NULL);
 		KeyValuePair_2_t1694  L_6 = {0};
-		KeyValuePair_2__ctor_m9058(&L_6, (String_t*) &_stringLiteral1563, L_5, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_6, (String_t*) &_stringLiteral1568, L_5, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_4);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_4, L_6);
 		List_1_t2046 * L_7 = V_2;
 		String_t* L_8 = ParseClient_get_WindowsKey_m8265(NULL /*static, unused*/, /*hidden argument*/NULL);
 		KeyValuePair_2_t1694  L_9 = {0};
-		KeyValuePair_2__ctor_m9058(&L_9, (String_t*) &_stringLiteral1569, L_8, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_9, (String_t*) &_stringLiteral1574, L_8, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_7);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_7, L_9);
 		List_1_t2046 * L_10 = V_2;
 		String_t* L_11 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___versionString_1;
 		KeyValuePair_2_t1694  L_12 = {0};
-		KeyValuePair_2__ctor_m9058(&L_12, (String_t*) &_stringLiteral1564, L_11, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_12, (String_t*) &_stringLiteral1569, L_11, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_10);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_10, L_12);
 		List_1_t2046 * L_13 = V_2;
@@ -16769,7 +16769,7 @@ extern "C" Task_1_t1965 * ParseClient_UploadAsync_m8282 (Object_t * __this /* st
 		NullCheck(Box(Nullable_1_t1818_il2cpp_TypeInfo_var, (&V_4)));
 		String_t* L_15 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, Box(Nullable_1_t1818_il2cpp_TypeInfo_var, (&V_4)));
 		KeyValuePair_2_t1694  L_16 = {0};
-		KeyValuePair_2__ctor_m9058(&L_16, (String_t*) &_stringLiteral1565, L_15, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_16, (String_t*) &_stringLiteral1570, L_15, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_13);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_13, L_16);
 		List_1_t2046 * L_17 = V_2;
@@ -16784,7 +16784,7 @@ extern "C" Task_1_t1965 * ParseClient_UploadAsync_m8282 (Object_t * __this /* st
 		List_1_t2046 * L_19 = V_0;
 		String_t* L_20 = ___sessionToken;
 		KeyValuePair_2_t1694  L_21 = {0};
-		KeyValuePair_2__ctor_m9058(&L_21, (String_t*) &_stringLiteral1566, L_20, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_21, (String_t*) &_stringLiteral1571, L_20, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_19);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_19, L_21);
 	}
@@ -16801,7 +16801,7 @@ IL_008d:
 		List_1_t2046 * L_23 = V_0;
 		String_t* L_24 = ___contentType;
 		KeyValuePair_2_t1694  L_25 = {0};
-		KeyValuePair_2__ctor_m9058(&L_25, (String_t*) &_stringLiteral1571, L_24, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
+		KeyValuePair_2__ctor_m9058(&L_25, (String_t*) &_stringLiteral1576, L_24, /*hidden argument*/KeyValuePair_2__ctor_m9058_MethodInfo_var);
 		NullCheck(L_23);
 		VirtActionInvoker1< KeyValuePair_2_t1694  >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>::Add(!0) */, L_23, L_25);
 	}
@@ -17161,7 +17161,7 @@ IL_004b:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 1);
 		int32_t L_17 = 1;
 		NullCheck((*(String_t**)(String_t**)SZArrayLdElema(L_16, L_17)));
-		String_t* L_18 = String_Replace_m3757((*(String_t**)(String_t**)SZArrayLdElema(L_16, L_17)), (String_t*) &_stringLiteral886, (String_t*) &_stringLiteral68, /*hidden argument*/NULL);
+		String_t* L_18 = String_Replace_m3757((*(String_t**)(String_t**)SZArrayLdElema(L_16, L_17)), (String_t*) &_stringLiteral891, (String_t*) &_stringLiteral68, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Uri_t32_il2cpp_TypeInfo_var);
 		String_t* L_19 = Uri_UnescapeDataString_m9065(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		G_B4_0 = L_19;
@@ -17573,11 +17573,11 @@ extern "C" String_t* ParseClient_U3CBuildQueryStringU3Eb__10_m8295 (Object_t * _
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_6 = String_IsNullOrEmpty_m96(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		G_B1_0 = L_3;
-		G_B1_1 = (String_t*) &_stringLiteral1572;
+		G_B1_1 = (String_t*) &_stringLiteral1577;
 		if (L_6)
 		{
 			G_B2_0 = L_3;
-			G_B2_1 = (String_t*) &_stringLiteral1572;
+			G_B2_1 = (String_t*) &_stringLiteral1577;
 			goto IL_002d;
 		}
 	}
@@ -17699,7 +17699,7 @@ extern "C" Task_1_t1965 * U3CU3Ec__DisplayClass6_U3CGetAsyncU3Eb__3_m8299 (U3CU3
 		String_t* L_0 = ParseUser_get_CurrentSessionToken_m8671(NULL /*static, unused*/, /*hidden argument*/NULL);
 		CancellationToken_t1753  L_1 = (__this->___cancellationToken_0);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_2 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1561, (String_t*) &_stringLiteral1579, L_0, (Object_t*)NULL, L_1, /*hidden argument*/NULL);
+		Task_1_t1965 * L_2 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1566, (String_t*) &_stringLiteral1584, L_0, (Object_t*)NULL, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -17831,7 +17831,7 @@ IL_001c:
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			Object_t* L_4 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 			NullCheck(L_4);
-			InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1577, (&V_0));
+			InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1582, (&V_0));
 			Object_t * L_5 = V_0;
 			V_1 = ((String_t*)IsInst(L_5, String_t_il2cpp_TypeInfo_var));
 			String_t* L_6 = V_1;
@@ -17971,7 +17971,7 @@ extern "C" void ParseConfig_ClearCurrentConfig_m8302 (Object_t * __this /* stati
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		Object_t* L_0 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral1577);
+		InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_0, (String_t*) &_stringLiteral1582);
 		return;
 	}
 }
@@ -18033,7 +18033,7 @@ extern "C" void ParseConfig__ctor_m8305 (ParseConfig_t1822 * __this, Dictionary_
 		Object__ctor_m85(__this, /*hidden argument*/NULL);
 		Dictionary_2_t468 * L_1 = ___fetchedConfig;
 		NullCheck(L_1);
-		Object_t * L_2 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_1, (String_t*) &_stringLiteral1578);
+		Object_t * L_2 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_1, (String_t*) &_stringLiteral1583);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		Object_t * L_3 = ParseClient_Decode_m8273(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		V_0 = ((Dictionary_2_t468 *)IsInst(L_3, Dictionary_2_t468_il2cpp_TypeInfo_var));
@@ -18233,7 +18233,7 @@ extern "C" void ParseConfig_SaveCurrentConfigFromFetchedConfig_m8310 (Object_t *
 		Object_t* L_4 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_5 = V_1;
 		NullCheck(L_4);
-		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1577, L_5);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1582, L_5);
 		return;
 	}
 }
@@ -18431,7 +18431,7 @@ extern "C" Task_1_t639 * ParseFacebookUtils_LogInAsync_m8319 (Object_t * __this 
 		Object_t* L_4 = FacebookAuthenticationProvider_GetAuthData_m8016(L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		CancellationToken_t1753  L_5 = ___cancellationToken;
 		IL2CPP_RUNTIME_CLASS_INIT(ParseUser_t803_il2cpp_TypeInfo_var);
-		Task_1_t639 * L_6 = ParseUser_LogInWithAsync_m8700(NULL /*static, unused*/, (String_t*) &_stringLiteral1451, L_4, L_5, /*hidden argument*/NULL);
+		Task_1_t639 * L_6 = ParseUser_LogInWithAsync_m8700(NULL /*static, unused*/, (String_t*) &_stringLiteral1456, L_4, L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
@@ -18476,7 +18476,7 @@ extern "C" Task_t344 * ParseFacebookUtils_LinkAsync_m8321 (Object_t * __this /* 
 		Object_t* L_5 = FacebookAuthenticationProvider_GetAuthData_m8016(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		CancellationToken_t1753  L_6 = ___cancellationToken;
 		NullCheck(L_0);
-		Task_t344 * L_7 = ParseUser_LinkWithAsync_m8695(L_0, (String_t*) &_stringLiteral1451, L_5, L_6, /*hidden argument*/NULL);
+		Task_t344 * L_7 = ParseUser_LinkWithAsync_m8695(L_0, (String_t*) &_stringLiteral1456, L_5, L_6, /*hidden argument*/NULL);
 		return L_7;
 	}
 }
@@ -18507,7 +18507,7 @@ extern "C" bool ParseFacebookUtils_IsLinked_m8323 (Object_t * __this /* static, 
 	{
 		ParseUser_t803 * L_0 = ___user;
 		NullCheck(L_0);
-		bool L_1 = ParseUser_IsLinked_m8698(L_0, (String_t*) &_stringLiteral1451, /*hidden argument*/NULL);
+		bool L_1 = ParseUser_IsLinked_m8698(L_0, (String_t*) &_stringLiteral1456, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -18518,7 +18518,7 @@ extern "C" Task_t344 * ParseFacebookUtils_UnlinkAsync_m8324 (Object_t * __this /
 		ParseUser_t803 * L_0 = ___user;
 		CancellationToken_t1753  L_1 = ___cancellationToken;
 		NullCheck(L_0);
-		Task_t344 * L_2 = ParseUser_UnlinkFromAsync_m8697(L_0, (String_t*) &_stringLiteral1451, L_1, /*hidden argument*/NULL);
+		Task_t344 * L_2 = ParseUser_UnlinkFromAsync_m8697(L_0, (String_t*) &_stringLiteral1456, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -18779,7 +18779,7 @@ IL_002a:
 		{
 			String_t* L_6 = (__this->___name_1);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1581, L_6, /*hidden argument*/NULL);
+			String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1586, L_6, /*hidden argument*/NULL);
 			Uri_t32 * L_8 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
 			Uri__ctor_m8913(L_8, L_7, 2, /*hidden argument*/NULL);
 			String_t* L_9 = (__this->___sessionToken_0);
@@ -19236,7 +19236,7 @@ extern "C" Object_t* ParseFile_ToJSON_m8342 (ParseFile_t1827 * __this, const Met
 	}
 	{
 		InvalidOperationException_t1668 * L_1 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_1, (String_t*) &_stringLiteral1580, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_1, (String_t*) &_stringLiteral1585, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -19247,17 +19247,17 @@ IL_0013:
 		V_0 = L_2;
 		Dictionary_2_t468 * L_3 = V_0;
 		NullCheck(L_3);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_3, (String_t*) &_stringLiteral1543, (String_t*) &_stringLiteral1551);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_3, (String_t*) &_stringLiteral1548, (String_t*) &_stringLiteral1556);
 		Dictionary_2_t468 * L_4 = V_0;
 		String_t* L_5 = ParseFile_get_Name_m8339(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral1523, L_5);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral1528, L_5);
 		Dictionary_2_t468 * L_6 = V_0;
 		Uri_t32 * L_7 = ParseFile_get_Url_m8341(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		String_t* L_8 = Uri_get_AbsoluteUri_m8906(L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral1552, L_8);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral1557, L_8);
 		Dictionary_2_t468 * L_9 = V_0;
 		return L_9;
 	}
@@ -19295,13 +19295,13 @@ IL_000d:
 	{ // begin try (depth: 1)
 		Object_t* L_2 = ___jsonData;
 		NullCheck(L_2);
-		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral1552);
+		Object_t * L_3 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral1557);
 		Uri_t32 * L_4 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
 		Uri__ctor_m8913(L_4, ((String_t*)IsInst(L_3, String_t_il2cpp_TypeInfo_var)), 1, /*hidden argument*/NULL);
 		__this->___uri_3 = L_4;
 		Object_t* L_5 = ___jsonData;
 		NullCheck(L_5);
-		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral1523);
+		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral1528);
 		__this->___name_1 = ((String_t*)IsInst(L_6, String_t_il2cpp_TypeInfo_var));
 		IL2CPP_LEAVE(0x48, FINALLY_0041);
 	} // end try (depth: 1)
@@ -19675,7 +19675,7 @@ extern "C" void ParseGeoPoint_set_Latitude_m8359 (ParseGeoPoint_t935 * __this, d
 IL_0018:
 	{
 		ArgumentOutOfRangeException_t1703 * L_2 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m9088(L_2, (String_t*) &_stringLiteral1582, (String_t*) &_stringLiteral1583, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m9088(L_2, (String_t*) &_stringLiteral1587, (String_t*) &_stringLiteral1588, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -19722,7 +19722,7 @@ extern "C" void ParseGeoPoint_set_Longitude_m8361 (ParseGeoPoint_t935 * __this, 
 IL_0018:
 	{
 		ArgumentOutOfRangeException_t1703 * L_2 = (ArgumentOutOfRangeException_t1703 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1703_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m9088(L_2, (String_t*) &_stringLiteral1582, (String_t*) &_stringLiteral1584, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m9088(L_2, (String_t*) &_stringLiteral1587, (String_t*) &_stringLiteral1589, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -19813,19 +19813,19 @@ extern "C" Object_t* ParseGeoPoint_ToJSON_m8363 (ParseGeoPoint_t935 * __this, co
 		V_0 = L_0;
 		Dictionary_2_t468 * L_1 = V_0;
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1543, (String_t*) &_stringLiteral1553);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1548, (String_t*) &_stringLiteral1558);
 		Dictionary_2_t468 * L_2 = V_0;
 		double L_3 = ParseGeoPoint_get_Latitude_m8358(__this, /*hidden argument*/NULL);
 		double L_4 = L_3;
 		Object_t * L_5 = Box(Double_t769_il2cpp_TypeInfo_var, &L_4);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1554, L_5);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1559, L_5);
 		Dictionary_2_t468 * L_6 = V_0;
 		double L_7 = ParseGeoPoint_get_Longitude_m8360(__this, /*hidden argument*/NULL);
 		double L_8 = L_7;
 		Object_t * L_9 = Box(Double_t769_il2cpp_TypeInfo_var, &L_8);
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral1555, L_9);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_6, (String_t*) &_stringLiteral1560, L_9);
 		Dictionary_2_t468 * L_10 = V_0;
 		return L_10;
 	}
@@ -19894,7 +19894,7 @@ extern "C" void ParseInitializeBehaviour_Awake_m8364 (ParseInitializeBehaviour_t
 		ParseInitializeBehaviour_Initialize_m8365(__this, /*hidden argument*/NULL);
 		GameObject_t49 * L_0 = Component_get_gameObject_m2624(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Object_set_name_m2708(L_0, (String_t*) &_stringLiteral1585, /*hidden argument*/NULL);
+		Object_set_name_m2708(L_0, (String_t*) &_stringLiteral1590, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
 		bool L_1 = PlatformHooks_get_IsIOS_m8763(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_1)
@@ -20024,7 +20024,7 @@ extern "C" void ParseInitializeBehaviour_OnGcmRegistrationReceived_m8367 (ParseI
 		ParseInstallation_set_DeviceToken_m8545(L_1, L_2, /*hidden argument*/NULL);
 		ParseInstallation_t1871 * L_3 = V_0;
 		NullCheck(L_3);
-		ParseObject_Set_m8457(L_3, (String_t*) &_stringLiteral1586, (String_t*) &_stringLiteral1587, /*hidden argument*/NULL);
+		ParseObject_Set_m8457(L_3, (String_t*) &_stringLiteral1591, (String_t*) &_stringLiteral1592, /*hidden argument*/NULL);
 		ParseInstallation_t1871 * L_4 = V_0;
 		NullCheck(L_4);
 		ParseObject_SaveAsync_m8436(L_4, /*hidden argument*/NULL);
@@ -20343,12 +20343,12 @@ IL_005d:
 			String_t* L_17 = ParseObject_get_ObjectId_m8485(L_16, /*hidden argument*/NULL);
 			String_t* L_18 = Uri_EscapeDataString_m112(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_19 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1620, L_15, L_18, /*hidden argument*/NULL);
+			String_t* L_19 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1625, L_15, L_18, /*hidden argument*/NULL);
 			String_t* L_20 = (__this->___sessionToken_3);
 			Object_t* L_21 = (__this->___objectJSON_2);
 			CancellationToken_t1753  L_22 = (__this->___cancellationToken_6);
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-			Task_1_t1965 * L_23 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1619, L_19, L_20, L_21, L_22, /*hidden argument*/NULL);
+			Task_1_t1965 * L_23 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1624, L_19, L_20, L_21, L_22, /*hidden argument*/NULL);
 			V_0 = L_23;
 			IL2CPP_LEAVE(0xE6, FINALLY_00df);
 		}
@@ -20361,12 +20361,12 @@ IL_00a6:
 			IL2CPP_RUNTIME_CLASS_INIT(Uri_t32_il2cpp_TypeInfo_var);
 			String_t* L_26 = Uri_EscapeDataString_m112(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_27 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1621, L_26, /*hidden argument*/NULL);
+			String_t* L_27 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1626, L_26, /*hidden argument*/NULL);
 			String_t* L_28 = (__this->___sessionToken_3);
 			Object_t* L_29 = (__this->___objectJSON_2);
 			CancellationToken_t1753  L_30 = (__this->___cancellationToken_6);
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-			Task_1_t1965 * L_31 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, L_27, L_28, L_29, L_30, /*hidden argument*/NULL);
+			Task_1_t1965 * L_31 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, L_27, L_28, L_29, L_30, /*hidden argument*/NULL);
 			V_0 = L_31;
 			IL2CPP_LEAVE(0xE6, FINALLY_00df);
 		}
@@ -20492,7 +20492,7 @@ extern "C" Task_1_t1965 * U3CU3Ec__DisplayClass1c_U3CFetchAsyncInternalU3Eb__1a_
 	}
 	{
 		InvalidOperationException_t1668 * L_2 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_2, (String_t*) &_stringLiteral1622, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_2, (String_t*) &_stringLiteral1627, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -20508,11 +20508,11 @@ IL_0018:
 		String_t* L_7 = ParseObject_get_ObjectId_m8485(L_6, /*hidden argument*/NULL);
 		String_t* L_8 = Uri_EscapeDataString_m112(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1620, L_5, L_8, /*hidden argument*/NULL);
+		String_t* L_9 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1625, L_5, L_8, /*hidden argument*/NULL);
 		String_t* L_10 = (__this->___sessionToken_0);
 		CancellationToken_t1753  L_11 = (__this->___cancellationToken_2);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_12 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1561, L_9, L_10, (Object_t*)NULL, L_11, /*hidden argument*/NULL);
+		Task_1_t1965 * L_12 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1566, L_9, L_10, (Object_t*)NULL, L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
@@ -20921,7 +20921,7 @@ IL_00b4:
 		NullCheck(L_34);
 		Object_t* L_35 = Tuple_2_get_Item2_m9081(L_34, /*hidden argument*/Tuple_2_get_Item2_m9081_MethodInfo_var);
 		NullCheck(L_35);
-		Object_t * L_36 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_35, (String_t*) &_stringLiteral913);
+		Object_t * L_36 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_35, (String_t*) &_stringLiteral918);
 		NullCheck(L_32);
 		L_32->___resultsArray_4 = ((List_1_t2 *)Castclass(L_36, List_1_t2_il2cpp_TypeInfo_var));
 		U3CU3Ec__DisplayClass36_t1840 * L_37 = (__this->___CSU24U3CU3E8__locals37_0);
@@ -20971,7 +20971,7 @@ IL_011d:
 			NullCheck(L_51);
 			Dictionary_2_t468 * L_52 = U3CU3Ef__AnonymousType4_3_get_Result_m9107(L_51, /*hidden argument*/U3CU3Ef__AnonymousType4_3_get_Result_m9107_MethodInfo_var);
 			NullCheck(L_52);
-			bool L_53 = (bool)VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Object>::ContainsKey(!0) */, L_52, (String_t*) &_stringLiteral1358);
+			bool L_53 = (bool)VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Object>::ContainsKey(!0) */, L_52, (String_t*) &_stringLiteral1363);
 			if (!L_53)
 			{
 				goto IL_0151;
@@ -20987,7 +20987,7 @@ IL_012f:
 			NullCheck(L_56);
 			Dictionary_2_t468 * L_57 = U3CU3Ef__AnonymousType4_3_get_Result_m9107(L_56, /*hidden argument*/U3CU3Ef__AnonymousType4_3_get_Result_m9107_MethodInfo_var);
 			NullCheck(L_57);
-			Object_t * L_58 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_57, (String_t*) &_stringLiteral1358);
+			Object_t * L_58 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_57, (String_t*) &_stringLiteral1363);
 			NullCheck(L_55);
 			VirtActionInvoker1< Object_t* >::Invoke(8 /* System.Void Parse.ParseObject::MergeAfterSave(System.Collections.Generic.IDictionary`2<System.String,System.Object>) */, L_55, ((Dictionary_2_t468 *)Castclass(L_58, Dictionary_2_t468_il2cpp_TypeInfo_var)));
 			goto IL_01c0;
@@ -21016,11 +21016,11 @@ IL_0165:
 			NullCheck(L_64);
 			Dictionary_2_t468 * L_65 = U3CU3Ef__AnonymousType4_3_get_Result_m9107(L_64, /*hidden argument*/U3CU3Ef__AnonymousType4_3_get_Result_m9107_MethodInfo_var);
 			NullCheck(L_65);
-			Object_t * L_66 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_65, (String_t*) &_stringLiteral1466);
+			Object_t * L_66 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_65, (String_t*) &_stringLiteral1471);
 			V_4 = ((Dictionary_2_t468 *)Castclass(L_66, Dictionary_2_t468_il2cpp_TypeInfo_var));
 			Dictionary_2_t468 * L_67 = V_4;
 			NullCheck(L_67);
-			bool L_68 = (bool)VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Object>::ContainsKey(!0) */, L_67, (String_t*) &_stringLiteral1574);
+			bool L_68 = (bool)VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Object>::ContainsKey(!0) */, L_67, (String_t*) &_stringLiteral1579);
 			if (L_68)
 			{
 				goto IL_018e;
@@ -21037,7 +21037,7 @@ IL_018e:
 		{
 			Dictionary_2_t468 * L_69 = V_4;
 			NullCheck(L_69);
-			Object_t * L_70 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_69, (String_t*) &_stringLiteral1574);
+			Object_t * L_70 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_69, (String_t*) &_stringLiteral1579);
 			G_B22_0 = ((*(int64_t*)((int64_t*)UnBox (L_70, Int64_t776_il2cpp_TypeInfo_var))));
 		}
 
@@ -21046,7 +21046,7 @@ IL_019f:
 			V_5 = (((int32_t)G_B22_0));
 			Dictionary_2_t468 * L_71 = V_4;
 			NullCheck(L_71);
-			Object_t * L_72 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_71, (String_t*) &_stringLiteral1466);
+			Object_t * L_72 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_71, (String_t*) &_stringLiteral1471);
 			V_6 = ((String_t*)IsInst(L_72, String_t_il2cpp_TypeInfo_var));
 			int32_t L_73 = V_5;
 			String_t* L_74 = V_6;
@@ -21198,13 +21198,13 @@ IL_0029:
 		Dictionary_2_t468 * L_13 = V_1;
 		List_1_t2 * L_14 = V_0;
 		NullCheck(L_13);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral1625, L_14);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral1630, L_14);
 		Dictionary_2_t468 * L_15 = V_1;
 		U3CU3Ec__DisplayClass30_t1842 * L_16 = (__this->___CSU24U3CU3E8__locals31_2);
 		NullCheck(L_16);
 		CancellationToken_t1753  L_17 = (L_16->___cancellationToken_2);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_18 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, (String_t*) &_stringLiteral1624, L_11, L_15, L_17, /*hidden argument*/NULL);
+		Task_1_t1965 * L_18 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, (String_t*) &_stringLiteral1629, L_11, L_15, L_17, /*hidden argument*/NULL);
 		return L_18;
 	}
 }
@@ -21267,17 +21267,17 @@ extern "C" Dictionary_2_t468 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__2d_
 		ParseObject_t596 * L_2 = ___item;
 		NullCheck(L_2);
 		String_t* L_3 = ParseObject_get_ObjectId_m8485(L_2, /*hidden argument*/NULL);
-		G_B1_0 = (String_t*) &_stringLiteral1626;
+		G_B1_0 = (String_t*) &_stringLiteral1631;
 		G_B1_1 = L_1;
 		if (!L_3)
 		{
-			G_B2_0 = (String_t*) &_stringLiteral1626;
+			G_B2_0 = (String_t*) &_stringLiteral1631;
 			G_B2_1 = L_1;
 			goto IL_001b;
 		}
 	}
 	{
-		G_B3_0 = (String_t*) &_stringLiteral1619;
+		G_B3_0 = (String_t*) &_stringLiteral1624;
 		G_B3_1 = G_B1_0;
 		G_B3_2 = G_B1_1;
 		goto IL_0020;
@@ -21285,7 +21285,7 @@ extern "C" Dictionary_2_t468 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__2d_
 
 IL_001b:
 	{
-		G_B3_0 = (String_t*) &_stringLiteral1525;
+		G_B3_0 = (String_t*) &_stringLiteral1530;
 		G_B3_1 = G_B2_0;
 		G_B3_2 = G_B2_1;
 	}
@@ -21298,11 +21298,11 @@ IL_0020:
 		ParseObject_t596 * L_5 = ___item;
 		NullCheck(L_5);
 		String_t* L_6 = ParseObject_get_ObjectId_m8485(L_5, /*hidden argument*/NULL);
-		G_B4_0 = (String_t*) &_stringLiteral1627;
+		G_B4_0 = (String_t*) &_stringLiteral1632;
 		G_B4_1 = L_4;
 		if (!L_6)
 		{
-			G_B5_0 = (String_t*) &_stringLiteral1627;
+			G_B5_0 = (String_t*) &_stringLiteral1632;
 			G_B5_1 = L_4;
 			goto IL_0055;
 		}
@@ -21318,7 +21318,7 @@ IL_0020:
 		String_t* L_11 = ParseObject_get_ObjectId_m8485(L_10, /*hidden argument*/NULL);
 		String_t* L_12 = Uri_EscapeDataString_m112(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1620, L_9, L_12, /*hidden argument*/NULL);
+		String_t* L_13 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1625, L_9, L_12, /*hidden argument*/NULL);
 		G_B6_0 = L_13;
 		G_B6_1 = G_B4_0;
 		G_B6_2 = G_B4_1;
@@ -21333,7 +21333,7 @@ IL_0055:
 		IL2CPP_RUNTIME_CLASS_INIT(Uri_t32_il2cpp_TypeInfo_var);
 		String_t* L_16 = Uri_EscapeDataString_m112(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_17 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1621, L_16, /*hidden argument*/NULL);
+		String_t* L_17 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1626, L_16, /*hidden argument*/NULL);
 		G_B6_0 = L_17;
 		G_B6_1 = G_B5_0;
 		G_B6_2 = G_B5_1;
@@ -21349,7 +21349,7 @@ IL_006a:
 		NullCheck(L_19);
 		Object_t* L_21 = ParseObject_ToJSONObjectForSaving_m8432(L_19, L_20, /*hidden argument*/NULL);
 		NullCheck(L_18);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_18, (String_t*) &_stringLiteral1628, L_21);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_18, (String_t*) &_stringLiteral1633, L_21);
 		Dictionary_2_t468 * L_22 = V_0;
 		return L_22;
 	}
@@ -21817,7 +21817,7 @@ IL_00c6:
 	}
 	{
 		InvalidOperationException_t1668 * L_38 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_38, (String_t*) &_stringLiteral1623, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_38, (String_t*) &_stringLiteral1628, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_38);
 	}
 
@@ -22058,11 +22058,11 @@ IL_0012:
 		NullCheck(L_5);
 		String_t* L_6 = ParseObject_get_ObjectId_m8485(L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1620, L_4, L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral1625, L_4, L_6, /*hidden argument*/NULL);
 		String_t* L_8 = (__this->___sessionToken_0);
 		CancellationToken_t1753  L_9 = (__this->___cancellationToken_2);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_10 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1630, L_7, L_8, (Object_t*)NULL, L_9, /*hidden argument*/NULL);
+		Task_1_t1965 * L_10 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1635, L_7, L_8, (Object_t*)NULL, L_9, /*hidden argument*/NULL);
 		V_0 = L_10;
 		IL2CPP_LEAVE(0x53, FINALLY_004c);
 	} // end try (depth: 1)
@@ -22582,7 +22582,7 @@ extern "C" void ParseObject__ctor_m8410 (ParseObject_t596 * __this, String_t* __
 	}
 	{
 		ArgumentException_t725 * L_12 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_12, (String_t*) &_stringLiteral1594, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_12, (String_t*) &_stringLiteral1599, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -22630,7 +22630,7 @@ IL_009c:
 	}
 	{
 		ArgumentException_t725 * L_24 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_24, (String_t*) &_stringLiteral1595, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_24, (String_t*) &_stringLiteral1600, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 	}
 
@@ -22740,7 +22740,7 @@ IL_000b:
 IL_002d:
 		{
 			InvalidOperationException_t1668 * L_9 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_9, (String_t*) &_stringLiteral1596, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_9, (String_t*) &_stringLiteral1601, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_9);
 		}
 
@@ -22841,7 +22841,7 @@ IL_0019:
 		String_t* L_11 = ___propertyName;
 		Type_t * L_12 = ___type;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Concat_m3091(NULL /*static, unused*/, L_11, (String_t*) &_stringLiteral1597, L_12, /*hidden argument*/NULL);
+		String_t* L_13 = String_Concat_m3091(NULL /*static, unused*/, L_11, (String_t*) &_stringLiteral1602, L_12, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_14 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3235(L_14, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
@@ -22861,7 +22861,7 @@ IL_0036:
 	{
 		String_t* L_18 = ___propertyName;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Concat_m105(NULL /*static, unused*/, L_18, (String_t*) &_stringLiteral1598, /*hidden argument*/NULL);
+		String_t* L_19 = String_Concat_m105(NULL /*static, unused*/, L_18, (String_t*) &_stringLiteral1603, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_20 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3235(L_20, L_19, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_20);
@@ -22916,7 +22916,7 @@ extern "C" String_t* ParseObject_GetClassName_m8415 (Object_t * __this /* static
 	}
 	{
 		ArgumentException_t725 * L_4 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_4, (String_t*) &_stringLiteral1599, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_4, (String_t*) &_stringLiteral1604, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -23114,7 +23114,7 @@ IL_001f:
 			NullCheck(L_5);
 			InterfaceActionInvoker0::Invoke(3 /* System.Void System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.String,Parse.Internal.IParseFieldOperation>>::Clear() */, ICollection_1_t2081_il2cpp_TypeInfo_var, L_5);
 			ParseObject_RebuildEstimatedData_m8452(__this, /*hidden argument*/NULL);
-			ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1592, /*hidden argument*/NULL);
+			ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1597, /*hidden argument*/NULL);
 		}
 
 IL_003b:
@@ -23410,7 +23410,7 @@ IL_00b2:
 
 IL_00bb:
 		{
-			ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1592, /*hidden argument*/NULL);
+			ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1597, /*hidden argument*/NULL);
 		}
 
 IL_00c6:
@@ -23551,7 +23551,7 @@ IL_000d:
 		{
 			Object_t* L_2 = ___data;
 			NullCheck(L_2);
-			bool L_3 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral1550);
+			bool L_3 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral1555);
 			if (!L_3)
 			{
 				goto IL_004e;
@@ -23562,20 +23562,20 @@ IL_001a:
 		{
 			Object_t* L_4 = ___data;
 			NullCheck(L_4);
-			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1550);
+			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1555);
 			ParseObject_SetObjectIdInternal_m8487(__this, ((String_t*)IsInst(L_5, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			__this->___hasBeenFetched_12 = 1;
-			ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1602, /*hidden argument*/NULL);
+			ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1607, /*hidden argument*/NULL);
 			Object_t* L_6 = ___data;
 			NullCheck(L_6);
-			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1550);
+			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1555);
 		}
 
 IL_004e:
 		{
 			Object_t* L_7 = ___data;
 			NullCheck(L_7);
-			bool L_8 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral1603);
+			bool L_8 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_7, (String_t*) &_stringLiteral1608);
 			if (!L_8)
 			{
 				goto IL_0087;
@@ -23586,7 +23586,7 @@ IL_005b:
 		{
 			Object_t* L_9 = ___data;
 			NullCheck(L_9);
-			Object_t * L_10 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_9, (String_t*) &_stringLiteral1603);
+			Object_t * L_10 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_9, (String_t*) &_stringLiteral1608);
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			DateTime_t1953  L_11 = ParseClient_ParseDate_m8274(NULL /*static, unused*/, ((String_t*)IsInst(L_10, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			Nullable_1_t1870  L_12 = {0};
@@ -23594,14 +23594,14 @@ IL_005b:
 			ParseObject_set_CreatedAt_m8480(__this, L_12, /*hidden argument*/NULL);
 			Object_t* L_13 = ___data;
 			NullCheck(L_13);
-			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_13, (String_t*) &_stringLiteral1603);
+			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_13, (String_t*) &_stringLiteral1608);
 		}
 
 IL_0087:
 		{
 			Object_t* L_14 = ___data;
 			NullCheck(L_14);
-			bool L_15 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral1604);
+			bool L_15 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_14, (String_t*) &_stringLiteral1609);
 			if (!L_15)
 			{
 				goto IL_00c0;
@@ -23612,7 +23612,7 @@ IL_0094:
 		{
 			Object_t* L_16 = ___data;
 			NullCheck(L_16);
-			Object_t * L_17 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_16, (String_t*) &_stringLiteral1604);
+			Object_t * L_17 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_16, (String_t*) &_stringLiteral1609);
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			DateTime_t1953  L_18 = ParseClient_ParseDate_m8274(NULL /*static, unused*/, ((String_t*)IsInst(L_17, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			Nullable_1_t1870  L_19 = {0};
@@ -23620,14 +23620,14 @@ IL_0094:
 			ParseObject_set_UpdatedAt_m8478(__this, L_19, /*hidden argument*/NULL);
 			Object_t* L_20 = ___data;
 			NullCheck(L_20);
-			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_20, (String_t*) &_stringLiteral1604);
+			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_20, (String_t*) &_stringLiteral1609);
 		}
 
 IL_00c0:
 		{
 			Object_t* L_21 = ___data;
 			NullCheck(L_21);
-			bool L_22 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_21, (String_t*) &_stringLiteral1588);
+			bool L_22 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_21, (String_t*) &_stringLiteral1593);
 			if (!L_22)
 			{
 				goto IL_0107;
@@ -23638,19 +23638,19 @@ IL_00cd:
 		{
 			Object_t* L_23 = ___data;
 			NullCheck(L_23);
-			Object_t * L_24 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral1588);
+			Object_t * L_24 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral1593);
 			ParseACL_t1803 * L_25 = (ParseACL_t1803 *)il2cpp_codegen_object_new (ParseACL_t1803_il2cpp_TypeInfo_var);
 			ParseACL__ctor_m8205(L_25, ((Object_t*)IsInst(L_24, IDictionary_2_t1810_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 			V_0 = L_25;
 			Object_t* L_26 = (__this->___serverData_6);
 			ParseACL_t1803 * L_27 = V_0;
 			NullCheck(L_26);
-			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral1588, L_27);
+			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_26, (String_t*) &_stringLiteral1593, L_27);
 			ParseACL_t1803 * L_28 = V_0;
 			ParseObject_AddToHashedObjects_m8472(__this, L_28, /*hidden argument*/NULL);
 			Object_t* L_29 = ___data;
 			NullCheck(L_29);
-			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_29, (String_t*) &_stringLiteral1588);
+			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_29, (String_t*) &_stringLiteral1593);
 		}
 
 IL_0107:
@@ -23765,7 +23765,7 @@ IL_0030:
 				V_1 = L_7;
 				String_t* L_8 = KeyValuePair_2_get_Key_m8940((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m8940_MethodInfo_var);
 				IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-				bool L_9 = String_op_Equality_m2603(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1543, /*hidden argument*/NULL);
+				bool L_9 = String_op_Equality_m2603(NULL /*static, unused*/, L_8, (String_t*) &_stringLiteral1548, /*hidden argument*/NULL);
 				if (L_9)
 				{
 					goto IL_00be;
@@ -23776,7 +23776,7 @@ IL_004b:
 			{
 				String_t* L_10 = KeyValuePair_2_get_Key_m8940((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m8940_MethodInfo_var);
 				IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-				bool L_11 = String_op_Equality_m2603(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral1549, /*hidden argument*/NULL);
+				bool L_11 = String_op_Equality_m2603(NULL /*static, unused*/, L_10, (String_t*) &_stringLiteral1554, /*hidden argument*/NULL);
 				if (L_11)
 				{
 					goto IL_00be;
@@ -24179,7 +24179,7 @@ IL_0083:
 	}
 	{
 		InvalidOperationException_t1668 * L_24 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_24, (String_t*) &_stringLiteral1605, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_24, (String_t*) &_stringLiteral1610, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 	}
 
@@ -24512,7 +24512,7 @@ IL_0015:
 IL_0027:
 		{
 			ArgumentException_t725 * L_7 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-			ArgumentException__ctor_m3235(L_7, (String_t*) &_stringLiteral1606, /*hidden argument*/NULL);
+			ArgumentException__ctor_m3235(L_7, (String_t*) &_stringLiteral1611, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_7);
 		}
 
@@ -25212,7 +25212,7 @@ IL_000d:
 		Dictionary_2__ctor_m9168(L_4, /*hidden argument*/Dictionary_2__ctor_m9168_MethodInfo_var);
 		NullCheck(L_3);
 		LinkedList_1_AddLast_m9169(L_3, L_4, /*hidden argument*/LinkedList_1_AddLast_m9169_MethodInfo_var);
-		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1592, /*hidden argument*/NULL);
+		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1597, /*hidden argument*/NULL);
 		Object_t* L_5 = V_0;
 		V_1 = L_5;
 		IL2CPP_LEAVE(0x3B, FINALLY_0034);
@@ -26065,7 +26065,7 @@ IL_0031:
 IL_003a:
 		{
 			InvalidOperationException_t1668 * L_13 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_13, (String_t*) &_stringLiteral1607, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_13, (String_t*) &_stringLiteral1612, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_13);
 		}
 
@@ -26980,7 +26980,7 @@ IL_004b:
 
 IL_0083:
 		{
-			ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1592, /*hidden argument*/NULL);
+			ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1597, /*hidden argument*/NULL);
 		}
 
 IL_008e:
@@ -27045,7 +27045,7 @@ extern "C" void ParseObject_OnSettingValue_m8454 (ParseObject_t596 * __this, Str
 	}
 	{
 		ArgumentNullException_t731 * L_1 = (ArgumentNullException_t731 *)il2cpp_codegen_object_new (ArgumentNullException_t731_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral1608, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m3259(L_1, (String_t*) &_stringLiteral1613, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -27244,7 +27244,7 @@ IL_001f:
 			NullCheck(L_5);
 			String_t* L_6 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_5);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1609, L_6, /*hidden argument*/NULL);
+			String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1614, L_6, /*hidden argument*/NULL);
 			ArgumentException_t725 * L_8 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
 			ArgumentException__ctor_m3235(L_8, L_7, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_8);
@@ -27679,7 +27679,7 @@ IL_000d:
 IL_0016:
 		{
 			InvalidOperationException_t1668 * L_4 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1610, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1615, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_4);
 		}
 
@@ -27739,8 +27739,8 @@ extern "C" void ParseObject_CheckKeyIsMutable_m8467 (ParseObject_t596 * __this, 
 		StringU5BU5D_t20* L_2 = V_0;
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
-		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral1611);
-		*((String_t**)(String_t**)SZArrayLdElema(L_2, 0)) = (String_t*)(String_t*) &_stringLiteral1611;
+		ArrayElementTypeCheck (L_2, (String_t*) &_stringLiteral1616);
+		*((String_t**)(String_t**)SZArrayLdElema(L_2, 0)) = (String_t*)(String_t*) &_stringLiteral1616;
 		StringU5BU5D_t20* L_3 = V_0;
 		String_t* L_4 = ___key;
 		NullCheck(L_3);
@@ -27750,8 +27750,8 @@ extern "C" void ParseObject_CheckKeyIsMutable_m8467 (ParseObject_t596 * __this, 
 		StringU5BU5D_t20* L_5 = V_0;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 2);
-		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral1612);
-		*((String_t**)(String_t**)SZArrayLdElema(L_5, 2)) = (String_t*)(String_t*) &_stringLiteral1612;
+		ArrayElementTypeCheck (L_5, (String_t*) &_stringLiteral1617);
+		*((String_t**)(String_t**)SZArrayLdElema(L_5, 2)) = (String_t*)(String_t*) &_stringLiteral1617;
 		StringU5BU5D_t20* L_6 = V_0;
 		String_t* L_7 = ParseObject_get_ClassName_m8488(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
@@ -27761,8 +27761,8 @@ extern "C" void ParseObject_CheckKeyIsMutable_m8467 (ParseObject_t596 * __this, 
 		StringU5BU5D_t20* L_8 = V_0;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 4);
-		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral1613);
-		*((String_t**)(String_t**)SZArrayLdElema(L_8, 4)) = (String_t*)(String_t*) &_stringLiteral1613;
+		ArrayElementTypeCheck (L_8, (String_t*) &_stringLiteral1618);
+		*((String_t**)(String_t**)SZArrayLdElema(L_8, 4)) = (String_t*)(String_t*) &_stringLiteral1618;
 		StringU5BU5D_t20* L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_10 = String_Concat_m3337(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
@@ -28023,7 +28023,7 @@ extern "C" ParseACL_t1803 * ParseObject_get_ACL_m8473 (ParseObject_t596 * __this
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ParseACL_t1803 * L_0 = ParseObject_GetProperty_TisParseACL_t1803_m9132(__this, (ParseACL_t1803 *)NULL, (String_t*) &_stringLiteral1588, /*hidden argument*/ParseObject_GetProperty_TisParseACL_t1803_m9132_MethodInfo_var);
+		ParseACL_t1803 * L_0 = ParseObject_GetProperty_TisParseACL_t1803_m9132(__this, (ParseACL_t1803 *)NULL, (String_t*) &_stringLiteral1593, /*hidden argument*/ParseObject_GetProperty_TisParseACL_t1803_m9132_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -28039,7 +28039,7 @@ extern "C" void ParseObject_set_ACL_m8474 (ParseObject_t596 * __this, ParseACL_t
 	}
 	{
 		ParseACL_t1803 * L_0 = ___value;
-		ParseObject_SetProperty_TisParseACL_t1803_m9134(__this, L_0, (String_t*) &_stringLiteral1588, /*hidden argument*/ParseObject_SetProperty_TisParseACL_t1803_m9134_MethodInfo_var);
+		ParseObject_SetProperty_TisParseACL_t1803_m9134(__this, L_0, (String_t*) &_stringLiteral1593, /*hidden argument*/ParseObject_SetProperty_TisParseACL_t1803_m9134_MethodInfo_var);
 		return;
 	}
 }
@@ -28114,7 +28114,7 @@ IL_000d:
 	{ // begin try (depth: 1)
 		bool L_2 = ___value;
 		__this->___isNew_15 = L_2;
-		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1589, /*hidden argument*/NULL);
+		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1594, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x28, FINALLY_0021);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -28211,7 +28211,7 @@ IL_000d:
 	{ // begin try (depth: 1)
 		Nullable_1_t1870  L_2 = ___value;
 		__this->___updatedAt_16 = L_2;
-		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1590, /*hidden argument*/NULL);
+		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1595, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x28, FINALLY_0021);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -28308,7 +28308,7 @@ IL_000d:
 	{ // begin try (depth: 1)
 		Nullable_1_t1870  L_2 = ___value;
 		__this->___createdAt_17 = L_2;
-		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1591, /*hidden argument*/NULL);
+		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1596, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x28, FINALLY_0021);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -28405,7 +28405,7 @@ IL_000d:
 	{ // begin try (depth: 1)
 		bool L_2 = ___value;
 		__this->___dirty_13 = L_2;
-		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1592, /*hidden argument*/NULL);
+		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1597, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x28, FINALLY_0021);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -28658,7 +28658,7 @@ IL_000d:
 	{ // begin try (depth: 1)
 		String_t* L_2 = ___objectId;
 		__this->___objectId_18 = L_2;
-		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1614, /*hidden argument*/NULL);
+		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1619, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x28, FINALLY_0021);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -28755,7 +28755,7 @@ IL_000d:
 	{ // begin try (depth: 1)
 		String_t* L_2 = ___value;
 		__this->___className_19 = L_2;
-		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1593, /*hidden argument*/NULL);
+		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1598, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x28, FINALLY_0021);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -28821,7 +28821,7 @@ IL_0016:
 		{
 			String_t* L_4 = ___key;
 			ArgumentException_t725 * L_5 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-			ArgumentException__ctor_m9205(L_5, (String_t*) &_stringLiteral1615, L_4, /*hidden argument*/NULL);
+			ArgumentException__ctor_m9205(L_5, (String_t*) &_stringLiteral1620, L_4, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_5);
 		}
 
@@ -28924,9 +28924,9 @@ extern "C" ParseQuery_1_t1976 * ParseObject_GetQuery_m8493 (Object_t * __this /*
 	{
 		String_t* L_3 = ___className;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1616, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Concat_m105(NULL /*static, unused*/, (String_t*) &_stringLiteral1621, L_3, /*hidden argument*/NULL);
 		ArgumentException_t725 * L_5 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m9205(L_5, L_4, (String_t*) &_stringLiteral1549, /*hidden argument*/NULL);
+		ArgumentException__ctor_m9205(L_5, L_4, (String_t*) &_stringLiteral1554, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -29320,7 +29320,7 @@ IL_0049:
 
 IL_004a:
 	{
-		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1617, /*hidden argument*/NULL);
+		ParseObject_OnPropertyChanged_m8496(__this, (String_t*) &_stringLiteral1622, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -29553,7 +29553,7 @@ extern "C" void ParseObject__cctor_m8509 (Object_t * __this /* static, unused */
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		((ParseObject_t596_StaticFields*)ParseObject_t596_il2cpp_TypeInfo_var->static_fields)->___AutoClassName_0 = (String_t*) &_stringLiteral1618;
+		((ParseObject_t596_StaticFields*)ParseObject_t596_il2cpp_TypeInfo_var->static_fields)->___AutoClassName_0 = (String_t*) &_stringLiteral1623;
 		Dictionary_2_t2089 * L_0 = (Dictionary_2_t2089 *)il2cpp_codegen_object_new (Dictionary_2_t2089_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m9217(L_0, /*hidden argument*/Dictionary_2__ctor_m9217_MethodInfo_var);
 		((ParseObject_t596_StaticFields*)ParseObject_t596_il2cpp_TypeInfo_var->static_fields)->___propertyFieldNames_1 = L_0;
@@ -29821,7 +29821,7 @@ IL_0024:
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			Object_t* L_5 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 			NullCheck(L_5);
-			InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral1631, (&V_0));
+			InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_5, (String_t*) &_stringLiteral1636, (&V_0));
 			Object_t * L_6 = V_0;
 			V_1 = ((String_t*)IsInst(L_6, String_t_il2cpp_TypeInfo_var));
 			String_t* L_7 = V_1;
@@ -29945,7 +29945,7 @@ IL_0013:
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			Object_t* L_3 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 			NullCheck(L_3);
-			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral1631);
+			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral1636);
 			IL2CPP_LEAVE(0xC5, FINALLY_00be);
 		}
 
@@ -29961,7 +29961,7 @@ IL_0028:
 			NullCheck(L_7);
 			String_t* L_8 = ParseObject_get_ObjectId_m8485(L_7, /*hidden argument*/NULL);
 			NullCheck(L_6);
-			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1550, L_8);
+			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1555, L_8);
 			Object_t* L_9 = V_0;
 			ParseInstallation_t1871 * L_10 = ((ParseInstallation_t1871_StaticFields*)ParseInstallation_t1871_il2cpp_TypeInfo_var->static_fields)->___currentInstallation_31;
 			NullCheck(L_10);
@@ -29973,7 +29973,7 @@ IL_0028:
 			String_t* L_13 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___dateFormatString_2;
 			String_t* L_14 = DateTime_ToString_m8909((&V_4), L_13, /*hidden argument*/NULL);
 			NullCheck(L_9);
-			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_9, (String_t*) &_stringLiteral1603, L_14);
+			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_9, (String_t*) &_stringLiteral1608, L_14);
 			Object_t* L_15 = V_0;
 			ParseInstallation_t1871 * L_16 = ((ParseInstallation_t1871_StaticFields*)ParseInstallation_t1871_il2cpp_TypeInfo_var->static_fields)->___currentInstallation_31;
 			NullCheck(L_16);
@@ -29984,14 +29984,14 @@ IL_0028:
 			String_t* L_19 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___dateFormatString_2;
 			String_t* L_20 = DateTime_ToString_m8909((&V_6), L_19, /*hidden argument*/NULL);
 			NullCheck(L_15);
-			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_15, (String_t*) &_stringLiteral1604, L_20);
+			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_15, (String_t*) &_stringLiteral1609, L_20);
 			Object_t* L_21 = V_0;
 			String_t* L_22 = ParseClient_SerializeJsonString_m8288(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 			V_1 = L_22;
 			Object_t* L_23 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 			String_t* L_24 = V_1;
 			NullCheck(L_23);
-			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral1631, L_24);
+			InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_23, (String_t*) &_stringLiteral1636, L_24);
 			((ParseInstallation_t1871_StaticFields*)ParseInstallation_t1871_il2cpp_TypeInfo_var->static_fields)->___currentInstallationMatchesDisk_30 = 1;
 			IL2CPP_LEAVE(0xC5, FINALLY_00be);
 		}
@@ -30120,7 +30120,7 @@ extern "C" Guid_t1979  ParseInstallation_get_InstallationId_m8518 (ParseInstalla
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1529, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1534, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		V_0 = L_0;
 		Initobj (Nullable_1_t1818_il2cpp_TypeInfo_var, (&V_1));
 	}
@@ -30173,7 +30173,7 @@ extern "C" void ParseInstallation_set_InstallationId_m8519 (ParseInstallation_t1
 		V_0 = L_0;
 		NullCheck(Box(Guid_t1979_il2cpp_TypeInfo_var, (&V_0)));
 		String_t* L_1 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, Box(Guid_t1979_il2cpp_TypeInfo_var, (&V_0)));
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_1, (String_t*) &_stringLiteral1529, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_1, (String_t*) &_stringLiteral1534, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -30206,7 +30206,7 @@ extern "C" Guid_t1979  ParseInstallation_getInstallationId_m8520 (ParseInstallat
 	}
 	{
 		InvalidOperationException_t1668 * L_2 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_2, (String_t*) &_stringLiteral1650, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_2, (String_t*) &_stringLiteral1655, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -30227,7 +30227,7 @@ extern "C" String_t* ParseInstallation_get_DeviceType_m8521 (ParseInstallation_t
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1632, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1637, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -30243,7 +30243,7 @@ extern "C" void ParseInstallation_set_DeviceType_m8522 (ParseInstallation_t1871 
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1632, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1637, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -30258,7 +30258,7 @@ extern "C" String_t* ParseInstallation_get_AppName_m8523 (ParseInstallation_t187
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1633, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1638, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -30274,7 +30274,7 @@ extern "C" void ParseInstallation_set_AppName_m8524 (ParseInstallation_t1871 * _
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1633, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1638, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -30289,7 +30289,7 @@ extern "C" String_t* ParseInstallation_get_AppVersion_m8525 (ParseInstallation_t
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1634, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1639, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -30305,7 +30305,7 @@ extern "C" void ParseInstallation_set_AppVersion_m8526 (ParseInstallation_t1871 
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1634, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1639, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -30320,7 +30320,7 @@ extern "C" String_t* ParseInstallation_get_AppIdentifier_m8527 (ParseInstallatio
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1635, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1640, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -30336,7 +30336,7 @@ extern "C" void ParseInstallation_set_AppIdentifier_m8528 (ParseInstallation_t18
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1635, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1640, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -30351,7 +30351,7 @@ extern "C" String_t* ParseInstallation_get_TimeZone_m8529 (ParseInstallation_t18
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1636, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1641, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -30367,7 +30367,7 @@ extern "C" void ParseInstallation_set_TimeZone_m8530 (ParseInstallation_t1871 * 
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1636, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1641, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -30394,7 +30394,7 @@ extern "C" Version_t1963 * ParseInstallation_get_ParseVersion_m8531 (ParseInstal
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1637, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1642, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		V_0 = L_0;
 		V_1 = (Version_t1963 *)NULL;
 	}
@@ -30444,7 +30444,7 @@ extern "C" void ParseInstallation_set_ParseVersion_m8532 (ParseInstallation_t187
 		Version_t1963 * L_1 = V_0;
 		NullCheck(L_1);
 		String_t* L_2 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_1);
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_2, (String_t*) &_stringLiteral1637, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_2, (String_t*) &_stringLiteral1642, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -30475,7 +30475,7 @@ extern "C" Object_t* ParseInstallation_get_Channels_m8534 (ParseInstallation_t18
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t* L_0 = ParseObject_GetProperty_TisIList_1_t1787_m9229(__this, (String_t*) &_stringLiteral1638, /*hidden argument*/ParseObject_GetProperty_TisIList_1_t1787_m9229_MethodInfo_var);
+		Object_t* L_0 = ParseObject_GetProperty_TisIList_1_t1787_m9229(__this, (String_t*) &_stringLiteral1643, /*hidden argument*/ParseObject_GetProperty_TisIList_1_t1787_m9229_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -30491,7 +30491,7 @@ extern "C" void ParseInstallation_set_Channels_m8535 (ParseInstallation_t1871 * 
 	}
 	{
 		Object_t* L_0 = ___value;
-		ParseObject_SetProperty_TisIList_1_t1787_m9230(__this, L_0, (String_t*) &_stringLiteral1638, /*hidden argument*/ParseObject_SetProperty_TisIList_1_t1787_m9230_MethodInfo_var);
+		ParseObject_SetProperty_TisIList_1_t1787_m9230(__this, L_0, (String_t*) &_stringLiteral1643, /*hidden argument*/ParseObject_SetProperty_TisIList_1_t1787_m9230_MethodInfo_var);
 		return;
 	}
 }
@@ -30529,24 +30529,24 @@ extern "C" void ParseInstallation_SetAutomaticValues_m8537 (ParseInstallation_t1
 	Guid_t1979  V_0 = {0};
 	{
 		String_t* L_0 = ParseInstallation_getDeviceType_m8539(__this, /*hidden argument*/NULL);
-		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1651, L_0, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
+		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1656, L_0, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
 		Guid_t1979  L_1 = ParseInstallation_getInstallationId_m8520(__this, /*hidden argument*/NULL);
 		V_0 = L_1;
 		NullCheck(Box(Guid_t1979_il2cpp_TypeInfo_var, (&V_0)));
 		String_t* L_2 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, Box(Guid_t1979_il2cpp_TypeInfo_var, (&V_0)));
-		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1652, L_2, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
+		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1657, L_2, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
 		String_t* L_3 = ParseInstallation_getTimeZone_m8543(__this, /*hidden argument*/NULL);
-		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1653, L_3, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
+		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1658, L_3, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
 		Version_t1963 * L_4 = ParseInstallation_getParseVersion_m8533(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		String_t* L_5 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_4);
-		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1654, L_5, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
+		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1659, L_5, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
 		String_t* L_6 = ParseInstallation_getAppName_m8540(__this, /*hidden argument*/NULL);
-		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1655, L_6, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
+		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1660, L_6, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
 		String_t* L_7 = ParseInstallation_getAppVersion_m8542(__this, /*hidden argument*/NULL);
-		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1656, L_7, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
+		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1661, L_7, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
 		String_t* L_8 = ParseInstallation_getAppIdentifier_m8541(__this, /*hidden argument*/NULL);
-		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1657, L_8, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
+		ParseInstallation_SetIfDifferent_TisString_t_m9233(__this, (String_t*) &_stringLiteral1662, L_8, /*hidden argument*/ParseInstallation_SetIfDifferent_TisString_t_m9233_MethodInfo_var);
 		ParseInstallation_SetPlatformAutomaticValue_m8549(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -30677,7 +30677,7 @@ extern "C" String_t* ParseInstallation_getDeviceType_m8539 (ParseInstallation_t1
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1658;
+		return (String_t*) &_stringLiteral1663;
 	}
 
 IL_000d:
@@ -30690,7 +30690,7 @@ IL_000d:
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1659;
+		return (String_t*) &_stringLiteral1664;
 	}
 
 IL_001a:
@@ -30703,12 +30703,12 @@ IL_001a:
 		}
 	}
 	{
-		return (String_t*) &_stringLiteral1660;
+		return (String_t*) &_stringLiteral1665;
 	}
 
 IL_0027:
 	{
-		return (String_t*) &_stringLiteral1661;
+		return (String_t*) &_stringLiteral1666;
 	}
 }
 // System.String Parse.ParseInstallation::getAppName()
@@ -30730,7 +30730,7 @@ extern "C" String_t* ParseInstallation_getAppName_m8540 (ParseInstallation_t1871
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_0 = Type_GetTypeFromHandle_m2606(NULL /*static, unused*/, LoadTypeToken(Application_t2092_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		PropertyInfo_t * L_1 = Type_GetProperty_m9241(L_0, (String_t*) &_stringLiteral1662, /*hidden argument*/NULL);
+		PropertyInfo_t * L_1 = Type_GetProperty_m9241(L_0, (String_t*) &_stringLiteral1667, /*hidden argument*/NULL);
 		V_0 = L_1;
 		PropertyInfo_t * L_2 = V_0;
 		if (!L_2)
@@ -30769,7 +30769,7 @@ extern "C" String_t* ParseInstallation_getAppIdentifier_m8541 (ParseInstallation
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_0 = Type_GetTypeFromHandle_m2606(NULL /*static, unused*/, LoadTypeToken(Application_t2092_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		PropertyInfo_t * L_1 = Type_GetProperty_m9241(L_0, (String_t*) &_stringLiteral1663, /*hidden argument*/NULL);
+		PropertyInfo_t * L_1 = Type_GetProperty_m9241(L_0, (String_t*) &_stringLiteral1668, /*hidden argument*/NULL);
 		V_0 = L_1;
 		PropertyInfo_t * L_2 = V_0;
 		if (!L_2)
@@ -30808,7 +30808,7 @@ extern "C" String_t* ParseInstallation_getAppVersion_m8542 (ParseInstallation_t1
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_0 = Type_GetTypeFromHandle_m2606(NULL /*static, unused*/, LoadTypeToken(Application_t2092_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		PropertyInfo_t * L_1 = Type_GetProperty_m9241(L_0, (String_t*) &_stringLiteral1664, /*hidden argument*/NULL);
+		PropertyInfo_t * L_1 = Type_GetProperty_m9241(L_0, (String_t*) &_stringLiteral1669, /*hidden argument*/NULL);
 		V_0 = L_1;
 		PropertyInfo_t * L_2 = V_0;
 		if (!L_2)
@@ -30919,7 +30919,7 @@ extern "C" String_t* ParseInstallation_get_DeviceToken_m8544 (ParseInstallation_
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1639, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1644, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -30935,7 +30935,7 @@ extern "C" void ParseInstallation_set_DeviceToken_m8545 (ParseInstallation_t1871
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1639, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1644, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -30972,7 +30972,7 @@ IL_000c:
 		int32_t L_4 = L_3;
 		V_1 = (*(uint8_t*)(uint8_t*)SZArrayLdElema(L_2, L_4));
 		StringBuilder_t696 * L_5 = V_0;
-		String_t* L_6 = Byte_ToString_m9244((&V_1), (String_t*) &_stringLiteral1665, /*hidden argument*/NULL);
+		String_t* L_6 = Byte_ToString_m9244((&V_1), (String_t*) &_stringLiteral1670, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		StringBuilder_Append_m3049(L_5, L_6, /*hidden argument*/NULL);
 		int32_t L_7 = V_3;
@@ -31036,7 +31036,7 @@ extern "C" int32_t ParseInstallation_get_Badge_m8547 (ParseInstallation_t1871 * 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
-		Type_t * L_1 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1640, /*hidden argument*/NULL);
+		Type_t * L_1 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1645, /*hidden argument*/NULL);
 		V_0 = L_1;
 		Type_t * L_2 = V_0;
 		if (L_2)
@@ -31046,7 +31046,7 @@ extern "C" int32_t ParseInstallation_get_Badge_m8547 (ParseInstallation_t1871 * 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
-		Type_t * L_3 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1641, /*hidden argument*/NULL);
+		Type_t * L_3 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1646, /*hidden argument*/NULL);
 		V_0 = L_3;
 	}
 
@@ -31061,7 +31061,7 @@ IL_0023:
 	{
 		Type_t * L_5 = V_0;
 		NullCheck(L_5);
-		PropertyInfo_t * L_6 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_5, (String_t*) &_stringLiteral1642);
+		PropertyInfo_t * L_6 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_5, (String_t*) &_stringLiteral1647);
 		V_1 = L_6;
 		PropertyInfo_t * L_7 = V_1;
 		NullCheck(L_7);
@@ -31075,7 +31075,7 @@ IL_0023:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
-		Type_t * L_10 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1643, /*hidden argument*/NULL);
+		Type_t * L_10 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1648, /*hidden argument*/NULL);
 		V_3 = L_10;
 		Type_t * L_11 = V_3;
 		if (L_11)
@@ -31085,7 +31085,7 @@ IL_0023:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
-		Type_t * L_12 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1644, /*hidden argument*/NULL);
+		Type_t * L_12 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1649, /*hidden argument*/NULL);
 		V_3 = L_12;
 	}
 
@@ -31093,7 +31093,7 @@ IL_0060:
 	{
 		Type_t * L_13 = V_0;
 		NullCheck(L_13);
-		PropertyInfo_t * L_14 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_13, (String_t*) &_stringLiteral1645);
+		PropertyInfo_t * L_14 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_13, (String_t*) &_stringLiteral1650);
 		V_4 = L_14;
 		PropertyInfo_t * L_15 = V_4;
 		NullCheck(L_15);
@@ -31101,7 +31101,7 @@ IL_0060:
 		V_5 = ((Object_t *)Castclass(L_16, IEnumerable_t746_il2cpp_TypeInfo_var));
 		Type_t * L_17 = V_3;
 		NullCheck(L_17);
-		PropertyInfo_t * L_18 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_17, (String_t*) &_stringLiteral1646);
+		PropertyInfo_t * L_18 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_17, (String_t*) &_stringLiteral1651);
 		V_6 = L_18;
 		Object_t * L_19 = V_5;
 		NullCheck(L_19);
@@ -31118,12 +31118,12 @@ IL_0060:
 		Object_t * L_25 = (Object_t *)VirtFuncInvoker2< Object_t *, Object_t *, ObjectU5BU5D_t21* >::Invoke(23 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_22, L_24, (ObjectU5BU5D_t21*)(ObjectU5BU5D_t21*)NULL);
 		V_8 = ((*(int32_t*)((int32_t*)UnBox (L_25, Int32_t29_il2cpp_TypeInfo_var))));
 		int32_t L_26 = V_8;
-		ParseObject_SetProperty_TisInt32_t29_m9231(__this, L_26, (String_t*) &_stringLiteral1647, /*hidden argument*/ParseObject_SetProperty_TisInt32_t29_m9231_MethodInfo_var);
+		ParseObject_SetProperty_TisInt32_t29_m9231(__this, L_26, (String_t*) &_stringLiteral1652, /*hidden argument*/ParseObject_SetProperty_TisInt32_t29_m9231_MethodInfo_var);
 	}
 
 IL_00be:
 	{
-		int32_t L_27 = ParseObject_GetProperty_TisInt32_t29_m9232(__this, (String_t*) &_stringLiteral1647, /*hidden argument*/ParseObject_GetProperty_TisInt32_t29_m9232_MethodInfo_var);
+		int32_t L_27 = ParseObject_GetProperty_TisInt32_t29_m9232(__this, (String_t*) &_stringLiteral1652, /*hidden argument*/ParseObject_GetProperty_TisInt32_t29_m9232_MethodInfo_var);
 		return L_27;
 	}
 }
@@ -31157,7 +31157,7 @@ extern "C" void ParseInstallation_set_Badge_m8548 (ParseInstallation_t1871 * __t
 		int32_t L_0 = ___value;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
-		ParseObject_SetProperty_TisInt32_t29_m9231(__this, L_1, (String_t*) &_stringLiteral1647, /*hidden argument*/ParseObject_SetProperty_TisInt32_t29_m9231_MethodInfo_var);
+		ParseObject_SetProperty_TisInt32_t29_m9231(__this, L_1, (String_t*) &_stringLiteral1652, /*hidden argument*/ParseObject_SetProperty_TisInt32_t29_m9231_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
 		bool L_2 = PlatformHooks_get_IsIOS_m8763(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_2)
@@ -31167,7 +31167,7 @@ extern "C" void ParseInstallation_set_Badge_m8548 (ParseInstallation_t1871 * __t
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
-		Type_t * L_3 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1643, /*hidden argument*/NULL);
+		Type_t * L_3 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1648, /*hidden argument*/NULL);
 		V_1 = L_3;
 		Type_t * L_4 = V_1;
 		if (L_4)
@@ -31177,7 +31177,7 @@ extern "C" void ParseInstallation_set_Badge_m8548 (ParseInstallation_t1871 * __t
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
-		Type_t * L_5 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1644, /*hidden argument*/NULL);
+		Type_t * L_5 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1649, /*hidden argument*/NULL);
 		V_1 = L_5;
 	}
 
@@ -31188,7 +31188,7 @@ IL_0031:
 		V_2 = L_7;
 		Type_t * L_8 = V_1;
 		NullCheck(L_8);
-		PropertyInfo_t * L_9 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_8, (String_t*) &_stringLiteral1646);
+		PropertyInfo_t * L_9 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_8, (String_t*) &_stringLiteral1651);
 		V_3 = L_9;
 		PropertyInfo_t * L_10 = V_3;
 		Object_t * L_11 = V_2;
@@ -31199,7 +31199,7 @@ IL_0031:
 		VirtActionInvoker3< Object_t *, Object_t *, ObjectU5BU5D_t21* >::Invoke(25 /* System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]) */, L_10, L_11, L_14, (ObjectU5BU5D_t21*)(ObjectU5BU5D_t21*)NULL);
 		Type_t * L_15 = V_1;
 		NullCheck(L_15);
-		PropertyInfo_t * L_16 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_15, (String_t*) &_stringLiteral1648);
+		PropertyInfo_t * L_16 = (PropertyInfo_t *)VirtFuncInvoker1< PropertyInfo_t *, String_t* >::Invoke(65 /* System.Reflection.PropertyInfo System.Type::GetProperty(System.String) */, L_15, (String_t*) &_stringLiteral1653);
 		V_4 = L_16;
 		PropertyInfo_t * L_17 = V_4;
 		Object_t * L_18 = V_2;
@@ -31208,7 +31208,7 @@ IL_0031:
 		NullCheck(L_17);
 		VirtActionInvoker3< Object_t *, Object_t *, ObjectU5BU5D_t21* >::Invoke(25 /* System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]) */, L_17, L_18, L_20, (ObjectU5BU5D_t21*)(ObjectU5BU5D_t21*)NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
-		Type_t * L_21 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1640, /*hidden argument*/NULL);
+		Type_t * L_21 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1645, /*hidden argument*/NULL);
 		V_5 = L_21;
 		Type_t * L_22 = V_5;
 		if (L_22)
@@ -31218,7 +31218,7 @@ IL_0031:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PlatformHooks_t1918_il2cpp_TypeInfo_var);
-		Type_t * L_23 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1641, /*hidden argument*/NULL);
+		Type_t * L_23 = PlatformHooks_GetTypeFromUnityEngine_m8765(NULL /*static, unused*/, (String_t*) &_stringLiteral1646, /*hidden argument*/NULL);
 		V_5 = L_23;
 	}
 
@@ -31226,7 +31226,7 @@ IL_008a:
 	{
 		Type_t * L_24 = V_5;
 		NullCheck(L_24);
-		MethodInfo_t * L_25 = (MethodInfo_t *)VirtFuncInvoker1< MethodInfo_t *, String_t* >::Invoke(54 /* System.Reflection.MethodInfo System.Type::GetMethod(System.String) */, L_24, (String_t*) &_stringLiteral1649);
+		MethodInfo_t * L_25 = (MethodInfo_t *)VirtFuncInvoker1< MethodInfo_t *, String_t* >::Invoke(54 /* System.Reflection.MethodInfo System.Type::GetMethod(System.String) */, L_24, (String_t*) &_stringLiteral1654);
 		V_6 = L_25;
 		MethodInfo_t * L_26 = V_6;
 		if (!L_26)
@@ -31265,7 +31265,7 @@ extern "C" void ParseInstallation_SetPlatformAutomaticValue_m8549 (ParseInstalla
 	}
 	{
 		int32_t L_0 = ParseInstallation_get_Badge_m8547(__this, /*hidden argument*/NULL);
-		ParseInstallation_SetIfDifferent_TisInt32_t29_m9235(__this, (String_t*) &_stringLiteral1666, L_0, /*hidden argument*/ParseInstallation_SetIfDifferent_TisInt32_t29_m9235_MethodInfo_var);
+		ParseInstallation_SetIfDifferent_TisInt32_t29_m9235(__this, (String_t*) &_stringLiteral1671, L_0, /*hidden argument*/ParseInstallation_SetIfDifferent_TisInt32_t29_m9235_MethodInfo_var);
 		return;
 	}
 }
@@ -31337,31 +31337,31 @@ extern "C" void ParseInstallation__cctor_m8553 (Object_t * __this /* static, unu
 		V_0 = L_1;
 		HashSet_1_t1873 * L_2 = V_0;
 		NullCheck(L_2);
-		HashSet_1_Add_m9245(L_2, (String_t*) &_stringLiteral1651, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_2, (String_t*) &_stringLiteral1656, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_3 = V_0;
 		NullCheck(L_3);
-		HashSet_1_Add_m9245(L_3, (String_t*) &_stringLiteral1667, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_3, (String_t*) &_stringLiteral1672, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_4 = V_0;
 		NullCheck(L_4);
-		HashSet_1_Add_m9245(L_4, (String_t*) &_stringLiteral1652, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_4, (String_t*) &_stringLiteral1657, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_5 = V_0;
 		NullCheck(L_5);
-		HashSet_1_Add_m9245(L_5, (String_t*) &_stringLiteral1653, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_5, (String_t*) &_stringLiteral1658, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_6 = V_0;
 		NullCheck(L_6);
-		HashSet_1_Add_m9245(L_6, (String_t*) &_stringLiteral1654, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_6, (String_t*) &_stringLiteral1659, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_7 = V_0;
 		NullCheck(L_7);
-		HashSet_1_Add_m9245(L_7, (String_t*) &_stringLiteral1655, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_7, (String_t*) &_stringLiteral1660, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_8 = V_0;
 		NullCheck(L_8);
-		HashSet_1_Add_m9245(L_8, (String_t*) &_stringLiteral1657, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_8, (String_t*) &_stringLiteral1662, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_9 = V_0;
 		NullCheck(L_9);
-		HashSet_1_Add_m9245(L_9, (String_t*) &_stringLiteral1656, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_9, (String_t*) &_stringLiteral1661, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_10 = V_0;
 		NullCheck(L_10);
-		HashSet_1_Add_m9245(L_10, (String_t*) &_stringLiteral1586, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_10, (String_t*) &_stringLiteral1591, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_11 = V_0;
 		((ParseInstallation_t1871_StaticFields*)ParseInstallation_t1871_il2cpp_TypeInfo_var->static_fields)->___readOnlyKeys_33 = L_11;
 		Dictionary_2_t1444 * L_12 = (Dictionary_2_t1444 *)il2cpp_codegen_object_new (Dictionary_2_t1444_il2cpp_TypeInfo_var);
@@ -31369,301 +31369,301 @@ extern "C" void ParseInstallation__cctor_m8553 (Object_t * __this /* static, unu
 		V_1 = L_12;
 		Dictionary_2_t1444 * L_13 = V_1;
 		NullCheck(L_13);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral1668, (String_t*) &_stringLiteral1669);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral1673, (String_t*) &_stringLiteral1674);
 		Dictionary_2_t1444 * L_14 = V_1;
 		NullCheck(L_14);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_14, (String_t*) &_stringLiteral1670, (String_t*) &_stringLiteral1671);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_14, (String_t*) &_stringLiteral1675, (String_t*) &_stringLiteral1676);
 		Dictionary_2_t1444 * L_15 = V_1;
 		NullCheck(L_15);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_15, (String_t*) &_stringLiteral1672, (String_t*) &_stringLiteral1673);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_15, (String_t*) &_stringLiteral1677, (String_t*) &_stringLiteral1678);
 		Dictionary_2_t1444 * L_16 = V_1;
 		NullCheck(L_16);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_16, (String_t*) &_stringLiteral1674, (String_t*) &_stringLiteral1675);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_16, (String_t*) &_stringLiteral1679, (String_t*) &_stringLiteral1680);
 		Dictionary_2_t1444 * L_17 = V_1;
 		NullCheck(L_17);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_17, (String_t*) &_stringLiteral1676, (String_t*) &_stringLiteral1677);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_17, (String_t*) &_stringLiteral1681, (String_t*) &_stringLiteral1682);
 		Dictionary_2_t1444 * L_18 = V_1;
 		NullCheck(L_18);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_18, (String_t*) &_stringLiteral1678, (String_t*) &_stringLiteral1679);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_18, (String_t*) &_stringLiteral1683, (String_t*) &_stringLiteral1684);
 		Dictionary_2_t1444 * L_19 = V_1;
 		NullCheck(L_19);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_19, (String_t*) &_stringLiteral1680, (String_t*) &_stringLiteral1681);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_19, (String_t*) &_stringLiteral1685, (String_t*) &_stringLiteral1686);
 		Dictionary_2_t1444 * L_20 = V_1;
 		NullCheck(L_20);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_20, (String_t*) &_stringLiteral1682, (String_t*) &_stringLiteral1683);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_20, (String_t*) &_stringLiteral1687, (String_t*) &_stringLiteral1688);
 		Dictionary_2_t1444 * L_21 = V_1;
 		NullCheck(L_21);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_21, (String_t*) &_stringLiteral1684, (String_t*) &_stringLiteral1685);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_21, (String_t*) &_stringLiteral1689, (String_t*) &_stringLiteral1690);
 		Dictionary_2_t1444 * L_22 = V_1;
 		NullCheck(L_22);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_22, (String_t*) &_stringLiteral1686, (String_t*) &_stringLiteral1687);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_22, (String_t*) &_stringLiteral1691, (String_t*) &_stringLiteral1692);
 		Dictionary_2_t1444 * L_23 = V_1;
 		NullCheck(L_23);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_23, (String_t*) &_stringLiteral1688, (String_t*) &_stringLiteral1689);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_23, (String_t*) &_stringLiteral1693, (String_t*) &_stringLiteral1694);
 		Dictionary_2_t1444 * L_24 = V_1;
 		NullCheck(L_24);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_24, (String_t*) &_stringLiteral1690, (String_t*) &_stringLiteral1691);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_24, (String_t*) &_stringLiteral1695, (String_t*) &_stringLiteral1696);
 		Dictionary_2_t1444 * L_25 = V_1;
 		NullCheck(L_25);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_25, (String_t*) &_stringLiteral1692, (String_t*) &_stringLiteral1693);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_25, (String_t*) &_stringLiteral1697, (String_t*) &_stringLiteral1698);
 		Dictionary_2_t1444 * L_26 = V_1;
 		NullCheck(L_26);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_26, (String_t*) &_stringLiteral1694, (String_t*) &_stringLiteral1695);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_26, (String_t*) &_stringLiteral1699, (String_t*) &_stringLiteral1700);
 		Dictionary_2_t1444 * L_27 = V_1;
 		NullCheck(L_27);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_27, (String_t*) &_stringLiteral1696, (String_t*) &_stringLiteral1697);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_27, (String_t*) &_stringLiteral1701, (String_t*) &_stringLiteral1702);
 		Dictionary_2_t1444 * L_28 = V_1;
 		NullCheck(L_28);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_28, (String_t*) &_stringLiteral1698, (String_t*) &_stringLiteral1699);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_28, (String_t*) &_stringLiteral1703, (String_t*) &_stringLiteral1704);
 		Dictionary_2_t1444 * L_29 = V_1;
 		NullCheck(L_29);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_29, (String_t*) &_stringLiteral1700, (String_t*) &_stringLiteral1701);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_29, (String_t*) &_stringLiteral1705, (String_t*) &_stringLiteral1706);
 		Dictionary_2_t1444 * L_30 = V_1;
 		NullCheck(L_30);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_30, (String_t*) &_stringLiteral1702, (String_t*) &_stringLiteral1703);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_30, (String_t*) &_stringLiteral1707, (String_t*) &_stringLiteral1708);
 		Dictionary_2_t1444 * L_31 = V_1;
 		NullCheck(L_31);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_31, (String_t*) &_stringLiteral1704, (String_t*) &_stringLiteral1705);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_31, (String_t*) &_stringLiteral1709, (String_t*) &_stringLiteral1710);
 		Dictionary_2_t1444 * L_32 = V_1;
 		NullCheck(L_32);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_32, (String_t*) &_stringLiteral1706, (String_t*) &_stringLiteral1707);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_32, (String_t*) &_stringLiteral1711, (String_t*) &_stringLiteral1712);
 		Dictionary_2_t1444 * L_33 = V_1;
 		NullCheck(L_33);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_33, (String_t*) &_stringLiteral1708, (String_t*) &_stringLiteral1709);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_33, (String_t*) &_stringLiteral1713, (String_t*) &_stringLiteral1714);
 		Dictionary_2_t1444 * L_34 = V_1;
 		NullCheck(L_34);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_34, (String_t*) &_stringLiteral1710, (String_t*) &_stringLiteral1711);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_34, (String_t*) &_stringLiteral1715, (String_t*) &_stringLiteral1716);
 		Dictionary_2_t1444 * L_35 = V_1;
 		NullCheck(L_35);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_35, (String_t*) &_stringLiteral1712, (String_t*) &_stringLiteral1713);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_35, (String_t*) &_stringLiteral1717, (String_t*) &_stringLiteral1718);
 		Dictionary_2_t1444 * L_36 = V_1;
 		NullCheck(L_36);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_36, (String_t*) &_stringLiteral1714, (String_t*) &_stringLiteral1715);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_36, (String_t*) &_stringLiteral1719, (String_t*) &_stringLiteral1720);
 		Dictionary_2_t1444 * L_37 = V_1;
 		NullCheck(L_37);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_37, (String_t*) &_stringLiteral1716, (String_t*) &_stringLiteral1717);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_37, (String_t*) &_stringLiteral1721, (String_t*) &_stringLiteral1722);
 		Dictionary_2_t1444 * L_38 = V_1;
 		NullCheck(L_38);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_38, (String_t*) &_stringLiteral1718, (String_t*) &_stringLiteral1719);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_38, (String_t*) &_stringLiteral1723, (String_t*) &_stringLiteral1724);
 		Dictionary_2_t1444 * L_39 = V_1;
 		NullCheck(L_39);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_39, (String_t*) &_stringLiteral1720, (String_t*) &_stringLiteral1721);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_39, (String_t*) &_stringLiteral1725, (String_t*) &_stringLiteral1726);
 		Dictionary_2_t1444 * L_40 = V_1;
 		NullCheck(L_40);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_40, (String_t*) &_stringLiteral1722, (String_t*) &_stringLiteral1723);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_40, (String_t*) &_stringLiteral1727, (String_t*) &_stringLiteral1728);
 		Dictionary_2_t1444 * L_41 = V_1;
 		NullCheck(L_41);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_41, (String_t*) &_stringLiteral1724, (String_t*) &_stringLiteral1725);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_41, (String_t*) &_stringLiteral1729, (String_t*) &_stringLiteral1730);
 		Dictionary_2_t1444 * L_42 = V_1;
 		NullCheck(L_42);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_42, (String_t*) &_stringLiteral1726, (String_t*) &_stringLiteral1727);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_42, (String_t*) &_stringLiteral1731, (String_t*) &_stringLiteral1732);
 		Dictionary_2_t1444 * L_43 = V_1;
 		NullCheck(L_43);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_43, (String_t*) &_stringLiteral1728, (String_t*) &_stringLiteral1729);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_43, (String_t*) &_stringLiteral1733, (String_t*) &_stringLiteral1734);
 		Dictionary_2_t1444 * L_44 = V_1;
 		NullCheck(L_44);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_44, (String_t*) &_stringLiteral1730, (String_t*) &_stringLiteral1731);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_44, (String_t*) &_stringLiteral1735, (String_t*) &_stringLiteral1736);
 		Dictionary_2_t1444 * L_45 = V_1;
 		NullCheck(L_45);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_45, (String_t*) &_stringLiteral1732, (String_t*) &_stringLiteral1733);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_45, (String_t*) &_stringLiteral1737, (String_t*) &_stringLiteral1738);
 		Dictionary_2_t1444 * L_46 = V_1;
 		NullCheck(L_46);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_46, (String_t*) &_stringLiteral1734, (String_t*) &_stringLiteral1735);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_46, (String_t*) &_stringLiteral1739, (String_t*) &_stringLiteral1740);
 		Dictionary_2_t1444 * L_47 = V_1;
 		NullCheck(L_47);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_47, (String_t*) &_stringLiteral1736, (String_t*) &_stringLiteral1737);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_47, (String_t*) &_stringLiteral1741, (String_t*) &_stringLiteral1742);
 		Dictionary_2_t1444 * L_48 = V_1;
 		NullCheck(L_48);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_48, (String_t*) &_stringLiteral1738, (String_t*) &_stringLiteral1739);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_48, (String_t*) &_stringLiteral1743, (String_t*) &_stringLiteral1744);
 		Dictionary_2_t1444 * L_49 = V_1;
 		NullCheck(L_49);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_49, (String_t*) &_stringLiteral1740, (String_t*) &_stringLiteral1741);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_49, (String_t*) &_stringLiteral1745, (String_t*) &_stringLiteral1746);
 		Dictionary_2_t1444 * L_50 = V_1;
 		NullCheck(L_50);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_50, (String_t*) &_stringLiteral1742, (String_t*) &_stringLiteral1743);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_50, (String_t*) &_stringLiteral1747, (String_t*) &_stringLiteral1748);
 		Dictionary_2_t1444 * L_51 = V_1;
 		NullCheck(L_51);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_51, (String_t*) &_stringLiteral1744, (String_t*) &_stringLiteral1745);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_51, (String_t*) &_stringLiteral1749, (String_t*) &_stringLiteral1750);
 		Dictionary_2_t1444 * L_52 = V_1;
 		NullCheck(L_52);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_52, (String_t*) &_stringLiteral1746, (String_t*) &_stringLiteral1747);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_52, (String_t*) &_stringLiteral1751, (String_t*) &_stringLiteral1752);
 		Dictionary_2_t1444 * L_53 = V_1;
 		NullCheck(L_53);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_53, (String_t*) &_stringLiteral1748, (String_t*) &_stringLiteral1749);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_53, (String_t*) &_stringLiteral1753, (String_t*) &_stringLiteral1754);
 		Dictionary_2_t1444 * L_54 = V_1;
 		NullCheck(L_54);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_54, (String_t*) &_stringLiteral1750, (String_t*) &_stringLiteral1751);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_54, (String_t*) &_stringLiteral1755, (String_t*) &_stringLiteral1756);
 		Dictionary_2_t1444 * L_55 = V_1;
 		NullCheck(L_55);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_55, (String_t*) &_stringLiteral1752, (String_t*) &_stringLiteral1753);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_55, (String_t*) &_stringLiteral1757, (String_t*) &_stringLiteral1758);
 		Dictionary_2_t1444 * L_56 = V_1;
 		NullCheck(L_56);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_56, (String_t*) &_stringLiteral1754, (String_t*) &_stringLiteral1755);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_56, (String_t*) &_stringLiteral1759, (String_t*) &_stringLiteral1760);
 		Dictionary_2_t1444 * L_57 = V_1;
 		NullCheck(L_57);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_57, (String_t*) &_stringLiteral1756, (String_t*) &_stringLiteral1757);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_57, (String_t*) &_stringLiteral1761, (String_t*) &_stringLiteral1762);
 		Dictionary_2_t1444 * L_58 = V_1;
 		NullCheck(L_58);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_58, (String_t*) &_stringLiteral1758, (String_t*) &_stringLiteral1759);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_58, (String_t*) &_stringLiteral1763, (String_t*) &_stringLiteral1764);
 		Dictionary_2_t1444 * L_59 = V_1;
 		NullCheck(L_59);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_59, (String_t*) &_stringLiteral1760, (String_t*) &_stringLiteral1761);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_59, (String_t*) &_stringLiteral1765, (String_t*) &_stringLiteral1766);
 		Dictionary_2_t1444 * L_60 = V_1;
 		NullCheck(L_60);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_60, (String_t*) &_stringLiteral1762, (String_t*) &_stringLiteral1763);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_60, (String_t*) &_stringLiteral1767, (String_t*) &_stringLiteral1768);
 		Dictionary_2_t1444 * L_61 = V_1;
 		NullCheck(L_61);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral1764, (String_t*) &_stringLiteral1765);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_61, (String_t*) &_stringLiteral1769, (String_t*) &_stringLiteral1770);
 		Dictionary_2_t1444 * L_62 = V_1;
 		NullCheck(L_62);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_62, (String_t*) &_stringLiteral1766, (String_t*) &_stringLiteral1767);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_62, (String_t*) &_stringLiteral1771, (String_t*) &_stringLiteral1772);
 		Dictionary_2_t1444 * L_63 = V_1;
 		NullCheck(L_63);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_63, (String_t*) &_stringLiteral1768, (String_t*) &_stringLiteral1769);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_63, (String_t*) &_stringLiteral1773, (String_t*) &_stringLiteral1774);
 		Dictionary_2_t1444 * L_64 = V_1;
 		NullCheck(L_64);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_64, (String_t*) &_stringLiteral1770, (String_t*) &_stringLiteral1771);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_64, (String_t*) &_stringLiteral1775, (String_t*) &_stringLiteral1776);
 		Dictionary_2_t1444 * L_65 = V_1;
 		NullCheck(L_65);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_65, (String_t*) &_stringLiteral1772, (String_t*) &_stringLiteral1773);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_65, (String_t*) &_stringLiteral1777, (String_t*) &_stringLiteral1778);
 		Dictionary_2_t1444 * L_66 = V_1;
 		NullCheck(L_66);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_66, (String_t*) &_stringLiteral1774, (String_t*) &_stringLiteral1775);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_66, (String_t*) &_stringLiteral1779, (String_t*) &_stringLiteral1780);
 		Dictionary_2_t1444 * L_67 = V_1;
 		NullCheck(L_67);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_67, (String_t*) &_stringLiteral1776, (String_t*) &_stringLiteral1777);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_67, (String_t*) &_stringLiteral1781, (String_t*) &_stringLiteral1782);
 		Dictionary_2_t1444 * L_68 = V_1;
 		NullCheck(L_68);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_68, (String_t*) &_stringLiteral1778, (String_t*) &_stringLiteral1779);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_68, (String_t*) &_stringLiteral1783, (String_t*) &_stringLiteral1784);
 		Dictionary_2_t1444 * L_69 = V_1;
 		NullCheck(L_69);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_69, (String_t*) &_stringLiteral1780, (String_t*) &_stringLiteral1781);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_69, (String_t*) &_stringLiteral1785, (String_t*) &_stringLiteral1786);
 		Dictionary_2_t1444 * L_70 = V_1;
 		NullCheck(L_70);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_70, (String_t*) &_stringLiteral1782, (String_t*) &_stringLiteral1783);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_70, (String_t*) &_stringLiteral1787, (String_t*) &_stringLiteral1788);
 		Dictionary_2_t1444 * L_71 = V_1;
 		NullCheck(L_71);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_71, (String_t*) &_stringLiteral1784, (String_t*) &_stringLiteral1785);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_71, (String_t*) &_stringLiteral1789, (String_t*) &_stringLiteral1790);
 		Dictionary_2_t1444 * L_72 = V_1;
 		NullCheck(L_72);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_72, (String_t*) &_stringLiteral1786, (String_t*) &_stringLiteral1787);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_72, (String_t*) &_stringLiteral1791, (String_t*) &_stringLiteral1792);
 		Dictionary_2_t1444 * L_73 = V_1;
 		NullCheck(L_73);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_73, (String_t*) &_stringLiteral1788, (String_t*) &_stringLiteral1789);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_73, (String_t*) &_stringLiteral1793, (String_t*) &_stringLiteral1794);
 		Dictionary_2_t1444 * L_74 = V_1;
 		NullCheck(L_74);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_74, (String_t*) &_stringLiteral1790, (String_t*) &_stringLiteral1791);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_74, (String_t*) &_stringLiteral1795, (String_t*) &_stringLiteral1796);
 		Dictionary_2_t1444 * L_75 = V_1;
 		NullCheck(L_75);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_75, (String_t*) &_stringLiteral1792, (String_t*) &_stringLiteral1793);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_75, (String_t*) &_stringLiteral1797, (String_t*) &_stringLiteral1798);
 		Dictionary_2_t1444 * L_76 = V_1;
 		NullCheck(L_76);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_76, (String_t*) &_stringLiteral1794, (String_t*) &_stringLiteral1795);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_76, (String_t*) &_stringLiteral1799, (String_t*) &_stringLiteral1800);
 		Dictionary_2_t1444 * L_77 = V_1;
 		NullCheck(L_77);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_77, (String_t*) &_stringLiteral1796, (String_t*) &_stringLiteral1797);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_77, (String_t*) &_stringLiteral1801, (String_t*) &_stringLiteral1802);
 		Dictionary_2_t1444 * L_78 = V_1;
 		NullCheck(L_78);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_78, (String_t*) &_stringLiteral1798, (String_t*) &_stringLiteral1799);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_78, (String_t*) &_stringLiteral1803, (String_t*) &_stringLiteral1804);
 		Dictionary_2_t1444 * L_79 = V_1;
 		NullCheck(L_79);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_79, (String_t*) &_stringLiteral1800, (String_t*) &_stringLiteral1801);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_79, (String_t*) &_stringLiteral1805, (String_t*) &_stringLiteral1806);
 		Dictionary_2_t1444 * L_80 = V_1;
 		NullCheck(L_80);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_80, (String_t*) &_stringLiteral1802, (String_t*) &_stringLiteral1803);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_80, (String_t*) &_stringLiteral1807, (String_t*) &_stringLiteral1808);
 		Dictionary_2_t1444 * L_81 = V_1;
 		NullCheck(L_81);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_81, (String_t*) &_stringLiteral1804, (String_t*) &_stringLiteral1805);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_81, (String_t*) &_stringLiteral1809, (String_t*) &_stringLiteral1810);
 		Dictionary_2_t1444 * L_82 = V_1;
 		NullCheck(L_82);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_82, (String_t*) &_stringLiteral1806, (String_t*) &_stringLiteral1807);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_82, (String_t*) &_stringLiteral1811, (String_t*) &_stringLiteral1812);
 		Dictionary_2_t1444 * L_83 = V_1;
 		NullCheck(L_83);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_83, (String_t*) &_stringLiteral1808, (String_t*) &_stringLiteral1809);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_83, (String_t*) &_stringLiteral1813, (String_t*) &_stringLiteral1814);
 		Dictionary_2_t1444 * L_84 = V_1;
 		NullCheck(L_84);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_84, (String_t*) &_stringLiteral1810, (String_t*) &_stringLiteral1811);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_84, (String_t*) &_stringLiteral1815, (String_t*) &_stringLiteral1816);
 		Dictionary_2_t1444 * L_85 = V_1;
 		NullCheck(L_85);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_85, (String_t*) &_stringLiteral1812, (String_t*) &_stringLiteral1813);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_85, (String_t*) &_stringLiteral1817, (String_t*) &_stringLiteral1818);
 		Dictionary_2_t1444 * L_86 = V_1;
 		NullCheck(L_86);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_86, (String_t*) &_stringLiteral1814, (String_t*) &_stringLiteral1815);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_86, (String_t*) &_stringLiteral1819, (String_t*) &_stringLiteral1820);
 		Dictionary_2_t1444 * L_87 = V_1;
 		NullCheck(L_87);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_87, (String_t*) &_stringLiteral1816, (String_t*) &_stringLiteral1817);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_87, (String_t*) &_stringLiteral1821, (String_t*) &_stringLiteral1822);
 		Dictionary_2_t1444 * L_88 = V_1;
 		NullCheck(L_88);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_88, (String_t*) &_stringLiteral1818, (String_t*) &_stringLiteral1819);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_88, (String_t*) &_stringLiteral1823, (String_t*) &_stringLiteral1824);
 		Dictionary_2_t1444 * L_89 = V_1;
 		NullCheck(L_89);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_89, (String_t*) &_stringLiteral1820, (String_t*) &_stringLiteral1821);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_89, (String_t*) &_stringLiteral1825, (String_t*) &_stringLiteral1826);
 		Dictionary_2_t1444 * L_90 = V_1;
 		NullCheck(L_90);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_90, (String_t*) &_stringLiteral1822, (String_t*) &_stringLiteral1823);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_90, (String_t*) &_stringLiteral1827, (String_t*) &_stringLiteral1828);
 		Dictionary_2_t1444 * L_91 = V_1;
 		NullCheck(L_91);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_91, (String_t*) &_stringLiteral1824, (String_t*) &_stringLiteral1825);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_91, (String_t*) &_stringLiteral1829, (String_t*) &_stringLiteral1830);
 		Dictionary_2_t1444 * L_92 = V_1;
 		NullCheck(L_92);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_92, (String_t*) &_stringLiteral1826, (String_t*) &_stringLiteral1827);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_92, (String_t*) &_stringLiteral1831, (String_t*) &_stringLiteral1832);
 		Dictionary_2_t1444 * L_93 = V_1;
 		NullCheck(L_93);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_93, (String_t*) &_stringLiteral1828, (String_t*) &_stringLiteral1829);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_93, (String_t*) &_stringLiteral1833, (String_t*) &_stringLiteral1834);
 		Dictionary_2_t1444 * L_94 = V_1;
 		NullCheck(L_94);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_94, (String_t*) &_stringLiteral1830, (String_t*) &_stringLiteral1831);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_94, (String_t*) &_stringLiteral1835, (String_t*) &_stringLiteral1836);
 		Dictionary_2_t1444 * L_95 = V_1;
 		NullCheck(L_95);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_95, (String_t*) &_stringLiteral1832, (String_t*) &_stringLiteral1833);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_95, (String_t*) &_stringLiteral1837, (String_t*) &_stringLiteral1838);
 		Dictionary_2_t1444 * L_96 = V_1;
 		NullCheck(L_96);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_96, (String_t*) &_stringLiteral1834, (String_t*) &_stringLiteral1835);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_96, (String_t*) &_stringLiteral1839, (String_t*) &_stringLiteral1840);
 		Dictionary_2_t1444 * L_97 = V_1;
 		NullCheck(L_97);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_97, (String_t*) &_stringLiteral1836, (String_t*) &_stringLiteral1837);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_97, (String_t*) &_stringLiteral1841, (String_t*) &_stringLiteral1842);
 		Dictionary_2_t1444 * L_98 = V_1;
 		NullCheck(L_98);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_98, (String_t*) &_stringLiteral1838, (String_t*) &_stringLiteral1839);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_98, (String_t*) &_stringLiteral1843, (String_t*) &_stringLiteral1844);
 		Dictionary_2_t1444 * L_99 = V_1;
 		NullCheck(L_99);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_99, (String_t*) &_stringLiteral1840, (String_t*) &_stringLiteral1841);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_99, (String_t*) &_stringLiteral1845, (String_t*) &_stringLiteral1846);
 		Dictionary_2_t1444 * L_100 = V_1;
 		NullCheck(L_100);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_100, (String_t*) &_stringLiteral1842, (String_t*) &_stringLiteral1843);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_100, (String_t*) &_stringLiteral1847, (String_t*) &_stringLiteral1848);
 		Dictionary_2_t1444 * L_101 = V_1;
 		NullCheck(L_101);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_101, (String_t*) &_stringLiteral1844, (String_t*) &_stringLiteral1845);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_101, (String_t*) &_stringLiteral1849, (String_t*) &_stringLiteral1850);
 		Dictionary_2_t1444 * L_102 = V_1;
 		NullCheck(L_102);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_102, (String_t*) &_stringLiteral1846, (String_t*) &_stringLiteral1847);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_102, (String_t*) &_stringLiteral1851, (String_t*) &_stringLiteral1852);
 		Dictionary_2_t1444 * L_103 = V_1;
 		NullCheck(L_103);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_103, (String_t*) &_stringLiteral1848, (String_t*) &_stringLiteral1849);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_103, (String_t*) &_stringLiteral1853, (String_t*) &_stringLiteral1854);
 		Dictionary_2_t1444 * L_104 = V_1;
 		NullCheck(L_104);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_104, (String_t*) &_stringLiteral1850, (String_t*) &_stringLiteral1851);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_104, (String_t*) &_stringLiteral1855, (String_t*) &_stringLiteral1856);
 		Dictionary_2_t1444 * L_105 = V_1;
 		NullCheck(L_105);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_105, (String_t*) &_stringLiteral1852, (String_t*) &_stringLiteral1853);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_105, (String_t*) &_stringLiteral1857, (String_t*) &_stringLiteral1858);
 		Dictionary_2_t1444 * L_106 = V_1;
 		NullCheck(L_106);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_106, (String_t*) &_stringLiteral1854, (String_t*) &_stringLiteral1855);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_106, (String_t*) &_stringLiteral1859, (String_t*) &_stringLiteral1860);
 		Dictionary_2_t1444 * L_107 = V_1;
 		NullCheck(L_107);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_107, (String_t*) &_stringLiteral1856, (String_t*) &_stringLiteral1857);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_107, (String_t*) &_stringLiteral1861, (String_t*) &_stringLiteral1862);
 		Dictionary_2_t1444 * L_108 = V_1;
 		NullCheck(L_108);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_108, (String_t*) &_stringLiteral1858, (String_t*) &_stringLiteral1859);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_108, (String_t*) &_stringLiteral1863, (String_t*) &_stringLiteral1864);
 		Dictionary_2_t1444 * L_109 = V_1;
 		NullCheck(L_109);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_109, (String_t*) &_stringLiteral1860, (String_t*) &_stringLiteral1861);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_109, (String_t*) &_stringLiteral1865, (String_t*) &_stringLiteral1866);
 		Dictionary_2_t1444 * L_110 = V_1;
 		NullCheck(L_110);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_110, (String_t*) &_stringLiteral1862, (String_t*) &_stringLiteral1863);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_110, (String_t*) &_stringLiteral1867, (String_t*) &_stringLiteral1868);
 		Dictionary_2_t1444 * L_111 = V_1;
 		NullCheck(L_111);
-		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_111, (String_t*) &_stringLiteral1864, (String_t*) &_stringLiteral1865);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_111, (String_t*) &_stringLiteral1869, (String_t*) &_stringLiteral1870);
 		Dictionary_2_t1444 * L_112 = V_1;
 		((ParseInstallation_t1871_StaticFields*)ParseInstallation_t1871_il2cpp_TypeInfo_var->static_fields)->___tzNameMap_34 = L_112;
 		return;
@@ -31861,7 +31861,7 @@ IL_0018:
 		{
 			ParseQuery_1_t1875 * L_4 = ___value;
 			NullCheck(L_4);
-			Object_t * L_5 = ParseQuery_1_GetConstraint_m9253(L_4, (String_t*) &_stringLiteral1866, /*hidden argument*/ParseQuery_1_GetConstraint_m9253_MethodInfo_var);
+			Object_t * L_5 = ParseQuery_1_GetConstraint_m9253(L_4, (String_t*) &_stringLiteral1871, /*hidden argument*/ParseQuery_1_GetConstraint_m9253_MethodInfo_var);
 			if (!L_5)
 			{
 				goto IL_0030;
@@ -31871,7 +31871,7 @@ IL_0018:
 IL_0025:
 		{
 			InvalidOperationException_t1668 * L_6 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_6, (String_t*) &_stringLiteral1867, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_6, (String_t*) &_stringLiteral1872, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_6);
 		}
 
@@ -32004,7 +32004,7 @@ IL_0018:
 		{
 			ParseQuery_1_t1875 * L_4 = ParsePush_get_Query_m8555(__this, /*hidden argument*/NULL);
 			NullCheck(L_4);
-			Object_t * L_5 = ParseQuery_1_GetConstraint_m9253(L_4, (String_t*) &_stringLiteral1866, /*hidden argument*/ParseQuery_1_GetConstraint_m9253_MethodInfo_var);
+			Object_t * L_5 = ParseQuery_1_GetConstraint_m9253(L_4, (String_t*) &_stringLiteral1871, /*hidden argument*/ParseQuery_1_GetConstraint_m9253_MethodInfo_var);
 			if (!L_5)
 			{
 				goto IL_0035;
@@ -32014,7 +32014,7 @@ IL_0018:
 IL_002a:
 		{
 			InvalidOperationException_t1668 * L_6 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_6, (String_t*) &_stringLiteral1867, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_6, (String_t*) &_stringLiteral1872, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_6);
 		}
 
@@ -32138,7 +32138,7 @@ IL_000d:
 IL_001a:
 		{
 			InvalidOperationException_t1668 * L_4 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1868, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1873, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_4);
 		}
 
@@ -32262,7 +32262,7 @@ IL_000d:
 IL_001a:
 		{
 			InvalidOperationException_t1668 * L_4 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1869, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1874, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_4);
 		}
 
@@ -32392,7 +32392,7 @@ IL_0015:
 IL_0018:
 		{
 			InvalidOperationException_t1668 * L_4 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1870, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1875, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_4);
 		}
 
@@ -32522,7 +32522,7 @@ IL_0015:
 IL_0018:
 		{
 			InvalidOperationException_t1668 * L_4 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1870, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1875, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_4);
 		}
 
@@ -32637,7 +32637,7 @@ IL_0016:
 IL_001e:
 		{
 			InvalidOperationException_t1668 * L_4 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1871, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_4, (String_t*) &_stringLiteral1876, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_4);
 		}
 
@@ -32662,7 +32662,7 @@ IL_0031:
 IL_0039:
 		{
 			InvalidOperationException_t1668 * L_7 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_7, (String_t*) &_stringLiteral1872, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_7, (String_t*) &_stringLiteral1877, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_7);
 		}
 
@@ -32686,7 +32686,7 @@ IL_004d:
 			Dictionary_2_t468 * L_11 = V_3;
 			String_t* L_12 = ParsePush_get_Alert_m8565(__this, /*hidden argument*/NULL);
 			NullCheck(L_11);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral1873, L_12);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_11, (String_t*) &_stringLiteral1878, L_12);
 			Dictionary_2_t468 * L_13 = V_3;
 			G_B9_0 = ((Object_t*)(L_13));
 		}
@@ -32726,7 +32726,7 @@ IL_007f:
 			ParseQuery_1_t1875 * L_18 = V_1;
 			Object_t* L_19 = ParsePush_get_Channels_m8557(__this, /*hidden argument*/NULL);
 			NullCheck(L_18);
-			ParseQuery_1_t1875 * L_20 = ParseQuery_1_WhereContainedIn_TisString_t_m9246(L_18, (String_t*) &_stringLiteral1866, L_19, /*hidden argument*/ParseQuery_1_WhereContainedIn_TisString_t_m9246_MethodInfo_var);
+			ParseQuery_1_t1875 * L_20 = ParseQuery_1_WhereContainedIn_TisString_t_m9246(L_18, (String_t*) &_stringLiteral1871, L_19, /*hidden argument*/ParseQuery_1_WhereContainedIn_TisString_t_m9246_MethodInfo_var);
 			V_1 = L_20;
 		}
 
@@ -32738,16 +32738,16 @@ IL_0091:
 			Dictionary_2_t468 * L_22 = V_4;
 			Object_t* L_23 = V_0;
 			NullCheck(L_22);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_22, (String_t*) &_stringLiteral1874, L_23);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_22, (String_t*) &_stringLiteral1879, L_23);
 			Dictionary_2_t468 * L_24 = V_4;
 			ParseQuery_1_t1875 * L_25 = V_1;
 			NullCheck(L_25);
 			Object_t* L_26 = ParseQuery_1_BuildParameters_m9255(L_25, 0, /*hidden argument*/ParseQuery_1_BuildParameters_m9255_MethodInfo_var);
 			Dictionary_2_t468 * L_27 = (Dictionary_2_t468 *)il2cpp_codegen_object_new (Dictionary_2_t468_il2cpp_TypeInfo_var);
 			Dictionary_2__ctor_m8892(L_27, /*hidden argument*/Dictionary_2__ctor_m8892_MethodInfo_var);
-			Object_t * L_28 = InternalExtensions_GetOrDefault_TisString_t_TisObject_t_m9248(NULL /*static, unused*/, L_26, (String_t*) &_stringLiteral1875, L_27, /*hidden argument*/InternalExtensions_GetOrDefault_TisString_t_TisObject_t_m9248_MethodInfo_var);
+			Object_t * L_28 = InternalExtensions_GetOrDefault_TisString_t_TisObject_t_m9248(NULL /*static, unused*/, L_26, (String_t*) &_stringLiteral1880, L_27, /*hidden argument*/InternalExtensions_GetOrDefault_TisString_t_TisObject_t_m9248_MethodInfo_var);
 			NullCheck(L_24);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_24, (String_t*) &_stringLiteral1875, L_28);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_24, (String_t*) &_stringLiteral1880, L_28);
 			Dictionary_2_t468 * L_29 = V_4;
 			V_2 = L_29;
 			Nullable_1_t1870 * L_30 = &(__this->___expiration_3);
@@ -32764,9 +32764,9 @@ IL_00d7:
 			Nullable_1_t1870 * L_33 = &(__this->___expiration_3);
 			DateTime_t1953  L_34 = Nullable_1_get_Value_m9236(L_33, /*hidden argument*/Nullable_1_get_Value_m9236_MethodInfo_var);
 			V_7 = L_34;
-			String_t* L_35 = DateTime_ToString_m8909((&V_7), (String_t*) &_stringLiteral1877, /*hidden argument*/NULL);
+			String_t* L_35 = DateTime_ToString_m8909((&V_7), (String_t*) &_stringLiteral1882, /*hidden argument*/NULL);
 			NullCheck(L_32);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_32, (String_t*) &_stringLiteral1876, L_35);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_32, (String_t*) &_stringLiteral1881, L_35);
 			goto IL_012e;
 		}
 
@@ -32790,7 +32790,7 @@ IL_010a:
 			double L_42 = L_41;
 			Object_t * L_43 = Box(Double_t769_il2cpp_TypeInfo_var, &L_42);
 			NullCheck(L_38);
-			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_38, (String_t*) &_stringLiteral1878, L_43);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_38, (String_t*) &_stringLiteral1883, L_43);
 		}
 
 IL_012e:
@@ -32874,7 +32874,7 @@ IL_000f:
 		Object_t* L_3 = ParsePush_Encode_m8567(__this, /*hidden argument*/NULL);
 		CancellationToken_t1753  L_4 = ___cancellationToken;
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_5 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, (String_t*) &_stringLiteral1879, L_2, L_3, L_4, /*hidden argument*/NULL);
+		Task_1_t1965 * L_5 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, (String_t*) &_stringLiteral1884, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
@@ -33266,7 +33266,7 @@ extern "C" Task_t344 * ParsePush_SubscribeAsync_m8583 (Object_t * __this /* stat
 		ParseInstallation_t1871 * L_1 = V_0;
 		Object_t* L_2 = ___channels;
 		NullCheck(L_1);
-		ParseObject_AddRangeUniqueToList_TisString_t_m9250(L_1, (String_t*) &_stringLiteral1866, L_2, /*hidden argument*/ParseObject_AddRangeUniqueToList_TisString_t_m9250_MethodInfo_var);
+		ParseObject_AddRangeUniqueToList_TisString_t_m9250(L_1, (String_t*) &_stringLiteral1871, L_2, /*hidden argument*/ParseObject_AddRangeUniqueToList_TisString_t_m9250_MethodInfo_var);
 		ParseInstallation_t1871 * L_3 = V_0;
 		CancellationToken_t1753  L_4 = ___cancellationToken;
 		NullCheck(L_3);
@@ -33372,7 +33372,7 @@ extern "C" Task_t344 * ParsePush_UnsubscribeAsync_m8587 (Object_t * __this /* st
 		ParseInstallation_t1871 * L_1 = V_0;
 		Object_t* L_2 = ___channels;
 		NullCheck(L_1);
-		ParseObject_RemoveAllFromList_TisString_t_m9251(L_1, (String_t*) &_stringLiteral1866, L_2, /*hidden argument*/ParseObject_RemoveAllFromList_TisString_t_m9251_MethodInfo_var);
+		ParseObject_RemoveAllFromList_TisString_t_m9251(L_1, (String_t*) &_stringLiteral1871, L_2, /*hidden argument*/ParseObject_RemoveAllFromList_TisString_t_m9251_MethodInfo_var);
 		ParseInstallation_t1871 * L_3 = V_0;
 		CancellationToken_t1753  L_4 = ___cancellationToken;
 		NullCheck(L_3);
@@ -33749,11 +33749,11 @@ extern "C" Object_t* ParseRelationBase_ToJSON_m8601 (ParseRelationBase_t1881 * _
 		V_0 = L_0;
 		Dictionary_2_t468 * L_1 = V_0;
 		NullCheck(L_1);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1543, (String_t*) &_stringLiteral1557);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_1, (String_t*) &_stringLiteral1548, (String_t*) &_stringLiteral1562);
 		Dictionary_2_t468 * L_2 = V_0;
 		String_t* L_3 = (__this->___targetClassName_2);
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1549, L_3);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral1554, L_3);
 		Dictionary_2_t468 * L_4 = V_0;
 		return L_4;
 	}
@@ -34028,7 +34028,7 @@ extern "C" String_t* ParseRole_get_Name_m8607 (ParseRole_t1882 * __this, const M
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1012, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9226(__this, (String_t*) &_stringLiteral1017, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9226_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -34044,7 +34044,7 @@ extern "C" void ParseRole_set_Name_m8608 (ParseRole_t1882 * __this, String_t* __
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1012, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1017, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -34059,7 +34059,7 @@ extern "C" ParseRelation_1_t1981 * ParseRole_get_Users_m8609 (ParseRole_t1882 * 
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ParseRelation_1_t1981 * L_0 = ParseObject_GetRelationProperty_TisParseUser_t803_m9264(__this, (String_t*) &_stringLiteral1929, /*hidden argument*/ParseObject_GetRelationProperty_TisParseUser_t803_m9264_MethodInfo_var);
+		ParseRelation_1_t1981 * L_0 = ParseObject_GetRelationProperty_TisParseUser_t803_m9264(__this, (String_t*) &_stringLiteral1934, /*hidden argument*/ParseObject_GetRelationProperty_TisParseUser_t803_m9264_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -34074,7 +34074,7 @@ extern "C" ParseRelation_1_t1982 * ParseRole_get_Roles_m8610 (ParseRole_t1882 * 
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ParseRelation_1_t1982 * L_0 = ParseObject_GetRelationProperty_TisParseRole_t1882_m9266(__this, (String_t*) &_stringLiteral1930, /*hidden argument*/ParseObject_GetRelationProperty_TisParseRole_t1882_m9266_MethodInfo_var);
+		ParseRelation_1_t1982 * L_0 = ParseObject_GetRelationProperty_TisParseRole_t1882_m9266(__this, (String_t*) &_stringLiteral1935, /*hidden argument*/ParseObject_GetRelationProperty_TisParseRole_t1882_m9266_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -34100,7 +34100,7 @@ extern "C" void ParseRole_OnSettingValue_m8611 (ParseRole_t1882 * __this, String
 		ParseObject_OnSettingValue_m8454(__this, L_0, L_1, /*hidden argument*/NULL);
 		String_t** L_2 = ___key;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_3 = String_op_Equality_m2603(NULL /*static, unused*/, (*((String_t**)L_2)), (String_t*) &_stringLiteral1523, /*hidden argument*/NULL);
+		bool L_3 = String_op_Equality_m2603(NULL /*static, unused*/, (*((String_t**)L_2)), (String_t*) &_stringLiteral1528, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0065;
@@ -34115,7 +34115,7 @@ extern "C" void ParseRole_OnSettingValue_m8611 (ParseRole_t1882 * __this, String
 	}
 	{
 		InvalidOperationException_t1668 * L_5 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_5, (String_t*) &_stringLiteral1931, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_5, (String_t*) &_stringLiteral1936, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -34129,7 +34129,7 @@ IL_0029:
 	}
 	{
 		ArgumentException_t725 * L_7 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m9205(L_7, (String_t*) &_stringLiteral1932, (String_t*) &_stringLiteral1582, /*hidden argument*/NULL);
+		ArgumentException__ctor_m9205(L_7, (String_t*) &_stringLiteral1937, (String_t*) &_stringLiteral1587, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -34147,7 +34147,7 @@ IL_0042:
 	}
 	{
 		ArgumentException_t725 * L_11 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m9205(L_11, (String_t*) &_stringLiteral1933, (String_t*) &_stringLiteral1582, /*hidden argument*/NULL);
+		ArgumentException__ctor_m9205(L_11, (String_t*) &_stringLiteral1938, (String_t*) &_stringLiteral1587, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_11);
 	}
 
@@ -34188,7 +34188,7 @@ extern "C" void ParseRole__cctor_m8613 (Object_t * __this /* static, unused */, 
 	}
 	{
 		Regex_t789 * L_0 = (Regex_t789 *)il2cpp_codegen_object_new (Regex_t789_il2cpp_TypeInfo_var);
-		Regex__ctor_m7635(L_0, (String_t*) &_stringLiteral1934, /*hidden argument*/NULL);
+		Regex__ctor_m7635(L_0, (String_t*) &_stringLiteral1939, /*hidden argument*/NULL);
 		((ParseRole_t1882_StaticFields*)ParseRole_t1882_il2cpp_TypeInfo_var->static_fields)->___namePattern_30 = L_0;
 		return;
 	}
@@ -34310,11 +34310,11 @@ IL_0011:
 IL_0022:
 	{
 		Uri_t32 * L_8 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8913(L_8, (String_t*) &_stringLiteral1940, 2, /*hidden argument*/NULL);
+		Uri__ctor_m8913(L_8, (String_t*) &_stringLiteral1945, 2, /*hidden argument*/NULL);
 		String_t* L_9 = V_1;
 		CancellationToken_t1753  L_10 = (__this->___cancellationToken_0);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_11 = ParseClient_RequestAsync_m8281(NULL /*static, unused*/, (String_t*) &_stringLiteral1561, L_8, L_9, (Object_t*)NULL, L_10, /*hidden argument*/NULL);
+		Task_1_t1965 * L_11 = ParseClient_RequestAsync_m8281(NULL /*static, unused*/, (String_t*) &_stringLiteral1566, L_8, L_9, (Object_t*)NULL, L_10, /*hidden argument*/NULL);
 		Func_2_t1883 * L_12 = ((U3CU3Ec__DisplayClass2_t1884_StaticFields*)U3CU3Ec__DisplayClass2_t1884_il2cpp_TypeInfo_var->static_fields)->___CSU24U3CU3E9__CachedAnonymousMethodDelegate4_1;
 		G_B5_0 = L_11;
 		if (L_12)
@@ -34437,7 +34437,7 @@ extern "C" String_t* ParseSession_get_SessionToken_m8618 (ParseSession_t1885 * _
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9273(__this, (String_t*)NULL, (String_t*) &_stringLiteral1935, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9273_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9273(__this, (String_t*)NULL, (String_t*) &_stringLiteral1940, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9273_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -34557,22 +34557,22 @@ extern "C" void ParseSession__cctor_m8623 (Object_t * __this /* static, unused *
 		V_0 = L_0;
 		HashSet_1_t1873 * L_1 = V_0;
 		NullCheck(L_1);
-		HashSet_1_Add_m9245(L_1, (String_t*) &_stringLiteral1936, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_1, (String_t*) &_stringLiteral1941, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_2 = V_0;
 		NullCheck(L_2);
-		HashSet_1_Add_m9245(L_2, (String_t*) &_stringLiteral1937, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_2, (String_t*) &_stringLiteral1942, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_3 = V_0;
 		NullCheck(L_3);
-		HashSet_1_Add_m9245(L_3, (String_t*) &_stringLiteral1938, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_3, (String_t*) &_stringLiteral1943, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_4 = V_0;
 		NullCheck(L_4);
 		HashSet_1_Add_m9245(L_4, (String_t*) &_stringLiteral209, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_5 = V_0;
 		NullCheck(L_5);
-		HashSet_1_Add_m9245(L_5, (String_t*) &_stringLiteral1939, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_5, (String_t*) &_stringLiteral1944, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_6 = V_0;
 		NullCheck(L_6);
-		HashSet_1_Add_m9245(L_6, (String_t*) &_stringLiteral1652, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_6, (String_t*) &_stringLiteral1657, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_7 = V_0;
 		((ParseSession_t1885_StaticFields*)ParseSession_t1885_il2cpp_TypeInfo_var->static_fields)->___readOnlyKeys_30 = L_7;
 		return;
@@ -34854,7 +34854,7 @@ IL_0027:
 		Dictionary_2__ctor_m8892(L_12, /*hidden argument*/Dictionary_2__ctor_m8892_MethodInfo_var);
 		CancellationToken_t1753  L_13 = (__this->___cancellationToken_0);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_14 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, (String_t*) &_stringLiteral1958, L_11, L_12, L_13, /*hidden argument*/NULL);
+		Task_1_t1965 * L_14 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, (String_t*) &_stringLiteral1963, L_11, L_12, L_13, /*hidden argument*/NULL);
 		V_2 = L_14;
 	}
 
@@ -35023,13 +35023,13 @@ extern "C" Task_1_t1965 * U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAs
 	}
 	{
 		Uri_t32 * L_0 = (Uri_t32 *)il2cpp_codegen_object_new (Uri_t32_il2cpp_TypeInfo_var);
-		Uri__ctor_m8913(L_0, (String_t*) &_stringLiteral1959, 2, /*hidden argument*/NULL);
+		Uri__ctor_m8913(L_0, (String_t*) &_stringLiteral1964, 2, /*hidden argument*/NULL);
 		String_t* L_1 = (__this->___sessionToken_0);
 		Dictionary_2_t468 * L_2 = (Dictionary_2_t468 *)il2cpp_codegen_object_new (Dictionary_2_t468_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m8892(L_2, /*hidden argument*/Dictionary_2__ctor_m8892_MethodInfo_var);
 		CancellationToken_t1753  L_3 = (__this->___cancellationToken_2);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_4 = ParseClient_RequestAsync_m8281(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		Task_1_t1965 * L_4 = ParseClient_RequestAsync_m8281(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
@@ -35550,7 +35550,7 @@ extern "C" void ParseUser_Remove_m8651 (ParseUser_t803 * __this, String_t* ___ke
 	}
 	{
 		ArgumentException_t725 * L_2 = (ArgumentException_t725 *)il2cpp_codegen_object_new (ArgumentException_t725_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3235(L_2, (String_t*) &_stringLiteral1946, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3235(L_2, (String_t*) &_stringLiteral1951, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -35612,7 +35612,7 @@ IL_000d:
 		{
 			Object_t* L_2 = ___data;
 			NullCheck(L_2);
-			bool L_3 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral1936);
+			bool L_3 = (bool)InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_2, (String_t*) &_stringLiteral1941);
 			if (!L_3)
 			{
 				goto IL_003c;
@@ -35623,11 +35623,11 @@ IL_001a:
 		{
 			Object_t* L_4 = ___data;
 			NullCheck(L_4);
-			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1936);
+			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker1< Object_t *, String_t* >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<System.String,System.Object>::get_Item(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_4, (String_t*) &_stringLiteral1941);
 			__this->___sessionToken_35 = ((String_t*)IsInst(L_5, String_t_il2cpp_TypeInfo_var));
 			Object_t* L_6 = ___data;
 			NullCheck(L_6);
-			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1936);
+			InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1941);
 		}
 
 IL_003c:
@@ -35693,7 +35693,7 @@ IL_000d:
 		ParseUser_CleanupAuthData_m8692(__this, /*hidden argument*/NULL);
 		Object_t* L_3 = (((ParseObject_t596 *)__this)->___serverData_6);
 		NullCheck(L_3);
-		InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral1947);
+		InterfaceFuncInvoker1< bool, String_t* >::Invoke(2 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::Remove(!0) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral1952);
 		ParseObject_RebuildEstimatedData_m8452(__this, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x40, FINALLY_0039);
 	} // end try (depth: 1)
@@ -35897,7 +35897,7 @@ extern "C" String_t* ParseUser_get_Username_m8659 (ParseUser_t803 * __this, cons
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9273(__this, (String_t*)NULL, (String_t*) &_stringLiteral1941, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9273_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9273(__this, (String_t*)NULL, (String_t*) &_stringLiteral1946, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9273_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -35913,7 +35913,7 @@ extern "C" void ParseUser_set_Username_m3743 (ParseUser_t803 * __this, String_t*
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1941, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1946, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -35928,7 +35928,7 @@ extern "C" String_t* ParseUser_get_Password_m8660 (ParseUser_t803 * __this, cons
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9273(__this, (String_t*)NULL, (String_t*) &_stringLiteral1942, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9273_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9273(__this, (String_t*)NULL, (String_t*) &_stringLiteral1947, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9273_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -35944,7 +35944,7 @@ extern "C" void ParseUser_set_Password_m3744 (ParseUser_t803 * __this, String_t*
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1942, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1947, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -35959,7 +35959,7 @@ extern "C" String_t* ParseUser_get_Email_m8661 (ParseUser_t803 * __this, const M
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9273(__this, (String_t*)NULL, (String_t*) &_stringLiteral1943, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9273_MethodInfo_var);
+		String_t* L_0 = ParseObject_GetProperty_TisString_t_m9273(__this, (String_t*)NULL, (String_t*) &_stringLiteral1948, /*hidden argument*/ParseObject_GetProperty_TisString_t_m9273_MethodInfo_var);
 		return L_0;
 	}
 }
@@ -35975,7 +35975,7 @@ extern "C" void ParseUser_set_Email_m3745 (ParseUser_t803 * __this, String_t* __
 	}
 	{
 		String_t* L_0 = ___value;
-		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1943, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
+		ParseObject_SetProperty_TisString_t_m9228(__this, L_0, (String_t*) &_stringLiteral1948, /*hidden argument*/ParseObject_SetProperty_TisString_t_m9228_MethodInfo_var);
 		return;
 	}
 }
@@ -36041,7 +36041,7 @@ IL_0017:
 IL_0024:
 		{
 			InvalidOperationException_t1668 * L_5 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_5, (String_t*) &_stringLiteral1948, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_5, (String_t*) &_stringLiteral1953, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_5);
 		}
 
@@ -36059,7 +36059,7 @@ IL_002f:
 IL_003c:
 		{
 			InvalidOperationException_t1668 * L_8 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_8, (String_t*) &_stringLiteral1949, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_8, (String_t*) &_stringLiteral1954, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_8);
 		}
 
@@ -36075,7 +36075,7 @@ IL_0047:
 IL_004f:
 		{
 			InvalidOperationException_t1668 * L_10 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_10, (String_t*) &_stringLiteral1950, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_10, (String_t*) &_stringLiteral1955, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_10);
 		}
 
@@ -36252,7 +36252,7 @@ extern "C" Task_1_t639 * ParseUser_LogInAsync_m8664 (Object_t * __this /* static
 		Dictionary_2_t468 * L_4 = V_1;
 		String_t* L_5 = ___password;
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral1947, L_5);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_4, (String_t*) &_stringLiteral1952, L_5);
 		Dictionary_2_t468 * L_6 = V_1;
 		V_0 = L_6;
 		U3CU3Ec__DisplayClass7_t1888 * L_7 = V_2;
@@ -36264,9 +36264,9 @@ extern "C" Task_1_t639 * ParseUser_LogInAsync_m8664 (Object_t * __this /* static
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 		String_t* L_10 = ParseClient_BuildQueryString_m8284(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1951, L_10, /*hidden argument*/NULL);
+		String_t* L_11 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1956, L_10, /*hidden argument*/NULL);
 		CancellationToken_t1753  L_12 = ___cancellationToken;
-		Task_1_t1965 * L_13 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1561, L_11, (String_t*)NULL, (Object_t*)NULL, L_12, /*hidden argument*/NULL);
+		Task_1_t1965 * L_13 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1566, L_11, (String_t*)NULL, (Object_t*)NULL, L_12, /*hidden argument*/NULL);
 		U3CU3Ec__DisplayClass7_t1888 * L_14 = V_2;
 		IntPtr_t L_15 = { (void*)U3CU3Ec__DisplayClass7_U3CLogInAsyncU3Eb__6_m8630_MethodInfo_var };
 		Func_2_t2104 * L_16 = (Func_2_t2104 *)il2cpp_codegen_object_new (Func_2_t2104_il2cpp_TypeInfo_var);
@@ -36330,7 +36330,7 @@ extern "C" Task_1_t639 * ParseUser_BecomeAsync_m8666 (Object_t * __this /* stati
 		String_t* L_3 = ___sessionToken;
 		CancellationToken_t1753  L_4 = ___cancellationToken;
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_5 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1561, (String_t*) &_stringLiteral1952, L_3, (Object_t*)NULL, L_4, /*hidden argument*/NULL);
+		Task_1_t1965 * L_5 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1566, (String_t*) &_stringLiteral1957, L_3, (Object_t*)NULL, L_4, /*hidden argument*/NULL);
 		U3CU3Ec__DisplayClassa_t1889 * L_6 = V_0;
 		IntPtr_t L_7 = { (void*)U3CU3Ec__DisplayClassa_U3CBecomeAsyncU3Eb__9_m8632_MethodInfo_var };
 		Func_2_t2104 * L_8 = (Func_2_t2104 *)il2cpp_codegen_object_new (Func_2_t2104_il2cpp_TypeInfo_var);
@@ -36388,7 +36388,7 @@ IL_000f:
 IL_0017:
 		{
 			InvalidOperationException_t1668 * L_3 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-			InvalidOperationException__ctor_m8910(L_3, (String_t*) &_stringLiteral1953, /*hidden argument*/NULL);
+			InvalidOperationException__ctor_m8910(L_3, (String_t*) &_stringLiteral1958, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception(L_3);
 		}
 
@@ -36716,7 +36716,7 @@ IL_002d:
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			Object_t* L_6 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 			NullCheck(L_6);
-			InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1944, (&V_0));
+			InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1949, (&V_0));
 			Object_t * L_7 = V_0;
 			V_1 = ((String_t*)IsInst(L_7, String_t_il2cpp_TypeInfo_var));
 			String_t* L_8 = V_1;
@@ -36973,13 +36973,13 @@ IL_0058:
 				NullCheck(L_19);
 				String_t* L_20 = ParseUser_get_SessionToken_m8656(L_19, /*hidden argument*/NULL);
 				NullCheck(L_18);
-				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_18, (String_t*) &_stringLiteral1936, L_20);
+				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_18, (String_t*) &_stringLiteral1941, L_20);
 				Object_t* L_21 = V_1;
 				ParseUser_t803 * L_22 = ((ParseUser_t803_StaticFields*)ParseUser_t803_il2cpp_TypeInfo_var->static_fields)->___currentUser_31;
 				NullCheck(L_22);
 				String_t* L_23 = ParseObject_get_ObjectId_m8485(L_22, /*hidden argument*/NULL);
 				NullCheck(L_21);
-				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_21, (String_t*) &_stringLiteral1550, L_23);
+				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_21, (String_t*) &_stringLiteral1555, L_23);
 				Object_t* L_24 = V_1;
 				ParseUser_t803 * L_25 = ((ParseUser_t803_StaticFields*)ParseUser_t803_il2cpp_TypeInfo_var->static_fields)->___currentUser_31;
 				NullCheck(L_25);
@@ -36991,7 +36991,7 @@ IL_0058:
 				String_t* L_28 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___dateFormatString_2;
 				String_t* L_29 = DateTime_ToString_m8909((&V_5), L_28, /*hidden argument*/NULL);
 				NullCheck(L_24);
-				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_24, (String_t*) &_stringLiteral1603, L_29);
+				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_24, (String_t*) &_stringLiteral1608, L_29);
 				Object_t* L_30 = V_1;
 				ParseUser_t803 * L_31 = ((ParseUser_t803_StaticFields*)ParseUser_t803_il2cpp_TypeInfo_var->static_fields)->___currentUser_31;
 				NullCheck(L_31);
@@ -37002,14 +37002,14 @@ IL_0058:
 				String_t* L_34 = ((ParseClient_t1817_StaticFields*)ParseClient_t1817_il2cpp_TypeInfo_var->static_fields)->___dateFormatString_2;
 				String_t* L_35 = DateTime_ToString_m8909((&V_7), L_34, /*hidden argument*/NULL);
 				NullCheck(L_30);
-				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_30, (String_t*) &_stringLiteral1604, L_35);
+				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_30, (String_t*) &_stringLiteral1609, L_35);
 				Object_t* L_36 = V_1;
 				String_t* L_37 = ParseClient_SerializeJsonString_m8288(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
 				V_2 = L_37;
 				Object_t* L_38 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 				String_t* L_39 = V_2;
 				NullCheck(L_38);
-				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_38, (String_t*) &_stringLiteral1944, L_39);
+				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_38, (String_t*) &_stringLiteral1949, L_39);
 				goto IL_0119;
 			}
 
@@ -37018,7 +37018,7 @@ IL_0109:
 				IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 				Object_t* L_40 = ParseClient_get_ApplicationSettings_m8289(NULL /*static, unused*/, /*hidden argument*/NULL);
 				NullCheck(L_40);
-				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_40, (String_t*) &_stringLiteral1944, NULL);
+				InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_40, (String_t*) &_stringLiteral1949, NULL);
 			}
 
 IL_0119:
@@ -37461,7 +37461,7 @@ extern "C" bool ParseUser_IsRevocableSessionToken_m8684 (Object_t * __this /* st
 	{
 		String_t* L_0 = ___sessionToken;
 		NullCheck(L_0);
-		bool L_1 = String_Contains_m2713(L_0, (String_t*) &_stringLiteral1954, /*hidden argument*/NULL);
+		bool L_1 = String_Contains_m2713(L_0, (String_t*) &_stringLiteral1959, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -37651,11 +37651,11 @@ extern "C" Task_t344 * ParseUser_RequestPasswordResetAsync_m8688 (Object_t * __t
 		Dictionary_2_t468 * L_2 = V_0;
 		String_t* L_3 = ___email;
 		NullCheck(L_2);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral862, L_3);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_2, (String_t*) &_stringLiteral867, L_3);
 		Dictionary_2_t468 * L_4 = V_0;
 		CancellationToken_t1753  L_5 = ___cancellationToken;
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_6 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, (String_t*) &_stringLiteral1955, L_0, L_4, L_5, /*hidden argument*/NULL);
+		Task_1_t1965 * L_6 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, (String_t*) &_stringLiteral1960, L_0, L_4, L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
@@ -37671,7 +37671,7 @@ extern "C" Object_t* ParseUser_get_AuthData_m8689 (ParseUser_t803 * __this, cons
 	}
 	Object_t* V_0 = {0};
 	{
-		bool L_0 = ParseObject_TryGetValue_TisIDictionary_2_t1986_m9281(__this, (String_t*) &_stringLiteral1945, (&V_0), /*hidden argument*/ParseObject_TryGetValue_TisIDictionary_2_t1986_m9281_MethodInfo_var);
+		bool L_0 = ParseObject_TryGetValue_TisIDictionary_2_t1986_m9281(__this, (String_t*) &_stringLiteral1950, (&V_0), /*hidden argument*/ParseObject_TryGetValue_TisIDictionary_2_t1986_m9281_MethodInfo_var);
 		if (!L_0)
 		{
 			goto IL_0011;
@@ -37692,7 +37692,7 @@ extern "C" void ParseUser_set_AuthData_m8690 (ParseUser_t803 * __this, Object_t*
 {
 	{
 		Object_t* L_0 = ___value;
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(15 /* System.Void Parse.ParseObject::set_Item(System.String,System.Object) */, __this, (String_t*) &_stringLiteral1945, L_0);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(15 /* System.Void Parse.ParseObject::set_Item(System.String,System.Object) */, __this, (String_t*) &_stringLiteral1950, L_0);
 		return;
 	}
 }
@@ -38580,11 +38580,11 @@ extern "C" Task_1_t639 * ParseUser_LogInWithAsync_m8700 (Object_t * __this /* st
 		Dictionary_2_t468 * L_13 = V_1;
 		Dictionary_2_t468 * L_14 = V_0;
 		NullCheck(L_13);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral1945, L_14);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Add(!0,!1) */, L_13, (String_t*) &_stringLiteral1950, L_14);
 		Dictionary_2_t468 * L_15 = V_1;
 		CancellationToken_t1753  L_16 = ___cancellationToken;
 		IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
-		Task_1_t1965 * L_17 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1525, (String_t*) &_stringLiteral1956, (String_t*)NULL, L_15, L_16, /*hidden argument*/NULL);
+		Task_1_t1965 * L_17 = ParseClient_RequestAsync_m8280(NULL /*static, unused*/, (String_t*) &_stringLiteral1530, (String_t*) &_stringLiteral1961, (String_t*)NULL, L_15, L_16, /*hidden argument*/NULL);
 		U3CU3Ec__DisplayClass28_t1896 * L_18 = V_2;
 		IntPtr_t L_19 = { (void*)U3CU3Ec__DisplayClass28_U3CLogInWithAsyncU3Eb__26_m8646_MethodInfo_var };
 		Func_2_t2107 * L_20 = (Func_2_t2107 *)il2cpp_codegen_object_new (Func_2_t2107_il2cpp_TypeInfo_var);
@@ -38866,10 +38866,10 @@ extern "C" void ParseUser__cctor_m8708 (Object_t * __this /* static, unused */, 
 		V_0 = L_2;
 		HashSet_1_t1873 * L_3 = V_0;
 		NullCheck(L_3);
-		HashSet_1_Add_m9245(L_3, (String_t*) &_stringLiteral1936, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_3, (String_t*) &_stringLiteral1941, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_4 = V_0;
 		NullCheck(L_4);
-		HashSet_1_Add_m9245(L_4, (String_t*) &_stringLiteral1957, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
+		HashSet_1_Add_m9245(L_4, (String_t*) &_stringLiteral1962, /*hidden argument*/HashSet_1_Add_m9245_MethodInfo_var);
 		HashSet_1_t1873 * L_5 = V_0;
 		((ParseUser_t803_StaticFields*)ParseUser_t803_il2cpp_TypeInfo_var->static_fields)->___readOnlyKeys_33 = L_5;
 		Object_t * L_6 = (Object_t *)il2cpp_codegen_object_new (Object_t_il2cpp_TypeInfo_var);
@@ -39031,7 +39031,7 @@ extern "C" String_t* SettingsWrapper_Load_m8711 (SettingsWrapper_t1900 * __this,
 	}
 	{
 		InvalidOperationException_t1668 * L_1 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_1, (String_t*) &_stringLiteral1961, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_1, (String_t*) &_stringLiteral1966, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -39057,7 +39057,7 @@ IL_001a:
 
 IL_0021:
 			{
-				String_t* L_3 = PlayerPrefs_GetString_m3488(NULL /*static, unused*/, (String_t*) &_stringLiteral1970, (String_t*)NULL, /*hidden argument*/NULL);
+				String_t* L_3 = PlayerPrefs_GetString_m3488(NULL /*static, unused*/, (String_t*) &_stringLiteral1975, (String_t*)NULL, /*hidden argument*/NULL);
 				V_2 = L_3;
 				IL2CPP_LEAVE(0x62, FINALLY_005b);
 			}
@@ -39195,7 +39195,7 @@ extern "C" void SettingsWrapper_Save_m8712 (SettingsWrapper_t1900 * __this, cons
 	}
 	{
 		InvalidOperationException_t1668 * L_1 = (InvalidOperationException_t1668 *)il2cpp_codegen_object_new (InvalidOperationException_t1668_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m8910(L_1, (String_t*) &_stringLiteral1961, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m8910(L_1, (String_t*) &_stringLiteral1966, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -39222,7 +39222,7 @@ IL_0021:
 			Object_t* L_3 = (__this->___data_0);
 			IL2CPP_RUNTIME_CLASS_INIT(ParseClient_t1817_il2cpp_TypeInfo_var);
 			String_t* L_4 = ParseClient_SerializeJsonString_m8288(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
-			PlayerPrefs_SetString_m2907(NULL /*static, unused*/, (String_t*) &_stringLiteral1970, L_4, /*hidden argument*/NULL);
+			PlayerPrefs_SetString_m2907(NULL /*static, unused*/, (String_t*) &_stringLiteral1975, L_4, /*hidden argument*/NULL);
 			PlayerPrefs_Save_m9312(NULL /*static, unused*/, /*hidden argument*/NULL);
 			goto IL_007a;
 		}
@@ -40299,7 +40299,7 @@ IL_007b:
 		NullCheck(L_23);
 		String_t* L_24 = WWW_get_error_m9317(L_23, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1976, L_24, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1981, L_24, /*hidden argument*/NULL);
 		V_2 = L_25;
 		U3CU3Ec__DisplayClass38_t1906 * L_26 = (__this->___CSU24U3CU3E8__locals39_0);
 		NullCheck(L_26);
@@ -40546,18 +40546,18 @@ extern "C" void U3CU3Ec__DisplayClass3a_U3CRequestAsyncU3Eb__2d_m8746 (U3CU3Ec__
 		NullCheck(L_4);
 		String_t* L_5 = (L_4->___method_5);
 		NullCheck(L_3);
-		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral1977, L_5);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_3, (String_t*) &_stringLiteral1982, L_5);
 		Object_t* L_6 = V_0;
 		bool L_7 = (__this->___noBody_1);
 		bool L_8 = L_7;
 		Object_t * L_9 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_8);
 		NullCheck(L_6);
-		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1978, L_9);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t1810_il2cpp_TypeInfo_var, L_6, (String_t*) &_stringLiteral1983, L_9);
 		U3CU3Ec__DisplayClass38_t1906 * L_10 = (__this->___CSU24U3CU3E8__locals39_0);
 		NullCheck(L_10);
 		Hashtable_t1909 * L_11 = (L_10->___headerTable_2);
 		NullCheck(L_11);
-		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(24 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_11, (String_t*) &_stringLiteral1571, (String_t*) &_stringLiteral1570);
+		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(24 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_11, (String_t*) &_stringLiteral1576, (String_t*) &_stringLiteral1575);
 		U3CU3Ec__DisplayClass38_t1906 * L_12 = (__this->___CSU24U3CU3E8__locals39_0);
 		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t680_il2cpp_TypeInfo_var);
 		Encoding_t680 * L_13 = Encoding_get_UTF8_m9059(NULL /*static, unused*/, /*hidden argument*/NULL);

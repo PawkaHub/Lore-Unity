@@ -3772,7 +3772,7 @@ extern "C" String_t* LayoutRebuilder_ToString_m5145 (LayoutRebuilder_t1212 * __t
 	{
 		RectTransform_t259 * L_0 = (__this->___m_ToRebuild_0);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral954, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = String_Concat_m92(NULL /*static, unused*/, (String_t*) &_stringLiteral959, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -5128,7 +5128,7 @@ IL_0013:
 		NullCheck(L_5);
 		String_t* L_6 = Object_get_name_m2656(L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral955, L_6, (String_t*) &_stringLiteral781, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m103(NULL /*static, unused*/, (String_t*) &_stringLiteral960, L_6, (String_t*) &_stringLiteral781, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		Object_set_name_m2708(L_4, L_7, /*hidden argument*/NULL);
 		Material_t48 * L_8 = V_0;
@@ -5138,7 +5138,7 @@ IL_0013:
 		__this->___m_RenderMaterial_3 = L_9;
 		Material_t48 * L_10 = (__this->___m_RenderMaterial_3);
 		NullCheck(L_10);
-		bool L_11 = Material_HasProperty_m5448(L_10, (String_t*) &_stringLiteral956, /*hidden argument*/NULL);
+		bool L_11 = Material_HasProperty_m5448(L_10, (String_t*) &_stringLiteral961, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_0081;
@@ -5147,11 +5147,11 @@ IL_0013:
 	{
 		Material_t48 * L_12 = (__this->___m_RenderMaterial_3);
 		bool L_13 = (__this->___m_ShowMaskGraphic_2);
-		G_B4_0 = (String_t*) &_stringLiteral956;
+		G_B4_0 = (String_t*) &_stringLiteral961;
 		G_B4_1 = L_12;
 		if (!L_13)
 		{
-			G_B5_0 = (String_t*) &_stringLiteral956;
+			G_B5_0 = (String_t*) &_stringLiteral961;
 			G_B5_1 = L_12;
 			goto IL_0076;
 		}
@@ -5181,7 +5181,7 @@ IL_0081:
 	{
 		Material_t48 * L_14 = ___baseMaterial;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Concat_m3091(NULL /*static, unused*/, (String_t*) &_stringLiteral949, L_14, (String_t*) &_stringLiteral957, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m3091(NULL /*static, unused*/, (String_t*) &_stringLiteral954, L_14, (String_t*) &_stringLiteral962, /*hidden argument*/NULL);
 		Material_t48 * L_16 = ___baseMaterial;
 		Debug_LogWarning_m3028(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
 	}

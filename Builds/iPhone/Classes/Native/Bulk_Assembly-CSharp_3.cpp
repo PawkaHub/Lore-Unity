@@ -12538,13 +12538,14 @@ extern "C" void MobileInputField_OnDisable_m2414 (MobileInputField_t578 * __this
 		s_Il2CppMethodIntialized = true;
 	}
 	{
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral841, /*hidden argument*/NULL);
 		__this->___m_BlinkCoroutine_50 = (Coroutine_t589 *)NULL;
 		MobileInputField_DeactivateInputField_m2479(__this, /*hidden argument*/NULL);
 		Text_t212 * L_0 = (__this->___m_TextComponent_21);
 		bool L_1 = Object_op_Inequality_m2591(NULL /*static, unused*/, L_0, (Object_t642 *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
-			goto IL_004c;
+			goto IL_0056;
 		}
 	}
 	{
@@ -12562,7 +12563,7 @@ extern "C" void MobileInputField_OnDisable_m2414 (MobileInputField_t578 * __this
 		Graphic_UnregisterDirtyVerticesCallback_m3657(L_5, L_7, /*hidden argument*/NULL);
 	}
 
-IL_004c:
+IL_0056:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(CanvasUpdateRegistry_t794_il2cpp_TypeInfo_var);
 		CanvasUpdateRegistry_UnRegisterCanvasElementForRebuild_m3658(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
@@ -12570,7 +12571,7 @@ IL_004c:
 		bool L_9 = Object_op_Implicit_m2587(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
-			goto IL_006f;
+			goto IL_0079;
 		}
 	}
 	{
@@ -12579,7 +12580,7 @@ IL_004c:
 		CanvasRenderer_SetVertices_m3659(L_10, (UIVertexU5BU5D_t584*)(UIVertexU5BU5D_t584*)NULL, 0, /*hidden argument*/NULL);
 	}
 
-IL_006f:
+IL_0079:
 	{
 		Selectable_OnDisable_m3660(__this, /*hidden argument*/NULL);
 		return;
@@ -13161,29 +13162,30 @@ IL_01f7:
 		bool L_65 = TouchScreenKeyboard_get_done_m3668(L_64, /*hidden argument*/NULL);
 		if (!L_65)
 		{
-			goto IL_0223;
+			goto IL_022d;
 		}
 	}
 	{
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral842, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(MobileInputField_t578_il2cpp_TypeInfo_var);
 		TouchScreenKeyboard_t582 * L_66 = ((MobileInputField_t578_StaticFields*)MobileInputField_t578_il2cpp_TypeInfo_var->static_fields)->___m_Keyboard_19;
 		NullCheck(L_66);
 		bool L_67 = TouchScreenKeyboard_get_wasCanceled_m3667(L_66, /*hidden argument*/NULL);
 		if (!L_67)
 		{
-			goto IL_021c;
+			goto IL_0226;
 		}
 	}
 	{
 		__this->___m_WasCanceled_56 = 1;
 	}
 
-IL_021c:
+IL_0226:
 	{
 		VirtActionInvoker1< BaseEventData_t637 * >::Invoke(36 /* System.Void UnityEngine.UI.MobileInputField::OnDeselect(UnityEngine.EventSystems.BaseEventData) */, __this, (BaseEventData_t637 *)NULL);
 	}
 
-IL_0223:
+IL_022d:
 	{
 		return;
 	}
@@ -14416,30 +14418,31 @@ extern "C" void MobileInputField_OnUpdateSelected_m2438 (MobileInputField_t578 *
 	bool V_0 = false;
 	int32_t V_1 = {0};
 	{
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral843, /*hidden argument*/NULL);
 		bool L_0 = MobileInputField_get_isFocused_m2370(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
-			goto IL_000c;
+			goto IL_0016;
 		}
 	}
 	{
 		return;
 	}
 
-IL_000c:
+IL_0016:
 	{
 		V_0 = 0;
-		goto IL_0045;
+		goto IL_004f;
 	}
 
-IL_0013:
+IL_001d:
 	{
 		Event_t590 * L_1 = (__this->___m_ProcessingEvent_58);
 		NullCheck(L_1);
 		int32_t L_2 = Event_get_rawType_m3686(L_1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)4))))
 		{
-			goto IL_0045;
+			goto IL_004f;
 		}
 	}
 	{
@@ -14450,37 +14453,37 @@ IL_0013:
 		int32_t L_5 = V_1;
 		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
 		{
-			goto IL_0045;
+			goto IL_004f;
 		}
 	}
 	{
 		MobileInputField_DeactivateInputField_m2479(__this, /*hidden argument*/NULL);
-		goto IL_0055;
+		goto IL_005f;
 	}
 
-IL_0045:
+IL_004f:
 	{
 		Event_t590 * L_6 = (__this->___m_ProcessingEvent_58);
 		bool L_7 = Event_PopEvent_m3687(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		if (L_7)
 		{
-			goto IL_0013;
+			goto IL_001d;
 		}
 	}
 
-IL_0055:
+IL_005f:
 	{
 		bool L_8 = V_0;
 		if (!L_8)
 		{
-			goto IL_0061;
+			goto IL_006b;
 		}
 	}
 	{
 		MobileInputField_UpdateLabel_m2460(__this, /*hidden argument*/NULL);
 	}
 
-IL_0061:
+IL_006b:
 	{
 		BaseEventData_t637 * L_9 = ___eventData;
 		NullCheck(L_9);
@@ -15700,10 +15703,11 @@ extern "C" void MobileInputField_SendOnSubmit_m2457 (MobileInputField_t578 * __t
 		s_Il2CppMethodIntialized = true;
 	}
 	{
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral844, /*hidden argument*/NULL);
 		SubmitEvent_t573 * L_0 = MobileInputField_get_onEndEdit_m2379(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
-			goto IL_001c;
+			goto IL_0026;
 		}
 	}
 	{
@@ -15713,7 +15717,7 @@ extern "C" void MobileInputField_SendOnSubmit_m2457 (MobileInputField_t578 * __t
 		UnityEvent_1_Invoke_m3693(L_1, L_2, /*hidden argument*/UnityEvent_1_Invoke_m3693_MethodInfo_var);
 	}
 
-IL_001c:
+IL_0026:
 	{
 		return;
 	}
@@ -16729,7 +16733,7 @@ IL_000c:
 		NullCheck(L_5);
 		String_t* L_6 = Object_get_name_m2656(L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral841, /*hidden argument*/NULL);
+		String_t* L_7 = String_Concat_m105(NULL /*static, unused*/, L_6, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
 		GameObject_t49 * L_8 = (GameObject_t49 *)il2cpp_codegen_object_new (GameObject_t49_il2cpp_TypeInfo_var);
 		GameObject__ctor_m2680(L_8, L_7, /*hidden argument*/NULL);
 		V_0 = L_8;
@@ -18476,8 +18480,8 @@ IL_023c:
 IL_0254:
 	{
 		uint16_t L_90 = ___ch;
-		NullCheck((String_t*) &_stringLiteral842);
-		int32_t L_91 = String_IndexOf_m3553((String_t*) &_stringLiteral842, L_90, /*hidden argument*/NULL);
+		NullCheck((String_t*) &_stringLiteral846);
+		int32_t L_91 = String_IndexOf_m3553((String_t*) &_stringLiteral846, L_90, /*hidden argument*/NULL);
 		if ((((int32_t)L_91) == ((int32_t)(-1))))
 		{
 			goto IL_0267;
@@ -18825,7 +18829,7 @@ extern "C" void MobileInputField_DeactivateInputField_m2479 (MobileInputField_t5
 	}
 	int32_t V_0 = 0;
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral843, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral847, /*hidden argument*/NULL);
 		bool L_0 = (__this->___m_AllowInput_45);
 		if (L_0)
 		{
@@ -18914,40 +18918,40 @@ extern "C" void MobileInputField_OnDeselect_m2480 (MobileInputField_t578 * __thi
 extern "C" void MobileInputField_OnSubmit_m2481 (MobileInputField_t578 * __this, BaseEventData_t637 * ___eventData, const MethodInfo* method)
 {
 	{
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral848, /*hidden argument*/NULL);
 		bool L_0 = (bool)VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.EventSystems.UIBehaviour::IsActive() */, __this);
 		if (!L_0)
 		{
-			goto IL_0016;
+			goto IL_0020;
 		}
 	}
 	{
 		bool L_1 = (bool)VirtFuncInvoker0< bool >::Invoke(23 /* System.Boolean UnityEngine.UI.Selectable::IsInteractable() */, __this);
 		if (L_1)
 		{
-			goto IL_0017;
+			goto IL_0021;
 		}
 	}
 
-IL_0016:
+IL_0020:
 	{
 		return;
 	}
 
-IL_0017:
+IL_0021:
 	{
 		bool L_2 = MobileInputField_get_isFocused_m2370(__this, /*hidden argument*/NULL);
 		if (L_2)
 		{
-			goto IL_0029;
+			goto IL_0033;
 		}
 	}
 	{
 		__this->___m_ShouldActivateNextUpdate_46 = 1;
 	}
 
-IL_0029:
+IL_0033:
 	{
-		MobileInputField_DeactivateInputField_m2479(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19360,20 +19364,20 @@ extern "C" void SequencerCommandCreateUser_Start_m2490 (SequencerCommandCreateUs
 		bool L_0 = 1;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
-		Result_t641  L_2 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral845, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
+		Result_t641  L_2 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral850, /*hidden argument*/NULL);
 		V_1 = L_2;
 		String_t* L_3 = Result_get_AsString_m3093((&V_1), /*hidden argument*/NULL);
 		__this->___username_7 = L_3;
-		Result_t641  L_4 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral846, /*hidden argument*/NULL);
+		Result_t641  L_4 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral851, /*hidden argument*/NULL);
 		V_2 = L_4;
 		String_t* L_5 = Result_get_AsString_m3093((&V_2), /*hidden argument*/NULL);
 		__this->___email_8 = L_5;
-		Result_t641  L_6 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral847, /*hidden argument*/NULL);
+		Result_t641  L_6 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral852, /*hidden argument*/NULL);
 		V_3 = L_6;
 		String_t* L_7 = Result_get_AsString_m3093((&V_3), /*hidden argument*/NULL);
 		__this->___password_9 = L_7;
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral848, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral853, /*hidden argument*/NULL);
 		String_t* L_8 = (__this->___username_7);
 		Debug_Log_m90(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		String_t* L_9 = (__this->___email_8);
@@ -19401,7 +19405,7 @@ extern "C" void SequencerCommandCreateUser_Start_m2490 (SequencerCommandCreateUs
 		ParseUser_t803 * L_19 = V_0;
 		String_t* L_20 = (__this->___username_7);
 		NullCheck(L_19);
-		VirtActionInvoker2< String_t*, Object_t * >::Invoke(15 /* System.Void Parse.ParseObject::set_Item(System.String,System.Object) */, L_19, (String_t*) &_stringLiteral849, L_20);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(15 /* System.Void Parse.ParseObject::set_Item(System.String,System.Object) */, L_19, (String_t*) &_stringLiteral854, L_20);
 		ParseUser_t803 * L_21 = V_0;
 		NullCheck(L_21);
 		Task_t344 * L_22 = ParseUser_SignUpAsync_m3746(L_21, /*hidden argument*/NULL);
@@ -19463,22 +19467,22 @@ IL_0027:
 
 IL_002c:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral850, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral855, /*hidden argument*/NULL);
 		bool L_2 = 1;
 		Object_t * L_3 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral851, L_3, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral856, L_3, /*hidden argument*/NULL);
 		SequencerCommand_Stop_m2946(__this, /*hidden argument*/NULL);
 		goto IL_0076;
 	}
 
 IL_0051:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral852, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral857, /*hidden argument*/NULL);
 		bool L_4 = 0;
 		Object_t * L_5 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral851, L_5, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral856, L_5, /*hidden argument*/NULL);
 		SequencerCommand_Stop_m2946(__this, /*hidden argument*/NULL);
 		goto IL_0076;
 	}
@@ -19504,7 +19508,7 @@ extern "C" void SequencerCommandCreateUser_OnDestroy_m2492 (SequencerCommandCrea
 		bool L_0 = 0;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -19542,7 +19546,7 @@ extern "C" void SequencerCommandCreateUser_U3CStartU3Em__3A_m2493 (SequencerComm
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral853, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral858, /*hidden argument*/NULL);
 		Task_t344 * L_2 = ___t;
 		NullCheck(L_2);
 		AggregateException_t727 * L_3 = Task_get_Exception_m3243(L_2, /*hidden argument*/NULL);
@@ -19572,7 +19576,7 @@ IL_0031:
 			NullCheck(L_8);
 			Exception_t496 * L_9 = (Exception_t496 *)InterfaceFuncInvoker0< Exception_t496 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.Exception>::get_Current() */, IEnumerator_1_t805_il2cpp_TypeInfo_var, L_8);
 			V_1 = ((ParseException_t804 *)Castclass(L_9, ParseException_t804_il2cpp_TypeInfo_var));
-			Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral854, /*hidden argument*/NULL);
+			Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral859, /*hidden argument*/NULL);
 			ParseException_t804 * L_10 = V_1;
 			NullCheck(L_10);
 			String_t* L_11 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_10);
@@ -19626,7 +19630,7 @@ IL_0064:
 
 IL_0070:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral855, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral860, /*hidden argument*/NULL);
 		__this->___state_6 = 2;
 	}
 
@@ -19671,9 +19675,9 @@ IL_0081:
 extern "C" void SequencerCommandFindUser__ctor_m2494 (SequencerCommandFindUser_t597 * __this, const MethodInfo* method)
 {
 	{
-		__this->___forgotValue_9 = (String_t*) &_stringLiteral856;
-		__this->___loginValue_10 = (String_t*) &_stringLiteral857;
-		__this->___signupValue_11 = (String_t*) &_stringLiteral846;
+		__this->___forgotValue_9 = (String_t*) &_stringLiteral861;
+		__this->___loginValue_10 = (String_t*) &_stringLiteral862;
+		__this->___signupValue_11 = (String_t*) &_stringLiteral851;
 		SequencerCommand__ctor_m2936(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -19713,7 +19717,7 @@ extern "C" void SequencerCommandFindUser_Start_m2495 (SequencerCommandFindUser_t
 		bool L_0 = 1;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
 		String_t* L_2 = SequencerCommand_GetParameter_m2937(__this, 0, (String_t*)NULL, /*hidden argument*/NULL);
 		__this->___value_6 = L_2;
 		String_t* L_3 = (__this->___value_6);
@@ -19723,7 +19727,7 @@ extern "C" void SequencerCommandFindUser_Start_m2495 (SequencerCommandFindUser_t
 		V_2 = L_5;
 		String_t* L_6 = Result_get_AsString_m3093((&V_2), /*hidden argument*/NULL);
 		V_0 = L_6;
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral858, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral863, /*hidden argument*/NULL);
 		String_t* L_7 = V_0;
 		Debug_Log_m90(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		String_t* L_8 = (__this->___forgotValue_9);
@@ -19740,7 +19744,7 @@ extern "C" void SequencerCommandFindUser_Start_m2495 (SequencerCommandFindUser_t
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral859, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral864, /*hidden argument*/NULL);
 		__this->___isForgot_12 = 1;
 	}
 
@@ -19756,7 +19760,7 @@ IL_008a:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral860, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral865, /*hidden argument*/NULL);
 		__this->___isLogin_13 = 1;
 	}
 
@@ -19772,7 +19776,7 @@ IL_00b1:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral861, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral866, /*hidden argument*/NULL);
 		__this->___isSignup_14 = 1;
 	}
 
@@ -19782,7 +19786,7 @@ IL_00d8:
 		ParseQuery_1_t806 * L_19 = ParseUser_get_Query_m3747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_20 = V_0;
 		NullCheck(L_19);
-		ParseQuery_1_t806 * L_21 = ParseQuery_1_WhereEqualTo_m3748(L_19, (String_t*) &_stringLiteral862, L_20, /*hidden argument*/ParseQuery_1_WhereEqualTo_m3748_MethodInfo_var);
+		ParseQuery_1_t806 * L_21 = ParseQuery_1_WhereEqualTo_m3748(L_19, (String_t*) &_stringLiteral867, L_20, /*hidden argument*/ParseQuery_1_WhereEqualTo_m3748_MethodInfo_var);
 		V_1 = L_21;
 		__this->___state_7 = 1;
 		ParseQuery_1_t806 * L_22 = V_1;
@@ -19846,7 +19850,7 @@ IL_0027:
 
 IL_002c:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral850, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral855, /*hidden argument*/NULL);
 		String_t* L_2 = (__this->___value_6);
 		Debug_Log_m90(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		bool L_3 = (__this->___isForgot_12);
@@ -19856,11 +19860,11 @@ IL_002c:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral863, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral868, /*hidden argument*/NULL);
 		bool L_4 = 1;
 		Object_t * L_5 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral864, L_5, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral869, L_5, /*hidden argument*/NULL);
 	}
 
 IL_0066:
@@ -19872,11 +19876,11 @@ IL_0066:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral865, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral870, /*hidden argument*/NULL);
 		bool L_7 = 1;
 		Object_t * L_8 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral866, L_8, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral871, L_8, /*hidden argument*/NULL);
 	}
 
 IL_008b:
@@ -19888,11 +19892,11 @@ IL_008b:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral867, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral872, /*hidden argument*/NULL);
 		bool L_10 = 1;
 		Object_t * L_11 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_10);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral868, L_11, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral873, L_11, /*hidden argument*/NULL);
 	}
 
 IL_00b0:
@@ -19903,7 +19907,7 @@ IL_00b0:
 
 IL_00bb:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral852, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral857, /*hidden argument*/NULL);
 		String_t* L_12 = (__this->___value_6);
 		Debug_Log_m90(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 		bool L_13 = (__this->___isForgot_12);
@@ -19913,11 +19917,11 @@ IL_00bb:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral863, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral868, /*hidden argument*/NULL);
 		bool L_14 = 0;
 		Object_t * L_15 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_14);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral864, L_15, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral869, L_15, /*hidden argument*/NULL);
 	}
 
 IL_00f5:
@@ -19929,11 +19933,11 @@ IL_00f5:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral865, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral870, /*hidden argument*/NULL);
 		bool L_17 = 0;
 		Object_t * L_18 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_17);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral866, L_18, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral871, L_18, /*hidden argument*/NULL);
 	}
 
 IL_011a:
@@ -19945,11 +19949,11 @@ IL_011a:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral867, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral872, /*hidden argument*/NULL);
 		bool L_20 = 0;
 		Object_t * L_21 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_20);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral868, L_21, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral873, L_21, /*hidden argument*/NULL);
 	}
 
 IL_013f:
@@ -19979,7 +19983,7 @@ extern "C" void SequencerCommandFindUser_OnDestroy_m2497 (SequencerCommandFindUs
 		bool L_0 = 0;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20005,14 +20009,14 @@ extern "C" void SequencerCommandFindUser_U3CStartU3Em__3B_m2498 (SequencerComman
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral869, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral874, /*hidden argument*/NULL);
 		__this->___state_7 = 3;
 		goto IL_0088;
 	}
 
 IL_0021:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral870, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral875, /*hidden argument*/NULL);
 		__this->___state_7 = 2;
 		Task_1_t639 * L_2 = ___t;
 		NullCheck(L_2);
@@ -20027,9 +20031,9 @@ IL_0021:
 	{
 		ParseObject_t596 * L_5 = (__this->___user_8);
 		NullCheck(L_5);
-		Object_t * L_6 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(14 /* System.Object Parse.ParseObject::get_Item(System.String) */, L_5, (String_t*) &_stringLiteral849);
+		Object_t * L_6 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(14 /* System.Object Parse.ParseObject::get_Item(System.String) */, L_5, (String_t*) &_stringLiteral854);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral871, L_6, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral876, L_6, /*hidden argument*/NULL);
 	}
 
 IL_0063:
@@ -20043,9 +20047,9 @@ IL_0063:
 	{
 		ParseObject_t596 * L_8 = (__this->___user_8);
 		NullCheck(L_8);
-		Object_t * L_9 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(14 /* System.Object Parse.ParseObject::get_Item(System.String) */, L_8, (String_t*) &_stringLiteral849);
+		Object_t * L_9 = (Object_t *)VirtFuncInvoker1< Object_t *, String_t* >::Invoke(14 /* System.Object Parse.ParseObject::get_Item(System.String) */, L_8, (String_t*) &_stringLiteral854);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral872, L_9, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral877, L_9, /*hidden argument*/NULL);
 	}
 
 IL_0088:
@@ -20206,16 +20210,16 @@ extern "C" void SequencerCommandLoginUser_Start_m2504 (SequencerCommandLoginUser
 		bool L_0 = 1;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
-		Result_t641  L_2 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral857, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
+		Result_t641  L_2 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral862, /*hidden argument*/NULL);
 		V_0 = L_2;
 		String_t* L_3 = Result_get_AsString_m3093((&V_0), /*hidden argument*/NULL);
 		__this->___email_7 = L_3;
-		Result_t641  L_4 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral873, /*hidden argument*/NULL);
+		Result_t641  L_4 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral878, /*hidden argument*/NULL);
 		V_1 = L_4;
 		String_t* L_5 = Result_get_AsString_m3093((&V_1), /*hidden argument*/NULL);
 		__this->___password_8 = L_5;
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral874, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral879, /*hidden argument*/NULL);
 		String_t* L_6 = (__this->___email_7);
 		Debug_Log_m90(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		String_t* L_7 = (__this->___password_8);
@@ -20307,22 +20311,22 @@ IL_0027:
 
 IL_002c:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral850, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral855, /*hidden argument*/NULL);
 		bool L_2 = 1;
 		Object_t * L_3 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral875, L_3, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral880, L_3, /*hidden argument*/NULL);
 		SequencerCommand_Stop_m2946(__this, /*hidden argument*/NULL);
 		goto IL_0076;
 	}
 
 IL_0051:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral852, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral857, /*hidden argument*/NULL);
 		bool L_4 = 0;
 		Object_t * L_5 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral875, L_5, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral880, L_5, /*hidden argument*/NULL);
 		SequencerCommand_Stop_m2946(__this, /*hidden argument*/NULL);
 		goto IL_0076;
 	}
@@ -20348,7 +20352,7 @@ extern "C" void SequencerCommandLoginUser_OnDestroy_m2506 (SequencerCommandLogin
 		bool L_0 = 0;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20365,14 +20369,14 @@ extern "C" void SequencerCommandLoginUser_U3CStartU3Em__3C_m2507 (SequencerComma
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral876, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral881, /*hidden argument*/NULL);
 		__this->___state_6 = 3;
 		goto IL_0032;
 	}
 
 IL_0021:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral877, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral882, /*hidden argument*/NULL);
 		__this->___state_6 = 2;
 	}
 
@@ -20427,8 +20431,8 @@ extern "C" void SequencerCommandLogoutUser_Start_m2509 (SequencerCommandLogoutUs
 		bool L_0 = 1;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral878, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral883, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseUser_t803_il2cpp_TypeInfo_var);
 		ParseUser_LogOut_m3754(NULL /*static, unused*/, /*hidden argument*/NULL);
 		SequencerCommand_Stop_m2946(__this, /*hidden argument*/NULL);
@@ -20476,14 +20480,14 @@ IL_0027:
 
 IL_002c:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral850, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral855, /*hidden argument*/NULL);
 		SequencerCommand_Stop_m2946(__this, /*hidden argument*/NULL);
 		goto IL_0056;
 	}
 
 IL_0041:
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral852, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral857, /*hidden argument*/NULL);
 		SequencerCommand_Stop_m2946(__this, /*hidden argument*/NULL);
 		goto IL_0056;
 	}
@@ -20509,7 +20513,7 @@ extern "C" void SequencerCommandLogoutUser_OnDestroy_m2511 (SequencerCommandLogo
 		bool L_0 = 0;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20547,7 +20551,7 @@ extern "C" void SequencerCommandResetPassword_Start_m2513 (SequencerCommandReset
 	Task_t344 * V_1 = {0};
 	Result_t641  V_2 = {0};
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral879, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral884, /*hidden argument*/NULL);
 		String_t* L_0 = SequencerCommand_GetParameter_m2937(__this, 0, (String_t*)NULL, /*hidden argument*/NULL);
 		__this->___value_6 = L_0;
 		String_t* L_1 = (__this->___value_6);
@@ -20642,7 +20646,7 @@ extern "C" void SequencerCommandSendEmail_SendEmail_m2520 (SequencerCommandSendE
 	String_t* V_1 = {0};
 	String_t* V_2 = {0};
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral880, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral885, /*hidden argument*/NULL);
 		String_t* L_0 = ___variableName;
 		if (L_0)
 		{
@@ -20657,15 +20661,15 @@ IL_0011:
 	{
 		String_t* L_1 = ___variableName;
 		V_0 = L_1;
-		String_t* L_2 = SequencerCommandSendEmail_MyEscapeURL_m2521(__this, (String_t*) &_stringLiteral881, /*hidden argument*/NULL);
+		String_t* L_2 = SequencerCommandSendEmail_MyEscapeURL_m2521(__this, (String_t*) &_stringLiteral886, /*hidden argument*/NULL);
 		V_1 = L_2;
-		String_t* L_3 = SequencerCommandSendEmail_MyEscapeURL_m2521(__this, (String_t*) &_stringLiteral882, /*hidden argument*/NULL);
+		String_t* L_3 = SequencerCommandSendEmail_MyEscapeURL_m2521(__this, (String_t*) &_stringLiteral887, /*hidden argument*/NULL);
 		V_2 = L_3;
 		StringU5BU5D_t20* L_4 = ((StringU5BU5D_t20*)SZArrayNew(StringU5BU5D_t20_il2cpp_TypeInfo_var, 6));
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
-		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral883);
-		*((String_t**)(String_t**)SZArrayLdElema(L_4, 0)) = (String_t*)(String_t*) &_stringLiteral883;
+		ArrayElementTypeCheck (L_4, (String_t*) &_stringLiteral888);
+		*((String_t**)(String_t**)SZArrayLdElema(L_4, 0)) = (String_t*)(String_t*) &_stringLiteral888;
 		StringU5BU5D_t20* L_5 = L_4;
 		String_t* L_6 = V_0;
 		NullCheck(L_5);
@@ -20675,8 +20679,8 @@ IL_0011:
 		StringU5BU5D_t20* L_7 = L_5;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 2);
-		ArrayElementTypeCheck (L_7, (String_t*) &_stringLiteral884);
-		*((String_t**)(String_t**)SZArrayLdElema(L_7, 2)) = (String_t*)(String_t*) &_stringLiteral884;
+		ArrayElementTypeCheck (L_7, (String_t*) &_stringLiteral889);
+		*((String_t**)(String_t**)SZArrayLdElema(L_7, 2)) = (String_t*)(String_t*) &_stringLiteral889;
 		StringU5BU5D_t20* L_8 = L_7;
 		String_t* L_9 = V_1;
 		NullCheck(L_8);
@@ -20686,8 +20690,8 @@ IL_0011:
 		StringU5BU5D_t20* L_10 = L_8;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 4);
-		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral885);
-		*((String_t**)(String_t**)SZArrayLdElema(L_10, 4)) = (String_t*)(String_t*) &_stringLiteral885;
+		ArrayElementTypeCheck (L_10, (String_t*) &_stringLiteral890);
+		*((String_t**)(String_t**)SZArrayLdElema(L_10, 4)) = (String_t*)(String_t*) &_stringLiteral890;
 		StringU5BU5D_t20* L_11 = L_10;
 		String_t* L_12 = V_2;
 		NullCheck(L_11);
@@ -20707,7 +20711,7 @@ extern "C" String_t* SequencerCommandSendEmail_MyEscapeURL_m2521 (SequencerComma
 		String_t* L_0 = ___url;
 		String_t* L_1 = WWW_EscapeURL_m3756(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		String_t* L_2 = String_Replace_m3757(L_1, (String_t*) &_stringLiteral886, (String_t*) &_stringLiteral887, /*hidden argument*/NULL);
+		String_t* L_2 = String_Replace_m3757(L_1, (String_t*) &_stringLiteral891, (String_t*) &_stringLiteral892, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -20790,7 +20794,7 @@ extern "C" void SequencerCommandShowTextField_Start_m2523 (SequencerCommandShowT
 		bool L_0 = 1;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
 		Transform_t54 * L_2 = SequencerCommand_GetSubject_m3758(__this, 0, (Transform_t54 *)NULL, /*hidden argument*/NULL);
 		V_0 = L_2;
 		Transform_t54 * L_3 = V_0;
@@ -20853,7 +20857,7 @@ IL_0070:
 		V_3 = L_19;
 		String_t* L_20 = SequencerCommand_GetParameter_m2937(__this, 4, (String_t*)NULL, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_21 = String_Equals_m3001(NULL /*static, unused*/, L_20, (String_t*) &_stringLiteral888, /*hidden argument*/NULL);
+		bool L_21 = String_Equals_m3001(NULL /*static, unused*/, L_20, (String_t*) &_stringLiteral893, /*hidden argument*/NULL);
 		V_4 = L_21;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueDebug_t681_il2cpp_TypeInfo_var);
 		bool L_22 = DialogueDebug_get_LogInfo_m2941(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -20897,7 +20901,7 @@ IL_0070:
 		ArrayElementTypeCheck (L_31, L_34);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_31, 4)) = (Object_t *)L_34;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_35 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral889, L_31, /*hidden argument*/NULL);
+		String_t* L_35 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral894, L_31, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
 	}
 
@@ -20912,7 +20916,7 @@ IL_00ea:
 	{
 		String_t* L_37 = V_2;
 		NullCheck(L_37);
-		bool L_38 = String_StartsWith_m3455(L_37, (String_t*) &_stringLiteral890, /*hidden argument*/NULL);
+		bool L_38 = String_StartsWith_m3455(L_37, (String_t*) &_stringLiteral895, /*hidden argument*/NULL);
 		if (!L_38)
 		{
 			goto IL_011b;
@@ -20991,7 +20995,7 @@ IL_0162:
 		ArrayElementTypeCheck (L_56, L_57);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_56, 1)) = (Object_t *)L_57;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_58 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral891, L_56, /*hidden argument*/NULL);
+		String_t* L_58 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral896, L_56, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_58, /*hidden argument*/NULL);
 	}
 
@@ -21044,7 +21048,7 @@ extern "C" void SequencerCommandShowTextField_OnAcceptedText_m2524 (SequencerCom
 		ArrayElementTypeCheck (L_3, L_5);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1)) = (Object_t *)L_5;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral892, L_3, /*hidden argument*/NULL);
+		String_t* L_6 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral897, L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lua_t674_il2cpp_TypeInfo_var);
 		Lua_Run_m3764(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 	}
@@ -21095,7 +21099,7 @@ IL_0021:
 		bool L_3 = 0;
 		Object_t * L_4 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_3);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_4, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -21223,7 +21227,7 @@ extern "C" void SmartContinueButton_OnFastForward_m2528 (SmartContinueButton_t60
 IL_0031:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_5 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral844, /*hidden argument*/NULL);
+		Result_t641  L_5 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral849, /*hidden argument*/NULL);
 		V_1 = L_5;
 		bool L_6 = Result_get_AsBool_m3140((&V_1), /*hidden argument*/NULL);
 		V_0 = L_6;
@@ -21457,14 +21461,14 @@ extern "C" void SmartTextField_Update_m2534 (SmartTextField_t608 * __this, const
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t643_il2cpp_TypeInfo_var);
-		bool L_3 = Input_GetButtonDown_m3105(NULL /*static, unused*/, (String_t*) &_stringLiteral893, /*hidden argument*/NULL);
+		bool L_3 = Input_GetButtonDown_m3105(NULL /*static, unused*/, (String_t*) &_stringLiteral898, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0034;
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral894, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral899, /*hidden argument*/NULL);
 	}
 
 IL_0034:
@@ -21477,7 +21481,7 @@ IL_0034:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral895, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral900, /*hidden argument*/NULL);
 	}
 
 IL_004a:
@@ -21491,7 +21495,7 @@ IL_004a:
 		}
 	}
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral896, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral901, /*hidden argument*/NULL);
 		SmartTextField_AcceptTextInput_m2536(__this, /*hidden argument*/NULL);
 	}
 
@@ -21517,8 +21521,8 @@ extern "C" void SmartTextField_AcceptTextInput_m2536 (SmartTextField_t608 * __th
 {
 	{
 		__this->___isAwaitingInput_11 = 0;
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral897, /*hidden argument*/NULL);
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral898, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral902, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral903, /*hidden argument*/NULL);
 		AcceptedTextDelegate_t248 * L_0 = (__this->___acceptedText_10);
 		if (!L_0)
 		{
@@ -21621,7 +21625,7 @@ extern "C" void SmartTextField_Hide_m2538 (SmartTextField_t608 * __this, const M
 		bool L_0 = 0;
 		Object_t * L_1 = Box(Boolean_t30_il2cpp_TypeInfo_var, &L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral844, L_1, /*hidden argument*/NULL);
+		DialogueLua_SetVariable_m3126(NULL /*static, unused*/, (String_t*) &_stringLiteral849, L_1, /*hidden argument*/NULL);
 		SmartContinueButton_t609 * L_2 = (__this->___continueButton_9);
 		NullCheck(L_2);
 		SmartContinueButton_OnFastForward_m2528(L_2, /*hidden argument*/NULL);
@@ -22349,7 +22353,7 @@ extern "C" void SmartTypeWriter_CheckInput_m2556 (SmartTypeWriter_t607 * __this,
 	Result_t641  V_1 = {0};
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_0 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral844, /*hidden argument*/NULL);
+		Result_t641  L_0 = DialogueLua_GetVariable_m3124(NULL /*static, unused*/, (String_t*) &_stringLiteral849, /*hidden argument*/NULL);
 		V_1 = L_0;
 		bool L_1 = Result_get_AsBool_m3140((&V_1), /*hidden argument*/NULL);
 		V_0 = L_1;
@@ -22363,7 +22367,7 @@ extern "C" void SmartTypeWriter_CheckInput_m2556 (SmartTypeWriter_t607 * __this,
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_t665_il2cpp_TypeInfo_var);
 		DialogueSystemController_t688 * L_3 = DialogueManager_get_Instance_m2967(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Component_SendMessage_m3013(L_3, (String_t*) &_stringLiteral899, /*hidden argument*/NULL);
+		Component_SendMessage_m3013(L_3, (String_t*) &_stringLiteral904, /*hidden argument*/NULL);
 	}
 
 IL_0028:
@@ -22393,7 +22397,7 @@ IL_0028:
 extern "C" void Watchers__ctor_m2557 (Watchers_t611 * __this, const MethodInfo* method)
 {
 	{
-		__this->___luaExpression_2 = (String_t*) &_stringLiteral900;
+		__this->___luaExpression_2 = (String_t*) &_stringLiteral905;
 		MonoBehaviour__ctor_m2585(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -22437,7 +22441,7 @@ extern "C" void Watchers_OnLuaValueChanged_m2559 (Watchers_t611 * __this, LuaWat
 		String_t* L_0 = (__this->___luaExpression_2);
 		String_t* L_1 = Result_get_AsString_m3093((&___newValue), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral901, L_0, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m98(NULL /*static, unused*/, (String_t*) &_stringLiteral906, L_0, L_1, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
@@ -22552,7 +22556,7 @@ extern "C" Task_1_t639 * UserService_Login_m2562 (UserService_t614 * __this, Str
 	Task_1_t639 * G_B2_0 = {0};
 	Task_1_t639 * G_B1_0 = {0};
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral902, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral907, /*hidden argument*/NULL);
 		String_t* L_0 = ___email;
 		String_t* L_1 = ___password;
 		IL2CPP_RUNTIME_CLASS_INIT(ParseUser_t803_il2cpp_TypeInfo_var);
@@ -22594,7 +22598,7 @@ extern "C" Task_t344 * UserService_Signup_m2563 (UserService_t614 * __this, Stri
 	ParseUser_t803 * V_0 = {0};
 	ParseUser_t803 * V_1 = {0};
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral903, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral908, /*hidden argument*/NULL);
 		ParseUser_t803 * L_0 = (ParseUser_t803 *)il2cpp_codegen_object_new (ParseUser_t803_il2cpp_TypeInfo_var);
 		ParseUser__ctor_m3742(L_0, /*hidden argument*/NULL);
 		V_1 = L_0;
@@ -22647,12 +22651,12 @@ extern "C" Task_t344 * UserService_Find_m2564 (UserService_t614 * __this, String
 	Task_1_t639 * G_B2_0 = {0};
 	Task_1_t639 * G_B1_0 = {0};
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral904, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral909, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(ParseUser_t803_il2cpp_TypeInfo_var);
 		ParseQuery_1_t806 * L_0 = ParseUser_get_Query_m3747(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_1 = ___email;
 		NullCheck(L_0);
-		ParseQuery_1_t806 * L_2 = ParseQuery_1_WhereEqualTo_m3748(L_0, (String_t*) &_stringLiteral862, L_1, /*hidden argument*/ParseQuery_1_WhereEqualTo_m3748_MethodInfo_var);
+		ParseQuery_1_t806 * L_2 = ParseQuery_1_WhereEqualTo_m3748(L_0, (String_t*) &_stringLiteral867, L_1, /*hidden argument*/ParseQuery_1_WhereEqualTo_m3748_MethodInfo_var);
 		V_0 = L_2;
 		ParseQuery_1_t806 * L_3 = V_0;
 		NullCheck(L_3);
@@ -22731,7 +22735,7 @@ extern "C" void UserService_U3CFindU3Em__3E_m2567 (Object_t * __this /* static, 
 	}
 	ParseUser_t803 * V_0 = {0};
 	{
-		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral905, /*hidden argument*/NULL);
+		Debug_Log_m90(NULL /*static, unused*/, (String_t*) &_stringLiteral910, /*hidden argument*/NULL);
 		Task_1_t639 * L_0 = ___t;
 		NullCheck(L_0);
 		ParseUser_t803 * L_1 = Task_1_get_Result_m3752(L_0, /*hidden argument*/Task_1_get_Result_m3752_MethodInfo_var);

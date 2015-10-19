@@ -307,7 +307,7 @@ extern "C" void SetAnimationOnDialogueEvent_DoAction_m6952 (SetAnimationOnDialog
 		ArrayElementTypeCheck (L_13, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1426, L_13, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1431, L_13, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 	}
 
@@ -348,7 +348,7 @@ IL_006c:
 		ArrayElementTypeCheck (L_22, L_24);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 2)) = (Object_t *)L_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1427, L_22, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1432, L_22, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 	}
 
@@ -613,7 +613,7 @@ extern "C" void SetAnimatorStateOnDialogueEvent_DoAction_m6958 (SetAnimatorState
 		ArrayElementTypeCheck (L_13, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1428, L_13, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1433, L_13, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 	}
 
@@ -654,7 +654,7 @@ IL_006c:
 		ArrayElementTypeCheck (L_22, L_24);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_22, 2)) = (Object_t *)L_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1429, L_22, /*hidden argument*/NULL);
+		String_t* L_25 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1434, L_22, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 	}
 
@@ -1131,7 +1131,7 @@ extern "C" void SetEnabledOnDialogueEvent_DoAction_m6970 (SetEnabledOnDialogueEv
 		ArrayElementTypeCheck (L_20, L_23);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_20, 3)) = (Object_t *)L_23;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_24 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1430, L_20, /*hidden argument*/NULL);
+		String_t* L_24 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1435, L_20, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
 	}
 
@@ -2205,7 +2205,7 @@ IL_0065:
 		ArrayElementTypeCheck (L_26, L_28);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_26, 3)) = (Object_t *)L_28;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_29 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1431, L_26, /*hidden argument*/NULL);
+		String_t* L_29 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1436, L_26, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
 	}
 
@@ -3456,7 +3456,7 @@ IL_0048:
 			ArrayElementTypeCheck (L_9, L_10);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_9, 1)) = (Object_t *)L_10;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1432, L_9, /*hidden argument*/NULL);
+			String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1437, L_9, /*hidden argument*/NULL);
 			Transform_t54 * L_12 = BarkStarter_GetBarker_m7051(__this, /*hidden argument*/NULL);
 			Debug_LogWarning_m3028(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
 		}
@@ -3509,7 +3509,7 @@ IL_0098:
 			ArrayElementTypeCheck (L_17, L_18);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_17, 1)) = (Object_t *)L_18;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1433, L_17, /*hidden argument*/NULL);
+			String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1438, L_17, /*hidden argument*/NULL);
 			Transform_t54 * L_20 = BarkStarter_GetBarker_m7051(__this, /*hidden argument*/NULL);
 			Debug_LogWarning_m3028(NULL /*static, unused*/, L_19, L_20, /*hidden argument*/NULL);
 		}
@@ -3727,7 +3727,7 @@ extern "C" void BarkStarter_PopulateCache_m7054 (BarkStarter_t1583 * __this, Tra
 		ArrayElementTypeCheck (L_6, L_7);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 2)) = (Object_t *)L_7;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral997, L_6, /*hidden argument*/NULL);
+		String_t* L_8 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1002, L_6, /*hidden argument*/NULL);
 		Transform_t54 * L_9 = ___speaker;
 		Debug_Log_m2780(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 	}
@@ -3787,7 +3787,7 @@ IL_0040:
 		ArrayElementTypeCheck (L_26, L_27);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_26, 3)) = (Object_t *)L_27;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1000, L_26, /*hidden argument*/NULL);
+		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1005, L_26, /*hidden argument*/NULL);
 		Transform_t54 * L_29 = ___speaker;
 		Debug_Log_m2780(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
 	}
@@ -3835,7 +3835,7 @@ IL_00af:
 		ArrayElementTypeCheck (L_38, L_39);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_38, 3)) = (Object_t *)L_39;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1434, L_38, /*hidden argument*/NULL);
+		String_t* L_40 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1439, L_38, /*hidden argument*/NULL);
 		Transform_t54 * L_41 = ___speaker;
 		Debug_Log_m2780(NULL /*static, unused*/, L_40, L_41, /*hidden argument*/NULL);
 	}
@@ -3994,7 +3994,7 @@ IL_0065:
 		ArrayElementTypeCheck (L_26, L_27);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_26, 3)) = (Object_t *)L_27;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1003, L_26, /*hidden argument*/NULL);
+		String_t* L_28 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1008, L_26, /*hidden argument*/NULL);
 		Transform_t54 * L_29 = ___speaker;
 		Debug_Log_m2780(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
 	}
@@ -4066,7 +4066,7 @@ IL_00b6:
 		ArrayElementTypeCheck (L_50, L_53);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_50, 3)) = (Object_t *)L_53;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_54 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1005, L_50, /*hidden argument*/NULL);
+		String_t* L_54 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1010, L_50, /*hidden argument*/NULL);
 		Transform_t54 * L_55 = ___speaker;
 		Debug_Log_m2780(NULL /*static, unused*/, L_54, L_55, /*hidden argument*/NULL);
 	}
@@ -4114,7 +4114,7 @@ extern "C" void BarkStarter_OnRecordPersistentData_m7056 (BarkStarter_t1583 * __
 		int32_t L_4 = L_3;
 		Object_t * L_5 = Box(Int32_t29_il2cpp_TypeInfo_var, &L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral1435, L_5, /*hidden argument*/NULL);
+		DialogueLua_SetActorField_m6336(NULL /*static, unused*/, L_1, (String_t*) &_stringLiteral1440, L_5, /*hidden argument*/NULL);
 	}
 
 IL_002b:
@@ -4144,7 +4144,7 @@ extern "C" void BarkStarter_OnApplyPersistentData_m7057 (BarkStarter_t1583 * __t
 		BarkHistory_t1358 * L_1 = (__this->___barkHistory_13);
 		String_t* L_2 = BarkStarter_GetBarkerName_m7052(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_t704_il2cpp_TypeInfo_var);
-		Result_t641  L_3 = DialogueLua_GetActorField_m6335(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1435, /*hidden argument*/NULL);
+		Result_t641  L_3 = DialogueLua_GetActorField_m6335(NULL /*static, unused*/, L_2, (String_t*) &_stringLiteral1440, /*hidden argument*/NULL);
 		V_0 = L_3;
 		int32_t L_4 = Result_get_AsInt_m3125((&V_0), /*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -5583,7 +5583,7 @@ IL_0048:
 			ArrayElementTypeCheck (L_9, L_10);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_9, 1)) = (Object_t *)L_10;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1436, L_9, /*hidden argument*/NULL);
+			String_t* L_11 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1441, L_9, /*hidden argument*/NULL);
 			Debug_LogError_m2987(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		}
 
@@ -5626,7 +5626,7 @@ IL_0087:
 			ArrayElementTypeCheck (L_15, L_16);
 			*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 1)) = (Object_t *)L_16;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1437, L_15, /*hidden argument*/NULL);
+			String_t* L_17 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1442, L_15, /*hidden argument*/NULL);
 			Debug_LogWarning_m2940(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 		}
 
@@ -5763,7 +5763,7 @@ IL_003c:
 		ArrayElementTypeCheck (L_13, L_14);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1)) = (Object_t *)L_14;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1438, L_13, /*hidden argument*/NULL);
+		String_t* L_15 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1443, L_13, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
 	}
 
@@ -6416,7 +6416,7 @@ IL_0051:
 		ArrayElementTypeCheck (L_13, L_15);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1)) = (Object_t *)L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1439, L_13, /*hidden argument*/NULL);
+		String_t* L_16 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1444, L_13, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 	}
 
@@ -7899,7 +7899,7 @@ extern "C" void QuestTrigger_Fire_m7175 (QuestTrigger_t1597 * __this, const Meth
 		ArrayElementTypeCheck (L_4, L_6);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 2)) = (Object_t *)L_6;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1440, L_4, /*hidden argument*/NULL);
+		String_t* L_7 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1445, L_4, /*hidden argument*/NULL);
 		Debug_Log_m90(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 	}
 
@@ -18941,7 +18941,7 @@ extern "C" void UnityBarkUI_Bark_m7424 (UnityBarkUI_t1640 * __this, Subtitle_t62
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1441, (String_t*) &_stringLiteral104, /*hidden argument*/NULL);
+		String_t* L_9 = String_Format_m2939(NULL /*static, unused*/, (String_t*) &_stringLiteral1446, (String_t*) &_stringLiteral104, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 	}
 
@@ -20116,7 +20116,7 @@ IL_001d:
 		ArrayElementTypeCheck (L_18, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_18, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1442, L_18, /*hidden argument*/NULL);
+		String_t* L_19 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1447, L_18, /*hidden argument*/NULL);
 		Debug_LogError_m2987(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 	}
 
@@ -20148,7 +20148,7 @@ IL_00b4:
 		ArrayElementTypeCheck (L_25, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_25, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_26 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1443, L_25, /*hidden argument*/NULL);
+		String_t* L_26 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1448, L_25, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 	}
 
@@ -20172,7 +20172,7 @@ IL_00f6:
 		ArrayElementTypeCheck (L_31, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_31, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_32 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1444, L_31, /*hidden argument*/NULL);
+		String_t* L_32 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1449, L_31, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
 	}
 
@@ -20196,7 +20196,7 @@ IL_012e:
 		ArrayElementTypeCheck (L_36, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_36, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_37 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1445, L_36, /*hidden argument*/NULL);
+		String_t* L_37 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1450, L_36, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
 	}
 
@@ -20218,7 +20218,7 @@ IL_0162:
 		ArrayElementTypeCheck (L_41, (String_t*) &_stringLiteral104);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_41, 0)) = (Object_t *)(String_t*) &_stringLiteral104;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_42 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1446, L_41, /*hidden argument*/NULL);
+		String_t* L_42 = String_Format_m113(NULL /*static, unused*/, (String_t*) &_stringLiteral1451, L_41, /*hidden argument*/NULL);
 		Debug_LogWarning_m2940(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
 	}
 
@@ -20272,7 +20272,7 @@ IL_0031:
 	{
 		GUIButton_t1522 * L_8 = ___continueButton;
 		NullCheck(L_8);
-		L_8->___message_36 = (String_t*) &_stringLiteral1447;
+		L_8->___message_36 = (String_t*) &_stringLiteral1452;
 	}
 
 IL_003c:
@@ -20610,7 +20610,7 @@ extern "C" bool UnityTextFieldUI_IsAcceptKey_m7460 (UnityTextFieldUI_t1646 * __t
 	}
 	{
 		Event_t590 * L_2 = Event_get_current_m3288(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Event_t590 * L_3 = Event_KeyboardEvent_m7896(NULL /*static, unused*/, (String_t*) &_stringLiteral1448, /*hidden argument*/NULL);
+		Event_t590 * L_3 = Event_KeyboardEvent_m7896(NULL /*static, unused*/, (String_t*) &_stringLiteral1453, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		bool L_4 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean UnityEngine.Event::Equals(System.Object) */, L_2, L_3);
 		if (L_4)
@@ -20620,7 +20620,7 @@ extern "C" bool UnityTextFieldUI_IsAcceptKey_m7460 (UnityTextFieldUI_t1646 * __t
 	}
 	{
 		Event_t590 * L_5 = Event_get_current_m3288(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Event_t590 * L_6 = Event_KeyboardEvent_m7896(NULL /*static, unused*/, (String_t*) &_stringLiteral1449, /*hidden argument*/NULL);
+		Event_t590 * L_6 = Event_KeyboardEvent_m7896(NULL /*static, unused*/, (String_t*) &_stringLiteral1454, /*hidden argument*/NULL);
 		NullCheck(L_5);
 		bool L_7 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean UnityEngine.Event::Equals(System.Object) */, L_5, L_6);
 		if (L_7)
