@@ -42,7 +42,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			
 			state = State.Loading;
 
-			ParseUser.LogInAsync(email,password).ContinueWith(t => {
+			Player.LogInAsync(email,password).ContinueWith(t => {
 				if (t.IsFaulted) {
 					Debug.Log ("User Login Error!"); 
 					state = State.Error;

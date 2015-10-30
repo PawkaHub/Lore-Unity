@@ -28,7 +28,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands {
 			
 			Debug.Log ("LogoutUser");
 
-			ParseUser.LogOut();
+			Player.LogOut();
 			Stop ();
 
 		}

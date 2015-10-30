@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
-using Parse;
 using System.Collections;
+using Parse;
 
 public class CheckUser : MonoBehaviour {
 
 	public void Start()
 	{
-		if (ParseUser.CurrentUser != null)
+		if (Player.CurrentUser != null)
 		{
 			//If the currentUser is already logged in, bypass login screen and fade them right to the title screen
 			Debug.Log("CurrentUser logged in!");
